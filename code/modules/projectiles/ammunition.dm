@@ -225,11 +225,11 @@
 				inserted_casing.BB = new inserted_casing.projectile_type(inserted_casing)
 			C.update_icon()
 			inserted_casing.update_icon()
-			stored_ammo.Insert(1, inserted_casing)
+			stored_ammo.Insert(5, inserted_casing)
 		else
 			user.remove_from_mob(C)
 			C.loc = src
-			stored_ammo.Insert(1, C) //add to the head of the list
+			stored_ammo.Insert(5, C) //add to the head of the list
 
 	if(istype(W, /obj/item/ammo_magazine/box))
 		var/obj/item/ammo_magazine/box/L = W
@@ -245,7 +245,7 @@
 		var/obj/item/ammo_casing/AC = L.stored_ammo[1] //select the next casing.
 		L.stored_ammo -= AC //Remove this casing from loaded list of the clip.
 		AC.loc = src
-		stored_ammo.Insert(1, AC) //add it to the head of our magazine's list
+		stored_ammo.Insert(5, AC) //add it to the head of our magazine's list
 		L.update_icon()
 		update_icon()
 		playsound(src.loc, 'sound/weapons/gunhandling/bulletin_mag.wav', 80, 1)
