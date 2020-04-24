@@ -1,0 +1,190 @@
+# FIRETEAM_NAME:FIRETEAM_FACTION
+# TYPE_OF_JOB, TYPE_OF_JOB, ETC...
+# Faction Tags: bund, cccp, csla, usmc
+# Example:
+# Motostrelki:cccp
+# /datum/job/escalation/cccp/rifleman
+# /datum/job/escalation/cccp/marksman
+# /datum/job/escalation/cccp/grenadier
+# @END@
+
+# WARPAC
+
+Otdelenie 'Anna':cccp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/samgas
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+@END@
+
+Otdelenie 'Boris':cccp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/samgas
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+@END@
+
+Otdelenie 'Vasiliy':cccp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/samgas
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+@END@
+
+OTV-1:cccp
+/datum/job/escalation/cccp/saotvco
+/datum/job/escalation/cccp/saotvop
+/datum/job/escalation/cccp/saotvload
+@END@
+
+OTV-2:cccp
+/datum/job/escalation/cccp/saotvco
+/datum/job/escalation/cccp/saotvop
+/datum/job/escalation/cccp/saotvload
+@END@
+
+
+# NATO
+
+Squad Alpha:usmc
+/datum/job/escalation/usmc/usmcsl
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmga
+/datum/job/escalation/usmc/usmcftmga
+@END@
+
+Squad Bravo:usmc
+/datum/job/escalation/usmc/usmcsl
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmga
+/datum/job/escalation/usmc/usmcftmga
+@END@
+
+Squad Charlie:usmc
+/datum/job/escalation/usmc/usmcsl
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmga
+/datum/job/escalation/usmc/usmcftmga
+@END@
+
+HWS-1:usmc
+/datum/job/escalation/usmc/usmcmgcom
+/datum/job/escalation/usmc/usmcmgload
+/datum/job/escalation/usmc/usmcmgop
+@END@
+
+HWS-2:usmc
+/datum/job/escalation/usmc/usmcmgcom
+/datum/job/escalation/usmc/usmcmgload
+/datum/job/escalation/usmc/usmcmgop
+@END@
+
+Gruppe Delta:bund
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+@END@
+
+Gruppe Echo:bund
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+@END@
+
+Gruppe Foxtrot:bund
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+@END@
+
+Schwere Waffen Gruppe:bund
+/datum/job/escalation/bund/mgcom
+/datum/job/escalation/bund/mgload
+/datum/job/escalation/bund/mgop
+@END@
+
+
+Gruppe 'Grigoriy':nvaddr
+/datum/job/escalation/nvaddr/nvasl
+/datum/job/escalation/nvaddr/nvasld
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamgas
+/datum/job/escalation/nvaddr/nvasrad
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+@END@
+
+Gruppe 'Dmitriy':nvaddr
+/datum/job/escalation/nvaddr/nvasl
+/datum/job/escalation/nvaddr/nvasld
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamgas
+/datum/job/escalation/nvaddr/nvasrad
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+@END@
+
+3.Gruppe 'Elena':nvaddr
+/datum/job/escalation/nvaddr/nvasl
+/datum/job/escalation/nvaddr/nvasld
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamgas
+/datum/job/escalation/nvaddr/nvasrad
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+@END@
+
