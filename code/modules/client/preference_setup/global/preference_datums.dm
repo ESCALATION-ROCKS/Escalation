@@ -74,6 +74,16 @@ var/list/_client_preferences_by_type
 		sound_to(preference_mob, sound(null, repeat = 0, wait = 0, volume = 0, channel = 1))
 		sound_to(preference_mob, sound(null, repeat = 0, wait = 0, volume = 0, channel = 2))
 
+/datum/client_preference/show_maptext
+	description ="Maptext"
+	key = "SHOW_ITEMS"
+
+/datum/client_preference/show_item_names/toggled(var/mob/preference_mob, var/enabled)
+	if(ishuman(preference_mob))
+		var/mob/living/carbon/human/H = preference_mob
+		if(!enabled)
+			H.hovertext.maptext = ""
+
 /datum/client_preference/ghost_ears
 	description ="Ghost ears"
 	key = "CHAT_GHOSTEARS"

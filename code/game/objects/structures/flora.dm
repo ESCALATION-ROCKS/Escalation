@@ -769,7 +769,7 @@
 	alpha = 150
 
 /obj/structure/flora/summer/log1
-	name = "log
+	name = "wooden log"
 	icon = 'icons/obj/flora/miscflora48.dmi'
 	icon_state = "brevno1"
 	density = 0

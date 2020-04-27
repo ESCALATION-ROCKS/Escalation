@@ -549,3 +549,20 @@ its easier to just keep the beam vertical.
 		do_climb(target)
 	else
 		return ..()
+
+/atom/proc/get_color()
+	return color
+
+/obj/screen/text/atm
+
+/client/MouseEntered(var/atom/a)
+	if(mob && ishuman(mob))
+		var/mob/living/carbon/human/H = mob
+		if(a.mouse_opacity)  // i spread this out to make it more "readable"
+			H.hovertext.maptext = "<center><span style=\"\
+			color: #2aa897; \
+			font-family: 'Arial Black', Gadget, sans-serif; \
+			\">[uppertext(a.name)]\
+			</span></center>"
+		else
+			H.hovertext.maptext = ""  // ui is blank, sad!
