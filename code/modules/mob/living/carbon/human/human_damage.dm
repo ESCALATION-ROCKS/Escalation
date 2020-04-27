@@ -6,7 +6,7 @@
 		set_stat(CONSCIOUS)
 		return
 
-	health = maxHealth - getBrainLoss()
+	health = maxHealth - getBrainLoss() - (getBruteLoss() + getFireLoss() + getToxLoss() + getOxyLoss()) // thank you brainmed
 
 	//TODO: fix husking
 	if(((maxHealth - getFireLoss()) < config.health_threshold_dead) && stat == DEAD)
