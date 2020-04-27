@@ -553,6 +553,7 @@ datum/controller/vote/proc/is_addantag_allowed(var/automatic)
 /mob/verb/vote()
 	set category = "OOC"
 	set name = "Vote"
+	set hidden = 1
 
 	if(vote)
 		src << browse(vote.interface(client),"window=vote")
