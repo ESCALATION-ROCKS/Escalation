@@ -89,6 +89,7 @@
 
 	overlays += overlays_to_add
 
+	queue_ao(FALSE)
 	if(update_neighbors)
 
 		for(var/check_dir in GLOB.alldirs)
