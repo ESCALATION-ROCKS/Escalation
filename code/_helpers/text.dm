@@ -234,6 +234,12 @@
 /proc/capitalize(var/t as text)
 	return uppertext(copytext(t, 1, 2)) + copytext(t, 2)
 
+//Bolds "shouted" messages.
+/proc/add_shout_append(text)
+	if (copytext(text,-1) == "!")
+		text = "<b>[text]</b>"
+	return text
+
 //This proc strips html properly, remove < > and all text between
 //for complete text sanitizing should be used sanitize()
 /proc/strip_html_properly(var/input)
