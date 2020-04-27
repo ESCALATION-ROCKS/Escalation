@@ -239,10 +239,11 @@ mob/new_player/proc/StatRand()
 	if(href_list["set_team_job"])
 		if(spawning)
 			return
-
+			
 		var/datum/army_faction/team = get_army(team_view)
 
 		var/slot_index = text2num(href_list["set_team_job"])
+		
 
 		if(team && istype(team.slots[slot_index], /mob/new_player))
 			alert("Someone has already picked that job. Too slow!")
@@ -374,6 +375,13 @@ mob/new_player/proc/StatRand()
 		client.prefs.ShowChoices(src)
 
 	if(href_list["game_setup"])
+		if(!check_rights(R_ADMIN))
+			log_admin("[src] Tried accessing the game-start menu without permission")
+			message_admins("[src] Tried accessing the game-start menu without permission", 1)
+			return 
+		else
+			log_admin("[src] Is accessing the game start menu.")
+			message_admins("[src] is attempting to access the game start menu.", 1)
 		if(!(initialization_stage&INITIALIZATION_COMPLETE))
 			to_chat(src, "<span class='warning'>Wait for server initialization to complete.</span>")
 			return
@@ -381,7 +389,7 @@ mob/new_player/proc/StatRand()
 			if(ticker.current_state == GAME_STATE_PLAYING)
 				to_chat(src,"<span class='warning'>The round has started already, use verbs instead to change things.</span>")
 				return
-			if(!client.holder) //Shouldn't be possible, but better safe than sorry
+			if(!client.holder) //Shouldn't be possible, but better safe than sorry - this didnt work well but is kept for redundancy sake.
 				return
 			client.holder.show_game_mode()
 
