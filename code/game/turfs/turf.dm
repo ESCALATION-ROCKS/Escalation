@@ -201,18 +201,6 @@ var/const/enterloopsanity = 100
 			var/mob/living/L = M
 			L.handle_footstep(src)
 
-	var/objects = 0
-	if(A && (A.flags & PROXMOVE))
-		for(var/atom/movable/thing in range(1))
-			if(objects > enterloopsanity) break
-			objects++
-			spawn(0)
-				if(A)
-					A.HasProximity(thing, 1)
-					if ((thing && A) && (thing.flags & PROXMOVE))
-						thing.HasProximity(A, 1)
-	return
-
 /turf/proc/adjacent_fire_act(turf/simulated/floor/source, temperature, volume)
 	return
 

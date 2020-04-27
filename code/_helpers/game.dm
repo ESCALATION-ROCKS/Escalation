@@ -9,6 +9,12 @@
 	src:Topic(href, href_list)
 	return null
 
+#define RANGE_TURFS(RADIUS, CENTER) \
+  block( \
+    locate(max(CENTER.x-(RADIUS),1),          max(CENTER.y-(RADIUS),1),          CENTER.z), \
+    locate(min(CENTER.x+(RADIUS),world.maxx), min(CENTER.y+(RADIUS),world.maxy), CENTER.z) \
+  )
+
 /proc/get_carginal_dir(atom/start, atom/finish)
 	var/dx = finish.x - start.x
 	var/dy = finish.y - start.y
