@@ -186,7 +186,7 @@ proc/n_reverse(var/string)
 	if(istext(string))
 		var/newstring = ""
 		var/i
-		for(i=lentext(string), i>0, i--)
+		for(i=length(string), i>0, i--)
 			if(i>=1000)
 				break
 			newstring = newstring + copytext(string, i, i+1)
@@ -250,8 +250,8 @@ proc/n_inrange(var/num, var/min=-1, var/max=1)
 /proc/string_replacetext(var/haystack,var/a,var/b)
 	if(istext(haystack)&&istext(a)&&istext(b))
 		var/i = 1
-		var/lenh=lentext(haystack)
-		var/lena=lentext(a)
+		var/lenh=length(haystack)
+		var/lena=length(a)
 		//var/lenb=lentext(b)
 		var/count = 0
 		var/list/dat = list()
