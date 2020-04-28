@@ -64,37 +64,37 @@ OTV-2:cccp
 Squad Alpha:usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmga
+/datum/job/escalation/usmc/usmcftmga
 @END@
 
 Squad Bravo:usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmga
+/datum/job/escalation/usmc/usmcftmga
 @END@
 
 Squad Charlie:usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftmga
+/datum/job/escalation/usmc/usmcftmga
 @END@
 
 HWS-1:usmc

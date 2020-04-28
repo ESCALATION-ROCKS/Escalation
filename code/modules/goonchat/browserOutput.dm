@@ -234,7 +234,7 @@ GLOBAL_DATUM_INIT(iconCache, /savefile, new("tmp/iconCache.sav")) //Cache of ico
 	//not even hacks with reassigning usr work
 	var/regex/i = new(@/<IMG CLASS=icon SRC=(\[[^]]+])(?: ICONSTATE='([^']+)')?>/, "g")
 	while(i.Find(message))
-		message = copytext(message,1,i.index)+copytext(message,i.next)
+		message = copytext(message,1,i.index)+icon2html(locate(i.group[1]), target, icon_state=i.group[2])+copytext(message,i.next)
 	/*
 	message = \
 		symbols_to_unicode(
@@ -296,7 +296,7 @@ GLOBAL_DATUM_INIT(iconCache, /savefile, new("tmp/iconCache.sav")) //Cache of ico
 	owner.force_dark_theme()
 
 /proc/to_chat(target, message, handle_whitespace = TRUE)
-	if(Master.current_runlevel == RUNLEVEL_INIT) //removed arg from here
+	if(Master.current_runlevel == RUNLEVEL_INIT)
 		to_chat_immediate(target, message, handle_whitespace)
 		return
 	SSchat.queue(target, message, handle_whitespace)
