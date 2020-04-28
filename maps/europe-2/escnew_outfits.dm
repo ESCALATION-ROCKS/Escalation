@@ -307,6 +307,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	id_type = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	r_pocket = null

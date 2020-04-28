@@ -377,7 +377,6 @@ client/verb/character_setup()
 	if(world.byond_version >= 511 && byond_version >= 511 && client_fps >= CLIENT_MIN_FPS && client_fps <= CLIENT_MAX_FPS)
 		vars["fps"] = prefs.clientfps
 
-/*
 /client/proc/toggle_fullscreen() //it's that fuckin easy.
 	set name = "Toggle Fullscreen"
 	set category = "OOC"
@@ -398,8 +397,7 @@ client/verb/character_setup()
 		winset(usr, "mainwindow", "can-resize=true")
 		winset(usr, "mainwindow", "menu=menu")
 	fit_viewport()
-*/
-
+  
 /client/proc/toggle_fullscreen(new_value)
 	if(new_value == TRUE)
 		winset(src, "mainwindow", "is-maximized=false;can-resize=false;statusbar=false;titlebar=false;menu=")
@@ -410,18 +408,9 @@ client/verb/character_setup()
 	winset(src, "mainwindow", "is-maximized=true")
 	fit_viewport()
 
-/proc/getviewsize(view)
-	var/viewX
-	var/viewY
-	if(isnum(view))
-		var/totalviewrange = 1 + 2 * view
-		viewX = totalviewrange
-		viewY = totalviewrange
-	else
-		var/list/viewrangelist = splittext(view,"x")
-		viewX = text2num(viewrangelist[1])
-		viewY = text2num(viewrangelist[2])
-	return list(viewX, viewY)
+/client/verb/fullscreen_hotkey()//For the love of god
+	set name = "Toggle Fullscreen"
+	toggle_fullscreen()
 
 /client/verb/fit_viewport()
 	set name = "Fit Viewport"

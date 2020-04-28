@@ -597,6 +597,9 @@ macro "hotkeymode"
 	elem 
 		name = "F2"
 		command = "ooc"
+	elem
+		name = "O"
+		command = "ooc"
 	elem 
 		name = "F2+REP"
 		command = ".screenshot auto"

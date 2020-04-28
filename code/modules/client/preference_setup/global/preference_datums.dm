@@ -172,6 +172,18 @@ var/list/_client_preferences_by_type
 	enabled_description = "Fancy"
 	disabled_description = "Plain"
 
+/*
+/datum/client_preference/fullscreen_mode
+	description ="Fullscreen Mode"
+	key = "FULLSCREENMODE"
+	enabled_description = "Enabled"
+	disabled_description = "Disabled"
+
+/datum/client_preference/fullscreen_mode/toggled(mob/preference_mob, new_value)
+	if(preference_mob.client)
+		preference_mob.client.toggle_fullscreen()
+*/
+
 /********************
 * Admin Preferences *
 ********************/
