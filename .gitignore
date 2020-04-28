@@ -19,3 +19,7 @@ __pycache__
 # ignore config, but not subdirs
 #config/*
 #!config/*/
+config/admins.txt
+config/whitelist_escalation.txt
+config/fireteams.txt
+config/motd.txt

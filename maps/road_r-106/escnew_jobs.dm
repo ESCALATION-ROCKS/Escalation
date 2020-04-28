@@ -25,7 +25,7 @@
 						/datum/job/escalation/bdw/bdwsld,
 						/datum/job/escalation/bdw/bdwsm,
 						/datum/job/escalation/bdw/bdwmg,
-						/datum/job/escalation/nvaddr/bdwmgas
+						/datum/job/escalation/nvaddr/bdwmgas,
 						/datum/job/escalation/bdw/rifle,
 						/datum/job/escalation/nva/platlead,
 						/datum/job/escalation/nva/platleaddep,
