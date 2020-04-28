@@ -3,7 +3,7 @@ SUBSYSTEM_DEF(chat)
 	flags = SS_TICKER
 	wait = 1
 	priority = SS_PRIORITY_CHAT
-	init_order = SS_INIT_CHAT
+	init_order = SS_PRIORITY_AO //haha init this asap
 	var/list/payload = list()
 
 /datum/controller/subsystem/chat/fire()
