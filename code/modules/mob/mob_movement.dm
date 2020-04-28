@@ -85,6 +85,10 @@
 	if(istype(mob,/mob/living/silicon/robot))
 		var/mob/living/silicon/robot/R = mob
 		R.cycle_modules()
+	for(var/obj/item/item in mob.contents) //unzoom them if they try swapping hands
+		if(item.zoom)
+			item.zoom(mob)
+			break
 	return
 
 
