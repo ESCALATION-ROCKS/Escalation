@@ -620,9 +620,9 @@ var/world_topic_spam_protect_time = world.timeofday
 	var/s = ""
 
 	if (config && config.server_name)
-		s += "<b>[config.server_name] - (EN/RU)</b> &#8212; "
+		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>[station_name()]</b>";
+	s += "<b>Escalation: 1984 (EN/RU)</b>";
 	s += " ("
 	s += "<a href=\"https://discord.gg/Qy6nh7F\">" //Change this to wherever you want the hub to link to.
 //	s += "[game_version]"
@@ -661,7 +661,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 
 	if (config && config.hostedby)
-		features += "hosted by <b>[config.hostedby]</b>"
+		features += "hosted by <b>Dawnie</b>"
 
 	if (features)
 		s += ": [jointext(features, ", ")]"
