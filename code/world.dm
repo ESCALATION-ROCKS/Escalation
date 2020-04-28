@@ -1,6 +1,6 @@
 #define WORLD_ICON_SIZE 32
 
-/var/server_name = "Europe 1984"
+/var/server_name = "Escalation: 1984"
 
 /var/game_id = null
 /hook/global_init/proc/generate_gameid()
@@ -620,7 +620,7 @@ var/world_topic_spam_protect_time = world.timeofday
 	var/s = ""
 
 	if (config && config.server_name)
-		s += "<b>[config.server_name]</b> &#8212; "
+		s += "<b>[config.server_name] - (EN/RU)</b> &#8212; "
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
