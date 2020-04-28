@@ -617,7 +617,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"http://\">" //Change this to wherever you want the hub to link to.
+	s += "<a href=\"https://discord.gg/Qy6nh7F">" //Change this to wherever you want the hub to link to.
 //	s += "[game_version]"
 	s += "Default"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
@@ -630,7 +630,7 @@ var/world_topic_spam_protect_time = world.timeofday
 			features += master_mode
 	else
 		features += "<b>STARTING</b>"
-
+/*
 	if (!config.enter_allowed)
 		features += "closed"
 
@@ -641,7 +641,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	if (config && config.allow_ai)
 		features += "AI allowed"
-
+*/
 	var/n = 0
 	for (var/mob/M in GLOB.player_list)
 		if (M.client)
