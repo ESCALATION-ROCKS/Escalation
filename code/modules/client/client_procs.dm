@@ -397,16 +397,6 @@ client/verb/character_setup()
 		winset(usr, "mainwindow", "can-resize=true")
 		winset(usr, "mainwindow", "menu=menu")
 	fit_viewport()
-  
-/client/proc/toggle_fullscreen(new_value)
-	if(new_value == TRUE)
-		winset(src, "mainwindow", "is-maximized=false;can-resize=false;statusbar=false;titlebar=false;menu=")
-		winset(src, "mainwindow.mainvsplit", "pos=0x0")
-	else
-		winset(src, "mainwindow", "is-maximized=false;can-resize=true;titlebar=true;statusbar=true;menu=menu")
-		winset(src, "mainwindow.mainvsplit", "pos=3x0")
-	winset(src, "mainwindow", "is-maximized=true")
-	fit_viewport()
 
 /client/verb/fullscreen_hotkey()//For the love of god
 	set name = "Toggle Fullscreen"
