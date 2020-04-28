@@ -300,7 +300,7 @@
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
-/datum/job/escalation/usmc/usmcgrenadier
+/datum/job/escalation/usmc/usmcftg
 	title = "USMC Fireteam Grenadier"
 	name = "Fireteam Grenadier"
 	english_name = null
