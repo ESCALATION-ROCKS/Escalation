@@ -78,7 +78,8 @@
 
 		ticket.close(client_repository.get_lite_client(usr.client))
 
-
+	if(href_list["_src_"] == "chat") // Oh god the ping hrefs.
+		return chatOutput.Topic(href, href_list)
 
 	//Logs all hrefs
 	if(config && config.log_hrefs && href_logfile)
@@ -89,7 +90,11 @@
 		if("usr")		hsrc = mob
 		if("prefs")		return prefs.process_link(usr,href_list)
 		if("vars")		return view_var_Topic(href,href_list,hsrc)
+		if("chat")		return chatOutput.Topic(href, href_list)
 
+	switch(href_list["action"])
+		if ("openLink")
+			src << link(href_list["link"])
 	..()	//redirect to hsrc.Topic()
 
 //This stops files larger than UPLOAD_LIMIT being sent from client to server via input(), client.Import() etc.
@@ -111,7 +116,9 @@
 	//CONNECT//
 	///////////
 /client/New(TopicData)
-	TopicData = null							//Prevent calls to client.Topic from connect
+	TopicData = null
+							//Prevent calls to client.Topic from connect
+	chatOutput = new /datum/chatOutput(src) // Right off the bat.
 
 	if(!(connection in list("seeker", "web")))					//Invalid connection type.
 		return null
@@ -145,12 +152,12 @@
 	prefs = preferences_datums[ckey]
 	if(!prefs)
 		prefs = new /datum/preferences(src)
-		preferences_datums[ckey] = prefs
 	prefs.last_ip = address				//these are gonna be used for banning
 	prefs.last_id = computer_id			//these are gonna be used for banning
 	apply_fps(prefs.clientfps)
 
 	. = ..()	//calls mob.Login()
+	chatOutput.start()
 	prefs.sanitize_preferences()
 
 	GLOB.using_map.map_info(src)
@@ -179,7 +186,7 @@
 	send_resources()
 
 	if(prefs.lastchangelog != changelog_hash) //bolds the changelog button on the interface so we know there are updates.
-//		to_chat(src, "<span class='info'>You have unread updates in the changelog.</span>")
+		to_chat(src, "<span class='info'>You have unread updates in the changelog.</span>")
 		winset(src, "rpane.changelog", "background-color=#eaeaea;font-style=bold")
 		if(config.aggressive_changelog)
 			src.changes()
@@ -228,6 +235,7 @@
 		return text2num(query.item[1])
 	else
 		return -1
+
 
 
 /client/proc/log_client_to_db()
@@ -341,6 +349,7 @@
 		'html/images/ntlogo.png',
 		'html/images/bluentlogo.png',
 		'html/images/sollogo.png',
+		'html/images/terralogo.png',
 		'html/images/talisman.png'
 		)
 
@@ -371,7 +380,9 @@ client/verb/character_setup()
 /client/proc/toggle_fullscreen() //it's that fuckin easy.
 	set name = "Toggle Fullscreen"
 	set category = "OOC"
+
 	fullscreen = !fullscreen
+
 	if (fullscreen)
 		winset(usr, "mainwindow", "titlebar=false")
 		winset(usr, "mainwindow", "can-resize=false")
@@ -386,20 +397,6 @@ client/verb/character_setup()
 		winset(usr, "mainwindow", "can-resize=true")
 		winset(usr, "mainwindow", "menu=menu")
 	fit_viewport()
-
-// Putting an old version in here in case the codebase is too old.
-
-/*
-/client/proc/toggle_fullscreen(new_value)
-	if(new_value == TRUE)
-		winset(src, "mainwindow", "is-maximized=false;can-resize=false;statusbar=false;titlebar=false;menu=")
-		winset(src, "mainwindow.mainvsplit", "pos=0x0")
-	else
-		winset(src, "mainwindow", "is-maximized=false;can-resize=true;titlebar=true;statusbar=true;menu=menu")
-		winset(src, "mainwindow.mainvsplit", "pos=3x0")
-	winset(src, "mainwindow", "is-maximized=true")
-	fit_viewport()
-*/
 
 /client/verb/fullscreen_hotkey()//For the love of god
 	set name = "Toggle Fullscreen"
