@@ -256,9 +256,10 @@
 			_state = "[base_state]_broken"
 			on = 0
 
-	var/image.I = image(icon, src, _state)
-	I.color = lightbulb.brightness_color
-	overlays += I
+	if(istype(lightbulb, /obj/item/weapon/light/))
+		var/image/I = image(icon, src, _state)
+		I.color = lightbulb.brightness_color
+		overlays += I
 
 	if(on)
 		use_power = 2

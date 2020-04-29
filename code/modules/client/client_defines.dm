@@ -22,6 +22,7 @@
 
 	var/staffwarn = null
 	var/datum/chatOutput/chatOutput
+	//mouse_pointer_icon = file('icons/misc/pointer_cursor.dmi') //Make a cursor icon
 
 		///////////////
 		//SOUND STUFF//
