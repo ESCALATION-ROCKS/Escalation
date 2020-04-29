@@ -137,7 +137,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Snaiper")
 	uniform = /obj/item/clothing/under/soviet/habe/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/svd
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	r_pocket = null
@@ -307,7 +307,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	id_type = /obj/item/weapon/storage/belt/holster/sheath/ddrm
-	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	r_pocket = null
