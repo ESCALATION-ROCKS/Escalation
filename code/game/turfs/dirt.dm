@@ -34,7 +34,7 @@ var/list/turf_edge_cache = list()
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "dirt"
 	blend_with_neighbors = 3
-	permit_ao = 1
+	permit_ao = 0
 	movement_delay = 2
 	outdoors = 1
 	footstep_sounds = list("human" = list(
