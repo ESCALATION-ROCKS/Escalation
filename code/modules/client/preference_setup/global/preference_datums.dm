@@ -175,6 +175,8 @@ var/list/_client_preferences_by_type
 /datum/client_preference/fullscreen_mode
 	description ="Fullscreen Mode"
 	key = "FULLSCREEN"
+	enabled_description = "Disabled"
+	disabled_description = "Enabled"
 
 /datum/client_preference/fullscreen_mode/toggled(mob/preference_mob, enabled)
 	if(preference_mob.client)
