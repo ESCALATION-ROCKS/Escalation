@@ -469,7 +469,7 @@
 		list(mode_name="automatic",     burst=1, fire_delay=0.5, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.5, 0.8),                  automatic = 0.5),
 		)
 
-/obj/item/weapon/gun/projectile/automatic/rpk/update_icon()
+/obj/item/weapon/gun/projectile/automatic/nvarpk/update_icon()
 	..()
 	if(ammo_magazine)
 		icon_state = "nvarpk"
