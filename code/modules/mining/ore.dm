@@ -79,6 +79,9 @@
 			)
 			to_chat(user, "\red There is no more space.")
 			return 0
+		if(istype(src, /turf/unsimulated/floor/river/deep || /turf/unsimulated/floor/river))
+			to_chat(user, "\red You can't dig brustwehrs on water.")
+			return 0
 		C.working = 1
 		playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
 		to_chat(user, "You begin to dig a brustwehr.")
