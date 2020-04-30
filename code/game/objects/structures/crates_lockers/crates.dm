@@ -7,6 +7,7 @@ obj/structure/closet/crate
 	icon_closed = "crate"
 	flags = OBJ_CLIMBABLE
 	plane = ABOVE_OBJ_PLANE
+	layer = BASE_ABOVE_OBJ_LAYER
 	setup = 0
 
 	storage_types = CLOSET_STORAGE_ITEMS
