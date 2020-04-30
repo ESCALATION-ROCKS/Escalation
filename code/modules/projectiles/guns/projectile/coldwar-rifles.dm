@@ -129,8 +129,10 @@
 
 	if(ammo_magazine)
 		icon_state = "ak74"
+		wielded_item_state = "ak74-wielded"
 	else
 		icon_state = "ak74-empty"
+		wielded_item_state = "ak74-wielded-empty"
 	update_held_icon()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74/black
@@ -209,8 +211,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "ak74gl"
+		wielded_item_state = "ak74gl-wielded"
 	else
 		icon_state = "ak74gl-empty"
+		wielded_item_state = "ak74gl-wielded-empty"
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/verb/set_gp()
@@ -259,8 +263,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "aks74"
+		wielded_item_state = "aks-wielded"
 	else
 		icon_state = "aks74-empty"
+		wielded_item_state = "aks-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a2 //DO NOT USE FOR NOW
 	name = "M16A2"
@@ -298,8 +304,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "m16a2"
+		wielded_item_state = "m16-wielded"
 	else
 		icon_state = "m16a2-empty"
+		wielded_item_state = "m16-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m14 //do not use
 	name = "M14"
@@ -339,8 +347,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "m14"
+		wielded_item_state = "m14-wielded"
 	else
 		icon_state = "m14-empty"
+		wielded_item_state = "m14-wielded-empty"
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
@@ -380,8 +390,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "m16a1"
+		wielded_item_state = "m16-wielded"
 	else
 		icon_state = "m16a1-empty"
+		wielded_item_state = "m16-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
 	name = "M16A1"
@@ -448,8 +460,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "m16a1gl"
+		wielded_item_state = "m16gl-wielded"
 	else
 		icon_state = "m16a1gl-empty"
+		wielded_item_state = "m16gl-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl/verb/set_gp()
 	set name = "Grenade Launcher"
@@ -498,8 +512,10 @@
 	..()
 	if(ammo_magazine)
 		icon_state = "g3a3"
+		wielded_item_state = "g3a3-wielded"
 	else
 		icon_state = "g3a3-empty"
+		wielded_item_state = "g3a3-wielded-empty"
 	update_held_icon()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3a3/old
@@ -580,8 +596,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "g3tgs"
+		wielded_item_state = "g3tgs-wielded"
 	else
 		icon_state = "g3tgs-empty"
+		wielded_item_state = "g3tgs-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs/verb/set_gp()
 	set name = "Grenade Launcher"
@@ -757,8 +775,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "mpikms"
+		wielded_item_state = "mpi-wielded"
 	else
 		icon_state = "mpikms-empty"
+		wielded_item_state = "mpi-wielded-empty"
 
 	src.toggle_scope(usr, 0.9)
 
@@ -798,8 +818,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "mpikm"
+		wielded_item_state = "mpi-wielded"
 	else
 		icon_state = "mpikm-empty"
+		wielded_item_state = "mpi-wielded-empty"
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl
@@ -840,8 +862,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "mpikmgp"
+		wielded_item_state = "mpi-wielded"
 	else
 		icon_state = "mpikmgp-empty"
+		wielded_item_state = "mpi-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/New()
 	..()
@@ -918,8 +942,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "mpik74"
+		wielded_item_state = "mpik74-wielded"
 	else
 		icon_state = "mpik74-empty"
+		wielded_item_state = "mpik74-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	name = "MPi-AKS-74N"
@@ -957,5 +983,7 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "mpik74s"
+		wielded_item_state = "aks-wielded"
 	else
 		icon_state = "mpik74s-empty"
+		wielded_item_state = "aks-wielded-empty"

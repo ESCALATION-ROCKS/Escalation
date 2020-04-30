@@ -473,8 +473,10 @@
 	..()
 	if(ammo_magazine)
 		icon_state = "nvarpk"
+		wielded_item_state = "nvarpk-wielded"
 	else
 		icon_state = "nvarpk-empty"
+		wielded_item_state = "nvarpk-wielded-empty"
 	update_held_icon()
 
 
