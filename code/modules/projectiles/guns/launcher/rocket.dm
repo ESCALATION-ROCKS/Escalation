@@ -150,7 +150,14 @@
 			item_state = "[item_state]-deployed"
 			slot_flags = null
 	else
-		return
+		playsound(src.loc,'sound/weapons/gunporn/rpgoneuse_deploying.ogg',80, 0)
+		user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
+		if(do_after(usr, 30, src))
+			usr.visible_message("<span class='notice'>\The [usr] folds the [src].</span>", "<span class='notice'>You fold the [src]</span>")
+			folded = 1
+			icon_state = initial(icon_state)
+			item_state = initial(item_state)
+			slot_flags = null
 
 /obj/item/weapon/gun/launcher/oneuse/special_check(mob/user)
 	if(folded == 1)
