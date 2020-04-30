@@ -19,8 +19,10 @@
 	..()
 	if(ammo_magazine)
 		icon_state = "m14scoped"
+		wielded_item_state = "m21-wielded"
 	else
 		icon_state = "m14scoped-empty"
+		wielded_item_state = "m21-wielded-empty"
 	update_held_icon()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped/verb/scope()
@@ -66,8 +68,10 @@
 	..()
 	if(ammo_magazine)
 		icon_state = "svd"
+		wielded_item_state = "svd-wielded"
 	else
 		icon_state = "svd-empty"
+		wielded_item_state = "svd-wielded-empty"
 	update_held_icon()
 
 /obj/item/weapon/gun/projectile/automatic/svd/verb/scope()
@@ -111,8 +115,10 @@
 	..()
 	if(ammo_magazine)
 		icon_state = "g3sg1"
+		wielded_item_state = "g3sg1-wielded"
 	else
 		icon_state = "g3sg1-empty"
+		wielded_item_state = "g3sg1-wielded-empty"
 	update_held_icon()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3sg1/verb/scope()
