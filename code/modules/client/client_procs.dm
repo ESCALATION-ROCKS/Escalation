@@ -401,6 +401,9 @@ client/verb/character_setup()
 */
 
 /client/proc/toggle_fullscreen(new_value)
+	set name = "Toggle Fullscreen"
+	set category = "OOC"
+
 	if(new_value == TRUE)
 		winset(src, "mainwindow", "is-maximized=false;can-resize=false;statusbar=false;titlebar=false;menu=")
 		winset(src, "mainwindow.mainvsplit", "pos=0x0")
@@ -409,12 +412,6 @@ client/verb/character_setup()
 		winset(src, "mainwindow.mainvsplit", "pos=3x0")
 	winset(src, "mainwindow", "is-maximized=true")
 	fit_viewport()
-
-/client/verb/fullscreen_hotkey()//For the love of god
-	set name = "Toggle Fullscreen"
-	set category = "OOC"
-
-	toggle_fullscreen()
 
 /client/verb/fit_viewport()
 	set name = "Fit Viewport"
