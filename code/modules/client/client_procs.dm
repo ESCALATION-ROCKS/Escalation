@@ -400,7 +400,7 @@ client/verb/character_setup()
 	fit_viewport()
 */
 
-/client/proc/toggle_fullscreen(new_value)
+/client/proc/toggle_fullscreen()
 	set name = "Toggle Fullscreen"
 	set category = "OOC"
 
