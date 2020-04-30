@@ -22,6 +22,7 @@ var/list/admin_verbs_admin = list(
 	/client/proc/show_general_stat,	//allows us to set a custom colour for everythign we say in ooc,
 	/client/proc/add_to_esc_whitelist,
 	/client/proc/stop_art_shelling,
+	/client/proc/stop_arty_gib,
 	/datum/admins/proc/show_game_mode,  //Configuration window for the current game mode.,
 	/datum/admins/proc/force_mode_latespawn, //Force the mode to try a latespawn proc,
 	/datum/admins/proc/toggleahelp,
@@ -294,6 +295,7 @@ var/list/admin_verbs_hideable = list(
 	/client/proc/startSinglo,
 	/client/proc/cmd_debug_mob_lists,
 	/client/proc/stop_art_shelling,
+	/client/proc/stop_arty_gib,
 	/client/proc/cmd_debug_del_all,
 	/client/proc/cmd_debug_tog_aliens,
 	/client/proc/air_report,
@@ -1117,7 +1119,7 @@ proc/show_armies()
 
 
 //bund, usmc, csla, cccp
-//охх сука отрубите мне руки за этот говнокод ~Бастард
+//пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ~пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 proc/show_statistic_by_fraction()*/
 
 var/global/list/global_colour_matrix = null
