@@ -439,8 +439,8 @@
 //have bipods on bayonet's slot
 /obj/item/weapon/gun/projectile/automatic/nvarpk
 	name = "IMG-K"
-	desc = "A standard-issued Nationale Volksarmee squad support weapon. Chambers 7.62x39 rounds."
-	icon_state = "rpk"
+	desc = "A standard-issue Nationale Volksarmee squad support weapon. Chambers 7.62x39 rounds."
+	icon_state = "nvarpk"
 	item_state = "nvarpk"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = 5
@@ -472,9 +472,9 @@
 /obj/item/weapon/gun/projectile/automatic/rpk/update_icon()
 	..()
 	if(ammo_magazine)
-		icon_state = "rpk"
+		icon_state = "nvarpk"
 	else
-		icon_state = "rpk-empty"
+		icon_state = "nvarpk-empty"
 	update_held_icon()
 
 
