@@ -400,11 +400,13 @@ client/verb/character_setup()
 	fit_viewport()
 */
 
-/client/proc/toggle_fullscreen(new_value)
+/client/proc/toggle_fullscreen()
 	set name = "Toggle Fullscreen"
 	set category = "OOC"
 
-	if(new_value == TRUE)
+	fullscreen = !fullscreen
+
+	if(fullscreen)
 		winset(src, "mainwindow", "is-maximized=false;can-resize=false;statusbar=false;titlebar=false;menu=")
 		winset(src, "mainwindow.mainvsplit", "pos=0x0")
 	else
