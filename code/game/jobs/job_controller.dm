@@ -593,25 +593,27 @@ var/global/datum/controller/occupations/job_master
 	var/mob/H = C.mob
 	var/datum/spawnpoint/spawnpos
 
-	if(!C.prefs.spawnpoint) //NEVER EVER
-		if(H)
-			to_chat(H, "<span class='warning'>Your chosen spawnpoint ([C.prefs.spawnpoint]) is unavailable for the current map. Spawning you at one of the enabled spawn points instead.</span>")
+	if(C.prefs.spawnpoint)
+		if(!(C.prefs.spawnpoint in GLOB.using_map.allowed_spawns))
+			if(H)
+				to_chat(H, "<span class='warning'>Your chosen spawnpoint ([C.prefs.spawnpoint]) is unavailable for the current map. Spawning you at one of the enabled spawn points instead.</span>")
 
 			spawnpos = null
 		else
 			spawnpos = spawntypes()[C.prefs.spawnpoint]
 
-	if(!spawnpos)
+	if(spawnpos && !spawnpos.check_job_spawning(rank))
 		if(H)
-			to_chat(H, "<span class='warning'>Your chosen spawnpoint ([spawnpos.display_name]) is unavailable for your chosen job ([rank]). FUCK - Cycling you through now</span>")
+			to_chat(H, "<span class='warning'>Your chosen spawnpoint ([spawnpos.display_name]) is unavailable for your chosen job ([rank]). Spawning you at another spawn point instead.</span>")
 		spawnpos = null
 
 	if(!spawnpos)
 		// Step through all spawnpoints and pick first appropriate for job
-		for(var/spawntype)
+		for(var/spawntype in GLOB.using_map.allowed_spawns)
 			var/datum/spawnpoint/candidate = spawntypes()[spawntype]
-			spawnpos = candidate
-			break
+			if(candidate.check_job_spawning(rank))
+				spawnpos = candidate
+				break
 
 	if(!spawnpos)
 		// Pick at random from all the (wrong) spawnpoints, just so we have one
@@ -626,7 +628,7 @@ var/global/datum/controller/occupations/job_master
 
 /datum/controller/occupations/proc/get_roundstart_spawnpoint(var/rank)
 	var/list/loc_list = list()
-	for(var/obj/effect/landmark/start/sloc) //I DONT CARE IF IT ISNT IN THE LIST NED, IF ITS FALLING BACK TO THIS FUCK IT SPAWN THEM ANYHWERE
+	for(var/obj/effect/landmark/start/sloc in landmarks_list)
 		if(sloc.name != rank)	continue
 		if(locate(/mob/living) in sloc.loc)	continue
 		loc_list += sloc
