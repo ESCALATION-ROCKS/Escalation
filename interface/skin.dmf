@@ -1106,8 +1106,8 @@ window "rpane"
 		is-vert = false
 	elem "Discord"
 		type = BUTTON
-		pos = 140,0
-		size = 60x15
+		pos = 200,0
+		size = 60x18
 		anchor1 = none
 		anchor2 = none
 		saved-params = "is-checked"
@@ -1116,7 +1116,7 @@ window "rpane"
 	elem "textb"
 		type = BUTTON
 		pos = 20,0
-		size = 60x15
+		size = 60x18
 		anchor1 = none
 		anchor2 = none
 		is-visible = false
@@ -1128,8 +1128,8 @@ window "rpane"
 		button-type = pushbox
 	elem "infob"	
 		type = BUTTON	
-		pos = 60,0	
-		size = 60x15
+		pos = 100,0	
+		size = 60x18
 		anchor1 = none	
 		anchor2 = none	
 		is-visible = false	

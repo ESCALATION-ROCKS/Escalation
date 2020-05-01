@@ -182,8 +182,6 @@ var/list/_client_preferences_by_type
 	if(preference_mob.client)
 		if(enabled)
 			preference_mob.client.toggle_fullscreen()
-		else
-			return 0
 
 /********************
 * Admin Preferences *
