@@ -72,7 +72,7 @@
 		msg += "[T.He] [T.is] wearing [wear_suit.get_examine_line(user)].\n"
 
 	if(s_store)
-			msg += "[T.He] [T.is] carrying [s_store.get_examine_line(user)] on [T.his] [wear_suit.name].\n"
+		msg += "[T.He] [T.is] carrying [s_store.get_examine_line(user)] on [T.his] [wear_suit.name].\n"
 
 	//belt
 	if(belt)
