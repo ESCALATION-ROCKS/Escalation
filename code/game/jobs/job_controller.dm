@@ -593,10 +593,9 @@ var/global/datum/controller/occupations/job_master
 	var/mob/H = C.mob
 	var/datum/spawnpoint/spawnpos
 
-	if(C.prefs.spawnpoint)
-		if(!(C.prefs.spawnpoint in GLOB.using_map.allowed_spawns))
-			if(H)
-				to_chat(H, "<span class='warning'>Your chosen spawnpoint ([C.prefs.spawnpoint]) is unavailable for the current map. Spawning you at one of the enabled spawn points instead.</span>")
+	if(!C.prefs.spawnpoint)
+		if(H)
+			to_chat(H, "<span class='warning'>Your chosen spawnpoint ([C.prefs.spawnpoint]) is unavailable for the current map. Spawning you at one of the enabled spawn points instead.</span>")
 
 			spawnpos = null
 		else
@@ -609,7 +608,7 @@ var/global/datum/controller/occupations/job_master
 
 	if(!spawnpos)
 		// Step through all spawnpoints and pick first appropriate for job
-		for(var/spawntype in GLOB.using_map.allowed_spawns)
+		for(var/spawntype)
 			var/datum/spawnpoint/candidate = spawntypes()[spawntype]
 			if(candidate.check_job_spawning(rank))
 				spawnpos = candidate
@@ -618,7 +617,7 @@ var/global/datum/controller/occupations/job_master
 	if(!spawnpos)
 		// Pick at random from all the (wrong) spawnpoints, just so we have one
 		warning("Could not find an appropriate spawnpoint for job [rank].")
-		spawnpos = spawntypes()[pick(GLOB.using_map.allowed_spawns)]
+		spawnpos = null
 
 	return spawnpos
 

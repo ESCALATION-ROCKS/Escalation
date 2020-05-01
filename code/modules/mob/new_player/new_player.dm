@@ -239,11 +239,11 @@ mob/new_player/proc/StatRand()
 	if(href_list["set_team_job"])
 		if(spawning)
 			return
-			
+
 		var/datum/army_faction/team = get_army(team_view)
 
 		var/slot_index = text2num(href_list["set_team_job"])
-		
+
 
 		if(team && istype(team.slots[slot_index], /mob/new_player))
 			alert("Someone has already picked that job. Too slow!")
@@ -378,7 +378,7 @@ mob/new_player/proc/StatRand()
 		if(!check_rights(R_ADMIN))
 			log_admin("[src] Tried accessing the game-start menu without permission")
 			message_admins("[src] Tried accessing the game-start menu without permission", 1)
-			return 
+			return
 		else
 			log_admin("[src] Is accessing the game start menu.")
 			message_admins("[src] is attempting to access the game start menu.", 1)
