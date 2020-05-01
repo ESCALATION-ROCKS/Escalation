@@ -74,7 +74,7 @@
 		if((world.time-time_passed)<30000)
 			if(isturf(src.loc))
 				if(istype(A, /mob/living/))
-					message_admins("Something '[A]' may have tried rushing.")
+					message_admins("'[A]' may have tried rushing.")
 					explosion(src, 1, 2, 4, 5, 1)
 
 /obj/effect/landmark/proc/delete()
