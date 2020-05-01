@@ -1115,7 +1115,7 @@ window "rpane"
 		command = "discord"
 	elem "textb"
 		type = BUTTON
-		pos = 20,0
+		pos = 10,0
 		size = 60x18
 		anchor1 = none
 		anchor2 = none
@@ -1128,7 +1128,7 @@ window "rpane"
 		button-type = pushbox
 	elem "infob"	
 		type = BUTTON	
-		pos = 100,0	
+		pos = 130,0	
 		size = 60x18
 		anchor1 = none	
 		anchor2 = none	
