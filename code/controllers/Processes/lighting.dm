@@ -23,8 +23,8 @@
 /datum/controller/process/lighting/setup()
 	name = "lighting"
 
-	schedule_interval = 5 // DARE TO BE STUPID
-	sleep_interval = 10
+	schedule_interval = 10 // DARE TO BE STUPID
+	sleep_interval = 20
 	create_all_lighting_overlays()
 	lighting_overlays_initialised = TRUE
 
