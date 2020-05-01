@@ -32,7 +32,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	l_pocket = /obj/item/weapon/masterkey/sovco
 	r_pocket = null
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa/
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomvzv
@@ -46,7 +46,7 @@
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	r_pocket = /obj/item/weapon/masterkey/sovsarge
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa/
 
 
@@ -62,7 +62,7 @@
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	r_pocket = /obj/item/weapon/masterkey/sovsarge/
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa/
 
 /decl/hierarchy/outfit/job/coldwar/soviet/strifle
@@ -258,7 +258,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	r_pocket = null
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa/
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_load
@@ -418,7 +418,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/sanitar
@@ -469,7 +469,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/komvzv
@@ -483,7 +483,7 @@
 	l_pocket = /obj/item/weapon/masterkey/nvaco
 	r_pocket = null
 	head = /obj/item/clothing/head/nvaddr/officer
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/platmgunner
@@ -623,7 +623,7 @@
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_pocket = /obj/item/weapon/masterkey/usmcsarge
 	r_pocket = null
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/sl/pre_equip(mob/living/carbon/human/H)
@@ -669,7 +669,7 @@
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_pocket = /obj/item/weapon/masterkey/usmclt
 	r_pocket = null
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/platlead/pre_equip(mob/living/carbon/human/H)
@@ -689,7 +689,7 @@
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_pocket = /obj/item/weapon/masterkey/usmcsarge
 	r_pocket = null
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/platleaddep/pre_equip(mob/living/carbon/human/H)
@@ -777,7 +777,7 @@
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	head = /obj/item/clothing/head/usmc/cap/woodland
-	l_ear = null
+	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/hws_commander/pre_equip(mob/living/carbon/human/H)
@@ -901,7 +901,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	r_pocket = null
+	l_ear = /obj/item/device/binoculars/nato
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwsarge
@@ -957,7 +957,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/bdw
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	r_pocket = null
+	l_ear = /obj/item/device/binoculars/nato
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwlt
@@ -972,7 +972,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/bdw
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	r_pocket = null
+	l_ear = /obj/item/device/binoculars/nato
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwsarge
