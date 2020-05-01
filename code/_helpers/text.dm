@@ -324,6 +324,7 @@ proc/TextPreview(var/string,var/len=40)
 //	to always create it and then throw it out.
 /var/icon/text_tag_icons = new('icons/chattags.dmi')
 /proc/create_text_tag(var/tagname, var/tagdesc = tagname, var/client/C = null)
+	return tagdesc //Fuck this shit
 	if(!(C && C.is_preference_enabled(/datum/client_preference/chat_tags)))
 		return tagdesc
 	var/icon/text_tag = new/icon(text_tag_icons, tagname)
