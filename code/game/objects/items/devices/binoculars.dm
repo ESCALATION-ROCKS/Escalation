@@ -28,8 +28,20 @@
 	icon_state = "wp_bino"
 	item_state = "wp_bino"
 
+/obj/item/device/binoculars/wp/range
+	name = "Rangefinder"
+	desc = "A Rangefinder, used to find Latitude and Longitude."
+	icon_state = "wp_bino"
+	item_state = "wp_bino"
+
 /obj/item/device/binoculars/nato
 	name = "binoculars"
 	desc = "A pair of binoculars."
+	icon_state = "nato_bino"
+	item_state = "nato_bino"
+
+/obj/item/device/binoculars/nato/range
+	name = "Rangefinder"
+	desc = "A Rangefinder, used to find Latitude and Longitude."
 	icon_state = "nato_bino"
 	item_state = "nato_bino"
