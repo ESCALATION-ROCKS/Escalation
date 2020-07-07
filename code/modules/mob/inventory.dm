@@ -23,7 +23,7 @@
 //unset redraw_mob to prevent the mob from being redrawn at the end.
 /mob/proc/equip_to_slot_if_possible(obj/item/W as obj, slot, del_on_fail = 0, disable_warning = 0, redraw_mob = 1, force = 0)
 	if(!istype(W)) return 0
-	
+
 	for(var/obj/item/item in src.contents) //unzoom them if they try putting shit away
 		if(item.zoom)
 			item.zoom(src)
@@ -131,6 +131,11 @@ var/list/slot_equipment_priority = list( \
 		if(S.can_be_inserted(newitem, null, 1))
 			newitem.forceMove(S)
 			return S
+
+//drop the inventory item on a specific location
+/mob/proc/drop_inv_item_to_loc(obj/item/I, atom/newloc, nomoveupdate, force)
+	return u_equip(I, newloc, nomoveupdate, force)
+
 
 //These procs handle putting s tuff in your hand. It's probably best to use these rather than setting l_hand = ...etc
 //as they handle all relevant stuff like adding it to the player's screen and updating their overlays.
