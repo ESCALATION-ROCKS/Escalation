@@ -89,9 +89,9 @@
 
 obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 
-	if(istype(O, /obj/item/mortal_shell))
+	if(istype(O, /obj/item/mortar_shell))
 
-		var/obj/item/mortal_shell/mortar_shell = O
+		var/obj/item/mortar_shell/mortar_shell = O
 		if(busy)
 			user << "<span class='warning'>Someone else is currently using [src].</span>"
 			return
@@ -150,105 +150,16 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 /obj/item/mortar_kit/attack_self(mob/user)
 	user.visible_message("<span class='notice'>[user] starts deploying [src].",
 	"<span class='notice'>You start deploying [src].")
-	playsound(loc, 'sound/items/Deconstruct.ogg', 25, 1)
+	playsound(loc, 'sound/weapons/gunporn/rpgoneuse_deploying.ogg', 25, 1)
 	if(do_after(user, 40, src))
 		user.visible_message("<span class='notice'>[user] deploys [src].",
 		"<span class='notice'>You deploy [src].")
-		playsound(loc, 'sound/weapons/gunporn/rpgoneuse_deploying.ogg', 25, 1)
+		playsound(loc, 'sound/items/Deconstruct.ogg', 25, 1)
 		var/obj/structure/mortar/M = new /obj/structure/mortar(get_turf(user))
 		M.dir = user.dir
 		del(src)
 
-
-
-/obj/item/mortal_shell
-	name = "\improper 80mm mortar shell"
-	desc = "An unlabeled 80mm mortar shell, probably a casing."
-	icon = 'icons/Marine/mortar.dmi'
-	icon_state = "mortar_ammo_cas"
-	w_class = 5
-	var/num_fragments = 0 //Doesnt Work
-
-/obj/item/mortal_shell/proc/detonate(var/turf/T)
-
-	forceMove(T)
-
-
-obj/item/mortal_shell/he
-	name = "\improper 80mm fragmentation mortar shell"
-	desc = "An 80mm mortar shell, loaded with a small charge and fragmentation."
-	icon = 'icons/Marine/mortar.dmi'
-	icon_state = "mortar_ammo_he"
-	var/fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/strong)
-	num_fragments = 230 // Doesnt Work
-
-/obj/item/mortal_shell/he/detonate(var/turf/T)
-
-	explosion(T, 0, 3, 5, 7)
-
-/obj/item/mortal_shell/smoke // Isnt working
-	name = "\improper 80mm smoke mortar shell"
-	desc = "An 80mm mortar shell, loaded with smoke dispersal agents."
-	icon_state = "mortar_ammo_smk"
-	num_fragments = 0
-	var/datum/effect/effect/system/smoke_spread/bad/smoke
-
-/obj/item/weapon/grenade/smokebomb/New()
-	..()
-	src.smoke = new /datum/effect/effect/system/smoke_spread/bad()
-	src.smoke.attach(src)
-
-/obj/item/mortal_shell/smoke/detonate(var/turf/T)
-
-	playsound(src.loc, 'sound/effects/smoke.ogg', 50, 1, -3)
-	src.smoke.set_up(10, 0, usr.loc)
-	spawn(0)
-		src.smoke.start()
-		sleep(10)
-		src.smoke.start()
-		sleep(10)
-		src.smoke.start()
-		sleep(10)
-		src.smoke.start()
-
-	for(var/obj/effect/blob/B in view(8,src))
-		var/damage = round(30/(get_dist(B,src)+1))
-		B.health -= damage
-		B.update_icon()
-	sleep(80)
-	qdel(src)
-	return
-
-/obj/item/mortal_shell/flare
-	name = "\improper 80mm flare mortar shell"
-	desc = "An 80mm mortar shell, loaded with an illumination flare."
-	icon_state = "mortar_ammo_flr"
-
-
-/obj/item/mortal_shell/flare/detonate(var/turf/T)
-//WIP
-
-/obj/structure/closet/crate/mortar_ammo/mortar_kit
-	name = "\improper M402 mortar kit"
-	desc = "A crate containing a basic set of a mortar and some shells, to get an engineer started."
-
-/obj/structure/closet/crate/mortar_ammo/mortar_kit/New()
-	..()
-	new /obj/item/mortar_kit(src)
-	new /obj/item/mortal_shell/he(src)
-	new /obj/item/mortal_shell/he(src)
-	new /obj/item/mortal_shell/he(src)
-	new /obj/item/mortal_shell/he(src)
-	new /obj/item/mortal_shell/he(src)
-	new /obj/item/mortal_shell/he(src)
-	new /obj/item/mortal_shell/flare(src)
-	new /obj/item/mortal_shell/flare(src)
-	new /obj/item/mortal_shell/smoke(src)
-	new /obj/item/mortal_shell/smoke(src)
-	new /obj/item/device/binoculars/nato/range(src)
-
-//Will have to create WP versions if sprites differ between both factions.
-
+//SHELL INFORMATION IS in code/game/objects/items/weapons/grenades/explosive.dm (All the way at the bottom)
 
 
 

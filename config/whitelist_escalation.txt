@@ -4462,3 +4462,7 @@ USMC Field Surgeon
 
 
 
+
+cabostein = {
+USMC Platoon Leader
+}

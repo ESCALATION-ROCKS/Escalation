@@ -125,3 +125,7 @@
 	check_armour = "bomb"
 
 	kill_count = 6
+
+
+
+

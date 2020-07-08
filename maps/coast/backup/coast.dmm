@@ -343,7 +343,7 @@
 "gE" = (/obj/item/device/binoculars/nato,/turf/unsimulated/ground,/area/coldwar)
 "gF" = (/turf/simulated/floor/holofloor/wood,/area/coldwar/house3)
 "gG" = (/obj/structure/sign/usmc_flag,/turf/simulated/wall/brick,/area/coldwar/usmcfob)
-"gH" = (/obj/item/mortar_shell/he,/turf/unsimulated/ground,/area/coldwar)
+"gH" = (/obj/item/mortal_shell/he,/turf/unsimulated/ground,/area/coldwar)
 "gI" = (/obj/structure/closet/crate/mortar_ammo/mortar_kit,/turf/unsimulated/ground,/area/coldwar)
 "gJ" = (/obj/structure/sign/medbaylogo2,/obj/structure/sign/redcross,/turf/simulated/wall/concrete,/area/coldwar/usmcfob)
 "gK" = (/obj/structure/sign/directions/supply,/turf/simulated/wall/brick,/area/coldwar/usmcfob)
