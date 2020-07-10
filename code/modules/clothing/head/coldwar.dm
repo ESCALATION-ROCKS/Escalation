@@ -146,6 +146,20 @@
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgt-woodland-unzipped"
 
+//HEV Helmets
+
+/obj/item/clothing/head/helmet/coldwar/hev_helm/
+	name = "H.E.V Advanced Helmet"
+	desc = "An experimental protective helmet used in combination with the Black Mesa H.E.V Suit"
+	icon_state = "pasgt-green"
+	armor = list(melee = 90, bullet = 85, laser = 35, energy = 75, bomb = 65, bio = 100, rad = 100)
+	siemens_coefficient = 0.9
+	icon_state = "hev_helm_s"
+
+/obj/item/clothing/head/helmet/coldwar/hev_helm/woodland
+	icon_state = "hev_helm_w"
+
+
 //BDW vests
 
 /obj/item/clothing/head/usmc/cap/bundeswehr

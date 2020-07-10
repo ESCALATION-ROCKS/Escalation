@@ -280,3 +280,11 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = PLAIN
 	requires_power = 0
 	dynamic_lighting = 1
+
+/area/coldwar/warpactfob
+	name = "WARPACT FOB"
+	icon_state = "foboutside"
+	sound_env = PLAIN
+	requires_power = 0
+	dynamic_lighting = 1
+

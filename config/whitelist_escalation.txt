@@ -4465,4 +4465,49 @@ USMC Field Surgeon
 
 cabostein = {
 USMC Platoon Leader
+SA Vzvodny Pulemetchik
+SA Pomoshnik Vzvodnogo Pulemetchika
+SA Shtabnoi Radiotelefonist
+SA Sanitar
+SA Snaiper
+SA Zamestitel Komandira Otdeleniya
+SA Pulemetchik
+SA Pomoshnik Pulemetchika
+SA Radiotelefonist
+SA Strelok-Granatometchik
+SA Pomoshnik Granatometchika
+SA Strelok
+SA OTV Komandir
+SA OTV Operator
+SA OTV Zaryazhaiuschiy
+BDW Zugfuhrer
+BDW Zugfuhrerassistant
+BDW Funktelefonbetreiber
+BDW Bote
+BDW Sanitaterschutze
+BDW Feldchirurg
+BDW Gruppenfuhrer
+BDW Gruppenfuhrer Stellvertretender
+BDW Scharfschutze
+BDW Machinengewehrschutze
+BDW Grenadier
+BDW Squad Radio Operator
+BDW Schutze
+BDW HWS Commander
+BDW HWS Loader
+BDW HWS Operator
+::ALL::
 }
+
+
+
+Google counterintelpro = {
+USMC Platoon Leader Deputy
+}
+
+Google cointelpro = {
+USMC Designated Marksman
+::ALL::
+}
+
+

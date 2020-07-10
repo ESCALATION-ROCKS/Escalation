@@ -44,3 +44,34 @@
 	shoes = /obj/item/clothing/shoes/jackboots/unathi
 	uniform = /obj/item/clothing/under/vox/vox_robes
 	suit = /obj/item/clothing/suit/armor/vox_scrap
+
+/decl/hierarchy/outfit/hev/blackmesa/leader
+	name = "Coldwar - BLACK MESA HEV SL"
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/ssgt
+	suit = /obj/item/clothing/suit/armor/vest/hev
+	shoes = /obj/item/clothing/shoes/usmc/field
+	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	back = /obj/item/weapon/radioset/prc77
+	holster = /obj/item/weapon/storage/belt/holster/usmc
+	head = /obj/item/clothing/head/helmet/coldwar/hev_helm/
+	l_pocket = /obj/item/weapon/masterkey/usmcsarge
+	r_pocket = null
+	l_ear = /obj/item/device/binoculars/nato
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+
+/decl/hierarchy/outfit/hev/blackmesa
+	name = "Coldwar - BLACK MESA HEV Rifleman"
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/pfc
+	suit = /obj/item/clothing/suit/armor/vest/hev
+	shoes = /obj/item/clothing/shoes/usmc/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	r_pocket = null
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	head = /obj/item/clothing/head/helmet/coldwar/hev_helm/
+	belt = /obj/item/weapon/storage/belt/harness/usmc
