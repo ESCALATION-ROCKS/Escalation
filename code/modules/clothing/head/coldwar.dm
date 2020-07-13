@@ -160,7 +160,7 @@
 	icon_state = "hev_helm_w"
 
 
-//BDW vests
+//BDW helmets
 
 /obj/item/clothing/head/usmc/cap/bundeswehr
 	name = "Bundeswehr cap"

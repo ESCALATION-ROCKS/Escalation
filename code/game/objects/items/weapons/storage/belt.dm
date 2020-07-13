@@ -230,12 +230,14 @@
 	item_state = "sa_harness"
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
-	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
+	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+	/obj/item/weapon/storage/firstaid/sa_ifak)
 
 /obj/item/weapon/storage/belt/harness/sa/New()
 	..()
 	new /obj/item/weapon/shovel/spadewp(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
+	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
 
 /obj/item/weapon/storage/belt/harness/sa/belt
@@ -272,12 +274,14 @@
 	item_state = "nvaddr_harness"
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
-	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
+	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+	/obj/item/weapon/storage/firstaid/sa_ifak)
 
 /obj/item/weapon/storage/belt/harness/nvaddr/New()
 	..()
 	new /obj/item/weapon/shovel/spadewp(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
+	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
 /obj/item/weapon/storage/belt/harness/nvaddr/belt
 	name = "belt"
