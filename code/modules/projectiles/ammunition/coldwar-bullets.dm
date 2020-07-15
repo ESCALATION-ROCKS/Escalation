@@ -81,10 +81,10 @@
 	caliber = "4mm"
 	projectile_type = /obj/item/projectile/bullet/rifle/a4mm
 
-/obj/item/ammo_casing/a127x99mm
-	desc = "A 12.7x99mm bullet casing."
-	caliber = "127x99mm"
-	projectile_type = /obj/item/projectile/bullet/rifle/a127x99mm
+/obj/item/ammo_casing/a127x108mm
+	desc = "A 12.7x108mm bullet casing."
+	caliber = "127x108mm"
+	projectile_type = /obj/item/projectile/bullet/rifle/a127x108mm
 	icon_state = "rifle-casing"
 	spent_icon = "rifle-casing-spent"
 

@@ -3,31 +3,31 @@
 //Rifle caliber
 
 /obj/item/projectile/bullet/rifle/a762x39
-	armor_penetration = 10
+	armor_penetration = 23
 	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
-	agony = 30
+	agony = 32
 
 	New()
-		damage = rand(35,40)
+		damage = rand(34, 43)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x39/ap
-	armor_penetration = 20
+	armor_penetration = 23
 	penetration_modifier = 0.4
 
 
 /obj/item/projectile/bullet/rifle/a762x51
 	penetrating = 1
-	armor_penetration = 25
+	armor_penetration = 34
 	penetration_modifier = 0.5
 	embed = 1
 	kill_count = 55
-	agony = 20
+	agony = 31
 
 	New()
-		damage = rand(25,55)
+		damage = rand(39, 46)
 
 /obj/item/projectile/bullet/rifle/a762x51/ap
 	armor_penetration = 30
@@ -35,44 +35,44 @@
 
 /obj/item/projectile/bullet/rifle/a762x54
 	penetrating = 1
-	armor_penetration = 25
+	armor_penetration = 31
 	penetration_modifier = 0.5
 	embed = 1
 	kill_count = 55
-	agony = 20
+	agony = 34
 
 	New()
-		damage = rand(25,55)
+		damage = rand(37, 48)
 
 /obj/item/projectile/bullet/rifle/a762x54/ap
 	armor_penetration = 30
 	sharp = 0
 
 /obj/item/projectile/bullet/rifle/a545x39
-	armor_penetration = 10
+	armor_penetration = 26
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
-	agony = 30
+	agony = 26
 
 	New()
-		damage = rand(30,50)
+		damage = rand(33,  40)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a545x39/ap
-	armor_penetration = 20
+	armor_penetration = 25
 	penetration_modifier = 0.4
 
 
 /obj/item/projectile/bullet/rifle/a556x45
-	armor_penetration = 20
+	armor_penetration = 29
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
-	agony = 30
+	agony = 28
 
 	New()
-		damage = rand(30,40)
+		damage = rand(36, 40)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a556x45/ap
@@ -82,29 +82,29 @@
 //Pistol caliber
 
 /obj/item/projectile/bullet/rifle/a9x19
-	armor_penetration = 0
+	armor_penetration = 12
 	penetration_modifier = 0.1
-	agony = 15
+	agony = 23
 
 	New()
-		damage = rand(15, 30)
+		damage = rand(25, 31)
 		penetrating = rand(0,1)
 
 /obj/item/projectile/bullet/rifle/a9x19/ap
-	armor_penetration = 10
+	armor_penetration = 12
 
 /obj/item/projectile/bullet/rifle/a9x18
-	armor_penetration = 0
+	armor_penetration = 8
 	penetration_modifier = 0.1
-	agony = 15
+	agony = 21
 
 	New()
-		damage = rand(15, 30)
+		damage = rand(21, 28)
 		penetrating = rand(0,1)
 
 
 /obj/item/projectile/bullet/rifle/a9x18/ap
-	armor_penetration = 10
+	armor_penetration = 5
 
 /obj/item/projectile/bullet/rifle/a4mm
 //	fire_sound = 'sound/weapons/minigun_1sec.ogg'
@@ -112,17 +112,26 @@
 	armor_penetration = 15
 	kill_count = 30
 
-/obj/item/projectile/bullet/rifle/a127x99mm
+/obj/item/projectile/bullet/rifle/a127x108mm
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
-	damage = 40
-	armor_penetration = 15
+	armor_penetration = 54
+	penetration_modifier = 0.7
+	agony = 46
 	penetrating = 3
+
+	New()
+		damage = rand(46, 54)
+		
 
 /obj/item/projectile/bullet/rifle/a50cal
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
-	damage = 40
-	armor_penetration = 15
+	armor_penetration = 25
+	penetration_modifier = 0.6
+	agony = 42
 	penetrating = 3
+	
+	New()
+		damage = rand(48, 51)
 
 /obj/item/projectile/bullet/ags30x29mm
 	name = "AGS' bullet"

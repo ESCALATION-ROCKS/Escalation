@@ -7,6 +7,10 @@
 	display_name = "prescription glasses"
 	path = /obj/item/clothing/glasses/regular
 
+/datum/gear/eyes/glasses/hippie
+	display_name = "Hippie glasses"
+	path = /obj/item/clothing/glasses/hippie
+
 /datum/gear/eyes/eyepatch
 	display_name = "eyepatch"
 	path = /obj/item/clothing/glasses/eyepatch

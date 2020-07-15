@@ -286,8 +286,8 @@
 	icon_state = "utes"
 	load_method = MAGAZINE//we do not have ammo box for it
 //	handle_casings = REMOVE_CASINGS//replace in EJECT later after tests and balancing
-	caliber = "127x99mm"//fix caliber to
-	ammo_type = /obj/item/ammo_casing/a127x99mm
+	caliber = "127x108mm"//fix caliber to
+	ammo_type = /obj/item/ammo_casing/a127x108mm
 //	magazine_type = /obj/item/ammo_magazine/c127x99b
 	max_shells = 0
 
@@ -321,8 +321,8 @@
 	icon_state = "pkms"
 	load_method = MAGAZINE//we do not have ammo box for it yet, so we use UTES' box
 //	handle_casings = REMOVE_CASINGS//replace in EJECT later after tests and balancing
-	caliber = "127x99mm"//cal of ammo box
-	ammo_type = /obj/item/ammo_casing/a127x99mm
+	caliber = "127x108mm"//cal of ammo box
+	ammo_type = /obj/item/ammo_casing/a127x108mm
 //	magazine_type = /obj/item/ammo_magazine/c127x99b//if we want mg be pre-loaded with this ammo box
 	max_shells = 0
 

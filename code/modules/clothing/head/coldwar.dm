@@ -60,7 +60,7 @@
 	name = "SSh-68 helmet"
 	desc = "A cheap steel helmet used by Soviet Army."
 	icon_state = "ssh68"
-	armor = list(melee = 40, bullet = 20, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = list(melee = 62, bullet = 22, laser = 10, energy = 10, bomb = 55, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh68-unzipped"
 
@@ -68,7 +68,7 @@
 	name = "SSh-60 helmet"
 	desc = "A cheap and somewhat outdated steel helmet used by Soviet Army."
 	icon_state = "ssh60"
-	armor = list(melee = 35, bullet = 16, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = list(melee = 58, bullet = 20, laser = 10, energy = 10, bomb = 50, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh60-unzipped"
 
@@ -79,7 +79,7 @@
 	name = "M56 stahlhelm"
 	desc = "A cheap steel helmet used by NVA DDR."
 	icon_state = "m56"
-	armor = list(melee = 35, bullet = 16, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = list(melee = 52, bullet = 24, laser = 10, energy = 10, bomb = 60, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m56-unzipped"
 
@@ -134,16 +134,12 @@
 	name = "PASGT M81 helmet"
 	desc = "An experimental tactical kevlar helmet used by U.S. army."
 	icon_state = "pasgt-green"
-	armor = list(melee = 30, bullet = 35, laser = 10, energy = 10, bomb = 60, bio = 0, rad = 0)
+	armor = list(melee = 48, bullet = 34, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgt-green-unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland
-	name = "PASGT M81 helmet"
-	desc = "An experimental tactical kevlar helmet used by U.S. army."
 	icon_state = "pasgt-woodland"
-	armor = list(melee = 30, bullet = 35, laser = 10, energy = 10, bomb = 60, bio = 0, rad = 0)
-	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgt-woodland-unzipped"
 
 //HEV Helmets
@@ -179,14 +175,12 @@
 	name = "M62 helmet"
 	desc = "A cheap and somewhat outdated steel helmet used by Bundeswehr."
 	icon_state = "m62helmet"
-	armor = list(melee = 35, bullet = 16, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m62helmet-unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/bdw/m62/foliage
-	name = "M62 helmet"
 	desc = "A helmet used by Bundeswehr based on American M1 helmet. There is a net with some foliage attached to it."
 	icon_state = "m62helmetfoliage"
-	armor = list(melee = 35, bullet = 16, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m62helmetfoliage-unzipped"

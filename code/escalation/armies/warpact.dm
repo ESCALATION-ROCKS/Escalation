@@ -21,3 +21,12 @@
 	language = "Russian"
 	base_color = "red"
 	fireteam_names = list("Otdeleniye #1", "Otdeleniye #2", "Otdeleniye #3", "Otdeleniye #4")
+
+/datum/army_faction/warpact/fin
+	name = "Finnish Militaria"
+	enabled = 0
+	faction_tag = "finnish"
+	flag_state = "finnish"
+	language = "finnish"
+	base_color = "white"
+	fireteam_names = list("Aarne #1", "Bertta #2", "Celsius #3", "Daavid #4")

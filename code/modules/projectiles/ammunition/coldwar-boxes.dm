@@ -283,13 +283,13 @@
 	name = "AP magazine (9x18mm)"
 	ammo_type = /obj/item/ammo_casing/a9x18/ap
 
-/obj/item/ammo_magazine/c127x99b
-	name = "magazine box (12.7x99mm)"
+/obj/item/ammo_magazine/c127x108b
+	name = "magazine box (12.7x108mm)"
 	icon_state = "utes"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
-	caliber = "127x99mm"
-	ammo_type = /obj/item/ammo_casing/a127x99mm
+	caliber = "127x108mm"
+	ammo_type = /obj/item/ammo_casing/a127x108mm
 	max_ammo = 50
 	multiple_sprites = 1
 
@@ -340,16 +340,16 @@
 	multiple_sprites = 1
 	load_delay = 40
 
-/obj/item/ammo_magazine/c127x29b //thing for UTES, check and fix
-	name = "magazine (12.7x29mm)"
+/obj/item/ammo_magazine/c127x108b //thing for UTES, check and fix
+	name = "magazine (12.7x108mm)"
 	icon_state = "7.62x51b"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
-	caliber = "127x99"
-	ammo_type = /obj/item/ammo_casing/a127x99mm
+	caliber = "127x108"
+	ammo_type = /obj/item/ammo_casing/a127x108mm
 	max_ammo = 200
 	multiple_sprites = 1
-	load_delay = 40
+	load_delay = 403
 
 
 /obj/item/ammo_magazine/box/paper/

@@ -14,9 +14,17 @@
 	icon_state = "bundes_med"
 	item_state = "bundes_med"
 	reachable = 1
-	max_storage_space = 6
-	open_delay = 10
+	max_storage_space = 15
+	open_delay = 5
 	slot_flags = SLOT_BACK
+	startswith = list(
+			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
+			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
+			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/gauze_pack/ = 3,
+			/obj/item/stack/medical/ointment = 1,
+			/obj/item/stack/medical/splint = 1)
 
 /obj/item/weapon/storage/backpack/bundes_buttpack
 	name = "field pack"
@@ -26,6 +34,14 @@
 	reachable = 0
 	max_storage_space = 10
 	slot_flags = SLOT_BACK
+	startswith = list(
+			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
+			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
+			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/gauze_pack/ = 3,
+			/obj/item/stack/medical/ointment = 1,
+			/obj/item/stack/medical/splint = 1)
 
 /obj/item/weapon/storage/backpack/usmc_buttpack
 	name = "field pack"
@@ -42,6 +58,16 @@
 	icon_state = "usmc_med"
 	item_state = "usmc_med"
 	slot_flags = SLOT_BACK
+	max_storage_space = 15
+	open_delay = 5
+	startswith = list(
+			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
+			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
+			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/gauze_pack/ = 3,
+			/obj/item/stack/medical/ointment = 1,
+			/obj/item/stack/medical/splint = 1)
 
 /obj/item/weapon/storage/backpack/usmcm3
 	name = "M3 medical pack"
