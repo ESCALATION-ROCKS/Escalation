@@ -63,3 +63,5 @@
 
 #define LANGUAGE_RUSSIAN "Russian"
 #define LANGUAGE_CZECH   "Czech"
+
+#define LANGUAGE_FINNISH "Finnish"

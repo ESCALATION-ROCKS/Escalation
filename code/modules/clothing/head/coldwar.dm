@@ -169,6 +169,10 @@
 	icon_state = "bdwgarrisoncap"
 	icon_state_alt = "bdwgarrisoncap_alt"
 
+/obj/item/clothing/head/berret/bundesvehr
+	name = "Mountaineer Berret"
+	desc = "Thats a Green Berret common amongst Bundesvehr Mountaneer divisions."
+	icon_state = "bdwberret"
 
 //BDW helmets
 /obj/item/clothing/head/helmet/coldwar/bdw/m62

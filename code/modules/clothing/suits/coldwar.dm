@@ -114,7 +114,8 @@
 	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 4, slot_size = 2)
 
-
+/obj/item/clothing/suit/storage/vest/bando/woodland
+	icon_state = "bando_nato_w"
 
 //Wake up, Mister Freeman, Wake up, and Smell the Ashes.
 

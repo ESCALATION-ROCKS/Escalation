@@ -361,6 +361,25 @@
 	update_icon()
 	return 1
 
+/obj/item/device/flashlight/flare/mortar
+	name = "flare"
+	desc = "A bright light high in the sky, you cant seem to reach it."
+	w_class = ITEM_SIZE_TINY
+	brightness_on = 10 // Pretty bright.
+	light_power = 3
+	light_color = COLOR_GREEN
+
+	light_color = "#00FF00"
+	icon_state = "flare"
+	item_state = "flare"
+	action_button_name = null //just pull it manually, neckbeard.
+	power_use = 0
+	fuel = 0
+	on_damage = 7
+	activation_sound = 'sound/effects/flare.ogg'
+
+
+
 //Glowsticks
 /obj/item/device/flashlight/glowstick
 	name = "green glowstick"

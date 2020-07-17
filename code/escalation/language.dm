@@ -18,7 +18,6 @@
 			H.add_language(LANGUAGE_ENGLISH)
 			L = all_languages[LANGUAGE_ENGLISH]
 
-
 		if("cccp")
 			H.add_language(LANGUAGE_RUSSIAN)
 			L = all_languages[LANGUAGE_RUSSIAN]
@@ -30,6 +29,11 @@
 		if("nvaddr")
 			H.add_language(LANGUAGE_GERMAN)
 			L = all_languages[LANGUAGE_GERMAN]
+
+		if("finn")
+			H.add_language(LANGUAGE_FINNISH)
+			L = all_languages[LANGUAGE_FINNISH]
+
 
 	if(L)
 		H.default_language = L
@@ -94,3 +98,10 @@
 	colour = "german"
 	key = "g"
 	syllables = list("die", "das", "wein", "mir", "und", "wier", "ein", "nein", "gen", "en", "sauen", "bien", "nien", "rien", "rhein", "deut", "der", "lieb", "en", "stein", "nein", "ja", "wolle", "sil", "be")
+
+/datum/language/escalation/finnish
+	name = "Finnish"
+	desc = "This is the languaged used by the Finnish Militaria."
+	colour = "finnish"
+	key = "f"
+	syllables = list("minä", "sinä", "hän", "me", "te", "he", "tämä", "tuo", "se", "nämä", "nuo", "ne", "kuka", "mikä", "ken", "kumpi", "joka", "mikä", "toinen", "itse", "Ei", "Anteeksi", "Kiitos")

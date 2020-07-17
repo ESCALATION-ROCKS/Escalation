@@ -37,6 +37,7 @@
 	if(choice == "Target")
 		xinput = input("Set longitude of strike from 0 to [world.maxx].")as num
 		yinput = input("Set latitude of strike from 0 to [world.maxx].")as num
+
 		return
 		if(busy)
 			user << "<span class='warning'>Someone else is currently using this mortar.</span>"
@@ -196,9 +197,18 @@ obj/item/mortar_shell/frag
 	desc = "An 80mm mortar shell, loaded with a small charge surrounded by Deadly Metal Pellets."
 	icon = 'icons/Marine/mortar.dmi'
 	icon_state = "mortar_ammo_he"
-	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive = 1)
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/mortar)
 	num_fragments = 290  //total number of fragments produced by the grenade
 	spread_range = 8
+
+/obj/item/projectile/bullet/pellet/fragment/mortar
+	damage = 20
+	agony = 18
+	armor_penetration = -10
+	check_armour = "bomb"
+
+	kill_count = 6
+
 
 /obj/item/mortar_shell/frag/detonate(var/turf/T)
 
@@ -231,9 +241,32 @@ obj/item/mortar_shell/frag
 	desc = "An 80mm mortar shell, loaded with an illumination flare."
 	icon_state = "mortar_ammo_flr"
 
-
 /obj/item/mortar_shell/flare/detonate(var/turf/T)
-//WIP
+	new /obj/item/device/flashlight/flare/on/illumination(T)
+	playsound(T, 'sound/effects/flare.ogg', 50, 1, 4)
+
+//Special flare subtype for the illumination flare shell
+//Acts like a flare, just even stronger, and set length
+/obj/item/device/flashlight/flare/on/illumination
+
+	name = "illumination flare"
+	desc = "It's really bright, and unreachable."
+	icon_state = "" //No sprite
+	invisibility = 101 //Can't be seen or found, it's "up in the sky"
+	mouse_opacity = 0
+	brightness_on = 7 //Way brighter than most lights
+
+/obj/item/device/flashlight/flare/on/illumination/New()
+	..()
+	fuel = rand(400, 500) // Half the duration of a flare, but justified since it's invincible
+
+/obj/item/device/flashlight/flare/on/illumination/turn_off()
+	..()
+	qdel(src)
+
+/obj/item/device/flashlight/flare/on/illumination/ex_act(severity)
+	return //Nope 
+
 
 /obj/structure/closet/crate/mortar_ammo/mortar_kit
 	name = "\improper M402 mortar kit"

@@ -34,14 +34,6 @@
 	reachable = 0
 	max_storage_space = 10
 	slot_flags = SLOT_BACK
-	startswith = list(
-			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
-			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
-			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/ = 3,
-			/obj/item/stack/medical/ointment = 1,
-			/obj/item/stack/medical/splint = 1)
 
 /obj/item/weapon/storage/backpack/usmc_buttpack
 	name = "field pack"
