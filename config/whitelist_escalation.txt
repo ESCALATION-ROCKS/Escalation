@@ -4464,6 +4464,7 @@ USMC Field Surgeon
 
 
 cabostein = {
+
 ::ALL::
 }
 
@@ -4473,4 +4474,27 @@ Maxplays = {
 ::All::
 NVA Zugfuhrer
 }
+
+
+DefinitelyAlone0309 = {
+::ALL::
+NVA Schutze
+USMC Rifleman
+}
+
+Superjo98 = {
+::All::
+NVA Schutze
+}
+
+Uncle_Fruit_VEVO = {
+::All::
+NVA Schutze
+}
+
+
+
+
+
+
 

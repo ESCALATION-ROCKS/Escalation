@@ -837,6 +837,7 @@
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/mgunner
@@ -850,6 +851,7 @@
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 
@@ -864,6 +866,7 @@
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	back = /obj/item/weapon/radioset/prc77
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 
@@ -878,6 +881,7 @@
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	r_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	l_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/mgunnera
@@ -891,6 +895,7 @@
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/sqleader
@@ -906,6 +911,7 @@
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwsarge
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 	l_ear = null
 
@@ -919,6 +925,7 @@
 	r_pocket = null
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/corpsman
@@ -933,6 +940,7 @@
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/key/natomed
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/doctor
@@ -962,6 +970,7 @@
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwlt
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/platleaddep
@@ -977,6 +986,7 @@
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwsarge
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/ratelo
@@ -990,6 +1000,7 @@
 	back = /obj/item/weapon/radioset/prc77
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/messenger
@@ -1003,6 +1014,7 @@
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/marksman
@@ -1017,6 +1029,7 @@
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/quartermaster
@@ -1031,4 +1044,5 @@
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwsarge
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+	r_hand = /obj/item/clothing/head/beret/bundesvehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
