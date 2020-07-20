@@ -69,7 +69,6 @@
 /obj/effect/landmark/artillery/
 
 /obj/effect/landmark/artillery/Crossed(A as mob|obj, var/obj/item/I)
-	var/time_passed = world.time
 	if(SSartillery.gibbing == 1)
 		if(isturf(src.loc))
 			if(istype(A, /mob/living/))
