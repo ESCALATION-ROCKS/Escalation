@@ -193,3 +193,19 @@
 
 /obj/item/clothing/under/nvaddr/strichtarn/leutnant
 	starting_accessories = list(/obj/item/clothing/accessory/insignia/nnaddr/leutnant)
+
+//Finnish Militaria
+
+/obj/item/clothing/under/finn/
+	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
+
+
+/obj/item/clothing/under/finn/talvimetsa
+	name = "'Talvi Metsä' pattern uniform"
+	desc = "That's the camouflaged field uniform, commonly used by regular Finnish Infantry."
+	icon_state = "finn"
+	worn_state = "finn"
+	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
+	siemens_coefficient = 0.7
+	slowdown_general = 0.5
+	has_sensor = 0

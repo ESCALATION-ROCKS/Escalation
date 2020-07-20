@@ -795,3 +795,343 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+//Finnish Army
+
+/datum/job/escalation/finn
+	title = "Finnish Militaria"
+	enabled = 0
+	faction_tag = "finn" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
+	military_faction = WARPAC
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.fraction = "WP"
+
+
+/datum/job/escalation/finn/finnplatlead
+	title = "FINN Luutnantti"
+	name = "Luutnantti"
+	english_name = "Platoon Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/pl
+	selection_color = "#FA8072"
+	rank_number = 0
+	position = "team"
+	leading = 1
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
+
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
+
+/datum/job/escalation/finn/finnplatleaddep
+	title = "FINN Ylikersantti"
+	name = "Ylikersantti"
+	english_name = "Platoon Leader Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/plass
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 70, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+
+
+
+/datum/job/escalation/finn/finnmajoitusmestari
+	title = "FINN Majoitusmestari"
+	name = "Majoitusmestari"
+	english_name = "Quartermaster"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/quart
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+
+/datum/job/escalation/finn/platfinnmg
+	title = "FINN Joukkue Finnmajoitusmestari"
+	name = "Finnmajoitusmestari"
+	english_name = "Platoon Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/platmgunner
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/finn/platfinnmgas
+	title = "FINN Joukkue Finnmajoitusmestari Sotamies"
+	name = "Finnmajoitusmestari Sotamies"
+	english_name = "Platoon Machinegunner Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/platmgass
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+
+/datum/job/escalation/finn/finnratelo
+	title = "FINN Alikersantti"
+	title = "Alikersantti"
+	english_name = "HQ Radio Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/radio
+	selection_color = "#FA8072"
+	rank_number = 5
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/finn/finncorpsman
+	title = "FINN Medisiinari"
+	name = "Medisiinari"
+	english_name = "Field Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/corpsman
+	selection_color = "#FA8072"
+	rank_number = 4
+	position = "team"
+	amount = 3
+	enabled = 1
+	whitelist_rank = "finns_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/finn/finnsurgerist
+	title = "NVA Kenttäkirurg"
+	name = "Kenttäkirurg"
+	english_name = "Field Surgeon"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/doctor
+	selection_color = "#FA8072"
+	rank_number = 2
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 4, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+
+/datum/job/escalation/finn/finnsl
+	title = "FINN Ryhmänjohtaja"
+	name = "Ryhmänjohtaja"
+	english_name = "Squad Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/sl
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	leading = 1
+	whitelist_rank = "finn_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+
+/datum/job/escalation/finn/finnsld
+	title = "FINN Ryhmänjohtaja Jäsen"
+	name = "Ryhmänjohtaja Jäsen"
+	english_name = "Squad Leader Deputy"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/sld
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 0, 0, rand(0,1))
+
+
+/datum/job/escalation/finn/finnmg
+	title = "FINN Konekivääri"
+	name = "Konekivääri"
+	english_name = "Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/mgunner
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/finn/finnmgas
+	title = "FINN Konekivääri-assistentti"
+	name = "Konekivääri-assistentti"
+	english_name = "Machinegunner Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/mgass
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/finn/finnsrad
+	title = "FINN Puhelinoperaattori"
+	name = "Puhelinoperaattori"
+	english_name = "Squad Radio Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/srad
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/finn/finnrocket
+	title = "FINN AT ampuja"
+	name = "AT ampuja"
+	english_name = "Squad Grenadier"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/rocket
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/finn/finnrocketass
+	title = "FINN AT ampuja assistentti "
+	name = "AT ampuja assistentti."
+	english_name = "Grenadier Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/rocketass
+	selection_color = "#FA8072"
+	rank_number = 5
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+
+/datum/job/escalation/finn/finnrifle
+	title = "FINN Kiväärimies"
+	name = "Kiväärimies"
+	english_name = "Rifleman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/rifleman
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 3
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))

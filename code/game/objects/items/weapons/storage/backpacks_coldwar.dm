@@ -31,8 +31,8 @@
 	desc = "A sturdy field pack used by Bundeswehr."
 	icon_state = "bundes_buttpack"
 	item_state = "bundes_buttpack"
-	reachable = 0
-	max_storage_space = 10
+	reachable = 1
+	max_storage_space = 12
 	slot_flags = SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmc_buttpack
@@ -40,8 +40,8 @@
 	desc = "A sturdy field pack used by U.S. army. Also referred as butt pack"
 	icon_state = "usmc_buttpack"
 	item_state = "usmc_buttpack"
-	reachable = 0
-	max_storage_space = 10
+	reachable = 1
+	max_storage_space = 12
 	slot_flags = SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmc_buttpack/med
@@ -60,6 +60,7 @@
 			/obj/item/weapon/gauze_pack/ = 3,
 			/obj/item/stack/medical/ointment = 1,
 			/obj/item/stack/medical/splint = 1)
+
 
 /obj/item/weapon/storage/backpack/usmcm3
 	name = "M3 medical pack"
@@ -135,9 +136,49 @@
 	max_storage_space = 20
 	open_delay = 25
 
+
 /obj/item/weapon/storage/backpack/alice/large/New()
 	..()
 	slowdown_per_slot[slot_back] = 1
+
+//finnish
+
+/obj/item/weapon/storage/backpack/finn/finn_buttpack
+	name = "utility pack"
+	desc = "A sturdy utility pack standard issue in the Finnish Militaria. Also referred as butt pack"
+	icon_state = "finn_buttpack"
+	item_state = "finn_buttpack"
+	reachable = 1
+	max_storage_space = 12
+	slot_flags = SLOT_BACK
+
+/obj/item/weapon/storage/backpack/finn/finn_backpack
+	name = "Field Backpack"
+	desc = "Contains everything recquired for an outdoor excursion, commonly used by the Finnish."
+	icon_state = "finn_backpack"
+	item_state = "finn_backpack"
+	reachable = 0
+	max_storage_space = 16
+	open_delay = 20
+
+/obj/item/weapon/storage/backpack/finn/medical
+	name = "medical bag"
+	desc = "Leather Medical Backpack common in Warpact Armies."
+	icon_state = "summedsan"
+	item_state = "summedsan"
+	reachable = 1
+	max_storage_space = 15
+	open_delay = 5
+	slot_flags = SLOT_BACK
+
+	startswith = list(
+			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
+			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
+			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/gauze_pack/ipp = 3,
+//			/obj/item/weapon/storage/fancy/syringe = 1,
+			/obj/item/stack/medical/ointment = 2)
 
 //rpg blyat
 

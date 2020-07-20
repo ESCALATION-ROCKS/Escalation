@@ -156,7 +156,7 @@
 	icon_state = "hev_helm_w"
 
 
-//BDW helmets
+//BDW hats
 
 /obj/item/clothing/head/usmc/cap/bundeswehr
 	name = "Bundeswehr cap"
@@ -188,3 +188,42 @@
 	icon_state = "m62helmetfoliage"
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m62helmetfoliage-unzipped"
+
+//FINN Hats
+
+/obj/item/clothing/head/finn/cap/talvimetsa
+	name = "Talvimetsa cap"
+	desc = "That's a generic field cap in a talvimetsa pattern."
+	icon_state = "finn_cap"
+
+/obj/item/clothing/head/finn/winter/
+	var/icon_state_alt = null
+
+/obj/item/clothing/head/finn/winter/attack_self(mob/user as mob)
+	if(icon_state == initial(icon_state))
+		icon_state = icon_state_alt
+		to_chat(user, "You make your cap look pretty cozy. Nice.")
+	else
+		icon_state = initial(icon_state)
+		to_chat(user, "You put your cap back in fine state.")
+
+/obj/item/clothing/head/finn/winter/ushanka
+	name = "Ushanka hat"
+	desc = "That's a finnish Ushanka for use in cold weather."
+	icon_state = "ushanka"
+	icon_state_alt = "ushanka-unzipped"
+//FINN Helmets
+
+/obj/item/clothing/head/helmet/coldwar/finn/m63
+	name = "M63 helmet"
+	desc = "A cheap and yet improved helmet compared to the M62, A steel helmet used by the Finnish."
+	icon_state = "m63helmet"
+	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "m63helmet-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/finn/m63/camo
+	desc = "A helmet used by the Finnish Military, improvement over the M62, this one has a woodland pattern."
+	icon_state = "m63helmetc"
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "m63helmetc-unzipped"

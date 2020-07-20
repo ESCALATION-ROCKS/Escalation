@@ -248,6 +248,30 @@
 	storage_slots = 0
 	can_hold = null
 
+/obj/item/weapon/storage/belt/harness/finn
+	name = "harness"
+	desc = "A cheap harness used by Finnnish military forces."
+	icon_state = "sa_harness"
+	item_state = "sa_harness"
+	storage_slots = 3
+	can_hold = list(/obj/item/weapon/shovel/spadewp,
+	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+	/obj/item/weapon/storage/firstaid/sa_ifak)
+
+/obj/item/weapon/storage/belt/harness/sa/New()
+	..()
+	new /obj/item/weapon/shovel/spadewp(src)
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
+	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
+
+
+/obj/item/weapon/storage/belt/harness/finn/belt
+	name = "belt"
+	desc = "A belt used by Finnish officers."
+	icon_state = "sa_officerharness"
+	item_state = "sa_officerharness"
+	storage_slots = 0
+	can_hold = null
 
 /obj/item/weapon/storage/belt/harness/bdw
 	name = "harness"

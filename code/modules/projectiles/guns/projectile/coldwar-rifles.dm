@@ -987,3 +987,44 @@
 	else
 		icon_state = "mpik74s-empty"
 		wielded_item_state = "aks-wielded-empty"
+
+
+/obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	name = "RK62"
+	desc = "A standard-issue Finnish combat rifle. Chambers 7.62x39 rounds."
+	icon_state = "rk62"
+	item_state = "rk62"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x39"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x39
+	allowed_magazines = /obj/item/ammo_magazine/c762x39f
+	magazine_type = null
+	one_hand_penalty = 3
+	accuracy = 2.65
+	fire_delay = 1.7
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/csla/
+	bayonet_attachable = 1
+	slowdown_general = 0.45
+
+	wielded_item_state = "rk62-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=1, move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null, automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=1, move_delay=1,   one_hand_penalty=3,  burst_accuracy=null,              dispersion=list(0.3, 0.6), automatic = 0.5),
+		)
+/obj/item/weapon/gun/projectile/automatic/rifle/rk62/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "rk62"
+		wielded_item_state = "rk62-wielded"
+	else
+		icon_state = "rk62-empty"
+		wielded_item_state = "rk62-wielded-empty"
+	

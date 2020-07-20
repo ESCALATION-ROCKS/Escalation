@@ -145,6 +145,21 @@
 		/obj/item/ammo_magazine/a9x19
 		)
 
+/obj/item/weapon/storage/belt/holster/finn
+	storage_slots = 2
+	holster_sound = 'sound/effects/holster/holsterin.ogg'
+	unholster_sound = 'sound/effects/holster/holsterout.ogg'
+	special_item = /obj/item/weapon/gun/projectile/lahti
+	desc = "This holster can hold Lahti and one magazine."
+	startswith = list(
+		/obj/item/weapon/gun/projectile/lahti,
+		/obj/item/ammo_magazine/a9x19
+		)
+	can_hold = list(
+		/obj/item/weapon/gun/projectile/lahti,
+		/obj/item/ammo_magazine/a9x19
+		)
+
 
 /obj/item/weapon/storage/belt/holster/sheath
 	name = "sheath"
@@ -410,6 +425,47 @@
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = 2
+	name = "grenade pouch"
+	desc = "Can held a couple of grenades."
+	icon_state = "nvaddr_grenade"
+	item_state = "nvaddr_grenade"
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/weapon/grenade/frag/
+		)
+
+//finnish
+
+/obj/item/weapon/storage/belt/suit/ammo/finn
+	w_class = ITEM_SIZE_HUGE
+	name = "RK ammo bag"
+	desc = "That one can store four RK magazines."
+	icon_state = "sa_ammo"
+	item_state = "sa_ammo"
+	storage_slots = 4
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x39f,
+		/obj/item/ammo_magazine/a9x18
+		)
+	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
+	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
+	open_delay = 5
+
+/obj/item/weapon/storage/belt/suit/ammo/finn/lmg
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "KK ammo pouch"
+	desc = "Has enough space to hold one box."
+	icon_state = "sa_ammo_lmg"
+	storage_slots = 1
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x39v
+	)
+
+
+/obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = 2
 	name = "grenade pouch"
