@@ -24,10 +24,10 @@
 
 /obj/structure/mortar/attack_hand(mob/user as mob)
 	if(busy)
-		user << "<span class='warning'>Someone else is currently using [src].</span>"
+		to_chat(user, "<span class='warning'>Someone else is currently using [src].</span>")
 		return
 	if(firing)
-		user << "<span class='warning'>[src]'s barrel is still steaming hot. Wait a few seconds and stop firing it.</span>"
+		to_chat(user, "<span class='warning'>[src]'s barrel is still steaming hot. Wait a few seconds and stop firing it.</span>")
 		return
 	add_fingerprint(user)
 
@@ -40,7 +40,7 @@
 
 		return
 		if(busy)
-			user << "<span class='warning'>Someone else is currently using this mortar.</span>"
+			to_chat(user, "<span class='warning'>Someone else is currently using this mortar.</span>")
 			return
 		user.visible_message("<span class='notice'>[user] starts adjusting [src]'s firing angle and distance.</span>", //These messages dont pop up for some reason, also timer isnt working on this one
 		"<span class='notice'>You start adjusting [src]'s firing angle and distance to match the new coordinates.</span>")
@@ -91,7 +91,6 @@
 obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 
 	if(istype(O, /obj/item/mortar_shell))
-
 		var/obj/item/mortar_shell/mortar_shell = O
 		if(busy)
 			user << "<span class='warning'>Someone else is currently using [src].</span>"
@@ -114,14 +113,12 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 			user.visible_message("<span class='notice'>[user] loads \a [mortar_shell.name] into [src].</span>",
 			"<span class='notice'>You load \a [mortar_shell.name] into [src].</span>")
 			visible_message("\icon[src] <span class='danger'>The [name] fires!</span>")
-			user.drop_inv_item_to_loc(mortar_shell, src)
+			user.drop_item(mortar_shell, src)
 			playsound(loc, 'sound/effects/mortar_fire.wav', 50, 1)
 			busy = 0
 			firing = 1
 			flick(icon_state + "_fire", src)
 			mortar_shell.forceMove(src)
-
-			var/turf/G = get_turf(src)
 
 			for(var/mob/M in range(7))
 				shake_camera(M, 3, 1)
@@ -129,10 +126,14 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 				playsound(T, 'sound/effects/mortar_falling.wav', 50, 1)
 				spawn(45) //Must go down //This should always be 45 ticks!
 					mortar_shell.detonate(T)
-					del(mortar_shell)
+					qdel(mortar_shell)
 					firing = 0
 		else
 			busy = 0
+
+//Don't allow blowing those up, so nades don't fuck them
+/obj/structure/mortar/ex_act(severity)
+	return
 
 //TODO change mortar fluff and desc
 /obj/structure/mortar/fixed
@@ -236,6 +237,7 @@ obj/item/mortar_shell/frag
 	smoke = null
 	qdel(src)
 
+
 /obj/item/mortar_shell/flare
 	name = "\improper 80mm flare mortar shell"
 	desc = "An 80mm mortar shell, loaded with an illumination flare."
@@ -265,7 +267,7 @@ obj/item/mortar_shell/frag
 	qdel(src)
 
 /obj/item/device/flashlight/flare/on/illumination/ex_act(severity)
-	return //Nope 
+	return //Nope
 
 
 /obj/structure/closet/crate/mortar_ammo/mortar_kit
