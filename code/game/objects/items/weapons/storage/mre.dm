@@ -66,8 +66,7 @@
 				/obj/item/weapon/reagent_containers/food/snacks/tincan/stewpearlbarley = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/zheldor = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/morflot = 1,
-				/obj/item/weapon/storage/fancy/cigarettes/prima = 1,
-				/obj/item/weapon/material/kitchen/utensil/spoon = 1)
+				/obj/item/weapon/storage/fancy/cigarettes/prima = 1)
 
 /obj/item/weapon/storage/box/irp/var2
 	name = "'Etalon-2' rations"
@@ -81,5 +80,4 @@
 				/obj/item/weapon/reagent_containers/food/snacks/tincan/buckwheat = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/ = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/tsukor = 1,
-				/obj/item/weapon/storage/fancy/cigarettes/prima = 1,
-				/obj/item/weapon/material/kitchen/utensil/spoon = 1)
+				/obj/item/weapon/storage/fancy/cigarettes/prima = 1)
