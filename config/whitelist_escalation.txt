@@ -1831,6 +1831,7 @@ NVA Funktelefonbetreiber
 NVA Scharfschutze
 NVA Zug Machinengewehrschutze
 NVA Zug Machinengewehrschutze Stellvertretender
+::ALL::
 }
 
 Chaznoodles = {
@@ -2202,6 +2203,7 @@ NVA Funktelefonbetreiber
 NVA Scharfschutze
 NVA Zug Machinengewehrschutze
 NVA Zug Machinengewehrschutze Stellvertretender
+::ALL::
 }
 
 
@@ -3405,6 +3407,7 @@ BDW Schutze
 BDW HWS Commander
 BDW HWS Loader
 BDW HWS Operator
+::ALL::
 }
 
 marcusaga = {
@@ -3548,6 +3551,7 @@ BDW Schutze
 BDW HWS Commander
 BDW HWS Loader
 BDW HWS Operator
+::ALL::
 }
 
 Bobalobdob = {
@@ -4497,4 +4501,66 @@ NVA Schutze
 
 
 
+
+
+
+Yippee Ki Yay = {
+::ALL::
+}
+
+emoats18 = {
+::ALL::
+}
+
+BurnedSweetPotato = {
+::ALL::
+}
+
+RealMAGNUM = {
+::ALL::
+}
+
+Swagbag = {
+::ALL::
+}
+
+SilverSZ = {
+::ALL::
+}
+
+NazbolGang = {
+::ALL::
+}
+
+KillingSpree13 = {
+::ALL::
+}
+
+Nanu308 = {
+::ALL::
+}
+
+Biscuitsakimbo = {
+::ALL::
+}
+
+
+derpymcderpderp = {
+::ALL::
+}
+
+dansemacabre = {
+::ALL::
+}
+
+
+
+YourDaddy117 = {
+::ALL::
+}
+
+Turret_Drehturm = {
+Nigger
+::ALL::
+}
 

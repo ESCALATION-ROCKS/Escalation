@@ -1,9 +1,10 @@
 Dawnie - Host
 Axios - Host
 Turret_Drehturm - Developer
-cabostein - Developer
+cabostein - Host
 Toxici11i - Developer
 toxici11i - Developer
 MDEneverdies - GameAdmin
-dreadweaver - GameAdmin
-mylittlepony88 - GameAdmin
+xlyana - GameAdmin
+emotas18 - Host
+Yippee Ki Yay - Host
