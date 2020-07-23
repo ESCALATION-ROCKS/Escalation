@@ -346,7 +346,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
-	back = /obj/item/weapon/gun/launcher/rpg7
+	back = /obj/item/weapon/storage/backpack/rpgsa
+	l_hand = /obj/item/weapon/gun/launcher/rpg7
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = null
 	r_pocket = null
