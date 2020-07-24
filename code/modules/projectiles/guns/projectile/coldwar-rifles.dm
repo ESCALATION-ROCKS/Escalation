@@ -129,9 +129,11 @@
 
 	if(ammo_magazine)
 		icon_state = "ak74"
+		item_state = "ak74"
 		wielded_item_state = "ak74-wielded"
 	else
 		icon_state = "ak74-empty"
+		item_state = "ak74-empty"
 		wielded_item_state = "ak74-wielded-empty"
 	update_held_icon()
 
