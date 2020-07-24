@@ -567,7 +567,7 @@
 	item_state = "kk62"
 	w_class = 5
 	force = 12.5
-	accuracy = 2.5
+	accuracy = 3
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 100
 	caliber = "762x39"
@@ -577,7 +577,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x39v
 	one_hand_penalty = 9
 	automatic = FALSE
-	jam_chance = 2
+	jam_chance = 2.5
 	slowdown_general = 0.8
 
 	wielded_item_state = "kk62-wielded"
