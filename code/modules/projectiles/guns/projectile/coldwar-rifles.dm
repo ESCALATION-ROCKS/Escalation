@@ -96,6 +96,7 @@
 	name = "AK-74"
 	desc = "A standard-issue Soviet Army combat rifle. Chambers 5.45x39 rounds."
 	icon_state = "ak74"
+	item_state = "ak74"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
@@ -121,10 +122,20 @@
 	jam_chance = 1.5
 	slowdown_general = 0.45
 
+
+
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74/update_icon()
-	icon_state = (ammo_magazine)? "ak74" : "ak74-empty"
-	wielded_item_state = (ammo_magazine)? "ak74-wielded" : "ak74-wielded-empty"
 	..()
+
+	if(ammo_magazine)
+		icon_state = "ak74"
+		item_state = "ak74"
+		wielded_item_state = "ak74-wielded"
+	else
+		icon_state = "ak74-empty"
+		item_state = "ak74-empty"
+		wielded_item_state = "ak74-wielded-empty"
+	update_held_icon()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74/black
 	desc = "AK-74 with polymer kit and dim finish. Chambers 5.45x39 rounds."
@@ -142,6 +153,7 @@
 	name = "AK-74"
 	desc = "A standard-issue Soviet Army combat rifle with a GP-25 launcher attached. Chambers 5.45x39 rounds."
 	icon_state = "ak74gl"
+	item_state = "ak74gl"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
@@ -197,9 +209,15 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/update_icon()
-	icon_state = (ammo_magazine)? "ak74gl" : "ak74gl-empty"
-	wielded_item_state = (ammo_magazine)? "ak74gl-wielded" : "ak74gl-wielded-empty"
 	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "ak74gl"
+		wielded_item_state = "ak74gl-wielded"
+	else
+		icon_state = "ak74gl-empty"
+		wielded_item_state = "ak74gl-wielded-empty"
+
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/verb/set_gp()
 	set name = "Grenade Launcher"
