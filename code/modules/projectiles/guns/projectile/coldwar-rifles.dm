@@ -980,7 +980,7 @@
 		wielded_item_state = "aks-wielded-empty"
 
 
-/obj/item/weapon/gun/projectile/automatic/rifle/rk62s
+/obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	name = "RK62"
 	desc = "A standard-issue Finnish combat rifle. Chambers 7.62x39 rounds."
 	icon_state = "rk62"
