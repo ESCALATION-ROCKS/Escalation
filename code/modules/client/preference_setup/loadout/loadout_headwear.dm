@@ -13,3 +13,7 @@
 	display_name = "headband, red"
 	path = 	/obj/item/clothing/head/headband/red
 	cost = 3
+
+/datum/gear/hats/bdw
+	path = /obj/item/clothing/head/beret/bundeswehr
+	cost = 0
