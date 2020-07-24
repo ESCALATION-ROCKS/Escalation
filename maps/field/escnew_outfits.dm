@@ -307,6 +307,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	id_type = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	r_pocket = null
@@ -872,7 +873,8 @@
 	name = OUTFIT_JOB_NAME("Coldwar - BDW Grenadier")
 	uniform = /obj/item/clothing/under/bundeswehr/olive/soldat
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
+	holster = /obj/item/weapon/storage/belt/holster/hk69
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	r_pocket = null
@@ -901,7 +903,7 @@
 	uniform = /obj/item/clothing/under/bundeswehr/olive/unter
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
 	holster = /obj/item/weapon/storage/belt/holster/bdw
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	l_ear = /obj/item/device/binoculars/nato

@@ -213,7 +213,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	screen_shake = 1
 	release_force = 2
 	throw_distance = 40
-	slot_flags = SLOT_BELT | SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_BELT | SLOT_BACK_GUN | SLOT_BACK | SLOT_HOLSTER
 	var/cover_opened = FALSE
 
 /obj/item/weapon/gun/launcher/grenade/hk69/Initialize()

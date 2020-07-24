@@ -160,6 +160,22 @@
 		/obj/item/ammo_magazine/a9x19
 		)
 
+/obj/item/weapon/storage/belt/holster/hk69
+	storage_slots = 1
+	max_w_class = ITEM_SIZE_HUGE
+	holster_sound = 'sound/effects/holster/holsterin.ogg'
+	unholster_sound = 'sound/effects/holster/holsterout.ogg'
+	special_item = /obj/item/weapon/gun/launcher/grenade/hk69
+	desc = "This holster can hold the HK69 Grenade Launcher."
+	startswith = list(
+		/obj/item/weapon/gun/launcher/grenade/hk69
+		)
+	can_hold = list(
+		/obj/item/weapon/gun/launcher/grenade/hk69,
+		/obj/item/weapon/grenade/frag/shell40mm
+		)
+
+
 
 /obj/item/weapon/storage/belt/holster/sheath
 	name = "sheath"
