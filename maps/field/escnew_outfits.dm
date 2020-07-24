@@ -295,8 +295,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -321,7 +321,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
 	back = /obj/item/weapon/radioset/r105d
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -348,7 +348,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	back = /obj/item/weapon/storage/backpack/rpgsa
 	l_hand = /obj/item/weapon/gun/launcher/rpg7
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = null
 	r_pocket = null
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -361,7 +361,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	back = /obj/item/weapon/storage/backpack/rpgsa/assistant
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -374,8 +374,8 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	r_pocket = null
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
@@ -387,7 +387,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back = /obj/item/weapon/radioset/r105d
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = null
 	r_pocket = null
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -399,8 +399,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -412,10 +412,10 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
 	l_ear = /obj/item/device/binoculars/wp
@@ -425,7 +425,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Sanitater")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
 	back = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	back_2 = /obj/item/weapon/storage/backpack/summedsan
@@ -453,7 +453,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/nvaddr/officer
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	r_pocket = /obj/item/weapon/masterkey/nvaprapor
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
@@ -466,7 +466,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
 	l_ear = /obj/item/device/binoculars/wp
@@ -478,7 +478,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	l_pocket = /obj/item/weapon/masterkey/nvaco
 	r_pocket = null
@@ -492,7 +492,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/pkm
-	right_pouch =/obj/item/weapon/storage/belt/suit/ammo/sa/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -505,7 +505,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch =/obj/item/weapon/storage/belt/suit/ammo/sa/lmg
 	r_pocket = null
 	head = /obj/item/clothing/head/garcap/nvaddr

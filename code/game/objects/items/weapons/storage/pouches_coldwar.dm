@@ -402,7 +402,7 @@
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	w_class = ITEM_SIZE_HUGE
 	name = "NVA DDR Ammo Pouch"
-	desc = "That one can store four AK or SVD magazines."
+	desc = "Stores up to four AK or SVD magazines."
 	icon_state = "nvaddr_ammo"
 	item_state = "nvaddr_ammo"
 	storage_slots = 4
