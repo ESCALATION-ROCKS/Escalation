@@ -448,7 +448,7 @@
 	item_state = "sa_ammo"
 	storage_slots = 4
 	can_hold = list(
-		/obj/item/ammo_magazine/c762x39f,
+		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
