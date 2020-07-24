@@ -120,19 +120,6 @@
 /obj/item/ammo_magazine/c762x39m/empty
 	initial_ammo = 0
 
-/obj/item/ammo_magazine/c762x39f
-	name = "magazine (7.62x39mm)"
-	icon_state = "7.62x39mmf"
-	mag_type = MAGAZINE
-	caliber = "762x39"
-	ammo_type = /obj/item/ammo_casing/a762x39
-	max_ammo = 30
-	multiple_sprites = 1
-	load_delay = 10
-
-/obj/item/ammo_magazine/c762x39f/empty
-	initial_ammo = 0
-
 /obj/item/ammo_magazine/c762x39v
 	name = "ammo box (7.62x39mm)"
 	icon_state = "kk62"
