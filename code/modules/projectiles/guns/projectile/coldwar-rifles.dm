@@ -999,7 +999,7 @@
 	caliber = "762x39"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
-	allowed_magazines = /obj/item/ammo_magazine/c762x39f
+	allowed_magazines = /obj/item/ammo_magazine/c762x39m
 	magazine_type = null
 	one_hand_penalty = 3
 	accuracy = 2.65
@@ -1027,4 +1027,3 @@
 	else
 		icon_state = "rk62-empty"
 		wielded_item_state = "rk62-wielded-empty"
-	
