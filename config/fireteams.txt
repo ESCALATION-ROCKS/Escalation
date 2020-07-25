@@ -176,7 +176,7 @@ Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
@@ -188,7 +188,7 @@ Gruppe 'Berta':nvaddr
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
@@ -200,7 +200,7 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
@@ -212,7 +212,7 @@ Gruppe 'Dora':nvaddr
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
@@ -224,7 +224,7 @@ Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
