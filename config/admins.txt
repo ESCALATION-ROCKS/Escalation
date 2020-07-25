@@ -1,10 +1,10 @@
-Dawnie - Host
-Axios - Host
 Turret_Drehturm - Developer
 cabostein - Host
 Toxici11i - Developer
-toxici11i - Developer
-MDEneverdies - GameAdmin
+SeverePwnage - GameAdmin
 xlyana - GameAdmin
-emotas18 - Host
+emoats18 - Host
 Yippee Ki Yay - Host
+MrGabol100 - GameAdmin
+DanseMacabre - GameAdmin
+venezuelanministryoflands - Host
