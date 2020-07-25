@@ -145,18 +145,35 @@ Gruppe Foxtrot:bund
 /datum/job/escalation/bund/bdwrifle
 @END@
 
-Schwere Waffen Gruppe:bund
-/datum/job/escalation/bund/mgcom
-/datum/job/escalation/bund/mgload
-/datum/job/escalation/bund/mgop
+Gruppe Golf:bund
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
 @END@
 
+Gruppe Hotel:bund
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+@END@
 
-Gruppe 'Grigoriy':nvaddr
+Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamgas
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarifle
@@ -164,11 +181,11 @@ Gruppe 'Grigoriy':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 @END@
 
-Gruppe 'Dmitriy':nvaddr
+Gruppe 'Berta':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamgas
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarifle
@@ -176,11 +193,11 @@ Gruppe 'Dmitriy':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 @END@
 
-3.Gruppe 'Elena':nvaddr
+Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamgas
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarifle
@@ -188,3 +205,26 @@ Gruppe 'Dmitriy':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 @END@
 
+Gruppe 'Dora':nvaddr
+/datum/job/escalation/nvaddr/nvasl
+/datum/job/escalation/nvaddr/nvasld
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvasrad
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+@END@
+
+Gruppe 'Emil':nvaddr
+/datum/job/escalation/nvaddr/nvasl
+/datum/job/escalation/nvaddr/nvasld
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvasrad
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+@END@
