@@ -492,6 +492,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/pkm
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
@@ -844,6 +845,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/bdw
 	back_2 = /obj/item/weapon/gun/projectile/automatic/mg3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/lmg
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
@@ -885,7 +887,7 @@
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
