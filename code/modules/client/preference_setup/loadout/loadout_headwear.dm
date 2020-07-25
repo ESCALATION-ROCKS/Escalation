@@ -15,5 +15,6 @@
 	cost = 3
 
 /datum/gear/hats/bdw
+	display_name = "Bunderswehr mountaineer beret"
 	path = /obj/item/clothing/head/beret/bundeswehr
 	cost = 0

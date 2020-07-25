@@ -170,8 +170,8 @@
 	icon_state_alt = "bdwgarrisoncap_alt"
 
 /obj/item/clothing/head/beret/bundeswehr
-	name = "Mountaineer Beret"
-	desc = "Thats a Green Beret common amongst Bundesvehr Mountaneer divisions."
+	name = "mountaineer beret"
+	desc = "A green beret common amongst Bundeswehr mountaineer divisions."
 	icon_state = "bdwberret"
 
 //BDW helmets
