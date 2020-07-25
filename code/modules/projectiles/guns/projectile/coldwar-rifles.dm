@@ -226,7 +226,7 @@
 
 	if(launcher)
 		use_launcher = !use_launcher
-		if(do_after(usr, 15, src))
+		if(do_after(usr, 7, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
 
@@ -476,7 +476,7 @@
 
 	if(launcher)
 		use_launcher = !use_launcher
-		if(do_after(usr, 15, src))
+		if(do_after(usr, 7, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
 
@@ -613,7 +613,7 @@
 
 	if(launcher)
 		use_launcher = !use_launcher
-		if(do_after(usr, 15, src))
+		if(do_after(usr, 7, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
 
@@ -740,7 +740,7 @@
 
 	if(launcher)
 		use_launcher = !use_launcher
-		if(do_after(usr, 15, src))
+		if(do_after(usr, 7, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 
 
@@ -908,7 +908,7 @@
 
 	if(launcher)
 		use_launcher = !use_launcher
-		if(do_after(usr, 15, src))
+		if(do_after(usr, 7, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
 
