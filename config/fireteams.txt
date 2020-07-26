@@ -228,3 +228,51 @@ Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
+
+Rhyma 'Aarne':finn
+/datum/job/escalation/finn/finnsl
+/datum/job/escalation/finn/finnsld
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnsrad
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocketass
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
+@END@
+
+Rhyma 'Bertta':finn
+/datum/job/escalation/finn/finnsl
+/datum/job/escalation/finn/finnsld
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnsrad
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocketass
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
+@END@
+
+Rhyma 'Celsius':finn
+/datum/job/escalation/finn/finnsl
+/datum/job/escalation/finn/finnsld
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnsrad
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocketass
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
+@END@
+
+Rhyma 'Daavid':finn
+/datum/job/escalation/finn/finnsl
+/datum/job/escalation/finn/finnsld
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnsrad
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocketass
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
+@END@
