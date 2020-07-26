@@ -58,7 +58,6 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 		zoom = 0
 		src.client.pixel_x = 0
 		src.client.pixel_y = 0
-		src.set_face_dir(facingdirnull = 1)
 		src.m_intent = "run"
 
 	return
