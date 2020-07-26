@@ -400,7 +400,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -1028,3 +1028,214 @@
 	l_pocket = /obj/item/weapon/masterkey/bdwsarge
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
 	belt = /obj/item/weapon/storage/belt/harness/bdw
+
+//FINNISH
+
+/decl/hierarchy/outfit/job/coldwar/finn/rifleman
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Rifleman")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
+	r_pocket = null
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	head = /obj/item/clothing/head/finn/winter/ushanka
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/srad
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Squad Radio Operator")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	r_pocket = null
+	back = /obj/item/weapon/radioset/r105d
+	head = /obj/item/clothing/head/finn/winter/ushanka
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/mgunner
+	name = OUTFIT_JOB_NAME("Coldwar - FINN MG")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
+	right_pouch = null
+	r_pocket = null
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	head = /obj/item/clothing/head/finn/winter/ushanka
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/rocket
+	name = OUTFIT_JOB_NAME("Coldwar - FINN RPG")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	back = /obj/item/weapon/gun/launcher/rpg7
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = null
+	r_pocket = null
+	head = /obj/item/clothing/head/finn/winter/ushanka
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/rocketass
+	name = OUTFIT_JOB_NAME("Coldwar - FINN RPG Assistant")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	back = /obj/item/weapon/storage/backpack/rpgsa/assistant
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	r_pocket = null
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
+	head = /obj/item/clothing/head/finn/winter/ushanka
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/mgass
+	name = OUTFIT_JOB_NAME("Coldwar - FINN MG Assistant")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
+	r_pocket = null
+	head = /obj/item/clothing/head/finn/winter/ushanka
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/radio
+	name = OUTFIT_JOB_NAME("Coldwar - FINN HQ Radio Operator")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back = /obj/item/weapon/radioset/r105d
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = null
+	r_pocket = null
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/sld
+	name = OUTFIT_JOB_NAME("Coldwar - FINN SL Deputy")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
+	r_pocket = null
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/sl
+	name = OUTFIT_JOB_NAME("Coldwar - FINN SL")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
+	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	r_pocket = /obj/item/weapon/masterkey/nvasarge
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/corpsman
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Corpsman")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/field
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	r_pocket = null
+	back = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	back_2 = /obj/item/weapon/storage/backpack/finn/medical
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	head = /obj/item/clothing/head/finn/winter/ushanka
+	l_pocket = /obj/item/weapon/key/wpmed
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/doctor
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Field Surgerist")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/field
+	back_2 = /obj/item/weapon/storage/backpack/finn/medical
+	left_pouch = null
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	l_pocket = /obj/item/weapon/masterkey/nvadoc
+	r_pocket = null
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/quart
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Quartermaster")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	shoes = /obj/item/clothing/shoes/soviet/field
+	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	r_pocket = /obj/item/weapon/masterkey/nvaprapor
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/plass
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon Leader Deputy")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	shoes = /obj/item/clothing/shoes/soviet/field
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	r_pocket = /obj/item/weapon/masterkey/nvasarge
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/pl
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon Leader")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	l_pocket = /obj/item/weapon/masterkey/nvaco
+	r_pocket = null
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/platmgunner
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon MG")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
+	right_pouch =/obj/item/weapon/storage/belt/suit/ammo/finn/lmg
+	r_pocket = null
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/platmgass
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon MG Assistant")
+	uniform = /obj/item/clothing/under/finn/talvimetsa
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
+//	back_2 =
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch =/obj/item/weapon/storage/belt/suit/ammo/finn/lmg
+	r_pocket = null
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	belt = /obj/item/weapon/storage/belt/harness/finn/
