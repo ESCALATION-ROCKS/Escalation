@@ -173,9 +173,12 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	throw_distance = 40
 	desc = "Not much more than a tube and a firing mechanism, this grenade launcher is designed to be fitted to a rifle."
 	whitelisted_grenades = list(
-		/obj/item/weapon/grenade/frag/shell40mm)
+		/obj/item/weapon/grenade/frag/shell40mm,
+		/obj/item/weapon/grenade/smokebomb/shell40mm
+		)
 	blacklisted_grenades = list(
 		/obj/item/weapon/grenade/frag/vog25,
+		/obj/item/weapon/grenade/smokebomb/vog25,
 		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/grenade/smokebomb
 		)
@@ -187,9 +190,12 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	throw_distance = 40
 	desc = "Not much more than a tube and a firing mechanism, this grenade launcher is designed to be fitted to a rifle."
 	whitelisted_grenades = list(
-		/obj/item/weapon/grenade/frag/vog25)
+		/obj/item/weapon/grenade/frag/vog25,
+		/obj/item/weapon/grenade/smokebomb/vog25,
+		)
 	blacklisted_grenades = list(
 		/obj/item/weapon/grenade/frag/shell40mm,
+		/obj/item/weapon/grenade/smokebomb/shell40mm,
 		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/grenade/smokebomb
 		)
@@ -199,9 +205,12 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	name = "HK69A1 grenade launcher"
 	desc = "That's a rifle grenade launcher used by Bundeswehr"
 	whitelisted_grenades = list(
-		/obj/item/weapon/grenade/frag/shell40mm)
+		/obj/item/weapon/grenade/frag/shell40mm,
+		/obj/item/weapon/grenade/smokebomb/shell40mm
+		)
 	blacklisted_grenades = list(
 		/obj/item/weapon/grenade/frag/vog25,
+		/obj/item/weapon/grenade/smokebomb/vog25,
 		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/grenade/smokebomb
 		)
@@ -220,14 +229,13 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	..()
 	update_icon()
 
-/obj/item/weapon/gun/launcher/grenade/hk69/attackby(obj/item/I, mob/user)//redeterm to use cover_opened
-	if(istype(I, /obj/item/weapon/grenade))
-		if(cover_opened)
-			load(I, user)
-		else
-			to_chat(user, "<span class='warning'>[src]'s cover is closed! Open it first </span>")
-	else
-		..()
+/obj/item/weapon/gun/launcher/grenade/hk69/consume_next_projectile()
+	if(!cover_opened)
+		return ..()
+	else if(chambered | cover_opened)
+		chambered.det_time = 10
+		chambered.activate(null)
+	return chambered | cover_opened
 
 //load and unload directly into chambered
 /obj/item/weapon/gun/launcher/grenade/hk69/load(obj/item/weapon/grenade/G, mob/user)

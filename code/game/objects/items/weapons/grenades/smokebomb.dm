@@ -38,6 +38,23 @@
 	qdel(src)
 	return
 
+/obj/item/weapon/grenade/smokebomb/shell40mm
+	name = "40x46mm 'M381 SMOKE' grenade shell"
+	desc = "Smoke Round, Cannot be thrown as the usual grenade, by the way."
+	icon_state = "M406s"
+	arm_sound = 'sound/weapons/grenlauncher.wav'
+
+/obj/item/weapon/grenade/smokebomb/shell40mm/attack_self(mob/user)
+	return
+/obj/item/weapon/grenade/smokebomb/vog25
+	name = "40x103mm 'VOG-25 SMOKE' grenade shell"
+	desc = "Smoke Round, Cannot be thrown as the usual grenade, by the way."
+	icon_state = "40x103mmshells"
+	arm_sound = 'sound/weapons/grenlauncher.wav'
+
+/obj/item/weapon/grenade/frsmokebombag/vog25/attack_self(mob/user)
+	return
+
 /obj/item/weapon/grenade/smokebomb/nato
 	desc = "It is set to detonate in 2 seconds."
 	name = "M18 smoke grenade"
