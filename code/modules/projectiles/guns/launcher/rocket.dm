@@ -241,6 +241,7 @@
 /obj/item/weapon/gun/launcher/oneuse/rpg18/rpg22
 	name = "RPG-22 'Netto'"
 	icon_state = "rpg22"
+	item_state = "rpg22"
 
 
 /obj/item/weapon/gun/launcher/oneuse/m72
