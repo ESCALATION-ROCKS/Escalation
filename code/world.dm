@@ -622,11 +622,15 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>Escalation: 1984 (EN/RU)</b>";
+	s += "<b>Escalation: 1984 - Western Germany</b>";
+	s += "<br>"
+	s += "An immersive tactical combat experience set in the Cold War."
+	s += "<br>"
+	s += "Join as an Observer while you apply on our DISCORD!"
+	s += "<br>"
 	s += " ("
 	s += "<a href=\"https://discord.gg/hp7sFdu\">" //Change this to wherever you want the hub to link to.
-//	s += "[game_version]"
-	s += "JOIN OUR DISCORD TO PLAY"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "DISCORD WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"
 
@@ -659,9 +663,6 @@ var/world_topic_spam_protect_time = world.timeofday
 	else if (n > 0)
 		features += "~[n] player"
 
-
-	if (config && config.hostedby)
-		features += "hosted by <b>Dawnie</b>"
 
 	if (features)
 		s += ": [jointext(features, ", ")]"
