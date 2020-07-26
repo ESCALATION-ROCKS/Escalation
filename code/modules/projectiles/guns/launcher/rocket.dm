@@ -58,9 +58,10 @@
 	desc = "A grenade launcher, standard-issued by the Soviet Army."
 	icon_state = "rpg" ///change
 	item_state = "rpg1" ///change
+	slowdown_general = 0.45
 	w_class = 5
 	throw_speed = 3
-	one_hand_penalty = 20
+	one_hand_penalty = 100
 	throw_range = 40
 	force = 5.0
 	flags =  CONDUCT
@@ -171,9 +172,10 @@
 	desc = "Single-use rocket launcher used by the Soviet Army. Also known as 'Mukha'."
 	icon_state = "rpg18"
 	item_state = "rpg18"
+	slowdown_general = 0.45
 	w_class = 4
 	throw_speed = 2
-	one_hand_penalty = 20
+	one_hand_penalty = 100
 	throw_range = 10
 	force = 5.0
 	flags =  CONDUCT
@@ -249,7 +251,8 @@
 	desc = "That's the one-use RPG used by US army."
 	icon_state = "m72"
 	item_state = "m72"
-	one_hand_penalty = 20
+	slowdown_general = 0.45
+	one_hand_penalty = 100
 	w_class = 4
 	throw_speed = 2
 	throw_range = 10

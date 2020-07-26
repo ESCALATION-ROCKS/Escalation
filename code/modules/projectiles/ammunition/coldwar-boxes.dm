@@ -194,7 +194,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
-	max_ammo = 200
+	max_ammo = 100
 	multiple_sprites = 1
 	load_delay = 30
 
@@ -366,7 +366,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "127x108"
 	ammo_type = /obj/item/ammo_casing/a127x108mm
-	max_ammo = 200
+	max_ammo = 100
 	multiple_sprites = 1
 	load_delay = 403
 
