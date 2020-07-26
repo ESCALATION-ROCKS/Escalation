@@ -335,7 +335,7 @@
 		throwtime_divider = 2
 
 	//actually throw it!
-	if (item && do_after(src, max(1, round(abs_dist(src, target)/throwtime_divider*3)), get_turf(src)))
+	if (item && do_after(src, max(1, round(abs_dist(src, target)/throwtime_divider*2)), get_turf(src)))
 		remove_from_mob(item)
 		item.loc = loc
 		visible_message("<span class = 'red'>[src] throws the [item].</span>")

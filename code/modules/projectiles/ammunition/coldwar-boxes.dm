@@ -50,6 +50,7 @@
 	max_ammo = 100
 	multiple_sprites = 1
 	load_delay = 30
+	slowdown_general = 0.1
 
 /obj/item/ammo_magazine/c762x51b/ap
 	name = "AP magazine (7.62x51mm)"
@@ -66,6 +67,7 @@
 	max_ammo = 40
 	multiple_sprites = 1
 	load_delay = 15
+	slowdown_general = 0.1
 
 /obj/item/ammo_magazine/c762x39b/empty
 	initial_ammo = 0
@@ -183,6 +185,7 @@
 	max_ammo = 100
 	multiple_sprites = 1
 	load_delay = 30
+	slowdown_general = 0.1
 
 /obj/item/ammo_magazine/c762x54b/csla
 	name = "ammo box (7.62x54mm)"
@@ -241,6 +244,7 @@
 	max_ammo = 45
 	multiple_sprites = 1
 	w_class = 3
+	slowdown_general = 0.1
 
 /obj/item/ammo_magazine/c545x39b/empty
 	initial_ammo = 0
@@ -306,6 +310,7 @@
 	ammo_type = /obj/item/ammo_casing/a127x108mm
 	max_ammo = 50
 	multiple_sprites = 1
+	slowdown_general = 0.1
 
 /obj/item/ammo_magazine/c556x45s
 	name = "magazine (5.56x45mm)"
