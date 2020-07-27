@@ -639,7 +639,7 @@ var/world_topic_spam_protect_time = world.timeofday
 	if(ticker)
 		if(master_mode)
 			features += master_mode
-	else
+	//else
 		features += "<b>STARTING</b>"
 /*
 	if (!config.enter_allowed)
