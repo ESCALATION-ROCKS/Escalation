@@ -20,7 +20,7 @@
 	zoom(user, zoom_offset, 9)
 
 /obj/item/device/binoculars/attack_self(mob/user)
-	toggle_scope(user, 2.0)//sniper rifles have 2.0 max
+	toggle_scope(user, 4.0)//sniper rifles have 2.0 max
 
 /obj/item/device/binoculars/wp
 	name = "binoculars"

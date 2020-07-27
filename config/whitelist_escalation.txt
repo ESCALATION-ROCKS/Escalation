@@ -361,3 +361,8 @@ Very nise persin = {
 NazbolGang = {
 ::ALL::
 }
+
+MrGabol100 = {
+::ALL::
+}
+
