@@ -357,7 +357,7 @@ DISABLE_AOOC
 DISABLE_RESPAWN
 
 ## Respawn delay in minutes before one may respawn as a crew member.
-#RESPAWN_DELAY 0
+#RESPAWN_DELAY 1
 
 ## Strength of ambient star light. Set to 0 or less to turn off. A value of 1 is unlikely to have a noticeable effect in most lighting systems.
 STARLIGHT 1
