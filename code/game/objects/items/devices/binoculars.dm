@@ -17,7 +17,7 @@
 	var/zoom_offset = round(world.view * zoom_amount)
 //	var/view_size = round(world.view + zoom_amount)
 
-	zoom(user, zoom_offset, 28)
+	zoom(user, zoom_offset, 14)
 
 /obj/item/device/binoculars/attack_self(mob/user)
 	toggle_scope(user, 2.0)//sniper rifles have 2.0 max
