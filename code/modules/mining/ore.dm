@@ -72,12 +72,8 @@
 		var/obj/item/weapon/shovel/C = W
 		if(C.working)
 			return
-		if((locate(/obj/structure/chezh_hangehog) || \
-			locate(/obj/structure/brutswehr) || \
-			locate(/obj/structure/sandbag) || \
-			locate(/obj/structure/sandbag/concrete_block)) in src.loc.contents \
-			)
-			to_chat(user, "\red There is no more space.")
+		if(locate(/obj/structure/chezh_hangehog || /obj/structure/brutswehr || /obj/structure/sandbag/concrete_block) in src.loc.contents)
+			to_chat(user, "<span class='warning'>There is no more space.</span>")
 			return 0
 		if(istype(src, /turf/unsimulated/floor/river/deep || /turf/unsimulated/floor/river))
 			to_chat(user, "\red You can't dig brustwehrs on water.")
