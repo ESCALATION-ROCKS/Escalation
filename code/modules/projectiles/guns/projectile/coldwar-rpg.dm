@@ -76,6 +76,8 @@
 	desc = "Single-use rocket launcher used by the Soviet Army. Also known as 'Mukha'."
 	icon_state = "rpg18"
 	item_state = "smaw-wielded"
+	slowdown_general = 0.45
+	one_hand_penalty = 100
 	w_class = 4
 	throw_speed = 2
 	throw_range = 10
@@ -142,6 +144,8 @@
 	desc = "Single-use rocket launcher used by the US Army."
 	icon_state = "m72law"
 	item_state = "smaw-wielded"
+	slowdown_general = 0.45
+	one_hand_penalty = 100
 	w_class = 4
 	throw_speed = 2
 	throw_range = 10

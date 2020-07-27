@@ -252,7 +252,7 @@
 	name = "harness"
 	desc = "A cheap harness used by Finnnish military forces."
 	icon_state = "sa_harness"
-	item_state = "sa_harness"
+	item_state = "sm_harness"
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
@@ -269,7 +269,7 @@
 	name = "belt"
 	desc = "A belt used by Finnish officers."
 	icon_state = "sa_officerharness"
-	item_state = "sa_officerharness"
+	item_state = "sm_harness_officer"
 	storage_slots = 0
 	can_hold = null
 

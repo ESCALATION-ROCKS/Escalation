@@ -32,7 +32,7 @@
 	icon_state = "lifchik_1"
 	item_state = "armor"
 	armor = list(melee = 0, bullet = 5, laser = 0, energy = 25, bomb = 15, bio = 0, rad = 0)
-	slowdown_general = 0.2
+	slowdown_general = 0.0
 
 /obj/item/clothing/suit/storage/vest/soviet/lifchik/New()
 	..()
@@ -44,7 +44,7 @@
 	icon_state = "lifchik_2"
 	item_state = "armor"
 	armor = list(melee = 0, bullet = 5, laser = 0, energy = 25, bomb = 15, bio = 0, rad = 0)
-	slowdown_general = 0.2
+	slowdown_general = 0.0
 
 /obj/item/clothing/suit/storage/vest/soviet/lifchikalt/New()
 	..()
@@ -94,8 +94,8 @@
 	desc = "An outdated flak vest used by NATO personnel."
 	icon_state = "flakvest_nato"
 	item_state = "armor"
-	armor = list(melee = 24, bullet = 26, laser = 0, energy = 25, bomb = 38, bio = 0, rad = 0)
-	slowdown_general = 0.2
+	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 38, bio = 0, rad = 0)
+	slowdown_general = 0.3
 
 
 /obj/item/clothing/suit/storage/vest/flakvest/New()
@@ -108,7 +108,7 @@
 	icon_state = "bando_nato"
 	item_state = "armor"
 	armor = list(melee = 0, bullet = 5, laser = 0, energy = 25, bomb = 15, bio = 0, rad = 0)
-	slowdown_general = 0.2
+	slowdown_general = 0.0
 
 /obj/item/clothing/suit/storage/vest/bando/New()
 	..()
