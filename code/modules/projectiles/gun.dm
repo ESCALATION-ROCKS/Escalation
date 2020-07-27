@@ -100,8 +100,8 @@
 	var/dist_shot_sound = null
 
 
-/obj/item/weapon/gun/New()
-	..()
+/obj/item/weapon/gun/Initialize()
+	. = ..()
 	for(var/i in 1 to firemodes.len)
 		firemodes[i] = new /datum/firemode(src, firemodes[i])
 
@@ -206,12 +206,12 @@
 
 	if(world.time < next_fire_time)
 		if (world.time % 3) //to prevent spam
-			return
+			to_chat(user, "<span class='warning'>[src] is not ready to fire again!</span>")
 		return
 
-	var/shoot_time = (burst - 1)* burst_delay//burst - bullets count for one gun's burst so 1*0 = 0?
-	user.setClickCooldown(shoot_time / 3) //no clicking on things while shooting
-	user.setMoveCooldown(shoot_time / 3) //no moving while shooting either
+	var/shoot_time = (burst - 1)* burst_delay
+	user.setClickCooldown(shoot_time) //no clicking on things while shooting
+	user.setMoveCooldown(shoot_time) //no moving while shooting either
 	next_fire_time = world.time + shoot_time
 
 	var/held_twohanded = (user.can_wield_item(src) && src.is_held_twohanded(user))
@@ -241,9 +241,13 @@
 			pointblank = 0
 
 	//update timing
-	user.setClickCooldown(DEFAULT_QUICK_COOLDOWN / 3)
-	user.setMoveCooldown(move_delay / 3)
+	user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
+	user.setMoveCooldown(move_delay)
 	next_fire_time = world.time + fire_delay
+	var/delay = max(burst_delay+1, fire_delay)//, DEFAULT_QUICK_COOLDOWN)
+	if(delay)
+		user.setClickCooldown(delay)
+	next_fire_time = world.time + delay
 
 //obtains the next projectile to fire
 /obj/item/weapon/gun/proc/consume_next_projectile()
@@ -348,7 +352,7 @@
 	var/mob/living/carbon/human/H = user
 	if(screen_shake || !H.arm_actuators)
 		spawn()
-			shake_camera(user, screen_shake+1/user.accstatmodifier(user.skill_ranged), screen_shake)
+			shake_camera(user, screen_shake/user.accstatmodifier(user.skill_ranged), screen_shake)
 	update_icon()
 
 
@@ -375,6 +379,7 @@
 
 	var/acc_mod = burst_accuracy[min(burst, burst_accuracy.len)]
 	var/disp_mod = dispersion[min(burst, dispersion.len)]
+
 	var/stood_still = round((world.time - user.l_move_time)/15)
 	if(stood_still)
 		acc_mod += 1 * max(2, stood_still)
