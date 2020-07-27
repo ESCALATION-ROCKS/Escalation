@@ -503,21 +503,21 @@
 	desc = "Generic grenade satchel used by Warsaw pact."
 	icon_state = "sa_ugl"
 	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/vog25/)
+	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	name = "grenade satchel"
 	desc = "Generic grenade satchel used by Warsaw pact."
 	icon_state = "nnaddr_ugl"
 	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/vog25/)
+	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
 	name = "grenade bandolier"
 	desc = "Generic grenade satchel used by USMC."
 	icon_state = "usmc_grenbandolier"
 	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/)
+	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/flarepouch
 	name = "Flare Pouch."
@@ -538,4 +538,4 @@
 	desc = "Generic grenade satchel used by Bundeswehr."
 	icon_state = "bdw_grenbandolier"
 	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/)
+	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
