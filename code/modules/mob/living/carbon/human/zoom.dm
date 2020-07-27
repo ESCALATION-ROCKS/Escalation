@@ -31,7 +31,7 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 		src.client.view = 9
 		zoom = 1
 
-		var/tilesize = 35
+		var/tilesize = 50
 		var/viewoffset = tilesize * 6
 
 		switch(src.dir)
