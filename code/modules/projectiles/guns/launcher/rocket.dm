@@ -173,7 +173,7 @@
 	icon_state = "rpg18"
 	item_state = "rpg18"
 	slowdown_general = 0.45
-	w_class = 4
+	w_class = 5
 	throw_speed = 2
 	one_hand_penalty = 100
 	throw_range = 10
@@ -253,7 +253,7 @@
 	item_state = "m72"
 	slowdown_general = 0.45
 	one_hand_penalty = 100
-	w_class = 4
+	w_class = 5
 	throw_speed = 2
 	throw_range = 10
 	force = 5.0
