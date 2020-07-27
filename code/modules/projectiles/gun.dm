@@ -311,20 +311,6 @@
 				new /obj/item/weapon/metalparts(user.loc)
 				return
 
-	if(!silenced)
-		if(reflex)
-			user.visible_message(
-				"<span class='reflex_shoot'><b>\The [user] fires \the [src][pointblank ? " point blank at \the [target]":""] by reflex!</b></span>",
-				"<span class='reflex_shoot'>You fire \the [src] by reflex!</span>",
-				"You hear a [fire_sound_text]!"
-			)
-		else
-			user.visible_message(
-				"<span class='danger'>\The [user] fires \the [src][pointblank ? " point blank at \the [target]":""]!</span>",
-				"<span class='warning'>You fire \the [src]!</span>",
-				"You hear a [fire_sound_text]!"
-				)
-
 	if(one_hand_penalty)
 		if(!src.is_held_twohanded(user))
 			switch(one_hand_penalty)
