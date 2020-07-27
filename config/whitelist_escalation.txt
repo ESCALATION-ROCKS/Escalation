@@ -331,3 +331,33 @@ Kyrac = {
 N010001100101010101000011010 = {
 ::ALL::
 }
+
+Oddbomber3768 = {
+::ALL::
+}
+
+Xlyana = {
+::ALL::
+}
+
+SeverePwnage = {
+NVA ALL
+::ALL::
+}
+
+
+Turret_Drehturm = {
+::ALL::
+}
+
+verynisepersin = {
+::ALL::
+}
+
+Very nise persin = {
+::ALL::
+}
+
+NazbolGang = {
+::ALL::
+}

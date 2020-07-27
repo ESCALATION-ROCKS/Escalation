@@ -126,6 +126,11 @@
 	w_class = 4
 	slot_flags = null
 
+/obj/item/ammo_casing/rpg_missile/attackby(obj/item/W as obj, mob/user as mob)
+	if(istype(W, /obj/item/ammo_casing))
+		return
+	..()
+
 /obj/item/ammo_casing/rpg_missile/rg7
 	name = "RG-7"
 	desc = "RG-7 missile. Fucking deadly, don't shoout yourself, Abu Hajaar!"
