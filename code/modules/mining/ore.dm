@@ -72,7 +72,7 @@
 		var/obj/item/weapon/shovel/C = W
 		if(C.working)
 			return
-		if(locate(/obj/structure/chezh_hangehog || /obj/structure/brutswehr || /obj/structure/sandbag/concrete_block) in src.loc.contents)
+		if(locate(/obj/structure/chezh_hangehog || /obj/structure/brutswehr || /obj/structure/brutswehrincomplete || /obj/structure/sandbag/concrete_block) in src.loc.contents)
 			to_chat(user, "<span class='warning'>There is no more space.</span>")
 			return 0
 		if(istype(src, /turf/unsimulated/floor/river/deep || /turf/unsimulated/floor/river))
