@@ -1,10 +1,9 @@
-Turret_Drehturm - Developer
-cabostein - Host
-Toxici11i - Developer
-SeverePwnage - GameAdmin
-xlyana - GameAdmin
-emoats18 - Host
-Yippee Ki Yay - Host
-MrGabol100 - GameAdmin
+N010001100101010101000011010 - Host
+Turret_Drehturm - HeadDeveloper
+cabostein - HeadDeveloper
 DanseMacabre - GameAdmin
-venezuelanministryoflands - Host
+xlyana - GameAdmin
+Toxici11i - Developer
+brosephstylin - Developer
+SeverePwnage - GameAdmin
+emoats18 - GameAdmin
