@@ -42,7 +42,7 @@
 	..()
 
 	if(!uvi)
-		uvi = "¹[rand(1,9)]"
+		uvi = "ï¿½[rand(1,9)]"
 	if(dna)
 		dna.ready_dna(src)
 		dna.real_name = real_name
@@ -1682,4 +1682,12 @@ var/list/rank_prefix = list(\
 	"Leutnant" = "Leutnant",\
 	"Unterleutnant" = "Unterleutnant",\
 
+//finnish
+	"Luutnantti" = "Luutnantti",\
+	"Vanrikki" = "Vanrikki",\
+	"Ylikersantti" = "Ylikersantti",\
+	"Kersantti" = "Sgt.",\
+	"Alikersantti " = "Cpl.",\
+	"Korpraali " = "PV2.",\
+	"Jaakri" = "Pfc.",\
 	)

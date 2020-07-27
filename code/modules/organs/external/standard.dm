@@ -69,7 +69,7 @@
 	arterial_bleed_severity = 1.5
 
 /obj/item/organ/external/arm/stun_act(var/stun_amount, var/agony_amount)
-	if(!owner || (agony_amount < 5))
+	if(!owner || (agony_amount < 25))
 		return
 	if(prob(25))
 		owner.grasp_damage_disarm(src)
@@ -102,7 +102,7 @@
 	arterial_bleed_severity = 1.5
 
 /obj/item/organ/external/leg/stun_act(var/stun_amount, var/agony_amount)
-	if(!owner || agony_amount < 5)
+	if(!owner || agony_amount < 25)
 		return
 	if(prob(agony_amount*2))
 		to_chat(owner, "<span class='warning'>Your [src] buckles from the shock!</span>")
@@ -132,7 +132,7 @@
 	can_stand = 1
 	has_tendon = TRUE
 	tendon_name = "Achilles tendon"
-	arterial_bleed_severity = 1
+	has_artery = FALSE
 
 /obj/item/organ/external/foot/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || agony_amount < 5)
@@ -169,7 +169,7 @@
 	can_grasp = 1
 	has_tendon = TRUE
 	tendon_name = "carpal ligament"
-	arterial_bleed_severity = 1
+	has_artery = FALSE
 
 /obj/item/organ/external/hand/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || (agony_amount < 5))
