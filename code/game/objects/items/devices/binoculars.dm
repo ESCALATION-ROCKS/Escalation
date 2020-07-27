@@ -13,7 +13,7 @@
 	throw_speed = 3
 
 
-/obj/item/device/binoculars/proc/toggle_scope(mob/user, var/zoom_amount=8.0)
+/obj/item/device/binoculars/proc/toggle_scope(mob/user, var/zoom_amount=9.0)
 	var/zoom_offset = round(world.view * zoom_amount)
 //	var/view_size = round(world.view + zoom_amount)
 
