@@ -205,7 +205,7 @@
 
 /obj/item/weapon/storage/pill_bottle/paracetamol
 	name = "bottle of paracetamol"
-	desc = "Mild painkiller, also known as Tylenol. Won't fix the cause of your headache (unlike cyanide), but might make it bearable."
+	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries."
 
 	startswith = list(/obj/item/weapon/reagent_containers/pill/paracetamol = 7)
 

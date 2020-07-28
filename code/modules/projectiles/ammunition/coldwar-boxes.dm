@@ -359,18 +359,6 @@
 	multiple_sprites = 1
 	load_delay = 40
 
-/obj/item/ammo_magazine/c127x108b //thing for UTES, check and fix
-	name = "magazine (12.7x108mm)"
-	icon_state = "7.62x51b"
-	mag_type = MAGAZINE
-	w_class = ITEM_SIZE_LARGE
-	caliber = "127x108"
-	ammo_type = /obj/item/ammo_casing/a127x108mm
-	max_ammo = 100
-	multiple_sprites = 1
-	load_delay = 403
-
-
 /obj/item/ammo_magazine/box/paper/
 	max_ammo = 40
 

@@ -84,6 +84,7 @@
 	unwielded_force_divisor = 0.25
 	sharp = 1
 	edge = 1
+	sharpness = 6
 	w_class = ITEM_SIZE_HUGE
 	slot_flags = SLOT_BACK
 	force_wielded = 30

@@ -98,12 +98,12 @@
 
 /obj/item/weapon/pill_pack/doxycycline
 	name = "doxycycline pill pack"
-	desc = "That's will help from the horrible death from gangrena"
+	desc = "A broad spectrum antibiotic to fight against infections."
 	pill_type = /obj/item/weapon/reagent_containers/pill/doxycicline
 
 /obj/item/weapon/pill_pack/phenazepam
 	name = "phenazepam pill pack"
-	desc = "Glory to psychonauts!"
+	desc = "A mild painkiller with a slow metabolization speed. Meant for mild injuries."
 	pill_type = /obj/item/weapon/reagent_containers/pill/phenazepam
 
 /obj/item/weapon/pill_pack/sydnocarbum
@@ -113,12 +113,12 @@
 
 /obj/item/weapon/pill_pack/amidopyrinum
 	name = "amidopyrinum pill pack"
-	desc = "Will help you not bit off your own tongue when you get a pain shock."
+	desc = "A very strong painkiller, intended for use with patients that are in shock. - WARNING! Do not administer if the patient is not breathing."
 	pill_type = /obj/item/weapon/reagent_containers/pill/amidopyrinum
 
 /obj/item/weapon/pill_pack/paracetamol
 	name = "paracetamol pill pack"
-	desc = "Such a useless stuff!"
+	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries."
 	pill_type = /obj/item/weapon/reagent_containers/pill/paracetamol
 
 /obj/item/weapon/pill_pack/naloxone
@@ -128,12 +128,12 @@
 
 /obj/item/weapon/pill_pack/promethazine
 	name = "promethazine pill pack"
-	desc = "You have no idea what's that."
+	desc = "Mild sedative for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness."
 	pill_type = /obj/item/weapon/reagent_containers/pill/promethazine
 
 /obj/item/weapon/pill_pack/ethaperazine
 	name = "ethaperazine pill pack"
-	desc = "You have no idea what's that."
+	desc = "Weak sedative and antiemetic drug for patients that require rest. Provides relief from nausea and causes drowsiness."
 	pill_type = /obj/item/weapon/reagent_containers/pill/ethaperazine
 
 
@@ -347,7 +347,7 @@
 //pillboxes
 
 /obj/item/weapon/storage/box/pill_box/phenazepam
-	name = "phenamepam pill box"
+	name = "phenazepam pill box"
 	startswith = list(/obj/item/weapon/pill_pack/phenazepam = 2)
 
 /obj/item/weapon/storage/box/pill_box/amidopyrinum

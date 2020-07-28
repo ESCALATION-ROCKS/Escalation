@@ -198,6 +198,7 @@
 
 /obj/item/weapon/reagent_containers/syrette/morphine
 	name = "morphine syrette"
+	desc = "Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 
 	New()
 		..()

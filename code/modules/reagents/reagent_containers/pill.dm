@@ -129,7 +129,7 @@
 
 /obj/item/weapon/reagent_containers/pill/paracetamol
 	name = "Paracetamol pill"
-	desc = "Tylenol! A painkiller for the ages. Chewables!"
+	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries."
 	icon_state = "pill8"
 	New()
 		..()
@@ -303,7 +303,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 
 /obj/item/weapon/reagent_containers/pill/amidopyrinum
 	name = "amidopyrinum pill"
-	desc = "That's a pill."
+	desc = "A very strong painkiller, intended for use with patients that are in shock. - WARNING! Do not administer if the patient is not breathing."
 	icon_state = "pill21"
 	New()
 		..()
@@ -311,7 +311,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 
 /obj/item/weapon/reagent_containers/pill/doxycicline
 	name = "doxycicline pill"
-	desc = "That's a pill."
+	desc = "A broad spectrum antibiotic to fight against infections."
 	icon_state = "pill21"
 	New()
 		..()
@@ -320,7 +320,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 
 /obj/item/weapon/reagent_containers/pill/phenazepam
 	name = "phenazepam pill"
-	desc = "That's a pill."
+	desc = "A mild painkiller with a slow metabolization speed. Meant for mild injuries."
 	icon_state = "pill21"
 	New()
 		..()
@@ -344,7 +344,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 
 /obj/item/weapon/reagent_containers/pill/promethazine
 	name = "promethazine pill"
-	desc = "That's a pill."
+	desc = "Mild sedative for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness."
 	icon_state = "pill21"
 	New()
 		..()
@@ -352,7 +352,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 
 /obj/item/weapon/reagent_containers/pill/ethaperazine
 	name = "ethaperazine pill"
-	desc = "That's a pill."
+	desc = "Weak sedative and antiemetic drug for patients that require rest. Provides relief from nausea and causes drowsiness."
 	icon_state = "pill21"
 	New()
 		..()

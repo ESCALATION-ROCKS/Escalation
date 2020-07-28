@@ -388,13 +388,13 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	w_class = ITEM_SIZE_HUGE
-	max_w_class = 2
+	max_w_class = ITEM_SIZE_SMALL
 	name = "grenade pouch"
 	desc = "Can hold a couple of grenades."
 	icon_state = "sa_grenade"
 	item_state = "sa_grenade"
-	storage_slots = 2
-	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
+	storage_slots = 3
+	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb, /obj/item/weapon)
 
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr
@@ -442,12 +442,12 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	w_class = ITEM_SIZE_HUGE
-	max_w_class = 2
+	max_w_class = ITEM_SIZE_SMALL
 	name = "grenade pouch"
 	desc = "Can hold a couple of grenades."
 	icon_state = "nvaddr_grenade"
 	item_state = "nvaddr_grenade"
-	storage_slots = 2
+	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 //finnish

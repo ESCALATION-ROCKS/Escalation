@@ -27,6 +27,7 @@
 
 /obj/item/weapon/reagent_containers/glass/ampule/morphine
 	name = "morphine ampule"
+	desc = "Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/morphine, 10)
@@ -39,6 +40,7 @@
 
 /obj/item/weapon/reagent_containers/glass/ampule/naltamine
 	name = "naltamine ampule"
+	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose."
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/naltamine, 5)
@@ -51,6 +53,7 @@
 
 /obj/item/weapon/reagent_containers/glass/ampule/aminocaproic
 	name = "aminocaproic acid ampule"
+	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/aminocaproic, 10)
