@@ -240,14 +240,8 @@
 			target = targloc
 			pointblank = 0
 
-	//update timing
-	user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
-	user.setMoveCooldown(move_delay)
-	next_fire_time = world.time + fire_delay
-	var/delay = max(burst_delay+1, fire_delay)//, DEFAULT_QUICK_COOLDOWN)
-	if(delay)
-		user.setClickCooldown(delay)
-	next_fire_time = world.time + delay
+	user.setClickCooldown(DEFAULT_QUICK_COOLDOWN / 3)
+	user.setMoveCooldown(move_delay / 3)
 
 //obtains the next projectile to fire
 /obj/item/weapon/gun/proc/consume_next_projectile()
