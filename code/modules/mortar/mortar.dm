@@ -222,21 +222,36 @@ obj/item/mortar_shell/frag
 	icon_state = "mortar_ammo_smk"
 	var/datum/effect/effect/system/smoke_spread/bad/smoke
 
-	New()
-		..()
-		smoke = new /datum/effect/effect/system/smoke_spread/bad()
-		smoke.attach(src)
+/obj/item/mortar_shell/smoke/New()
+	..()
+	smoke = new /datum/effect/effect/system/smoke_spread/bad()
+	smoke.attach(src)
+
+/obj/item/mortar_shell/smoke/Destroy()
+	qdel(smoke)
+	smoke = null
+	return ..()
 
 /obj/item/mortar_shell/smoke/detonate(var/turf/T)
-
 	explosion(T, 0, 1, 2, 7)
-	playsound(T, 'sound/effects/smoke.ogg', 25, 1, 4)
 	forceMove(T) //AAAAAAAA
-	smoke.set_up(6, 0, T, null, 6)
-	smoke.start()
-	smoke = null
+	playsound(T, 'sound/effects/smoke.ogg', 50, 1, 4)
+	smoke.set_up(20, 0, T, null, 6)
+	spawn(0)
+		src.smoke.start()
+		sleep(10)
+		src.smoke.start()
+		sleep(10)
+		src.smoke.start()
+		sleep(10)
+		src.smoke.start()
+	for(var/obj/effect/blob/B in view(8,src))
+		var/damage = round(30/(get_dist(B,src)+1))
+		B.health -= damage
+		B.update_icon()
+	sleep(80)
 	qdel(src)
-
+	return
 
 /obj/item/mortar_shell/flare
 	name = "\improper 80mm flare mortar shell"
