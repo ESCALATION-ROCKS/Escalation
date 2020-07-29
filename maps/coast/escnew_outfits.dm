@@ -349,7 +349,7 @@
 	back = /obj/item/weapon/storage/backpack/rpgsa
 	l_hand = /obj/item/weapon/gun/launcher/rpg7
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
-	right_pouch = null
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	r_pocket = null
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
@@ -490,7 +490,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon MG")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/pkm
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
 	r_pocket = null
@@ -933,7 +933,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/bundes_med
-	head = /obj/item/clothing/head/usmc/cap/bundeswehr
+	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_pocket = /obj/item/weapon/key/natomed
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
 	belt = /obj/item/weapon/storage/belt/harness/bdw
@@ -944,7 +944,6 @@
 	holster = /obj/item/weapon/storage/belt/holster/bdw
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
 	back_2 = /obj/item/weapon/storage/backpack/bundes_med
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
