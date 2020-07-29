@@ -203,12 +203,12 @@ obj/item/mortar_shell/frag
 	spread_range = 8
 
 /obj/item/projectile/bullet/pellet/fragment/mortar
-	damage = 20
-	agony = 18
-	armor_penetration = -10
+	damage = 30
+	agony = 20
+	armor_penetration = 10
 	check_armour = "bomb"
 
-	kill_count = 6
+	kill_count = 8
 
 
 /obj/item/mortar_shell/frag/detonate(var/turf/T)
@@ -245,6 +245,10 @@ obj/item/mortar_shell/frag
 		src.smoke.start()
 		sleep(10)
 		src.smoke.start()
+		sleep(10)
+		src.smoke.start()
+		sleep(10)
+		src.smoke.start()
 	for(var/obj/effect/blob/B in view(8,src))
 		var/damage = round(30/(get_dist(B,src)+1))
 		B.health -= damage
@@ -259,8 +263,10 @@ obj/item/mortar_shell/frag
 	icon_state = "mortar_ammo_flr"
 
 /obj/item/mortar_shell/flare/detonate(var/turf/T)
-	new /obj/item/device/flashlight/flare/on/illumination(T)
 	playsound(T, 'sound/effects/flare.ogg', 50, 1, 4)
+	spawn(0)
+		new /obj/item/device/flashlight/flare/on/illumination(T)
+
 
 //Special flare subtype for the illumination flare shell
 //Acts like a flare, just even stronger, and set length
@@ -300,7 +306,7 @@ obj/item/mortar_shell/frag
 	new /obj/item/mortar_shell/flare(src)
 	new /obj/item/mortar_shell/smoke(src)
 	new /obj/item/mortar_shell/smoke(src)
-	new /obj/item/device/binoculars/nato/range(src)
+	new /obj/item/device/binoculars/rangefinder(src)
 
 /obj/structure/closet/crate/mortar_ammo/mortar_ammo_offensive/New()
 	..()
