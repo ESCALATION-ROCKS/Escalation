@@ -235,7 +235,7 @@ obj/item/mortar_shell/frag
 /obj/item/mortar_shell/smoke/detonate(var/turf/T)
 	explosion(T, 0, 1, 2, 7)
 	forceMove(T) //AAAAAAAA
-	playsound(T, 'sound/effects/smoke.ogg', 25, 1, 4)
+	playsound(T, 'sound/effects/smoke.ogg', 50, 1, 4)
 	smoke.set_up(20, 0, T, null, 6)
 	spawn(0)
 		src.smoke.start()
