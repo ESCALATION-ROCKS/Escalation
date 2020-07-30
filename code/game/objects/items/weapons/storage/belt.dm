@@ -267,13 +267,20 @@
 	icon_state = "sa_officerharness"
 	item_state = "sm_harness_officer"
 
+/obj/item/weapon/storage/belt/bdw
+	name = "belt"
+	desc = "A pistol belt used by Bundeswehr officers."
+	icon_state = "bdw_belt"
+	item_state = "bdw_belt"
+	storage_slots = 0
+	can_hold = null
+
 /obj/item/weapon/storage/belt/harness/bdw
 	name = "harness"
 	desc = "A generic harness used by Bundeswehr."
 	icon_state = "bdw_harness"
 	item_state = "bdw_harness"
 	storage_slots = 4
-	can_hold = null
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
 	/obj/item/weapon/storage/firstaid/usmc_ifak)
@@ -306,9 +313,17 @@
 	icon_state = "nvaddr_officerharness"
 	item_state = "nvaddr_officerharness"
 
+/obj/item/weapon/storage/belt/usmc
+	name = "ALICE belt"
+	desc = "A pistol belt used by the US Military, without its harness."
+	icon_state = "USMC_belt"
+	item_state = "USMC_belt"
+	storage_slots = 0
+	can_hold = null
+
 /obj/item/weapon/storage/belt/harness/usmc
 	name = "ALICE harness"
-	desc = "A modular harness used by USMC."
+	desc = "A modular belt and harness used by the US Military."
 	icon_state = "usmc_harness"
 	item_state = "usmc_harness"
 	storage_slots = 4

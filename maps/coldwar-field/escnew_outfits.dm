@@ -647,7 +647,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	l_pocket = /obj/item/weapon/masterkey/usmcdoc
 	r_pocket = null
-	belt = /obj/item/weapon/storage/belt/harness/usmc
+	belt = /obj/item/weapon/storage/belt/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/platlead
 	name = OUTFIT_JOB_NAME("Coldwar - Platoon Leader")
@@ -939,7 +939,7 @@
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	l_pocket = /obj/item/weapon/masterkey/bdwdoc
-	belt = /obj/item/weapon/storage/belt/harness/bdw
+	belt = /obj/item/weapon/storage/belt/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bundes/platlead
 	name = OUTFIT_JOB_NAME("Coldwar - BDW Platoon Leader")
