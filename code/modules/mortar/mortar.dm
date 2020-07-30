@@ -13,7 +13,7 @@
 	var/ydial
 	var/xoffset = 0
 	var/yoffset = 0
-	var/offset_per_turfs = 10 //Number of turfs to offset from target by 1
+	var/offset_per_turfs = 20 //Number of turfs to offset from target by 1
 	var/firing = 0
 	var/busy = 0
 	var/fixed = 0 //If 1, mortar cannot be unarchored and moved.
@@ -34,25 +34,38 @@
 	var/choice = alert(user, "Would you like to set the mortar's target coordinates?","Mortar Dialing", "Target","Dial" , "Cancel")
 	if (choice == "Cancel")
 		return
-	if(choice == "Target")
-		xinput = input("Set longitude of strike from 0 to [world.maxx].")as num
-		yinput = input("Set latitude of strike from 0 to [world.maxx].")as num
-
-		return
-		if(busy)
-			to_chat(user, "<span class='warning'>Someone else is currently using this mortar.</span>")
+	if (choice == "Target")	
+		var/temp_targ_x = input("Set longitude of strike from 0 to [world.maxx].") as num
+		if(xdial + deobfuscate_x(temp_targ_x) > world.maxx || xdial + deobfuscate_x(temp_targ_x) < 0)
+			to_chat(user, "<span class='warning'>(You cannot aim at this coordinate, it is outside of the area of operations.</span>")
 			return
-		user.visible_message("<span class='notice'>[user] starts adjusting [src]'s firing angle and distance.</span>", //These messages dont pop up for some reason, also timer isnt working on this one
-		"<span class='notice'>You start adjusting [src]'s firing angle and distance to match the new coordinates.</span>")
+		var/temp_targ_y = input("Set latitude of strike from 0 to [world.maxy].") as num
+		if(ydial + deobfuscate_y(temp_targ_y) > world.maxy || ydial + deobfuscate_y(temp_targ_y) < 0)
+			to_chat(user, "<span class='warning'>(You cannot aim at this coordinate, it is outside of the area of operations.</span>")
+			return
+		var/turf/T = locate(deobfuscate_x(temp_targ_x) + xdial, deobfuscate_y(temp_targ_y) + ydial, z)
+		if(get_dist(loc, T) < 10)
+			to_chat(user, "<span class='warning'>(You cannot aim at this coordinate, it is too close to your mortar.</span>")
+			return
+		if(busy)
+			to_chat(user, "<span class='warning'>(Someone else is currently using this mortar.</span>")
+			return
+		user.visible_message("<span class='notice'>([user] starts adjusting [src]'s firing angle and distance.</span>",
+		"<span class='notice'>(You start adjusting [src]'s firing angle and distance to match the new coordinates.</span>")
 		busy = 1
 		if(do_after(user, 30, src))
-			user.visible_message("<span class='notice'>[user] finishes adjusting [src]'s firing angle and distance.</span>",
-			"<span class='notice'>You finish adjusting [src]'s firing angle and distance to match the new coordinates.</span>")
+			user.visible_message("<span class='notice'>([user] finishes adjusting [src]'s firing angle and distance.</span>",
+			"<span class='notice'>(You finish adjusting [src]'s firing angle and distance to match the new coordinates.</span>")
 			busy = 0
-		else
+			xinput = deobfuscate_x(temp_targ_x)
+			yinput = deobfuscate_y(temp_targ_y)
+			var/offset_x_max = round(abs((xinput + xdial) - x)/offset_per_turfs) //Offset of mortar shot, grows by 1 every 20 tiles travelled
+			var/offset_y_max = round(abs((yinput + ydial) - y)/offset_per_turfs)
+			xoffset = rand(-offset_x_max, offset_x_max)
+			yoffset = rand(-offset_y_max, offset_y_max)
+		else 
 			busy = 0
-
-	if(choice == "Dial")
+	if (choice == "Dial")
 		var/temp_dial_x = input("Set longitude adjustement from -10 to 10.") as num
 		if(temp_dial_x + xinput > world.maxx || temp_dial_x + xinput < 0)
 			user << "<span class='warning'>You cannot dial to this coordinate, it is outside of the area of operations.</span>"
@@ -189,9 +202,8 @@ obj/item/mortar_shell/he
 	icon_state = "mortar_ammo_he"
 	spread_range = 0
 
-/obj/item/mortar_shell/he/detonate(var/turf/T)
-
-	explosion(T, 0, 3, 5, 7)
+/obj/item/mortar_shell/he/detonate(var/turf/T)  
+	explosion(T, 2, 4, 6, 8)
 
 obj/item/mortar_shell/frag
 	name = "\improper 80mm Fragmentation mortar shell"
@@ -199,7 +211,7 @@ obj/item/mortar_shell/frag
 	icon = 'icons/Marine/mortar.dmi'
 	icon_state = "mortar_ammo_he"
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/mortar)
-	num_fragments = 290  //total number of fragments produced by the grenade
+	num_fragments = 350  //total number of fragments produced by the grenade
 	spread_range = 8
 
 /obj/item/projectile/bullet/pellet/fragment/mortar
@@ -236,7 +248,7 @@ obj/item/mortar_shell/frag
 	explosion(T, 0, 1, 2, 7)
 	forceMove(T) //AAAAAAAA
 	playsound(T, 'sound/effects/smoke.ogg', 50, 1, 4)
-	smoke.set_up(20, 0, T, null, 6)
+	smoke.set_up(20, 0, T, 6)
 	spawn(0)
 		src.smoke.start()
 		sleep(10)
@@ -263,9 +275,8 @@ obj/item/mortar_shell/frag
 	icon_state = "mortar_ammo_flr"
 
 /obj/item/mortar_shell/flare/detonate(var/turf/T)
+	new /obj/item/device/flashlight/flare/on/illumination(T)
 	playsound(T, 'sound/effects/flare.ogg', 50, 1, 4)
-	spawn(0)
-		new /obj/item/device/flashlight/flare/on/illumination(T)
 
 
 //Special flare subtype for the illumination flare shell
@@ -278,6 +289,7 @@ obj/item/mortar_shell/frag
 	invisibility = 101 //Can't be seen or found, it's "up in the sky"
 	mouse_opacity = 0
 	brightness_on = 7 //Way brighter than most lights
+	luminosity = 7
 
 /obj/item/device/flashlight/flare/on/illumination/New()
 	..()

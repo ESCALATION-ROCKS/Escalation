@@ -8,6 +8,7 @@
 	slot_flags = SLOT_BACK
 	w_class = ITEM_SIZE_LARGE
 	action_button_name = "Remove/Replace Headset"
+	
 
 	var/obj/item/device/radio/escalation/radio
 
@@ -162,6 +163,7 @@ var/global/list/army_channels_ph = list(
 	item_state = "r105d-receiver"
 	frequency = 1449
 	slot_flags = SLOT_EARS
+	badquality = 0
 
 /obj/item/device/radio/escalation/linked/nato
 	name = "AN/PRC-77 receiver"
@@ -169,6 +171,7 @@ var/global/list/army_channels_ph = list(
 	item_state = "prc77-receiver"
 	frequency = 1351
 	slot_flags = SLOT_EARS
+	badquality = 0
 
 
 
@@ -178,6 +181,7 @@ var/global/list/army_channels_ph = list(
 	radio = /obj/item/device/radio/escalation/linked/nato
 	icon_state = "prc77"
 	item_state = "prc77"
+	
 
 /obj/item/weapon/radioset/r105d
 	name = "R-105D"
@@ -185,3 +189,4 @@ var/global/list/army_channels_ph = list(
 	radio = /obj/item/device/radio/escalation/linked/warpac
 	icon_state = "r105d"
 	item_state = "r105d"
+	

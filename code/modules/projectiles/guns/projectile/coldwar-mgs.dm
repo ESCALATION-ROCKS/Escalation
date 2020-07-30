@@ -101,7 +101,7 @@
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",     burst=1,  fire_delay=0.05, move_delay=3,       one_hand_penalty=9, burst_accuracy = null,  dispersion=list(0.5, 0.8),                  automatic = 0.2)
+		list(mode_name="automatic",     burst=1,  fire_delay=0.05, move_delay=3,       one_hand_penalty=9, burst_accuracy = null,  dispersion=list(0.5, 0.8),                  automatic = 0.8)
 	)
 
 	var/cover_opened = FALSE
