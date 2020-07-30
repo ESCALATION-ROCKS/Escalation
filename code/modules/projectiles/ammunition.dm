@@ -255,14 +255,9 @@
 
 /obj/item/ammo_magazine/attack_self(mob/user)
 	if(!stored_ammo.len)
-		to_chat(user, "<span class='notice'>[src] is already empty!</span>")
+		to_chat(user, "<span class='notice'>[src] is empty!</span>")
 		return
-	to_chat(user, "<span class='notice'>You empty the contents of \the [src] onto \the [get_turf(src)].</span>")
-	for(var/obj/item/ammo_casing/C in stored_ammo)
-		C.loc = user.loc
-		C.set_dir(pick(GLOB.cardinal))
-	stored_ammo.Cut()
-	update_icon()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 
 
