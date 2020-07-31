@@ -103,7 +103,7 @@
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 2)
 
 /obj/item/clothing/suit/storage/vest/bando
-	name = "Bandoleir Vest"
+	name = "Bandolier Vest"
 	desc = "A lightweight storage vest with 4 large pouches used by NATO personnel, provides no ballistic protection."
 	icon_state = "bando_nato"
 	item_state = "armor"

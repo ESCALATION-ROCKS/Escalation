@@ -137,6 +137,10 @@
 	processScheduler = new
 	master_controller = new /datum/controller/game_controller()
 
+	//Scramble the coords obsfucator
+	obfs_x = rand(-500, 500) //A number between -100 and 100
+	obfs_y = rand(-500, 500) //A number between -100 and 100
+
 	processScheduler.deferSetupFor(/datum/controller/process/ticker)
 	processScheduler.setup()
 	Master.Initialize(10, FALSE)
@@ -769,3 +773,7 @@ proc/establish_old_db_connection()
 		return 1
 
 #undef FAILED_DB_CONNECTION_CUTOFF
+
+
+
+

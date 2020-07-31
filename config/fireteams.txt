@@ -169,6 +169,12 @@ Gruppe Hotel:bund
 /datum/job/escalation/bund/bdwrifle
 @END@
 
+Schwere Waffen Gruppe:bund
+/datum/job/escalation/bund/mgcom
+/datum/job/escalation/bund/mgload
+/datum/job/escalation/bund/mgop
+@END@
+
 Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld

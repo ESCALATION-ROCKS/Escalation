@@ -239,14 +239,11 @@
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
-
 /obj/item/weapon/storage/belt/harness/sa/belt
 	name = "belt"
 	desc = "A belt used by Warsaw Pact officers."
 	icon_state = "sa_officerharness"
 	item_state = "sa_officerharness"
-	storage_slots = 0
-	can_hold = null
 
 /obj/item/weapon/storage/belt/harness/finn
 	name = "harness"
@@ -258,18 +255,23 @@
 	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
 	/obj/item/weapon/storage/firstaid/sa_ifak)
 
-/obj/item/weapon/storage/belt/harness/sa/New()
+/obj/item/weapon/storage/belt/harness/finn/New()
 	..()
 	new /obj/item/weapon/shovel/spadewp(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
-
 
 /obj/item/weapon/storage/belt/harness/finn/belt
 	name = "belt"
 	desc = "A belt used by Finnish officers."
 	icon_state = "sa_officerharness"
 	item_state = "sm_harness_officer"
+
+/obj/item/weapon/storage/belt/bdw
+	name = "belt"
+	desc = "A pistol belt used by Bundeswehr officers."
+	icon_state = "bdw_belt"
+	item_state = "bdw_belt"
 	storage_slots = 0
 	can_hold = null
 
@@ -279,7 +281,6 @@
 	icon_state = "bdw_harness"
 	item_state = "bdw_harness"
 	storage_slots = 4
-	can_hold = null
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
 	/obj/item/weapon/storage/firstaid/usmc_ifak)
@@ -290,10 +291,9 @@
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
 
-
 /obj/item/weapon/storage/belt/harness/nvaddr
 	name = "harness"
-	desc = "A cheap harness used by Warsaw Pact military forces."
+	desc = "A cheap harness used by the Nationale Volksarmee."
 	icon_state = "nvaddr_harness"
 	item_state = "nvaddr_harness"
 	storage_slots = 3
@@ -309,15 +309,21 @@
 
 /obj/item/weapon/storage/belt/harness/nvaddr/belt
 	name = "belt"
-	desc = "A belt used by Warsaw Pact officers."
+	desc = "A belt used by NVA officers."
 	icon_state = "nvaddr_officerharness"
 	item_state = "nvaddr_officerharness"
-	storage_slots = 2
-	can_hold = list(/obj/item/weapon/shovel/spadewp)
+
+/obj/item/weapon/storage/belt/usmc
+	name = "ALICE belt"
+	desc = "A pistol belt used by the US Military, without its harness."
+	icon_state = "usmc_belt"
+	item_state = "usmc_belt"
+	storage_slots = 0
+	can_hold = null
 
 /obj/item/weapon/storage/belt/harness/usmc
 	name = "ALICE harness"
-	desc = "A modular harness used by USMC."
+	desc = "A modular belt and harness used by the US Military."
 	icon_state = "usmc_harness"
 	item_state = "usmc_harness"
 	storage_slots = 4

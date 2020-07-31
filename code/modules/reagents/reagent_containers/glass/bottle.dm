@@ -300,7 +300,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/morphine
 	name = "morphine bottle"
-	desc = "A small bottle. Contains morphine."
+	desc = "A small bottle. Contains Morphine, A Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-4"
 
@@ -311,7 +311,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/naltamine
 	name = "naltamine bottle"
-	desc = "A small bottle. Contains naltamine."
+	desc = "A small bottle. Contains naltamine. An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. "
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-4"
 
@@ -323,7 +323,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/salbutamol
 	name = "salbutamol bottle"
-	desc = "A small bottle."
+	desc = "A small bottle which contains a strong bronchodilator. Intended for patients who have their bronches or airways obstructed by helping them breathe.."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-4"
 	New()
@@ -333,7 +333,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/aminocap
 	name = "aminocaproic acid bottle"
-	desc = "A small bottle."
+	desc = "A small bottle which contains Aminocaproic Acid. An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-4"
 	New()

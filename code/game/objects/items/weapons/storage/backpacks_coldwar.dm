@@ -22,7 +22,7 @@
 			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
 			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/ = 3,
+			/obj/item/weapon/gauze_pack/gauze = 3,
 			/obj/item/stack/medical/ointment = 1,
 			/obj/item/stack/medical/splint = 1)
 
@@ -57,7 +57,7 @@
 			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
 			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/ = 3,
+			/obj/item/weapon/gauze_pack/gauze = 3,
 			/obj/item/stack/medical/ointment = 1,
 			/obj/item/stack/medical/splint = 1)
 
@@ -188,14 +188,16 @@
 	icon_state = "sa_rpg2"
 	item_state = "sa_rpg"
 	storage_slots = 2
+	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
 
 /obj/item/weapon/storage/backpack/rpgsa/assistant
-	name = "RPG rocket backpack"
+	name = "RPG Assistant rocket backpack"
 	desc = "Backpack for grenadier assistant. Can hold three rockets."
 	icon_state = "sa_rpg3"
 	item_state = "sa_rpg"
 	storage_slots = 3
+	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
 
 /obj/item/weapon/storage/backpack/rpgcsla
@@ -204,6 +206,7 @@
 	icon_state = "csla_rpg2"
 	item_state = "csla_rpg"
 	storage_slots = 2
+	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
 
 /obj/item/weapon/storage/backpack/rpgcsla/assistant
@@ -212,4 +215,5 @@
 	icon_state = "csla_rpg3"
 	item_state = "csla_rpg"
 	storage_slots = 3
+	open_delay = 0
 	can_hold = list(/obj/item/ammo_casing/rpg_missile)

@@ -210,8 +210,8 @@
 		return
 
 	var/shoot_time = (burst - 1)* burst_delay
-	user.setClickCooldown(shoot_time) //no clicking on things while shooting
-	user.setMoveCooldown(shoot_time) //no moving while shooting either
+	user.setClickCooldown(shoot_time / 3) //no clicking on things while shooting
+	user.setMoveCooldown(shoot_time / 3) //no moving while shooting either
 	next_fire_time = world.time + shoot_time
 
 	var/held_twohanded = (user.can_wield_item(src) && src.is_held_twohanded(user))
@@ -240,14 +240,8 @@
 			target = targloc
 			pointblank = 0
 
-	//update timing
-	user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
-	user.setMoveCooldown(move_delay)
-	next_fire_time = world.time + fire_delay
-	var/delay = max(burst_delay+1, fire_delay)//, DEFAULT_QUICK_COOLDOWN)
-	if(delay)
-		user.setClickCooldown(delay)
-	next_fire_time = world.time + delay
+	user.setClickCooldown(DEFAULT_QUICK_COOLDOWN / 3)
+	user.setMoveCooldown(move_delay / 3)
 
 //obtains the next projectile to fire
 /obj/item/weapon/gun/proc/consume_next_projectile()
@@ -264,10 +258,7 @@
 //called if there was no projectile to shoot
 /obj/item/weapon/gun/proc/handle_click_empty(mob/user)
 	if (user)
-		user.visible_message("*click click*", "<span class='danger'>*click*</span>")
-	else
-		src.visible_message("*click click*")
-	playsound(src.loc, src.empty_sound, 80, 1)
+		playsound(src.loc, src.empty_sound, 80, 1)
 
 //called after successfully firing
 /obj/item/weapon/gun/proc/handle_post_fire(mob/user, atom/target, var/pointblank=0, var/reflex=0)

@@ -28,7 +28,25 @@
 	icon_state = "wp_bino"
 	item_state = "wp_bino"
 
-/obj/item/device/binoculars/wp/range
+/obj/item/device/binoculars/rangefinder
+	name = "Rangefinder"
+	desc = "A Rangefinder, used to find Latitude and Longitude."
+	icon_state = "nato_bino"
+	item_state = "nato_bino"
+	var/xcoord
+	var/ycoord
+
+/obj/item/device/binoculars/rangefinder/afterattack(atom/A, mob/living/user, adjacent, params)
+	A = get_turf(A)
+	xcoord = A.x 
+	ycoord = A.y
+	xcoord = obfuscate_x(xcoord)
+	ycoord = obfuscate_y(ycoord)
+	if(do_after(user, 15, src))
+		to_chat(user, "<span class='notice'> You Calculate some Coordinates with the [src] <b>X[xcoord]:Y[ycoord]</b>.</span>")
+	
+
+/obj/item/device/binoculars/rangefinder/wp
 	name = "Rangefinder"
 	desc = "A Rangefinder, used to find Latitude and Longitude."
 	icon_state = "wp_bino"
@@ -37,11 +55,5 @@
 /obj/item/device/binoculars/nato
 	name = "binoculars"
 	desc = "A pair of binoculars."
-	icon_state = "nato_bino"
-	item_state = "nato_bino"
-
-/obj/item/device/binoculars/nato/range
-	name = "Rangefinder"
-	desc = "A Rangefinder, used to find Latitude and Longitude."
 	icon_state = "nato_bino"
 	item_state = "nato_bino"
