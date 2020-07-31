@@ -193,8 +193,12 @@
 /obj/item/clothing/head/helmet/coldwar/bdw/m62/foliage
 	desc = "A helmet used by Bundeswehr based on American M1 helmet. There is a net with some foliage attached to it."
 	icon_state = "m62helmetfoliage"
-	siemens_coefficient = 0.9
 	icon_state_unzipped = "m62helmetfoliage-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/bdw/m62/cover
+	desc = "A helmet used by Bundeswehr based on American M1 helmet. This one is covered by a camoflaged net."
+	icon_state = "m62c"
+	icon_state_unzipped = "m62c-unzipped"
 
 //FINN Hats
 

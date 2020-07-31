@@ -253,7 +253,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	reagents.add_reagent(/datum/reagent/menthol, 1)
 
 /obj/item/clothing/mask/smokable/cigarette/unfiltered
-	name = "menthol cigarette"
+	name = "unfiltered cigarette"
 	desc = "A roll of tobacco and nicotine. A true mans Cigarrete"
 	icon_state = "ucigoff"
 	item_state = "ucigoff"
@@ -261,7 +261,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	type_butt = /obj/item/weapon/cigbutt/unfiltered
 
 /obj/item/weapon/cigbutt/unfiltered
-	icon_state = "/obj/item/weapon/cigbutt"
+	icon_state = "/ucigbutt"
 
 /obj/item/clothing/mask/smokable/cigarette/unfiltered/New()
 	..()
