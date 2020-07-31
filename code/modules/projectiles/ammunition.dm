@@ -128,6 +128,7 @@
 /obj/item/ammo_casing/update_icon()
 	if(spent_icon && !BB)
 		icon_state = spent_icon
+		mouse_opacity = 0
 	src.overlays.Cut()
 	if(amount > 1)
 		src.pixel_x = 0
