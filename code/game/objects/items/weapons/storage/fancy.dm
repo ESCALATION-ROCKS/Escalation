@@ -379,17 +379,29 @@
 	icon_state = "lspacket"
 	item_state = "Dpacket"
 
+/obj/item/weapon/storage/fancy/cigarettes/marlboro
+	name = "pack of Marlboro Red"
+	desc = "Come to Marlboro Country"
+	icon_state = "Mpacket"
+	item_state = "Dpacket"
+
 /obj/item/weapon/storage/fancy/cigarettes/yava
 	name = "pack of Yava"
 	desc = "That's the Yava."
 	icon_state = "yava"
 	item_state = "Dpacket"
 
+	key_type = /obj/item/clothing/mask/smokable/cigarette/unfiltered
+	startswith = list(/obj/item/clothing/mask/smokable/cigarette/unfiltered = 6)
+
 /obj/item/weapon/storage/fancy/cigarettes/prima
 	name = "pack of Prima"
 	desc = "Horrible and without filter. But they're cheap, by the way!"
 	icon_state = "prima"
 	item_state = "Dpacket"
+
+	key_type = /obj/item/clothing/mask/smokable/cigarette/unfiltered
+	startswith = list(/obj/item/clothing/mask/smokable/cigarette/unfiltered = 6)
 
 /obj/item/weapon/storage/fancy/cigarettes/carcinomas
 	name = "pack of Carcinoma Angels"

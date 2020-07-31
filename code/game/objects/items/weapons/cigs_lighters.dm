@@ -252,6 +252,22 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	reagents.add_reagent(/datum/reagent/nicotine, 1)
 	reagents.add_reagent(/datum/reagent/menthol, 1)
 
+/obj/item/clothing/mask/smokable/cigarette/unfiltered
+	name = "menthol cigarette"
+	desc = "A roll of tobacco and nicotine. A true mans Cigarrete"
+	icon_state = "ucigoff"
+	item_state = "ucigoff"
+	brand = "\improper Prima"
+	type_butt = /obj/item/weapon/cigbutt/unfiltered
+
+/obj/item/weapon/cigbutt/unfiltered
+	icon_state = "/obj/item/weapon/cigbutt"
+
+/obj/item/clothing/mask/smokable/cigarette/unfiltered/New()
+	..()
+	reagents.add_reagent(/datum/reagent/nicotine, 2)
+
+
 /obj/item/clothing/mask/smokable/cigarette/luckystars
 	brand = "\improper Lucky Star"
 

@@ -144,6 +144,23 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 		else
 			busy = 0
 
+	if(istype(O, /obj/item/weapon/wrench))
+		if(busy)
+			user << "<span class='warning'>Someone else is currently using [src].</span>"
+			return
+		if(firing)
+			user << "<span class='warning'>The mortar is currently firing, Wait a few seconds for the barrel to cool.</span>"
+			return
+		playsound(loc, 'sound/items/Ratchet.ogg', 25, 1)
+		user.visible_message("<span class='notice'>[user] starts undeploying [src].",
+		"<span class='notice'>You start undeploying [src].")
+		if(do_after(user, 40, src))
+			user.visible_message("<span class='notice'>[user] undeploys [src].",
+			"<span class='notice'>You undeploy [src].")
+			playsound(loc, 'sound/items/Deconstruct.ogg', 25, 1)
+			new /obj/item/mortar_kit(loc)
+			qdel(src)
+
 //Don't allow blowing those up, so nades don't fuck them
 /obj/structure/mortar/ex_act(severity)
 	return
@@ -304,8 +321,8 @@ obj/item/mortar_shell/frag
 
 
 /obj/structure/closet/crate/mortar_ammo/mortar_kit
-	name = "\improper M402 mortar kit"
-	desc = "A crate containing a basic set of a mortar and some shells, to get an engineer started."
+	name = "\improper mortar kit"
+	desc = "A crate containing a basic set of a mortar and some shells."
 
 /obj/structure/closet/crate/mortar_ammo/mortar_kit/New()
 	..()
@@ -318,10 +335,27 @@ obj/item/mortar_shell/frag
 	new /obj/item/mortar_shell/flare(src)
 	new /obj/item/mortar_shell/smoke(src)
 	new /obj/item/mortar_shell/smoke(src)
-	new /obj/item/device/binoculars/rangefinder(src)
+	new /obj/item/weapon/wrench(src)
+	new /obj/item/device/binoculars/nato(src)
+	new /obj/item/weapon/maptool(src)
+
+/obj/structure/closet/crate/mortar_ammo/mortar_kit/wp/New()
+	..()
+	new /obj/item/mortar_kit(src)
+	new /obj/item/mortar_shell/he(src)
+	new /obj/item/mortar_shell/he(src)
+	new /obj/item/mortar_shell/frag(src)
+	new /obj/item/mortar_shell/frag(src)
+	new /obj/item/mortar_shell/flare(src)
+	new /obj/item/mortar_shell/flare(src)
+	new /obj/item/mortar_shell/smoke(src)
+	new /obj/item/mortar_shell/smoke(src)
+	new /obj/item/device/binoculars/wp(src)
+	new /obj/item/weapon/maptool(src)
 
 /obj/structure/closet/crate/mortar_ammo/mortar_ammo_offensive/New()
 	..()
+	new /obj/item/mortar_shell/he(src)
 	new /obj/item/mortar_shell/he(src)
 	new /obj/item/mortar_shell/he(src)
 	new /obj/item/mortar_shell/he(src)

@@ -83,6 +83,7 @@
 	if(istype(loc, /turf/space/) && istype(loc.loc, /area/space))
 		qdel(src)
 
+
 //TODO: make it so this is called more reliably, instead of sometimes by bullet_act() and sometimes not
 /obj/item/projectile/proc/on_hit(var/atom/target, var/blocked = 0, var/def_zone = null)
 	var/turf/target_loca = get_turf(target)
@@ -356,6 +357,10 @@
 		before_move()
 		Move(location.return_turf())
 
+		if(first_step != 1)
+			spawn()
+				do_supression_aoe(loc)
+
 		if(!bumped && !isturf(original))
 			if(loc == get_turf(original))
 				if(!(original in permutated))
@@ -369,6 +374,7 @@
 			tracer_effect(effect_transform)
 		if(!hitscan)
 			sleep(step_delay)	//add delay between movement iterations if it's not a hitscan weapon
+
 
 /obj/item/projectile/proc/before_move()
 	return 0
@@ -508,3 +514,8 @@
 	var/output = trace.launch(target) //Test it!
 	qdel(trace) //No need for it anymore
 	return output //Send it back to the gun!
+
+//suppresion!!!!
+/obj/item/projectile/proc/do_supression_aoe(var/location)
+    for(var/mob/living/carbon/human/h in orange(1,location))
+        h.supression_act(src)

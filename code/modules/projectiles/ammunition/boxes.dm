@@ -487,12 +487,12 @@
 	name = "ammo box (7.62x51mm)"
 	icon_state = "ammocannato"
 	startswith = list(
-		/obj/item/ammo_magazine/box/paper/box762x51 = 6
+		/obj/item/ammo_magazine/box/paper/box762x51 = 8
 		)
 
 /obj/item/weapon/storage/fancy/ammo_can/x556
 	name = "ammo box (5.56x45mm)"
-	icon_state = "ammocannato"
+	icon_state = "ammocan"
 	startswith = list(
 		/obj/item/ammo_magazine/box/paper/box556x45 = 8
 		)
