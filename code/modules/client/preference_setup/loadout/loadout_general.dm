@@ -1,4 +1,4 @@
-/*
+
 /datum/gear/cane
 	display_name = "cane"
 	path = /obj/item/weapon/cane
@@ -14,7 +14,7 @@
 /datum/gear/cards
 	display_name = "deck of cards"
 	path = /obj/item/weapon/deck/cards
-
+/*
 /datum/gear/tarot
 	display_name = "deck of tarot cards"
 	path = /obj/item/weapon/deck/tarot
@@ -22,7 +22,6 @@
 /datum/gear/holder
 	display_name = "card holder"
 	path = /obj/item/weapon/deck/holder
-
 
 /datum/gear/flask
 	display_name = "flask"
@@ -63,14 +62,3 @@
 
 */
 
-/datum/gear/matchbook
-	display_name = "matchbook"
-	path = /obj/item/weapon/storage/box/matches
-
-/datum/gear/lighter
-	display_name = "cheap lighter"
-	path = /obj/item/weapon/flame/lighter
-
-/datum/gear/zippo
-	display_name = "zippo"
-	path = /obj/item/weapon/flame/lighter/zippo

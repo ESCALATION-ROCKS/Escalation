@@ -74,6 +74,7 @@
 	layer = ABOVE_HUMAN_LAYER
 	color = "#C80000"
 	var/splatter_type = "splatter"
+	mouse_opacity = 0
 
 /obj/effect/overlay/temp/dir_setting/bloodsplatter/New(loc, set_dir, blood_color)
 	if(blood_color)
