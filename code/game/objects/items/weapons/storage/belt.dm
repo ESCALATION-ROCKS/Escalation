@@ -272,8 +272,8 @@
 	desc = "A pistol belt used by Bundeswehr officers."
 	icon_state = "bdw_belt"
 	item_state = "bdw_belt"
-	storage_slots = 0
-	can_hold = null
+	storage_slots = 1
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
 /obj/item/weapon/storage/belt/harness/bdw
 	name = "harness"
@@ -318,8 +318,8 @@
 	desc = "A pistol belt used by the US Military, without its harness."
 	icon_state = "usmc_belt"
 	item_state = "usmc_belt"
-	storage_slots = 0
-	can_hold = null
+	storage_slots = 1
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
 /obj/item/weapon/storage/belt/harness/usmc
 	name = "ALICE harness"
