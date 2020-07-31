@@ -288,4 +288,5 @@
 
 /obj/structure/reagent_dispensers/medical/ethanol
 	name = "chemical tank (ethanol)"
+	desc = "A tank of ethanol to refill your sterilizer bottles with."
 	initial_reagent_types = list(/datum/reagent/ethanol = 200)
