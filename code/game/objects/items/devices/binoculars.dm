@@ -15,7 +15,7 @@
 	var/ycoord
 
 /obj/item/device/binoculars/afterattack(atom/A, mob/living/user, adjacent, params)
-	var/obj/item/weapons/maptool/mtool = locate() in user
+	var/obj/item/weapon/maptool/mtool = locate() in user
 	if(mtool)
 		A = get_turf(A)
 		xcoord = A.x 
