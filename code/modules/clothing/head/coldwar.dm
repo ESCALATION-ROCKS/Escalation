@@ -94,6 +94,13 @@
 	desc = "A cheap steel helmet used by NVA DDR. Grey and lame."
 	icon_state_unzipped = "m56_grey-unzipped"
 
+/obj/item/clothing/head/helmet/coldwar/nvaddr/m56/foliage
+	icon_state = "m56f"
+	desc = "A cheap steel helmet used by NVA DDR. Foliage cover."
+	icon_state_unzipped = "m56f-unzipped"
+
+
+
 //Volksarmee hats
 
 /obj/item/clothing/head/garcap/nvaddr
