@@ -258,10 +258,7 @@
 //called if there was no projectile to shoot
 /obj/item/weapon/gun/proc/handle_click_empty(mob/user)
 	if (user)
-		user.visible_message("*click click*", "<span class='danger'>*click*</span>")
-	else
-		src.visible_message("*click click*")
-	playsound(src.loc, src.empty_sound, 80, 1)
+		playsound(src.loc, src.empty_sound, 80, 1)
 
 //called after successfully firing
 /obj/item/weapon/gun/proc/handle_post_fire(mob/user, atom/target, var/pointblank=0, var/reflex=0)
