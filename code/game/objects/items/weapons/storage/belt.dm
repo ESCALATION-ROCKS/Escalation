@@ -316,8 +316,8 @@
 /obj/item/weapon/storage/belt/usmc
 	name = "ALICE belt"
 	desc = "A pistol belt used by the US Military, without its harness."
-	icon_state = "USMC_belt"
-	item_state = "USMC_belt"
+	icon_state = "usmc_belt"
+	item_state = "usmc_belt"
 	storage_slots = 0
 	can_hold = null
 
