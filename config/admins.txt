@@ -1,4 +1,5 @@
 N010001100101010101000011010 - Host
+isismilitant - Host
 Turret_Drehturm - HeadDeveloper
 cabostein - HeadDeveloper
 DanseMacabre - GameAdmin
@@ -7,3 +8,5 @@ Toxici11i - Developer
 brosephstylin - Developer
 SeverePwnage - GameAdmin
 emoats18 - GameAdmin
+SilverSZ - GameAdmin
+MrGabol100 - GameAdmin

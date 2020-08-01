@@ -314,6 +314,7 @@ epicdwarf = {
 
 Nitro2030ce = {
 ::ALL::
+NVA ::ALL::
 }
 
 dreadweaver = {
@@ -366,3 +367,24 @@ MrGabol100 = {
 ::ALL::
 }
 
+
+emoats18 = {
+::ALL::
+}
+
+isismilitant = {
+::ALL::
+}
+
+boringcommunist = {
+::ALL::
+}
+
+
+Cesarjunior233 = {
+NVA ::ALL::
+}
+
+Demdisco = {
+::ALL::
+}
