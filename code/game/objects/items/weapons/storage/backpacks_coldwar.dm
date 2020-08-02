@@ -187,6 +187,7 @@
 	desc = "Soviet Army backpack for RPG shots. Can hold two rockets."
 	icon_state = "sa_rpg2"
 	item_state = "sa_rpg"
+	reachable = 1
 	storage_slots = 2
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
@@ -196,6 +197,7 @@
 	desc = "Backpack for grenadier assistant. Can hold three rockets."
 	icon_state = "sa_rpg3"
 	item_state = "sa_rpg"
+	reachable = 1
 	storage_slots = 3
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
@@ -205,6 +207,7 @@
 	desc = "CSLA backpack for RPG shots. Can hold two rockets."
 	icon_state = "csla_rpg2"
 	item_state = "csla_rpg"
+	reachable = 1
 	storage_slots = 2
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
@@ -214,6 +217,7 @@
 	desc = "Backpack for grenadier assistant. Can hold three rockets."
 	icon_state = "csla_rpg3"
 	item_state = "csla_rpg"
+	reachable = 1
 	storage_slots = 3
 	open_delay = 0
 	can_hold = list(/obj/item/ammo_casing/rpg_missile)
