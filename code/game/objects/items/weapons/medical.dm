@@ -256,6 +256,7 @@
 
 /obj/item/weapon/storage/box/ampule_box/morphine
 	name = "morphine ampule pack"
+	desc = ""Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 	startswith = list(/obj/item/weapon/ampule_pack/morphine = 2)
 
 /obj/item/weapon/storage/box/ampule_box/epinephrine
@@ -272,6 +273,7 @@
 
 /obj/item/weapon/storage/box/ampule_box/aminocaproic
 	name = "aminocaproic acid ampule pack"
+	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
 	startswith = list(/obj/item/weapon/ampule_pack/aminocaproic = 2)
 
 
@@ -324,6 +326,7 @@
 
 /obj/item/weapon/ampule_pack/morphine
 	name = "morphine ampule pack"
+	desc = "Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/morphine
 
 /obj/item/weapon/ampule_pack/epinephrine
@@ -340,40 +343,49 @@
 
 /obj/item/weapon/ampule_pack/aminocaproic
 	name = "aminocaproic acid ampule pack"
+	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
 	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/aminocaproic
 
 //pillboxes
 
 /obj/item/weapon/storage/box/pill_box/phenazepam
 	name = "phenazepam pill box"
+	desc = "A mild painkiller with a slow metabolization speed. Meant for mild injuries."
 	startswith = list(/obj/item/weapon/pill_pack/phenazepam = 2)
 
 /obj/item/weapon/storage/box/pill_box/amidopyrinum
 	name = "amidopyrinum pill box"
+	desc = "A very strong painkiller, intended for use with patients that are in shock. - WARNING! Do not administer if the patient is not breathing."
 	startswith = list(/obj/item/weapon/pill_pack/amidopyrinum = 2)
 
 /obj/item/weapon/storage/box/pill_box/naloxone
 	name = "naloxone pill box"
+	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose."
 	startswith = list(/obj/item/weapon/pill_pack/naloxone = 2)
 
 /obj/item/weapon/storage/box/pill_box/promethazine
 	name = "promethazine pill box"
+	desc = "Mild sedative for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness."
 	startswith = list(/obj/item/weapon/pill_pack/promethazine = 2)
 
 /obj/item/weapon/storage/box/pill_box/doxycycline
 	name = "doxycycline pill box"
+	desc = "A broad spectrum antibiotic to fight against infections."
 	startswith = list(/obj/item/weapon/pill_pack/doxycycline = 2)
 
 /obj/item/weapon/storage/box/pill_box/sydnocarbum
 	name = "sydnocarbum pill box"
+	desc = "A completely inconspicious box of pills. You have no reason to digest these useless pills."
 	startswith = list(/obj/item/weapon/pill_pack/sydnocarbum = 2)
 
 /obj/item/weapon/storage/box/pill_box/paracetamol
 	name = "paracetamol pill box"
+	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries."
 	startswith = list(/obj/item/weapon/pill_pack/paracetamol = 2)
 
 /obj/item/weapon/storage/box/pill_box/ethaperazine
 	name = "ethaperazine pill box"
+	desc = "Weak sedative and antiemetic drug for patients that require rest. Provides relief from nausea and causes drowsiness."
 	startswith = list(/obj/item/weapon/pill_pack/ethaperazine = 2)
 
 
