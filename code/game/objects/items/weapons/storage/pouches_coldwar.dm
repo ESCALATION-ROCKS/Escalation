@@ -67,7 +67,6 @@
 	special_item = /obj/item/weapon/gun/projectile/makarov
 	desc = "This holster can hold Makarov pistol and one magazine."
 	special_item = /obj/item/weapon/gun/projectile/makarov
-	open_delay = 5
 	startswith = list(
 		/obj/item/weapon/gun/projectile/makarov,
 		/obj/item/ammo_magazine/a9x18
@@ -80,7 +79,6 @@
 /obj/item/weapon/storage/belt/holster/csla
 	storage_slots = 2
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
-	open_delay = 5
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/cz82
 	desc = "This holster can hold CZ82 pistol and one magazine."
@@ -120,7 +118,6 @@
 	icon_state = "apsholster"
 	icon_closed = "apsholster_empty"
 	storage_slots = 3
-	open_delay = 8
 
 	desc = "This holster can hold an APS."
 	startswith = list(
