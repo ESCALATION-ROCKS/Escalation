@@ -133,11 +133,11 @@
 
 /obj/item/ammo_casing/rpg_missile/rg7
 	name = "RG-7"
-	desc = "RG-7 missile. Fucking deadly, don't shoout yourself, Abu Hajaar!"
+	desc = "93mm HEAT rocket for the RPG-7. Effective against most ground vehicles. Watch out for the backblast!"
 
 /obj/item/ammo_casing/rpg_missile/og7
 	name = "OG-7"
-	desc = "OG-7"
+	desc = "40mm Fragmentation rocket for the RPG-7. Effective against ground infantry. Watch out for the backblast!"
 	icon_state = "og-7"
 
 /obj/item/ammo_casing/oneuserocket
