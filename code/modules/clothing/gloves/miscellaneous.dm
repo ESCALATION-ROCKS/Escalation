@@ -128,11 +128,11 @@
 	armor = list(melee = 40, bullet = 40, laser = 40, energy = 25, bomb = 30, bio = 0, rad = 0)
 
 /obj/item/clothing/gloves/bdw
-	desc = "That's a generic leather gloves designed specially for Bundeswehr."
+	desc = "A pair of generic leather gloves."
 	name = "leather gloves"
 	icon_state = "bdw_gloves"
 	item_state = "bdw_gloves"
 	force = 4
 	siemens_coefficient = 0.50
 	permeability_coefficient = 0.05
-	armor = list(melee = 10, bullet = 10, laser = 10, energy = 15, bomb = 20, bio = 0, rad = 0)
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
