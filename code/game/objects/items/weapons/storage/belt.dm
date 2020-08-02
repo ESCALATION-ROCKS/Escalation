@@ -244,6 +244,12 @@
 	desc = "A belt used by Warsaw Pact officers."
 	icon_state = "sa_officerharness"
 	item_state = "sa_officerharness"
+	storage_slots = 1
+	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+
+/obj/item/weapon/storage/belt/harness/nvaddr/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
 /obj/item/weapon/storage/belt/harness/finn
 	name = "harness"
@@ -266,17 +272,24 @@
 	desc = "A belt used by Finnish officers."
 	icon_state = "sa_officerharness"
 	item_state = "sm_harness_officer"
+	storage_slots = 1
+	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+
+/obj/item/weapon/storage/belt/harness/nvaddr/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
 /obj/item/weapon/storage/belt/bdw
 	name = "belt"
 	desc = "A pistol belt used by Bundeswehr officers."
 	icon_state = "bdw_belt"
 	item_state = "bdw_belt"
-	storage_slots = 4
-	can_hold = list(/obj/item/weapon/shovel/etool,
-	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
-	/obj/item/weapon/storage/firstaid/usmc_ifak)
-	/obj/item/weapon/storage/belt/harness/bdw
+	storage_slots = 1
+	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/nato,
+
+	/obj/item/weapon/storage/belt/harness/usmc/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato,
 
 	name = "harness"
 	desc = "A generic harness used by Bundeswehr."
@@ -314,16 +327,24 @@
 	desc = "A belt used by NVA officers."
 	icon_state = "nvaddr_officerharness"
 	item_state = "nvaddr_officerharness"
+	storage_slots = 1
+	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+
+/obj/item/weapon/storage/belt/harness/nvaddr/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
 /obj/item/weapon/storage/belt/usmc
 	name = "ALICE belt"
 	desc = "A pistol belt used by the US Military, without its harness."
 	icon_state = "usmc_belt"
 	item_state = "usmc_belt"
-	storage_slots = 4
-	can_hold = list(/obj/item/weapon/shovel/etool,
-	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
-	/obj/item/weapon/storage/firstaid/usmc_ifak)
+	storage_slots = 1
+	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/nato,
+
+	/obj/item/weapon/storage/belt/harness/usmc/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato,
 
 /obj/item/weapon/storage/belt/harness/usmc
 	name = "ALICE harness"

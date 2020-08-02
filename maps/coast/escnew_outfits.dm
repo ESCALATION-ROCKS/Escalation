@@ -32,7 +32,7 @@
 	l_pocket = /obj/item/weapon/masterkey/sovco
 	r_pocket = null
 	l_ear = /obj/item/device/binoculars/wp
-	belt = /obj/item/weapon/storage/belt/harness/sa/belt
+	belt = /obj/item/weapon/storage/belt/harness/sa/
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Zamestitel' Komandira Vzvoda")
@@ -231,7 +231,7 @@
 	head = /obj/item/clothing/head/soviet/officer
 	l_pocket = /obj/item/weapon/masterkey/sovprapor
 	r_pocket = null
-	belt = /obj/item/weapon/storage/belt/harness/sa/belt
+	belt = /obj/item/weapon/storage/belt/harness/sa/
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zampolit
 	name = OUTFIT_JOB_NAME("Coldwar - Zampolit")
@@ -470,7 +470,7 @@
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
 	l_ear = /obj/item/device/binoculars/wp
 	l_hand = /obj/item/weapon/maptool
-	belt = /obj/item/weapon/storage/belt/harness/nvaddr/belt
+	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/komvzv
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon Leader")
@@ -485,7 +485,7 @@
 	head = /obj/item/clothing/head/nvaddr/officer
 	l_ear = /obj/item/device/binoculars/wp
 	l_hand = /obj/item/weapon/maptool
-	belt = /obj/item/weapon/storage/belt/harness/nvaddr/belt
+	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon MG")
