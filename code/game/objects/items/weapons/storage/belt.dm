@@ -247,7 +247,7 @@
 
 /obj/item/weapon/storage/belt/harness/finn
 	name = "harness"
-	desc = "A cheap harness used by Finnish military forces."
+	desc = "A cheap harness used by Finnnish military forces."
 	icon_state = "sa_harness"
 	item_state = "sm_harness"
 	storage_slots = 3
@@ -276,15 +276,8 @@
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
 	/obj/item/weapon/storage/firstaid/usmc_ifak)
+	/obj/item/weapon/storage/belt/harness/bdw
 
-/obj/item/weapon/storage/belt/harness/bdw/New()
-	..()
-	new /obj/item/weapon/shovel/etool(src)
-	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
-	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
-
-
-/obj/item/weapon/storage/belt/harness/bdw
 	name = "harness"
 	desc = "A generic harness used by Bundeswehr."
 	icon_state = "bdw_harness"
@@ -331,12 +324,6 @@
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
 	/obj/item/weapon/storage/firstaid/usmc_ifak)
-
-/obj/item/weapon/storage/belt/harness/bdw/New()
-	..()
-	new /obj/item/weapon/shovel/etool(src)
-	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
-	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
 
 /obj/item/weapon/storage/belt/harness/usmc
 	name = "ALICE harness"
