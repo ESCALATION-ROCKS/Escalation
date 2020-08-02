@@ -132,7 +132,7 @@
 	..()
 
 /obj/item/ammo_casing/rpg_missile/rg7
-	name = "RG-7"
+	name = "PG-7"
 	desc = "93mm HEAT rocket for the RPG-7. Effective against most ground vehicles. Watch out for the backblast!"
 	layer = 4
 
