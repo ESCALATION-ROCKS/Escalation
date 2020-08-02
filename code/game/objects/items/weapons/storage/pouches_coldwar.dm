@@ -427,6 +427,18 @@
 		/obj/item/ammo_magazine/c762x39d
 		)
 
+/obj/item/weapon/storage/belt/suit/ammo/nvaddr/pkm
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "PKM ammo pouch"
+	desc = "Have enough space to hold one box."
+	icon_state = "nvaddr_ammo_pkm"
+	item_state = "nvaddr_ammo_pkm"
+	storage_slots = 1
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x54b
+		)
+
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
