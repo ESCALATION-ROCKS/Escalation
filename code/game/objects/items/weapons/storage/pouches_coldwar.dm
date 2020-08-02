@@ -61,6 +61,7 @@
 			return 1
 
 /obj/item/weapon/storage/belt/holster/sa
+	name = "Makarov holster"
 	storage_slots = 2
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
@@ -77,6 +78,7 @@
 		)
 
 /obj/item/weapon/storage/belt/holster/csla
+	name = "CZ82 holster"
 	storage_slots = 2
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
@@ -128,6 +130,7 @@
 		)
 
 /obj/item/weapon/storage/belt/holster/bdw
+	name = "P1 holster"
 	storage_slots = 2
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
@@ -143,6 +146,7 @@
 		)
 
 /obj/item/weapon/storage/belt/holster/finn
+	name = "Lahti holster"
 	storage_slots = 2
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
@@ -158,6 +162,7 @@
 		)
 
 /obj/item/weapon/storage/belt/holster/hk69
+	name = "HK69 holster"
 	storage_slots = 1
 	max_w_class = ITEM_SIZE_HUGE
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
@@ -181,6 +186,8 @@
 	slot_flags = SLOT_NHOLSTER | SLOT_LPOUCH | SLOT_RPOUCH
 
 /obj/item/weapon/storage/belt/holster/sheath/bdw
+	name = "Kampfmesser M68 sheath"
+	desc = "This sheath can hold a Kampfmesser M68 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/bdw
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -192,6 +199,8 @@
 		/obj/item/weapon/material/knife/bayonet/bdw)
 
 /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	name = "6H4 sheath"
+	desc = "This sheath can hold a 6H4 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -203,6 +212,8 @@
 		/obj/item/weapon/material/knife/bayonet/sa)
 
 /obj/item/weapon/storage/belt/holster/sheath/sovietm
+	name = "6H3 sheath"
+	desc = "This sheath can hold a 6H3 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/
 	icon_state = "6h3_sheath"
 	icon_closed = "6h3_sheath_empty"
@@ -212,6 +223,8 @@
 		/obj/item/weapon/material/knife/bayonet/sa)
 
 /obj/item/weapon/storage/belt/holster/sheath/usmc
+	name = "M7 sheath"
+	desc = "This sheath can hold a M7 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/usmc
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -223,6 +236,8 @@
 		/obj/item/weapon/material/knife/bayonet/usmc)
 
 /obj/item/weapon/storage/belt/holster/sheath/ddr74
+	name = "Modell AK74 bayonet" sheath"
+	desc = "This sheathe can hold a Modell AK74 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/a6h4
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -234,6 +249,8 @@
 		/obj/item/weapon/material/knife/bayonet/sa/a6h4/)
 
 /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	name = "Mehrzweckbajonett M1959 sheath"
+	desc = "This sheath can hold a Mehrzweckbajonett M1959."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/a6h3
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
