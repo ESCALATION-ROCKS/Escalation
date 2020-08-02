@@ -46,6 +46,7 @@
 
 /obj/item/weapon/grenade/smokebomb/shell40mm/attack_self(mob/user)
 	return
+	
 /obj/item/weapon/grenade/smokebomb/vog25
 	name = "40x103mm 'GRD-50' grenade shell"
 	desc = "Smoke Round, Cannot be thrown as the usual grenade, by the way."
