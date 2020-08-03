@@ -2,20 +2,20 @@
 //////////////////
 /obj/item/weapon/grenade/frag/f1
 	name = "F1 frag grenade"
-	desc = "That's an old but reliable Soviet fragmentation grenade used for eliminating manpower."
+	desc = "A defensive grenade used by the Soviet Army. Meant to be thrown from behind the cover."
 	icon_state = "f1grenade"
-	throw_speed = 3
-	throw_range = 12
+	throw_speed = 2
+	throw_range = 10
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
 	num_fragments = 290  //total number of fragments produced by the grenade
 	explosion_size = 2
 
 /obj/item/weapon/grenade/frag/rgd5
 	name = "RGD-5 grenade"
-	desc = "That's a offensive grenade used by Soviet army."
+	desc = "An offensive grenade used by the Soviet Army. Meant to be thrown against enemy positions during a push."
 	icon_state = "rgd5grenade"
-	throw_speed = 2
-	throw_range = 10
+	throw_speed = 3
+	throw_range = 13
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
 	num_fragments = 170  //total number of fragments produced by the grenade
 	explosion_size = 4
@@ -25,7 +25,7 @@
 
 /obj/item/weapon/grenade/frag/m67
 	name = "M67 frag grenade"
-	desc = "That's a grenade used by US army."
+	desc = "A fragmentation grenade used by NATO armies, dubbed 'Pineapple'."
 	icon_state = "m67grenade"
 	throw_speed = 2
 	throw_range = 10
@@ -35,7 +35,7 @@
 
 /obj/item/weapon/grenade/frag/m26
 	name = "M26 frag grenade"
-	desc = "That's a grenade used by US army."
+	desc = "A fragmentation grenade used by US forces, dubbed 'Lemon'."
 	icon_state = "m26grenade"
 	throw_speed = 3
 	throw_range = 8
@@ -46,22 +46,23 @@
 ///bund//////////////////////
 /////////////////////////////
 /obj/item/weapon/grenade/frag/dm51
-	name = "DM51 grenade(offensive)"
-	desc = "That's a dual-purposegrenade used by Bundeswehr."
+	name = "DM51 grenade (offensive)"
+	desc = "A dual purpose grenade used by the Bundeswehr. This one does not have a fragmentation jacket."
 	icon_state = "dm51grenade"
-	throw_speed = 3
-	throw_range = 10
-	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
-	num_fragments = 270  //total number of fragments produced by the grenade
-	explosion_size = 2
-
-/obj/item/weapon/grenade/frag/dm51/def
-	name = "DM51 grenade(defensive)"
 	throw_speed = 4
 	throw_range = 13
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
 	num_fragments = 190  //total number of fragments produced by the grenade
 	explosion_size = 3
+
+/obj/item/weapon/grenade/frag/dm51/def
+	name = "DM51 grenade (defensive)"
+	desc = "A dual purpose grenade used by the Bundeswehr. This one has it's fragmentation jacket on."
+	throw_speed = 3
+	throw_range = 10
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
+	num_fragments = 270  //total number of fragments produced by the grenade
+	explosion_size = 2
 
 //////czech/////////
 ////////////////////

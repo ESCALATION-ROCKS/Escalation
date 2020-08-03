@@ -61,13 +61,13 @@
 			return 1
 
 /obj/item/weapon/storage/belt/holster/sa
-	storage_slots = 2
+	name = "Makarov holster"
+	storage_slots = 3
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/makarov
 	desc = "This holster can hold Makarov pistol and one magazine."
 	special_item = /obj/item/weapon/gun/projectile/makarov
-	open_delay = 5
 	startswith = list(
 		/obj/item/weapon/gun/projectile/makarov,
 		/obj/item/ammo_magazine/a9x18
@@ -78,9 +78,9 @@
 		)
 
 /obj/item/weapon/storage/belt/holster/csla
-	storage_slots = 2
+	name = "CZ82 holster"
+	storage_slots = 3
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
-	open_delay = 5
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/cz82
 	desc = "This holster can hold CZ82 pistol and one magazine."
@@ -100,8 +100,7 @@
 	name = "ALICE M12 holster"
 	icon_state = "alice_holster"
 	icon_closed = "alice_holster_empty"
-	storage_slots = 2
-
+	storage_slots = 3
 	desc = "This holster can hold a M1911A1 and one magazine."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/colt911,
@@ -119,19 +118,22 @@
 	name = "APS holster"
 	icon_state = "apsholster"
 	icon_closed = "apsholster_empty"
-	storage_slots = 3
-	open_delay = 8
+	storage_slots = 4
 
-	desc = "This holster can hold an APS."
+	desc = "This holster can hold an APS and two magazines."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/aps,
+		/obj/item/ammo_magazine/a9x18b,
+		/obj/item/ammo_magazine/a9x18b,
 		)
 	can_hold = list(
 		/obj/item/weapon/gun/projectile/aps,
+		/obj/item/ammo_magazine/a9x18b,
 		)
 
 /obj/item/weapon/storage/belt/holster/bdw
-	storage_slots = 2
+	name = "P1 holster"
+	storage_slots = 3
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/walther
@@ -146,7 +148,8 @@
 		)
 
 /obj/item/weapon/storage/belt/holster/finn
-	storage_slots = 2
+	name = "Lahti holster"
+	storage_slots = 3
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/lahti
@@ -161,6 +164,7 @@
 		)
 
 /obj/item/weapon/storage/belt/holster/hk69
+	name = "HK69 holster"
 	storage_slots = 1
 	max_w_class = ITEM_SIZE_HUGE
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
@@ -184,6 +188,8 @@
 	slot_flags = SLOT_NHOLSTER | SLOT_LPOUCH | SLOT_RPOUCH
 
 /obj/item/weapon/storage/belt/holster/sheath/bdw
+	name = "Kampfmesser M68 sheath"
+	desc = "This sheath can hold a Kampfmesser M68 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/bdw
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -195,6 +201,8 @@
 		/obj/item/weapon/material/knife/bayonet/bdw)
 
 /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	name = "6H4 sheath"
+	desc = "This sheath can hold a 6H4 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -206,6 +214,8 @@
 		/obj/item/weapon/material/knife/bayonet/sa)
 
 /obj/item/weapon/storage/belt/holster/sheath/sovietm
+	name = "6H3 sheath"
+	desc = "This sheath can hold a 6H3 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/
 	icon_state = "6h3_sheath"
 	icon_closed = "6h3_sheath_empty"
@@ -215,6 +225,8 @@
 		/obj/item/weapon/material/knife/bayonet/sa)
 
 /obj/item/weapon/storage/belt/holster/sheath/usmc
+	name = "M7 sheath"
+	desc = "This sheath can hold a M7 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/usmc
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -226,6 +238,8 @@
 		/obj/item/weapon/material/knife/bayonet/usmc)
 
 /obj/item/weapon/storage/belt/holster/sheath/ddr74
+	name = "Modell AK74 bayonet sheath"
+	desc = "This sheath can hold a Modell AK74 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/a6h4
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -234,9 +248,11 @@
 	startswith = list(
 		/obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr)
 	can_hold = list(
-		/obj/item/weapon/material/knife/bayonet/sa/a6h4/)
+		/obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr)
 
 /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	name = "Mehrzweckbajonett M1959 sheath"
+	desc = "This sheath can hold a Mehrzweckbajonett M1959."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/a6h3
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
@@ -245,7 +261,7 @@
 	startswith = list(
 		/obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr)
 	can_hold = list(
-		/obj/item/weapon/material/knife/bayonet/sa/a6h3/)
+		/obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr)
 
 /obj/item/weapon/storage/belt/holster/flaskstorage
 	name = "flask pouch"
@@ -282,8 +298,8 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/bdw
 	w_class = ITEM_SIZE_HUGE
-	name = "ammo pouch"
-	desc = "Have enough space to hold two 7.62 STANAG magazines."
+	name = "G3 magazine pouch"
+	desc = "Has enough space to hold two 7.62 STANAG magazines."
 	icon_state = "bdw_ammo"
 	item_state = "bdw_ammo"
 	storage_slots = 2
@@ -297,8 +313,8 @@
 /obj/item/weapon/storage/belt/suit/ammo/bdw/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "MG3 ammo pouch"
-	desc = "Have enough space to hold one box."
+	name = "MG3 box pouch"
+	desc = "Has enough space to hold one MG3 box."
 	icon_state = "bdw_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
@@ -307,8 +323,8 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc
 	w_class = ITEM_SIZE_HUGE
-	name = "magazine pouch"
-	desc = "Have enough space to hold three 5.56 STANAG magazines."
+	name = "M16 magazine pouch"
+	desc = "Has enough space to hold three 5.56 STANAG magazines."
 	icon_state = "usmc_ammo"
 	item_state = "usmc_ammo"
 	storage_slots = 3
@@ -324,7 +340,7 @@
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
 	name = "M60 ammo pouch"
-	desc = "Have enough space to hold one box."
+	desc = "Has enough space to hold one M60 box."
 	icon_state = "usmc_ammo_lmg"
 	item_state = "usmc_ammo_lmg"
 	storage_slots = 1
@@ -334,14 +350,13 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/sa
 	w_class = ITEM_SIZE_HUGE
-	name = "AK ammo bag"
-	desc = "That one can store four AK or SVD magazines."
+	name = "AK magazine pouch"
+	desc = "Has enough space to hold four AK magazines."
 	icon_state = "sa_ammo"
 	item_state = "sa_ammo"
 	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c762x54s,
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
@@ -351,23 +366,23 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	w_class = ITEM_SIZE_HUGE
-	name = "RPK ammo pouch"
-	desc = "That one can store four RPK magazines."
+	name = "RPK magazine pouch"
+	desc = "Has enough space to hold four RPK magazines."
 	icon_state = "sa_ammo"
 	item_state = "sa_ammo"
 	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/c545x39m,
 		/obj/item/ammo_magazine/c545x39b,
-		/obj/item/ammo_magazine/c762x54s,
 		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/a9x18
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	w_class = ITEM_SIZE_HUGE
-	name = "ammo pouch"
-	desc = "That one can store four SVD magazines."
+	name = "SVD magazine pouch"
+	desc = "Has enough space to hold four SVD magazines."
 	icon_state = "sa_svd"
 	item_state = "sa_ammo"
 	storage_slots = 4
@@ -378,8 +393,8 @@
 /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "PKM ammo pouch"
-	desc = "Have enough space to hold one box."
+	name = "PKM box pouch"
+	desc = "Has enough space to hold to hold one box."
 	icon_state = "sa_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
@@ -390,7 +405,7 @@
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_SMALL
 	name = "grenade pouch"
-	desc = "Can hold a couple of grenades."
+	desc = "Can hold three grenades."
 	icon_state = "sa_grenade"
 	item_state = "sa_grenade"
 	storage_slots = 3
@@ -399,8 +414,8 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	w_class = ITEM_SIZE_HUGE
-	name = "NVA DDR Ammo Pouch"
-	desc = "Stores up to four AK or SVD magazines."
+	name = "strichtarn AK magazine pouch"
+	desc = "Has enough space to hold four AK magazines."
 	icon_state = "nvaddr_ammo"
 	item_state = "nvaddr_ammo"
 	storage_slots = 4
@@ -408,7 +423,6 @@
 		/obj/item/ammo_magazine/c545x39m,
 		/obj/item/ammo_magazine/c545x39b,
 		/obj/item/ammo_magazine/c762x39m,
-		/obj/item/ammo_magazine/c762x54s,
 		/obj/item/ammo_magazine/a9x18
 		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
@@ -418,8 +432,8 @@
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "RPD ammo pouch"
-	desc = "Have enough space to hold one drum."
+	name = "strichtarn RPD drum pouch"
+	desc = "Has enough space to hold one RPD drum."
 	icon_state = "nvaddr_ammo_lmg"
 	item_state = "nvaddr_ammo_lmg"
 	storage_slots = 1
@@ -427,11 +441,23 @@
 		/obj/item/ammo_magazine/c762x39d
 		)
 
+/obj/item/weapon/storage/belt/suit/ammo/nvaddr/pkm
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "PKM box pouch"
+	desc = "Has enough space to hold one PKM box."
+	icon_state = "nvaddr_ammo_pkm"
+	item_state = "nvaddr_ammo_pkm"
+	storage_slots = 1
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x54b
+		)
+
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "RPK ammo pouch"
-	desc = "Have enough space to hold four mags."
+	name = "strichtarn RPK magazine pouch"
+	desc = "Has enough space to hold four RPK magazines."
 	icon_state = "nvaddr_ammo"
 	item_state = "nvaddr_ammo"
 	storage_slots = 4
@@ -443,8 +469,8 @@
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_SMALL
-	name = "grenade pouch"
-	desc = "Can hold a couple of grenades."
+	name = "strichtarn grenade pouch"
+	desc = "Can hold three grenades."
 	icon_state = "nvaddr_grenade"
 	item_state = "nvaddr_grenade"
 	storage_slots = 3
@@ -454,8 +480,8 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/finn
 	w_class = ITEM_SIZE_HUGE
-	name = "RK ammo bag"
-	desc = "That one can store four RK magazines."
+	name = "RK magazine pouch"
+	desc = "Has enough space to hold four RK magazines."
 	icon_state = "sa_ammo"
 	item_state = "sa_ammo"
 	storage_slots = 4
@@ -470,7 +496,7 @@
 /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "KK ammo pouch"
+	name = "KK box pouch"
 	desc = "Has enough space to hold one box."
 	icon_state = "sa_ammo_lmg"
 	storage_slots = 1
@@ -482,33 +508,33 @@
 /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = 2
-	name = "grenade pouch"
-	desc = "Can hold a couple of grenades."
+	name = "strichtarn grenade pouch"
+	desc = "Can hold three grenades."
 	icon_state = "nvaddr_grenade"
 	item_state = "nvaddr_grenade"
-	storage_slots = 2
+	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 
 //ugl nade pouches
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
-	name = "grenade satchel"
-	desc = "Generic grenade satchel used by Warsaw pact."
+	name = "soviet grenade satchel"
+	desc = "Generic grenade satchel used by Warsaw pact. Has enough space to hold six underbarrel grenades."
 	icon_state = "sa_ugl"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
-	name = "grenade satchel"
-	desc = "Generic grenade satchel used by Warsaw pact."
+	name = "strichtarn grenade satchel"
+	desc = "Strichtarn pattern grenade satchel used by Nationale Volksarmee. Has enough space to hold six underbarrel grenades."
 	icon_state = "nnaddr_ugl"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
 	name = "grenade bandolier"
-	desc = "Generic grenade satchel used by USMC."
+	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
 	icon_state = "usmc_grenbandolier"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
@@ -529,7 +555,7 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	name = "grenade bandolier"
-	desc = "Generic grenade satchel used by Bundeswehr."
+	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
 	icon_state = "bdw_grenbandolier"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
