@@ -123,13 +123,13 @@
 
 /obj/item/weapon/material/knife/bayonet/csla
 	name = "Vz.58 bayonet"
-	desc = "A slim and sharp, but somewhat fragile czechoslovakian bayonet."
+	desc = "A slim and sharp, but somewhat fragile Czechoslovakian bayonet."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "csla"
 
 /obj/item/weapon/material/knife/bayonet/usmc
 	name = "M7 bayonet"
-	desc = "A 11.9 inches bayonet with carbon steel blade. This one was manufacured in West Germany."
+	desc = "A 12 inch bayonet with a carbon-steel blade. This one was manufacured in West Germany."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "usmc"
 
