@@ -52,9 +52,7 @@
 	. = cache[key] = I
 
 /turf/proc/queue_ao(rebuild = TRUE)
-	if (!ao_queued)
-		SSao.queue += src
-
+	SSao.queue |= src
 	var/new_level = rebuild ? AO_UPDATE_REBUILD : AO_UPDATE_OVERLAY
 	if (ao_queued < new_level)
 		ao_queued = new_level

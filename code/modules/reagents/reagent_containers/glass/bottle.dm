@@ -214,7 +214,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/doxicycline
 	name = "doxicycline bottle"
-	desc = "A small bottle."
+	desc = "A broad spectrum antibiotic to fight against infections."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-2"
 
@@ -311,7 +311,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/naltamine
 	name = "naltamine bottle"
-	desc = "A small bottle. Contains naltamine. An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. "
+	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. "
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-4"
 

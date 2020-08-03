@@ -1,6 +1,6 @@
 /obj/item/clothing/mask/balaclava
 	name = "balaclava"
-	desc = "Designed to both hide identities and keep your face comfy and warm."
+	desc = "A black balaclava vowen from wool to keep your face warm."
 	icon_state = "balaclava"
 	item_state = "balaclava"
 	flags_inv = BLOCKHAIR

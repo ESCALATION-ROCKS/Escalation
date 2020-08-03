@@ -13,6 +13,7 @@
 
 /obj/structure/closet/secure_closet/freezer/meat
 	name = "meat fridge"
+	layer = 2
 	icon_state = "fridge1"
 	icon_closed = "fridge"
 	icon_locked = "fridge1"
@@ -27,6 +28,7 @@
 
 /obj/structure/closet/secure_closet/freezer/fridge
 	name = "refrigerator"
+	layer = 2
 	icon_state = "fridge1"
 	icon_closed = "fridge"
 	icon_locked = "fridge1"
@@ -43,6 +45,7 @@
 
 /obj/structure/closet/secure_closet/freezer/money
 	name = "secure locker"
+	layer = 2
 	icon_state = "fridge1"
 	icon_closed = "fridge"
 	icon_locked = "fridge1"
