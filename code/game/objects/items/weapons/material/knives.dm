@@ -135,6 +135,6 @@
 
 /obj/item/weapon/material/knife/bayonet/bdw
 	name = "Kampfmesser M68"
-	desc = "Combat knife of bundeswehr forces. German quality."
+	desc = "Combat knife of the Bundeswehr forces. German quality."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "bdw"
