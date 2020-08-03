@@ -63,7 +63,6 @@
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	r_pocket = /obj/item/weapon/masterkey/sovsarge
-	
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
@@ -557,7 +556,6 @@
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back_2 = /obj/item/weapon/gun/projectile/automatic/m60
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/usmc
@@ -619,7 +617,7 @@
 	l_pocket = /obj/item/weapon/masterkey/usmcsarge
 	r_pocket = null
 	l_ear = /obj/item/device/binoculars/nato
-	l_hand = /obj/item/weapon/maptool
+	r_hand = /obj/item/weapon/maptool
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/sl/pre_equip(mob/living/carbon/human/H)
@@ -666,7 +664,7 @@
 	l_pocket = /obj/item/weapon/masterkey/usmclt
 	r_pocket = null
 	l_ear = /obj/item/device/binoculars/nato
-	l_hand = /obj/item/weapon/maptool
+	r_hand = /obj/item/weapon/maptool
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/platlead/pre_equip(mob/living/carbon/human/H)
@@ -684,7 +682,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/usmc/cap/woodland
-	l_hand = /obj/item/weapon/maptool
+	r_hand = /obj/item/weapon/maptool
 	l_pocket = /obj/item/weapon/masterkey/usmcsarge
 	r_pocket = null
 	l_ear = /obj/item/device/binoculars/nato
@@ -772,6 +770,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
+	r_hand = /obj/item/weapon/maptool
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_ear = /obj/item/device/binoculars/nato
