@@ -287,10 +287,6 @@
 	storage_slots = 1
 	can_hold = (/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
-	/obj/item/weapon/storage/belt/bdw/New()
-	..()
-	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
-
 /obj/item/weapon/storage/belt/harness/bdw
 	name = "harness"
 	desc = "A generic harness used by Bundeswehr."
@@ -342,10 +338,6 @@
 	item_state = "usmc_belt"
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
-
-	/obj/item/weapon/storage/belt/usmc/New()
-	..()
-	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 
 /obj/item/weapon/storage/belt/harness/usmc
 	name = "ALICE harness"
