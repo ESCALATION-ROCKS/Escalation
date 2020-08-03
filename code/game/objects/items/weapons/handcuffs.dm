@@ -7,7 +7,7 @@
 	flags = CONDUCT
 	slot_flags = SLOT_BELT
 	throwforce = 5
-	w_class = ITEM_SIZE_SMALL
+	w_class = 1
 	throw_speed = 2
 	throw_range = 5
 	origin_tech = list(TECH_MATERIAL = 1)
@@ -179,6 +179,7 @@ var/last_chew = 0
 	name = "ziptie"
 	desc = " A sturdy and reliable plastic ziptie for binding the wrists."
 	icon = 'icons/obj/items.dmi'
+	w_class = 1
 	icon_state = "ziptie"
 	breakouttime = 600
 	cuff_sound = 'sound/weapons/cablecuff.ogg'
