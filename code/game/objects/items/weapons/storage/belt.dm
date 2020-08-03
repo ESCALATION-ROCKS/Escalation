@@ -360,5 +360,4 @@
 	..()
 	new /obj/item/weapon/shovel/etool(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
-	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
