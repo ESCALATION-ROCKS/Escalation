@@ -288,7 +288,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Rifleman")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
@@ -313,7 +313,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Funke")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
@@ -338,7 +338,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR RPG")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	back = /obj/item/weapon/storage/backpack/rpgsa
 	l_hand = /obj/item/weapon/gun/launcher/rpg7
@@ -352,7 +352,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NDA DDR RPG Assistant")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	back = /obj/item/weapon/storage/backpack/rpgsa/assistant
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
@@ -365,7 +365,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR MG Assistant")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
@@ -378,7 +378,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Radio Operator")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/radioset/r105d
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
@@ -493,7 +493,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon MG Assistant")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
