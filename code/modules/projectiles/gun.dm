@@ -410,19 +410,23 @@
 	return launched
 
 /obj/item/weapon/gun/proc/play_fire_sound(var/mob/user, var/obj/item/projectile/P)
-	var/shot_sound = fire_sound
-	var/shot_sound_vol = 50
-	if((istype(P) && P.fire_sound))
-		shot_sound = P.fire_sound
-		shot_sound_vol = P.fire_sound_vol
-	if(silenced)
-		if(istype(src,/obj/item/weapon/gun/projectile/shotgun))
-			playsound(user, 'sound/weapons/silencedshotgun.ogg', 50, 1, 1)
-		else
-			playsound(user, 'sound/weapons/silencedgun.ogg', 50, 1, 1)
-	
-	playsound(user, shot_sound, shot_sound_vol, 1)
+	var/turf/epicenter = get_turf(user)
+	var/delay_sound = 0
 
+	var/frequency = get_rand_frequency()
+	for(var/mob/M in range(60))
+		// Double check for client
+		if(M && M.client)
+			var/turf/M_turf = get_turf(M)
+			if(M_turf && M_turf.z == epicenter.z)
+				var/dist = get_dist(M_turf, epicenter)
+				if(dist <= 60 && dist >= 8 && delay_sound == 0)
+					var/far_volume = Clamp(60, 70, 80) // Volume is based on explosion size and dist
+					far_volume += (dist <= 60 * 0.5 ? 50 : 0) // add 50 volume if the mob is pretty close to the explosion
+					M.playsound_local(epicenter, dist_shot_sound, far_volume, 1, frequency, falloff = 5)
+					delay_sound = 1
+					spawn(100)
+						delay_sound = 0
 	if(istype(src,/obj/item/weapon/gun/launcher/oneuse/))
 		for (var/mob/living/carbon/human/M in oview())
 			var/dist = get_dist(src,M)
@@ -430,6 +434,16 @@
 				shake_camera(M, 5, 1)
 				playsound(M, 'sound/weapons/gunshot/rpg22.ogg', 100, 0)
 				playsound(M, 'sound/weapons/flash_ring.ogg', 100, 0)
+
+	var/shot_sound = (istype(P) && P.fire_sound)? P.fire_sound : fire_sound
+	if(silenced)
+		if(istype(src,/obj/item/weapon/gun/projectile/shotgun))
+			playsound(user, 'sound/weapons/silencedshotgun.ogg', 50, 1, 1)
+		else
+			playsound(user, 'sound/weapons/silencedgun.ogg', 50, 1, 1)
+	else
+		playsound(user, shot_sound, 100, 1, 4)
+
 
 //Suicide handling.
 /obj/item/weapon/gun/var/mouthshoot = 0 //To stop people from suiciding twice... >.>

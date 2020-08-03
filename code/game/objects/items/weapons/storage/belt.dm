@@ -268,7 +268,7 @@
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
 /obj/item/weapon/storage/belt/finn
-	name = "finnish belt"
+	name = "belt"
 	desc = "A belt used by Finnish officers."
 	icon_state = "sa_officerharness"
 	item_state = "sm_harness_officer"
@@ -280,7 +280,7 @@
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
 /obj/item/weapon/storage/belt/bdw
-	name = "bundeswehr belt"
+	name = "belt"
 	desc = "A pistol belt used by Bundeswehr officers. A Bundesadler is engraved on the buckle"
 	icon_state = "bdw_belt"
 	item_state = "bdw_belt"
@@ -324,7 +324,7 @@
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
 /obj/item/weapon/storage/belt/nvaddr
-	name = "nationale volksarmee belt"
+	name = "belt"
 	desc = "A belt used by NVA officers. A DDR Emblem is engraved on the buckle."
 	icon_state = "nvaddr_officerharness"
 	item_state = "nvaddr_officerharness"

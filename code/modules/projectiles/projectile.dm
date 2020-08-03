@@ -68,8 +68,6 @@
 	var/hit_sound = null
 	var/list/segments = list() //For hitscan projectiles with tracers.
 
-	var/fire_sound_vol = 50
-
 /obj/item/projectile/Initialize()
 	damtype = damage_type //TODO unify these vars properly
 	if(!hitscan)
@@ -358,11 +356,11 @@
 
 		before_move()
 		Move(location.return_turf())
-		/*
+
 		if(first_step != 1)
 			spawn()
 				do_supression_aoe(loc)
-		*/ //suppresion code
+
 		if(!bumped && !isturf(original))
 			if(loc == get_turf(original))
 				if(!(original in permutated))
@@ -517,9 +515,7 @@
 	qdel(trace) //No need for it anymore
 	return output //Send it back to the gun!
 
-//suppresion!!!! 
-/*
+//suppresion!!!!
 /obj/item/projectile/proc/do_supression_aoe(var/location)
     for(var/mob/living/carbon/human/h in orange(1,location))
         h.supression_act(src)
-*/
