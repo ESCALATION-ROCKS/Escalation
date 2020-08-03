@@ -323,7 +323,7 @@
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
-/obj/item/weapon/storage/belt/belt/nvaddr
+/obj/item/weapon/storage/belt/nvaddr
 	name = "belt"
 	desc = "A belt used by NVA officers. A DDR Emblem is engraved on the buckle."
 	icon_state = "nvaddr_officerharness"
@@ -331,7 +331,7 @@
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
-/obj/item/weapon/storage/belt/belt/nvaddr/New()
+/obj/item/weapon/storage/belt/nvaddr/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 

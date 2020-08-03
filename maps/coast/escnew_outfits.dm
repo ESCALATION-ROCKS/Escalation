@@ -218,7 +218,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	l_pocket = /obj/item/weapon/masterkey/sadoc/
 	r_pocket = null
-	belt = /obj/item/weapon/storage/belt/harness/sa/belt
+	belt = /obj/item/weapon/storage/belt/sa
 
 /decl/hierarchy/outfit/job/coldwar/soviet/starshina
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Starshina")
@@ -242,7 +242,7 @@
 	head = /obj/item/clothing/head/soviet/officer
 	l_pocket = /obj/item/weapon/masterkey/sovzampolit
 	r_pocket = null
-	belt = /obj/item/weapon/storage/belt/harness/sa/belt
+	belt = /obj/item/weapon/storage/belt/sa
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_com
 	name = OUTFIT_JOB_NAME("Coldwar - OTV Commander")
@@ -439,7 +439,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	l_pocket = /obj/item/weapon/masterkey/nvadoc
 	r_pocket = null
-	belt = /obj/item/weapon/storage/belt/harness/nvaddr/belt
+	belt = /obj/item/weapon/storage/belt/nvaddr
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/nvakapt
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Quartermaster")
@@ -452,7 +452,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	r_pocket = /obj/item/weapon/masterkey/nvaprapor
-	belt = /obj/item/weapon/storage/belt/harness/nvaddr/belt
+	belt = /obj/item/weapon/storage/belt/nvaddr
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/zamkomvzv
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon Leader Deputy")
