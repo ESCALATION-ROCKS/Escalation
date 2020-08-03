@@ -121,12 +121,15 @@
 	icon_closed = "apsholster_empty"
 	storage_slots = 3
 
-	desc = "This holster can hold an APS."
+	desc = "This holster can hold an APS and two magazines."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/aps,
+		/obj/item/ammo_magazine/a9x18b,
+		/obj/item/ammo_magazine/a9x18b,
 		)
 	can_hold = list(
 		/obj/item/weapon/gun/projectile/aps,
+		/obj/item/ammo_magazine/a9x18b,
 		)
 
 /obj/item/weapon/storage/belt/holster/bdw
