@@ -409,14 +409,9 @@
 
 	return launched
 
-/obj/item/weapon/gun/proc/play_fire_sound(mob/user, obj/item/projectile/P)
-    var/shot_sound = fire_sound
-    var/shot_sound_vol = 50
-    if((istype(P) && P.fire_sound))
-        shot_sound = P.fire_sound
-        shot_sound_vol = P.fire_sound_vol
-    playsound(user, shot_sound, shot_sound_vol, 1)
-
+/obj/item/weapon/gun/proc/play_fire_sound(var/mob/user, var/obj/item/projectile/P)
+	var/shot_sound = fire_sound
+	var/shot_sound_vol = 50
 	if(istype(src,/obj/item/weapon/gun/launcher/oneuse/))
 		for (var/mob/living/carbon/human/M in oview())
 			var/dist = get_dist(src,M)
@@ -424,16 +419,16 @@
 				shake_camera(M, 5, 1)
 				playsound(M, 'sound/weapons/gunshot/rpg22.ogg', 100, 0)
 				playsound(M, 'sound/weapons/flash_ring.ogg', 100, 0)
-
-	var/shot_sound = (istype(P) && P.fire_sound)? P.fire_sound : fire_sound
+	if((istype(P) && P.fire_sound))
+		shot_sound = P.fire_sound
+		shot_sound_vol = P.fire_sound_vol
 	if(silenced)
 		if(istype(src,/obj/item/weapon/gun/projectile/shotgun))
 			playsound(user, 'sound/weapons/silencedshotgun.ogg', 50, 1, 1)
 		else
 			playsound(user, 'sound/weapons/silencedgun.ogg', 50, 1, 1)
-	else
-		playsound(user, shot_sound, 100, 1, 4)
-
+	
+	playsound(user, shot_sound, shot_sound_vol, 1)
 
 //Suicide handling.
 /obj/item/weapon/gun/var/mouthshoot = 0 //To stop people from suiciding twice... >.>
