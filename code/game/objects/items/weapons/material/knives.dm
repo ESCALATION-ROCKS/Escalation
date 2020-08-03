@@ -110,7 +110,7 @@
 	icon_state = "6h4_ddr"
 
 /obj/item/weapon/material/knife/bayonet/sa/a6h3
-	name = "6x3 bayonet"
+	name = "6h3 bayonet"
 	desc = "An AKM bayonet with two sharp edges near the point."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "6h3"
@@ -123,18 +123,18 @@
 
 /obj/item/weapon/material/knife/bayonet/csla
 	name = "Vz.58 bayonet"
-	desc = "A slim and sharp, but somewhat fragile czechoslovakian bayonet."
+	desc = "A slim and sharp, but somewhat fragile Czechoslovakian bayonet."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "csla"
 
 /obj/item/weapon/material/knife/bayonet/usmc
 	name = "M7 bayonet"
-	desc = "A 11.9 inches bayonet with carbon steel blade. This one was manufacured in West Germany."
+	desc = "A 12 inch bayonet with a carbon-steel blade. This one was manufacured in West Germany."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "usmc"
 
 /obj/item/weapon/material/knife/bayonet/bdw
 	name = "Kampfmesser M68"
-	desc = "Combat knife of bundeswehr forces. German quality."
+	desc = "Combat knife of the Bundeswehr forces. German quality."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "bdw"
