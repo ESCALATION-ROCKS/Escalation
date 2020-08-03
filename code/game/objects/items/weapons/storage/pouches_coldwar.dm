@@ -62,7 +62,7 @@
 
 /obj/item/weapon/storage/belt/holster/sa
 	name = "Makarov holster"
-	storage_slots = 2
+	storage_slots = 3
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/makarov
@@ -79,7 +79,7 @@
 
 /obj/item/weapon/storage/belt/holster/csla
 	name = "CZ82 holster"
-	storage_slots = 2
+	storage_slots = 3
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/cz82
@@ -100,8 +100,7 @@
 	name = "ALICE M12 holster"
 	icon_state = "alice_holster"
 	icon_closed = "alice_holster_empty"
-	storage_slots = 2
-
+	storage_slots = 3
 	desc = "This holster can hold a M1911A1 and one magazine."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/colt911,
@@ -119,7 +118,7 @@
 	name = "APS holster"
 	icon_state = "apsholster"
 	icon_closed = "apsholster_empty"
-	storage_slots = 3
+	storage_slots = 4
 
 	desc = "This holster can hold an APS and two magazines."
 	startswith = list(
@@ -134,7 +133,7 @@
 
 /obj/item/weapon/storage/belt/holster/bdw
 	name = "P1 holster"
-	storage_slots = 2
+	storage_slots = 3
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/walther
@@ -150,7 +149,7 @@
 
 /obj/item/weapon/storage/belt/holster/finn
 	name = "Lahti holster"
-	storage_slots = 2
+	storage_slots = 3
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/lahti
