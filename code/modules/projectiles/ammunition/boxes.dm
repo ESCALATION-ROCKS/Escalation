@@ -490,6 +490,11 @@
 		/obj/item/ammo_magazine/box/paper/box762x51 = 8
 		)
 
+/obj/item/weapon/storage/fancy/ammo_can/x762/New()
+	..()
+	slowdown_per_slot[slot_l_hand] = 3
+	slowdown_per_slot[slot_r_hand] = 3
+
 /obj/item/weapon/storage/fancy/ammo_can/x556
 	name = "ammo box (5.56x45mm)"
 	icon_state = "ammocan"
@@ -497,5 +502,13 @@
 		/obj/item/ammo_magazine/box/paper/box556x45 = 8
 		)
 
-/obj/item/weapon/storage/fancy/ammo_can/attack_hand(mob/user as mob)
-	return
+/obj/item/weapon/storage/fancy/ammo_can/x556/New()
+	..()
+	slowdown_per_slot[slot_l_hand] = 3
+	slowdown_per_slot[slot_r_hand] = 3
+
+/obj/item/weapon/storage/fancy/ammo_can/x556/bandolier
+	icon_state = "ammocan_band"
+	startswith = list(
+		/obj/item/clothing/accessory/storage/bandolier_nato/filled = 5
+		)
