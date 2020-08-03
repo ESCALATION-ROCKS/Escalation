@@ -287,7 +287,7 @@
 	storage_slots = 1
 	can_hold = (/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
-	/obj/item/weapon/storage/belt/harness/usmc/New()
+	/obj/item/weapon/storage/belt/bdw/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 
@@ -330,7 +330,7 @@
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
-/obj/item/weapon/storage/belt/harness/nvaddr/New()
+/obj/item/weapon/storage/belt/harness/nvaddr/belt/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
@@ -342,7 +342,7 @@
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
-	/obj/item/weapon/storage/belt/harness/usmc/New()
+	/obj/item/weapon/storage/belt/usmc/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 
