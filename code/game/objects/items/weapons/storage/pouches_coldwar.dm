@@ -66,7 +66,7 @@
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/makarov
-	desc = "This holster can hold Makarov pistol and one magazine."
+	desc = "This holster can hold a Makarov pistol and one magazine."
 	special_item = /obj/item/weapon/gun/projectile/makarov
 	startswith = list(
 		/obj/item/weapon/gun/projectile/makarov,
@@ -76,6 +76,23 @@
 		/obj/item/weapon/gun/projectile/makarov,
 		/obj/item/ammo_magazine/a9x18
 		)
+	
+/obj/item/weapon/storage/belt/holster/waltherppk
+	name = "Walther PPK holster"
+	storage_slots = 3
+	holster_sound = 'sound/effects/holster/holsterin.ogg'
+	unholster_sound = 'sound/effects/holster/holsterout.ogg'
+	special_item = /obj/item/weapon/gun/projectile/waltherppk
+	desc = "This holster can hold a Walther PPK pistol and one magazine."
+	special_item = /obj/item/weapon/gun/projectile/waltherppk
+	startswith = list(
+		/obj/item/weapon/gun/projectile/waltherppk,
+		/obj/item/ammo_magazine/a9x18
+		)
+	can_hold = list(
+		/obj/item/weapon/gun/projectile/waltherppk,
+		/obj/item/ammo_magazine/a9x18
+		)
 
 /obj/item/weapon/storage/belt/holster/csla
 	name = "CZ82 holster"
@@ -83,7 +100,7 @@
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/cz82
-	desc = "This holster can hold CZ82 pistol and one magazine."
+	desc = "This holster can hold a CZ82 pistol and one magazine."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/cz82,
 		/obj/item/ammo_magazine/a9x18
@@ -137,7 +154,7 @@
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/walther
-	desc = "This holster can hold Walter P1 and one magazine."
+	desc = "This holster can hold a Walther P1 and one magazine."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/walther,
 		/obj/item/ammo_magazine/a9x19
@@ -153,7 +170,7 @@
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/lahti
-	desc = "This holster can hold Lahti and one magazine."
+	desc = "This holster can hold a Lahti and one magazine."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/lahti,
 		/obj/item/ammo_magazine/a9x19
