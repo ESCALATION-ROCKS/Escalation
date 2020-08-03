@@ -217,14 +217,14 @@
 
 /obj/item/weapon/storage/belt/harness
 	name = "harness"
-	desc = "NAH"
+	desc = "A golden belt for the true champions."
 	icon_state = "championbelt"
 	item_state = "champion"
-	storage_slots = 1
+	storage_slots = 0
 	can_hold = null
 
 /obj/item/weapon/storage/belt/harness/sa
-	name = "harness"
+	name = "soviet harness"
 	desc = "A cheap harness used by Warsaw Pact military forces."
 	icon_state = "sa_harness"
 	item_state = "sa_harness"
@@ -240,19 +240,19 @@
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
 /obj/item/weapon/storage/belt/harness/sa/belt
-	name = "belt"
-	desc = "A belt used by Warsaw Pact officers."
+	name = "soviet belt"
+	desc = "A belt used by Soviet officers. An USSR Star is engraved on the buckle."
 	icon_state = "sa_officerharness"
 	item_state = "sa_officerharness"
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
-/obj/item/weapon/storage/belt/harness/nvaddr/New()
+/obj/item/weapon/storage/belt/harness/sa/belt/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
 /obj/item/weapon/storage/belt/harness/finn
-	name = "harness"
+	name = "finnish harness"
 	desc = "A cheap harness used by Finnnish military forces."
 	icon_state = "sa_harness"
 	item_state = "sm_harness"
@@ -275,20 +275,24 @@
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
-/obj/item/weapon/storage/belt/harness/nvaddr/New()
+/obj/item/weapon/storage/belt/harness/finn/belt/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
 /obj/item/weapon/storage/belt/bdw
 	name = "belt"
-	desc = "A pistol belt used by Bundeswehr officers."
+	desc = "A pistol belt used by Bundeswehr officers. A Bundesadler is engraved on the buckle"
 	icon_state = "bdw_belt"
 	item_state = "bdw_belt"
 	storage_slots = 1
 	can_hold = (/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
+/obj/item/weapon/storage/belt/bdw/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
+
 /obj/item/weapon/storage/belt/harness/bdw
-	name = "harness"
+	name = "bundeswehr harness"
 	desc = "A generic harness used by Bundeswehr."
 	icon_state = "bdw_harness"
 	item_state = "bdw_harness"
@@ -304,7 +308,7 @@
 	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
 
 /obj/item/weapon/storage/belt/harness/nvaddr
-	name = "harness"
+	name = "nationale volksarmee harness"
 	desc = "A cheap harness used by the Nationale Volksarmee."
 	icon_state = "nvaddr_harness"
 	item_state = "nvaddr_harness"
@@ -321,7 +325,7 @@
 
 /obj/item/weapon/storage/belt/harness/nvaddr/belt
 	name = "belt"
-	desc = "A belt used by NVA officers."
+	desc = "A belt used by NVA officers. A DDR Emblem is engraved on the buckle."
 	icon_state = "nvaddr_officerharness"
 	item_state = "nvaddr_officerharness"
 	storage_slots = 1
@@ -330,14 +334,6 @@
 /obj/item/weapon/storage/belt/harness/nvaddr/belt/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
-
-/obj/item/weapon/storage/belt/usmc
-	name = "ALICE belt"
-	desc = "A pistol belt used by the US Military, without its harness."
-	icon_state = "usmc_belt"
-	item_state = "usmc_belt"
-	storage_slots = 1
-	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
 /obj/item/weapon/storage/belt/harness/usmc
 	name = "ALICE harness"
@@ -354,3 +350,15 @@
 	new /obj/item/weapon/shovel/etool(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
+
+/obj/item/weapon/storage/belt/usmc
+	name = "ALICE belt"
+	desc = "An ALICE belt used by the US Military, without its harness."
+	icon_state = "usmc_belt"
+	item_state = "usmc_belt"
+	storage_slots = 1
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
+
+/obj/item/weapon/storage/belt/usmc/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
