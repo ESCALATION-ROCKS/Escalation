@@ -291,6 +291,7 @@
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 
+/obj/item/weapon/storage/belt/harness/bdw
 	name = "harness"
 	desc = "A generic harness used by Bundeswehr."
 	icon_state = "bdw_harness"
