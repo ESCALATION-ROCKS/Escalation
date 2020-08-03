@@ -239,7 +239,7 @@
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
-/obj/item/weapon/storage/belt/harness/belt/sa
+/obj/item/weapon/storage/belt/harness/sa/belt
 	name = "soviet belt"
 	desc = "A belt used by Soviet officers. An USSR Star is engraved on the buckle."
 	icon_state = "sa_officerharness"
@@ -247,7 +247,7 @@
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
-/obj/item/weapon/storage/belt/harness/belt/sa/New()
+/obj/item/weapon/storage/belt/harness/sa/belt/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
@@ -323,7 +323,7 @@
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
-/obj/item/weapon/storage/belt/harness/belt/nvaddr
+/obj/item/weapon/storage/belt/harness/nvaddr/belt
 	name = "belt"
 	desc = "A belt used by NVA officers. A DDR Emblem is engraved on the buckle."
 	icon_state = "nvaddr_officerharness"
@@ -331,7 +331,7 @@
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
-/obj/item/weapon/storage/belt/harness/belt/nvaddr/New()
+/obj/item/weapon/storage/belt/harness/nvaddr/belt/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
