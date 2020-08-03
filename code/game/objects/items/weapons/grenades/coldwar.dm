@@ -48,7 +48,7 @@
 /obj/item/weapon/grenade/frag/dm51
 	name = "DM51 grenade (offensive)"
 	desc = "A dual purpose grenade used by the Bundeswehr. This one does not have a fragmentation jacket."
-	icon_state = "dm51grenade"
+	icon_state = "dm51offensive"
 	throw_speed = 4
 	throw_range = 13
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
@@ -57,6 +57,7 @@
 
 /obj/item/weapon/grenade/frag/dm51/def
 	name = "DM51 grenade (defensive)"
+	icon_state = "dm51grenade"
 	desc = "A dual purpose grenade used by the Bundeswehr. This one has it's fragmentation jacket on."
 	throw_speed = 3
 	throw_range = 10
