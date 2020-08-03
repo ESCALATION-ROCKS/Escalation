@@ -245,7 +245,7 @@
 	icon_state = "sa_officerharness"
 	item_state = "sa_officerharness"
 	storage_slots = 1
-	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
 /obj/item/weapon/storage/belt/harness/nvaddr/New()
 	..()
@@ -273,7 +273,7 @@
 	icon_state = "sa_officerharness"
 	item_state = "sm_harness_officer"
 	storage_slots = 1
-	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
 /obj/item/weapon/storage/belt/harness/nvaddr/New()
 	..()
@@ -285,11 +285,11 @@
 	icon_state = "bdw_belt"
 	item_state = "bdw_belt"
 	storage_slots = 1
-	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/nato,
+	can_hold = (/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
 	/obj/item/weapon/storage/belt/harness/usmc/New()
 	..()
-	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato,
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 
 	name = "harness"
 	desc = "A generic harness used by Bundeswehr."
@@ -328,7 +328,7 @@
 	icon_state = "nvaddr_officerharness"
 	item_state = "nvaddr_officerharness"
 	storage_slots = 1
-	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
 /obj/item/weapon/storage/belt/harness/nvaddr/New()
 	..()
@@ -340,11 +340,11 @@
 	icon_state = "usmc_belt"
 	item_state = "usmc_belt"
 	storage_slots = 1
-	can_hold = /obj/item/weapon/storage/belt/holster/flaskstorage/nato,
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
 	/obj/item/weapon/storage/belt/harness/usmc/New()
 	..()
-	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato,
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 
 /obj/item/weapon/storage/belt/harness/usmc
 	name = "ALICE harness"

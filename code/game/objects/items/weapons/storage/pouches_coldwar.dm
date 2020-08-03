@@ -236,8 +236,8 @@
 		/obj/item/weapon/material/knife/bayonet/usmc)
 
 /obj/item/weapon/storage/belt/holster/sheath/ddr74
-	name = "Modell AK74 bayonet" sheath"
-	desc = "This sheathe can hold a Modell AK74 bayonet."
+	name = "Modell AK74 bayonet sheath"
+	desc = "This sheath can hold a Modell AK74 bayonet."
 	special_item = /obj/item/weapon/material/knife/bayonet/sa/a6h4
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'

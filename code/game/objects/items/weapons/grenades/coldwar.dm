@@ -25,7 +25,7 @@
 
 /obj/item/weapon/grenade/frag/m67
 	name = "M67 frag grenade"
-	desc = "An fragmentation grenade used by NATO armies, dubbed "Pineapple"."
+	desc = "A fragmentation grenade used by NATO armies, dubbed 'Pineapple'."
 	icon_state = "m67grenade"
 	throw_speed = 2
 	throw_range = 10
@@ -35,7 +35,7 @@
 
 /obj/item/weapon/grenade/frag/m26
 	name = "M26 frag grenade"
-	desc = "An fragmentation grenade used by US forces, dubbed "Lemon"."
+	desc = "A fragmentation grenade used by US forces, dubbed 'Lemon'."
 	icon_state = "m26grenade"
 	throw_speed = 3
 	throw_range = 8
@@ -57,7 +57,7 @@
 
 /obj/item/weapon/grenade/frag/dm51/def
 	name = "DM51 grenade (defensive)"
-	desc = "A dual purpose grenade used by the Bundeswehr. This one has it's fragmentation jacket on.
+	desc = "A dual purpose grenade used by the Bundeswehr. This one has it's fragmentation jacket on."
 	throw_speed = 3
 	throw_range = 10
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
