@@ -160,7 +160,6 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet MG Assistant")
 	uniform = /obj/item/clothing/under/soviet/habe/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
-	id = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -237,7 +236,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Zampolit")
 	uniform = /obj/item/clothing/under/soviet/habe/mllt
 	shoes = /obj/item/clothing/shoes/soviet/field
-	holster = /obj/item/weapon/storage/belt/holster/aps
+	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/soviet/officer
@@ -304,7 +303,6 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Marksman")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	id_type = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
@@ -414,7 +412,6 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
-	l_pocket = 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
 	l_ear = /obj/item/device/binoculars/wp
 	l_hand = /obj/item/weapon/maptool
@@ -466,7 +463,6 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
-	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
 	l_ear = /obj/item/device/binoculars/wp
 	l_hand = /obj/item/weapon/maptool
