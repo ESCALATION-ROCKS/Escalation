@@ -77,7 +77,7 @@
 	desc = "That's Pistolet Makarova. Uses 9x18ammo."
 	icon_state = "makarov"
 	item_state = "gun"
-	w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
 	fire_delay = 1
 	load_method = MAGAZINE
