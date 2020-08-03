@@ -134,12 +134,11 @@
 /obj/item/ammo_casing/rpg_missile/rg7
 	name = "PG-7"
 	desc = "93mm HEAT rocket for the RPG-7. Effective against most ground vehicles. Watch out for the backblast!"
-	layer = 4
 
 /obj/item/ammo_casing/rpg_missile/og7
 	name = "OG-7"
 	desc = "40mm Fragmentation rocket for the RPG-7. Effective against ground infantry. Watch out for the backblast!"
-	layer = 4
+	icon_state = "og-7"
 
 /obj/item/ammo_casing/oneuserocket
 	name = "rocket"
