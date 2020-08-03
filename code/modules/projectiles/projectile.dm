@@ -68,6 +68,8 @@
 	var/hit_sound = null
 	var/list/segments = list() //For hitscan projectiles with tracers.
 
+	var/fire_sound_vol = 50
+
 /obj/item/projectile/Initialize()
 	damtype = damage_type //TODO unify these vars properly
 	if(!hitscan)
