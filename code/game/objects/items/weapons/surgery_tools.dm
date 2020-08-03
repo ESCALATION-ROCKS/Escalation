@@ -146,9 +146,10 @@
 	throwforce = 1.0
 
 /obj/item/weapon/FixOVein
-	name = "cautery"
+	name = "cautery (FixOVein)"
 	icon = 'icons/obj/surgery.dmi'
 	icon_state = "cautery"
+	desc = "Use this Cautery to Fix Broken Arteries"
 	force = 0
 	throwforce = 1.0
 	origin_tech = list(TECH_MATERIAL = 1, TECH_BIO = 3)
