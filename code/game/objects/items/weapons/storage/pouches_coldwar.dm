@@ -2,7 +2,7 @@
 
 /obj/item/weapon/storage/belt/holster
 	w_class = ITEM_SIZE_HUGE
-	max_w_class = ITEM_SIZE_NORMAL
+	max_w_class = ITEM_SIZE_HUGE
 	name = "pistol holster"
 	desc = "This holster can hold pistol and one magazine."
 	icon_state = "holster"
