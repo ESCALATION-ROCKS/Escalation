@@ -265,6 +265,7 @@
 
 /obj/item/weapon/storage/box/ampule_box/naltamine
 	name = "naltamine ampule pack"
+	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose."
 	startswith = list(/obj/item/weapon/ampule_pack/naltamine = 2)
 
 /obj/item/weapon/storage/box/ampule_box/talotropine
@@ -335,6 +336,7 @@
 
 /obj/item/weapon/ampule_pack/naltamine
 	name = "naltamine ampule pack"
+	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose."
 	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/naltamine
 
 /obj/item/weapon/ampule_pack/talotropine
