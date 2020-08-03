@@ -287,6 +287,7 @@
 	icon_state = "9x19a"
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = ITEM_SIZE_SMALL
 	matter = list(DEFAULT_WALL_MATERIAL = 1200)
 	caliber = "9x19"
 	max_ammo = 8
@@ -295,6 +296,7 @@
 /obj/item/ammo_magazine/a9x19/ap
 	name = "AP magazine (9x19mm)"
 	desc = "A P1 magazine that fits eight armor-piercing 9x19mm rounds."
+	w_class = ITEM_SIZE_SMALL
 	ammo_type = /obj/item/ammo_casing/a9x19/ap
 
 /obj/item/ammo_magazine/a9x18
@@ -302,6 +304,7 @@
 	desc = "A Makarov magazine that fits eight 9x18mm rounds."
 	icon_state = "9x18a"
 	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_SMALL
 	ammo_type = /obj/item/ammo_casing/a9x18
 	matter = list(DEFAULT_WALL_MATERIAL = 1200)
 	caliber = "9x18"
@@ -313,6 +316,7 @@
 	desc = "A Stechkin APS magazine that fits twenty 9x18mm rounds."
 	icon_state = "9x18b"
 	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_SMALL
 	ammo_type = /obj/item/ammo_casing/a9x18
 	matter = list(DEFAULT_WALL_MATERIAL = 1200)
 	caliber = "9x18"
@@ -323,6 +327,7 @@
 	name = "CZ82 magazine (9x18mm)"
 	desc = "A CZ85 magazine that fits eight 9x18mm rounds."
 	icon_state = "9x18a" //fix
+	w_class = ITEM_SIZE_SMALL
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a9x18
 	matter = list(DEFAULT_WALL_MATERIAL = 1200)
@@ -332,6 +337,7 @@
 
 /obj/item/ammo_magazine/a9x18/ap
 	name = "AP magazine (9x18mm)"
+	w_class = ITEM_SIZE_SMALL
 	desc = "A Makarov magazine that fits eight armor-piercing 9x18mm rounds."
 	ammo_type = /obj/item/ammo_casing/a9x18/ap
 
