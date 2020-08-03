@@ -368,7 +368,7 @@
 
 /obj/item/ammo_magazine/c556x45s/ap
 	name = "AP magazine (5.56x45mm)"
-		desc = "A STANAG magazine that fits twenty armor-piercing 5.56x45mm rounds."
+	desc = "A STANAG magazine that fits twenty armor-piercing 5.56x45mm rounds."
 	ammo_type = /obj/item/ammo_casing/a556x45/ap
 
 /obj/item/ammo_magazine/a4mm
