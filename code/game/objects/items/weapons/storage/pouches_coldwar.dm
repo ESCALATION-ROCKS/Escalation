@@ -430,7 +430,7 @@
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "RPD drum pouch"
+	name = "strichtarn RPD drum pouch"
 	desc = "Has enough space to hold one RPD drum."
 	icon_state = "nvaddr_ammo_lmg"
 	item_state = "nvaddr_ammo_lmg"
