@@ -246,7 +246,7 @@
 	startswith = list(
 		/obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr)
 	can_hold = list(
-		/obj/item/weapon/material/knife/bayonet/sa/a6h4/)
+		/obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr)
 
 /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	name = "Mehrzweckbajonett M1959 sheath"
@@ -259,7 +259,7 @@
 	startswith = list(
 		/obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr)
 	can_hold = list(
-		/obj/item/weapon/material/knife/bayonet/sa/a6h3/)
+		/obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr)
 
 /obj/item/weapon/storage/belt/holster/flaskstorage
 	name = "flask pouch"
