@@ -110,7 +110,7 @@
 	icon_state = "6h4_ddr"
 
 /obj/item/weapon/material/knife/bayonet/sa/a6h3
-	name = "6x3 bayonet"
+	name = "6h3 bayonet"
 	desc = "An AKM bayonet with two sharp edges near the point."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "6h3"
