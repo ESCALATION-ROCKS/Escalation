@@ -256,7 +256,7 @@
 
 /obj/item/weapon/storage/box/ampule_box/morphine
 	name = "morphine ampule pack"
-	desc = ""Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
+	desc = "Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 	startswith = list(/obj/item/weapon/ampule_pack/morphine = 2)
 
 /obj/item/weapon/storage/box/ampule_box/epinephrine
