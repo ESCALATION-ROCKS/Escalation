@@ -2,7 +2,7 @@
 //COLD WAR GUNS
 /obj/item/weapon/gun/projectile/berettam9
 	name = "Beretta M9"  // DO NOT USE
-	desc = "That's the Italian-made pistol. Uses 9x19 ammo."
+	desc = "That's a Beretta M9. Uses 9x19 ammunition."
 	icon_state = "berettam9"
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
@@ -74,7 +74,7 @@
 
 /obj/item/weapon/gun/projectile/makarov
 	name = "Makarov PM"
-	desc = "That's Pistolet Makarova. Uses 9x18ammo."
+	desc = "That's a Pistolet Makarova. Uses 9x18 ammunition."
 	icon_state = "makarov"
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
@@ -101,7 +101,7 @@
 
 /obj/item/weapon/gun/projectile/aps
 	name = "Stechkin APS"
-	desc = "That's Avtomaticheskiy Pistolet Stechkina. Uses 9x18ammo."
+	desc = "That's an Avtomaticheskiy Pistolet Stechkina. Uses extended 9x18mm magazines."
 	icon_state = "aps"
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
@@ -132,7 +132,7 @@
 
 /obj/item/weapon/gun/projectile/cz82
 	name = "CZ82"
-	desc = "That's CZ82. Uses 9x18ammo."
+	desc = "That's a CZ82. Uses 9x18 ammunition."
 	icon_state = "cz82"
 	item_state = "gun"
 	w_class = 2
@@ -149,7 +149,7 @@
 
 /obj/item/weapon/gun/projectile/colt911
 	name = "Colt M1911A1"
-	desc = "Solid classic. Uses .45 ammo."
+	desc = "A solid classic. Uses .45 ammunition."
 	icon_state = "colt" //fix
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
@@ -174,7 +174,7 @@
 
 /obj/item/weapon/gun/projectile/walther
 	name = "P1"
-	desc = "A bit modified Walther P38 with politically correct name. Uses 9x19 ammo"
+	desc = "A modified Walther P38 with a politically correct name. Uses 9x19 ammunition"
 	icon_state = "p1" //fix
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
@@ -192,7 +192,7 @@
 
 /obj/item/weapon/gun/projectile/lahti
 	name = "Lahti"
-	desc = "A Finnish standard issue handgun. Uses 9x19 ammo"
+	desc = "A Finnish standard issue handgun. Uses 9x19 ammunition"
 	icon_state = "lahti" //fix
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL

@@ -217,7 +217,7 @@
 
 /obj/item/weapon/storage/belt/harness
 	name = "harness"
-	desc = "A golden belt for the true champions."
+	desc = "A golden belt for the true champion."
 	icon_state = "championbelt"
 	item_state = "champion"
 	storage_slots = 0
@@ -268,8 +268,8 @@
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
 /obj/item/weapon/storage/belt/finn
-	name = "belt"
-	desc = "A belt used by Finnish officers."
+	name = "finnish belt"
+	desc = "A simple belt used by Finnish officers."
 	icon_state = "sa_officerharness"
 	item_state = "sm_harness_officer"
 	storage_slots = 1
@@ -280,7 +280,7 @@
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
 /obj/item/weapon/storage/belt/bdw
-	name = "belt"
+	name = "bundeswehr belt"
 	desc = "A pistol belt used by Bundeswehr officers. A Bundesadler is engraved on the buckle"
 	icon_state = "bdw_belt"
 	item_state = "bdw_belt"
@@ -324,7 +324,7 @@
 	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
 
 /obj/item/weapon/storage/belt/nvaddr
-	name = "belt"
+	name = "nationale volksarmee belt"
 	desc = "A belt used by NVA officers. A DDR Emblem is engraved on the buckle."
 	icon_state = "nvaddr_officerharness"
 	item_state = "nvaddr_officerharness"
