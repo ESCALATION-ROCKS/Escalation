@@ -172,7 +172,7 @@
 	desc = "Single-use rocket launcher used by the Soviet Army. Also known as 'Mukha'."
 	icon_state = "rpg18"
 	item_state = "rpg18"
-	slowdown_general = 1.0
+	slowdown_general = 0.8
 	w_class = 5
 	throw_speed = 2
 	one_hand_penalty = 100
@@ -245,7 +245,7 @@
 	desc = "Single-use rocket launcher used by the Soviet Army. Also known as 'Netto'."
 	icon_state = "rpg22"
 	item_state = "rpg22"
-
+	
 
 
 /obj/item/weapon/gun/launcher/oneuse/m72
@@ -253,7 +253,7 @@
 	desc = "A single-use rocket launcher used by NATO forces. Fires a 66mm HEAT shell."
 	icon_state = "m72"
 	item_state = "m72"
-	slowdown_general = 1.0
+	slowdown_general = 0.8
 	one_hand_penalty = 100
 	w_class = 5
 	throw_speed = 2
