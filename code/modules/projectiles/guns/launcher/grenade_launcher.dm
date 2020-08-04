@@ -32,23 +32,6 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	play_fire_sound(user,projectile)
 	return 1
 
-//revolves the magazine, allowing players to choose between multiple grenade types
-/obj/item/weapon/gun/launcher/grenade/proc/pump(mob/M as mob)
-	playsound(M, 'sound/weapons/shotgunpump.ogg', 60, 1)
-
-	var/obj/item/weapon/grenade/next
-	if(grenades.len)
-		next = grenades[1] //get this first, so that the chambered grenade can still be removed if the grenades list is empty
-	if(chambered)
-		grenades += chambered //rotate the revolving magazine
-		chambered = null
-	if(next)
-		grenades -= next //Remove grenade from loaded list.
-		chambered = next
-		to_chat(M, "<span class='warning'>You pump [src], loading \a [next] into the chamber.</span>")
-	else
-		to_chat(M, "<span class='warning'>You pump [src], but the magazine is empty.</span>")
-	update_icon()
 
 /obj/item/weapon/gun/launcher/grenade/examine(mob/user)
 	if(..(user, 2))
@@ -76,9 +59,6 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 		user.visible_message("\The [user] removes \a [G] from [src].", "<span class='notice'>You remove \a [G] from \the [src].</span>")
 	else
 		to_chat(user, "<span class='warning'>\The [src] is empty.</span>")
-
-/obj/item/weapon/gun/launcher/grenade/attack_self(mob/user)
-	pump(user)
 
 /obj/item/weapon/gun/launcher/grenade/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))
@@ -244,7 +224,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 
 	if(!cover_opened)
 		to_chat(user, "<span class='warning'>[src]'s cover is closed! Open it first </span>")
-
+		return
 	if(chambered)
 		to_chat(user, "<span class='warning'>\The [src] is already loaded.</span>")
 		return
