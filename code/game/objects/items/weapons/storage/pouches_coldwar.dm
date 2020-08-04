@@ -322,7 +322,8 @@
 	storage_slots = 2
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/a9x19
+		/obj/item/ammo_magazine/a9x19,
+		/obj/item/ammo_magazine/c762x51wa
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
