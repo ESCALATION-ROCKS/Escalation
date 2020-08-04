@@ -590,9 +590,9 @@
 		..()
 		H.add_skills(rand(1, 2), rand(3,4), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
-/datum/job/escalation/nvaddr/nvaratelo
+/datum/job/escalation/nvaddr/nvarad
 	title = "NVA Funktelefonbetreiber"
-	title = "Funktelefonbetreiber"
+	name = "Funktelefonbetreiber"
 	english_name = "HQ Radio Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -604,7 +604,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "ddr_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
