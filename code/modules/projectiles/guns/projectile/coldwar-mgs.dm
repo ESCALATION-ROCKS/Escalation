@@ -450,7 +450,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	load_method = MAGAZINE
 	magazine_type = null
-	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c545x39k)
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
 	accuracy = 3
 	wielded_item_state = "nvarpk-wielded"
