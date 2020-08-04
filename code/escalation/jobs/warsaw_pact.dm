@@ -10,7 +10,7 @@
 
 /datum/job/escalation/cccp/saplatlead
 	title = "SA Komandir Vzvoda"
-	name = "Komandir vzvoda"
+	name = "Komandir Vzvoda"
 	english_name = "Platoon Leader"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -31,7 +31,7 @@
 
 /datum/job/escalation/cccp/saplatleaddep
 	title = "SA Zamestitel Komandira Vzvoda"
-	name = "Zamestitel' komandira vzvoda"
+	name = "Zamestitel' Komandira Vzvoda"
 	english_name = "Platoon Leader Deputy"
 	minimal_player_age = 21
 	economic_modifier = 5
