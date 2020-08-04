@@ -445,12 +445,12 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = 5
 	force = 10
-	max_shells = 45
+	max_shells = 75
 	caliber = "762x39"
 	ammo_type = /obj/item/ammo_casing/a762x39
 	load_method = MAGAZINE
 	magazine_type = null
-	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b)
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
 	accuracy = 3
 	wielded_item_state = "nvarpk-wielded"
