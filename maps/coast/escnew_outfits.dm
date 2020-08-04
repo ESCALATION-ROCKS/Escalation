@@ -452,7 +452,6 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/nvaddr/officer
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
-	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	r_pocket = /obj/item/weapon/masterkey/nvaprapor
 	belt = /obj/item/weapon/storage/belt/nvaddr
 
@@ -484,6 +483,17 @@
 	l_ear = /obj/item/device/binoculars/wp
 	l_hand = /obj/item/weapon/maptool
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
+
+/decl/hierarchy/outfit/job/coldwar/nvaddr/politoffizier
+	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Political Commisar")
+	uniform = /obj/item/clothing/under/nvaddr/strichtarn/leutnant
+	shoes = /obj/item/clothing/shoes/soviet/marching/nva
+	holster = /obj/item/weapon/storage/belt/holster/waltherppk
+	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	l_pocket = /obj/item/weapon/masterkey/nvaco
+	r_pocket = null
+	head = /obj/item/clothing/head/nvaddr/officer
+	belt = /obj/item/weapon/storage/belt/nvaddr
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon MG")
