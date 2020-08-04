@@ -1,6 +1,4 @@
-////////////////////////////////////////////////////////////////////////////////////////////////////////Soviet armor
-
-
+//Soviet armor
 
 /obj/item/clothing/suit/storage/vest/soviet/
 	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA)
@@ -12,7 +10,6 @@
 	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
 	siemens_coefficient = 0.6
 
-
 /obj/item/clothing/suit/storage/vest/soviet/a6b3
 	name = "6B3 armor vest"
 	desc = "An uncommon armor vest with some pouches and titanium plates used by Soviet army."
@@ -23,37 +20,11 @@
 
 /obj/item/clothing/suit/storage/vest/soviet/a6b3/New()
 	..()
-	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 3, slot_size = 2)
-
-
-/obj/item/clothing/suit/storage/vest/soviet/lifchik
-	name = "makeshift webbing vest"
-	desc = "Known by soviet forces as 'Lifchik', which means brassiere in English words. It seems to be knit from some kind of bag."
-	icon_state = "lifchik_1"
-	item_state = "armor"
-	armor = list(melee = 0, bullet = 5, laser = 0, energy = 25, bomb = 15, bio = 0, rad = 0)
-	slowdown_general = 0.0
-
-/obj/item/clothing/suit/storage/vest/soviet/lifchik/New()
-	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 4, slot_size = 2)
 
-/obj/item/clothing/suit/storage/vest/soviet/lifchikalt
-	name = "makeshift webbing vest"
-	desc = "Known by soviet forces as 'Lifchik', which means brassiere in English words. It seems to be knit from some kind of bag."
-	icon_state = "lifchik_2"
-	item_state = "armor"
-	armor = list(melee = 0, bullet = 5, laser = 0, energy = 25, bomb = 15, bio = 0, rad = 0)
-	slowdown_general = 0.0
-
-/obj/item/clothing/suit/storage/vest/soviet/lifchikalt/New()
-	..()
-	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 3)
-
-
-
 /obj/item/clothing/suit/armor/vest/soviet/
-	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA)
+	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA, ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA, ACCESSORY_SLOT_ARMOR_S)
 	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	cold_protection = UPPER_TORSO|LOWER_TORSO
@@ -94,6 +65,8 @@
 	desc = "An outdated flak vest used by NATO personnel."
 	icon_state = "flakvest_nato"
 	item_state = "armor"
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 38, bio = 0, rad = 0)
 	slowdown_general = 0.3
 
@@ -102,20 +75,6 @@
 	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 2)
 
-/obj/item/clothing/suit/storage/vest/bando
-	name = "Bandolier Vest"
-	desc = "A lightweight storage vest with 4 large pouches used by NATO personnel, provides no ballistic protection."
-	icon_state = "bando_nato"
-	item_state = "armor"
-	armor = list(melee = 0, bullet = 5, laser = 0, energy = 25, bomb = 15, bio = 0, rad = 0)
-	slowdown_general = 0.0
-
-/obj/item/clothing/suit/storage/vest/bando/New()
-	..()
-	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 4, slot_size = 2)
-
-/obj/item/clothing/suit/storage/vest/bando/woodland
-	icon_state = "bando_nato_w"
 
 //Wake up, Mister Freeman, Wake up, and Smell the Ashes.
 

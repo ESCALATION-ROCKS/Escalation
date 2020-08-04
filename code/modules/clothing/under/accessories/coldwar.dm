@@ -246,3 +246,53 @@
 	desc = null
 	icon_state = "squadpatch"
 	var/squad = null
+
+//Storage Accessories
+/obj/item/clothing/accessory/storage/bandolier_nato
+	name = "bandolier"
+	desc = "A generic nylon bandolier that can hold 5 items."
+	icon_state = "bandolier_nato"
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 5
+	armor_slowdown = 0.1
+
+/obj/item/clothing/accessory/storage/bandolier_nato/filled/New()
+	..()
+	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
+	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
+	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
+	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
+	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
+
+/obj/item/clothing/accessory/storage/vest
+	name = "Bandolier Vest"
+	desc = "A lightweight storage vest with 4 large pouches used by NATO personnel, provides no ballistic protection."
+	icon_state = "bandovest_nato"
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.1
+
+/obj/item/clothing/accessory/storage/vest/woodland
+	icon_state = "bandovest_nato_w"
+
+/obj/item/clothing/accessory/storage/lifchik
+	name = "makeshift webbing vest"
+	desc = "Known by soviet forces as a 'lifchik', which translates to 'brassiere' in English. It seems to be knit from some kind of bag."
+	icon_state = "lifchik_1"
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.1
+
+/obj/item/clothing/accessory/storage/lifchik/alt
+	icon_state = "lifchik_2"
+	slots = 2
+	armor_slowdown = 0.0
