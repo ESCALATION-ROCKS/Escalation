@@ -138,7 +138,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/marksman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 1
+	enabled = 0
 	amount = 1
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
@@ -351,7 +351,7 @@
 
 /datum/job/escalation/bund/bdwplatlead
 	title = "BDW Zugfuhrer"
-	name = "Zugfuhrår"
+	name = "Zugfuhrer"
 	english_name = "Platoon Leader"
 	minimal_player_age = 21
 	economic_modifier = 5
