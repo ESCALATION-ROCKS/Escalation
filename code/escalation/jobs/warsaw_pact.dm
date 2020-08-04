@@ -590,9 +590,9 @@
 		..()
 		H.add_skills(rand(1, 2), rand(3,4), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
-/datum/job/escalation/nvaddr/nvaratelo
+/datum/job/escalation/nvaddr/nvarad
 	title = "NVA Funktelefonbetreiber"
-	title = "Funktelefonbetreiber"
+	name = "Funktelefonbetreiber"
 	english_name = "HQ Radio Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -604,7 +604,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "ddr_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -971,8 +971,8 @@
 		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
 /datum/job/escalation/finn/finnsurgerist
-	title = "NVA Kenttäkirurg"
-	name = "Kenttäkirurg"
+	title = "NVA Kenttakirurg"
+	name = "Kenttakirurg"
 	english_name = "Field Surgeon"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -991,8 +991,8 @@
 		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 4, rand(0,1), rand(0,1), 2, 0, rand(0,1))
 
 /datum/job/escalation/finn/finnsl
-	title = "FINN Ryhmänjohtaja"
-	name = "Ryhmänjohtaja"
+	title = "FINN Ryhmanjohtaja"
+	name = "Ryhmanjohtaja"
 	english_name = "Squad Leader"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1012,8 +1012,8 @@
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
 
 /datum/job/escalation/finn/finnsld
-	title = "FINN Ryhmänjohtaja Jäsen"
-	name = "Ryhmänjohtaja Jäsen"
+	title = "FINN Ryhmanjohtaja Jasen"
+	name = "Ryhmanjohtaja Jasen"
 	english_name = "Squad Leader Deputy"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1033,8 +1033,8 @@
 
 
 /datum/job/escalation/finn/finnmg
-	title = "FINN Konekivääri"
-	name = "Konekivääri"
+	title = "FINN Konekivaari"
+	name = "Konekivaari"
 	english_name = "Machinegunner"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1053,8 +1053,8 @@
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
 /datum/job/escalation/finn/finnmgas
-	title = "FINN Konekivääri-assistentti"
-	name = "Konekivääri-assistentti"
+	title = "FINN Konekivaari-assistentti"
+	name = "Konekivaari-assistentti"
 	english_name = "Machinegunner Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1134,8 +1134,8 @@
 
 
 /datum/job/escalation/finn/finnrifle
-	title = "FINN Kiväärimies"
-	name = "Kiväärimies"
+	title = "FINN Kivarimies"
+	name = "Kivaarimies"
 	english_name = "Rifleman"
 	minimal_player_age = 21
 	economic_modifier = 5
