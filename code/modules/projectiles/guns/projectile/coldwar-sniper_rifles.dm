@@ -131,7 +131,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/wa2000
 	name = "WA2000"
-	desc = "An incredibly rare semi-automatic bullpup sniper rifle. Chambers 7.62x51 rounds."
+	desc = "An incredibly rare and accurate semi-automatic bullpup sniper rifle. Chambers 7.62x51 rounds."
 	icon_state = "wa2000"
 	item_state = "wa2000"
 	w_class = 5
@@ -143,9 +143,9 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = /obj/item/ammo_magazine/c762x51wa
 	magazine_type = null
-	one_hand_penalty = 5
-	accuracy = 8
-	fire_delay = 2
+	one_hand_penalty = 6
+	accuracy = 6
+	fire_delay = 5
 	wielded_item_state = "wa2000-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3sg1.ogg'
 	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
@@ -156,7 +156,7 @@
 	slowdown_general = 0.5
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0)
+		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
 	)
 /obj/item/weapon/gun/projectile/automatic/rifle/wa2000/update_icon()
 	..()
