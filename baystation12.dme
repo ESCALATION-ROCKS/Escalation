@@ -175,7 +175,6 @@
 #include "code\controllers\Processes\tgui.dm"
 #include "code\controllers\Processes\ticker.dm"
 #include "code\controllers\Processes\timer.dm"
-#include "code\controllers\Processes\trade.dm"
 #include "code\controllers\Processes\turf.dm"
 #include "code\controllers\Processes\vote.dm"
 #include "code\controllers\Processes\wireless.dm"
