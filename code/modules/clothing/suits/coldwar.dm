@@ -77,20 +77,6 @@
 	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 2)
 
-/obj/item/clothing/suit/storage/vest/bando
-	name = "Bandolier Vest"
-	desc = "A lightweight storage vest with 4 large pouches used by NATO personnel, provides no ballistic protection."
-	icon_state = "bando_nato"
-	item_state = "armor"
-	armor = list(melee = 0, bullet = 5, laser = 0, energy = 25, bomb = 15, bio = 0, rad = 0)
-	slowdown_general = 0.0
-
-/obj/item/clothing/suit/storage/vest/bando/New()
-	..()
-	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 4, slot_size = 2)
-
-/obj/item/clothing/suit/storage/vest/bando/woodland
-	icon_state = "bando_nato_w"
 
 //Wake up, Mister Freeman, Wake up, and Smell the Ashes.
 

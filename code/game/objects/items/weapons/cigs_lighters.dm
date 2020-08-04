@@ -261,7 +261,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	type_butt = /obj/item/weapon/cigbutt/unfiltered
 
 /obj/item/weapon/cigbutt/unfiltered
-	icon_state = "/ucigbutt"
+	icon_state = "cigbuttjer"
 
 /obj/item/clothing/mask/smokable/cigarette/unfiltered/New()
 	..()
