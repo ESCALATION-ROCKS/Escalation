@@ -128,3 +128,50 @@
 	set popup_menu = 0
 
 	src.toggle_scope(usr, 2.4)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/wa2000
+	name = "WA2000"
+	desc = "An incredibly rare semi-automatic bullpup sniper rifle. Chambers 7.62x51 rounds."
+	icon_state = "wa2000"
+	item_state = "wa2000"
+	w_class = 5
+	force = 10
+	max_shells = 6
+	load_method = MAGAZINE
+	caliber = "762x51"
+	slot_flags = SLOT_BACK_GUN
+	ammo_type = /obj/item/ammo_casing/a762x51
+	allowed_magazines = /obj/item/ammo_magazine/c762x51wa
+	magazine_type = null
+	one_hand_penalty = 5
+	accuracy = 8
+	fire_delay = 2
+	wielded_item_state = "wa2000-wielded"
+	fire_sound = 'sound/weapons/gunshot/g3sg1.ogg'
+	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
+	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
+	jam_chance = 0.5
+	slowdown_general = 0.5
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0)
+	)
+/obj/item/weapon/gun/projectile/automatic/rifle/wa2000/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "wa2000"
+		wielded_item_state = "wa2000-wielded"
+	else
+		icon_state = "wa2000-empty"
+		wielded_item_state = "wa2000-wielded-empty"
+	update_held_icon()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/wa2000/verb/scope()
+	set name = "Use Scope"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 0
+
+	src.toggle_scope(usr, 2.4)

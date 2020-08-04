@@ -27,9 +27,9 @@
 	multiple_sprites = 1
 	load_delay = 7
 
-/obj/item/ammo_magazine/wa2000_762x51s
+/obj/item/ammo_magazine/c762x51wa
 	name = "WA2000 magazine (7.62x51mm)"
-	desc = "A WA2000 magazine that fits six 7.62x51mm rounds. You should not be looking at this."
+	desc = "A WA2000 magazine that fits six 7.62x51mm rounds."
 	icon_state = "wa2000mag"
 	mag_type = MAGAZINE
 	caliber = "762x51"
@@ -38,7 +38,7 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c762x51s/ap
-	desc = "A WA2000 magazine that fits six armor-piercing 7.62x51mm rounds. You should not be looking at this."
+	desc = "A WA2000 magazine that fits six armor-piercing 7.62x51mm rounds."
 	name = "AP magazine (7.62x51mm)"
 	ammo_type = /obj/item/ammo_casing/a762x51/ap
 
