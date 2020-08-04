@@ -10,7 +10,7 @@
 
 /datum/job/escalation/cccp/saplatlead
 	title = "SA Komandir Vzvoda"
-	name = "Komandir vzvoda"
+	name = "Komandir Vzvoda"
 	english_name = "Platoon Leader"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -31,8 +31,8 @@
 
 /datum/job/escalation/cccp/saplatleaddep
 	title = "SA Zamestitel Komandira Vzvoda"
-	name = "Zamestitel' komandira vzvoda"
-	english_name = null
+	name = "Zamestitel' Komandira Vzvoda"
+	english_name = "Platoon Leader Deputy"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -52,7 +52,7 @@
 /datum/job/escalation/cccp/sazampolit
 	title = "SA Zampolit"
 	name = "Zampolit"
-	english_name = null
+	english_name = "Political Commisar"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -72,7 +72,7 @@
 /datum/job/escalation/cccp/sastarshina
 	title = "SA Starshina"
 	name = "Starshina"
-	english_name = null
+	english_name = "Staff Sergeant"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -92,7 +92,7 @@
 /datum/job/escalation/cccp/saplmg
 	title = "SA Vzvodny Pulemetchik"
 	name = "Vzvodny Pulemetchik"
-	english_name = null
+	english_name = "Platoon Machinegunner"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -112,7 +112,7 @@
 /datum/job/escalation/cccp/saplmgas
 	title = "SA Pomoshnik Vzvodnogo Pulemetchika"
 	name = "Pomoshnik Vzvodnogo Pulemetchika"
-	english_name = null
+	english_name = "Platoon Machinegunner Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -132,7 +132,7 @@
 /datum/job/escalation/cccp/saratelo
 	title = "SA Shtabnoi Radiotelefonist"
 	name = "Shtabnoi Radiotelefonist"
-	english_name = null
+	english_name = "HQ Radio Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -152,7 +152,7 @@
 /datum/job/escalation/cccp/sacorpsman
 	title = "SA Sanitar"
 	name = "Sanitar"
-	english_name = null
+	english_name = "Field Medic"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -172,7 +172,7 @@
 /datum/job/escalation/cccp/sasurgerist
 	title = "SA Polevoi Vrach"
 	name = "Polevoi Vrach"
-	english_name = null
+	english_name = "Field Surgeon"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -192,7 +192,7 @@
 /datum/job/escalation/cccp/sasniper
 	title = "SA Snaiper"
 	name = "Snaiper"
-	english_name = null
+	english_name = "Sniper"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -201,7 +201,7 @@
 	rank_number = 4
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10)
 
@@ -212,7 +212,7 @@
 /datum/job/escalation/cccp/sasl
 	title = "SA Komandir Otdeleniya"
 	name = "Komandir Otdeleniya"
-	english_name = null
+	english_name = "Squad Leader"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -233,7 +233,7 @@
 /datum/job/escalation/cccp/sasld
 	title = "SA Zamestitel Komandira Otdeleniya"
 	name = "Zamestitel' Komandira Otdeleniya"
-	english_name = null
+	english_name = "Squad Leader Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -253,7 +253,7 @@
 /datum/job/escalation/cccp/samg
 	title = "SA Pulemetchik"
 	name = "Pulemetchik"
-	english_name = null
+	english_name = "Machinegunner"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -273,7 +273,7 @@
 /datum/job/escalation/cccp/samgas
 	title = "SA Pomoshnik Pulemetchika"
 	name = "Pomoshnik Pulemetchika"
-	english_name = null
+	english_name = "Machinegunner Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -293,7 +293,7 @@
 /datum/job/escalation/cccp/sasrad
 	title = "SA Radiotelefonist"
 	name = "Radiotelefonist"
-	english_name = null
+	english_name = "Radiotelephone Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -313,7 +313,7 @@
 /datum/job/escalation/cccp/sarocket
 	title = "SA Strelok-Granatometchik"
 	name = "Strelok-Granatometchik"
-	english_name = null
+	english_name = "Squad Grenadier"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -333,7 +333,7 @@
 /datum/job/escalation/cccp/sarocketass
 	title = "SA Pomoshnik Granatometchika"
 	name = "Pomoshnik Granatometchika"
-	english_name = null
+	english_name = "Squad Grenadier Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -353,7 +353,7 @@
 /datum/job/escalation/cccp/sarifle
 	title = "SA Strelok"
 	name = "Strelok"
-	english_name = null
+	english_name = "Rifleman"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -374,7 +374,7 @@
 /datum/job/escalation/cccp/saotvco
 	title = "SA OTV Komandir"
 	name = "OTV Komandir"
-	english_name = null
+	english_name = "Heavy Weapons Commander"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -395,7 +395,7 @@
 /datum/job/escalation/cccp/saotvop
 	title = "SA OTV Operator"
 	name = "OTV Operator"
-	english_name = null
+	english_name = "Heavy Weapons Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -416,7 +416,7 @@
 /datum/job/escalation/cccp/saotvload
 	title = "SA OTV Zaryazhaiuschiy"
 	name = "OTV Zaryazhaiuschiy"
-	english_name = null
+	english_name = "Heavy Weapons Loader"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
