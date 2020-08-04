@@ -1,5 +1,5 @@
 
-/proc/explosion(turf/epicenter, devastation_range, heavy_impact_range, light_impact_range, flash_range, adminlog = 1, z_transfer = UP|DOWN, shaped)
+/proc/explosion(turf/epicenter, devastation_range, heavy_impact_range, light_impact_range, flash_range, adminlog = 1, z_transfer = UP|DOWN, shaped = FALSE, do_effects = TRUE)
 	var/multi_z_scalar = 0.35
 	src = null	//so we don't abort once src is deleted
 	spawn(0)
@@ -66,16 +66,18 @@
 			defer_powernet_rebuild = 1
 
 		if(heavy_impact_range > 1)
-			var/datum/effect/system/explosion/E = new/datum/effect/system/explosion()
-			E.set_up(epicenter)
-			E.start()
+			
+			if(do_effects)
+				var/datum/effect/system/explosion/E = new/datum/effect/system/explosion()
+				E.set_up(epicenter)
+				E.start()
 			if(istype(epicenter, /turf/unsimulated/ground) || istype(epicenter, /turf/unsimulated/floor/road))
 				new/obj/effect/crater64(epicenter)
 		else
-
-			var/datum/effect/system/explosion_small/E = new/datum/effect/system/explosion_small()
-			E.set_up(epicenter)
-			E.start()
+			if(do_effects)
+				var/datum/effect/system/explosion_small/E = new/datum/effect/system/explosion_small()
+				E.set_up(epicenter)
+				E.start()
 
 		var/x0 = epicenter.x
 		var/y0 = epicenter.y

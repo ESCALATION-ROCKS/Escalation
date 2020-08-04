@@ -122,22 +122,22 @@ Please contact me on #coderbus IRC. ~Carn x
 #define SHOES_LAYER				8
 #define GLOVES_LAYER			9
 #define BELT_LAYER				10
-#define LEFT_POUCH_LAYER		11
-#define RIGHT_POUCH_LAYER		12
-#define HOLSTER_LAYER			13
-#define SUIT_LAYER				14
-#define TAIL_LAYER				15		//bs12 specific. this hack is probably gonna come back to haunt me
-#define GLASSES_LAYER			16
-#define BACK_LAYER				17
-#define BELT_LAYER_ALT			18
-#define SUIT_STORE_LAYER		19
-#define ADD_GUN_LAYER			20 //NEW GUN SLOT
-#define HAIR_LAYER				21		//TODO: make part of head layer?
-#define GOGGLES_LAYER			22
-#define EARS_LAYER				23
-#define FACEMASK_LAYER			24
-#define HEAD_LAYER				25
-#define COLLAR_LAYER			26
+#define SUIT_LAYER				11
+#define BELT_LAYER_ALT			12
+#define SUIT_STORE_LAYER		13
+#define TAIL_LAYER				14		//bs12 specific. this hack is probably gonna come back to haunt me
+#define HAIR_LAYER				15		//TODO: make part of head layer?
+#define GOGGLES_LAYER			16
+#define EARS_LAYER				17
+#define FACEMASK_LAYER			18
+#define GLASSES_LAYER			19
+#define HEAD_LAYER				20
+#define COLLAR_LAYER			21
+#define BACK_LAYER				22
+#define LEFT_POUCH_LAYER		23
+#define RIGHT_POUCH_LAYER		24
+#define HOLSTER_LAYER			25
+#define ADD_GUN_LAYER			26 //NEW GUN SLOT
 #define HANDCUFF_LAYER			27
 #define L_HAND_LAYER			28
 #define R_HAND_LAYER			29

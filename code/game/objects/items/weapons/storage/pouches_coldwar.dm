@@ -322,7 +322,8 @@
 	storage_slots = 2
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/a9x19
+		/obj/item/ammo_magazine/a9x19,
+		/obj/item/ammo_magazine/c762x51wa
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
@@ -449,19 +450,20 @@
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "strichtarn RPD drum pouch"
-	desc = "Has enough space to hold one RPD drum."
+	name = "strichtarn drum pouch"
+	desc = "Has enough space to hold one drum magazine."
 	icon_state = "nvaddr_ammo_lmg"
 	item_state = "nvaddr_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
-		/obj/item/ammo_magazine/c762x39d
+		/obj/item/ammo_magazine/c762x39d,
+		/obj/item/ammo_magazine/c762x39k
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/pkm
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "PKM box pouch"
+	name = "strichtarn PKM box pouch"
 	desc = "Has enough space to hold one PKM box."
 	icon_state = "nvaddr_ammo_pkm"
 	item_state = "nvaddr_ammo_pkm"
@@ -525,7 +527,7 @@
 /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = 2
-	name = "strichtarn grenade pouch"
+	name = "grenade pouch"
 	desc = "Can hold three grenades."
 	icon_state = "nvaddr_grenade"
 	item_state = "nvaddr_grenade"

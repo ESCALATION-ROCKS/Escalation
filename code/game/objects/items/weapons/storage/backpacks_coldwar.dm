@@ -51,6 +51,7 @@
 	item_state = "usmc_med"
 	slot_flags = SLOT_BACK
 	max_storage_space = 15
+	reachable = 1
 	open_delay = 5
 	startswith = list(
 			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
@@ -68,8 +69,18 @@
 	icon_state = "m3pack"
 	item_state = "m3pack"
 	slot_flags = SLOT_BACK
-	max_storage_space = 10
 	reachable = 1
+	max_storage_space = 15
+	open_delay = 5
+	slot_flags = SLOT_BACK
+	startswith = list(
+			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
+			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
+			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/gauze_pack/gauze = 3,
+			/obj/item/stack/medical/ointment = 1,
+			/obj/item/stack/medical/splint = 1)
 
 /obj/item/weapon/storage/backpack/sovietpack
 	name = "kitbag"

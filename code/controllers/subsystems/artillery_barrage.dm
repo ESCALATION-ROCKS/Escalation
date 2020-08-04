@@ -37,7 +37,7 @@ SUBSYSTEM_DEF(artillery)
 	sleep(rand(50,100))
 	playsound(src, 'sound/effects/mortar_falling.wav', 80, 1)
 	sleep(rand(	0,60))
-	explosion(src, 1, 2, 4, 5, 0)
+	explosion(src, 1, 2, 4, 5, 0, FALSE, FALSE, FALSE)
 	sleep(rand(30,60))
 
 /client/proc/stop_arty_gib()

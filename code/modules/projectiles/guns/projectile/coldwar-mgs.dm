@@ -97,7 +97,7 @@
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
 	jam_chance = 1
 	dist_shot_sound = 'sound/weapons/gunshot/dist/mg_dist.wav'
-	slowdown_general = 1.0
+	slowdown_general = 0.8
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,              dispersion=null,                          automatic = 0),
@@ -170,7 +170,7 @@
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 	jam_chance = 2
-	slowdown_general = 1.0
+	slowdown_general = 0.8
 
 	wielded_item_state = "m60-wielded"
 	fire_sound = 'sound/weapons/gunshot/m60.ogg'
@@ -329,7 +329,7 @@
 	one_hand_penalty = 9
 	automatic = FALSE
 	jam_chance = 2
-	slowdown_general = 0.9
+	slowdown_general = 0.8
 
 	wielded_item_state = "vz59-wielded"
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
@@ -411,7 +411,7 @@
 	one_hand_penalty = 6
 	accuracy = 3
 	wielded_item_state = "rpk-wielded"
-	slowdown_general = 0.5
+	slowdown_general = 0.45
 	jam_chance = 1.2
 
 	fire_sound = 'sound/weapons/gunshot/rpk74.ogg'
@@ -445,16 +445,16 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = 5
 	force = 10
-	max_shells = 45
+	max_shells = 75
 	caliber = "762x39"
 	ammo_type = /obj/item/ammo_casing/a762x39
 	load_method = MAGAZINE
 	magazine_type = null
-	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b)
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
 	accuracy = 3
 	wielded_item_state = "nvarpk-wielded"
-	slowdown_general = 0.6
+	slowdown_general = 0.45
 	jam_chance = 1.2
 
 	fire_sound = 'sound/weapons/gunshot/akm.ogg'

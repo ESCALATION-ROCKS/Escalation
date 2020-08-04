@@ -8,7 +8,7 @@
 	max_w_class = ITEM_SIZE_NORMAL
 	slot_flags = SLOT_BELT
 	attack_verb = list("whipped", "lashed", "disciplined")
-	var/show_above_suit = 1
+	var/show_above_suit = 0
 
 /obj/item/weapon/storage/belt/verb/toggle_layer()
 	set name = "Switch Belt Layer"
@@ -296,7 +296,8 @@
 	desc = "A generic harness used by Bundeswehr."
 	icon_state = "bdw_harness"
 	item_state = "bdw_harness"
-	storage_slots = 4
+	show_above_suit = 1
+	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
 	/obj/item/weapon/storage/firstaid/usmc_ifak)
@@ -340,7 +341,8 @@
 	desc = "A modular belt and harness used by the US Military."
 	icon_state = "usmc_harness"
 	item_state = "usmc_harness"
-	storage_slots = 4
+	show_above_suit = 1
+	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
 	/obj/item/weapon/storage/firstaid/usmc_ifak)
