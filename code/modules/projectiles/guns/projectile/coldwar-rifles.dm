@@ -289,7 +289,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 	bayonet_attachable = 1
 	jam_chance = 1.8
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "m16-wielded"
 	fire_sound = 'sound/weapons/gunshot/m16.ogg'
@@ -374,7 +374,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 	bayonet_attachable = 1
 	jam_chance = 2
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "m16-wielded"
 	fire_sound = 'sound/weapons/gunshot/m16.ogg'
@@ -414,7 +414,7 @@
 	accuracy = 3
 	fire_delay = 1.7
 	jam_chance = 2
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "m16gl-wielded"
 	fire_sound = 'sound/weapons/gunshot/m16.ogg'
@@ -499,7 +499,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
 	jam_chance = 1
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "g3a3-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
@@ -550,7 +550,7 @@
 	accuracy = 3
 	fire_delay = 2.5
 	jam_chance = 1.5
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "g3tgs-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
@@ -636,7 +636,7 @@
 	fire_delay = 1.7
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/csla/
 	bayonet_attachable = 1
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "vz58-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -763,7 +763,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
 	bayonet_attachable = 1
 	jam_chance = 1
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/akm.ogg'
@@ -806,7 +806,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
 	bayonet_attachable = 1
 	jam_chance = 1
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
@@ -848,7 +848,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
 	bayonet_attachable = 1
 	jam_chance = 1
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
@@ -931,7 +931,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
 	bayonet_attachable = 1
 	jam_chance = 2
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "mpik74-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -974,7 +974,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
 	bayonet_attachable = 1
 	jam_chance = 2
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "aks-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -1015,7 +1015,7 @@
 	fire_delay = 1.7
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/csla/
 	bayonet_attachable = 1
-	slowdown_general = .0.25
+	slowdown_general = 0.25
 
 	wielded_item_state = "rk62-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
