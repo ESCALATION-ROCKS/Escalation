@@ -29,16 +29,16 @@
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 3, 0, rand(0,1))
 
-/datum/job/escalation/cccp/sastarshina
-	title = "SA Starshina"
-	name = "Starshina"
-	english_name = "Staff Sergeant"
+/datum/job/escalation/cccp/saplatleaddep
+	title = "SA Zamestitel Komandira Vzvoda"
+	name = "Zamestitel' komandira vzvoda"
+	english_name = "Platoon Leader Deputy"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/starshina
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/zamkomvzv
 	selection_color = "#B22222"
-	rank_number = 3
+	rank_number = 2
 	position = "team"
 	amount = 1
 	enabled = 1
@@ -69,27 +69,25 @@
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
 
-
-/datum/job/escalation/cccp/saplatleaddep
-	title = "SA Zamestitel Komandira Vzvoda"
-	name = "Zamestitel' komandira vzvoda"
-	english_name = "Platoon Leader Assistant"
+/datum/job/escalation/cccp/sastarshina
+	title = "SA Starshina"
+	name = "Starshina"
+	english_name = "Staff Sergeant"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/zamkomvzv
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/starshina
 	selection_color = "#B22222"
-	rank_number = 2
+	rank_number = 3
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "sa_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 60)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
-
 
 /datum/job/escalation/cccp/saplmg
 	title = "SA Vzvodny Pulemetchik"
@@ -490,12 +488,31 @@
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
 
+/datum/job/escalation/nvaddr/politoffizier
+	title = "NVA Politoffizier"
+	name = "Politoffizier"
+	english_name = "Political Commisar"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/politoffizier
+	selection_color = "#FA8072"
+	rank_number = 0
+	position = "team"
+	amount = 1
+	enabled = 0
+	whitelist_rank = "ddr_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
 
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
 
 /datum/job/escalation/nvaddr/nvakapt
 	title = "NVA Entfuhrer"
 	name = "Entfuhrer"
-	english_name = "Quartermaster"
+	english_name = "Staff Sergeant"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
