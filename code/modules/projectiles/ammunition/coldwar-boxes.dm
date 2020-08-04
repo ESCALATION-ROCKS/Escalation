@@ -81,8 +81,8 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39d
-	name = "ammo drum (7.62x39mm)"
-	desc = "An RPD drum that fits seventy five 7.62x39mm rounds."
+	name = "belt drum (7.62x39mm)"
+	desc = "An RPD belt drum that fits seventy five 7.62x39mm rounds."
 	icon_state = "rpdbaraban"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
@@ -91,6 +91,18 @@
 	max_ammo = 75
 	multiple_sprites = 1
 	load_delay = 30
+
+/obj/item/ammo_magazine/c762x39k
+	name = "drum magazine (7.62x39mm)"
+	desc = "An AK-platform drum magazine that fits seventy five 7.62x39mm rounds."
+	icon_state = "rpdbaraban"
+	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_LARGE
+	caliber = "762x39"
+	ammo_type = /obj/item/ammo_casing/a762x39
+	max_ammo = 75
+	multiple_sprites = 1
+	load_delay = 20
 
 /obj/item/ammo_magazine/c762x51b/bdw
 	name = "magazine box (7.62x51mm)"
