@@ -10,7 +10,7 @@
 	worn_state = "usmcwoodland"
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
 	siemens_coefficient = 0.7
-	slowdown_general = 0.2
+	slowdown_general = 0.5
 	has_sensor = 0
 	starting_accessories = list(/obj/item/clothing/accessory/storage/usmc_harness)
 
@@ -57,7 +57,7 @@
 	worn_state = "bundeswehr"
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
 	siemens_coefficient = 0.7
-	slowdown_general = 0.2
+	slowdown_general = 0.5
 	has_sensor = 0
 
 /obj/item/clothing/under/bundeswehr/olive/soldat
@@ -153,7 +153,38 @@
 /obj/item/clothing/under/soviet/habe/cpt
 	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/cpt)
 
+/obj/item/clothing/under/soviet/afghanka/gefr
+	starting_accessories = list( /obj/item/clothing/accessory/insignia/soviet/gefr)
 
+/obj/item/clothing/under/soviet/afghanka/jsgt
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/jsgt)
+
+/obj/item/clothing/under/soviet/afghanka/sgt
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/sgt)
+
+/obj/item/clothing/under/soviet/afghanka/ssgt
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/ssgt)
+
+/obj/item/clothing/under/soviet/afghanka/star
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/star)
+
+/obj/item/clothing/under/soviet/afghanka/mllt
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/mllt)
+
+/obj/item/clothing/under/soviet/afghanka/lt
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/lt)
+
+/obj/item/clothing/under/soviet/afghanka/stlt
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/stlt)
+
+/obj/item/clothing/under/soviet/afghanka/prap
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/prap)
+
+/obj/item/clothing/under/soviet/afghanka/stprap
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/stpr)
+
+/obj/item/clothing/under/soviet/afghanka/cpt
+	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/cpt)
 
 
 
