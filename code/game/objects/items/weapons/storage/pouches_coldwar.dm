@@ -337,6 +337,7 @@
 	icon_state = "bdw_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
+		/obj/item/ammo_magazine/c762x51b,
 		/obj/item/ammo_magazine/c762x51b/bdw,
 		/obj/item/ammo_magazine/c762x51b/bdw/drum
 		)
@@ -364,7 +365,9 @@
 	item_state = "usmc_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
-		/obj/item/ammo_magazine/c762x51b
+		/obj/item/ammo_magazine/c762x51b,
+		/obj/item/ammo_magazine/c762x51b/bdw,
+		/obj/item/ammo_magazine/c762x51b/bdw/drum
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa

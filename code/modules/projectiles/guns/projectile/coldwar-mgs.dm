@@ -88,7 +88,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	load_method = MAGAZINE
 	magazine_type = null
-	allowed_magazines = list(/obj/item/ammo_magazine/c762x51b/bdw, /obj/item/ammo_magazine/c762x51b/bdw/drum)
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51b, /obj/item/ammo_magazine/c762x51b/bdw, /obj/item/ammo_magazine/c762x51b/bdw/drum)
 	one_hand_penalty = 9
 	wielded_item_state = "m60-wielded" //change
 	fire_sound = 'sound/weapons/gunshot/mg3.ogg'
@@ -166,7 +166,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	load_method = MAGAZINE
 	magazine_type = null
-	allowed_magazines = /obj/item/ammo_magazine/c762x51b
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51b, /obj/item/ammo_magazine/c762x51b/bdw, /obj/item/ammo_magazine/c762x51b/bdw/drum)
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 	jam_chance = 2
