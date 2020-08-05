@@ -56,7 +56,7 @@
 /obj/item/weapon/gun/launcher/rpg7
 	name = "RPG7"
 	desc = "A grenade launcher, standard-issued by the Soviet Army."
-	icon_state = "icons/obj/gunrpg.dmi/rpg" ///change
+	icon_state = "/icons/obj/gunrpg.dmi/rpg" ///change
 	item_state = "rpg1" ///change
 	slowdown_general = 1.0
 	w_class = 5
@@ -86,10 +86,10 @@
 /obj/item/weapon/gun/launcher/rpg7/update_icon()
 	..()
 	if(rockets.len)
-		icon_state = "icons/obj/gunrpg.dmi/rpg"
+		icon_state = "/icons/obj/gunrpg.dmi/rpg"
 		item_state = "rpg1"
 	else
-		icon_state = "icons/obj/gunrpg.dmi/rpg-empty"
+		icon_state = "/icons/obj/gunrpg.dmi/rpg-empty"
 		item_state = "rpg1-empty"
 	update_held_icon()
 
