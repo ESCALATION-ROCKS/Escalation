@@ -251,7 +251,6 @@ var/list/worths = list(
 					/obj/item/weapon/FixOVein = 1000,
 					/obj/item/weapon/bonesetter = 300,
 					/obj/item/weapon/locator = 200,
-					/obj/item/integrated_circuit/manipulation/bluespace_rift = 7600,
 					/obj/item/weapon/wrench = 60,
 					/obj/item/weapon/screwdriver = 30,
 					/obj/item/weapon/wirecutters = 50,

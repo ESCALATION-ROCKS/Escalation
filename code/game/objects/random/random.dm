@@ -634,12 +634,6 @@ obj/random/obstruction/spawn_choices()
 	icon = 'icons/obj/items.dmi'
 	icon_state = "gift1"
 
-/obj/random/assembly/spawn_choices()
-	return list(/obj/item/device/electronic_assembly,
-				/obj/item/device/electronic_assembly/medium,
-				/obj/item/device/electronic_assembly/large,
-				/obj/item/device/electronic_assembly/drone)
-
 /obj/random/advdevice
 	name = "random advanced device"
 	desc = "This is a random advanced device."
