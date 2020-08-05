@@ -335,6 +335,7 @@
 	name = "MG3 box pouch"
 	desc = "Has enough space to hold one MG3 box."
 	icon_state = "bdw_ammo_lmg"
+	item_state = "bdw_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51b/bdw,
@@ -568,7 +569,7 @@
 	name = "bundeswehr grenade bandolier"
 	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
 	icon_state = "bdw_grenbandolier"
-	item_state = "usmc_grenbandolier"
+	item_state = "bdw_grenbandolier"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
 
