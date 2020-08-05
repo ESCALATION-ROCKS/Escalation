@@ -395,8 +395,8 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR SL Assistant")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/obergefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	r_pocket = null
