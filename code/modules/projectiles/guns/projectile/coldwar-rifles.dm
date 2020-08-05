@@ -241,7 +241,7 @@
 	caliber = "556x45"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
-	allowed_magazines = /obj/item/ammo_magazine/c556x45m
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
 	one_hand_penalty = 4
 	accuracy = 4
@@ -324,7 +324,7 @@
 	caliber = "556x45"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
-	allowed_magazines = /obj/item/ammo_magazine/c556x45m
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
 	one_hand_penalty = 4
 	accuracy = 3
@@ -366,7 +366,7 @@
 	caliber = "556x45"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
-	allowed_magazines = /obj/item/ammo_magazine/c556x45m
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
 	one_hand_penalty = 4
 	accuracy = 2.5
@@ -405,7 +405,7 @@
 	caliber = "556x45"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
-	allowed_magazines = /obj/item/ammo_magazine/c556x45m
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
 	one_hand_penalty = 4
 	bayonet_attachable = 1
@@ -489,7 +489,7 @@
 	caliber = "762x51"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x51
-	allowed_magazines = /obj/item/ammo_magazine/c762x51s
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 3
@@ -542,7 +542,7 @@
 	caliber = "762x51"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x51
-	allowed_magazines = /obj/item/ammo_magazine/c762x51s
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 3
