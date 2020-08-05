@@ -27,6 +27,9 @@
 	multiple_sprites = 1
 	load_delay = 7
 
+/obj/item/ammo_magazine/c762x51s/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c762x51wa
 	name = "WA2000 magazine (7.62x51mm)"
 	desc = "A WA2000 magazine that fits six 7.62x51mm rounds."
@@ -37,13 +40,14 @@
 	max_ammo = 6
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/c762x51s/ap
+/obj/item/ammo_magazine/c762x51wa/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/c762x51wa/ap
 	desc = "A WA2000 magazine that fits six armor-piercing 7.62x51mm rounds."
 	name = "AP magazine (7.62x51mm)"
 	ammo_type = /obj/item/ammo_casing/a762x51/ap
 
-/obj/item/ammo_magazine/c762x51s/empty
-	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x51b
 	name = "magazine box (7.62x51mm)"
@@ -58,11 +62,13 @@
 	load_delay = 30
 	slowdown_general = 0.1
 
+/obj/item/ammo_magazine/c762x51b/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c762x51b/ap
 	name = "AP magazine (7.62x51mm)"
 	desc = "An M60 box that fits one hundred armor-piercing 7.62x51mm rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
 
 /obj/item/ammo_magazine/c762x39b
 	name = "large magazine (7.62x39mm)"
@@ -83,7 +89,7 @@
 /obj/item/ammo_magazine/c762x39d
 	name = "belt drum (7.62x39mm)"
 	desc = "An RPD belt drum that fits seventy five 7.62x39mm rounds."
-	icon_state = "rpdbaraban"
+	icon_state = "rpdbaraban100"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x39"
@@ -91,6 +97,9 @@
 	max_ammo = 75
 	multiple_sprites = 1
 	load_delay = 30
+
+/obj/item/ammo_magazine/c762x39d/empty
+	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39k
 	name = "drum magazine (7.62x39mm)"
@@ -103,6 +112,9 @@
 	max_ammo = 75
 	multiple_sprites = 1
 	load_delay = 20
+
+/obj/item/ammo_magazine/c762x39k/empty
+	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x51b/bdw
 	name = "magazine box (7.62x51mm)"
@@ -117,8 +129,8 @@
 	load_delay = 30
 
 /obj/item/ammo_magazine/c762x51b/bdw/drum
-	name = "magazine drum (7.62x51mm)"
-	desc = "A drum magazine that fits fifty 7.62x51mm rounds. You should not be looking at this."
+	name = "belt drum (7.62x51mm)"
+	desc = "A belt drum that fits fifty 7.62x51mm rounds."
 	icon_state = "mg3s"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_NORMAL
@@ -128,10 +140,13 @@
 	multiple_sprites = 1
 	load_delay = 30
 
-/obj/item/ammo_magazine/c762x39b/ap
-	name = "AP magazine (7.62x39mm)"
-	desc = "A drum magazine that fits fifty armor-piercing 7.62x51mm rounds. You should not be looking at this."
+/obj/item/ammo_magazine/c762x51b/bdw/drum/ap
+	name = "AP magazine (7.62x51mm)"
+	desc = "A belt drum that fits fifty armor-piercing 7.62x51mm rounds. You should not be looking at this."
 	ammo_type = /obj/item/ammo_casing/a762x39/ap
+
+/obj/item/ammo_magazine/c762x51b/bdw/empty
+	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39m
 	name = "magazine (7.62x39mm)"
