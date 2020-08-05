@@ -67,3 +67,24 @@
 
 	toggle_scope(usr, 2.0)
 
+/obj/item/weapon/gun/projectile/heavysniper/m82
+	name = "Berreta M82"
+	desc = "A powerful and well known anti material Rifle manufactured in 1982. Fires a powerful 50 BMG Cartridge, this version appears to be bolt action."
+	icon_state = "heavysniper"
+	item_state = "heavysniper" //sort of placeholder
+	w_class = ITEM_SIZE_HUGE
+	force = 10
+	slot_flags = SLOT_BACK
+	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 2, TECH_ILLEGAL = 8)
+	caliber = "50cal"
+	screen_shake = 2 //extra kickback
+	handle_casings = HOLD_CASINGS
+	load_method = SINGLE_CASING
+	max_shells = 1
+	ammo_type = /obj/item/ammo_casing/a50cal
+	one_hand_penalty = 6
+	accuracy = -2
+	scoped_accuracy = 5 //increased accuracy over the LWAP because only one shot
+	bolt_open = 0
+	wielded_item_state = "heavysniper-wielded" //sort of placeholder
+	picksound = 'sound/items/interactions/rifle_draw.wav'

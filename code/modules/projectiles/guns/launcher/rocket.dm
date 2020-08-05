@@ -135,6 +135,87 @@
 	puff.set_up(1,,,smoke_dir)
 	puff.start()
 
+/obj/item/weapon/gun/launcher/smaw
+	name = "SMAW"
+	desc = "A grenade launcher, standard-issued by the Soviet Army."
+	icon_state = "smaw" ///change
+	item_state = "smaw" ///change
+	slowdown_general = 1.0
+	w_class = 5
+	throw_speed = 3
+	one_hand_penalty = 100
+	throw_range = 40
+	force = 5.0
+	flags =  CONDUCT
+	slot_flags = 0
+	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
+	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+
+	release_force = 40
+	throw_distance = 30
+	var/max_rockets = 1
+	var/is_used = FALSE
+	var/list/rockets = new/list(/obj/item/ammo_casing/rpg_missile/smaw)
+	var/datum/effect/effect/system/smoke_spread/puff
+
+/obj/item/weapon/gun/launcher/smaw/New()
+	..()
+	puff = new /datum/effect/effect/system/smoke_spread()
+	puff.attach(src)
+	update_icon()
+
+/obj/item/weapon/gun/launcher/smaw/update_icon()
+	..()
+	if(rockets.len)
+		icon_state = "smaw"
+		item_state = "smaw"
+	else
+		icon_state = "smaw-empty"
+		item_state = "smaw-empty"
+	update_held_icon()
+
+/obj/item/weapon/gun/launcher/smaw/examine(mob/user)
+	if(!..(user, 2))
+		return
+	to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
+
+/obj/item/weapon/gun/launcher/smaw/attackby(obj/item/I as obj, mob/user as mob)
+	if(istype(I, /obj/item/ammo_casing/rpg_missile))
+		if(rockets.len < max_rockets)
+			playsound(src.loc,'sound/weapons/gunporn/rpgreload.ogg',80, 0)
+			if(do_after(usr, 30, src))
+				user.drop_item()
+				I.loc = src
+				rockets += I
+				to_chat(user, "\blue You put the rocket in [src].")
+				to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
+				update_icon()
+		else
+			to_chat(user, "\red [src] cannot hold more rockets.")
+			update_icon()
+
+
+/obj/item/weapon/gun/launcher/smaw/consume_next_projectile(mob/user)
+	if(rockets.len)
+		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
+		var/obj/item/projectile/bullet/rgprocket/M = new (src)
+		//M.primed = TRUE
+		rockets -= I
+		return M
+	return null
+
+/obj/item/weapon/gun/launcher/smaw/handle_post_fire(mob/user, atom/target)
+	sleep(1)
+	var/smoke_dir = user.dir
+	if(user)
+		switch(smoke_dir) //We want the opposite of their direction.
+			if(2,8)
+				smoke_dir /= 2
+			if(1,4)
+				smoke_dir *= 2
+	puff.set_up(1,,,smoke_dir)
+	puff.start()
 
 ///////////////////Not ours///////////////////////////////////////////////
 /obj/item/weapon/gun/launcher/oneuse/
