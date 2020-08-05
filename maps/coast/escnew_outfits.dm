@@ -25,7 +25,7 @@
 	uniform = /obj/item/clothing/under/soviet/habe/lt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/soviet/officer
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -56,10 +56,10 @@
 	uniform = /obj/item/clothing/under/soviet/habe/sgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	r_pocket = /obj/item/weapon/masterkey/sovsarge
@@ -86,7 +86,7 @@
 	back_2 = /obj/item/weapon/storage/backpack/summedsan
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	head = /obj/item/clothing/head/garcap/soviet
 	l_pocket = /obj/item/weapon/key/wpmed
 	r_pocket = null
@@ -176,7 +176,7 @@
 	uniform = /obj/item/clothing/under/soviet/habe/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	back = /obj/item/weapon/storage/backpack/rpgsa
 	r_pocket = null
 	l_hand = /obj/item/weapon/gun/launcher/rpg7
@@ -204,7 +204,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/radioset/r105d
-	back_2 =/obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back_2 =/obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = null
@@ -227,7 +227,7 @@
 	uniform = /obj/item/clothing/under/soviet/habe/prap
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/soviet/officer
 	l_pocket = /obj/item/weapon/masterkey/sovprapor
@@ -318,7 +318,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
 	back = /obj/item/weapon/radioset/r105d
@@ -343,7 +343,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	back = /obj/item/weapon/storage/backpack/rpgsa
 	l_hand = /obj/item/weapon/gun/launcher/rpg7
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
@@ -384,7 +384,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/radioset/r105d
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = null
 	r_pocket = null
@@ -395,8 +395,8 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR SL Assistant")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/obergefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	r_pocket = null
@@ -425,7 +425,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
-	back = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	back_2 = /obj/item/weapon/storage/backpack/summedsan
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -447,7 +447,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Quartermaster")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/feldwebel
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/nvaddr/officer
@@ -474,7 +474,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/leutnant
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	l_pocket = /obj/item/weapon/masterkey/nvaco

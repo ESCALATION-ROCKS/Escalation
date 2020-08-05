@@ -274,7 +274,7 @@
 	ammo_type = /obj/item/ammo_casing/a545x39/ap
 
 /obj/item/ammo_magazine/c545x39b
-	name = "magazine (5.45x39mm)"
+	name = "large magazine (5.45x39mm)"
 	desc = "An AK-platform magazine that fits fourty five 5.45x39mm rounds. Made of bakelite."
 	icon_state = "5.45x39b"
 	mag_type = MAGAZINE
@@ -289,7 +289,7 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c545x39b/ap
-	name = "AP magazine (5.45x39mm)"
+	name = "large AP magazine (5.45x39mm)"
 	desc = "An AK-platform magazine that fits fourty five armor-piercing 5.45x39mm rounds. Made of bakelite."
 	ammo_type = /obj/item/ammo_casing/a545x39/ap
 

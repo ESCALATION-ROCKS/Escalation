@@ -315,7 +315,7 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/bdw
 	w_class = ITEM_SIZE_HUGE
-	name = "G3 magazine pouch"
+	name = "7.62 STANAG magazine pouch"
 	desc = "Has enough space to hold two 7.62 STANAG magazines."
 	icon_state = "bdw_ammo"
 	item_state = "bdw_ammo"
@@ -341,14 +341,13 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc
 	w_class = ITEM_SIZE_HUGE
-	name = "M16 magazine pouch"
+	name = "5.56 STANAG magazine pouch"
 	desc = "Has enough space to hold three 5.56 STANAG magazines."
 	icon_state = "usmc_ammo"
 	item_state = "usmc_ammo"
 	storage_slots = 3
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c762x51s,
 		/obj/item/ammo_magazine/c45m
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
@@ -552,7 +551,7 @@
 	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
-	name = "grenade bandolier"
+	name = "usmc grenade bandolier"
 	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
 	icon_state = "usmc_grenbandolier"
 	storage_slots = 6
@@ -573,7 +572,7 @@
 	can_hold = list (/obj/item/device/flashlight/flare/)
 
 /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
-	name = "grenade bandolier"
+	name = "bundeswehr grenade bandolier"
 	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
 	icon_state = "bdw_grenbandolier"
 	storage_slots = 6
