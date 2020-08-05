@@ -284,6 +284,62 @@
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
+/datum/job/escalation/usmc/usmcatcom
+	title = "USMC AT Commander"
+	name = "Anti Tank Section Commander"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/hws_commander
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usmc_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+
+/datum/job/escalation/usmc/usmcat
+	title = "USMC AT Gunner"
+	name = "Anti Tank Gunner"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atgunner
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usmc_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+
+/datum/job/escalation/usmc/usmcata
+	title = "USMC AT Asistant"
+	name = "Anti Tank Asistant"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atass
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usmc_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+
 /datum/job/escalation/usmc/usmcftmg
 	title = "USMC Fireteam Machinegunner"
 	name = "Fireteam Machinegunner"

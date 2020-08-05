@@ -5,9 +5,6 @@
 //	#include "coldwar-1.dmm"
 	#include "coldwar-2.dmm"
 //	#include "coldwar-3.dmm"
-
-	#include "../../code/modules/lobby_music/absconditus.dm"
-
 	#define using_map_DATUM /datum/map/kaliningrad
 
 #elif !defined(MAP_OVERRIDE)

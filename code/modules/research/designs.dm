@@ -1538,13 +1538,6 @@ CIRCUITS BELOW
 	build_path = /obj/item/weapon/circuitboard/aicore
 	sort_string = "XAAAA"
 
-/datum/design/circuit/integrated
-	name = "integrated circuit"
-	id = "integrated"
-	req_tech = list(TECH_DATA = 2, TECH_ENGINEERING = 2)
-	build_path = /obj/item/weapon/circuitboard/integrated_printer
-	sort_string = "WAAAS"
-
 /datum/design/aimodule
 	build_type = IMPRINTER
 	materials = list("glass" = 2000, "gold" = 100)
@@ -1938,43 +1931,3 @@ CIRCUITS BELOW
 	materials = list(DEFAULT_WALL_MATERIAL = 6000, "glass" = 3000, "diamond" = 2000, "silver" = 2000, "uranium" = 2000, "gold" = 2000, "plastic" = 2000)
 	build_path = /obj/item/rig_module/stealth_field
 	sort_string = "VCAAQ"
-
-
-/datum/design/prefab
-	name = "Device"
-	desc = "A blueprint made from a design built here."
-	materials = list(DEFAULT_WALL_MATERIAL = 200)
-	id = "prefab"
-	build_type = PROTOLATHE
-	sort_string = "ZAAAA"
-	var/decl/prefab/ic_assembly/fabrication
-	var/global/count = 0
-
-/datum/design/prefab/New(var/research, var/fab)
-	if(fab)
-		fabrication = fab
-		materials = list(DEFAULT_WALL_MATERIAL = fabrication.metal_amount)
-		build_path = /obj/item/device/electronic_assembly //put this here so that the default made one doesn't show up in protolathe list
-		id = "prefab[++count]"
-	sort_string = "Z"
-	var/cur_count = count
-	while(cur_count > 25)
-		sort_string += ascii2text(cur_count%25+65)
-		cur_count = (cur_count - cur_count%25)/25
-	sort_string += ascii2text(cur_count + 65)
-	while(length(sort_string) < 5)
-		sort_string += "A"
-	..()
-
-/datum/design/prefab/AssembleDesignName()
-	..()
-	if(fabrication)
-		name = "Device ([fabrication.assembly_name])"
-
-/datum/design/prefab/Fabricate(var/newloc)
-	if(!fabrication)
-		return
-	var/obj/O = fabrication.create(newloc)
-	for(var/obj/item/integrated_circuit/circ in O.contents)
-		circ.removable = 0
-	return O

@@ -12,13 +12,13 @@
 	density = 1
 	anchored = 1
 
-	/proc/darts()
-		var/D = pick("1","18","4","13","6","10","15","2","17","3","19","7","16","8","11","14","9","12","5","20","50","0","0")
-		var/S = text2num(D)
-		if(prob(15))
-			var/C = S*2
-			return C
-		return S
+/obj/structure/darts/proc/darts()
+	var/D = pick("1","18","4","13","6","10","15","2","17","3","19","7","16","8","11","14","9","12","5","20","50","0","0")
+	var/S = text2num(D)
+	if(prob(15))
+		var/C = S*2
+		return C
+	return S
 
 /obj/structure/darts/attackby(obj/item/weapon/G, mob/user)
 	if(istype(G, /obj/item/weapon/wrench))

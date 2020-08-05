@@ -97,16 +97,10 @@ Squad Charlie:usmc
 /datum/job/escalation/usmc/usmcfto
 @END@
 
-HWS-1:usmc
-/datum/job/escalation/usmc/usmcmgcom
-/datum/job/escalation/usmc/usmcmgload
-/datum/job/escalation/usmc/usmcmgop
-@END@
-
-HWS-2:usmc
-/datum/job/escalation/usmc/usmcmgcom
-/datum/job/escalation/usmc/usmcmgload
-/datum/job/escalation/usmc/usmcmgop
+ATS-1:usmc
+/datum/job/escalation/usmc/usmcatcom
+/datum/job/escalation/usmc/usmcat
+/datum/job/escalation/usmc/usmcata
 @END@
 
 Gruppe Delta:bund
