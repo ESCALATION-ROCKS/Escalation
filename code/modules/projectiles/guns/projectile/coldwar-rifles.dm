@@ -359,7 +359,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/xm177
 	name = "XM177"
 	desc = "A standard-issue USMC carbine."
-	icon_state = "xm177"
+	icon_state = "coltmodel733"
 	item_state = "m16"
 	w_class = 5
 	load_method = MAGAZINE
@@ -389,10 +389,10 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/xm177/update_icon()
 	..()
 	if(ammo_magazine)
-		icon_state = "xm177"
+		icon_state = "coltmodel733"
 		wielded_item_state = "m16-wielded"
 	else
-		icon_state = "xm177-empty"
+		icon_state = "coltmodel733-empty"
 		wielded_item_state = "m16-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl

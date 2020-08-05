@@ -675,7 +675,7 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/xm177
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/storage/backpack/usmcm3
