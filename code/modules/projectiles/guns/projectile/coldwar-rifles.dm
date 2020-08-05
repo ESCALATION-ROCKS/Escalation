@@ -943,6 +943,88 @@
 		item_state = "mpik74-empty"
 		wielded_item_state = "mpik74-wielded-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl
+	name = "MPi-AK-74N"
+	desc = "A standard-issue NVA DDR rifle with a GP-25 launcher attached. Chambers 5.45x39 rounds."
+	icon_state = "mpik74gp"
+	item_state = "ak74gl"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "545x39"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a545x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
+	magazine_type = null
+	one_hand_penalty = 3
+	accuracy = 2.5
+	fire_delay = 2
+	bayonet_attachable = 0
+	wielded_item_state = "ak74gl-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
+	jam_chance = 1.5
+	slowdown_general = 0.25
+
+	var/use_launcher = FALSE
+	var/obj/item/weapon/gun/launcher/grenade/underslung/gp25/launcher
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.2),                     automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/New()
+	..()
+	launcher = new(src)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/attackby(obj/item/I, mob/user)
+	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
+		launcher.load(I, user)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/attack_hand(mob/user)
+	if(user.get_inactive_hand() == src && use_launcher)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.wav', 50, 1)
+		launcher.unload(user)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(use_launcher)
+		launcher.Fire(target, user, params, pointblank, reflex)
+		if(!launcher.chambered)
+			switch_firemodes() //switch back automatically
+			playsound(src, 'sound/weapons/gunporn/m203_empty.wav', 50, 1)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "mpik74gp"
+		wielded_item_state = "ak74gl-wielded"
+	else
+		icon_state = "mpik74gp-empty"
+		wielded_item_state = "ak74gl-wielded-empty"
+
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/verb/set_gp()
+	set name = "Grenade Launcher"
+	set category = "Object"
+	set src in usr
+
+	if(launcher)
+		use_launcher = !use_launcher
+		if(do_after(usr, 7, src))
+			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
+			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
+
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	name = "MPi-AKS-74N"
 	desc = "A lighter version of the standard-issue NVA DDR rifle. Chambers 5.45x39 rounds."
