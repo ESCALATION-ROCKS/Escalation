@@ -323,7 +323,8 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51s,
 		/obj/item/ammo_magazine/a9x19,
-		/obj/item/ammo_magazine/c762x51wa
+		/obj/item/ammo_magazine/c762x51wa,
+		/obj/item/ammo_magazine/c762x51m
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
@@ -336,7 +337,8 @@
 	icon_state = "bdw_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
-		/obj/item/ammo_magazine/c762x51b/bdw
+		/obj/item/ammo_magazine/c762x51b/bdw,
+		/obj/item/ammo_magazine/c762x51b/bdw/drum
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc
