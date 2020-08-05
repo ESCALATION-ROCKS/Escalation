@@ -413,6 +413,7 @@
 	name = "PKM box pouch"
 	desc = "Has enough space to hold to hold one box."
 	icon_state = "sa_ammo_lmg"
+	item_state = "sa_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
@@ -465,7 +466,7 @@
 	name = "strichtarn PKM box pouch"
 	desc = "Has enough space to hold one PKM box."
 	icon_state = "nvaddr_ammo_pkm"
-	item_state = "nvaddr_ammo_pkm"
+	item_state = "nvaddr_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b

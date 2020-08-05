@@ -190,6 +190,13 @@
 	jam_chance = 2
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
+/obj/item/weapon/gun/projectile/walther/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "p1"
+	else
+		icon_state = "p1-empty"
+
 /obj/item/weapon/gun/projectile/lahti
 	name = "Lahti"
 	desc = "A Finnish standard issue handgun. Uses 9x19 ammunition"
@@ -207,6 +214,13 @@
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	jam_chance = 2
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+
+/obj/item/weapon/gun/projectile/lahti/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "lahti"
+	else
+		icon_state = "lahti-empty"
 
 /obj/item/weapon/gun/projectile/waltherppk
 	name = "Walther PPK"
