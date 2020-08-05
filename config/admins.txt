@@ -4,6 +4,7 @@ Turret_Drehturm - HeadDeveloper
 cabostein - HeadDeveloper
 DanseMacabre - GameAdmin
 xlyana - GameAdmin
+Eskjjlj - Developer
 Toxici11i - Developer
 brosephstylin - Developer
 SeverePwnage - GameAdmin
