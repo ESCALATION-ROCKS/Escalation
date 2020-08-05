@@ -54,44 +54,6 @@
 
 ///////////////////////bayonet code ends here//////////////////////////
 
-/obj/item/weapon/gun/projectile/automatic/rifle/coltmodel733
-	name = "Colt Model 733"
-	desc = "A standard-issue USMC carbine."
-	icon_state = "coltmodel733"
-	item_state = "m16"
-	w_class = 4
-	load_method = MAGAZINE
-	caliber = "556x45"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	magazine_type = null
-	ammo_type = /obj/item/ammo_casing/a556x45
-	allowed_magazines = /obj/item/ammo_magazine/c556x45m
-	one_hand_penalty = 2
-	accuracy = 1
-	fire_delay = 2
-	wielded_item_state = "m16-wielded"
-	fire_sound = 'sound/weapons/gunshot/m16.ogg'
-	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.wav'
-	jam_chance = 2
-	slowdown_general = 0.3
-
-	firemodes = list(
-		list(mode_name="semiauto",       burst=1, fire_delay=0,    move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=null),
-		list(mode_name="short bursts", burst=3, fire_delay=null, move_delay=1,    one_hand_penalty=3, burst_accuracy=list(1,0,-1),       dispersion=list(0.3, 0.6, 0.6)),
-		list(mode_name="long bursts",   burst=5, fire_delay=null, move_delay=2,    one_hand_penalty=4, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
-		)
-
-/obj/item/weapon/gun/projectile/automatic/rifle/coltmodel733/update_icon()
-	..()
-	if(ammo_magazine)
-		icon_state = "coltmodel733"
-	else
-		icon_state = "coltmodel733-empty"
-
-
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	name = "AK-74"
 	desc = "A standard-issue Soviet Army combat rifle. Chambers 5.45x39 rounds."
@@ -108,22 +70,20 @@
 	accuracy = 2.5
 	fire_delay = 2
 	wielded_item_state = "ak74-wielded"
+	jam_chance = 1.5
+	slowdown_general = 0.25
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
+	bayonet_attachable = 1
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
-	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
-	bayonet_attachable = 1
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
 		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.2),                     automatic = 0.5),
 		)
-	jam_chance = 1.5
-	slowdown_general = 0.25
-
-
-
+	
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74/update_icon()
 	..()
 
@@ -149,6 +109,46 @@
 	else
 		icon_state = "ak74black-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74
+	name = "AKS-74"
+	desc = "A lighter version of the standard-issue Soviet Army combat rifle. Chambers 5.45x39 rounds."
+	icon_state = "aks74"
+	item_state = "aks"
+	w_class = 4
+	load_method = MAGAZINE
+	caliber = "545x39"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a545x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
+	magazine_type = null
+	one_hand_penalty = 5
+	accuracy = 2.5
+	fire_delay = 2
+	jam_chance = 1.5
+	slowdown_general = 0.15
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
+	bayonet_attachable = 1
+	wielded_item_state = "aks-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.1),                     automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "aks74"
+		wielded_item_state = "aks-wielded"
+	else
+		icon_state = "aks74-empty"
+		wielded_item_state = "aks-wielded-empty"
+
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
 	name = "AK-74"
 	desc = "A standard-issue Soviet Army combat rifle with a GP-25 launcher attached. Chambers 5.45x39 rounds."
@@ -164,6 +164,7 @@
 	one_hand_penalty = 3
 	accuracy = 2.5
 	fire_delay = 2
+	bayonet_attachable = 0
 	wielded_item_state = "ak74gl-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
@@ -230,47 +231,6 @@
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/aks74
-	name = "AKS-74"
-	desc = "A lighter version of the standard-issue Soviet Army combat rifle. Chambers 5.45x39 rounds."
-	icon_state = "aks74"
-	item_state = "aks"
-	w_class = 4
-	load_method = MAGAZINE
-	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	ammo_type = /obj/item/ammo_casing/a545x39
-	allowed_magazines = /obj/item/ammo_magazine/c545x39m
-	magazine_type = /obj/item/ammo_magazine/c545x39m
-	one_hand_penalty = 2
-	accuracy = 2.5
-	fire_delay = 2
-	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
-	bayonet_attachable = 1
-	jam_chance = 1.7
-	slowdown_general = 0.3
-
-	wielded_item_state = "aks-wielded"
-	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
-	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
-	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.1),                     automatic = 0.5),
-		)
-
-/obj/item/weapon/gun/projectile/automatic/rifle/aks74/update_icon()
-	..()
-	update_held_icon()
-	if(ammo_magazine)
-		icon_state = "aks74"
-		wielded_item_state = "aks-wielded"
-	else
-		icon_state = "aks74-empty"
-		wielded_item_state = "aks-wielded-empty"
-
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a2 //DO NOT USE FOR NOW
 	name = "M16A2"
 	desc = "A standard-issue USMC combat rifle. Chambers 5.56x39 rounds."
@@ -319,20 +279,18 @@
 	item_state = "m14"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = 5
-	force = 10
-	max_shells = 20
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
 	load_method = MAGAZINE
 	magazine_type = null
 	allowed_magazines = /obj/item/ammo_magazine/c762x51s
 	one_hand_penalty = 4
-	accuracy = 3
+	accuracy = 2
 	fire_delay = 2
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 	bayonet_attachable = 1
 	jam_chance = 1
-	slowdown_general = 0.6
+	slowdown_general = 0.25
 
 	fire_sound = 'sound/weapons/gunshot/m14.ogg'
 	wielded_item_state = "m14-wielded"
@@ -398,6 +356,45 @@
 		icon_state = "m16a1-empty"
 		wielded_item_state = "m16-wielded-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/xm177
+	name = "XM177"
+	desc = "A standard-issue USMC carbine."
+	icon_state = "coltmodel733"
+	item_state = "m16"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "556x45"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a556x45
+	allowed_magazines = /obj/item/ammo_magazine/c556x45m
+	magazine_type = null
+	one_hand_penalty = 4
+	accuracy = 2.5
+	fire_delay = 1.7
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
+	bayonet_attachable = 0
+	jam_chance = 2
+	slowdown_general = 0.10
+	fire_sound = 'sound/weapons/gunshot/m16.ogg'
+	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.wav'
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=1.7,  move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=3, burst_accuracy = null,            dispersion=list(0.3, 0.5),                automatic = 0.5),
+	)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/xm177/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "coltmodel733"
+		wielded_item_state = "m16-wielded"
+	else
+		icon_state = "coltmodel733-empty"
+		wielded_item_state = "m16-wielded-empty"
+
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
 	name = "M16A1"
 	desc = "A standard-issue USMC combat rifle with a M203 launcher attached. Chambers 5.56x45 rounds."
@@ -411,6 +408,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c556x45m
 	magazine_type = null
 	one_hand_penalty = 4
+	bayonet_attachable = 1
 	accuracy = 3
 	fire_delay = 1.7
 	jam_chance = 2
@@ -548,6 +546,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 3
+	bayonet_attachable = 0
 	fire_delay = 2.5
 	jam_chance = 1.5
 	slowdown_general = 0.25
@@ -559,14 +558,13 @@
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 
-	var/use_launcher = FALSE
-	var/obj/item/weapon/gun/launcher/grenade/underslung/m203/launcher//m203 underslug uses 40mm shells  like hk69
-
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,       dispersion=null,automatic = 0),
 		list(mode_name="automatic",    burst=1, fire_delay=0.4,  move_delay=3,    one_hand_penalty=5, burst_accuracy=null,       dispersion=list(0.3, 0.6, 0.9), automatic = 0.4),
 		)
 
+	var/use_launcher = FALSE
+	var/obj/item/weapon/gun/launcher/grenade/underslung/m203/launcher
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs/New()
 	..()
@@ -617,8 +615,6 @@
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
 
-
-
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58
 	name = "Vz.58"
 	desc = "A standard-issue CSLA combat rifle. Chambers 7.62x39 rounds."
@@ -629,7 +625,7 @@
 	caliber = "762x39"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
-	allowed_magazines = /obj/item/ammo_magazine/c762x39m
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
 	one_hand_penalty = 3
 	accuracy = 2
@@ -645,9 +641,10 @@
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=1, move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null, automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=1, move_delay=1,   one_hand_penalty=3,  burst_accuracy=null,              dispersion=list(0.3, 0.6), automatic = 0.5),
+		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.2),                     automatic = 0.5),
 		)
+
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58/update_icon()
 	..()
 	if(ammo_magazine)
@@ -678,28 +675,26 @@
 	caliber = "762x39"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
-	allowed_magazines = /obj/item/ammo_magazine/c762x39m
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
 	one_hand_penalty = 3
-	accuracy = 2
+	accuracy = 2.5
+	bayonet_attachable = 0
 	fire_delay = 1.7
 	jam_chance = 1
-	slowdown_general = 0.5
-
+	slowdown_general = 0.25
 	wielded_item_state = "vz58gl-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
-
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.2),                     automatic = 0.5),
+		)
 	var/use_launcher = FALSE
 	var/obj/item/weapon/gun/launcher/grenade/underslung/gp25/launcher//19.09.17 replace with so retarded gp-70
-
-	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=1, move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null, automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=1, move_delay=1,   one_hand_penalty=3,  burst_accuracy=null,              dispersion=list(0.3, 0.6), automatic = 0,7),
-		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl/New()
 	..()
@@ -743,51 +738,6 @@
 		if(do_after(usr, 7, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 
-
-
-/obj/item/weapon/gun/projectile/automatic/rifle/mpikms
-	name = "MPi-KmS"
-	desc = "That's an outdated rifle used by NVA DDR. Chambers 7.62x39 rounds."
-	icon_state = "mpikms"
-	item_state = "mpi"
-	w_class = 4
-	load_method = MAGAZINE
-	caliber = "762x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	ammo_type = /obj/item/ammo_casing/a762x39
-	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b)
-//	magazine_type = /obj/item/ammo_magazine/c762x39m
-	one_hand_penalty = 2
-	accuracy = 2.5
-	fire_delay = 2
-	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
-	bayonet_attachable = 1
-	jam_chance = 1
-	slowdown_general = 0.25
-
-	wielded_item_state = "mpi-wielded"
-	fire_sound = 'sound/weapons/gunshot/akm.ogg'
-	unload_sound = 'sound/weapons/gunporn/ak47_magout.wav'
-	reload_sound = 'sound/weapons/gunporn/ak47_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
-	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.1),                     automatic = 0.7),
-		)
-
-/obj/item/weapon/gun/projectile/automatic/rifle/mpikms/update_icon()
-	..()
-	update_held_icon()
-	if(ammo_magazine)
-		icon_state = "mpikms"
-		wielded_item_state = "mpi-wielded"
-	else
-		icon_state = "mpikms-empty"
-		wielded_item_state = "mpi-wielded-empty"
-
-	src.toggle_scope(usr, 0.9)
-
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
 	name = "MPi-KM"
 	desc = "That's an outdated rifle used by NVA DDR. Chambers 7.62x39 rounds."
@@ -798,8 +748,7 @@
 	caliber = "762x39"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
-	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b)
-//	magazine_type = /obj/item/ammo_magazine/c762x39m
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 5
 	accuracy = 2
 	fire_delay = 2
@@ -829,6 +778,45 @@
 		icon_state = "mpikm-empty"
 		wielded_item_state = "mpi-wielded-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/mpikms
+	name = "MPi-KMS"
+	desc = "That's an outdated carbine used by NVA DDR. Chambers 7.62x39 rounds."
+	icon_state = "mpikms"
+	item_state = "mpi"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x39"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
+	one_hand_penalty = 5
+	accuracy = 2
+	fire_delay = 2
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
+	bayonet_attachable = 1
+	jam_chance = 1
+	slowdown_general = 0.15
+
+	wielded_item_state = "mpi-wielded"
+	fire_sound = 'sound/weapons/gunshot/akm.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.wav'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.wav'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.1),                     automatic = 0.7),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpikms/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "mpikms"
+		wielded_item_state = "mpi-wielded"
+	else
+		icon_state = "mpikms-empty"
+		wielded_item_state = "mpi-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl
 	name = "MPi-KM"
@@ -840,13 +828,12 @@
 	caliber = "762x39"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
-	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b)
-//	magazine_type = /obj/item/ammo_magazine/c762x39m
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 5
 	accuracy = 2
 	fire_delay = 2
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
-	bayonet_attachable = 1
+	bayonet_attachable = 0
 	jam_chance = 1
 	slowdown_general = 0.25
 
@@ -961,20 +948,20 @@
 	desc = "A lighter version of the standard-issue NVA DDR rifle. Chambers 5.45x39 rounds."
 	icon_state = "mpik74s"
 	item_state = "aks"
-	w_class = 4
+	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
-	allowed_magazines = /obj/item/ammo_magazine/c545x39m
-	magazine_type = /obj/item/ammo_magazine/c545x39m
-	one_hand_penalty = 2
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
+	magazine_type = null
+	one_hand_penalty = 5
 	accuracy = 2.5
 	fire_delay = 2
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
 	bayonet_attachable = 1
 	jam_chance = 2
-	slowdown_general = 0.25
+	slowdown_general = 0.15
 
 	wielded_item_state = "aks-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -1008,7 +995,7 @@
 	caliber = "762x39"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
-	allowed_magazines = /obj/item/ammo_magazine/c762x39m
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
 	one_hand_penalty = 3
 	accuracy = 2.65
