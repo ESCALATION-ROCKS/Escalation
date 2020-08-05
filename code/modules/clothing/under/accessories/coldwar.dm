@@ -295,4 +295,5 @@
 /obj/item/clothing/accessory/storage/lifchik/alt
 	icon_state = "lifchik_2"
 	slots = 2
+	max_w_class = ITEM_SIZE_NORMAL
 	armor_slowdown = 0.0
