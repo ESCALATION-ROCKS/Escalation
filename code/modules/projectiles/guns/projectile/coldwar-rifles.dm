@@ -492,7 +492,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x51s
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 2
+	accuracy = 3
 	fire_delay = 2.5
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
@@ -545,7 +545,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x51s
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 2
+	accuracy = 3
 	bayonet_attachable = 0
 	fire_delay = 2.5
 	jam_chance = 1.5
