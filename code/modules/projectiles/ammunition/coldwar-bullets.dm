@@ -85,15 +85,15 @@
 	desc = "A 12.7x108mm bullet casing."
 	caliber = "127x108mm"
 	projectile_type = /obj/item/projectile/bullet/rifle/a127x108mm
-	icon_state = "rifle-casing"
-	spent_icon = "rifle-casing-spent"
+	icon_state = "l-casing-live"
+	spent_icon = "l-casing"
 
 /obj/item/ammo_casing/a50cal
 	desc = "A .50 cal bullet casing."
 	caliber = ".50"
 	projectile_type = /obj/item/projectile/bullet/rifle/a50cal
-	icon_state = "rifle-casing"
-	spent_icon = "rifle-casing-spent"
+	icon_state = "l-casing-live"
+	spent_icon = "l-casing"
 
 
 /obj/item/ammo_casing/ags30x29mm
@@ -140,6 +140,13 @@
 	name = "OG-7"
 	desc = "40mm Fragmentation rocket for the RPG-7. Effective against ground infantry. Watch out for the backblast!"
 	layer = 4
+
+/obj/item/ammo_casing/rpg_missile/smaw
+	name = "SMAW HEDP Tube "
+	desc = "Contains a SMAW HEDP Rocket"
+	icon_state = "smaw"
+	layer = 4
+
 
 /obj/item/ammo_casing/oneuserocket
 	name = "rocket"

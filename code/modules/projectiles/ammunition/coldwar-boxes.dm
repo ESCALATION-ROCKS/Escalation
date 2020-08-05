@@ -69,7 +69,7 @@
 	desc = "An AK-platform magazine that fits fourty 7.62x39mm rounds."
 	icon_state = "7.62x39mmb"
 	mag_type = MAGAZINE
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_NORMAL
 	caliber = "762x39"
 	ammo_type = /obj/item/ammo_casing/a762x39
 	max_ammo = 40
