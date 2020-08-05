@@ -314,7 +314,6 @@ epicdwarf = {
 
 Nitro2030ce = {
 ::ALL::
-NVA ::ALL::
 }
 
 dreadweaver = {
@@ -342,7 +341,6 @@ Xlyana = {
 }
 
 SeverePwnage = {
-NVA ALL
 ::ALL::
 }
 
@@ -382,9 +380,119 @@ boringcommunist = {
 
 
 Cesarjunior233 = {
-NVA ::ALL::
+:ALL::
+::ALL::
 }
 
 Demdisco = {
+::ALL::
+}
+
+
+Tristain01 = {
+::ALL::
+}
+
+loafe = {
+::ALL::
+}
+
+battieralarm3 = {
+::ALL::
+}
+
+excitant = {
+::ALL::
+}
+
+Bolotniy = {
+::ALL::
+}
+
+QuickLoad = {
+::ALL::
+}
+
+JojiGoatNerd = {
+::ALL::
+}
+
+kingdj1234 = {
+::ALL::
+}
+
+Chris1464 = {
+::ALL::
+}
+
+texicos = {
+::ALL::
+}
+
+Eskjjlj = {
+::ALL::
+}
+
+themanwhosoldthehorns = {
+::ALL::
+}
+
+Booperkin343435 = {
+::ALL::
+}
+
+Rippie129 = {
+::ALL::
+}
+
+blazsnake = {
+::ALL::
+}
+
+pepefrog = {
+::ALL::
+}
+
+boltersam = {
+::ALL::
+}
+
+jglitch = {
+::ALL::
+}
+
+yukfu = {
+::ALL::
+}
+
+C36311 = {
+::ALL::
+}
+
+mannypardo = {
+::ALL::
+}
+
+workersoftheworld = {
+::ALL::
+}
+
+Lautaroluna180 = {
+::ALL::
+}
+
+theflyingbananagaming = {
+::ALL::
+}
+
+hemph = {
+::ALL::
+}
+
+evenindeathistillserve = {
+::ALL::
+}
+
+lol18 = {
 ::ALL::
 }
