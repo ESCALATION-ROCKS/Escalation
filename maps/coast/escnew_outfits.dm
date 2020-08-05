@@ -593,6 +593,43 @@
 	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
 
+/decl/hierarchy/outfit/job/coldwar/usmc/atgunner
+	name = OUTFIT_JOB_NAME("Coldwar - USMC AT Gunner")
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/pfc
+	shoes = /obj/item/clothing/shoes/usmc/field
+	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	r_pocket = null
+	back = /obj/item/weapon/gun/launcher/smaw
+	holster = /obj/item/weapon/storage/belt/holster/usmc
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+
+/decl/hierarchy/outfit/job/coldwar/usmc/atgunner/pre_equip(mob/living/carbon/human/H)
+	..()
+	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+
+/decl/hierarchy/outfit/job/coldwar/usmc/atass
+	name = OUTFIT_JOB_NAME("Coldwar - USMC AT Assistant")
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/pfc
+	shoes = /obj/item/clothing/shoes/usmc/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	r_pocket = null
+	back = /obj/item/weapon/storage/backpack/alice/large
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+
+/decl/hierarchy/outfit/job/coldwar/usmc/atass/pre_equip(mob/living/carbon/human/H)
+	..()
+	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+
+
+
 /decl/hierarchy/outfit/job/coldwar/usmc/ftleader
 	name = OUTFIT_JOB_NAME("Coldwar - USMC FT Leader")
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
