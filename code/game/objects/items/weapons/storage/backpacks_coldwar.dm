@@ -209,6 +209,7 @@
 	icon_state = "sa_rpg3"
 	item_state = "sa_rpg"
 	reachable = 1
+	max_storage_space = 30
 	storage_slots = 3
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
