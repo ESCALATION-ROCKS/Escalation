@@ -243,8 +243,8 @@
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
 	load_method = MAGAZINE
-	magazine_type = null
-	allowed_magazines = /obj/item/ammo_magazine/c556x45b
+	magazine_type = null /////this thing can fit stanag magazines look it up
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m,/obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45s)
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 	jam_chance = 2

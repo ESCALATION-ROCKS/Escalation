@@ -351,6 +351,7 @@
 	storage_slots = 3
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
