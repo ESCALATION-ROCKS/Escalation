@@ -5,6 +5,7 @@
 	icon_state = "m14scoped"
 	item_state = "m21"
 	accuracy = 5
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	fire_delay = 4.5
 	wielded_item_state = "m21-wielded"
 	jam_chance = 0.5
@@ -92,7 +93,7 @@
 	caliber = "762x51"
 	slot_flags = SLOT_BACK_GUN
 	ammo_type = /obj/item/ammo_casing/a762x51
-	allowed_magazines = /obj/item/ammo_magazine/c762x51s
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 4.5
@@ -141,7 +142,7 @@
 	caliber = "762x51"
 	slot_flags = SLOT_BACK_GUN
 	ammo_type = /obj/item/ammo_casing/a762x51
-	allowed_magazines = /obj/item/ammo_magazine/c762x51wa
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51wa, /obj/item/ammo_magazine/c762x51wa/ap)
 	magazine_type = null
 	one_hand_penalty = 6
 	accuracy = 6
