@@ -203,7 +203,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/radioset/r105d
-	back_2 =/obj/item/weapon/gun/projectile/automatic/rifle/aks74
+	back_2 = /obj/item/weapon/storage/backpack/gassoviet
+	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = null
@@ -317,7 +318,8 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
+	back_2 = /obj/item/weapon/storage/backpack/gassoviet
+	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
 	back = /obj/item/weapon/radioset/r105d
@@ -383,7 +385,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/radioset/r105d
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
+	back_2 = /obj/item/weapon/storage/backpack/gassoviet
+	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = null
 	r_pocket = null
@@ -653,16 +656,16 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/ssgt
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
+	back_2 = /obj/item/weapon/storage/backpack/usmc_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/radioset/prc77
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_pocket = /obj/item/weapon/masterkey/usmcsarge
-	r_pocket = null
+	r_pocket = /obj/item/weapon/maptool
 	l_ear = /obj/item/device/binoculars/nato
-	r_hand = /obj/item/weapon/maptool
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/sl/pre_equip(mob/living/carbon/human/H)
@@ -743,7 +746,8 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/lcpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	back_2 = /obj/item/weapon/storage/backpack/usmc_buttpack
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
@@ -899,7 +903,8 @@
 	uniform = /obj/item/clothing/under/bundeswehr/olive/hauptgefr
 	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	back_2 = /obj/item/weapon/storage/backpack/bundes_buttpack
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
@@ -1028,7 +1033,8 @@
 	uniform = /obj/item/clothing/under/bundeswehr/olive/stabsgefr
 	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	back_2 = /obj/item/weapon/storage/backpack/bundes_buttpack
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
@@ -1099,7 +1105,8 @@
 	uniform = /obj/item/clothing/under/finn/talvimetsa
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	back_2 = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	r_pocket = null
 	back = /obj/item/weapon/radioset/r105d
@@ -1164,7 +1171,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back = /obj/item/weapon/radioset/r105d
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	back_2 = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	right_pouch = null
 	r_pocket = null
