@@ -777,8 +777,8 @@
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/usmc

@@ -369,6 +369,21 @@
 		/obj/item/ammo_magazine/c762x51b
 		)
 
+/obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "7.62 STANAG ammo pouch"
+	desc = "Has enough space to hold two 7.62 STANAG magazines."
+	icon_state = "usmc_ammo_m21"
+	item_state = "usmc_ammo"
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c45m,
+		/obj/item/ammo_magazine/c762x51wa,
+		/obj/item/ammo_magazine/c762x51m
+		)
+
 /obj/item/weapon/storage/belt/suit/ammo/sa
 	w_class = ITEM_SIZE_HUGE
 	name = "AK magazine pouch"
@@ -431,7 +446,7 @@
 	icon_state = "sa_grenade"
 	item_state = "sa_grenade"
 	storage_slots = 3
-	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb, /obj/item/weapon)
+	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr
