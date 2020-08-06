@@ -15,6 +15,11 @@ SUBSYSTEM_DEF(artillery)
 	..()
 	adjustbarragedturfs()
 
+	//Disabled arty for the time being
+	SSartillery.pause()
+	SSartillery.Destroy()
+	SSartillery.flags = 0
+
 /datum/controller/subsystem/artillery/proc/adjustbarragedturfs()
 	for(var/obj/effect/landmark/artillery/T in landmarks_list)
 		var/turf/TR = T.loc
