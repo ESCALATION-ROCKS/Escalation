@@ -100,14 +100,14 @@
 
 
 /obj/item/clothing/accessory/insignia/usmc/pfc
-	name = "Private Second Class insignia"
+	name = "Private First Class insignia"
 	icon_state = "usmc_pfc_insignia"
-	rank = "Private Second Class"
+	rank = "Private First Class"
 
 /obj/item/clothing/accessory/insignia/usmc/lcpl
-	name = "Private First Class insignia"
+	name = "Lance Corporal insignia"
 	icon_state = "usmc_lcpl_insignia"
-	rank = "Private First Class"
+	rank = "Lance Corporal"
 
 
 /obj/item/clothing/accessory/insignia/usmc/cpl
@@ -131,9 +131,9 @@
 	rank = "Master Sergeant"
 
 /obj/item/clothing/accessory/insignia/usmc/gysgt
-	name = "Sergeant First Class insignia"
+	name = "Gunnery Sergeant insignia"
 	icon_state = "usmc_msgt_insignia"
-	rank = "Sergeant First Class"
+	rank = "Gunnery Sergeant"
 
 /obj/item/clothing/accessory/insignia/usmc/frstsgt
 	name = "First Sergeant insignia"
