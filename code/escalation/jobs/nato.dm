@@ -603,7 +603,7 @@
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
-/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwmgas
 	title = "BDW Machinengewehrschutze Stellvertretender"
 	name = "Machinengewehrschutze Stellvertretender"
 	english_name = "Machinegunner Assistant"
