@@ -82,3 +82,23 @@
 			reagents.add_reagent(/datum/reagent/nutriment/coco, 1)
 
 
+/obj/item/weapon/reagent_containers/food/snacks/halbbitter
+	name = "halb-bitter schokolade"
+	desc = "A bar of German chocolate. A soldiers best friend"
+	wrapped = 1
+	bitesize = 3
+	icon_state = "halbbitter"
+	trash = /obj/item/trash/halbbitter
+	/obj/item/weapon/reagent_containers/food/snacks/halbbitter/New()
+		..()
+		reagents.add_reagent(/datum/reagent/sugar, 5)
+		reagents.add_reagent(/datum/reagent/nutriment/coco, 10)
+
+	/obj/item/weapon/reagent_containers/food/snacks/halbbitter/attack_self(mob/user as mob)
+		if (wrapped)
+			to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")	
+			name = "halb-bitter schokolade"
+			desc = "A bar of German chocolate. A soldiers best friend"
+			icon_state = "halbbitter_open"
+			wrapped = 0
+	else ..()

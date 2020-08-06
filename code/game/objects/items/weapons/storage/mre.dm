@@ -81,3 +81,17 @@
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/ = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/tsukor = 1,
 				/obj/item/weapon/storage/fancy/cigarettes/prima = 1)
+
+/obj/item/weapon/storage/box/kportion
+	name = "'K-Portion' rations"
+	w_class = 3
+	max_storage_space = 12
+	desc = "That's a ration pack used by Nationale Volksarmee."
+	icon_state = "kportion"
+	can_hold = null
+	startswith = list(/obj/item/weapon/reagent_containers/food/snacks/tincan/cannedbread = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/tincan/jagdwurst = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/tincan/blutwurst = 1,
+				/obj/item/weapon/reagent_containers/food/drinks/bottle/small/campingtee = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/traubenzucker = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/halbbitter = 1)

@@ -109,6 +109,18 @@
 	name = "tin can"
 	icon_state = "pearlbarleystew_empty"
 
+/obj/item/trash/tincan/cannedbread
+	name = "tin can"
+	icon_state = "cannedbread_empty"
+
+/obj/item/trash/tincan/jagdwurst
+	name = "tin can"
+	icon_state = "jagdwurst_empty"
+
+/obj/item/trash/tincan/blutwurst
+	name = "tin can"
+	icon_state = "blutwurst_empty"
+
 /obj/item/trash/tincan/condensedmilk
 	name = "tin can"
 	icon_state = "condensedmilk_empty"
@@ -120,6 +132,15 @@
 /obj/item/trash/tincan/buckwheat
 	name = "tin can"
 	icon_state = "buckwheat_empty"
+
 /obj/item/trash/plasticpack
 	name = "plastic pack"
 	icon_state = "plasticpacket"
+
+/obj/item/trash/halbbitter
+	name = "chocolate wrapping"
+	icon_state = "halbbitter"
+
+/obj/item/trash/campingtee
+	name = "drink pouch"
+	icon_state = "campingtee"

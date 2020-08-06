@@ -147,6 +147,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/tincan/condensedmilk
 	name = "condensed milk"
 	desc = "Tasty tasty sguschenka!"
+	center_of_mass = "x=16;y=11"
 	icon_state = "condensedmilk"
 	trash = /obj/item/trash/tincan/condensedmilk
 
@@ -159,6 +160,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/tincan/stew
 	name = "stew"
 	desc = "That's the so-called 'tushenka'."
+	center_of_mass = "x=16;y=11"
 	icon_state = "stewcan"
 	trash = /obj/item/trash/tincan
 
@@ -171,6 +173,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/tincan/stewpearlbarley
 	name = "stew with pearl barley"
 	desc = "Now with 'perlovka'!."
+	center_of_mass = "x=16;y=11"
 	icon_state = "pearlbarleystew"
 	trash = /obj/item/trash/tincan/pearlbarleystew
 
@@ -183,6 +186,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/tincan/stewbuckwheat
 	name = "stew with buckwheat"
 	desc = "That's the 'grechka'. Still better than 'perlovka'!"
+	center_of_mass = "x=16;y=11"
 	icon_state = "stewbuckwheat"
 	trash = /obj/item/trash/tincan/stewbuckwheat
 
@@ -195,6 +199,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/tincan/buckwheat
 	name = "buckwheat"
 	desc = "No 'tushenka'. Better luck next time, comrade!"
+	center_of_mass = "x=16;y=11"
 	icon_state = "buckwheat"
 	trash = /obj/item/trash/tincan/buckwheat
 	bitesize = 3
@@ -202,4 +207,45 @@
 /obj/item/weapon/reagent_containers/food/snacks/tincan/buckwheat/New()
 	..()
 	reagents.add_reagent(/datum/reagent/nutriment/buckwheat, 40)
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/cannedbread
+	name = "canned bread"
+	desc = "A can of odd tasting 'Volkorn Brot'. Said to be nuclear war-proof."
+	center_of_mass = "x=16;y=11"
+	icon_state = "cannedbread"
+	trash = /obj/item/trash/tincan/cannedbread
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/cannedbread/New()
+	..()
+	reagents.add_reagent(/datum/reagent/nutriment/cannedbread, 40)
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/blutwurst
+	name = "blutwurst"
+	desc = "A can of blood sausages. Looks repulsive but leaves a nice taste in the mouth."
+	center_of_mass = "x=16;y=14"
+	icon_state = "blutwurst"
+	trash = /obj/item/trash/tincan/blutwurst
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/blutwurst/New()
+	..()
+	reagents.add_reagent(/datum/reagent/nutriment, 20)
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/jagdwurst
+	name = "jagdwurst"
+	desc = "A can of liver sausages. They are better off inside Wurstchen than a can."
+	center_of_mass = "x=16;y=14"
+	icon_state = "jagdwurst"
+	trash = /obj/item/trash/tincan/jagdwurst
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/jagdwurst/New()
+	..()
+	reagents.add_reagent(/datum/reagent/nutriment, 20)
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
 	bitesize = 3
