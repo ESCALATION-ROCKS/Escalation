@@ -33,7 +33,7 @@
 	item_state = "bundes_buttpack"
 	reachable = 1
 	max_storage_space = 6
-	slot_flags = SLOT_BACK
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmc_buttpack
 	name = "US field pack"
@@ -42,15 +42,15 @@
 	item_state = "usmc_buttpack"
 	reachable = 1
 	max_storage_space = 6
-	slot_flags = SLOT_BACK
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmc_buttpack/med
 	name = "US medical pack"
 	desc = "A sturdy field pack used by U.S. army. Also referred as butt pack. This one has a red cross on it."
 	icon_state = "usmc_med"
 	item_state = "usmc_med"
-	slot_flags = SLOT_BACK
-	max_storage_space = 15
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	max_storage_space = 6
 	reachable = 1
 	open_delay = 5
 	startswith = list(
@@ -103,7 +103,7 @@
 	reachable = 1
 	max_storage_space = 15
 	open_delay = 5
-	slot_flags = SLOT_BACK
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
 	startswith = list(
 			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
@@ -111,7 +111,6 @@
 			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/weapon/gauze_pack/ipp = 3,
-//			/obj/item/weapon/storage/fancy/syringe = 1,
 			/obj/item/stack/medical/ointment = 2)
 
 
@@ -123,7 +122,7 @@
 	reachable = 1
 	max_storage_space = 6
 	open_delay = 10
-	slot_flags = SLOT_BACK
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/alice/medium
 	name = "ALICE medium pack"
