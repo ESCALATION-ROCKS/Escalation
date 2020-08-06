@@ -1664,8 +1664,8 @@ var/list/rank_prefix = list(\
 	"Private First Class" = "Pfc.",\
 
 	"Master Sergeant" = "MSgt.",\
-	"Sergeant First Class" = "SFC.",\
-	"First Sergeant" = "FSgt",\
+	"Gunnery Sergeant" = "GySgt.",\
+	"First Sergeant" = "FSgt.",\
 
 //german
 	"Oberleutnant" = "Oberleutnant",\

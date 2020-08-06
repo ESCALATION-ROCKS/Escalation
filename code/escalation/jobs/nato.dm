@@ -1,7 +1,7 @@
 //USMC
 
 /datum/job/escalation/usmc
-	title = "United States Army"
+	title = "United States Marine Corps"
 	enabled = 0
 	faction_tag = "usmc"
 	military_faction = NATO
@@ -286,12 +286,12 @@
 
 /datum/job/escalation/usmc/usmcatcom
 	title = "USMC AT Commander"
-	name = "Anti Tank Section Commander"
+	name = "ATS Team Leader"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/hws_commander
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atcommander
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 2
@@ -305,7 +305,7 @@
 
 /datum/job/escalation/usmc/usmcat
 	title = "USMC AT Gunner"
-	name = "Anti Tank Gunner"
+	name = "ATS Gunner"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -321,7 +321,7 @@
 
 /datum/job/escalation/usmc/usmcata
 	title = "USMC AT Asistant"
-	name = "Anti Tank Asistant"
+	name = "ATS Assistant Rifleman"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
