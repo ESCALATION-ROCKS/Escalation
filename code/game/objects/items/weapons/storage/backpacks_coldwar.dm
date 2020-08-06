@@ -27,25 +27,25 @@
 			/obj/item/stack/medical/splint = 1)
 
 /obj/item/weapon/storage/backpack/bundes_buttpack
-	name = "field pack"
+	name = "BDW field pack"
 	desc = "A sturdy field pack used by Bundeswehr."
 	icon_state = "bundes_buttpack"
 	item_state = "bundes_buttpack"
 	reachable = 1
-	max_storage_space = 12
+	max_storage_space = 6
 	slot_flags = SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmc_buttpack
-	name = "field pack"
+	name = "US field pack"
 	desc = "A sturdy field pack used by U.S. army. Also referred as butt pack"
 	icon_state = "usmc_buttpack"
 	item_state = "usmc_buttpack"
 	reachable = 1
-	max_storage_space = 12
+	max_storage_space = 6
 	slot_flags = SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmc_buttpack/med
-	name = "medical pack"
+	name = "US medical pack"
 	desc = "A sturdy field pack used by U.S. army. Also referred as butt pack. This one has a red cross on it."
 	icon_state = "usmc_med"
 	item_state = "usmc_med"
@@ -96,7 +96,7 @@
 	slowdown_per_slot[slot_back] = 1
 
 /obj/item/weapon/storage/backpack/summedsan
-	name = "medical bag"
+	name = "sanitar medical bag"
 	desc = "That's the 'Sumka Meditsinskaya Sanitarnaya', a medical bag commonly used by Warsaw Pact."
 	icon_state = "summedsan"
 	item_state = "summedsan"
@@ -130,8 +130,9 @@
 	desc = "Commonly used by USMC."
 	icon_state = "alicemediumpack"
 	item_state = "alicemediumpack"
+	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 16
+	max_storage_space = 12
 	open_delay = 5
 
 /obj/item/weapon/storage/backpack/alice/medium/New()
@@ -143,8 +144,9 @@
 	desc = "Commonly used by USMC."
 	icon_state = "alicelargepack"
 	item_state = "alicelargepack"
+	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 20
+	max_storage_space = 18
 	open_delay = 5
 
 
