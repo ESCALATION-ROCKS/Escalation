@@ -56,7 +56,7 @@ Squad Alpha:usmc
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
 /datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcftmo
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 @END@
 
@@ -68,7 +68,7 @@ Squad Bravo:usmc
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
 /datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcftmo
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 @END@
 
@@ -80,7 +80,7 @@ Squad Charlie:usmc
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
 /datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcftmo
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 @END@
 
@@ -96,7 +96,7 @@ Gruppe Delta:bund
 /datum/job/escalation/bund/bdwsqradio
 /datum/job/escalation/bund/bdwgrenadier
 /datum/job/escalation/bund/bdwmg
-/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwmgas
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
@@ -108,7 +108,7 @@ Gruppe Echo:bund
 /datum/job/escalation/bund/bdwsqradio
 /datum/job/escalation/bund/bdwgrenadier
 /datum/job/escalation/bund/bdwmg
-/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwmgas
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
@@ -120,7 +120,7 @@ Gruppe Foxtrot:bund
 /datum/job/escalation/bund/bdwsqradio
 /datum/job/escalation/bund/bdwgrenadier
 /datum/job/escalation/bund/bdwmg
-/datum/job/escalation/nvaddr/bdwmgas
+/datum/job/escalation/bund/bdwmgas
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
