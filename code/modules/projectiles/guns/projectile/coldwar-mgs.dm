@@ -230,8 +230,8 @@
 		icon_state = "m60[cover_opened ? "open" : "closed"]-empty"
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/m249
-	name = "M249"
+/obj/item/weapon/gun/projectile/automatic/xm249
+	name = "XM249"
 	desc = "A standard-issue USMC squad support weapon. Chambers 5.56x45 rounds."
 	icon_state = "xm249"
 	item_state = "m60"
@@ -243,7 +243,7 @@
 	ammo_type = /obj/item/ammo_casing/a556x45
 	load_method = MAGAZINE
 	magazine_type = null /////this thing can fit stanag magazines look it up
-	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m)
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45s)
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 	jam_chance = 2
@@ -263,45 +263,57 @@
 	var/cover_opened = FALSE
 
 
-/obj/item/weapon/gun/projectile/automatic/m249/special_check(mob/user)
+/obj/item/weapon/gun/projectile/automatic/xm249/special_check(mob/user)
 	if(cover_opened)
 		to_chat(user, "<span class='warning'>[src]'s cover is open! Close it before firing!</span>")
 		return FALSE
 	return ..()
 
-/obj/item/weapon/gun/projectile/automatic/m249/proc/toggle_cover(mob/user)
+/obj/item/weapon/gun/projectile/automatic/xm249/proc/toggle_cover(mob/user)
 	cover_opened = !cover_opened
 	to_chat(user,"<span class='notice'>You [cover_opened ? "open" : "close"] [src]'s cover.</span>")
 	update_icon()
 
-/obj/item/weapon/gun/projectile/automatic/m249/attack_self(mob/user as mob)
+/obj/item/weapon/gun/projectile/automatic/xm249/attack_self(mob/user as mob)
 	if(cover_opened)
 		toggle_cover(user) //close the cover
 		playsound(user, 'sound/weapons/gunporn/m249_close.ogg', 100, 1)
 	else
 		return ..() //once closed, behave like normal
 
-/obj/item/weapon/gun/projectile/automatic/m249/attack_hand(mob/user as mob)
+/obj/item/weapon/gun/projectile/automatic/xm249/attack_hand(mob/user as mob)
 	if(!cover_opened && user.get_inactive_hand() == src)
 		toggle_cover(user) //open the cover
 		playsound(user, 'sound/weapons/gunporn/m249_open.ogg', 100, 1)
 	else
 		return ..() //once open, behave like normal
 
-/obj/item/weapon/gun/projectile/automatic/m249/load_ammo(var/obj/item/A, mob/user)
+/obj/item/weapon/gun/projectile/automatic/xm249/load_ammo(var/obj/item/A, mob/user)
 	if(!cover_opened)
 		to_chat(user, "<span class='warning'>You need to open the cover to load that into [src].</span>")
 		return
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/m249/unload_ammo(mob/user, var/allow_dump=1)
+/obj/item/weapon/gun/projectile/automatic/xm249/update_icon()
+	if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45b))
+		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 25)]"
+		item_state = "xm249[cover_opened ? "open" : "closed"]"
+	else if(istype(ammo_magazine,/obj/item/ammo_magazine/c556x45m))
+		icon_state = "xm249[cover_opened ? "open" : "closed"]mag"
+		item_state = "xm249[cover_opened ? "open" : "closed"]mag"
+	else
+		icon_state = "xm249[cover_opened ? "open" : "closed"]-empty"
+		item_state = "xm249[cover_opened ? "open" : "closed"]-empty"
+	..()
+
+/obj/item/weapon/gun/projectile/automatic/xm249/unload_ammo(mob/user, var/allow_dump=1)
 	if(!cover_opened)
 		to_chat(user, "<span class='warning'>You need to open the cover to unload [src].</span>")
 		return
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/m249/update_icon()
-	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
+/obj/item/weapon/gun/projectile/automatic/xm249/update_icon()
+	if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45b))
 		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
 	else
 		icon_state = "xm249[cover_opened ? "open" : "closed"]-empty"
@@ -386,6 +398,87 @@
 		icon_state = "pkm[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
 	else
 		icon_state = "pkm[cover_opened ? "open" : "closed"]-empty"
+	update_held_icon()
+	..()
+
+////////////// the l7a2 //////////////////////////
+/obj/item/weapon/gun/projectile/automatic/l7a2
+	name = "L7A2"
+	desc = "A standard-issue Royal Marines general purpose machine gun. Chambers 7.62x51 rounds."
+	icon_state = "l7a2"
+	item_state = "l7a2"
+	w_class = 5
+	force = 15
+	accuracy = 2
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	max_shells = 200
+	caliber = "762x51"
+	ammo_type = /obj/item/ammo_casing/a762x51
+	load_method = MAGAZINE
+	magazine_type = null
+	allowed_magazines = /obj/item/ammo_magazine/c762x51b/en
+	one_hand_penalty = 9
+	automatic = FALSE
+	jam_chance = 2
+	slowdown_general = 0.8
+
+	wielded_item_state = "vz59-wielded"
+	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
+	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/mg_dist.wav'
+	fire_sound = 'sound/weapons/gunshot/pkm.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.3, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,   dispersion=list(0.5, 0.8),                  automatic = 0.5)
+		)
+
+	var/cover_opened = FALSE
+
+
+/obj/item/weapon/gun/projectile/automatic/l7a2/special_check(mob/user)
+	if(cover_opened)
+		to_chat(user, "<span class='warning'>[src]'s cover is open! Close it before firing!</span>")
+		return FALSE
+	return ..()
+
+/obj/item/weapon/gun/projectile/automatic/l7a2/proc/toggle_cover(mob/user)
+	cover_opened = !cover_opened
+	to_chat(user, "<span class='notice'>You [cover_opened ? "open" : "close"] [src]'s cover.</span>")
+	update_icon()
+
+/obj/item/weapon/gun/projectile/automatic/l7a2/attack_self(mob/user as mob)
+	if(cover_opened)
+		toggle_cover(user) //close the cover
+		playsound(user, 'sound/weapons/gunporn/m249_close.ogg', 100, 1)
+	else
+		return ..() //once closed, behave like normal
+
+/obj/item/weapon/gun/projectile/automatic/l7a2/attack_hand(mob/user as mob)
+	if(!cover_opened && user.get_inactive_hand() == src)
+		toggle_cover(user) //open the cover
+		playsound(user, 'sound/weapons/gunporn/m249_open.ogg', 100, 1)
+	else
+		return ..() //once open, behave like normal
+
+/obj/item/weapon/gun/projectile/automatic/l7a2/load_ammo(var/obj/item/A, mob/user)
+	if(!cover_opened)
+		to_chat(user, "<span class='warning'>You need to open the cover to load that into [src].</span>")
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/automatic/l7a2/unload_ammo(mob/user, var/allow_dump=1)
+	if(!cover_opened)
+		to_chat(user, "<span class='warning'>You need to open the cover to unload [src].</span>")
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/automatic/l7a2/update_icon()
+	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x54b))
+		icon_state = "l7a2[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+	else
+		icon_state = "l7a2[cover_opened ? "open" : "closed"]-empty"
 	update_held_icon()
 	..()
 
