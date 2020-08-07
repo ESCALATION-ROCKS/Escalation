@@ -1105,3 +1105,82 @@
 	else
 		icon_state = "rk62-empty"
 		wielded_item_state = "rk62-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	name = "L1A1"
+	desc = "A standard-issue Royal Marines combat rifle. Chambers 7.62x51 rounds."
+	icon_state = "l1a1"
+	item_state = "l1a1"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x51"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x51
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
+	magazine_type = null
+	one_hand_penalty = 5
+	accuracy = 3
+	fire_delay = 2.5
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
+	bayonet_attachable = 1
+	jam_chance = 1
+	slowdown_general = 0.25
+
+	wielded_item_state = "l1a1-wielded"
+	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
+	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
+	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
+	firemodes = list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0)
+	
+/obj/item/weapon/gun/projectile/automatic/rifle/l1a1/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "l1a1"
+		wielded_item_state = "l1a1-wielded"
+	else
+		icon_state = "l1a1-empty"
+		wielded_item_state = "l1a1-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/sterling
+	name = "Sterling SMG"
+	desc = "A submachine gun used by the Royal Marines. Chambers 9x19 rounds."
+	icon_state = "sterling"
+	item_state = "sterling"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "9x19"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a9x19
+	allowed_magazines = /obj/item/ammo_magazine/a9x19s
+	magazine_type = null
+	one_hand_penalty = 5
+	accuracy = 2.5
+	fire_delay = 2
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
+	bayonet_attachable = 0
+	jam_chance = 2
+	slowdown_general = 0.15
+
+	wielded_item_state = "sterling-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.1),                     automatic = 0.7),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/sterling/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "sterling"
+		wielded_item_state = "sterling-wielded"
+	else
+		icon_state = "sterling-empty"
+		wielded_item_state = "sterling-wielded-empty"

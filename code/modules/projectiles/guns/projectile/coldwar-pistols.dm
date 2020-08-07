@@ -247,3 +247,28 @@
 		icon_state = "waltherppk"
 	else
 		icon_state = "waltherppk-empty"
+
+/obj/item/weapon/gun/projectile/hipower
+	name = "Browning Hi-Power"
+	desc = "A dated yet reliable design. Uses 9x19 ammunition"
+	icon_state = "hipower" //fix
+	item_state = "gun"
+	w_class = ITEM_SIZE_NORMAL
+	caliber = "9x19"
+	fire_delay = 1
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/a9x19b
+	allowed_magazines = /obj/item/ammo_magazine/a9x19b
+	fire_sound = 'sound/weapons/gunshot/m1911.ogg'
+	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
+	jam_chance = 2
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+
+/obj/item/weapon/gun/projectile/hipower/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "hipower"
+	else
+		icon_state = "hipower-empty"
