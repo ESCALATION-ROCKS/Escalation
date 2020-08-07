@@ -230,11 +230,11 @@
 		icon_state = "m60[cover_opened ? "open" : "closed"]-empty"
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/m249
-	name = "M249"
+/obj/item/weapon/gun/projectile/automatic/xm249
+	name = "XM249"
 	desc = "A standard-issue USMC squad support weapon. Chambers 5.56x45 rounds."
-	icon_state = "m249"
-	item_state = "m249"
+	icon_state = "xm249"
+	item_state = "m60"
 	w_class = 5
 	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
@@ -249,7 +249,7 @@
 	jam_chance = 2
 	slowdown_general = 0.7
 
-	wielded_item_state = "m249-wielded"
+	wielded_item_state = "m60-wielded"
 	fire_sound = 'sound/weapons/gunshot/m60.ogg'
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
@@ -263,60 +263,60 @@
 	var/cover_opened = FALSE
 
 
-/obj/item/weapon/gun/projectile/automatic/m249/special_check(mob/user)
+/obj/item/weapon/gun/projectile/automatic/xm249/special_check(mob/user)
 	if(cover_opened)
 		to_chat(user, "<span class='warning'>[src]'s cover is open! Close it before firing!</span>")
 		return FALSE
 	return ..()
 
-/obj/item/weapon/gun/projectile/automatic/m249/proc/toggle_cover(mob/user)
+/obj/item/weapon/gun/projectile/automatic/xm249/proc/toggle_cover(mob/user)
 	cover_opened = !cover_opened
 	to_chat(user,"<span class='notice'>You [cover_opened ? "open" : "close"] [src]'s cover.</span>")
 	update_icon()
 
-/obj/item/weapon/gun/projectile/automatic/m249/attack_self(mob/user as mob)
+/obj/item/weapon/gun/projectile/automatic/xm249/attack_self(mob/user as mob)
 	if(cover_opened)
 		toggle_cover(user) //close the cover
 		playsound(user, 'sound/weapons/gunporn/m249_close.ogg', 100, 1)
 	else
 		return ..() //once closed, behave like normal
 
-/obj/item/weapon/gun/projectile/automatic/m249/attack_hand(mob/user as mob)
+/obj/item/weapon/gun/projectile/automatic/xm249/attack_hand(mob/user as mob)
 	if(!cover_opened && user.get_inactive_hand() == src)
 		toggle_cover(user) //open the cover
 		playsound(user, 'sound/weapons/gunporn/m249_open.ogg', 100, 1)
 	else
 		return ..() //once open, behave like normal
 
-/obj/item/weapon/gun/projectile/automatic/m249/load_ammo(var/obj/item/A, mob/user)
+/obj/item/weapon/gun/projectile/automatic/xm249/load_ammo(var/obj/item/A, mob/user)
 	if(!cover_opened)
 		to_chat(user, "<span class='warning'>You need to open the cover to load that into [src].</span>")
 		return
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/m249/update_icon()
+/obj/item/weapon/gun/projectile/automatic/xm249/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45b))
-		icon_state = "m249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 25)]"
-		item_state = "m249[cover_opened ? "open" : "closed"]"
-	else if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45m))
-		icon_state = "m249[cover_opened ? "open" : "closed"]mag"
-		item_state = "m249[cover_opened ? "open" : "closed"]mag"
+		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 25)]"
+		item_state = "xm249[cover_opened ? "open" : "closed"]"
+	else if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s))
+		icon_state = "xm249[cover_opened ? "open" : "closed"]mag"
+		item_state = "xm249[cover_opened ? "open" : "closed"]mag"
 	else
-		icon_state = "m249[cover_opened ? "open" : "closed"]-empty"
-		item_state = "m249[cover_opened ? "open" : "closed"]-empty"
+		icon_state = "xm249[cover_opened ? "open" : "closed"]-empty"
+		item_state = "xm249[cover_opened ? "open" : "closed"]-empty"
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/m249/unload_ammo(mob/user, var/allow_dump=1)
+/obj/item/weapon/gun/projectile/automatic/xm249/unload_ammo(mob/user, var/allow_dump=1)
 	if(!cover_opened)
 		to_chat(user, "<span class='warning'>You need to open the cover to unload [src].</span>")
 		return
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/m249/update_icon()
+/obj/item/weapon/gun/projectile/automatic/xm249/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45b))
-		icon_state = "m249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
 	else
-		icon_state = "m249[cover_opened ? "open" : "closed"]-empty"
+		icon_state = "xm249[cover_opened ? "open" : "closed"]-empty"
 	..()
 
 
