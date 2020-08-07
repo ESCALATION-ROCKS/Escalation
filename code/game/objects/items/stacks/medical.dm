@@ -417,7 +417,7 @@
 				return
 			user.visible_message("<span class='danger'>[user] starts to apply \the [src] to their [limb].</span>", "<span class='danger'>You start to apply \the [src] to your [limb].</span>", "<span class='danger'>You hear something being wrapped.</span>")
 		if(do_after(user, 50, M))
-			if(M == user && !user.statscheck(user.skill_medicine, user.int, 8, 0, src))
+			if(M == user && !user.statscheck(user.skill_medicine, user.int, 1, 1, src))
 				user.visible_message("<span class='danger'>\The [user] fumbles [src].</span>", "<span class='danger'>You fumble [src].</span>", "<span class='danger'>You hear something being wrapped.</span>")
 				return
 			var/obj/item/stack/medical/tourniquet/S = split(1)

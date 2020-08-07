@@ -352,7 +352,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 
 /obj/item/weapon/reagent_containers/pill/ethaperazine
 	name = "ethaperazine pill"
-	desc = "Weak sedative and antiemetic drug for patients that require rest. Provides relief from nausea and causes drowsiness."
+	desc = "A mild neuroleptic and anti-emetic. Provides relief from nausea and vomiting."
 	icon_state = "pill21"
 	New()
 		..()

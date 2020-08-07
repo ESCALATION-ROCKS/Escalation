@@ -43,7 +43,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 60)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 90)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -83,7 +83,7 @@
 	amount = 1
 	enabled = 0
 	whitelist_rank = "sa_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 60)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -143,7 +143,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_GERMAN = 60)
+	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_GERMAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -187,7 +187,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 4, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
 
 /datum/job/escalation/cccp/sasniper
 	title = "SA Snaiper"
@@ -304,7 +304,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_GERMAN = 60)
+	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_GERMAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -523,7 +523,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "ddr_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -604,7 +604,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "ddr_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -648,7 +648,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 4, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
 
 /datum/job/escalation/nvaddr/nvasl
 	title = "NVA Gruppenfuhrer"
@@ -746,7 +746,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "ddr_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -988,7 +988,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 4, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
 
 /datum/job/escalation/finn/finnsl
 	title = "FINN Ryhmanjohtaja"

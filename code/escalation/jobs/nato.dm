@@ -64,7 +64,7 @@
 	rank_number = 2
 	position = "team"
 	whitelist_rank = "usmc_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 60, LANGUAGE_RUSSIAN = 40)
+	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -126,7 +126,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 4, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
 
 /datum/job/escalation/usmc/usmcmarksman
 	title = "USMC Designated Marksman"
@@ -236,7 +236,7 @@
 	position = "fireteam"
 	enabled = 1
 	whitelist_rank = "usmc_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 80, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_GERMAN = 90, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -440,7 +440,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "bdw_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -460,7 +460,7 @@
 	rank_number = 2
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 60, LANGUAGE_RUSSIAN = 20)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 20)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -524,7 +524,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 4, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
 
 /datum/job/escalation/bund/bdwsl
 	title = "BDW Gruppenfuhrer"
@@ -655,7 +655,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
