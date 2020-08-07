@@ -4,15 +4,9 @@
 # TITLE ROLE
 # }
 
+# Staff
+
 SilverSZ = {
-::ALL::
-}
-
-ToasterRoboto = {
-::ALL::
-}
-
-I like D0nUts = {
 ::ALL::
 }
 
@@ -20,428 +14,35 @@ cabostein = {
 ::ALL::
 }
 
-Tristan63 = {
-::ALL::
-}
-
-punkinguy = {
-::ALL::
-}
-
-Yacobpo157 = {
-::ALL::
-}
-
-TechnoKat = {
-::ALL::
-}
-
-KillingSpree13 = {
-::ALL::
-}
-
-Oprayx73 = {
-::ALL::
-}
-
-Toxici11i = {
-::ALL::
-}
-
-Decker100 = {
-::ALL::
-}
-
-Dudeman100 = {
-::ALL::
-}
-
-Lumdor = {
-::ALL::
-}
-
-Optimisticdude = {
-::ALL::
-}
-
-ExecutorPartner = {
-::ALL::
-}
-
-Very nise person = {
-::ALL::
-}
-
-teknoacid = {
-::ALL::
-}
-
-FireNightPower = {
-::ALL::
-}
-
-Myoblongvagooglia = {
-::ALL::
-}
-
-thedonkified = {
-::ALL::
-}
-
-The Secret Slav = {
-::ALL::
-}
-
-Fursame = {
-::ALL::
-}
-
-chaznoodles = {
-::ALL::
-}
-
-BonelessJuice = {
-::ALL::
-}
-
-Subdon = {
-::ALL::
-}
-
-Bekons = {
-::ALL::
-}
-
-Martzin = {
-::ALL::
-}
-
-TeenGowen = {
-::ALL::
-}
-
-Freiwillige = {
-::ALL::
-}
-
-BrokenBranch = {
-::ALL::
-}
-
-BurnedSweetPotato = {
-::ALL::
-}
-
-AdeptMechanicus = {
-::ALL::
-}
-
-Komkommer = {
-::ALL::
-}
-
-Torn223 = {
-::ALL::
-}
-
-BombanyTI = {
-::ALL::
-}
-
-NewOriginalSchwann = {
-::ALL::
-}
-
-YourDaddy117 = {
-::ALL::
-}
-
-Gy1ta23 = {
-::ALL::
-}
-
-Broseph Stylin = {
-::ALL::
-}
-
-XXUnDerBYXx = {
-::ALL::
-}
-
-simonset55 = {
-::ALL::
-}
-
-Desion134 = {
-::ALL::
-}
-
-Ajs3009 = {
-::ALL::
-}
-
-miner99213 = {
-::ALL::
-}
-
-UltraBruh = {
-::ALL::
-}
-
-Sharlcheen = {
-::ALL::
-}
-
-TheNewOrleans = {
-::ALL::
-}
-
-Swagbag = {
-::ALL::
-}
-
-Nanu308 = {
-::ALL::
-}
-
-Avalanchee = {
-::ALL::
-}
-
-DanseMacabre = {
-::ALL::
-}
-
-superjo98 = {
-::ALL::
-}
-
-UNCLE_FRUIT_VEVO = {
-::ALL::
-}
-
-DefinitelyAlone0309 = {
-::ALL::
-}
-
-Robotic Potato = {
-::ALL::
-}
-
-AlienFromTerra = {
-::ALL::
-}
-
-PopeFrank = {
-::ALL::
-}
-
-MoXuT0 = {
-::ALL::
-}
-
-Wigglesworth Jones = {
-::ALL::
-}
-
-DeadLantern = {
-::ALL::
-}
-
-Tamozhnik = {
-::ALL::
-}
-
-Stalkeros = {
-::ALL::
-}
-
-Xxxretroxgears3 = {
-::ALL::
-}
-
-MoondancerPony = {
-::ALL::
-}
-
-LeonidZurnadzhi = {
-::ALL::
-}
-
-TeenGowen = {
-::ALL::
-}
-
-Outboarduniform = {
-::ALL::
-}
-
-Bob Cool = {
-::ALL::
-}
-
-CeSium_Shark = {
-::ALL::
-}
-
-derpymcderpderp = {
-::ALL::
-}
-
-BornToKill946 = {
-::ALL::
-}
-
-Oshibka = {
-::ALL::
-}
-
-ComePantalones = {
-::ALL::
-}
-
-Trollarch = {
-::ALL::
-}
-
-Biscuitsakimbo = {
-::ALL::
-}
-
-epicdwarf = {
-::ALL::
-}
-
-Nitro2030ce = {
-::ALL::
-}
-
-dreadweaver = {
-::ALL::
-}
-
-mcfckinlovin = {
-::ALL::
-}
-
-Kyrac = {
-::ALL::
-}
-
-N010001100101010101000011010 = {
-::ALL::
-}
-
-Oddbomber3768 = {
-::ALL::
-}
-
-Xlyana = {
-::ALL::
-}
-
-SeverePwnage = {
-::ALL::
-}
-
-
-Turret_Drehturm = {
-::ALL::
-}
-
-verynisepersin = {
-::ALL::
-}
-
-Very nise persin = {
-::ALL::
-}
-
-NazbolGang = {
-::ALL::
-}
-
-MrGabol100 = {
-::ALL::
-}
-
-
-emoats18 = {
-::ALL::
-}
-
 isismilitant = {
 ::ALL::
 }
 
-boringcommunist = {
+mrgabol100 = {
 ::ALL::
 }
 
-
-Cesarjunior233 = {
-:ALL::
+severepwnage = {
 ::ALL::
 }
 
-Demdisco = {
+dansemacabre = {
 ::ALL::
 }
 
-
-Tristain01 = {
+turret_drehturm = {
 ::ALL::
 }
 
-loafe = {
+toxici11i = {
 ::ALL::
 }
 
-battieralarm3 = {
+xlyana = {
 ::ALL::
 }
 
-excitant = {
-::ALL::
-}
-
-Bolotniy = {
-::ALL::
-}
-
-QuickLoad = {
-::ALL::
-}
-
-JojiGoatNerd = {
-::ALL::
-}
-
-kingdj1234 = {
-::ALL::
-}
-
-Chris1464 = {
-::ALL::
-}
-
-texicos = {
-::ALL::
-}
-
-Eskjjlj = {
-::ALL::
-}
-
-themanwhosoldthehorns = {
-::ALL::
-}
-
-Booperkin343435 = {
-::ALL::
-}
-
-Rippie129 = {
+eskjjlj = {
 ::ALL::
 }
 
@@ -449,50 +50,17 @@ blazsnake = {
 ::ALL::
 }
 
-pepefrog = {
+emoats18 = {
 ::ALL::
 }
 
-boltersam = {
+brosephstylin = {
 ::ALL::
+}
+verynisepersin = {
+bdw_officer
+bund
 }
 
-jglitch = {
-::ALL::
-}
 
-yukfu = {
-::ALL::
-}
 
-C36311 = {
-::ALL::
-}
-
-mannypardo = {
-::ALL::
-}
-
-workersoftheworld = {
-::ALL::
-}
-
-Lautaroluna180 = {
-::ALL::
-}
-
-theflyingbananagaming = {
-::ALL::
-}
-
-hemph = {
-::ALL::
-}
-
-evenindeathistillserve = {
-::ALL::
-}
-
-lol18 = {
-::ALL::
-}

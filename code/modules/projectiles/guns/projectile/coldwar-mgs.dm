@@ -233,8 +233,8 @@
 /obj/item/weapon/gun/projectile/automatic/m249
 	name = "M249"
 	desc = "A standard-issue USMC squad support weapon. Chambers 5.56x45 rounds."
-	icon_state = "m249"
-	item_state = "m249"
+	icon_state = "xm249"
+	item_state = "m60"
 	w_class = 5
 	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
@@ -243,13 +243,13 @@
 	ammo_type = /obj/item/ammo_casing/a556x45
 	load_method = MAGAZINE
 	magazine_type = null /////this thing can fit stanag magazines look it up
-	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m,/obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45s)
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m)
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 	jam_chance = 2
 	slowdown_general = 0.6
 
-	wielded_item_state = "m249-wielded"
+	wielded_item_state = "m60-wielded"
 	fire_sound = 'sound/weapons/gunshot/m60.ogg'
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
@@ -302,9 +302,9 @@
 
 /obj/item/weapon/gun/projectile/automatic/m249/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
-		icon_state = "m249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
 	else
-		icon_state = "m249[cover_opened ? "open" : "closed"]-empty"
+		icon_state = "xm249[cover_opened ? "open" : "closed"]-empty"
 	..()
 
 //true kalashnikov's machinegun - standart soviet lmg
