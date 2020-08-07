@@ -1,3 +1,5 @@
+ /* ------------- THIS DISABLES THE LIMB SURGERY STEPS
+ 
  //Procedures in this file: Robotic limbs attachment, meat limbs attachment
 //////////////////////////////////////////////////////////////////
 //						LIMB SURGERY							//
@@ -50,6 +52,7 @@
 	user.visible_message("<span class='warning'> [user]'s hand slips, damaging [target]'s [E.amputation_point]!</span>", \
 	"<span class='warning'> Your hand slips, damaging [target]'s [E.amputation_point]!</span>")
 	target.apply_damage(10, BRUTE, null, damage_flags=DAM_SHARP)
+
 
 //////////////////////////////////////////////////////////////////
 //	 limb connecting surgery step
@@ -141,3 +144,6 @@
 		user.visible_message("<span class='warning'> [user]'s hand slips, damaging [target]'s flesh!</span>", \
 		"<span class='warning'> Your hand slips, damaging [target]'s flesh!</span>")
 		target.apply_damage(10, BRUTE, null, damage_flags=DAM_SHARP)
+
+
+*/ .

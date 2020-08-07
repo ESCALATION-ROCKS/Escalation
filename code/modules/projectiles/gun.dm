@@ -528,7 +528,7 @@
 //Gun safety
 /obj/item/weapon/gun/AltClick(mob/user)
 	..()
-	if(user.incapacitated())
+	if(user.incapacitated(INCAPACITATION_KNOCKOUT))
 		to_chat(user, "<span class='warning'>You can't do that right now!</span>")
 		return
 	if(src == user.get_active_hand())

@@ -56,13 +56,13 @@
 
 /datum/reagent/ethaperazine
 	name = "Ethaperazine"
-	description = "That's the low-powerful neuroleptic. Also used as anti-vomit drug."
+	description = "A mild neuroleptic and anti-emetic. Provides relief from nausea and vomiting."
 	taste_description = "sourness"
 	reagent_state = LIQUID
 	color = "#BF80BF"
 	metabolism = 0.15
 	data = 0
-	overdose = 18
+	overdose = 10
 	scannable = 0
 
 /datum/reagent/ethaperazine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
@@ -74,7 +74,6 @@
 			M.add_chemical_effect(CE_ANTIVOMIT, 30)
 			M.adjustToxLoss(-1 * removed)
 	else if(M.chem_doses[type] < 6)
-		M.eye_blurry = max(M.eye_blurry, 20)
 		M.add_chemical_effect(CE_PAINKILLER, 10)
 		M.add_chemical_effect(CE_ANTIVOMIT, 40)
 		M.adjustToxLoss(-2 * removed)
@@ -88,6 +87,7 @@
 		M.drowsyness = max(M.drowsyness, 60)
 		M.adjustToxLoss(-3 * removed)
 	M.add_chemical_effect(CE_PULSE, -1)
+
 
 /datum/reagent/salbutamol
 	name = "Salbutamol"
