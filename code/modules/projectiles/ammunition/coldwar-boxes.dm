@@ -48,7 +48,6 @@
 	name = "AP magazine (7.62x51mm)"
 	ammo_type = /obj/item/ammo_casing/a762x51/ap
 
-
 /obj/item/ammo_magazine/c762x51b
 	name = "M60 belt box (7.62x51mm)"
 	desc = "An M60 box that fits one hundred 7.62x51mm rounds."
@@ -151,6 +150,36 @@
 	ammo_type = /obj/item/ammo_casing/a762x39/ap
 
 /obj/item/ammo_magazine/c762x51b/bdw/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/c762x51b/en
+	name = "L7A2 belt box (7.62x51mm)"
+	desc = "An L7A2 belt box that fits one hundred 7.62x51mm rounds."
+	icon_state = "l7a2"
+	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_LARGE
+	caliber = "762x51"
+	ammo_type = /obj/item/ammo_casing/a762x51
+	max_ammo = 100
+	multiple_sprites = 1
+	load_delay = 30
+
+/obj/item/ammo_magazine/c762x51b/en/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/c556x45b
+	name = "M249 belt box (5.56x45mm)"
+	desc = "An M249 belt box that fits one hundred 5.56x45mm rounds."
+	icon_state = "m249"
+	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_LARGE
+	caliber = "556x45"
+	ammo_type = /obj/item/ammo_casing/a556x45
+	max_ammo = 100
+	multiple_sprites = 1
+	load_delay = 30
+
+/obj/item/ammo_magazine/c556x45b/empty
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39m
@@ -330,6 +359,30 @@
 	desc = "A P1 magazine that fits eight armor-piercing 9x19mm rounds."
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a9x19/ap
+
+/obj/item/ammo_magazine/a9x19s
+	name = "smg magazine (9x19mm)"
+	desc = "A Sterling magazine that fits thirty 9x19mm rounds."
+	icon_state = "9x19s"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 2
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 30
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9x19b
+	name = "magazine (9x19mm)"
+	desc = "A Browning Hi-Power magazine that fits thirteen 9x19mm rounds."
+	icon_state = "9x19b"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 1
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 13
+	multiple_sprites = 1
 
 /obj/item/ammo_magazine/a9x18
 	name = "magazine (9x18mm)"
