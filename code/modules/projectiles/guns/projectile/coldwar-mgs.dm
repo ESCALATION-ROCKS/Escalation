@@ -298,7 +298,7 @@
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45b))
 		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 25)]"
 		item_state = "xm249[cover_opened ? "open" : "closed"]"
-	else if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s))
+	else if(istype(ammo_magazine,/obj/item/ammo_magazine/c556x45m))
 		icon_state = "xm249[cover_opened ? "open" : "closed"]mag"
 		item_state = "xm249[cover_opened ? "open" : "closed"]mag"
 	else
