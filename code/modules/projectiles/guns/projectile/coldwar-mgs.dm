@@ -230,7 +230,6 @@
 		icon_state = "m60[cover_opened ? "open" : "closed"]-empty"
 	..()
 
-/*
 /obj/item/weapon/gun/projectile/automatic/m249
 	name = "M249"
 	desc = "A standard-issue USMC squad support weapon. Chambers 5.56x45 rounds."
@@ -239,7 +238,7 @@
 	w_class = 5
 	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	max_shells = 200
+	max_shells = 100
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
 	load_method = MAGAZINE
@@ -248,7 +247,7 @@
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 	jam_chance = 2
-	slowdown_general = 0.7
+	slowdown_general = 0.6
 
 	wielded_item_state = "m249-wielded"
 	fire_sound = 'sound/weapons/gunshot/m60.ogg'
@@ -307,7 +306,6 @@
 	else
 		icon_state = "m249[cover_opened ? "open" : "closed"]-empty"
 	..()
-*/
 
 //true kalashnikov's machinegun - standart soviet lmg
 //same with bayonet as RPK
