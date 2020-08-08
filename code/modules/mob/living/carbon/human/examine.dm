@@ -320,13 +320,13 @@
 	if(print_flavor_text()) msg += "[print_flavor_text()]\n"
 
 	if(fraction && job)
-		if(ishuman(user) && user != src && distance <= 10)
+		if(ishuman(user) && user != src && distance <= 20)
 			var/mob/living/carbon/human/H = user
 			if(H.fraction == fraction)
 				msg += "<br><i>You recognize [T.him] as <b>[job]</b>.</i>\n"
 
 	if(fireteam_picked && fraction)
-		if(ishuman(user) && user != src && distance <= 10)
+		if(ishuman(user) && user != src && distance <= 20)
 			var/mob/living/carbon/human/H = user
 			if(H.fraction == fraction)
 				if(H.fireteam_picked == fireteam_picked)
