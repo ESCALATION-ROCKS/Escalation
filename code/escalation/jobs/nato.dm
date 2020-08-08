@@ -449,7 +449,7 @@
 /datum/job/escalation/bund/bdwratelo
 	title = "BDW Funktelefonbetreiber"
 	name = "Funktelefonbetreiber"
-	english_name = "RATELO"
+	english_name = "HQ Radioman"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -645,7 +645,7 @@
 /datum/job/escalation/bund/bdwsqradio
 	title = "BDW Squad Radio Operator"
 	name = "Gruppenfunker"
-	english_name = "Squad RATELO"
+	english_name = "Squad Radioman"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -683,8 +683,8 @@
 
 /datum/job/escalation/bund/mgcom
 	title = "BDW HWS Commander"
-	name = "BDW Heavy Weapon Section Commander"
-	english_name = null
+	name = "Schwere Waffen Gruppenfuhrer"
+	english_name = "Heavy Weapons Section Commander"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -702,8 +702,8 @@
 
 /datum/job/escalation/bund/mgload
 	title = "BDW HWS Loader"
-	name = "BDW Heavy Weapon Loader"
-	english_name = null
+	name = "Schwere Waffen Gruppe Ladeschutze"
+	english_name = "Heavy Weapons Section Loader"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -721,12 +721,12 @@
 
 /datum/job/escalation/bund/mgop
 	title = "BDW HWS Operator"
-	name = "BDW Heavy Weapon Operator"
-	english_name = null
+	name = "Schwere Waffen Gruppe Schutze"
+	english_name = "Heavy Weapons Section Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/radioman
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/rifleman
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
