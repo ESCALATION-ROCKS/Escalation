@@ -406,8 +406,8 @@
 		H.fraction = "NATO"
 
 /datum/job/escalation/bund/bdwplatlead
-	title = "BDW Zugfuhrer"
-	name = "Zugfuhrer"
+	title = "BDW Feldwebel"
+	name = "Feldwebel"
 	english_name = "Platoon Leader"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -427,8 +427,8 @@
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
 
 /datum/job/escalation/bund/bdwplatleaddep
-	title = "BDW Zugfuhrerassistant"
-	name = "Zugfuhrerassistant"
+	title = "BDW Hauptfeldwebel"
+	name = "Hauptfeldwebel"
 	english_name = "Platoon Leader Deputy"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -449,7 +449,7 @@
 /datum/job/escalation/bund/bdwratelo
 	title = "BDW Funktelefonbetreiber"
 	name = "Funktelefonbetreiber"
-	english_name = "RATELO"
+	english_name = "HQ Radiotelephone Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -488,7 +488,7 @@
 
 /datum/job/escalation/bund/bdwcorpsman
 	title = "BDW Sanitaterschutze"
-	name = "Sanitaterschutze"
+	name = "Sanitatssoldat"
 	english_name = "Field Medic"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -644,7 +644,7 @@
 
 /datum/job/escalation/bund/bdwsqradio
 	title = "BDW Squad Radio Operator"
-	name = "Gruppenfunker"
+	name = "Funker"
 	english_name = "Squad RATELO"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -721,7 +721,7 @@
 
 /datum/job/escalation/bund/mgop
 	title = "BDW HWS Operator"
-	name = "Schwere Waffen Gruppe Schutze"
+	name = "Schwere Waffen Gruppe Kanonier"
 	english_name = "Heavy Weapons Section Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
