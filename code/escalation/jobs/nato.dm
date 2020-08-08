@@ -449,7 +449,7 @@
 /datum/job/escalation/bund/bdwratelo
 	title = "BDW Funktelefonbetreiber"
 	name = "Funktelefonbetreiber"
-	english_name = "RATELO"
+	english_name = "HQ Radioman"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -645,7 +645,7 @@
 /datum/job/escalation/bund/bdwsqradio
 	title = "BDW Squad Radio Operator"
 	name = "Gruppenfunker"
-	english_name = "Squad RATELO"
+	english_name = "Squad Radioman"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
