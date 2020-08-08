@@ -169,7 +169,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
 	bayonet_attachable = 1
 	wielded_item_state = "aks-wielded"
-	fire_sound = 'sound/weapons/gunshot/aks74u.ogg'
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
 	unload_sound = 'sound/weapons/gunporn/aks74u_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/aks74u_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
@@ -1127,7 +1127,7 @@
 	slowdown_general = 0.15
 
 	wielded_item_state = "aks-wielded"
-	fire_sound = 'sound/weapons/gunshot/aks74u.ogg'
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
 	unload_sound = 'sound/weapons/gunporn/aks74u_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/aks74u_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
