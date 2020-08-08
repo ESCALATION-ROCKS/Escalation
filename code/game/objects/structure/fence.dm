@@ -304,6 +304,16 @@
 		icon_state = "fence_[junction]"
 		return
 
+/obj/structure/newfence/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
+	if(!mover)
+		return 1
+	if(istype(mover) && mover.checkpass(PASSTABLE))
+		return 1
+	if(get_dir(loc, target) == dir)
+		return !density
+	else
+		return 1
+
 /obj/structure/newfence/wooden
 	name = "wooden fence"
 	desc = "Cheap as hell, but it still makes its job."

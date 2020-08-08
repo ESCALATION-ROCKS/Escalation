@@ -9,7 +9,7 @@
 	anchored = TRUE
 	density = 1
 	throwpass = 1 //You can throw objects over this, despite its density.
-	layer = 1
+	layer = OBJ_LAYER
 	flags = ON_BORDER | OBJ_CLIMBABLE
 
 /obj/structure/platform/New()
@@ -27,32 +27,24 @@
 	overlays += I
 	..()
 
-/obj/structure/platform/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
-	if(istype(mover, /obj/item/projectile))
-		var/obj/item/projectile/proj = mover
+/obj/structure/platform/CheckExit(atom/movable/O, turf/target)
+	if(O && O.throwing)
+		return 1
 
-		if(proj.firer && Adjacent(proj.firer))
-			return 1
-
-		if (get_dist(proj.starting, loc) <= 1)//allows to fire from 1 tile away of sandbag
-			return 1
-
-		return
-
-	if(get_dir(get_turf(src), target) == dir)//turned in front of sandbag
+	if(((flags & ON_BORDER) && get_dir(loc, target) == dir))
 		return 0
-
 	else
 		return 1
 
-/obj/structure/platform/CheckExit(atom/movable/O as mob|obj, target as turf)
-	if(istype(O) && O.checkpass(PASSTABLE))
+/obj/structure/platform/CanPass(atom/movable/mover, turf/target)
+	if(!mover)
 		return 1
-	if (get_dir(loc, target) == dir)
-		return !density
+	if(istype(mover) && mover.checkpass(PASSTABLE))
+		return 1
+	if(!(flags & ON_BORDER) || get_dir(loc, target) == dir)
+		return 0
 	else
 		return 1
-	return 1
 
 obj/structure/platform_decoration
 	name = "platform"
