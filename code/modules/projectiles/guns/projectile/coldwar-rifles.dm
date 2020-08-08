@@ -149,6 +149,46 @@
 		icon_state = "aks74-empty"
 		wielded_item_state = "aks-wielded-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74u
+	name = "AKS-74U"
+	desc = "A standard issue carbine used by the Soviet Army. Chambers 5.45x39 rounds."
+	icon_state = "aks74u"
+	item_state = "aks"
+	w_class = 4
+	load_method = MAGAZINE
+	caliber = "545x39"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a545x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
+	magazine_type = null
+	one_hand_penalty = 5
+	accuracy = 2.5
+	fire_delay = 2
+	jam_chance = 1.5
+	slowdown_general = 0.15
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
+	bayonet_attachable = 1
+	wielded_item_state = "aks-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	unload_sound = 'sound/weapons/gunporn/aks74u_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/aks74u_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.wav'
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.1),                     automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74u/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "aks74u"
+		wielded_item_state = "aks-wielded"
+	else
+		icon_state = "aks74u-empty"
+		wielded_item_state = "aks-wielded-empty"
+
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
 	name = "AK-74"
 	desc = "A standard-issue Soviet Army combat rifle with a GP-25 launcher attached. Chambers 5.45x39 rounds."
@@ -1066,6 +1106,47 @@
 		icon_state = "mpik74s-empty"
 		wielded_item_state = "aks-wielded-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74nk
+	name = "MPi-AKS-74NK"
+	desc = "A standard issue carbine used by the NVA DDR. Chambers 5.45x39 rounds."
+	icon_state = "mpik74snk"
+	item_state = "aks"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "545x39"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a545x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
+	magazine_type = null
+	one_hand_penalty = 5
+	accuracy = 2.5
+	fire_delay = 2
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
+	bayonet_attachable = 0
+	jam_chance = 2
+	slowdown_general = 0.15
+
+	wielded_item_state = "aks-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	unload_sound = 'sound/weapons/gunporn/aks74u_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/aks74u_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.wav'
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.1),                     automatic = 0.7),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74nk/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "mpik74snk"
+		wielded_item_state = "aks-wielded"
+	else
+		icon_state = "mpik74snk-empty"
+		wielded_item_state = "aks-wielded-empty"
+
 
 /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	name = "RK62"
@@ -1127,11 +1208,11 @@
 	slowdown_general = 0.25
 
 	wielded_item_state = "l1a1-wielded"
-	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
-	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
-	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
+	fire_sound = 'sound/weapons/gunshot/fnfal.ogg'
+	unload_sound = 'sound/weapons/gunporn/fnfal_magout.wav' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/fnfal_magin.wav'
+	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/fnfal_dist.wav'
 	firemodes = list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0)
 	
 /obj/item/weapon/gun/projectile/automatic/rifle/l1a1/update_icon()
@@ -1165,11 +1246,11 @@
 	slowdown_general = 0.15
 
 	wielded_item_state = "sterling-wielded"
-	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
-	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	fire_sound = 'sound/weapons/gunshot/sterling.ogg'
+	unload_sound = 'sound/weapons/gunporn/sterling_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/sterling_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/sterling_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/sterling_dist.wav'
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
 		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.1),                     automatic = 0.7),

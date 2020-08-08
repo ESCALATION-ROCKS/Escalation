@@ -250,7 +250,7 @@
 	slowdown_general = 0.6
 
 	wielded_item_state = "m60-wielded"
-	fire_sound = 'sound/weapons/gunshot/m60.ogg'
+	fire_sound = 'sound/weapons/gunshot/m249.ogg'
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'

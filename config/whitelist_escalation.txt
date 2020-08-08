@@ -57,10 +57,333 @@ emoats18 = {
 brosephstylin = {
 ::ALL::
 }
-verynisepersin = {
-bdw_officer
-bund
+
+kyrac = {
+nvaddr
 }
 
+Nanu308 = {
+ddr_enlisted
+}
 
+Texicos = {
+ddr_enlisted
+}
 
+Manny Pardo = {
+ddr_enlisted
+ddr_nco
+}
+
+WorkersOfTheWorld = {
+nvaddr
+}
+
+SeverePwnage = {
+ddr_enlisted
+}
+
+Xlyana = {
+ddr_enlisted
+}
+
+DerpyMcDerpDerp = {
+ddr_enlisted
+}
+
+Wigglesworth Jones = {
+ddr_enlisted
+}
+
+TheManWhoSoldTheHorns = {
+ddr_enlisted
+}
+
+Boltersam = {
+ddr_enlisted
+}
+
+Keyword22 = {
+ddr_enlisted
+}
+
+Kingdj1234 = {
+ddr_enlisted
+}
+
+dreadweaver = {
+ddr_enlisted
+}
+
+TheNewOrleans = {
+ddr_enlisted
+}
+
+Oshibka = {
+ddr_enlisted
+ddr_nco
+}
+
+epicdwarf = {
+ddr_enlisted
+}
+
+PopeFrank = {
+ddr_enlisted
+}
+
+UNCLE_FRUIT_VEVO = {
+ddr_enlisted
+}
+
+Outboarduniform = {
+ddr_enlisted
+}
+
+Retro = {
+ddr_enlisted
+}
+
+Booperkin343435 = {
+ddr_enlisted
+}
+
+Loafe = {
+ddr_enlisted
+}
+
+Trollarch = {
+ddr_enlisted
+ddr_nco
+}
+
+Robotic Potato = {
+ddr_enlisted
+}
+
+DeadLantern = {
+ddr_enlisted
+}
+
+Lol18 = {
+ddr_enlisted
+}
+
+Yukfu = {
+ddr_enlisted
+}
+
+BornToKill946 = {
+ddr_enlisted
+}
+
+DefinitelyAlone0309 = {
+ddr_enlisted
+}
+
+ComePantalones = {
+ddr_enlisted
+}
+
+Volcorb = {
+ddr_enlisted
+}
+
+Alexey_simonov2009 = {
+ddr_enlisted
+}
+
+Somefekinfag = {
+cccp_officer
+cccp_nco
+cccp_enlisted
+}
+
+NazbolGang = {
+cccp_nco
+cccp_enlisted
+}
+
+theflyingbananagaming = {
+cccp_nco
+cccp_enlisted
+}
+
+Biscuitsakimbo = {
+cccp_nco
+cccp_enlisted
+}
+
+Nicnat = {
+cccp_enlisted
+}
+
+battieralarm3 = {
+cccp_enlisted
+}
+
+NewOriginalSchwann = {
+cccp_enlisted
+}
+
+cesarjunior233 = {
+cccp_enlisted
+}
+
+Excitant = {
+cccp_enlisted
+}
+
+oddbomber3768 = {
+cccp_enlisted
+}
+
+Nitro2030ce = {
+cccp_enlisted
+}
+
+skiatarius = {
+cccp_enlisted
+}
+
+Shadence = {
+cccp_enlisted
+}
+
+AlexanderG5 = {
+cccp_enlisted
+}
+
+Very nise persin = {
+cccp_enlisted
+}
+
+Grizzley55 = {
+cccp_enlisted
+}
+
+Nbvehh123 = {
+cccp_enlisted
+}
+
+YourDaddy117 = {
+cccp_enlisted
+}
+
+Shmesser = {
+cccp_enlisted
+}
+
+KyubeyQB = {
+cccp_enlisted
+}
+
+Villeri = {
+cccp_enlisted
+}
+
+teknoacid = {
+cccp_enlisted
+}
+
+Dudeman100 = {
+cccp_enlisted
+}
+
+Solartwin  = {
+cccp_enlisted
+}
+
+Gabopwn  = {
+cccp_enlisted
+}
+
+bekons = {
+bdw_nco
+bdw_enlisted
+}
+
+subdon = {
+bdw_nco
+bdw_enlisted
+}
+
+gy1ta23 = {
+bdw_enlisted
+}
+
+jerman5 = {
+bdw_enlisted
+}
+
+sovietcyanide = {
+bdw_enlisted
+}
+
+thespire = {
+bdw_enlisted
+}
+
+optimisticdude = {
+bdw_enlisted
+}
+
+aeorockin36 = {
+bdw_enlisted
+}
+
+boringcommunist = {
+bdw_enlisted
+}
+
+demdisco = {
+bdw_enlisted
+}
+
+asbestosman = {
+bdw_enlisted
+}
+
+chaznoodles = {
+bdw_enlisted
+}
+
+taumanta = {
+bdw_enlisted
+}
+
+cash7800 = {
+bdw_enlisted
+}
+
+killingspree13 = {
+bdw_enlisted
+}
+
+executorpartner = {
+bdw_enlisted
+}
+
+decker100 = {
+bdw_enlisted
+}
+
+blarghfuzz = {
+bdw_enlisted
+}
+
+thunderclap1265 = {
+bdw_enlisted
+}
+
+torn223 = {
+bdw_enlisted
+}
+
+ripple129 = {
+bdw_enlisted
+}
+
+shopenarthur = {
+bdw_enlisted
+}
