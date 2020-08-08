@@ -320,21 +320,21 @@
 	if(print_flavor_text()) msg += "[print_flavor_text()]\n"
 
 	if(fraction && job)
-		if(ishuman(user) && user != src)
+		if(ishuman(user) && user != src && distance <= 10)
 			var/mob/living/carbon/human/H = user
 			if(H.fraction == fraction)
 				msg += "<br><i>You recognize [T.him] as <b>[job]</b>.</i>\n"
 
 	if(fireteam_picked && fraction)
-		if(ishuman(user) && user != src)
+		if(ishuman(user) && user != src && distance <= 10)
 			var/mob/living/carbon/human/H = user
 			if(H.fraction == fraction)
 				if(H.fireteam_picked == fireteam_picked)
 					msg += "<br><i>[T.He] is in your squad</b>.</i>\n"
 				else
 					msg += "<br><i>[T.He] is in </b>[fireteam_picked.name]</b>.</i>\n"
-	if(wear_mask)
-		skipface |= wear_mask.flags_inv & HIDEFACE
+	/*if(wear_mask)
+		skipface |= wear_mask.flags_inv & HIDEFACE */
 
 	msg += "*---------*</span><br>"
 	msg += applying_pressure
