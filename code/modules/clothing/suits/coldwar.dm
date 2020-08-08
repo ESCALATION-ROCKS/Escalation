@@ -52,7 +52,7 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 30, bullet = 32, laser = 0, energy = 25, bomb = 34, bio = 0, rad = 0)
-	slowdown_general = 0.25
+	slowdown_general = 0.23
 
 /obj/item/clothing/suit/storage/vest/pasgt/New()
 	..()
@@ -70,7 +70,7 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 38, bio = 0, rad = 0)
-	slowdown_general = 0.2
+	slowdown_general = 0.15
 
 
 /obj/item/clothing/suit/storage/vest/flakvest/New()
