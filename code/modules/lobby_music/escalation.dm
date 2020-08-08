@@ -12,10 +12,15 @@
 
 /lobby_music/escalation2
 	artist = null
-	title = null
+	title = "Water Vapour"
 	song = 'sound/music/watervapour.ogg'
 
 /lobby_music/escalation3
 	artist = null
-	title = null
+	title = "Beacon"
 	song = 'sound/music/beacon.ogg'
+
+/lobby_music/escalation4
+	artist = "David Bowie"
+	title = "Man Who Sold The World"
+	song = 'sound/music/soldworld.ogg'

@@ -18,7 +18,7 @@
 	//How much blood this step can get on surgeon. 1 - hands, 2 - full body.
 	var/blood_level = 0
 	var/shock_level = 0	//what shock level will this step put patient on
-	var/delicate = 0  //if this step NEEDS stable optable or can be done on any valid surface with no penalty
+	var/delicate = 1  //if this step NEEDS stable optable or can be done on any valid surface with no penalty
 
 //returns how well tool is suited for this step
 /datum/surgery_step/proc/tool_quality(obj/item/tool)
