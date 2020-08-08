@@ -214,6 +214,14 @@ cccp_nco
 cccp_enlisted
 }
 
+gabopwn = {
+cccp_enlisted
+}
+
+leonidzurnadzhi = {
+cccp_enlisted
+}
+
 Nicnat = {
 cccp_enlisted
 }

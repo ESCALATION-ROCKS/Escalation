@@ -257,7 +257,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 5
-	armor_slowdown = 0.1
+	armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/bandolier_nato/filled/New()
 	..()
@@ -276,7 +276,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.1
+	armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/vest/woodland
 	icon_state = "bandovest_nato_w"
@@ -290,7 +290,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.1
+	armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/lifchik/alt
 	icon_state = "lifchik_2"
