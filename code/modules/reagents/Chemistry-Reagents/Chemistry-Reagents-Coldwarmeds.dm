@@ -209,7 +209,7 @@
 		return
 	if(prob(5))
 		M.emote(pick("twitch", "blink_r", "shiver"))
-	M.add_chemical_effect(CE_SPEEDBOOST, 0.5)
+	M.add_chemical_effect(CE_SPEEDBOOST, 0.1)
 	M.add_chemical_effect(CE_PULSE, 2)
 	if(volume <= 0.1 && M.chem_doses[type] >= 0.5 && world.time > data + ANTIDEPRESSANT_MESSAGE_DELAY)
 		data = world.time

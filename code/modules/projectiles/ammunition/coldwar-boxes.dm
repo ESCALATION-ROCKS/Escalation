@@ -428,13 +428,13 @@
 
 /obj/item/ammo_magazine/c127x108b
 	name = "UTES belt box (12.7x108mm)"
-	desc = "A NSV Utes belt box that fits fifty 12.7x108mm rounds."
+	desc = "A NSV Utes belt box that fits a hundred 12.7x108mm rounds."
 	icon_state = "utes"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "127x108mm"
 	ammo_type = /obj/item/ammo_casing/a127x108mm
-	max_ammo = 50
+	max_ammo = 100
 	multiple_sprites = 1
 	slowdown_general = 0.1
 
@@ -528,12 +528,24 @@
 
 /obj/item/ammo_magazine/c50cal
 	name = "ammo box (.50 cal)"
-	desc = "A Browning box that fits fifty .50 rounds."
+	desc = "A Browning box that fits a hundred .50 rounds."
 	icon_state = "m2ammo"
 	mag_type = MAGAZINE
 	w_class = 5
 	caliber = ".50"
 	ammo_type = /obj/item/ammo_casing/a50cal
-	max_ammo = 50
+	max_ammo = 100
+	multiple_sprites = 1
+	load_delay = 30
+
+/obj/item/ammo_magazine/c50cals
+	name = "ammo box (.50 cal)"
+	desc = "A compact magazine for the M82 Barreta, fits ten .50 rounds."
+	icon_state = "50cal"
+	mag_type = MAGAZINE
+	w_class = 5
+	caliber = ".50"
+	ammo_type = /obj/item/ammo_casing/a50cal
+	max_ammo = 10
 	multiple_sprites = 1
 	load_delay = 30

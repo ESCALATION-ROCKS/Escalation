@@ -176,3 +176,51 @@
 	set popup_menu = 0
 
 	src.toggle_scope(usr, 2.4)
+
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m82
+	name = "Barret M82"
+	desc = "A powerful and recognized anti material rifle chambered in .50. Manufactured in 1982."
+	icon_state = "heavysniper"
+	item_state = "heavysniper"
+	w_class = 5
+	force = 15
+	max_shells = 10
+	load_method = MAGAZINE
+	caliber = ".50"
+	slot_flags = SLOT_BACK_GUN
+	ammo_type = /obj/item/ammo_casing/a50cal
+	allowed_magazines = list(/obj/item/ammo_magazine/c50cals)
+	magazine_type = null
+	one_hand_penalty = 10
+	accuracy = 6
+	fire_delay = 12
+	wielded_item_state = "heavysniper-wielded"
+	fire_sound = 'sound/weapons/gunshot/m2hb.ogg' 
+	unload_sound = 'sound/weapons/gunporn/svd_magout.ogg' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/svd_magin.ogg'
+	cocked_sound = 'sound/weapons/flipblade.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
+	jam_chance = 0.2
+	slowdown_general = 0.8
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
+	)
+/obj/item/weapon/gun/projectile/automatic/rifle/m82/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "heavysniper"
+		wielded_item_state = "heavysniper-wielded"
+	else
+		icon_state = "heavysniper-empty"
+		wielded_item_state = "heavysniper-wielded-empty"
+	update_held_icon()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m82/verb/scope()
+	set name = "Use Scope"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 0
+
+	src.toggle_scope(usr, 3.4)
