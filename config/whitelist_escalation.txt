@@ -395,3 +395,122 @@ bdw_enlisted
 shopenarthur = {
 bdw_enlisted
 }
+
+yacobpo157 = {
+usmc
+}
+
+toasterroboto = {
+usmc
+}
+
+dantzy = {
+usmc
+}
+
+acidmind = {
+usmc_enlisted
+}
+
+burtyu = {
+usmc_enlisted
+}
+
+jojigoatnerd = {
+usmc_enlisted
+}
+
+cesiumshark = {
+usmc_nco
+usmc_enlisted
+}
+
+wildswan = {
+usmc_enlisted
+}
+
+petwir = {
+usmc_enlisted
+}
+
+lautaroluna180 = {
+usmc_enlisted
+}
+
+pepefrog = {
+usmc_enlisted
+}
+
+demkova = {
+usmc_enlisted
+}
+
+freiwillige = {
+usmc_nco
+usmc_enlisted
+}
+
+evenindeathistillserve = {
+usmc_enlisted
+}
+
+tristan63  = {
+usmc_enlisted
+}
+
+thesecretslav = {
+usmc_enlisted
+}
+
+apotatoflewaroundmyroom = {
+usmc_enlisted
+}
+
+teengowen = {
+usmc_enlisted
+}
+
+lynuahsororitas = {
+usmc_enlisted
+}
+
+liveingamer = {
+usmc_enlisted
+}
+
+tristain01 = {
+usmc_enlisted
+}
+
+technokat = {
+usmc_nco
+usmc_enlisted
+}
+
+iliked0nuts = {
+usmc_enlisted
+}
+
+punkinguy = {
+usmc_enlisted
+}
+
+davidblanc5 = {
+usmc_enlisted
+}
+
+xslayer300 = {
+usmc_enlisted
+}
+
+firenightpower = {
+usmc_enlisted
+}
+
+ssgtbr = {
+usmc_enlisted
+}
+
+atrasus = {
+usmc_enlisted
+}
