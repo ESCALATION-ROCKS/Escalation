@@ -1,13 +1,13 @@
 /*
 /lobby_music/escalation
 	artist = null
-	title = null
+	title = Escalation Theme
 	song = 'sound/music/lobby.ogg'
 */
 
 /lobby_music/escalation1
 	artist = null
-	title = null
+	title = "Untitled"
 	song = 'sound/music/untitled.ogg'
 
 /lobby_music/escalation2

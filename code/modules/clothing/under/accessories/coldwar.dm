@@ -247,6 +247,8 @@
 	icon_state = "squadpatch"
 	var/squad = null
 
+
+
 //Storage Accessories
 /obj/item/clothing/accessory/storage/bandolier_nato
 	name = "bandolier"
