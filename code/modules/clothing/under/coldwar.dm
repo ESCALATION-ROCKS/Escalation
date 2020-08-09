@@ -240,3 +240,21 @@
 	siemens_coefficient = 0.7
 	slowdown_general = 0.5
 	has_sensor = 0
+
+//British
+
+/obj/item/clothing/under/brit/tiger
+	name = "'DPM' pattern uniform"
+	desc = "That's a camouflaged field uniform, commonly used by regular British Officers."
+	icon_state = "tiger"
+	worn_state = "tiger"
+	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
+	siemens_coefficient = 0.7
+	slowdown_general = 0.5
+	has_sensor = 0
+
+/obj/item/clothing/under/brit/tiger/olive
+	name = "'DPM Olive' pattern uniform"
+	desc = "That's a camouflaged field uniform, comes with olive pants, commonly used by regular British Forces."
+	icon_state = "tigero"
+	worn_state = "tigero"
