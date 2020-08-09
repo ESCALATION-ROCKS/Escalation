@@ -82,6 +82,7 @@
 	if(!casseta.sound_inside)
 		return
 
+	QDEL_NULL(sound_token)
 	sound_token = sound_player.PlayLoopingSound(src, sound_id, casseta.sound_inside, volume = 50, range = 14, falloff = 3, prefer_mute = TRUE, ignore_vis = TRUE)
 	playing = 1
 
