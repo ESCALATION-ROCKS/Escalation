@@ -562,7 +562,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - USMC Machine Gunner")
-	uniform = /obj/item/clothing/under/usmc/woodland/alt/pfc
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/lcpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back_2 = /obj/item/weapon/gun/projectile/automatic/m60
@@ -596,7 +596,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/atcommander
 	name = OUTFIT_JOB_NAME("Coldwar - USMC AT Commander")
-	uniform = /obj/item/clothing/under/usmc/woodland/alt/lcpl
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
@@ -614,7 +614,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/atgunner
 	name = OUTFIT_JOB_NAME("Coldwar - USMC AT Gunner")
-	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/lcpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
@@ -654,11 +654,11 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/radioset/prc77
+	back = /obj/item/weapon/radioset/prc77
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
 	r_pocket = null
-	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	back_2 = /obj/item/weapon/storage/backpack/usmc_buttpack
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_ear = null
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -728,6 +728,7 @@
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	holster = /obj/item/weapon/storage/belt/holster/usmc
@@ -1021,7 +1022,7 @@
 
 /decl/hierarchy/outfit/escalation/nato/bundes/platlead
 	name = OUTFIT_JOB_NAME("Coldwar - BDW Platoon Leader")
-	uniform = /obj/item/clothing/under/bundeswehr/olive/oberleutnant
+	uniform = /obj/item/clothing/under/bundeswehr/olive/leutnant
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	holster = /obj/item/weapon/storage/belt/holster/bdw
