@@ -119,3 +119,37 @@
 	for(var/entry in labels)
 		. += " ([entry])"
 	. = jointext(., null)
+
+/datum/extension/labels/proc/CanAttachLabel(var/user, var/label)
+	if(!length(label))
+		return FALSE
+	if(ExcessLabelLength(label, user))
+		return FALSE
+	return TRUE
+
+/datum/extension/labels/proc/ExcessLabelLength(var/label, var/user)
+	. = length(label) + 3 // Each label also adds a space and two brackets when applied to a name
+	if(LAZYLEN(labels))
+		for(var/entry in labels)
+			. += length(entry) + 3
+	. = . > 64 ? TRUE : FALSE
+	if(. && user)
+		to_chat(user, "<span class='warning'>The label won't fit.</span>")
+
+/proc/get_attached_labels(var/atom/source)
+	if(has_extension(source, /datum/extension/labels))
+		var/datum/extension/labels/L = get_extension(source, /datum/extension/labels)
+		if(LAZYLEN(L.labels))
+			return L.labels.Copy()
+		return list()
+
+/atom/proc/RemoveLabel(var/label in get_attached_labels(src))
+	set name = "Remove Label"
+	set desc = "Used to remove labels"
+	set category = "Object"
+	set src in view(1)
+
+	if(CanPhysicallyInteract(usr))
+		if(has_extension(src, /datum/extension/labels))
+			var/datum/extension/labels/L = get_extension(src, /datum/extension/labels)
+			L.RemoveLabel(usr, label)
