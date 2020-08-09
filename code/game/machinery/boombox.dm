@@ -72,12 +72,11 @@
 		playsound(get_turf(src), 'sound/items/boombox_play.wav', 50, 1)
 
 
-/obj/item/device/boombox/proc/StopPlaying() //TODO запилить аптейдус иконс
+/obj/item/device/boombox/proc/StopPlaying() //TODO Г§Г ГЇГЁГ«ГЁГІГј Г ГЇГІГҐГ©Г¤ГіГ± ГЁГЄГ®Г­Г±
 	playing = 0
 	QDEL_NULL(sound_token)
 
 /obj/item/device/boombox/proc/StartPlaying()
-	StopPlaying()
 	if(isnull(casseta))
 		return
 	if(!casseta.sound_inside)
@@ -135,5 +134,5 @@ obj/item/cassetka_console/attack_hand(mob/user) //later do file size check %_%
 	sound_inside = 'sound/music/tunak.ogg'
 
 /obj/item/device/cassete/elektrichka
-	name = "cassette - 'Электричка'"
+	name = "cassette - 'ГќГ«ГҐГЄГІГ°ГЁГ·ГЄГ '"
 	sound_inside = 'sound/music/nevergonna.ogg'
