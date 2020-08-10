@@ -177,7 +177,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "usmc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -319,6 +319,10 @@
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
 /datum/job/escalation/usmc/usmcata
 	title = "USMC AT Asistant"
 	name = "ATS Assistant Rifleman"
@@ -356,6 +360,10 @@
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
 /datum/job/escalation/usmc/usmcftg
 	title = "USMC Fireteam Grenadier"
 	name = "Fireteam Grenadier"
@@ -371,6 +379,10 @@
 	enabled = 1
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
 /datum/job/escalation/usmc/usmcftmga
 	title = "USMC Fireteam Machinegunner Assistant"
@@ -420,7 +432,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "bdw_officer"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 60)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -486,6 +498,66 @@
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
+/datum/job/escalation/bund/bdwatlead
+	title = "BDW AT Gruppenfuhrer"
+	name = "ATS Gruppenfuhrer"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatlead
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "bdw_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/buns/bdwatgun
+	title = "BDW AT Kanonier"
+	name = "ATS Kanonier"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatkanonier
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "bdw_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+/datum/job/escalation/bund/bdwatasst
+	title = "BDW AT Assistent Schutze"
+	name = "ATS Assistent Schutze"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatassist
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "bdw_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
 /datum/job/escalation/bund/bdwcorpsman
 	title = "BDW Sanitaterschutze"
 	name = "Sanitaterschutze"
@@ -500,7 +572,7 @@
 	rank_number = 2
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 5)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -540,7 +612,7 @@
 	leading = 1
 	enabled = 1
 	whitelist_rank = "bdw_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 60, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 60, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -636,7 +708,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -655,7 +727,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -674,7 +746,7 @@
 	amount = 4
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -693,8 +765,8 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
+	whitelist_rank = "bdw_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -713,7 +785,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()

@@ -126,6 +126,12 @@ Gruppe Foxtrot:bund
 /datum/job/escalation/bund/bdwrifle
 @END@
 
+Panzerabwehrschutze ATS:bund
+/datum/job/escalation/bund/bdwatlead
+/datum/job/escalation/buns/bdwatgun
+/datum/job/escalation/bund/bdwatasst
+@END@
+
 Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
