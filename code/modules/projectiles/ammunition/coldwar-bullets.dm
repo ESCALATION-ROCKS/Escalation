@@ -122,7 +122,7 @@
 	desc = "A regular morkovka for rpg"
 	caliber = "7p16"
 	icon_state = "rg-7"
-	projectile_type = /obj/item/projectile/bullet/rgprocket
+	projectile_type = /obj/item/projectile/bullet/rgprocket/he
 	w_class = 4
 	slot_flags = null
 
