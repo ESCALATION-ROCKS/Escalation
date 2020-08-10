@@ -222,6 +222,7 @@
 
 ///////////////////Not ours///////////////////////////////////////////////
 /obj/item/weapon/gun/launcher/oneuse/
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	var/folded = 1
 
 /obj/item/weapon/gun/launcher/oneuse/attack_self(mob/user)
@@ -242,7 +243,7 @@
 			folded = 1
 			icon_state = initial(icon_state)
 			item_state = initial(item_state)
-			slot_flags = null
+			slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
 /obj/item/weapon/gun/launcher/oneuse/special_check(mob/user)
 	if(folded == 1)
@@ -265,7 +266,6 @@
 	flags =  CONDUCT
 	slot_flags = 0
 	fire_sound = 'sound/weapons/gunshot/rpg22.ogg'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	release_force = 25
 	throw_distance = 40
 	var/max_rockets = 1
@@ -346,7 +346,6 @@
 	flags =  CONDUCT
 	slot_flags = 0
 	fire_sound = 'sound/weapons/gunshot/m72.wav'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	release_force = 25
 	throw_distance = 40
 	var/max_rockets = 1
