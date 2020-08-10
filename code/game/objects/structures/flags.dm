@@ -17,3 +17,5 @@
 	name = "\improper Provisional Government Flag"
 	desc = "Obviously, that's a flag of the Provisional Government. You've get a bullet in your head if you ever mind something about ripping it."
 	icon_state = "provgoverment_flag"
+	layer = ABOVE_OBJ_LAYER + 0.1
+	plane = ABOVE_HUMAN_PLANE
