@@ -136,7 +136,7 @@
 
 /obj/item/weapon/storage/backpack/alice/medium/New()
 	..()
-	slowdown_per_slot[slot_back] = 0.1
+	slowdown_per_slot[slot_back] = 0.05
 
 /obj/item/weapon/storage/backpack/alice/large
 	name = "ALICE large pack"
@@ -145,13 +145,13 @@
 	item_state = "alicelargepack"
 	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 18
+	max_storage_space = 24
 	open_delay = 5
 
 
 /obj/item/weapon/storage/backpack/alice/large/New()
 	..()
-	slowdown_per_slot[slot_back] = 0.1
+	slowdown_per_slot[slot_back] = 0.05
 
 //finnish
 
