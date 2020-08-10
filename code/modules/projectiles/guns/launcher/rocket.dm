@@ -66,7 +66,6 @@
 	throw_range = 40
 	force = 5.0
 	flags =  CONDUCT
-	slot_flags = 0
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
 	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
@@ -120,7 +119,7 @@
 /obj/item/weapon/gun/launcher/rpg7/consume_next_projectile(mob/user)
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/M = new (src)
+		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -150,7 +149,6 @@
 	throw_range = 40
 	force = 5.0
 	flags =  CONDUCT
-	slot_flags = 0
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
 	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
@@ -202,7 +200,7 @@
 /obj/item/weapon/gun/launcher/smaw/consume_next_projectile(mob/user)
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/M = new (src)
+		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -317,7 +315,7 @@
 /obj/item/weapon/gun/launcher/oneuse/rpg18/consume_next_projectile()
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/M = new (src)
+		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
