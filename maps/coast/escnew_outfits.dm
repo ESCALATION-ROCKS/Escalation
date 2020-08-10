@@ -172,7 +172,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/rocket
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet RPG")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/habe/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
@@ -199,7 +199,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/radio
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Radio Operator")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/habe/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/radioset/r105d
@@ -315,7 +315,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/funke
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Funke")
-	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
+	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/radioset/r105d
@@ -341,7 +341,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/rocket
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR RPG")
-	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
+	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
