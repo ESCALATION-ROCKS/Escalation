@@ -121,7 +121,7 @@
 
 	New()
 		damage = rand(46, 54)
-		
+
 
 /obj/item/projectile/bullet/rifle/a50cal
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
@@ -129,7 +129,7 @@
 	penetration_modifier = 0.6
 	agony = 42
 	penetrating = 3
-	
+
 	New()
 		damage = rand(48, 51)
 
@@ -185,7 +185,7 @@
 /obj/item/projectile/bullet/rgprocket
 	name = "rpg shell"
 	icon_state = "rocket"
-	damage = 100
+	damage = 200
 	step_delay = 1
 //	impact_force = 1
 	penetrating = 0
