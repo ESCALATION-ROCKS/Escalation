@@ -181,7 +181,7 @@
 	if (src.stat)
 		msg += "<span class='warning'>[T.He] [T.is]n't responding to anything around [T.him] and seems to be unconscious.</span>\n"
 		if(stat == DEAD && distance <= 3)
-			msg += "<b><span class='warning'>[T.He] is a goner.</span>\n"
+			msg += "<span class='warning'>[T.He] is a goner.</span>\n"
 		else if((stat == is_asystole() || src.losebreath) && distance <= 3)
 			msg += "<span class='warning'>[T.He] [T.does] not appear to be breathing.</span>\n"
 		if(ishuman(user) && !user.incapacitated() && Adjacent(user))
