@@ -236,7 +236,7 @@
 	position = "fireteam"
 	enabled = 1
 	whitelist_rank = "usmc_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 90, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -612,7 +612,7 @@
 	leading = 1
 	enabled = 1
 	whitelist_rank = "bdw_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 60, LANGUAGE_RUSSIAN = 40)
+	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
