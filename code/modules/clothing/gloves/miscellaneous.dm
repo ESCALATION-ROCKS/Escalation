@@ -136,3 +136,13 @@
 	siemens_coefficient = 0.50
 	permeability_coefficient = 0.05
 	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
+
+/obj/item/clothing/gloves/usmc
+	desc = "A pair of combat gloves issued to the US Armed Forces."
+	name = "military gloves"
+	icon_state = "usmc_gloves"
+	item_state = "usmc_gloves"
+	force = 4
+	siemens_coefficient = 0.50
+	permeability_coefficient = 0.05
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
