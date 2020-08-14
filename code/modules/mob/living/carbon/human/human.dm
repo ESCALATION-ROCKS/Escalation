@@ -1565,6 +1565,7 @@
 				active_breaths = L.active_breathing
 		if(!nervous_system_failure() && active_breaths)
 			visible_message("\The [src] jerks and gasps for breath!")
+			emote("gasp")
 		else
 			visible_message("\The [src] twitches a bit as \his heart restarts!")
 		shock_stage = min(shock_stage, 100) // 120 is the point at which the heart stops.
