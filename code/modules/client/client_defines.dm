@@ -48,7 +48,7 @@
 	var/related_accounts_ip = "Requires database"	//So admins know why it isn't working - Used to determine what other accounts previously logged in from this ip
 	var/related_accounts_cid = "Requires database"	//So admins know why it isn't working - Used to determine what other accounts previously logged in from this computer id
 
-	preload_rsc = 1 // This was 0 so Bay12 can set it to an URL once the player logs in and have them download the resources from a different server. . But we change it...but we change it again because it made loading in slow as shit...but we change it AGAIN, for testing purposes.
+	preload_rsc = "http://download1508.mediafire.com/1aekvov46s4g/l2c9dyizm882u5s/baystation12.zip" // This was 0 so Bay12 can set it to an URL once the player logs in and have them download the resources from a different server. . But we change it...but we change it again because it made loading in slow as shit...but we change it AGAIN, for testing purposes.
 	var/static/obj/screen/click_catcher/void
 
 

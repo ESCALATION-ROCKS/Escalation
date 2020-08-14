@@ -10,4 +10,3 @@ brosephstylin - Developer
 SeverePwnage - GameAdmin
 emoats18 - GameAdmin
 SilverSZ - GameAdmin
-MrGabol100 - GameAdmin
