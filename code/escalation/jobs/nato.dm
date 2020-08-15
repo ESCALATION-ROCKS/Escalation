@@ -296,7 +296,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "usmc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
