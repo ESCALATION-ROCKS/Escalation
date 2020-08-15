@@ -216,6 +216,7 @@
 	uniform = /obj/item/clothing/under/soviet/habe/mllt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	back_2 = /obj/item/weapon/storage/backpack/summedsan
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	l_pocket = /obj/item/weapon/masterkey/sadoc/
 	r_pocket = null
@@ -929,6 +930,7 @@
 	back = /obj/item/weapon/storage/backpack/alice/large
 	back_2 = /obj/item/weapon/gun/launcher/smaw
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = /obj/item/weapon/maptool
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
@@ -944,6 +946,7 @@
 	back = /obj/item/weapon/storage/backpack/alice/large
 	back_2 = /obj/item/weapon/gun/launcher/smaw
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62

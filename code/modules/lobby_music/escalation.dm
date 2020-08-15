@@ -3,7 +3,7 @@
 	artist = null
 	title = Escalation Theme
 	song = 'sound/music/lobby.ogg'
-*/
+
 
 /lobby_music/escalation1
 	artist = "Hotline Miami 2 OST"
@@ -19,6 +19,8 @@
 	artist = "East vs. West OST"
 	title = "Beacon"
 	song = 'sound/music/beacon.ogg'
+
+*/
 
 /lobby_music/escalation4
 	artist = "David Bowie"

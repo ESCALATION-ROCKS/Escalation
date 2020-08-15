@@ -1,5 +1,4 @@
-N010001100101010101000011010 - Host
-isismilitant - Host
+starshiptroopersisawesome - Host
 Turret_Drehturm - HeadDeveloper
 cabostein - HeadDeveloper
 DanseMacabre - GameAdmin

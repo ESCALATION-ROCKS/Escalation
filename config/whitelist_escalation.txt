@@ -149,6 +149,7 @@ bdw_enlisted
 
 yacobpo157 = {
 bdw_enlisted
+bdw_nco
 }
 
 boringcommunist = {
@@ -160,6 +161,10 @@ bdw_enlisted
 }
 
 lynuahsororitas = {
+bdw_enlisted
+}
+
+technokat = {
 bdw_enlisted
 }
 
@@ -520,6 +525,10 @@ TheNewOrleans = {
 ddr_enlisted
 }
 
+nanu308 = {
+ddr_enlisted
+}
+
 Oshibka = {
 ddr_enlisted
 ddr_nco
@@ -576,4 +585,24 @@ ddr_enlisted
 AlienFromTerra = {
 ddr_enlisted
 ddr_nco
+}
+starshiptroopersisawesome = {
+::ALL::
+}
+
+AdmiralKolchak = {
+::ALL::
+}
+
+bobcool = {
+ddr_enlisted
+}
+
+grizzley55 = {
+sa_enlisted
+}
+
+
+kosovar = {
+bdw_enlisted
 }
