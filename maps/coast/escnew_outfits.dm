@@ -216,7 +216,6 @@
 	uniform = /obj/item/clothing/under/soviet/habe/mllt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	back_2 = /obj/item/weapon/storage/backpack/summedsan
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	l_pocket = /obj/item/weapon/masterkey/sadoc/
 	r_pocket = null
