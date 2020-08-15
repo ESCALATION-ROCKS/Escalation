@@ -637,6 +637,9 @@ macro "hotkeymode"
 		name = "F5"
 		command = "asay"
 	elem 
+		name = "C"
+		command = "look-into-distance"
+	elem 
 		name = "F6"
 		command = "Player-Panel-New"
 	elem 
