@@ -506,7 +506,7 @@
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatlead
-	selection_color = "#B0C4DE"
+	selection_color = "#4682B4"
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
@@ -526,13 +526,13 @@
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatkanonier
-	selection_color = "#B0C4DE"
+	selection_color = "#4682B4"
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -546,7 +546,7 @@
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatassist
-	selection_color = "#B0C4DE"
+	selection_color = "#4682B4"
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
@@ -568,7 +568,7 @@
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/corpsman
 	selection_color = "#4682B4"
 	position = "team"
-	amount = 3
+	amount = 7
 	rank_number = 2
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
