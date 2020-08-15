@@ -518,7 +518,7 @@
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
-/datum/job/escalation/buns/bdwatgun
+/datum/job/escalation/bund/bdwatgun
 	title = "BDW AT Kanonier"
 	name = "ATS Kanonier"
 	english_name = null
@@ -532,7 +532,7 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
