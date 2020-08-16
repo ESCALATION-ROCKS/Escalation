@@ -51,8 +51,6 @@
 	icon_state = "pasgt_vest"
 	item_state = "armor"
 	w_class = ITEM_SIZE_LARGE
-	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
-	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 30, bullet = 32, laser = 0, energy = 25, bomb = 34, bio = 0, rad = 0)
 	slowdown_general = 0.23
 
