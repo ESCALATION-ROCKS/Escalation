@@ -1,6 +1,7 @@
 //Soviet armor
 
 /obj/item/clothing/suit/storage/vest/soviet/
+	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA)
 	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
@@ -49,6 +50,7 @@
 	desc = "A common kevlar vest used by U.S. army."
 	icon_state = "pasgt_vest"
 	item_state = "armor"
+	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 30, bullet = 32, laser = 0, energy = 25, bomb = 34, bio = 0, rad = 0)
@@ -67,6 +69,7 @@
 	desc = "An outdated flak vest used by NATO personnel."
 	icon_state = "flakvest_nato"
 	item_state = "armor"
+	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 38, bio = 0, rad = 0)
@@ -95,6 +98,7 @@
 	desc = "Experimental Protective Armor Created by Black Mesa."
 	icon_state = "hev_s"
 	item_state = "armor"
+	w_class = ITEM_SIZE_LARGE
 	armor = list(melee = 90, bullet = 85, laser = 35, energy = 75, bomb = 65, bio = 100, rad = 100)
 	slowdown_general = 0.2
 
