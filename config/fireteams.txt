@@ -152,7 +152,7 @@ Gruppe Hotel:bund
 
 Panzerabwehrschutze ATS:bund
 /datum/job/escalation/bund/bdwatlead
-/datum/job/escalation/buns/bdwatgun
+/datum/job/escalation/bund/bdwatgun
 /datum/job/escalation/bund/bdwatasst
 @END@
 

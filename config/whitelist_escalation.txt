@@ -527,6 +527,7 @@ ddr_enlisted
 
 nanu308 = {
 ddr_enlisted
+bdw_enlisted
 }
 
 Oshibka = {
@@ -604,5 +605,36 @@ sa_enlisted
 
 
 kosovar = {
+bdw_enlisted
+}
+
+
+ugnip55 = {
+bdw_enlisted
+}
+
+realmagnum = {
+bdw_enlisted
+}
+
+cesarjunior233 = {
+::ALL::
+}
+
+Rogueguy = {
+::All::
+sa_enlisted
+}
+
+
+MacarioCR = {
+::ALL::
+}
+
+asskek = {
+bdw_enlisted
+}
+
+zray3003 = {
 bdw_enlisted
 }

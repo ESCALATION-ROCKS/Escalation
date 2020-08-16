@@ -164,7 +164,7 @@ mob/new_player/proc/StatRand()
 					out += "<p><a href='byond://?src=\ref[src];set_fireteam_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</a></p>"
 				else
 					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
-				
+
 
 			else
 				if(!ismob(S))
@@ -727,7 +727,6 @@ mob/new_player/proc/StatRand()
 		if(character.mind.assigned_role != "Cyborg")
 			CreateModularRecord(character)
 			ticker.minds += character.mind//Cyborgs and AIs handle this in the transform proc.	//TODO!!!!! ~Carn
-			AnnounceArrival(character, job, spawnpoint.msg)
 		else
 			AnnounceCyborg(character, job, spawnpoint.msg)
 		matchmaker.do_matchmaking()
