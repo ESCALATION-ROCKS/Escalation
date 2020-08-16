@@ -13,14 +13,12 @@
 "am" = (/turf/unsimulated/floor/road,/area/coldwar)
 "an" = (/obj/effect/floor_decal/road{dir = 8; icon_state = "roadspline"},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "ao" = (/obj/effect/floor_decal/road,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
-"ap" = (/obj/structure/closet/crate/mortar_ammo/mortar_kit,/turf/unsimulated/ground,/area/coldwar)
 "aq" = (/obj/structure/flora/drygrass7,/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "ar" = (/turf/simulated/wall/concrete,/area/coldwar)
 "as" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/turf/unsimulated/ground,/area/coldwar)
 "at" = (/obj/structure/platform,/turf/unsimulated/floor/river/deep,/area/coldwar)
 "au" = (/obj/structure/platform{dir = 4},/turf/unsimulated/ground/sand,/area/coldwar)
 "av" = (/obj/structure/chezh_hangehog,/obj/structure/platform{dir = 4},/turf/unsimulated/ground/sand,/area/coldwar)
-"aw" = (/obj/structure/closet/crate/mortar_ammo/mortar_ammo_offensive,/turf/unsimulated/ground,/area/coldwar)
 "ax" = (/turf/simulated/wall/brick,/area/coldwar/usmcfob)
 "ay" = (/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "az" = (/obj/item/weapon/bedsheet/nato,/obj/structure/bed/nato,/obj/effect/landmark/start{name = "BDW AT Assistent Schutze"},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
@@ -75,7 +73,6 @@
 "bw" = (/obj/effect/floor_decal/newcorner/whitegreen/solid,/obj/effect/floor_decal/newcorner/green/solid,/obj/structure/closet/crate/wood,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/item/weapon/grenade/smokebomb/nato,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "bx" = (/obj/structure/closet/crate/generic{name = "crate (5.56 rifle STANAG)"},/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/item/ammo_magazine/c762x51s/empty,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "by" = (/obj/structure/bed/nato,/obj/effect/landmark/start{name = "BDW Grenadier"},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
-"bz" = (/obj/structure/closet/crate/mortar_ammo/mortar_ammo_support,/turf/unsimulated/ground,/area/coldwar)
 "bA" = (/obj/structure/table/rack/shelf,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/obj/item/ammo_magazine/c45m,/turf/simulated/floor/tiled/bunker,/area/coldwar/usmcfob)
 "bB" = (/obj/structure/closet/crate/wood,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "bC" = (/obj/structure/table/greenmetal,/obj/effect/floor_decal/turf/woodalt,/obj/item/device/binoculars/nato,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
@@ -194,7 +191,6 @@
 "dL" = (/obj/machinery/light/coldtint{dir = 1},/obj/structure/closet/crate/mortar_ammo/mortar_kit,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "dM" = (/obj/structure/closet/crate/mortar_ammo/mortar_ammo_support,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "dN" = (/obj/structure/table/greenmetal,/obj/item/weapon/carpentry/saw{step_x = 0},/obj/item/weapon/carpentry/saw{step_x = 0},/obj/item/weapon/carpentry/saw{step_x = 0},/obj/item/weapon/carpentry/saw{step_x = 0},/turf/simulated/floor/tiled/bunker,/area/coldwar/usmcfob)
-"dO" = (/obj/structure/closet/crate/mortar_ammo/mortar_kit,/turf/simulated/floor/tiled/bunker,/area/coldwar/usmcfob)
 "dP" = (/obj/structure/table/army,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/obj/item/clothing/mask/balaclava/tactical,/turf/simulated/floor/wood,/area/coldwar/fobindoors)
 "dQ" = (/obj/structure/table/greenmetal,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/obj/item/clothing/gloves/usmc,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "dR" = (/obj/structure/platform{dir = 1},/obj/structure/platform{dir = 8},/turf/unsimulated/floor/river/deep,/area/coldwar)
@@ -202,21 +198,15 @@
 "dT" = (/obj/structure/platform{dir = 1},/turf/unsimulated/floor/river/deep,/area/coldwar)
 "dU" = (/obj/structure/electricpole,/turf/unsimulated/ground/sand,/area/coldwar)
 "dV" = (/obj/structure/electricpole,/turf/unsimulated/ground/grass,/area/coldwar)
-"dW" = (/obj/structure/fence/corner{dir = 8},/turf/simulated/floor/grass,/area/coldwar)
-"dX" = (/obj/structure/fence/door,/turf/simulated/floor/grass,/area/coldwar)
-"dY" = (/obj/structure/fence{dir = 4},/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/grass,/area/coldwar)
-"dZ" = (/obj/structure/fence{dir = 4},/turf/simulated/floor/grass,/area/coldwar)
-"ea" = (/obj/structure/fence/corner,/turf/simulated/floor/grass,/area/coldwar)
-"eb" = (/obj/structure/fence/corner{dir = 8},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
+"dW" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
+"dX" = (/obj/structure/bed/chair/couch/left/black,/obj/structure/bed/chair/couch/middle/black,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
+"dY" = (/obj/structure/bed/chair/couch/middle/black,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
+"dZ" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/left/black{dir = 4},/turf/simulated/floor/lino,/area/coldwar/house1)
+"ea" = (/obj/structure/table/glass,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
 "ec" = (/obj/structure/fence/door{dir = 1; icon_state = "door_closed"},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
-"ed" = (/obj/structure/fence{dir = 4},/obj/machinery/light/coldtint{dir = 1},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
-"ef" = (/obj/structure/fence{dir = 4},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
-"eg" = (/obj/structure/fence{dir = 4},/turf/unsimulated/ground/sand,/area/coldwar)
-"eh" = (/obj/structure/fence/door{dir = 1; icon_state = "door_closed"},/turf/unsimulated/ground/sand,/area/coldwar)
-"ei" = (/obj/structure/fence{dir = 4},/obj/machinery/light/coldtint{dir = 1},/turf/unsimulated/ground/sand,/area/coldwar)
+"ei" = (/turf/unsimulated/ground/grass,/area/coldwar/house1)
 "ej" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 1},/obj/structure/sandbag{dir = 8},/turf/unsimulated/ground/sand,/area/coldwar)
-"ek" = (/obj/structure/fence/corner,/turf/unsimulated/ground/sand,/area/coldwar)
-"el" = (/obj/structure/fence,/turf/simulated/floor/grass,/area/coldwar)
+"ek" = (/obj/structure/bed/chair/couch/right/black{dir = 8},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
 "em" = (/obj/structure/table/greenmetal,/obj/effect/floor_decal/newcorner/whitegreen/diagonal,/obj/effect/floor_decal/newcorner/white/diagonal{dir = 1},/obj/machinery/light/coldtint{dir = 1},/obj/item/weapon/storage/box/MRE,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "en" = (/obj/effect/floor_decal/newcorner/whitegreen/diagonal,/obj/effect/floor_decal/newcorner/white/diagonal{dir = 1},/obj/structure/table/greenmetal,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "eo" = (/obj/effect/landmark/start{name = "BDW Sanitaterschutze"},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
@@ -228,7 +218,7 @@
 "eu" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 1},/turf/unsimulated/ground/sand,/area/coldwar)
 "ev" = (/obj/effect/floor_decal/newcorner/whitegreen/diagonal,/obj/effect/floor_decal/newcorner/white/diagonal{dir = 1},/obj/structure/table/rack/steriletable,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "ew" = (/obj/structure/table/bench/wooden,/obj/machinery/light/coldtint,/obj/effect/floor_decal/newcorner/bar/diagonal,/turf/simulated/floor/tiled,/area/coldwar/usmcfob)
-"ex" = (/turf/simulated/floor/grass,/area/coldwar)
+"ex" = (/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
 "ey" = (/obj/effect/floor_decal/newcorner/whitegreen/diagonal,/obj/effect/floor_decal/newcorner/white/diagonal{dir = 1},/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "ez" = (/obj/machinery/iv_drip,/turf/simulated/floor/tiled/freezer,/area/coldwar/usmcfob)
 "eA" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/freezer,/area/coldwar/usmcfob)
@@ -249,10 +239,9 @@
 "eP" = (/obj/structure/table/standard,/obj/item/weapon/bonesetter,/obj/item/weapon/hemostat,/obj/item/weapon/FixOVein,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "eQ" = (/obj/structure/table/standard,/obj/item/weapon/scalpel,/obj/item/weapon/retractor,/obj/item/weapon/circular_saw,/obj/item/suture,/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "eR" = (/obj/structure/table/standard,/obj/item/weapon/retractor,/obj/item/weapon/reagent_containers/spray/sterilizine,/obj/item/weapon/cautery,/obj/item/weapon/FixOVein,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
-"eS" = (/obj/structure/holostool,/turf/simulated/floor/grass,/area/coldwar)
-"eT" = (/obj/structure/fence,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
-"eU" = (/obj/structure/holostool,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
-"eV" = (/obj/structure/holostool,/turf/unsimulated/ground/sand,/area/coldwar)
+"eS" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/left/beige{dir = 6},/turf/simulated/floor/lino,/area/coldwar/house1)
+"eT" = (/obj/structure/bed/chair/couch/left/black{dir = 6},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
+"eU" = (/obj/structure/bed/chair/couch/right/black,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
 "eW" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 1},/obj/structure/sandbag{dir = 4},/turf/unsimulated/ground/sand,/area/coldwar)
 "eX" = (/obj/structure/sandbag{dir = 8},/turf/unsimulated/ground/sand,/area/coldwar)
 "eY" = (/obj/structure/sign/flag/germanflag,/obj/structure/brutswehr,/obj/structure/sandbag{dir = 8},/turf/unsimulated/ground/sand,/area/coldwar)
@@ -265,7 +254,7 @@
 "ff" = (/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/turf/unsimulated/ground/sand,/area/coldwar)
 "fg" = (/obj/random/tree,/turf/unsimulated/ground/sand,/area/coldwar)
 "fh" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 8},/obj/structure/sandbag,/turf/unsimulated/ground,/area/coldwar)
-"fi" = (/obj/structure/fence,/turf/unsimulated/ground/sand,/area/coldwar)
+"fi" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/beige,/turf/simulated/floor/lino,/area/coldwar/house1)
 "fj" = (/obj/structure/brutswehr,/obj/structure/brutswehr,/obj/structure/sandbag,/turf/unsimulated/ground,/area/coldwar)
 "fk" = (/obj/structure/brutswehr,/obj/structure/sandbag,/obj/structure/sandbag,/turf/unsimulated/ground,/area/coldwar)
 "fl" = (/obj/structure/brutswehr,/obj/structure/brutswehr,/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/obj/structure/sandbag,/turf/unsimulated/ground,/area/coldwar)
@@ -331,11 +320,10 @@
 "gP" = (/obj/structure/sign/clock,/turf/simulated/wall/brick,/area/coldwar/usmcfob)
 "gV" = (/turf/simulated/wall/concrete,/area/coldwar/house7)
 "gW" = (/obj/effect/landmark{name = "Observer-start"},/turf/unsimulated/ground/sand,/area/coldwar)
-"he" = (/obj/structure/holonet/end{dir = 2; icon_state = "volleynet_end"},/turf/unsimulated/ground/sand,/area/coldwar)
+"he" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/right/beige,/turf/simulated/floor/lino,/area/coldwar/house1)
 "hf" = (/obj/structure/holostool,/turf/simulated/floor/tiled/white,/area/coldwar/house18)
 "hg" = (/obj/structure/holostool,/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/white,/area/coldwar/house18)
 "hh" = (/obj/effect/floor_decal/turf/shaft,/obj/machinery/shower{dir = 1; icon_state = "shower"},/turf/simulated/floor/tiled/freezer,/area/coldwar/house18)
-"hi" = (/obj/structure/holonet{dir = 2; icon_state = "volleynet_mid"},/turf/unsimulated/ground/sand,/area/coldwar)
 "hj" = (/obj/structure/table/rack/shelf,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/obj/item/clothing/suit/storage/vest/soviet/a6b3,/obj/item/clothing/suit/storage/vest/soviet/a6b3,/obj/item/clothing/suit/storage/vest/soviet/a6b3,/obj/item/clothing/suit/storage/vest/soviet/a6b3,/obj/item/clothing/suit/storage/vest/soviet/a6b3,/obj/item/clothing/suit/armor/vest/soviet/a6b2,/turf/simulated/floor/wood,/area/coldwar/fobindoors)
 "hk" = (/obj/structure/table/rack/shelf,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/obj/item/clothing/accessory/storage/bandolier_nato,/turf/simulated/floor/tiled/bunker,/area/coldwar/usmcfob)
 "hm" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/tiled/white,/area/coldwar/house18)
@@ -354,7 +342,7 @@
 "hB" = (/turf/simulated/floor/fixed/stairs,/area/coldwar)
 "hE" = (/obj/structure/clock,/turf/simulated/floor/holofloor/wood,/area/coldwar/house18)
 "hF" = (/obj/structure/bed,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar/house12)
-"hI" = (/obj/item/weapon/beach_ball/holoball,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
+"hI" = (/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
 "hL" = (/obj/structure/bookcase,/turf/simulated/floor/wood,/area/coldwar/house18)
 "hN" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/tiled/dark,/area/coldwar/house18)
 "hO" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/dark,/area/coldwar/house18)
@@ -363,33 +351,35 @@
 "hY" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/holofloor/wood,/area/coldwar/house12)
 "hZ" = (/obj/structure/window/classicsteel,/turf/simulated/floor/plating,/area/coldwar/fobindoors)
 "ib" = (/turf/simulated/floor/holofloor/wood,/area/coldwar/house12)
+"ic" = (/obj/machinery/light/small/warmtint{dir = 4},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house1)
 "id" = (/obj/structure/bed,/turf/simulated/floor/holofloor/wood,/area/coldwar/house12)
-"if" = (/obj/structure/holohoop{dir = 4; icon_state = "hoop"},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
-"ig" = (/obj/structure/holohoop{dir = 8; icon_state = "hoop"},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
+"ig" = (/obj/structure/table/fancy,/obj/machinery/door/unpowered/simple/wood/glass,/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
 "ii" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/obj/effect/floor_decal/carpet/red,/turf/simulated/floor/carpet/red,/area/coldwar/house12)
 "ik" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house12)
 "im" = (/obj/machinery/light/coldtint{dir = 4},/turf/unsimulated/ground/sand,/area/coldwar)
 "in" = (/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar/house18)
-"io" = (/obj/item/weapon/beach_ball/holovolleyball,/turf/unsimulated/ground/sand,/area/coldwar)
+"io" = (/turf/simulated/floor/lino,/area/coldwar/house1)
 "ip" = (/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/dark,/area/coldwar/house18)
+"iq" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
 "ir" = (/turf/simulated/wall/wood,/area/coldwar/house12)
 "iu" = (/turf/simulated/wall/wood,/area/coldwar)
 "iv" = (/obj/structure/fence/corner{dir = 8},/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "iw" = (/obj/structure/fence{dir = 4},/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "iy" = (/obj/structure/fence/door,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "iz" = (/obj/structure/fence/corner,/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
-"iA" = (/obj/structure/holonet/end{dir = 1; icon_state = "volleynet_end"},/turf/unsimulated/ground/sand,/area/coldwar)
+"iA" = (/obj/structure/bed/chair/couch/middle/black{dir = 4},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
 "iB" = (/obj/structure/closet/athletic_mixed,/turf/simulated/floor/tiled/dark,/area/coldwar/house18)
 "iD" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/dark,/area/coldwar/house18)
 "iE" = (/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/dark,/area/coldwar/house18)
 "iF" = (/obj/structure/electricpole,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "iG" = (/obj/machinery/door/unpowered/simple/bulkhead,/turf/simulated/floor/plating,/area/coldwar)
 "iI" = (/obj/structure/sign/warning/high_voltage,/turf/simulated/wall/concrete,/area/coldwar)
+"iL" = (/obj/effect/floor_decal/turf/woodalt,/obj/machinery/light/small/warmtint{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
 "iM" = (/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
-"iN" = (/obj/machinery/light/coldtint,/turf/simulated/floor/grass,/area/coldwar)
+"iN" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/lino,/area/coldwar/house1)
 "iO" = (/obj/structure/railing,/turf/unsimulated/floor/river/deep,/area/coldwar)
 "iP" = (/turf/unsimulated/floor/river/deep,/area/coldwar/warpactfob)
-"iQ" = (/obj/structure/holostool,/obj/machinery/light/coldtint,/turf/simulated/floor/grass,/area/coldwar)
+"iQ" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/lino,/area/coldwar/house1)
 "iR" = (/obj/structure/barbwire{dir = 3},/turf/unsimulated/ground/sand,/area/coldwar/warpactfob)
 "iS" = (/obj/structure/platform{dir = 8},/obj/structure/barbwire{dir = 3},/turf/unsimulated/ground/sand,/area/coldwar/warpactfob)
 "iT" = (/obj/structure/chezh_hangehog,/turf/unsimulated/ground/sand,/area/coldwar/warpactfob)
@@ -414,7 +404,7 @@
 "jm" = (/obj/structure/bed/nato,/obj/effect/landmark/start{name = "BDW HWS Loader"},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "jn" = (/obj/structure/bed/nato,/obj/effect/landmark/start{name = "BDW Funktelefonbetreiber"},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "jo" = (/obj/structure/bed/nato,/obj/effect/landmark/start{name = "BDW Grenadier"},/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
-"jp" = (/obj/structure/holostool,/obj/machinery/light/coldtint,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
+"jp" = (/obj/effect/floor_decal/turf/woodalt2,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "jq" = (/obj/structure/janitorialcart,/turf/simulated/floor/tiled/dark,/area/coldwar/house18)
 "jr" = (/obj/structure/closet,/turf/simulated/floor/tiled/dark,/area/coldwar/house18)
 "js" = (/obj/structure/bed/nato,/obj/effect/landmark/start{name = "BDW Machinengewehrschutze Stellvertretender"},/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
@@ -716,8 +706,8 @@
 "pq" = (/obj/machinery/constructable_frame/machine_frame,/turf/simulated/floor/plating,/area/coldwar)
 "pr" = (/obj/effect/floor_decal/turf/steel{dir = 8},/turf/simulated/floor/plating,/area/coldwar)
 "ps" = (/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/turf/unsimulated/ground,/area/coldwar)
-"pu" = (/obj/structure/fence/door{dir = 1; icon_state = "door_closed"},/turf/simulated/floor/grass,/area/coldwar)
-"pv" = (/obj/structure/fence/door,/turf/unsimulated/ground/sand,/area/coldwar)
+"pu" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/black{dir = 4},/turf/simulated/floor/lino,/area/coldwar/house1)
+"pv" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/table/fancy,/obj/machinery/computer/pod/old/syndicate,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "pw" = (/obj/machinery/transformer,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "px" = (/obj/effect/floor_decal/turf/steel,/turf/simulated/floor/plating,/area/coldwar)
 "py" = (/obj/effect/floor_decal/turf/steel{dir = 1},/turf/simulated/floor/plating,/area/coldwar)
@@ -837,7 +827,7 @@
 "sp" = (/obj/structure/table/fancy,/obj/item/weapon/pen,/turf/simulated/floor/holofloor/wood,/area/coldwar/house2)
 "sq" = (/obj/machinery/light/small,/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/holofloor/wood,/area/coldwar/house2)
 "sr" = (/obj/machinery/light/small{dir = 4; icon_state = "bulb1"},/obj/structure/table/fancy,/turf/simulated/floor/holofloor/wood,/area/coldwar/house2)
-"ss" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
+"ss" = (/obj/structure/bed/chair/couch/middle/black{dir = 8},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
 "st" = (/obj/structure/device/piano,/turf/simulated/floor/carpet/red,/area/coldwar/house8)
 "su" = (/obj/structure/table/bench/padded,/turf/simulated/floor/carpet/red,/area/coldwar/house8)
 "sv" = (/obj/machinery/light/warmtint{dir = 4; icon_state = "tube_preview"},/turf/simulated/floor/carpet/red,/area/coldwar/house8)
@@ -863,6 +853,8 @@
 "sQ" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "sU" = (/obj/structure/table/fancy,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "sW" = (/obj/machinery/light/small{dir = 4; icon_state = "bulb1"},/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
+"ta" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/table/fancy,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
+"tb" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
 "te" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/bunker/cafe,/area/coldwar/house7)
 "th" = (/obj/structure/railing,/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "tj" = (/obj/machinery/door/unpowered/simple/metalglass1{dir = 2},/turf/simulated/floor/tiled/bunker/cafe,/area/coldwar/house7)
@@ -889,8 +881,10 @@
 "tN" = (/obj/structure/platform,/turf/unsimulated/ground,/area/coldwar)
 "tO" = (/obj/structure/closet/cabinet,/turf/simulated/floor/holofloor/wood,/area/coldwar/house18)
 "tR" = (/obj/structure/table/rack/shelf,/obj/random/drinkbottle,/turf/simulated/floor/tiled/dark,/area/coldwar/house17)
+"tS" = (/obj/structure/sink{dir = 1; icon_state = "sink"},/turf/simulated/floor/tiled/freezer,/area/coldwar/house1)
 "tT" = (/obj/structure/bed/chair/wood/goon,/turf/simulated/floor/holofloor/wood,/area/coldwar/house18)
 "tV" = (/obj/structure/platform,/obj/random/tree,/turf/unsimulated/ground/grass,/area/coldwar)
+"tY" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/chair/office/dark{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "ua" = (/turf/simulated/floor/tiled/bar,/area/coldwar/house18)
 "ub" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/bunker/cafe,/area/coldwar/house7)
 "uc" = (/obj/structure/bed/chair/wood/goon{dir = 4},/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house18)
@@ -939,12 +933,14 @@
 "vd" = (/obj/structure/closet/cabinet,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/wood,/area/coldwar/house18)
 "ve" = (/obj/structure/bed,/obj/item/weapon/bedsheet/hop,/turf/simulated/floor/wood,/area/coldwar/house18)
 "vj" = (/obj/effect/floor_decal/turf/marblealt,/obj/effect/floor_decal/turf/shaft,/obj/structure/window/basic,/obj/machinery/shower{dir = 4; icon_state = "shower"},/turf/simulated/floor/tiled/white,/area/coldwar/house18)
+"vx" = (/obj/structure/table/fancy,/obj/machinery/computer/pod/old/syndicate,/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
 "vA" = (/obj/effect/floor_decal/turf/marblealt,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/white,/area/coldwar/house18)
 "vB" = (/obj/effect/floor_decal/turf/marblealt,/obj/structure/toilet,/turf/simulated/floor/tiled/white,/area/coldwar/house18)
 "vD" = (/obj/effect/floor_decal/turf/marblealt,/obj/effect/floor_decal/turf/shaft,/obj/structure/window/basic,/obj/machinery/shower{dir = 8; icon_state = "shower"},/turf/simulated/floor/tiled/white,/area/coldwar/house18)
 "vE" = (/obj/structure/sign/rubin102,/turf/simulated/floor/wood,/area/coldwar/house18)
 "vF" = (/obj/structure/bed,/obj/item/weapon/bedsheet/hos,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/wood,/area/coldwar/house18)
 "vG" = (/turf/simulated/floor/tiled/bunker,/area/coldwar/house7)
+"vH" = (/obj/structure/table/fancy,/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
 "vI" = (/obj/structure/mopbucket,/turf/simulated/floor/tiled/bunker,/area/coldwar/house7)
 "vK" = (/obj/structure/janitorialcart,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/bunker,/area/coldwar/house7)
 "vN" = (/turf/simulated/floor/tiled/bar,/area/coldwar/house7)
@@ -984,6 +980,7 @@
 "wA" = (/obj/structure/closet/crate/wood,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/dark,/area/coldwar/house17)
 "wB" = (/obj/structure/table/rack/shelf,/obj/random/drinkbottle,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/dark,/area/coldwar/house17)
 "wC" = (/obj/structure/bed,/turf/simulated/floor/holofloor/wood,/area/coldwar/house18)
+"wD" = (/obj/machinery/light/small/warmtint{dir = 4},/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "wE" = (/obj/structure/toilet{dir = 1; icon_state = "toilet00"},/turf/simulated/floor/tiled/white,/area/coldwar/house18)
 "wF" = (/obj/structure/platform{dir = 8},/obj/structure/platform,/turf/unsimulated/ground,/area/coldwar)
 "wG" = (/obj/machinery/light/coldtint,/turf/unsimulated/ground/sand,/area/coldwar)
@@ -1009,6 +1006,7 @@
 "xr" = (/obj/structure/table/bench/wooden,/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "xt" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house1)
 "xv" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house1)
+"xw" = (/obj/effect/floor_decal/turf/lino,/obj/structure/table/glass,/turf/simulated/floor/lino,/area/coldwar/house1)
 "xx" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/turf/simulated/floor/carpet/red,/area/coldwar/house1)
 "xy" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house1)
 "xz" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled/dark,/area/coldwar/house4)
@@ -1050,6 +1048,7 @@
 "yw" = (/obj/structure/filingcabinet/filingcabinet,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house14)
 "yx" = (/obj/structure/table/fancy,/turf/simulated/floor/holofloor/wood,/area/coldwar/house13)
 "yy" = (/obj/structure/table/fancy,/turf/simulated/floor/wood,/area/coldwar/house18)
+"yz" = (/obj/effect/floor_decal/turf/woodalt2,/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "yA" = (/obj/structure/bed/chair/wood/goon{dir = 8},/turf/simulated/floor/wood,/area/coldwar/house18)
 "yB" = (/obj/structure/bed/chair/wood/goon{dir = 4},/turf/simulated/floor/wood,/area/coldwar/house18)
 "yC" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/gloves,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/white,/area/coldwar/house7)
@@ -1203,6 +1202,7 @@
 "Cl" = (/obj/machinery/door/unpowered/simple/metalglass1{dir = 2},/turf/simulated/floor/tiled/white,/area/coldwar/house7)
 "Cm" = (/obj/effect/floor_decal/turf/woodalt,/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/turf/simulated/floor/holofloor/wood,/area/coldwar/house4)
 "Cn" = (/obj/structure/closet/crate/wood,/obj/random/smokes,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/dark,/area/coldwar/house17)
+"Co" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/beige{dir = 4},/turf/simulated/floor/lino,/area/coldwar/house1)
 "Cp" = (/obj/structure/closet/crate/wood,/obj/random/drinkbottle,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/dark,/area/coldwar/house17)
 "Cq" = (/obj/structure/bed/chair/couch/left/beige{dir = 4; icon_state = "couch_left"},/turf/simulated/floor/carpet/red,/area/coldwar/house18)
 "Cr" = (/obj/structure/table/fancy,/turf/simulated/floor/carpet/red,/area/coldwar/house18)
@@ -1291,9 +1291,12 @@
 "Ek" = (/obj/structure/chezh_hangehog,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "Em" = (/obj/structure/window/classic,/turf/simulated/floor,/area/coldwar/house5)
 "Es" = (/obj/item/darts,/turf/simulated/floor/wood,/area/coldwar/cafe)
+"Eu" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/left/beige{dir = 8},/turf/simulated/floor/lino,/area/coldwar/house1)
 "Ew" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/tiled/freezer,/area/coldwar/house5)
 "EK" = (/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/turf/unsimulated/ground/grass,/area/coldwar)
 "EL" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/tiled/bar,/area/coldwar/house10)
+"EN" = (/obj/structure/reagent_dispensers/fueltank,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house1)
+"EO" = (/obj/structure/table/rack/shelf,/obj/item/weapon/storage/toolbox,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house1)
 "EU" = (/obj/structure/bed/roller,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/freezer,/area/coldwar/house7)
 "EX" = (/obj/structure/table/fancy,/turf/simulated/floor/tiled/bar,/area/coldwar/house5)
 "EZ" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/sandbag,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
@@ -1315,12 +1318,14 @@
 "Gj" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/bar,/area/coldwar/house10)
 "Gv" = (/turf/simulated/floor/tiled/bar,/area/coldwar/house11)
 "Gw" = (/obj/effect/decal/cleanable/cobweb2,/obj/structure/bed,/turf/simulated/floor/wood,/area/coldwar)
+"Gx" = (/obj/structure/bed/chair/couch/middle/black{dir = 4},/obj/structure/bed/chair/couch/right/black{dir = 4},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
 "GA" = (/obj/structure/toilet{dir = 1; icon_state = "toilet00"},/turf/simulated/floor/tiled/freezer,/area/coldwar/cafe)
 "GF" = (/obj/structure/platform{dir = 4},/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/ground,/area/coldwar)
 "GM" = (/obj/machinery/light/coldtint,/turf/simulated/floor/holofloor/wood,/area/coldwar/house15)
 "GO" = (/obj/effect/decal/cleanable/blood/writing{dir = 8; icon_state = "tracks"},/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "GS" = (/obj/structure/clock,/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house12)
 "GV" = (/obj/structure/flora/pottedplant/large,/turf/unsimulated/ground/grass,/area/coldwar)
+"GY" = (/obj/structure/mirror,/turf/simulated/wall/concrete,/area/coldwar/house1)
 "Hh" = (/obj/machinery/light/coldtint,/turf/simulated/floor/carpet/red,/area/coldwar/house18)
 "Hl" = (/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/carpet/red,/area/coldwar/house1)
 "Hm" = (/obj/machinery/chemical_dispenser/bar_soft,/obj/machinery/light/coldtint,/turf/simulated/floor/wood,/area/coldwar/cafe)
@@ -1328,12 +1333,14 @@
 "Hp" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house16)
 "Hu" = (/obj/structure/bed/chair/couch/left/beige,/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house13)
 "HD" = (/obj/structure/bed/chair/wood/goon{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar/house10)
+"HI" = (/obj/structure/bed/chair/office/light{dir = 8; icon_state = "officechair_white_preview"},/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
 "HK" = (/obj/structure/table/fancy,/obj/item/device/flashlight/lamp,/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house18)
 "HO" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house11)
 "HP" = (/obj/structure/window_frame,/obj/structure/barricade/wooden,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "HT" = (/obj/structure/table/bench/padded,/turf/simulated/floor/wood,/area/coldwar/cafe)
 "HU" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/wood,/area/coldwar/house18)
 "HW" = (/obj/structure/bed,/turf/simulated/floor/holofloor/wood,/area/coldwar/house15)
+"HY" = (/obj/effect/floor_decal/turf/lino,/obj/structure/table/glass,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/lino,/area/coldwar/house1)
 "Ia" = (/obj/effect/floor_decal/turf/woodalt,/turf/simulated/wall/wood,/area/coldwar)
 "Ic" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/holofloor/wood,/area/coldwar/house14)
 "Ig" = (/obj/structure/closet/cabinet,/turf/simulated/floor/holofloor/wood,/area/coldwar/house16)
@@ -1342,12 +1349,15 @@
 "Is" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/holofloor/wood,/area/coldwar/house16)
 "Iz" = (/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/obj/machinery/light/small{dir = 4; icon_state = "bulb1"},/turf/simulated/floor/carpet/red,/area/coldwar/house1)
 "IB" = (/obj/structure/sink{dir = 8; pixel_x = -8},/turf/simulated/floor/tiled/white,/area/coldwar/house14)
+"IL" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "IM" = (/obj/structure/table/fancy,/turf/simulated/floor/tiled/bar,/area/coldwar/house14)
 "IQ" = (/obj/effect/floor_decal/turf/woodalt,/obj/structure/sign/rassvet307,/turf/simulated/floor/holofloor/wood,/area/coldwar/house5)
 "IR" = (/obj/structure/window/classic,/turf/simulated/floor,/area/coldwar/house16)
 "IT" = (/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/turf/unsimulated/ground/grass,/area/coldwar)
 "IU" = (/obj/structure/table/fancy,/obj/random/drinkbottle,/turf/simulated/floor/wood,/area/coldwar/cafe)
+"IX" = (/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/lino,/area/coldwar/house1)
 "IY" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor/tiled/bar,/area/coldwar/house16)
+"IZ" = (/obj/structure/bedsheetbin,/turf/simulated/floor/tiled/freezer,/area/coldwar/house1)
 "Jd" = (/obj/structure/toilet,/turf/simulated/floor/tiled/freezer,/area/coldwar/cafe)
 "Jf" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/sandbag{dir = 8},/obj/machinery/light/small,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "Jl" = (/obj/structure/table/fancy,/obj/item/device/flashlight/lamp,/turf/simulated/floor/holofloor/wood,/area/coldwar/house14)
@@ -1356,6 +1366,7 @@
 "JC" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor/tiled/bar,/area/coldwar/house10)
 "JG" = (/obj/effect/floor_decal/turf/woodalt,/obj/structure/table/fancy,/turf/simulated/floor/holofloor/wood,/area/coldwar/house5)
 "JK" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/bed/chair/wood/goon{dir = 1},/turf/simulated/floor/wood,/area/coldwar/house18)
+"JP" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/light/coldtint,/turf/simulated/floor/lino,/area/coldwar/house1)
 "JS" = (/obj/structure/bed/chair/office/light{dir = 4; icon_state = "officechair_white_preview"},/turf/simulated/floor/wood,/area/coldwar/house18)
 "JT" = (/obj/structure/table/fancy,/turf/simulated/floor/tiled/bar,/area/coldwar/house10)
 "Kb" = (/obj/structure/bed,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/holofloor/wood,/area/coldwar/house10)
@@ -1376,6 +1387,7 @@
 "Lw" = (/obj/structure/table/rack/steriletable,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/bruise_pack/gauze,/turf/simulated/floor/tiled/freezer,/area/coldwar/house7)
 "LC" = (/obj/random/trash,/turf/simulated/floor/wood,/area/coldwar/cafe)
 "LH" = (/obj/structure/sink,/turf/simulated/floor/tiled/white,/area/coldwar/house15)
+"LJ" = (/obj/structure/bed,/obj/effect/decal/cleanable/cobweb,/turf/unsimulated/ground,/area/coldwar)
 "LN" = (/obj/structure/bed,/turf/simulated/floor/holofloor/wood,/area/coldwar/house10)
 "LX" = (/obj/structure/table/fancy,/obj/machinery/microwave,/turf/simulated/floor/tiled/freezer,/area/coldwar/house18)
 "Mk" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/obj/effect/floor_decal/carpet/red,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/carpet/red,/area/coldwar/house12)
@@ -1390,12 +1402,15 @@
 "MP" = (/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house14)
 "MQ" = (/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/freezer,/area/coldwar/cafe)
 "MS" = (/turf/simulated/floor/tiled/bar,/area/coldwar/house10)
+"Nc" = (/obj/random/tree,/turf/simulated/wall/concrete,/area/coldwar)
 "Ne" = (/obj/structure/table/fancy,/turf/simulated/floor/holofloor/wood,/area/coldwar/house12)
 "Nh" = (/obj/effect/floor_decal/turf/woodalt,/obj/item/weapon/mine/m16{active = 1},/turf/simulated/floor/wood,/area/coldwar)
+"Ni" = (/obj/machinery/light/small/warmtint{dir = 1},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house1)
 "Nk" = (/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house14)
 "Nl" = (/obj/structure/bed/chair/wood/goon{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar/house13)
 "Nm" = (/obj/structure/bed/chair/office/light{dir = 8; icon_state = "officechair_white_preview"},/turf/simulated/floor/holofloor/wood,/area/coldwar/house14)
 "Nn" = (/obj/structure/bed/chair/couch/left/beige,/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house18)
+"Nr" = (/obj/machinery/door/unpowered/simple/wood/glass,/turf/simulated/floor/tiled/dark,/area/coldwar/house1)
 "Nt" = (/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/wood,/area/coldwar/cafe)
 "Nv" = (/obj/effect/floor_decal/turf/woodalt4,/obj/effect/floor_decal/turf/woodalt4,/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "Nw" = (/obj/random/trash,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/wood,/area/coldwar/cafe)
@@ -1406,6 +1421,8 @@
 "NQ" = (/obj/structure/closet/chefcloset,/obj/item/clothing/head/chefhat,/turf/simulated/floor/tiled/bar,/area/coldwar/cafe)
 "NW" = (/obj/machinery/light/coldtint,/turf/simulated/floor/holofloor/wood,/area/coldwar/house13)
 "NX" = (/obj/structure/bed/chair/office/light{dir = 1; icon_state = "officechair_white_preview"},/turf/simulated/floor/carpet/red,/area/coldwar/house12)
+"Oa" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/right/black{dir = 4},/turf/simulated/floor/lino,/area/coldwar/house1)
+"Og" = (/obj/structure/table/rack/shelf,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house1)
 "Oi" = (/turf/simulated/floor/carpet/red,/area/coldwar/house12)
 "Oj" = (/obj/structure/reagent_dispensers/beerkeg,/turf/simulated/floor/wood,/area/coldwar/cafe)
 "Om" = (/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/carpet/red,/area/coldwar/house18)
@@ -1416,6 +1433,7 @@
 "ON" = (/obj/structure/bed/chair/couch/right/beige,/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house14)
 "OT" = (/turf/simulated/floor/tiled/bar,/area/coldwar/cafe)
 "OU" = (/obj/machinery/door/unpowered/simple/woodshitty,/turf/simulated/floor/tiled/freezer,/area/coldwar/cafe)
+"OX" = (/obj/structure/bed/chair/couch/left/black{dir = 8},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/lino,/area/coldwar/house1)
 "OY" = (/obj/structure/toilet,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/white,/area/coldwar/house9)
 "Pc" = (/obj/structure/bookcase,/turf/simulated/floor/wood,/area/coldwar)
 "Pd" = (/obj/structure/closet/cabinet,/turf/simulated/floor/holofloor/wood,/area/coldwar/house13)
@@ -1447,6 +1465,7 @@
 "QM" = (/obj/structure/closet/secure_closet/freezer/fridge,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/bar,/area/coldwar/house11)
 "QO" = (/obj/structure/bed/chair/wood/goon{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house9)
 "QP" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/tiled/white,/area/coldwar/house10)
+"QS" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/right/beige{dir = 8},/turf/simulated/floor/lino,/area/coldwar/house1)
 "QX" = (/obj/structure/sign/nes,/turf/simulated/floor/holofloor/wood,/area/coldwar/house9)
 "Ra" = (/obj/structure/table/fancy,/obj/structure/sign/decor/painting,/turf/simulated/floor/wood,/area/coldwar/house18)
 "Rc" = (/obj/structure/table/bench/wooden,/obj/effect/floor_decal/turf/woodalt4,/obj/machinery/light/small,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
@@ -1460,14 +1479,18 @@
 "RI" = (/obj/structure/sink{dir = 4; pixel_x = 8},/turf/simulated/floor/tiled/white,/area/coldwar/house10)
 "RJ" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house16)
 "RK" = (/obj/structure/table/rack/steriletable,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/bruise_pack/gauze,/obj/item/stack/medical/bruise_pack/gauze,/obj/item/stack/medical/bruise_pack/gauze,/obj/item/stack/medical/bruise_pack/gauze,/turf/simulated/floor/tiled/freezer,/area/coldwar/house7)
+"RL" = (/obj/structure/toilet{dir = 1; icon_state = "toilet00"},/turf/simulated/floor/tiled/freezer,/area/coldwar/house1)
 "RQ" = (/obj/machinery/light/coldtint,/turf/simulated/floor/holofloor/wood,/area/coldwar/house11)
 "RR" = (/obj/structure/bed/chair/couch/left/beige,/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house14)
 "RU" = (/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/carpet/red,/area/coldwar/house1)
 "RY" = (/obj/machinery/door/unpowered/simple/interiorroom,/turf/simulated/floor/tiled/white,/area/coldwar/house13)
 "Sa" = (/obj/structure/device/piano,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/wood,/area/coldwar/cafe)
+"Sb" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/beige{dir = 4},/obj/structure/bed/chair/couch/right/beige{dir = 4},/turf/simulated/floor/lino,/area/coldwar/house1)
 "Si" = (/obj/structure/bed/chair/wood/goon{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house10)
 "Sj" = (/obj/structure/bed/chair/couch/right/beige,/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house18)
 "Sk" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/holofloor/wood,/area/coldwar/house10)
+"Sx" = (/obj/effect/floor_decal/turf/woodalt2,/obj/machinery/light/small,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
+"Sz" = (/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house1)
 "SA" = (/obj/structure/window/classic,/turf/simulated/floor,/area/coldwar/house10)
 "SC" = (/obj/random/trash,/turf/simulated/floor/tiled/bar,/area/coldwar/cafe)
 "SE" = (/obj/effect/floor_decal/turf/woodalt,/obj/structure/sign/nes,/turf/simulated/floor/holofloor/wood,/area/coldwar/house5)
@@ -1478,18 +1501,22 @@
 "Tb" = (/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/bar,/area/coldwar/house16)
 "Te" = (/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/wood,/area/coldwar/house18)
 "Tf" = (/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house18)
+"Ti" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/beige{dir = 8},/turf/simulated/floor/lino,/area/coldwar/house1)
 "To" = (/obj/effect/landmark{name = "JoinLate"},/turf/unsimulated/ground/sand,/area/coldwar)
 "Tx" = (/obj/machinery/door/unpowered/simple/interiorroom,/turf/simulated/floor/holofloor/wood,/area/coldwar/house12)
 "TA" = (/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/ground/grass,/area/coldwar)
 "TB" = (/obj/machinery/iv_drip,/obj/structure/sandbag{dir = 4},/turf/simulated/floor/tiled/white,/area/coldwar/house7)
+"TJ" = (/obj/structure/reagent_dispensers/fueltank/gaspump,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house1)
 "TM" = (/obj/structure/bed,/obj/machinery/light/coldtint,/turf/simulated/floor/holofloor/wood,/area/coldwar/house12)
 "TR" = (/obj/effect/floor_decal/road{dir = 8; icon_state = "roadspline"},/obj/effect/crater64,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "TT" = (/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house13)
+"TX" = (/obj/machinery/light/small/warmtint{dir = 8},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house1)
 "TZ" = (/obj/structure/bed/chair/couch/right/beige,/turf/simulated/floor/holofloor/wood,/area/coldwar/house15)
 "Ua" = (/obj/structure/sink/kitchen{dir = 8; icon_state = "sink_alt"},/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/bar,/area/coldwar/house10)
 "Ub" = (/obj/structure/bed/roller,/turf/simulated/floor/tiled/freezer,/area/coldwar/house7)
 "Uc" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/holofloor/wood,/area/coldwar/house11)
 "Ui" = (/obj/structure/closet/chefcloset,/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/freezer,/area/coldwar/house18)
+"Ul" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/chair/wood/goon{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "Uo" = (/obj/structure/window_frame,/obj/effect/decal/cleanable/cobweb,/obj/structure/barricade/wooden,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "Ur" = (/obj/structure/table/fancy,/obj/item/device/flashlight/lamp,/turf/simulated/floor/wood,/area/coldwar/house18)
 "Uy" = (/obj/structure/platform{dir = 8},/turf/simulated/floor/fixed/stairs{dir = 1; icon_state = "fakestairs"},/area/coldwar)
@@ -1499,6 +1526,7 @@
 "UK" = (/obj/machinery/light_construct/small,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "UP" = (/obj/machinery/door/unpowered/simple/woodalt,/turf/simulated/floor/holofloor/wood,/area/coldwar/house9)
 "UU" = (/obj/structure/platform{dir = 1},/turf/unsimulated/ground/grass,/area/coldwar)
+"UW" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/turf/simulated/floor/tiled/freezer,/area/coldwar/house1)
 "Va" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/white,/area/coldwar/house7)
 "Vh" = (/turf/simulated/floor/holofloor/wood,/area/coldwar/house14)
 "Vj" = (/obj/structure/sink/kitchen,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/bar,/area/coldwar/house14)
@@ -1522,8 +1550,10 @@
 "Wx" = (/obj/structure/closet/cabinet,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "Wy" = (/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/turf/unsimulated/ground/grass,/area/coldwar)
 "WF" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house15)
+"WJ" = (/obj/machinery/door/unpowered/simple/woodalt,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "WK" = (/obj/effect/floor_decal/carpet/red,/turf/simulated/floor/carpet/red,/area/coldwar/house16)
 "WM" = (/obj/structure/brutswehr,/turf/unsimulated/ground,/area/coldwar)
+"WU" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
 "WX" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/wood,/area/coldwar/house18)
 "WY" = (/turf/simulated/floor/tiled/bar,/area/coldwar/house15)
 "WZ" = (/obj/structure/closet/secure_closet/freezer/fridge,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/bar,/area/coldwar/house14)
@@ -1538,12 +1568,15 @@
 "XL" = (/obj/structure/table/fancy,/turf/simulated/floor/carpet/red,/area/coldwar/house12)
 "XN" = (/obj/structure/closet/cabinet,/turf/simulated/floor/holofloor/wood,/area/coldwar/house14)
 "XQ" = (/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/white,/area/coldwar/house7)
+"XR" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/chair/wood/goon{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar/house1)
+"XT" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/lino,/area/coldwar/house1)
 "XX" = (/obj/structure/bed/chair/couch/right/beige{dir = 8; icon_state = "couch_right"},/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house16)
 "XZ" = (/obj/structure/table/fancy,/turf/simulated/floor/holofloor/wood,/area/coldwar/house10)
 "Ya" = (/obj/structure/table/fancy,/turf/simulated/floor/holofloor/wood,/area/coldwar/house16)
 "Yb" = (/obj/machinery/light/coldtint,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/house18)
 "Yd" = (/obj/structure/clock,/turf/simulated/floor/holofloor/wood,/area/coldwar/house16)
 "Yf" = (/obj/structure/flora/drygrass7,/obj/structure/flora/drygrass7,/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/ground,/area/coldwar)
+"Yg" = (/obj/structure/bed,/obj/effect/decal/cleanable/cobweb2,/turf/unsimulated/ground,/area/coldwar)
 "Yo" = (/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar/house13)
 "Yr" = (/obj/structure/closet/secure_closet/freezer/fridge,/turf/simulated/floor/tiled/bar,/area/coldwar/house5)
 "YC" = (/obj/structure/bed,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
@@ -1569,6 +1602,7 @@
 "ZK" = (/obj/machinery/door/unpowered/simple/interiorroom,/turf/simulated/floor/holofloor/wood,/area/coldwar/house13)
 "ZM" = (/obj/machinery/chemical_dispenser/bar_alc,/obj/machinery/light/coldtint,/turf/simulated/floor/wood,/area/coldwar/cafe)
 "ZO" = (/obj/structure/window/classic,/turf/simulated/floor,/area/coldwar/house11)
+"ZW" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/lino,/area/coldwar/house1)
 "ZX" = (/obj/structure/table/fancy,/obj/random/smokes,/turf/simulated/floor/wood,/area/coldwar/cafe)
 "ZZ" = (/obj/structure/sandbag,/turf/simulated/floor/tiled/freezer,/area/coldwar/house7)
 
@@ -1590,8 +1624,8 @@ aaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaaaaaaaadaeal
 aaaaaaaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaaaaaaaaaaaaaaxdQcjckclaxcqaYoMayayoMaYaYaxcicjckclaxafaaaxayayayayayayayayayaxaaaaaaaaaxbLbLDGcgchcrcsbLaxaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagag
 aaaaaaaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaaaaaaaaaaaaaaxcncocpclaxcqaYaYayayaYaYaYaxcGcocpclaxaaafaxdCayayayayayayayqbaxaaaaaaaaaxbkctbLcCcCfEbLbkaxaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagag
 aaaaaaaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaaaaaaaaaaaaaaxczcocpcAcmaYaYaYayayaYaYaYcmaycocpcHaxafafaxlmayayayayayayaynUaxaaaaaaaaaxaxaxgNfDfDgNaxaxaxaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagag
-aaaaaaaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaafafafaaaaaaaxbeaycIcJaxaYaYaYayayaYaYaYaxcGaycIcMaxafafaxnBayayayayayayayayaxaaaaaaaaaaaaaaaahBhBapawbzasaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagag
-aaaaaaaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaafafafaaaaaaaxbecNbafsaxaYaYoNayayoNaYaYaxcNbabafsaxaaafaxdNaYaYaYaYaYaYaYdOaxcOcPcPaaaaaaaaaaafafaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaaaaaaaaaaaaaaadodododododododoaaaaaaagagagagagagagagagagagagaaaaagagagagagagagagagagagaa
+aaaaaaaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaafafafaaaaaaaxbeaycIcJaxaYaYaYayayaYaYaYaxcGaycIcMaxafafaxnBayayayayayayayayaxaaaaaaaaaaaaaaaahBhBaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagag
+aaaaaaaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaafafafaaaaaaaxbecNbafsaxaYaYoNayayoNaYaYaxcNbabafsaxaaafaxdNaYaYaYaYaYaYaYaYaxcOcPcPaaaaaaaaaaafafaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaaaaaaaaaaaaaaadodododododododoaaaaaaagagagagagagagagagagagagaaaaagagagagagagagagagagagaa
 aaaaaaaaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaafafafaaaaaaaxaxaxaxaxaxaxaxaxfCfCaxaxaxaxaxaxaxaxaxafafaxaxaxgKfDaxfDgKaxaxaxcPcPcPaaaaaaaaaaafafaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaaaaaaaaaaaaaaadodododododododoaaaaaaagagagagagagagagagagagagaaaaagagagagagagagagagagagaa
 agagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaafafafaaaaaaaaaaaaaaaaaajwaaaaafafjxaaaaaaaaaaaaaaaaaaafaaaaaaaaafafafaaaaaaaaaaaaaaaaaaaaaaaaafafaaaaaaasaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaaaaaaaaaaaaaaadodododododododoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagagagagagagagagagagagag
 agagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadacacaaaaafafafaaaaaaaaaaaaaaaaaaaaaaaaafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafdGdGdGdHaaaaaaaaaaaaaaaaaaaaaaaaafafafaaaaaaaaaaaaaaacacaaaaaaadaealalamalalanadaaaaaaagagagagagagagagagagagagagaaaaaaaaaaaaaaaadodododododododoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagagagagagagagagagagagag
@@ -1698,40 +1732,40 @@ aaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaaaadaeal
 aaaaaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaaaadaealalamalalanadaaagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagagaaaaadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadarardRdTdTdTdTdTdTdTdTdTdTdTdTdTdTdTaradadaadodododododododododododododododoaa
 aaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagaaaaaaadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaadaaaadodododododododododododododododoaa
 aaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagaaaaabadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaaaaadododododododododododowbdodododoaa
-aaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagaaaaaaadaealalamalalanaddUafafafafafafafafafafafafafafafafafafafafdUafafafafafafafafafafafafafafafdUafafafafafafafafafafafafaffzfzfzfzdVfzfzfzfzfzfzfzfzfzfzfzdVfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzdVadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaajgaadodododododododododododododododoaa
-aaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagaaaaaaadaealalamalalanadafdWdXdYdZdZdZdZdZdZdZdZdYdZdZdZdZdZdZdYdXeaafafafebecedefefefefefefedefecefegeheiegegegegegeiehegekaffzfzfzuFuFuFuFuFuFuFuFuFuFuFuFuFAkAkAkuFuFuFuFuFuFuFuFuFAkAkuFuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaaaaadodododowbdododododododododododoaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexexexeSeSeSeSeSeSeSeSeSeSeSeSeSexexexelafafafeTaleUeUeUeUeUeUeUeUeUaleTafafafeVeVeVeVeVafafaffiaffzfzfzuFfwfGfGfGfGfGuFfIfIfIuFfOfQfQfQfRuFfTfUuaueueuFususfXfYuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaadaadodododododododododododododoaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafafafafafafafafafafafafafafafafafexelafafafeTalaleUeUeUeUeUeUeUalaleTafafafafafafafafafafaffiaffzfzfzuFgbfwfwfwfwfwgfgfgfgguFghfQfQfQgiuFfTgCgCuagHuFusuEuEuEAkfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaadaadodododododododododowbdododoaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafexexexexexexexexexexexexexexexafexelafafafeTalalalalalalalalalalaleTafafafafafheafafafafaffiaffzfzfzuFfwhfhghfhghfuFhhhhhhuFghfQfQfQgiuFfTfTfTuauauFususususAkfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaadaadodododododododododododododoaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafexexexexexexexexexexexexexexexafexelafafafeTalalalalalalalalalalaleTafafafafafhiafafafafaffiaffzfzfzuFhmuFuFuFuFuFuFuFuFuFuFhofQfQfQhouFuFuFuFhpuFuFhrhrushEuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaadaadododowbdodododododododododoaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafexexexexexexafexexexexexexexafafexelafafafeTalalalhIalalalalalalaleTafafafafafhiafafafafaffiafafafafhNfQhOfQfQfQfQfQfQfQfQhOfQfQfQfQfQhOfQfQfQfQfQuFuFuFhRuFuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaadodododododododododoaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafexexexexexexafafexexexexexexafafexelafafafeTifalalalalalalalalaligeTafafafafafhiafafafafaffiafafafimuFfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQhRusususinuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadhqahahahahahahahahahahahahahaaaadodododododododododoaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafexexexexexexafexexexexexexexafafexelafafafeTalalalalalalalalalalaleTafafafafafhiafioafafaffiafafafafhNfQfQfQfQfQfQipfQfQfQfQfQfQfQfQfQipfQfQfQfQfQuFuFuFhRuFuFfzadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadadhqahahahahahahahahahahahahahaaaadodododododododododoaaaaaaaaaaaajgaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafexexexexexexexexexexexexexexexafexelafafafeTalalalalalalalalalalaleTafafafafafhiafafafafaffiaffzfzfzuFhmuFuFuFuFuFuFuFuFuFuFhNuFuFuFuFuFfQfQfQfQfQuFhrhrushEuFfzadaealalamalalanuziviwiyiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiyiwiwizadadhqahahahahahahahahahahahahahaaaadodododododododouzadadadadadadadadadad
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafexexexexexexexexexexexexexexexafexelafafafeTalalalalalalalalalalaleTafafafafafiAafafafafaffiaffzfzfzuFfwfGfGfGfGfGuFfIfIfIuFfQfQiBiBiBuFfQfQfQfQfQuFususususAkfzadaealalamalalanadfyadalalalalalalalalalalalalalalalalalalalaladfyadadhqahahahahahahahahahahahahahaaaadododododododowbadalalalalalalalalalal
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexafafafafafafafafafafafafafafafafafexelafafafeTalaleUeUeUeUeUeUeUalaleTafafafafafafafafafafaffiaffzfzfzuFgbfwfwfwfwfwgfgfgfgguFfQfQfQfQiEuFiDfQfQfQiEuFusuEuEuEAkfzadaealalamalalanadfyadaliFalalaliFalalaliFalalaliFalariGiIarararfyadadhqahahahahahahahahahahahahahaaaaaajgaaaadodododoadalalalalalalalaliMal
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafelexiNexeSeSeSeSeSeSiQeSeSeSeSeSeSexiNexelafafafeTaljpeUeUeUeUeUeUeUjpaleTafafafeVeVeVeVeVafafaffiaffzfzfzuFfwhfhfhfhghfuFhhhhhhuFjqjrjrmGmGuFfQfQfQfQfQuFususphpkuFfzadaealalamalalanalpmalaralarpnaralarpniIalarpnaralararpopqprpqarfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaadodododoadaliMalalalalalalalal
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafdWpudZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZdZpueaafafafebiyefefefefefefefefefiyefegpveiegegegegegeipvegekaffzfzfzuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFhNhNuFuFAkAkuFuFfzadaealalamalalanadfyadpnpwpnpnpnpwpnpnpnpwpnpnpnpwpniIpopxpypzarfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaadodododoadalalalalalalalalalal
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanaddUafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafdUafafafafafafafafafafafafafafafafafafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzdVfzafaffzfzfzfzfzfzdUadaealalamalalanadfyadpnpnpnpnpnpnpnpnpnpnpnpnpnpnpniGpopAprpqarfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaadalalalaluzadadadadad
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadfyadpnpnpnpnpnpnpnpnpnpnpnpnpnpnpniIpBpxpypCarfyadadhqahahahahahahahahahahahahahaaaaaaaaaajgaaaaaaaaadalalalaladaaaaaaaaaa
+aaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagaaaaaaadaealalamalalanaddUafafafafafafafafafafafafafafafafafafafafdUafafafafafafafafafafafafafafafdUafafafafafafafafafafafafaffzfzfzfzdVfzfzfzfzfzfzfzfzfzfzdVfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzdVadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaajgaadodododododododododododododododoaa
+aaaaaaagagagagagagagagagagagagagaaagagagagagagagagagagagagagagagagagaaaaaaadaealalamalalanadaffzfzfzfzfzfzaaaafzfzfzfzfzaafzfzfzfzfzfzfzfzaaaaeieieieieieieieieieieieieieieieieieidvdvdvdvdvafafaffzfzfzuFuFuFuFuFuFuFuFuFuFuFuFuFAkAkAkuFuFuFuFuFuFuFuFuFAkAkuFuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaaaaadodododowbdododododododododododoaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadaffzfzfzfzfzfzaaaaaafzfzaaaaaadvdvdvdvdvdvdvdvdvdvdvdvgdgddvdvgdgddvdvdvdvdvdvgdgddvdvdvdvdvdvdvafafaffzfzfzuFfwfGfGfGfGfGuFfIfIfIuFfOfQfQfQfRuFfTfUuaueueuFususfXfYuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaadaadodododododododododododododoaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadaffzfzfzfzfzfzfzfzfzfzfzaaaaaadvexexdvexexexdWdvdveTdXdYeUhIdvhIdZeaeaekdvdveSfififihedvhIhIhIdvafafaffzfzfzuFgbfwfwfwfwfwgfgfgfgguFghfQfQfQgiuFfTgCgCuagHuFusuEuEuEAkfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaadaadodododododododododowbdododoaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadaffzfzfzfzfzfzaaaaaafzfzdvdvdvdvexexigexexexexdvdviAeaeaeaiNdviQpueaeassdvdvCoxwxwxwHYdvhIhIhIdvafafaffzfzfzuFfwhfhghfhghfuFhhhhhhuFghfQfQfQgiuFfTfTfTuauauFususususAkfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaadaadodododododododododododododoaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadaffzfzfzfzfzfzaaaaaafzfzdvexexexexexvxexexexexdvdvGxeaeaeahIdvhIOaeaeaOXdvdvSbxwhIhIhIdvhIhIhIdvafafaffzfzfzuFhmuFuFuFuFuFuFuFuFuFuFhofQfQfQhouFuFuFuFhpuFuFhrusushEuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaaadaadododowbdodododododododododoaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadaffzfzfzfzfzfzfzfzfzfzfzdvtbexexexexvHHIexexexiodvhIhIhIhIhIdvhIhIhIhIhIdvdvhIhIhIhIhIdvioioioiqafafafafafafhNfQhOfQfQfQfQfQfQfQfQhOfQfQfQfQfQhOfQfQfQfQfQuFuFuFhRuFuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadararhvahahahahahahahahahahahahahahahaaaadodododododododododoaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadaffzfzfzfzfzfzfzfzfzfzfzdvexexexexexvHexexexexioioioioioiodvdvdvioioiodvdvdvioiodvioiodvioioIXdvCTafafafafimuFfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQfQhRusususinuFfzadaealalamalalanadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadadadadadhqahahahahahahahahahahahahahaaaadodododododododododoaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadaffzfzfzfzfzfzfzfzfzfzfzdvexexexexexNrexexdvdvXTioioioioioZWioioioioioioZWioioioioioioioioioioiqafafafafafafhNfQfQfQfQfQfQipfQfQfQfQfQfQfQfQfQipfQfQfQfQfQuFuFuFhRuFuFfzadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadadhqahahahahahahahahahahahahahaaaadodododododododododoaaaaaaaaaaaajgaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadaffzfzfzfzfzfzaafzfzfzfzdvdviqdviqdvdvdvdvdvdvhIhIhIhIhIhIhIhIhIhIhIhIhIhIhIhIhIhIJPhIhIhIhIQSdvafafaffzfzfzuFhmuFuFuFuFuFuFuFuFuFuFhNuFuFuFuFuFfQfQfQfQfQuFhrusushEuFfzadaealalamalalanuziviwiyiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiyiwiwizadadhqahahahahahahahahahahahahahaaaadodododododododouzadadadadadadadadadad
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafafafafafafafafafafafafafafafMrafafafdvdvdvdvWJdvdvdvdvdvdvWJdvdvdvdvWJdvdvdvdvdvdvdvdvhIhITidvafafaffzfzfzuFfwfGfGfGfGfGuFfIfIfIuFfQfQiBiBiBuFfQfQfQfQfQuFususususAkfzadaealalamalalanadfyadalalalalalalalalalalalalalalalalalalalaladfyadadhqahahahahahahahahahahahahahaaaadododododododowbadalalalalalalalalalal
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafafafafafafafafafafafafafafafafafafafafdvdvdvrhUWrhIZdvILyzjpjpdvILyzjpjpdvdvdvILjpjpWJhIhIEudvafafaffzfzfzuFgbfwfwfwfwfwgfgfgfgguFfQfQfQfQiEuFiDfQfQfQiEuFususuEuEAkfzadaealalamalalanadfyadaliFalalaliFalalaliFalalaliFalariGiIarararfyadadhqahahahahahahahahahahahahahaaaaaajgaaaadodododoadalalalalalalalaliMal
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafafafafafafafafafafafafafafafafafafafafafdvdvrhrhrhrhdvjpjpjpjpdvjpjpjpjpdvjptaXRjpjpdvdvdvdvdvafafaffzfzfzuFfwhfhfhfhghfuFhhhhhhuFjqjrjrmGmGuFfQfQfQfQfQuFususphpkuFfzadaealalamalalanalpmalaralarpnaralarpniIalarpnaralararpopqprpqarfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaadodododoadaliMalalalalalalalal
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafafafafafafafafafafafafafafafafafafafafafafdvrhrhrhtSdvjpUltajpdvjptaXRjpdvtYpvjpjpjpgdafafafafafafaffzfzfzuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFuFhNhNuFuFAkAkuFuFfzadaealalamalalanadfyadpnpwpnpnpnpwpnpnpnpwpnpnpnpwpniIpopxpypzarfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaadodododoadalalalalalalalalalal
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanaddUafafafafafafafafafafafafafafafafafafafafafdvrhRLrhGYdvjpjppvWUdvtYtajpjpdvjpjpSxjpjpgdafafafafafafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzdVfzafaffzfzfzfzfzfzdUadaealalamalalanadfyadpnpnpnpnpnpnpnpnpnpnpnpnpnpnpniGpopAprpqarfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaadalalalaluzadadadadad
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadaealalamalalanadafafafafafafafafafafafafafafafafafafafafafafdvdvdvdvdvdvdvgddvdvdvdvdvgddvdvdvdvdvdvdvdvafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadfyadpnpnpnpnpnpnpnpnpnpnpnpnpnpnpniIpBpxpypCarfyadadhqahahahahahahahahahahahahahaaaaaaaaaajgaaaaaaaaadalalalaladaaaaaaaaaa
 adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaealalamalalanadfzfzfzfzfzfzfzfzfzafafaffzfzfzfzfzfzfzfzfzafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadfyadpnalpnpnpnalpnpnpnalpnpnpnalpnarpopqprpqarfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaadalalalaladaaaaaaaajg
 adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaealalamalalanadfzfzfzfzfzfzfzfzfzfzaffzfzfzfzfzfzfzfzfzfzafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadfyadarpwiIpnarpwarpnarpwarpnarpwarariGiIarararfyadadhqahahahahahahahahahahahahahaadododoaaaaaaaaaajgadalalalaladaaaaaaaaaa
 fzfzfzfzfFfzfzfzfzfzfzfzfzfzafaffzfzfzfzfzfFfzfzfzfzfzfzfzfzfzfzfzfzfzfzdVadaealalamalalanadfzfzfzfzfzfzfzfzzIzIpDzIzIfpfpfpfpfpfpfpfpafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadaealalamalalanadfyadalalalalalalalalalalalalalalalalalalalaluzfyadadhqahahahahahahahahahahahahahdowbdodododoaaaaaaaaadalalalaladaajgaaaaaa
-fzfzfzfzfzfzfzfzfFfzfzfzfzfzafaffzfFfzfzfzfzfzfzfFfzfzfzfFfzfzfzfFfzfzfzfzadaealalamalalanadfzfzfzfzfzfzfzfzzIpEpFrjzIpHpIpJpJpJpJpIpIpKaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadaealalamalalanadfyadalalarpLpLpLpLpLpLarariGarararararararaladfyadadhqahahahahahahahahahahahahahdodododododoaaaaaaaaadalalalaladaaaaaaaaaa
-fzfFfzfzfzfzfzfzfzfzfzfzfFfzafaffzfzfzfzfzfzfFfzfzfzfzfzfzfzfFfzfzfFfzfFfzadaealalamalalanadfzfzfzfzfzfzfzfzzIpPpFpPzIpIpQqeqgqhqkqmqnpKafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadfyadalalarqoqpqpqpqpqpiGpopoarqrqspoqrqraraladfyadadhqahahahahahahahahahahahahahdodododododoaaaaaaaaadalalalaladaaaaaaaaaa
-fzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzfFfzfFfzfzfzfzfFfzfzfzfzfzfzfzfzfzfzfzadaealalamalalanadfzzIzIzIzIzIzIzIzIpPpFpPzIpIqtququququqtzIafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadfyadalalarqvqwqwqwqyqwarqzpoqAqBqBqCqBqBaraladfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaadoadalalalaladdodododoaa
-fzfzfzfFfzfFfzfzfzfzfFfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzfFfzfzfzfzfzfzfzadaealalamalalanadfzzIqEqFqGqKqLqUzIsdpFqZrarbrcpPrdrcpPrezIafaffzfzaffzfzfzfzfzdVfzfzfzfzfzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzaffzfzfzafaffzfzfzfzaffzfzfzfzfzdVfzfzfzfzfzfzfzfzfzfzafafadaealalamalalanadfyadalalarararararararrfpopopopopopopopoaraladfyadadhqahahahahahahahahahahahahahaaaaaaaaaadododododoadalalalaladdowbdodoaa
-fzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadalalalamalalanadfzzIqGqGqGqGqGqGzIrjpFrkpFpFpFpFpFpFpFpFzIafafdvdvqVdvdvdvgddvdvdvgddvdvdvdvdvfzafaffzALALALALALrlALrlALrlALALrmALALfzafaffzfzdvdvqVdvdvdvgddvdvdvgddvdvdvdvdvfzfzfzafafadaealalamalalanadfyadalaliGpopopopopopopopopopopopopopopoiGaladfyadadhqahahahahahahahahahahahahahaaaaaaaaaadododowbdoadalalalaladdodododoaa
-afafafafafafafafafafafafafafafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadalalalamalalanadfzzIzIzIrozIzIzIzIpPpFrkpFpFrcpPrdrcpPrdzIafafdvrpzGCAdvCgDeqWdvqWDeCgdvrqrrdvfzafaffzALrsrzALrDrErVrHrDrErIALfArJALfzafaffzfzdvrpzGCAdvCgDeqWdvqWDeCgdvrqrrdvfzfzfzafafadaealalamalalanuzfyadalalarpopopopoqrqrrKpoporKqBqBrLqBqBaraladfyadadhqahahahahahahahahahahahahahaadododododowbdododoadalalalaladdodododoaa
-afafafafafafafafafafafafafafafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadalalalamalalanadfzzIrMrNzKrOrPrPzIrQpFrkpFpFrcpPrdrcpPrezIafafdvrRzGrSdvrTDeDedvDeDerUdvrhridvfzafaffzrlrVrEALrWrWrWrWrWrWrWALfArXrlfzafaffzfzdvrRzGrSdvrTDeDedvDeDerUdvrhridvfzfzfzafafadaealalamalalanadfyadalalarqrrYqrqrrYqrarqzpoarrZsaposarZaralalpmadadhqahahahahahahahahahahahahahaadododododododododoadalalalaladdowbdodoaa
-fzfzfzfzfzafafafafafafafafafafafafafafafafafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzadalalalamalalanadfzzIsbzKzKzKzKsczIsdpFrkpFsesfsfpFpFpFpFzIafafdvrpzGzGdvdvdvqXdvqXdvdvdvCGdvdvfzafafaarlrWrWrmrWrWrWrWrWrWrWrmfAsgrlfzafaffzfzdvrpzGzGdvdvdvqXdvqXdvdvdvCGdvdvaffzfzafafadaealalamalalanadfyadalalararararararararariGarararararararaladfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaadalalalaladdodododoaa
-fzfzfFfzfzfzfzfzfzfzfzfzfzfzafafafafafafafafafafafaffzfzfzfzfzfzfzfzfzfzfzadalalalamalalanadfzzIzKAMzxshsizKsjpFpFrkskslslslzIsmzIsmzIafafdvzGzGzGDeCKDeDeDeDeDeCKDeDeDedvfzafaffzALsosoALrVrHzHsprVrEsqALfAsrALfzafaffzfzdvzGzGzGDeCKDeDeCKDeDeCKDeDessgdaffzfzafafadaealalamalalanadfyadalalalalalalalalalalalalalalalalalalalaladfyadadhqahahahahahahahahahahahahahaaaajgaaaaaaaaaaaaaaadalalalaladdodododoaa
-fzfzfzfzfzfzfzfzfzfzfzfzfzfzafafafafafafafafafafafafafafaffzfzfzfzfzfzfzfzadalalalamalalanadfzzIzzzKzKzKzKzKzIpFpFrkskstsusvzIswzIsyzIafafdvzGzwzGDexcDeDexcDeDexcDeDexcdvfzafaffzALALALALALrlALrlALrlALALALALALfzafaffzfzdvzGzwzGDexcDeDexcDeDexcDeDeszgdaffzfzafafadaealalamalalanadfyadalalalalalalalalalalalalalalalalalalalaladfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaadalalalaladdowbdoaaaa
-fzfzfzfzfFfzfzfzfzfzfzfFfzfzafaffFfzfzfzfzfzafafafafafafafafafaffzfzfzfzfzadalalalamalalanadfzzIsAzKsBsCzxzxzIsDpPsEsFslsGslzIsHzIsHzIafafdvdvgddvdvgddvdvgddvdvgddvdvgddvafafafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzdvdvgddvdvgddvdvgddvdvgddvdvgddvaffzfzafafadaealalamalalanadfyadadaladadadadadadadadadadadadadadadadaladuzfyadadhqahahahahahahahahahahahahahaadodododododoaaaaaaadalalalaladdododoaaaa
-fzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzafafafafafafafafafadalalalamalalanadfzzIzIsjzIzIzIzIzIzIsIsJzIzIzIzIzIzIzIzIzIafafafafafafafafafafafafafafafafafafafadadafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadiviwiweciwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiweciwiwizadadhqahahahahahahahahahahahahahaadowbdodododoaaaaaaadiMalalaladdododoaaaa
-fzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzfzfFfzfzfzfzfFfzfzfzfzfzfzafafafafafafadalalalamalalanadfzaaaaaasKsKsKsKsKaaaaaaaaCQaaaaaaaaaaaafzafafafafafafafafafafafafafafafafafafafsLadafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanuzadadadadadadadadadadadadadadadadadadadadadadadadadadhqahahahahahahahahahahahahahaaaadododododoaaaaaaadalalalaladdowbdoaaaa
-fzfzfzfFfzfzfzfzfzfFfzfFfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadaealalamalalanadaaCQaaaaCQaaaasKaaCQaaaaaaaaaaaaCQaaaaaaaaafaffzfzfzfzafaffzfzfzfzfzfzfzfzfzfzafafafaffzfzfzfzfzfzfzfzfzfzafaffzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadadadiOiOiOiOiOsMsMsMiOiOiOiOiOaaaaaaaaaaaaaaaadodoadalalalaladdododoaaaa
-adadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadadadafafdvdvgdgddvgdgddvdvgddvqXqXdvgddvdvgdgddvgdgddvdvafafadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadaduzadadadadadadadadadadadadadadadadadadadadadadaduzalalalaladaaaaaaaaaa
+fzfzararfzfzarararararararfzafaffzdvdvdvdvdvdvdvdvdvdvdvdvdvdvdvdvdvfzfzfzadaealalamalalanadfzfzfzfzfzfzfzfzzIpEpFrjzIpHpIpJpJpJpJpIpIpKaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadaealalamalalanadfyadalalarpLpLpLpLpLpLarariGarararararararaladfyadadhqahahahahahahahahahahahahahdodododododoaaaaaaaaadalalalaladaaaaaaaaaa
+fzfFaraaaaaauZuZuZarYgLJarfzafaffzdvEOOgSzSzdvSzSzTJdvSzSzNiSzSzTJdvfzfFfzadaealalamalalanadfzfzfzfzfzfzfzfzzIpPpFpPzIpIpQqeqgqhqkqmqnpKafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadfyadalalarqoqpqpqpqpqpiGpopoarqrqspoqrqraraladfyadadhqahahahahahahahahahahahahahdodododododoaaaaaaaaadalalalaladaaaaaaaaaa
+fzfzaruZaaaauZuZaaaruZuZarfzafaffzdvSzSzSzSzdvSzSzSzdvSzSzSzSzSzSzdvfzfzfzadaealalamalalanadfzzIzIzIzIzIzIzIzIpPpFpPzIpIqtququququqtzIafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadfyadalalarqvqwqwqwqyqwarqzpoqAqBqBqCqBqBaraladfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaadoadalalalaladdodododoaa
+fzfzarRvaaaauZuZararuZuZararafaffzSzSzSzSzSzdvTXSzSzdvSzSzSzSzdvdvdvdvdvfzadaealalamalalanadfzzIqEqFqGqKqLqUzIsdpFqZrarbrcpPrdrcpPrezIafaffzfzaffzfzfzfzfzdVfzfzfzfzfzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzaffzfzfzafaffzfzfzfzaffzfzfzfzfzdVfzfzfzfzfzfzfzfzfzfzafafadaealalamalalanadfyadalalarararararararrfpopopopopopopopoaraladfyadadhqahahahahahahahahahahahahahaaaaaaaaaadododododoadalalalaladdowbdodoaa
+fzfzaruZuZuZuZuZaruZuZuZuZarafaffzSzSzSzSzSzdvSzSzSzdvSzSzSzSzdvSzSzSzdvfzadalalalamalalanadfzzIqGqGqGqGqGqGzIrjpFrkpFpFpFpFpFpFpFpFzIafafdvdvqVdvdvdvgddvdvdvgddvdvdvdvdvfzafaffzALALALALALrlALrlALrlALALrmALALfzafaffzfzdvdvqVdvdvdvgddvdvdvgddvdvdvdvdvfzfzfzafafadaealalamalalanadfyadalaliGpopopopopopopopopopopopopopopoiGaladfyadadhqahahahahahahahahahahahahahaaaaaaaaaadododowbdoadalalalaladdodododoaa
+afafaruZuZuZuZuZuZuZuZuZuZuZafaffzdvTXSzSzSzdvSzSzdvdvdvSzSzdvdvSzSzSzSzalalalalalamalalanadfzzIzIzIrozIzIzIzIpPpFrkpFpFrcpPrdrcpPrdzIafafdvrpzGCAdvCgDeqWdvqWDeCgdvrqrrdvfzafaffzALrsrzALrDrErVrHrDrErIALfArJALfzafaffzfzdvrpzGCAdvCgDeqWdvqWDeCgdvrqrrdvfzfzfzafafadaealalamalalanuzfyadalalarpopopopoqrqrrKpoporKqBqBrLqBqBaraladfyadadhqahahahahahahahahahahahahahaadododododowbdododoadalalalaladdodododoaa
+afafariuiuiuuZuZuZuZuZuZuZuZafaffzdvSzSzSzSzSzSzSzSzSzSzSzSzNiSzSzSzSzSzalalalalalamalalanadfzzIrMrNzKrOrPrPzIrQpFrkpFpFrcpPrdrcpPrezIafafdvrRzGrSdvrTDeDedvDeDerUdvrhridvfzafaffzrlrVrEALrWrWrWrWrWrWrWALfArXrlfzafaffzfzdvrpzGrSdvrTDeDedvDeDerUdvrhridvfzfzfzafafadaealalamalalanadfyadalalarqrrYqrqrrYqrarqzpoarrZsaposarZaralalpmadadhqahahahahahahahahahahahahahaadododododododododoadalalalaladdowbdodoaa
+fzfzaruZuZuZuZuZuZuZiuuZwDarafafafdvdvdvSzSzSzSzSzSzSzSzSzSzSzSzSzSzSzSzalalalalalamalalanadfzzIsbzKzKzKzKsczIsdpFrkpFsesfsfpFpFpFpFzIafafdvrpzGzGdvdvdvqXdvqXdvdvdvCGdvdvfzafafaarlrWrWrmrWrWrWrWrWrWrWrmfAsgrlfzafaffzfzdvrpzGzGdvdvdvqXdvqXdvdvdvCGdvdvaffzfzafafadaealalamalalanadfyadalalararararararararariGarararararararaladfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaadalalalaladdodododoaa
+fzfzNcaaaaaauZuZuZuZiuuZuZararafafafafdvSzSzSzSzSzSzSzSzSzSzSzSzSzSzicdvfzadalalalamalalanadfzzIzKAMzxshsizKsjpFpFrkskslslslzIsmzIsmzIafafdvzGzGzGDeCKDeDeDeDeDeCKDeDeDedvfzafaffzALsosoALrVrHzHsprVrEsqALfAsrALfzafaffzfzdvzGzGzGDeCKDeDeDeDeDeCKDeDeCKgdaffzfzafafadaealalamalalanadfyadalalalalalalalalalalalalalalalalalalalaladfyadadhqahahahahahahahahahahahahahaaaajgaaaaaaaaaaaaaaadalalalaladdodododoaa
+fzOniuiuuZiuiuYMUoiuiuiuiuiuiuuBafafafdvSzicdvdvdvSzSzSzdvENSzSzSzSzSzdvfzadalalalamalalanadfzzIzzzKzKzKzKzKzIpFpFrkskstsusvzIswzIsyzIafafdvzGzwzGDexcDeDexcDeDexcDeDexcdvfzafaffzALALALALALrlALrlALrlALALALALALfzafaffzfzdvzGzwzGDexcDeDexcDeDexcDeDeszgdaffzfzafafadaealalamalalanadfyadalalalalalalalalalalalalalalalalalalalaladfyadadhqahahahahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaadalalalaladdowbdoaaaa
+fzfzaraaaaaaaauZuZuZiLuZuZuZaraffFfzfzdvSzEOdvENNiSzSzSzdvdvdvdvdvdvdvdvfzadalalalamalalanadfzzIsAzKsBsCzxzxzIsDpPsEsFslsGslzIsHzIsHzIafafdvdvgddvdvgddvdvgddvdvgddvdvgddvafafafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzafaffzfzdvdvgddvdvgddvdvgddvdvgddvdvgddvaffzfzafafadaealalamalalanadfyadadaladadadadadadadadadadadadadadadadaladuzfyadadhqahahahahahahahahahahahahahaadodododododoaaaaaaadalalalaladdododoaaaa
+fzfziuuZuZuZiuuZuZuZuZuZuZuZiuaffzfzfzdvOgOgdvOgSzSzSzSzdvfzfzfzfzfzfzfzfzadalalalamalalanadfzzIzIsjzIzIzIzIzIzIsIsJzIzIzIzIzIzIzIzIzIafafafafafafafafafafafafafafafafafafafadadafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanadiviwiweciwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiweciwiwizadadhqahahahahahahahahahahahahahaadowbdodododoaaaaaaadiMalalaladdododoaaaa
+fzfzjjjjhBhBjjjjjjjjjjjjjjjjjjaffzfzfzdvdvdvdvdvdvSzSzSzdvfzfzfzfzfzfzfzfzadalalalamalalanadfzaaaaaasKsKsKsKsKaaaaaaaaCQaaaaaaaaaaaafzafafafafafafafafafafafafafafafafafafafsLadafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafadaealalamalalanuzadadadadadadadadadadadadadadadadadadadadadadadadadadhqahahahahahahahahahahahahahaaaadododododoaaaaaaadalalalaladdowbdoaaaa
+fzfzfzfFfzfzfzfzfzfFfzfFfzfzafaffzfzfzfzfzfzfzfzfzalalalfzfzfzfzfzfzfzfzfzadaealalamalalanadaaCQaaaaCQaaaasKaaCQaaaaaaaaaaaaCQaaaaaaaaafaffzfzfzfzafaffzfzfzfzfzfzfzfzfzfzafafafaffzfzfzfzfzfzfzfzfzfzafaffzfzfzfzafaffzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzfzadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadadadiOiOiOiOiOsMsMsMiOiOiOiOiOaaaaaaaaaaaaaaaadodoadalalalaladdododoaaaa
+adadadadadadadadadadadadadadadadadadadadadadadadadalalaladadadadadadadadadadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadadadafafdvdvgdgddvgdgddvdvgddvqXqXdvgddvdvgdgddvgdgddvdvafafadadadadadadadadadadadadadadadadadadadadadadadadadadadadadadaealalamalalanadadadadadadadadadadadadadadadadadadadadadadadadadadaduzadadadadadadadadadadadadadadadadadadadadadadaduzalalalaladaaaaaaaaaa
 alalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalamalalalalalalalalalalalalalalalalalalalalalalalalalalalalalaladafafgdsNzNzNCKzNzNDedvzNCKDeDeCKzNdvDezNzNCKzNzNsOgdafafadalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalamalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalaliMalalalalalalaladaaaaaaaaaa
 alalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalamalalalalalalalalalalalalalalalalalalalalalalalalalalalalalaladafafgdsNsPsPsPsPsPDeqXDeDeDeDeDeDeqXDesPsPsPsPsPsOgdafafadalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalamalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalaladaaaaaajgaa
 alalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalamalalalalalalalalalalalalalalalalalalalalalalalalalalalalalaladafafdvsQsUsUsUsUsUDedvDeDeDeDeDeDedvDesUsUsUsUsUsWdvafafadalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalamalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalalaliMalalalalalalalalalalalaladaaaaaaaaaa
