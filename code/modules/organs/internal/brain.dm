@@ -16,7 +16,7 @@
 
 	var/can_use_mmi = TRUE
 	var/mob/living/carbon/brain/brainmob = null
-	var/const/damage_threshold_count = 10
+	var/const/damage_threshold_count = 60
 	var/damage_threshold_value
 	var/healed_threshold = 1
 	var/oxygen_reserve = 6

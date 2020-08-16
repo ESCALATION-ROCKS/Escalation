@@ -4,8 +4,8 @@
 	icon_name = "head"
 	name = "head"
 	slot_flags = SLOT_BELT
-	max_damage = 75
-	min_broken_damage = 35
+	max_damage = 150
+	min_broken_damage = 70
 	w_class = ITEM_SIZE_NORMAL
 	body_part = HEAD
 	parent_organ = BP_CHEST
@@ -20,7 +20,7 @@
 	var/eye_icon = "eyes_s"
 	var/eye_icon_location = 'icons/mob/human_face.dmi'
 
-	var/has_lips		
+	var/has_lips
 
 /obj/item/organ/external/head/get_agony_multiplier()
 	return (owner && owner.headcheck(organ_tag)) ? 1.50 : 1
