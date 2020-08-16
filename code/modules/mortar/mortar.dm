@@ -35,11 +35,11 @@
 	if (choice == "Cancel")
 		return
 	if (choice == "Target")	
-		var/temp_targ_x = input("Set longitude of strike from 0 to [world.maxx].") as num
+		var/temp_targ_x = input("Set longitude of strike.") as num
 		if(xdial + deobfuscate_x(temp_targ_x) > world.maxx || xdial + deobfuscate_x(temp_targ_x) < 0)
 			to_chat(user, "<span class='warning'>(You cannot aim at this coordinate, it is outside of the area of operations.</span>")
 			return
-		var/temp_targ_y = input("Set latitude of strike from 0 to [world.maxy].") as num
+		var/temp_targ_y = input("Set latitude of strike.") as num
 		if(ydial + deobfuscate_y(temp_targ_y) > world.maxy || ydial + deobfuscate_y(temp_targ_y) < 0)
 			to_chat(user, "<span class='warning'>(You cannot aim at this coordinate, it is outside of the area of operations.</span>")
 			return
@@ -359,6 +359,10 @@ obj/item/mortar_shell/frag
 	new /obj/item/mortar_shell/he(src)
 	new /obj/item/mortar_shell/he(src)
 	new /obj/item/mortar_shell/he(src)
+	new /obj/item/mortar_shell/he(src)
+	new /obj/item/mortar_shell/he(src)
+	new /obj/item/mortar_shell/frag(src)
+	new /obj/item/mortar_shell/frag(src)
 	new /obj/item/mortar_shell/frag(src)
 	new /obj/item/mortar_shell/frag(src)
 	new /obj/item/mortar_shell/frag(src)
@@ -370,6 +374,10 @@ obj/item/mortar_shell/frag
 	new /obj/item/mortar_shell/flare(src)
 	new /obj/item/mortar_shell/flare(src)
 	new /obj/item/mortar_shell/flare(src)
+	new /obj/item/mortar_shell/flare(src)
+	new /obj/item/mortar_shell/flare(src)
+	new /obj/item/mortar_shell/smoke(src)
+	new /obj/item/mortar_shell/smoke(src)
 	new /obj/item/mortar_shell/smoke(src)
 	new /obj/item/mortar_shell/smoke(src)
 	new /obj/item/mortar_shell/smoke(src)
