@@ -258,7 +258,6 @@
 	throw_range = 10
 	force = 5.0
 	flags =  CONDUCT
-	slot_flags = 0
 	fire_sound = 'sound/weapons/gunshot/rpg22.ogg'
 	release_force = 25
 	throw_distance = 40
@@ -338,7 +337,6 @@
 	throw_range = 10
 	force = 5.0
 	flags =  CONDUCT
-	slot_flags = 0
 	fire_sound = 'sound/weapons/gunshot/m72.wav'
 	release_force = 25
 	throw_distance = 40
