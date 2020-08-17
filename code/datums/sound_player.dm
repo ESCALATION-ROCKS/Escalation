@@ -27,22 +27,13 @@ var/decl/sound_player/sound_player = new()
 	taken_channels = list()
 	source_id_uses = list()
 
-//This can be called if either we're doing whole sound setup ourselves or it will be as part of from-file sound setup
-/decl/sound_player/proc/PlaySoundDatum(var/atom/source, var/sound_id, var/sound/sound, var/range, var/prefer_mute, var/ignore_vis = FALSE, var/streaming)
-	var/token_type = isnum_safe(sound.environment) ? /datum/sound_token : /datum/sound_token/static_environment
-	return new token_type(source, sound_id, sound, range, prefer_mute, ignore_vis, streaming)
+/decl/sound_player/proc/PlayLoopingSound(var/atom/source, var/sound_id, var/sound, var/volume, var/range, var/falloff, var/prefer_mute, var/ignore_vis = FALSE)
+	var/channel = PrivGetChannel(sound_id)
+	if(!channel)
+		log_warning("All available sound channels are in active use.")
+		return
 
-/decl/sound_player/proc/PlayLoopingSound(var/atom/source, var/sound_id, var/sound, var/volume, var/range, var/falloff = 1, var/echo, var/frequency, var/prefer_mute, var/ignore_vis = FALSE, var/streaming)
-	var/sound/S = istype(sound, /sound) ? sound : new(sound)
-	S.environment = 0 // Ensures a 3D effect even if x/y offset happens to be 0 the first time it's played
-	S.volume  = volume
-	S.falloff = falloff
-	S.echo = echo
-	S.frequency = frequency
-	S.repeat = TRUE
-	S.ignore_vis = ignore_vis
-
-	return PlaySoundDatum(source, sound_id, S, range, prefer_mute, ignore_vis, streaming)
+	return new/datum/sound_token(source, sound_id, sound, volume, channel, range, falloff, prefer_mute, ignore_vis)
 
 /decl/sound_player/proc/PrivStopSound(var/datum/sound_token/sound_token)
 	var/channel = sound_token.channel
@@ -242,9 +233,6 @@ datum/sound_token/proc/PrivAddListener(var/atom/listener)
 	S.volume = volume
 	S.status = status|listener_status[listener]|SOUND_UPDATE
 	sound_to(listener, S)
-
-/datum/sound_token/static_environment/PrivGetEnvironment()
-	return sound.environment
 
 /obj/sound_test
 	var/sound = 'sound/misc/TestLoop1.ogg'
