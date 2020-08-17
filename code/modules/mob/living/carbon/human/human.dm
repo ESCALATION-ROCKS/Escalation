@@ -1668,6 +1668,21 @@ var/list/rank_prefix = list(\
 	"Gunnery Sergeant" = "Gy. Sergeant",\
 	"First Sergeant" = "First Sergeant",\
 
+//usa
+	"First Lieutenant" = "1st Lieutenant",\
+	"Second Lieutenant" = "2nd Lieutenant.",\
+	"Sergeant First Class" = "Sergeant First Class"
+	"Staff Sergeant" = "Staff Sergeant",\
+	"Sergeant" = "Sergeant",\
+	"Corporal" = "Corporal",\
+	"Specialist" = "Specialist",\
+	"Private Second Class" = "2nd Private",\
+	"Private First Class" = "PFC",\
+
+	"Master Sergeant" = "Master Sergeant",\
+	"Gunnery Sergeant" = "Gy. Sergeant",\
+	"First Sergeant" = "First Sergeant",\
+
 //german
 	"Oberleutnant" = "Oberleutnant",\
 	"Feldwebel" = "Feldwebel",\

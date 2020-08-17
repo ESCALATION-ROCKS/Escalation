@@ -18,6 +18,10 @@
 			H.add_language(LANGUAGE_ENGLISH)
 			L = all_languages[LANGUAGE_ENGLISH]
 
+		if("usa")
+			H.add_language(LANGUAGE_ENGLISH)
+			L = all_languages[LANGUAGE_ENGLISH]
+
 		if("cccp")
 			H.add_language(LANGUAGE_RUSSIAN)
 			L = all_languages[LANGUAGE_RUSSIAN]
@@ -76,7 +80,7 @@
 	desc = "This is the languaged used by the Soviet Army."
 	colour = "russian"
 	key = "r"
-	syllables = list("ал", "ан", "бы", "ве", "во", "го", "де", "ел", "ен", "ер", "ет", "ка", "ко", "ла", "ли", "ло", "ль", "на", "не", "ни", "но", "ов", "ол", "он", "ор", "слог", "от", "по", "пр", "ра", "ре", "ро", "ст", "та", "те", "то", "ть", "ать", "был", "вер", "его", "ени", "енн", "ест", "как", "льн", "ова", "ого", "оль", "оро", "ост", "ото", "при", "про", "ста", "ств", "тор", "что", "это")
+	syllables = list("пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅпїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ", "пїЅпїЅпїЅ")
 
 /datum/language/escalation/czech
 	name = "Czech"
@@ -104,4 +108,4 @@
 	desc = "This is the languaged used by the Finnish Militaria."
 	colour = "finnish"
 	key = "f"
-	syllables = list("minд", "sinд", "hдn", "me", "te", "he", "tдmд", "tuo", "se", "nдmд", "nuo", "ne", "kuka", "mikд", "ken", "kumpi", "joka", "mikд", "toinen", "itse", "Ei", "Anteeksi", "Kiitos")
+	syllables = list("minпїЅ", "sinпїЅ", "hпїЅn", "me", "te", "he", "tпїЅmпїЅ", "tuo", "se", "nпїЅmпїЅ", "nuo", "ne", "kuka", "mikпїЅ", "ken", "kumpi", "joka", "mikпїЅ", "toinen", "itse", "Ei", "Anteeksi", "Kiitos")
