@@ -99,6 +99,7 @@ bdw_enlisted
 
 optimisticdude = {
 bdw_enlisted
+::all::
 }
 
 wildswan = {
@@ -638,3 +639,4 @@ bdw_enlisted
 zray3003 = {
 bdw_enlisted
 }
+

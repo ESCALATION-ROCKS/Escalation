@@ -1671,7 +1671,7 @@ var/list/rank_prefix = list(\
 //usa
 	"First Lieutenant" = "1st Lieutenant",\
 	"Second Lieutenant" = "2nd Lieutenant.",\
-	"Sergeant First Class" = "Sergeant First Class"
+	"Sergeant First Class" = "Sergeant First Class",\
 	"Staff Sergeant" = "Staff Sergeant",\
 	"Sergeant" = "Sergeant",\
 	"Corporal" = "Corporal",\
