@@ -108,8 +108,6 @@
 				user.drop_item()
 				I.loc = src
 				rockets += I
-				to_chat(user, "\blue You put the rocket in [src].")
-				to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
 				update_icon()
 		else
 			to_chat(user, "\red [src] cannot hold more rockets.")
@@ -139,7 +137,7 @@
 
 /obj/item/weapon/gun/launcher/smaw
 	name = "SMAW"
-	desc = "A grenade launcher, standard-issued by the Soviet Army."
+	desc = "A standard issue rocket launcher used by the United Stated Armed Forces."
 	icon_state = "smaw" ///change
 	item_state = "smaw" ///change
 	slowdown_general = 0.5
@@ -189,8 +187,6 @@
 				user.drop_item()
 				I.loc = src
 				rockets += I
-				to_chat(user, "\blue You put the rocket in [src].")
-				to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
 				update_icon()
 		else
 			to_chat(user, "\red [src] cannot hold more rockets.")

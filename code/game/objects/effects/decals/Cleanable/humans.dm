@@ -20,12 +20,14 @@ var/global/list/image/splatter_cache=list()
 	var/list/datum/disease2/disease/virus2 = list()
 	var/amount = 5
 	var/drytime
+	mouse_opacity = 0
 
 /obj/effect/decal/cleanable/blood/reveal_blood()
 	if(!fluorescent)
 		fluorescent = 1
 		basecolor = COLOR_LUMINOL
 		update_icon()
+		mouse_opacity = 0
 
 /obj/effect/decal/cleanable/blood/clean_blood()
 	fluorescent = 0
@@ -34,6 +36,7 @@ var/global/list/image/splatter_cache=list()
 		amount = 0
 		GLOB.processing_objects -= src
 	..(ignore=1)
+	mouse_opacity = 0
 
 /obj/effect/decal/cleanable/blood/hide()
 	return
@@ -178,6 +181,7 @@ var/global/list/image/splatter_cache=list()
 /obj/effect/decal/cleanable/blood/gibs
 	name = "gibs"
 	desc = "They look bloody and gruesome."
+	mouse_opacity = 0
 	gender = PLURAL
 	density = 0
 	anchored = 1
@@ -248,6 +252,7 @@ var/global/list/image/splatter_cache=list()
 	anchored = 1
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "mucus"
+	mouse_opacity = 0
 
 	var/list/datum/disease2/disease/virus2 = list()
 	var/dry=0 // Keeps the lag down

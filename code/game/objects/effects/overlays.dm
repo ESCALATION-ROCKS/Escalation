@@ -38,6 +38,7 @@
 	plane = OBJ_PLANE
 	layer = ABOVE_OBJ_LAYER
 	anchored = 1
+	mouse_opacity = 0
 
 
 /obj/effect/overlay/coconut

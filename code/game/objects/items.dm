@@ -452,12 +452,6 @@ var/list/global/slot_flags_enumeration = list(
 	if(src.anchored) //Object isn't anchored
 		to_chat(usr, "<span class='warning'>You can't pick that up!</span>")
 		return
-	if(!usr.hand && usr.r_hand) //Right hand is not full
-		to_chat(usr, "<span class='warning'>Your right hand is full.</span>")
-		return
-	if(usr.hand && usr.l_hand) //Left hand is not full
-		to_chat(usr, "<span class='warning'>Your left hand is full.</span>")
-		return
 	if(!istype(src.loc, /turf)) //Object is on a turf
 		to_chat(usr, "<span class='warning'>You can't pick that up!</span>")
 		return

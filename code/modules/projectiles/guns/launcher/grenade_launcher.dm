@@ -49,14 +49,12 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 		return
 	user.drop_from_inventory(G, src)
 	grenades.Insert(1, G) //add to the head of the list, so that it is loaded on the next pump
-	user.visible_message("\The [user] inserts \a [G] into \the [src].", "<span class='notice'>You insert \a [G] into \the [src].</span>")
 
 /obj/item/weapon/gun/launcher/grenade/proc/unload(mob/user)
 	if(grenades.len)
 		var/obj/item/weapon/grenade/G = grenades[grenades.len]
 		grenades.len--
 		user.put_in_hands(G)
-		user.visible_message("\The [user] removes \a [G] from [src].", "<span class='notice'>You remove \a [G] from \the [src].</span>")
 	else
 		to_chat(user, "<span class='warning'>\The [src] is empty.</span>")
 
@@ -130,12 +128,10 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 		return
 	user.drop_from_inventory(G, src)
 	chambered = G
-	user.visible_message("\The [user] load \a [G] into \the [src].", "<span class='notice'>You load \a [G] into \the [src].</span>")
 
 /obj/item/weapon/gun/launcher/grenade/underslung/unload(mob/user)
 	if(chambered)
 		user.put_in_hands(chambered)
-		user.visible_message("\The [user] removes \a [chambered] from \the[src].", "<span class='notice'>You remove \a [chambered] from \the [src].</span>")
 		chambered = null
 	else
 		to_chat(user, "<span class='warning'>\The [src] is empty.</span>")
@@ -202,7 +198,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	screen_shake = 1
 	release_force = 2
 	throw_distance = 40
-	slot_flags =  SLOT_HOLSTER | SLOT_BACK_GUN | SLOT_BACK 
+	slot_flags =  SLOT_HOLSTER | SLOT_BACK_GUN | SLOT_BACK
 	var/cover_opened = FALSE
 
 /obj/item/weapon/gun/launcher/grenade/hk69/Initialize()
@@ -223,26 +219,21 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 		return
 
 	if(!cover_opened)
-		to_chat(user, "<span class='warning'>[src]'s cover is closed! Open it first </span>")
 		return
 	if(chambered)
-		to_chat(user, "<span class='warning'>\The [src] is already loaded.</span>")
 		return
 
 	user.drop_from_inventory(G, src)
 	chambered = G
 	playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
-	user.visible_message("\The [user] load \a [G] into \the [src].", "<span class='notice'>You load \a [G] into \the [src].</span>")
 	update_icon()
 
 /obj/item/weapon/gun/launcher/grenade/hk69/unload(mob/user)
 	if(cover_opened)
-		to_chat(user, "<span class='warning'>[src]'s cover is closed! Open it first </span>")
 		playsound(src, 'sound/weapons/gunporn/m203_empty.wav', 50, 1)
 
 	if(chambered)
 		user.put_in_hands(chambered)
-		user.visible_message("\The [user] removes \a [chambered] from \the[src].", "<span class='notice'>You remove \a [chambered] from \the [src].</span>")
 		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
 		chambered = null
 		update_icon()
@@ -251,7 +242,6 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 
 /obj/item/weapon/gun/launcher/grenade/hk69/proc/toggle_cover(mob/user)
 	cover_opened = !cover_opened
-	to_chat(user, "<span class='notice'>You [cover_opened ? "open" : "close"] [src]'s cover.</span>")
 	playsound(src, 'sound/weapons/gunporn/m203_openbarrel.wav', 50, 1)
 	update_icon()
 
