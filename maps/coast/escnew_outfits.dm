@@ -381,7 +381,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/radio
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Radio Operator")
-	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
+	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/radioset/r105d

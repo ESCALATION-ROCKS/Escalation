@@ -160,9 +160,9 @@
 	rank = "First Lieutenant"
 
 /obj/item/clothing/accessory/insignia/bundeswehr/soldat
-	name = "Soldat insignia"
+	name = "Schutze insignia"
 	icon_state = "bdw_soldat"
-	rank = "Soldat"
+	rank = "Schutze"
 
 /obj/item/clothing/accessory/insignia/bundeswehr/gefr
 	name = "Gefreiter insignia"

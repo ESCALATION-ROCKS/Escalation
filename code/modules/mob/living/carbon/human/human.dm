@@ -1687,6 +1687,7 @@ var/list/rank_prefix = list(\
 	"Oberleutnant" = "Oberleutnant",\
 	"Feldwebel" = "Feldwebel",\
 	"Soldat" = "Soldat",\
+	"Schutze" = "Schutze",\
 	"Gefreiter" = "Gefreiter",\
 	"Stabsgefreiter" = "Stabsgefreiter",\
 	"Obergefreiter" = "Obergefreiter",\
