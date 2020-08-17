@@ -426,13 +426,15 @@
 /obj/item/weapon/storage/fancy/ammo_can/soviet/
 	var/sealed = 1
 
-/obj/item/weapon/storage/fancy/ammo_can/soviet/attack_hand(mob/user as mob)
-	return
-
 /obj/item/weapon/storage/fancy/ammo_can/soviet/MouseDrop()
 	if (sealed)
 		return
 	..()
+
+/obj/item/weapon/storage/fancy/ammo_can/soviet/New()
+	..()
+	slowdown_per_slot[slot_l_hand] = 2.5
+	slowdown_per_slot[slot_r_hand] = 2.5
 
 /obj/item/weapon/storage/fancy/ammo_can/soviet/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(sealed)
@@ -487,7 +489,7 @@
 	name = "ammo box (7.62x51mm)"
 	icon_state = "ammocannato"
 	startswith = list(
-		/obj/item/ammo_magazine/box/paper/box762x51 = 8
+		/obj/item/ammo_magazine/box/paper/box762x51 = 5
 		)
 
 /obj/item/weapon/storage/fancy/ammo_can/x762/New()
@@ -499,7 +501,7 @@
 	name = "ammo box (5.56x45mm)"
 	icon_state = "ammocan"
 	can_hold = /obj/item/ammo_magazine/box
-	startswith = list(/obj/item/ammo_magazine/box/paper/box556x45 = 8)
+	startswith = list(/obj/item/ammo_magazine/box/paper/box556x45 = 10)
 
 /obj/item/weapon/storage/fancy/ammo_can/x556/New()
 	..()
