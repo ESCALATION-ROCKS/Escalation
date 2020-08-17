@@ -109,6 +109,10 @@
 	icon_state = "usmc_lcpl_insignia"
 	rank = "Lance Corporal"
 
+/obj/item/clothing/accessory/insignia/usmc/spc
+	name = "Specialist insignia"
+	icon_state = "usmc_cpl_insignia"
+	rank = "Specialist"
 
 /obj/item/clothing/accessory/insignia/usmc/cpl
 	name = "Corporal insignia"
@@ -124,6 +128,11 @@
 	name = "Staff Sergeant insignia"
 	icon_state = "usmc_ssgt_insignia"
 	rank = "Staff Sergeant"
+
+/obj/item/clothing/accessory/insignia/usmc/sfc
+	name = "Sergeant First Class"
+	icon_state = "usmc_msgt_insignia"
+	rank = "Sergeant First class"
 
 /obj/item/clothing/accessory/insignia/usmc/msgt
 	name = "Master Sergeant insignia"

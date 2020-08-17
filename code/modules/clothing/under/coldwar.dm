@@ -27,11 +27,17 @@
 /obj/item/clothing/under/usmc/woodland/alt/cpl
 	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/cpl)
 
+/obj/item/clothing/under/usmc/woodland/alt/spc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/spc)
+
 /obj/item/clothing/under/usmc/woodland/alt/sgt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/sgt)
 
 /obj/item/clothing/under/usmc/woodland/alt/ssgt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/ssgt)
+
+/obj/item/clothing/under/usmc/woodland/alt/sfc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/sfc)
 
 /obj/item/clothing/under/usmc/woodland/alt/msgt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/msgt)

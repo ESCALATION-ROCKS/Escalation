@@ -156,6 +156,54 @@ Panzerabwehrschutze ATS:bund
 /datum/job/escalation/bund/bdwatasst
 @END@
 
+Squad Alpha:usa
+/datum/job/escalation/usmc/usasl
+/datum/job/escalation/usmc/usaftl
+/datum/job/escalation/usmc/usaftg
+/datum/job/escalation/usmc/usaftmg
+/datum/job/escalation/usmc/usafto
+/datum/job/escalation/usmc/usafto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usaftg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+@END@
+
+Squad Bravo:usmc
+/datum/job/escalation/usmc/usasl
+/datum/job/escalation/usmc/usaftl
+/datum/job/escalation/usmc/usaftg
+/datum/job/escalation/usmc/usaftmg
+/datum/job/escalation/usmc/usafto
+/datum/job/escalation/usmc/usafto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usaftg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+@END@
+
+Squad Charlie:usmc
+/datum/job/escalation/usmc/usasl
+/datum/job/escalation/usmc/usaftl
+/datum/job/escalation/usmc/usaftg
+/datum/job/escalation/usmc/usaftmg
+/datum/job/escalation/usmc/usafto
+/datum/job/escalation/usmc/usafto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usaftg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+@END@
+
+ATS-1:usmc
+/datum/job/escalation/usmc/usaatcom
+/datum/job/escalation/usmc/usaat
+/datum/job/escalation/usmc/usaata
+@END@
+
 Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
