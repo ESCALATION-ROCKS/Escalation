@@ -261,7 +261,7 @@ macro "macro"
 		command = "westface"
 	elem 
 		name = "West+REP"
-		command = ".fastWest"
+		command = ".moveleft"
 	elem 
 		name = "ALT+North"
 		command = "northfaceperm"
@@ -270,7 +270,7 @@ macro "macro"
 		command = "northface"
 	elem 
 		name = "North+REP"
-		command = ".fastNorth"
+		command = ".moveup"
 	elem 
 		name = "ALT+East"
 		command = "eastfaceperm"
@@ -279,7 +279,7 @@ macro "macro"
 		command = "eastface"
 	elem 
 		name = "East+REP"
-		command = ".fastEast"
+		command = ".moveright"
 	elem 
 		name = "ALT+South"
 		command = "southfaceperm"
@@ -288,7 +288,7 @@ macro "macro"
 		command = "southface"
 	elem 
 		name = "South+REP"
-		command = ".fastSouth"
+		command = ".movedown"
 	elem 
 		name = "Insert"
 		command = "a-intent right"
@@ -368,6 +368,12 @@ macro "macro"
 		name = "CTRL+Numpad8"
 		command = "body-toggle-head"
 	elem 
+		name = "CTRL+Add"
+		command = "move-upwards"
+	elem 
+		name = "CTRL+Subtract"
+		command = "move-down"
+	elem 
 		name = "F1"
 		command = "adminhelp"
 	elem 
@@ -403,12 +409,6 @@ macro "macro"
 	elem 
 		name = "F12"
 		command = "F12"
-	elem 
-		name = "CTRL+Add"
-		command = "move-upwards"
-	elem 
-		name = "CTRL+Subtract"
-		command = "move-down"
 
 macro "hotkeymode"
 	elem 
@@ -440,7 +440,7 @@ macro "hotkeymode"
 		command = "westface"
 	elem 
 		name = "West+REP"
-		command = ".fastWest"
+		command = ".moveleft"
 	elem 
 		name = "ALT+North"
 		command = "northfaceperm"
@@ -449,7 +449,7 @@ macro "hotkeymode"
 		command = "northface"
 	elem 
 		name = "North+REP"
-		command = ".fastNorth"
+		command = ".moveup"
 	elem 
 		name = "ALT+East"
 		command = "eastfaceperm"
@@ -458,7 +458,7 @@ macro "hotkeymode"
 		command = "eastface"
 	elem 
 		name = "East+REP"
-		command = ".fastEast"
+		command = ".moveright"
 	elem 
 		name = "ALT+South"
 		command = "southfaceperm"
@@ -467,7 +467,7 @@ macro "hotkeymode"
 		command = "southface"
 	elem 
 		name = "South+REP"
-		command = ".fastSouth"
+		command = ".movedown"
 	elem 
 		name = "Insert"
 		command = "a-intent right"
@@ -508,6 +508,9 @@ macro "hotkeymode"
 		name = "CTRL+A+REP"
 		command = ".moveleft"
 	elem 
+		name = "C"
+		command = "look-into-distance"
+	elem 
 		name = "D+REP"
 		command = ".moveright"
 	elem 
@@ -543,6 +546,9 @@ macro "hotkeymode"
 	elem 
 		name = "CTRL+J"
 		command = "toggle-gun-mode"
+	elem 
+		name = "O"
+		command = "ooc"
 	elem 
 		name = "Q"
 		command = ".northwest"
@@ -619,9 +625,6 @@ macro "hotkeymode"
 		name = "F2"
 		command = "ooc"
 	elem 
-		name = "O"
-		command = "ooc"
-	elem 
 		name = "F2+REP"
 		command = ".screenshot auto"
 	elem 
@@ -636,9 +639,6 @@ macro "hotkeymode"
 	elem 
 		name = "F5"
 		command = "asay"
-	elem 
-		name = "C"
-		command = "look-into-distance"
 	elem 
 		name = "F6"
 		command = "Player-Panel-New"
@@ -1027,7 +1027,6 @@ window "mapwindow"
 		is-visible = false
 		is-disabled = true
 		saved-params = ""
-		auto-format = false
 
 window "outputwindow"
 	elem "outputwindow"
@@ -1051,7 +1050,6 @@ window "outputwindow"
 		anchor2 = 100,100
 		is-visible = false
 		saved-params = ""
-		auto-format = false
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
@@ -1129,17 +1127,17 @@ window "rpane"
 		is-checked = true
 		group = "rpanemode"
 		button-type = pushbox
-	elem "infob"	
-		type = BUTTON	
-		pos = 130,0	
+	elem "infob"
+		type = BUTTON
+		pos = 130,0
 		size = 60x18
-		anchor1 = none	
-		anchor2 = none	
-		is-visible = false	
-		saved-params = "is-checked"	
-		text = "Info"	
-		command = ".winset \"rpanewindow.left=infowindow\""	
-		group = "rpanemode"	
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "is-checked"
+		text = "Info"
+		command = ".winset \"rpanewindow.left=infowindow\""
+		group = "rpanemode"
 		button-type = pushbox
 
 window "infowindow"
@@ -1163,3 +1161,4 @@ window "infowindow"
 		highlight-color = #00aa00
 		on-show = ".winset\"rpane.infob.is-visible=true;rpane.infob.pos=65,0 rpane.textb.is-visible=true rpane.infob.is-checked=true rpane.rpanewindow.pos=0,30 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=infowindow\""
 		on-hide = ".winset\"rpane.infob.is-visible=false;rpane.textb.is-visible=true rpane.rpanewindow.pos=0,30 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=\""
+
