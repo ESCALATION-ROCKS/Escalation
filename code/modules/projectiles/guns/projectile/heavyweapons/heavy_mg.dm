@@ -288,7 +288,7 @@
 //	handle_casings = REMOVE_CASINGS//replace in EJECT later after tests and balancing
 	caliber = "127x108mm"//fix caliber to
 	ammo_type = /obj/item/ammo_casing/a127x108mm
-	magazine_type = /obj/item/ammo_magazine/c127x108b
+	allowed_magazines = /obj/item/ammo_magazine/c127x108b
 	max_shells = 0
 
 	burst = 1
