@@ -198,7 +198,7 @@ Squad Charlie:usa
 /datum/job/escalation/usa/usafto
 @END@
 
-ATS-1:usmc
+ATS-1:usa
 /datum/job/escalation/usa/usaatcom
 /datum/job/escalation/usa/usaat
 /datum/job/escalation/usa/usaata

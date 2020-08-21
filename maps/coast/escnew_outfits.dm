@@ -984,8 +984,8 @@
 	name = OUTFIT_JOB_NAME("Coldwar - BDW Grenadier")
 	uniform = /obj/item/clothing/under/bundeswehr/olive/soldat
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
-	holster = /obj/item/weapon/storage/belt/holster/hk69
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3tgs
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
@@ -1482,15 +1482,14 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/sgt
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back = /obj/item/weapon/radioset/prc77
+	back = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
 	back_2 = /obj/item/weapon/storage/backpack/usmc_buttpack
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_ear = null
 	belt = /obj/item/weapon/storage/belt/harness/usmc
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
 
 /decl/hierarchy/outfit/job/coldwar/usa/ftleader/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1512,7 +1511,7 @@
 	l_pocket = /obj/item/weapon/masterkey/usmcsarge
 	r_pocket = /obj/item/weapon/maptool
 	l_ear = /obj/item/device/binoculars/nato
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usa/sl/pre_equip(mob/living/carbon/human/H)
