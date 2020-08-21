@@ -985,7 +985,7 @@
 	uniform = /obj/item/clothing/under/bundeswehr/olive/soldat
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3tgs
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
