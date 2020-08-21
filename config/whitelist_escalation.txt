@@ -60,74 +60,124 @@ brosephstylin = {
 
 #
 
-chaznoodles = {
-bund
+Yacobpo157 = {
+usa_officer
+usa_nco
+usa_enlisted
 }
 
-dantzy = {
-bund
+Dusanking123 = {
+usa_nco
+usa_enlisted
 }
 
-iliked0nuts = {
-bdw_nco
-bdw_enlisted
+Vivants = {
+usa_nco
+usa_enlisted
 }
 
-tristan63 = {
-bdw_enlisted
+FireNightPower = {
+usa_nco
+usa_enlisted
 }
 
-evenindeathistillserve = {
-bdw_enlisted
+LeeDoomer = {
+usa_enlisted
 }
 
-gy1ta23 = {
-bdw_enlisted
+EvenInDeathIStillServe = {
+usa_enlisted
 }
 
-jerman5 = {
-bdw_enlisted
+Bongosz = {
+usa_enlisted
 }
 
-sovietcyanide = {
-bdw_enlisted
+Ghostdex = {
+usa_enlisted
 }
 
-thespire = {
-bdw_enlisted
+Feweh = {
+usa_enlisted
+}
+
+Cabostein = {
+usa_enlisted
 }
 
 optimisticdude = {
-bdw_enlisted
-::all::
+usa_enlisted
 }
 
-wildswan = {
+BurnedSweetPotato = {
+usa_enlisted
+}
+
+Ugnip55 = {
+usa_enlisted
+}
+
+Drevenshekel = {
+usa_enlisted
+}
+
+LynuahSororitas = {
+usa_enlisted
+}
+
+Pahndoomak = {
+usa_enlisted
+}
+
+Captiajoe = {
+usa_enlisted
+}
+
+Demkova = {
+usa_enlisted
+}
+
+Tristan63 = {
+usa_enlisted
+}
+
+DavidStormwell = {
+usa_enlisted
+}
+
+ZanderDowdall = {
+usa_enlisted
+}
+
+KrautKutter = {
+usa_enlisted
+}
+
+Technokat = {
+usa_enlisted
+}
+
+IlikeD0nUts = {
+usa_enlisted
+}
+
+TeenGowen = {
+usa_enlisted
+}
+
+bobatnight = {
+usa_enlisted
+}
+
+shopenarthur = {
 bdw_enlisted
 }
 
-teengowen = {
+lunaman223 = {
 bdw_enlisted
 }
 
-subdon = {
-bdw_nco
-bdw_enlisted
-}
-
-killingspree13 = {
-bdw_enlisted
-}
-
-rippie129 = {
-bdw_enlisted
-}
-
-dusanking123 = {
-bdw_enlisted
-}
-
-thunderclap1265 = {
+toasterroboto = {
 bdw_enlisted
 }
 
@@ -135,53 +185,12 @@ burtyu = {
 bdw_enlisted
 }
 
-bongosz = {
-bdw_enlisted
-}
-
-shopenarthur = {
-bdw_enlisted
-}
-
-bekons = {
+wildwehraboo = {
 bdw_nco
 bdw_enlisted
 }
 
-yacobpo157 = {
-bdw_enlisted
-bdw_nco
-}
-
-boringcommunist = {
-bdw_enlisted
-}
-
-sweeperoftheskies = {
-bdw_enlisted
-}
-
-lynuahsororitas = {
-bdw_enlisted
-}
-
-technokat = {
-bdw_enlisted
-}
-
-pahndoomack = {
-bdw_enlisted
-}
-
-punkinguy = {
-bdw_enlisted
-}
-
-taumanta = {
-bdw_enlisted
-}
-
-cash7800 = {
+silencedmp5a5 = {
 bdw_enlisted
 }
 
@@ -194,15 +203,11 @@ eskjjlj = {
 bdw_enlisted
 }
 
-executorpartner = {
+gy1ta23 = {
 bdw_enlisted
 }
 
-jglitch = {
-bdw_enlisted
-}
-
-xxunderbyxx = {
+passagier = {
 bdw_enlisted
 }
 
@@ -210,7 +215,15 @@ petwir = {
 bdw_enlisted
 }
 
-demkova = {
+greengasblaster = {
+bdw_enlisted
+}
+
+sylvinseik = {
+bdw_enlisted
+}
+
+asskek = {
 bdw_enlisted
 }
 
@@ -218,92 +231,11 @@ ssgtbr = {
 bdw_enlisted
 }
 
-captiajoe = {
-bdw_enlisted
-}
-
-cesiumshark = {
-bdw_nco
-bdw_enlisted
-}
-
-firenightpower = {
-bdw_enlisted
-}
-
-spikeops = {
-bdw_enlisted
-}
-
-abloobloo = {
-bdw_enlisted
-}
-
-silencedmp5a5 = {
-bdw_enlisted
-}
-
-wildwehraboo = {
-bdw_enlisted
-}
-
-zach666 = {
-bdw_enlisted
-}
-
-szczybrzyn = {
-bdw_enlisted
-}
-
-torn223 = {
-bund
-}
-
-ajs3009 = {
-bdw_enlisted
-}
-
-lunaman223 = {
-bdw_enlisted
-}
-
-angryboar = {
-bdw_enlisted
-}
-
-toasterroboto = {
-bdw_enlisted
-}
-
-yarnhut = {
-bdw_enlisted
-}
-
-jojigoatnerd = {
-bdw_enlisted
-}
-
-aeorockin36 = {
-bdw_enlisted
-}
-
-blarghfuzz = {
-bdw_enlisted
-}
-
 komkommer = {
 bdw_enlisted
 }
 
-demdisco = {
-bdw_enlisted
-}
-
-dreadlord56 = {
-bdw_enlisted
-}
-
-ghostdex = {
+sovietcyanide = {
 bdw_enlisted
 }
 
@@ -311,332 +243,6 @@ bonelessjuice = {
 bdw_enlisted
 }
 
-lautaroluna180 = {
+julwaters= {
 bdw_enlisted
 }
-
-pepefrog = {
-bdw_enlisted
-}
-
-asbestosman = {
-bdw_enlisted
-}
-
-silanus = {
-bdw_enlisted
-}
-
-Somefekinfag = {
-sa_officer
-sa_nco
-sa_enlisted
-}
-
-NazbolGang = {
-sa_officer
-sa_nco
-sa_enlisted
-}
-
-theflyingbananagaming = {
-sa_nco
-sa_enlisted
-}
-
-Biscuitsakimbo = {
-sa_nco
-sa_enlisted
-}
-
-Dudeman100 = {
-sa_nco
-sa_enlisted
-}
-
-Nicnat = {
-sa_enlisted
-}
-
-Gentlemanly Headcrab = {
-sa_enlisted
-}
-
-HeavenDIO = {
-sa_enlisted
-}
-
-
-battieralarm3 = {
-sa_enlisted
-}
-
-NewOriginalSchwann = {
-sa_enlisted
-}
-
-Broseph Stylin = {
-sa_nco
-sa_enlisted
-}
-
-Excitant = {
-sa_enlisted
-}
-
-LeonidZurnadzhi = {
-sa_enlisted
-}
-
-skitarius = {
-sa_enlisted
-}
-
-cesarjunior223 = {
-sa_enlisted
-}
-
-shadence = {
-sa_enlisted
-}
-
-AlexanderG5 = {
-sa_enlisted
-}
-
-Jay Burns = {
-sa_enlisted
-}
-
-Very Nise Persin = {
-sa_enlisted
-}
-
-Grizzly55 = {
-sa_enlisted
-}
-
-Nbveh123 = {
-sa_enlisted
-}
-
-YourDaddy117 = {
-sa_enlisted
-}
-
-Shmesser = {
-sa_enlisted
-}
-
-Freiwillige = {
-sa_enlisted
-}
-
-Villeri = {
-sa_enlisted
-}
-
-teknoacid = {
-sa_enlisted
-}
-
-Gabopwn = {
-sa_enlisted
-}
-
-RuskiAF = {
-sa_enlisted
-}
-
-Solartwin = {
-sa_enlisted
-}
-
-Djorgomush = {
-sa_enlisted
-}
-
-KyubeyQB = {
-sa_enlisted
-}
-
-_Haifisch_ = {
-sa_enlisted
-}
-
-Paket228 = {
-sa_enlisted
-}
-
-oddbomber3768 = {
-sa_enlisted
-}
-
-DasGutStuff = {
-sa_enlisted
-}
-
-Buppis = {
-sa_enlisted
-}
-
-Quickload = {
-nvaddr
-}
-
-kyrac = {
-nvaddr
-}
-
-Texicos = {
-ddr_enlisted
-}
-
-Manny Pardo = {
-ddr_enlisted
-ddr_nco
-}
-
-DerpyMcDerpDerp = {
-ddr_enlisted
-ddr_nco
-}
-
-Wigglesworth Jones = {
-ddr_enlisted
-}
-
-TheManWhoSoldTheHorns = {
-ddr_enlisted
-}
-
-Boltersam = {
-ddr_enlisted
-}
-
-Kingdj1234 = {
-ddr_enlisted
-}
-
-dreadweaver = {
-ddr_enlisted
-}
-
-TheNewOrleans = {
-ddr_enlisted
-}
-
-nanu308 = {
-ddr_enlisted
-bdw_enlisted
-}
-
-Oshibka = {
-ddr_enlisted
-ddr_nco
-}
-
-epicdwarf = {
-ddr_enlisted
-}
-
-PopeFrank = {
-ddr_enlisted
-}
-
-Croskiller119 = {
-ddr_enlisted
-}
-
-Loafe = {
-ddr_enlisted
-}
-
-Robotic Potato = {
-ddr_enlisted
-}
-
-DeadLantern = {
-ddr_enlisted
-}
-
-Lol18 = {
-ddr_enlisted
-}
-
-BornToKill946 = {
-ddr_enlisted
-}
-
-DefinitelyAlone0309 = {
-ddr_enlisted
-}
-
-ComePantalones = {
-ddr_enlisted
-}
-
-Volcorb = {
-ddr_enlisted
-}
-
-Verarch = {
-ddr_enlisted
-}
-
-AlienFromTerra = {
-ddr_enlisted
-ddr_nco
-}
-starshiptroopersisawesome = {
-::ALL::
-}
-
-AdmiralKolchak = {
-::ALL::
-}
-
-bobcool = {
-ddr_enlisted
-}
-
-grizzley55 = {
-sa_enlisted
-}
-
-
-kosovar = {
-bdw_enlisted
-}
-
-
-ugnip55 = {
-bdw_enlisted
-}
-
-realmagnum = {
-bdw_enlisted
-}
-
-cesarjunior233 = {
-::ALL::
-}
-
-Rogueguy = {
-::All::
-sa_enlisted
-}
-
-
-MacarioCR = {
-::ALL::
-}
-
-asskek = {
-bdw_enlisted
-}
-
-zray3003 = {
-bdw_enlisted
-}
-
