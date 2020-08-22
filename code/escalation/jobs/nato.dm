@@ -568,7 +568,7 @@
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/corpsman
 	selection_color = "#4682B4"
 	position = "team"
-	amount = 7
+	amount = 4
 	rank_number = 2
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
@@ -914,7 +914,7 @@
 	selection_color = "#B0C4DE"
 	position = "team"
 	enabled = 1
-	amount = 3
+	amount = 4
 	whitelist_rank = "usa_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
 
