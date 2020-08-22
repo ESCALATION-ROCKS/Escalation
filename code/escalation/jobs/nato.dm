@@ -870,7 +870,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/ratelo
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/rto
 	selection_color = "#B0C4DE"
 	amount = 1
 	enabled = 1

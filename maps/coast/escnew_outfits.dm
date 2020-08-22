@@ -656,13 +656,13 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back = /obj/item/weapon/radioset/prc77
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
 	back_2 = /obj/item/weapon/storage/backpack/usmc_buttpack
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_ear = null
 	belt = /obj/item/weapon/storage/belt/harness/usmc
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 
 /decl/hierarchy/outfit/job/coldwar/usmc/ftleader/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1427,13 +1427,14 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/sgt
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	back_2 = /obj/item/weapon/gun/launcher/smaw
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
-	back = /obj/item/weapon/gun/launcher/smaw
+	back = /obj/item/weapon/storage/backpack/alice/large
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	belt = /obj/item/weapon/storage/belt/harness/usmc
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 
 /decl/hierarchy/outfit/job/coldwar/usmc/atgunner/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1445,13 +1446,14 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	back_2 = /obj/item/weapon/storage/backpack/alice/large
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
 	back = /obj/item/weapon/gun/launcher/smaw
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	belt = /obj/item/weapon/storage/belt/harness/usmc
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 
 /decl/hierarchy/outfit/job/coldwar/usa/atgunner/pre_equip(mob/living/carbon/human/H)
 	..()
