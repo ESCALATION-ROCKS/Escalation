@@ -54,9 +54,9 @@
 
 
 /obj/item/weapon/gun/projectile/consume_next_projectile(mob/user)
-//	if(!is_jammed && prob(jam_chance))
-//		src.visible_message("<span class='danger'>\The [src] jams!</span>")
-//		is_jammed = 1
+	if(!is_jammed && prob(jam_chance))
+		src.visible_message("<span class='danger'>\The [src] jams!</span>")
+		is_jammed = 1
 	if(is_jammed)
 		return null
 	//get the next casing
