@@ -69,7 +69,7 @@
 	one_hand_penalty = 5
 	accuracy = 2.5
 	wielded_item_state = "ak74-wielded"
-	jam_chance = 0.575
+	jam_chance = 0.285
 	slowdown_general = 0.25
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
 	bayonet_attachable = 1
@@ -80,7 +80,7 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
 	
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.5,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="semiauto",     burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,         dispersion=list(0.0, 0.15, 0.30),                         automatic = 0),
 		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=2, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.5),                     automatic = 0.5),
 		)
 	
@@ -123,7 +123,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 2.3
-	jam_chance = 0.575
+	jam_chance = 0.285
 	slowdown_general = 0.15
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
 	bayonet_attachable = 1
@@ -135,7 +135,7 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=4.5,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="semiauto",      burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,            dispersion=list(0.0, 0.15, 0.30),              automatic = 0),
 		list(mode_name="automatic",     burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.6),                     automatic = 0.5),
 		)
 
@@ -163,7 +163,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 2.1
-	jam_chance = 0.575
+	jam_chance = 0.285
 	slowdown_general = 0.15
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
 	bayonet_attachable = 1
@@ -216,7 +216,7 @@
 	var/obj/item/weapon/gun/launcher/grenade/underslung/gp25/launcher
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="semiauto",     burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,           dispersion=list(0.0, 0.15, 0.30),                          automatic = 0),
 		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=2, one_hand_penalty=6, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.5),                      automatic = 0.5),
 		)
 
@@ -285,7 +285,7 @@
 	accuracy = 3.3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 	bayonet_attachable = 1
-	jam_chance = 0.9
+	jam_chance = 0.435
 	slowdown_general = 0.25
 	wielded_item_state = "m16-wielded"
 	fire_sound = 'sound/weapons/gunshot/m16.ogg'
@@ -294,7 +294,7 @@
 	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.wav'
 	firemodes = list(
-		list(mode_name="semiauto",       burst=1, fire_delay=4.7,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,       dispersion=null),
+		list(mode_name="semiauto",       burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.15, 0.20)),
 		list(mode_name="3-round bursts", burst=3, fire_delay=1.5,    move_delay=2,    one_hand_penalty=5, burst_accuracy=list(2,1,1),   dispersion=list(0.1, 0.3, 0.4)),
 		)
 
@@ -367,7 +367,7 @@
 	accuracy = 3.3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 	bayonet_attachable = 1
-	jam_chance = 0.875
+	jam_chance = 0.425
 	slowdown_general = 0.25
 
 	wielded_item_state = "m16-wielded"
@@ -378,7 +378,7 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.7,  move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="semiauto",     burst=1, burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.15, 0.20)),
 		list(mode_name="automatic",    burst=1, fire_delay=0.9,  move_delay=2,    one_hand_penalty=5, burst_accuracy = null,            dispersion=list(0.2, 0.3, 0.4),                automatic = 0.9),
 		)
 
@@ -445,7 +445,7 @@
 	one_hand_penalty = 4
 	bayonet_attachable = 1
 	accuracy = 3.2
-	jam_chance = 0.875
+	jam_chance = 0.425
 	slowdown_general = 0.27
 	wielded_item_state = "m16gl-wielded"
 	fire_sound = 'sound/weapons/gunshot/m16.ogg'
@@ -458,7 +458,7 @@
 	var/obj/item/weapon/gun/launcher/grenade/underslung/m203/launcher
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.4,  move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="semiauto",     burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.15, 0.20)),
 		list(mode_name="automatic",    burst=1, fire_delay=0.9,  move_delay=2,    one_hand_penalty=6, burst_accuracy = null,            dispersion=list(0.2, 0.3, 0.4),           automatic = 0.9),
 		)
 
@@ -529,7 +529,7 @@
 	screen_shake = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
-	jam_chance = 0.725
+	jam_chance = 0.360
 	slowdown_general = 0.27
 	wielded_item_state = "g3a3-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
@@ -539,7 +539,7 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=7,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0),
+		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=list(0.0, 0.10, 0.20, 0.30),           automatic = 0),
 		list(mode_name="automatic",    burst=1, fire_delay=0.4,  move_delay=3,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.5, 0.6, 0.9),         automatic = 0.4)
 		)
 
@@ -581,7 +581,7 @@
 	accuracy = 3.8
 	bayonet_attachable = 0
 	screen_shake = 1
-	jam_chance = 0.725
+	jam_chance = 0.360
 	slowdown_general = 0.3
 
 	wielded_item_state = "g3tgs-wielded"
@@ -950,7 +950,7 @@
 	accuracy = 2.5
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
 	bayonet_attachable = 1
-	jam_chance = 0.575
+	jam_chance = 0.285
 	slowdown_general = 0.25
 	wielded_item_state = "mpik74-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -997,7 +997,7 @@
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	jam_chance = 0.575
+	jam_chance = 0.285
 	slowdown_general = 0.27
 
 	var/use_launcher = FALSE
@@ -1074,7 +1074,7 @@
 	fire_delay = 2
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
 	bayonet_attachable = 1
-	jam_chance = 0.575
+	jam_chance = 0.285
 	slowdown_general = 0.15
 
 	wielded_item_state = "aks-wielded"
@@ -1115,7 +1115,7 @@
 	accuracy = 2.1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
 	bayonet_attachable = 0
-	jam_chance = 0.575
+	jam_chance = 0.285
 	slowdown_general = 0.15
 
 	wielded_item_state = "aks-wielded"
