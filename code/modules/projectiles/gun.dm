@@ -195,6 +195,9 @@
 	else
 		return ..() //Pistolwhippin'
 
+/obj
+	var/last_fire_time = 0
+
 /obj/item/weapon/gun/proc/Fire(atom/target, mob/living/user, clickparams, pointblank=0, reflex=0)
 	if(!user || !target) return
 	if(target.z != user.z) return
@@ -203,6 +206,12 @@
 
 	if(!special_check(user))
 		return
+
+	if(world.time < last_fire_time + fire_delay)
+		to_chat(user, "<span class='warning'>[src] is not ready to fire again!</span>")
+		return
+
+	last_fire_time = world.time
 
 	if(world.time < next_fire_time)
 		if (world.time % 3) //to prevent spam

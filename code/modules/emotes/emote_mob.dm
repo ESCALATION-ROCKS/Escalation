@@ -4,7 +4,13 @@
 /mob/living/can_emote(var/emote_type)
 	return (..() && !(silent && emote_type == AUDIBLE_MESSAGE))
 
+/mob
+	var/last_emote_time = 0
+
 /mob/proc/emote(var/act, var/m_type, var/message)
+	if(world.time < last_emote_time + 1 SECOND)
+		return
+	last_emote_time = world.time
 	// s-s-snowflake
 	if(src.stat == DEAD && act != "deathgasp")
 		return

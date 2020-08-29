@@ -9,6 +9,7 @@
 	log_proc = /proc/log_say
 	mute_setting = MUTE_DEADCHAT
 	show_preference_setting = /datum/client_preference/show_dsay
+	var/last_message_time = 0
 
 /decl/communication_channel/dsay/communicate(communicator, message, speech_method = /decl/dsay_communication/say)
 	..()
@@ -22,6 +23,9 @@
 			return ..()
 
 /decl/communication_channel/dsay/do_communicate(var/client/communicator, var/message, var/speech_method_type)
+	if(world.time < last_message_time + 1 SECOND)
+		return
+	last_message_time = world.time
 	var/decl/dsay_communication/speech_method = decls_repository.get_decl(speech_method_type)
 
 	speech_method.adjust_channel(src)
