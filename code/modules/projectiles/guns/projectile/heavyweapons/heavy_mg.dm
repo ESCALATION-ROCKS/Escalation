@@ -270,15 +270,17 @@
 	caliber = "127x108mm"//fix caliber to
 	ammo_type = /obj/item/ammo_casing/a127x108mm
 	allowed_magazines = /obj/item/ammo_magazine/c127x108b
+	jam_chance = 0.3
+	accuracy = 0.8
 
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
 	fire_sound = 'sound/weapons/gunshot/nsv.ogg'
 	//i know it's kords sounds, but it is to booring to find and copy-paste URTES' sounds
 
 	firemodes = list(
-		list(mode_name="semiauto", burst=1, fire_delay=8.0, burst_delay = 8.0, burst_accuracy=null, dispersion=null),
-		list(mode_name="short bursts", burst=3, fire_delay=4.0, burst_delay = 1.0, burst_accuracy=list(1,0,-1), dispersion=list(0.3, 0.6, 0.6)),
-		list(mode_name="long bursts",   burst=5, fire_delay=4.0, burst_delay = 1.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
+		list(mode_name="semiauto", burst=1, fire_delay=7.2, burst_delay = null, burst_accuracy=null, dispersion=list(0.18)),
+		list(mode_name="short bursts", burst=3, fire_delay=1.5, burst_delay = 1.5, burst_accuracy=list(1,0,-1), dispersion=list(0.3, 0.6, 0.6)),
+		list(mode_name="long bursts",   burst=5, fire_delay=1.5, burst_delay = 1.5, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.9, 1.15, 1.35)),
 		)
 
 /obj/item/weapon/gun/projectile/heavy_mg/utes/update_icon()
@@ -357,11 +359,13 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
 	allowed_magazines = /obj/item/ammo_magazine/c50cal
 	fire_sound = 'sound/weapons/gunshot/m2hb.ogg'
+	jam_chance = 0.455
+	accuracy = 1.2
 
 	firemodes = list(
-		list(mode_name="semiauto",  burst=1, fire_delay=8.0, burst_delay = 8.0, burst_accuracy=null, dispersion=null),
-		list(mode_name="short bursts", burst=3, fire_delay=4.0, burst_delay = 1.0, burst_accuracy=list(1,0,-1),       dispersion=list(0.3, 0.6, 0.6)),
-		list(mode_name="long bursts",   burst=5, fire_delay=4.0, burst_delay = 1.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
+		list(mode_name = "semiauto", burst = 1, burst_delay = null, fire_delay = 7.8, burst_accuracy=null, dispersion =list(0.15)),
+		list(mode_name = "short bursts", burst = 3, burst_delay = 2.25, fire_delay = 2.25, burst_accuracy=list(1,0,-1), dispersion =list(0.3, 0.6, 0.6)),
+		list(mode_name = "long bursts", burst = 5, burst_delay = 2.25, fire_delay = 2.25, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.75, 0.85, 1.15)),
 		)
 
 /obj/item/weapon/gun/projectile/heavy_mg/m2/update_icon()
