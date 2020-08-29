@@ -25,6 +25,7 @@
 	caliber = "9mm"
 	slot_flags = 0//no flags for BIG GUNS
 	ammo_type = /obj/item/ammo_casing/c9mm//9mm shots hell NO, but for tests it's OK
+	jam_chance = 0.35
 
 	fire_sound = 'sound/weapons/gunshot/heavy_mg/basic-mg.ogg'
 
