@@ -1,6 +1,4 @@
 //you are not so stupid to attach bayonet to marksman riffles, aren't you? -- close quarters sniping
-/* Rifles should have a jam chance between 1 and 4 (scales in 100) */
-
 /obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped
 	name = "M21"
 	desc = "A standard-issue USMC marksman rifle."
@@ -10,7 +8,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	fire_delay = 4.5
 	wielded_item_state = "m21-wielded"
-	jam_chance = 2
+	jam_chance = 0.5
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.wav'
 	slowdown_general = 0.5
 
@@ -58,7 +56,7 @@
 	unload_sound = 'sound/weapons/gunporn/svd_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/svd_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/svd_boltback.ogg'
-	jam_chance = 2
+	jam_chance = 0.5
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.wav'
 	slowdown_general = 0.5
 
@@ -106,7 +104,7 @@
 	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
-	jam_chance = 4
+	jam_chance = 0.5
 	slowdown_general = 0.5
 
 	firemodes = list(
@@ -155,7 +153,7 @@
 	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
-	jam_chance = 0
+	jam_chance = 0.5
 	slowdown_general = 0.5
 
 	firemodes = list(
@@ -203,7 +201,7 @@
 	reload_sound = 'sound/weapons/gunporn/svd_magin.ogg'
 	cocked_sound = 'sound/weapons/flipblade.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
-	jam_chance = 2
+	jam_chance = 0.2
 	slowdown_general = 0.8
 
 	firemodes = list(

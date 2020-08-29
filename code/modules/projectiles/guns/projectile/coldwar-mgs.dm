@@ -1,7 +1,3 @@
-/* MACHINEGUNS NEED A JAMMING VALUE LESS THAN 1 !!!!!!!!!!!!!!!!!!!!!!!! */
-/* MACHINEGUNS NEED A JAMMING VALUE LESS THAN 1 !!!!!!!!!!!!!!!!!!!!!!!! */
-/* Or they become extremely scuffed and barely useable!!! */
-
 /obj/item/weapon/gun/projectile/automatic/vz59
 	name = "Vz. 59"
 	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x54 rounds."
@@ -22,7 +18,6 @@
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/mg_dist.wav'
-	jam_chance = 0.2
 	automatic = 0
 	slowdown_general = 0.8
 
@@ -100,7 +95,7 @@
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
-	jam_chance = 0.6
+	jam_chance = 0.1
 	dist_shot_sound = 'sound/weapons/gunshot/dist/mg_dist.wav'
 	slowdown_general = 0.8
 
@@ -174,7 +169,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x51b
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
-	jam_chance = 0.8
+	jam_chance = 0.2
 	slowdown_general = 0.8
 
 	wielded_item_state = "m60-wielded"
@@ -251,7 +246,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45s)
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
-	jam_chance = 0.6
+	jam_chance = 0.2
 	slowdown_general = 0.6
 
 	wielded_item_state = "m60-wielded"
@@ -424,7 +419,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x51b/en
 	one_hand_penalty = 9
 	automatic = FALSE
-	jam_chance = 0.6
+	jam_chance = 0.2
 	slowdown_general = 0.8
 
 	wielded_item_state = "vz59-wielded"
@@ -508,7 +503,7 @@
 	accuracy = 3
 	wielded_item_state = "rpk-wielded"
 	slowdown_general = 0.45
-	jam_chance = 0.6
+	jam_chance = 0.8
 
 	fire_sound = 'sound/weapons/gunshot/rpk74.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
@@ -551,7 +546,7 @@
 	accuracy = 3
 	wielded_item_state = "nvarpk-wielded"
 	slowdown_general = 0.45
-	jam_chance = 0.6
+	jam_chance = 0.8
 
 	fire_sound = 'sound/weapons/gunshot/akm.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak47_magout.wav'
@@ -593,7 +588,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x39d
 	one_hand_penalty = 9
 	automatic = FALSE
-	jam_chance = 0.4
+	jam_chance = 0.275
 	slowdown_general = 0.8
 
 	wielded_item_state = "rpd-wielded"
@@ -673,7 +668,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x39v
 	one_hand_penalty = 9
 	automatic = FALSE
-	jam_chance = 1
+	jam_chance = 0.25
 	slowdown_general = 0.8
 
 	wielded_item_state = "kk62-wielded"

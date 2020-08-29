@@ -24,7 +24,6 @@ mrgabol100 = {
 
 severepwnage = {
 ::ALL::
-nva_enlisted
 }
 
 dansemacabre = {
