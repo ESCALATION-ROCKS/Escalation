@@ -6,6 +6,7 @@
 	name = "disassembled stationary machinegun"
 	icon = 'icons/obj/stationary_guns.dmi'
 	icon_state = "basic-mg-disconnected"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = ITEM_SIZE_NO_CONTAINER
 	var/id_g = "bmg"
 	slowdown_general = 1.5
