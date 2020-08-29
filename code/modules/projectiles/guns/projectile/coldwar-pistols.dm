@@ -87,7 +87,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 5
+	jam_chance = 0.5
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 
@@ -114,7 +114,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 5
+	jam_chance = 0.5
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 	firemodes = list(
@@ -163,7 +163,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
-	jam_chance = 1
+	jam_chance = 0.1
 
 /obj/item/weapon/gun/projectile/colt911/update_icon()
 	..()
@@ -187,7 +187,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 2
+	jam_chance = 0.2
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/walther/update_icon()
@@ -212,7 +212,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 2
+	jam_chance = 0.2
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/lahti/update_icon()
@@ -237,7 +237,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 5
+	jam_chance = 0.5
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 
@@ -263,7 +263,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 2
+	jam_chance = 0.2
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/hipower/update_icon()

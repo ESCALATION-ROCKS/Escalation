@@ -91,6 +91,8 @@
 		var/turf/T = get_turf(target)
 		if(locate(/obj/machinery/optable, T))
 			. -= 0
+		else if(locate(/obj/structure/bed/roller, T))
+			. -= 0
 		else if(locate(/obj/structure/bed, T))
 			. -= 5
 		else if(locate(/obj/structure/table, T))
