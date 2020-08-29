@@ -960,8 +960,8 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.5,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=0.5,    move_delay=2, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.5),             automatic = 0.5),
+		list(mode_name="semiauto",     burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,         dispersion=list(0.0, 0.15, 0.30),                         automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=2, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.5),                     automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n/update_icon()
@@ -1004,8 +1004,8 @@
 	var/obj/item/weapon/gun/launcher/grenade/underslung/gp25/launcher
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=2, one_hand_penalty=6, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.5),             automatic = 0.5),
+		list(mode_name="semiauto",     burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,           dispersion=list(0.0, 0.15, 0.30),                          automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=2, one_hand_penalty=6, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.5),                      automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/New()
@@ -1085,9 +1085,10 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=4.5,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="semiauto",      burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,            dispersion=list(0.0, 0.15, 0.30),              automatic = 0),
 		list(mode_name="automatic",     burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.6),                     automatic = 0.5),
 		)
+
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n/update_icon()
 	..()
