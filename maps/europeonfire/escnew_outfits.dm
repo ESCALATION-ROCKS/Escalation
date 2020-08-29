@@ -229,10 +229,11 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	head = /obj/item/clothing/head/soviet/officer
 	l_pocket = /obj/item/weapon/masterkey/sovprapor
 	r_pocket = null
-	belt = /obj/item/weapon/storage/belt/harness/sa/
+	belt = /obj/item/weapon/storage/belt/sa
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zampolit
 	name = OUTFIT_JOB_NAME("Coldwar - Zampolit")
