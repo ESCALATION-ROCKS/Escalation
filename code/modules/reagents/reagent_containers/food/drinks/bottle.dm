@@ -458,6 +458,7 @@
 	amount_per_transfer_from_this = 5
 	icon_state = "campingtee"
 	center_of_mass = "x=16;y=12"
+	isGlass = 0
 	icon = 'icons/obj/food.dmi'
 	drop_sound = null
 
