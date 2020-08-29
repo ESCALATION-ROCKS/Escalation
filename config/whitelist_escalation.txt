@@ -382,3 +382,281 @@ sa_enlisted
 LeonidZurnadzhi = {
 sa_enlisted
 }
+
+cesiumshark = {
+bdw_officer
+bdw_nco
+bdw_enlisted
+}
+
+dantzy = {
+bdw_officer
+bdw_nco
+bdw_enlisted
+}
+
+bekons = {
+bdw_nco
+bdw_enlisted
+}
+
+taumanta = {
+bdw_enlisted
+}
+
+executorpartner = {
+bdw_enlisted
+}
+
+sweeperoftheskies = {
+bdw_enlisted
+}
+
+kosovar = {
+bdw_enlisted
+}
+
+stevan721 = {
+bdw_enlisted
+}
+
+zray3003 = {
+bdw_enlisted
+}
+
+chaznoodles = {
+bdw_enlisted
+}
+
+jglitch = {
+bdw_enlisted
+}
+
+subdon = {
+bdw_nco
+bdw_enlisted
+}
+
+killingspree13 = {
+bdw_enlisted
+}
+
+bobalobdob = {
+bdw_enlisted
+}
+
+rippie129 = {
+bdw_enlisted
+}
+
+zach666 = {
+bdw_enlisted
+}
+
+asbestosman = {
+bdw_enlisted
+}
+
+thunderclap1265 = {
+bdw_enlisted
+}
+
+lautaroluna180 = {
+bdw_enlisted
+}
+
+shopenarthur = {
+bdw_enlisted
+}
+
+toasterroboto = {
+bdw_enlisted
+}
+
+wildwehraboo = {
+bdw_nco
+bdw_enlisted
+}
+
+silencedmp5a5 = {
+bdw_enlisted
+}
+
+bardinatavern = {
+bdw_nco
+bdw_enlisted
+}
+
+eskjjlj = {
+bdw_enlisted
+}
+
+gy1ta23 = {
+bdw_enlisted
+}
+
+passagier = {
+bdw_enlisted
+}
+
+petwir = {
+bdw_enlisted
+}
+
+greengasblaster = {
+bdw_enlisted
+}
+
+sylvinseik = {
+bdw_enlisted
+}
+
+asskek = {
+bdw_enlisted
+}
+
+ssgt_br = {
+bdw_enlisted
+}
+
+komkommer = {
+bdw_enlisted
+}
+
+sovietcyanide = {
+bdw_enlisted
+}
+
+bonelessjuice = {
+bdw_enlisted
+}
+
+jul waters = {
+bdw_enlisted
+}
+
+dudo = {
+bdw_enlisted
+}
+
+ajs3009 = {
+bdw_enlisted
+}
+
+burtyu = {
+bdw_enlisted
+}
+
+dreadlord56 = {
+bdw_enlisted
+}
+
+
+Yacobpo157 = {
+usa_officer
+usa_nco
+usa_enlisted
+}
+
+Dusanking123 = {
+usa_nco
+usa_enlisted
+}
+
+Vivants = {
+usa_nco
+usa_enlisted
+}
+
+FireNightPower = {
+usa_nco
+usa_enlisted
+}
+
+LeeDoomer = {
+usa_enlisted
+}
+
+EvenInDeathIStillServe = {
+usa_enlisted
+}
+
+Bongosz = {
+usa_enlisted
+}
+
+Ghostdex = {
+usa_enlisted
+}
+
+Feweh = {
+usa_enlisted
+}
+
+Cabostein = {
+usa_enlisted
+}
+
+optimisticdude = {
+usa_enlisted
+}
+
+BurnedSweetPotato = {
+usa_enlisted
+}
+
+Ugnip55 = {
+usa_enlisted
+}
+
+Drevenshekel = {
+usa_enlisted
+}
+
+LynuahSororitas = {
+usa_enlisted
+}
+
+Pahndoomak = {
+usa_enlisted
+}
+
+Captiajoe = {
+usa_enlisted
+}
+
+Demkova = {
+usa_enlisted
+}
+
+Tristan63 = {
+usa_enlisted
+}
+
+DavidStormwell = {
+usa_enlisted
+}
+
+ZanderDowdall = {
+usa_enlisted
+}
+
+KrautKutter = {
+usa_enlisted
+}
+
+Technokat = {
+usa_enlisted
+}
+
+IlikeD0nUts = {
+usa_enlisted
+}
+
+TeenGowen = {
+usa_enlisted
+}
+
+bobatnight = {
+usa_enlisted
+}
