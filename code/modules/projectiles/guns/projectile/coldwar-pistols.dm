@@ -1,5 +1,7 @@
 
 //COLD WAR GUNS
+/* Pistols should have a jam chance between 1 and 4 (scales in 100) */
+
 /obj/item/weapon/gun/projectile/berettam9
 	name = "Beretta M9"  // DO NOT USE
 	desc = "That's a Beretta M9. Uses 9x19 ammunition."
@@ -114,7 +116,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.5
+	jam_chance = 1
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 	firemodes = list(
@@ -163,7 +165,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
-	jam_chance = 0.1
+	jam_chance = 4
 
 /obj/item/weapon/gun/projectile/colt911/update_icon()
 	..()
@@ -187,7 +189,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.2
+	jam_chance = 1
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/walther/update_icon()
@@ -212,7 +214,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.2
+	jam_chance = 1
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/lahti/update_icon()
@@ -263,7 +265,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.2
+	jam_chance = 0.5
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/hipower/update_icon()
