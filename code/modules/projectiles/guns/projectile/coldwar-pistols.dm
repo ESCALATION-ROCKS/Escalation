@@ -79,7 +79,7 @@
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
-	fire_delay = 1
+	fire_delay = 2.7
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x18
 	allowed_magazines = /obj/item/ammo_magazine/a9x18
@@ -87,7 +87,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.5
+	jam_chance = 0.9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 
@@ -106,7 +106,6 @@
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
-	fire_delay = 1
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x18b
 	allowed_magazines = /obj/item/ammo_magazine/a9x18b
@@ -114,12 +113,12 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.5
+	jam_chance = 1.15
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.2),                     automatic = 0.8),
+		list(mode_name="semiauto",     burst=1, fire_delay=2.9,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.3,  move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.5, 0.7, 0.8),                     automatic = 0.3),
 		)
 
 /obj/item/weapon/gun/projectile/aps/update_icon()
@@ -137,7 +136,7 @@
 	item_state = "gun"
 	w_class = 2
 	caliber = "9x18"
-	fire_delay = 1
+	fire_delay = 3
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/cz9x18
 	allowed_magazines = /obj/item/ammo_magazine/cz9x18
@@ -154,7 +153,7 @@
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = ".45"
-	fire_delay = 1
+	fire_delay = 3.7
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/c45m
 	allowed_magazines = /obj/item/ammo_magazine/c45m
@@ -163,7 +162,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
-	jam_chance = 0.1
+	jam_chance = 0.55
 
 /obj/item/weapon/gun/projectile/colt911/update_icon()
 	..()
@@ -179,7 +178,7 @@
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
-	fire_delay = 1
+	fire_delay = 3.1
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19
@@ -187,7 +186,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.2
+	jam_chance = 1
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/walther/update_icon()
@@ -204,7 +203,7 @@
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
-	fire_delay = 1
+	fire_delay = 3.5
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19
@@ -212,7 +211,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.2
+	jam_chance = 0.75
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/lahti/update_icon()
@@ -229,7 +228,7 @@
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
-	fire_delay = 1
+	fire_delay = 2.7
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x18
 	allowed_magazines = /obj/item/ammo_magazine/a9x18
@@ -237,7 +236,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.5
+	jam_chance = 0.9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 
@@ -255,7 +254,7 @@
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
-	fire_delay = 1
+	fire_delay = 3.2
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19b
 	allowed_magazines = /obj/item/ammo_magazine/a9x19b
@@ -263,7 +262,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.2
+	jam_chance = 0.65
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
 
 /obj/item/weapon/gun/projectile/hipower/update_icon()

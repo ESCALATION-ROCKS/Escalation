@@ -6,14 +6,13 @@
 	item_state = "m21"
 	accuracy = 5
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
-	fire_delay = 4.5
 	wielded_item_state = "m21-wielded"
-	jam_chance = 0.5
+	jam_chance = 0.6
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.wav'
 	slowdown_general = 0.5
 
 	firemodes = list(
-		list(mode_name="semiauto", burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
+		list(mode_name="semiauto", burst=1, fire_delay=8.5,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped/update_icon()
@@ -50,7 +49,6 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x54s
 	one_hand_penalty = 10
 	accuracy = 5
-	fire_delay = 4.5
 	fire_sound = 'sound/weapons/gunshot/svd.ogg'
 	wielded_item_state = "svd-wielded"
 	unload_sound = 'sound/weapons/gunporn/svd_magout.ogg'
@@ -61,7 +59,7 @@
 	slowdown_general = 0.5
 
 	firemodes = list(
-		list(mode_name="semiauto", burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
+		list(mode_name="semiauto", burst=1, fire_delay=7,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
 		)
 
 
@@ -95,21 +93,21 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
+	screen_shake = 1
 	one_hand_penalty = 5
-	accuracy = 4.5
-	fire_delay = 3
+	accuracy = 4.7
 	wielded_item_state = "g3sg1-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3sg1.ogg'
 	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
 	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
-	jam_chance = 0.5
+	jam_chance = 0.25
 	slowdown_general = 0.5
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=0.4,  move_delay=3,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.3, 0.6 ),         automatic = 0.4)
+		list(mode_name="semiauto",     burst=1, fire_delay=8,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.4,  move_delay=3,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.6, 0.8 ),         automatic = 0.4)
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3sg1/update_icon()
@@ -146,18 +144,17 @@
 	magazine_type = null
 	one_hand_penalty = 6
 	accuracy = 6
-	fire_delay = 5
 	wielded_item_state = "wa2000-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3sg1.ogg'
 	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
 	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
-	jam_chance = 0.5
+	jam_chance = 0.25
 	slowdown_general = 0.5
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
+		list(mode_name="semiauto",     burst=1, fire_delay=9,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
 	)
 /obj/item/weapon/gun/projectile/automatic/rifle/wa2000/update_icon()
 	..()
@@ -194,18 +191,17 @@
 	magazine_type = null
 	one_hand_penalty = 10
 	accuracy = 6
-	fire_delay = 12
 	wielded_item_state = "heavysniper-wielded"
 	fire_sound = 'sound/weapons/gunshot/m2hb.ogg' 
 	unload_sound = 'sound/weapons/gunporn/svd_magout.ogg' // NEED TO CHANGE SOUNDS
 	reload_sound = 'sound/weapons/gunporn/svd_magin.ogg'
 	cocked_sound = 'sound/weapons/flipblade.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
-	jam_chance = 0.2
+	jam_chance = 0.1
 	slowdown_general = 0.8
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
+		list(mode_name="semiauto",     burst=1, fire_delay=12,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
 	)
 /obj/item/weapon/gun/projectile/automatic/rifle/m82/update_icon()
 	..()
