@@ -1,11 +1,8 @@
-starshiptroopersisawesome - Host
-Turret_Drehturm - HeadDeveloper
+bundeswehr - Host
 cabostein - HeadDeveloper
 DanseMacabre - GameAdmin
 xlyana - GameAdmin
-Eskjjlj - Developer
-Toxici11i - Developer
 brosephstylin - Developer
-SeverePwnage - GameAdmin
+SeverePwnage - Moderator
 emoats18 - GameAdmin
 SilverSZ - GameAdmin
