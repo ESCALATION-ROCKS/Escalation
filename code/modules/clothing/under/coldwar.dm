@@ -19,37 +19,37 @@
 	worn_state = "usmcwoodland_alt"
 
 /obj/item/clothing/under/usmc/woodland/alt/pfc
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/pfc)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/pfc)
 
 /obj/item/clothing/under/usmc/woodland/alt/lcpl
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/lcpl)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/lcpl)
 
 /obj/item/clothing/under/usmc/woodland/alt/cpl
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/cpl)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/cpl)
 
 /obj/item/clothing/under/usmc/woodland/alt/spc
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/spc)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/spc)
 
 /obj/item/clothing/under/usmc/woodland/alt/sgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/sgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/sgt)
 
 /obj/item/clothing/under/usmc/woodland/alt/ssgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/ssgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/ssgt)
 
 /obj/item/clothing/under/usmc/woodland/alt/sfc
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/sfc)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/sfc)
 
 /obj/item/clothing/under/usmc/woodland/alt/msgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/msgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/msgt)
 
 /obj/item/clothing/under/usmc/woodland/alt/gysgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/gysgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/gysgt)
 
 /obj/item/clothing/under/usmc/woodland/alt/scndlt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/scndlt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/scndlt)
 
 /obj/item/clothing/under/usmc/woodland/alt/fstlt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/dogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt)
 
 //Bundeswehr
 
@@ -67,31 +67,31 @@
 	has_sensor = 0
 
 /obj/item/clothing/under/bundeswehr/olive/soldat
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/soldat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/soldat)
 
 /obj/item/clothing/under/bundeswehr/olive/gefr
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/gefr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/gefr)
 
 /obj/item/clothing/under/bundeswehr/olive/stabsgefr
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/stabsgefr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/stabsgefr)
 
 /obj/item/clothing/under/bundeswehr/olive/hauptgefr
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/hauptgefr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/hauptgefr)
 
 /obj/item/clothing/under/bundeswehr/olive/oberstabsgefr
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/oberstabsgefr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/oberstabsgefr)
 
 /obj/item/clothing/under/bundeswehr/olive/oberleutnant
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/oberleutnant)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/oberleutnant)
 
 /obj/item/clothing/under/bundeswehr/olive/leutnant
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/leutnant)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/leutnant)
 
 /obj/item/clothing/under/bundeswehr/olive/unter
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/unter)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/unter)
 
 /obj/item/clothing/under/bundeswehr/olive/stabsunter
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/bundeswehr/stabsunter)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/stabsunter)
 
 
 //Soviet Army
@@ -124,73 +124,73 @@
 	worn_state = "afghanka_demiseason_alt"
 
 /obj/item/clothing/under/soviet/habe/pvt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/pvt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/pvt)
 
 /obj/item/clothing/under/soviet/habe/gefr
-	starting_accessories = list( /obj/item/clothing/accessory/insignia/soviet/gefr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/gefr)
 
 /obj/item/clothing/under/soviet/habe/jsgt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/jsgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/jsgt)
 
 /obj/item/clothing/under/soviet/habe/sgt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/sgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/sgt)
 
 /obj/item/clothing/under/soviet/habe/ssgt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/ssgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/ssgt)
 
 /obj/item/clothing/under/soviet/habe/star
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/star)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/star)
 
 /obj/item/clothing/under/soviet/habe/mllt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/mllt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/mllt)
 
 /obj/item/clothing/under/soviet/habe/lt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/lt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/lt)
 
 /obj/item/clothing/under/soviet/habe/stlt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/stlt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/stlt)
 
 /obj/item/clothing/under/soviet/habe/prap
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/prap)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/prap)
 
 /obj/item/clothing/under/soviet/habe/stprap
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/stpr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/stpr)
 
 /obj/item/clothing/under/soviet/habe/cpt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/cpt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/cpt)
 
 /obj/item/clothing/under/soviet/afghanka/gefr
-	starting_accessories = list( /obj/item/clothing/accessory/insignia/soviet/gefr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/gefr)
 
 /obj/item/clothing/under/soviet/afghanka/jsgt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/jsgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/jsgt)
 
 /obj/item/clothing/under/soviet/afghanka/sgt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/sgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/sgt)
 
 /obj/item/clothing/under/soviet/afghanka/ssgt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/ssgt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/ssgt)
 
 /obj/item/clothing/under/soviet/afghanka/star
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/star)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/star)
 
 /obj/item/clothing/under/soviet/afghanka/mllt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/mllt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/mllt)
 
 /obj/item/clothing/under/soviet/afghanka/lt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/lt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/lt)
 
 /obj/item/clothing/under/soviet/afghanka/stlt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/stlt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/stlt)
 
 /obj/item/clothing/under/soviet/afghanka/prap
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/prap)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/prap)
 
 /obj/item/clothing/under/soviet/afghanka/stprap
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/stpr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/stpr)
 
 /obj/item/clothing/under/soviet/afghanka/cpt
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/soviet/cpt)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/cpt)
 
 
 
@@ -211,25 +211,25 @@
 	has_sensor = 0
 
 /obj/item/clothing/under/nvaddr/strichtarn/sold
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/nnaddr/soldat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/soldat)
 
 /obj/item/clothing/under/nvaddr/strichtarn/gefr
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/nnaddr/gefr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/gefr)
 
 /obj/item/clothing/under/nvaddr/strichtarn/obergefr
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/nnaddr/obergefr)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/obergefr)
 
 /obj/item/clothing/under/nvaddr/strichtarn/feldwebel
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/nnaddr/feldwebel)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/feldwebel)
 
 /obj/item/clothing/under/nvaddr/strichtarn/unter
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/nnaddr/unter)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/unter)
 
 /obj/item/clothing/under/nvaddr/strichtarn/unterfeldwebel
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/nnaddr/unterfeldwebel)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/unterfeldwebel)
 
 /obj/item/clothing/under/nvaddr/strichtarn/leutnant
-	starting_accessories = list(/obj/item/clothing/accessory/insignia/nnaddr/leutnant)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/leutnant)
 
 //Finnish Militaria
 
