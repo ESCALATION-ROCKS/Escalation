@@ -5,7 +5,6 @@
 /obj/item/weapon/mg_tripod
 	name = "stationary machinegun tripod"
 	icon = 'icons/obj/stationary_guns.dmi'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	icon_state = "basic-mg-tripod"
 	anchored = 0
 	density = 0
