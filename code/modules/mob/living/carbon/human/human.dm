@@ -1640,7 +1640,7 @@
 var/list/rank_prefix = list(\
 
 //sa
-	"Leitenant" = "Leytenant.",\
+	"Leitenant" = "Leytenant",\
 	"Starshina" = "Starshina",\
 	"Sergant" = "Serzhant",\
 	"Efreitor" = "Efreitor",\
@@ -1661,7 +1661,7 @@ var/list/rank_prefix = list(\
 	"Sergeant" = "Sergeant",\
 	"Corporal" = "Corporal",\
 	"Lance Corporal" = "Lance Corporal",\
-	"Private Second Class" = "2nd Private",\
+	"Private Second Class" = "PV2",\
 	"Private First Class" = "PFC",\
 
 	"Master Sergeant" = "Master Sergeant",\
@@ -1676,7 +1676,7 @@ var/list/rank_prefix = list(\
 	"Sergeant" = "Sergeant",\
 	"Corporal" = "Corporal",\
 	"Specialist" = "Specialist",\
-	"Private Second Class" = "2nd Private",\
+	"Private Second Class" = "PV2",\
 	"Private First Class" = "PFC",\
 
 	"Master Sergeant" = "Master Sergeant",\
