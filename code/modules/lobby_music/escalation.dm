@@ -4,12 +4,10 @@
 	title = Escalation Theme
 	song = 'sound/music/lobby.ogg'
 
-
 /lobby_music/escalation1
 	artist = "Hotline Miami 2 OST"
 	title = "Untitled"
 	song = 'sound/music/untitled.ogg'
-
 /lobby_music/escalation2
 	artist = "East vs. West OST"
 	title = "Water Vapour"
@@ -23,7 +21,7 @@
 */
 
 /lobby_music/escalation4
-	artist = "David Bowie"
+	artist = "Midge Ure"
 	title = "The Man Who Sold The World"
 	song = 'sound/music/soldworld.ogg'
 
@@ -31,3 +29,8 @@
 	artist = "Nena"
 	title = "99 Luftballons"
 	song = 'sound/music/luftballons.ogg'
+
+/lobby_music/escalation6
+	artist = "Judas Priest"
+	title = "You've Got Another Thing Coming"
+	song = 'sound/music/youvegotanotherthingcoming.ogg'
