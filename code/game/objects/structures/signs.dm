@@ -1304,6 +1304,12 @@ obj/structure/sign/noshitlers
 	icon_state = "westgerman_flag"
 	desc = "That's the West Germany flag."
 
+/obj/structure/sign/ass_flag
+	name = "Gabol portrait"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "assflag"
+	desc = "That's the portrait of the St. MrGabol100."
+
 /obj/structure/sign/usmc_flag
 	name = "USA flag"
 	icon = 'icons/obj/decorations.dmi'
