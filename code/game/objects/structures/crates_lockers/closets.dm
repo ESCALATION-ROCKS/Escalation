@@ -23,7 +23,7 @@
 	var/open_sound = 'sound/effects/closet_open.ogg'
 	var/close_sound = 'sound/effects/closet_close.ogg'
 
-	var/storage_types = CLOSET_STORAGE_ALL
+	var/storage_types = CLOSET_STORAGE_ITEMS
 	var/setup
 
 	// TODO: Turn these into flags. Skipped it for now because it requires updating 100+ locations...
