@@ -228,6 +228,7 @@ cccp_enlisted
 theflyingbananagaming = {
 cccp_nco
 cccp_enlisted
+sa_enlisted
 }
 
 Biscuitsakimbo = {
@@ -238,6 +239,7 @@ cccp_enlisted
 Dudeman100 = {
 cccp_nco
 cccp_enlisted
+sa_enlisted
 }
 
 Nicnat = {
@@ -284,6 +286,7 @@ sa_enlisted
 
 shadence = {
 sa_enlisted
+sa_nco
 }
 
 AlexanderG5 = {
@@ -316,6 +319,8 @@ sa_enlisted
 
 Freiwillige = {
 sa_enlisted
+nvaddr_enlisted
+::ALL::
 }
 
 Villeri = {
@@ -627,6 +632,7 @@ usa_enlisted
 
 Demkova = {
 usa_enlisted
+usa_nco
 }
 
 Tristan63 = {
@@ -647,6 +653,7 @@ usa_enlisted
 
 Technokat = {
 usa_enlisted
+cccp
 }
 
 IlikeD0nUts = {
@@ -660,3 +667,79 @@ usa_enlisted
 bobatnight = {
 usa_enlisted
 }
+
+bundeswehr = {
+cccp
+::ALL::
+}
+
+TeknoKot = {
+sa_nco
+sa_enlisted
+sa_officer
+}
+
+PepeFrog = {
+us_enlisted
+usa_enlisted
+usmc_enlisted
+}
+
+Vulcenus  = {
+us_enlisted
+usmc_enlisted
+usa_enlisted
+}
+
+
+
+
+
+
+
+
+SpicySalami = {
+usa_enlisted
+}
+
+cesarjunior233 = {
+sa_enlisted
+}
+
+derpymcderpderp = {
+usa_nco
+}
+
+ryhalaar = {
+usa_enlisted
+}
+
+
+
+Deathwing1 = {
+usa_enlisted
+}
+
+
+kaliaspergamon = {
+sa_enlisted
+}
+
+epicdwarf = {
+nva_enlisted
+nvaddr_enlisted
+::ALL::
+}
+
+
+
+yarnhut = {
+usa_enlisted
+}
+
+
+churchgrimm = {
+sa_enlisted
+}
+
+
