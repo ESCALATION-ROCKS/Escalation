@@ -217,6 +217,7 @@ Somefekinfag = {
 cccp_officer
 cccp_nco
 cccp_enlisted
+sa_officer
 }
 
 NazbolGang = {
@@ -229,6 +230,7 @@ theflyingbananagaming = {
 cccp_nco
 cccp_enlisted
 sa_enlisted
+sa_officer
 }
 
 Biscuitsakimbo = {
@@ -240,6 +242,7 @@ Dudeman100 = {
 cccp_nco
 cccp_enlisted
 sa_enlisted
+sa_nco
 }
 
 Nicnat = {
@@ -740,6 +743,17 @@ usa_enlisted
 
 churchgrimm = {
 sa_enlisted
+}
+
+
+
+
+tacticalpractical = {
+usa_enlisted
+}
+
+pcporterro = {
+usa_enlisted
 }
 
 
