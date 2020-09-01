@@ -53,7 +53,7 @@
 	icon_state = "40x103mmshells"
 	arm_sound = 'sound/weapons/grenlauncher.wav'
 
-/obj/item/weapon/grenade/frsmokebombag/vog25/attack_self(mob/user)
+/obj/item/weapon/grenade/smokebomb/vog25/attack_self(mob/user)
 	return
 
 /obj/item/weapon/grenade/smokebomb/nato
