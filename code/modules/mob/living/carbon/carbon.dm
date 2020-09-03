@@ -112,6 +112,21 @@
 
 	return
 
+/mob/proc/surrender()// Surrenders.
+	if(!incapacitated())
+		Stun(20)  // This is potentially bad?
+		Weaken(40) // This keeps them slow after surrenders.
+		visible_message("<span class='warning><b>[src] surrenders!</b></span>")
+		to_chat(src, "<span class='danger'>You surrender!</span>")
+
+/mob/living/carbon/proc/verb_surrender()
+
+	set category = "IC"
+	set name = "Surrender"
+	set desc = "Surrender yourself unto thy enemy."
+
+	src.surrender()
+
 /mob/living/carbon/electrocute_act(var/shock_damage, var/obj/source, var/siemens_coeff = 1.0, var/def_zone = null)
 	if(status_flags & GODMODE)	return 0	//godmode
 
