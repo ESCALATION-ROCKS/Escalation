@@ -136,7 +136,14 @@ proc/get_radio_key_from_channel(var/channel)
 		return "asks"
 	return verb
 
+/mob
+	var/last_say_time = 0
+
 /mob/living/say(var/message, var/datum/language/speaking = null, var/verb="says", var/alt_name="", whispering)
+	if(world.time < last_say_time + 1 SECOND)
+		return
+	last_say_time = world.time
+
 	if(client)
 		if(client.prefs.muted & MUTE_IC)
 			to_chat(src, "<span class='warning'>You cannot speak in IC (Muted).</span>")
@@ -284,11 +291,6 @@ proc/get_radio_key_from_channel(var/channel)
 
 	flick_overlay(speech_bubble, speech_bubble_recipients, 30)
 
-	for(var/obj/O in listening_obj)
-		spawn(0)
-			if(O) //It's possible that it could be deleted in the meantime.
-				O.hear_talk(src, message, verb, speaking)
-
 	if(whispering)
 		var/eavesdroping_range = 5
 		var/list/eavesdroping = list()
@@ -300,12 +302,6 @@ proc/get_radio_key_from_channel(var/channel)
 			if(M)
 				show_image(M, speech_bubble)
 				M.hear_say(stars(message), verb, speaking, alt_name, italics, src, speech_sound, sound_vol)
-
-		for(var/obj/O in eavesdroping)
-			spawn(0)
-				if(O) //It's possible that it could be deleted in the meantime.
-					O.hear_talk(src, stars(message), verb, speaking)
-
 
 	if(whispering)
 		log_whisper("[name]/[key] : [message]")

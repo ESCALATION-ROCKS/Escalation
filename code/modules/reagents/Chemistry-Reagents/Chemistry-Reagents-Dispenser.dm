@@ -404,14 +404,15 @@
 
 /datum/reagent/sugar/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	M.nutrition += removed * 3
-
 	if(alien == IS_UNATHI)
 		if(M.chem_doses[type] < 2)
 			if(M.chem_doses[type] == metabolism * 2 || prob(5))
 				M.emote("yawn")
 		else if(M.chem_doses[type] < 5)
 			M.eye_blurry = max(M.eye_blurry, 10)
+			M.add_chemical_effect(CE_BLOODRESTORE, 5)
 		else if(M.chem_doses[type] < 20)
+			M.add_chemical_effect(CE_BLOODRESTORE, 10)
 			if(prob(50))
 				M.Weaken(2)
 			M.drowsyness = max(M.drowsyness, 20)

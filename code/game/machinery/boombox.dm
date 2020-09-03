@@ -72,17 +72,17 @@
 		playsound(get_turf(src), 'sound/items/boombox_play.wav', 50, 1)
 
 
-/obj/item/device/boombox/proc/StopPlaying() //TODO запилить аптейдус иконс
+/obj/item/device/boombox/proc/StopPlaying() //TODO Г§Г ГЇГЁГ«ГЁГІГј Г ГЇГІГҐГ©Г¤ГіГ± ГЁГЄГ®Г­Г±
 	playing = 0
 	QDEL_NULL(sound_token)
 
 /obj/item/device/boombox/proc/StartPlaying()
-	StopPlaying()
 	if(isnull(casseta))
 		return
 	if(!casseta.sound_inside)
 		return
 
+	QDEL_NULL(sound_token)
 	sound_token = sound_player.PlayLoopingSound(src, sound_id, casseta.sound_inside, volume = 50, range = 14, falloff = 3, prefer_mute = TRUE, ignore_vis = TRUE)
 	playing = 1
 
@@ -115,25 +115,42 @@ obj/item/cassetka_console/attack_hand(mob/user) //later do file size check %_%
 
 
 /obj/item/device/cassete/keineheimat
-	name = "cassette - 'Gasolina'"
-	sound_inside = 'sound/music/gasolina.ogg'
+	name = "cassette - 'Ideal - Keine Heimat'"
+	sound_inside = 'sound/music/keineheimat.ogg'
 
 /obj/item/device/cassete/derkommissar
-	name = "cassette - 'Dandole'"
-	sound_inside = 'sound/music/dandole.ogg'
+	name = "cassette - 'Falco - Der Kommisar'"
+	sound_inside = 'sound/music/derkommisar.ogg'
 
 /obj/item/device/cassete/luftballons
-	name = "cassette - 'NGYYU'"
-	sound_inside = 'sound/music/nevergonna.ogg'
+	name = "cassette - 'Nena - 99 Luftballons'"
+	sound_inside = 'sound/music/luftballons.ogg'
 
 /obj/item/device/cassete/liedvonvaterland
-	name = "cassette - 'PRA'"
-	sound_inside = 'sound/music/partyrock.ogg'
+	name = "cassette - 'Lied von Vaterland'"
+	sound_inside = 'sound/music/dasliedvomvaterland.ogg'
 
 /obj/item/device/cassete/sagmirwodustehst
-	name = "cassette - 'Tunak Tunak Tun'"
-	sound_inside = 'sound/music/tunak.ogg'
+	name = "cassette - 'Sag mir, wo du stehst'"
+	sound_inside = 'sound/music/sagmirwodustehst.ogg'
 
 /obj/item/device/cassete/elektrichka
-	name = "cassette - 'Электричка'"
-	sound_inside = 'sound/music/nevergonna.ogg'
+	name = "cassette - 'Kino - Elektrichka'"
+	sound_inside = 'sound/music/elektrichka.ogg'
+
+/obj/item/device/cassete/hardtimes
+	name = "cassette - 'The Jetzons - Hard Times'"
+	sound_inside = 'sound/music/hardtimes.ogg'
+
+/obj/item/device/cassete/youvegotanotherthingcoming
+	name = "cassette - 'Judas Priest - You've Got Another Thing Coming'"
+	sound_inside = 'sound/music/youvegotanotherthingcoming.ogg'
+
+/obj/item/device/cassete/themanwhosoldtheworld
+	name = "cassette - 'Midge Ure - The Man Who Sold The World'"
+	sound_inside = 'sound/music/soldworld.ogg'
+
+/obj/item/device/cassete/outoftouch
+	name = "cassette - 'Hall and Oates - Out Of Touch'"
+	sound_inside = 'sound/music/outoftouch.ogg'
+

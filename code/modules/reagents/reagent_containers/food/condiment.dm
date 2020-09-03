@@ -233,3 +233,7 @@
 	desc = "That's the sugar! But you are not sure."
 	icon_state = "tsukor"
 
+/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/traubenzucker
+	name = "'Traubenzucker'"
+	desc = "A pack of sugar and asparatame tablets. Although they are meant to be dissolved, nothing is stopping you from crunching them."
+	icon_state = "traubenzucker"

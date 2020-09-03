@@ -27,7 +27,7 @@
 		if(H.isMonkey()|| M.gender == NEUTER)
 			return
 		if(M.gender == MALE)
-			emote_sound = "sound/vo/gasp_male[rand(1,7)].ogg"
+			emote_sound = "sound/vo/gasp_male[rand(1,9)].ogg"
 
 		if(M.gender == FEMALE)
 			emote_sound = "sound/vo/gasp_female[rand(1,7)].ogg"
@@ -214,7 +214,7 @@
 			return
 
 		if(M.gender == MALE)
-			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,7)].ogg"
+			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,12)].ogg"
 
 		if(M.gender == FEMALE)
 			emote_sound = "sound/vo/fh1_ReactedInjuryIntense_[rand(1,5)].ogg"
@@ -247,7 +247,7 @@
 
 		if(M.gender == MALE)
 			if(prob(99))
-				emote_sound = "sound/vo/m_scream[rand(1,5)].ogg"
+				emote_sound = "sound/vo/m_scream[rand(1,9)].ogg"
 			else
 				emote_sound = "sound/vo/scream_wilhelm.ogg"
 

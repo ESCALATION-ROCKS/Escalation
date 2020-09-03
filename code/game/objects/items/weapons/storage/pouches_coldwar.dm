@@ -323,7 +323,8 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51s,
 		/obj/item/ammo_magazine/a9x19,
-		/obj/item/ammo_magazine/c762x51wa
+		/obj/item/ammo_magazine/c762x51wa,
+		/obj/item/ammo_magazine/c762x51m
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
@@ -334,9 +335,11 @@
 	name = "MG3 box pouch"
 	desc = "Has enough space to hold one MG3 box."
 	icon_state = "bdw_ammo_lmg"
+	item_state = "bdw_ammo_lmg"
 	storage_slots = 1
 	can_hold = list(
-		/obj/item/ammo_magazine/c762x51b/bdw
+		/obj/item/ammo_magazine/c762x51b/bdw,
+		/obj/item/ammo_magazine/c762x51b/bdw/drum
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc
@@ -348,6 +351,7 @@
 	storage_slots = 3
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
@@ -363,6 +367,21 @@
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51b
+		)
+
+/obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "7.62 STANAG ammo pouch"
+	desc = "Has enough space to hold two 7.62 STANAG magazines."
+	icon_state = "usmc_ammo_m21"
+	item_state = "usmc_ammo"
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c45m,
+		/obj/item/ammo_magazine/c762x51wa,
+		/obj/item/ammo_magazine/c762x51m
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -427,7 +446,7 @@
 	icon_state = "sa_grenade"
 	item_state = "sa_grenade"
 	storage_slots = 3
-	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb, /obj/item/weapon)
+	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr
@@ -541,6 +560,7 @@
 	name = "soviet grenade satchel"
 	desc = "Generic grenade satchel used by Warsaw pact. Has enough space to hold six underbarrel grenades."
 	icon_state = "sa_ugl"
+	item_state = "sa_ugrenade"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
 
@@ -548,6 +568,7 @@
 	name = "strichtarn grenade satchel"
 	desc = "Strichtarn pattern grenade satchel used by Nationale Volksarmee. Has enough space to hold six underbarrel grenades."
 	icon_state = "nnaddr_ugl"
+	item_state = "sa_ugrenade"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
 
@@ -555,6 +576,15 @@
 	name = "usmc grenade bandolier"
 	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
 	icon_state = "usmc_grenbandolier"
+	item_state = "usmc_grenbandolier"
+	storage_slots = 6
+	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
+
+/obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
+	name = "bundeswehr grenade bandolier"
+	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
+	icon_state = "bdw_grenbandolier"
+	item_state = "bdw_grenbandolier"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
 
@@ -571,10 +601,3 @@
 	icon_state = "bdw_grenbandolier" //placeholder
 	storage_slots = 12
 	can_hold = list (/obj/item/device/flashlight/flare/)
-
-/obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
-	name = "bundeswehr grenade bandolier"
-	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
-	icon_state = "bdw_grenbandolier"
-	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)

@@ -38,7 +38,7 @@
 	name = "Boxers, green & blue striped"
 	underwear_name = "boxers"
 	icon_state = "boxers_green_and_blue"
-
+/*
 /datum/category_item/underwear/bottom/panties
 	name = "Panties"
 	underwear_name = "panties"
@@ -75,7 +75,7 @@
 	underwear_name = "thong"
 	icon_state = "thong"
 	has_color = TRUE
-
+*/
 /datum/category_item/underwear/bottom/expedition_pt_shorts
 	name = "PT shorts, 1"
 	icon_state = "expedition_shorts"

@@ -27,6 +27,9 @@
 	multiple_sprites = 1
 	load_delay = 7
 
+/obj/item/ammo_magazine/c762x51s/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c762x51wa
 	name = "WA2000 magazine (7.62x51mm)"
 	desc = "A WA2000 magazine that fits six 7.62x51mm rounds."
@@ -37,16 +40,16 @@
 	max_ammo = 6
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/c762x51s/ap
+/obj/item/ammo_magazine/c762x51wa/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/c762x51wa/ap
 	desc = "A WA2000 magazine that fits six armor-piercing 7.62x51mm rounds."
 	name = "AP magazine (7.62x51mm)"
 	ammo_type = /obj/item/ammo_casing/a762x51/ap
 
-/obj/item/ammo_magazine/c762x51s/empty
-	initial_ammo = 0
-
 /obj/item/ammo_magazine/c762x51b
-	name = "magazine box (7.62x51mm)"
+	name = "M60 belt box (7.62x51mm)"
 	desc = "An M60 box that fits one hundred 7.62x51mm rounds."
 	icon_state = "m60"
 	mag_type = MAGAZINE
@@ -58,11 +61,13 @@
 	load_delay = 30
 	slowdown_general = 0.1
 
-/obj/item/ammo_magazine/c762x51b/ap
-	name = "AP magazine (7.62x51mm)"
-	desc = "An M60 box that fits one hundred armor-piercing 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
+/obj/item/ammo_magazine/c762x51b/empty
+	initial_ammo = 0
 
+/obj/item/ammo_magazine/c762x51b/ap
+	name = "M60 AP belt box (7.62x51mm)"
+	desc = "An M60 belt box that fits one hundred armor-piercing 7.62x51mm rounds."
+	ammo_type = /obj/item/ammo_casing/a762x51/ap
 
 /obj/item/ammo_magazine/c762x39b
 	name = "large magazine (7.62x39mm)"
@@ -81,9 +86,9 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39d
-	name = "belt drum (7.62x39mm)"
+	name = "RPD belt drum (7.62x39mm)"
 	desc = "An RPD belt drum that fits seventy five 7.62x39mm rounds."
-	icon_state = "rpdbaraban"
+	icon_state = "rpdbaraban100"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x39"
@@ -91,6 +96,9 @@
 	max_ammo = 75
 	multiple_sprites = 1
 	load_delay = 30
+
+/obj/item/ammo_magazine/c762x39d/empty
+	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39k
 	name = "drum magazine (7.62x39mm)"
@@ -104,8 +112,11 @@
 	multiple_sprites = 1
 	load_delay = 20
 
+/obj/item/ammo_magazine/c762x39k/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c762x51b/bdw
-	name = "magazine box (7.62x51mm)"
+	name = "MG3 belt box (7.62x51mm)"
 	desc = "An MG3 box that fits one hundred 7.62x51mm rounds."
 	icon_state = "mg3"
 	mag_type = MAGAZINE
@@ -116,9 +127,14 @@
 	multiple_sprites = 1
 	load_delay = 30
 
+/obj/item/ammo_magazine/c762x51b/bdw/ap
+	name = "MG3 AP belt box (7.62x51mm)"
+	desc = "A belt box that fits one hundred armor-piercing 7.62x51mm rounds."
+	ammo_type = /obj/item/ammo_casing/a762x39/ap
+
 /obj/item/ammo_magazine/c762x51b/bdw/drum
-	name = "magazine drum (7.62x51mm)"
-	desc = "A drum magazine that fits fifty 7.62x51mm rounds. You should not be looking at this."
+	name = "MG3 belt drum (7.62x51mm)"
+	desc = "A belt drum that fits fifty 7.62x51mm rounds."
 	icon_state = "mg3s"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_NORMAL
@@ -128,10 +144,43 @@
 	multiple_sprites = 1
 	load_delay = 30
 
-/obj/item/ammo_magazine/c762x39b/ap
-	name = "AP magazine (7.62x39mm)"
-	desc = "A drum magazine that fits fifty armor-piercing 7.62x51mm rounds. You should not be looking at this."
+/obj/item/ammo_magazine/c762x51b/bdw/drum/ap
+	name = "MG3 AP belt drum (7.62x51mm)"
+	desc = "A belt drum that fits fifty armor-piercing 7.62x51mm rounds."
 	ammo_type = /obj/item/ammo_casing/a762x39/ap
+
+/obj/item/ammo_magazine/c762x51b/bdw/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/c762x51b/en
+	name = "L7A2 belt box (7.62x51mm)"
+	desc = "An L7A2 belt box that fits one hundred 7.62x51mm rounds."
+	icon_state = "l7a2"
+	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_LARGE
+	caliber = "762x51"
+	ammo_type = /obj/item/ammo_casing/a762x51
+	max_ammo = 100
+	multiple_sprites = 1
+	load_delay = 30
+
+/obj/item/ammo_magazine/c762x51b/en/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/c556x45b
+	name = "M249 belt box (5.56x45mm)"
+	desc = "An M249 belt box that fits one hundred 5.56x45mm rounds."
+	icon_state = "m249"
+	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_LARGE
+	caliber = "556x45"
+	ammo_type = /obj/item/ammo_casing/a556x45
+	max_ammo = 100
+	multiple_sprites = 1
+	load_delay = 30
+
+/obj/item/ammo_magazine/c556x45b/empty
+	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39m
 	name = "magazine (7.62x39mm)"
@@ -148,7 +197,7 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39v
-	name = "ammo box (7.62x39mm)"
+	name = "magazine (7.62x39mm)"
 	desc = "An KK-62 magazine that fits thirty 7.62x39mm rounds."
 	icon_state = "kk62"
 	mag_type = MAGAZINE
@@ -168,7 +217,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39/ap
 
 /obj/item/ammo_magazine/c762x39r
-	name = "magazine (7.62x39mm)"
+	name = "large magazine (7.62x39mm)"
 	desc = "An AK-platform magazine that fits fourty five 7.62x39mm rounds."
 	icon_state = "7.62x39r"
 	mag_type = MAGAZINE
@@ -183,12 +232,12 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x39r/ap
-	name = "AP magazine (7.62x39mm)"
+	name = "large AP magazine (7.62x39mm)"
 	desc = "An AK-platform magazine that fits fourty five armor-piercing 7.62x39mm rounds."
 	ammo_type = /obj/item/ammo_casing/a762x39/ap
 
 /obj/item/ammo_magazine/c762x54s
-	name = "magazine (7.62x54mm)"
+	name = "SVD magazine (7.62x54mm)"
 	desc = "A SVD magazine that fits ten 7x62x54mm rounds."
 	icon_state = "7.62x54s"
 	mag_type = MAGAZINE
@@ -202,13 +251,13 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x54s/ap
-	name = "AP magazine (7.62x54mm)"
+	name = "SVD AP magazine (7.62x54mm)"
 	desc = "A SVD magazine that fits ten armor-piercing 7x62x54mm rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/c762x54b
-	name = "ammo box (7.62x54mm)"
-	desc = "A PKM magazine that fits one hundred 7.62x54mm rounds."
+	name = "PKM belt box (7.62x54mm)"
+	desc = "A PKM belt box that fits one hundred 7.62x54mm rounds."
 	icon_state = "pkm"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
@@ -220,8 +269,8 @@
 	slowdown_general = 0.1
 
 /obj/item/ammo_magazine/c762x54b/csla
-	name = "ammo box (7.62x54mm)"
-	desc = "A gray PKM magazine that fits one hundred 7.62x54mm rounds."
+	name = "Vz. 59 belt box (7.62x54mm)"
+	desc = "A gray Vz.59 belt box that fits one hundred 7.62x54mm rounds."
 	icon_state = "vz59"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
@@ -232,8 +281,8 @@
 	load_delay = 30
 
 /obj/item/ammo_magazine/c762x54b/ap
-	name = "ammo box (7.62x54mm)"
-	desc = "A PKM magazine that fits one hundred armor-piercing 7.62x54mm rounds. Rain death upon them."
+	name = "PKM AP belt box (7.62x54mm)"
+	desc = "A PKM belt box that fits one hundred armor-piercing 7.62x54mm rounds. Rain death upon them."
 	icon_state = "7.62x39b"
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
@@ -311,6 +360,30 @@
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a9x19/ap
 
+/obj/item/ammo_magazine/a9x19s
+	name = "smg magazine (9x19mm)"
+	desc = "A Sterling magazine that fits thirty 9x19mm rounds."
+	icon_state = "9x19s"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 2
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 30
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9x19b
+	name = "magazine (9x19mm)"
+	desc = "A Browning Hi-Power magazine that fits thirteen 9x19mm rounds."
+	icon_state = "9x19b"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 1
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 13
+	multiple_sprites = 1
+
 /obj/item/ammo_magazine/a9x18
 	name = "magazine (9x18mm)"
 	desc = "A Makarov magazine that fits eight 9x18mm rounds."
@@ -336,7 +409,7 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/cz9x18
-	name = "CZ82 magazine (9x18mm)"
+	name = "magazine (9x18mm)"
 	desc = "A CZ85 magazine that fits eight 9x18mm rounds."
 	icon_state = "9x18a" //fix
 	w_class = 1
@@ -354,14 +427,14 @@
 	ammo_type = /obj/item/ammo_casing/a9x18/ap
 
 /obj/item/ammo_magazine/c127x108b
-	name = "magazine box (12.7x108mm)"
-	desc = "A NSV Utes box that fits fifty 12.7x108mm rounds."
+	name = "UTES belt box (12.7x108mm)"
+	desc = "A NSV Utes belt box that fits a hundred 12.7x108mm rounds."
 	icon_state = "utes"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "127x108mm"
 	ammo_type = /obj/item/ammo_casing/a127x108mm
-	max_ammo = 50
+	max_ammo = 100
 	multiple_sprites = 1
 	slowdown_general = 0.1
 
@@ -394,8 +467,8 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/ags30x29mm
-	name = "magazine box (VOG 30x29mm)"
-	desc = "An AGS Plamya box that fits thirty grenades."
+	name = "AGS belt box (VOG 30x29mm)"
+	desc = "An AGS Plamya belt box that fits thirty grenades."
 	icon_state = "ags30x29mm"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
@@ -405,13 +478,13 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/mk19_40x53mm
-	name = "magazine box (MK19 40x53mm)"
+	name = "MK19 belt box (MK19 40x53mm)"
 	desc = "A MK19 box that fits thirty two grenades."
 	icon_state = "mk19ammo"
 	mag_type = MAGAZINE
 	caliber = "40x53mm"
 	ammo_type = /obj/item/ammo_casing/mk19_40x53mm/shrapnel
-	max_ammo = 32//32 in one box.
+	max_ammo = 32
 	multiple_sprites = 1
 	load_delay = 40
 
@@ -455,12 +528,24 @@
 
 /obj/item/ammo_magazine/c50cal
 	name = "ammo box (.50 cal)"
-	desc = "A Browning box that fits fifty .50 rounds."
+	desc = "A Browning box that fits a hundred .50 rounds."
 	icon_state = "m2ammo"
 	mag_type = MAGAZINE
 	w_class = 5
 	caliber = ".50"
 	ammo_type = /obj/item/ammo_casing/a50cal
-	max_ammo = 50
+	max_ammo = 100
+	multiple_sprites = 1
+	load_delay = 30
+
+/obj/item/ammo_magazine/c50cals
+	name = "ammo box (.50 cal)"
+	desc = "A compact magazine for the M82 Barreta, fits ten .50 rounds."
+	icon_state = "50cal"
+	mag_type = MAGAZINE
+	w_class = 5
+	caliber = ".50"
+	ammo_type = /obj/item/ammo_casing/a50cal
+	max_ammo = 10
 	multiple_sprites = 1
 	load_delay = 30

@@ -53,17 +53,21 @@
 	icon_state = "40x103mmshells"
 	arm_sound = 'sound/weapons/grenlauncher.wav'
 
-/obj/item/weapon/grenade/frsmokebombag/vog25/attack_self(mob/user)
+/obj/item/weapon/grenade/smokebomb/vog25/attack_self(mob/user)
 	return
 
 /obj/item/weapon/grenade/smokebomb/nato
 	desc = "It is set to detonate in 2 seconds."
 	name = "M18 smoke grenade"
+	throw_speed = 4
+	throw_range = 16
 	icon_state = "m18"
 
 /obj/item/weapon/grenade/smokebomb/wp
 	desc = "It is set to detonate in 2 seconds."
 	name = "RDG2 smoke grenade"
+	throw_speed = 4
+	throw_range = 16
 	icon_state = "rdg2"
 
 /obj/item/weapon/grenade/tear

@@ -1565,6 +1565,7 @@
 				active_breaths = L.active_breathing
 		if(!nervous_system_failure() && active_breaths)
 			visible_message("\The [src] jerks and gasps for breath!")
+			emote("gasp")
 		else
 			visible_message("\The [src] twitches a bit as \his heart restarts!")
 		shock_stage = min(shock_stage, 100) // 120 is the point at which the heart stops.
@@ -1639,38 +1640,54 @@
 var/list/rank_prefix = list(\
 
 //sa
-	"Leitenant" = "Leytenant.",\
+	"Leitenant" = "Leytenant",\
 	"Starshina" = "Starshina",\
-	"Sergant" = "Sgt.",\
-	"Efreitor" = "Efr.",\
-	"Ryadovoi" = "Ryad.",\
+	"Sergant" = "Serzhant",\
+	"Efreitor" = "Efreitor",\
+	"Ryadovoi" = "Ryadovoy",\
 
-	"Mladshiy Sergant" = "M.Sgt.",\
-	"Starshiy Sergant" = "S.Sgt.",\
-	"Praporshik" = "Prap.",\
-	"Starshiy Praporshik" = "St.Prap.",\
-	"Starshiy Leitenant" = "St.Lt.",\
-	"Kapitan" = "Kap.",\
-	"Mladshiy Leitenant" = "Ml.Lt.",\
+	"Mladshiy Sergant" = "Ml. Serzhant",\
+	"Starshiy Sergant" = "St. Serzhant",\
+	"Praporshik" = "Praporshik",\
+	"Starshiy Praporshik" = "St.Praporshik",\
+	"Starshiy Leitenant" = "St.Leytenant",\
+	"Kapitan" = "Kapitan",\
+	"Mladshiy Leitenant" = "Ml.Leytenant",\
 
 //usmc
-	"First Lieutenant" = "1Lt.",\
-	"Second Lieutenant" = "2Lt.",\
-	"Staff Sergeant" = "SSgt.",\
-	"Sergeant" = "Sgt.",\
-	"Corporal" = "Cpl.",\
-	"Lance Corporal" = "LCpl.",\
-	"Private Second Class" = "PV2.",\
-	"Private First Class" = "Pfc.",\
+	"First Lieutenant" = "1st Lieutenant",\
+	"Second Lieutenant" = "2nd Lieutenant.",\
+	"Staff Sergeant" = "Staff Sergeant",\
+	"Sergeant" = "Sergeant",\
+	"Corporal" = "Corporal",\
+	"Lance Corporal" = "Lance Corporal",\
+	"Private Second Class" = "PV2",\
+	"Private First Class" = "PFC",\
 
-	"Master Sergeant" = "MSgt.",\
-	"Sergeant First Class" = "SFC.",\
-	"First Sergeant" = "FSgt",\
+	"Master Sergeant" = "Master Sergeant",\
+	"Gunnery Sergeant" = "Gy. Sergeant",\
+	"First Sergeant" = "First Sergeant",\
+
+//usa
+	"First Lieutenant" = "1st Lieutenant",\
+	"Second Lieutenant" = "2nd Lieutenant.",\
+	"Sergeant First Class" = "Sergeant First Class",\
+	"Staff Sergeant" = "Staff Sergeant",\
+	"Sergeant" = "Sergeant",\
+	"Corporal" = "Corporal",\
+	"Specialist" = "Specialist",\
+	"Private Second Class" = "PV2",\
+	"Private First Class" = "PFC",\
+
+	"Master Sergeant" = "Master Sergeant",\
+	"Gunnery Sergeant" = "Gy. Sergeant",\
+	"First Sergeant" = "First Sergeant",\
 
 //german
 	"Oberleutnant" = "Oberleutnant",\
 	"Feldwebel" = "Feldwebel",\
 	"Soldat" = "Soldat",\
+	"Schutze" = "Schutze",\
 	"Gefreiter" = "Gefreiter",\
 	"Stabsgefreiter" = "Stabsgefreiter",\
 	"Obergefreiter" = "Obergefreiter",\

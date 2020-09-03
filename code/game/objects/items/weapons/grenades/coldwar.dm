@@ -90,8 +90,8 @@
 	icon_state = "M406"
 	num_fragments = 130 //less powerful than a regular frag grenade
 	//arm_sound = 'sound/weapons/gunshot/grenadelaunch.ogg'
-	throw_speed = 1
-	throw_range = 15
+	throw_speed = 2
+	throw_range = 30
 	arm_sound = 'sound/weapons/grenlauncher.wav'
 
 
@@ -104,8 +104,8 @@
 	icon_state = "40x103mmshell"
 	num_fragments = 160 //less powerful than a regular frag grenade
 	//arm_sound = 'sound/weapons/gunshot/grenadelaunch.ogg'
-	throw_speed = 1
-	throw_range = 15
+	throw_speed = 2
+	throw_range = 30
 	arm_sound = 'sound/weapons/grenlauncher.wav'
 
 /obj/item/weapon/grenade/frag/vog25/attack_self(mob/user)

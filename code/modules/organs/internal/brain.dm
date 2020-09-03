@@ -16,7 +16,7 @@
 
 	var/can_use_mmi = TRUE
 	var/mob/living/carbon/brain/brainmob = null
-	var/const/damage_threshold_count = 10
+	var/const/damage_threshold_count = 60
 	var/damage_threshold_value
 	var/healed_threshold = 1
 	var/oxygen_reserve = 6
@@ -170,15 +170,9 @@
 			//Effects of bloodloss
 			switch(blood_volume)
 
-				if(BLOOD_VOLUME_SAFE to INFINITY)
+				if(BLOOD_VOLUME_OKAY to INFINITY)
 					if(can_heal)
 						damage--
-				if(BLOOD_VOLUME_OKAY to BLOOD_VOLUME_SAFE)
-					if(prob(1))
-						to_chat(owner, "<span class='warning'>You feel [pick("dizzy","woozy","faint")]...</span>")
-					damprob = owner.chem_effects[CE_STABLE] ? 30 : 60
-					if(!past_damage_threshold(2) && prob(damprob))
-						take_damage(1)
 				if(BLOOD_VOLUME_BAD to BLOOD_VOLUME_OKAY)
 					owner.eye_blurry = max(owner.eye_blurry,6)
 					damprob = owner.chem_effects[CE_STABLE] ? 40 : 80

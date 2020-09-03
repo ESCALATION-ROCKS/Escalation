@@ -133,7 +133,7 @@
 
 /obj/item/weapon/pill_pack/ethaperazine
 	name = "ethaperazine pill pack"
-	desc = "Weak sedative and antiemetic drug for patients that require rest. Provides relief from nausea and causes drowsiness."
+	desc = "A mild neuroleptic and anti-emetic. Provides relief from nausea and vomiting."
 	pill_type = /obj/item/weapon/reagent_containers/pill/ethaperazine
 
 
@@ -387,7 +387,7 @@
 
 /obj/item/weapon/storage/box/pill_box/ethaperazine
 	name = "ethaperazine pill box"
-	desc = "Weak sedative and antiemetic drug for patients that require rest. Provides relief from nausea and causes drowsiness."
+	desc = "A mild neuroleptic and anti-emetic. Provides relief from nausea and vomiting."
 	startswith = list(/obj/item/weapon/pill_pack/ethaperazine = 2)
 
 

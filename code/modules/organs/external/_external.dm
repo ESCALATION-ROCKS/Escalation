@@ -4,7 +4,7 @@
 
 /obj/item/organ/external
 	name = "external"
-	min_broken_damage = 30
+	min_broken_damage = 50
 	max_damage = 0
 	dir = SOUTH
 	organ_tag = "limb"
@@ -1173,7 +1173,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 			owner.visible_message("<span class='danger'>\The [owner]'s [name] melts away, turning into mangled mess!</span>",	\
 			"<span class='danger'>Your [name] melts away!</span>",	\
 			"<span class='danger'>You hear a sickening sizzle.</span>")
-	disfigured = 1
+	disfigured = 0 /* Set to 1 if you want faces to become unrecognizeable after taking 40 brute */
 
 /obj/item/organ/external/proc/get_incision(var/strict)
 	var/datum/wound/cut/incision

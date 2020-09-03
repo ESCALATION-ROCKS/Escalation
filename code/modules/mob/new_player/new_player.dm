@@ -73,8 +73,8 @@ mob/new_player/proc/StatRand()
 //		output += "<center><p>Join Team (Waiting For Admins)</p></center>"
 
 
-	if(src.client && src.client.holder) //Are they an admin?
-		output += "<center><p><a href='byond://?src=\ref[src];observe=1'>Observe</A></p></center>"
+
+	output += "<center><p><a href='byond://?src=\ref[src];observe=1'>Observe</A></p></center>"
 
 	if(src.client && src.client.holder && ticker && ticker.current_state == GAME_STATE_PREGAME) //Are they an admin?
 		output += "<center><p><a href='byond://?src=\ref[src];game_setup=1'>Game Setup</A></p></center>"
@@ -123,10 +123,10 @@ mob/new_player/proc/StatRand()
 			slot_index++
 			if(istype(J,/datum/job/escalation))
 				var/datum/job/escalation/A = J
-				if(!check_player_in_whitelist(src.key, A.title) && !(A.title in protected_from_whitelist/*see escalation_whitelist.dm*/))
-					out += "<P>[A.name] - [A.english_name] (NOT IN WHITELIST)</P>"
-				else
+				if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
 					out += "<P><a href='byond://?src=\ref[src];set_team_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</A></P>"
+				else
+					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
 
 			else
 				if(!ismob(J))
@@ -160,10 +160,11 @@ mob/new_player/proc/StatRand()
 
 			if(istype(S, /datum/job/escalation))
 				var/datum/job/escalation/A = S
-				if(!check_player_in_whitelist(src.key, A.title)  && !(A.title in protected_from_whitelist/*see escalation_whitelist.dm*/))
-					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
-				else
+				if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
 					out += "<p><a href='byond://?src=\ref[src];set_fireteam_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</a></p>"
+				else
+					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
+
 
 			else
 				if(!ismob(S))
@@ -726,7 +727,6 @@ mob/new_player/proc/StatRand()
 		if(character.mind.assigned_role != "Cyborg")
 			CreateModularRecord(character)
 			ticker.minds += character.mind//Cyborgs and AIs handle this in the transform proc.	//TODO!!!!! ~Carn
-			AnnounceArrival(character, job, spawnpoint.msg)
 		else
 			AnnounceCyborg(character, job, spawnpoint.msg)
 		matchmaker.do_matchmaking()

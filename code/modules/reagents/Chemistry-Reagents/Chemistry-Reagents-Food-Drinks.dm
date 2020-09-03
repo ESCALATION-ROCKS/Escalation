@@ -1963,7 +1963,7 @@
 
 /datum/reagent/nutriment/buckwheat
 	name = "Buckwheat"
-	description = "That's the food loved  by the all Soviet Union. Because they didn't got anything else."
+	description = "That's the food loved by all of Soviet Union, because they didn't got anything else."
 	taste_description = "buckwheat"
 	taste_mult = 2
 	nutriment_factor = 0.8
@@ -1973,6 +1973,14 @@
 	name = "Pearl barley"
 	description = "Worse than the buckwheat."
 	taste_description = "ground"
+	taste_mult = 2
+	nutriment_factor = 0.6
+	color = "#302000"
+
+/datum/reagent/nutriment/cannedbread
+	name = "Canned bread"
+	description = "Looks unappetizing, is unappetizing."
+	taste_description = "bread"
 	taste_mult = 2
 	nutriment_factor = 0.6
 	color = "#302000"

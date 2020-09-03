@@ -85,15 +85,15 @@
 	desc = "A 12.7x108mm bullet casing."
 	caliber = "127x108mm"
 	projectile_type = /obj/item/projectile/bullet/rifle/a127x108mm
-	icon_state = "l-casing-live"
-	spent_icon = "l-casing"
+	icon_state = "rifle-casing"
+	spent_icon = "rifle-casing-spent"
 
 /obj/item/ammo_casing/a50cal
 	desc = "A .50 cal bullet casing."
 	caliber = ".50"
 	projectile_type = /obj/item/projectile/bullet/rifle/a50cal
-	icon_state = "l-casing-live"
-	spent_icon = "l-casing"
+	icon_state = "rifle-casing"
+	spent_icon = "rifle-casing-spent"
 
 
 /obj/item/ammo_casing/ags30x29mm
@@ -122,7 +122,7 @@
 	desc = "A regular morkovka for rpg"
 	caliber = "7p16"
 	icon_state = "rg-7"
-	projectile_type = /obj/item/projectile/bullet/rgprocket
+	projectile_type = /obj/item/projectile/bullet/rgprocket/he
 	w_class = 4
 	slot_flags = null
 

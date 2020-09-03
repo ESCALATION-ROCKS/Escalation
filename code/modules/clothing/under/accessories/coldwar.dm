@@ -100,15 +100,19 @@
 
 
 /obj/item/clothing/accessory/insignia/usmc/pfc
-	name = "Private Second Class insignia"
-	icon_state = "usmc_pfc_insignia"
-	rank = "Private Second Class"
-
-/obj/item/clothing/accessory/insignia/usmc/lcpl
 	name = "Private First Class insignia"
-	icon_state = "usmc_lcpl_insignia"
+	icon_state = "usmc_pfc_insignia"
 	rank = "Private First Class"
 
+/obj/item/clothing/accessory/insignia/usmc/lcpl
+	name = "Lance Corporal insignia"
+	icon_state = "usmc_lcpl_insignia"
+	rank = "Lance Corporal"
+
+/obj/item/clothing/accessory/insignia/usmc/spc
+	name = "Specialist insignia"
+	icon_state = "usmc_cpl_insignia"
+	rank = "Specialist"
 
 /obj/item/clothing/accessory/insignia/usmc/cpl
 	name = "Corporal insignia"
@@ -125,15 +129,20 @@
 	icon_state = "usmc_ssgt_insignia"
 	rank = "Staff Sergeant"
 
+/obj/item/clothing/accessory/insignia/usmc/sfc
+	name = "Sergeant First Class"
+	icon_state = "usmc_msgt_insignia"
+	rank = "Sergeant First class"
+
 /obj/item/clothing/accessory/insignia/usmc/msgt
 	name = "Master Sergeant insignia"
 	icon_state = "usmc_msgt_insignia"
 	rank = "Master Sergeant"
 
 /obj/item/clothing/accessory/insignia/usmc/gysgt
-	name = "Sergeant First Class insignia"
+	name = "Gunnery Sergeant insignia"
 	icon_state = "usmc_msgt_insignia"
-	rank = "Sergeant First Class"
+	rank = "Gunnery Sergeant"
 
 /obj/item/clothing/accessory/insignia/usmc/frstsgt
 	name = "First Sergeant insignia"
@@ -151,9 +160,9 @@
 	rank = "First Lieutenant"
 
 /obj/item/clothing/accessory/insignia/bundeswehr/soldat
-	name = "Soldat insignia"
+	name = "Schutze insignia"
 	icon_state = "bdw_soldat"
-	rank = "Soldat"
+	rank = "Schutze"
 
 /obj/item/clothing/accessory/insignia/bundeswehr/gefr
 	name = "Gefreiter insignia"
@@ -247,6 +256,8 @@
 	icon_state = "squadpatch"
 	var/squad = null
 
+
+
 //Storage Accessories
 /obj/item/clothing/accessory/storage/bandolier_nato
 	name = "bandolier"
@@ -257,7 +268,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 5
-	armor_slowdown = 0.1
+	armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/bandolier_nato/filled/New()
 	..()
@@ -276,7 +287,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.1
+	armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/vest/woodland
 	icon_state = "bandovest_nato_w"
@@ -290,7 +301,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.1
+	armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/lifchik/alt
 	icon_state = "lifchik_2"

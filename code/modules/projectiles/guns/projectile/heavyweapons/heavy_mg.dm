@@ -25,10 +25,7 @@
 	caliber = "9mm"
 	slot_flags = 0//no flags for BIG GUNS
 	ammo_type = /obj/item/ammo_casing/c9mm//9mm shots hell NO, but for tests it's OK
-
-	burst=1
-	burst_delay=0.1
-	fire_delay=0.1
+	jam_chance = 0.35
 
 	fire_sound = 'sound/weapons/gunshot/heavy_mg/basic-mg.ogg'
 
@@ -124,24 +121,13 @@
 		to_chat(user, "\red You're too far from the handles.")
 
 /obj/item/weapon/gun/projectile/heavy_mg/proc/update_layer()
-	if(dir == NORTH)
+	if(dir == NORTH || SOUTH)
 		layer = initial(layer) + 0.1
 		plane = initial(plane)
-//	else if(dir == SOUTH)
-//		layer = initial(layer) + 0.1
-//		plane = initial(plane)
 	else
 		layer = ABOVE_OBJ_LAYER + 0.2 //above sandbags
 		plane = ABOVE_HUMAN_PLANE
 
-/*
-	if(dir != SOUTH)
-		layer = initial(layer) + 0.1
-		plane = initial(plane)
-	else
-		layer = ABOVE_OBJ_LAYER + 0.1
-		plane = ABOVE_HUMAN_PLANE
-		*/
 
 /obj/item/weapon/gun/projectile/heavy_mg/proc/check_direction(mob/user, atom/A)
 	if(get_turf(A) == src.loc)
@@ -265,15 +251,10 @@
 	caliber = "4mm"
 	ammo_type = /obj/item/ammo_casing/a4mm
 
-	burst=10
-	burst_delay=0.1
-	fire_delay=1
-	dispersion=list(1.0)
-
 //	fire_sound = 'sound/weapons/minigun_1sec.ogg'
 
 	firemodes = list(
-		list(mode_name="3000 rpm", burst=10, burst_delay=0.1, fire_delay=1, dispersion=list(1.0), burst_accuracy=list(0,-1)),
+		list(mode_name="3000 rpm", burst=10, burst_delay=0.1, fire_delay=1.0, dispersion=list(1.0), burst_accuracy=list(0,-1)),
 		list(mode_name="6000 rpm", burst=20, burst_delay=0.05, fire_delay=1.5, dispersion=list(1.5), burst_accuracy=list(0,-1,-1))
 		)
 
@@ -288,22 +269,20 @@
 //	handle_casings = REMOVE_CASINGS//replace in EJECT later after tests and balancing
 	caliber = "127x108mm"//fix caliber to
 	ammo_type = /obj/item/ammo_casing/a127x108mm
-	magazine_type = /obj/item/ammo_magazine/c127x108b
-	max_shells = 0
-
-	burst = 1
-	burst_delay = 0.1
-	fire_delay = 0.1
+	allowed_magazines = /obj/item/ammo_magazine/c127x108b
+	jam_chance = 0.3
+	accuracy = 0.8
 
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
 	fire_sound = 'sound/weapons/gunshot/nsv.ogg'
 	//i know it's kords sounds, but it is to booring to find and copy-paste URTES' sounds
 
 	firemodes = list(
-		list(mode_name="semiauto",       burst=1, fire_delay=3, burst_accuracy=null, dispersion=null),
-		list(mode_name="short bursts", burst=3, fire_delay=4, burst_delay = 1, burst_accuracy=list(1,0,-1),       dispersion=list(0.3, 0.6, 0.6)),
-		list(mode_name="long bursts",   burst=5, fire_delay=4, burst_delay = 1, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
+		list(mode_name="semiauto", burst=1, fire_delay=7.2, burst_delay = null, burst_accuracy=null, dispersion=list(0.18)),
+		list(mode_name="short bursts", burst=3, fire_delay=1.5, burst_delay = 1.5, burst_accuracy=list(1,0,-1), dispersion=list(0.3, 0.6, 0.6)),
+		list(mode_name="long bursts",   burst=5, fire_delay=1.5, burst_delay = 1.5, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.9, 1.15, 1.35)),
 		)
+
 /obj/item/weapon/gun/projectile/heavy_mg/utes/update_icon()
 	..()
 	if(ammo_magazine)
@@ -326,19 +305,13 @@
 //	magazine_type = /obj/item/ammo_magazine/c127x99b//if we want mg be pre-loaded with this ammo box
 	max_shells = 0
 
-	burst = 3
-	burst_delay = 0.5
-	fire_delay = 1.5
-	dispersion = list(0)
-	accuracy = list(2)
-
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
 	fire_sound = 'sound/weapons/gunshot/nsv.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",       burst=1, fire_delay=3, burst_accuracy=null, dispersion=null),
-		list(mode_name="short bursts", burst=3, fire_delay=4, burst_delay = 1, burst_accuracy=list(1,0,-1),       dispersion=list(0.3, 0.6, 0.6)),
-		list(mode_name="long bursts",   burst=5, fire_delay=4, burst_delay = 1, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
+		list(mode_name="semiauto", burst=1, fire_delay=8.0, burst_delay = 8.0, burst_accuracy=null, dispersion=null),
+		list(mode_name="short bursts", burst=3, fire_delay=4.0, burst_delay = 1.0, burst_accuracy=list(1,0,-1), dispersion=list(0.3, 0.6, 0.6)),
+		list(mode_name="long bursts",   burst=5, fire_delay=4.0, burst_delay = 1.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
 		)
 
 //////////////////////
@@ -353,18 +326,14 @@
 	caliber = "30x29mm"//cal of ammo box
 	ammo_type = /obj/item/ammo_casing/ags30x29mm
 
-	burst = 1
-	burst_delay = 1.5
-	fire_delay = 0.4
 
 	fire_sound = 'sound/weapons/gunshot/mk19.ogg'
 	//i know it's kords sounds, but it is to booring to find and copy-paste URTES' sounds
 
 	firemodes = list(
-		list(mode_name = "semiauto", burst = 1, burst_delay = 1.5, fire_delay = 0.4),
-		list(mode_name = "2-round bursts", burst = 2, burst_delay = 3, fire_delay = 0.7),
-		list(mode_name = "3-round bursts", burst = 3, burst_delay = 3, fire_delay = 1.0),
-		list(mode_name = "5-round bursts", burst = 5, burst_delay = 3, fire_delay = 1.6),
+		list(mode_name = "semiauto", burst = 1, burst_delay = 8.0, fire_delay = 8.0, burst_accuracy=null, dispersion=null),
+		list(mode_name = "short bursts", burst = 3, burst_delay = 1.5, fire_delay = 4.0, burst_accuracy=list(1,0,-1), dispersion =list(0.3, 0.6, 0.6)),
+		list(mode_name = "long bursts", burst = 5, burst_delay = 1.5, fire_delay = 4.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
 		)
 
 /obj/item/weapon/gun/projectile/heavy_mg/ags_17/update_icon()
@@ -389,17 +358,14 @@
 	max_shells = 0
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
 	allowed_magazines = /obj/item/ammo_magazine/c50cal
-
-	burst = 1
-	burst_delay = 0.1
-	fire_delay = 0.1
 	fire_sound = 'sound/weapons/gunshot/m2hb.ogg'
-	//fixfixfix
-	//////basically that's Utes for now. Must be fixed
+	jam_chance = 0.455
+	accuracy = 1.2
+
 	firemodes = list(
-		list(mode_name="semiauto",       burst=1, fire_delay=3, burst_accuracy=null, dispersion=null),
-		list(mode_name="short bursts", burst=3, fire_delay=4, burst_delay = 1, burst_accuracy=list(1,0,-1),       dispersion=list(0.3, 0.6, 0.6)),
-		list(mode_name="long bursts",   burst=5, fire_delay=4, burst_delay = 1, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
+		list(mode_name = "semiauto", burst = 1, burst_delay = null, fire_delay = 7.8, burst_accuracy=null, dispersion =list(0.15)),
+		list(mode_name = "short bursts", burst = 3, burst_delay = 2.25, fire_delay = 2.25, burst_accuracy=list(1,0,-1), dispersion =list(0.3, 0.6, 0.6)),
+		list(mode_name = "long bursts", burst = 5, burst_delay = 2.25, fire_delay = 2.25, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.75, 0.85, 1.15)),
 		)
 
 /obj/item/weapon/gun/projectile/heavy_mg/m2/update_icon()
@@ -422,18 +388,13 @@
 	caliber = "40x53mm"
 	ammo_type = /obj/item/ammo_casing/mk19_40x53mm
 
-	burst = 1
-	burst_delay = 1.5
-	fire_delay = 0.6
-
 	fire_sound = 'sound/weapons/gunshot/mk19.ogg'
 	//fixfixfix
 
 	firemodes = list(
-		list(mode_name = "semiauto", burst = 1, burst_delay = 1.5, fire_delay = 0.6),
-		list(mode_name = "2-round bursts", burst = 2, burst_delay = 1.5, fire_delay = 0.9),
-		list(mode_name = "3-round bursts", burst = 3, burst_delay = 1.5, fire_delay = 1.2),
-		list(mode_name = "5-round bursts", burst = 5, burst_delay = 1.5, fire_delay = 2.0),
+		list(mode_name = "semiauto", burst = 1, burst_delay = 8.0, fire_delay = 8.0, burst_accuracy=null, dispersion=null),
+		list(mode_name = "short bursts", burst = 3, burst_delay = 1.5, fire_delay = 4.0, burst_accuracy=list(1,0,-1), dispersion =list(0.3, 0.6, 0.6)),
+		list(mode_name = "long bursts", burst = 5, burst_delay = 1.5, fire_delay = 4.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
 		)
 
 

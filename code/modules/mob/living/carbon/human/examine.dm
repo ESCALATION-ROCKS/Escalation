@@ -180,7 +180,9 @@
 		distance = get_dist(user,src)
 	if (src.stat)
 		msg += "<span class='warning'>[T.He] [T.is]n't responding to anything around [T.him] and seems to be unconscious.</span>\n"
-		if((stat == DEAD || is_asystole() || src.losebreath) && distance <= 3)
+		if(stat == DEAD && distance <= 3)
+			msg += "<span class='warning'>[T.He] is a goner.</span>\n"
+		else if((stat == is_asystole() || src.losebreath) && distance <= 3)
 			msg += "<span class='warning'>[T.He] [T.does] not appear to be breathing.</span>\n"
 		if(ishuman(user) && !user.incapacitated() && Adjacent(user))
 			spawn(0)
@@ -318,21 +320,21 @@
 	if(print_flavor_text()) msg += "[print_flavor_text()]\n"
 
 	if(fraction && job)
-		if(ishuman(user) && user != src)
+		if(ishuman(user) && user != src && distance <= 20)
 			var/mob/living/carbon/human/H = user
 			if(H.fraction == fraction)
 				msg += "<br><i>You recognize [T.him] as <b>[job]</b>.</i>\n"
 
 	if(fireteam_picked && fraction)
-		if(ishuman(user) && user != src)
+		if(ishuman(user) && user != src && distance <= 20)
 			var/mob/living/carbon/human/H = user
 			if(H.fraction == fraction)
 				if(H.fireteam_picked == fireteam_picked)
 					msg += "<br><i>[T.He] is in your squad</b>.</i>\n"
 				else
 					msg += "<br><i>[T.He] is in </b>[fireteam_picked.name]</b>.</i>\n"
-	if(wear_mask)
-		skipface |= wear_mask.flags_inv & HIDEFACE
+	/*if(wear_mask)
+		skipface |= wear_mask.flags_inv & HIDEFACE */
 
 	msg += "*---------*</span><br>"
 	msg += applying_pressure

@@ -452,6 +452,22 @@
 	. = ..()
 	reagents.add_reagent(/datum/reagent/ethanol/beer, 30)
 
+/obj/item/weapon/reagent_containers/food/drinks/bottle/small/campingtee
+	name = "'Campingtee' drink pouch"
+	desc = "A flavored tea extract full of Vitamin-C. Tastes like cough syrup flavoring."
+	amount_per_transfer_from_this = 5
+	icon_state = "campingtee"
+	center_of_mass = "x=16;y=12"
+	isGlass = 0
+	icon = 'icons/obj/food.dmi'
+	drop_sound = null
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/small/campingtee/New()
+	. = ..()
+	reagents.add_reagent(/datum/reagent/sugar, 5)
+	reagents.add_reagent(/datum/reagent/water, 10)
+	reagents.add_reagent(/datum/reagent/drink/juice/orange, 5)
+
 /obj/item/weapon/reagent_containers/food/drinks/bottle/small/ale
 	name = "\improper Magm-Ale"
 	desc = "A true dorf's drink of choice."

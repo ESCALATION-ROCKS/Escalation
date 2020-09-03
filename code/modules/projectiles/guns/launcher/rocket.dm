@@ -56,16 +56,16 @@
 /obj/item/weapon/gun/launcher/rpg7
 	name = "RPG7"
 	desc = "A grenade launcher, standard-issued by the Soviet Army."
+	icon = 'icons/obj/gunrpg.dmi'
 	icon_state = "rpg" ///change
 	item_state = "rpg1" ///change
-	slowdown_general = 1.0
+	slowdown_general = 0.5
 	w_class = 5
 	throw_speed = 3
 	one_hand_penalty = 100
 	throw_range = 40
 	force = 5.0
 	flags =  CONDUCT
-	slot_flags = 0
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
 	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
@@ -86,10 +86,12 @@
 /obj/item/weapon/gun/launcher/rpg7/update_icon()
 	..()
 	if(rockets.len)
-		icon_state = "rpg"
+		icon = 'icons/obj/gunrpg.dmi'
+		icon_state = "rpg" ///change
 		item_state = "rpg1"
 	else
-		icon_state = "rpg-empty"
+		icon = 'icons/obj/gunrpg.dmi'
+		icon_state = "rpg-empty" ///change
 		item_state = "rpg1-empty"
 	update_held_icon()
 
@@ -106,8 +108,6 @@
 				user.drop_item()
 				I.loc = src
 				rockets += I
-				to_chat(user, "\blue You put the rocket in [src].")
-				to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
 				update_icon()
 		else
 			to_chat(user, "\red [src] cannot hold more rockets.")
@@ -117,7 +117,7 @@
 /obj/item/weapon/gun/launcher/rpg7/consume_next_projectile(mob/user)
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/M = new (src)
+		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -137,17 +137,16 @@
 
 /obj/item/weapon/gun/launcher/smaw
 	name = "SMAW"
-	desc = "A grenade launcher, standard-issued by the Soviet Army."
+	desc = "A standard issue rocket launcher used by the United Stated Armed Forces."
 	icon_state = "smaw" ///change
 	item_state = "smaw" ///change
-	slowdown_general = 1.0
+	slowdown_general = 0.5
 	w_class = 5
 	throw_speed = 3
 	one_hand_penalty = 100
 	throw_range = 40
 	force = 5.0
 	flags =  CONDUCT
-	slot_flags = 0
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
 	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
@@ -188,8 +187,6 @@
 				user.drop_item()
 				I.loc = src
 				rockets += I
-				to_chat(user, "\blue You put the rocket in [src].")
-				to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
 				update_icon()
 		else
 			to_chat(user, "\red [src] cannot hold more rockets.")
@@ -199,7 +196,7 @@
 /obj/item/weapon/gun/launcher/smaw/consume_next_projectile(mob/user)
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/M = new (src)
+		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -219,6 +216,7 @@
 
 ///////////////////Not ours///////////////////////////////////////////////
 /obj/item/weapon/gun/launcher/oneuse/
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	var/folded = 1
 
 /obj/item/weapon/gun/launcher/oneuse/attack_self(mob/user)
@@ -239,7 +237,7 @@
 			folded = 1
 			icon_state = initial(icon_state)
 			item_state = initial(item_state)
-			slot_flags = null
+			slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
 /obj/item/weapon/gun/launcher/oneuse/special_check(mob/user)
 	if(folded == 1)
@@ -253,16 +251,14 @@
 	desc = "Single-use rocket launcher used by the Soviet Army. Also known as 'Mukha'."
 	icon_state = "rpg18"
 	item_state = "rpg18"
-	slowdown_general = 1.0
+	slowdown_general = 0.5
 	w_class = 5
 	throw_speed = 2
 	one_hand_penalty = 100
 	throw_range = 10
 	force = 5.0
 	flags =  CONDUCT
-	slot_flags = 0
 	fire_sound = 'sound/weapons/gunshot/rpg22.ogg'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	release_force = 25
 	throw_distance = 40
 	var/max_rockets = 1
@@ -314,7 +310,7 @@
 /obj/item/weapon/gun/launcher/oneuse/rpg18/consume_next_projectile()
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/M = new (src)
+		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -334,16 +330,14 @@
 	desc = "A single-use rocket launcher used by NATO forces. Fires a 66mm HEAT shell."
 	icon_state = "m72"
 	item_state = "m72"
-	slowdown_general = 1.0
+	slowdown_general = 0.5
 	one_hand_penalty = 100
 	w_class = 5
 	throw_speed = 2
 	throw_range = 10
 	force = 5.0
 	flags =  CONDUCT
-	slot_flags = 0
 	fire_sound = 'sound/weapons/gunshot/m72.wav'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	release_force = 25
 	throw_distance = 40
 	var/max_rockets = 1

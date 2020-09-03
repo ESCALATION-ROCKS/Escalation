@@ -1,6 +1,7 @@
 /obj/item/weapon/storage/box/rations
 	name = "MRE No.1"
 	w_class = 2
+	max_w_class = 2
 	max_storage_space = 8
 	desc = "That's a meal-ready-to eat, a 12-hour ration pack used by US army."
 	icon_state = "rations"
@@ -13,6 +14,8 @@
 /obj/item/weapon/storage/box/rations/beef
 	name = "MRE No.2"
 	max_storage_space = 8
+	w_class = 2
+	max_w_class = 2
 	desc = "That's a meal-ready-to eat, a 12-hour ration pack used by US army."
 	icon_state = "rations"
 	startswith = list(/obj/item/weapon/storage/box/matches/small = 1,
@@ -24,6 +27,8 @@
 /obj/item/weapon/storage/box/rations/vegan
 	name = "MRE No.3"
 	max_storage_space = 8
+	w_class = 2
+	max_w_class = 2
 	desc = "That's a meal-ready-to eat, a 12-hour ration pack used by US army."
 	icon_state = "rations"
 	startswith = list(/obj/item/weapon/storage/box/matches/small = 1,
@@ -35,6 +40,8 @@
 /obj/item/weapon/storage/box/rations/lasagna
 	name = "MRE No.4"
 	max_storage_space = 8
+	w_class = 2
+	max_w_class = 2
 	desc = "That's a meal-ready-to eat, a 12-hour ration pack used by US army."
 	icon_state = "rations"
 	startswith = list(/obj/item/weapon/storage/box/matches/small = 1,
@@ -46,6 +53,8 @@
 /obj/item/weapon/storage/box/rations/breads
 	name = "MRE No.5"
 	max_storage_space = 8
+	w_class = 2
+	max_w_class = 2
 	desc = "That's a meal-ready-to eat, a 12-hour ration pack used by US army."
 	icon_state = "rations"
 	startswith = list(/obj/item/weapon/storage/box/matches/small = 1,
@@ -57,6 +66,7 @@
 /obj/item/weapon/storage/box/irp/var1
 	name = "'Etalon-1' rations"
 	w_class = 3
+	max_w_class = 2
 	max_storage_space = 12
 	desc = "That's a ration pack used by Soviet army."
 	icon_state = "irp"
@@ -72,7 +82,7 @@
 	name = "'Etalon-2' rations"
 	w_class = 3
 	max_storage_space = 12
-	desc = "That's a ration pack used by Soviet army."
+	desc = "That's a ration pack used by Soviet Army."
 	icon_state = "irp"
 	can_hold = null
 	startswith = list(/obj/item/weapon/storage/box/matches/small = 1,
@@ -81,3 +91,18 @@
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/ = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/tsukor = 1,
 				/obj/item/weapon/storage/fancy/cigarettes/prima = 1)
+
+/obj/item/weapon/storage/box/kportion
+	name = "'K-Portion' rations"
+	w_class = 3
+	max_w_class = 2
+	max_storage_space = 12
+	desc = "That's a ration pack used by Nationale Volksarmee."
+	icon_state = "kportion"
+	can_hold = null
+	startswith = list(/obj/item/weapon/reagent_containers/food/snacks/tincan/cannedbread = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/tincan/jagdwurst = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/tincan/blutwurst = 1,
+				/obj/item/weapon/reagent_containers/food/drinks/bottle/small/campingtee = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/traubenzucker = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/halbbitter = 1)

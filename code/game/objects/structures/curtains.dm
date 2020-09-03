@@ -6,6 +6,7 @@
 	layer = ABOVE_WINDOW_LAYER
 	opacity = 1
 	density = 0
+	anchored = 1
 
 /obj/structure/curtain/open
 	icon_state = "open"
@@ -39,40 +40,46 @@
 /obj/structure/curtain/black
 	name = "black curtain"
 	color = "#222222"
+	alpha = 150
 
 /obj/structure/curtain/medical
 	name = "plastic curtain"
 	color = "#b8f5e3"
-	alpha = 200
+	alpha = 150
 
 /obj/structure/curtain/open/bed
 	name = "bed curtain"
 	color = "#854636"
+	alpha = 150
 
 /obj/structure/curtain/open/privacy
 	name = "privacy curtain"
 	color = "#b8f5e3"
+	alpha = 150
 
 /obj/structure/curtain/open/shower
 	name = "shower curtain"
 	color = "#acd1e9"
-	alpha = 200
+	alpha = 150
 
 /obj/structure/curtain/open/shower/engineering
 	color = "#ffa500"
+	alpha = 150
 
 /obj/structure/curtain/open/shower/security
 	color = "#aa0000"
+	alpha = 150
 
 /obj/structure/curtain/tent
 	name = "tent door"
 	color = "#5E5C4E"
+	alpha = 150
 
 /obj/structure/curtain/visyulki
 	name = "curtain"
 	icon_state = "visyolkyopen"
 	color = null
-	alpha = 200
+	alpha = 150
 	plane = ABOVE_HUMAN_PLANE
 	layer = ABOVE_WINDOW_LAYER
 

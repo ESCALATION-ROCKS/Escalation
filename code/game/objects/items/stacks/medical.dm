@@ -335,7 +335,7 @@
 	amount = 5
 	max_amount = 5
 	animal_heal = 0
-	var/list/splintable_organs = list(BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT)	//List of organs you can splint, natch.
+	var/list/splintable_organs = list(BP_HEAD, BP_CHEST, BP_GROIN, BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT)	//List of organs you can splint, natch.
 
 /obj/item/stack/medical/splint/attack(mob/living/carbon/M as mob, mob/user as mob)
 	if(..())
@@ -383,7 +383,7 @@
 	desc = "For holding your limbs in place with duct tape and scrap metal."
 	icon_state = "tape-splint"
 	amount = 1
-	splintable_organs = list(BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG)
+	splintable_organs = list(BP_HEAD, BP_CHEST, BP_GROIN, BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT)
 
 /obj/item/stack/medical/tourniquet
 	name = "Esmarch tourniquet"
@@ -392,7 +392,7 @@
 	icon_state = "esmarch_tourniquet"
 	amount = 1
 	animal_heal = 0
-	var/list/tourniquetable_organs = list(BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT)	//List of organs you can splint, natch.
+	var/list/tourniquetable_organs = list(BP_HEAD, BP_CHEST, BP_GROIN, BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT)	//List of organs you can splint, natch.
 
 /obj/item/stack/medical/tourniquet/attack(mob/living/carbon/M as mob, mob/user as mob)
 	if(..())
@@ -417,7 +417,7 @@
 				return
 			user.visible_message("<span class='danger'>[user] starts to apply \the [src] to their [limb].</span>", "<span class='danger'>You start to apply \the [src] to your [limb].</span>", "<span class='danger'>You hear something being wrapped.</span>")
 		if(do_after(user, 50, M))
-			if(M == user && !user.statscheck(user.skill_medicine, user.int, 8, 0, src))
+			if(M == user && !user.statscheck(user.skill_medicine, user.int, 1, 1, src))
 				user.visible_message("<span class='danger'>\The [user] fumbles [src].</span>", "<span class='danger'>You fumble [src].</span>", "<span class='danger'>You hear something being wrapped.</span>")
 				return
 			var/obj/item/stack/medical/tourniquet/S = split(1)

@@ -567,8 +567,6 @@
 			return global.init;
 		if("initialization_stage")
 			return global.initialization_stage;
-		if("integrated_circuit_blacklist")
-			return global.integrated_circuit_blacklist;
 		if("intents")
 			return global.intents;
 		if("intercom_range_display_status")
@@ -1732,8 +1730,6 @@
 			global.init=newval;
 		if("initialization_stage")
 			global.initialization_stage=newval;
-		if("integrated_circuit_blacklist")
-			global.integrated_circuit_blacklist=newval;
 		if("intents")
 			global.intents=newval;
 		if("intercom_range_display_status")

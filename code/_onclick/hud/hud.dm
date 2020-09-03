@@ -240,6 +240,8 @@
 		if(src.hud_used.hotkeybuttons)
 			src.client.screen -= src.hud_used.hotkeybuttons
 		src.client.screen -= src.internals
+		src.client.screen -= src.hydratation_icon
+		src.client.screen -= src.nutrition_icon
 		src.client.screen += src.hud_used.action_intent		//we want the intent swticher visible
 	else
 		hud_used.hud_shown = 1
@@ -251,6 +253,8 @@
 			src.client.screen += src.hud_used.hotkeybuttons
 		if(src.internals)
 			src.client.screen |= src.internals
+			src.client.screen |= src.hydratation_icon
+			src.client.screen |= src.nutrition_icon
 		src.hud_used.action_intent.screen_loc = ui_acti //Restore intent selection to the original position
 
 	hud_used.hidden_inventory_update()

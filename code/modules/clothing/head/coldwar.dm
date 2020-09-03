@@ -200,6 +200,23 @@
 	icon_state = "m62c"
 	icon_state_unzipped = "m62c-unzipped"
 
+//UK Hats
+
+//UK Helmets
+/obj/item/clothing/head/helmet/coldwar/bdw/mkv
+	name = "MKV helmet"
+	desc = "A relatively average helmet used by the United Kingdom."
+	icon_state = "mkv"
+	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "mkv-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/bdw/mkv/cover
+	desc = "A relatively average helmet used by the United Kingdom, this one has a camo net covering it."
+	icon_state = "mkvc"
+	icon_state_unzipped = "mkvc-unzipped"
+
+
 //FINN Hats
 
 /obj/item/clothing/head/finn/cap/talvimetsa

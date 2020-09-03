@@ -1,6 +1,7 @@
 //Soviet armor
 
 /obj/item/clothing/suit/storage/vest/soviet/
+	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA)
 	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
@@ -16,7 +17,7 @@
 	icon_state = "6b3"
 	item_state = "armor"
 	armor = list(melee = 30, bullet = 48, laser = 0, energy = 25, bomb = 28, bio = 0, rad = 0)
-	slowdown_general = 0.6
+	slowdown_general = 0.4
 
 /obj/item/clothing/suit/storage/vest/soviet/a6b3/New()
 	..()
@@ -39,7 +40,7 @@
 	icon_state = "6b2"
 	item_state = "armor"
 	armor = list(melee = 30, bullet = 28, laser = 40, energy = 10, bomb = 32, bio = 0, rad = 0)
-	slowdown_general = 0.3
+	slowdown_general = 0.2
 
 
 //USMC
@@ -49,8 +50,9 @@
 	desc = "A common kevlar vest used by U.S. army."
 	icon_state = "pasgt_vest"
 	item_state = "armor"
+	w_class = ITEM_SIZE_LARGE
 	armor = list(melee = 30, bullet = 32, laser = 0, energy = 25, bomb = 34, bio = 0, rad = 0)
-	slowdown_general = 0.3
+	slowdown_general = 0.23
 
 /obj/item/clothing/suit/storage/vest/pasgt/New()
 	..()
@@ -65,10 +67,11 @@
 	desc = "An outdated flak vest used by NATO personnel."
 	icon_state = "flakvest_nato"
 	item_state = "armor"
+	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 38, bio = 0, rad = 0)
-	slowdown_general = 0.3
+	slowdown_general = 0.15
 
 
 /obj/item/clothing/suit/storage/vest/flakvest/New()
@@ -93,6 +96,7 @@
 	desc = "Experimental Protective Armor Created by Black Mesa."
 	icon_state = "hev_s"
 	item_state = "armor"
+	w_class = ITEM_SIZE_LARGE
 	armor = list(melee = 90, bullet = 85, laser = 35, energy = 75, bomb = 65, bio = 100, rad = 100)
 	slowdown_general = 0.2
 

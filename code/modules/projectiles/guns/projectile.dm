@@ -54,9 +54,9 @@
 
 
 /obj/item/weapon/gun/projectile/consume_next_projectile(mob/user)
-//	if(!is_jammed && prob(jam_chance))
-//		src.visible_message("<span class='danger'>\The [src] jams!</span>")
-//		is_jammed = 1
+	if(!is_jammed && prob(jam_chance))
+		src.visible_message("<span class='danger'>\The [src] jams!</span>")
+		is_jammed = 1
 	if(is_jammed)
 		return null
 	//get the next casing
@@ -144,7 +144,6 @@
 				user.remove_from_mob(AM)
 				AM.loc = src
 				ammo_magazine = AM
-				user.visible_message("[user] inserts [AM] into [src].", "<span class='notice'>You insert [AM] into [src].</span>")
 				cock_gun(user)
 			if(SPEEDLOADER)
 				if(loaded.len >= max_shells)
@@ -208,7 +207,6 @@
 			user.remove_from_mob(C)
 			C.loc = src
 			loaded.Insert(1, C) //add to the head of the list
-		user.visible_message("[user] inserts \a [C] into [src].", "You insert \a [C] into [src].")
 		if(reload_sound) playsound(src.loc, reload_sound, 75, 1)
 
 	update_icon()
@@ -227,7 +225,6 @@
 			if(!do_after (user, ammo_magazine.load_delay/3))
 				return
 		user.put_in_hands(ammo_magazine)
-		user.visible_message("[user] removes [ammo_magazine] from [src].", "<span class='notice'>You remove [ammo_magazine] from [src].</span>")
 		ammo_magazine.update_icon()
 		ammo_magazine = null
 	else if(loaded.len)
@@ -241,13 +238,11 @@
 					count++
 				loaded.Cut()
 			if(count)
-				user.visible_message("[user] unloads [src].", "<span class='notice'>You unload [count] round\s from [src].</span>")
 				playsound(user, unload_sound, 60, 1)
 		else if(load_method & SINGLE_CASING)
 			var/obj/item/ammo_casing/C = loaded[loaded.len]
 			loaded.len--
 			user.put_in_hands(C)
-			user.visible_message("[user] removes \a [C] from [src].", "<span class='notice'>You remove \a [C] from [src].</span>")
 			playsound(user, unload_sound, 60, 1)
 	else
 		to_chat(user, "<span class='warning'>[src] is empty.</span>")

@@ -133,7 +133,7 @@
 	icon_state = "pill8"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/paracetamol, 15)
+		reagents.add_reagent(/datum/reagent/paracetamol, 10)
 
 /obj/item/weapon/reagent_containers/pill/tramadol
 	name = "Tramadol pill"
@@ -332,7 +332,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 	icon_state = "pill21"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/sydnocarbum, 5)
+		reagents.add_reagent(/datum/reagent/water, 5) /*lovushka jokera*/
 
 /obj/item/weapon/reagent_containers/pill/naloxone
 	name = "Naloxone pill"
@@ -352,7 +352,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 
 /obj/item/weapon/reagent_containers/pill/ethaperazine
 	name = "ethaperazine pill"
-	desc = "Weak sedative and antiemetic drug for patients that require rest. Provides relief from nausea and causes drowsiness."
+	desc = "A mild neuroleptic and anti-emetic. Provides relief from nausea and vomiting."
 	icon_state = "pill21"
 	New()
 		..()
