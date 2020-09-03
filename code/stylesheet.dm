@@ -75,6 +75,8 @@ h1.alert, h2.alert		{color: #000000;}
 .passive				{color: #660000;}
 
 .danger					{color: #ff0000; font-weight: bold;}
+.dangeryellow			{color: #f5f74d; font-weight: bold; font-size: 150%;}
+.yellow					{color: #f5f74d; font-weight: italic;}
 .fuck					{color: #ff0000; font-weight: bold; font-size: 150%;}
 .bigfuck				{color: #ff0000; font-weight: bold; font-size: 200%;}
 .extrafuck				{color: #ff0000; font-weight: bold; font-size: 250%;}
