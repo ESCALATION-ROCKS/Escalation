@@ -114,16 +114,16 @@
 
 /mob/proc/surrender()// Surrenders.
 	if(!incapacitated())
-		Stun(20)  // This is potentially bad?
-		Weaken(40) // This keeps them slow after surrenders.
+		Stun(10)  // This is potentially bad?
+		Weaken(20) // This keeps them slow after surrenders.
 		visible_message("<span class='warning'><b>[src] surrenders!</b></span>")
-		to_chat(src, "<span class='danger'>You surrender!</span>")
+		to_chat(src, "<span class='dangeryellow'>You surrender!</span>")
 
 /mob/living/carbon/proc/verb_surrender()
 
 	set category = "IC"
 	set name = "Surrender"
-	set desc = "Surrender yourself unto thy enemy."
+	set desc = "Surrender yourself upon the enemy."
 
 	src.surrender()
 
