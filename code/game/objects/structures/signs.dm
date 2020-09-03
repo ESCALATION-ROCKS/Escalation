@@ -1291,6 +1291,25 @@ obj/structure/sign/noshitlers
 	icon_state = "soviet_flag"
 	desc = "That's the Soviet Union flag."
 
+/obj/structure/sign/ddr_flag
+	name = "DDR flag"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "ddr_flag"
+	desc = "That's the Deutsche Demokratische Republik flag."
+
+
+/obj/structure/sign/westgerman_flag
+	name = "West German flag"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "westgerman_flag"
+	desc = "That's the West Germany flag."
+
+/obj/structure/sign/ass_flag
+	name = "Gabol portrait"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "assflag"
+	desc = "That's the portrait of the St. MrGabol100."
+
 /obj/structure/sign/usmc_flag
 	name = "USA flag"
 	icon = 'icons/obj/decorations.dmi'

@@ -90,30 +90,6 @@ ATS-1:usmc
 /datum/job/escalation/usmc/usmcata
 @END@
 
-Gruppe Delta:bund
-/datum/job/escalation/bund/bdwsl
-/datum/job/escalation/bund/bdwsld
-/datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwgrenadier
-/datum/job/escalation/bund/bdwmg
-/datum/job/escalation/bund/bdwmgas
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-@END@
-
-Gruppe Echo:bund
-/datum/job/escalation/bund/bdwsl
-/datum/job/escalation/bund/bdwsld
-/datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwgrenadier
-/datum/job/escalation/bund/bdwmg
-/datum/job/escalation/bund/bdwmgas
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-@END@
-
 Gruppe Foxtrot:bund
 /datum/job/escalation/bund/bdwsl
 /datum/job/escalation/bund/bdwsld
@@ -152,7 +128,7 @@ Gruppe Hotel:bund
 
 Panzerabwehrschutze ATS:bund
 /datum/job/escalation/bund/bdwatlead
-/datum/job/escalation/bund/bdwatgun
+/datum/job/escalation/bund/bdwatasst
 /datum/job/escalation/bund/bdwatasst
 @END@
 
