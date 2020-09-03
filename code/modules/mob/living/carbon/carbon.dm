@@ -116,7 +116,7 @@
 	if(!incapacitated())
 		Stun(20)  // This is potentially bad?
 		Weaken(40) // This keeps them slow after surrenders.
-		visible_message("<span class='warning><b>[src] surrenders!</b></span>")
+		visible_message("<span class='warning'><b>[src] surrenders!</b></span>")
 		to_chat(src, "<span class='danger'>You surrender!</span>")
 
 /mob/living/carbon/proc/verb_surrender()
