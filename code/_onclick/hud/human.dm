@@ -192,13 +192,21 @@
 		src.hotkeybuttons += mymob.pullin
 		hud_elements |= mymob.pullin
 
-	if(hud_data.has_internals)
+	/* if(hud_data.has_internals)
 		mymob.internals = new /obj/screen()
 		mymob.internals.icon = ui_style
 		mymob.internals.icon_state = "internal0"
 		mymob.internals.name = "internal"
 		mymob.internals.screen_loc = ui_internal
-		hud_elements |= mymob.internals
+		hud_elements |= mymob.internals */
+
+	if(hud_data.has_surrender)
+		mymob.surrender = new /obj/screen()
+		mymob.surrender.icon = ui_style
+		mymob.surrender.icon_state = "surrender"
+		mymob.surrender.name = "surrender"
+		mymob.surrender.screen_loc = ui_surrender
+		hud_elements |= mymob.surrender 
 
 	if(hud_data.has_warnings)
 		mymob.oxygen = new /obj/screen()
