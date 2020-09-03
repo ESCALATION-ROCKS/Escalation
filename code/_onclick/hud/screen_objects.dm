@@ -226,6 +226,8 @@
 
 		if("Reset Machine")
 			usr.unset_machine()
+		if("surrender")
+			usr.surrender()
 		if("internal")
 			if(iscarbon(usr))
 				var/mob/living/carbon/C = usr
