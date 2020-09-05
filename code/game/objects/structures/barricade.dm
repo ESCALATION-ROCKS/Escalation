@@ -200,7 +200,7 @@
 	qdel(src)
 
 /obj/item/weapon/sandbag/attackby(obj/O as obj, mob/user as mob)
-	if(istype(O, /obj/item/weapon/ore/glass, /obj/item/weapon/ore/snow))
+	if(istype(O, /obj/item/weapon/ore/glass))
 		if(sand_amount >= 4)
 			to_chat(user, "<span class='warning'>[name] is full!</span>")
 			return
