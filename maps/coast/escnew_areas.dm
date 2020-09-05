@@ -287,7 +287,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	dynamic_lighting = 1
 
 /area/coldwar/fobindoors
-	name = "USMC FOB"
+	name = "FOB indoors"
 	icon_state = "house"
 	sound_env = LIVINGROOM
 	requires_power = 0
@@ -323,8 +323,8 @@ var/list/interior_areas = list(/area/coldwar/house1,
 
 /area/coldwar/warpactfob
 	name = "WARPACT FOB"
-	icon_state = "foboutside"
+	icon_state = "warpactfob"
 	sound_env = PLAIN
 	requires_power = 0
-	dynamic_lighting = 0
+	dynamic_lighting = 1
 
