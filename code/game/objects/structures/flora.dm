@@ -296,6 +296,13 @@
 	..()
 	icon_state = "snowgrassa_[rand(1, 3)]"
 
+/obj/structure/flora/snowbushes/snowgrassa
+	icon_state = "snowgrassa_1"
+
+/obj/structure/flora/snowbushes/snowgrassa/New()
+	..()
+	icon_state = "snowgrassa_[rand(1, 3)]"
+
 /obj/structure/flora/snowbushes/snowgrassb
 	icon_state = "snowgrassb_1"
 

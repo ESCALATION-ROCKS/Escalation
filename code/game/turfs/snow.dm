@@ -36,8 +36,8 @@ var/list/turf_edge_cache = list()
 	blend_with_neighbors = 3
 	permit_ao = 0
 	movement_delay = 3
-	outdoors = 1    /* we need snow footstep sounds */
-	footstep_sounds = list("human" = list(
+	outdoors = 1  
+	footstep_sounds = list(
 		'sound/effects/footsteps/snow1.wav',
 		'sound/effects/footsteps/snow2.wav',
 		'sound/effects/footsteps/snow3.wav',
@@ -45,7 +45,7 @@ var/list/turf_edge_cache = list()
 		'sound/effects/footsteps/snow5.wav',
 		'sound/effects/footsteps/snow6.wav',
 		'sound/effects/footsteps/snow7.wav',
-		'sound/effects/footsteps/snow8.wav'))
+		'sound/effects/footsteps/snow8.wav')
 //	multiple_smooth_states = list(1, 2, 3, 4, 5)
 
 	var/list/crossed_dirs = list()
