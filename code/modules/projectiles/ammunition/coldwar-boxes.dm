@@ -169,13 +169,13 @@
 
 /obj/item/ammo_magazine/c556x45b
 	name = "M249 belt box (5.56x45mm)"
-	desc = "An M249 belt box that fits one hundred 5.56x45mm rounds."
+	desc = "An M249 belt box that fits two hundred 5.56x45mm rounds."
 	icon_state = "m249"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
-	max_ammo = 100
+	max_ammo = 200
 	multiple_sprites = 1
 	load_delay = 30
 

@@ -319,6 +319,7 @@
 	desc = "Has enough space to hold two 7.62 STANAG magazines."
 	icon_state = "bdw_ammo"
 	item_state = "bdw_ammo"
+	open_delay = 5
 	storage_slots = 2
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51s,
@@ -336,6 +337,7 @@
 	desc = "Has enough space to hold one MG3 box."
 	icon_state = "bdw_ammo_lmg"
 	item_state = "bdw_ammo_lmg"
+	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51b/bdw,
@@ -348,6 +350,7 @@
 	desc = "Has enough space to hold three 5.56 STANAG magazines."
 	icon_state = "usmc_ammo"
 	item_state = "usmc_ammo"
+	open_delay = 5
 	storage_slots = 3
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45m,
@@ -360,22 +363,25 @@
 /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "M60 ammo pouch"
-	desc = "Has enough space to hold one M60 box."
+	name = "US SAW gunner box pouch"
+	desc = "Has enough space to hold one SAW belt box."
 	icon_state = "usmc_ammo_lmg"
 	item_state = "usmc_ammo_lmg"
+	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
-		/obj/item/ammo_magazine/c762x51b
+		/obj/item/ammo_magazine/c762x51b,
+		/obj/item/ammo_magazine/c556x45b
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "7.62 STANAG ammo pouch"
+	name = "7.62 STANAG magazine pouch"
 	desc = "Has enough space to hold two 7.62 STANAG magazines."
 	icon_state = "usmc_ammo_m21"
 	item_state = "usmc_ammo"
+	open_delay = 5
 	storage_slots = 2
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51s,
@@ -391,6 +397,7 @@
 	icon_state = "sa_ammo"
 	item_state = "sa_ammo"
 	storage_slots = 4
+	open_delay = 5
 	can_hold = list(
 		/obj/item/ammo_magazine/c545x39m,
 		/obj/item/ammo_magazine/c762x39m,
@@ -398,7 +405,6 @@
 		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
-	open_delay = 5
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	w_class = ITEM_SIZE_HUGE
@@ -406,6 +412,7 @@
 	desc = "Has enough space to hold four RPK magazines."
 	icon_state = "sa_ammo"
 	item_state = "sa_ammo"
+	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/c545x39m,
@@ -421,6 +428,7 @@
 	desc = "Has enough space to hold four SVD magazines."
 	icon_state = "sa_svd"
 	item_state = "sa_ammo"
+	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54s
@@ -433,6 +441,7 @@
 	desc = "Has enough space to hold to hold one box."
 	icon_state = "sa_ammo_lmg"
 	item_state = "sa_ammo_lmg"
+	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
@@ -445,6 +454,7 @@
 	desc = "Can hold three grenades."
 	icon_state = "sa_grenade"
 	item_state = "sa_grenade"
+	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
@@ -455,6 +465,7 @@
 	desc = "Has enough space to hold four AK magazines."
 	icon_state = "nvaddr_ammo"
 	item_state = "nvaddr_ammo"
+	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/c545x39m,
@@ -464,7 +475,6 @@
 		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
-	open_delay = 5
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/lmg
 	w_class = ITEM_SIZE_HUGE
@@ -473,6 +483,7 @@
 	desc = "Has enough space to hold one drum magazine."
 	icon_state = "nvaddr_ammo_lmg"
 	item_state = "nvaddr_ammo_lmg"
+	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x39d,
@@ -486,6 +497,7 @@
 	desc = "Has enough space to hold one PKM box."
 	icon_state = "nvaddr_ammo_pkm"
 	item_state = "nvaddr_ammo_lmg"
+	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
@@ -498,6 +510,7 @@
 	desc = "Has enough space to hold four RPK magazines."
 	icon_state = "nvaddr_ammo"
 	item_state = "nvaddr_ammo"
+	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x39b,
@@ -511,6 +524,7 @@
 	desc = "Can hold three grenades."
 	icon_state = "nvaddr_grenade"
 	item_state = "nvaddr_grenade"
+	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
@@ -537,6 +551,7 @@
 	name = "KK box pouch"
 	desc = "Has enough space to hold one box."
 	icon_state = "sa_ammo_lmg"
+	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x39v
@@ -550,6 +565,7 @@
 	desc = "Can hold three grenades."
 	icon_state = "nvaddr_grenade"
 	item_state = "nvaddr_grenade"
+	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
