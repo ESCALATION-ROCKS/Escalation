@@ -161,7 +161,7 @@
 	w_class = 1
 	var/sand_amount = 0//how much piles of dirt on item's spawn
 
-//семантика ебанутая
+//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 //if there are like 3-4 sandbags or they are placed in one directions and each of them will call CanPass for projectiles - very imbalanced
 /obj/item/weapon/sandbag/proc/check4sandbags(mob/user as mob)
 	var/i = 0
@@ -200,7 +200,7 @@
 	qdel(src)
 
 /obj/item/weapon/sandbag/attackby(obj/O as obj, mob/user as mob)
-	if(istype(O, /obj/item/weapon/ore/glass))
+	if(istype(O, /obj/item/weapon/ore/glass, /obj/item/weapon/ore/snow))
 		if(sand_amount >= 4)
 			to_chat(user, "<span class='warning'>[name] is full!</span>")
 			return
