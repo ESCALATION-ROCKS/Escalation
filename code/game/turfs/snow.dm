@@ -75,8 +75,8 @@ var/list/turf_edge_cache = list()
 			return
 		if(S.working == 1)
 			return
-		if(S.snow > 0)
-			S.snow -= 1
+		if(S.ground > 0)
+			S.ground -= 1
 			new/obj/item/weapon/ore/snow(src)
 			playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
 			S.update_icon()
@@ -107,7 +107,7 @@ var/list/turf_edge_cache = list()
 
 			user << "<span class='notice'>You dug some snow onto your shovel.</span>"
 //			gets_dug()
-			S.snow += S.max_ground
+			S.ground += S.max_ground
 			dig_stage += S.max_ground
 			S.update_icon()
 			S.working = 0
