@@ -17,7 +17,7 @@
 	icon_state = "6b3"
 	item_state = "armor"
 	armor = list(melee = 30, bullet = 48, laser = 0, energy = 25, bomb = 28, bio = 0, rad = 0)
-	slowdown_general = 0.4
+	slowdown_general = 0.40
 
 /obj/item/clothing/suit/storage/vest/soviet/a6b3/New()
 	..()
@@ -40,7 +40,7 @@
 	icon_state = "6b2"
 	item_state = "armor"
 	armor = list(melee = 30, bullet = 28, laser = 40, energy = 10, bomb = 32, bio = 0, rad = 0)
-	slowdown_general = 0.2
+	slowdown_general = 0.20
 
 
 //USMC
@@ -70,7 +70,7 @@
 	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
-	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 38, bio = 0, rad = 0)
+	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 25, bio = 0, rad = 0)
 	slowdown_general = 0.15
 
 
