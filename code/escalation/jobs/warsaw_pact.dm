@@ -521,7 +521,7 @@
 	rank_number = 1
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "ddr_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 100)
 
@@ -881,7 +881,7 @@
 	rank_number = 1
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "finn_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 

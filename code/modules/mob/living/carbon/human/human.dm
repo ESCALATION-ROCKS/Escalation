@@ -1212,10 +1212,6 @@
 		to_chat(user, "<span class='warning'>They are missing that limb.</span>")
 		return 0
 
-	if(affecting.robotic >= ORGAN_ROBOT)
-		to_chat(user, "<span class='warning'>That limb is robotic.</span>")
-		return 0
-
 	. = CAN_INJECT
 	for(var/obj/item/clothing/C in list(head, wear_mask, w_uniform, gloves, shoes))
 		if(C && (C.body_parts_covered & affecting.body_part) && (C.item_flags & THICKMATERIAL))
