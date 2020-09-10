@@ -34,6 +34,12 @@
 	icon_state = "sa_ush_officer"
 	icon_state_up = "sa_ush_officer_up"
 
+/obj/item/clothing/head/ushanka/finn
+	name = "Ushanka hat"
+	desc = "That's a finnish Ushanka for use in cold weather."
+	icon_state = "finnushanka"
+	icon_state_up = "finnushanka-up"
+
 /obj/item/clothing/head/soviet/officer
 	name = "officer cap"
 	desc = "An uniform headdress of officers."
@@ -216,7 +222,6 @@
 	icon_state = "mkvc"
 	icon_state_unzipped = "mkvc-unzipped"
 
-
 //FINN Hats
 
 /obj/item/clothing/head/finn/cap/talvimetsa
@@ -224,22 +229,6 @@
 	desc = "That's a generic field cap in a talvimetsa pattern."
 	icon_state = "finn_cap"
 
-/obj/item/clothing/head/finn/winter/
-	var/icon_state_alt = null
-
-/obj/item/clothing/head/finn/winter/attack_self(mob/user as mob)
-	if(icon_state == initial(icon_state))
-		icon_state = icon_state_alt
-		to_chat(user, "You make your cap look pretty cozy. Nice.")
-	else
-		icon_state = initial(icon_state)
-		to_chat(user, "You put your cap back in fine state.")
-
-/obj/item/clothing/head/finn/winter/ushanka
-	name = "Ushanka hat"
-	desc = "That's a finnish Ushanka for use in cold weather."
-	icon_state = "ushanka"
-	icon_state_alt = "ushanka-unzipped"
 //FINN Helmets
 
 /obj/item/clothing/head/helmet/coldwar/finn/m63

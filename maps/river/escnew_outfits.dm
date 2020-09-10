@@ -1154,7 +1154,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
-	head = /obj/item/clothing/head/finn/winter/ushanka
+	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/srad
@@ -1166,7 +1166,7 @@
 	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	back = /obj/item/weapon/radioset/r105d
-	head = /obj/item/clothing/head/finn/winter/ushanka
+	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/mgunner
@@ -1177,7 +1177,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
-	head = /obj/item/clothing/head/finn/winter/ushanka
+	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/rocket
@@ -1190,7 +1190,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	right_pouch = null
 	r_pocket = null
-	head = /obj/item/clothing/head/finn/winter/ushanka
+	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/rocketass
@@ -1203,7 +1203,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
-	head = /obj/item/clothing/head/finn/winter/ushanka
+	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/mgass
@@ -1216,7 +1216,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	r_pocket = null
-	head = /obj/item/clothing/head/finn/winter/ushanka
+	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/radio
@@ -1270,7 +1270,7 @@
 	back = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	back_2 = /obj/item/weapon/storage/backpack/finn/medical
 	holster = /obj/item/weapon/storage/belt/holster/finn
-	head = /obj/item/clothing/head/finn/winter/ushanka
+	head = /obj/item/clothing/head/ushanka/finn
 	l_pocket = /obj/item/weapon/key/wpmed
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
