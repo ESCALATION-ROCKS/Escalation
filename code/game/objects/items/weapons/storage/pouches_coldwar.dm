@@ -343,6 +343,9 @@
 		/obj/item/ammo_magazine/c762x51b/bdw,
 		/obj/item/ammo_magazine/c762x51b/bdw/drum
 		)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51b/bdw
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc
 	w_class = ITEM_SIZE_HUGE
@@ -372,6 +375,9 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51b,
 		/obj/item/ammo_magazine/c556x45b
+		)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51b
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
@@ -421,6 +427,12 @@
 		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/a9x18
 		)
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39b,
+		/obj/item/ammo_magazine/c545x39b,
+		/obj/item/ammo_magazine/c545x39b,
+		/obj/item/ammo_magazine/c545x39b
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	w_class = ITEM_SIZE_HUGE
@@ -444,6 +456,9 @@
 	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
+		/obj/item/ammo_magazine/c762x54b
+		)
+	startswith = list(
 		/obj/item/ammo_magazine/c762x54b
 		)
 
@@ -502,6 +517,9 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
 		)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x54b
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	w_class = ITEM_SIZE_HUGE
@@ -516,6 +534,13 @@
 		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/c762x39m
 		)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x39b,
+		/obj/item/ammo_magazine/c762x39b,
+		/obj/item/ammo_magazine/c762x39b,
+		/obj/item/ammo_magazine/c762x39b
+		)
+
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	w_class = ITEM_SIZE_HUGE
@@ -579,6 +604,14 @@
 	item_state = "sa_ugrenade"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
+	startswith = list(
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	name = "strichtarn grenade satchel"
@@ -587,6 +620,14 @@
 	item_state = "sa_ugrenade"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
+	startswith = list(
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/,
+		/obj/item/weapon/grenade/frag/vog25/
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
 	name = "usmc grenade bandolier"
@@ -595,6 +636,14 @@
 	item_state = "usmc_grenbandolier"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
+	startswith = list(
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	name = "bundeswehr grenade bandolier"
@@ -603,6 +652,14 @@
 	item_state = "bdw_grenbandolier"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
+	startswith = list(
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/,
+		/obj/item/weapon/grenade/frag/shell40mm/
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/flarepouch
 	name = "Flare Pouch."
