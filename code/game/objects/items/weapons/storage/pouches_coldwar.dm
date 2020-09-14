@@ -327,6 +327,10 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -360,13 +364,18 @@
 		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
+	startswith = list(
+		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45m
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "US SAW gunner box pouch"
+	name = "US machinegun box pouch"
 	desc = "Has enough space to hold one SAW belt box."
 	icon_state = "usmc_ammo_lmg"
 	item_state = "usmc_ammo_lmg"
@@ -408,6 +417,12 @@
 		/obj/item/ammo_magazine/c545x39m,
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
+		)
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m
 		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
@@ -487,6 +502,12 @@
 		/obj/item/ammo_magazine/c545x39b,
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
+		)
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m
 		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
