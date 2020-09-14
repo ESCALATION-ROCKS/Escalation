@@ -14,6 +14,10 @@
 	desc = "A 7.62x51mm AP bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a762x51/ap
 
+/obj/item/ammo_casing/a762x51/tr
+	desc = "A 7.62x51mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x51/tr
+
 /obj/item/ammo_casing/a762x39
 	desc = "A 7.62x39mm bullet casing."
 	caliber = "762x39"
@@ -25,6 +29,10 @@
 	desc = "A 7.62x39mm AP bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a762x39/ap
 
+/obj/item/ammo_casing/a762x39/tr
+	desc = "A 7.62x39mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x39/tr
+
 /obj/item/ammo_casing/a762x54
 	desc = "A 7.62x54mm bullet casing."
 	caliber = "762x54"
@@ -35,6 +43,10 @@
 /obj/item/ammo_casing/a762x54/ap
 	desc = "A 7.62x54mm AP bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a762x54/ap
+	
+/obj/item/ammo_casing/a762x54/tr
+	desc = "A 7.62x54mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x54/tr
 
 /obj/item/ammo_casing/a545x39
 	desc = "A 5.45x39mm bullet casing."
@@ -47,6 +59,10 @@
 	desc = "A 5.45x39mm AP bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a545x39/ap
 
+/obj/item/ammo_casing/a545x39/tr
+	desc = "A 5.45x39mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a545x39/tr
+
 /obj/item/ammo_casing/a556x45
 	desc = "A 5.56x45mm bullet casing."
 	caliber = "556x45"
@@ -58,6 +74,10 @@
 	desc = "A 5.56x45mm AP bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a556x45/ap
 
+/obj/item/ammo_casing/a556x45/tr
+	desc = "A 5.56x45mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a556x45/tr
+
 /obj/item/ammo_casing/a9x19
 	desc = "A 9x19mm bullet casing."
 	caliber = "9x19"
@@ -67,6 +87,10 @@
 	desc = "A 9x19mm AP bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a9x19/ap
 
+/obj/item/ammo_casing/a9x19/tr
+	desc = "A 9x19mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a9x19/tr
+
 /obj/item/ammo_casing/a9x18
 	desc = "A 9x18mm bullet casing."
 	caliber = "9x18"
@@ -75,6 +99,10 @@
 /obj/item/ammo_casing/a9x18/ap
 	desc = "A 9x18mm AP bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a9x18/ap
+	
+/obj/item/ammo_casing/a9x18/tr
+	desc = "A 9x18mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a9x18/tr
 
 /obj/item/ammo_casing/a4mm
 	desc = "A 4mm bullet casing."
@@ -88,6 +116,14 @@
 	icon_state = "rifle-casing"
 	spent_icon = "rifle-casing-spent"
 
+/obj/item/ammo_casing/a127x108mm/ap
+	desc = "A 12.7x108mm armor-piercing bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a127x108mm/ap
+
+/obj/item/ammo_casing/a127x108mm/tr
+	desc = "A 12.7x108mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a127x108mm/tr
+
 /obj/item/ammo_casing/a50cal
 	desc = "A .50 cal bullet casing."
 	caliber = ".50"
@@ -95,6 +131,13 @@
 	icon_state = "rifle-casing"
 	spent_icon = "rifle-casing-spent"
 
+/obj/item/ammo_casing/a50cal/ap
+	desc = "A .50 cal armor-piercing bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a50cal/ap
+
+/obj/item/ammo_casing/a50cal/tr
+	desc = "A .50 cal tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a50cal/tr
 
 /obj/item/ammo_casing/ags30x29mm
 	desc = "A 30x29mm AGS-17' VOG casing"

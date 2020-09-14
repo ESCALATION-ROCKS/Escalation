@@ -88,9 +88,10 @@
 	name = "40x46mm 'M381 HE' grenade shell"
 	desc = "Cannot be thrown as the usual grenade, by the way."
 	icon_state = "M406"
-	num_fragments = 130 //less powerful than a regular frag grenade
-	//arm_sound = 'sound/weapons/gunshot/grenadelaunch.ogg'
+	num_fragments = 130
 	throw_speed = 2
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/ugl)
+	explosion_size = 1
 	throw_range = 30
 	arm_sound = 'sound/weapons/grenlauncher.wav'
 
@@ -102,8 +103,9 @@
 	name = "40x103mm 'VOG-25' grenade shell"
 	desc = "Cannot be thrown as the usual grenade, by the way."
 	icon_state = "40x103mmshell"
-	num_fragments = 160 //less powerful than a regular frag grenade
-	//arm_sound = 'sound/weapons/gunshot/grenadelaunch.ogg'
+	num_fragments = 160
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/ugl)
+	explosion_size = 1
 	throw_speed = 2
 	throw_range = 30
 	arm_sound = 'sound/weapons/grenlauncher.wav'
@@ -124,6 +126,14 @@
 	damage = 12
 	agony = 14
 	armor_penetration = -10
+	check_armour = "bomb"
+
+	kill_count = 6
+
+/obj/item/projectile/bullet/pellet/fragment/ugl
+	damage = 8
+	agony = 5
+	armor_penetration = -15
 	check_armour = "bomb"
 
 	kill_count = 6

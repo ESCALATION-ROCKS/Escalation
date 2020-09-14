@@ -157,7 +157,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/quartermaster
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usmc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
 
@@ -970,7 +970,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/quartermaster
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usa_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
 

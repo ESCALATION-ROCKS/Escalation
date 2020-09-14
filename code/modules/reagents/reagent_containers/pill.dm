@@ -326,13 +326,13 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 		..()
 		reagents.add_reagent(/datum/reagent/phenazepam, 5)
 
-/obj/item/weapon/reagent_containers/pill/sydnocarbum
+/* /obj/item/weapon/reagent_containers/pill/sydnocarbum
 	name = "sydnocarbum pill"
 	desc = "That's a pill."
 	icon_state = "pill21"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/water, 5) /*lovushka jokera*/
+		reagents.add_reagent(/datum/reagent/water, 5) /*lovushka jokera*/ */
 
 /obj/item/weapon/reagent_containers/pill/naloxone
 	name = "Naloxone pill"

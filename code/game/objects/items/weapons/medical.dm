@@ -106,10 +106,10 @@
 	desc = "A mild painkiller with a slow metabolization speed. Meant for mild injuries."
 	pill_type = /obj/item/weapon/reagent_containers/pill/phenazepam
 
-/obj/item/weapon/pill_pack/sydnocarbum
+/*/obj/item/weapon/pill_pack/sydnocarbum 
 	name = "sydnocarbum pill pack"
 	desc = "For special occasions when shit got real."
-	pill_type = /obj/item/weapon/reagent_containers/pill/sydnocarbum
+	pill_type = /obj/item/weapon/reagent_containers/pill/sydnocarbum */
 
 /obj/item/weapon/pill_pack/amidopyrinum
 	name = "amidopyrinum pill pack"
@@ -375,10 +375,10 @@
 	desc = "A broad spectrum antibiotic to fight against infections."
 	startswith = list(/obj/item/weapon/pill_pack/doxycycline = 2)
 
-/obj/item/weapon/storage/box/pill_box/sydnocarbum
+/* /obj/item/weapon/storage/box/pill_box/sydnocarbum
 	name = "sydnocarbum pill box"
 	desc = "A completely inconspicious box of pills. You have no reason to digest these useless pills."
-	startswith = list(/obj/item/weapon/pill_pack/sydnocarbum = 2)
+	startswith = list(/obj/item/weapon/pill_pack/sydnocarbum = 2) */
 
 /obj/item/weapon/storage/box/pill_box/paracetamol
 	name = "paracetamol pill box"

@@ -230,6 +230,7 @@
 		icon_state = "m60[cover_opened ? "open" : "closed"]-empty"
 	..()
 
+/* this thing needs to accept 30-20 rnd STANAG mags too*/
 /obj/item/weapon/gun/projectile/automatic/xm249
 	name = "XM249"
 	desc = "A standard-issue USMC squad support weapon. Chambers 5.56x45 rounds."
@@ -238,12 +239,10 @@
 	w_class = 5
 	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	max_shells = 100
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
 	load_method = MAGAZINE
-	magazine_type = null /////this thing can fit stanag magazines look it up
-	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45s)
+	allowed_magazines = /obj/item/ammo_magazine/c556x45b
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
 	jam_chance = 0.35
@@ -295,18 +294,6 @@
 		return
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/xm249/update_icon()
-	if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45b))
-		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 25)]"
-		item_state = "xm249[cover_opened ? "open" : "closed"]"
-	else if(istype(ammo_magazine,/obj/item/ammo_magazine/c556x45m))
-		icon_state = "xm249[cover_opened ? "open" : "closed"]mag"
-		item_state = "xm249[cover_opened ? "open" : "closed"]mag"
-	else
-		icon_state = "xm249[cover_opened ? "open" : "closed"]-empty"
-		item_state = "xm249[cover_opened ? "open" : "closed"]-empty"
-	..()
-
 /obj/item/weapon/gun/projectile/automatic/xm249/unload_ammo(mob/user, var/allow_dump=1)
 	if(!cover_opened)
 		to_chat(user, "<span class='warning'>You need to open the cover to unload [src].</span>")
@@ -314,7 +301,7 @@
 	..()
 
 /obj/item/weapon/gun/projectile/automatic/xm249/update_icon()
-	if(istype(ammo_magazine, /obj/item/ammo_magazine/c556x45b))
+	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
 		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
 	else
 		icon_state = "xm249[cover_opened ? "open" : "closed"]-empty"

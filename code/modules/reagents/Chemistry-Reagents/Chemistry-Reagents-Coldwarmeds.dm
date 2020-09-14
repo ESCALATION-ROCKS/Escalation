@@ -194,7 +194,7 @@
 	M.hallucination(60, 20)
 
 
-/datum/reagent/sydnocarbum
+/* /datum/reagent/sydnocarbum
 	name = "Sydnocarbum"
 	description = "Powerful military-grade psychostimulant."
 	reagent_state = LIQUID
@@ -224,7 +224,7 @@
 	M.make_dizzy(5)
 	M.make_jittery(5)
 	M.confused += 2
-	M.drowsyness += 2
+	M.drowsyness += 2 */
 
 /datum/reagent/phenazepam
 	name = "Phenazepam"
