@@ -256,7 +256,42 @@
 	icon_state = "squadpatch"
 	var/squad = null
 
+//uk
 
+/obj/item/clothing/accessory/insignia/baf/p
+	name = "Private"
+	icon_state = "usmc_pfc_insignia"
+	rank = "Private"
+
+/obj/item/clothing/accessory/insignia/baf/lcpl
+	name = "Lance Corporal insignia"
+	icon_state = "usmc_lcpl_insignia"
+	rank = "Lance Corporal"
+
+/obj/item/clothing/accessory/insignia/baf/cpl
+	name = "Corporal insignia"
+	icon_state = "usmc_cpl_insignia"
+	rank = "Corporal"
+
+/obj/item/clothing/accessory/insignia/baf/sgt
+	name = "Sergeant insignia"
+	icon_state = "usmc_sgt_insignia"
+	rank = "Sergeant"
+
+/obj/item/clothing/accessory/insignia/baf/frstsgt
+	name = "First Sergeant insignia"
+	icon_state = "usmc_1stsgt_insignia"
+	rank = "First Sergeant"
+
+/obj/item/clothing/accessory/insignia/baf/scndlt
+	name = "Second Lieutenant insignia"
+	icon_state = "usmc_2ndlt_insignia"
+	rank = "Second Lieutenant"
+
+/obj/item/clothing/accessory/insignia/baf/frstlt
+	name = "First Lieutenant insignia"
+	icon_state = "usmc_1stlt_insignia"
+	rank = "First Lieutenant"
 
 //Storage Accessories
 /obj/item/clothing/accessory/storage/bandolier_nato
@@ -308,3 +343,4 @@
 	slots = 2
 	max_w_class = ITEM_SIZE_NORMAL
 	armor_slowdown = 0.0
+

@@ -10,10 +10,6 @@ SilverSZ = {
 ::ALL::
 }
 
-cabostein = {
-::ALL::
-}
-
 isismilitant = {
 ::ALL::
 }
@@ -602,7 +598,7 @@ usa_enlisted
 }
 
 Cabostein = {
-usa_enlisted
+::ALL::
 }
 
 optimisticdude = {
@@ -757,3 +753,7 @@ usa_enlisted
 }
 
 
+
+maxplays = {
+::ALL::
+}
