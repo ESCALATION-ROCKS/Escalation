@@ -250,7 +250,7 @@
 /obj/item/weapon/gun/projectile/hipower
 	name = "Browning Hi-Power"
 	desc = "A dated yet reliable design. Uses 9x19 ammunition"
-	icon_state = "hipower" //fix
+	icon_state = "hipower"
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"

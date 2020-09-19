@@ -1754,7 +1754,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/lmg
-	back = /obj/item/weapon/storage/backpack/alice/medium
+	back = /obj/item/weapon/storage/backpack/baf/medium
 	belt = /obj/item/weapon/storage/belt/harness/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/mgunnera/pre_equip(mob/living/carbon/human/H)
@@ -1768,7 +1768,7 @@
 	back_2 = /obj/item/weapon/gun/launcher/smaw
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/alice/large
+	back = /obj/item/weapon/storage/backpack/baf/large
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
@@ -1781,7 +1781,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - BAF AT Gunner")
 	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
 	shoes = /obj/item/clothing/shoes/baf/field
-	back_2 = /obj/item/weapon/storage/backpack/alice/large
+	back_2 = /obj/item/weapon/storage/backpack/baf/large
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	back = /obj/item/weapon/gun/launcher/smaw
@@ -1801,7 +1801,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/alice/large
+	back = /obj/item/weapon/storage/backpack/baf/large
 	belt = /obj/item/weapon/storage/belt/harness/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/atass/pre_equip(mob/living/carbon/human/H)
@@ -1923,7 +1923,7 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/alice/large
+	back = /obj/item/weapon/storage/backpack/baf/large
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
@@ -1938,7 +1938,7 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/alice/large
+	back = /obj/item/weapon/storage/backpack/baf/large
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
@@ -1953,7 +1953,7 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/alice/large
+	back = /obj/item/weapon/storage/backpack/baf/large
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1

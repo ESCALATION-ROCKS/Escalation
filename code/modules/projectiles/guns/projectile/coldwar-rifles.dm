@@ -1234,8 +1234,8 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 1.4
-	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
-	bayonet_attachable = 0
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/baf/
+	bayonet_attachable = 1
 	jam_chance = 0.725
 	slowdown_general = 0.15
 	wielded_item_state = "sterling-wielded"
