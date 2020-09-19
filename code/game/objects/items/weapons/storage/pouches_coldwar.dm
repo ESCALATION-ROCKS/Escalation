@@ -128,6 +128,25 @@
 		/obj/item/ammo_magazine/c45m,
 		)
 
+/obj/item/weapon/storage/belt/holster/baf
+	name = "Browning Hi-Power holster"
+	storage_slots = 3
+	icon_state = "alice_holster"
+	icon_closed = "alice_holster_empty"
+	holster_sound = 'sound/effects/holster/holsterin.ogg'
+	unholster_sound = 'sound/effects/holster/holsterout.ogg'
+	special_item = /obj/item/weapon/gun/projectile/hipower
+	desc = "This holster can hold a Browning Hi-Power pistol and one magazine."
+	special_item = /obj/item/weapon/gun/projectile/hipower
+	startswith = list(
+		/obj/item/weapon/gun/projectile/hipower,
+		/obj/item/ammo_magazine/a9x19b
+		)
+	can_hold = list(
+		/obj/item/weapon/gun/projectile/hipower,
+		/obj/item/ammo_magazine/a9x19b
+		)
+
 /obj/item/weapon/storage/belt/holster/aps
 	special_item = /obj/item/weapon/gun/projectile/aps
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
@@ -254,6 +273,32 @@
 	can_hold = list(
 		/obj/item/weapon/material/knife/bayonet/usmc)
 
+/obj/item/weapon/storage/belt/holster/sheath/baf
+	name = "L1A3 sheath"
+	desc = "This sheath can hold a L1A3 bayonet."
+	special_item = /obj/item/weapon/material/knife/bayonet/baf
+	holster_sound = 'sound/effects/holster/sheathin.ogg'
+	unholster_sound = 'sound/effects/holster/sheathout.ogg'
+	icon_state = "l1a3_sheath"
+	icon_closed = "l1a3_sheath_empty"
+	startswith = list(
+		/obj/item/weapon/material/knife/bayonet/baf)
+	can_hold = list(
+		/obj/item/weapon/material/knife/bayonet/baf)
+
+/obj/item/weapon/storage/belt/holster/sheath/finn
+	name = "M62 Valmet sheath"
+	desc = "This sheath can hold a M62 Valmet bayonet."
+	special_item = /obj/item/weapon/material/knife/bayonet/finn
+	holster_sound = 'sound/effects/holster/sheathin.ogg'
+	unholster_sound = 'sound/effects/holster/sheathout.ogg'
+	icon_state = "valmet_sheath"
+	icon_closed = "valmet_sheath_empty"
+	startswith = list(
+		/obj/item/weapon/material/knife/bayonet/finn)
+	can_hold = list(
+		/obj/item/weapon/material/knife/bayonet/finn)
+
 /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	name = "Modell AK74 bayonet sheath"
 	desc = "This sheath can hold a Modell AK74 bayonet."
@@ -355,7 +400,7 @@
 	w_class = ITEM_SIZE_HUGE
 	name = "7.62 STANAG magazine pouch"
 	desc = "Has enough space to hold two 7.62 STANAG magazines."
-	icon_state = "bdw_ammo"
+	icon_state = "baf_ammo"
 	item_state = "bdw_ammo"
 	open_delay = 5
 	storage_slots = 2
@@ -374,9 +419,9 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	w_class = ITEM_SIZE_HUGE
-	name = "9x19mm STERLING magazine pouch"
-	desc = "Has enough space to hold three 9x19mm STERLING magazines."
-	icon_state = "bdw_ammo"
+	name = "Sterling magazine pouch"
+	desc = "Has enough space to hold three 9x19mm Sterling magazines."
+	icon_state = "sterling_ammo"
 	item_state = "bdw_ammo"
 	open_delay = 5
 	storage_slots = 3
@@ -396,7 +441,7 @@
 	max_w_class = ITEM_SIZE_LARGE
 	name = "L7A2 box pouch"
 	desc = "Has enough space to hold one L7A2 box."
-	icon_state = "bdw_ammo_lmg"
+	icon_state = "baf_ammo_lmg"
 	item_state = "bdw_ammo_lmg"
 	open_delay = 5
 	storage_slots = 1
@@ -643,6 +688,12 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m
+		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 	open_delay = 5
@@ -658,6 +709,9 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x39v
 	)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x39v
+		)
 
 
 /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
@@ -665,8 +719,8 @@
 	max_w_class = 2
 	name = "grenade pouch"
 	desc = "Can hold three grenades."
-	icon_state = "nvaddr_grenade"
-	item_state = "nvaddr_grenade"
+	icon_state = "sa_grenade"
+	item_state = "sa_grenade"
 	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
