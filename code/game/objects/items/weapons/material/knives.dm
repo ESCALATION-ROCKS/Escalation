@@ -138,15 +138,3 @@
 	desc = "Combat knife of the Bundeswehr forces. German quality."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "bdw"
-
-/obj/item/weapon/material/knife/bayonet/baf
-	name = "L1A3 bayonet"
-	desc = "A 9 inch bayonet with a carbon-steel blade. Produced in Great Britain."
-	icon = 'icons/obj/weapons.dmi'
-	icon_state = "baf"
-
-/obj/item/weapon/material/knife/bayonet/finn
-	name = "M62 Valmet bayonet"
-	desc = "A bayonet based on Finnish 'puukko' knives."
-	icon = 'icons/obj/weapons.dmi'
-	icon_state = "finn"

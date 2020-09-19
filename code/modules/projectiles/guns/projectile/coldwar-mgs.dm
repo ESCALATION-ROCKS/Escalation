@@ -410,7 +410,7 @@
 	jam_chance = 0.25
 	slowdown_general = 0.8
 
-	wielded_item_state = "l7a2-wielded"
+	wielded_item_state = "vz59-wielded"
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'

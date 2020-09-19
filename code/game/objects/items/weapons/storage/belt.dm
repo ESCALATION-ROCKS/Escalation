@@ -309,7 +309,7 @@
 	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
 
 /obj/item/weapon/storage/belt/harness/baf
-	name = "british harness"
+	name = "British harness"
 	desc = "A generic harness used by the BAF."
 	icon_state = "bdw_harness"
 	item_state = "bdw_harness"
