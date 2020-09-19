@@ -1322,7 +1322,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon MG")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
-	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
+	holster = /obj/item/weapon/storage/belt/holster/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
 	right_pouch =/obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	r_pocket = null

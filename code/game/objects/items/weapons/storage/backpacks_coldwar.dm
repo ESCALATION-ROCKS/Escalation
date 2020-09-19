@@ -199,7 +199,7 @@
 //bri ish
 /obj/item/weapon/storage/backpack/baf_buttpack
 	name = "BAF field pack"
-	desc = "A sturdy field pack standard issue in the British Air Force. Also referred as butt pack"
+	desc = "A sturdy field pack standard issue in the British Armed Forces. Also referred as butt pack"
 	icon_state = "baf_buttpack"
 	item_state = "baf_buttpack"
 	reachable = 1
@@ -210,7 +210,7 @@
 
 /obj/item/weapon/storage/backpack/baf/medium
 	name = "BAF medium pack"
-	desc = "Commonly used by the British Air Force."
+	desc = "Commonly used by the British Armed Forces."
 	icon_state = "bafmediumpack"
 	item_state = "bafmediumpack"
 	slot_flags = SLOT_BACK
@@ -224,7 +224,7 @@
 
 /obj/item/weapon/storage/backpack/baf/large
 	name = "BAF large pack"
-	desc = "Commonly used by the British Air Force."
+	desc = "Commonly used by the British Armed Forces."
 	icon_state = "baflargepack"
 	item_state = "baflargepack"
 	slot_flags = SLOT_BACK
