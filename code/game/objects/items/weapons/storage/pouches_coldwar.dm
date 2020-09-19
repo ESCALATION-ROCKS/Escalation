@@ -420,15 +420,16 @@
 /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	w_class = ITEM_SIZE_HUGE
 	name = "Sterling magazine pouch"
-	desc = "Has enough space to hold three 9x19mm Sterling magazines."
+	desc = "Has enough space to hold four 9x19mm Sterling magazines."
 	icon_state = "sterling_ammo"
 	item_state = "bdw_ammo"
 	open_delay = 5
-	storage_slots = 3
+	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/a9x19s
 		)
 	startswith = list(
+		/obj/item/ammo_magazine/a9x19s,
 		/obj/item/ammo_magazine/a9x19s,
 		/obj/item/ammo_magazine/a9x19s,
 		/obj/item/ammo_magazine/a9x19s
