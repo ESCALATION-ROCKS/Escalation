@@ -35,33 +35,6 @@
 	max_storage_space = 6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
-/obj/item/weapon/storage/backpack/baf_buttpack
-	name = "BAF field pack"
-	desc = "A sturdy field pack used by the BAF."
-	icon_state = "bundes_buttpack"
-	item_state = "bundes_buttpack"
-	reachable = 1
-	max_storage_space = 6
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-
-/obj/item/weapon/storage/backpack/baf_med
-	name = "medical bag"
-	desc = "A leather tablet bag used by British medical personnel."
-	icon_state = "bundes_med"
-	item_state = "bundes_med"
-	reachable = 1
-	max_storage_space = 15
-	open_delay = 5
-	slot_flags = SLOT_BACK
-	startswith = list(
-			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
-			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
-			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/ointment = 1,
-			/obj/item/stack/medical/splint = 1)
-
 /obj/item/weapon/storage/backpack/usmc_buttpack
 	name = "US field pack"
 	desc = "A sturdy field pack used by U.S. army. Also referred as butt pack"

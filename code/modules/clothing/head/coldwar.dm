@@ -209,7 +209,7 @@
 //UK Hats
 
 //UK Helmets
-/obj/item/clothing/head/helmet/coldwar/baf/mkv
+/obj/item/clothing/head/helmet/coldwar/bdw/mkv
 	name = "MKV helmet"
 	desc = "A relatively average helmet used by the United Kingdom."
 	icon_state = "mkv"
@@ -217,7 +217,7 @@
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "mkv-unzipped"
 
-/obj/item/clothing/head/helmet/coldwar/baf/mkv/cover
+/obj/item/clothing/head/helmet/coldwar/bdw/mkv/cover
 	desc = "A relatively average helmet used by the United Kingdom, this one has a camo net covering it."
 	icon_state = "mkvc"
 	icon_state_unzipped = "mkvc-unzipped"

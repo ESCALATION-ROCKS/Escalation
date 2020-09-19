@@ -351,62 +351,6 @@
 		/obj/item/ammo_magazine/c762x51b/bdw
 		)
 
-/obj/item/weapon/storage/belt/suit/ammo/baf
-	w_class = ITEM_SIZE_HUGE
-	name = "7.62 STANAG magazine pouch"
-	desc = "Has enough space to hold two 7.62 STANAG magazines."
-	icon_state = "bdw_ammo"
-	item_state = "bdw_ammo"
-	open_delay = 5
-	storage_slots = 2
-	can_hold = list(
-		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/a9x19,
-		/obj/item/ammo_magazine/c762x51wa,
-		/obj/item/ammo_magazine/c762x51m
-		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/c762x51s
-		)
-	use_sound = 'sound/items/interactions/natopouchopen.wav'
-	close_sound = 'sound/items/interactions/natopouchclose.wav'
-
-/obj/item/weapon/storage/belt/suit/ammo/baf/s
-	w_class = ITEM_SIZE_HUGE
-	name = "9x19mm STERLING magazine pouch"
-	desc = "Has enough space to hold three 9x19mm STERLING magazines."
-	icon_state = "bdw_ammo"
-	item_state = "bdw_ammo"
-	open_delay = 5
-	storage_slots = 3
-	can_hold = list(
-		/obj/item/ammo_magazine/a9x19s
-		)
-	startswith = list(
-		/obj/item/ammo_magazine/a9x19s,
-		/obj/item/ammo_magazine/a9x19s,
-		/obj/item/ammo_magazine/a9x19s
-		)
-	use_sound = 'sound/items/interactions/natopouchopen.wav'
-	close_sound = 'sound/items/interactions/natopouchclose.wav'
-
-/obj/item/weapon/storage/belt/suit/ammo/baf/lmg
-	w_class = ITEM_SIZE_HUGE
-	max_w_class = ITEM_SIZE_LARGE
-	name = "L7A2 box pouch"
-	desc = "Has enough space to hold one L7A2 box."
-	icon_state = "bdw_ammo_lmg"
-	item_state = "bdw_ammo_lmg"
-	open_delay = 5
-	storage_slots = 1
-	can_hold = list(
-		/obj/item/ammo_magazine/c762x51b/en
-		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51b/en
-		)
-
 /obj/item/weapon/storage/belt/suit/ammo/usmc
 	w_class = ITEM_SIZE_HUGE
 	name = "5.56 STANAG magazine pouch"
