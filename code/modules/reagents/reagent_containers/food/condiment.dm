@@ -106,8 +106,7 @@
 					name = "Sugar"
 					desc = "Tastey space sugar!"
 					center_of_mass = "x=16;y=6"
-<<<<<<< HEAD
-				if(/datum/reagent/drink/instanttea)
+				/*if(/datum/reagent/drink/instanttea)
 					name = "ration component (instant tea)"
 					desc = "A package from a ration pack. Contains instant tea powder. Don't drink this straight, mix with 15u hot water!"
 					icon_state = "instanttea"
@@ -124,9 +123,7 @@
 					desc = "A package from a ration pack. Contains gatorade drink powder. Don't drink this straight, mix with 15u water!"
 					icon_state = "gatorade"
 					icon = 'icons/obj/us_mre.dmi'
-					center_of_mass = "x=16;y=6"
-=======
->>>>>>> parent of 2fe3fc1... Merge branch 'master' into bri
+					center_of_mass = "x=16;y=6"*/
 				else
 					name = "Misc Condiment Bottle"
 					if (reagents.reagent_list.len==1)

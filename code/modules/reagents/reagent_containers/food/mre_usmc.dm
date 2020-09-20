@@ -81,8 +81,7 @@
 			reagents.add_reagent(/datum/reagent/sugar, 1)
 			reagents.add_reagent(/datum/reagent/nutriment/coco, 1)
 
-<<<<<<< HEAD
-/obj/item/weapon/reagent_containers/food/condiment/mredrink
+/*/obj/item/weapon/reagent_containers/food/condiment/mredrink
 	name = "\improper MRE drink"
 	desc = "A package from a Meal Ready-to-Eat, used by NATO. Contains a drink powder, prepared for field consumption."
 	possible_transfer_amounts = "1;5"
@@ -109,9 +108,7 @@
 			reagents.add_reagent(/datum/reagent/drink/instantcoffee/, 5)
 		if("gatorade")
 			icon_state = "drink"
-			reagents.add_reagent(/datum/reagent/drink/gatoradepowder/, 5)
-=======
->>>>>>> parent of 2fe3fc1... Merge branch 'master' into bri
+			reagents.add_reagent(/datum/reagent/drink/gatoradepowder/, 5)*/
 
 /obj/item/weapon/reagent_containers/food/snacks/halbbitter
 	name = "halb-bitter schokolade"
