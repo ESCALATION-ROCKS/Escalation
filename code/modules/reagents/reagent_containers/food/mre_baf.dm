@@ -25,7 +25,7 @@
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, soup)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, side)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, desert)
-	new /obj/item/weapon/reagent_containers/food/condiment/mredrink(src, drink)
+	/*new /obj/item/weapon/reagent_containers/food/condiment/mredrink(src, drink)*/
 
 /obj/item/weapon/storage/box/ORP/update_icon()
 	if(!contents.len)
@@ -83,7 +83,7 @@
 			reagents.add_reagent(/datum/reagent/sugar, 2)
 			reagents.add_reagent(/datum/reagent/nutriment/coco, 1)
 
-/obj/item/weapon/reagent_containers/food/condiment/mredrink
+/*/obj/item/weapon/reagent_containers/food/condiment/mredrink
 	name = "\improper instant drink"
 	desc = "A package from a ration pack. Contains a drink powder, prepared for field consumption."
 	possible_transfer_amounts = "1;5"
@@ -107,4 +107,4 @@
 			reagents.add_reagent(/datum/reagent/drink/instanttea/, 5)
 		if("instant coffee")
 			icon_state = "drink"
-			reagents.add_reagent(/datum/reagent/drink/instantcoffee/, 5)
+			reagents.add_reagent(/datum/reagent/drink/instantcoffee/, 5)*/

@@ -347,6 +347,11 @@ obj/structure/closet/crate/alt
 	icon_state = "orpcrate"
 	icon_opened = "orpcrateopen"
 	icon_closed = "orpcrate"
+	open_sound = null
+	close_sound = null
+
+/*/obj/structure/closet/crate/orp/WillContain()
+	return list(/obj/item/weapon/storage/box/ORP = 10)*/
 
 /obj/structure/closet/crate/wood
 	name = "wooden crate"
