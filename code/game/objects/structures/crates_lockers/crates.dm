@@ -341,6 +341,13 @@ obj/structure/closet/crate/alt
 	icon_opened = "ammocrateopen"
 	icon_closed = "ammocrate"
 
+/obj/structure/closet/crate/orp
+	name = "24-Hour Operational Ration Pack"
+	desc = "A cardboard box filled with 10 ORP ration packs."
+	icon_state = "orpcrate"
+	icon_opened = "orpcrateopen"
+	icon_closed = "orpcrate"
+
 /obj/structure/closet/crate/wood
 	name = "wooden crate"
 	desc = "A wooden crate."
