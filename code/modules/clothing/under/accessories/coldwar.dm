@@ -132,7 +132,7 @@
 /obj/item/clothing/accessory/insignia/usmc/sfc
 	name = "Sergeant First Class"
 	icon_state = "usmc_msgt_insignia"
-	rank = "Sergeant First class"
+	rank = "Sergeant First Class"
 
 /obj/item/clothing/accessory/insignia/usmc/msgt
 	name = "Master Sergeant insignia"
