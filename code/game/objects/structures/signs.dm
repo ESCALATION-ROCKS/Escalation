@@ -1297,6 +1297,17 @@ obj/structure/sign/noshitlers
 	icon_state = "ddr_flag"
 	desc = "That's the Deutsche Demokratische Republik flag."
 
+/obj/structure/sign/finn_flag
+	name = "Finnish flag"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "finn_flag"
+	desc = "That's the Finland flag."
+
+/obj/structure/sign/westgerman_flag
+	name = "British flag"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "brit_flag"
+	desc = "That's the Great Britain flag."
 
 /obj/structure/sign/westgerman_flag
 	name = "West German flag"
@@ -1445,4 +1456,12 @@ obj/structure/sign/noshitlers
 /obj/structure/sign/flag/usmcflag
 	name = "USMC flag"
 	icon_state = "usmcflag"
+
+/obj/structure/sign/flag/finnflag
+	name = "Finnish flag"
+	icon_state = "finnflag"
+
+/obj/structure/sign/flag/britflag
+	name = "British flag"
+	icon_state = "britishflag"
 

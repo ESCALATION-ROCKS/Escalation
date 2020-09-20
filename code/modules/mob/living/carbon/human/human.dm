@@ -1650,28 +1650,15 @@ var/list/rank_prefix = list(\
 	"Kapitan" = "Kapitan",\
 	"Mladshiy Leitenant" = "Ml.Leytenant",\
 
-//usmc
+//america
 	"First Lieutenant" = "1st Lieutenant",\
-	"Second Lieutenant" = "2nd Lieutenant.",\
-	"Staff Sergeant" = "Staff Sergeant",\
-	"Sergeant" = "Sergeant",\
-	"Corporal" = "Corporal",\
-	"Lance Corporal" = "Lance Corporal",\
-	"Private Second Class" = "PV2",\
-	"Private First Class" = "PFC",\
-
-	"Master Sergeant" = "Master Sergeant",\
-	"Gunnery Sergeant" = "Gy. Sergeant",\
-	"First Sergeant" = "First Sergeant",\
-
-//usa
-	"First Lieutenant" = "1st Lieutenant",\
-	"Second Lieutenant" = "2nd Lieutenant.",\
+	"Second Lieutenant" = "2nd Lieutenant",\
 	"Sergeant First Class" = "Sergeant First Class",\
 	"Staff Sergeant" = "Staff Sergeant",\
 	"Sergeant" = "Sergeant",\
 	"Corporal" = "Corporal",\
 	"Specialist" = "Specialist",\
+	"Lance Corporal" = "Lance Corporal",\
 	"Private Second Class" = "PV2",\
 	"Private First Class" = "PFC",\
 

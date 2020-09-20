@@ -308,24 +308,6 @@
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
 
-/obj/item/weapon/storage/belt/harness/baf
-	name = "british harness"
-	desc = "A generic harness used by the BAF."
-	icon_state = "bdw_harness"
-	item_state = "bdw_harness"
-	show_above_suit = 1
-	storage_slots = 3
-	can_hold = list(/obj/item/weapon/shovel/etool,
-	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
-	/obj/item/weapon/storage/firstaid/usmc_ifak)
-
-/obj/item/weapon/storage/belt/harness/baf/New()
-	..()
-	new /obj/item/weapon/shovel/etool(src)
-	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
-	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
-
-
 /obj/item/weapon/storage/belt/harness/nvaddr
 	name = "nationale volksarmee harness"
 	desc = "A cheap harness used by the Nationale Volksarmee."

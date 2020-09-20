@@ -74,7 +74,7 @@
 	startswith = list(/obj/item/weapon/storage/box/matches/small = 1,
 				/obj/item/weapon/reagent_containers/food/snacks/tincan/stewbuckwheat = 1,
 				/obj/item/weapon/reagent_containers/food/snacks/tincan/stewpearlbarley = 1,
-				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/zheldor = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/soviettea = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/morflot = 1,
 				/obj/item/weapon/storage/fancy/cigarettes/prima = 1)
 
@@ -88,7 +88,7 @@
 	startswith = list(/obj/item/weapon/storage/box/matches/small = 1,
 				/obj/item/weapon/reagent_containers/food/snacks/tincan/stew = 1,
 				/obj/item/weapon/reagent_containers/food/snacks/tincan/buckwheat = 1,
-				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/ = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/soviettea/ = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/tsukor = 1,
 				/obj/item/weapon/storage/fancy/cigarettes/prima = 1)
 

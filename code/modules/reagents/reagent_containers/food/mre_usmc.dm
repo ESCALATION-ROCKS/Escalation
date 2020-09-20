@@ -4,7 +4,7 @@
 	icon_state = "mre"
 	w_class = 2
 	can_hold = list()
-	storage_slots = 4
+	storage_slots = 5
 	max_w_class = 0
 	foldable = 0
 	icon = 'icons/obj/us_mre.dmi'
@@ -19,11 +19,13 @@
 	var/second = pick("apple sauce", "cheese spread")
 	var/side = pick("cracker")
 	var/desert = pick("dried fruits", "chocolate brownie")
+	var/drink = pick("gatorade","instant tea", "instant coffee")
 	name = "[initial(name)] ([main])"
 	new /obj/item/weapon/reagent_containers/food/snacks/packaged_meal(src, main)
 	new /obj/item/weapon/reagent_containers/food/snacks/packaged_meal(src, second)
 	new /obj/item/weapon/reagent_containers/food/snacks/packaged_meal(src, side)
 	new /obj/item/weapon/reagent_containers/food/snacks/packaged_meal(src, desert)
+	new /obj/item/weapon/reagent_containers/food/condiment/mredrink(src, drink)
 
 /obj/item/weapon/storage/box/MRE/update_icon()
 	if(!contents.len)
@@ -81,6 +83,34 @@
 			reagents.add_reagent(/datum/reagent/sugar, 1)
 			reagents.add_reagent(/datum/reagent/nutriment/coco, 1)
 
+/obj/item/weapon/reagent_containers/food/condiment/mredrink
+	name = "\improper MRE drink"
+	desc = "A package from a Meal Ready-to-Eat, used by NATO. Contains a drink powder, prepared for field consumption."
+	possible_transfer_amounts = "1;5"
+	amount_per_transfer_from_this = 1
+	volume = 5
+	icon_state = "drink"
+	icon = 'icons/obj/us_mre.dmi'
+	var/flavor = "instanttea"//default value
+
+	New(loc, newflavor)
+		..()
+		determinetype(newflavor)
+
+/obj/item/weapon/reagent_containers/food/condiment/mredrink/proc/determinetype(newflavor)
+	name = "\improper MRE drink" + " (" + newflavor + ")"
+	flavor = newflavor
+
+	switch(newflavor)
+		if("instant tea")
+			icon_state = "drink"
+			reagents.add_reagent(/datum/reagent/drink/instanttea/, 5)
+		if("instant coffee")
+			icon_state = "drink"
+			reagents.add_reagent(/datum/reagent/drink/instantcoffee/, 5)
+		if("gatorade")
+			icon_state = "drink"
+			reagents.add_reagent(/datum/reagent/drink/gatoradepowder/, 5)
 
 /obj/item/weapon/reagent_containers/food/snacks/halbbitter
 	name = "halb-bitter schokolade"

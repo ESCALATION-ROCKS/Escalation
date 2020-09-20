@@ -29,12 +29,3 @@
 	language = "English"
 	base_color = "green"
 	fireteam_names = list("Squad #1", "Squad #2", "Squad #3", "Squad #4")
-
-/datum/army_faction/nato/baf
-	name = "British Armed Forces"
-	enabled = 1
-	faction_tag = "baf"
-	flag_state = "baf"
-	language = "English"
-	base_color = "purple"
-	fireteam_names = list("Squad #1", "Squad #2", "Squad #3", "Squad #4")
