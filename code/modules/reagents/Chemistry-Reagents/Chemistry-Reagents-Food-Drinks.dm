@@ -651,34 +651,10 @@
 	glass_desc = "No relation to a certain rap artist/ actor."
 	glass_special = list(DRINK_ICE)
 
-/datum/reagent/drink/instanttea
-	name = "Instant Tea Powder"
-	description = "Add some water in it to make it into some tart black tea.!"
-	taste_description = "disgusting bitterness"
-	color = "#101000"
-	taste_mult = 0.2
-	overdose = 15
-
-/datum/reagent/drink/instantcoffee
-	name = "Instant Coffee Powder"
-	description = "Add some water in it to make it into some delicious coffee."
-	taste_description = "disgusting bitterness"
-	taste_mult = 0.2
-	color = "#482000"
-	overdose = 15
-
-/datum/reagent/drink/gatoradepowder
-	name = "Gatorade Lemon-Lime Powder"
-	description = "Add some water in it to make it into some sweet gatorade."
-	taste_description = "disgusting sweetness"
-	taste_mult = 0.2
-	color = "#e78108"
-	overdose = 30
-
 /datum/reagent/drink/coffee
 	name = "Coffee"
 	description = "Coffee is a brewed drink prepared from roasted seeds, commonly called coffee beans, of the coffee plant."
-	taste_description = "flavorful bitterness"
+	taste_description = "bitterness"
 	taste_mult = 1.3
 	color = "#482000"
 	adj_dizzy = -5

@@ -248,6 +248,8 @@
 	has_sensor = 0
 
 //British
+/obj/item/clothing/under/brit/
+	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
 
 /obj/item/clothing/under/brit/tiger
 	name = "'DPM' pattern uniform"
@@ -259,8 +261,30 @@
 	slowdown_general = 0.5
 	has_sensor = 0
 
+/obj/item/clothing/under/brit/tiger/alt/sgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/sgt)
+
+/obj/item/clothing/under/brit/tiger/alt/sfc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/frstsgt)
+
+/obj/item/clothing/under/brit/tiger/alt/scndlt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/scndlt)
+
+/obj/item/clothing/under/brit/tiger/alt/fstlt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/frstlt)
+
 /obj/item/clothing/under/brit/tiger/olive
 	name = "'DPM Olive' pattern uniform"
 	desc = "That's a camouflaged field uniform, comes with olive pants, commonly used by regular British Forces."
 	icon_state = "tigero"
 	worn_state = "tigero"
+
+/obj/item/clothing/under/brit/tiger/olive/alt/p
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/p)
+
+/obj/item/clothing/under/brit/tiger/olive/alt/lcpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/lcpl)
+
+/obj/item/clothing/under/brit/tiger/olive/alt/cpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/cpl)
+

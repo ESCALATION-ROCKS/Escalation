@@ -106,6 +106,7 @@
 					name = "Sugar"
 					desc = "Tastey space sugar!"
 					center_of_mass = "x=16;y=6"
+<<<<<<< HEAD
 				if(/datum/reagent/drink/instanttea)
 					name = "ration component (instant tea)"
 					desc = "A package from a ration pack. Contains instant tea powder. Don't drink this straight, mix with 15u hot water!"
@@ -124,6 +125,8 @@
 					icon_state = "gatorade"
 					icon = 'icons/obj/us_mre.dmi'
 					center_of_mass = "x=16;y=6"
+=======
+>>>>>>> parent of 2fe3fc1... Merge branch 'master' into bri
 				else
 					name = "Misc Condiment Bottle"
 					if (reagents.reagent_list.len==1)
@@ -132,12 +135,12 @@
 						desc = "A mixture of various condiments. [reagents.get_master_reagent_name()] is one of them."
 					icon_state = "mixedcondiments"
 					center_of_mass = "x=16;y=6"
-		/*else
+		else
 			icon_state = "emptycondiment"
 			name = "Condiment Bottle"
 			desc = "An empty condiment bottle."
 			center_of_mass = "x=16;y=6"
-			return ---------------Removing this, it just turns empty condiment packs invisible. Unnecessary*/
+			return
 
 /obj/item/weapon/reagent_containers/food/condiment/enzyme
 	name = "Universal Enzyme"
@@ -260,19 +263,3 @@
 	name = "'Traubenzucker'"
 	desc = "A pack of sugar and asparatame tablets. Although they are meant to be dissolved, nothing is stopping you from crunching them."
 	icon_state = "traubenzucker"
-
-/obj/item/weapon/reagent_containers/food/condiment/soviettea
-	name = "instant tea pouch"
-	desc = "Some instant tart black tea powder. Don't drink this straight! Mix with 15u hot water!"
-	icon_state = "soviettea"
-	icon = 'icons/obj/food.dmi'
-	item_state = null
-	possible_transfer_amounts = "1;5"
-	amount_per_transfer_from_this = 1
-	volume = 5
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/drink/instanttea, 5)
-
-/obj/item/weapon/reagent_containers/food/condiment/soviettea/on_reagent_change()
-	return
