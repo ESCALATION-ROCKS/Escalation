@@ -19,13 +19,13 @@
 	var/soup = pick("beef & tomato", "vegetable", "cream of mushroom")
 	var/side = pick("cracker", "biscuit", "oatmeal biscuit")
 	var/desert = pick("milk chocolate bar", "boiled sweets")
-	/*var/drink = pick("instant tea", "instant white tea") */
+	var/drink = pick("instant tea", "coffee")
 	name = "[initial(name)] ([main])"
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, main)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, soup)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, side)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, desert)
-	/*new /obj/item/weapon/reagent_containers/food/condiment/baf_packaged_meal(src, drink)*/
+	new /obj/item/weapon/reagent_containers/food/condiment/mredrink(src, drink)
 
 /obj/item/weapon/storage/box/ORP/update_icon()
 	if(!contents.len)
@@ -82,3 +82,29 @@
 			reagents.add_reagent(/datum/reagent/nutriment/, 2)
 			reagents.add_reagent(/datum/reagent/sugar, 2)
 			reagents.add_reagent(/datum/reagent/nutriment/coco, 1)
+
+/obj/item/weapon/reagent_containers/food/condiment/mredrink
+	name = "\improper instant drink"
+	desc = "A package from a ration pack. Contains a drink powder, prepared for field consumption."
+	possible_transfer_amounts = "1;5"
+	amount_per_transfer_from_this = 1
+	volume = 5
+	icon_state = "drink"
+	icon = 'icons/obj/us_mre.dmi'
+	var/flavor = "instanttea"//default value
+
+	New(loc, newflavor)
+		..()
+		determinetype(newflavor)
+
+/obj/item/weapon/reagent_containers/food/condiment/mredrink/proc/determinetype(newflavor)
+	name = "\improper MRE drink" + " (" + newflavor + ")"
+	flavor = newflavor
+
+	switch(newflavor)
+		if("instant tea")
+			icon_state = "drink"
+			reagents.add_reagent(/datum/reagent/drink/instanttea/, 5)
+		if("instant coffee")
+			icon_state = "drink"
+			reagents.add_reagent(/datum/reagent/drink/instantcoffee/, 5)

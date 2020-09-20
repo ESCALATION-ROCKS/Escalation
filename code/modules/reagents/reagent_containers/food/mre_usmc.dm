@@ -98,7 +98,7 @@
 		determinetype(newflavor)
 
 /obj/item/weapon/reagent_containers/food/condiment/mredrink/proc/determinetype(newflavor)
-	name = "\improper MRE drink" + " (" + newflavor + ")"
+	name = "\improper instant drink" + " (" + newflavor + ")"
 	flavor = newflavor
 
 	switch(newflavor)
