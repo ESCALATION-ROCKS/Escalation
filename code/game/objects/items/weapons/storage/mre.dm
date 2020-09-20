@@ -106,3 +106,32 @@
 				/obj/item/weapon/reagent_containers/food/drinks/bottle/small/campingtee = 1,
 				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/traubenzucker = 1,
 				/obj/item/weapon/reagent_containers/food/snacks/halbbitter = 1)
+
+/*/obj/item/weapon/storage/box/finnration/var1
+	name = "'Taistelumuonapakkaus - Valikko-A' rations"
+	w_class = 3
+	max_w_class = 2
+	max_storage_space = 12
+	desc = "That's a ration pack used by Finnish army."
+	icon_state = "finnration"
+	can_hold = null
+	startswith = list(/obj/item/weapon/reagent_containers/food/snacks/tincan/beefmushrooms = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/breadsalmon = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/finnchocolate = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/finn = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/instantcoffee = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/instantcocoa = 1,)
+
+/obj/item/weapon/storage/box/finnration/var2
+	name = "'Taistelumuonapakkaus - Valikko-B' rations"
+	w_class = 3
+	max_storage_space = 12
+	desc = "That's a ration pack used by Finnish Army."
+	icon_state = "finnration"
+	can_hold = null
+	startswith = list(/obj/item/weapon/reagent_containers/food/snacks/tincan/chickencurry = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/breadham = 1,
+				/obj/item/weapon/reagent_containers/food/snacks/finnoats = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/finn = 1
+				/obj/item/weapon/reagent_containers/food/condiment/instantcoffee = 1,
+				/obj/item/weapon/reagent_containers/food/condiment/instantcocoa = 1,)*/

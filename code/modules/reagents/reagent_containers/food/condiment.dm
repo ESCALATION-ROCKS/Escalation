@@ -223,6 +223,11 @@
 	desc = "That's the sugar! Has a picture of the railway station on it"
 	icon_state = "zheldorsugar"
 
+/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/finnsugar
+	name = "'Karkkia' sugar pack"
+	desc = "A simple sugar pack."
+	icon_state = "finnsugar"
+
 /obj/item/weapon/reagent_containers/food/condiment/sovietsugar/morflot
 	name = "'Morflot' sugar pack"
 	desc = "That's the sugar! Has a picture of the sun and a seagull on it"
