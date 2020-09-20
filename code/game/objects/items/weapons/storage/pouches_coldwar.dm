@@ -487,6 +487,7 @@
 	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
+	startswith = null
 
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr
@@ -573,6 +574,7 @@
 	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
+	startswith = null
 
 //finnish
 
@@ -614,7 +616,7 @@
 	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
-
+	startswith = null
 
 //ugl nade pouches
 
