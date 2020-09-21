@@ -1727,6 +1727,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/rifleman/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1741,6 +1742,7 @@
 	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/mgunner/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1756,6 +1758,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/lmg
 	back = /obj/item/weapon/storage/backpack/baf/medium
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/mgunnera/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1765,13 +1768,14 @@
 	name = OUTFIT_JOB_NAME("Coldwar - BAF AT Commander")
 	uniform = /obj/item/clothing/under/brit/tiger/alt/sfc
 	shoes = /obj/item/clothing/shoes/baf/field
-	back_2 = /obj/item/weapon/gun/launcher/smaw
+	back_2 = /obj/item/weapon/gun/launcher/carlgustaf
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	back = /obj/item/weapon/storage/backpack/baf/large
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/atcommander/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1784,10 +1788,11 @@
 	back_2 = /obj/item/weapon/storage/backpack/baf/large
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
-	back = /obj/item/weapon/gun/launcher/smaw
+	back = /obj/item/weapon/gun/launcher/carlgustaf
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/sterling
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/atgunner/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1803,6 +1808,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	back = /obj/item/weapon/storage/backpack/baf/large
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/atass/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1818,6 +1824,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	back_2 = /obj/item/weapon/storage/backpack/baf_buttpack
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/ftleader/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1837,6 +1844,7 @@
 	l_ear = /obj/item/device/binoculars/nato
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/sl/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1853,6 +1861,7 @@
 	back = /obj/item/weapon/storage/backpack/baf_med
 	l_pocket = /obj/item/weapon/key/natomed
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/medic/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1866,6 +1875,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	l_pocket = /obj/item/weapon/masterkey/usmcdoc
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/platlead
 	name = OUTFIT_JOB_NAME("Coldwar - BAF Platoon Leader")
@@ -1880,6 +1890,7 @@
 	l_ear = /obj/item/device/binoculars/nato
 	r_hand = /obj/item/weapon/maptool
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/platlead/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1896,6 +1907,7 @@
 	l_pocket = /obj/item/weapon/masterkey/usmcsarge
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/platleaddep/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1912,6 +1924,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	back = /obj/item/weapon/radioset/prc77
 	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/rto/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1927,6 +1940,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_commander/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1942,6 +1956,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_loader/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -1957,6 +1972,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_operator/pre_equip(mob/living/carbon/human/H)
 	..()

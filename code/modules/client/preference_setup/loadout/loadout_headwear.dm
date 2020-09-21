@@ -14,7 +14,7 @@
 	path = 	/obj/item/clothing/head/headband/red
 	cost = 3
 
-/datum/gear/hats/bdw
+/*/datum/gear/hats/bdw
 	display_name = "Bunderswehr mountaineer beret"
 	path = /obj/item/clothing/head/beret/bundeswehr
-	cost = 3
+	cost = 3*/
