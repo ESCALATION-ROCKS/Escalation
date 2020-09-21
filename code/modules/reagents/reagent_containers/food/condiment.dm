@@ -106,24 +106,24 @@
 					name = "Sugar"
 					desc = "Tastey space sugar!"
 					center_of_mass = "x=16;y=6"
-				if(/datum/reagent/drink/instanttea)
-					name = "MRE component (instant tea)"
-					desc = "A package from a Meal Ready-to-Eat, used by NATO. Contains instant tea powder. Don't drink this straight, mix with 15u hot water!"
+				/*if(/datum/reagent/drink/instanttea)
+					name = "ration component (instant tea)"
+					desc = "A package from a ration pack. Contains instant tea powder. Don't drink this straight, mix with 15u hot water!"
 					icon_state = "instanttea"
 					icon = 'icons/obj/us_mre.dmi'
 					center_of_mass = "x=16;y=6"
 				if(/datum/reagent/drink/instantcoffee)
-					name = "MRE component (instant coffee)"
-					desc = "A package from a Meal Ready-to-Eat, used by NATO. Contains instant coffee powder. Don't drink this straight, mix with 15u water!"
+					name = "ration component (instant coffee)"
+					desc = "A package from a ration pack. Contains instant coffee powder. Don't drink this straight, mix with 15u water!"
 					icon_state = "instantcoffee"
 					icon = 'icons/obj/us_mre.dmi'
 					center_of_mass = "x=16;y=6"
 				if(/datum/reagent/drink/gatoradepowder)
-					name = "MRE component (gatorade powder)"
-					desc = "A package from a Meal Ready-to-Eat, used by NATO. Contains gatorade drink powder. Don't drink this straight, mix with 15u water!"
+					name = "ration component (gatorade powder)"
+					desc = "A package from a ration pack. Contains gatorade drink powder. Don't drink this straight, mix with 15u water!"
 					icon_state = "gatorade"
 					icon = 'icons/obj/us_mre.dmi'
-					center_of_mass = "x=16;y=6"
+					center_of_mass = "x=16;y=6"*/
 				else
 					name = "Misc Condiment Bottle"
 					if (reagents.reagent_list.len==1)
@@ -132,12 +132,12 @@
 						desc = "A mixture of various condiments. [reagents.get_master_reagent_name()] is one of them."
 					icon_state = "mixedcondiments"
 					center_of_mass = "x=16;y=6"
-		/*else
+		else
 			icon_state = "emptycondiment"
 			name = "Condiment Bottle"
 			desc = "An empty condiment bottle."
 			center_of_mass = "x=16;y=6"
-			return ---------------Removing this, it just turns empty condiment packs invisible. Unnecessary*/
+			return
 
 /obj/item/weapon/reagent_containers/food/condiment/enzyme
 	name = "Universal Enzyme"
@@ -241,6 +241,11 @@
 	desc = "That's the sugar! Has a picture of the railway station on it"
 	icon_state = "zheldorsugar"
 
+/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/finnsugar
+	name = "'Karkkia' sugar pack"
+	desc = "A simple sugar pack."
+	icon_state = "finnsugar"
+
 /obj/item/weapon/reagent_containers/food/condiment/sovietsugar/morflot
 	name = "'Morflot' sugar pack"
 	desc = "That's the sugar! Has a picture of the sun and a seagull on it"
@@ -255,19 +260,3 @@
 	name = "'Traubenzucker'"
 	desc = "A pack of sugar and asparatame tablets. Although they are meant to be dissolved, nothing is stopping you from crunching them."
 	icon_state = "traubenzucker"
-
-/obj/item/weapon/reagent_containers/food/condiment/soviettea
-	name = "instant tea pouch"
-	desc = "Some instant tart black tea powder. Don't drink this straight! Mix with 15u hot water!"
-	icon_state = "soviettea"
-	icon = 'icons/obj/food.dmi'
-	item_state = null
-	possible_transfer_amounts = "1;5"
-	amount_per_transfer_from_this = 1
-	volume = 5
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/drink/instanttea, 5)
-
-/obj/item/weapon/reagent_containers/food/condiment/soviettea/on_reagent_change()
-	return

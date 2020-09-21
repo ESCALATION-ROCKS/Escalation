@@ -1148,8 +1148,8 @@
 /decl/hierarchy/outfit/job/coldwar/finn/rifleman
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Rifleman")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
@@ -1160,8 +1160,8 @@
 /decl/hierarchy/outfit/job/coldwar/finn/srad
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Squad Radio Operator")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/storage/backpack/finn/finn_buttpack
 	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
@@ -1172,8 +1172,8 @@
 /decl/hierarchy/outfit/job/coldwar/finn/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - FINN MG")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
@@ -1183,25 +1183,23 @@
 /decl/hierarchy/outfit/job/coldwar/finn/rocket
 	name = OUTFIT_JOB_NAME("Coldwar - FINN RPG")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
-	back = /obj/item/weapon/gun/launcher/rpg7
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	back_2 = /obj/item/weapon/gun/launcher/rpg7
+	back = /obj/item/weapon/storage/backpack/rpgsa
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
-	right_pouch = null
-	r_pocket = null
 	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/rocketass
 	name = OUTFIT_JOB_NAME("Coldwar - FINN RPG Assistant")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	back = /obj/item/weapon/storage/backpack/rpgsa/assistant
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
@@ -1209,39 +1207,35 @@
 /decl/hierarchy/outfit/job/coldwar/finn/mgass
 	name = OUTFIT_JOB_NAME("Coldwar - FINN MG Assistant")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
-	r_pocket = null
 	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/radio
 	name = OUTFIT_JOB_NAME("Coldwar - FINN HQ Radio Operator")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back = /obj/item/weapon/radioset/r105d
 	back_2 = /obj/item/weapon/storage/backpack/finn/finn_buttpack
 	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
-	right_pouch = null
-	r_pocket = null
 	head = /obj/item/clothing/head/finn/cap/talvimetsa
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/sld
 	name = OUTFIT_JOB_NAME("Coldwar - FINN SL Deputy")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
-	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
 	head = /obj/item/clothing/head/finn/cap/talvimetsa
 	belt = /obj/item/weapon/storage/belt/harness/finn/
@@ -1256,7 +1250,6 @@
 	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
 	head = /obj/item/clothing/head/finn/cap/talvimetsa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
-	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/finn/
@@ -1294,7 +1287,6 @@
 	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
 	head = /obj/item/clothing/head/finn/cap/talvimetsa
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
-	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	r_pocket = /obj/item/weapon/masterkey/nvaprapor
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
@@ -1329,8 +1321,8 @@
 /decl/hierarchy/outfit/job/coldwar/finn/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon MG")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
 	right_pouch =/obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	r_pocket = null
@@ -1341,8 +1333,8 @@
 /decl/hierarchy/outfit/job/coldwar/finn/platmgass
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon MG Assistant")
 	uniform = /obj/item/clothing/under/finn/talvimetsa
-	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
@@ -1723,3 +1715,249 @@
 	..()
 	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+
+//BAF
+/decl/hierarchy/outfit/job/coldwar/baf/rifleman
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Rifleman")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
+	shoes = /obj/item/clothing/shoes/baf/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/rifleman/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/mgunner
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Machine Gunner")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
+	shoes = /obj/item/clothing/shoes/baf/field
+	back_2 = /obj/item/weapon/gun/projectile/automatic/l7a2
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/lmg
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/mgunner/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/mgunnera
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Machine Gunner Assistant")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
+	shoes = /obj/item/clothing/shoes/baf/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/lmg
+	back = /obj/item/weapon/storage/backpack/baf/medium
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/mgunnera/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/atcommander
+	name = OUTFIT_JOB_NAME("Coldwar - BAF AT Commander")
+	uniform = /obj/item/clothing/under/brit/tiger/alt/sfc
+	shoes = /obj/item/clothing/shoes/baf/field
+	back_2 = /obj/item/weapon/gun/launcher/smaw
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/storage/backpack/baf/large
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	belt = /obj/item/weapon/storage/belt/harness/baf
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+
+/decl/hierarchy/outfit/job/coldwar/baf/atcommander/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/atgunner
+	name = OUTFIT_JOB_NAME("Coldwar - BAF AT Gunner")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
+	shoes = /obj/item/clothing/shoes/baf/field
+	back_2 = /obj/item/weapon/storage/backpack/baf/large
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
+	back = /obj/item/weapon/gun/launcher/smaw
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	belt = /obj/item/weapon/storage/belt/harness/baf
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/sterling
+
+/decl/hierarchy/outfit/job/coldwar/baf/atgunner/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/atass
+	name = OUTFIT_JOB_NAME("Coldwar - BAF AT Assistant")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
+	shoes = /obj/item/clothing/shoes/baf/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/storage/backpack/baf/large
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/atass/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/ftleader
+	name = OUTFIT_JOB_NAME("Coldwar - BAF FT Leader")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/cpl
+	shoes = /obj/item/clothing/shoes/baf/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
+	back = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back_2 = /obj/item/weapon/storage/backpack/baf_buttpack
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/ftleader/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/sl
+	name = OUTFIT_JOB_NAME("Coldwar - BAF SL")
+	uniform = /obj/item/clothing/under/brit/tiger/alt/sgt
+	shoes = /obj/item/clothing/shoes/baf/field
+	back_2 = /obj/item/weapon/storage/backpack/baf_buttpack
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/radioset/prc77
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	l_pocket = /obj/item/weapon/masterkey/usmcsarge
+	r_pocket = /obj/item/weapon/maptool
+	l_ear = /obj/item/device/binoculars/nato
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/sl/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/medic
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Field Medic")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/lcpl
+	shoes = /obj/item/clothing/shoes/baf/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/storage/backpack/baf_med
+	l_pocket = /obj/item/weapon/key/natomed
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/medic/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/doctor
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Field Surgeon")
+	uniform = /obj/item/clothing/under/brit/tiger/alt/sgt
+	shoes = /obj/item/clothing/shoes/baf/field
+	back = /obj/item/weapon/storage/backpack/baf_med
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	l_pocket = /obj/item/weapon/masterkey/usmcdoc
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/platlead
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Platoon Leader")
+	uniform = /obj/item/clothing/under/brit/tiger/alt/fstlt
+	shoes = /obj/item/clothing/shoes/baf/field
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	l_pocket = /obj/item/weapon/masterkey/usmclt
+	l_ear = /obj/item/device/binoculars/nato
+	r_hand = /obj/item/weapon/maptool
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/platlead/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/platleaddep
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Platoon Leader Deputy")
+	uniform = /obj/item/clothing/under/brit/tiger/alt/scndlt
+	shoes = /obj/item/clothing/shoes/baf/field
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	l_pocket = /obj/item/weapon/masterkey/usmcsarge
+	l_ear = /obj/item/device/binoculars/nato
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/platleaddep/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/rto
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Radiotelephone Operator")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/lcpl
+	shoes = /obj/item/clothing/shoes/baf/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
+	back_2 = /obj/item/weapon/storage/backpack/baf_buttpack
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/radioset/prc77
+	belt = /obj/item/weapon/storage/belt/harness/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/rto/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/hws_commander
+	name = OUTFIT_JOB_NAME("Coldwar - BAF HWS Commander")
+	uniform = /obj/item/clothing/under/brit/tiger/alt/sgt
+	shoes = /obj/item/clothing/shoes/baf/field
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/storage/backpack/baf/large
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	belt = /obj/item/weapon/storage/belt/harness/baf
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+
+/decl/hierarchy/outfit/job/coldwar/baf/hws_commander/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/hws_loader
+	name = OUTFIT_JOB_NAME("Coldwar - BAF HWS Loader")
+	uniform = /obj/item/clothing/under/brit/tiger/alt/sfc
+	shoes = /obj/item/clothing/shoes/baf/field
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/storage/backpack/baf/large
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	belt = /obj/item/weapon/storage/belt/harness/baf
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+
+/decl/hierarchy/outfit/job/coldwar/baf/hws_loader/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
+
+/decl/hierarchy/outfit/job/coldwar/baf/hws_operator
+	name = OUTFIT_JOB_NAME("Coldwar - BAF HWS Operator")
+	uniform = /obj/item/clothing/under/brit/tiger/alt/sfc
+	shoes = /obj/item/clothing/shoes/baf/field
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/storage/backpack/baf/large
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	belt = /obj/item/weapon/storage/belt/harness/baf
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+
+/decl/hierarchy/outfit/job/coldwar/baf/hws_operator/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)

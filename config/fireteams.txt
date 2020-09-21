@@ -180,6 +180,48 @@ ATS-1:usa
 /datum/job/escalation/usa/usaata
 @END@
 
+Squad Alpha:baf
+/datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafat
+/datum/job/escalation/baf/bafata
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafftmg
+/datum/job/escalation/baf/bafftmga
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
+
+
+@END@
+
+Squad Bravo:baf
+/datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafat
+/datum/job/escalation/baf/bafata
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafftmg
+/datum/job/escalation/baf/bafftmga
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
+@END@
+
+Squad Charlie:baf
+/datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafat
+/datum/job/escalation/baf/bafata
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafftmg
+/datum/job/escalation/baf/bafftmga
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
+@END@
+
+
 Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld

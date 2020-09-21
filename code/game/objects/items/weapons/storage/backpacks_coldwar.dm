@@ -32,6 +32,7 @@
 	icon_state = "bundes_buttpack"
 	item_state = "bundes_buttpack"
 	reachable = 1
+	open_delay = 10
 	max_storage_space = 6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
@@ -41,6 +42,7 @@
 	icon_state = "usmc_buttpack"
 	item_state = "usmc_buttpack"
 	reachable = 1
+	open_delay = 10
 	max_storage_space = 6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
@@ -52,7 +54,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_storage_space = 6
 	reachable = 1
-	open_delay = 5
+	open_delay = 10
 	startswith = list(
 			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
 			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
@@ -101,7 +103,7 @@
 	icon_state = "summedsan"
 	item_state = "summedsan"
 	reachable = 1
-	max_storage_space = 15
+	max_storage_space = 10
 	open_delay = 5
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
@@ -161,6 +163,7 @@
 	icon_state = "finn_buttpack"
 	item_state = "finn_buttpack"
 	reachable = 1
+	open_delay = 10
 	max_storage_space = 12
 	slot_flags = SLOT_BACK
 
@@ -171,7 +174,7 @@
 	item_state = "finn_backpack"
 	reachable = 0
 	max_storage_space = 16
-	open_delay = 20
+	open_delay = 5
 
 /obj/item/weapon/storage/backpack/finn/medical
 	name = "medical bag"
@@ -191,6 +194,66 @@
 			/obj/item/weapon/gauze_pack/ipp = 3,
 //			/obj/item/weapon/storage/fancy/syringe = 1,
 			/obj/item/stack/medical/ointment = 2)
+
+
+//bri ish
+/obj/item/weapon/storage/backpack/baf_buttpack
+	name = "BAF field pack"
+	desc = "A sturdy field pack standard issue in the British Armed Forces. Also referred as butt pack"
+	icon_state = "baf_buttpack"
+	item_state = "baf_buttpack"
+	reachable = 1
+	open_delay = 10
+	max_storage_space = 12
+	slot_flags = SLOT_BACK
+
+
+/obj/item/weapon/storage/backpack/baf/medium
+	name = "BAF medium pack"
+	desc = "Commonly used by the British Armed Forces."
+	icon_state = "bafmediumpack"
+	item_state = "bafmediumpack"
+	slot_flags = SLOT_BACK
+	reachable = 0
+	max_storage_space = 16
+	open_delay = 5
+
+/obj/item/weapon/storage/backpack/baf/medium/New()
+	..()
+	slowdown_per_slot[slot_back] = 0.03
+
+/obj/item/weapon/storage/backpack/baf/large
+	name = "BAF large pack"
+	desc = "Commonly used by the British Armed Forces."
+	icon_state = "baflargepack"
+	item_state = "baflargepack"
+	slot_flags = SLOT_BACK
+	reachable = 0
+	max_storage_space = 24
+	open_delay = 5
+
+
+/obj/item/weapon/storage/backpack/baf/large/New()
+	..()
+	slowdown_per_slot[slot_back] = 0.03
+
+/obj/item/weapon/storage/backpack/baf_med
+	name = "medical bag"
+	desc = "A leather tablet bag used by BAF medical personnel."
+	icon_state = "bundes_med"
+	item_state = "bundes_med"
+	reachable = 1
+	max_storage_space = 15
+	open_delay = 5
+	slot_flags = SLOT_BACK
+	startswith = list(
+			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
+			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
+			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/gauze_pack/gauze = 3,
+			/obj/item/stack/medical/ointment = 1,
+			/obj/item/stack/medical/splint = 1)
 
 //rpg blyat
 
