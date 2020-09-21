@@ -275,6 +275,68 @@
 	..()
 	icon_state = "fullgrass_[rand(1, 3)]"
 
+//winter flora
+
+/obj/structure/flora/snowbushes
+	name = "snowy bush"
+	icon = 'icons/obj/flora/snowflora.dmi'
+	icon_state = "snowgrassa_1"
+	anchored = 1
+	layer = 2.9
+
+/obj/structure/flora/snowbushes/Initialize()
+	pixel_x = rand(-8,8)
+	pixel_y = rand(-8,8)
+
+/obj/structure/flora/snowbushes/Crossed(AM as mob|obj)
+	if (istype(AM, /mob/living) && prob(50))
+		playsound(src.loc, foliage, 60, 1)
+
+/obj/structure/flora/snowbushes/New()
+	..()
+	icon_state = "snowgrassa_[rand(1, 3)]"
+
+/obj/structure/flora/snowbushes/snowgrassa
+	icon_state = "snowgrassa_1"
+
+/obj/structure/flora/snowbushes/snowgrassa/New()
+	..()
+	icon_state = "snowgrassa_[rand(1, 3)]"
+
+/obj/structure/flora/snowbushes/snowgrassb
+	icon_state = "snowgrassb_1"
+
+/obj/structure/flora/snowbushes/snowgrassb/New()
+	..()
+	icon_state = "snowgrassb_[rand(1, 3)]"
+
+/obj/structure/flora/snowbushes/snowgrassc
+	icon_state = "snowgrassc_1"
+
+/obj/structure/flora/snowbushes/snowgrassc/New()
+	..()
+	icon_state = "snowgrassc_[rand(1, 3)]"
+
+/obj/structure/flora/snowbushes/snowgrassd
+	icon_state = "snowgrassd_1"
+
+/obj/structure/flora/snowbushes/snowgrassd/New()
+	..()
+	icon_state = "snowgrassd_[rand(1, 3)]"
+
+/obj/structure/flora/snowbushes/snowbush
+	icon_state = "snowbush_1"
+
+/obj/structure/flora/snowbushes/snowbush/New()
+	..()
+	icon_state = "snowbush_[rand(1, 6)]"
+
+/obj/structure/flora/snowbushes/snowbushstump
+	icon_state = "snowbushstump_1"
+
+/obj/structure/flora/snowbushes/snowbushstump/New()
+	..()
+	icon_state = "snowbushstump_[rand(1, 6)]"
 
 //potted plants credit: Flashkirby
 //potted plants 27-30: Cajoes
