@@ -229,7 +229,7 @@
 	force = 5.0
 	flags =  CONDUCT
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
-	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
+	fire_sound = 'sound/weapons/gunshot/gustaf_fire.ogg'
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
 	release_force = 40
@@ -265,7 +265,7 @@
 /obj/item/weapon/gun/launcher/carlgustaf/attackby(obj/item/I as obj, mob/user as mob)
 	if(istype(I, /obj/item/ammo_casing/rpg_missile/recoilless))
 		if(rockets.len < max_rockets)
-			playsound(src.loc,'sound/weapons/gunporn/rpgreload.ogg',80, 0)
+			playsound(src.loc,'sound/weapons/gunporn/gustafreload.ogg',80, 0)
 			if(do_after(usr, 30, src))
 				user.drop_item()
 				I.loc = src

@@ -191,10 +191,10 @@
 	layer = 4
 
 /obj/item/ammo_casing/rpg_missile/recoilless
-	name = "Carl Gustaff shell"
-	desc = "Contains a Carl Gustaff shell"
+	name = "Carl Gustaf shell"
+	desc = "A 84mm Carl Gustaf shell."
 	projectile_type = /obj/item/projectile/bullet/rgprocket/recoilless
-	icon_state = "smaw"
+	icon_state = "carlgustaf"
 	layer = 4
 
 
