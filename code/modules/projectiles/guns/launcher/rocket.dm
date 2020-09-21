@@ -220,7 +220,7 @@
 	desc = "A recoilless rifle, standard-issued by the British Armed Forces."
 	icon = 'icons/obj/guncarlgustaf.dmi'
 	icon_state = "carlgustaf"
-	item_state = "smaw" ///change
+	item_state = "carlgustaf"
 	slowdown_general = 0.5
 	w_class = 5
 	throw_speed = 3
@@ -250,11 +250,11 @@
 	if(rockets.len)
 		icon = 'icons/obj/guncarlgustaf.dmi'
 		icon_state = "carlgustaf"
-		item_state = "smaw"
+		item_state = "carlgustaf"
 	else
 		icon = 'icons/obj/guncarlgustaf.dmi'
 		icon_state = "carlgustaf-empty"
-		item_state = "smaw-empty"
+		item_state = "carlgustaf-empty"
 	update_held_icon()
 
 /obj/item/weapon/gun/launcher/carlgustaf/examine(mob/user)
