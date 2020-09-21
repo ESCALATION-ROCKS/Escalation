@@ -258,3 +258,33 @@
 	reagents.add_reagent(/datum/reagent/nutriment, 20)
 	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
 	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/beefmushrooms
+	name = "beef & mushrooms"
+	desc = "A can of beef & mushroom sautee with rice."
+	w_class = 2
+	center_of_mass = "x=16;y=14"
+	icon_state = "chickencurry"
+	trash = /obj/item/trash/tincan/beefmushrooms
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/beefmushrooms/New()
+	..()
+	reagents.add_reagent(/datum/reagent/nutriment, 20)
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/chickencurry
+	name = "chicken curry"
+	desc = "A can of chicken curry with rice."
+	w_class = 2
+	center_of_mass = "x=16;y=14"
+	icon_state = "chickencurry"
+	trash = /obj/item/trash/tincan/chickencurry
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/tincan/chickencurry/New()
+	..()
+	reagents.add_reagent(/datum/reagent/nutriment, 20)
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
+	bitesize = 3

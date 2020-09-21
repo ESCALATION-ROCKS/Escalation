@@ -947,6 +947,38 @@
 	glass_desc = "A tangy substance made of 0.5% natural citrus!"
 	glass_special = list(DRINK_FIZZ)
 
+/datum/reagent/drink/instanttea
+	name = "Instant Tea Powder"
+	description = "Add some water in it to make it into some tart black tea.!"
+	taste_description = "disgusting bitterness"
+	color = "#101000"
+	taste_mult = 0.2
+	overdose = 15
+
+/datum/reagent/drink/instantcoffee
+	name = "Instant Coffee Powder"
+	description = "Add some water in it to make it into some delicious coffee."
+	taste_description = "disgusting bitterness"
+	taste_mult = 0.2
+	color = "#482000"
+	overdose = 15
+
+/datum/reagent/drink/gatoradepowder
+	name = "Gatorade Lemon-Lime Powder"
+	description = "Add some water in it to make it into some sweet gatorade."
+	taste_description = "disgusting sweetness"
+	taste_mult = 0.2
+	color = "#e78108"
+	overdose = 30
+
+/datum/reagent/drink/instantcocoa
+	name = "Instant Cocoa Powder"
+	description = "Add some water in it to make it into some delicious cocoa."
+	taste_description = "disgusting bittersweetness"
+	taste_mult = 0.2
+	color = "#482000"
+	overdose = 15
+
 /datum/reagent/drink/doctor_delight
 	name = "The Doctor's Delight"
 	description = "A gulp a day keeps the MediBot away. That's probably for the best."

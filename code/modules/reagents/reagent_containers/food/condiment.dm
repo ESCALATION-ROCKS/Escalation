@@ -106,7 +106,7 @@
 					name = "Sugar"
 					desc = "Tastey space sugar!"
 					center_of_mass = "x=16;y=6"
-				/*if(/datum/reagent/drink/instanttea)
+				if(/datum/reagent/drink/instanttea)
 					name = "ration component (instant tea)"
 					desc = "A package from a ration pack. Contains instant tea powder. Don't drink this straight, mix with 15u hot water!"
 					icon_state = "instanttea"
@@ -123,7 +123,7 @@
 					desc = "A package from a ration pack. Contains gatorade drink powder. Don't drink this straight, mix with 15u water!"
 					icon_state = "gatorade"
 					icon = 'icons/obj/us_mre.dmi'
-					center_of_mass = "x=16;y=6"*/
+					center_of_mass = "x=16;y=6"
 				else
 					name = "Misc Condiment Bottle"
 					if (reagents.reagent_list.len==1)
@@ -260,3 +260,56 @@
 	name = "'Traubenzucker'"
 	desc = "A pack of sugar and asparatame tablets. Although they are meant to be dissolved, nothing is stopping you from crunching them."
 	icon_state = "traubenzucker"
+
+/obj/item/weapon/reagent_containers/food/condiment/sovietsugar/finn
+	name = "sugar pack"
+	desc = "A bland-looking pack of sugar."
+	icon_state = "traubenzucker"
+
+/obj/item/weapon/reagent_containers/food/condiment/soviettea
+	name = "instant tea pouch"
+	desc = "Some instant tart black tea powder. Don't drink this straight! Mix with 15u hot water!"
+	icon_state = "soviettea"
+	icon = 'icons/obj/food.dmi'
+	item_state = null
+	possible_transfer_amounts = "1;5"
+	amount_per_transfer_from_this = 1
+	volume = 5
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/drink/instanttea, 5)
+
+/obj/item/weapon/reagent_containers/food/condiment/soviettea/on_reagent_change()
+	return
+
+/obj/item/weapon/reagent_containers/food/condiment/instantcoffee
+	name = "instant coffee pouch"
+	desc = "Some instant coffee powder. Don't drink this straight! Mix with 15u hot water!"
+	icon_state = "soviettea"
+	icon = 'icons/obj/food.dmi'
+	item_state = null
+	possible_transfer_amounts = "1;5"
+	amount_per_transfer_from_this = 1
+	volume = 5
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/drink/instantcoffee, 5)
+
+/obj/item/weapon/reagent_containers/food/condiment/instantcoffee/on_reagent_change()
+	return
+
+/obj/item/weapon/reagent_containers/food/condiment/instantcocoa
+	name = "instant cocoa powder pouch"
+	desc = "Some instant cocoa powder. Don't drink this straight! Mix with 15u hot water!"
+	icon_state = "soviettea"
+	icon = 'icons/obj/food.dmi'
+	item_state = null
+	possible_transfer_amounts = "1;5"
+	amount_per_transfer_from_this = 1
+	volume = 5
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/drink/instantcocoa, 5)
+
+/obj/item/weapon/reagent_containers/food/condiment/instantcocoa/on_reagent_change()
+	return

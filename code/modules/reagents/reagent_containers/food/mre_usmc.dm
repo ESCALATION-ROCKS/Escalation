@@ -4,7 +4,7 @@
 	icon_state = "mre"
 	w_class = 2
 	can_hold = list()
-	storage_slots = 4
+	storage_slots = 5
 	max_w_class = 0
 	foldable = 0
 	icon = 'icons/obj/us_mre.dmi'
@@ -19,11 +19,13 @@
 	var/second = pick("apple sauce", "cheese spread")
 	var/side = pick("cracker")
 	var/desert = pick("dried fruits", "chocolate brownie")
+	var/drink = pick("gatorade","instant tea", "instant coffee")
 	name = "[initial(name)] ([main])"
 	new /obj/item/weapon/reagent_containers/food/snacks/packaged_meal(src, main)
 	new /obj/item/weapon/reagent_containers/food/snacks/packaged_meal(src, second)
 	new /obj/item/weapon/reagent_containers/food/snacks/packaged_meal(src, side)
 	new /obj/item/weapon/reagent_containers/food/snacks/packaged_meal(src, desert)
+	new /obj/item/weapon/reagent_containers/food/condiment/mredrink(src, drink)
 
 /obj/item/weapon/storage/box/MRE/update_icon()
 	if(!contents.len)
@@ -81,7 +83,7 @@
 			reagents.add_reagent(/datum/reagent/sugar, 1)
 			reagents.add_reagent(/datum/reagent/nutriment/coco, 1)
 
-/*/obj/item/weapon/reagent_containers/food/condiment/mredrink
+/obj/item/weapon/reagent_containers/food/condiment/mredrink
 	name = "\improper MRE drink"
 	desc = "A package from a Meal Ready-to-Eat, used by NATO. Contains a drink powder, prepared for field consumption."
 	possible_transfer_amounts = "1;5"
@@ -96,7 +98,7 @@
 		determinetype(newflavor)
 
 /obj/item/weapon/reagent_containers/food/condiment/mredrink/proc/determinetype(newflavor)
-	name = "\improper instant drink" + " (" + newflavor + ")"
+	name = "\improper MRE drink" + " (" + newflavor + ")"
 	flavor = newflavor
 
 	switch(newflavor)
@@ -108,7 +110,7 @@
 			reagents.add_reagent(/datum/reagent/drink/instantcoffee/, 5)
 		if("gatorade")
 			icon_state = "drink"
-			reagents.add_reagent(/datum/reagent/drink/gatoradepowder/, 5)*/
+			reagents.add_reagent(/datum/reagent/drink/gatoradepowder/, 5)
 
 /obj/item/weapon/reagent_containers/food/snacks/halbbitter
 	name = "halb-bitter schokolade"
@@ -130,8 +132,8 @@
 	else 
 		..()
 
-/*/obj/item/weapon/reagent_containers/food/snacks/finnchocolate
-	name = "'Karl Fazer' dark chocolate"
+/obj/item/weapon/reagent_containers/food/snacks/finnchocolate
+	name = "Karl Fazer chocolate"
 	desc = "A bar of Finnish dark chocolate."
 	wrapped = 1
 	bitesize = 3
@@ -151,35 +153,35 @@
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/finnoats
-	name = "oat bar with honey"
-	desc = "A bar of oats, held together with honey."
+	name = "honey & oats bar"
+	desc = "A bar of oats, held together by honey."
 	wrapped = 1
 	bitesize = 3
-	icon_state = "oatbar"
-	trash = /obj/item/trash/oatbar
+	icon_state = "finnoats"
+	trash = /obj/item/trash/finnoats
 /obj/item/weapon/reagent_containers/food/snacks/finnoats/New()
 		..()
-		reagents.add_reagent(/datum/reagent/sugar, 10)
-		reagents.add_reagent(/datum/reagent/nutriment, 5)
+		reagents.add_reagent(/datum/reagent/sugar, 5)
+		reagents.add_reagent(/datum/reagent/nutriment, 10)
 
 /obj/item/weapon/reagent_containers/food/snacks/finnoats/attack_self(mob/user as mob)
 	if (wrapped)
 		to_chat(user,  "<span class='notice'>You pull open the package of the oats!</span>")
-		icon_state = "oatbar_open"
+		icon_state = "finnoats_open"
 		wrapped = 0
 	else 
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/breadsalmon
-	name = "crisp bread with salmon spread"
-	desc = "A piece of crisp white bread with salmon spread over it."
+	name = "crisp bread w/ salmon"
+	desc = "A piece of crisp bread with salmon spread over it."
 	wrapped = 1
 	bitesize = 3
-	icon_state = "salmonspread"
-	trash = /obj/item/trash/salmonspread
+	icon_state = "breadsalmon"
+	trash = /obj/item/trash/crispbread
 /obj/item/weapon/reagent_containers/food/snacks/breadsalmon/New()
 		..()
-		reagents.add_reagent(/datum/reagent/protein, 10)
+		reagents.add_reagent(/datum/reagent/nutriment/protein, 5)
 		reagents.add_reagent(/datum/reagent/nutriment, 10)
 
 /obj/item/weapon/reagent_containers/food/snacks/breadsalmon/attack_self(mob/user as mob)
@@ -191,21 +193,21 @@
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/breadham
-	name = "crisp bread with ham spread"
-	desc = "A piece of crisp white bread with ham spread over it."
+	name = "crisp bread w/ ham"
+	desc = "A piece of crisp bread with ham spread over it."
 	wrapped = 1
 	bitesize = 3
 	icon_state = "breadham"
-	trash = /obj/item/trash/breadham
+	trash = /obj/item/trash/crispbread
 /obj/item/weapon/reagent_containers/food/snacks/breadham/New()
 		..()
-		reagents.add_reagent(/datum/reagent/protein, 10)
+		reagents.add_reagent(/datum/reagent/nutriment/protein, 5)
 		reagents.add_reagent(/datum/reagent/nutriment, 10)
 
 /obj/item/weapon/reagent_containers/food/snacks/breadham/attack_self(mob/user as mob)
 	if (wrapped)
-		to_chat(user,  "<span class='notice'>You pull open the package of the bread!</span>")
+		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
 		icon_state = "breadham_open"
 		wrapped = 0
 	else 
-		..()*/
+		..()

@@ -523,6 +523,30 @@
 	required_reagents = list(/datum/reagent/tramadol/oxycodone = 1, /datum/reagent/dylovene = 1)
 	result_amount = 2
 
+/datum/chemical_reaction/instanttea
+	name = "Instant Tea"
+	result = /datum/reagent/drink/tea
+	required_reagents = list(/datum/reagent/water = 15, /datum/reagent/drink/instanttea = 5)
+	result_amount = 20
+
+/datum/chemical_reaction/instantcoffee
+	name = "Instant Coffee"
+	result = /datum/reagent/drink/coffee
+	required_reagents = list(/datum/reagent/water = 15, /datum/reagent/drink/instantcoffee = 5)
+	result_amount = 20
+
+/datum/chemical_reaction/gatorade
+	name = "Gatorade Lemon-Lime"
+	result = /datum/reagent/sugar
+	required_reagents = list(/datum/reagent/water = 15, /datum/reagent/drink/gatoradepowder = 5)
+	result_amount = 20
+
+/datum/chemical_reaction/instantcocoa
+	name = "Instant Cocoa"
+	result = /datum/reagent/drink/hot_coco
+	required_reagents = list(/datum/reagent/water = 15, /datum/reagent/drink/instantcocoa = 5)
+	result_amount = 20
+
 /* Solidification */
 
 /datum/chemical_reaction/phoronsolidification

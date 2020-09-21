@@ -133,6 +133,14 @@
 	name = "tin can"
 	icon_state = "buckwheat_empty"
 
+/obj/item/trash/tincan/beefmushrooms
+	name = "tin can"
+	icon_state = "buckwheat_empty"
+
+/obj/item/trash/tincan/chickencurry
+	name = "tin can"
+	icon_state = "buckwheat_empty"
+
 /obj/item/trash/plasticpack
 	name = "plastic pack"
 	icon_state = "plasticpacket"
@@ -144,3 +152,15 @@
 /obj/item/trash/campingtee
 	name = "drink pouch"
 	icon_state = "campingtee"
+
+/obj/item/trash/karlfazer
+	name = "chocolate wrapping"
+	icon_state = "karlfazer"
+
+/obj/item/trash/finnoats
+	name = "chocolate wrapping"
+	icon_state = "finnoats"
+
+/obj/item/trash/crispbread
+	name = "bread wrapping"
+	icon_state = "crispbread"
