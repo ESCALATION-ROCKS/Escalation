@@ -932,7 +932,7 @@
 
 /datum/job/escalation/finn/finnratelo
 	title = "FINN Alikersantti"
-	title = "Alikersantti"
+	name = "Alikersantti"
 	english_name = "HQ Radio Operator"
 	minimal_player_age = 21
 	economic_modifier = 5

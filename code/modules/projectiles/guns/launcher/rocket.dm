@@ -205,17 +205,17 @@
 		return M
 	return null
 
-/obj/item/weapon/gun/launcher/finnrpg/handle_post_fire(mob/user, atom/target)
+/*/obj/item/weapon/gun/launcher/finnrpg/handle_post_fire(mob/user, atom/target)
 	sleep(1)
 	var/smoke_dir = user.dir
 	if(user)
 		switch(smoke_dir) //We want the opposite of their direction.
 			if(2,8)
-				smoke_dir /= 2
+				smoke_dir /= 2                            this shouldnt make any smoke either -severe
 			if(1,4)
 				smoke_dir *= 2
 	puff.set_up(1,,,smoke_dir)
-	puff.start()
+	puff.start() */
 
 
 /obj/item/weapon/gun/launcher/smaw
