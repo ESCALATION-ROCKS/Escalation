@@ -77,7 +77,7 @@ var/list/turf_edge_cache = list()
 			return
 		if(S.ground > 0)
 			S.ground -= 1
-			new/obj/item/weapon/ore/snow(src)
+			new/obj/item/weapon/ore/glass(src)
 			playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
 			S.update_icon()
 			return
@@ -151,7 +151,7 @@ var/list/turf_edge_cache = list()
 
 
 /turf/unsimulated/snow/proc/gets_dug(obj/item/C, mob/user)
-	new/obj/item/weapon/ore/snow(src)
+	new/obj/item/weapon/ore/glass(src)
 	dug = 1
 
 

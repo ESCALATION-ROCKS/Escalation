@@ -88,12 +88,6 @@ var/global/list/ores_by_type = list()
 	compresses_to = "sandstone"
 	ore = /obj/item/weapon/ore/glass //Technically not needed since there's no glass ore vein, but consistency is nice
 
-/ore/snow
-	name = "snow"
-	display_name = "snow"
-	icon_tag = "snow"
-	ore = /obj/item/weapon/ore/snow
-
 /ore/phoron
 	name = "phoron"
 	display_name = "phoron crystals"
