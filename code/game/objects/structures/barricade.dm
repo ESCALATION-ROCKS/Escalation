@@ -161,7 +161,7 @@
 	w_class = 1
 	var/sand_amount = 0//how much piles of dirt on item's spawn
 
-//семантика ебанутая
+//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 //if there are like 3-4 sandbags or they are placed in one directions and each of them will call CanPass for projectiles - very imbalanced
 /obj/item/weapon/sandbag/proc/check4sandbags(mob/user as mob)
 	var/i = 0

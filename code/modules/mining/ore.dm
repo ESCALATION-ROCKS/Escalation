@@ -48,9 +48,44 @@
 /obj/item/weapon/ore/coal
 	ore = /ore/coal
 
+/obj/item/weapon/ore/snow
+	ore = /ore/snow
+
+/obj/item/weapon/ore/snow/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	if(istype(W,/obj/item/weapon/shovel))
+		var/obj/item/weapon/shovel/C = W
+		if(C.working)
+			return
+		var/turf/T = get_turf(src)
+		for(var/obj/structure/S in T)
+			if(is_type_in_typecache(S, list(/obj/structure/chezh_hangehog = TRUE, /obj/structure/brutswehr = TRUE, /obj/structure/brutswehrincomplete = TRUE, /obj/structure/sandbag/concrete_block = TRUE)))
+				to_chat(user, "<span class='warning'>There is no more space.</span>")
+				return FALSE
+		if(istype(src, /turf/unsimulated/floor/river/deep || /turf/unsimulated/floor/river))
+			to_chat(user, "\red You can't dig brustwehrs on water.")
+			return 0
+		C.working = 1
+		playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
+		to_chat(user, "You begin to dig a brustwehr.")
+		if(!C.ground >= 2)
+			to_chat(user, "You need more sand on your shovel.")
+			C.working = 0
+			return 0
+		if(!do_after(user, 20,src))
+			C.working = 0
+			return
+		new /obj/structure/brutswehrincomplete(src.loc)
+		C.update_icon()
+		C.ground = 0
+		C.working = 0
+		qdel(src)
+
+	else
+		return ..()
+
+
 /obj/item/weapon/ore/glass
 	ore = /ore/glass
-	slot_flags = SLOT_HOLSTER
 
 // POCKET SAND!
 /obj/item/weapon/ore/glass/throw_impact(atom/hit_atom)
@@ -65,7 +100,6 @@
 
 /obj/item/weapon/ore/glass/
 	ore = /ore/glass
-	slot_flags = SLOT_HOLSTER
 
 /obj/item/weapon/ore/glass/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(istype(W,/obj/item/weapon/shovel))
