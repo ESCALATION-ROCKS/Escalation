@@ -1186,7 +1186,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
-	back_2 = /obj/item/weapon/gun/launcher/rpg7
+	back_2 = /obj/item/weapon/gun/launcher/finnrpg
 	back = /obj/item/weapon/storage/backpack/rpgsa
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	head = /obj/item/clothing/head/ushanka/finn

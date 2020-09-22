@@ -261,6 +261,43 @@
 /obj/item/projectile/bullet/rgprocket/he/on_impact(var/atom/target, var/blocked = 0)
 	explosion(target, 1, 3, 5, 6)
 
-
-/obj/item/projectile/bullet/rgprocket/recoilless
+/obj/item/projectile/bullet/recoilless
+	name = "recoilless rifle shell"
 	icon_state = "recoilless"
+	damage = 200
+	step_delay = 1
+//	impact_force = 1
+	penetrating = 0
+	kill_count = 40
+	fire_sound = null
+
+	muzzle_type = /obj/effect/projectile/rocket/rpg
+	breech_type = /obj/effect/projectile/rocket/rpg/breech
+
+/obj/item/projectile/bullet/recoilless/muzzle_effect(var/matrix/T)
+	if(silenced)
+		return
+
+	if(ispath(muzzle_type))
+		var/obj/effect/projectile/M = new muzzle_type(get_turf(src))
+
+		if(istype(M))
+			M.set_transform(T)
+			M.pixel_x = location.pixel_x
+			M.pixel_y = location.pixel_y
+			M.activate()
+
+	if(ispath(breech_type))
+		var/obj/effect/projectile/M1 = new breech_type(get_turf(src))
+
+		if(istype(M1))
+			M1.set_transform(T)
+			M1.pixel_x = -location.pixel_x
+			M1.pixel_y = -location.pixel_y
+			M1.activate()
+
+/obj/item/projectile/bullet/recoilless/on_impact(var/atom/target, var/blocked = 0)
+	explosion(target, 1, 2, 2)
+
+/obj/item/projectile/bullet/recoilless/finn
+	icon_state = "recoillessfinn"

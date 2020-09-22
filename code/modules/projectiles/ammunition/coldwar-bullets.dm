@@ -193,10 +193,16 @@
 /obj/item/ammo_casing/rpg_missile/recoilless
 	name = "Carl Gustaf shell"
 	desc = "A 84mm Carl Gustaf shell."
-	projectile_type = /obj/item/projectile/bullet/rgprocket/recoilless
+	projectile_type = /obj/item/projectile/bullet/recoilless
 	icon_state = "carlgustaf"
 	layer = 4
 
+/obj/item/ammo_casing/rpg_missile/finn
+	name = "55 S 55 HEAT shell"
+	desc = "A HEAT shell for the 55 S 55. Even though it looks like a rocket, it doesn't propel its payload after exiting the muzzle."
+	projectile_type = /obj/item/projectile/bullet/recoilless/finn
+	icon_state = "55s55"
+	layer = 4
 
 /obj/item/ammo_casing/oneuserocket
 	name = "rocket"
