@@ -89,6 +89,10 @@
 	name = "MRE"
 	icon_state = "mre"
 
+/obj/item/trash/orp
+	name = "ORP"
+	icon_state = "orp"
+
 /obj/item/trash/attack(mob/M as mob, mob/living/user as mob)
 	return
 

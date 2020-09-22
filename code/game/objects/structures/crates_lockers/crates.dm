@@ -350,8 +350,8 @@ obj/structure/closet/crate/alt
 	open_sound = null
 	close_sound = null
 
-/*/obj/structure/closet/crate/orp/WillContain()
-	return list(/obj/item/weapon/storage/box/ORP = 10)*/
+/obj/structure/closet/crate/orp/WillContain()
+	return list(/obj/item/weapon/storage/box/ORP = 10)
 
 /obj/structure/closet/crate/wood
 	name = "wooden crate"
