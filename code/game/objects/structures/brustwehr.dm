@@ -150,6 +150,16 @@
 				qdel(src)
 			return
 
+/obj/item/weapon/ore/snow/proc/check4struct(mob/user as mob)
+	if((locate(/obj/structure/chezh_hangehog) || \
+		locate(/obj/structure/brutswehr) || \
+		locate(/obj/structure/sandbag) || \
+		locate(/obj/structure/sandbag/concrete_block)) in user.loc.contents \
+		)
+		to_chat(user, "\red There is no more space.")
+		return 0
+	return 1
+
 /obj/item/weapon/ore/glass/proc/check4struct(mob/user as mob)
 	if((locate(/obj/structure/chezh_hangehog) || \
 		locate(/obj/structure/brutswehr) || \
