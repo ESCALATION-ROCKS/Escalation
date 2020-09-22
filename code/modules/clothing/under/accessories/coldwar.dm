@@ -344,3 +344,49 @@
 	max_w_class = ITEM_SIZE_NORMAL
 	armor_slowdown = 0.0
 
+/*coats, these need up-down item states implemented*/
+
+/obj/item/clothing/accessory/storage/palatka
+	name = "palash palatka"
+	desc = "Known by soviet forces as 'palash palatka', it is a half-tent that you can wear as a raincoat!."
+	icon_state = "palatka_t"
+	item_state = ""
+	/*down_icon_state = "palatka"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/zeltbahn
+	name = "zeltbahn"
+	desc = "Known by NVA forces as 'zeltbahn', it is a half-tent that you can wear as a raincoat!."
+	icon_state = "zeltbahn_t"
+	item_state = ""
+	/*down_icon_state = "zeltbahn"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/usmccoat
+	name = "marine winter coat"
+	desc = "A winter coat, issued by US forces."
+	icon_state = "usmc_win_t"
+	item_state = ""
+	/*down_icon_state = "usmc_win"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.0
