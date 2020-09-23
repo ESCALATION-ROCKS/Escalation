@@ -219,6 +219,15 @@
 		..()
 		reagents.add_reagent(/datum/reagent/ethanol/vodka, 100)
 
+/obj/item/weapon/reagent_containers/food/drinks/bottle/finlandia
+	name = "'Finlandia' vodka"
+	desc = "Finnish quality in a bottle. Goes down like water"
+	icon_state = "finlandia"
+	center_of_mass = "x=17;y=3"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/ethanol/vodka, 100)
+
 /obj/item/weapon/reagent_containers/food/drinks/bottle/andropovka
 	name = "Vodka"
 	desc = "Cheap as fuck - it costs only around five roubles and that fact makes it probably a best thing made in USSR during the during the Andropov's rule. Also known as Andropovka among the soviets for obvious reasons."
