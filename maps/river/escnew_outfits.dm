@@ -1260,8 +1260,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	r_pocket = null
-	back = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
-	back_2 = /obj/item/weapon/storage/backpack/finn/medical
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	back = /obj/item/weapon/storage/backpack/finn/medical
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	head = /obj/item/clothing/head/ushanka/finn
 	l_pocket = /obj/item/weapon/key/wpmed
@@ -1271,7 +1271,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Field Surgerist")
 	uniform = /obj/item/clothing/under/finn/talvimetsa/surgeon
 	shoes = /obj/item/clothing/shoes/soviet/field
-	back_2 = /obj/item/weapon/storage/backpack/finn/medical
+	back = /obj/item/weapon/storage/backpack/finn/medical
 	left_pouch = null
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	l_pocket = /obj/item/weapon/masterkey/nvadoc
@@ -1785,10 +1785,10 @@
 	name = OUTFIT_JOB_NAME("Coldwar - BAF AT Gunner")
 	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
 	shoes = /obj/item/clothing/shoes/baf/field
-	back_2 = /obj/item/weapon/storage/backpack/baf/large
+	back = /obj/item/weapon/storage/backpack/baf/large
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
-	back = /obj/item/weapon/gun/launcher/carlgustaf
+	back_2 = /obj/item/weapon/gun/launcher/carlgustaf
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/sterling
@@ -1819,10 +1819,10 @@
 	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/cpl
 	shoes = /obj/item/clothing/shoes/baf/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
-	back = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back_2 = /obj/item/weapon/storage/backpack/baf_buttpack
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	head = /obj/item/clothing/head/beret/baf
 
@@ -1901,6 +1901,7 @@
 	uniform = /obj/item/clothing/under/brit/tiger/alt/scndlt
 	shoes = /obj/item/clothing/shoes/baf/field
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	holster = /obj/item/weapon/storage/belt/holster/baf
@@ -1936,10 +1937,10 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/baf/large
+	back = /obj/item/weapon/storage/backpack/baf/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_commander/pre_equip(mob/living/carbon/human/H)
@@ -1952,10 +1953,10 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/baf/large
+	back = /obj/item/weapon/storage/backpack/baf/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_loader/pre_equip(mob/living/carbon/human/H)
@@ -1968,10 +1969,10 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/baf/large
+	back = /obj/item/weapon/storage/backpack/baf/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_operator/pre_equip(mob/living/carbon/human/H)
