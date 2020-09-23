@@ -105,14 +105,24 @@
 
 //////finnish/////////
 ////////////////////
-/obj/item/weapon/grenade/frag/sirpale
+/obj/item/weapon/grenade/frag/sirpalem43
 	name = "Sirpalekäsikranaatti M43"
 	desc = "A fragmentation grenade used by the Finnish Army."
-	icon_state = "sirpale"
+	icon_state = "sirpalem43"
 	throw_speed = 2
 	throw_range = 10
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
 	num_fragments = 290  //total number of fragments produced by the grenade
+	explosion_size = 2
+
+/obj/item/weapon/grenade/frag/sirpalem41
+	name = "Sirpalekäsikranaatti M41"
+	desc = "An outdated fragmentation grenade used by the Finnish Army."
+	icon_state = "sirpalem41"
+	throw_speed = 3
+	throw_range = 12
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
+	num_fragments = 200  //total number of fragments produced by the grenade
 	explosion_size = 2
 
 ////////////////////////////////////////////////////////////////////////////////////////////
