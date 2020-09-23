@@ -1147,7 +1147,7 @@
 //FINNISH
 /decl/hierarchy/outfit/job/coldwar/finn/rifleman
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Rifleman")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/p
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
@@ -1159,7 +1159,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/srad
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Squad Radio Operator")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/lcpl
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/storage/backpack/finn/finn_buttpack
@@ -1171,7 +1171,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - FINN MG")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/lcpl
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
@@ -1182,7 +1182,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/rocket
 	name = OUTFIT_JOB_NAME("Coldwar - FINN RPG")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/lcpl
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
@@ -1194,7 +1194,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/rocketass
 	name = OUTFIT_JOB_NAME("Coldwar - FINN RPG Assistant")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/p
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
@@ -1206,7 +1206,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/mgass
 	name = OUTFIT_JOB_NAME("Coldwar - FINN MG Assistant")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/p
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
@@ -1218,7 +1218,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/radio
 	name = OUTFIT_JOB_NAME("Coldwar - FINN HQ Radio Operator")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/cpl
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back = /obj/item/weapon/radioset/r105d
@@ -1230,7 +1230,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/sld
 	name = OUTFIT_JOB_NAME("Coldwar - FINN SL Deputy")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/cpl
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
@@ -1242,7 +1242,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/sl
 	name = OUTFIT_JOB_NAME("Coldwar - FINN SL")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/sgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
@@ -1256,7 +1256,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/corpsman
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Corpsman")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/cpl
 	shoes = /obj/item/clothing/shoes/soviet/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	r_pocket = null
@@ -1269,7 +1269,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Field Surgerist")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/surgeon
 	shoes = /obj/item/clothing/shoes/soviet/field
 	back_2 = /obj/item/weapon/storage/backpack/finn/medical
 	left_pouch = null
@@ -1280,7 +1280,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/quart
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Quartermaster")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/ltdep
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	shoes = /obj/item/clothing/shoes/soviet/field
@@ -1292,7 +1292,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/plass
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon Leader Deputy")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/ltdep
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	shoes = /obj/item/clothing/shoes/soviet/field
@@ -1306,7 +1306,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/pl
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon Leader")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/lt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
@@ -1320,7 +1320,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon MG")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/lcpl
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
@@ -1332,7 +1332,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/finn/platmgass
 	name = OUTFIT_JOB_NAME("Coldwar - FINN Platoon MG Assistant")
-	uniform = /obj/item/clothing/under/finn/talvimetsa
+	uniform = /obj/item/clothing/under/finn/talvimetsa/p
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back = /obj/item/weapon/storage/backpack/finn/finn_backpack

@@ -293,6 +293,42 @@
 	icon_state = "usmc_1stlt_insignia"
 	rank = "First Lieutenant"
 
+////////////////////////finland
+/obj/item/clothing/accessory/insignia/finn/p
+	name = "Sotamies insignia"
+	icon_state = "usmc_pfc_insignia"
+	rank = "Sotamies"
+
+/obj/item/clothing/accessory/insignia/finn/lcpl
+	name = "Korpraali insignia"
+	icon_state = "usmc_lcpl_insignia"
+	rank = "Korpralli"
+
+/obj/item/clothing/accessory/insignia/finn/cpl
+	name = "Alikersantti insignia"
+	icon_state = "usmc_cpl_insignia"
+	rank = "Alikersantti"
+
+/obj/item/clothing/accessory/insignia/finn/sgt
+	name = "Kersantti insignia"
+	icon_state = "usmc_sgt_insignia"
+	rank = "Kersantti"
+
+/obj/item/clothing/accessory/insignia/finn/ltdep
+	name = "Ylikersantti insignia"
+	icon_state = "usmc_1stsgt_insignia"
+	rank = "Ylikersantti"
+
+/obj/item/clothing/accessory/insignia/finn/surgeon
+	name = "Vanrikki insignia"
+	icon_state = "usmc_2ndlt_insignia"
+	rank = "Vanrikki"
+
+/obj/item/clothing/accessory/insignia/finn/lt
+	name = "Luutnantti insignia"
+	icon_state = "usmc_1stlt_insignia"
+	rank = "Luutnantti"
+
 //Storage Accessories
 /obj/item/clothing/accessory/storage/bandolier_nato
 	name = "bandolier"

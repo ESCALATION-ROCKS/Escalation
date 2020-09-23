@@ -236,7 +236,6 @@
 /obj/item/clothing/under/finn/
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
 
-
 /obj/item/clothing/under/finn/talvimetsa
 	name = "'Talvi Metsä' pattern uniform"
 	desc = "That's the camouflaged field uniform, commonly used by regular Finnish Infantry."
@@ -246,6 +245,27 @@
 	siemens_coefficient = 0.7
 	slowdown_general = 0.5
 	has_sensor = 0
+
+/obj/item/clothing/under/finn/talvimetsa/p
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/p)
+
+/obj/item/clothing/under/finn/talvimetsa/lcpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/lcpl)
+
+/obj/item/clothing/under/finn/talvimetsa/cpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/cpl)
+
+/obj/item/clothing/under/finn/talvimetsa/sgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/sgt)
+
+/obj/item/clothing/under/finn/talvimetsa/ltdep
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/ltdep)
+
+/obj/item/clothing/under/finn/talvimetsa/surgeon
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/surgeon)
+
+/obj/item/clothing/under/finn/talvimetsa/lt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/lt)
 
 //British
 /obj/item/clothing/under/brit/
