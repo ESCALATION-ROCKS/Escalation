@@ -264,7 +264,7 @@
 /obj/item/weapon/reagent_containers/food/condiment/sovietsugar/finn
 	name = "sugar pack"
 	desc = "A bland-looking pack of sugar."
-	icon_state = "traubenzucker"
+	icon_state = "finnsugar"
 
 /obj/item/weapon/reagent_containers/food/condiment/soviettea
 	name = "instant tea pouch"
@@ -285,7 +285,7 @@
 /obj/item/weapon/reagent_containers/food/condiment/instantcoffee
 	name = "instant coffee pouch"
 	desc = "Some instant coffee powder. Don't drink this straight! Mix with 15u hot water!"
-	icon_state = "soviettea"
+	icon_state = "instantcoffee"
 	icon = 'icons/obj/food.dmi'
 	item_state = null
 	possible_transfer_amounts = "1;5"
@@ -301,7 +301,7 @@
 /obj/item/weapon/reagent_containers/food/condiment/instantcocoa
 	name = "instant cocoa powder pouch"
 	desc = "Some instant cocoa powder. Don't drink this straight! Mix with 15u hot water!"
-	icon_state = "soviettea"
+	icon_state = "instantcocoa"
 	icon = 'icons/obj/food.dmi'
 	item_state = null
 	possible_transfer_amounts = "1;5"

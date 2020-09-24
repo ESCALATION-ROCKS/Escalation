@@ -212,7 +212,53 @@
 /obj/item/weapon/reagent_containers/food/snacks/halbbitter/attack_self(mob/user as mob)
 	if (wrapped)
 		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
-		icon_state = "halbbitter_open"
+		icon_state = "chickencurry_open"
+		wrapped = 0
+	else 
+		..()
+
+/obj/item/weapon/reagent_containers/food/snacks/beefmushrooms
+	name = "beef & mushrooms"
+	desc = "A can of beef & mushroom sautee with rice."
+	w_class = 2
+	center_of_mass = "x=16;y=14"
+	icon_state = "beefmushrooms"
+	trash = /obj/item/trash/tincan/beefmushrooms
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/beefmushrooms/New()
+	..()
+	reagents.add_reagent(/datum/reagent/nutriment, 20)
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/beefmushrooms/attack_self(mob/user as mob)
+	if (wrapped)
+		to_chat(user,  "<span class='notice'>You pull open the lid of the meal!</span>")
+		icon_state = "beefmushrooms_open"
+		wrapped = 0
+	else 
+		..()
+
+/obj/item/weapon/reagent_containers/food/snacks/chickencurry
+	name = "chicken curry"
+	desc = "A can of chicken curry with rice."
+	w_class = 2
+	center_of_mass = "x=16;y=14"
+	icon_state = "chickencurry"
+	trash = /obj/item/trash/tincan/chickencurry
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/chickencurry/New()
+	..()
+	reagents.add_reagent(/datum/reagent/nutriment, 20)
+	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
+	bitesize = 3
+
+/obj/item/weapon/reagent_containers/food/snacks/chickencurry/attack_self(mob/user as mob)
+	if (wrapped)
+		to_chat(user,  "<span class='notice'>You pull open the lid of the meal!</span>")
+		icon_state = "chickencurry_open"
 		wrapped = 0
 	else 
 		..()
