@@ -1937,7 +1937,7 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/baf/baf_buttpack
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
@@ -1953,7 +1953,7 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/baf/baf_buttpack
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
@@ -1969,7 +1969,7 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/baf/baf_buttpack
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1

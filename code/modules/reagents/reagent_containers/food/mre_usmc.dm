@@ -225,6 +225,7 @@
 	icon_state = "beefmushrooms"
 	trash = /obj/item/trash/tincan/beefmushrooms
 	bitesize = 3
+	wrapped = 1
 
 /obj/item/weapon/reagent_containers/food/snacks/beefmushrooms/New()
 	..()
@@ -248,6 +249,7 @@
 	icon_state = "chickencurry"
 	trash = /obj/item/trash/tincan/chickencurry
 	bitesize = 3
+	wrapped = 1
 
 /obj/item/weapon/reagent_containers/food/snacks/chickencurry/New()
 	..()
