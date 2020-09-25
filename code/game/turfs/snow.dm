@@ -1,5 +1,3 @@
-var/list/turf_edge_cache = list()
-
 
 /turf/Initialize()
 	if(outdoors)
@@ -10,14 +8,6 @@ var/list/turf_edge_cache = list()
 	if(outdoors)
 		SSplanets.removeTurf(src)
 	return ..()
-
-/turf/proc/make_outdoors()
-	outdoors = TRUE
-	SSplanets.addTurf(src)
-
-/turf/proc/make_indoors()
-	outdoors = FALSE
-	SSplanets.removeTurf(src)
 
 /turf/post_change()
 	..()
@@ -36,7 +26,7 @@ var/list/turf_edge_cache = list()
 	blend_with_neighbors = 3
 	permit_ao = 0
 	movement_delay = 3
-	outdoors = 1  
+	outdoors = 1
 	footstep_sounds = list(
 		'sound/effects/footsteps/snow1.wav',
 		'sound/effects/footsteps/snow2.wav',
