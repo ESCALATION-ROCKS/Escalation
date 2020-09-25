@@ -1,5 +1,3 @@
-var/list/turf_edge_cache = list()
-
 
 /turf/Initialize()
 	if(outdoors)

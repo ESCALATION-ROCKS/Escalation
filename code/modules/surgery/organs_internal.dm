@@ -27,7 +27,8 @@
 //////////////////////////////////////////////////////////////////
 /datum/surgery_step/internal/fix_organ
 	allowed_tools = list(
-	/obj/item/stack/medical/advanced/bruise_pack= 100,		\
+	/obj/item/stack/medical/advanced/bruise_pack= 100,  \
+	/obj/item/stack/medical/bruise_pack/gauze = 90,		\
 	/obj/item/stack/medical/bruise_pack = 40,	\
 	/obj/item/weapon/tape_roll = 20
 	)
