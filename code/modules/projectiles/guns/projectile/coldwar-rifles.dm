@@ -1158,6 +1158,7 @@
 	accuracy = 2.75
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/finn/
 	bayonet_attachable = 1
+	jam_chance = 0.360
 	slowdown_general = 0.25
 	wielded_item_state = "rk62-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -1167,7 +1168,7 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=5.3, move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.1),                automatic = 0),
+		list(mode_name="semiauto",     burst=1, fire_delay=4, move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.1),                automatic = 0),
 		list(mode_name="automatic",    burst=1, fire_delay=0.6, move_delay=1,   one_hand_penalty=5,  burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.5), automatic = 0.6),
 		)
 /obj/item/weapon/gun/projectile/automatic/rifle/rk62/update_icon()
@@ -1196,7 +1197,7 @@
 	accuracy = 3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/baf/
 	bayonet_attachable = 1
-	jam_chance = 0.65
+	jam_chance = 0.360
 	slowdown_general = 0.27
 	wielded_item_state = "l1a1-wielded"
 	fire_sound = 'sound/weapons/gunshot/fnfal.ogg'
@@ -1206,8 +1207,8 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/fnfal_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=7.5,    move_delay=1, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0),
-		list(mode_name="semiauto - quickfire",    burst=1, fire_delay=2.5,  move_delay=2,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.8, 1.1, 1.3),         automatic = 0)
+		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=1, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0),
+		list(mode_name="semiauto - quickfire",    burst=1, fire_delay=0,  move_delay=1,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.8, 1.1, 1.3),         automatic = 0)
 		)
 	
 /obj/item/weapon/gun/projectile/automatic/rifle/l1a1/update_icon()
