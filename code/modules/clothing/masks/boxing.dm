@@ -20,6 +20,12 @@
 	icon_state = "swatclava"
 	down_icon_state = "swatclava_r"
 
+/obj/item/clothing/mask/balaclava/coif
+	name = "heat-absorbant coif"
+	desc = "A wool coif to keep your face warm."
+	icon_state = "coif"
+	down_icon_state = "coif_r"
+
 /obj/item/clothing/mask/luchador
 	name = "Luchador Mask"
 	desc = "Worn by robust fighters, flying high to defeat their foes!"
