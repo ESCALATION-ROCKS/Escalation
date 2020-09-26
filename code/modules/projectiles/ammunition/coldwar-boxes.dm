@@ -833,7 +833,7 @@
 /obj/item/ammo_magazine/box/paper/box9x19
 	name = "ammo box (9x19mm)"
 	desc = "A 40-round pack of 9x19mm ammunition."
-	icon_state = "bdw_box"
+	icon_state = "nine_box"
 	ammo_type = /obj/item/ammo_casing/a9x19
 	caliber = "9x19"
 
