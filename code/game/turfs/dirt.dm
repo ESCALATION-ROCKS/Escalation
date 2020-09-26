@@ -204,6 +204,15 @@
 	icon_state = "snowgrass1"
 	blend_with_neighbors = 2
 	movement_delay = 2
+	footstep_sounds = list("human" = list(
+		'sound/effects/footsteps/snow1.wav',
+		'sound/effects/footsteps/snow2.wav',
+		'sound/effects/footsteps/snow3.wav',
+		'sound/effects/footsteps/snow4.wav',
+		'sound/effects/footsteps/snow5.wav',
+		'sound/effects/footsteps/snow6.wav',
+		'sound/effects/footsteps/snow7.wav',
+		'sound/effects/footsteps/snow8.wav'))
 
 
 /turf/unsimulated/ground/snowgrass/New()
@@ -215,3 +224,12 @@
 	icon_state = "gravsnow"
 	blend_with_neighbors = 2
 	movement_delay = 2
+	footstep_sounds = list("human" = list(
+		'sound/effects/footsteps/snow1.wav',
+		'sound/effects/footsteps/snow2.wav',
+		'sound/effects/footsteps/snow3.wav',
+		'sound/effects/footsteps/snow4.wav',
+		'sound/effects/footsteps/snow5.wav',
+		'sound/effects/footsteps/snow6.wav',
+		'sound/effects/footsteps/snow7.wav',
+		'sound/effects/footsteps/snow8.wav'))
