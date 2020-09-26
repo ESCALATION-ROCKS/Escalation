@@ -24,6 +24,7 @@
 	name = "heat-absorbant coif"
 	desc = "A wool coif to keep your face warm."
 	icon_state = "coif"
+	item_state = "coif"
 	down_icon_state = "coif_r"
 
 /obj/item/clothing/mask/luchador
