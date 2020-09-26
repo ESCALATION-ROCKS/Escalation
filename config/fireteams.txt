@@ -182,39 +182,36 @@ ATS-1:usa
 
 Squad Alpha:baf
 /datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/bafata
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafftmg
-/datum/job/escalation/baf/bafftmga
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/baffto
 @END@
 
 Squad Bravo:baf
 /datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/bafata
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafftmg
-/datum/job/escalation/baf/bafftmga
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/baffto
 @END@
 
 Squad Charlie:baf
 /datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/bafata
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafftmg
-/datum/job/escalation/baf/bafftmga
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/baffto
 @END@
@@ -276,11 +273,10 @@ Gruppe 'Cesar':nvaddr
 Rhyma 'Aarne':finn
 /datum/job/escalation/finn/finnsl
 /datum/job/escalation/finn/finnsld
-/datum/job/escalation/finn/finnmg
-/datum/job/escalation/finn/finnmg
 /datum/job/escalation/finn/finnsrad
-/datum/job/escalation/finn/finnrocket
-/datum/job/escalation/finn/finnrocketass
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 @END@
@@ -288,11 +284,10 @@ Rhyma 'Aarne':finn
 Rhyma 'Bertta':finn
 /datum/job/escalation/finn/finnsl
 /datum/job/escalation/finn/finnsld
-/datum/job/escalation/finn/finnmg
-/datum/job/escalation/finn/finnmg
 /datum/job/escalation/finn/finnsrad
-/datum/job/escalation/finn/finnrocket
-/datum/job/escalation/finn/finnrocketass
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 @END@
@@ -300,13 +295,19 @@ Rhyma 'Bertta':finn
 Rhyma 'Celsius':finn
 /datum/job/escalation/finn/finnsl
 /datum/job/escalation/finn/finnsld
-/datum/job/escalation/finn/finnmg
-/datum/job/escalation/finn/finnmg
 /datum/job/escalation/finn/finnsrad
+/datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrifle
+@END@
+
+Anti-Tank Group:finn
+/datum/job/escalation/finn/finnsl
 /datum/job/escalation/finn/finnrocket
-/datum/job/escalation/finn/finnrocketass
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocket
 @END@
 
 Raskaiden Aseiden Joukkue:finn
