@@ -204,7 +204,7 @@
 	item_state = "baf_buttpack"
 	reachable = 1
 	open_delay = 10
-	max_storage_space = 12
+	max_storage_space = 6
 	slot_flags = SLOT_BACK
 
 
@@ -288,12 +288,32 @@
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
 
-/obj/item/weapon/storage/backpack/rpgcsla/assistant
-	name = "RPG rocket backpack"
-	desc = "Backpack for grenadier assistant. Can hold three rockets."
-	icon_state = "csla_rpg3"
-	item_state = "csla_rpg"
+/obj/item/weapon/storage/backpack/rpgfin
+	name = "55 S 55 rocket backpack"
+	desc = "A backpack for 55 S 55 rockets. It can hold three of them."
+	icon_state = "fin_rpg"
+	item_state = "fin_rpg"
 	reachable = 1
 	storage_slots = 3
-	open_delay = 0
-	can_hold = list(/obj/item/ammo_casing/rpg_missile)
+	open_delay = 10
+	can_hold = list(/obj/item/ammo_casing/rpg_missile/finn)
+	startswith = list(
+		/obj/item/ammo_casing/rpg_missile/finn,
+		/obj/item/ammo_casing/rpg_missile/finn,
+		/obj/item/ammo_casing/rpg_missile/finn
+		)
+
+/obj/item/weapon/storage/backpack/rpgbrit
+	name = "Carl Gustav rocket backpack"
+	desc = "A backpack for Carl Gustav shells. It can hold three of them."
+	icon_state = "brit_rpg"
+	item_state = "brit_rpg"
+	reachable = 1
+	storage_slots = 3
+	open_delay = 10
+	can_hold = list(/obj/item/ammo_casing/rpg_missile/recoilless)
+	startswith = list(
+		/obj/item/ammo_casing/rpg_missile/recoilless,
+		/obj/item/ammo_casing/rpg_missile/recoilless,
+		/obj/item/ammo_casing/rpg_missile/recoilless
+		)
