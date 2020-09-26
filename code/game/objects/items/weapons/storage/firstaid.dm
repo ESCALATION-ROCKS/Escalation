@@ -245,6 +245,52 @@
 		/obj/item/weapon/reagent_containers/hypospray/autoinjector/ethanol = 10
 		)
 
+/obj/item/weapon/storage/firstaid/cms
+	name = "CMS"
+	desc = "Compact surgical kit for treatment of bullet wounds and other serious injuries."
+	icon_state = "surgeon_faid"
+	storage_slots = 12
+	item_state = null
+	w_class = 2
+	max_w_class = ITEM_SIZE_HUGE
+	max_storage_space = null
+	slot_flags = SLOT_ID
+	startswith = list(
+		/obj/item/weapon/FixOVein,
+		/obj/item/weapon/hemostat,
+		/obj/item/weapon/bonesetter,
+		/obj/item/suture,
+		/obj/item/weapon/circular_saw,
+		/obj/item/weapon/retractor,
+		/obj/item/weapon/scalpel,
+		/obj/item/weapon/cautery,
+		/obj/item/weapon/reagent_containers/spray/sterilizine,
+		/obj/item/weapon/setofplates
+		)
+
+	can_hold = list(
+		/obj/item/weapon/gauze_pack/,
+		/obj/item/stack/medical/bruise_pack,
+		/obj/item/weapon/storage/pill_bottle,
+		/obj/item/weapon/reagent_containers/pill,
+		/obj/item/weapon/storage/box/pill_box,
+		/obj/item/weapon/pill_pack,
+		/obj/item/weapon/reagent_containers/syrette,
+		/obj/item/stack/medical/tourniquet,
+		/obj/item/weapon/FixOVein,
+		/obj/item/weapon/hemostat,
+		/obj/item/weapon/bonesetter,
+		/obj/item/suture,
+		/obj/item/weapon/circular_saw,
+		/obj/item/weapon/retractor,
+		/obj/item/weapon/scalpel,
+		/obj/item/weapon/cautery,
+		/obj/item/weapon/retractor,
+		/obj/item/weapon/reagent_containers/spray/sterilizine,
+		/obj/item/weapon/gauze_pack,
+		/obj/item/weapon/setofplates
+		)
+
 /obj/item/weapon/storage/firstaid/usmc_ifak
 	name = "IFAK"
 	desc = "That's the Individual First Aid Kit, a standard-issued NATO first aid kit ."

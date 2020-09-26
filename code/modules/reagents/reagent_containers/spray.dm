@@ -109,11 +109,11 @@
 /obj/item/weapon/reagent_containers/spray/sterilizine
 	name = "sterilizer bottle"
 	desc = "Great for hiding incriminating bloodstains and sterilizing scalpels."
-	volume = 50
+	volume = 500
 
 /obj/item/weapon/reagent_containers/spray/sterilizine/New()
 	..()
-	reagents.add_reagent(/datum/reagent/ethanol, 50)
+	reagents.add_reagent(/datum/reagent/sterilizine, 50)
 
 /obj/item/weapon/reagent_containers/spray/hair_remover
 	name = "hair remover"

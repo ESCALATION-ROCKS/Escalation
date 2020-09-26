@@ -103,7 +103,7 @@
 	if(alien == IS_VOX)
 		M.adjustToxLoss(removed * 9)
 	else if(alien != IS_DIONA)
-		M.adjustOxyLoss(-15 * removed)
+		M.adjustOxyLoss(-25 * removed)
 
 /datum/reagent/promethazine
 	name = "Promethazine"
@@ -262,3 +262,20 @@
 	M.hallucination(60, 20)
 	M.emote(pick("twitch", "drool", "moan", "gasp"))
 	M.adjustToxLoss(3)
+
+/datum/reagent/angiotensin
+	name = "angiotensin"
+	description = "Effective Compound which helps restore bloodflow to the Brain and Organs. Useful for Toxin and Brain Damage."
+	taste_description = "bitterness"
+	reagent_state = LIQUID
+	color = "#00a000"
+	overdose = REAGENTS_OVERDOSE * 2
+	metabolism = REM * 0.05
+	scannable = 1
+	flags = IGNORE_MOB_SIZE
+
+/datum/reagent/angiotensin/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	if(alien != IS_DIONA)
+		M.add_chemical_effect(CE_BRAIN_REGEN, 1)
+		M.adjustToxLoss(-20 * removed)
+		M.heal_organ_damage(1 * removed, 0)

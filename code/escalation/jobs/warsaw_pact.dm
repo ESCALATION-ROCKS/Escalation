@@ -971,7 +971,7 @@
 		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
 /datum/job/escalation/finn/finnsurgerist
-	title = "NVA Kenttakirurg"
+	title = "FINN Kenttakirurg"
 	name = "Kenttakirurg"
 	english_name = "Field Surgeon"
 	minimal_player_age = 21
