@@ -1064,7 +1064,6 @@
 #include "code\game\objects\structures\stool_bed_chair_nest\wheelchair.dm"
 #include "code\game\turfs\dirt.dm"
 #include "code\game\turfs\simulated.dm"
-#include "code\game\turfs\snow.dm"
 #include "code\game\turfs\turf.dm"
 #include "code\game\turfs\turf_ao.dm"
 #include "code\game\turfs\turf_changing.dm"

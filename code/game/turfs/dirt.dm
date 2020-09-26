@@ -176,3 +176,14 @@
 
 /turf/unsimulated/ground/grass/New()
 	icon_state = "grass[rand(1,3)]"
+
+/turf/unsimulated/ground/snow
+	name = "snow"
+	icon = 'icons/turf/ground.dmi'
+	icon_state = "snow1"
+	blend_with_neighbors = 2
+	movement_delay = 2
+
+
+/turf/unsimulated/ground/grass/New()
+	icon_state = "snow[rand(1,8)]"
