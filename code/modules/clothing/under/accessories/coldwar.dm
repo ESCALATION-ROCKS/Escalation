@@ -297,7 +297,7 @@
 /obj/item/clothing/accessory/insignia/finn/p
 	name = "Sotamies insignia"
 	icon_state = "usmc_pfc_insignia"
-	rank = "Sotamies"
+	rank = "Jakaari"
 
 /obj/item/clothing/accessory/insignia/finn/lcpl
 	name = "Korpraali insignia"

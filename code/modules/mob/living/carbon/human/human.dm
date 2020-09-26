@@ -1702,7 +1702,7 @@ var/list/rank_prefix = list(\
 	"Kersantti" = "Kersantti",\
 	"Alikersantti" = "Alikersantti",\
 	"Korpraali " = "Korpralli",\
-	"Sotamies" = "Sotamies",\
+	"Jakaari" = "Jakaari",\
 	
 
 //british army

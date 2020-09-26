@@ -1854,7 +1854,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/baf/ftleader
 	name = OUTFIT_JOB_NAME("Coldwar - BAF FT Leader")
-	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/cpl
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/lcpl
 	shoes = /obj/item/clothing/shoes/baf/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
@@ -1870,7 +1870,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/baf/sl
 	name = OUTFIT_JOB_NAME("Coldwar - BAF SL")
-	uniform = /obj/item/clothing/under/brit/tiger/alt/sgt
+	uniform = /obj/item/clothing/under/brit/tiger/alt/cpl
 	shoes = /obj/item/clothing/shoes/baf/field
 	back_2 = /obj/item/weapon/storage/backpack/baf_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
