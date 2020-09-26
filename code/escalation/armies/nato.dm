@@ -31,7 +31,7 @@
 	fireteam_names = list("Squad #1", "Squad #2", "Squad #3", "Squad #4")
 
 /datum/army_faction/nato/baf
-	name = "British Armed Forces"
+	name = "British Army"
 	enabled = 1
 	faction_tag = "baf"
 	flag_state = "baf"
