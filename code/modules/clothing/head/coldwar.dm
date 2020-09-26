@@ -208,6 +208,11 @@
 
 //UK Hats
 
+/obj/item/clothing/head/beret/baf
+	name = "British Armed Forces beret"
+	desc = "A maroon beret common amongst BAF airtrooper divisions."
+	icon_state = "bafberret"
+
 //UK Helmets
 /obj/item/clothing/head/helmet/coldwar/baf/mkv
 	name = "MKV helmet"

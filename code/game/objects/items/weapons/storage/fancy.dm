@@ -372,6 +372,15 @@
 
 	key_type = /obj/item/clothing/mask/smokable/cigarette/menthol
 	startswith = list(/obj/item/clothing/mask/smokable/cigarette/menthol = 6)
+	
+/obj/item/weapon/storage/fancy/cigarettes/newports
+	name = "pack of Newports"
+	desc = "Alive with Pleasure."
+	icon_state = "newports"
+	item_state = "Dpacket"
+
+	key_type = /obj/item/clothing/mask/smokable/cigarette/menthol
+	startswith = list(/obj/item/clothing/mask/smokable/cigarette/menthol = 6)
 
 /obj/item/weapon/storage/fancy/cigarettes/luckystrikered
 	name = "pack of Lucky Strike Red"

@@ -214,6 +214,172 @@
 	puff.set_up(1,,,smoke_dir)
 	puff.start()
 
+////////////recoilless rifles///////////
+/obj/item/weapon/gun/launcher/carlgustaf
+	name = "Carl Gustaf recoilless rifle"
+	desc = "A recoilless rifle, standard-issued by the British Armed Forces."
+	icon = 'icons/obj/guncarlgustaf.dmi'
+	icon_state = "carlgustaf"
+	item_state = "carlgustaf"
+	slowdown_general = 0.5
+	w_class = 5
+	throw_speed = 3
+	one_hand_penalty = 100
+	throw_range = 40
+	force = 5.0
+	flags =  CONDUCT
+	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
+	fire_sound = 'sound/weapons/gunshot/gustaf_fire.ogg'
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+
+	release_force = 40
+	throw_distance = 30
+	var/max_rockets = 1
+	var/is_used = FALSE
+	var/list/rockets = new/list(/obj/item/ammo_casing/rpg_missile/recoilless)
+	var/datum/effect/effect/system/smoke_spread/puff
+
+/obj/item/weapon/gun/launcher/carlgustaf/New()
+	..()
+	puff = new /datum/effect/effect/system/smoke_spread()
+	puff.attach(src)
+	update_icon()
+
+/obj/item/weapon/gun/launcher/carlgustaf/update_icon()
+	..()
+	if(rockets.len)
+		icon = 'icons/obj/guncarlgustaf.dmi'
+		icon_state = "carlgustaf"
+		item_state = "carlgustaf"
+	else
+		icon = 'icons/obj/guncarlgustaf.dmi'
+		icon_state = "carlgustaf-empty"
+		item_state = "carlgustaf-empty"
+	update_held_icon()
+
+/obj/item/weapon/gun/launcher/carlgustaf/examine(mob/user)
+	if(!..(user, 2))
+		return
+	to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
+
+/obj/item/weapon/gun/launcher/carlgustaf/attackby(obj/item/I as obj, mob/user as mob)
+	if(istype(I, /obj/item/ammo_casing/rpg_missile/recoilless))
+		if(rockets.len < max_rockets)
+			playsound(src.loc,'sound/weapons/gunporn/gustafreload.ogg',80, 0)
+			if(do_after(usr, 30, src))
+				user.drop_item()
+				I.loc = src
+				rockets += I
+				update_icon()
+		else
+			to_chat(user, "\red [src] cannot hold more rockets.")
+			update_icon()
+
+
+/obj/item/weapon/gun/launcher/carlgustaf/consume_next_projectile(mob/user)
+	if(rockets.len)
+		var/obj/item/ammo_casing/rpg_missile/recoilless/I = rockets[1]
+		var/obj/item/projectile/bullet/rgprocket/gustaf/M = new (src)
+		//M.primed = TRUE
+		rockets -= I
+		return M
+	return null
+
+/*/obj/item/weapon/gun/launcher/carlgustaf/handle_post_fire(mob/user, atom/target)
+	sleep(1)
+	var/smoke_dir = user.dir
+	if(user)
+		switch(smoke_dir) //We want the opposite of their direction.
+			if(2,8)
+				smoke_dir /= 2                        carl gustaf does not make smoke -severe
+			if(1,4)
+				smoke_dir *= 2
+	puff.set_up(1,,,smoke_dir)
+	puff.start()*/
+
+/obj/item/weapon/gun/launcher/finnrpg
+	name = "55 S 55"
+	desc = "A recoilless rifle, standard-issued by the Finnish Army."
+	icon = 'icons/obj/gunrpg.dmi'
+	icon_state = "finnrpg" ///change
+	item_state = "finnrpg" ///change
+	slowdown_general = 0.5
+	w_class = 5
+	throw_speed = 3
+	one_hand_penalty = 100
+	throw_range = 40
+	force = 5.0
+	flags =  CONDUCT
+	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
+	fire_sound = 'sound/weapons/gunshot/finnrpg_fire.ogg'
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+
+	release_force = 40
+	throw_distance = 30
+	var/max_rockets = 1
+	var/is_used = FALSE
+	var/list/rockets = new/list(/obj/item/ammo_casing/rpg_missile/finn)
+	var/datum/effect/effect/system/smoke_spread/puff
+
+/obj/item/weapon/gun/launcher/finnrpg/New()
+	..()
+	puff = new /datum/effect/effect/system/smoke_spread()
+	puff.attach(src)
+	update_icon()
+
+/obj/item/weapon/gun/launcher/finnrpg/update_icon()
+	..()
+	if(rockets.len)
+		icon = 'icons/obj/gunrpg.dmi'
+		icon_state = "finnrpg" ///change
+		item_state = "finnrpg"
+	else
+		icon = 'icons/obj/gunrpg.dmi'
+		icon_state = "finnrpg-empty" ///change
+		item_state = "finnrpg-empty"
+	update_held_icon()
+
+/obj/item/weapon/gun/launcher/finnrpg/examine(mob/user)
+	if(!..(user, 2))
+		return
+	to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
+
+/obj/item/weapon/gun/launcher/finnrpg/attackby(obj/item/I as obj, mob/user as mob)
+	if(istype(I, /obj/item/ammo_casing/rpg_missile/finn))
+		if(rockets.len < max_rockets)
+			playsound(src.loc,'sound/weapons/gunporn/rpgreload.ogg',80, 0)
+			if(do_after(usr, 30, src))
+				user.drop_item()
+				I.loc = src
+				rockets += I
+				update_icon()
+		else
+			to_chat(user, "\red [src] cannot hold more rockets.")
+			update_icon()
+
+
+/obj/item/weapon/gun/launcher/finnrpg/consume_next_projectile(mob/user)
+	if(rockets.len)
+		var/obj/item/ammo_casing/rpg_missile/finn/I = rockets[1]
+		var/obj/item/projectile/bullet/rgprocket/finn/M = new (src) /////////////////////////this is what determines the projectile type
+		//M.primed = TRUE
+		rockets -= I
+		return M
+	return null
+
+/*/obj/item/weapon/gun/launcher/finnrpg/handle_post_fire(mob/user, atom/target)
+	sleep(1)
+	var/smoke_dir = user.dir
+	if(user)
+		switch(smoke_dir) //We want the opposite of their direction.
+			if(2,8)
+				smoke_dir /= 2                            this shouldnt make any smoke either -severe
+			if(1,4)
+				smoke_dir *= 2
+	puff.set_up(1,,,smoke_dir)
+	puff.start() */
+
+
 ///////////////////Not ours///////////////////////////////////////////////
 /obj/item/weapon/gun/launcher/oneuse/
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK

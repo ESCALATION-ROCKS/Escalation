@@ -265,7 +265,7 @@
 	reachable = 1
 	storage_slots = 2
 	open_delay = 0
-	can_hold = list (/obj/item/ammo_casing/rpg_missile)
+	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
 
 /obj/item/weapon/storage/backpack/rpgsa/assistant
 	name = "RPG Assistant rocket backpack"
@@ -276,7 +276,7 @@
 	max_storage_space = 30
 	storage_slots = 3
 	open_delay = 0
-	can_hold = list (/obj/item/ammo_casing/rpg_missile)
+	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
 
 /obj/item/weapon/storage/backpack/rpgcsla
 	name = "RPG rocket backpack"

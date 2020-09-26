@@ -50,7 +50,6 @@
 
 /obj/item/weapon/ore/glass
 	ore = /ore/glass
-	slot_flags = SLOT_HOLSTER
 
 // POCKET SAND!
 /obj/item/weapon/ore/glass/throw_impact(atom/hit_atom)
@@ -65,7 +64,6 @@
 
 /obj/item/weapon/ore/glass/
 	ore = /ore/glass
-	slot_flags = SLOT_HOLSTER
 
 /obj/item/weapon/ore/glass/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(istype(W,/obj/item/weapon/shovel))

@@ -1322,7 +1322,7 @@ obj/structure/sign/noshitlers
 	icon_state = "finn_flag"
 	desc = "That's the Finland flag."
 
-/obj/structure/sign/westgerman_flag
+/obj/structure/sign/british_flag
 	name = "British flag"
 	icon = 'icons/obj/decorations.dmi'
 	icon_state = "brit_flag"

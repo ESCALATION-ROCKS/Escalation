@@ -14,7 +14,7 @@
 	var/dirt = 0
 
 	var/timer_id
-	outdoors = 1
+	outdoors = 0
 
 /turf/simulated/post_change()
 	..()

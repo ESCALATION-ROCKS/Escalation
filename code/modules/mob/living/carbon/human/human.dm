@@ -1699,8 +1699,17 @@ var/list/rank_prefix = list(\
 	"Luutnantti" = "Luutnantti",\
 	"Vanrikki" = "Vanrikki",\
 	"Ylikersantti" = "Ylikersantti",\
-	"Kersantti" = "Sgt.",\
-	"Alikersantti " = "Cpl.",\
-	"Korpraali " = "PV2.",\
-	"Jaakri" = "Pfc.",\
-	)
+	"Kersantti" = "Kersantti",\
+	"Alikersantti" = "Alikersantti",\
+	"Korpraali " = "Korpralli",\
+	"Sotamies" = "Sotamies",\
+	
+
+//british army
+	"First Lieutenant" = "1st Lieutenant",\
+	"Second Lieutenant" = "2nd Lieutenant.",\
+	"First Sergeant" = "First Sergeant",\
+	"Sergeant" = "Sergeant",\
+	"Lance Corporal" = "Lc. Corporal",\
+	"Private" = "Private",\
+)

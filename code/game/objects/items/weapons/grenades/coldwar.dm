@@ -80,6 +80,51 @@
 	num_fragments = 230  //total number of fragments produced by the grenade
 	explosion_size = 2
 
+//////british/////////
+////////////////////
+
+/obj/item/weapon/grenade/frag/mills
+	name = "mills bomb"
+	desc = "An outdated grenade used by the BAF."
+	icon_state = "mills"
+	throw_speed = 2
+	throw_range = 10
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
+	num_fragments = 190  //total number of fragments produced by the grenade
+	explosion_size = 2
+
+/obj/item/weapon/grenade/frag/l2
+	name = "L2 frag grenade"
+	desc = "A fragmentation grenade used by British forces."
+	icon_state = "l2grenade"
+	throw_speed = 3
+	throw_range = 8
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
+	num_fragments = 290  //total number of fragments produced by the grenade
+	explosion_size = 3
+
+//////finnish/////////
+////////////////////
+/obj/item/weapon/grenade/frag/sirpalem43
+	name = "Sirpalekäsikranaatti M43"
+	desc = "A fragmentation grenade used by the Finnish Army."
+	icon_state = "sirpalem43"
+	throw_speed = 2
+	throw_range = 10
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
+	num_fragments = 290  //total number of fragments produced by the grenade
+	explosion_size = 2
+
+/obj/item/weapon/grenade/frag/sirpalem41
+	name = "Sirpalekäsikranaatti M41"
+	desc = "An outdated fragmentation grenade used by the Finnish Army."
+	icon_state = "sirpalem41"
+	throw_speed = 3
+	throw_range = 12
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
+	num_fragments = 200  //total number of fragments produced by the grenade
+	explosion_size = 2
+
 ////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////GP's vogs for soviet and muricans//////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////

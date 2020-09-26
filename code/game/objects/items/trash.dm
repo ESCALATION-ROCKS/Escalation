@@ -89,6 +89,10 @@
 	name = "MRE"
 	icon_state = "mre"
 
+/obj/item/trash/orp
+	name = "ORP"
+	icon_state = "orp"
+
 /obj/item/trash/attack(mob/M as mob, mob/living/user as mob)
 	return
 
@@ -135,11 +139,11 @@
 
 /obj/item/trash/tincan/beefmushrooms
 	name = "tin can"
-	icon_state = "buckwheat_empty"
+	icon_state = "beefmushrooms_empty"
 
 /obj/item/trash/tincan/chickencurry
 	name = "tin can"
-	icon_state = "buckwheat_empty"
+	icon_state = "chickencurry_empty"
 
 /obj/item/trash/plasticpack
 	name = "plastic pack"

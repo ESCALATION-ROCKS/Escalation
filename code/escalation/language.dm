@@ -22,6 +22,10 @@
 			H.add_language(LANGUAGE_ENGLISH)
 			L = all_languages[LANGUAGE_ENGLISH]
 
+		if("baf")
+			H.add_language(LANGUAGE_ENGLISH)
+			L = all_languages[LANGUAGE_ENGLISH]
+
 		if("cccp")
 			H.add_language(LANGUAGE_RUSSIAN)
 			L = all_languages[LANGUAGE_RUSSIAN]
@@ -108,4 +112,4 @@
 	desc = "This is the languaged used by the Finnish Militaria."
 	colour = "finnish"
 	key = "f"
-	syllables = list("min�", "sin�", "h�n", "me", "te", "he", "t�m�", "tuo", "se", "n�m�", "nuo", "ne", "kuka", "mik�", "ken", "kumpi", "joka", "mik�", "toinen", "itse", "Ei", "Anteeksi", "Kiitos")
+	syllables = list("mine", "sine", "hen", "me", "te", "he", "tame", "tuo", "se", "name", "nuo", "ne", "kuka", "mika", "ken", "kumpi", "joka", "mike", "toinen", "itse", "Ei", "Anteeksi", "Kiitos")

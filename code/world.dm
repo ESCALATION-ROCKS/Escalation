@@ -626,9 +626,9 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>Escalation: 1984 - Western Germany</b>";
+	s += "<b>ESCALATION 1984 - THE ARCTIC CIRCLE</b>";
 	s += "<br>"
-	s += "An immersive tactical combat experience set in the Cold War."
+	s += "An immersive tactical combat experience set in the Cold War. Now featuring Britain and Finland!"
 	s += "<br>"
 	s += "Join as an Observer while you apply on our DISCORD!"
 	s += "<br>"

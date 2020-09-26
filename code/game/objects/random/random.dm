@@ -1217,45 +1217,54 @@ obj/random/hostilenew/spawn_choices()
 					)
 
 /obj/random/treelowchance
-	name = "random tree (low chance)"
+	name = "Winter tree"
 	desc = "This is a random tree"
 	icon = 'icons/mob/screen1.dmi'
 	icon_state = "tree2"
-	spawn_nothing_percentage = 75
+	spawn_nothing_percentage = 30
 
 /obj/random/treelowchance/spawn_choices()
-		return list(/obj/structure/flora/tree/dead,\
-					/obj/structure/flora/tree/pine,\
-					/obj/structure/flora/grass/both,\
-					/obj/structure/flora/grass/green,\
-					/obj/structure/flora/grass/brown,\
-					/obj/structure/flora/bush,\
-					/obj/structure/flora/smallrock)
+		return list(/obj/structure/flora/tree/dead,
+					/obj/structure/flora/tree/pine,
+					/obj/structure/flora/snowbushes/snowgrassa = 2,
+					/obj/structure/flora/snowbushes/snowgrassb = 2,
+					/obj/structure/flora/snowbushes/snowgrassc = 2,
+					/obj/structure/flora/snowbushes/snowbush = 2,
+					/obj/structure/flora/snowbushes/snowbushstump = 2,
+					/obj/structure/flora/smallrock = 3,
+					/obj/structure/flora/bigrock = 3,
+					/obj/structure/flora/summer/log1 = 2,
+					/obj/structure/flora/summer/log2 = 2)
 
 /obj/random/grass
 	name = "random bush (low chance)"
 	desc = "This is a random tree"
 	icon = 'icons/mob/screen1.dmi'
 	icon_state = "grass1"
-	spawn_nothing_percentage = 75
+	spawn_nothing_percentage = 60
 /obj/random/grass/spawn_choices()
-		return list(/obj/structure/flora/grass/both,\
-					/obj/structure/flora/grass/green,\
-					/obj/structure/flora/grass/brown,\
-					/obj/structure/flora/bush,\
+		return list(/obj/structure/flora/ausbushes/fullgrass,
+					/obj/structure/flora/ausbushes/sparsegrass,
+					/obj/structure/flora/ausbushes/pointybush,
+					/obj/structure/flora/bush1,
+					/obj/structure/flora/bush2,
+					/obj/structure/flora/bush3,
+					/obj/structure/flora/bush4,
 					/obj/structure/flora/smallrock)
 
 /obj/random/grasslow
-	name = "random bush (very low chance)"
+	name = "winter bush (low chance)"
 	desc = "This is a random tree"
 	icon = 'icons/mob/screen1.dmi'
 	icon_state = "grass2"
-	spawn_nothing_percentage = 95
+	spawn_nothing_percentage = 60
 /obj/random/grass/spawn_choices()
-		return list(/obj/structure/flora/grass/both,\
-					/obj/structure/flora/grass/green,\
-					/obj/structure/flora/grass/brown,\
-					/obj/structure/flora/bush)
+		return list(/obj/structure/flora/snowbushes/snowgrassa = 2,
+					/obj/structure/flora/snowbushes/snowgrassb = 2,
+					/obj/structure/flora/snowbushes/snowgrassc = 2,
+					/obj/structure/flora/snowbushes/snowbush = 2,
+					/obj/structure/flora/snowbushes/snowbushstump = 2,
+					/obj/structure/flora/smallrock)
 
 
 
