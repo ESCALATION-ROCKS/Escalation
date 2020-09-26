@@ -81,6 +81,8 @@ var/wlg_selected_cuttree = 0
 				if(93)
 					wlg_selected_pine++
 					var/pine = pick(/obj/structure/flora/tree/dead,
+									/obj/structure/flora/tree/dead_big_96x96,
+									/obj/structure/flora/tree/dead_big_64x128,
 									/obj/structure/flora/tree/pine)
 					/*var/pine = pick(/obj/structure/flora/tree/summer,
 									/obj/structure/flora/tree/summer/alt1,    summer

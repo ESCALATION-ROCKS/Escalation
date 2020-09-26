@@ -1165,7 +1165,7 @@
 	selection_color = "#B22222"
 	rank_number = 4
 	position = "fireteam"
-	amount = 2
+	amount = 1
 	enabled = 1
 	whitelist_rank = "finn_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10)
@@ -1186,7 +1186,7 @@
 	selection_color = "#B22222"
 	rank_number = 5
 	position = "fireteam"
-	amount = 2
+	amount = 1
 	enabled = 1
 	whitelist_rank = "finn_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10)
@@ -1207,7 +1207,7 @@
 	selection_color = "#B22222"
 	rank_number = 5
 	position = "fireteam"
-	amount = 2
+	amount = 1
 	enabled = 1
 	whitelist_rank = "finn_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10)

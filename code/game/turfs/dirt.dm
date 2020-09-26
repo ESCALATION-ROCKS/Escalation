@@ -216,7 +216,7 @@
 
 
 /turf/unsimulated/ground/snowgrass/New()
-	icon_state = "snowgrass[rand(1,3)]"
+	icon_state = "snowgrass[rand(1,2)]"
 
 /turf/unsimulated/ground/gravsnow
 	name = "gravsnow"

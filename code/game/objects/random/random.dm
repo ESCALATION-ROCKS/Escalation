@@ -1226,6 +1226,8 @@ obj/random/hostilenew/spawn_choices()
 /obj/random/treelowchance/spawn_choices()
 		return list(/obj/structure/flora/tree/dead,
 					/obj/structure/flora/tree/pine,
+					/obj/structure/flora/tree/dead_big_96x96,
+					/obj/structure/flora/tree/dead_big_64x128,
 					/obj/structure/flora/snowbushes/snowgrassa = 2,
 					/obj/structure/flora/snowbushes/snowgrassb = 2,
 					/obj/structure/flora/snowbushes/snowgrassc = 2,
@@ -1233,8 +1235,8 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/snowbushes/snowbushstump = 2,
 					/obj/structure/flora/smallrock = 3,
 					/obj/structure/flora/bigrock = 3,
-					/obj/structure/flora/summer/log1 = 2,
-					/obj/structure/flora/summer/log2 = 2)
+					/obj/structure/flora/summer/log1 = 1,
+					/obj/structure/flora/summer/log2 = 1)
 
 /obj/random/grass
 	name = "random bush (low chance)"
