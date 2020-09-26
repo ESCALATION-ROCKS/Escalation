@@ -245,6 +245,7 @@
 	siemens_coefficient = 0.7
 	slowdown_general = 0.5
 	has_sensor = 0
+	starting_accessories = list(/obj/item/clothing/accessory/storage/fincoat)
 
 /obj/item/clothing/under/finn/talvimetsa/p
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/p)
@@ -280,6 +281,7 @@
 	siemens_coefficient = 0.7
 	slowdown_general = 0.5
 	has_sensor = 0
+	starting_accessories = list(/obj/item/clothing/accessory/storage/britcoat)
 
 /obj/item/clothing/under/brit/tiger/alt/sgt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/sgt)
@@ -298,6 +300,7 @@
 	desc = "That's a camouflaged field uniform, comes with olive pants, commonly used by regular British Forces."
 	icon_state = "tigero"
 	worn_state = "tigero"
+	starting_accessories = list(/obj/item/clothing/accessory/storage/britcoat)
 
 /obj/item/clothing/under/brit/tiger/olive/alt/p
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/p)

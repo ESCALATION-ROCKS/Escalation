@@ -426,3 +426,33 @@
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
 	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/britcoat
+	name = "britcoat"
+	desc = "A standard issue British Army winter coat."
+	icon_state = "parka_brit"
+	item_state = "parka_brit"
+	/*down_icon_state = "zeltbahn"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 0
+	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/fincoat
+	name = "fincoat"
+	desc = "A standard issue Finnish Army winter coat."
+	icon_state = "parka_fin"
+	item_state = "parka_fin"
+	/*down_icon_state = "zeltbahn"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 0
+	armor_slowdown = 0.0
