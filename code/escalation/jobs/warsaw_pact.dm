@@ -1152,3 +1152,66 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+
+/datum/job/escalation/finn/finnhwtlead
+	title = "FINN Raskasaseiden komentaja"
+	name = "Raskasaseiden komentaja"
+	english_name = "Heavy Weapons Commander"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/hwtlead
+	selection_color = "#B22222"
+	rank_number = 4
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "finn_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+
+
+/datum/job/escalation/finn/finnhwtgnr
+	title = "FINN Raskasaseiden ampuja"
+	name = "Raskasaseiden ampuja"
+	english_name = "Heavy Weapons Gunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/hwtgnr
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+
+
+/datum/job/escalation/finn/finnhwtload
+	title = "FINN Raskasaseiden kuormaaja"
+	name = "Raskasaseiden kuormaaja"
+	english_name = "Heavy Weapons Loader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/hwtload
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))

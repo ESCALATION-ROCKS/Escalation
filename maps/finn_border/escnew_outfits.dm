@@ -1343,6 +1343,44 @@
 	head = /obj/item/clothing/head/finn/cap/talvimetsa
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
+/decl/hierarchy/outfit/job/coldwar/finn/hwtlead
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Heavy Weapons Commander")
+	uniform = /obj/item/clothing/under/finn/talvimetsa/sgt
+	shoes = /obj/item/clothing/shoes/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	l_pocket = /obj/item/weapon/masterkey/nvaco
+	r_pocket = null
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/hwtgnr
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Heavy Weapons Gunner")
+	uniform = /obj/item/clothing/under/finn/talvimetsa/p
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	head = /obj/item/clothing/head/ushanka/finn
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/hwtload
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Heavy Weapons Loader")
+	uniform = /obj/item/clothing/under/finn/talvimetsa/p
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
+	back = /obj/item/weapon/storage/backpack/finn/finn_backpack
+	head = /obj/item/clothing/head/ushanka/finn
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
 //USA
 /decl/hierarchy/outfit/job/coldwar/usa/rifleman
 	name = OUTFIT_JOB_NAME("Coldwar - USA Rifleman")
