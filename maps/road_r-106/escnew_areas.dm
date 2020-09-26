@@ -16,7 +16,12 @@ var/list/interior_areas = list(/area/coldwar/house1,
 							/area/coldwar/house15,
 							/area/coldwar/house16,
 							/area/coldwar/house17,
-							/area/coldwar/house18
+							/area/coldwar/house18,
+							/area/coldwar/house19,
+							/area/coldwar/house20,
+							/area/coldwar/house21,
+							/area/coldwar/house22,
+							/area/coldwar/house23
 							)
 
 
@@ -232,6 +237,41 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	requires_power = 0
 	dynamic_lighting = 1
 
+/area/coldwar/house19
+	name = "house"
+	icon_state = "house"
+	sound_env = LIVINGROOM
+	requires_power = 0
+	dynamic_lighting = 1
+
+/area/coldwar/house20
+	name = "house"
+	icon_state = "house"
+	sound_env = LIVINGROOM
+	requires_power = 0
+	dynamic_lighting = 1
+
+/area/coldwar/house21
+	name = "house"
+	icon_state = "house"
+	sound_env = LIVINGROOM
+	requires_power = 0
+	dynamic_lighting = 1
+
+/area/coldwar/house22
+	name = "house"
+	icon_state = "house"
+	sound_env = LIVINGROOM
+	requires_power = 0
+	dynamic_lighting = 1
+
+/area/coldwar/house23
+	name = "house"
+	icon_state = "house"
+	sound_env = LIVINGROOM
+	requires_power = 0
+	dynamic_lighting = 1
+
 /area/coldwar/abandonedhouse
 	name = "abandoned house"
 	icon_state = "house"
@@ -280,3 +320,11 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = PLAIN
 	requires_power = 0
 	dynamic_lighting = 1
+
+/area/coldwar/warpactfob
+	name = "WARPACT FOB"
+	icon_state = "foboutside"
+	sound_env = PLAIN
+	requires_power = 0
+	dynamic_lighting = 1
+
