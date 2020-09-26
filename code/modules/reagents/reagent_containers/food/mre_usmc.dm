@@ -118,7 +118,7 @@
 	icon_state = "orp"
 	w_class = 2
 	can_hold = list()
-	storage_slots = 4
+	storage_slots = 5
 	max_w_class = 0
 	foldable = 0
 	icon = 'icons/obj/baf_mre.dmi'

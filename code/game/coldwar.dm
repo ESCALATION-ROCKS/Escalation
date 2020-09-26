@@ -54,14 +54,20 @@ var/wlg_selected_cuttree = 0
 					continue
 				if(50 to 87)
 					wlg_selected_grass++
-					var/grass = pick(/obj/structure/flora/ausbushes/fullgrass,
+					var/grass = pick(/obj/structure/flora/snowbushes/snowgrassa,
+									/obj/structure/flora/snowbushes/snowgrassb,
+									/obj/structure/flora/snowbushes/snowgrassc,
+									/obj/structure/flora/snowbushes/snowbush,
+									/obj/structure/flora/snowbushes/snowbushstump)
+					new grass(T)
+					/*var/grass = pick(/obj/structure/flora/ausbushes/fullgrass,
 									/obj/structure/flora/ausbushes/sparsegrass,
 									/obj/structure/flora/ausbushes/pointybush,
 									/obj/structure/flora/bush1,
-									/obj/structure/flora/bush2,
+									/obj/structure/flora/bush2,      summer
 									/obj/structure/flora/bush3,
 									/obj/structure/flora/bush4)
-					new grass(T)
+					new grass(T)*/
 				if(88 to 91)
 					wlg_selected_rock++
 					var/rock = pick(/obj/structure/flora/smallrock,
@@ -74,10 +80,12 @@ var/wlg_selected_cuttree = 0
 					new cuttree(T)
 				if(93)
 					wlg_selected_pine++
-					var/pine = pick(/obj/structure/flora/tree/summer,
-									/obj/structure/flora/tree/summer/alt1,
+					var/pine = pick(/obj/structure/flora/tree/dead,
+									/obj/structure/flora/tree/pine)
+					/*var/pine = pick(/obj/structure/flora/tree/summer,
+									/obj/structure/flora/tree/summer/alt1,    summer
 									/obj/structure/flora/tree/summer/alt3,
-									/obj/structure/flora/tree/summer/alt2)
+									/obj/structure/flora/tree/summer/alt2)*/
 					new pine(T)
 				if(94)
 					wlg_selected_deadtree++
@@ -88,7 +96,7 @@ var/wlg_selected_cuttree = 0
 					new deadtree(T)
 				else
 					wlg_selected_bush++
-					var/bushes = /obj/structure/flora/ausbushes
+					var/bushes = /obj/structure/flora/snowbushes /*ausbushes for summer*/
 					new bushes(T)
 	return 1
 

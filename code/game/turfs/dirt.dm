@@ -183,7 +183,35 @@
 	icon_state = "snow1"
 	blend_with_neighbors = 2
 	movement_delay = 2
+	footstep_sounds = list("human" = list(
+		'sound/effects/footsteps/snow1.wav',
+		'sound/effects/footsteps/snow2.wav',
+		'sound/effects/footsteps/snow3.wav',
+		'sound/effects/footsteps/snow4.wav',
+		'sound/effects/footsteps/snow5.wav',
+		'sound/effects/footsteps/snow6.wav',
+		'sound/effects/footsteps/snow7.wav',
+		'sound/effects/footsteps/snow8.wav'))
 
 
-/turf/unsimulated/ground/grass/New()
-	icon_state = "snow[rand(1,8)]"
+/turf/unsimulated/ground/snow/New()
+	icon_state = "snow[rand(1,12)]"
+
+
+/turf/unsimulated/ground/snowgrass
+	name = "snowy grass"
+	icon = 'icons/turf/ground.dmi'
+	icon_state = "snowgrass1"
+	blend_with_neighbors = 2
+	movement_delay = 2
+
+
+/turf/unsimulated/ground/snowgrass/New()
+	icon_state = "snowgrass[rand(1,3)]"
+
+/turf/unsimulated/ground/gravsnow
+	name = "gravsnow"
+	icon = 'icons/turf/ground.dmi'
+	icon_state = "gravsnow"
+	blend_with_neighbors = 2
+	movement_delay = 2
