@@ -130,13 +130,13 @@
 
 /obj/item/weapon/storage/box/ORP/proc/pickflavor()
 	var/main = pick("bacon & beans", "corned beef hash", "hamburger & beans")
-	var/soup = pick("beef & tomato soup", "vegetable soup", "cream of mushroom soup")
+	var/second = pick("beef & tomato soup", "vegetable soup", "cream of mushroom soup")
 	var/side = pick("cracker", "biscuit", "oatmeal biscuit")
 	var/desert = pick("milk chocolate bar", "boiled sweets")
 	var/drink = pick("instant tea", "coffee")
 	name = "[initial(name)] ([main])"
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, main)
-	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, soup)
+	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, second)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, side)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, desert)
 	new /obj/item/weapon/reagent_containers/food/condiment/mredrink(src, drink)
@@ -183,7 +183,7 @@
 			icon_state = "mainentree"
 			reagents.add_reagent(/datum/reagent/nutriment/, 10)
 			reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
-		if("beef & tomato", "vegetable", "cream of mushroom")
+		if("beef & tomato soup", "vegetable soup", "cream of mushroom soup")
 			icon_state = "soup"
 			reagents.add_reagent(/datum/reagent/nutriment/, 6)
 			reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
