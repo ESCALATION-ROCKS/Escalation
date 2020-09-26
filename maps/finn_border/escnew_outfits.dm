@@ -1870,7 +1870,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/baf/sl
 	name = OUTFIT_JOB_NAME("Coldwar - BAF SL")
-	uniform = /obj/item/clothing/under/brit/tiger/alt/cpl
+	uniform = /obj/item/clothing/under/brit/tiger/alt/sgt
 	shoes = /obj/item/clothing/shoes/baf/field
 	back_2 = /obj/item/weapon/storage/backpack/baf_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf

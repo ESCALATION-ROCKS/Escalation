@@ -588,6 +588,7 @@
 	item_state = "sa_grenade"
 	open_delay = 2
 	storage_slots = 3
+	startswith = null
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 
@@ -674,6 +675,7 @@
 	item_state = "nvaddr_grenade"
 	open_delay = 2
 	storage_slots = 3
+	startswith = null
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 //finnish
@@ -724,6 +726,7 @@
 	item_state = "sa_grenade"
 	open_delay = 2
 	storage_slots = 3
+	startswith = null
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 

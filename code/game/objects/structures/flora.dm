@@ -742,13 +742,13 @@
 	name = "dead tree"
 	icon = 'icons/obj/flora/128tree.dmi'
 	icon_state = "tree_winter_64x128_1"
-	plane = -9
+	pixel_x = -32
+	plane = -10
 	density = 1
 
 /obj/structure/flora/tree/dead_big_64x128/New()
 	..()
 	icon_state = "tree_winter_64x128_1"//replace end of string to rand(1,*) if we sprite enough trees
-	density = 1
 
 
 //rocks
