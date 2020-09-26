@@ -115,10 +115,6 @@ dreadweaver = {
 ddr_enlisted
 }
 
-SeverePwnage = {
-ddr_enlisted
-}
-
 AlienFromTerra = {
 ddr_enlisted
 }

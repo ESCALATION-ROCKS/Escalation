@@ -357,3 +357,11 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/ethaperazine, 5)
+
+/obj/item/weapon/reagent_containers/pill/angiotensin
+	name = "Angiotensin pill"
+	desc = "Effective Compound which helps restore bloodflow to the Brain and Organs. Useful for Toxin and Brain Damage."
+	icon_state = "pill11"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/angiotensin, 15)

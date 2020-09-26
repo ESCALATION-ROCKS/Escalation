@@ -515,3 +515,15 @@
 	key_type = /obj/item/clothing/accessory/storage/bandolier_nato
 	can_hold = /obj/item/clothing/accessory/storage/bandolier_nato
 	startswith = list(/obj/item/clothing/accessory/storage/bandolier_nato/filled = 5)
+
+/obj/item/weapon/storage/fancy/ammo_can/x919
+	name = "ammo box (9x19mm)"
+	icon_state = "ammocannine"
+	startswith = list(
+		/obj/item/ammo_magazine/box/paper/box9x19 = 5
+		)
+
+/obj/item/weapon/storage/fancy/ammo_can/x919/New()
+	..()
+	slowdown_per_slot[slot_l_hand] = 1.5
+	slowdown_per_slot[slot_r_hand] = 1.5

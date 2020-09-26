@@ -293,6 +293,42 @@
 	icon_state = "usmc_1stlt_insignia"
 	rank = "First Lieutenant"
 
+////////////////////////finland
+/obj/item/clothing/accessory/insignia/finn/p
+	name = "Sotamies insignia"
+	icon_state = "usmc_pfc_insignia"
+	rank = "Sotamies"
+
+/obj/item/clothing/accessory/insignia/finn/lcpl
+	name = "Korpraali insignia"
+	icon_state = "usmc_lcpl_insignia"
+	rank = "Korpralli"
+
+/obj/item/clothing/accessory/insignia/finn/cpl
+	name = "Alikersantti insignia"
+	icon_state = "usmc_cpl_insignia"
+	rank = "Alikersantti"
+
+/obj/item/clothing/accessory/insignia/finn/sgt
+	name = "Kersantti insignia"
+	icon_state = "usmc_sgt_insignia"
+	rank = "Kersantti"
+
+/obj/item/clothing/accessory/insignia/finn/ltdep
+	name = "Ylikersantti insignia"
+	icon_state = "usmc_1stsgt_insignia"
+	rank = "Ylikersantti"
+
+/obj/item/clothing/accessory/insignia/finn/surgeon
+	name = "Vanrikki insignia"
+	icon_state = "usmc_2ndlt_insignia"
+	rank = "Vanrikki"
+
+/obj/item/clothing/accessory/insignia/finn/lt
+	name = "Luutnantti insignia"
+	icon_state = "usmc_1stlt_insignia"
+	rank = "Luutnantti"
+
 //Storage Accessories
 /obj/item/clothing/accessory/storage/bandolier_nato
 	name = "bandolier"
@@ -344,3 +380,49 @@
 	max_w_class = ITEM_SIZE_NORMAL
 	armor_slowdown = 0.0
 
+/*coats, these need up-down item states implemented*/
+
+/obj/item/clothing/accessory/storage/palatka
+	name = "palash palatka"
+	desc = "Known by soviet forces as 'palash palatka', it is a half-tent that you can wear as a raincoat!."
+	icon_state = "palatka_t"
+	item_state = ""
+	/*down_icon_state = "palatka"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/zeltbahn
+	name = "zeltbahn"
+	desc = "Known by NVA forces as 'zeltbahn', it is a half-tent that you can wear as a raincoat!."
+	icon_state = "zeltbahn_t"
+	item_state = ""
+	/*down_icon_state = "zeltbahn"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/usmccoat
+	name = "marine winter coat"
+	desc = "A winter coat, issued by US forces."
+	icon_state = "usmc_win_t"
+	item_state = ""
+	/*down_icon_state = "usmc_win"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.0

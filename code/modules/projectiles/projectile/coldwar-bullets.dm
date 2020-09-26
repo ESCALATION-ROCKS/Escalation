@@ -260,3 +260,9 @@
 
 /obj/item/projectile/bullet/rgprocket/he/on_impact(var/atom/target, var/blocked = 0)
 	explosion(target, 1, 3, 5, 6)
+
+/obj/item/projectile/bullet/rgprocket/gustaf
+	icon_state = "gustaf"
+
+/obj/item/projectile/bullet/rgprocket/finn
+	icon_state = "finn"

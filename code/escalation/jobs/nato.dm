@@ -1061,7 +1061,7 @@
 
 /datum/job/escalation/baf/bafat
 	title = "BAF AT Gunner"
-	name = "ATS Gunner"
+	name = "AT Section Gunner"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1081,7 +1081,7 @@
 
 /datum/job/escalation/baf/bafata
 	title = "BAF AT Asistant"
-	name = "ATS Assistant Rifleman"
+	name = "AT Section Assistant Rifleman"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5

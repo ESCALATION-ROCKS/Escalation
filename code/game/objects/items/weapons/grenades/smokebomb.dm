@@ -61,14 +61,32 @@
 	name = "M18 smoke grenade"
 	throw_speed = 4
 	throw_range = 16
+	det_time = 20
 	icon_state = "m18"
 
 /obj/item/weapon/grenade/smokebomb/wp
-	desc = "It is set to detonate in 2 seconds."
+	desc = "It is set to detonate in 3.5 seconds."
 	name = "RDG2 smoke grenade"
 	throw_speed = 4
+	det_time = 35
 	throw_range = 16
 	icon_state = "rdg2"
+
+/obj/item/weapon/grenade/smokebomb/finn
+	desc = "It is set to detonate in 2 seconds."
+	name = "Savuheite 80-16 smoke grenade"
+	throw_speed = 4
+	throw_range = 16
+	det_time = 20
+	icon_state = "savuheite"
+
+/obj/item/weapon/grenade/smokebomb/baf
+	desc = "It is set to detonate in 2 seconds."
+	name = "C3 smoke grenade"
+	throw_speed = 4
+	throw_range = 16
+	det_time = 20
+	icon_state = "c3"
 
 /obj/item/weapon/grenade/tear
 	desc = "It is set to detonate in 4 seconds."

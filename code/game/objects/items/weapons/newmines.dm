@@ -105,7 +105,7 @@
 		usr << "You deactivate the [src]."
 	else
 		usr << "You start to activate the [src]."
-		if (do_after(usr, 25))
+		if (do_after(usr, 60))
 			active = 1
 			anchored = 1
 			usr << "You activated the [src]."
@@ -123,7 +123,7 @@
 	else ..()
 
 /obj/item/weapon/mine/throw_impact()
-	expl()
+	return
 /*
 /obj/item/weapon/mine/dropped()
 	..()
@@ -137,18 +137,8 @@
 	else return*/
 
 /obj/item/weapon/mine/attackby(obj/item/weapon/W as obj)
-/*	if(istype(W, /obj/item/weapon/gun/projectile/automatic/m300))
-		var/obj/item/weapon/gun/projectile/automatic/m300/C = W
-		if(C.knife)
-			deactivate()
-		else
-			if(active)
-				usr << "Oh, no!"
-				expl()*/
-	if(istype(W, /obj/item/weapon/))
+	if(istype(W, /obj/item/weapon/material/knife/bayonet/))
 		deactivate()
-
-
 	else if(active)
 		if(prob(75))
 			expl()
@@ -158,8 +148,8 @@
 /obj/item/weapon/mine/proc/deactivate()
 	if(active)
 		usr << "You start to deactivate [src]."
-		if (do_after(usr, 16))
-			if(prob(75))
+		if (do_after(usr, 120))
+			if(prob(50))
 				src.active = 0
 				update_icon()
 				usr << "\blue Mine has been deactivated."
@@ -197,19 +187,26 @@
 	desc = "That's the generic mine used by Warsaw Pact military."
 	icon = 'icons/obj/mines.dmi'
 	icon_state = "pmn1"
+	active = 0
+	anchored = 0
 	w_class = 3.0
 	power1 = 1
-	power2 = 3
-	power3 = 5
-	delaytime = 10
+	power2 = 2
+	power3 = 3
+	delaytime = 0
+
+/obj/item/weapon/mine/pmn/armed
+	active = 1
+	anchored = 1
 
 /obj/item/weapon/mine/pfm1
 	name = "PFM-1"
 	desc = "That's the generic mine used by Warsaw Pact military."
 	icon = 'icons/obj/mines.dmi'
 	icon_state = "pfm1"
+	active = 0
+	anchored = 0
 	w_class = 2.0
-	active = 1
 	power1 = 1
 	power2 = 2
 	power3 = 2
@@ -219,11 +216,17 @@
 		dir = pick(1,2,4,8)
 		update_icon()
 
+/obj/item/weapon/mine/pfm1/armed
+	active = 1
+	anchored = 1
+
 /obj/item/weapon/mine/m16
 	name = "M16 APM"
 	desc = "That's the generic bouncing mine used by NATO."
 	icon = 'icons/obj/mines.dmi'
 	icon_state = "m16apm"
+	active = 0
+	anchored = 0
 	w_class = 3.0
 	power1 = 0
 	power2 = 0
@@ -232,11 +235,17 @@
 	blasttype = BOUNCING
 	num_fragments = 150
 
+/obj/item/weapon/mine/m16/armed
+	active = 1
+	anchored = 1
+
 /obj/item/weapon/mine/ozm72
 	name = "OZM-72"
 	desc = "That's the generic bouncing mine used by Warsaw Pact. Also known as 'Witch' among Soviet troopers."
 	icon = 'icons/obj/mines.dmi'
 	icon_state = "ozm72"
+	active = 0
+	anchored = 0
 	w_class = 3.0
 	power1 = 0
 	power2 = 0
@@ -244,3 +253,28 @@
 	delaytime = 10
 	blasttype = BOUNCING
 	num_fragments = 150
+
+/obj/item/weapon/mine/ozm72/armed
+	active = 1
+	anchored = 1
+
+/obj/item/weapon/mine/claymore
+	name = "M18 Claymore"
+	desc = "That's the generic mine used by US military."
+	icon = 'icons/obj/mines.dmi'
+	icon_state = "claymoremine"
+	active = 0
+	anchored = 0
+	w_class = 2.0
+	power1 = 1
+	power2 = 2
+	power3 = 2
+	delaytime = 0
+
+	New()
+		dir = pick(1,2,4,8)
+		update_icon()
+
+/obj/item/weapon/mine/claymore/armed
+	active = 1
+	anchored = 1

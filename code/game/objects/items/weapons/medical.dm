@@ -106,7 +106,7 @@
 	desc = "A mild painkiller with a slow metabolization speed. Meant for mild injuries."
 	pill_type = /obj/item/weapon/reagent_containers/pill/phenazepam
 
-/*/obj/item/weapon/pill_pack/sydnocarbum 
+/*/obj/item/weapon/pill_pack/sydnocarbum
 	name = "sydnocarbum pill pack"
 	desc = "For special occasions when shit got real."
 	pill_type = /obj/item/weapon/reagent_containers/pill/sydnocarbum */
@@ -135,6 +135,11 @@
 	name = "ethaperazine pill pack"
 	desc = "A mild neuroleptic and anti-emetic. Provides relief from nausea and vomiting."
 	pill_type = /obj/item/weapon/reagent_containers/pill/ethaperazine
+
+/obj/item/weapon/pill_pack/angiotensin
+	name = "angiotensin pill pack"
+	desc = "Effective Compound which helps restore bloodflow to the Brain and Organs. Useful for Toxin and Brain Damage."
+	pill_type = /obj/item/weapon/reagent_containers/pill/angiotensin
 
 
 //////////////////////////
@@ -277,9 +282,6 @@
 	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
 	startswith = list(/obj/item/weapon/ampule_pack/aminocaproic = 2)
 
-
-
-
 /obj/item/weapon/ampule_pack
 	name = "ampule pack"
 	desc = "That's an ampule pack."
@@ -390,4 +392,7 @@
 	desc = "A mild neuroleptic and anti-emetic. Provides relief from nausea and vomiting."
 	startswith = list(/obj/item/weapon/pill_pack/ethaperazine = 2)
 
-
+/obj/item/weapon/storage/box/pill_box/angiotensin
+	name = "angiotensin pill box"
+	desc = "Effective Compound which helps restore bloodflow to the Brain and Organs. Useful for Toxin and Brain Damage."
+	startswith = list(/obj/item/weapon/pill_pack/angiotensin = 2)
