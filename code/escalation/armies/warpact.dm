@@ -23,7 +23,7 @@
 	fireteam_names = list("Otdeleniye #1", "Otdeleniye #2", "Otdeleniye #3", "Otdeleniye #4")
 
 /datum/army_faction/warpact/finn
-	name = "Maavoimat"
+	name = "Suomen Maavoimat"
 	enabled = 1
 	faction_tag = "finn"
 	flag_state = "finnish"
