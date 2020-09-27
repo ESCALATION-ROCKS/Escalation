@@ -4,7 +4,7 @@
 
 /obj/item/projectile/bullet/rifle/a762x39
 	armor_penetration = 23
-	penetration_modifier = 0.4
+	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
 	agony = 20
@@ -24,13 +24,14 @@
 /obj/item/projectile/bullet/rifle/a762x51
 	penetrating = 1
 	armor_penetration = 34
-	penetration_modifier = 0.5
+	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 55
 	agony = 20
 
 	New()
 		damage = rand(39, 46)
+		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x51/tr
 	icon_state = "bullet_tracer"
@@ -42,13 +43,14 @@
 /obj/item/projectile/bullet/rifle/a762x54
 	penetrating = 1
 	armor_penetration = 31
-	penetration_modifier = 0.5
+	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 55
 	agony = 20
 
 	New()
 		damage = rand(37, 48)
+		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x54/tr
 	icon_state = "bullet_tracer"
@@ -102,7 +104,6 @@
 
 	New()
 		damage = rand(25, 31)
-		penetrating = rand(0,1)
 
 /obj/item/projectile/bullet/rifle/a9x19/tr
 	icon_state = "bullet_tracer"
@@ -118,7 +119,6 @@
 
 	New()
 		damage = rand(21, 28)
-		penetrating = rand(0,1)
 
 
 /obj/item/projectile/bullet/rifle/a9x18/tr
