@@ -55,7 +55,7 @@
 	organ_tag = BP_L_ARM
 	name = "left arm"
 	icon_name = "l_arm"
-	max_damage = 50
+	max_damage = 60
 	min_broken_damage = 45
 	w_class = ITEM_SIZE_NORMAL
 	body_part = ARM_LEFT
@@ -87,7 +87,7 @@
 	organ_tag = BP_L_LEG
 	name = "left leg"
 	icon_name = "l_leg"
-	max_damage = 50
+	max_damage = 90
 	min_broken_damage = 45
 	w_class = ITEM_SIZE_NORMAL
 	body_part = LEG_LEFT
@@ -121,8 +121,8 @@
 	organ_tag = BP_L_FOOT
 	name = "left foot"
 	icon_name = "l_foot"
-	max_damage = 30
-	min_broken_damage = 15
+	max_damage = 60
+	min_broken_damage = 20
 	w_class = ITEM_SIZE_SMALL
 	body_part = FOOT_LEFT
 	icon_position = LEFT
@@ -159,8 +159,8 @@
 	organ_tag = BP_L_HAND
 	name = "left hand"
 	icon_name = "l_hand"
-	max_damage = 30
-	min_broken_damage = 15
+	max_damage = 60
+	min_broken_damage = 20
 	w_class = ITEM_SIZE_SMALL
 	body_part = HAND_LEFT
 	parent_organ = BP_L_ARM

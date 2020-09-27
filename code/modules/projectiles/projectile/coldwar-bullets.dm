@@ -3,6 +3,8 @@
 //Rifle caliber
 
 /obj/item/projectile/bullet/rifle/a762x39
+//jokera
+	penetrating = 1
 	armor_penetration = 23
 	penetration_modifier = 0.3
 	embed = 1
