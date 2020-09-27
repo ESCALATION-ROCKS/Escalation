@@ -1208,7 +1208,7 @@
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=1, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0),
-		list(mode_name="semiauto - quickfire",    burst=1, fire_delay=0,  move_delay=1,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.8, 1.1, 1.3),         automatic = 0)
+		list(mode_name="semiauto - quickfire",    burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.8, 1.1, 1.3),         automatic = 0)
 		)
 	
 /obj/item/weapon/gun/projectile/automatic/rifle/l1a1/update_icon()
