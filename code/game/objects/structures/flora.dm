@@ -10,6 +10,7 @@
 	layer = ABOVE_HUMAN_LAYER
 	var/chops = 0 //how many times it's been chopped. Gotta make them work for it!
 	var/small = 0
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/weapon/carpentry/axe))
@@ -75,6 +76,7 @@
 	icon = 'icons/obj/flora/pinetrees.dmi'
 	alpha = 150
 	icon_state = "pine_1"
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/pine/New()
 	..()
@@ -85,6 +87,7 @@
 	icon = 'icons/obj/flora/pinetrees.dmi'
 	alpha = 150
 	icon_state = "pine_c"
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/pine/xmas/New()
 	..()
@@ -94,19 +97,21 @@
 	icon = 'icons/obj/flora/deadtrees.dmi'
 	alpha = 150
 	icon_state = "tree_1"
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/dead/New()
 	..()
 	icon_state = "tree_[rand(1, 6)]"
 	density = 1
 	alpha = 150
-
+	mouse_opacity = 0
 
 //grass
 /obj/structure/flora/grass
 	name = "grass"
 	icon = 'icons/obj/flora/snowflora.dmi'
 	anchored = 1
+	mouse_opacity = 0
 
 /obj/structure/flora/grass/brown
 	icon_state = "snowgrass1bb"
@@ -137,6 +142,7 @@
 	icon = 'icons/obj/flora/snowflora.dmi'
 	icon_state = "snowbush1"
 	anchored = 1
+	mouse_opacity = 0
 
 /obj/structure/flora/bush/New()
 	..()
@@ -157,6 +163,7 @@
 	icon_state = "firstbush_1"
 	anchored = 1
 	layer = 2.9
+	mouse_opacity = 0
 
 /obj/structure/flora/ausbushes/Initialize()
 	pixel_x = rand(-8,8)
@@ -283,6 +290,7 @@
 	icon_state = "snowgrassa_1"
 	anchored = 1
 	layer = 2.9
+	mouse_opacity = 0
 
 /obj/structure/flora/snowbushes/Initialize()
 	pixel_x = rand(-8,8)
@@ -520,6 +528,7 @@
 	density = 0
 	layer = 2.9
 	icon = 'icons/obj/plants.dmi'
+	mouse_opacity = 0
 
 /obj/structure/flora/bush1/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -539,6 +548,7 @@
 	density = 0
 	icon = 'icons/obj/plants.dmi'
 	layer = 2.9
+	mouse_opacity = 0
 
 /obj/structure/flora/bush2/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -556,6 +566,7 @@
 	density = 0
 	layer = 2.9
 	icon = 'icons/obj/plants.dmi'
+	mouse_opacity = 0
 
 /obj/structure/flora/bush3/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -573,6 +584,7 @@
 	density = 0
 	layer = 2.9
 	icon = 'icons/obj/plants.dmi'
+	mouse_opacity = 0
 
 /obj/structure/flora/bush4/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -590,6 +602,7 @@
 	density = 0
 	plane = -11
 	icon = 'icons/obj/plants.dmi'
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass0/New()
 	flags |= ON_BORDER
@@ -613,6 +626,7 @@
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
 	plane = -10
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass1/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -627,6 +641,7 @@
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
 	plane = -10
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass2/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -641,6 +656,7 @@
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
 	plane = -10
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass3/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -655,6 +671,7 @@
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
 	plane = -10
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass5/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -669,6 +686,7 @@
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
 	plane = -10
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass6/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -683,6 +701,7 @@
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
 	plane = -10
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass7/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -696,6 +715,7 @@
 	density = 0
 	plane = -10
 	icon = 'icons/obj/plants.dmi'
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass8/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -708,6 +728,7 @@
 	anchored = 1
 	density = 0
 	icon = 'icons/obj/plants.dmi'
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass9/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -720,6 +741,7 @@
 	anchored = 1
 	density = 0
 	icon = 'icons/obj/plants.dmi'
+	mouse_opacity = 0
 
 /obj/structure/flora/drygrass10/Crossed(AM as mob|obj)
 	if (istype(AM, /mob/living) && prob(50))
@@ -733,6 +755,7 @@
 	pixel_x = -32
 	plane = -10
 	density = 1
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/dead_big_96x96/New()
 	..()
@@ -745,6 +768,7 @@
 	pixel_x = -32
 	plane = -10
 	density = 1
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/dead_big_64x128/New()
 	..()
@@ -761,6 +785,7 @@
 	icon_state = "smallrock1"
 	layer = -16
 	anchored = 1
+	mouse_opacity = 0
 
 /obj/structure/flora/smallrock/New()
 	..()
@@ -777,6 +802,7 @@
 	density = 0
 	layer = -16
 	var/cover = 70
+	mouse_opacity = 0
 
 /obj/structure/flora/bigrock/New()
 	..()
@@ -796,6 +822,7 @@
 	icon_state = "cuttedtree"
 	anchored = 1
 	density = 0
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/summer
 	name = "tree"
@@ -805,6 +832,7 @@
 	density = 1
 	anchored = 1
 	alpha = 150
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/summer/alt1
 	icon = 'icons/obj/flora/96tree.dmi'
@@ -813,6 +841,7 @@
 	density = 1
 	anchored = 1
 	alpha = 150
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/summer/alt2
 	icon = 'icons/obj/flora/96tree.dmi'
@@ -821,6 +850,7 @@
 	density = 1
 	anchored = 1
 	alpha = 150
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/summer/alt3
 	icon = 'icons/obj/flora/96tree.dmi'
@@ -829,6 +859,7 @@
 	density = 1
 	anchored = 1
 	alpha = 150
+	mouse_opacity = 0
 
 /obj/structure/flora/summer/log1
 	name = "wooden log"
@@ -849,6 +880,7 @@
 	density = 1
 	anchored = 1
 	alpha = 150
+	mouse_opacity = 0
 
 /obj/structure/flora/tree/summer/dead2
 	name = "dead tree"
@@ -856,3 +888,4 @@
 	density = 1
 	anchored = 1
 	alpha = 150
+	mouse_opacity = 0
