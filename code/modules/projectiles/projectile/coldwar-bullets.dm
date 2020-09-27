@@ -7,7 +7,7 @@
 	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
-	agony = 32
+	agony = 20
 
 	New()
 		damage = rand(34, 43)
@@ -27,7 +27,7 @@
 	penetration_modifier = 0.5
 	embed = 1
 	kill_count = 55
-	agony = 31
+	agony = 20
 
 	New()
 		damage = rand(39, 46)
@@ -45,7 +45,7 @@
 	penetration_modifier = 0.5
 	embed = 1
 	kill_count = 55
-	agony = 34
+	agony = 20
 
 	New()
 		damage = rand(37, 48)
@@ -62,7 +62,7 @@
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
-	agony = 26
+	agony = 20
 
 	New()
 		damage = rand(33,  40)
@@ -80,7 +80,7 @@
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
-	agony = 28
+	agony = 20
 
 	New()
 		damage = rand(36, 40)
