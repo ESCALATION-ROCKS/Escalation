@@ -1176,6 +1176,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
 	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
@@ -1187,7 +1188,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	back_2 = /obj/item/weapon/gun/launcher/finnrpg
-	back = /obj/item/weapon/storage/backpack/rpgsa
+	back = /obj/item/weapon/storage/backpack/rpgfin
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
@@ -1777,6 +1778,7 @@
 	shoes = /obj/item/clothing/shoes/baf/field
 	back_2 = /obj/item/weapon/gun/projectile/automatic/l7a2
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/lmg
 	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
@@ -1823,7 +1825,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - BAF AT Gunner")
 	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
 	shoes = /obj/item/clothing/shoes/baf/field
-	back = /obj/item/weapon/storage/backpack/baf/large
+	back = /obj/item/weapon/storage/backpack/rpgbrit
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	back_2 = /obj/item/weapon/gun/launcher/carlgustaf
@@ -1870,7 +1872,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/baf/sl
 	name = OUTFIT_JOB_NAME("Coldwar - BAF SL")
-	uniform = /obj/item/clothing/under/brit/tiger/alt/cpl
+	uniform = /obj/item/clothing/under/brit/tiger/alt/sgt
 	shoes = /obj/item/clothing/shoes/baf/field
 	back_2 = /obj/item/weapon/storage/backpack/baf_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
