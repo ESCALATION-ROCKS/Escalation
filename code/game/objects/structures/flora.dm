@@ -748,33 +748,6 @@
 		playsound(src.loc, foliagedry, 60, 1)
 
 
-/obj/structure/flora/tree/dead_big_96x96
-	name = "dead tree"
-	icon = 'icons/obj/flora/96tree.dmi'
-	icon_state = "96tree"
-	pixel_x = -32
-	plane = -10
-	density = 1
-	mouse_opacity = 0
-
-/obj/structure/flora/tree/dead_big_96x96/New()
-	..()
-	icon_state = "tree_winter_96x96_1"//replace end of string to rand(1,*) if we sprite enough trees
-
-/obj/structure/flora/tree/dead_big_64x128
-	name = "dead tree"
-	icon = 'icons/obj/flora/128tree.dmi'
-	icon_state = "tree_winter_64x128_1"
-	pixel_x = -32
-	plane = -10
-	density = 1
-	mouse_opacity = 0
-
-/obj/structure/flora/tree/dead_big_64x128/New()
-	..()
-	icon_state = "tree_winter_64x128_1"//replace end of string to rand(1,*) if we sprite enough trees
-
-
 //rocks
 //actually, i have no idea what they doin' here
 
@@ -889,3 +862,76 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+
+////////////////////////////////////////////////winter trees
+/////////////////// /obj/structure/flora/tree/pine don't forget these exist too
+
+/obj/structure/flora/tree/winter/deadbig1
+	name = "dead tree"
+	icon = 'icons/obj/flora/96tree.dmi'
+	icon_state = "96tree"
+	pixel_x = -32
+	density = 1
+	anchored = 1
+	alpha = 150
+	mouse_opacity = 0
+
+/obj/structure/flora/tree/winter/deadbig1/New()
+	..()
+	icon_state = "96tree"
+
+/obj/structure/flora/tree/winter/deadbig2
+	name = "dead tree"
+	icon = 'icons/obj/flora/128tree.dmi'
+	icon_state = "128tree"
+	pixel_x = -32
+	density = 1
+	anchored = 1
+	alpha = 150
+	mouse_opacity = 0
+
+/obj/structure/flora/tree/winter/deadbig2/New()
+	..()
+	icon_state = "128tree"
+
+/obj/structure/flora/tree/winter/alt1
+	name = "snowy tree"
+	icon = 'icons/obj/flora/wintertrees.dmi'
+	icon_state = "wintertree1"
+	pixel_x = -32
+	density = 1
+	anchored = 1
+	alpha = 150
+	mouse_opacity = 0
+
+/obj/structure/flora/tree/winter/alt1/New()
+	..()
+	icon_state = "wintertree1"
+
+/obj/structure/flora/tree/winter/alt2
+	name = "snowy tree"
+	icon = 'icons/obj/flora/wintertrees.dmi'
+	icon_state = "wintertree2"
+	pixel_x = -32
+	density = 1
+	anchored = 1
+	alpha = 150
+	mouse_opacity = 0
+
+/obj/structure/flora/tree/winter/alt2/New()
+	..()
+	icon_state = "wintertree2"
+
+/obj/structure/flora/tree/winter/alt3
+	name = "snowy tree"
+	icon = 'icons/obj/flora/wintertrees.dmi'
+	icon_state = "wintertree3"
+	pixel_x = -32
+	density = 1
+	anchored = 1
+	alpha = 150
+	mouse_opacity = 0
+
+/obj/structure/flora/tree/winter/alt3/New()
+	..()
+	icon_state = "wintertree3"

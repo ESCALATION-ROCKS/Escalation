@@ -1221,13 +1221,14 @@ obj/random/hostilenew/spawn_choices()
 	desc = "This is a random tree"
 	icon = 'icons/mob/screen1.dmi'
 	icon_state = "tree2"
-	spawn_nothing_percentage = 30
+	spawn_nothing_percentage = 50
 
 /obj/random/treelowchance/spawn_choices()
-		return list(/obj/structure/flora/tree/dead,
-					/obj/structure/flora/tree/pine,
-					/obj/structure/flora/tree/dead_big_96x96,
-					/obj/structure/flora/tree/dead_big_64x128,
+		return list(/obj/structure/flora/tree/winter/deadbig1,
+					/obj/structure/flora/tree/winter/deadbig2,
+					/*/obj/structure/flora/tree/winter/alt1, too thick*/
+					/obj/structure/flora/tree/winter/alt2,
+					/obj/structure/flora/tree/winter/alt3,
 					/obj/structure/flora/snowbushes/snowgrassa = 2,
 					/obj/structure/flora/snowbushes/snowgrassb = 2,
 					/obj/structure/flora/snowbushes/snowgrassc = 2,

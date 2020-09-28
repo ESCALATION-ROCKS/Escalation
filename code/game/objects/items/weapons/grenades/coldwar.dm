@@ -112,7 +112,7 @@
 	throw_speed = 2
 	throw_range = 10
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
-	num_fragments = 290  //total number of fragments produced by the grenade
+	num_fragments = 180  //total number of fragments produced by the grenade
 	explosion_size = 2
 
 /obj/item/weapon/grenade/frag/sirpalem41
@@ -122,7 +122,7 @@
 	throw_speed = 3
 	throw_range = 12
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
-	num_fragments = 200  //total number of fragments produced by the grenade
+	num_fragments = 220  //total number of fragments produced by the grenade
 	explosion_size = 2
 
 ////////////////////////////////////////////////////////////////////////////////////////////
