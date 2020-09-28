@@ -28,7 +28,7 @@
 	armor_penetration = 34
 	penetration_modifier = 0.3
 	embed = 1
-	kill_count = 55
+	kill_count = 120
 	agony = 20
 
 	New()
@@ -47,7 +47,7 @@
 	armor_penetration = 31
 	penetration_modifier = 0.3
 	embed = 1
-	kill_count = 55
+	kill_count = 120
 	agony = 20
 
 	New()
@@ -133,7 +133,7 @@
 //	fire_sound = 'sound/weapons/minigun_1sec.ogg'
 	damage = 15
 	armor_penetration = 15
-	kill_count = 30
+	kill_count = 120
 
 /obj/item/projectile/bullet/rifle/a127x108mm
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
