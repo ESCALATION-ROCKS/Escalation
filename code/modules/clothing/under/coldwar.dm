@@ -247,25 +247,25 @@
 	has_sensor = 0
 
 /obj/item/clothing/under/finn/talvimetsa/p
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/p, /obj/item/clothing/accessory/storage/fincoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/p)
 
 /obj/item/clothing/under/finn/talvimetsa/lcpl
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/lcpl, /obj/item/clothing/accessory/storage/fincoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/lcpl)
 
 /obj/item/clothing/under/finn/talvimetsa/cpl
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/cpl, /obj/item/clothing/accessory/storage/fincoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/cpl)
 
 /obj/item/clothing/under/finn/talvimetsa/sgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/sgt, /obj/item/clothing/accessory/storage/fincoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/sgt)
 
 /obj/item/clothing/under/finn/talvimetsa/ltdep
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/ltdep, /obj/item/clothing/accessory/storage/fincoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/ltdep)
 
 /obj/item/clothing/under/finn/talvimetsa/surgeon
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/surgeon, /obj/item/clothing/accessory/storage/fincoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/surgeon)
 
 /obj/item/clothing/under/finn/talvimetsa/lt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/lt, /obj/item/clothing/accessory/storage/fincoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/finn/lt)
 
 //British
 /obj/item/clothing/under/brit/
@@ -282,16 +282,19 @@
 	has_sensor = 0
 
 /obj/item/clothing/under/brit/tiger/alt/sgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/sgt, /obj/item/clothing/accessory/storage/britcoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/sgt)
 
 /obj/item/clothing/under/brit/tiger/alt/sfc
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/frstsgt, /obj/item/clothing/accessory/storage/britcoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/frstsgt)
 
 /obj/item/clothing/under/brit/tiger/alt/scndlt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/scndlt, /obj/item/clothing/accessory/storage/britcoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/scndlt)
 
-/obj/item/clothing/under/brit/tiger/alt/fstlt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/frstlt, /obj/item/clothing/accessory/storage/britcoat)
+/obj/item/clothing/under/brit/tiger/alt/lt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/lt)
+
+/obj/item/clothing/under/brit/tiger/alt/cpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/cpl)
 
 /obj/item/clothing/under/brit/tiger/olive
 	name = "'DPM Olive' pattern uniform"
@@ -300,11 +303,7 @@
 	worn_state = "tigero"
 
 /obj/item/clothing/under/brit/tiger/olive/alt/p
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/p, /obj/item/clothing/accessory/storage/britcoat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/p)
 
 /obj/item/clothing/under/brit/tiger/olive/alt/lcpl
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/lcpl, /obj/item/clothing/accessory/storage/britcoat)
-
-/obj/item/clothing/under/brit/tiger/olive/alt/cpl
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/cpl, /obj/item/clothing/accessory/storage/britcoat)
-
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/lcpl)

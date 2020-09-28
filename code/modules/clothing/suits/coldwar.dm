@@ -74,12 +74,47 @@
 	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 40, bio = 0, rad = 0)
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
-
-
+	
 /obj/item/clothing/suit/storage/vest/flakvest/New()
 	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 2)
 
+/obj/item/clothing/suit/armor/vest/coat/
+	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
+	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
+	siemens_coefficient = 0.6
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+
+/obj/item/clothing/suit/armor/vest/coat/brit
+	name = "british parka"
+	desc = "A standard issue British Army winter coat."
+	icon_state = "parkabrit"
+	item_state = "parkabrit"
+	/*down_icon_state = "parkabrit_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	
+/obj/item/clothing/suit/armor/vest/coat/finn
+	name = "finnish parka"
+	desc = "A standard issue Finnish Army winter coat."
+	icon_state = "parkafin"
+	item_state = "parkafin"
+	/*down_icon_state = "parkafin_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 
 //Wake up, Mister Freeman, Wake up, and Smell the Ashes.
 

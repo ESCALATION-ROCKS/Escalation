@@ -17,7 +17,8 @@ LINEN BINS
 	throwforce = 1
 	throw_speed = 1
 	throw_range = 2
-	w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_HUGE
+	anchored = 1
 
 /obj/item/weapon/bedsheet/attackby(obj/item/I, mob/user)
 	if(is_sharp(I))
