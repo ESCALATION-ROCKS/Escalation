@@ -36,6 +36,18 @@
 	max_storage_space = 6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
+/obj/item/weapon/storage/backpack/bundes_utilitypouch
+	name = "BDW utility pouch"
+	desc = "Has enough space to hold a few items"
+	icon_state = "bdw_utility"
+	item_state = "bdw_utility"
+	reachable = 1
+	open_delay = 5
+	max_storage_space = 4
+	slot_flags = SLOT_LPOUCH | SLOT_RPOUCH
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
 /obj/item/weapon/storage/backpack/usmc_buttpack
 	name = "US field pack"
 	desc = "A sturdy field pack used by U.S. army. Also referred as butt pack"
@@ -197,6 +209,7 @@
 
 
 //bri ish
+
 /obj/item/weapon/storage/backpack/baf_buttpack
 	name = "BAF field pack"
 	desc = "A sturdy field pack standard issue in the British Armed Forces. Also referred as butt pack"
@@ -207,6 +220,17 @@
 	max_storage_space = 6
 	slot_flags = SLOT_BACK
 
+/obj/item/weapon/storage/backpack/baf_utilitypouch
+	name = "BAF utility pouch"
+	desc = "Has enough space to hold a few items"
+	icon_state = "baf_utility"
+	item_state = "baf_utility"
+	reachable = 1
+	open_delay = 5
+	max_storage_space = 4
+	slot_flags = SLOT_LPOUCH | SLOT_RPOUCH
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
 /obj/item/weapon/storage/backpack/baf/medium
 	name = "BAF medium pack"

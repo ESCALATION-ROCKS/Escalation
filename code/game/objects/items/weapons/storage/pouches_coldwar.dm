@@ -417,6 +417,30 @@
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
+
+/obj/item/weapon/storage/belt/suit/ammo/baf/large
+	w_class = ITEM_SIZE_HUGE
+	name = "7.62 STANAG magazine pouch"
+	desc = "Has enough space to hold four 7.62 STANAG magazines."
+	icon_state = "baf_ammo_large"
+	item_state = "bdw_ammo"
+	open_delay = 5
+	storage_slots = 4
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/a9x19,
+		/obj/item/ammo_magazine/c762x51wa,
+		/obj/item/ammo_magazine/c762x51m
+		)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s
+		)
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
 /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	w_class = ITEM_SIZE_HUGE
 	name = "Sterling magazine pouch"
