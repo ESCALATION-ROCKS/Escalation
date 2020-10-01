@@ -198,7 +198,7 @@
 			speaker_name = "[speaker.real_name] ([speaker_name])"
 		track = "[speaker_name] ([ghost_follow_link(speaker, src)])"
 	else
-		playsound(loc, 'sound/effects/radio-beep.ogg', 25, 0, -1)
+		playsound(loc, 'sound/effects/radio-beep.ogg', 5, 0, -1)
 
 	var/formatted
 	if(language)
