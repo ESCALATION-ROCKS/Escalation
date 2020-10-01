@@ -387,6 +387,21 @@
 		reagents.add_reagent(/datum/reagent/nutriment/coco, 2)
 		bitesize = 2
 
+/obj/item/weapon/reagent_containers/food/snacks/rolo
+	name = "rolo"
+	desc = "A piece of caramel covered in chocolate."
+	icon_state = "rolo"
+	filling_color = "#7d5f46"
+	center_of_mass = "x=15;y=15"
+	nutriment_amt = 2
+	w_class = ITEM_SIZE_TINY
+	nutriment_desc = list("chocolate" = 5)
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/sugar, 1)
+		reagents.add_reagent(/datum/reagent/nutriment/coco,1)
+		bitesize = 5
+
 /obj/item/weapon/reagent_containers/food/snacks/chocolateegg
 	name = "Chocolate Egg"
 	desc = "Such sweet, fattening food."
