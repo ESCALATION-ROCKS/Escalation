@@ -313,8 +313,8 @@
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
 
 /obj/item/weapon/storage/backpack/rpgfin
-	name = "55 S 55 rocket backpack"
-	desc = "A backpack for 55 S 55 rockets. It can hold three of them."
+	name = "55 S 55 shell backpack"
+	desc = "A backpack for three 55 S 55 shells."
 	icon_state = "fin_rpg"
 	item_state = "fin_rpg"
 	reachable = 1
@@ -328,10 +328,10 @@
 		)
 
 /obj/item/weapon/storage/backpack/rpgbrit
-	name = "Carl Gustav rocket backpack"
-	desc = "A backpack for Carl Gustav shells. It can hold three of them."
-	icon_state = "brit_rpg"
-	item_state = "brit_rpg"
+	name = "83mm shell rucksack"
+	desc = "A large backpack repurposed to carry three Carl Gustaf shells."
+	icon_state = "baflargepack"
+	item_state = "baflargepack"
 	reachable = 1
 	storage_slots = 3
 	open_delay = 10
