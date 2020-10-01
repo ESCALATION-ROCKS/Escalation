@@ -116,6 +116,38 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 
+/obj/item/clothing/suit/armor/vest/coat/usa
+	name = "us winter coat"
+	desc = "A standard issue US Army winter coat."
+	icon_state = "parkaus"
+	item_state = "parkaus"
+	/*down_icon_state = "parkaus_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+
+/obj/item/clothing/suit/armor/vest/coat/sa
+	name = "soviet coat"
+	desc = "A standard issue Soviet Army winter coat."
+	icon_state = "parkasa"
+	item_state = "parkasa"
+	/*down_icon_state = "parkafin_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+
+/obj/item/clothing/suit/armor/vest/coat/sa/officer
+	name = "soviet officer coat"
+	desc = "An officer issue Soviet Army winter coat"
+	icon_state = "parkasaofficer"
+	item_state = "parkasaofficer"
+
 //Wake up, Mister Freeman, Wake up, and Smell the Ashes.
 
 /obj/item/clothing/suit/armor/vest/hev/
