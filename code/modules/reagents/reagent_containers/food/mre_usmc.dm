@@ -134,7 +134,7 @@
 	var/second = pick("beef & tomato soup", "vegetable soup", "cream of mushroom soup")
 	var/side = pick("cracker", "biscuit", "oatmeal biscuit")
 	var/desert = pick("milk chocolate bar", "boiled sweets")
-	var/drink = pick("instant tea", "coffee")
+	var/drink = pick("instant tea", "instant coffee")
 	name = "[initial(name)] ([main])"
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, main)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, second)
@@ -195,7 +195,7 @@
 			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("milk chocolate bar", "boiled sweets")
 			icon_state = "dessert"
-			reagents.add_reagent(/datum/reagent/nutriment/, 52)
+			reagents.add_reagent(/datum/reagent/nutriment/, 5)
 			reagents.add_reagent(/datum/reagent/sugar, 5)
 			reagents.add_reagent(/datum/reagent/nutriment/coco, 5)
 
