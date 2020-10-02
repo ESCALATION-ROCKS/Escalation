@@ -66,7 +66,7 @@ var/list/bul_impact = list('sound/effects/body/bulletbodyimpact_1.wav','sound/ef
 var/list/bullet_hit_object = list('sound/weapons/ric1.wav', 'sound/weapons/ric2.wav', 'sound/weapons/ric3.wav', 'sound/weapons/ric4.wav', 'sound/weapons/ric5.wav', 'sound/weapons/ric6.wav')
 var/list/bodyscrape = list('sound/effects/bodyscrape-01.ogg','sound/effects/bodyscrape-02.ogg')
 var/list/serinjury = list('sound/effects/body/desceration-01.ogg','sound/effects/body/desceration-02.ogg','sound/effects/body/desceration-03.ogg','sound/effects/body/desceration-04.ogg')
-var/list/flop_sound = list('sound/effects/bodyfall1.ogg','sound/effects/bodyfall2.ogg','sound/effects/bodyfall3.ogg','sound/effects/bodyfall4.ogg')
+var/list/flop_sound = list('sound/effects/bodyfall1.ogg','sound/effects/bodyfall2.ogg','sound/effects/bodyfall3.ogg')
 var/list/bullet_flyby = list('sound/weapons/flyby/bulletflyby.ogg', 'sound/weapons/flyby/bulletflyby2.ogg', 'sound/weapons/flyby/bulletflyby3.ogg')
 var/list/explosion_small_sound = list('sound/effects/Explosion_small1.ogg', 'sound/effects/Explosion_small2.ogg', 'sound/effects/Explosion_small3.ogg')
 

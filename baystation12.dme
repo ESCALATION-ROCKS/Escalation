@@ -2595,7 +2595,6 @@
 #include "maps\finn_river\escnew_outfits.dm"
 #include "maps\finn_river\finn_river.dmm"
 #include "maps\redline\redline_areas.dm"
-#include "maps\river\escnew_outfits.dm"
 #include "maps\~mapsystem\map_preferences.dm"
 #include "maps\~mapsystem\map_ranks.dm"
 #include "maps\~mapsystem\maps.dm"

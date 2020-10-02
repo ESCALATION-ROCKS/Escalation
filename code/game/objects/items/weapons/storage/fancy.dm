@@ -364,6 +364,15 @@
 	/obj/item/weapon/key/hospital)
 
 */
+/obj/item/weapon/storage/fancy/cigarettes/rolo //////////making this a cigarette cuz it works exactly the way i want it to
+	name = "pack of Rolo"
+	desc = "That's Rolo, a pack of caramel chocolate candy."
+	icon_state = "rolo"
+	item_state = "Dpacket"
+
+	key_type = /obj/item/weapon/reagent_containers/food/snacks/rolo
+	startswith = list(/obj/item/weapon/reagent_containers/food/snacks/rolo = 6)
+
 /obj/item/weapon/storage/fancy/cigarettes/luckystrikegreen
 	name = "pack of Lucky Strike Green"
 	desc = "That's the mentol Lucky Strike's."

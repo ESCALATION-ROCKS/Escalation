@@ -112,7 +112,7 @@
 	throw_speed = 2
 	throw_range = 10
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
-	num_fragments = 290  //total number of fragments produced by the grenade
+	num_fragments = 180  //total number of fragments produced by the grenade
 	explosion_size = 2
 
 /obj/item/weapon/grenade/frag/sirpalem41
@@ -122,8 +122,42 @@
 	throw_speed = 3
 	throw_range = 12
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
-	num_fragments = 200  //total number of fragments produced by the grenade
+	num_fragments = 220  //total number of fragments produced by the grenade
 	explosion_size = 2
+
+
+//////satchels/////////
+////////////////////
+
+/obj/item/weapon/grenade/frag/satchelnato
+	name = "C4 explosive satchel"
+	desc = "A pack of high explosives, used by NATO armies."
+	icon_state = "satchelnato"
+	throw_speed = 1
+	throw_range = 2
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
+	num_fragments = 70  //total number of fragments produced by the grenade
+	det_time = 100
+	explosion_size = 6
+
+/obj/item/weapon/grenade/frag/satchelnato/on_explosion(var/turf/O)
+	if(explosion_size)
+		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
+
+/obj/item/weapon/grenade/frag/satchelwp
+	name = "explosive satchel"
+	desc = "A pack of high explosives, used by WP armies."
+	icon_state = "satchelwp"
+	throw_speed = 1
+	throw_range = 2
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
+	num_fragments = 70  //total number of fragments produced by the grenade
+	det_time = 100
+	explosion_size = 6
+
+/obj/item/weapon/grenade/frag/satchelwp/on_explosion(var/turf/O)
+	if(explosion_size)
+		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////GP's vogs for soviet and muricans//////////////////////////////////////////

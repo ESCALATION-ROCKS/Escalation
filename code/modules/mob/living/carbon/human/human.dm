@@ -1706,10 +1706,11 @@ var/list/rank_prefix = list(\
 	
 
 //british army
-	"First Lieutenant" = "1st Lieutenant",\
+	"Lieutenant" = "Lieutenant",\
 	"Second Lieutenant" = "2nd Lieutenant.",\
 	"First Sergeant" = "First Sergeant",\
 	"Sergeant" = "Sergeant",\
+	"Corporal" = "Corporal",\
 	"Lance Corporal" = "Lc. Corporal",\
 	"Private" = "Private",\
 )

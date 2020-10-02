@@ -80,21 +80,22 @@ var/wlg_selected_cuttree = 0
 					new cuttree(T)
 				if(93)
 					wlg_selected_pine++
-					var/pine = pick(/obj/structure/flora/tree/dead,
-									/obj/structure/flora/tree/dead_big_96x96,
-									/obj/structure/flora/tree/dead_big_64x128,
-									/obj/structure/flora/tree/pine)
+					var/pine = pick(/obj/structure/flora/tree/pine)
 					/*var/pine = pick(/obj/structure/flora/tree/summer,
 									/obj/structure/flora/tree/summer/alt1,    summer
-									/obj/structure/flora/tree/summer/alt3,
+									/obj/structure/flora/tree/summer/alt3,     leave just pine for this ,lowchance tree generation is way more diverse!!!!!
 									/obj/structure/flora/tree/summer/alt2)*/
 					new pine(T)
 				if(94)
 					wlg_selected_deadtree++
-					var/deadtree = pick(/obj/structure/flora/tree/summer/dead1,
-									/obj/structure/flora/tree/summer/dead2,
+					var/deadtree = pick(/obj/structure/flora/tree/dead,
+										/obj/structure/flora/tree/winter/deadbig1,
+										/obj/structure/flora/tree/winter/deadbig2)
+										
+						/*/obj/structure/flora/tree/summer/dead1,
+									/obj/structure/flora/tree/summer/dead2,    summer
 									/obj/structure/flora/summer/log1,
-									/obj/structure/flora/summer/log2)
+									/obj/structure/flora/summer/log2)*/
 					new deadtree(T)
 				else
 					wlg_selected_bush++

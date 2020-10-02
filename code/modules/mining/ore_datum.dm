@@ -80,8 +80,8 @@ var/global/list/ores_by_type = list()
 	scan_icon = "mineral_common"
 
 /ore/glass
-	name = "sand"
-	display_name = "sand"
+	name = "dirt"
+	display_name = "dirt"
 	icon_tag = "glass"
 	smelts_to = "glass"
 	alloy = 1

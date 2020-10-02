@@ -1038,7 +1038,7 @@ var/list/name_to_material
 	explosion_resistance = 2
 	shard_type = SHARD_SPLINTER
 	shard_can_repair = 0 // you can't weld splinters back into planks
-	hardness = 15
+	hardness = 30
 	brute_armor = 1
 	weight = 18
 	melting_point = T0C+300 //okay, not melting in this case, but hot enough to destroy wood
@@ -1055,10 +1055,12 @@ var/list/name_to_material
 /material/brick
 	name = "brick"
 	icon_base = "brick"
-	explosion_resistance = 50
+	integrity = 600
+	conductive = 0
+	explosion_resistance = 2
 	brute_armor = 10
 	burn_armor = 15
-	hardness = 80
+	hardness = 150
 	weight = 23
 	stack_type = /obj/item/stack/material/concrete
 	hitsound = 'sound/weapons/smash.ogg'

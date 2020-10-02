@@ -41,7 +41,7 @@
 	name = "\improper MRE component"
 	desc = "A package from a Meal Ready-to-Eat, used by NATO. Contains a part of a meal, prepared for field consumption."
 	wrapped = 1
-	bitesize = 1
+	bitesize = 5
 	icon_state = "entree"
 	icon = 'icons/obj/us_mre.dmi'
 	var/flavor = "boneless pork ribs"//default value
@@ -67,21 +67,22 @@
 	switch(newflavor)
 		if("pork patty", "beans", "pork slices")
 			icon_state = "mainentree"
-			reagents.add_reagent(/datum/reagent/nutriment/, 5)
-			reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
+			reagents.add_reagent(/datum/reagent/nutriment/, 10)
+			reagents.add_reagent(/datum/reagent/nutriment/protein, 10)
+			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("apple sauce", "cheese spread")
 			icon_state = "side"
-			reagents.add_reagent(/datum/reagent/nutriment/, 3)
-			reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
+			reagents.add_reagent(/datum/reagent/nutriment/, 5)
+			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("cracker")
 			icon_state = "snack"
-			reagents.add_reagent(/datum/reagent/nutriment/, 2)
-			reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
+			reagents.add_reagent(/datum/reagent/nutriment/, 5)
+			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("dried fruits", "chocolate brownie")
 			icon_state = "dessert"
-			reagents.add_reagent(/datum/reagent/nutriment/, 1)
-			reagents.add_reagent(/datum/reagent/sugar, 1)
-			reagents.add_reagent(/datum/reagent/nutriment/coco, 1)
+			reagents.add_reagent(/datum/reagent/nutriment/, 5)
+			reagents.add_reagent(/datum/reagent/sugar, 5)
+			reagents.add_reagent(/datum/reagent/nutriment/coco, 5)
 
 /obj/item/weapon/reagent_containers/food/condiment/mredrink
 	name = "\improper ration drink"
@@ -133,7 +134,7 @@
 	var/second = pick("beef & tomato soup", "vegetable soup", "cream of mushroom soup")
 	var/side = pick("cracker", "biscuit", "oatmeal biscuit")
 	var/desert = pick("milk chocolate bar", "boiled sweets")
-	var/drink = pick("instant tea", "coffee")
+	var/drink = pick("instant tea", "instant coffee")
 	name = "[initial(name)] ([main])"
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, main)
 	new /obj/item/weapon/reagent_containers/food/snacks/baf_packaged_meal(src, second)
@@ -155,7 +156,7 @@
 	name = "\improper ORP component"
 	desc = "A package from an Operational Ration Pack, used by BAF. Contains a part of a meal, prepared for field consumption."
 	wrapped = 1
-	bitesize = 1
+	bitesize = 5
 	icon_state = "entree"
 	icon = 'icons/obj/baf_mre.dmi'
 	var/flavor = "bacon & beans"//default value
@@ -182,20 +183,21 @@
 		if("bacon & beans", "corned beef hash", "hamburger & beans")
 			icon_state = "mainentree"
 			reagents.add_reagent(/datum/reagent/nutriment/, 10)
-			reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
+			reagents.add_reagent(/datum/reagent/nutriment/protein, 10)
+			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("beef & tomato soup", "vegetable soup", "cream of mushroom soup")
 			icon_state = "soup"
-			reagents.add_reagent(/datum/reagent/nutriment/, 6)
-			reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
+			reagents.add_reagent(/datum/reagent/nutriment/, 10)
+			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("cracker", "biscuit", "oatmeal biscuit")
 			icon_state = "side"
 			reagents.add_reagent(/datum/reagent/nutriment/, 5)
-			reagents.add_reagent(/datum/reagent/sodiumchloride, 1)
+			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("milk chocolate bar", "boiled sweets")
 			icon_state = "dessert"
-			reagents.add_reagent(/datum/reagent/nutriment/, 2)
-			reagents.add_reagent(/datum/reagent/sugar, 2)
-			reagents.add_reagent(/datum/reagent/nutriment/coco, 1)
+			reagents.add_reagent(/datum/reagent/nutriment/, 5)
+			reagents.add_reagent(/datum/reagent/sugar, 5)
+			reagents.add_reagent(/datum/reagent/nutriment/coco, 5)
 
 /obj/item/weapon/reagent_containers/food/snacks/halbbitter
 	name = "halb-bitter schokolade"

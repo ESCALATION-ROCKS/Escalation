@@ -132,12 +132,12 @@
 						desc = "A mixture of various condiments. [reagents.get_master_reagent_name()] is one of them."
 					icon_state = "mixedcondiments"
 					center_of_mass = "x=16;y=6"
-		else
+		/*else
 			icon_state = "emptycondiment"
 			name = "Condiment Bottle"
 			desc = "An empty condiment bottle."
 			center_of_mass = "x=16;y=6"
-			return
+			return*/
 
 /obj/item/weapon/reagent_containers/food/condiment/enzyme
 	name = "Universal Enzyme"

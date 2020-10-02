@@ -155,6 +155,11 @@
 	icon_state = "pasgt-woodland"
 	icon_state_unzipped = "pasgt-woodland-unzipped"
 
+
+/obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
+	icon_state = "pasgtwinter"
+	icon_state_unzipped = "pasgtwinter-unzipped"
+
 //HEV Helmets
 
 /obj/item/clothing/head/helmet/coldwar/hev_helm/

@@ -9,6 +9,7 @@
 	desc = "SET DESC HERE BOIII."
 //	icon = 'icons/obj/mines.dmi'
 	icon_state = "mine"
+	throw_range = 1
 	w_class = 3.0
 	var/active = 0
 	var/power1 = 2

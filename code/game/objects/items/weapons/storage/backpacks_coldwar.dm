@@ -36,6 +36,18 @@
 	max_storage_space = 6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
+/obj/item/weapon/storage/backpack/bundes_utilitypouch
+	name = "BDW utility pouch"
+	desc = "Has enough space to hold a few items"
+	icon_state = "bdw_utility"
+	item_state = "bdw_utility"
+	reachable = 1
+	open_delay = 5
+	max_storage_space = 4
+	slot_flags = SLOT_LPOUCH | SLOT_RPOUCH
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
 /obj/item/weapon/storage/backpack/usmc_buttpack
 	name = "US field pack"
 	desc = "A sturdy field pack used by U.S. army. Also referred as butt pack"
@@ -197,6 +209,7 @@
 
 
 //bri ish
+
 /obj/item/weapon/storage/backpack/baf_buttpack
 	name = "BAF field pack"
 	desc = "A sturdy field pack standard issue in the British Armed Forces. Also referred as butt pack"
@@ -207,6 +220,17 @@
 	max_storage_space = 6
 	slot_flags = SLOT_BACK
 
+/obj/item/weapon/storage/backpack/baf_utilitypouch
+	name = "BAF utility pouch"
+	desc = "Has enough space to hold a few items"
+	icon_state = "baf_utility"
+	item_state = "baf_utility"
+	reachable = 1
+	open_delay = 5
+	max_storage_space = 4
+	slot_flags = SLOT_LPOUCH | SLOT_RPOUCH
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
 /obj/item/weapon/storage/backpack/baf/medium
 	name = "BAF medium pack"
@@ -289,8 +313,8 @@
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
 
 /obj/item/weapon/storage/backpack/rpgfin
-	name = "55 S 55 rocket backpack"
-	desc = "A backpack for 55 S 55 rockets. It can hold three of them."
+	name = "55 S 55 shell backpack"
+	desc = "A backpack for three 55 S 55 shells."
 	icon_state = "fin_rpg"
 	item_state = "fin_rpg"
 	reachable = 1
@@ -304,10 +328,10 @@
 		)
 
 /obj/item/weapon/storage/backpack/rpgbrit
-	name = "Carl Gustav rocket backpack"
-	desc = "A backpack for Carl Gustav shells. It can hold three of them."
-	icon_state = "brit_rpg"
-	item_state = "brit_rpg"
+	name = "83mm shell rucksack"
+	desc = "A large backpack repurposed to carry three Carl Gustaf shells."
+	icon_state = "baflargepack"
+	item_state = "baflargepack"
 	reachable = 1
 	storage_slots = 3
 	open_delay = 10
