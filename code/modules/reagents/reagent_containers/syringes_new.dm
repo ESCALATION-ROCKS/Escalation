@@ -39,11 +39,11 @@
 		var/datum/disease2/disease/virus = pick(target.virus2.len)
 		viruses[hash] = virus.getcopy()
 
-	//Dirtiness should be very low if you're the first injectee. If you're spam-injecting 4 people in a row around you though,
+	/*//Dirtiness should be very low if you're the first injectee. If you're spam-injecting 4 people in a row around you though,
 	//This gives the last one a 30% chance of infection.
 	if(prob(dirtiness+(targets.len-1)*10))
 		log_and_message_admins("[loc] infected [target]'s [eo.name] with \the [src].")
-		infect_limb(eo)
+		infect_limb(eo) */
 
 	//75% chance to spread a virus if we have one
 	if(LAZYLEN(viruses) && prob(75))

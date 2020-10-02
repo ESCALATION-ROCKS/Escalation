@@ -330,7 +330,7 @@
 	desc = "This one can hold some kind of flask."
 	max_storage_space = 2
 	w_class = 2
-	slot_flags = SLOT_NHOLSTER | SLOT_LPOUCH | SLOT_RPOUCH
+	slot_flags = null
 
 /obj/item/weapon/storage/belt/holster/flaskstorage/nato
 	special_item = /obj/item/weapon/reagent_containers/food/drinks/flask/wornflask/nato

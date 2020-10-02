@@ -16,7 +16,7 @@
 	possible_transfer_amounts = null
 	volume = 15
 	w_class = 2
-	slot_flags = SLOT_EARS
+	slot_flags = null
 	sharp = 1
 	unacidable = 1 //glass
 	var/mode = SYRINGE_DRAW
