@@ -1061,7 +1061,7 @@
 
 /datum/job/escalation/baf/bafat
 	title = "BAF AT Gunner"
-	name = "AT Section Gunner"
+	name = "AT Gunner"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1139,7 +1139,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
-		
+
 /////////////USA///////
 /datum/job/escalation/usa
 	title = "United States Army"

@@ -78,12 +78,12 @@
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
-	
+
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,         dispersion=list(0.0, 0.15, 0.30),                         automatic = 0),
 		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=2, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.5),                     automatic = 0.5),
 		)
-	
+
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74/update_icon()
 	..()
 
@@ -269,7 +269,7 @@
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/m16a2 
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 	name = "M16A2"
 	desc = "A standard-issue USMC combat rifle. Chambers 5.56x39 rounds."
 	icon_state = "m16a2"
@@ -1208,9 +1208,9 @@
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=1, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0),
-		list(mode_name="semiauto - quickfire",    burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.8, 1.1, 1.3),         automatic = 0)
+		list(mode_name="semiauto - quickfire",    burst=1, fire_delay=1,  move_delay=1,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.8, 1.1, 1.3),         automatic = 0)
 		)
-	
+
 /obj/item/weapon/gun/projectile/automatic/rifle/l1a1/update_icon()
 	..()
 	update_held_icon()

@@ -180,6 +180,7 @@ baf_enlisted
 
 bardinatavern = {
 baf_enlisted
+baf_nco
 }
 
 Cabostein = {
@@ -519,4 +520,23 @@ finn_enlisted
 
 lynuahsororitas = {
 baf_enlisted
+}
+
+jackomago61 = {
+baf_enlisted
+}
+
+minimionblack = {
+baf_enlisted
+finn_enlisted
+}
+
+
+
+tumesuo = {
+finn_enlisted
+}
+
+leothekiller = {
+finn_enlisted
 }
