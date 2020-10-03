@@ -178,19 +178,19 @@
 	taste_description = "sickness"
 	reagent_state = LIQUID
 	color = "#c8a5dc"
-	overdose = 60
+	overdose = 21
 	reagent_state = LIQUID
 	scannable = 1
-	metabolism = 0.02
+	metabolism = 0.05
 	flags = IGNORE_MOB_SIZE
 
 /datum/reagent/paracetamol/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	M.add_chemical_effect(CE_PAINKILLER, 25)
+	M.add_chemical_effect(CE_PAINKILLER, 10)
 
 /datum/reagent/paracetamol/overdose(var/mob/living/carbon/M, var/alien)
 	..()
 	M.druggy = max(M.druggy, 2)
-	M.add_chemical_effect(CE_PAINKILLER, 10)
+	M.make_dizzy(10)
 
 /datum/reagent/tramadol
 	name = "Tramadol"

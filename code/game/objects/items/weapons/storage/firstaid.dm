@@ -306,14 +306,9 @@
 		)
 
 	can_hold = list(
-		/obj/item/weapon/gauze_pack/,
-		/obj/item/stack/medical/bruise_pack,
-		/obj/item/weapon/storage/pill_bottle,
-		/obj/item/weapon/reagent_containers/pill,
-		/obj/item/weapon/storage/box/pill_box,
-		/obj/item/weapon/pill_pack,
-		/obj/item/weapon/reagent_containers/syrette,
-		/obj/item/stack/medical/tourniquet/nato
+		/obj/item/weapon/reagent_containers/syrette/morphine,
+		/obj/item/stack/medical/tourniquet/nato,
+		/obj/item/weapon/gauze_pack/gauze
 		)
 
 /obj/item/weapon/storage/firstaid/sa_ifak
@@ -331,12 +326,7 @@
 		)
 
 	can_hold = list(
-		/obj/item/weapon/gauze_pack/,
-		/obj/item/stack/medical/bruise_pack,
-		/obj/item/weapon/storage/pill_bottle,
-		/obj/item/weapon/reagent_containers/pill,
-		/obj/item/weapon/storage/box/pill_box,
-		/obj/item/weapon/pill_pack,
-		/obj/item/weapon/reagent_containers/syrette,
-		/obj/item/stack/medical/tourniquet
+		/obj/item/weapon/reagent_containers/syrette/morphine,
+		/obj/item/stack/medical/tourniquet,
+		/obj/item/weapon/gauze_pack/ipp
 		)
