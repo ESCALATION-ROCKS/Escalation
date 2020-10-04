@@ -228,6 +228,7 @@
 	desc = "A cheap harness used by Warsaw Pact military forces."
 	icon_state = "sa_harness"
 	item_state = "sa_harness"
+	show_above_suit = 1
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
@@ -244,6 +245,7 @@
 	desc = "A belt used by Soviet officers. An USSR Star is engraved on the buckle."
 	icon_state = "sa_officerharness"
 	item_state = "sa_officerharness"
+	show_above_suit = 1
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
@@ -272,6 +274,7 @@
 	desc = "A simple belt used by Finnish officers."
 	icon_state = "sa_officerharness"
 	item_state = "sm_harness_officer"
+	show_above_suit = 1
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
@@ -331,6 +334,7 @@
 	desc = "A cheap harness used by the Nationale Volksarmee."
 	icon_state = "nvaddr_harness"
 	item_state = "nvaddr_harness"
+	show_above_suit = 1
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
@@ -347,6 +351,7 @@
 	desc = "A belt used by NVA officers. A DDR Emblem is engraved on the buckle."
 	icon_state = "nvaddr_officerharness"
 	item_state = "nvaddr_officerharness"
+	show_above_suit = 1
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
 
@@ -376,6 +381,7 @@
 	desc = "An ALICE belt used by the US Military, without its harness."
 	icon_state = "usmc_belt"
 	item_state = "usmc_belt"
+	show_above_suit = 1
 	storage_slots = 1
 	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
 
