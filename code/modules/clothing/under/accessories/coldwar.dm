@@ -380,6 +380,23 @@
 	max_w_class = ITEM_SIZE_NORMAL
 	armor_slowdown = 0.0
 
+/obj/item/clothing/accessory/storage/lifchikblack
+	name = "webbing"
+	desc = "A black webbing vest used by the Suomen Maavoimat."
+	icon_state = "lifchikblack_1"
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/lifchikblack/alt
+	icon_state = "lifchikblack_2"
+	slots = 2
+	max_w_class = ITEM_SIZE_NORMAL
+	armor_slowdown = 0.0
+
 /*coats, these need up-down item states implemented*/
 
 /obj/item/clothing/accessory/storage/palatka
