@@ -308,7 +308,8 @@
 	can_hold = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet/nato,
-		/obj/item/weapon/gauze_pack
+		/obj/item/weapon/gauze_pack,
+		/obj/item/stack/medical/bruise_pack
 		)
 
 /obj/item/weapon/storage/firstaid/sa_ifak
@@ -328,5 +329,6 @@
 	can_hold = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet,
-		/obj/item/weapon/gauze_pack
+		/obj/item/weapon/gauze_pack,
+		/obj/item/stack/medical/bruise_pack
 		)
