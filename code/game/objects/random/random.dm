@@ -1239,6 +1239,13 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/summer/log1 = 1,
 					/obj/structure/flora/summer/log2 = 1)
 
+/obj/random/nofoliage
+	name = "No foliage"
+	desc = "nothing to see there"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "notree"
+	spawn_nothing_percentage = 100
+
 /obj/random/grass
 	name = "random bush (low chance)"
 	desc = "This is a random tree"
