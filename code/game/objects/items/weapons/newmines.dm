@@ -193,7 +193,7 @@
 	w_class = 3.0
 	power1 = 1
 	power2 = 2
-	power3 = 3
+	power3 = 2
 	delaytime = 0
 
 /obj/item/weapon/mine/pmn/armed

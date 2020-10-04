@@ -166,7 +166,7 @@
 	icon_state = "hev_s"
 	item_state = "armor"
 	w_class = ITEM_SIZE_LARGE
-	armor = list(melee = 90, bullet = 85, laser = 35, energy = 75, bomb = 65, bio = 100, rad = 100)
+	armor = list(melee = 99, bullet = 99, laser = 99, energy = 99, bomb = 99, bio = 100, rad = 100)
 	slowdown_general = 0.2
 
 /obj/item/clothing/suit/armor/vest/hev/woodland
