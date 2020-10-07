@@ -1248,7 +1248,7 @@
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=4.8,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=3, burst_accuracy=null,              dispersion=list(0.3, 0.5, 0.7),                     automatic = 0.7),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=3, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.4),                     automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/sterling/update_icon()

@@ -420,6 +420,7 @@
 	storage_slots = 10
 	max_w_class = ITEM_SIZE_SMALL
 	w_class = ITEM_SIZE_GARGANTUAN
+	can_hold = null
 	key_type = /obj/item/ammo_magazine/box
 	icon_state = "ammocan"
 
