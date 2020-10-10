@@ -98,12 +98,22 @@
 	overdose = REAGENTS_OVERDOSE * 0.5
 	scannable = 0
 	flags = IGNORE_MOB_SIZE
+	ingest_met = -1
 
 /datum/reagent/salbutamol/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien == IS_VOX)
 		M.adjustToxLoss(removed * 9)
 	else if(alien != IS_DIONA)
 		M.adjustOxyLoss(-25 * removed)
+
+/datum/reagent/salbutamol/overdose(var/mob/living/carbon/M, var/alien)
+	..()
+	M.hallucination(60, 20)
+	M.make_dizzy(5)
+	M.make_jittery(5)
+	M.drowsyness += 2
+	M.emote(pick("twitch", "drool", "moan", "gasp"))
+	M.adjustToxLoss(4)
 
 /datum/reagent/promethazine
 	name = "Promethazine"
@@ -113,6 +123,7 @@
 	metabolism = 0.12
 	data = 0
 	overdose = 16
+
 
 /datum/reagent/promethazine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(M.chem_doses[type] < 3)

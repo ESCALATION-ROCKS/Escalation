@@ -895,9 +895,16 @@
 	metabolism = REM * 0.05
 	scannable = 1
 	flags = IGNORE_MOB_SIZE
+	ingest_met = -1
 
 /datum/reagent/aminocaproic/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien != IS_DIONA)
 		M.add_chemical_effect(CE_HEMOSTATIC, 4)
 		M.heal_organ_damage(1 * removed, 0)
 
+/datum/reagent/aminocaproic/overdose(var/mob/living/carbon/M, var/alien)
+	..()
+	M.make_dizzy(10)
+	M.make_jittery(10)
+	if(M.losebreath < 2)
+		M.losebreath++
