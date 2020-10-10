@@ -74,12 +74,11 @@
 	uniform = /obj/item/clothing/under/soviet/habe/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	suit = /obj/item/clothing/suit/armor/vest/coat/sa
 	head = /obj/item/clothing/head/ushanka/soviet
-	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
