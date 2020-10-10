@@ -113,7 +113,7 @@ obj/item/cassetka_console/attack_hand(mob/user) //later do file size check %_%
 			to_chat(user, "Tape completed.")
 
 
-
+/*
 /obj/item/device/cassete/keineheimat
 	name = "cassette - 'Ideal - Keine Heimat'"
 	sound_inside = 'sound/music/keineheimat.ogg'
@@ -154,3 +154,4 @@ obj/item/cassetka_console/attack_hand(mob/user) //later do file size check %_%
 	name = "cassette - 'Hall and Oates - Out Of Touch'"
 	sound_inside = 'sound/music/outoftouch.ogg'
 
+*/
