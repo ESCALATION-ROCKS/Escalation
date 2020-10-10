@@ -50,265 +50,17 @@ brosephstylin = {
 ::ALL::
 }
 
-#
-
-CeSium_Shark = {
-baf_officer
-baf_nco
-baf_enlisted
-}
-
-Dantzy = {
-baf_officer
-baf_nco
-baf_enlisted
-}
-
-Gy1ta23 = {
-baf_enlisted
-}
-
-Bekons = {
-baf_nco
-baf_enlisted
-}
-
-PepeFrog = {
-baf_enlisted
-}
-
-SilverSZ = {
-baf_enlisted
-}
-
-KillingSpree13 = {
-baf_enlisted
-}
-
-SeverePwnage = {
-baf_enlisted
-}
-
-Dusanking123 = {
-baf_enlisted
-baf_nco
-}
-
-NazbolGang = {
-baf_enlisted
-baf_nco
-}
-
-FireNightPower = {
-baf_enlisted
-}
-
-TheElderHobo = {
-baf_enlisted
-}
-
-MrGabol100 = {
-baf_nco
-baf_enlisted
-}
-
-Subdon = {
-baf_enlisted
-baf_nco
-}
-
-SilencedMP5A5 = {
-baf_enlisted
-}
-
-Bongosz = {
-baf_enlisted
-}
-
-Carnator = {
-baf_enlisted
-}
-
-WrongKeyo360 = {
-baf_enlisted
-}
-
-derpymcderpderp = {
-baf_enlisted
-}
-
-SylvinSeik = {
-baf_enlisted
-}
-
-Bonomedia = {
-baf_enlisted
-}
-
-Taumanta = {
-baf_nco
-baf_enlisted
-}
-
-ExecutorPartner = {
-baf_enlisted
-}
-
-AsbestosMan = {
-baf_enlisted
-}
-
-Lautaroluna180 = {
-baf_enlisted
-}
-
-dreadweaver = {
-baf_enlisted
-}
-
-Vulcenus = {
-baf_enlisted
-}
-
-Yacobpo157 = {
-baf_enlisted
-}
-
-Xlyana = {
-baf_enlisted
-}
-
-bardinatavern = {
-baf_enlisted
-baf_nco
-}
-
-Cabostein = {
-baf_officer
-baf_nco
-baf_enlisted
-}
-
-ToasterRoboto = {
-baf_enlisted
-}
-
-Yarnhut = {
-baf_enlisted
-}
-
-Auzoil = {
-baf_enlisted
-}
-
-SpicySalami = {
-baf_enlisted
-}
-
-Wildwehraboo = {
-baf_nco
-baf_enlisted
-}
-
-Hausman = {
-baf_enlisted
-}
-
-Master8688 = {
-baf_enlisted
-}
-
-Zach666 = {
-baf_enlisted
-}
-
-Ethan100000llahd = {
-baf_enlisted
-}
-
-optimisticdude = {
-baf_enlisted
-}
-
-Bobalobdob = {
-baf_enlisted
-}
-
-Eskjjlj = {
-baf_enlisted
-}
-
-Vulfen = {
-baf_enlisted
-}
-
-liveingamer = {
-baf_enlisted
-}
-
-BonelessJuice = {
-baf_enlisted
-}
-
-Thunderclap1265 = {
-baf_enlisted
-}
-
-Pahndoomack = {
-baf_enlisted
-}
-
-Dudo = {
-baf_enlisted
-}
-
-Tonklaa = {
-baf_enlisted
+Verarch = {
+::ALL::
 }
 
 EvenInDeathIStillServe = {
-baf_enlisted
+::ALL::
 }
 
-Demkova = {
-baf_enlisted
-}
-
-TacticalPractical = {
-baf_enlisted
-}
-
-LynuahSoroitas = {
-baf_enlisted
-}
-
-Raszer = {
-baf_enlisted
-}
-
-LordInquisitorPlasmaman = {
-baf_enlisted
-}
-
-Egorium = {
-baf_enlisted
-}
-
-Shopenarthur = {
-baf_enlisted
-}
-
-Arthut = {
-baf_enlisted
-}
+#
 
 QuickLoad = {
-finn_officer
-finn_nco
-finn_enlisted
-}
-
-Teknokot = {
 finn_officer
 finn_nco
 finn_enlisted
@@ -320,45 +72,15 @@ finn_nco
 finn_enlisted
 }
 
-Bob Cool = { 
-finn_enlisted
-finn_nco
-finn_officer
-}
-
 Murgel = {
 finn_enlisted
-::ALL::
 }
 
 FoxTail_99 = {
-::ALL::
-}
-
-dudeman100 = {
-finn_officer
-finn_nco
 finn_enlisted
 }
 
-Corbe = { 
-finn_enlisted
-}
-
-TeenGowen = { 
-finn_enlisted
-}
-
-Battieralarm3 = { 
-finn_enlisted
-}
-
-theflyingbananagaming = {
-finn_nco
-finn_enlisted
-}
-
-Tristan63 = {
+Savotta = { 
 finn_enlisted
 }
 
@@ -384,15 +106,11 @@ cesarjunior233 = {
 finn_enlisted
 }
 
-Rippie129 = {
-finn_enlisted
-}
-
 Miomio = {
 finn_enlisted
 }
 
-Savotta = {
+MacarioCR = {
 finn_enlisted
 }
 
@@ -406,7 +124,7 @@ epicdwarf = {
 finn_enlisted
 }
 
-carbous = {
+Bob Cool = {
 finn_enlisted
 }
 
@@ -418,7 +136,7 @@ turtlecactus = {
 finn_enlisted
 }
 
-I like D0nUts = {
+FireNightPower = {
 finn_enlisted
 }
 
@@ -426,11 +144,7 @@ Villeri = {
 finn_enlisted
 }
 
-Freiwillige = {
-finn_enlisted
-}
-
-Verarch = {
+Corbe = {
 finn_officer
 finn_nco
 finn_enlisted
@@ -444,16 +158,15 @@ Robotic Potato = {
 finn_enlisted
 }
 
-Kyrac = {
-finn_enlisted
-finn_nco
-}
-
 XXXretroxgears3 = {
 finn_enlisted
 }
 
-Endaru = {
+Minimionblack = {
+finn_enlisted
+}
+
+tumesuo = {
 finn_enlisted
 }
 
@@ -469,74 +182,250 @@ SolarTwin = {
 finn_enlisted
 }
 
-Higher_Life = {
-finn_enlisted
-}
-
-Chaznoodles = {
-finn_enlisted
-}
-
-
-
-BobCool = {
-finn_enlisted
-finns_enlisted
-finns_enlsited
-::ALL::
-}
-
-
-
-
-
-
-
-
-MacarioCR = {
-finn_enlisted
-}
-
-
-
-Yanniert = {
-finn_enlisted
-}
-
-
 thewatchfullai = {
-::ALL::
-}
-
-vlad3 = {
 finn_enlisted
 }
-
 
 Mirtjoijvdsoij = {
 finn_enlisted
 }
 
-
-lynuahsororitas = {
-baf_enlisted
+LeoTheKiller = {
+finn_enlisted
 }
 
-jackomago61 = {
-baf_enlisted
+Yayyay007 = {
+finn_enlisted
 }
 
-minimionblack = {
-baf_enlisted
+TheCakeCakeCake = {
+finn_enlisted
+}
+
+Dimosek = { 
+finn_enlisted
+}
+
+SSSoap = { 
+finn_enlisted
+}
+
+Vlad3 = {
+finn_enlisted
+}
+
+Timtwoshoes = {
+finn_enlisted
+}
+
+Drevenshekel = {
 finn_enlisted
 }
 
 
-
-tumesuo = {
-finn_enlisted
+CeSium_Shark = {
+bdw_officer
+bdw_nco
+bdw_enlisted
 }
 
-leothekiller = {
-finn_enlisted
+Dantzy = {
+bdw_officer
+bdw_nco
+bdw_enlisted
+}
+
+Gy1ta23 = {
+bdw_enlisted
+}
+
+Bekons = {
+bdw_nco
+bdw_enlisted
+}
+
+PepeFrog = {
+bdw_enlisted
+}
+
+KillingSpree13 = {
+bdw_enlisted
+}
+
+Dusanking123 = {
+bdw_enlisted
+}
+
+NazbolGang = {
+bdw_nco
+bdw_enlisted
+}
+
+Jackomago61 = {
+bdw_enlisted
+}
+
+TheElderHobo = {
+bdw_enlisted
+}
+
+LynuahSororitas = {
+bdw_nco
+bdw_enlisted
+}
+
+Subdon = {
+bdw_enlisted
+}
+
+Bongosz = {
+bdw_enlisted
+}
+
+Carnator = {
+bdw_enlisted
+}
+
+WrongKeyo360 = {
+bdw_enlisted
+}
+
+LordInquisitorPlasmaman = {
+bdw_enlisted
+}
+
+
+IlikeD0nUts = {
+bdw_enlisted
+}
+
+Bonomedia = {
+bdw_enlisted
+}
+
+Taumanta = {
+bdw_nco
+bdw_enlisted
+}
+
+ExecutorPartner = {
+bdw_enlisted
+}
+
+AsbestosMan = {
+bdw_enlisted
+}
+
+Lautaroluna180 = {
+bdw_enlisted
+}
+
+Turret_Drehturm = {
+bdw_enlisted
+}
+
+Vulcenus = {
+bdw_enlisted
+}
+
+Yacobpo157 = {
+bdw_enlisted
+}
+
+bardinatavern = {
+bdw_enlisted
+}
+
+Yarnhut = {
+bdw_enlisted
+}
+
+Auzoil = {
+bdw_enlisted
+}
+
+SpicySalami = {
+bdw_enlisted
+}
+
+Wildwehraboo = {
+bdw_nco
+bdw_enlisted
+}
+
+TeenGowen = {
+bdw_enlisted
+}
+
+Master8688 = {
+bdw_enlisted
+}
+
+Zach666 = {
+bdw_enlisted
+}
+
+Ethan100000llahd = {
+bdw_enlisted
+}
+
+optimisticdude = {
+bdw_enlisted
+}
+
+Bobalobdob = {
+bdw_enlisted
+}
+
+Vulfen = {
+bdw_enlisted
+}
+
+liveingamer = {
+bdw_enlisted
+}
+
+BonelessJuice = {
+bdw_enlisted
+}
+
+Pahndoomack = {
+bdw_enlisted
+}
+
+Dudo = {
+bdw_enlisted
+}
+
+Tonklaa = {
+bdw_enlisted
+}
+
+Demkova = {
+bdw_enlisted
+}
+
+TacticalPractical = {
+bdw_enlisted
+}
+
+LynuahSoroitas = {
+bdw_nco
+bdw_enlisted
+}
+
+Raszer = {
+bdw_enlisted
+}
+
+Shopenarthur = {
+bdw_enlisted
+}
+
+Arthut = {
+bdw_enlisted
+}
+
+Flynnzbichek = {
+bdw_enlisted
 }
