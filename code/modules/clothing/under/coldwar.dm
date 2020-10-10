@@ -237,7 +237,7 @@
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
 
 /obj/item/clothing/under/finn/talvimetsa
-	name = "'Talvi Metsä' pattern uniform"
+	name = "'Talvi Metsa' pattern uniform"
 	desc = "That's the camouflaged field uniform, commonly used by regular Finnish Infantry."
 	icon_state = "finn"
 	worn_state = "finn"

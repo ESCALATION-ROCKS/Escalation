@@ -106,7 +106,7 @@
 //////finnish/////////
 ////////////////////
 /obj/item/weapon/grenade/frag/sirpalem43
-	name = "Sirpalekäsikranaatti M43"
+	name = "Sirpalekasikranaatti M43"
 	desc = "A fragmentation grenade used by the Finnish Army."
 	icon_state = "sirpalem43"
 	throw_speed = 2
@@ -116,7 +116,7 @@
 	explosion_size = 2
 
 /obj/item/weapon/grenade/frag/sirpalem41
-	name = "Sirpalekäsikranaatti M41"
+	name = "Sirpalekasikranaatti M41"
 	desc = "An outdated fragmentation grenade used by the Finnish Army."
 	icon_state = "sirpalem41"
 	throw_speed = 3
@@ -132,6 +132,7 @@
 /obj/item/weapon/grenade/frag/satchelnato
 	name = "C4 explosive satchel"
 	desc = "A pack of high explosives, used by NATO armies."
+	w_class = ITEM_SIZE_LARGE
 	icon_state = "satchelnato"
 	throw_speed = 1
 	throw_range = 2
@@ -144,9 +145,15 @@
 	if(explosion_size)
 		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
 
+/obj/item/weapon/grenade/frag/satchelnato/New()
+	..()
+	slowdown_per_slot[slot_l_hand] = 1.5
+	slowdown_per_slot[slot_r_hand] = 1.5
+
 /obj/item/weapon/grenade/frag/satchelwp
 	name = "explosive satchel"
 	desc = "A pack of high explosives, used by WP armies."
+	w_class = ITEM_SIZE_LARGE
 	icon_state = "satchelwp"
 	throw_speed = 1
 	throw_range = 2
@@ -158,6 +165,11 @@
 /obj/item/weapon/grenade/frag/satchelwp/on_explosion(var/turf/O)
 	if(explosion_size)
 		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
+
+/obj/item/weapon/grenade/frag/satchelwp/New()
+	..()
+	slowdown_per_slot[slot_l_hand] = 1.5
+	slowdown_per_slot[slot_r_hand] = 1.5
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////GP's vogs for soviet and muricans//////////////////////////////////////////
