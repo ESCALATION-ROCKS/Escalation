@@ -176,7 +176,7 @@
 	item_state = "finn_buttpack"
 	reachable = 1
 	open_delay = 10
-	max_storage_space = 12
+	max_storage_space = 6
 	slot_flags = SLOT_BACK
 
 /obj/item/weapon/storage/backpack/finn/finn_backpack
