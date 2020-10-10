@@ -13,81 +13,27 @@
 Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/sasl
 /datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
-@END@
-
-Otdelenie 'Boris':cccp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
 /datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-@END@
-
-Otdelenie 'Vasiliy':cccp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 @END@
 
 # NATO
 
-Squad Alpha:usmc
+Squad Delta:usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
 /datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
-@END@
-
-Squad Bravo:usmc
-/datum/job/escalation/usmc/usmcsl
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
-@END@
-
-Squad Charlie:usmc
-/datum/job/escalation/usmc/usmcsl
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
-@END@
-
-ATS-1:usmc
-/datum/job/escalation/usmc/usmcatcom
-/datum/job/escalation/usmc/usmcat
-/datum/job/escalation/usmc/usmcata
 @END@
 
 Gruppe Foxtrot:bund
