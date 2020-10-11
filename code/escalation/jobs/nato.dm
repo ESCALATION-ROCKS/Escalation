@@ -41,7 +41,7 @@
 	selection_color = "#B0C4DE"
 	amount = 1
 	rank_number = 1
-	enabled = 1
+	enabled = 0
 	position = "team"
 	whitelist_rank = "usmc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 60)
@@ -60,7 +60,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/ratelo
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	rank_number = 2
 	position = "team"
 	whitelist_rank = "usmc_enlisted"
@@ -100,7 +100,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/corpsman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 1
+	enabled = 0
 	amount = 3
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
@@ -119,7 +119,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/doctor
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	position = "team"
 	whitelist_rank = "usmc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
