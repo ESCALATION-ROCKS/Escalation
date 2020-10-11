@@ -1185,6 +1185,7 @@
 	back_2 = /obj/item/weapon/storage/backpack/finn/finn_buttpack
 	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	back = /obj/item/weapon/radioset/r105d
 	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
@@ -1194,7 +1195,7 @@
 	uniform = /obj/item/clothing/under/finn/talvimetsa/lcpl
 	suit = /obj/item/clothing/suit/armor/vest/coat/finn
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
-	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
+	holster = /obj/item/weapon/storage/belt/holster/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/kk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
