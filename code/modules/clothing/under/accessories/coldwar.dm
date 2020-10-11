@@ -302,7 +302,7 @@
 /obj/item/clothing/accessory/insignia/finn/lcpl
 	name = "Korpraali insignia"
 	icon_state = "usmc_lcpl_insignia"
-	rank = "Korpralli"
+	rank = "Korpraali"
 
 /obj/item/clothing/accessory/insignia/finn/cpl
 	name = "Alikersantti insignia"

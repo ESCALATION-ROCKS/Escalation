@@ -319,6 +319,7 @@
 	item_state = "fin_rpg"
 	reachable = 1
 	storage_slots = 3
+	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/finn)
 	startswith = list(
@@ -334,6 +335,7 @@
 	item_state = "baflargepack"
 	reachable = 1
 	storage_slots = 3
+	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/recoilless)
 	startswith = list(

@@ -1701,7 +1701,7 @@ var/list/rank_prefix = list(\
 	"Ylikersantti" = "Ylikersantti",\
 	"Kersantti" = "Kersantti",\
 	"Alikersantti" = "Alikersantti",\
-	"Korpraali " = "Korpralli",\
+	"Korpraali" = "Korpraali",\
 	"Jakaari" = "Jakaari",\
 	
 
