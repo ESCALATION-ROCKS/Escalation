@@ -1,4 +1,4 @@
-// DM Environment file for baystation12.dme.
+	// DM Environment file for baystation12.dme.
 // All manual changes should be made outside the BEGIN_ and END_ blocks.
  // New source code should be placed in .dm files: choose File/New --> Code File.
 // BEGIN_INTERNALS
@@ -2589,11 +2589,11 @@
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
 #include "maps\_map_include.dm"
-#include "maps\finn_border\escnew.dm"
-#include "maps\finn_border\escnew_areas.dm"
-#include "maps\finn_border\escnew_define.dm"
-#include "maps\finn_border\escnew_outfits.dm"
-#include "maps\finn_border\border.dmm"
+#include "maps\finn_forest\escnew.dm"
+#include "maps\finn_forest\escnew_areas.dm"
+#include "maps\finn_forest\escnew_define.dm"
+#include "maps\finn_forest\escnew_outfits.dm"
+#include "maps\finn_forest\finn_forest.dmm"
 #include "maps\redline\redline_areas.dm"
 #include "maps\~mapsystem\map_preferences.dm"
 #include "maps\~mapsystem\map_ranks.dm"
