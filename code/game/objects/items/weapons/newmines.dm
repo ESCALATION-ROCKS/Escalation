@@ -272,10 +272,6 @@
 	power3 = 2
 	delaytime = 0
 
-	New()
-		dir = pick(1,2,4,8)
-		update_icon()
-
 /obj/item/weapon/mine/claymore/armed
 	active = 1
 	anchored = 1
