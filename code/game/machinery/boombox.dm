@@ -80,10 +80,10 @@
 	StopPlaying()
 	if(isnull(casseta))
 		return
-	if(casseta.sound_inside)
+	if(!casseta.sound_inside)
 		return
 
-	sound_token = sound_player.PlayLoopingSound(src, sound_id, casseta.sound_inside, volume = 50, range = 14, falloff = 3, prefer_mute = TRUE, ignore_vis = TRUE)
+	sound_token = sound_player.PlayLoopingSound(src, sound_id, casseta.sound_inside, volume = 40, range = 10, falloff = 3, prefer_mute = TRUE, ignore_vis = TRUE)
 	playing = 1
 
 /obj/item/device/cassette
@@ -123,6 +123,7 @@
 
 /*
 /obj/item/device/cassette/keineheimat
+	..()
 	name = "cassette - 'Ideal - Keine Heimat'"
 	sound_inside = 'sound/music/keineheimat.ogg'
 
