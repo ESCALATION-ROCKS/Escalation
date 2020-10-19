@@ -117,50 +117,34 @@
 /obj/item/device/cassette/tape1/New()
 	..()
 	name = "Tape No. 1"
-	a_side = pick('sound/music/keineheimat.ogg','sound/music/derkommisar.ogg')
-	b_side = 'sound/music/luftballons.ogg'
+	a_side = 'sound/music/keineheimat.ogg'
+	b_side = 'sound/music/derkommisar.ogg'
 	sound_inside = a_side
 
-/*
-/obj/item/device/cassette/keineheimat
+/obj/item/device/cassette/tape2/New()
 	..()
-	name = "cassette - 'Ideal - Keine Heimat'"
-	sound_inside = 'sound/music/keineheimat.ogg'
+	name = "Tape No. 2"
+	a_side = 'sound/music/dasliedvomvaterland.ogg'
+	b_side = 'sound/music/sagmirwodustehst.ogg'
+	sound_inside = a_side
 
-/obj/item/device/cassette/derkommissar
-	name = "cassette - 'Falco - Der Kommisar'"
-	sound_inside = 'sound/music/derkommisar.ogg'
-
-/obj/item/device/cassette/luftballons/New()
+/obj/item/device/cassette/tape3/New()
 	..()
-	name = "cassette - 'Nena - 99 Luftballons'"
-	sound_inside = 'sound/music/luftballons.ogg'
+	name = "Tape No. 3"
+	a_side = 'sound/music/elektrichka.ogg'
+	b_side = 'sound/music/elektrichka.ogg'
+	sound_inside = a_side
 
-/obj/item/device/cassette/liedvonvaterland
-	name = "cassette - 'Lied von Vaterland'"
-	sound_inside = 'sound/music/dasliedvomvaterland.ogg'
+/obj/item/device/cassette/tape4/New()
+	..()
+	name = "Tape No. 4"
+	a_side = 'sound/music/hardtimes.ogg'
+	b_side = 'sound/music/outoftouch.ogg'
+	sound_inside = a_side
 
-/obj/item/device/cassette/sagmirwodustehst
-	name = "cassette - 'Sag mir, wo du stehst'"
-	sound_inside = 'sound/music/sagmirwodustehst.ogg'
-
-/obj/item/device/cassette/elektrichka
-	name = "cassette - 'Kino - Elektrichka'"
-	sound_inside = 'sound/music/elektrichka.ogg'
-
-/obj/item/device/cassette/hardtimes
-	name = "cassette - 'The Jetzons - Hard Times'"
-	sound_inside = 'sound/music/hardtimes.ogg'
-
-/obj/item/device/cassette/youvegotanotherthingcoming
-	name = "cassette - 'Judas Priest - You've Got Another Thing Coming'"
-	sound_inside = 'sound/music/youvegotanotherthingcoming.ogg'
-
-/obj/item/device/cassette/themanwhosoldtheworld
-	name = "cassette - 'Midge Ure - The Man Who Sold The World'"
-	sound_inside = 'sound/music/soldworld.ogg'
-
-/obj/item/device/cassette/outoftouch
-	name = "cassette - 'Hall and Oates - Out Of Touch'"
-	sound_inside = 'sound/music/outoftouch.ogg'
-*/
+/obj/item/device/cassette/tape5/New()
+	..()
+	name = "Tape No. 5"
+	a_side = 'sound/music/soldworld.ogg'
+	b_side = 'sound/music/youvegotanotherthingcoming.ogg'
+	sound_inside = a_side
