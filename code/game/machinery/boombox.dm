@@ -18,7 +18,7 @@
 
 
 /obj/item/device/boombox/attackby(obj/item/I, mob/user, params)
-	if(istype(I, /obj/item/device/cassete))
+	if(istype(I, /obj/item/device/cassette))
 		if(casseta)
 			to_chat(user, "<span class='warning'>There is already cassete inside.</span>")
 			return
@@ -26,7 +26,7 @@
 			return
 		I.forceMove(src)
 		casseta = I
-		visible_message("<span class='notice'>[user] insert cassete into [src].</span>")
+		visible_message("<span class='notice'>[user] inserts the cassete into [src].</span>")
 		playsound(get_turf(src), 'sound/items/boombox_casette.wav', 50, 1)
 		return
 	..()
@@ -52,7 +52,7 @@
 	if(usr.incapacitated())
 		return
 	if(!casseta)
-		to_chat(usr, "<span class='warning'>There is no cassete inside.</span>")
+		to_chat(usr, "<span class='warning'>There is no cassette inside.</span>")
 		return
 
 	if(playing)
@@ -77,80 +77,59 @@
 	QDEL_NULL(sound_token)
 
 /obj/item/device/boombox/proc/StartPlaying()
+	StopPlaying()
 	if(isnull(casseta))
 		return
 	if(!casseta.sound_inside)
 		return
 
-	QDEL_NULL(sound_token)
 	sound_token = sound_player.PlayLoopingSound(src, sound_id, casseta.sound_inside, volume = 50, range = 14, falloff = 3, prefer_mute = TRUE, ignore_vis = TRUE)
 	playing = 1
 
-/obj/item/device/cassete
-	name = "cassette"
+/obj/item/device/cassette
+	name = "cassette tape"
 	icon = 'icons/obj/boombox.dmi'
 	icon_state = "cassette"
 	var/sound/sound_inside
 	w_class = ITEM_SIZE_TINY
 
-
-/obj/item/cassetka_console
-	name = "Downloading Console"
-	icon = 'icons/obj/boombox.dmi'
-	icon_state = "console"
-
-// will write console cooldown later $_$ <==== my_ebalo
-
-obj/item/cassetka_console/attack_hand(mob/user) //later do file size check %_%
-	var/N = input("Music name") as text|null
-	if(N)
-		var/sound/S = input("Pick a song") as sound|null
-		if(S)
-			var/obj/item/device/cassete/casseta = new()
-			casseta.sound_inside = S
-			casseta.name = "[N]"
-			casseta.loc = src.loc
-			to_chat(user, "Tape completed.")
-
-
-/*
-/obj/item/device/cassete/keineheimat
+/obj/item/device/cassette/keineheimat
 	name = "cassette - 'Ideal - Keine Heimat'"
 	sound_inside = 'sound/music/keineheimat.ogg'
 
-/obj/item/device/cassete/derkommissar
+/obj/item/device/cassette/derkommissar
 	name = "cassette - 'Falco - Der Kommisar'"
 	sound_inside = 'sound/music/derkommisar.ogg'
 
-/obj/item/device/cassete/luftballons
+/obj/item/device/cassette/luftballons
 	name = "cassette - 'Nena - 99 Luftballons'"
 	sound_inside = 'sound/music/luftballons.ogg'
 
-/obj/item/device/cassete/liedvonvaterland
+/obj/item/device/cassette/liedvonvaterland
 	name = "cassette - 'Lied von Vaterland'"
 	sound_inside = 'sound/music/dasliedvomvaterland.ogg'
 
-/obj/item/device/cassete/sagmirwodustehst
+/obj/item/device/cassette/sagmirwodustehst
 	name = "cassette - 'Sag mir, wo du stehst'"
 	sound_inside = 'sound/music/sagmirwodustehst.ogg'
 
-/obj/item/device/cassete/elektrichka
+/obj/item/device/cassette/elektrichka
 	name = "cassette - 'Kino - Elektrichka'"
 	sound_inside = 'sound/music/elektrichka.ogg'
 
-/obj/item/device/cassete/hardtimes
+/obj/item/device/cassette/hardtimes
 	name = "cassette - 'The Jetzons - Hard Times'"
 	sound_inside = 'sound/music/hardtimes.ogg'
 
-/obj/item/device/cassete/youvegotanotherthingcoming
+/obj/item/device/cassette/youvegotanotherthingcoming
 	name = "cassette - 'Judas Priest - You've Got Another Thing Coming'"
 	sound_inside = 'sound/music/youvegotanotherthingcoming.ogg'
 
-/obj/item/device/cassete/themanwhosoldtheworld
+/obj/item/device/cassette/themanwhosoldtheworld
 	name = "cassette - 'Midge Ure - The Man Who Sold The World'"
 	sound_inside = 'sound/music/soldworld.ogg'
 
-/obj/item/device/cassete/outoftouch
+/obj/item/device/cassette/outoftouch
 	name = "cassette - 'Hall and Oates - Out Of Touch'"
 	sound_inside = 'sound/music/outoftouch.ogg'
 
