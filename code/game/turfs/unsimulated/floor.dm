@@ -27,6 +27,7 @@
 	icon_state = "roaddottedstripes"
 	blend_with_neighbors = 10
 	outdoors = 1
+	movement_delay = 1
 	permit_ao = FALSE
 	footstep_sounds = list("human" = list(
 		'sound/effects/footsteps/concrete1.wav',
