@@ -52,6 +52,7 @@ var/list/flooring_types
 	damage_temperature = T0C+80
 	flags = TURF_HAS_EDGES | TURF_REMOVE_SHOVEL
 	build_type = /obj/item/stack/tile/grass
+	movement_delay = 1
 
 /decl/flooring/asteroid
 	name = "coarse sand"
@@ -75,6 +76,7 @@ var/list/flooring_types
 		'sound/effects/footsteps/carpet3.wav',
 		'sound/effects/footsteps/carpet4.wav',
 		'sound/effects/footsteps/carpet5.wav'))
+	movement_delay = 1
 
 /decl/flooring/carpet/blue
 	name = "blue carpet"
@@ -121,6 +123,7 @@ var/list/flooring_types
 		'sound/effects/footsteps/tile2.wav',
 		'sound/effects/footsteps/tile3.wav',
 		'sound/effects/footsteps/tile4.wav'))
+	movement_delay = 1
 
 /decl/flooring/linoleum
 	name = "linoleum"
@@ -130,6 +133,7 @@ var/list/flooring_types
 	can_paint = 1
 	build_type = /obj/item/stack/tile/linoleum
 	flags = TURF_REMOVE_SCREWDRIVER
+    movement_delay = 1
 
 /decl/flooring/tiling/white
 	desc = "How sterile."
@@ -138,6 +142,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/floor_white
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/dark
 	desc = "How ominous."
@@ -145,6 +150,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/floor_dark
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/freezer
 	desc = "Don't slip."
@@ -152,7 +158,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/floor_freezer
 	has_damage_range = 4
-
+    movement_delay = 1
 
 /decl/flooring/tiling/bunker/
 	name = "floor"
@@ -162,6 +168,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/bunker
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/bunker/hydro
 	name = "floor"
@@ -170,6 +177,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/floor_hydro
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/bunker/showroom
 	name = "floor"
@@ -178,6 +186,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/floor_showroom
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/bunker/cafe
 	name = "floor"
@@ -186,6 +195,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/floor_cafe
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/bunker/yellow
 	name = "floor"
@@ -194,6 +204,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/yellow
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/bunker/black
 	name = "floor"
@@ -202,6 +213,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/black
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/bunker/red
 	name = "floor"
@@ -210,6 +222,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/red
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/bunker/polar
 	name = "floor"
@@ -217,6 +230,7 @@ var/list/flooring_types
 	icon_base = "polar"
 	build_type = /obj/item/stack/tile/polar
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/bar
 	name = "floor"
@@ -226,12 +240,14 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/bar
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/misc
 	icon = 'icons/turf/flooring/misc.dmi'
 	flags = TURF_REMOVE_CROWBAR
 	can_paint = 0
 	has_damage_range = 4
+	movement_delay = 1
 
 /decl/flooring/tiling/misc/sec
 	icon_base = "sec_chess"
@@ -265,6 +281,7 @@ var/list/flooring_types
 		'sound/effects/footsteps/wood3.wav',
 		'sound/effects/footsteps/wood4.wav',
 		'sound/effects/footsteps/wood5.wav'))
+    movement_delay = 1
 
 /decl/flooring/reinforced
 	name = "reinforced floor"
@@ -283,6 +300,7 @@ var/list/flooring_types
 		'sound/effects/footsteps/metalgrate2.wav',
 		'sound/effects/footsteps/metalgrate3.wav',
 		'sound/effects/footsteps/metalgrate4.wav'))
+    movement_delay = 1
 
 /decl/flooring/reinforced/circuit
 	name = "processing strata"
@@ -291,6 +309,7 @@ var/list/flooring_types
 	build_type = null
 	flags = TURF_ACID_IMMUNE | TURF_CAN_BREAK | TURF_REMOVE_WRENCH
 	can_paint = 1
+    movement_delay = 1
 
 /decl/flooring/reinforced/circuit/green
 	icon_base = "gcircuit"
@@ -309,6 +328,7 @@ var/list/flooring_types
 	has_damage_range = 6
 	flags = TURF_ACID_IMMUNE | TURF_CAN_BREAK | TURF_REMOVE_WRENCH
 	can_paint = null
+	movement_delay = 1
 
 /decl/flooring/reinforced/cult/on_remove()
 	cult.remove_cultiness(CULTINESS_PER_TURF)
@@ -319,6 +339,7 @@ var/list/flooring_types
 	build_type = null
 	flags = TURF_ACID_IMMUNE | TURF_CAN_BREAK | TURF_REMOVE_WRENCH
 	can_paint = 1
+	movement_delay = 1
 
 /decl/flooring/reinforced/shuttle/blue
 	icon_base = "floor"
@@ -347,6 +368,7 @@ var/list/flooring_types
 	icon = 'icons/turf/floors.dmi'
 	icon_base = "diona"
 	flags = TURF_ACID_IMMUNE | TURF_REMOVE_SHOVEL
+	movement_delay = 1
 
 /decl/flooring/reinforced/ramp
 	name = "foot ramp"
@@ -356,6 +378,7 @@ var/list/flooring_types
 	build_type = null
 	flags = TURF_ACID_IMMUNE | TURF_CAN_BREAK
 	can_paint = 1
+	movement_delay = 1
 
 /decl/flooring/reinforced/ramp/bottom
 	icon_base = "rampbot"
