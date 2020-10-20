@@ -110,6 +110,12 @@
 			S.update_icon()
 			S.working = 0
 
+	if (istype(C, /obj/item/weapon/carpentry/axe))
+		var/obj/structure/flora/tree/T = locate(/obj/structure/flora/tree, src)
+		if(T)
+			T.attackby(C, user)
+			return
+
 	if (istype(C, /obj/item/stack/rods))
 		var/obj/structure/lattice/L = locate(/obj/structure/lattice, src)
 		if(L)

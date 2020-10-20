@@ -30,7 +30,7 @@
 		C.ground--
 		digstage++
 		C.working = 0
-		to_chat(user, "You put some ground onto the [src].")
+		to_chat(user, "You put some ground onto [src].")
 		if(digstage <= 3)
 			to_chat(user, "<span class='warning'>You need [4 - digstage] more piles.</span>")
 		C.update_icon()
@@ -71,6 +71,19 @@
 	basic_chance = null
 	..()
 
+/obj/structure/brutswehr/examine(mob/user)
+	. = ..(user)
+	switch(health)
+		if(200 to INFINITY)
+			to_chat(user, "It's intact.")
+		if(150 to 200)
+			to_chat(user, "It's slightly damaged.")
+		if(100 to 150)
+			to_chat(user, "<span class='warning'>It's badly damaged.</span>")
+		if(50 to 100)
+			to_chat(user, "<span class='warning'>It's heavily damaged.</span>")
+		else
+			to_chat(user, "<span class='warning'>It's falling apart!</span>")
 
 /obj/structure/brutswehr/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if(istype(mover, /obj/item/projectile))
@@ -179,10 +192,10 @@
 			if(R.amount >= 3)
 				if(!do_after(user, 20, src))
 					return 0
-				user << "<span class='notice'>You put some wood onto the brustwehr to reinforce it.</span>"
 				desc = "A brustwehr covered with some wooden planks."
 				flags |= OBJ_CLIMBABLE
 				R.use(3)
+				health += 100
 				reinforced = 1
 				throwpass = 0
 				playsound(get_turf(loc), "rustle", 15, 1, -3)
@@ -190,7 +203,7 @@
 				density = 1
 				src.overlays += image('icons/obj/sandbags.dmi', "brustwehr_barricadeoverlay", layer=3.1)
 			else
-				user << "<span class='notice'>You do not have enough wood to reinforce the barricade.</span>"
+				to_chat(user, "<span class='notice'>You do not have enough wood to reinforce the brustwehr.</span>")
 
 	else if(istype(I, /obj/item/stack/material/r_wood))
 		if(!reinforced)
@@ -199,18 +212,18 @@
 			if(R.amount >= 3)
 				if(!do_after(user, 20, src))
 					return 0
-				user << "<span class='notice'>You put some wood onto the brustwehr to reinforce it.</span>"
 				desc = "A brustwehr covered with some wooden planks."
 				flags |= OBJ_CLIMBABLE
 				basic_chance += 20
 				R.use(3)
+				health += 150
 				playsound(get_turf(loc), "rustle", 15, 1, -3)
 				throwpass = 0
 				reinforced = 2
 				density = 1
 				src.overlays += image('icons/obj/sandbags.dmi', "brustwehr_barricadeoverlay", layer=3.1)
 			else
-				user << "<span class='notice'>You do not have enough wood to reinforce the barricade.</span>"
+				to_chat(user, "<span class='notice'>You do not have enough wood to reinforce the brustwehr.</span>")
 
 	else if(istype(I, /obj/item/weapon/sandbag))
 		if(!reinforced)
@@ -219,40 +232,57 @@
 			if(R.sand_amount >= 4)
 				if(!do_after(user, 20, src))
 					return 0
-				user << "<span class='notice'>You put some sandbags on the brustwehr to reinforce it.</span>"
 				desc = "A brustwehr covered with some sandbags."
 				flags |= OBJ_CLIMBABLE
 				basic_chance += 30
+				health += 200
 				qdel(R)
 				playsound(get_turf(loc), "rustle", 15, 1, -4)
 				reinforced = 3
 				density = 1
 				src.overlays += image('icons/obj/sandbags.dmi', "brustwehr_sandbagoverlay", layer=3.1)
 			else
-				user << "<span class='notice'>You do not have enough sandbags to reinforce the brustwehr.</span>"
+				to_chat(user, "<span class='notice'>The sandbag isn't full enough to reinforce the brustwehr.</span>")
 
-	else if(istype(I, /obj/item/weapon/crowbar))
+	else if(istype(I, /obj/item/weapon/shovel))
+		var/obj/item/weapon/shovel/S = I
+		if(S.ground)
+			to_chat(user, "<span class='notice'>The brustwehr is fully built.</span>")
+			return 0
 		if(reinforced)
-			user << "<span class='notice'>You begin to disassemble the reinforcement.</span>"
-			spawn(rand(15,30))
-				if(get_dist(user,src) < 2)
-					playsound(src, 'sound/items/Deconstruct.ogg', 50, 1)
-
-					user << "<span class='notice'>You disassemble the reinforcement.</span>"
-
-					src.overlays = null
-
-/*					if(reinforced == 1)
-						var/obj/item/stack/material/wood/S =  new /obj/item/stack/material/wood(get_turf(src))
-						S.amount = 3
-
-					else if(bridge == 2)
-						var/obj/item/stack/material/r_wood/S =  new /obj/item/stack/material/r_wood/(get_turf(src))
-						S.amount = 3
-*/
-					reinforced = 0
-					density = 1
-
+			to_chat(user, "<span class='notice'>You begin to disassemble the reinforcement.</span>")
+			if(!do_after(user, 20, src))
+				return 0
+			playsound(src, 'sound/items/Deconstruct.ogg', 50, 1)
+			desc = "A breast-high earthwork structure meant to provide cover."
+			src.overlays = null
+			basic_chance = 20
+			throwpass = 1
+			switch(reinforced)
+				if(1)
+					var/obj/item/stack/material/wood/R =  new /obj/item/stack/material/wood(get_turf(src))
+					R.amount = 3
+					health = max(100, health - 100)
+				if(2)
+					var/obj/item/stack/material/r_wood/R =  new /obj/item/stack/material/r_wood(get_turf(src))
+					R.amount = 3
+					health = max(100, health - 150)
+				if(3)
+					var/obj/item/weapon/sandbag/R =  new /obj/item/weapon/sandbag(get_turf(src))
+					R.sand_amount = 4
+					R.w_class++
+					R.update_icon()
+					health = max(100, health - 200)
+			reinforced = 0
+		else
+			to_chat(user, "<span class='notice'>You start to take down the brustwehr.</span>")
+			playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
+			if(!do_after(user, 20, src))
+				return 0
+			for(var/i=0, i<5, i++)
+				new /obj/item/weapon/ore/glass(src.loc)
+			src.update_nearby_icons()
+			qdel(src)
 
 /*
 /obj/item/weapon/ore/glass/attack_self(mob/user as mob)
