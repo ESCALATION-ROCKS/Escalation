@@ -80,6 +80,7 @@
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
 	fire_delay = 2.7
+	accuracy = 3
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x18
 	allowed_magazines = /obj/item/ammo_magazine/a9x18
@@ -109,6 +110,7 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x18b
 	allowed_magazines = /obj/item/ammo_magazine/a9x18b
+	accuracy = 3
 	fire_sound = 'sound/weapons/gunshot/makarov.ogg'
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
@@ -136,6 +138,7 @@
 	item_state = "gun"
 	w_class = 2
 	caliber = "9x18"
+	accuracy = 3
 	fire_delay = 3
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/cz9x18
@@ -154,6 +157,7 @@
 	w_class = ITEM_SIZE_NORMAL
 	caliber = ".45"
 	fire_delay = 3.7
+	accuracy = 3
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/c45m
 	allowed_magazines = /obj/item/ammo_magazine/c45m
@@ -179,6 +183,7 @@
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
 	fire_delay = 3.1
+	accuracy = 3
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19
@@ -204,6 +209,7 @@
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
 	fire_delay = 3.5
+	accuracy = 3
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19
@@ -228,6 +234,7 @@
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
+	accuracy = 3
 	fire_delay = 2.7
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x18
@@ -255,6 +262,7 @@
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
 	fire_delay = 3.2
+	accuracy = 3
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19b
 	allowed_magazines = /obj/item/ammo_magazine/a9x19b
