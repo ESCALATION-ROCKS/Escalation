@@ -1,4 +1,4 @@
-//Cold war stuff
+	//Cold war stuff
 
 //Rifle caliber
 
@@ -32,7 +32,7 @@
 	agony = 20
 
 	New()
-		damage = rand(39, 46)
+		damage = rand(37, 46)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x51/tr
@@ -51,7 +51,7 @@
 	agony = 20
 
 	New()
-		damage = rand(37, 48)
+		damage = rand(39, 48)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x54/tr
