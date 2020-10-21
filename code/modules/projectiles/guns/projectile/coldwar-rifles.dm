@@ -77,7 +77,7 @@
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,         dispersion=list(0.0, 0.15, 0.30),                         automatic = 0),
@@ -132,7 +132,7 @@
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,            dispersion=list(0.0, 0.15, 0.30),              automatic = 0),
@@ -172,7 +172,7 @@
 	unload_sound = 'sound/weapons/gunporn/aks74u_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/aks74u_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.ogg'
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=5,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
 		list(mode_name="automatic",     burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=3, burst_accuracy=null,              dispersion=list(0.3, 0.4, 0.7),                    automatic = 0.5),
@@ -207,7 +207,7 @@
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
 	jam_chance = 0.575
 	slowdown_general = 0.27
@@ -226,14 +226,14 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
 		launcher.load(I, user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
 		launcher.unload(user)
 	else
 		..()
@@ -243,7 +243,7 @@
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
-			playsound(src, 'sound/weapons/gunporn/m203_empty.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
 
@@ -267,7 +267,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 	name = "M16A2"
@@ -292,7 +292,7 @@
 	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
 	firemodes = list(
 		list(mode_name="semiauto",       burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.15, 0.20)),
 		list(mode_name="3-round bursts", burst=3, fire_delay=1.5,    move_delay=2,    one_hand_penalty=5, burst_accuracy=list(2,1,1),   dispersion=list(0.1, 0.3, 0.4)),
@@ -333,7 +333,7 @@
 	unload_sound = 'sound/weapons/gunporn/m14_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/m14_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m14_charge.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=8.7, move_delay=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
@@ -375,7 +375,7 @@
 	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.15, 0.20)),
@@ -414,7 +414,7 @@
 	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=5.6,  move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
@@ -452,7 +452,7 @@
 	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
 
 	var/use_launcher = FALSE
 	var/obj/item/weapon/gun/launcher/grenade/underslung/m203/launcher
@@ -469,14 +469,14 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//launcher.load check it for it's type and handles all another things so don't worry
 		launcher.load(I, user)
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
 		launcher.unload(user)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
 	else
 		..()
 
@@ -485,7 +485,7 @@
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //do we need it? :wha:
-			playsound(src, 'sound/weapons/gunporn/m203_empty.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
 
@@ -509,7 +509,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
@@ -533,10 +533,10 @@
 	slowdown_general = 0.27
 	wielded_item_state = "g3a3-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
-	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
-	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
+	unload_sound = 'sound/weapons/gunporn/g3_magout.ogg' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/g3_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=list(0.0, 0.10, 0.20, 0.30),           automatic = 0),
@@ -586,10 +586,10 @@
 
 	wielded_item_state = "g3tgs-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
-	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
-	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
+	unload_sound = 'sound/weapons/gunporn/g3_magout.ogg' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/g3_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=7,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,       dispersion=null,automatic = 0),
@@ -606,14 +606,14 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//launcher.load check it for it's type and handles all another things so don't worry
 		launcher.load(I, user)
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
 		launcher.unload(user)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
 	else
 		..()
 
@@ -622,7 +622,7 @@
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //do we need it? :wha:
-			playsound(src, 'sound/weapons/gunporn/m203_empty.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
 
@@ -646,7 +646,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58 //Don't Use
 	name = "Vz.58"
@@ -672,7 +672,7 @@
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
@@ -722,7 +722,7 @@
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
@@ -793,10 +793,10 @@
 
 	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
-	unload_sound = 'sound/weapons/gunporn/ak47_magout.wav'
-	reload_sound = 'sound/weapons/gunporn/ak47_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=5.1,    move_delay=null, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.1),                        automatic = 0),
@@ -833,10 +833,10 @@
 
 	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/akm.ogg'
-	unload_sound = 'sound/weapons/gunporn/ak47_magout.wav'
-	reload_sound = 'sound/weapons/gunporn/ak47_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=5.4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.1),                          automatic = 0),
@@ -873,10 +873,10 @@
 
 	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
-	unload_sound = 'sound/weapons/gunporn/ak47_magout.wav'
-	reload_sound = 'sound/weapons/gunporn/ak47_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=5,    move_delay=null, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.1),                           automatic = 0),
@@ -901,14 +901,14 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
 		launcher.load(I, user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
 		launcher.unload(user)
 	else
 		..()
@@ -918,7 +918,7 @@
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
-			playsound(src, 'sound/weapons/gunporn/m203_empty.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
 
@@ -932,7 +932,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	name = "MPi-AK-74N"
@@ -957,7 +957,7 @@
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,         dispersion=list(0.0, 0.15, 0.30),                         automatic = 0),
@@ -995,7 +995,7 @@
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
 	jam_chance = 0.285
 	slowdown_general = 0.27
@@ -1014,14 +1014,14 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
 		launcher.load(I, user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
 		launcher.unload(user)
 	else
 		..()
@@ -1031,7 +1031,7 @@
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
-			playsound(src, 'sound/weapons/gunporn/m203_empty.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
 
@@ -1055,7 +1055,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.wav', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	name = "MPi-AKS-74N"
@@ -1082,7 +1082,7 @@
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=3.4,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,            dispersion=list(0.0, 0.15, 0.30),              automatic = 0),
@@ -1124,7 +1124,7 @@
 	unload_sound = 'sound/weapons/gunporn/aks74u_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/aks74u_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=5,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
@@ -1165,7 +1165,7 @@
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=4, move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.1),                automatic = 0),
@@ -1201,10 +1201,10 @@
 	slowdown_general = 0.27
 	wielded_item_state = "l1a1-wielded"
 	fire_sound = 'sound/weapons/gunshot/fnfal.ogg'
-	unload_sound = 'sound/weapons/gunporn/fnfal_magout.wav' // NEED TO CHANGE SOUNDS
-	reload_sound = 'sound/weapons/gunporn/fnfal_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/fnfal_dist.wav'
+	unload_sound = 'sound/weapons/gunporn/fnfal_magout.ogg' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/fnfal_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/fnfal_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=1, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0),
@@ -1244,7 +1244,7 @@
 	unload_sound = 'sound/weapons/gunporn/sterling_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/sterling_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/sterling_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/sterling_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/sterling_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=4.8,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),

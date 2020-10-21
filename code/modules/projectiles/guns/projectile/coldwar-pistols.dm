@@ -15,7 +15,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/berettam9/update_icon()
 	..()
@@ -39,7 +39,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/gluger/update_icon()
 	..()
@@ -63,7 +63,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/locc/update_icon()
 	..()
@@ -88,7 +88,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	jam_chance = 0.9
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 
 /obj/item/weapon/gun/projectile/makarov/update_icon()
@@ -114,7 +114,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	jam_chance = 1.15
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=2.9,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
@@ -144,7 +144,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/colt911
 	name = "Colt M1911A1"
@@ -161,7 +161,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 	jam_chance = 0.55
 
 /obj/item/weapon/gun/projectile/colt911/update_icon()
@@ -187,7 +187,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	jam_chance = 1
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/walther/update_icon()
 	..()
@@ -212,7 +212,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	jam_chance = 0.75
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/lahti/update_icon()
 	..()
@@ -237,7 +237,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	jam_chance = 0.9
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 
 /obj/item/weapon/gun/projectile/waltherppk/update_icon()
@@ -263,7 +263,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	jam_chance = 0.65
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/hipower/update_icon()
 	..()

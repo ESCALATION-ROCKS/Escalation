@@ -1153,7 +1153,7 @@ obj/random/hostile/spawn_choices()
 	return list(/mob/living/simple_animal/hostile/viscerator,
 				/mob/living/simple_animal/hostile/carp)
 
-
+/*
 /obj/random/hostilenew
 	name = "Random Hostile Mob"
 	desc = "This is a random hostile mob."
@@ -1166,6 +1166,7 @@ obj/random/hostilenew/spawn_choices()
 				/mob/living/simple_animal/hostile/posthuman/android = 4,
 				/mob/living/simple_animal/hostile/posthuman/androidfast = 2,
 				/mob/living/simple_animal/hostile/posthuman/android_barebeh = 1)
+*/
 
 /obj/random/surgery_tool
 	name = "random surgery tool"

@@ -118,7 +118,7 @@
 			to_chat(user, "You send an activation signal to \the [src], turning it on")
 		else
 			to_chat(user, "You press the power button and start up \the [src]")
-		playsound(src.loc, 'sound/machines/pcstartup.wav', 50, 0)
+		playsound(src.loc, 'sound/machines/pcstartup.ogg', 50, 0)
 		sleep(20)
 		enable_computer(user)
 

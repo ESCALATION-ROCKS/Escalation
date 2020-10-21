@@ -665,7 +665,7 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 				user.client.pixel_y = 0
 
 		user.visible_message("\The [user] peers through the [zoomdevicename ? "[zoomdevicename] of [src]" : "[src]"].")
-		playsound(src.loc, 'sound/effects/ironsight_on.wav', 20, 1, -1)
+		playsound(src.loc, 'sound/effects/ironsight_on.ogg', 20, 1, -1)
 		user.set_face_dir()
 		user.m_intent = "walk"
 
@@ -680,7 +680,7 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 
 		if(!cannotzoom)
 			user.visible_message("[zoomdevicename ? "\The [user] looks up from [src]" : "\The [user] lowers [src]"].")
-			playsound(src.loc, 'sound/effects/ironsight_off.wav', 20, 1, -1)
+			playsound(src.loc, 'sound/effects/ironsight_off.ogg', 20, 1, -1)
 			user.set_face_dir()
 			user.m_intent = "run"
 

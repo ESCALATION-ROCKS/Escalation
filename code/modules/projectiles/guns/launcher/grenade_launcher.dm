@@ -225,16 +225,16 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 
 	user.drop_from_inventory(G, src)
 	chambered = G
-	playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
+	playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
 	update_icon()
 
 /obj/item/weapon/gun/launcher/grenade/hk69/unload(mob/user)
 	if(cover_opened)
-		playsound(src, 'sound/weapons/gunporn/m203_empty.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 
 	if(chambered)
 		user.put_in_hands(chambered)
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.wav', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
 		chambered = null
 		update_icon()
 	else
@@ -242,7 +242,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 
 /obj/item/weapon/gun/launcher/grenade/hk69/proc/toggle_cover(mob/user)
 	cover_opened = !cover_opened
-	playsound(src, 'sound/weapons/gunporn/m203_openbarrel.wav', 50, 1)
+	playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
 	update_icon()
 
 /obj/item/weapon/gun/launcher/grenade/hk69/attack_self(mob/user as mob)

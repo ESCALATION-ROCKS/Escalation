@@ -503,7 +503,7 @@
 	throw_range = 10
 	force = 5.0
 	flags =  CONDUCT
-	fire_sound = 'sound/weapons/gunshot/m72.wav'
+	fire_sound = 'sound/weapons/gunshot/m72.ogg'
 	release_force = 25
 	throw_distance = 40
 	var/max_rockets = 1

@@ -77,7 +77,7 @@
 		if(prob(fuckupchance) && fuckedup == 0)
 			src.overlays += "fuckedup"
 			armor = list(melee = 5, bullet = 5, laser = 5, energy = 10, bomb = 10, bio = 0, rad = 0)
-			playsound(loc, 'sound/effects/bhit_helmet-1.wav', 50, 1)
+			playsound(loc, 'sound/effects/bhit_helmet-1.ogg', 50, 1)
 			fuckedup = 1
 
 /obj/item/clothing/accessory/armorplate/steel/

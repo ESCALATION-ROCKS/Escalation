@@ -183,7 +183,7 @@
 	else
 		outputting = 0
 	if(outputting)
-		playsound(src, 'sound/machines/generator.wav', 50, 0)
+		playsound(src, 'sound/machines/generator.ogg', 50, 0)
 
 // called after all power processes are finished
 // restores charge level to smes if there was excess this ptick

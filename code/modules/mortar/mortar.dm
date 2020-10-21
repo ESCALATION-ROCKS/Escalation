@@ -34,7 +34,7 @@
 	var/choice = alert(user, "Would you like to set the mortar's target coordinates?","Mortar Dialing", "Target","Dial" , "Cancel")
 	if (choice == "Cancel")
 		return
-	if (choice == "Target")	
+	if (choice == "Target")
 		var/temp_targ_x = input("Set longitude of strike.") as num
 		if(xdial + deobfuscate_x(temp_targ_x) > world.maxx || xdial + deobfuscate_x(temp_targ_x) < 0)
 			to_chat(user, "<span class='warning'>(You cannot aim at this coordinate, it is outside of the area of operations.</span>")
@@ -63,7 +63,7 @@
 			var/offset_y_max = round(abs((yinput + ydial) - y)/offset_per_turfs)
 			xoffset = rand(-offset_x_max, offset_x_max)
 			yoffset = rand(-offset_y_max, offset_y_max)
-		else 
+		else
 			busy = 0
 	if (choice == "Dial")
 		var/temp_dial_x = input("Set longitude adjustement from -10 to 10.") as num
@@ -127,7 +127,7 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 			"<span class='notice'>You load \a [mortar_shell.name] into [src].</span>")
 			visible_message("\icon[src] <span class='danger'>The [name] fires!</span>")
 			user.drop_item(mortar_shell, src)
-			playsound(loc, 'sound/effects/mortar_fire.wav', 50, 1)
+			playsound(loc, 'sound/effects/mortar_fire.ogg', 50, 1)
 			busy = 0
 			firing = 1
 			flick(icon_state + "_fire", src)
@@ -136,7 +136,7 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 			for(var/mob/M in range(7))
 				shake_camera(M, 3, 1)
 			spawn(travel_time) //What goes up
-				playsound(T, 'sound/effects/mortar_falling.wav', 50, 1)
+				playsound(T, 'sound/effects/mortar_falling.ogg', 50, 1)
 				spawn(45) //Must go down //This should always be 45 ticks!
 					mortar_shell.detonate(T)
 					qdel(mortar_shell)
@@ -219,7 +219,7 @@ obj/item/mortar_shell/he
 	icon_state = "mortar_ammo_he"
 	spread_range = 0
 
-/obj/item/mortar_shell/he/detonate(var/turf/T)  
+/obj/item/mortar_shell/he/detonate(var/turf/T)
 	explosion(T, 2, 4, 6, 8)
 
 obj/item/mortar_shell/frag

@@ -334,7 +334,7 @@
 				var/end_T_descriptor = "<font color='#6b4400'>[start_T] \[[end_T.x],[end_T.y],[end_T.z]\] ([end_T.loc])</font>"
 				admin_attack_log(usr, M, "Threw the victim from [start_T_descriptor] to [end_T_descriptor].", "Was from [start_T_descriptor] to [end_T_descriptor].", "threw, from [start_T_descriptor] to [end_T_descriptor], ")
 
-	playsound(src, 'sound/effects/throw.wav', 50, TRUE)
+	playsound(src, 'sound/effects/throw.ogg', 50, TRUE)
 
 	var/throwtime_divider = 5
 	if (isitem(item))
