@@ -99,6 +99,7 @@
 	H.update_underwear()
 
 	return TRUE
+
 /*
 /obj/item/underwear/verb/RemoveSocks()
 	set name = "Remove Underwear"
@@ -106,7 +107,7 @@
 	set src in usr
 
 	RemoveUnderwear(usr, usr)
-
+*/
 /obj/item/underwear/socks
 	required_free_body_parts = FEET
 
@@ -118,4 +119,3 @@
 
 /obj/item/underwear/undershirt
 	required_free_body_parts = UPPER_TORSO
-*/
