@@ -90,7 +90,7 @@
 	name = "cassette tape"
 	desc = "A cassette tape."
 	icon = 'icons/obj/boombox.dmi'
-	icon_state = "cassette"
+	icon_state = "cassette_0"
 	var/sound/sound_inside
 	w_class = ITEM_SIZE_TINY
 	var/uploader_idiot
@@ -98,10 +98,8 @@
 	var/sound/a_side
 	var/sound/b_side
 
-/*
 /obj/item/device/cassette/New()
 	icon_state = "cassette_[rand(0,12)]"
-*/
 
 /obj/item/device/cassette/attack_self(mob/user)
 	. = ..()
