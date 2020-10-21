@@ -33,7 +33,7 @@
 	icon_state = "dirt"
 	blend_with_neighbors = 3
 	permit_ao = 0
-	movement_delay = 1
+	movement_delay = 1.5
 	outdoors = 1
 	footstep_sounds = list("human" = list(
 		'sound/effects/footsteps/dirt1.wav',
@@ -170,14 +170,14 @@
 	name = "sand"
 	icon_state = "sand"
 	blend_with_neighbors = 1
-	movement_delay = 0
+	movement_delay = 1
 
 /turf/unsimulated/ground/grass
 	name = "grass"
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "grass1"
 	blend_with_neighbors = 2
-	movement_delay = 1
+	movement_delay = 1.5
 
 
 /turf/unsimulated/ground/grass/New()
@@ -229,7 +229,7 @@
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "gravsnow"
 	blend_with_neighbors = 2
-	movement_delay = 1
+	movement_delay = 1.5
 	footstep_sounds = list("human" = list(
 		'sound/effects/footsteps/snow1.wav',
 		'sound/effects/footsteps/snow2.wav',

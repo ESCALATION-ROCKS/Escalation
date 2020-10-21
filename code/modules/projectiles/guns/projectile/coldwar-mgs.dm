@@ -81,7 +81,7 @@
 	item_state = "m60"
 	w_class = 5
 	force = 15
-	accuracy = 2.1
+	accuracy = 2.3
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 100
 	caliber = "762x51"
@@ -100,8 +100,8 @@
 	slowdown_general = 0.8
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=6,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,          dispersion=list(0.15),                        automatic = 0),
-		list(mode_name="automatic",     burst=1,  fire_delay=0.05, move_delay=3,       one_hand_penalty=10, burst_accuracy = null,  dispersion=list(0.2, 0.35, 0.6),                  automatic = 0.05)
+		list(mode_name="semiauto",     burst=1, fire_delay=6,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,          dispersion=list(0.1),                        automatic = 0),
+		list(mode_name="automatic",     burst=1,  fire_delay=0.05, move_delay=3,       one_hand_penalty=10, burst_accuracy = null,  dispersion=list(0.15, 0.25, 0.55),                  automatic = 0.2)
 	)
 
 	var/cover_opened = FALSE
@@ -179,7 +179,7 @@
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=6.4,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,         dispersion=list(0.1),                        automatic = 0),
+		list(mode_name="semiauto",     burst=1, fire_delay=6,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,         dispersion=list(0.1),                        automatic = 0),
 		list(mode_name="automatic",     burst=1, fire_delay=0.2, move_delay=3,       one_hand_penalty = 10, burst_accuracy=null, dispersion=list(0.15, 0.25, 0.55),                  automatic = 0.2)
 		)
 
@@ -337,8 +337,8 @@
 	fire_sound = 'sound/weapons/gunshot/pkm.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=7,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,              dispersion=list(0.18),                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.3, move_delay=3,       one_hand_penalty = 10, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.6),                  automatic = 0.3)
+		list(mode_name="semiauto",     burst=1, fire_delay=6,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,              dispersion=list(0.15),                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.3, move_delay=3,       one_hand_penalty = 10, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.55),                  automatic = 0.2)
 		)
 
 	var/cover_opened = FALSE
@@ -397,7 +397,7 @@
 	item_state = "l7a2"
 	w_class = 5
 	force = 15
-	accuracy = 2.2
+	accuracy = 2.3
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 200
 	caliber = "762x51"
@@ -418,8 +418,8 @@
 	fire_sound = 'sound/weapons/gunshot/pkm.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=6.2,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,              dispersion=list(0.14),                           automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.3, move_delay=3,       one_hand_penalty = 9, burst_accuracy=null,   dispersion=list(0.2, 0.3, 0.5),                  automatic = 0.3)
+		list(mode_name="semiauto",     burst=1, fire_delay=6,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,              dispersion=list(0.1),                           automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.3, move_delay=3,       one_hand_penalty = 9, burst_accuracy=null,   dispersion=list(0.15, 0.25, 0.55),                  automatic = 0.2)
 		)
 
 	var/cover_opened = FALSE
@@ -488,7 +488,7 @@
 	magazine_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	one_hand_penalty = 6
-	accuracy = 2.9
+	accuracy = 3.1
 	wielded_item_state = "rpk-wielded"
 	slowdown_general = 0.45
 	jam_chance = 0.3
@@ -501,8 +501,8 @@
 
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=5.2,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.15),                            automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.5, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.2, 0.3, 0.45),                 automatic = 0.5),
+		list(mode_name="semiauto",      burst=1, fire_delay=3.5,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.5, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.1, 0.2, 0.4),                 automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rpk74/update_icon()
@@ -531,7 +531,7 @@
 	magazine_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
-	accuracy = 2.6
+	accuracy = 2.9
 	wielded_item_state = "nvarpk-wielded"
 	slowdown_general = 0.45
 	jam_chance = 0.225
@@ -544,8 +544,8 @@
 
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=5.6,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.2),                            automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.7, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.5),              automatic = 0.7),
+		list(mode_name="semiauto",      burst=1, fire_delay=4,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.5),              automatic = 0.6),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/nvarpk/update_icon()
@@ -646,7 +646,7 @@
 	item_state = "kk62"
 	w_class = 5
 	force = 12.5
-	accuracy = 3.1
+	accuracy = 2.3
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 100
 	caliber = "762x39"
@@ -667,8 +667,8 @@
 	fire_sound = 'sound/weapons/gunshot/pkm.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.2,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,              dispersion=list(0.06),                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.2, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,   dispersion=list(0.1, 0.25, 0.35),                  automatic = 0.2)
+		list(mode_name="semiauto",     burst=1, fire_delay=5,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,              dispersion=list(0.1),                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.2, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,   dispersion=list(0.15, 0.25, 0.55),                  automatic = 0.2)
 		)
 
 	var/cover_opened = FALSE
