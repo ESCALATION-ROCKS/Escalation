@@ -3,10 +3,10 @@
 	underwear_type = /obj/item/underwear/undershirt
 
 /datum/category_item/underwear/undershirt/none
-	is_default = TRUE
 	name = "None"
 	always_last = TRUE
 	underwear_type = null
+	underwear_gender = MALE
 
 /datum/category_item/underwear/undershirt/shirt
 	name = "Shirt"
@@ -73,6 +73,7 @@
 	icon_state = "lover_s"
 */
 /datum/category_item/underwear/undershirt/shirt_marine
+	is_default = TRUE
 	name = "Shirt, Marines"
 	icon_state = "marine_s"
 /*

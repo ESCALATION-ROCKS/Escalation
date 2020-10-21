@@ -3,10 +3,12 @@
 	underwear_name = "underwear"
 	underwear_type = /obj/item/underwear/bottom
 
+/*
 /datum/category_item/underwear/bottom/none
 	name = "None"
 	always_last = TRUE
 	underwear_type = null
+*/
 
 /datum/category_item/underwear/bottom/briefs
 	name = "Briefs"
@@ -29,6 +31,7 @@
 	icon_state = "boxers_loveheart"
 
 /datum/category_item/underwear/bottom/boxers
+	is_default = TRUE
 	name = "Boxers"
 	underwear_name = "boxers"
 	icon_state = "boxers"
