@@ -260,8 +260,7 @@
 // Bandanas below
 /obj/item/clothing/mask/bandana
 	name = "black bandana"
-	desc = "A fine bandana with nanotech lining. Can be worn on the head or face."
-	flags_inv = HIDEFACE
+	desc = "A fine bandana made from fabric. Can be worn on the head or face."
 	slot_flags = SLOT_MASK|SLOT_HEAD
 	body_parts_covered = FACE
 	icon_state = "bandblack"

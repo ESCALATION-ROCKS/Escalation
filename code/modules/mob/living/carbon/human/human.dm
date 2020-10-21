@@ -1599,6 +1599,8 @@
 		return
 
 	else
+		if(zoom)
+			zoom()
 		Weaken(1)
 		resting = 1
 		rest.icon_state = "rest1"
@@ -1703,7 +1705,7 @@ var/list/rank_prefix = list(\
 	"Alikersantti" = "Alikersantti",\
 	"Korpraali" = "Korpraali",\
 	"Jakaari" = "Jakaari",\
-	
+
 
 //british army
 	"Lieutenant" = "Lieutenant",\
