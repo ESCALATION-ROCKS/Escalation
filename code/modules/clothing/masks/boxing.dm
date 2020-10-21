@@ -32,7 +32,7 @@
 	desc = "A tan piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_tan"
 	item_state = "scarf_tan"
-	flags_inv = HIDEFACE
+	flags_inv = null
 	body_parts_covered = FACE
 	down_body_parts_covered = null
 	down_icon_state = "scarf_tan_down"
@@ -52,6 +52,13 @@
 	icon_state = "scarf_green"
 	item_state = "scarf_green"
 	down_icon_state = "scarf_green_down"
+
+/obj/item/clothing/mask/tacticalmask/red
+	name = "red bandana"
+	desc = "A red piece of cloth you can cover your face with or hang around your neck."
+	icon_state = "scarf_red"
+	item_state = "scarf_red"
+	down_icon_state = "scarf_red_down"
 
 /obj/item/clothing/mask/luchador
 	name = "Luchador Mask"
