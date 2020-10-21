@@ -100,13 +100,14 @@
 
 	return TRUE
 
+/*
 /obj/item/underwear/verb/RemoveSocks()
 	set name = "Remove Underwear"
 	set category = "Object"
 	set src in usr
 
 	RemoveUnderwear(usr, usr)
-
+*/
 /obj/item/underwear/socks
 	required_free_body_parts = FEET
 

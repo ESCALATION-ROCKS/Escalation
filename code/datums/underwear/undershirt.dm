@@ -2,16 +2,19 @@
 	underwear_name = "undershirt"
 	underwear_type = /obj/item/underwear/undershirt
 
+/*
 /datum/category_item/underwear/undershirt/none
-	is_default = TRUE
 	name = "None"
 	always_last = TRUE
 	underwear_type = null
+	underwear_gender = MALE
+*/
 
 /datum/category_item/underwear/undershirt/shirt
 	name = "Shirt"
 	icon_state = "undershirt"
 	has_color = TRUE
+
 /*
 /datum/category_item/underwear/undershirt/shirt_long
 	name = "Long Shirt"
@@ -25,6 +28,7 @@
 	has_color = TRUE
 */
 /datum/category_item/underwear/undershirt/tank_top_alt
+	is_default = TRUE
 	name = "Tank top"
 	underwear_name = "tank top"
 	icon_state = "tanktop_alt"
