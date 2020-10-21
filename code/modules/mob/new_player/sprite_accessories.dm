@@ -63,44 +63,51 @@
 /*	twintail
 		name = "Twintail"
 		icon_state = "hair_twintail"
+		gender = FEMALE
+*/
 
 	short2
 		name = "Short Hair 2"
 		icon_state = "hair_shorthair3"
-*/
+
 	cut
 		name = "Cut Hair"
 		icon_state = "hair_c"
 		veryshort = 1
-/*
+
 	flair
 		name = "Flaired Hair"
 		icon_state = "hair_flair"
-*/
+		gender = FEMALE
+
 	long
 		name = "Shoulder-length Hair"
 		icon_state = "hair_b"
 
-	/*longish
+	longish
 		name = "Longer Hair"
-		icon_state = "hair_b2"*/
-/*
+		icon_state = "hair_b2"
+		gender = FEMALE
+
 	longer
 		name = "Long Hair"
 		icon_state = "hair_vlong"
+		gender = FEMALE
 
 	longest
 		name = "Very Long Hair"
 		icon_state = "hair_longest"
-*/
+		gender = FEMALE
+
 	longfringe
 		name = "Long Fringe"
 		icon_state = "hair_longfringe"
-/*
+		gender = FEMALE
+
 	longestalt
 		name = "Longer Fringe"
 		icon_state = "hair_vlongfringe"
-*/
+
 	halfbang
 		name = "Half-banged Hair"
 		icon_state = "hair_halfbang"
@@ -112,16 +119,16 @@
 	ponytail1
 		name = "Ponytail 1"
 		icon_state = "hair_ponytail"
-/*
+
 	ponytail2
 		name = "Ponytail 2"
 		icon_state = "hair_pa"
 		gender = FEMALE
-*/
+
 	ponytail3
 		name = "Ponytail 3"
 		icon_state = "hair_ponytail3"
-/*
+
 	ponytail4
 		name = "Ponytail 4"
 		icon_state = "hair_ponytail4"
@@ -141,7 +148,7 @@
 		name = "Side Ponytail"
 		icon_state = "hair_stail"
 		gender = FEMALE
-*/
+
 	parted
 		name = "Parted"
 		icon_state = "hair_parted"
@@ -172,7 +179,7 @@
 	bedhead3
 		name = "Bedhead 3"
 		icon_state = "hair_bedheadv3"
-/*
+
 	beehive
 		name = "Beehive"
 		icon_state = "hair_beehive"
@@ -200,7 +207,7 @@
 		icon_state = "hair_bobcutalt"
 		gender = FEMALE
 		species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
-*/
+
 	bowl
 		name = "Bowl"
 		icon_state = "hair_bowlcut"
@@ -258,7 +265,7 @@
 		name = "Big Afro"
 		icon_state = "hair_bigafro"
 		gender = MALE
-*/
+
 	rows
 		name = "Rows"
 		icon_state = "hair_rows1"
@@ -268,6 +275,7 @@
 		name = "Rows 2"
 		icon_state = "hair_rows2"
 		veryshort = 1
+*/
 
 	sargeant
 		name = "Flat Top"
@@ -322,12 +330,12 @@
 		name = "Gelled Back"
 		icon_state = "hair_gelled"
 		gender = FEMALE
-/*
+
 	gentle
 		name = "Gentle"
 		icon_state = "hair_gentle"
 		gender = FEMALE
-*/
+
 	spiky
 		name = "Spiky"
 		icon_state = "hair_spikey"
@@ -335,7 +343,7 @@
 	kusangi
 		name = "Kusanagi Hair"
 		icon_state = "hair_kusanagi"
-/*
+
 	kagami
 		name = "Pigtails"
 		icon_state = "hair_kagami"
@@ -385,7 +393,7 @@
 		name = "Updo"
 		icon_state = "hair_updo"
 		gender = FEMALE
-*/
+
 	skinhead
 		name = "Skinhead"
 		icon_state = "hair_skinhead"
@@ -401,7 +409,7 @@
 		name = "The Family Man"
 		icon_state = "hair_thefamilyman"
 		gender = MALE
-
+*/
 	mahdrills
 		name = "Drillruru"
 		icon_state = "hair_drillruru"
@@ -411,17 +419,18 @@
 		name = "Fringetail"
 		icon_state = "hair_fringetail"
 		gender = FEMALE
-*/
+
 	dandypomp
 		name = "Dandy Pompadour"
 		icon_state = "hair_dandypompadour"
 		gender = MALE
-/*
+
 	poofy
 		name = "Poofy"
 		icon_state = "hair_poofy"
 		gender = FEMALE
 
+/*
 	crono
 		name = "Chrono"
 		icon_state = "hair_toriyama"
@@ -441,7 +450,7 @@
 		name = "Mulder"
 		icon_state = "hair_mulder"
 		gender = MALE
-/*
+
 	scully
 		name = "Scully"
 		icon_state = "hair_scully"
@@ -452,6 +461,7 @@
 		icon_state = "hair_nitori"
 		gender = FEMALE
 
+/*
 	joestar
 		name = "Joestar"
 		icon_state = "hair_joestar"
@@ -468,10 +478,12 @@
 	shortbangs
 		name = "Short Bangs"
 		icon_state = "hair_shortbangs"
+
 /*
 	halfshaved
 		name = "Half-Shaved Emo"
 		icon_state = "hair_halfshaved"
+*/
 
 	bun
 		name = "Low Bun"
@@ -484,7 +496,7 @@
 	doublebun
 		name = "Double-Bun"
 		icon_state = "hair_doublebun"
-*/
+
 	lowfade
 		name = "Low Fade"
 		icon_state = "hair_lowfade"
