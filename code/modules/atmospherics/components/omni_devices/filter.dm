@@ -306,4 +306,4 @@
 	density = 0
 
 /obj/machinery/fans/vent/process()
-	playsound(src.loc, 'sound/machines/ventsound.wav', 50, 0, 10)
+	playsound(src.loc, 'sound/machines/ventsound.ogg', 50, 0, 10)

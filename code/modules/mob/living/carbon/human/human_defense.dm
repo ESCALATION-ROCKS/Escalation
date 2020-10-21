@@ -155,7 +155,7 @@ meteor_act
 	else if(seconds_since_supression > 10)
 		if(prob(40))
 			visible_message("<span class = 'danger'>The [P.name] whizzes past [src]!</span>")
-			playsound(loc, 'sound/effects/whiz-supersonic.wav', 60, 1, -1)
+			playsound(loc, 'sound/effects/whiz-supersonic.ogg', 60, 1, -1)
 	time_last_supressed = world.time
 
 
@@ -216,7 +216,7 @@ meteor_act
 
 	if(!hit_zone)
 		visible_message("<span class='danger'>\The [user] misses [src] with \the [I]!</span>")
-		playsound(loc, 'sound/effects/punchswing.wav', 40, 1, -1)
+		playsound(loc, 'sound/effects/punchswing.ogg', 40, 1, -1)
 		return null
 
 	if(check_shields(I.force, I, user, target_zone, "the [I.name]"))

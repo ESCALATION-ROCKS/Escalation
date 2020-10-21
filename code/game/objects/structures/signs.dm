@@ -875,7 +875,7 @@ obj/structure/sign/noshitlers
 	opacity = 0
 	density = 0
 	layer = ABOVE_WINDOW_LAYER
-	var/neonsound = 'sound/machines/neon_sign_01.wav'
+	var/neonsound = 'sound/machines/neon_sign_01.ogg'
 	var/loudness = 15
 
 /obj/machinery/sign/neon/process()
@@ -1054,7 +1054,7 @@ obj/structure/sign/noshitlers
 	desc = "It looks like the buttons on it are stuck."
 	icon_state = "bbc"
 	light_color = "#CD5C5C"// dark red
-	neonsound = 'sound/machines/tv_loop1.wav'
+	neonsound = 'sound/machines/tv_loop1.ogg'
 	loudness = 50
 
 /*|	                                             */

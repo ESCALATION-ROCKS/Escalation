@@ -37,7 +37,7 @@
 #define SPACE UNDERWATER
 
 var/list/shatter_sound = list('sound/effects/Glassbr1.ogg','sound/effects/Glassbr2.ogg','sound/effects/Glassbr3.ogg')
-var/list/explosion_sound = list('sound/effects/explosion1.wav','sound/effects/explosion2.wav','sound/effects/explosion3.wav','sound/effects/explosion4.wav','sound/effects/explosion5.wav','sound/effects/explosion6.wav')
+var/list/explosion_sound = list('sound/effects/explosion1.ogg','sound/effects/explosion2.ogg','sound/effects/explosion3.ogg','sound/effects/explosion4.ogg','sound/effects/explosion5.ogg','sound/effects/explosion6.ogg')
 var/list/spark_sound = list('sound/effects/sparks1.ogg','sound/effects/sparks2.ogg','sound/effects/sparks3.ogg','sound/effects/sparks4.ogg')
 var/list/rustle_sound = list('sound/effects/rustle1.ogg','sound/effects/rustle2.ogg','sound/effects/rustle3.ogg','sound/effects/rustle4.ogg','sound/effects/rustle5.ogg')
 var/list/punch_sound = list('sound/weapons/punch1.ogg','sound/weapons/punch2.ogg','sound/weapons/punch3.ogg','sound/weapons/punch4.ogg')
@@ -63,7 +63,7 @@ var/list/drink = list('sound/vo/drink.1.wav','sound/vo/drink.2.wav', 'sound/vo/d
 var/list/bodysplat = list('sound/effects/body/bodysplat.wav','sound/effects/body/bodysplat2.wav')
 var/list/bonebreak = list('sound/effects/body/bonebreak.wav','sound/effects/body/bonebreak1.wav','sound/effects/body/bonebreak2.wav')
 var/list/bul_impact = list('sound/effects/body/bulletbodyimpact_1.wav','sound/effects/body/bulletbodyimpact_2.wav','sound/effects/body/bulletbodyimpact_4.wav','sound/effects/body/bulletbodyimpact_5.wav','sound/effects/body/bulletbodyimpact_6.wav')
-var/list/bullet_hit_object = list('sound/weapons/ric1.wav', 'sound/weapons/ric2.wav', 'sound/weapons/ric3.wav', 'sound/weapons/ric4.wav', 'sound/weapons/ric5.wav', 'sound/weapons/ric6.wav')
+var/list/bullet_hit_object = list('sound/weapons/ric1.ogg', 'sound/weapons/ric2.ogg', 'sound/weapons/ric3.ogg', 'sound/weapons/ric4.ogg', 'sound/weapons/ric5.ogg', 'sound/weapons/ric6.ogg')
 var/list/bodyscrape = list('sound/effects/bodyscrape-01.ogg','sound/effects/bodyscrape-02.ogg')
 var/list/serinjury = list('sound/effects/body/desceration-01.ogg','sound/effects/body/desceration-02.ogg','sound/effects/body/desceration-03.ogg','sound/effects/body/desceration-04.ogg')
 var/list/flop_sound = list('sound/effects/bodyfall1.ogg','sound/effects/bodyfall2.ogg','sound/effects/bodyfall3.ogg')

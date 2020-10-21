@@ -8,7 +8,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	wielded_item_state = "m21-wielded"
 	jam_chance = 0.6
-	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 	slowdown_general = 0.5
 
 	firemodes = list(
@@ -55,7 +55,7 @@
 	reload_sound = 'sound/weapons/gunporn/svd_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/svd_boltback.ogg'
 	jam_chance = 0.5
-	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 	slowdown_general = 0.5
 
 	firemodes = list(
@@ -98,10 +98,10 @@
 	accuracy = 4.7
 	wielded_item_state = "g3sg1-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3sg1.ogg'
-	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
-	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
+	unload_sound = 'sound/weapons/gunporn/g3_magout.ogg' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/g3_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
 	jam_chance = 0.25
 	slowdown_general = 0.5
 
@@ -146,10 +146,10 @@
 	accuracy = 6
 	wielded_item_state = "wa2000-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3sg1.ogg'
-	unload_sound = 'sound/weapons/gunporn/g3_magout.wav' // NEED TO CHANGE SOUNDS
-	reload_sound = 'sound/weapons/gunporn/g3_magin.wav'
-	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.wav'
+	unload_sound = 'sound/weapons/gunporn/g3_magout.ogg' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/g3_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
 	jam_chance = 0.25
 	slowdown_general = 0.5
 
@@ -192,11 +192,11 @@
 	one_hand_penalty = 10
 	accuracy = 6
 	wielded_item_state = "heavysniper-wielded"
-	fire_sound = 'sound/weapons/gunshot/m2hb.ogg' 
+	fire_sound = 'sound/weapons/gunshot/m2hb.ogg'
 	unload_sound = 'sound/weapons/gunporn/svd_magout.ogg' // NEED TO CHANGE SOUNDS
 	reload_sound = 'sound/weapons/gunporn/svd_magin.ogg'
 	cocked_sound = 'sound/weapons/flipblade.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
 	jam_chance = 0.1
 	slowdown_general = 0.8
 

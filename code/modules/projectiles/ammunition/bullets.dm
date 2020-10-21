@@ -77,7 +77,7 @@
 	caliber = "shotgun"
 	projectile_type = /obj/item/projectile/bullet/shotgun
 	matter = list(DEFAULT_WALL_MATERIAL = 360)
-	casing_sound = 'sound/weapons/casings/sshell_drop.wav'
+	casing_sound = 'sound/weapons/casings/sshell_drop.ogg'
 /obj/item/ammo_casing/shotgun/pellet
 	name = "shotgun shell"
 	desc = "A 12 gauge shell."

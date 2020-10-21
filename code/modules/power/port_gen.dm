@@ -35,7 +35,7 @@
 		add_avail(power_gen * power_output)
 		UseFuel()
 		src.updateDialog()
-		playsound(src.loc, 'sound/machines/generator_loop.wav', 50, 2)
+		playsound(src.loc, 'sound/machines/generator_loop.ogg', 50, 2)
 	else
 		active = 0
 		handleInactive()
@@ -383,7 +383,7 @@
 		if(href_list["action"] == "enable")
 			if(!active && HasFuel() && !IsBroken())
 				active = 1
-				playsound(get_turf(src), 'sound/machines/generator_start.wav', 50, 2)
+				playsound(get_turf(src), 'sound/machines/generator_start.ogg', 50, 2)
 				update_icon()
 		if(href_list["action"] == "disable")
 			if (active)

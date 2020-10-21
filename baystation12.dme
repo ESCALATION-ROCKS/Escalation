@@ -1841,7 +1841,6 @@
 #include "code\modules\mob\living\silicon\robot\drone\drone_remote_control.dm"
 #include "code\modules\mob\living\silicon\robot\drone\drone_say.dm"
 #include "code\modules\mob\living\simple_animal\corpse.dm"
-#include "code\modules\mob\living\simple_animal\posthuman.dm"
 #include "code\modules\mob\living\simple_animal\simple_animal.dm"
 #include "code\modules\mob\living\simple_animal\aliens\alien.dm"
 #include "code\modules\mob\living\simple_animal\aliens\armalis.dm"

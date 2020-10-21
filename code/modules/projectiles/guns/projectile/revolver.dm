@@ -12,7 +12,7 @@
 	picksound = 'sound/items/interactions/pistol_draw.wav'
 	reload_sound = 'sound/weapons/gunhandling/revolver_loader.wav'
 	cocked_sound = 'sound/weapons/gunhandling/revolver_cock.wav'
-	fire_sound = 'sound/weapons/gunshot/revolver.wav'
+	fire_sound = 'sound/weapons/gunshot/revolver.ogg'
 	jam_chance = 5
 	loud = 0
 /obj/item/weapon/gun/projectile/revolver/verb/spin_cylinder()

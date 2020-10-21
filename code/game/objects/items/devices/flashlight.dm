@@ -329,7 +329,7 @@
 	if(pos)
 		pos.hotspot_expose(produce_heat, 5)
 	fuel = max(fuel - 1, 0)
-	playsound(src.loc, 'sound/effects/flareburning.wav', 75, 1)
+	playsound(src.loc, 'sound/effects/flareburning.ogg', 75, 1)
 	if(!fuel || !on)
 		turn_off()
 		if(!fuel)

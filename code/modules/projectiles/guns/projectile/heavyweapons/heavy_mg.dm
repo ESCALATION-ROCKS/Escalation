@@ -273,7 +273,7 @@
 	jam_chance = 0.3
 	accuracy = 0.8
 
-	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
 	fire_sound = 'sound/weapons/gunshot/nsv.ogg'
 	//i know it's kords sounds, but it is to booring to find and copy-paste URTES' sounds
 
@@ -305,7 +305,7 @@
 //	magazine_type = /obj/item/ammo_magazine/c127x99b//if we want mg be pre-loaded with this ammo box
 	max_shells = 0
 
-	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
 	fire_sound = 'sound/weapons/gunshot/nsv.ogg'
 
 	firemodes = list(
@@ -356,7 +356,7 @@
 	caliber = ".50"//fix caliber
 	ammo_type = /obj/item/ammo_casing/a50cal //fix
 	max_shells = 0
-	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.wav'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
 	allowed_magazines = /obj/item/ammo_magazine/c50cal
 	fire_sound = 'sound/weapons/gunshot/m2hb.ogg'
 	jam_chance = 0.455

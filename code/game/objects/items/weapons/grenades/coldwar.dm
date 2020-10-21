@@ -184,7 +184,7 @@
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/ugl)
 	explosion_size = 1
 	throw_range = 30
-	arm_sound = 'sound/weapons/grenlauncher.wav'
+	arm_sound = 'sound/weapons/grenlauncher.ogg'
 
 
 /obj/item/weapon/grenade/frag/shell40mm/attack_self(mob/user)
@@ -199,7 +199,7 @@
 	explosion_size = 1
 	throw_speed = 2
 	throw_range = 30
-	arm_sound = 'sound/weapons/grenlauncher.wav'
+	arm_sound = 'sound/weapons/grenlauncher.ogg'
 
 /obj/item/weapon/grenade/frag/vog25/attack_self(mob/user)
 	return

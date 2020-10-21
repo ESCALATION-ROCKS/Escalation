@@ -24,7 +24,7 @@
 
 	if(fullblock >= 1 || prob(fullblock*100))
 		if(def_zone == BP_HEAD)
-			playsound(src.loc,'sound/effects/bhit_helmet-1.wav', 60, 1)
+			playsound(src.loc,'sound/effects/bhit_helmet-1.ogg', 60, 1)
 		else
 			playsound(src.loc, "armorhitsound", 60, 1)
 		if(absorb_text)
@@ -42,7 +42,7 @@
 
 	if(blocked > 20)
 		if(def_zone == BP_HEAD)
-			playsound(src.loc,'sound/effects/bhit_helmet-1.wav', 30, 1)
+			playsound(src.loc,'sound/effects/bhit_helmet-1.ogg', 30, 1)
 		else
 			playsound(src.loc, "armorhitsound", 30, 1)
 		//Should we show this every single time?
