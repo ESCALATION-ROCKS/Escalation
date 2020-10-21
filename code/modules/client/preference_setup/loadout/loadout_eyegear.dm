@@ -29,4 +29,3 @@
 /datum/gear/eyes/shades/
 	display_name = "sunglasses"
 	path = /obj/item/clothing/glasses/sunglasses
-	cost = 3

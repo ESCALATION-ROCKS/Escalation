@@ -99,6 +99,9 @@
 			var/image/filling = image(icon, src, "[base_icon][get_filling_state()]")
 			filling.color = reagents.get_color()
 			overlays += filling
+	else
+		name = base_name
+		desc = initial(desc)
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -292,7 +295,7 @@
 	center_of_mass = "x=17;y=7"
 
 /obj/item/weapon/reagent_containers/food/drinks/flask/vacuumflask
-	name = "vacuum flask"
+	name = "thermos"
 	desc = "Keeping your drinks at the perfect temperature since 1892."
 	icon_state = "vacuumflask"
 	volume = 60
@@ -317,95 +320,61 @@
 
 
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup
-	name = "coffee cup"
-	desc = "A plain white coffee cup."
+	name = "mug"
+	desc = "A plain white mug."
 	icon_state = "coffeecup"
 	item_state = "coffee"
 	volume = 30
 	center_of_mass = "x=15;y=13"
 	filling_states = "40;80;100"
-	base_name = "cup"
+	base_name = "mug"
 	base_icon = "coffeecup"
 
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup/black
-	name = "black coffee cup"
-	desc = "A sleek black coffee cup."
+	name = "black mug"
+	desc = "A sleek black mug."
 	icon_state = "coffeecup_black"
-	base_name = "black cup"
+	base_name = "black mug"
 
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup/green
-	name = "green coffee cup"
-	desc = "A pale green and pink coffee cup."
+	name = "green mug"
+	desc = "A pale green and pink mug."
 	icon_state = "coffeecup_green"
-	base_name = "green cup"
+	base_name = "green mug"
 
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup/heart
-	name = "heart coffee cup"
-	desc = "A white coffee cup, it prominently features a red heart."
+	name = "heart mug"
+	desc = "A white mug, it prominently features a red heart."
 	icon_state = "coffeecup_heart"
-	base_name = "heart cup"
-
-/obj/item/weapon/reagent_containers/food/drinks/coffeecup/SCG
-	name = "SCG coffee cup"
-	desc = "A blue coffee cup emblazoned with the crest of the Sol Central Government."
-	icon_state = "coffeecup_SCG"
-	base_name = "SCG cup"
-
-/obj/item/weapon/reagent_containers/food/drinks/coffeecup/NT
-	name = "NT coffee cup"
-	desc = "A red NanoTrasen coffee cup. 90% Guaranteed to not be laced with mind-control drugs."
-	icon_state = "coffeecup_NT"
-	base_name = "NT cup"
+	base_name = "heart mug"
 
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup/one
-	name = "#1 coffee cup"
-	desc = "A white coffee cup, prominently featuring a #1."
+	name = "#1 mug"
+	desc = "A white mug, prominently featuring a #1."
 	icon_state = "coffeecup_one"
-	base_name = "#1 cup"
+	base_name = "#1 mug"
 
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup/rainbow
-	name = "rainbow coffee cup"
-	desc = "A rainbow coffee cup. The colors are almost as blinding as a welder."
+	name = "rainbow mug"
+	desc = "A rainbow mug. The colors are almost as blinding as a welder."
 	icon_state = "coffeecup_rainbow"
-	base_name = "rainbow cup"
+	base_name = "rainbow mug"
 
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup/metal
-	name = "metal coffee cup"
-	desc = "A metal coffee cup. You're not sure which metal."
+	name = "metal mug"
+	desc = "A metal mug. You're not sure which metal."
 	icon_state = "coffeecup_metal"
-	base_name = "metal cup"
+	base_name = "metal mug"
 	flags = CONDUCT | OPENCONTAINER
 
-/obj/item/weapon/reagent_containers/food/drinks/coffeecup/STC
-	name = "STC coffee cup"
-	desc = "A coffee cup adorned with the flag of the Sovereign Terran Confederacy, for when you need some espionage charges to go with your morning coffee."
-	icon_state = "coffeecup_STC"
-	base_name = "STC cup"
-
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup/pawn
-	name = "pawn coffee cup"
-	desc = "A black coffee cup adorned with the image of a red chess pawn."
+	name = "pawn mug"
+	desc = "A black mug adorned with the image of a red chess pawn."
 	icon_state = "coffeecup_pawn"
-	base_name = "pawn cup"
-
-/obj/item/weapon/reagent_containers/food/drinks/coffeecup/diona
-	name = "diona nymph coffee cup"
-	desc = "A green coffee cup featuring the image of a diona nymph."
-	icon_state = "coffeecup_diona"
-	base_name = "diona cup"
+	base_name = "pawn mug"
 
 /obj/item/weapon/reagent_containers/food/drinks/coffeecup/britcup
-	name = "british coffee cup"
-	desc = "A coffee cup with the British flag emblazoned on it."
+	name = "british mug"
+	desc = "A mug with the British flag emblazoned on it."
 	icon_state = "coffeecup_brit"
-	base_name = "british cup"
-
-/obj/item/weapon/reagent_containers/food/drinks/coffeecup/tall
-	name = "tall coffee cup"
-	desc = "An unreasonably tall coffee cup, for when you really need to wake up in the morning."
-	icon_state = "coffeecup_tall"
-	volume = 60
-	center_of_mass = "x=15;y=19"
-	filling_states = "50;70;90;100"
-	base_name = "tall cup"
-	base_icon = "coffeecup_tall"
+	base_name = "british mug"
