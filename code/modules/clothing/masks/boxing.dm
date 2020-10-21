@@ -21,11 +21,37 @@
 	down_icon_state = "swatclava_r"
 
 /obj/item/clothing/mask/balaclava/coif
-	name = "heat-absorbant coif"
+	name = "heat-absorbent coif"
 	desc = "A wool coif to keep your face warm."
 	icon_state = "coif"
 	item_state = "coif"
 	down_icon_state = "coif_r"
+
+/obj/item/clothing/mask/tacticalmask
+	name = "bandana"
+	desc = "A tan piece of cloth you can cover your face with or hang around your neck."
+	icon_state = "scarf_tan"
+	item_state = "scarf_tan"
+	flags_inv = HIDEFACE
+	body_parts_covered = FACE
+	down_body_parts_covered = null
+	down_icon_state = "scarf_tan_down"
+	pull_mask = 1
+	w_class = ITEM_SIZE_SMALL
+
+/obj/item/clothing/mask/tacticalmask/gray
+	name = "gray bandana"
+	desc = "A gray piece of cloth you can cover your face with or hang around your neck."
+	icon_state = "scarf_gray"
+	item_state = "scarf_gray"
+	down_icon_state = "scarf_gray_down"
+
+/obj/item/clothing/mask/tacticalmask/green
+	name = "green bandana"
+	desc = "A green piece of cloth you can cover your face with or hang around your neck."
+	icon_state = "scarf_green"
+	item_state = "scarf_green"
+	down_icon_state = "scarf_green_down"
 
 /obj/item/clothing/mask/luchador
 	name = "Luchador Mask"
