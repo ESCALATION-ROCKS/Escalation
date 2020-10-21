@@ -7,7 +7,7 @@
 	var/datum/sound_token/sound_token
 	var/playing = 0
 	var/sound_id
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_NO_CONTAINER
 
 /obj/item/device/boombox/nato
 	icon_state = "boombox_nato"
