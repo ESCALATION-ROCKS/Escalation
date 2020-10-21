@@ -174,7 +174,7 @@
 	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.wav'
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.0 0.1, 0.2),                          automatic = 0),
+		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.0, 0.1, 0.2),                          automatic = 0),
 		list(mode_name="automatic",     burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=3, burst_accuracy=null,              dispersion=list(0.25, 0.35, 0.7),                    automatic = 0.6),
 		)
 
@@ -1127,8 +1127,8 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.wav'
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.0, 0.1, 0.2)                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=3, burst_accuracy=null,              dispersion=list(0.3, 0.4, 0.6),                     automatic = 0.6),
+		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,            dispersion=list(0.0, 0.1, 0.20),              automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.6),                     automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74nk/update_icon()
