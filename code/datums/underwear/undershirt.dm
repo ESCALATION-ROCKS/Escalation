@@ -28,6 +28,7 @@
 	has_color = TRUE
 */
 /datum/category_item/underwear/undershirt/tank_top_alt
+	is_default = TRUE
 	name = "Tank top"
 	underwear_name = "tank top"
 	icon_state = "tanktop_alt"
@@ -76,7 +77,6 @@
 	icon_state = "lover_s"
 */
 /datum/category_item/underwear/undershirt/shirt_marine
-	is_default = TRUE
 	name = "Shirt, Marines"
 	icon_state = "marine_s"
 /*
