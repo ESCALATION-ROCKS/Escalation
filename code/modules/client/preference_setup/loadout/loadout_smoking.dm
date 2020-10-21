@@ -13,7 +13,6 @@
 
 /datum/gear/cigarretes
 	display_name = "Cigarrete Boxes"
-	cost = 1
 	path = /obj/item/weapon/storage/fancy/cigarettes/luckystrikered
 
 /datum/gear/cigarretes/New()

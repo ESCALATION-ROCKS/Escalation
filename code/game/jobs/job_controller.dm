@@ -460,7 +460,7 @@ var/global/datum/controller/occupations/job_master
 			for(var/thing in spawn_in_storage)
 				var/datum/gear/G = gear_datums[thing]
 				var/metadata = H.client.prefs.Gear()[G.display_name]
-				var/item = G.spawn_item(H, metadata)
+				var/obj/item = G.spawn_item(H, metadata)
 
 				var/atom/placed_in = H.equip_to_storage(item)
 				if(placed_in)
@@ -472,8 +472,8 @@ var/global/datum/controller/occupations/job_master
 				if(H.put_in_hands(item))
 					to_chat(H, "<span class='notice'>Placing \the [item] in your hands!</span>")
 					continue
-				to_chat(H, "<span class='danger'>Failed to locate a storage object on your mob, either you spawned with no arms and no backpack or this is a bug.</span>")
-				qdel(item)
+				to_chat(H, "<span class='danger'>Failed to locate a storage object on your mob, must be out of storage space. Dropped \the [item].</span>")
+				item.forceMove(H.loc)
 
 
 		if(istype(H)) //give humans wheelchairs, if they need them.

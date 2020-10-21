@@ -14,6 +14,16 @@
 /datum/gear/cards
 	display_name = "deck of cards"
 	path = /obj/item/weapon/deck/cards
+
+/datum/gear/thermos
+	display_name = "thermos"
+	path = /obj/item/weapon/reagent_containers/food/drinks/flask/vacuumflask
+
+/datum/gear/mug
+	display_name = "mug"
+	path = /obj/item/weapon/reagent_containers/food/drinks/coffeecup
+	flags = GEAR_HAS_TYPE_SELECTION
+
 /*
 /datum/gear/tarot
 	display_name = "deck of tarot cards"
@@ -42,13 +52,6 @@
 	..()
 	gear_tweaks += new/datum/gear_tweak/reagents(lunchables_ethanol_reagents())
 	gear_tweaks += new/datum/gear_tweak/reagents(lunchables_drink_reagents())
-
-
-/datum/gear/coffeecup
-	display_name = "coffee cup"
-	path = /obj/item/weapon/reagent_containers/food/drinks/coffeecup
-	flags = GEAR_HAS_TYPE_SELECTION
-
 
 /datum/gear/boot_knife
 	display_name = "boot knife"

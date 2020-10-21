@@ -95,9 +95,8 @@
 	if(owner.h_style)
 		var/style = owner.h_style
 		var/datum/sprite_accessory/hair/hair_style = hair_styles_list[style]
-		if(owner.head && (owner.head.flags_inv & BLOCKHEADHAIR))
-			if(!hair_style.veryshort)
-				hair_style = hair_styles_list["Short Hair"]
+		if(owner.head && (owner.head.flags_inv & BLOCKHEADHAIR) || owner.wear_mask && (owner.wear_mask.flags_inv & BLOCKHEADHAIR))
+			hair_style = hair_styles_list["Bald"]
 		if(hair_style && (species.get_bodytype(owner) in hair_style.species_allowed))
 			var/icon/hair_s = new/icon("icon" = hair_style.icon, "icon_state" = "[hair_style.icon_state]_s")
 			if(hair_style.do_colouration && islist(h_col) && h_col.len >= 3)
