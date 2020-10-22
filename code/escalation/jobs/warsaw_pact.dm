@@ -27,7 +27,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 3, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/cccp/saplatleaddep
 	title = "SA Zamestitel Komandira Vzvoda"
@@ -47,7 +47,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/cccp/sazampolit
 	title = "SA Zampolit"
@@ -67,12 +67,12 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/cccp/sastarshina
 	title = "SA Starshina"
 	name = "Starshina"
-	english_name = "Staff Sergeant"
+	english_name = "Quartermaster"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -87,7 +87,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/cccp/saplmg
 	title = "SA Vzvodny Pulemetchik"
@@ -107,7 +107,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/saplmgas
 	title = "SA Pomoshnik Vzvodnogo Pulemetchika"
@@ -127,7 +127,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/saratelo
 	title = "SA Shtabnoi Radiotelefonist"
@@ -147,7 +147,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/sacorpsman
 	title = "SA Sanitar"
@@ -167,7 +167,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/cccp/sasurgerist
 	title = "SA Polevoi Vrach"
@@ -187,7 +187,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/cccp/sasniper
 	title = "SA Snaiper"
@@ -207,7 +207,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(3,4), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/sasl
 	title = "SA Komandir Otdeleniya"
@@ -228,7 +228,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/sasld
 	title = "SA Zamestitel Komandira Otdeleniya"
@@ -248,7 +248,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 0, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/cccp/samg
 	title = "SA Pulemetchik"
@@ -268,7 +268,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/samgas
 	title = "SA Pomoshnik Pulemetchika"
@@ -288,7 +288,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/sasrad
 	title = "SA Radiotelefonist"
@@ -308,7 +308,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/sarocket
 	title = "SA Strelok-Granatometchik"
@@ -328,7 +328,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/sarocketass
 	title = "SA Pomoshnik Granatometchika"
@@ -348,7 +348,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/sarifle
 	title = "SA Strelok"
@@ -368,7 +368,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/cccp/saotvco
@@ -389,7 +389,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 
 /datum/job/escalation/cccp/saotvop
@@ -410,7 +410,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/cccp/saotvload
@@ -431,7 +431,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 //NVA DDR
@@ -466,7 +466,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/nvaddr/nvaplatleaddep
 	title = "NVA Zugfuhrerassistant"
@@ -486,7 +486,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/nvaddr/politoffizier
 	title = "NVA Politoffizier"
@@ -507,12 +507,12 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/nvaddr/nvakapt
 	title = "NVA Entfuhrer"
 	name = "Entfuhrer"
-	english_name = "Staff Sergeant"
+	english_name = "Quartermaster"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -527,7 +527,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/nvaddr/platnvamg
 	title = "NVA Zug Machinengewehrschutze"
@@ -547,7 +547,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/platnvamgas
 	title = "NVA Zug Machinengewehrschutze Stellvertretender"
@@ -567,7 +567,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/nvaddr/nvasm
@@ -588,7 +588,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(3,4), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvarad
 	title = "NVA Funktelefonbetreiber"
@@ -608,7 +608,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 2, 0)
 
 /datum/job/escalation/nvaddr/nvacorpsman
 	title = "NVA Sanitater"
@@ -628,7 +628,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/nvaddr/nvasurgerist
 	title = "NVA Feldchirurg"
@@ -648,7 +648,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/nvaddr/nvasl
 	title = "NVA Gruppenfuhrer"
@@ -669,7 +669,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/nvaddr/nvasld
 	title = "NVA Gruppenfuhrer Stellvertretender"
@@ -689,7 +689,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 0, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
 
 /datum/job/escalation/nvaddr/nvamg
@@ -710,7 +710,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvamgas
 	title = "NVA Machinengewehrschutze Stellvertretender"
@@ -730,7 +730,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvasrad
 	title = "NVA Funke"
@@ -750,7 +750,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvarocket
 	title = "NVA Panzerabwehrschutze"
@@ -770,7 +770,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvarocketass
 	title = "NVA Panzerabwerschutze Stellvertretender"
@@ -790,7 +790,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/nvaddr/nvarifle
@@ -811,7 +811,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 //Finnish Army
 
@@ -845,7 +845,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/finn/finnplatleaddep
 	title = "FINN Ylikersantti"
@@ -865,7 +865,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 
 
@@ -887,7 +887,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/finn/platfinnmg
 	title = "FINN Joukkue Finnmajoitusmestari"
@@ -907,7 +907,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/platfinnmgas
 	title = "FINN Joukkue Finnmajoitusmestari Sotamies"
@@ -927,7 +927,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/finn/finnratelo
@@ -948,7 +948,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/finncorpsman
 	title = "FINN Medisiinari"
@@ -968,7 +968,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/finn/finnsurgerist
 	title = "FINN Kenttakirurg"
@@ -988,7 +988,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/finn/finnsl
 	title = "FINN Ryhmanjohtaja"
@@ -1009,7 +1009,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/finn/finnsld
 	title = "FINN Ryhmanjohtaja Jasen"
@@ -1029,7 +1029,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 0, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
 
 /datum/job/escalation/finn/finnmg
@@ -1050,7 +1050,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/finnmgas
 	title = "FINN Konekivaari-assistentti"
@@ -1070,7 +1070,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/finnsrad
 	title = "FINN Puhelinoperaattori"
@@ -1090,7 +1090,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/finnrocket
 	title = "FINN AT ampuja"
@@ -1110,11 +1110,11 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/finnrocketass
 	title = "FINN AT ampuja assistentti "
-	name = "AT ampuja assistentti."
+	name = "AT ampuja assistentti"
 	english_name = "Grenadier Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1130,7 +1130,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/finn/finnrifle
@@ -1151,7 +1151,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/finn/finnhwtlead
@@ -1172,7 +1172,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 
 /datum/job/escalation/finn/finnhwtgnr
@@ -1193,7 +1193,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/finn/finnhwtload
@@ -1214,4 +1214,4 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)

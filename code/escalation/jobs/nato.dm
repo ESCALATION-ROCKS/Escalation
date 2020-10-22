@@ -28,7 +28,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,5), 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/usmc/usmcplatleaddep
 	title = "USMC Platoon Leader Deputy"
@@ -48,7 +48,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/usmc/usmcratelo
 	title = "USMC Radiotelephone Operator"
@@ -64,11 +64,11 @@
 	rank_number = 2
 	position = "team"
 	whitelist_rank = "usmc_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 40)
+	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_FINNISH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
 
 /datum/job/escalation/usmc/messenger
 	title = "USMC Messenger"
@@ -103,11 +103,11 @@
 	enabled = 0
 	amount = 3
 	whitelist_rank = "usmc_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 30, LANGUAGE_FINNISH = 30)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/usmc/usmcsurgerist
 	title = "USMC Field Surgeon"
@@ -126,7 +126,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/usmc/usmcmarksman
 	title = "USMC Designated Marksman"
@@ -145,7 +145,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(3,4), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usmc/usmcquartermaster
 	title = "USMC Quartermaster"
@@ -163,7 +163,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/usmcmgcom
 	title = "USMC HWS Commander"
@@ -182,7 +182,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/usmcmgload
 	title = "USMC HWS Loader"
@@ -201,7 +201,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usmc/usmcmgop
 	title = "USMC HWS Operator"
@@ -220,7 +220,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usmc/usmcsl
 	title = "USMC Squad Leader"
@@ -240,7 +240,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/usmcftl
 	title = "USMC Fireteam Leader"
@@ -262,7 +262,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/usmc/usmcfto
 	title = "USMC Rifleman"
@@ -282,7 +282,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usmc/usmcatcom
 	title = "USMC AT Commander"
@@ -301,7 +301,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/usmcat
 	title = "USMC AT Gunner"
@@ -321,7 +321,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usmc/usmcata
 	title = "USMC AT Asistant"
@@ -341,7 +341,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/usmc/usmcftmg
@@ -362,7 +362,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 1, 0)
 
 /datum/job/escalation/usmc/usmcftg
 	title = "USMC Fireteam Grenadier"
@@ -382,7 +382,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 1, 0)
 
 /datum/job/escalation/usmc/usmcftmga
 	title = "USMC Fireteam Machinegunner Assistant"
@@ -402,7 +402,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 ////////////////////////////////////////////////////////////////////BDW
@@ -436,7 +436,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,4), 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/bund/bdwplatleaddep
 	title = "BDW Zugfuhrerassistant"
@@ -456,7 +456,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 3, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/bund/bdwratelo
 	title = "BDW Funktelefonbetreiber"
@@ -476,7 +476,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
 
 /datum/job/escalation/bund/bdwmessenger
 	title = "BDW Bote"
@@ -496,7 +496,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwatlead
 	title = "BDW AT Gruppenfuhrer"
@@ -516,7 +516,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/bund/bdwatgun
 	title = "BDW AT Kanonier"
@@ -536,7 +536,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwatasst
 	title = "BDW AT Assistent Schutze"
@@ -556,7 +556,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwcorpsman
 	title = "BDW Sanitaterschutze"
@@ -576,7 +576,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/bund/bdwsurgerist
 	title = "BDW Feldchirurg"
@@ -596,7 +596,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/bund/bdwsl
 	title = "BDW Gruppenfuhrer"
@@ -616,7 +616,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/bund/bdwsld
 	title = "BDW Gruppenfuhrer Stellvertretender"
@@ -635,7 +635,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 0, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/bund/bdwsm
 	title = "BDW Scharfschutze"
@@ -654,7 +654,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(3,4), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwmg
 	title = "BDW Machinengewehrschutze"
@@ -673,7 +673,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwmgas
 	title = "BDW Machinengewehrschutze Stellvertretender"
@@ -693,7 +693,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwgrenadier
 	title = "BDW Grenadier"
@@ -712,7 +712,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwsqradio
 	title = "BDW Squad Radio Operator"
@@ -731,7 +731,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwrifle
 	title = "BDW Schutze"
@@ -750,7 +750,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/bund/mgcom
@@ -770,7 +770,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/bund/mgload
 	title = "BDW HWS Loader"
@@ -789,7 +789,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		 H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/mgop
 	title = "BDW HWS Operator"
@@ -809,7 +809,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 ////////////////////////////////////////////BAF///////////////////////////////////////////////
 
@@ -841,7 +841,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,5), 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/baf/bafplatleaddep
 	title = "BAF Platoon Leader Deputy"
@@ -861,7 +861,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/baf/bafratelo
 	title = "BAF Radiotelephone Operator"
@@ -881,7 +881,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
 
 /datum/job/escalation/baf/bafmedic
 	title = "BAF Field Medic"
@@ -900,7 +900,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 0, 1, 0)
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/baf/bafsurgeon
 	title = "BAF Field Surgeon"
@@ -919,7 +919,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/baf/bafmgcom
 	title = "BAF HWS Commander"
@@ -938,7 +938,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/baf/bafmgload
 	title = "BAF HWS Loader"
@@ -957,7 +957,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafmgop
 	title = "BAF HWS Operator"
@@ -976,7 +976,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafsl
 	title = "BAF Squad Leader"
@@ -996,7 +996,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/baf/bafftl
 	title = "BAF Fireteam Leader"
@@ -1018,7 +1018,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/baf/baffto
 	title = "BAF Rifleman"
@@ -1038,7 +1038,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafatcom
 	title = "BAF AT Commander"
@@ -1057,7 +1057,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/baf/bafat
 	title = "BAF AT Gunner"
@@ -1077,7 +1077,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafata
 	title = "BAF AT Asistant"
@@ -1097,7 +1097,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/baf/bafftmg
@@ -1118,7 +1118,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafftmga
 	title = "BAF Fireteam Machinegunner Assistant"
@@ -1138,7 +1138,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /////////////USA///////
 /datum/job/escalation/usa
@@ -1169,7 +1169,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), rand(3,5), 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/usa/usaplatleaddep
 	title = "USA Platoon Leader Deputy"
@@ -1189,7 +1189,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		 H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/usa/usaratelo
 	title = "USA Radiotelephone Operator"
@@ -1209,7 +1209,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		 H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
 
 /datum/job/escalation/usa/messenger
 	title = "USA Messenger"
@@ -1229,7 +1229,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usamedic
 	title = "USA Field Medic"
@@ -1248,7 +1248,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/usa/usasurgeon
 	title = "USA Field Surgeon"
@@ -1267,7 +1267,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(-1, 0), 0, 0, 13, rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/usa/usamarksman
 	title = "USA Designated Marksman"
@@ -1286,7 +1286,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(3,4), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usaquartermaster
 	title = "USA Quartermaster"
@@ -1304,7 +1304,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usa/usamgcom
 	title = "USA HWS Commander"
@@ -1323,7 +1323,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usa/usamgload
 	title = "USA HWS Loader"
@@ -1342,7 +1342,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usamgop
 	title = "USA HWS Operator"
@@ -1361,7 +1361,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usasl
 	title = "USA Squad Leader"
@@ -1381,7 +1381,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 2, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usa/usaftl
 	title = "USA Fireteam Leader"
@@ -1403,7 +1403,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/usa/usafto
 	title = "USA Rifleman"
@@ -1423,7 +1423,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usaatcom
 	title = "USA AT Commander"
@@ -1442,7 +1442,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), 1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usa/usaat
 	title = "USA AT Gunner"
@@ -1462,7 +1462,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usaata
 	title = "USA AT Asistant"
@@ -1482,7 +1482,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
 /datum/job/escalation/usa/usaftmg
@@ -1503,7 +1503,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usaftg
 	title = "USA Fireteam Grenadier"
@@ -1523,7 +1523,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usaftmga
 	title = "USA Fireteam Machinegunner Assistant"
@@ -1543,4 +1543,4 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
