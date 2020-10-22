@@ -348,6 +348,9 @@
 		if(!(affecting.organ_tag in splintable_organs))
 			to_chat(user, "<span class='danger'>You can't use \the [src] to apply a splint there!</span>")
 			return
+		if(!(affecting.status & ORGAN_BROKEN))//There is nothing to fix don't fix anything.
+			to_chat(user, "<span class='danger'>Why would I apply \the [src]? There's nothing to fix. </span>")
+			return
 		if(affecting.splinted)
 			to_chat(user, "<span class='danger'>[M]'s [limb] is already splinted!</span>")
 			return
@@ -359,7 +362,7 @@
 				to_chat(user, "<span class='danger'>You can't apply a splint to the arm you're using!</span>")
 				return
 			user.visible_message("<span class='danger'>[user] starts to apply \the [src] to their [limb].</span>", "<span class='danger'>You start to apply \the [src] to your [limb].</span>", "<span class='danger'>You hear something being wrapped.</span>")
-		if(do_after(user, 50, M))
+		if(do_after(user, max(20, 50 - (user.skill_medicine*15)), M))
 			if(M == user && !user.statscheck(user.skill_medicine, user.int, 8, 0, src))
 				user.visible_message("<span class='danger'>\The [user] fumbles [src].</span>", "<span class='danger'>You fumble [src].</span>", "<span class='danger'>You hear something being wrapped.</span>")
 				return
@@ -411,7 +414,7 @@
 			to_chat(user, "<span class='danger'>You can't use \the [src] to apply a tourniquet there!</span>")
 			return
 		if(!(affecting.status & ORGAN_ARTERY_CUT))//There is nothing to fix don't fix anything.
-			to_chat(user, "<span class='danger'>Why would I use \the [src]? There's nothing to fix. </span>")
+			to_chat(user, "<span class='danger'>Why would I apply \the [src]? There's nothing to fix. </span>")
 			return
 		if(affecting.tourniqueted)
 			to_chat(user, "<span class='danger'>[M]'s [limb] is already tourniqueted!</span>")
@@ -424,8 +427,8 @@
 				to_chat(user, "<span class='danger'>You can't apply a tourniquet to the arm you're using!</span>")
 				return
 			user.visible_message("<span class='danger'>[user] starts to apply \the [src] to their [limb].</span>", "<span class='danger'>You start to apply \the [src] to your [limb].</span>", "<span class='danger'>You hear something being wrapped.</span>")
-		if(do_after(user, 50, M))
-			if(M == user && !user.statscheck(user.skill_medicine, user.int, 1, 1, src))
+		if(do_after(user, max(20, 50 - (user.skill_medicine*15)), M))
+			if(M == user && !user.statscheck(user.skill_medicine, user.int, 3, 1, src))
 				user.visible_message("<span class='danger'>\The [user] fumbles [src].</span>", "<span class='danger'>You fumble [src].</span>", "<span class='danger'>You hear something being wrapped.</span>")
 				return
 			var/obj/item/stack/medical/tourniquet/S = split(1)
