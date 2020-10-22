@@ -164,7 +164,7 @@
 	name = "sand"
 	icon_state = "sand"
 	blend_with_neighbors = 1
-	movement_delay = 1
+	movement_delay = 0.7
 
 /turf/unsimulated/ground/grass
 	name = "grass"
