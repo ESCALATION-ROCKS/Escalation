@@ -900,7 +900,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(rand(-1, 0), rand(0,1), 0, 0, rand(2,3), rand(0,1), rand(0,1), -1, 0, rand(0,1))
+		H.add_skills(0, 0, -1, -1, 2, 0, 1, 0)
 
 /datum/job/escalation/baf/bafsurgeon
 	title = "BAF Field Surgeon"

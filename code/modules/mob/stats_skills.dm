@@ -206,7 +206,7 @@ proc/statadder(var/stat)
 		if(13 to INFINITY)
 			return  1.2
 
-/mob/proc/add_skills(var/melee, var/ranged, var/mechanic, var/engineering, var/medicine, var/engineering, var/athlethics, var/leadership, var/science, var/cooking)//To make adding skills quicker.
+/mob/proc/add_skills(var/melee, var/ranged, var/mechanic, var/engineering, var/medicine, var/athlethics, var/leadership, var/cooking)//To make adding skills quicker.
 	if(melee)
 		skill_melee = melee
 	if(ranged)
@@ -221,7 +221,9 @@ proc/statadder(var/stat)
 		skill_athlethics = athlethics
 	if(leadership)
 		skill_leadership = leadership
+/*
 	if(science)
 		skill_science = science
+*/
 	if(cooking)
 		skill_cooking = cooking
