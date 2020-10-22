@@ -410,6 +410,9 @@
 		if(!(affecting.organ_tag in tourniquetable_organs))
 			to_chat(user, "<span class='danger'>You can't use \the [src] to apply a tourniquet there!</span>")
 			return
+		if(!(affecting.status & ORGAN_ARTERY_CUT))//There is nothing to fix don't fix anything.
+			to_chat(user, "<span class='danger'>Why would I use \the [src]? There's nothing to fix. </span>")
+			return
 		if(affecting.tourniqueted)
 			to_chat(user, "<span class='danger'>[M]'s [limb] is already tourniqueted!</span>")
 			return
