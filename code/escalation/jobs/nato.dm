@@ -789,7 +789,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		 H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/mgop
 	title = "BDW HWS Operator"
@@ -1189,7 +1189,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		 H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/usa/usaratelo
 	title = "USA Radiotelephone Operator"
@@ -1209,7 +1209,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		 H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
 
 /datum/job/escalation/usa/messenger
 	title = "USA Messenger"
