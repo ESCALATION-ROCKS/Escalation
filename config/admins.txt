@@ -1,13 +1,12 @@
 bundeswehr - Host
-cabostein - HeadDeveloper
-DanseMacabre - GameAdmin
-xlyana - GameAdmin
+cabostein - Head Developer
+xlyana - Head Administrator
+
+emoats18 - Senior Administrator
+SilverSZ - Senior Administrator
+
 brosephstylin - Developer
-SeverePwnage - Developer
-emoats18 - GameAdmin
-SilverSZ - GameAdmin
 Toxici11i - Developer
 optimisticdude - Developer
-
-evenindeathistillserve - Moderator
+evenindeathistillserve - Developer
 verarch - Moderator
