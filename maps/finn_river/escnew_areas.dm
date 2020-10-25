@@ -33,14 +33,10 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	base_turf = /turf/unsimulated/ground/
 	ambience = list (
 	'sound/ambience/coldwar/0Background0.ogg',
-	'sound/ambience/coldwar/0Background0.ogg',
-	'sound/ambience/coldwar/0Background1.ogg',
 	'sound/ambience/coldwar/0Background1.ogg',
 	'sound/ambience/coldwar/0Background2.ogg',
 	'sound/ambience/coldwar/0Background3.ogg',
 	'sound/ambience/coldwar/0Background4.ogg',
-	'sound/ambience/coldwar/1Background0.ogg',
-	'sound/ambience/coldwar/1Background1.ogg',
 	)
 
 /area/coldwar/surrounding
@@ -99,7 +95,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 /area/coldwar/civdef
 	name = "civil defence bunker"
 	icon_state = "civildefence"
-	sound_env = LARGE_ENCLOSED
+	sound_env = LIVINGROOM
 	ambience = null
 	requires_power = 0
 	dynamic_lighting = 1
@@ -293,6 +289,8 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	requires_power = 0
 	dynamic_lighting = 1
 
+
+
 /area/coldwar/shop
 	name = "shop"
 	icon_state = "house"
@@ -317,14 +315,13 @@ var/list/interior_areas = list(/area/coldwar/house1,
 /area/coldwar/usmcfob
 	name = "USMC FOB"
 	icon_state = "usmcfob"
-	sound_env = PLAIN
+	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
 
 /area/coldwar/warpactfob
 	name = "WARPACT FOB"
 	icon_state = "foboutside"
-	sound_env = PLAIN
+	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
-
