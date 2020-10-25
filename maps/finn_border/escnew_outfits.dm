@@ -720,13 +720,12 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/storage/backpack/usmcm3
 	head = /obj/item/clothing/head/usmc/cap/woodland
+	/obj/item/clothing/suit/armor/vest/coat/usa
 	l_pocket = /obj/item/weapon/key/natomed
-	r_pocket = null
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usmc/corpsman/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usmc/doctor

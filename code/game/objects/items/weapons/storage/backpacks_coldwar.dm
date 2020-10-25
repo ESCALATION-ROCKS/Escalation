@@ -38,7 +38,7 @@
 			/obj/item/stack/medical/tourniquet,
 			/obj/item/weapon/reagent_containers/syringe,
 			/obj/item/weapon/storage/fancy/syringe,
-			/obj/item/weapon/reagent_containers/glass/ampule_box,
+
 			/obj/item/weapon/reagent_containers/syrette,
 			/obj/item/weapon/reagent_containers/glass/bottle,
 			/obj/item/weapon/reagent_containers/pill,
@@ -107,7 +107,7 @@
 			/obj/item/stack/medical/tourniquet,
 			/obj/item/weapon/reagent_containers/syringe,
 			/obj/item/weapon/storage/fancy/syringe,
-			/obj/item/weapon/reagent_containers/glass/ampule_box,
+
 			/obj/item/weapon/reagent_containers/syrette,
 			/obj/item/weapon/reagent_containers/glass/bottle,
 			/obj/item/weapon/reagent_containers/pill,
@@ -145,7 +145,7 @@
 			/obj/item/stack/medical/tourniquet,
 			/obj/item/weapon/reagent_containers/syringe,
 			/obj/item/weapon/storage/fancy/syringe,
-			/obj/item/weapon/reagent_containers/glass/ampule_box,
+
 			/obj/item/weapon/reagent_containers/syrette,
 			/obj/item/weapon/reagent_containers/glass/bottle,
 			/obj/item/weapon/reagent_containers/pill,
@@ -195,7 +195,7 @@
 			/obj/item/stack/medical/tourniquet,
 			/obj/item/weapon/reagent_containers/syringe,
 			/obj/item/weapon/storage/fancy/syringe,
-			/obj/item/weapon/reagent_containers/glass/ampule_box,
+
 			/obj/item/weapon/reagent_containers/syrette,
 			/obj/item/weapon/reagent_containers/glass/bottle,
 			/obj/item/weapon/reagent_containers/pill,
@@ -291,7 +291,7 @@
 			/obj/item/stack/medical/tourniquet,
 			/obj/item/weapon/reagent_containers/syringe,
 			/obj/item/weapon/storage/fancy/syringe,
-			/obj/item/weapon/reagent_containers/glass/ampule_box,
+
 			/obj/item/weapon/reagent_containers/syrette,
 			/obj/item/weapon/reagent_containers/glass/bottle,
 			/obj/item/weapon/reagent_containers/pill,
@@ -370,7 +370,7 @@
 			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1,
-			/obj/item/weapon/reagent_containers/syringe
+			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
@@ -382,7 +382,7 @@
 			/obj/item/stack/medical/tourniquet,
 			/obj/item/weapon/reagent_containers/syringe,
 			/obj/item/weapon/storage/fancy/syringe,
-			/obj/item/weapon/reagent_containers/glass/ampule_box,
+
 			/obj/item/weapon/reagent_containers/syrette,
 			/obj/item/weapon/reagent_containers/glass/bottle,
 			/obj/item/weapon/reagent_containers/pill,
