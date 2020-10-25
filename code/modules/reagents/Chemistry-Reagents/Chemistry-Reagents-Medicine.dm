@@ -185,7 +185,7 @@
 	flags = IGNORE_MOB_SIZE
 
 /datum/reagent/paracetamol/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	M.add_chemical_effect(CE_PAINKILLER, 10)
+	M.add_chemical_effect(CE_PAINKILLER, 30)
 
 /datum/reagent/paracetamol/overdose(var/mob/living/carbon/M, var/alien)
 	..()
@@ -900,7 +900,7 @@
 /datum/reagent/aminocaproic/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien != IS_DIONA)
 		M.add_chemical_effect(CE_HEMOSTATIC, 4)
-		M.heal_organ_damage(1 * removed, 0)
+		M.heal_organ_damage(3 * removed, 0)
 
 /datum/reagent/aminocaproic/overdose(var/mob/living/carbon/M, var/alien)
 	..()
