@@ -100,8 +100,8 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/corpsman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 0
-	amount = 3
+	enabled = 1
+	amount = 1
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 30, LANGUAGE_FINNISH = 30)
 

@@ -160,10 +160,10 @@
 	selection_color = "#B22222"
 	rank_number = 4
 	position = "team"
-	amount = 4
-	enabled = 0
+	amount = 1
+	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30)
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -183,7 +183,7 @@
 	amount = 1
 	enabled = 0
 	whitelist_rank = "sa_officer"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -224,7 +224,7 @@
 	enabled = 1
 	leading = 1
 	whitelist_rank = "sa_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_FINNISH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -964,7 +964,7 @@
 	amount = 3
 	enabled = 1
 	whitelist_rank = "finns_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()

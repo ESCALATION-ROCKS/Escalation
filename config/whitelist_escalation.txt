@@ -74,6 +74,7 @@ finn_enlisted
 
 Murgel = {
 finn_enlisted
+finns_enlisted
 }
 
 FoxTail_99 = {
@@ -126,6 +127,7 @@ finn_enlisted
 
 Bob Cool = {
 finn_enlisted
+finns_enlisted
 }
 
 Atlasrules87 = {
@@ -133,10 +135,6 @@ finn_enlisted
 }
 
 turtlecactus = {
-finn_enlisted
-}
-
-FireNightPower = {
 finn_enlisted
 }
 
@@ -227,6 +225,7 @@ CeSium_Shark = {
 bdw_officer
 bdw_nco
 bdw_enlisted
+baf_enlisted
 }
 
 Dantzy = {
@@ -237,6 +236,8 @@ bdw_enlisted
 
 Gy1ta23 = {
 bdw_enlisted
+BAF_officer
+baf_nco
 }
 
 Bekons = {
@@ -246,6 +247,7 @@ bdw_enlisted
 
 PepeFrog = {
 bdw_enlisted
+usmc_enlisted
 }
 
 KillingSpree13 = {
@@ -259,10 +261,14 @@ bdw_enlisted
 NazbolGang = {
 bdw_nco
 bdw_enlisted
+usmc_enlisted
+us_nco
+usmc_nco
 }
 
 Jackomago61 = {
 bdw_enlisted
+baf_enlisted
 }
 
 TheElderHobo = {
@@ -276,14 +282,17 @@ bdw_enlisted
 
 Subdon = {
 bdw_enlisted
+baf_enlisted
 }
 
 Bongosz = {
 bdw_enlisted
+baf_enlisted
 }
 
 Carnator = {
 bdw_enlisted
+baf_enlisted
 }
 
 WrongKeyo360 = {
@@ -306,6 +315,7 @@ bdw_enlisted
 Taumanta = {
 bdw_nco
 bdw_enlisted
+baf_nco
 }
 
 ExecutorPartner = {
@@ -314,6 +324,7 @@ bdw_enlisted
 
 AsbestosMan = {
 bdw_enlisted
+baf_enlisted
 }
 
 Lautaroluna180 = {
@@ -334,14 +345,19 @@ bdw_enlisted
 
 bardinatavern = {
 bdw_enlisted
+baf_enlisted
+baf_nco
+baf_officer
 }
 
 Yarnhut = {
 bdw_enlisted
+baf_enlisted
 }
 
 Auzoil = {
 bdw_enlisted
+baf_enlisted
 }
 
 SpicySalami = {
@@ -355,6 +371,7 @@ bdw_enlisted
 
 TeenGowen = {
 bdw_enlisted
+usmc
 }
 
 Master8688 = {
@@ -363,6 +380,7 @@ bdw_enlisted
 
 Zach666 = {
 bdw_enlisted
+baf_enlisted
 }
 
 Ethan100000llahd = {
@@ -371,6 +389,7 @@ bdw_enlisted
 
 optimisticdude = {
 bdw_enlisted
+::ALL::
 }
 
 Bobalobdob = {
@@ -387,14 +406,18 @@ bdw_enlisted
 
 BonelessJuice = {
 bdw_enlisted
+baf_enlisted
 }
 
 Pahndoomack = {
 bdw_enlisted
+baf_enlisted
 }
 
 Dudo = {
 bdw_enlisted
+nato_enlisted
+baf_enlisted
 }
 
 Tonklaa = {
@@ -403,6 +426,7 @@ bdw_enlisted
 
 Demkova = {
 bdw_enlisted
+sa_enlisted
 }
 
 TacticalPractical = {
@@ -428,4 +452,220 @@ bdw_enlisted
 
 Flynnzbichek = {
 bdw_enlisted
+}
+Rippie129 = {
+baf_enlisted
+baf_nco
+}
+
+teknokot = {
+SA_officer
+sa_enlisted
+::ALL::
+sa_nco
+}
+
+
+
+johnravioli = {
+sa_enlisted
+}
+
+The Elder Hobo = {
+baf_enlisted
+}
+
+
+
+
+demtrixD = {
+::ALL::
+baf_enlisted
+}
+
+
+
+battieralarm3 = {
+usmc_enlisted
+}
+
+googles_hands = {
+baf_officer
+baf_nco
+baf_enlisted
+}
+
+
+foxtail99 = {
+finns_enlisted
+}
+
+theflyingbananagaming = {
+sa_nco
+sa_officer
+cccp
+}
+
+
+johndisnebelgram = {
+finn_enlisted
+}
+
+
+
+
+
+Shellshocked1945 = {
+sa_enlisted
+finn_enlisted
+}
+
+Johndis Nebelgran = {
+finn_enlisted
+}
+
+lolzalolka = {
+finn_enlisted
+}
+
+
+
+
+
+
+Novacommander = {
+baf_enlisted
+}
+
+DERPYMCDERPDERP = {
+usmc
+::ALL::
+}
+
+Kyrac = {
+sa_enlisted
+}
+
+
+
+ragdoll_hooman = {
+baf_enlisted
+}
+
+SilencedMP5A5 = {
+sa_enlisted
+}
+
+Fauxvail = {
+baf_enlisted
+}
+
+I like D0nUts = {
+baf_officer
+}
+
+CokeUser = {
+baf_officer
+}
+
+
+
+Cryleve = {
+finn_enlisted
+}
+
+SylvinSeik = {
+baf_enlisteed
+baf_enlisted
+}
+
+
+
+
+Dudeman100 = {
+sa_enlisted
+finn_enlisted
+}
+
+absolutejerry = {
+finn_enlisted
+}
+
+
+
+
+cesiumshark = {
+baf_enlisted
+}
+
+littleplayer0102 = {
+finn_enlisted
+}
+
+
+
+
+
+
+
+
+tristan63 = {
+finn_enlisted
+}
+
+albertblackwell = {
+baf_enlisted
+baf_nco
+}
+
+ollanius = {
+finn_enlisted
+}
+
+redkiller922 = {
+finn_enlisted
+}
+
+cdrriley = {
+finn_enlisted
+}
+
+
+Booperkin343435 = {
+finn_enlisted
+}
+
+
+AlexUNDRRRMKaroff = {
+finn_enlisted
+}
+
+ToasterRoboto = {
+usmc
+}
+
+
+
+
+O Tal Do Pug = {
+sa_enlisted
+}
+
+Moorish_infanteer = {
+baf_enlisted
+}
+
+NobleRank = {
+finn_enlisted
+}
+
+
+
+
+KYSdude = {
+finn_enlisted
+}
+
+Liberie  = {
+baf_enlisted
 }
