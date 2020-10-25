@@ -251,6 +251,9 @@
 //It automatically updates damage overlays if necesary
 //It automatically updates health status
 /mob/living/carbon/human/heal_organ_damage(var/brute, var/burn)
+	if(buckled && istype(buckled,/obj/structure/bed)) //Faster healing when on a bed.
+		brute *= 2
+		burn *= 2
 	var/list/obj/item/organ/external/parts = get_damaged_organs(brute,burn)
 	if(!parts.len)	return
 	var/obj/item/organ/external/picked = pick(parts)
