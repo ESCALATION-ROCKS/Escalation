@@ -227,7 +227,9 @@
 		if("Reset Machine")
 			usr.unset_machine()
 		if("surrender")
-			usr.surrender()
+			if(isliving(usr))
+				var/mob/living/carbon/L = usr
+				L.surrender()
 		if("internal")
 			if(iscarbon(usr))
 				var/mob/living/carbon/C = usr

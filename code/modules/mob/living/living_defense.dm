@@ -272,6 +272,9 @@
 /mob/living/proc/update_fire()
 	return
 
+/mob/living/proc/update_surrender()
+	return
+
 /mob/living/proc/adjust_fire_stacks(add_fire_stacks) //Adjusting the amount of fire_stacks we have on person
 	fire_stacks = Clamp(fire_stacks + add_fire_stacks, FIRE_MIN_STACKS, FIRE_MAX_STACKS)
 
@@ -301,6 +304,15 @@
 	if(fire_stacks <= 4 || fire_burn_temperature() < temperature)
 		adjust_fire_stacks(2)
 	IgniteMob()
+
+/mob/living/proc/surrender_Start()
+	if(!surrendering)
+		surrendering = 1 
+		update_surrender()
+
+/mob/living/proc/surrender_End()
+	surrendering = 0 
+	update_surrender()
 
 /mob/living/proc/get_cold_protection()
 	return 0

@@ -143,7 +143,8 @@ Please contact me on #coderbus IRC. ~Carn x
 #define R_HAND_LAYER			29
 #define FIRE_LAYER				30		//If you're on fire
 #define TARGETED_LAYER			31		//BS12: Layer for the target overlay from weapon targeting system
-#define TOTAL_LAYERS			31
+#define SURRENDER_LAYER			32
+#define TOTAL_LAYERS			32
 
 /mob/living/carbon/human
 	var/list/overlays_standing[TOTAL_LAYERS]
@@ -803,6 +804,15 @@ var/global/list/damage_icon_parts = list()
 	overlays_standing[SURGERY_LEVEL] = total
 	if(update_icons)   update_icons()
 
+/mob/living/carbon/human/update_surrender(var/update_icons=1)
+	overlays_standing[SURRENDER_LAYER] = null
+	if(surrendering)
+		var/image/surrender = overlay_image('icons/mob/france.dmi', "preview_f", RESET_COLOR)
+		overlays_standing[SURRENDER_LAYER] = surrender
+	if(update_icons)   update_icons()
+
+	addtimer(CALLBACK(src, /mob/living/proc/surrender_End), 200)
+
 //Human Overlays Indexes/////////
 #undef MUTATIONS_LAYER
 #undef DAMAGE_LAYER
@@ -828,4 +838,5 @@ var/global/list/damage_icon_parts = list()
 #undef R_HAND_LAYER
 #undef TARGETED_LAYER
 #undef FIRE_LAYER
+#undef SURRENDER_LAYER	
 #undef TOTAL_LAYERS

@@ -22,7 +22,7 @@
 	var/mode = SYRINGE_DRAW
 	var/image/filling //holds a reference to the current filling overlay
 	var/visible_name = "a syringe"
-	var/time = 30
+	var/time = 80
 	var/drawing = 0
 
 /obj/item/weapon/reagent_containers/syringe/on_reagent_change()
@@ -170,9 +170,9 @@
 					to_chat(user, "<span class='danger'>You cannot inject a robotic limb.</span>")
 					return
 
-			if(ismob(target) && target != user)
+			if(ismob(target))
 
-				var/injtime = time //Injecting through a hardsuit takes longer due to needing to find a port.
+				var/injtime = (time - (user.skill_medicine*25)) //Erryone has a delay now, how long it is is decided by their medical skill.
 
 				if(istype(H))
 					if(H.wear_suit)
