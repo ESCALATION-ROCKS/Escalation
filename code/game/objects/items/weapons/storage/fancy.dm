@@ -381,7 +381,7 @@
 
 	key_type = /obj/item/clothing/mask/smokable/cigarette/menthol
 	startswith = list(/obj/item/clothing/mask/smokable/cigarette/menthol = 6)
-	
+
 /obj/item/weapon/storage/fancy/cigarettes/newports
 	name = "pack of Newports"
 	desc = "Alive with Pleasure."
@@ -447,3 +447,6 @@
 		/obj/item/weapon/reagent_containers/syringe,
 		/obj/item/weapon/reagent_containers/syringe
 		)
+
+/obj/item/weapon/storage/fancy/syringe/New()
+	icon_state = "syringe_case_[rand(1,6)]"

@@ -360,7 +360,7 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 
 /obj/item/weapon/reagent_containers/pill/angiotensin
 	name = "Angiotensin pill"
-	desc = "Effective Compound which helps restore bloodflow to the Brain and Organs. Useful for Toxin and Brain Damage."
+	desc = "An effective compound which helps restore bloodflow to the brain and organs, useful for toxin and brain damage."
 	icon_state = "pill11"
 	New()
 		..()

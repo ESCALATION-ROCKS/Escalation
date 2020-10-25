@@ -289,9 +289,11 @@ var/list/interior_areas = list(/area/coldwar/house1,
 /area/coldwar/fobindoors
 	name = "USMC FOB"
 	icon_state = "house"
-	sound_env = LIVINGROOM
+	sound_env = LARGE_ENCLOSED
 	requires_power = 0
 	dynamic_lighting = 1
+	ambience = null
+
 
 /area/coldwar/shop
 	name = "shop"
@@ -317,14 +319,15 @@ var/list/interior_areas = list(/area/coldwar/house1,
 /area/coldwar/usmcfob
 	name = "USMC FOB"
 	icon_state = "usmcfob"
-	sound_env = PLAIN
+	sound_env = LARGE_ENCLOSED
 	requires_power = 0
 	dynamic_lighting = 1
+	ambience = null
 
 /area/coldwar/warpactfob
 	name = "WARPACT FOB"
 	icon_state = "foboutside"
-	sound_env = PLAIN
+	sound_env = LARGE_ENCLOSED
 	requires_power = 0
 	dynamic_lighting = 1
-
+	ambience = null

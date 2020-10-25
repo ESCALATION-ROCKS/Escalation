@@ -14,17 +14,36 @@
 	icon_state = "bundes_med"
 	item_state = "bundes_med"
 	reachable = 1
-	max_storage_space = 15
+	max_storage_space = 20
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
-			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
-			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/ointment = 1,
-			/obj/item/stack/medical/splint = 1)
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/weapon/reagent_containers/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/glass/ampule_box,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			/obj/item/weapon/reagent_containers/syringe,
+			)
 
 /obj/item/weapon/storage/backpack/bundes_buttpack
 	name = "BDW field pack"
@@ -64,18 +83,36 @@
 	icon_state = "usmc_med"
 	item_state = "usmc_med"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	max_storage_space = 6
+	max_storage_space = 20
 	reachable = 1
-	open_delay = 10
+	open_delay = 5
 	startswith = list(
-			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
-			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
-			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/ointment = 1,
-			/obj/item/stack/medical/splint = 1)
-
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/weapon/reagent_containers/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/glass/ampule_box,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			/obj/item/weapon/reagent_containers/syringe,
+			)
 
 /obj/item/weapon/storage/backpack/usmcm3
 	name = "M3 medical pack"
@@ -84,17 +121,36 @@
 	item_state = "m3pack"
 	slot_flags = SLOT_BACK
 	reachable = 1
-	max_storage_space = 15
+	max_storage_space = 20
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
-			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
-			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/ointment = 1,
-			/obj/item/stack/medical/splint = 1)
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/weapon/reagent_containers/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/glass/ampule_box,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			/obj/item/weapon/reagent_containers/syringe,
+			)
 
 /obj/item/weapon/storage/backpack/sovietpack
 	name = "kitbag"
@@ -115,19 +171,36 @@
 	icon_state = "summedsan"
 	item_state = "summedsan"
 	reachable = 1
-	max_storage_space = 10
+	max_storage_space = 20
 	open_delay = 5
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-
 	startswith = list(
-			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
-			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
-			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/ipp = 3,
-			/obj/item/stack/medical/ointment = 2)
-
-
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/weapon/reagent_containers/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/glass/ampule_box,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			/obj/item/weapon/reagent_containers/syringe,
+			)
 /obj/item/weapon/storage/backpack/gassoviet
 	name = "gas mask satchel"
 	desc = "That's a generic gas mask bag commonly used by Warsaw Pact."
@@ -194,18 +267,36 @@
 	icon_state = "summedsan"
 	item_state = "summedsan"
 	reachable = 1
-	max_storage_space = 15
+	max_storage_space = 20
 	open_delay = 5
 	slot_flags = SLOT_BACK
-
 	startswith = list(
-			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
-			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
-			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/ipp = 3,
-//			/obj/item/weapon/storage/fancy/syringe = 1,
-			/obj/item/stack/medical/ointment = 2)
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/weapon/reagent_containers/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/glass/ampule_box,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			/obj/item/weapon/reagent_containers/syringe,
+			)
 
 
 //bri ish
@@ -267,17 +358,36 @@
 	icon_state = "bundes_med"
 	item_state = "bundes_med"
 	reachable = 1
-	max_storage_space = 15
+	max_storage_space = 20
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/storage/box/pill_box/doxycycline = 1,
-			/obj/item/weapon/storage/box/pill_box/phenazepam = 1,
-			/obj/item/weapon/storage/box/ampule_box/morphine = 1,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/ointment = 1,
-			/obj/item/stack/medical/splint = 1)
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/weapon/reagent_containers/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/glass/ampule_box,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			/obj/item/weapon/reagent_containers/syringe,
+			)
 
 //rpg blyat
 

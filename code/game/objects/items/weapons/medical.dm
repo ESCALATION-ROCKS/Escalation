@@ -138,7 +138,7 @@
 
 /obj/item/weapon/pill_pack/angiotensin
 	name = "angiotensin pill pack"
-	desc = "Effective Compound which helps restore bloodflow to the Brain and Organs. Useful for Toxin and Brain Damage."
+	desc = "An effective compound which helps restore bloodflow to the brain and organs, useful for toxin and brain damage."
 	pill_type = /obj/item/weapon/reagent_containers/pill/angiotensin
 
 
@@ -187,7 +187,7 @@
 			if(contents.len)
 				var/obj/O = contents[1]
 				O.loc = user.loc
-				to_chat(user, "<span class='notice'>You ripped the [src.name] by one hand and [O] falls out.</span>")
+				to_chat(user, "<span class='notice'>You ripped the [src.name] with one hand and [O] fell out.</span>")
 			update_icon()
 		else
 			to_chat(user, "<span class='warning'>You tried to rip the [src.name] but failed!</span>")
@@ -303,11 +303,11 @@
 	if(user.get_inactive_hand() == src)
 		if(src.contents.len > 0)
 			var/obj/item/weapon/reagent_containers/glass/ampule/ampule = contents[1]
-			user << "<span class='notice'>You took one [ampule.name] from [src.name]</span>"
+			user << "<span class='notice'>You take one [ampule.name] from [src.name]</span>"
 			user.put_in_active_hand(ampule)
 			update_icon()
 		else
-			user << "<span class='warning'>It's empty!</span>"
+			user << "<span class='warning'>It's empty.</span>"
 	else
 		..()
 
@@ -315,13 +315,13 @@
 	if(src.contents.len > 0)
 		var/obj/item/weapon/reagent_containers/glass/ampule/ampule = contents[1]
 		if(prob(30))
-			user << "<span class='notice'>You took one [ampule.name] from [src.name]</span>"
+			user << "<span class='notice'>You take one [ampule.name] from [src.name]</span>"
 			ampule.loc = user.loc
 			update_icon()
 		else
-			user << "<span class='warning'>You tried to take one [ampule.name] from [src.name] by one hand but failed</span>"
+			user << "<span class='warning'>You tried to take one [ampule.name] from [src.name] with a single hand but failed.</span>"
 	else
-		user << "<span class='warning'>[name] is empty!</span>"
+		user << "<span class='warning'>[name] is empty.</span>"
 
 /obj/item/weapon/ampule_pack/update_icon()
 	icon_state = "[initial(icon_state)][contents.len]"

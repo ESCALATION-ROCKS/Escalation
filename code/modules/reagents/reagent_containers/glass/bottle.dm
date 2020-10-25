@@ -216,11 +216,11 @@
 	name = "doxicycline bottle"
 	desc = "A broad spectrum antibiotic to fight against infections."
 	icon = 'icons/obj/chemical.dmi'
-	icon_state = "bottle-2"
+	icon_state = "bottle-yello"
 
 /obj/item/weapon/reagent_containers/glass/bottle/doxicycline/New()
 	..()
-	reagents.add_reagent(/datum/reagent/doxicycline, 30)
+	reagents.add_reagent(/datum/reagent/doxicycline, 60)
 	update_icon()
 
 
@@ -302,7 +302,7 @@
 	name = "morphine bottle"
 	desc = "A small bottle. Contains Morphine, A Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 	icon = 'icons/obj/chemical.dmi'
-	icon_state = "bottle-4"
+	icon_state = "bottle-purp"
 
 /obj/item/weapon/reagent_containers/glass/bottle/morphine/New()
 	..()
@@ -317,7 +317,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/naltamine/New()
 	..()
-	reagents.add_reagent(/datum/reagent/naltamine, 30)
+	reagents.add_reagent(/datum/reagent/naltamine,60)
 	update_icon()
 
 
@@ -325,7 +325,7 @@
 	name = "salbutamol bottle"
 	desc = "A small bottle which contains a strong bronchodilator. Intended for patients who have their bronches or airways obstructed by helping them breathe.."
 	icon = 'icons/obj/chemical.dmi'
-	icon_state = "bottle-4"
+	icon_state = "bottle-blu"
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/salbutamol, 60)
@@ -335,8 +335,18 @@
 	name = "aminocaproic acid bottle"
 	desc = "A small bottle which contains Aminocaproic Acid. An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
 	icon = 'icons/obj/chemical.dmi'
-	icon_state = "bottle-4"
+	icon_state = "bottle-red"
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/aminocaproic, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/angiotensin
+	name = "angiotensin bottle"
+	desc = "A small bottle which contains Angiotensin. An effective compound which helps restore bloodflow to the brain and organs, useful for toxin and brain damage."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-grene"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/angiotensin, 60)
 		update_icon()

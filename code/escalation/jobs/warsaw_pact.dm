@@ -933,7 +933,7 @@
 /datum/job/escalation/finn/finnratelo
 	title = "FINN Alikersantti"
 	name = "Alikersantti"
-	english_name = "HQ Radio Operator"
+	english_name = "Platoon RTO"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28

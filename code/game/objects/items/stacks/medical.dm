@@ -120,7 +120,7 @@
 	singular_name = "gauze length"
 	desc = "Some sterile gauze to wrap around bloody stumps."
 	icon_state = "brutepack"
-	amount = 4
+	amount = 8
 	origin_tech = list(TECH_BIO = 1)
 	animal_heal = 5
 
@@ -212,7 +212,7 @@
 	singular_name = "ointment"
 	icon_state = "ointment"
 	heal_burn = 1
-	amount = 4
+	amount = 10
 	origin_tech = list(TECH_BIO = 1)
 	animal_heal = 4
 

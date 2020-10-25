@@ -332,3 +332,81 @@
 		/obj/item/weapon/gauze_pack,
 		/obj/item/stack/medical/bruise_pack
 		)
+
+/obj/item/weapon/storage/firstaid/gauze
+	name = "gauze pack"
+	desc = "A small container you can place bandages in."
+	icon_state = "nato_gauze"
+	storage_slots = 4
+	item_state = null
+	w_class = 2
+	slot_flags = SLOT_ID
+	startswith = list(
+		/obj/item/weapon/gauze_pack/gauze,
+		/obj/item/weapon/gauze_pack/gauze,
+		/obj/item/weapon/gauze_pack/gauze,
+		/obj/item/weapon/gauze_pack/gauze
+		)
+
+	can_hold = list(
+		/obj/item/weapon/gauze_pack,
+		)
+
+/obj/item/weapon/storage/firstaid/gauze/wp
+	icon_state = "soviet_gauze"
+	startswith = list(
+		/obj/item/weapon/gauze_pack/ipp,
+		/obj/item/weapon/gauze_pack/ipp,
+		/obj/item/weapon/gauze_pack/ipp,
+		/obj/item/weapon/gauze_pack/ipp
+		)
+
+/obj/item/weapon/storage/firstaid/tour
+	name = "tourniquet pack"
+	desc = "A small container you can place tourniquets in."
+	icon_state = "nato_tour"
+	storage_slots = 4
+	item_state = null
+	w_class = 2
+	slot_flags = SLOT_ID
+	startswith = list(
+		/obj/item/stack/medical/tourniquet/nato,
+		/obj/item/stack/medical/tourniquet/nato,
+		/obj/item/stack/medical/tourniquet/nato,
+		/obj/item/stack/medical/tourniquet/nato
+		)
+
+	can_hold = list(
+		/obj/item/stack/medical/tourniquet
+		)
+
+/obj/item/weapon/storage/firstaid/tour/wp
+	icon_state = "soviet_tour"
+	startswith = list(
+		/obj/item/stack/medical/tourniquet,
+		/obj/item/stack/medical/tourniquet,
+		/obj/item/stack/medical/tourniquet,
+		/obj/item/stack/medical/tourniquet
+		)
+
+
+/obj/item/weapon/storage/firstaid/sa_ifak
+	name = "IFAK"
+	desc = "That's the Individual First Aid Kit, a standard-issued Soviet first aid kit ."
+	icon_state = "soviet_ifak"
+	storage_slots = 3
+	item_state = null
+	w_class = 2
+	slot_flags = SLOT_ID
+	startswith = list(
+		/obj/item/weapon/reagent_containers/syrette/morphine,
+		/obj/item/stack/medical/tourniquet,
+		/obj/item/weapon/gauze_pack/ipp
+		)
+
+	can_hold = list(
+		/obj/item/weapon/reagent_containers/syrette/morphine,
+		/obj/item/stack/medical/tourniquet,
+		/obj/item/weapon/gauze_pack,
+		/obj/item/stack/medical/bruise_pack
+		)
