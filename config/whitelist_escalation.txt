@@ -278,6 +278,7 @@ bdw_enlisted
 LynuahSororitas = {
 bdw_nco
 bdw_enlisted
+baf_enlisted
 }
 
 Subdon = {
@@ -310,6 +311,7 @@ bdw_enlisted
 
 Bonomedia = {
 bdw_enlisted
+baf_enlisted
 }
 
 Taumanta = {
@@ -668,4 +670,10 @@ finn_enlisted
 
 Liberie  = {
 baf_enlisted
+}
+
+
+
+CerberusHellHound = {
+finn_enlisted
 }
