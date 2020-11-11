@@ -82,7 +82,7 @@ var/wlg_selected_cuttree = 0
 					wlg_selected_pine++
 					var/pine = pick(/obj/structure/flora/tree/pine)
 					/*var/pine = pick(/obj/structure/flora/tree/summer,
-									/obj/structure/flora/tree/summer/alt1,    summer
+									/obj/structure/flora/tree/summer/alt1,    change for summer
 									/obj/structure/flora/tree/summer/alt3,     leave just pine for this ,lowchance tree generation is way more diverse!!!!!
 									/obj/structure/flora/tree/summer/alt2)*/
 					new pine(T)
