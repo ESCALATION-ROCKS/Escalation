@@ -1285,6 +1285,90 @@ obj/structure/sign/noshitlers
 	desc = "Does not have any cassette in it."
 	anchored = 0
 
+/obj/structure/sign/vehicle/moskvich1
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich1"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich2
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich2"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich3
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich3"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich4
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich4"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich5
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich5"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich6
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich6"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz1
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz1"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz2
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz2"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz3
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz3"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz4
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz4"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz5
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz5"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz6
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz6"
+	desc = "An old car."
+	anchored = 1
+	
 /obj/structure/sign/soviet_flag
 	name = "Soviet flag"
 	icon = 'icons/obj/decorations.dmi'
