@@ -1,8 +1,9 @@
-bundeswehr - Host
+SeverePwnage - Host
+emoats18 - Host
+
 cabostein - Head Developer
 xlyana - Head Administrator
 
-emoats18 - Senior Administrator
 SilverSZ - Senior Administrator
 
 brosephstylin - Developer
