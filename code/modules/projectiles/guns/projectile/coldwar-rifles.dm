@@ -174,8 +174,8 @@
 	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.ogg'
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.0, 0.1, 0.2),                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=3, burst_accuracy=null,              dispersion=list(0.25, 0.35, 0.7),                    automatic = 0.6),
+		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,            dispersion=list(0.0, 0.1, 0.2),              automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.4,  move_delay=1,    one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.3, 0.4, 0.7),                     automatic = 0.6),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/aks74u/update_icon()
@@ -853,6 +853,46 @@
 		icon_state = "mpikms-empty"
 		wielded_item_state = "mpi-wielded-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiakmk
+	name = "MPi-AKM-K"
+	desc = "That's an outdated carbine used by NVA DDR. Chambers 7.62x39 rounds."
+	icon_state = "mpiakmk"
+	item_state = "aks"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x39"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
+	one_hand_penalty = 5
+	accuracy = 2.6
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
+	bayonet_attachable = 0
+	jam_chance = 0.475
+	slowdown_general = 0.15
+
+	wielded_item_state = "mpi-wielded"
+	fire_sound = 'sound/weapons/gunshot/akm.ogg'
+	unload_sound = 'sound/weapons/gunporn/aks74u_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/aks74u_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/aks74u_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=3.5,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.0, 0.1, 0.2),                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.6,  move_delay=1,    one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.40, 0.50, 0.75),                    automatic = 0.8),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mpiakmk/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "mpiakmk"
+		wielded_item_state = "aks-wielded"
+	else
+		icon_state = "mpiakmk-empty"
+		wielded_item_state = "aks-wielded-empty"
+
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl
 	name = "MPi-KM w/ GP-25"
 	desc = "That's an outdated rifle used by NVA DDR. There's a GP-25 attached to it. Chambers 7.62x39 rounds."
@@ -1127,8 +1167,8 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/aks74u_dist.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,            dispersion=list(0.0, 0.1, 0.20),              automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.5,  move_delay=1,    one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.6),                     automatic = 0.5),
+		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=3, burst_accuracy=null,            dispersion=list(0.0, 0.1, 0.2),              automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.4,  move_delay=1,    one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.3, 0.4, 0.7),                     automatic = 0.6),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74nk/update_icon()
