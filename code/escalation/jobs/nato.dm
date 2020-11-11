@@ -510,7 +510,7 @@
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "bdw_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
 
@@ -519,17 +519,18 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/bund/bdwatgun
-	title = "BDW AT Kanonier"
-	name = "ATS Kanonier"
+	title = "BDW Panzerfaustschutze"
+	name = "Panzerfaustschutze"
+	english_name = "AT Gunner"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatkanonier
 	selection_color = "#4682B4"
-	rank_number = 6
+	rank_number = 2
 	position = "fireteam"
-	amount = 2
+	amount = 1
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
@@ -539,17 +540,17 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwatasst
-	title = "BDW AT Assistent Schutze"
-	name = "ATS Assistent Schutze"
-	english_name = null
+	title = "BDW Panzerfaustschutze Assistant"
+	name = "Panzerfaustschutze Assistant"
+	english_name = "AT Gunner Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatassist
 	selection_color = "#4682B4"
-	rank_number = 6
+	rank_number = 3
 	position = "fireteam"
-	amount = 2
+	amount = 1
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
@@ -743,7 +744,7 @@
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/rifleman
 	selection_color = "#4682B4"
 	position = "fireteam"
-	amount = 4
+	amount = 2
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)

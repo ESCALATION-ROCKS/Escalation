@@ -101,7 +101,7 @@
 	rank_number = 5
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
 
@@ -261,7 +261,7 @@
 	selection_color = "#B22222"
 	rank_number = 5
 	position = "fireteam"
-	amount = 1
+	amount = 2
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 5)
