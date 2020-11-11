@@ -212,7 +212,6 @@
 		)
 	can_hold = list(
 		/obj/item/weapon/gun/launcher/grenade/hk69,
-		/obj/item/weapon/grenade/frag/shell40mm
 		)
 
 
@@ -372,10 +371,7 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/c762x51s
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -392,9 +388,7 @@
 		/obj/item/ammo_magazine/c762x51b/bdw,
 		/obj/item/ammo_magazine/c762x51b/bdw/drum
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51b/bdw
-		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/baf
 	w_class = ITEM_SIZE_HUGE
@@ -410,10 +404,7 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/c762x51s
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -432,12 +423,7 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/c762x51s
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -452,12 +438,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/a9x19s
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/a9x19s,
-		/obj/item/ammo_magazine/a9x19s,
-		/obj/item/ammo_magazine/a9x19s,
-		/obj/item/ammo_magazine/a9x19s
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -473,9 +454,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51b/en
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51b/en
-		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc
 	w_class = ITEM_SIZE_HUGE
@@ -490,11 +469,7 @@
 		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -511,9 +486,7 @@
 		/obj/item/ammo_magazine/c762x51b,
 		/obj/item/ammo_magazine/c556x45b
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51b
-		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	w_class = ITEM_SIZE_HUGE
@@ -530,6 +503,7 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/sa
 	w_class = ITEM_SIZE_HUGE
@@ -544,12 +518,7 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 
@@ -568,13 +537,7 @@
 		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c545x39b,
-		/obj/item/ammo_magazine/c545x39b,
-		/obj/item/ammo_magazine/c545x39b,
-		/obj/item/ammo_magazine/c545x39b
-		)
-
+	startswith = null
 /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	w_class = ITEM_SIZE_HUGE
 	name = "SVD magazine pouch"
@@ -586,6 +549,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54s
 		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
 	w_class = ITEM_SIZE_HUGE
@@ -599,9 +563,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x54b
-		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	w_class = ITEM_SIZE_HUGE
@@ -630,12 +592,7 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 
@@ -652,6 +609,7 @@
 		/obj/item/ammo_magazine/c762x39d,
 		/obj/item/ammo_magazine/c762x39k
 		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/pkm
 	w_class = ITEM_SIZE_HUGE
@@ -665,9 +623,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x54b
-		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	w_class = ITEM_SIZE_HUGE
@@ -682,12 +638,7 @@
 		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/c762x39m
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x39b,
-		/obj/item/ammo_magazine/c762x39b,
-		/obj/item/ammo_magazine/c762x39b,
-		/obj/item/ammo_magazine/c762x39b
-		)
+	startswith = null
 
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
@@ -715,12 +666,7 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x39m,
-		/obj/item/ammo_magazine/c762x39m,
-		/obj/item/ammo_magazine/c762x39m,
-		/obj/item/ammo_magazine/c762x39m
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 	open_delay = 5
@@ -736,9 +682,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x39v
 	)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x39v
-		)
+	startswith = null
 
 
 /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
