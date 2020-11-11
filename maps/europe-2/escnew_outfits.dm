@@ -161,7 +161,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rpk74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -214,12 +214,16 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/radioset/r105d
 	back_2 = /obj/item/weapon/storage/backpack/gassoviet
-	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/radio/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/weapon/gun/projectile/automatic/rifle/aks74, /obj/item/weapon/gun/projectile/automatic/rifle/aks74u)
+
 
 /decl/hierarchy/outfit/job/coldwar/soviet/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Doctor")
@@ -330,14 +334,17 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Funke")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/radioset/r105d
 	back_2 = /obj/item/weapon/storage/backpack/gassoviet
-	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
+
+/decl/hierarchy/outfit/job/coldwar/nvaddr/funke/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/weapon/gun/projectile/automatic/rifle/mpikms, /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74nk)
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR MG")
@@ -396,15 +403,18 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Radio Operator")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
 	back = /obj/item/weapon/radioset/r105d
 	back_2 = /obj/item/weapon/storage/backpack/gassoviet
-	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = null
 	r_pocket = null
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
+
+/decl/hierarchy/outfit/job/coldwar/nvaddr/radio/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/weapon/gun/projectile/automatic/rifle/mpikms, /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74nk)
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/strifle
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR SL Assistant")
@@ -687,7 +697,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rpk74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	suit = /obj/item/clothing/suit/armor/vest/coat/sa
 	head = /obj/item/clothing/head/ushanka/soviet
@@ -744,13 +754,16 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/radioset/r105d
 	back_2 = /obj/item/weapon/storage/backpack/gassoviet
-	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	suit = /obj/item/clothing/suit/armor/vest/coat/sa
 	head = /obj/item/clothing/head/ushanka/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/radio/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/weapon/gun/projectile/automatic/rifle/aks74, /obj/item/weapon/gun/projectile/automatic/rifle/aks74u)
 
 /decl/hierarchy/outfit/job/coldwar/soviet/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Doctor")
