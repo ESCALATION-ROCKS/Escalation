@@ -19,7 +19,7 @@
 	satchel_black = null
 	flags = null
 
- //SOVIET ARMY --------- SUMMER MAP VERSION (WINTER BELOW)
+//SOVIET ARMY --------- SUMMER MAP VERSION (WINTER BELOW)
 /decl/hierarchy/outfit/job/coldwar/soviet/komvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Komandir Vzvoda")
 	uniform = /obj/item/clothing/under/soviet/habe/lt
@@ -54,15 +54,29 @@
 	uniform = /obj/item/clothing/under/soviet/habe/sgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
-	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	r_pocket = /obj/item/weapon/masterkey/sovsarge
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/zamkomod
+	name = OUTFIT_JOB_NAME("Coldwar - Soviet Zamestitel' Komandir Otdeleniya")
+	uniform = /obj/item/clothing/under/soviet/habe/ssgt
+	shoes = /obj/item/clothing/shoes/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	r_pocket = /obj/item/weapon/masterkey/sovsarge
+	head = /obj/item/clothing/head/garcap/soviet
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
 
 /decl/hierarchy/outfit/job/coldwar/soviet/strifle
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Starshiy Strelok")
@@ -282,7 +296,7 @@
 	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/garcap/soviet
-	belt = /obj/item/weapon/storage/belt/harness/sa 
+	belt = /obj/item/weapon/storage/belt/harness/sa
 
 
 //NVA --------- SUMMER MAPS
@@ -521,7 +535,7 @@
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
-/* //SOVIET ARMY --------- WINTER MAP VERSION (SUMMER BELOW)
+/*/SOVIET ARMY --------- WINTER MAP VERSION (SUMMER ABOVE)
 /decl/hierarchy/outfit/job/coldwar/soviet/komvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Komandir Vzvoda")
 	uniform = /obj/item/clothing/under/soviet/habe/lt
@@ -559,11 +573,25 @@
 	uniform = /obj/item/clothing/under/soviet/habe/sgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
+	head = /obj/item/clothing/head/ushanka/soviet/officer
+	suit = /obj/item/clothing/suit/armor/vest/coat/sa/officer
+	r_pocket = /obj/item/weapon/masterkey/sovsarge
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/zamkomod
+	name = OUTFIT_JOB_NAME("Coldwar - Soviet Zamestitel' Komandir Otdeleniya")
+	uniform = /obj/item/clothing/under/soviet/habe/ssgt
+	shoes = /obj/item/clothing/shoes/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
-	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	head = /obj/item/clothing/head/ushanka/soviet/officer
 	suit = /obj/item/clothing/suit/armor/vest/coat/sa/officer
 	r_pocket = /obj/item/weapon/masterkey/sovsarge

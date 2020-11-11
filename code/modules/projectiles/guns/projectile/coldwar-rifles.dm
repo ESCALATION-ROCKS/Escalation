@@ -189,7 +189,7 @@
 		wielded_item_state = "aks-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
-	name = "AK-74"
+	name = "AK-74 w/ GP-25"
 	desc = "A standard-issue Soviet Army combat rifle with a GP-25 launcher attached. Chambers 5.45x39 rounds."
 	icon_state = "ak74gl"
 	item_state = "ak74gl"
@@ -431,7 +431,7 @@
 		wielded_item_state = "m16-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
-	name = "M16A1"
+	name = "M16A1 w/ M203"
 	desc = "A standard-issue USMC combat rifle with a M203 launcher attached. Chambers 5.56x45 rounds."
 	icon_state = "m16a1gl"
 	item_state = "m16gl"
@@ -566,7 +566,7 @@
 		icon_state = "g3a3-old-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
-	name = "G3A3"
+	name = "G3A3 w/ HK79"
 	desc = "A standard-issue Bundeswehr combat rifle with an HK79 launcher attached. Chambers 7.62x51 rounds."
 	icon_state = "g3tgs"
 	item_state = "g3tgs"
@@ -700,7 +700,7 @@
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl
-	name = "Vz.58"
+	name = "Vz.58 w/ GP-25"
 	desc = "A standard-issue CSLA combat rifle with a GP-25 attached."
 	icon_state = "vz58gl"
 	item_state = "vz58gl"
@@ -815,7 +815,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
 	name = "MPi-KMS"
-	desc = "That's an outdated carbine used by NVA DDR. Chambers 7.62x39 rounds."
+	desc = "That's an outdated rifle with a folding stock used by NVA DDR. Chambers 7.62x39 rounds."
 	icon_state = "mpikms"
 	item_state = "mpi"
 	w_class = 5
@@ -854,7 +854,7 @@
 		wielded_item_state = "mpi-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl
-	name = "MPi-KM"
+	name = "MPi-KM w/ GP-25"
 	desc = "That's an outdated rifle used by NVA DDR. There's a GP-25 attached to it. Chambers 7.62x39 rounds."
 	icon_state = "mpikm"
 	item_state = "mpi"
@@ -977,7 +977,7 @@
 		wielded_item_state = "mpik74-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl
-	name = "MPi-AK-74N"
+	name = "MPi-AK-74N w/ GP-25"
 	desc = "A standard-issue NVA DDR rifle with a GP-25 launcher attached. Chambers 5.45x39 rounds."
 	icon_state = "mpik74gp"
 	item_state = "ak74gl"
@@ -1059,7 +1059,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	name = "MPi-AKS-74N"
-	desc = "A lighter version of the standard-issue NVA DDR rifle. Chambers 5.45x39 rounds."
+	desc = "A standard-issue NVA DDR rifle with a folding stock. Chambers 5.45x39 rounds."
 	icon_state = "mpik74s"
 	item_state = "aks"
 	w_class = 5
@@ -1144,7 +1144,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/rk62
 	name = "RK62"
-	desc = "A standard-issue Finnish combat rifle. Chambers 7.62x39 rounds."
+	desc = "A standard-issue Finnish assault rifle. Chambers 7.62x39 rounds."
 	icon_state = "rk62"
 	item_state = "rk62"
 	w_class = 5

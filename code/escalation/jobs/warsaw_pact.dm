@@ -237,7 +237,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/strifle
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/zamkomod
 	selection_color = "#B22222"
 	rank_number = 4
 	position = "fireteam"
