@@ -347,7 +347,7 @@
 			// so that they can be logged even AFTER the mob is deleted or something
 
 		  // Other tags:
-			"compression" = 0, // compressed radio signal
+			"compression" = rand(1,2), // compressed radio signal
 			"message" = rhtml_decode(sanitize(message)), // the actual sent message
 			"connection" = connection, // the radio connection to use
 			"radio" = src, // stores the radio used for transmission
@@ -404,7 +404,7 @@
 		"vname" = M.voice_name, // the name to display if the voice wasn't understood
 		"vmask" = voicemask,	// 1 if the mob is using a voice gas mas
 
-		"compression" = 0, // uncompressed radio signal
+		"compression" = 2, // uncompressed radio signal
 		"message" = rhtml_decode(sanitize(message)), // the actual sent message
 		"connection" = connection, // the radio connection to use
 		"radio" = src, // stores the radio used for transmission
