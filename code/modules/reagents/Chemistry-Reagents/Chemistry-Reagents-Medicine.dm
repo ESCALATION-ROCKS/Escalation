@@ -596,7 +596,6 @@
 	data = 0
 
 /datum/reagent/nicotine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	M.add_chemical_effect(CE_PAINKILLER, 15)
 	if(alien == IS_DIONA)
 		return
 	if(prob(volume*20))
