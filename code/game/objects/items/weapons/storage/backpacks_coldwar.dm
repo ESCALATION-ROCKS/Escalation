@@ -22,8 +22,8 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/tourniquet/nato = 3,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
@@ -87,8 +87,8 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/tourniquet/nato = 3,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
@@ -120,8 +120,8 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/tourniquet/nato = 3,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
@@ -165,8 +165,8 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/gauze_pack/ipp = 3,
-			/obj/item/stack/medical/tourniquet/ = 3,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
@@ -256,8 +256,8 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/gauze_pack/ipp = 3,
-			/obj/item/stack/medical/tourniquet/ = 3,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
@@ -341,8 +341,8 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/gauze_pack/gauze = 3,
-			/obj/item/stack/medical/tourniquet/nato = 3,
+			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
