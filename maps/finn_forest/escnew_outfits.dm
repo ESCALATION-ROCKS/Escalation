@@ -903,6 +903,20 @@
 	head = /obj/item/clothing/head/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
+/decl/hierarchy/outfit/job/coldwar/finn/rocketlead
+	name = OUTFIT_JOB_NAME("Coldwar - FINN RPG Leader")
+	uniform = /obj/item/clothing/under/finn/talvimetsa/lcpl
+	suit = /obj/item/clothing/suit/armor/vest/coat/finn
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
+	back_2 = /obj/item/weapon/gun/launcher/finnrpg
+	back = /obj/item/weapon/storage/backpack/rpgfin
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
+	head = /obj/item/clothing/head/ushanka/finn
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
 /decl/hierarchy/outfit/job/coldwar/finn/rocketass
 	name = OUTFIT_JOB_NAME("Coldwar - FINN RPG Assistant")
 	uniform = /obj/item/clothing/under/finn/talvimetsa/p

@@ -18,8 +18,6 @@ Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
 @END@
 
 # NATO
@@ -27,16 +25,16 @@ Otdelenie 'Anna':cccp
 Squad Delta:usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 @END@
 
-Gruppe Foxtrot:bund
+Gruppe Alpha:bund
 /datum/job/escalation/bund/bdwsl
 /datum/job/escalation/bund/bdwsld
 /datum/job/escalation/bund/bdwsqradio
@@ -48,7 +46,7 @@ Gruppe Foxtrot:bund
 /datum/job/escalation/bund/bdwrifle
 @END@
 
-Gruppe Golf:bund
+Gruppe Bravo:bund
 /datum/job/escalation/bund/bdwsl
 /datum/job/escalation/bund/bdwsld
 /datum/job/escalation/bund/bdwsqradio
@@ -60,7 +58,7 @@ Gruppe Golf:bund
 /datum/job/escalation/bund/bdwrifle
 @END@
 
-Gruppe Hotel:bund
+Gruppe Charlie:bund
 /datum/job/escalation/bund/bdwsl
 /datum/job/escalation/bund/bdwsld
 /datum/job/escalation/bund/bdwsqradio
@@ -72,9 +70,9 @@ Gruppe Hotel:bund
 /datum/job/escalation/bund/bdwrifle
 @END@
 
-Panzerabwehrschutze ATS:bund
+Panzerabwehrschutze Gruppe:bund
 /datum/job/escalation/bund/bdwatlead
-/datum/job/escalation/bund/bdwatasst
+/datum/job/escalation/bund/bdwatgun
 /datum/job/escalation/bund/bdwatasst
 @END@
 
@@ -84,11 +82,9 @@ Squad Alpha:usa
 /datum/job/escalation/usa/usaftg
 /datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
-/datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
-/datum/job/escalation/usa/usafto
-/datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
 @END@
 
@@ -98,11 +94,9 @@ Squad Bravo:usa
 /datum/job/escalation/usa/usaftg
 /datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
-/datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
-/datum/job/escalation/usa/usafto
-/datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
 @END@
 
@@ -112,11 +106,9 @@ Squad Charlie:usa
 /datum/job/escalation/usa/usaftg
 /datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
-/datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
-/datum/job/escalation/usa/usafto
-/datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
 @END@
 
@@ -130,7 +122,7 @@ Squad Alpha:baf
 /datum/job/escalation/baf/bafsl
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafata
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafftmg
@@ -142,7 +134,7 @@ Squad Bravo:baf
 /datum/job/escalation/baf/bafsl
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafata
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafftmg
@@ -154,7 +146,7 @@ Squad Charlie:baf
 /datum/job/escalation/baf/bafsl
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafata
 /datum/job/escalation/baf/baffto
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafftmg
@@ -165,29 +157,17 @@ Squad Charlie:baf
 Heavy Weapons Team:baf
 /datum/job/escalation/baf/bafmgcom
 /datum/job/escalation/baf/bafmgop
-@END@
-
-RESERVE:baf
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafmgload
 @END@
 
 Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
@@ -195,11 +175,11 @@ Gruppe 'Anton':nvaddr
 Gruppe 'Berta':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
@@ -207,11 +187,11 @@ Gruppe 'Berta':nvaddr
 Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
@@ -221,7 +201,6 @@ Rhyma 'Aarne':finn
 /datum/job/escalation/finn/finnsld
 /datum/job/escalation/finn/finnsrad
 /datum/job/escalation/finn/finnmg
-/datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
@@ -235,7 +214,6 @@ Rhyma 'Bertta':finn
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
 @END@
 
 Rhyma 'Celsius':finn
@@ -246,11 +224,10 @@ Rhyma 'Celsius':finn
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
 @END@
 
-Anti-Tank Group:finn
-/datum/job/escalation/finn/finnsl
+Panssarintorjunta Joukkue:finn
+/datum/job/escalation/finn/finnrocketlead
 /datum/job/escalation/finn/finnrocket
 /datum/job/escalation/finn/finnrocket
 /datum/job/escalation/finn/finnrocket
@@ -259,17 +236,5 @@ Anti-Tank Group:finn
 Raskaiden Aseiden Joukkue:finn
 /datum/job/escalation/finn/finnhwtlead
 /datum/job/escalation/finn/finnhwtgnr
-@END@
-
-RESERVE:finn
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
-/datum/job/escalation/finn/finnrifle
+/datum/job/escalation/finn/finnhwtload
 @END@
