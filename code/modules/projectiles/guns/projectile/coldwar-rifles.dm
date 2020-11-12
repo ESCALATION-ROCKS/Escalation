@@ -395,7 +395,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/xm177
 	name = "XM177"
 	desc = "A standard-issue USMC carbine."
-	icon_state = "coltmodel733"
+	icon_state = "xm177"
 	item_state = "m16"
 	w_class = 5
 	load_method = MAGAZINE
@@ -417,17 +417,18 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=5.6,  move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=0.9,  move_delay=1,    one_hand_penalty=3, burst_accuracy = null,            dispersion=list(0.3, 0.4, 0.6),                automatic = 0.9),
-	)
+		list(mode_name="semiauto",     burst=1, burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20)),
+		list(mode_name="automatic",    burst=1, fire_delay=0.8,  move_delay=2,    one_hand_penalty=5, burst_accuracy = null,            dispersion=list(0.3, 0.4, 0.6),                automatic = 0.6),
+		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/xm177/update_icon()
 	..()
+	update_held_icon()
 	if(ammo_magazine)
-		icon_state = "coltmodel733"
+		icon_state = "xm177"
 		wielded_item_state = "m16-wielded"
 	else
-		icon_state = "coltmodel733-empty"
+		icon_state = "xm177-empty"
 		wielded_item_state = "m16-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
@@ -564,6 +565,47 @@
 		icon_state = "g3a3-old"
 	else
 		icon_state = "g3a3-old-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/g3ka4
+	name = "G3KA4"
+	desc = "A standard-issue Bundeswehr carbine. Chambers 7.62x51 rounds."
+	icon_state = "g3ka4"
+	item_state = "g3a3"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x51"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x51
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
+	magazine_type = null
+	one_hand_penalty = 5
+	accuracy = 2.7
+	screen_shake = 1
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
+	bayonet_attachable = 1
+	jam_chance = 0.360
+	slowdown_general = 0.27
+	wielded_item_state = "g3a3-wielded"
+	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
+	unload_sound = 'sound/weapons/gunporn/g3_magout.ogg' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/g3_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=4,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=list(0.0, 0.10, 0.20),           automatic = 0),
+		list(mode_name="automatic",    burst=1, fire_delay=0.3,  move_delay=3,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.4, 0.7, 1),         automatic = 0.8)
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/g3ka4/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "g3ka4"
+		wielded_item_state = "g3a3-wielded"
+	else
+		icon_state = "g3ka4-empty"
+		wielded_item_state = "g3a3-wielded-empty"
+	update_held_icon()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
 	name = "G3A3 w/ HK79"
