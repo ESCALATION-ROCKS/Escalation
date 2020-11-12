@@ -1,4 +1,3 @@
-//you are not so stupid to attach bayonet to marksman riffles, aren't you? -- close quarters sniping
 /obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped
 	name = "M21"
 	desc = "A standard-issue USMC marksman rifle."
@@ -8,6 +7,8 @@
 	accuracy = 5
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	wielded_item_state = "m21-wielded"
+	bayonet_attachable = 1
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 	jam_chance = 0.6
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 	slowdown_general = 0.5
@@ -34,7 +35,7 @@
 
 	src.toggle_scope(usr, 2.4)
 
-/obj/item/weapon/gun/projectile/automatic/svd
+/obj/item/weapon/gun/projectile/automatic/rifle/svd
 	name = "SVD"
 	desc = "A standard-issue Soviet Army and NVA DDR marksman rifle. Chambers 7.62x54 rounds."
 	icon_state = "svd"
@@ -50,6 +51,8 @@
 	magazine_type = null
 	allowed_magazines = /obj/item/ammo_magazine/c762x54s
 	one_hand_penalty = 10
+	bayonet_attachable = 1
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/
 	accuracy = 5
 	fire_sound = 'sound/weapons/gunshot/svd.ogg'
 	wielded_item_state = "svd-wielded"
@@ -65,7 +68,7 @@
 		)
 
 
-/obj/item/weapon/gun/projectile/automatic/svd/update_icon()
+/obj/item/weapon/gun/projectile/automatic/rifle/svd/update_icon()
 	..()
 	if(ammo_magazine)
 		icon_state = "svd"
@@ -75,7 +78,7 @@
 		wielded_item_state = "svd-wielded-empty"
 	update_held_icon()
 
-/obj/item/weapon/gun/projectile/automatic/svd/verb/scope()
+/obj/item/weapon/gun/projectile/automatic/rifle/svd/verb/scope()
 	set name = "Use Scope"
 	set category = "Object"
 	set src in usr
@@ -97,6 +100,8 @@
 	magazine_type = null
 	screen_shake = 2
 	one_hand_penalty = 5
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
+	bayonet_attachable = 1
 	accuracy = 4.7
 	wielded_item_state = "g3sg1-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3sg1.ogg'
@@ -142,6 +147,8 @@
 	load_method = MAGAZINE
 	caliber = "762x51"
 	slot_flags = SLOT_BACK_GUN
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
+	bayonet_attachable = 1
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51wa, /obj/item/ammo_magazine/c762x51wa/ap)
 	magazine_type = null
@@ -279,7 +286,7 @@
 		src.verbs -= /obj/item/weapon/gun/projectile/rifle/boltaction/verb/remove_bayonet
 		update_icon()
 
-//Ends Bayonet Code
+//bayonet for boltactions
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/attack_self(mob/user as mob)
     bolt_open = !bolt_open
