@@ -340,7 +340,7 @@
 	max_shells = 10
 	one_hand_penalty = 8
 	accuracy = 10
-	fire_sound = 'sound/weapons/gunshot/m40a1.ogg'
+	fire_sound = 'sound/weapons/gunshot/l96.ogg'
 	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/m40a1_dist.ogg'
