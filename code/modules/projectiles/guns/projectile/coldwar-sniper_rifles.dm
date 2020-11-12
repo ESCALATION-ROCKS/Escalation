@@ -4,6 +4,7 @@
 	desc = "A standard-issue USMC marksman rifle."
 	icon_state = "m14scoped"
 	item_state = "m21"
+	screen_shake = 2
 	accuracy = 5
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	wielded_item_state = "m21-wielded"
@@ -42,6 +43,7 @@
 	w_class = 5
 	force = 10
 	max_shells = 10
+	screen_shake = 2
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
 	load_method = MAGAZINE
@@ -93,7 +95,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
-	screen_shake = 1
+	screen_shake = 2
 	one_hand_penalty = 5
 	accuracy = 4.7
 	wielded_item_state = "g3sg1-wielded"
@@ -135,6 +137,7 @@
 	item_state = "wa2000"
 	w_class = 5
 	force = 10
+	screen_shake = 1
 	max_shells = 6
 	load_method = MAGAZINE
 	caliber = "762x51"
@@ -326,7 +329,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51l)
 	wielded_item_state = "l96-wielded"
 	w_class = ITEM_SIZE_HUGE
-	screen_shake = 1 //extra kickback
+	screen_shake = 3 //extra kickback
 	max_shells = 10
 	one_hand_penalty = 8
 	accuracy = 10
@@ -363,7 +366,7 @@
 	caliber = "762x53"
 	wielded_item_state = "tkiv-wielded"
 	w_class = ITEM_SIZE_LARGE
-	screen_shake = 1 //extra kickback
+	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING|SPEEDLOADER
 	max_shells = 5
@@ -403,7 +406,7 @@
 	caliber = "762x51"
 	wielded_item_state = "tm40a1-wielded"
 	w_class = ITEM_SIZE_LARGE
-	screen_shake = 1 //extra kickback
+	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING|SPEEDLOADER
 	max_shells = 5
