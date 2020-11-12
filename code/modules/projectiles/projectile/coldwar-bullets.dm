@@ -61,6 +61,25 @@
 	armor_penetration = 60
 	penetration_modifier = 0.4
 
+/obj/item/projectile/bullet/rifle/a762x53
+	penetrating = 1
+	armor_penetration = 31
+	penetration_modifier = 0.3
+	embed = 1
+	kill_count = 120
+	agony = 20
+
+	New()
+		damage = rand(39, 48)
+		penetrating = rand(0, 1)
+
+/obj/item/projectile/bullet/rifle/a762x53/tr
+	icon_state = "bullet_tracer"
+
+/obj/item/projectile/bullet/rifle/a762x53/ap
+	armor_penetration = 60
+	penetration_modifier = 0.4
+
 /obj/item/projectile/bullet/rifle/a545x39
 	armor_penetration = 26
 	penetration_modifier = 0.3

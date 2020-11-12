@@ -93,6 +93,30 @@
 /obj/item/ammo_magazine/c762x51s/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/c762x51l
+	name = "L96 magazine (7.62x51mm)"
+	desc = "An L96 magazine that fits ten 7.62x51mm rounds."
+	icon_state = "l96"
+	mag_type = MAGAZINE
+	caliber = "762x51"
+	ammo_type = /obj/item/ammo_casing/a762x51
+	max_ammo = 10
+	multiple_sprites = 1
+	load_delay = 7
+
+/obj/item/ammo_magazine/c762x51l/ap
+	name = "AP L96 magazine (7.62x51mm)"
+	desc = "An L96 magazine that fits ten armor-piercing 7.62x51mm rounds."
+	ammo_type = /obj/item/ammo_casing/a762x51/ap
+
+/obj/item/ammo_magazine/c762x51l/tr
+	name = "tracer magazine (7.62x51mm)"
+	desc = "An L96 magazine that fits ten 7.62x51mm tracer rounds."
+	ammo_type = /obj/item/ammo_casing/a762x51/tr
+
+/obj/item/ammo_magazine/c762x51l/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c762x51b
 	name = "M60 belt box (7.62x51mm)"
 	desc = "An M60 box that fits one hundred 7.62x51mm rounds."
@@ -869,3 +893,29 @@
 	icon_state = "csla_box"
 	ammo_type = /obj/item/ammo_casing/a9x18/tr
 	caliber = "9x18"
+
+/////////////////// clips
+
+/obj/item/ammo_magazine/box/clip/t762x53
+	name = "TKIV clip (7.62x53mm)"
+	desc = "A clip of 7.62x53mm ammunition."
+	icon_state = "clip_rifle"
+	caliber = "7.62x53"
+	ammo_type = /obj/item/ammo_casing/a762x53
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/a762x53/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/box/clip/t762x51
+	name = "handful of bullets (7.62x51mm)"
+	desc = "A handful of black-tipped 7.62x51mm bullets."
+	icon_state = "m40"
+	caliber = "7.62x51"
+	ammo_type = /obj/item/ammo_casing/a762x51
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/a762x51/empty
+	initial_ammo = 0

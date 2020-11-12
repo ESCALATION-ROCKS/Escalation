@@ -220,3 +220,215 @@
 	set popup_menu = 0
 
 	src.toggle_scope(usr, 3.4)
+
+/////////---------------BOLT ACTIONS
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/
+	slot_flags = SLOT_BACK_GUN
+	var/bolt_open = 0
+	var/bayonet_type = null
+	var/bayonet_attachable = 0
+	var/obj/item/weapon/material/knife/bayonet/knife = null
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/New()
+	..()
+	src.verbs -= /obj/item/weapon/gun/projectile/rifle/boltaction/verb/remove_bayonet
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	if(istype(W, src.bayonet_type) && bayonet_attachable)
+		knife = W
+		user.drop_item()
+		W.loc = src
+		src.attack_verb = W.attack_verb
+		src.sharp += W.sharp
+		src.force += W.force
+		bayonet_attachable = 0
+		to_chat(user, "<span class='notice'>You attach [knife.name] to the [src].</span>")
+		src.verbs += /obj/item/weapon/gun/projectile/rifle/boltaction/verb/remove_bayonet
+		update_icon()
+	..()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/update_icon()
+	..()
+	if(knife)
+		var/image/I = image('icons/obj/bayonets.dmi', src, knife.icon_state)
+		I.pixel_x += 10
+		I.pixel_y += 10
+		overlays += I
+	else
+		overlays.Cut()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/verb/remove_bayonet()
+	set name = "Detach Bayonet"
+	set category = "Object"
+	set popup_menu = 1
+	set src in usr
+
+	if(knife)
+		knife.loc = usr
+		usr.put_in_hands(knife)
+		knife = FALSE
+		src.attack_verb = initial(attack_verb)
+		src.sharp = initial(sharp)
+		src.force = initial(force)
+		bayonet_attachable = 1
+		to_chat(usr, "<span class='notice'>You detach the bayonet from the [src].</span>")
+		src.verbs -= /obj/item/weapon/gun/projectile/rifle/boltaction/verb/remove_bayonet
+		update_icon()
+
+//Ends Bayonet Code
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/attack_self(mob/user as mob)
+    bolt_open = !bolt_open
+    if(do_after(user, 6.5, src))
+        if(bolt_open)
+            playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
+            if(chambered)
+                to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
+                chambered.loc = get_turf(src)
+                loaded -= chambered
+                chambered = null
+            else
+                to_chat(user, "<span class='notice'>You work the bolt open.</span>")
+        else
+            to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
+            playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
+            bolt_open = 0
+        add_fingerprint(user)
+        update_icon()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/special_check(mob/user)
+	if(bolt_open)
+		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
+		return 0
+	return ..()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/load_ammo(var/obj/item/A, mob/user)
+	if(!bolt_open)
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/unload_ammo(mob/user, var/allow_dump=1)
+	if(!bolt_open)
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/l96
+	name = "L96A1"
+	desc = "A standard-issue British sniper rifle. Chambers 7.62x51 rounds."
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "l96"
+	item_state = "l96" 
+	force = 10
+	caliber = "762x51"
+	ammo_type = /obj/item/ammo_casing/a762x51
+	load_method = MAGAZINE
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51l)
+	wielded_item_state = "l96-wielded"
+	w_class = ITEM_SIZE_HUGE
+	screen_shake = 2 //extra kickback
+	max_shells = 10
+	one_hand_penalty = 8
+	accuracy = 10
+	fire_sound = 'sound/weapons/gunshot/m40a1.ogg'
+	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m40a1_dist.ogg'
+	jam_chance = 0.2
+	slowdown_general = 0.45
+	bayonet_attachable = 0
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/l96/update_icon()
+	..()
+	if(bolt_open)
+		icon_state = "l96-open"
+	else
+		icon_state = "l96"
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/l96/verb/scope()
+	set name = "Use Scope"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 0
+
+	src.toggle_scope(usr, 2.4)
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv
+	name = "7.62 Tkiv 85"
+	desc = "A special issue Finnish sniper rifle. Chambers 7.62X53 rounds."
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "tkiv"
+	item_state = "tkiv" 
+	force = 8
+	caliber = "762x53"
+	wielded_item_state = "tkiv-wielded"
+	w_class = ITEM_SIZE_LARGE
+	screen_shake = 2 //extra kickback
+	handle_casings = HOLD_CASINGS
+	load_method = SINGLE_CASING|SPEEDLOADER
+	max_shells = 5
+	ammo_type = /obj/item/ammo_casing/a762x53
+	one_hand_penalty = 6
+	accuracy = 4
+	fire_sound = 'sound/weapons/gunshot/tkiv.ogg'
+	reload_sound = 'sound/weapons/gunporn/tkiv_bulletin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/tkiv_dist.ogg'
+	jam_chance = 0.8
+	slowdown_general = 0.35
+	bayonet_attachable = 0
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/update_icon()
+	..()
+	if(bolt_open)
+		icon_state = "tkiv-open"
+	else
+		icon_state = "tkiv"
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/verb/scope()
+	set name = "Use Scope"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 0
+
+	src.toggle_scope(usr, 2.4)
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1
+	name = "M40A1"
+	desc = "A standard issue American sniper rifle. Chambers 7.62X51 rounds."
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "m40a1"
+	item_state = "m40a1" 
+	force = 8
+	caliber = "762x51"
+	wielded_item_state = "tm40a1-wielded"
+	w_class = ITEM_SIZE_LARGE
+	screen_shake = 2 //extra kickback
+	handle_casings = HOLD_CASINGS
+	load_method = SINGLE_CASING|SPEEDLOADER
+	max_shells = 5
+	ammo_type = /obj/item/ammo_casing/a762x51
+	one_hand_penalty = 6
+	accuracy = 4
+	fire_sound = 'sound/weapons/gunshot/m40a1.ogg'
+	reload_sound = 'sound/weapons/gunporn/m40a1_bulletin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m40a1_dist.ogg'
+	jam_chance = 0.8
+	slowdown_general = 0.35
+	bayonet_attachable = 0
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/update_icon()
+	..()
+	if(bolt_open)
+		icon_state = "m40a1-open"
+	else
+		icon_state = "m40a1"
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/verb/scope()
+	set name = "Use Scope"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 0
+
+	src.toggle_scope(usr, 2.4)

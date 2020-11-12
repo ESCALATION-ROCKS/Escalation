@@ -16,7 +16,7 @@
 	ammo_type = /obj/item/ammo_casing/rifle/a762x51
 	one_hand_penalty = 5
 	accuracy = 5
-	var/bolt_open = 0
+	bolt_open = 0
 	wielded_item_state = "gun_wielded" //sort of placeholder
 	picksound = 'sound/items/interactions/rifle_draw.wav'
 	reload_sound = 'sound/weapons/gunhandling/brifle_magin.wav'
