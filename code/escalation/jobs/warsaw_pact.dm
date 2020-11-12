@@ -1243,7 +1243,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/hwtload
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/marksman
 	selection_color = "#FA8072"
 	rank_number = 4
 	position = "team"
