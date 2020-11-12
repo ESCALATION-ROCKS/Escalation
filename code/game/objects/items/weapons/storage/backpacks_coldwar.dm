@@ -29,8 +29,6 @@
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,
@@ -96,8 +94,6 @@
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,
@@ -131,8 +127,6 @@
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,
@@ -178,8 +172,6 @@
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,
@@ -271,8 +263,6 @@
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,
@@ -358,8 +348,6 @@
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,

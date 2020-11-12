@@ -5,7 +5,7 @@
 	name = "pill pack"
 	desc = "Pills in sterile and handy pack."
 	icon = 'icons/obj/medical.dmi'
-	w_class = 1//Packed very effective
+	w_class = 2//Packed very effective
 	icon_state = "pill_pack"
 	var/pill_type = null
 	var/pop_sound = 'sound/effects/pop_pill.ogg'
@@ -150,7 +150,7 @@
 	name = "pack of nothing"
 	desc = "Contains nothing."
 	icon = 'icons/obj/medical.dmi'
-	w_class = 1 //Packed very effective
+	w_class = 2 //Packed very effective
 	var/content_type = null
 	var/packed = 1
 	var/rip_sound = 'sound/effects/rip_pack.ogg'

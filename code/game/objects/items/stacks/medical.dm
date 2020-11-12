@@ -393,6 +393,7 @@
 /obj/item/stack/medical/tourniquet
 	name = "Esmarch tourniquet"
 	singular_name = "tourniquet"
+	w_class = ITEM_SIZE_SMALL//Packed very effective
 	desc = "That's the generic tourniquet used to treat arterial bleeding."
 	icon_state = "esmarch_tourniquet"
 	amount = 1
