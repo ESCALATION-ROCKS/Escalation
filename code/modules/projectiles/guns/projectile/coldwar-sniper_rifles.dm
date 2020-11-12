@@ -326,7 +326,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51l)
 	wielded_item_state = "l96-wielded"
 	w_class = ITEM_SIZE_HUGE
-	screen_shake = 2 //extra kickback
+	screen_shake = 1 //extra kickback
 	max_shells = 10
 	one_hand_penalty = 8
 	accuracy = 10
@@ -363,7 +363,7 @@
 	caliber = "762x53"
 	wielded_item_state = "tkiv-wielded"
 	w_class = ITEM_SIZE_LARGE
-	screen_shake = 2 //extra kickback
+	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING|SPEEDLOADER
 	max_shells = 5
@@ -403,7 +403,7 @@
 	caliber = "762x51"
 	wielded_item_state = "tm40a1-wielded"
 	w_class = ITEM_SIZE_LARGE
-	screen_shake = 2 //extra kickback
+	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING|SPEEDLOADER
 	max_shells = 5

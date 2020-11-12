@@ -897,11 +897,13 @@
 /////////////////// clips
 
 /obj/item/ammo_magazine/box/clip/t762x53
-	name = "TKIV clip (7.62x53mm)"
+	name = "TKIV stripper clip (7.62x53mm)"
 	desc = "A clip of 7.62x53mm ammunition."
+	mag_type = SPEEDLOADER
 	icon_state = "clip_rifle"
-	caliber = "7.62x53"
+	caliber = "762x53"
 	ammo_type = /obj/item/ammo_casing/a762x53
+	w_class = 1
 	max_ammo = 5
 	multiple_sprites = 1
 
@@ -911,8 +913,10 @@
 /obj/item/ammo_magazine/box/clip/t762x51
 	name = "handful of bullets (7.62x51mm)"
 	desc = "A handful of black-tipped 7.62x51mm bullets."
+	mag_type = SPEEDLOADER
 	icon_state = "m40"
-	caliber = "7.62x51"
+	caliber = "762x51"
+	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a762x51
 	max_ammo = 5
 	multiple_sprites = 1
