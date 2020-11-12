@@ -363,7 +363,7 @@
 
 /obj/item/weapon/storage/backpack/rpgsa
 	name = "RPG rocket backpack"
-	desc = "Soviet Army backpack for RPG shots. Can hold two rockets."
+	desc = "Soviet Army backpack for RPG rockets. Can hold two rockets."
 	icon_state = "sa_rpg2"
 	item_state = "sa_rpg"
 	reachable = 1
@@ -402,24 +402,27 @@
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/finn)
-	startswith = list(
-		/obj/item/ammo_casing/rpg_missile/finn,
-		/obj/item/ammo_casing/rpg_missile/finn,
-		/obj/item/ammo_casing/rpg_missile/finn
-		)
+
 
 /obj/item/weapon/storage/backpack/rpgbrit
-	name = "83mm shell rucksack"
-	desc = "A large backpack repurposed to carry three Carl Gustaf shells."
+	name = "shell rucksack"
+	desc = "A large backpack repurposed to carry three recoilless rifle shells."
 	icon_state = "baflargepack"
 	item_state = "baflargepack"
 	reachable = 1
 	storage_slots = 3
 	max_storage_space = 30
 	open_delay = 10
-	can_hold = list(/obj/item/ammo_casing/rpg_missile/recoilless)
-	startswith = list(
-		/obj/item/ammo_casing/rpg_missile/recoilless,
-		/obj/item/ammo_casing/rpg_missile/recoilless,
-		/obj/item/ammo_casing/rpg_missile/recoilless
-		)
+	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)
+
+
+/obj/item/weapon/storage/backpack/rpgusa
+	name = "shell rucksack"
+	desc = "A large backpack repurposed to carry three recoilless rifle shells."
+	icon_state = "alicelargepack"
+	item_state = "alicelargepack"
+	reachable = 1
+	storage_slots = 3
+	max_storage_space = 30
+	open_delay = 10
+	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)

@@ -540,7 +540,7 @@
 
 /datum/job/escalation/bund/bdwatasst
 	title = "BDW Panzerfaustschutze Assistant"
-	name = "Panzerfaustschutze Assistant"
+	name = "Panzerfaustschutze Stellvertretender"
 	english_name = "AT Group Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1147,7 +1147,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/marksman
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/marksman
 	selection_color = "#B0C4DE"
 	position = "team"
 	enabled = 1
