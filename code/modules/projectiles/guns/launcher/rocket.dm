@@ -511,6 +511,32 @@
 	var/list/rockets = new/list(/obj/item/ammo_casing/rpg_missile)
 	var/datum/effect/effect/system/smoke_spread/puff
 
+/obj/item/weapon/gun/launcher/oneuse/m72/attack_self(mob/user)
+	if(folded)
+		playsound(src.loc,'sound/weapons/gunporn/law_deploy.ogg',80, 0)
+		user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
+		if(do_after(usr, 30, src))
+			usr.visible_message("<span class='notice'>\The [usr] extends [src].</span>", "<span class='notice'>You deploy the [src]</span>")
+			folded = 0
+			icon_state = "[icon_state]-deployed"
+			item_state = "[item_state]-deployed"
+			slot_flags = null
+	else
+		playsound(src.loc,'sound/weapons/gunporn/law_deploy.ogg',80, 0)
+		user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
+		if(do_after(usr, 30, src))
+			usr.visible_message("<span class='notice'>\The [usr] folds the [src].</span>", "<span class='notice'>You fold the [src]</span>")
+			folded = 1
+			icon_state = initial(icon_state)
+			item_state = initial(item_state)
+			slot_flags = SLOT_BACK_GUN | SLOT_BACK
+
+/obj/item/weapon/gun/launcher/oneuse/m72/special_check(mob/user)
+	if(folded == 1)
+		to_chat(user, "I have to deploy it first.")
+		return 0
+	return ..()
+
 /obj/item/weapon/gun/launcher/oneuse/m72/New()
 	..()
 	rockets += new /obj/item/ammo_casing/rpg_missile(src)
