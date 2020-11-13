@@ -18,6 +18,8 @@ Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
 @END@
 
 # NATO
