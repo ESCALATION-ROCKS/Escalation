@@ -1289,8 +1289,8 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/fnfal_dist.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=2.9,    move_delay=1, one_hand_penalty=6, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20),           automatic = 0),
-		list(mode_name="semiauto - quickfire",    burst=1, fire_delay=1,  move_delay=1,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.8, 1.1, 1.3),         automatic = 0)
+		list(mode_name="semiauto",     burst=1, fire_delay=3,    move_delay=1, one_hand_penalty=6, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.2),           automatic = 0),
+		list(mode_name="quickfire",    burst=1, fire_delay=1.9,  move_delay=1,    one_hand_penalty=8, burst_accuracy=null,         dispersion=list(0.8, 1.1, 1.3),         automatic = 1.3)
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/l1a1/update_icon()
