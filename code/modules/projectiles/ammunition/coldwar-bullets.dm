@@ -48,6 +48,21 @@
 	desc = "A 7.62x54mm tracer bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a762x54/tr
 
+/obj/item/ammo_casing/a762x53
+	desc = "A 7.62x53mm bullet casing."
+	caliber = "762x53"
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x53
+	icon_state = "rifle-casing"
+	spent_icon = "rifle-casing-spent"
+
+/obj/item/ammo_casing/a762x53/ap
+	desc = "A 7.62x53mm AP bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x53/ap
+	
+/obj/item/ammo_casing/a762x53/tr
+	desc = "A 7.62x53mm tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x53/tr
+
 /obj/item/ammo_casing/a545x39
 	desc = "A 5.45x39mm bullet casing."
 	caliber = "545x39"

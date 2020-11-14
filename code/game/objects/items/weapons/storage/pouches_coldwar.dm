@@ -427,6 +427,21 @@
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
+/obj/item/weapon/storage/belt/suit/ammo/baf/l96
+	w_class = ITEM_SIZE_HUGE
+	name = "L96 magazine pouch"
+	desc = "Has enough space to hold two L96 magazines."
+	icon_state = "l96_ammo"
+	item_state = "bdw_ammo"
+	open_delay = 5
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x51l,
+		/obj/item/ammo_magazine/a9x19,)
+	startswith = null
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
 /obj/item/weapon/storage/belt/suit/ammo/baf/s
 	w_class = ITEM_SIZE_HUGE
 	name = "Sterling magazine pouch"
@@ -467,6 +482,22 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45m,
 		/obj/item/ammo_magazine/c556x45s,
+		/obj/item/ammo_magazine/c45m
+		)
+	startswith = null
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/ammo/m40
+	w_class = ITEM_SIZE_HUGE
+	name = "M40 ammo pouch"
+	desc = "Has enough space to hold five handfuls of 7.62X51 ammo."
+	icon_state = "m40_ammo"
+	item_state = "usmc_ammo"
+	open_delay = 5
+	storage_slots = 5
+	can_hold = list(
+		/obj/item/ammo_magazine/box/clip/t762x51,
 		/obj/item/ammo_magazine/c45m
 		)
 	startswith = null
@@ -538,6 +569,7 @@
 		/obj/item/ammo_magazine/a9x18
 		)
 	startswith = null
+
 /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	w_class = ITEM_SIZE_HUGE
 	name = "SVD magazine pouch"
@@ -548,6 +580,19 @@
 	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54s
+		)
+	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/sa/tkiv
+	w_class = ITEM_SIZE_HUGE
+	name = "TKIV stripper clip pouch"
+	desc = "Has enough space to hold five TKIV stripper clips."
+	icon_state = "tkiv_ammo"
+	item_state = "sa_ammo"
+	open_delay = 5
+	storage_slots = 5
+	can_hold = list(
+		/obj/item/ammo_magazine/box/clip/t762x53
 		)
 	startswith = null
 
