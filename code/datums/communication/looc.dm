@@ -8,6 +8,11 @@
 	. = ..()
 	if(!.)
 		return
+	if(!C.holder)
+		if(C.mob.stat == DEAD)
+			to_chat(C, "<span class='danger'>[name] for dead mobs has been turned off.</span>")
+			return FALSE
+
 	if(!get_turf(C.mob))
 		to_chat(C, "<span class='danger'>You cannot use [name] while in nullspace.</span>")
 		return FALSE
