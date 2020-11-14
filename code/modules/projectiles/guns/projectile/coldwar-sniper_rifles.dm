@@ -339,7 +339,7 @@
 	screen_shake = 3 //extra kickback
 	max_shells = 10
 	one_hand_penalty = 8
-	accuracy = 10
+	accuracy = 6
 	fire_sound = 'sound/weapons/gunshot/l96.ogg'
 	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
@@ -379,7 +379,7 @@
 	max_shells = 5
 	ammo_type = /obj/item/ammo_casing/a762x53
 	one_hand_penalty = 6
-	accuracy = 4
+	accuracy = 6
 	fire_sound = 'sound/weapons/gunshot/tkiv.ogg'
 	reload_sound = 'sound/weapons/gunporn/tkiv_bulletin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
@@ -411,7 +411,7 @@
 	item_state = "m40a1" 
 	force = 8
 	caliber = "762x51"
-	wielded_item_state = "tm40a1-wielded"
+	wielded_item_state = "m40a1-wielded"
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
@@ -419,7 +419,7 @@
 	max_shells = 5
 	ammo_type = /obj/item/ammo_casing/a762x51
 	one_hand_penalty = 6
-	accuracy = 4
+	accuracy = 6
 	fire_sound = 'sound/weapons/gunshot/m40a1.ogg'
 	reload_sound = 'sound/weapons/gunporn/m40a1_bulletin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
