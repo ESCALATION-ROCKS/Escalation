@@ -665,7 +665,7 @@ default behaviour is:
 	set name = "Rest"
 	set category = "IC"
 
-	mob_rest()
+	usr.mob_rest()
 
 //called when the mob receives a bright flash
 /mob/living/flash_eyes(var/time = 25, intensity = FLASH_PROTECTION_MODERATE, override_blindness_check = FALSE, affect_silicon = FALSE, visual = FALSE, type = /obj/screen/fullscreen/flash)
