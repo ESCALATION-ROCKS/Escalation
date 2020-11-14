@@ -138,7 +138,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/marksman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 0
+	enabled = 1
 	amount = 1
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
