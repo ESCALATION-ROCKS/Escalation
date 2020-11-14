@@ -939,7 +939,7 @@
 	name = "MPi-KM w/ GP-25"
 	desc = "That's an outdated rifle used by NVA DDR. There's a GP-25 attached to it. Chambers 7.62x39 rounds."
 	icon_state = "mpikm"
-	item_state = "mpi"
+	item_state = "ak74gl"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
@@ -972,10 +972,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "mpikmgp"
-		wielded_item_state = "mpi-wielded"
+		wielded_item_state = "ak74gl-wielded"
 	else
 		icon_state = "mpikmgp-empty"
-		wielded_item_state = "mpi-wielded-empty"
+		wielded_item_state = "ak74gl-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/New()
 	..()
