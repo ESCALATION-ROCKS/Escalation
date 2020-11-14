@@ -442,3 +442,15 @@
 	set popup_menu = 0
 
 	src.toggle_scope(usr, 2.4)
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/load_ammo(var/obj/item/A, mob/user)
+	..()
+	var/obj/item/ammo_magazine/AM = user.get_active_hand(A)
+	
+	if(AM.stored_ammo.len == 0)
+		qdel(AM)
+		return
+
+	else return
+
+
