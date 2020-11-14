@@ -633,7 +633,6 @@
 	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39b,
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
