@@ -284,66 +284,6 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/datum/job/escalation/usmc/usmcatcom
-	title = "USMC AT Commander"
-	name = "ATS Team Leader"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atcommander
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usmc_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
-
-/datum/job/escalation/usmc/usmcat
-	title = "USMC AT Gunner"
-	name = "ATS Gunner"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atgunner
-	selection_color = "#B0C4DE"
-	rank_number = 6
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usmc_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/usmc/usmcata
-	title = "USMC AT Asistant"
-	name = "ATS Assistant Rifleman"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atass
-	selection_color = "#B0C4DE"
-	rank_number = 6
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usmc_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-
 /datum/job/escalation/usmc/usmcftmg
 	title = "USMC Fireteam Machinegunner"
 	name = "Fireteam Machinegunner"
@@ -404,6 +344,65 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+
+/datum/job/escalation/usmc/usmcatcom
+	title = "USMC AT Commander"
+	name = "ATS Team Leader"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atcommander
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usmc_nco"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/usmc/usmcat
+	title = "USMC AT Gunner"
+	name = "ATS Gunner"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atgunner
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usmc_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/usmc/usmcata
+	title = "USMC AT Asistant"
+	name = "ATS Assistant Rifleman"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/atass
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usmc_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 ////////////////////////////////////////////////////////////////////BDW
 
@@ -493,66 +492,6 @@
 	enabled = 0
 	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 5)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/bund/bdwatlead
-	title = "BDW AT Gruppenfuhrer"
-	name = "Panzerabwehrschutze Gruppenfuhrer"
-	english_name = "AT Group Leader"
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatlead
-	selection_color = "#4682B4"
-	rank_number = 6
-	position = "fireteam"
-	amount = 2
-	enabled = 0
-	whitelist_rank = "bdw_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
-
-/datum/job/escalation/bund/bdwatgun
-	title = "BDW Panzerfaustschutze"
-	name = "Panzerfaustschutze"
-	english_name = "AT Group Gunner"
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatkanonier
-	selection_color = "#4682B4"
-	rank_number = 2
-	position = "fireteam"
-	amount = 1
-	enabled = 1
-	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/bund/bdwatasst
-	title = "BDW Panzerfaustschutze Assistant"
-	name = "Panzerfaustschutze Stellvertretender"
-	english_name = "AT Group Assistant"
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatassist
-	selection_color = "#4682B4"
-	rank_number = 3
-	position = "fireteam"
-	amount = 1
-	enabled = 1
-	whitelist_rank = "bdw_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -811,6 +750,66 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/bund/bdwatlead
+	title = "BDW AT Gruppenfuhrer"
+	name = "Panzerabwehrschutze Gruppenfuhrer"
+	english_name = "AT Group Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatlead
+	selection_color = "#4682B4"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 0
+	whitelist_rank = "bdw_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/bund/bdwatgun
+	title = "BDW Panzerfaustschutze"
+	name = "Panzerfaustschutze"
+	english_name = "AT Group Gunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatkanonier
+	selection_color = "#4682B4"
+	rank_number = 2
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "bdw_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/bund/bdwatasst
+	title = "BDW Panzerfaustschutze Assistant"
+	name = "Panzerfaustschutze Stellvertretender"
+	english_name = "AT Group Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatassist
+	selection_color = "#4682B4"
+	rank_number = 3
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "bdw_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 ////////////////////////////////////////////BAF///////////////////////////////////////////////
 
 /datum/job/escalation/baf
@@ -882,6 +881,25 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
+	
+/datum/job/escalation/baf/bafmarksman
+	title = "BAF Designated Marksman"
+	name = "Designated Marksman"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/marksman
+	selection_color = "#B0C4DE"
+	position = "team"
+	enabled = 1
+	amount = 1
+	whitelist_rank = "baf_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafmedic
 	title = "BAF Field Medic"
@@ -920,63 +938,6 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
-
-/datum/job/escalation/baf/bafmgcom
-	title = "BAF HWS Commander"
-	name = "Heavy Weapon Section Commander"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/hws_commander
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "baf_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
-
-/datum/job/escalation/baf/bafmgload
-	title = "BAF HWS Loader"
-	name = "Heavy Weapon Loader"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/hws_loader
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "baf_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/baf/bafmgop
-	title = "BAF HWS Operator"
-	name = "Heavy Weapon Operator"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/hws_operator
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "baf_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafsl
 	title = "BAF Squad Leader"
@@ -1039,25 +1000,6 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/baf/bafatcom
-	title = "BAF AT Commander"
-	name = "ATS Team Leader"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/atcommander
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "baf_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/baf/bafat
 	title = "BAF AT Gunner"
@@ -1140,20 +1082,58 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/datum/job/escalation/baf/bafmarksman
-	title = "BAF Designated Marksman"
-	name = "Designated Marksman"
+/datum/job/escalation/baf/bafmgcom
+	title = "BAF HWS Commander"
+	name = "Heavy Weapon Section Commander"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/mgunner
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/hws_commander
 	selection_color = "#B0C4DE"
-	position = "team"
+	position = "fireteam"
+	amount = 2
 	enabled = 1
-	amount = 1
+	whitelist_rank = "baf_nco"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/baf/bafmgload
+	title = "BAF HWS Loader"
+	name = "Heavy Weapon Loader"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/hws_loader
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
 	whitelist_rank = "baf_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 5)
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/baf/bafmgop
+	title = "BAF HWS Operator"
+	name = "Heavy Weapon Operator"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/hws_operator
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "baf_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -1325,63 +1305,6 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
-/datum/job/escalation/usa/usamgcom
-	title = "USA HWS Commander"
-	name = "Heavy Weapon Section Commander"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/hws_commander
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usa_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
-
-/datum/job/escalation/usa/usamgload
-	title = "USA HWS Loader"
-	name = "Heavy Weapon Loader"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/hws_loader
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usa_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/usa/usamgop
-	title = "USA HWS Operator"
-	name = "Heavy Weapon Operator"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/hws_operator
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usa_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
 /datum/job/escalation/usa/usasl
 	title = "USA Squad Leader"
 	name = "Squad Leader"
@@ -1444,66 +1367,6 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/datum/job/escalation/usa/usaatcom
-	title = "USA AT Commander"
-	name = "ATS Team Leader"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/atcommander
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usa_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
-
-/datum/job/escalation/usa/usaat
-	title = "USA AT Gunner"
-	name = "ATS Gunner"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/atgunner
-	selection_color = "#B0C4DE"
-	rank_number = 6
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usa_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/usa/usaata
-	title = "USA AT Asistant"
-	name = "ATS Assistant Rifleman"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/atass
-	selection_color = "#B0C4DE"
-	rank_number = 6
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usa_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-
 /datum/job/escalation/usa/usaftmg
 	title = "USA Fireteam Machinegunner"
 	name = "Fireteam Machinegunner"
@@ -1552,6 +1415,123 @@
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/mgunnera
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usa_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+
+/datum/job/escalation/usa/usamgcom
+	title = "USA HWS Commander"
+	name = "Heavy Weapon Section Commander"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/hws_commander
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usa_nco"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/usa/usamgload
+	title = "USA HWS Loader"
+	name = "Heavy Weapon Loader"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/hws_loader
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usa_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/usa/usamgop
+	title = "USA HWS Operator"
+	name = "Heavy Weapon Operator"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/hws_operator
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usa_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/usa/usaatcom
+	title = "USA AT Commander"
+	name = "ATS Team Leader"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/atcommander
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usa_nco"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/usa/usaat
+	title = "USA AT Gunner"
+	name = "ATS Gunner"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/atgunner
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usa_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/usa/usaata
+	title = "USA AT Asistant"
+	name = "ATS Assistant Rifleman"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/atass
 	selection_color = "#B0C4DE"
 	rank_number = 6
 	position = "fireteam"
