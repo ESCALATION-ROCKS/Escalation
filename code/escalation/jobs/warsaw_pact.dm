@@ -569,27 +569,6 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-
-/datum/job/escalation/nvaddr/nvasm
-	title = "NVA Scharfschutze"
-	name = "Scharfschutze"
-	english_name = "Designated Marksman"
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/marksman
-	selection_color = "#FA8072"
-	rank_number = 6
-	position = "team"
-	amount = 1
-	enabled = 1
-	whitelist_rank = "ddr_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
 /datum/job/escalation/nvaddr/nvarad
 	title = "NVA Funktelefonbetreiber"
 	name = "Funktelefonbetreiber"
@@ -649,6 +628,26 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+
+/datum/job/escalation/nvaddr/nvasm
+	title = "NVA Scharfschutze"
+	name = "Scharfschutze"
+	english_name = "Designated Marksman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/marksman
+	selection_color = "#FA8072"
+	rank_number = 6
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "ddr_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvasl
 	title = "NVA Gruppenfuhrer"
@@ -950,26 +949,6 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/datum/job/escalation/finn/finnsm
-	title = "FINN Tarkka-ampuja"
-	name = "Tarkka-ampuja"
-	english_name = "Designated Marksman"
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/marksman
-	selection_color = "#FA8072"
-	rank_number = 4
-	position = "team"
-	amount = 1
-	enabled = 1
-	whitelist_rank = "finn_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
 /datum/job/escalation/finn/finncorpsman
 	title = "FINN Medisiinari"
 	name = "Medisiinari"
@@ -1009,7 +988,27 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		
+/datum/job/escalation/finn/finnsm
+	title = "FINN Tarkka-ampuja"
+	name = "Tarkka-ampuja"
+	english_name = "Designated Marksman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/marksman
+	selection_color = "#FA8072"
+	rank_number = 4
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		
 /datum/job/escalation/finn/finnsl
 	title = "FINN Ryhmanjohtaja"
 	name = "Ryhmanjohtaja"
