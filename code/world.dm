@@ -628,12 +628,12 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	s += "<b>ESCALATION 1984 - THE ARCTIC CIRCLE</b>";
 	s += "<br>"
-	s += "An immersive tactical combat experience set in the Cold War. Now featuring Britain and Finland!"
+	s += "An immersive tactical combat experience set in the Cold War. Now featuring Britain and Finland, and new management!"
 	s += "<br>"
 	s += "Join as an Observer while you apply on our DISCORD!"
 	s += "<br>"
 	s += " ("
-	s += "<a href=\"https://discord.gg/mpGbfD\">" //Change this to wherever you want the hub to link to.
+	s += "<a href=\"https://discord.gg/Rqd6TyXwuj\">" //Change this to wherever you want the hub to link to.
 	s += "DISCORD WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"

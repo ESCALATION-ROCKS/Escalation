@@ -1667,25 +1667,30 @@ obj/structure/sign/noshitlers
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "1"
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/ural/uralfront2
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "2"
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/ural/uralfront3
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "3"
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/ural/uralfront4
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "4"
 	anchored = 1
-//////////////////////////////5-8 IS THE CABIN INTERIOR
+	density = 1
+
+//////////////////////////////MID1-4 IS THE CABIN INTERIOR
 /obj/structure/sign/vehicle/ural/uralmid1
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
@@ -1720,36 +1725,46 @@ obj/structure/sign/noshitlers
 	icon_state = "chair"
 	anchored = 1
 	density = 0
-/////////////////9-12 IS THE BACK, NOT THE CARGO LOAD
+/////////////////BACK1-4 IS THE BACK, NOT THE CARGO LOAD
 /obj/structure/sign/vehicle/ural/uralback1
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "9"
 	anchored = 1
+	density = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/ural/uralback2
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "10"
 	anchored = 1
+	density = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/ural/uralback3
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "11"
 	anchored = 1
+	density = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/ural/uralback4
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "12"
 	anchored = 1
+	density = 1
+	opacity = 1
 	/////////////////////// 14-15-16-L-R-BENCH ARE THE CARGO HOLD
 /obj/structure/sign/vehicle/ural/uralcargo1
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "13"
 	anchored = 1
+	density = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/ural/uralcargo2
 	name = "URAL"
@@ -1757,6 +1772,7 @@ obj/structure/sign/noshitlers
 	icon_state = "14"
 	anchored = 1
 	density = 0
+	layer = 1
 
 /obj/structure/sign/vehicle/ural/uralcargo3
 	name = "URAL"
@@ -1764,12 +1780,15 @@ obj/structure/sign/noshitlers
 	icon_state = "15"
 	anchored = 1
 	density = 0
+	layer = 1
 
 /obj/structure/sign/vehicle/ural/uralcargo4
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
 	icon_state = "16"
 	anchored = 1
+	density = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/ural/uralcargomiddleleft
 	name = "URAL"
@@ -1777,6 +1796,23 @@ obj/structure/sign/noshitlers
 	icon_state = "middle_l"
 	anchored = 1
 	density = 0
+	layer = 1
+
+/obj/structure/sign/vehicle/ural/uralcargobenchleft
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "bench_l"
+	anchored = 1
+	density = 0
+	layer = 1
+
+/obj/structure/sign/vehicle/ural/uralcargobenchleftend
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "bench_end_l"
+	anchored = 1
+	density = 0
+	layer = 1
 
 /obj/structure/sign/vehicle/ural/uralcargomiddleright
 	name = "URAL"
@@ -1784,17 +1820,20 @@ obj/structure/sign/noshitlers
 	icon_state = "middle_r"
 	anchored = 1
 	density = 0
+	layer = 1
 
-/obj/structure/sign/vehicle/ural/uralcargobench
+/obj/structure/sign/vehicle/ural/uralcargobenchright
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
-	icon_state = "bench"
+	icon_state = "bench_r"
 	anchored = 1
 	density = 0
+	layer = 1
 
-/obj/structure/sign/vehicle/ural/uralcargobenchend
+/obj/structure/sign/vehicle/ural/uralcargobenchrightend
 	name = "URAL"
 	icon = 'icons/obj/URAL.dmi'
-	icon_state = "bench_end"
+	icon_state = "bench_end_r"
 	anchored = 1
 	density = 0
+	layer = 1
