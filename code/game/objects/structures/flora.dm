@@ -598,6 +598,7 @@
 	name = "A grass"
 	desc = "Just a dry grass."
 	icon_state = "drygrass0"
+	mouse_opacity = 0
 	anchored = 1
 	density = 0
 	plane = -11
@@ -622,6 +623,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass1"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
@@ -637,6 +639,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass2"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
@@ -652,6 +655,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass3"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
@@ -667,6 +671,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass5"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
@@ -682,6 +687,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass6"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
@@ -697,6 +703,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass7"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	layer = 5
 	icon = 'icons/obj/plants.dmi'
@@ -712,6 +719,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass8"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	plane = -10
 	icon = 'icons/obj/plants.dmi'
@@ -726,6 +734,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass9"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	icon = 'icons/obj/plants.dmi'
 	mouse_opacity = 0
@@ -739,6 +748,7 @@
 	desc = "Just a dry grass."
 	icon_state = "drygrass10"
 	anchored = 1
+	mouse_opacity = 0
 	density = 0
 	icon = 'icons/obj/plants.dmi'
 	mouse_opacity = 0
