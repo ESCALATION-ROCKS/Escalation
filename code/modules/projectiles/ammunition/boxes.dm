@@ -467,7 +467,7 @@
 
 
 /obj/item/weapon/storage/fancy/ammo_can/soviet/x762x54
-	name = "ammo can (7.62x54mm)"
+	name = "ammo can (7.62x54mmR)"
 	icon_state = "ammocan762lps"
 	startswith = list(
 		/obj/item/ammo_magazine/box/paper/box762x54 = 11

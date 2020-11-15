@@ -543,7 +543,7 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x54s
-	name = "SVD magazine (7.62x54mm)"
+	name = "SVD magazine (7.62x54mmR)"
 	desc = "A SVD magazine that fits ten 7.62x54mm rounds."
 	icon_state = "7.62x54s"
 	mag_type = MAGAZINE
@@ -554,21 +554,21 @@
 	load_delay = 7
 
 /obj/item/ammo_magazine/c762x54s/ap
-	name = "SVD AP magazine (7.62x54mm)"
-	desc = "A SVD magazine that fits ten armor-piercing 7.62x54mm rounds."
+	name = "SVD AP magazine (7.62x54mmR)"
+	desc = "A SVD magazine that fits ten armor-piercing 7.62x54mmR rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/c762x54s/tr
-	name = "SVD tracer magazine (7.62x54mm)"
-	desc = "A SVD magazine that fits ten 7.62x54mm tracer rounds."
+	name = "SVD tracer magazine (7.62x54mmr)"
+	desc = "A SVD magazine that fits ten 7.62x54mmR tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/c762x54s/empty
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x54b
-	name = "PKM belt box (7.62x54mm)"
-	desc = "A PKM belt box that fits one hundred 7.62x54mm rounds."
+	name = "PKM belt box (7.62x54mmR)"
+	desc = "A PKM belt box that fits one hundred 7.62x54mmR rounds."
 	icon_state = "pkm"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
@@ -580,21 +580,21 @@
 	slowdown_general = 0.1
 
 /obj/item/ammo_magazine/c762x54b/ap
-	name = "PKM AP belt box (7.62x54mm)"
-	desc = "A PKM belt box that fits one hundred armor-piercing 7.62x54mm rounds."
+	name = "PKM AP belt box (7.62x54mmR)"
+	desc = "A PKM belt box that fits one hundred armor-piercing 7.62x54mmR rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/c762x54b/tr
-	name = "PKM tracer belt box (7.62x54mm)"
-	desc = "A PKM belt box that fits one hundred 7.62x54mm tracer rounds."
+	name = "PKM tracer belt box (7.62x54mmR)"
+	desc = "A PKM belt box that fits one hundred 7.62x54mmR tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/c762x54b/empty
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x54b/csla
-	name = "Vz. 59 belt box (7.62x54mm)"
-	desc = "A gray Vz.59 belt box that fits one hundred 7.62x54mm rounds."
+	name = "Vz. 59 belt box (7.62x54mmR)"
+	desc = "A gray Vz.59 belt box that fits one hundred 7.62x54mmR rounds."
 	icon_state = "vz59"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
@@ -605,13 +605,13 @@
 	load_delay = 30
 
 /obj/item/ammo_magazine/c762x54b/csla/ap
-	name = "Vz. 59 AP belt box (7.62x54mm)"
-	desc = "A gray Vz.59 belt box that fits one hundred armor-piercing 7.62x54mm rounds."
+	name = "Vz. 59 AP belt box (7.62x54mmR)"
+	desc = "A gray Vz.59 belt box that fits one hundred armor-piercing 7.62x54mmR rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/c762x54b/csla/tr
-	name = "Vz. 59 tracer belt box (7.62x54mm)"
-	desc = "A gray Vz.59 belt box that fits one hundred 7.62x54mm tracer rounds."
+	name = "Vz. 59 tracer belt box (7.62x54mmR)"
+	desc = "A gray Vz.59 belt box that fits one hundred 7.62x54mmR tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/c762x54b/csla/empty
@@ -794,21 +794,21 @@
 	ammo_type = /obj/item/ammo_casing/a762x39/tr
 
 /obj/item/ammo_magazine/box/paper/box762x54
-	name = "ammo box (7.62x54mm)"
-	desc = "A 40-round pack of 7.62x54mm ammunition."
+	name = "ammo box (7.62x54mmR)"
+	desc = "A 40-round pack of 7.62x54mmR ammunition."
 	icon_state = "csla_box"
 	ammo_type = /obj/item/ammo_casing/a762x54
 	caliber = "762x54"
 
 /obj/item/ammo_magazine/box/paper/box762x54/ap
-	name = "AP ammo box (7.62x54mm)"
-	desc = "A 40-round pack of armor-piercing 7.62x54mm ammunition."
+	name = "AP ammo box (7.62x54mmR)"
+	desc = "A 40-round pack of armor-piercing 7.62x54mmR ammunition."
 	icon_state = "csla_box"
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/box/paper/box762x54/tr
-	name = "tracer ammo box (7.62x54mm)"
-	desc = "A 40-round pack of 7.62x54mm tracer ammunition."
+	name = "tracer ammo box (7.62x54mmR)"
+	desc = "A 40-round pack of 7.62x54mmR tracer ammunition."
 	icon_state = "csla_box"
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
@@ -896,9 +896,9 @@
 
 /////////////////// clips
 
-/obj/item/ammo_magazine/box/clip/t762x53
-	name = "TKIV stripper clip (7.62x53mm)"
-	desc = "A clip of 7.62x53mm ammunition."
+/obj/item/ammo_magazine/box/clip/h762x53
+	name = "stripper clip (7.62x53mmR)"
+	desc = "A clip of 7.62x53mmR ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "clip_rifle"
 	caliber = "762x53"
@@ -907,12 +907,36 @@
 	max_ammo = 5
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/box/clip/a762x53/empty
+/obj/item/ammo_magazine/box/clip/h762x53/tr
+	name = "tracer stripper clip (7.62x53mmR)"
+	desc = "A stripper clip of yellow tipped 7.62x53mmR ammunition."
+	mag_type = SPEEDLOADER
+	icon_state = "clip_rifle"
+	caliber = "762x53"
+	ammo_type = /obj/item/ammo_casing/a762x53/tr
+	w_class = 1
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/h762x53/ap
+	name = "AP stripper clip (7.62x53mmR)"
+	desc = "A stripper clip of light-blue tipped 7.62x53mmR ammunition."
+	mag_type = SPEEDLOADER
+	icon_state = "clip_rifle"
+	caliber = "762x53"
+	ammo_type = /obj/item/ammo_casing/a762x53/ap
+	w_class = 1
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/h762x53/empty
 	initial_ammo = 0
+
+///////////////////////handfuls
 
 /obj/item/ammo_magazine/box/clip/t762x51
 	name = "handful of bullets (7.62x51mm)"
-	desc = "A handful of black-tipped 7.62x51mm bullets."
+	desc = "A handful of 7.62x51mm bullets."
 	mag_type = SPEEDLOADER
 	icon_state = "m40"
 	caliber = "762x51"
@@ -921,5 +945,57 @@
 	max_ammo = 5
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/box/clip/a762x51/empty
-	initial_ammo = 0
+/obj/item/ammo_magazine/box/clip/t762x51/tr
+	name = "handful of tracer bullets (7.62x51mm)"
+	desc = "A handful of orange tipped 7.62x51mm bullets."
+	mag_type = SPEEDLOADER
+	icon_state = "m40"
+	caliber = "762x51"
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/a762x51/tr
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/t762x51/ap
+	name = "handful of armor-piercing bullets (7.62x51mm)"
+	desc = "A handful of black tipped 7.62x51mm bullets."
+	mag_type = SPEEDLOADER
+	icon_state = "m40"
+	caliber = "762x51"
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/a762x51/ap
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/t762x53
+	name = "handful of bullets (7.62x53mmR)"
+	desc = "A handful of 7.62x53mmR bullets."
+	mag_type = SPEEDLOADER
+	icon_state = "m40"
+	caliber = "762x53"
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/a762x53
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/t762x53/tr
+	name = "handful of tracer bullets (7.62x53mmR)"
+	desc = "A handful of yellow tipped 7.62x53mmR bullets."
+	mag_type = SPEEDLOADER
+	icon_state = "m40"
+	caliber = "762x53"
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/a762x53/tr
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/t762x53/ap
+	name = "handful of armor-piercing bullets (7.62x53mmR)"
+	desc = "A handful of light-blue tipped 7.62x53mmR bullets."
+	mag_type = SPEEDLOADER
+	icon_state = "m40"
+	caliber = "762x53"
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/a762x53/ap
+	max_ammo = 5
+	multiple_sprites = 1

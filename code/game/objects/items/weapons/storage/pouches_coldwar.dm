@@ -586,13 +586,14 @@
 /obj/item/weapon/storage/belt/suit/ammo/sa/tkiv
 	w_class = ITEM_SIZE_HUGE
 	name = "TKIV stripper clip pouch"
-	desc = "Has enough space to hold five TKIV stripper clips."
+	desc = "Has enough space to hold five TKIV stripper clips or handfuls of ammunition."
 	icon_state = "tkiv_ammo"
 	item_state = "sa_ammo"
 	open_delay = 5
 	storage_slots = 5
 	can_hold = list(
-		/obj/item/ammo_magazine/box/clip/t762x53
+		/obj/item/ammo_magazine/box/clip/t762x53,
+		/obj/item/ammo_magazine/box/clip/h762x53
 		)
 	startswith = null
 
