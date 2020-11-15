@@ -1245,6 +1245,32 @@ obj/structure/sign/noshitlers
 	icon_state = "clocks"
 	desc = "That's one looks like it doesn't work."
 
+/obj/structure/sign/pinkfloyd
+	name = "Pink Floyd poster"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "pinkfloyd"
+	desc = "Comfortably numb."
+
+/obj/structure/sign/posterlove
+	name = "poster"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "post"
+
+/obj/structure/sign/postermovie
+	name = "movie poster"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "post2"
+
+/obj/structure/sign/postereighties
+	name = "odd poster"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "post3"
+
+/obj/structure/sign/posterart
+	name = "art poster"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "post4"
+
 /obj/structure/sign/rubin714
 	name = "TV"
 	icon = 'icons/obj/decorations.dmi'
@@ -1277,7 +1303,6 @@ obj/structure/sign/noshitlers
 	desc = "That's the power socket."
 	anchored = 1
 
-
 /obj/structure/sign/vhs
 	name = "VHS player"
 	icon = 'icons/obj/decorations.dmi'
@@ -1285,90 +1310,55 @@ obj/structure/sign/noshitlers
 	desc = "Does not have any cassette in it."
 	anchored = 0
 
-/obj/structure/sign/vehicle/moskvich1
-	name = "moskvich"
+/obj/structure/sign/vinyl
+	name = "Vinyl player"
 	icon = 'icons/obj/decorations.dmi'
-	icon_state = "moskvich1"
-	desc = "An old car."
-	anchored = 1
+	icon_state = "vinilplayer"
+	desc = "An old vinyl player. Get with the times, old man!"
+	anchored = 0
 
-/obj/structure/sign/vehicle/moskvich2
-	name = "moskvich"
+/obj/structure/sign/vinil
+	name = "Vinyl"
 	icon = 'icons/obj/decorations.dmi'
-	icon_state = "moskvich2"
-	desc = "An old car."
-	anchored = 1
+	icon_state = "vinil"
+	desc = "Put this in a player."
+	anchored = 0
 
-/obj/structure/sign/vehicle/moskvich3
-	name = "moskvich"
+/obj/structure/sign/vhstape
+	name = "VHS tape"
 	icon = 'icons/obj/decorations.dmi'
-	icon_state = "moskvich3"
-	desc = "An old car."
-	anchored = 1
+	icon_state = "vhs"
+	desc = "Put this in a player."
+	anchored = 0
 
-/obj/structure/sign/vehicle/moskvich4
-	name = "moskvich"
+/obj/structure/sign/vhsbox
+	name = "Midnight Animal"
 	icon = 'icons/obj/decorations.dmi'
-	icon_state = "moskvich4"
-	desc = "An old car."
-	anchored = 1
+	icon_state = "animal"
+	desc = "A weird American movie with a lot of violence in it."
+	anchored = 0
 
-/obj/structure/sign/vehicle/moskvich5
-	name = "moskvich"
+/obj/structure/sign/money1
+	name = "pile of money"
 	icon = 'icons/obj/decorations.dmi'
-	icon_state = "moskvich5"
-	desc = "An old car."
-	anchored = 1
+	icon_state = "money1"
+	desc = "That's some bling there."
+	anchored = 0
 
-/obj/structure/sign/vehicle/moskvich6
-	name = "moskvich"
+/obj/structure/sign/money2
+	name = "tower of money"
 	icon = 'icons/obj/decorations.dmi'
-	icon_state = "moskvich6"
-	desc = "An old car."
-	anchored = 1
+	icon_state = "money2"
+	desc = "You're stacking it high!."
+	anchored = 0
 
-/obj/structure/sign/vehicle/uaz1
-	name = "moskvich"
+/obj/structure/sign/money3
+	name = "bunch of money"
 	icon = 'icons/obj/decorations.dmi'
-	icon_state = "uaz1"
-	desc = "An old car."
-	anchored = 1
+	icon_state = "money3"
+	desc = "You're the boss!."
+	anchored = 0
 
-/obj/structure/sign/vehicle/uaz2
-	name = "moskvich"
-	icon = 'icons/obj/decorations.dmi'
-	icon_state = "uaz2"
-	desc = "An old car."
-	anchored = 1
-
-/obj/structure/sign/vehicle/uaz3
-	name = "moskvich"
-	icon = 'icons/obj/decorations.dmi'
-	icon_state = "uaz3"
-	desc = "An old car."
-	anchored = 1
-
-/obj/structure/sign/vehicle/uaz4
-	name = "moskvich"
-	icon = 'icons/obj/decorations.dmi'
-	icon_state = "uaz4"
-	desc = "An old car."
-	anchored = 1
-
-/obj/structure/sign/vehicle/uaz5
-	name = "moskvich"
-	icon = 'icons/obj/decorations.dmi'
-	icon_state = "uaz5"
-	desc = "An old car."
-	anchored = 1
-
-/obj/structure/sign/vehicle/uaz6
-	name = "moskvich"
-	icon = 'icons/obj/decorations.dmi'
-	icon_state = "uaz6"
-	desc = "An old car."
-	anchored = 1
-	
 /obj/structure/sign/soviet_flag
 	name = "Soviet flag"
 	icon = 'icons/obj/decorations.dmi'
@@ -1550,3 +1540,261 @@ obj/structure/sign/noshitlers
 	name = "British flag"
 	icon_state = "britishflag"
 
+
+///////////////////////////// CARS, VEHICLES
+//////MOSKVICH
+/obj/structure/sign/vehicle/moskvich1
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich1"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich2
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich2"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich3
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich3"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich4
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich4"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich5
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich5"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/moskvich6
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "moskvich6"
+	desc = "An old car."
+	anchored = 1
+
+/////////////UAZ
+/obj/structure/sign/vehicle/uaz1
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz1"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz2
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz2"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz3
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz3"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz4
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz4"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz5
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz5"
+	desc = "An old car."
+	anchored = 1
+
+/obj/structure/sign/vehicle/uaz6
+	name = "moskvich"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "uaz6"
+	desc = "An old car."
+	anchored = 1
+
+////////////SPORTSCAR
+/obj/structure/sign/vehicle/sportscar
+	name = "sportscar"
+	icon = 'icons/obj/sportscar.dmi'
+	icon_state = "sportscar"
+	desc = "A dandy sports car."
+	anchored = 1
+
+////////////////BTR
+/obj/structure/sign/vehicle/btr
+	name = "BTR"
+	icon = 'icons/obj/BTR.dmi'
+	icon_state = "btr"
+	desc = "A Soviet troop carrier."
+	anchored = 1
+
+///////////////MOTORCYCLE
+/obj/structure/sign/vehicle/motorcycle
+	name = "chopper motorcycle"
+	icon = 'icons/obj/uristvehicles.dmi'
+	icon_state = "motorcycle"
+	desc = "A dandy motorcycle."
+	anchored = 1
+
+////////////4WHEELER
+/obj/structure/sign/vehicle/quad
+	name = "quad bike"
+	icon = 'icons/obj/uristvehicles.dmi'
+	icon_state = "4wheeler"
+	desc = "A 4 wheeler bike."
+	anchored = 1
+
+////////////URAL
+///////////////1-4 IS THE ENGINE
+/obj/structure/sign/vehicle/ural/uralfront1
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "1"
+	anchored = 1
+
+/obj/structure/sign/vehicle/ural/uralfront2
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "2"
+	anchored = 1
+
+/obj/structure/sign/vehicle/ural/uralfront3
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "3"
+	anchored = 1
+
+/obj/structure/sign/vehicle/ural/uralfront4
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "4"
+	anchored = 1
+//////////////////////////////5-8 IS THE CABIN INTERIOR
+/obj/structure/sign/vehicle/ural/uralmid1
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "5"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralmid2
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "6"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralmid3
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "7"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralmid4
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "8"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralmidchair
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "chair"
+	anchored = 1
+	density = 0
+/////////////////9-12 IS THE BACK, NOT THE CARGO LOAD
+/obj/structure/sign/vehicle/ural/uralback1
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "9"
+	anchored = 1
+
+/obj/structure/sign/vehicle/ural/uralback2
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "10"
+	anchored = 1
+
+/obj/structure/sign/vehicle/ural/uralback3
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "11"
+	anchored = 1
+
+/obj/structure/sign/vehicle/ural/uralback4
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "12"
+	anchored = 1
+	/////////////////////// 14-15-16-L-R-BENCH ARE THE CARGO HOLD
+/obj/structure/sign/vehicle/ural/uralcargo1
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "13"
+	anchored = 1
+
+/obj/structure/sign/vehicle/ural/uralcargo2
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "14"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralcargo3
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "15"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralcargo4
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "16"
+	anchored = 1
+
+/obj/structure/sign/vehicle/ural/uralcargomiddleleft
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "middle_l"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralcargomiddleright
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "middle_r"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralcargobench
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "bench"
+	anchored = 1
+	density = 0
+
+/obj/structure/sign/vehicle/ural/uralcargobenchend
+	name = "URAL"
+	icon = 'icons/obj/URAL.dmi'
+	icon_state = "bench_end"
+	anchored = 1
+	density = 0
