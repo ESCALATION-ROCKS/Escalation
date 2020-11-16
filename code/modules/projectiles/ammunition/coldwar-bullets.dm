@@ -63,6 +63,21 @@
 	desc = "A 7.62x53mmR tracer bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a762x53/tr
 
+/obj/item/ammo_casing/a303
+	desc = "A .303 British bullet casing."
+	caliber = "303"
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x54
+	icon_state = "rifle-casing"
+	spent_icon = "rifle-casing-spent"
+
+/obj/item/ammo_casing/a303/ap
+	desc = "A .303 British AP bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x54/ap
+	
+/obj/item/ammo_casing/a303/tr
+	desc = "A .303 British tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a762x54/tr
+
 /obj/item/ammo_casing/a545x39
 	desc = "A 5.45x39mm bullet casing."
 	caliber = "545x39"

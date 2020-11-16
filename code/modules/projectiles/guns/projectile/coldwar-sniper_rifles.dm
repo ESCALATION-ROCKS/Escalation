@@ -365,7 +365,7 @@
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/tkiv
 	name = "7.62 Tkiv 85"
-	desc = "A special issue Finnish sniper rifle. Chambers 7.62X53 rounds."
+	desc = "A standard issue Finnish sniper rifle. Chambers 7.62X53 rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "tkiv"
 	item_state = "tkiv" 
@@ -453,4 +453,74 @@
 
 	else return
 
+/obj/item/weapon/gun/projectile/rifle/boltaction/enfield
+	name = "Enfield SMLE"
+	desc = "A standard issue British sniper rifle. Chambers .303 rounds."
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "enfield"
+	item_state = "enfield" 
+	force = 8
+	caliber = "303"
+	wielded_item_state = "tkiv-wielded"
+	w_class = ITEM_SIZE_LARGE
+	screen_shake = 3 //extra kickback
+	handle_casings = HOLD_CASINGS
+	load_method = SINGLE_CASING|SPEEDLOADER
+	max_shells = 5
+	ammo_type = /obj/item/ammo_casing/a303
+	one_hand_penalty = 6
+	accuracy = 6
+	fire_sound = 'sound/weapons/gunshot/762boltifle.ogg'
+	reload_sound = 'sound/weapons/gunporn/tkiv_bulletin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/tkiv_dist.ogg'
+	jam_chance = 0.360
+	slowdown_general = 0.35
+	bayonet_attachable = 0
 
+/obj/item/weapon/gun/projectile/rifle/boltaction/enfield/update_icon()
+	..()
+	if(bolt_open)
+		icon_state = "enfield-open"
+	else
+		icon_state = "enfield"
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/enfield/verb/scope()
+	set name = "Use Scope"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 0
+
+	src.toggle_scope(usr, 2.4)
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/mosin
+	name = "Mosin-Nagant M39"
+	desc = "An outdated Finnish rifle. Chambers 7.62x53mmR rounds."
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "mosin"
+	item_state = "mosin" 
+	force = 8
+	caliber = "762x53"
+	wielded_item_state = "mosin-wielded"
+	w_class = ITEM_SIZE_LARGE
+	screen_shake = 3 //extra kickback
+	handle_casings = HOLD_CASINGS
+	load_method = SINGLE_CASING|SPEEDLOADER
+	max_shells = 5
+	ammo_type = /obj/item/ammo_casing/a762x53
+	one_hand_penalty = 6
+	accuracy = 6
+	fire_sound = 'sound/weapons/gunshot/762boltifle.ogg'
+	reload_sound = 'sound/weapons/gunporn/tkiv_bulletin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/tkiv_dist.ogg'
+	jam_chance = 0.360
+	slowdown_general = 0.35
+	bayonet_attachable = 0
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/mosin/update_icon()
+	..()
+	if(bolt_open)
+		icon_state = "mosin-open"
+	else
+		icon_state = "mosin"

@@ -319,6 +319,31 @@
 /obj/item/ammo_magazine/a9x19s/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/a9x19k
+	name = "smg drum magazine (9x19mm)"
+	desc = "A KP31 magazine that fits seventy one 9x19mm rounds."
+	icon_state = "9x19k"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 2
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 71
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9x19k/ap
+	name = "smg AP drum magazine (9x19mm)"
+	desc = "A KP31 magazine that fits seventy one armor-piercing 9x19mm rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/ap
+
+/obj/item/ammo_magazine/a9x19k/tr
+	name = "smg tracer drum magazine (9x19mm)"
+	desc = "A KP31 magazine that fits seventy one tracer 9x19mm rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/tr
+
+/obj/item/ammo_magazine/a9x19s/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/a9x19b
 	name = "magazine (9x19mm)"
 	desc = "A Browning Hi-Power magazine that fits thirteen 9x19mm rounds."
@@ -930,6 +955,42 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/clip/h762x53/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/box/clip/h303
+	name = "stripper clip (.303 British)"
+	desc = "A clip of .303 British ammunition."
+	mag_type = SPEEDLOADER
+	icon_state = "clip_rifle"
+	caliber = "303"
+	ammo_type = /obj/item/ammo_casing/a303
+	w_class = 1
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/h303/tr
+	name = "tracer stripper clip (.303 British)"
+	desc = "A stripper clip of .303 British tracer ammunition."
+	mag_type = SPEEDLOADER
+	icon_state = "clip_rifle"
+	caliber = "303"
+	ammo_type = /obj/item/ammo_casing/a303/tr
+	w_class = 1
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/h303/ap
+	name = "AP stripper clip (.303 British)"
+	desc = "A stripper clip of armor-piercing .303 British ammunition."
+	mag_type = SPEEDLOADER
+	icon_state = "clip_rifle"
+	caliber = "303"
+	ammo_type = /obj/item/ammo_casing/a303/ap
+	w_class = 1
+	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/h303/empty
 	initial_ammo = 0
 
 ///////////////////////handfuls
