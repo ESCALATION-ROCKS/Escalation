@@ -4,19 +4,19 @@
 	speech_verb = "chimpers"
 	ask_verb = "chimpers"
 	exclaim_verb = "screeches"
-	key = "m"
+	key = null
 
 /datum/language/unathi/monkey
 	name = "Stok"
 	desc = "Hiss hiss hiss."
-	key = "7"
+	key = null
 
 /datum/language/skrell/monkey
 	name = "Neaera"
 	desc = "Squik squik squik."
-	key = "8"
+	key = null
 
 /datum/language/tajaran/monkey
 	name = "Farwa"
 	desc = "Meow meow meow."
-	key = "9"
+	key = null

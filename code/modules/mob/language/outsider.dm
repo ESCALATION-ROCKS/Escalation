@@ -35,7 +35,7 @@
 	desc = "Although they are normally wary and suspicious of each other, changelings can commune over a distance."
 	speech_verb = "says"
 	colour = "changeling"
-	key = "g"
+	key = null
 	flags = RESTRICTED | HIVEMIND
 
 /datum/language/ling/broadcast(var/mob/living/speaker,var/message,var/speaker_mask)
@@ -92,7 +92,7 @@
 	ask_verb = "intones"
 	exclaim_verb = "chants"
 	colour = "cult"
-	key = "f"
+	key = null
 	flags = RESTRICTED
 	space_chance = 100
 	syllables = list("ire","ego","nahlizet","certum","veri","jatkaa","mgar","balaq", "karazet", "geeri", \

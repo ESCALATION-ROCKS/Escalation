@@ -207,7 +207,7 @@ var/list/gamemode_cache = list()
 
 	var/aggressive_changelog = 0
 
-	var/list/language_prefixes = list(",","#","-")//Default language prefixes
+	var/list/language_prefixes = ","
 
 	var/ghosts_can_possess_animals = 0
 	var/delist_when_no_admins = FALSE

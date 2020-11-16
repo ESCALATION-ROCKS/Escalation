@@ -113,3 +113,6 @@
 	colour = "finnish"
 	key = "f"
 	syllables = list("mine", "sine", "hen", "me", "te", "he", "tame", "tuo", "se", "name", "nuo", "ne", "kuka", "mika", "ken", "kumpi", "joka", "mike", "toinen", "itse", "Ei", "Anteeksi", "Kiitos")
+
+//////////NOTE: Make sure BAY12 does not use the hotkey that you are going to use for a new language
+////////// just search ( key = "" ) and you will find it

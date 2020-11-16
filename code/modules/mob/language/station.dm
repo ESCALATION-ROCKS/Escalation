@@ -196,7 +196,7 @@
 	speech_verb = "speaks"
 	desc = "A hybrid language formerly used by Eastern Europe countries."
 	colour = "terran"
-	key = "r"
+	key = null
 	syllables = list("rus","zem","ave","groz","ski","ska","ven","konst","pol","lin","svy",
 	"danya","da","mied","zan","das","krem","myka","to","st","no","na","ni",
 	"ko","ne","en","po","ra","li","on","byl","cto","eni","ost","ol","ego","ver","stv","pro")
