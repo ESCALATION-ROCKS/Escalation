@@ -202,7 +202,7 @@
 // Pain/halloss
 /obj/item/organ/external/proc/get_pain()
 	for(var/mob/living/carbon/M)
-		if(M.stat == dead)
+		if(M.stat == DEAD)
 			return
 	if(!can_feel_pain() || robotic >= ORGAN_ROBOT)
 		return 0
