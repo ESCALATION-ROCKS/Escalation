@@ -266,6 +266,7 @@
 
 /obj/item/weapon/storage/box/ampule_box/epinephrine
 	name = "epinephrine ampule pack"
+	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
 	startswith = list(/obj/item/weapon/ampule_pack/epinephrine = 2)
 
 /obj/item/weapon/storage/box/ampule_box/naltamine
@@ -334,6 +335,7 @@
 
 /obj/item/weapon/ampule_pack/epinephrine
 	name = "epinephrine ampule pack"
+	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
 	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/epinephrine
 
 /obj/item/weapon/ampule_pack/naltamine

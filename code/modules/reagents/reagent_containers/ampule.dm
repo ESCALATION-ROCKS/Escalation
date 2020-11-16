@@ -34,6 +34,7 @@
 
 /obj/item/weapon/reagent_containers/glass/ampule/epinephrine
 	name = "epinephrine ampule"
+	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/adrenaline, 5)
