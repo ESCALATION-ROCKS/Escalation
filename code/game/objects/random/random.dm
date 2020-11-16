@@ -1269,7 +1269,7 @@ obj/random/hostilenew/spawn_choices()
 	icon = 'icons/mob/screen1.dmi'
 	icon_state = "grass2"
 	spawn_nothing_percentage = 60
-/obj/random/grass/spawn_choices()
+/obj/random/grasslow/spawn_choices()
 		return list(/obj/structure/flora/snowbushes/snowgrassa = 2,
 					/obj/structure/flora/snowbushes/snowgrassb = 2,
 					/obj/structure/flora/snowbushes/snowgrassc = 2,
