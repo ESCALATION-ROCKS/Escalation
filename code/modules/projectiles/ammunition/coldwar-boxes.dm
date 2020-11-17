@@ -369,6 +369,29 @@
 /obj/item/ammo_magazine/a9x19b/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/a45
+	name = "magazine (.45 ACP)"
+	desc = "An M1911 magazine that fits seven .45 ACP rounds."
+	icon_state = "45"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a45
+	caliber = ".45"
+	max_ammo = 7
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a45/ap
+	name = "AP magazine (.45 ACP)"
+	desc = "An M1911 magazine that fits seven armor-piercing .45 ACP rounds."
+	ammo_type = /obj/item/ammo_casing/a45/ap
+
+/obj/item/ammo_magazine/a45/tr
+	name = "tracer magazine (.45 ACP)"
+	desc = "An M1911 magazine that fits seven tracer .45 ACP rounds."
+	ammo_type = /obj/item/ammo_casing/a45/tr
+
+/obj/item/ammo_magazine/a45/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c762x51wa
 	name = "WA2000 magazine (7.62x51mm)"
 	desc = "A WA2000 magazine that fits six 7.62x51mm rounds."
@@ -925,7 +948,7 @@
 	name = "stripper clip (7.62x53mmR)"
 	desc = "A clip of 7.62x53mmR ammunition."
 	mag_type = SPEEDLOADER
-	icon_state = "clip_rifle"
+	icon_state = "h762x53"
 	caliber = "762x53"
 	ammo_type = /obj/item/ammo_casing/a762x53
 	w_class = 1
@@ -936,7 +959,7 @@
 	name = "tracer stripper clip (7.62x53mmR)"
 	desc = "A stripper clip of yellow tipped 7.62x53mmR ammunition."
 	mag_type = SPEEDLOADER
-	icon_state = "clip_rifle"
+	icon_state = "hy762x53"
 	caliber = "762x53"
 	ammo_type = /obj/item/ammo_casing/a762x53/tr
 	w_class = 1
@@ -947,7 +970,7 @@
 	name = "AP stripper clip (7.62x53mmR)"
 	desc = "A stripper clip of light-blue tipped 7.62x53mmR ammunition."
 	mag_type = SPEEDLOADER
-	icon_state = "clip_rifle"
+	icon_state = "hb762x53"
 	caliber = "762x53"
 	ammo_type = /obj/item/ammo_casing/a762x53/ap
 	w_class = 1
@@ -961,7 +984,7 @@
 	name = "stripper clip (.303 British)"
 	desc = "A clip of .303 British ammunition."
 	mag_type = SPEEDLOADER
-	icon_state = "clip_rifle"
+	icon_state = "h762x53"
 	caliber = "303"
 	ammo_type = /obj/item/ammo_casing/a303
 	w_class = 1
@@ -972,7 +995,7 @@
 	name = "tracer stripper clip (.303 British)"
 	desc = "A stripper clip of .303 British tracer ammunition."
 	mag_type = SPEEDLOADER
-	icon_state = "clip_rifle"
+	icon_state = "h762x53"
 	caliber = "303"
 	ammo_type = /obj/item/ammo_casing/a303/tr
 	w_class = 1
@@ -983,7 +1006,7 @@
 	name = "AP stripper clip (.303 British)"
 	desc = "A stripper clip of armor-piercing .303 British ammunition."
 	mag_type = SPEEDLOADER
-	icon_state = "clip_rifle"
+	icon_state = "h762x53"
 	caliber = "303"
 	ammo_type = /obj/item/ammo_casing/a303/ap
 	w_class = 1
@@ -999,7 +1022,7 @@
 	name = "handful of bullets (7.62x51mm)"
 	desc = "A handful of 7.62x51mm bullets."
 	mag_type = SPEEDLOADER
-	icon_state = "m40"
+	icon_state = "t762x51"
 	caliber = "762x51"
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -1010,7 +1033,7 @@
 	name = "handful of tracer bullets (7.62x51mm)"
 	desc = "A handful of orange tipped 7.62x51mm bullets."
 	mag_type = SPEEDLOADER
-	icon_state = "m40"
+	icon_state = "to762x51"
 	caliber = "762x51"
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
@@ -1021,7 +1044,7 @@
 	name = "handful of armor-piercing bullets (7.62x51mm)"
 	desc = "A handful of black tipped 7.62x51mm bullets."
 	mag_type = SPEEDLOADER
-	icon_state = "m40"
+	icon_state = "tb762x51"
 	caliber = "762x51"
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a762x51/ap
@@ -1032,7 +1055,7 @@
 	name = "handful of bullets (7.62x53mmR)"
 	desc = "A handful of 7.62x53mmR bullets."
 	mag_type = SPEEDLOADER
-	icon_state = "m40"
+	icon_state = "t762x53"
 	caliber = "762x53"
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a762x53
@@ -1043,7 +1066,7 @@
 	name = "handful of tracer bullets (7.62x53mmR)"
 	desc = "A handful of yellow tipped 7.62x53mmR bullets."
 	mag_type = SPEEDLOADER
-	icon_state = "m40"
+	icon_state = "ty762x53"
 	caliber = "762x53"
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a762x53/tr
@@ -1054,7 +1077,7 @@
 	name = "handful of armor-piercing bullets (7.62x53mmR)"
 	desc = "A handful of light-blue tipped 7.62x53mmR bullets."
 	mag_type = SPEEDLOADER
-	icon_state = "m40"
+	icon_state = "tb762x53"
 	caliber = "762x53"
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a762x53/ap

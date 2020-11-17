@@ -118,6 +118,22 @@
 
 //Pistol caliber
 
+
+/obj/item/projectile/bullet/rifle/a45
+	armor_penetration = 4
+	penetration_modifier = 0.01
+	agony = 25
+
+	New()
+		damage = rand(30, 35)
+
+/obj/item/projectile/bullet/rifle/a45/tr
+	icon_state = "bullet_tracer"
+
+/obj/item/projectile/bullet/rifle/a45/ap
+	armor_penetration = 20
+	penetration_modifier = 0.1
+
 /obj/item/projectile/bullet/rifle/a9x19
 	armor_penetration = 12
 	penetration_modifier = 0.1

@@ -121,11 +121,11 @@
 	desc = "This holster can hold a M1911A1 and one magazine."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/colt911,
-		/obj/item/ammo_magazine/c45m,
+		/obj/item/ammo_magazine/a45,
 		)
 	can_hold = list(
 		/obj/item/weapon/gun/projectile/colt911,
-		/obj/item/ammo_magazine/c45m,
+		/obj/item/ammo_magazine/a45,
 		)
 
 /obj/item/weapon/storage/belt/holster/baf

@@ -151,7 +151,7 @@
 
 /obj/item/weapon/gun/projectile/colt911
 	name = "Colt M1911A1"
-	desc = "A solid classic. Uses .45 ammunition."
+	desc = "A solid classic. Uses .45 ACP ammunition."
 	icon_state = "colt" //fix
 	item_state = "gun"
 	w_class = ITEM_SIZE_NORMAL
@@ -159,8 +159,8 @@
 	fire_delay = 3.7
 	accuracy = 3
 	load_method = MAGAZINE
-	magazine_type = /obj/item/ammo_magazine/c45m
-	allowed_magazines = /obj/item/ammo_magazine/c45m
+	magazine_type = /obj/item/ammo_magazine/a45
+	allowed_magazines = /obj/item/ammo_magazine/a45
 	fire_sound = 'sound/weapons/gunshot/m1911.ogg'
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'

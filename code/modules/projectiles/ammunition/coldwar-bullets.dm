@@ -108,6 +108,19 @@
 	desc = "A 5.56x45mm tracer bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a556x45/tr
 
+/obj/item/ammo_casing/a45
+	desc = "A .45 ACP bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a45
+
+/obj/item/ammo_casing/a45/tr
+	desc = "A .45 ACP tracer bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a45/tr
+
+/obj/item/ammo_casing/a45/ap
+	desc = "A .45 ACP armor-piercing bullet casing."
+	projectile_type = /obj/item/projectile/bullet/rifle/a45/ap
+
+
 /obj/item/ammo_casing/a9x19
 	desc = "A 9x19mm bullet casing."
 	caliber = "9x19"
