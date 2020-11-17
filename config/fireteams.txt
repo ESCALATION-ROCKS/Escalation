@@ -15,8 +15,8 @@ Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/sasld
 /datum/job/escalation/cccp/sasrad
 /datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/rocket
+/datum/job/escalation/cccp/rocketass
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
