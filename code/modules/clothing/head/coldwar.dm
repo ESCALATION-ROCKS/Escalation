@@ -140,12 +140,39 @@
 /obj/item/clothing/head/usmc/cap/winter
 	name = "winter field cap"
 	desc = "That's a generic field cap for cold climates."
-	icon_state = "woodland_cap" ////change
+	icon_state = "wintercap" ////change
+	icon_state = "wintercap" 
 
 /obj/item/clothing/head/usmc/boonie/woodland
 	name = "boonie hat"
 	desc = "That's a generic boonie hat in a woodland pattern."
 	icon_state = "boonie_woodl"
+
+//U.S. watchcaps
+/obj/item/clothing/head/usmc/wcap/black
+	name = "watch cap"
+	desc = "That's a generic beanie. This one is in black."
+	icon_state = "wcapblack"
+	item_state = "wcapblack"
+
+/obj/item/clothing/head/usmc/wcap/green
+	name = "watch cap"
+	desc = "That's a generic beanie. This one is in dark green."
+	icon_state = "wcapgreen"
+	item_state = "wcapgreen"
+
+/obj/item/clothing/head/usmc/wcap/brown
+	name = "watch cap"
+	desc = "That's a generic beanie. This one is in dark brown."
+	icon_state = "wcapbrown"
+	item_state = "wcapbrown"
+
+/obj/item/clothing/head/usmc/wcap/blue
+	name = "watch cap"
+	desc = "That's a generic beanie. This one is in navy blue."
+	icon_state = "wcapblue"
+	item_state = "wcapblue"
+
 
 //U.S. helmets
 
