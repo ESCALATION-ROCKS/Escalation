@@ -962,7 +962,7 @@
 	position = "team"
 	amount = 4
 	enabled = 1
-	whitelist_rank = "finns_enlisted"
+	whitelist_rank = "finn_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
