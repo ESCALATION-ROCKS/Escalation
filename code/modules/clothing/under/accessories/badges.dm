@@ -19,7 +19,7 @@
 	desc = "A faded badge, backed with leather. Looks crummy."
 	icon_state = "badge_round"
 
-/obj/item/clothing/accessory/badge/natodogtag
+/*/obj/item/clothing/accessory/badge/natodogtag
 	name = "NATO dogtag"
 	desc = "A piece of stamped metal containing the identification for a NATO soldier."
 	icon_state = "natodog"
@@ -27,7 +27,7 @@
 /obj/item/clothing/accessory/badge/wpdogtag
 	name = "WARPACT dogtag"
 	desc = "A piece of stamped metal containing the identification for a WARPACT soldier."
-	icon_state = "wpdog"
+	icon_state = "wpdog"*/
 
 /obj/item/clothing/accessory/badge/proc/set_name(var/new_name)
 	stored_name = new_name

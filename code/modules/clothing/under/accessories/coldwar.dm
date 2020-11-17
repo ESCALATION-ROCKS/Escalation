@@ -1,12 +1,13 @@
-/obj/item/clothing/accessory/badge/dogtag
-	name = "dog tags"
-	desc = "Plain identification tags made from a durable metal. They are stamped with a variety of informational details."
+/obj/item/clothing/accessory/badge/natodogtag
+	name = "NATO dogtag"
+	desc = "A piece of stamped metal containing the identification for a NATO soldier."
 	gender = PLURAL
-	icon_state = "tags"
-	badge_string = "U.S.M.C."
-	slot_flags = SLOT_MASK | SLOT_TIE
+	icon = 'icons/obj/clothing/ties.dmi'
+	icon_state = "natodog"
+	badge_string = "NATO"
+	slot_flags = SLOT_TIE
 
-/obj/item/clothing/accessory/badge/dogtag/Initialize()
+/obj/item/clothing/accessory/badge/natodogtag/Initialize()
 	. = ..()
 	var/mob/living/carbon/human/H
 	H = get_holder_of_type(src, /mob/living/carbon/human)
@@ -14,11 +15,32 @@
 		set_name(H.real_name)
 		set_desc(H)
 
-/obj/item/clothing/accessory/badge/dogtag/set_desc(var/mob/living/carbon/human/H)
+/obj/item/clothing/accessory/badge/natodogtag/set_desc(var/mob/living/carbon/human/H)
 	if(!istype(H))
 		return
-	desc = "[initial(desc)]\nName: [H.real_name]\nReligion: [H.religion]\nBlood type: [H.b_type]"
+	desc = "[initial(desc)]\nName: [H.real_name]\nBlood type: [H.b_type]"
 
+/obj/item/clothing/accessory/badge/wpdogtag
+	name = "WARPACT dogtag"
+	desc = "A piece of stamped metal containing the identification for a WARPACT soldier."
+	icon_state = "wpdog"
+	icon = 'icons/obj/clothing/ties.dmi'
+	gender = PLURAL
+	badge_string = "WARPACT"
+	slot_flags = SLOT_TIE
+
+/obj/item/clothing/accessory/badge/wpdogtag/Initialize()
+	. = ..()
+	var/mob/living/carbon/human/H
+	H = get_holder_of_type(src, /mob/living/carbon/human)
+	if(H)
+		set_name(H.real_name)
+		set_desc(H)
+
+/obj/item/clothing/accessory/badge/wpdogtag/set_desc(var/mob/living/carbon/human/H)
+	if(!istype(H))
+		return
+	desc = "[initial(desc)]\nName: [H.real_name]\nBlood type: [H.b_type]"
 
 /obj/item/clothing/accessory/insignia
 	name = "Insignia"
