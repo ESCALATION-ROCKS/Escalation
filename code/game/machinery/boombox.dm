@@ -146,3 +146,10 @@
 	a_side = 'sound/music/soldworld.ogg'
 	b_side = 'sound/music/youvegotanotherthingcoming.ogg'
 	sound_inside = a_side
+
+/obj/item/device/cassette/tape6/New()
+	..()
+	name = "Tape No. 946"
+	a_side = 'sound/music/katanazero.ogg'
+	b_side = 'sound/music/blackntans.ogg'
+	sound_inside = a_side
