@@ -10,7 +10,7 @@
 
 # WARPAC
 
-Otdelenie 'Anna':cccp
+Otdelenie Anna:cccp
 /datum/job/escalation/cccp/sasl
 /datum/job/escalation/cccp/sasld
 /datum/job/escalation/cccp/sasrad
