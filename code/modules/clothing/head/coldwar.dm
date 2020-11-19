@@ -137,16 +137,18 @@
 	desc = "That's a generic field cap in a woodland pattern."
 	icon_state = "woodland_cap"
 
-/obj/item/clothing/head/usmc/cap/winter
-	name = "winter field cap"
-	desc = "That's a generic field cap for cold climates."
-	icon_state = "wintercap" ////change
-	icon_state = "wintercap" 
-
 /obj/item/clothing/head/usmc/boonie/woodland
 	name = "boonie hat"
 	desc = "That's a generic boonie hat in a woodland pattern."
 	icon_state = "boonie_woodl"
+
+
+/obj/item/clothing/head/ushanka/uswintercap
+	name = "winter cap"
+	desc = "That's a generic winter cap for cold climates."
+	icon_state = "uswintercap"
+	icon_state_up = "uswintercap-up"
+
 
 //U.S. watchcaps
 /obj/item/clothing/head/usmc/wcap/black
