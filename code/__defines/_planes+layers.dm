@@ -104,11 +104,11 @@ What is the naming convention for planes or layers?
 	#define PLANT_LAYER                 10
 	#define AO_LAYER                    12
 
-#define HIDING_MOB_PLANE              -16 // for hiding mobs like MoMMIs or spiders or whatever, under most objects but over pipes & such.
+#define HIDING_MOB_PLANE              -17 // for hiding mobs like MoMMIs or spiders or whatever, under most objects but over pipes & such.
 
 	#define HIDING_MOB_LAYER 0
 
-#define OBJ_PLANE                     -15 // For objects which appear below humans.
+#define OBJ_PLANE                     -16 // For objects which appear below humans.
 	#define BELOW_DOOR_LAYER        0.25
 	#define OPEN_DOOR_LAYER         0.5
 	#define BELOW_TABLE_LAYER       0.75
@@ -122,9 +122,13 @@ What is the naming convention for planes or layers?
 	#define FULL_WINDOW_LAYER       8
 	#define ABOVE_WINDOW_LAYER      9
 
-#define LYING_MOB_PLANE               -14 // other mobs that are lying down.
+#define LYING_MOB_PLANE               -15 // other mobs that are lying down.
 
-	#define LYING_MOB_LAYER 0
+	#define LYING_MOB_LAYER -0
+
+#define DEAD_HUMAN_PLANE			  -14 // humans that are dead, no joker traps
+
+	#define DEAD_HUMAN_LAYER 0
 
 #define LYING_HUMAN_PLANE             -13 // humans that are lying down
 

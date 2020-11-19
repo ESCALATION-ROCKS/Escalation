@@ -199,6 +199,9 @@
 	else if(lying)
 		plane = LYING_HUMAN_PLANE
 		layer = LYING_HUMAN_LAYER
+		if(stat == DEAD)
+			plane = DEAD_HUMAN_PLANE
+			layer = DEAD_HUMAN_LAYER
 	else
 		..()
 
