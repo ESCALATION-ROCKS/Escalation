@@ -289,23 +289,23 @@
 //bayonet for boltactions
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/attack_self(mob/user as mob)
-    bolt_open = !bolt_open
-    if(do_after(user, 6.5, src))
-        if(bolt_open)
-            playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
-            if(chambered)
-                to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
-                chambered.loc = get_turf(src)
-                loaded -= chambered
-                chambered = null
-            else
-                to_chat(user, "<span class='notice'>You work the bolt open.</span>")
-        else
-            to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
-            playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
-            bolt_open = 0
-        add_fingerprint(user)
-        update_icon()
+	bolt_open = !bolt_open
+	if(do_after(user, 6.5, src))
+		if(bolt_open)
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
+			if(chambered)
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
+				chambered.loc = get_turf(src)
+				loaded -= chambered
+				chambered = null
+			else
+				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
+		else
+			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
+			bolt_open = 0
+		add_fingerprint(user)
+		update_icon()
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/special_check(mob/user)
 	if(bolt_open)
@@ -323,7 +323,7 @@
 		return
 	..()
 
-/obj/item/weapon/gun/projectile/rifle/boltaction/l96
+/obj/item/weapon/gun/projectile/automatic/rifle/l96
 	name = "L96A1"
 	desc = "A standard-issue British sniper rifle. Chambers 7.62x51 rounds."
 	icon = 'icons/obj/boltactions.dmi'
@@ -331,15 +331,17 @@
 	item_state = "l96" 
 	force = 10
 	caliber = "762x51"
-	ammo_type = /obj/item/ammo_casing/a762x51
 	load_method = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51l)
 	wielded_item_state = "l96-wielded"
 	w_class = ITEM_SIZE_HUGE
+	handle_casings = HOLD_CASINGS
 	screen_shake = 3 //extra kickback
 	max_shells = 10
 	one_hand_penalty = 8
 	accuracy = 6
+	var/bolt_open = 0
 	fire_sound = 'sound/weapons/gunshot/l96.ogg'
 	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
@@ -348,14 +350,14 @@
 	slowdown_general = 0.45
 	bayonet_attachable = 0
 
-/obj/item/weapon/gun/projectile/rifle/boltaction/l96/update_icon()
+/obj/item/weapon/gun/projectile/automatic/rifle/l96/update_icon()
 	..()
 	if(bolt_open)
 		icon_state = "l96-open"
 	else
 		icon_state = "l96"
 
-/obj/item/weapon/gun/projectile/rifle/boltaction/l96/verb/scope()
+/obj/item/weapon/gun/projectile/automatic/rifle/l96/verb/scope()
 	set name = "Use Scope"
 	set category = "Object"
 	set src in usr
@@ -363,6 +365,34 @@
 
 	src.toggle_scope(usr, 2.4)
 
+/obj/item/weapon/gun/projectile/automatic/rifle/l96/attack_self(mob/user as mob)
+	bolt_open = !bolt_open
+	if(do_after(user, 6.5, src))
+		if(bolt_open)
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
+			if(chambered)
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
+				chambered.loc = get_turf(src)
+				loaded -= chambered
+				chambered = null
+			else
+				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
+		else
+			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
+			bolt_open = 0
+			if(!chambered)
+				chambered = ammo_magazine.stored_ammo[1]
+				ammo_magazine.stored_ammo -= chambered
+		add_fingerprint(user)
+		update_icon()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/l96/special_check(mob/user)
+	if(bolt_open)
+		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
+		return 0
+	return ..()
+	
 /obj/item/weapon/gun/projectile/rifle/boltaction/tkiv
 	name = "7.62 Tkiv 85"
 	desc = "A standard issue Finnish sniper rifle. Chambers 7.62X53mmR rounds."
