@@ -4,7 +4,7 @@
 	icon_state = "water"
 	blend_with_neighbors = 4
 	movement_delay = 10
-	layer = ABOVE_TURF_PLANE
+	layer = MOB_LAYER+0.2
 	outdoors = 1
 	footstep_sounds = list("human" = list(
 		'sound/effects/footsteps/wade1.wav',
