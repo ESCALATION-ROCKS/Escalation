@@ -44,7 +44,7 @@ EvenInDeathIStillServe = {
 ::ALL::
 }
 
-# WARPACT
+# FINN
 
 QuickLoad = {
 finn_officer
@@ -170,7 +170,7 @@ finn_nco
 finn_enlisted
 }
 
-# NATO
+# BAF
 
 I like D0nUts = {
 baf_officer
@@ -341,4 +341,51 @@ baf_enlisted
 
 blank cat = {
 baf_enlisted
+}
+
+# USA
+
+Tristan63 = {
+usmc_nco
+usmc_enlisted
+}
+
+TeknoKot = {
+usmc_enlisted
+}
+
+Captiajoe = {
+usmc_enlisted
+}
+
+LynuahSororitas = {
+usmc_enlisted
+}
+
+PepeFrog = {
+usmc_enlisted
+}
+
+Subdon = {
+usmc_enlisted
+}
+
+ToasterRoboto = {
+usmc_enlisted
+}
+
+Yacobpro157 = {
+usmc_enlisted
+}
+
+Chaznoodles = {
+usmc_enlisted
+}
+
+TeenGowen = {
+usmc_enlisted
+}
+
+Willical = {
+usmc_enlisted
 }

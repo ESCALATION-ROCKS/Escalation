@@ -37,7 +37,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	name = "SVD"
-	desc = "A standard-issue Soviet Army and NVA DDR marksman rifle. Chambers 7.62x54 rounds."
+	desc = "A standard-issue Soviet Army and NVA DDR marksman rifle. Chambers 7.62x54mmR rounds."
 	icon_state = "svd"
 	item_state = "svd"
 	slot_flags = SLOT_BACK_GUN
@@ -365,7 +365,7 @@
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/tkiv
 	name = "7.62 Tkiv 85"
-	desc = "A standard issue Finnish sniper rifle. Chambers 7.62X53 rounds."
+	desc = "A standard issue Finnish sniper rifle. Chambers 7.62X53mmR rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "tkiv"
 	item_state = "tkiv" 
@@ -408,7 +408,7 @@
 	desc = "A standard issue American sniper rifle. Chambers 7.62X51 rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "m40a1"
-	item_state = "m40a1" 
+	item_state = "m40" 
 	force = 8
 	caliber = "762x51"
 	wielded_item_state = "m40a1-wielded"
@@ -498,7 +498,7 @@
 	desc = "An outdated Finnish rifle. Chambers 7.62x53mmR rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "mosin"
-	item_state = "mosin" 
+	item_state = "enfield" 
 	force = 8
 	caliber = "762x53"
 	wielded_item_state = "mosin-wielded"
@@ -521,6 +521,6 @@
 /obj/item/weapon/gun/projectile/rifle/boltaction/mosin/update_icon()
 	..()
 	if(bolt_open)
-		icon_state = "mosin-open"
+		icon_state = "enfield-open"
 	else
-		icon_state = "mosin"
+		icon_state = "enfield"
