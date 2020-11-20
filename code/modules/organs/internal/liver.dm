@@ -62,10 +62,10 @@
 		var/datum/reagent/blood/B = owner.get_blood(owner.vessel)
 		var/regen_value = 0.1
 		if(owner.hydratation >= 400) //Regen more blood at the cost of hydration.
-			regen_value = 0.5
-			owner.hydratation -= 2
+			regen_value = 0.2
+			owner.hydratation -= 0.5
 		if(owner.buckled && istype(owner.buckled,/obj/structure/bed))
-			regen_value *= 2
+			regen_value *= 0.2
 		if(istype(B))
 			B.volume += regen_value + owner.chem_effects[CE_BLOODRESTORE] // regenerate blood VERY slowly
 
