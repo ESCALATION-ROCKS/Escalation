@@ -408,7 +408,7 @@
 	desc = "A standard issue American sniper rifle. Chambers 7.62X51 rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "m40a1"
-	item_state = "m40" 
+	item_state = "m40a1" 
 	force = 8
 	caliber = "762x51"
 	wielded_item_state = "m40a1-wielded"
