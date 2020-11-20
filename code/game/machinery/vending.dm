@@ -710,11 +710,9 @@
 	vend_delay = 11
 	product_slogans = ""
 	product_ads = ""
-	products = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 10,
-					,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10)
-	contraband = list(/obj/item/weapon/reagent_containers/food/drinks/cans/thirteenloko = 5, /obj/item/weapon/reagent_containers/food/snacks/liquidfood = 6)
-	prices = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 10,
-					,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10)
+	products = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10)
+	contraband = null
+	prices = null
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
 
 /obj/machinery/vending/fitness
