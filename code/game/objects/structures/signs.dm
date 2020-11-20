@@ -1640,7 +1640,7 @@ obj/structure/sign/noshitlers
 /obj/structure/sign/vehicle/btr
 	name = "BTR"
 	icon = 'icons/obj/BTR.dmi'
-	icon_state = "btr"
+	icon_state = "BTR"
 	desc = "A Soviet troop carrier."
 	anchored = 1
 
