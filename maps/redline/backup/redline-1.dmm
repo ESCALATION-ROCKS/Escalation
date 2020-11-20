@@ -320,7 +320,7 @@
 "gh" = (/obj/effect/floor_decal/spline/plain{dir = 1},/turf/simulated/wall,/area/metro/hospital)
 "gi" = (/obj/structure/table/rack/steriletable,/obj/item/device/flashlight/kerosene,/turf/simulated/floor/tiled/white,/area/metro/hospital)
 "gj" = (/obj/structure/table/rack/shelf,/obj/random/medical,/obj/random/medical,/obj/random/medical,/obj/random/medical,/obj/random/medical,/turf/simulated/floor/tiled/white,/area/metro/hospital)
-"gk" = (/obj/machinery/iv_drip,/turf/simulated/floor/tiled/white,/area/metro/hospital)
+"gk" = (/obj/structure/iv_drip,/turf/simulated/floor/tiled/white,/area/metro/hospital)
 "gl" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 1},/turf/simulated/floor/tiled/white,/area/metro/hospital)
 "gm" = (/obj/structure/closet/crate/medical,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/random/medical/lite,/obj/item/weapon/storage/box/syringes,/obj/item/weapon/storage/box/masks,/obj/item/weapon/storage/box/gloves,/turf/simulated/floor/tiled/white,/area/metro/hospital)
 "gn" = (/obj/structure/table/rack/shelf,/obj/item/weapon/reagent_containers/glass/bottle/tetracetam,/obj/random/medical,/obj/random/medical,/obj/random/medical,/obj/random/medical,/turf/simulated/floor/tiled/white,/area/metro/hospital)

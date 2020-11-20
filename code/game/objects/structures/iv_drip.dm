@@ -1,15 +1,14 @@
-/obj/machinery/iv_drip
+/obj/structure/iv_drip
 	name = "\improper IV drip"
 	icon = 'icons/obj/iv_drip.dmi'
 	anchored = 0
 	density = 0
 
 
-/obj/machinery/iv_drip/var/mob/living/carbon/human/attached = null
-/obj/machinery/iv_drip/var/mode = 1 // 1 is injecting, 0 is taking blood.
-/obj/machinery/iv_drip/var/obj/item/weapon/reagent_containers/beaker = null
+/obj/structure/iv_drip/var/mob/living/carbon/human/attached = null
+/obj/structure/iv_drip/var/obj/item/weapon/reagent_containers/beaker = null
 
-/obj/machinery/iv_drip/update_icon()
+/obj/structure/iv_drip/update_icon()
 	if(src.attached)
 		icon_state = "hooked"
 	else
@@ -42,7 +41,7 @@
 				light.icon_state = "light_mid"
 			overlays += light
 
-/obj/machinery/iv_drip/MouseDrop(over_object, src_location, over_location)
+/obj/structure/iv_drip/MouseDrop(over_object, src_location, over_location)
 	if(!CanMouseDrop(over_object))
 		return
 
@@ -56,9 +55,10 @@
 		visible_message("\The [usr] attaches \the [src] to \the [over_object].")
 		src.attached = over_object
 		src.update_icon()
+		inject_fluid()
 
 
-/obj/machinery/iv_drip/attackby(obj/item/weapon/W as obj, mob/user as mob)
+/obj/structure/iv_drip/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if (istype(W, /obj/item/weapon/reagent_containers))
 		if(!isnull(src.beaker))
 			to_chat(user, "There is already a reagent container loaded!")
@@ -74,9 +74,23 @@
 		return ..()
 
 
-/obj/machinery/iv_drip/process()
+/obj/structure/iv_drip/proc/inject_fluid()
 	set background = 1
 
+	if(src.attached && src.beaker)
+		// Give blood
+		if(beaker.volume > 0)
+			var/transfer_amount = REM
+			if(istype(src.beaker, /obj/item/weapon/reagent_containers/blood))
+				// speed up transfer on blood packs
+				transfer_amount = 4
+			beaker.reagents.trans_to_mob(attached, transfer_amount, CHEM_BLOOD)
+			iv_range_check()
+			update_icon()
+	
+	addtimer(CALLBACK(src, .proc/inject_fluid), 40) // 4 seconds
+
+/obj/structure/iv_drip/proc/iv_range_check()
 	if(src.attached)
 
 		if(!(get_dist(src, src.attached) <= 1 && isturf(src.attached.loc)))
@@ -86,45 +100,7 @@
 			src.update_icon()
 			return
 
-	if(src.attached && src.beaker)
-		// Give blood
-		if(mode)
-			if(beaker.volume > 0)
-				var/transfer_amount = REM
-				if(istype(src.beaker, /obj/item/weapon/reagent_containers/blood))
-					// speed up transfer on blood packs
-					transfer_amount = 4
-				beaker.reagents.trans_to_mob(attached, transfer_amount, CHEM_BLOOD)
-				update_icon()
-
-		// Take blood
-		else
-			var/amount = beaker.reagents.maximum_volume - beaker.reagents.total_volume
-			amount = min(amount, 4)
-			// If the beaker is full, ping
-			if(amount == 0)
-				if(prob(5)) visible_message("\The [src] pings.")
-				return
-
-			var/mob/living/carbon/human/T = attached
-
-			if(!istype(T)) return
-			if(!T.dna)
-				return
-			if(NOCLONE in T.mutations)
-				return
-
-			if(!T.should_have_organ(BP_HEART))
-				return
-
-			// If the human is losing too much blood, beep.
-			if(((T.vessel.get_reagent_amount(/datum/reagent/blood)/T.species.blood_volume)*100) < BLOOD_VOLUME_SAFE)
-				visible_message("\The [src] beeps loudly.")
-
-			if(T.take_blood(beaker,amount))
-				update_icon()
-
-/obj/machinery/iv_drip/attack_hand(mob/user as mob)
+/obj/structure/iv_drip/attack_hand(mob/user as mob)
 	if(src.beaker)
 		src.beaker.loc = get_turf(src)
 		src.beaker = null
@@ -132,33 +108,9 @@
 	else
 		return ..()
 
-/obj/machinery/iv_drip/attack_robot(var/mob/user)
-	if(Adjacent(user))
-		attack_hand(user)
-
-obj/machinery/iv_drip/attack_ai(mob/user as mob)
-	return
-
-/obj/machinery/iv_drip/verb/toggle_mode()
-	set category = "Object"
-	set name = "Toggle Mode"
-	set src in view(1)
-
-	if(!istype(usr, /mob/living))
-		to_chat(usr, "<span class='warning'>You can't do that.</span>")
-		return
-
-	if(usr.stat)
-		return
-
-	mode = !mode
-	to_chat(usr, "The IV drip is now [mode ? "injecting" : "taking blood"].")
-
-/obj/machinery/iv_drip/examine(mob/user)
+/obj/structure/iv_drip/examine(mob/user)
 	. = ..(user)
 	if (!(user in view(2)) && user!=src.loc) return
-
-	to_chat(user, "The IV drip is [mode ? "injecting" : "taking blood"].")
 
 	if(beaker)
 		if(beaker.reagents && beaker.reagents.reagent_list.len)
@@ -170,7 +122,7 @@ obj/machinery/iv_drip/attack_ai(mob/user as mob)
 
 	to_chat(usr, "<span class='notice'>[attached ? attached : "No one"] is attached.</span>")
 
-/obj/machinery/iv_drip/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
+/obj/structure/iv_drip/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if(height && istype(mover) && mover.checkpass(PASSTABLE)) //allow bullets, beams, thrown objects, mice, drones, and the like through.
 		return 1
 	return ..()
