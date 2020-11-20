@@ -1763,7 +1763,7 @@
 	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
-	back_2 = /obj/item/weapon/gun/projectile/rifle/boltaction/enfield
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l96
 	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_commander/pre_equip(mob/living/carbon/human/H)
