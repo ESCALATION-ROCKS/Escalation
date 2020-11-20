@@ -1291,6 +1291,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/storage/backpack/usmcm3
 	head = /obj/item/clothing/head/ushanka/uswintercap
+	suit = /obj/item/clothing/suit/armor/vest/coat/usa
 	l_pocket = /obj/item/weapon/key/natomed
 	r_pocket = null
 	belt = /obj/item/weapon/storage/belt/harness/usmc
