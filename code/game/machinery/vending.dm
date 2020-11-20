@@ -704,19 +704,17 @@
 
 /obj/machinery/vending/cola
 	name = "Coca Cola Machine"
-	desc = "A contemporarilly boxy Coke machine."
+	desc = "Coca Cola - Don't Forget The Ice."
 	icon_state = "Cola_Machine"
 	icon_vend = "Cola_Machine-vend"
 	vend_delay = 11
 	product_slogans = ""
 	product_ads = ""
 	products = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 10,
-					,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10,
+					,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10)
 	contraband = list(/obj/item/weapon/reagent_containers/food/drinks/cans/thirteenloko = 5, /obj/item/weapon/reagent_containers/food/snacks/liquidfood = 6)
-	prices = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 1,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 1,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/dr_gibb = 1,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 1,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle = 2,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 1,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/iced_tea = 1,/obj/item/weapon/reagent_containers/food/drinks/cans/grape_juice = 1)
+	prices = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 10,
+					,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10)
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
 
 /obj/machinery/vending/fitness
