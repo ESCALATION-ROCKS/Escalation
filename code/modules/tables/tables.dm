@@ -86,7 +86,7 @@
 
 	playsound(src.loc, 'sound/items/Ratchet.ogg', 50, 1)
 	to_chat(usr, "You begin to tear down [src].")
-	if(do_after(usr, 90, src))
+	if(do_after(usr, 400, src))
 		qdel(src)
 		to_chat(usr, "[src] has been torn down to scraps.")
 
@@ -133,7 +133,7 @@
 
 		playsound(src.loc, 'sound/effects/chopchop.ogg', 100, 1)
 		to_chat(usr, "You begin to tear down [src] into its bare components.")
-		if(do_after(usr, 40, src))
+		if(do_after(usr, 100, src))
 			if(scrap_type == GLASS_MATERIAL) 
 				new /obj/item/weapon/material/shard(src.loc)
 			else if(scrap_type == WOODEN_MATERIAL) 
