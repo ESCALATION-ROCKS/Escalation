@@ -37,6 +37,16 @@
 
 /obj/item/projectile/bullet/rifle/a762x51/tr
 	icon_state = "bullet_tracer"
+	penetrating = 1
+	armor_penetration = 34
+	penetration_modifier = 0.3
+	embed = 1
+	kill_count = 120
+	agony = 20
+
+	New()
+		damage = rand(42, 52)
+		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x51/ap
 	armor_penetration = 45
