@@ -1549,6 +1549,7 @@ obj/structure/sign/noshitlers
 	icon_state = "moskvich1"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/moskvich2
 	name = "moskvich"
@@ -1556,6 +1557,7 @@ obj/structure/sign/noshitlers
 	icon_state = "moskvich2"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/moskvich3
 	name = "moskvich"
@@ -1563,6 +1565,7 @@ obj/structure/sign/noshitlers
 	icon_state = "moskvich3"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/moskvich4
 	name = "moskvich"
@@ -1570,6 +1573,7 @@ obj/structure/sign/noshitlers
 	icon_state = "moskvich4"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/moskvich5
 	name = "moskvich"
@@ -1577,6 +1581,7 @@ obj/structure/sign/noshitlers
 	icon_state = "moskvich5"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/moskvich6
 	name = "moskvich"
@@ -1584,6 +1589,7 @@ obj/structure/sign/noshitlers
 	icon_state = "moskvich6"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /////////////UAZ
 /obj/structure/sign/vehicle/uaz1
@@ -1592,6 +1598,7 @@ obj/structure/sign/noshitlers
 	icon_state = "uaz1"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/uaz2
 	name = "moskvich"
@@ -1599,6 +1606,7 @@ obj/structure/sign/noshitlers
 	icon_state = "uaz2"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/uaz3
 	name = "moskvich"
@@ -1606,6 +1614,7 @@ obj/structure/sign/noshitlers
 	icon_state = "uaz3"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/uaz4
 	name = "moskvich"
@@ -1613,6 +1622,7 @@ obj/structure/sign/noshitlers
 	icon_state = "uaz4"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/uaz5
 	name = "moskvich"
@@ -1620,6 +1630,7 @@ obj/structure/sign/noshitlers
 	icon_state = "uaz5"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 /obj/structure/sign/vehicle/uaz6
 	name = "moskvich"
@@ -1627,6 +1638,7 @@ obj/structure/sign/noshitlers
 	icon_state = "uaz6"
 	desc = "An old car."
 	anchored = 1
+	density = 1
 
 ////////////SPORTSCAR
 /obj/structure/sign/vehicle/sportscar
@@ -1635,6 +1647,7 @@ obj/structure/sign/noshitlers
 	icon_state = "sportscar"
 	desc = "A dandy sports car."
 	anchored = 1
+	density = 1
 
 ////////////////BTR
 /obj/structure/sign/vehicle/btr
@@ -1643,6 +1656,7 @@ obj/structure/sign/noshitlers
 	icon_state = "BTR"
 	desc = "A Soviet troop carrier."
 	anchored = 1
+	density = 1
 
 ///////////////MOTORCYCLE
 /obj/structure/sign/vehicle/motorcycle
