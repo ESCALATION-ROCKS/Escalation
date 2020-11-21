@@ -13,6 +13,7 @@
 	var/flipped = 0
 	var/maxhealth = 10
 	var/health = 10
+	var/scrap_type = 0 // used for wood or steel stacks should it be chopped down
 
 	// For racks.
 	var/can_reinforce = 1
@@ -79,6 +80,16 @@
 	update_desc()
 	update_material()
 
+/obj/structure/table/MouseDrop(over_object, src_location, over_location)
+	if(!(usr.a_intent == I_HURT))
+		return
+
+	playsound(src.loc, 'sound/items/Ratchet.ogg', 50, 1)
+	to_chat(usr, "You begin to tear down [src].")
+	if(do_after(usr, 90, src))
+		qdel(src)
+		to_chat(usr, "[src] has been torn down to scraps.")
+
 /obj/structure/table/Destroy()
 	material = null
 	reinforced = null
@@ -114,6 +125,34 @@
 		carpeted = 0
 		update_icon()
 		return 1
+	
+	if(istype(W, /obj/item/weapon/carpentry/axe))
+		
+		if(!(usr.a_intent == I_HURT))
+			return 1 
+
+		playsound(src.loc, 'sound/effects/chopchop.ogg', 100, 1)
+		to_chat(usr, "You begin to tear down [src] into its bare components.")
+		if(do_after(usr, 40, src))
+			if(scrap_type == GLASS_MATERIAL) 
+				new /obj/item/weapon/material/shard(src.loc)
+			else if(scrap_type == WOODEN_MATERIAL) 
+				var/obj/item/stack/material/r_wood/R = new /obj/item/stack/material/r_wood(src.loc)
+				R.pixel_y = src.pixel_y
+				R.amount = rand(3,6)
+			else if(scrap_type == STEEL_MATERIAL) 
+				var/obj/item/stack/material/steel/S = new /obj/item/stack/material/steel(src.loc)
+				S.pixel_y = src.pixel_y
+				S.amount = rand(3,6)
+			else if(scrap_type == MARBLE_MATERIAL) 
+				var/obj/item/stack/material/marble/M = new /obj/item/stack/material/marble(src.loc)
+				M.pixel_y = src.pixel_y
+				M.amount = rand(2,4)
+
+		to_chat(usr, "You tear down [src], tearing it into its basic components.")
+		qdel(src)
+
+		return 1 
 
 	if(!carpeted && material && istype(W, /obj/item/stack/tile/carpet))
 		var/obj/item/stack/tile/carpet/C = W
