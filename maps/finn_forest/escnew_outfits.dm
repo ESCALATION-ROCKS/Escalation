@@ -1291,6 +1291,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/storage/backpack/usmcm3
 	head = /obj/item/clothing/head/ushanka/uswintercap
+	suit = /obj/item/clothing/suit/armor/vest/coat/usa
 	l_pocket = /obj/item/weapon/key/natomed
 	r_pocket = null
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -1757,12 +1758,12 @@
 	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/lcpl
 	suit = /obj/item/clothing/suit/armor/vest/coat/brit
 	shoes = /obj/item/clothing/shoes/baf/field
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/enfield
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/enfield
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/l96
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf/l96
 	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
-	back_2 = /obj/item/weapon/gun/projectile/rifle/boltaction/enfield
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l96
 	head = /obj/item/clothing/head/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_commander/pre_equip(mob/living/carbon/human/H)

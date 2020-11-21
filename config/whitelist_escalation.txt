@@ -170,6 +170,53 @@ finn_nco
 finn_enlisted
 }
 
+# SA
+
+Freiwillige = {
+sa_nco
+sa_enlisted
+}
+
+The Elder Hobo = {
+sa_enlisted
+}
+
+Demkova = {
+sa_enlisted
+}
+
+SilencedMP5A5 = {
+sa_enlisted
+}
+
+Trollarch = {
+sa_enlisted
+}
+
+FireNightPower = {
+sa_enlisted
+}
+
+ShaSCT = {
+sa_enlisted
+}
+
+epicdwarf = {
+sa_enlisted
+}
+
+icecactus = {
+sa_enlisted
+}
+
+ExecutorPartner = {
+sa_enlisted
+}
+
+BornToKill946 = {
+sa_enlisted
+}
+
 # BAF
 
 I like D0nUts = {
