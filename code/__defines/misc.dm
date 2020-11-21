@@ -94,6 +94,11 @@
 #define WALL_CAN_OPEN 1
 #define WALL_OPENING 2
 
+#define GLASS_MATERIAL 1 
+#define WOODEN_MATERIAL 2
+#define STEEL_MATERIAL 3
+#define MARBLE_MATERIAL 4
+
 #define DEFAULT_TABLE_MATERIAL "plastic"
 #define DEFAULT_WALL_MATERIAL "steel"
 
