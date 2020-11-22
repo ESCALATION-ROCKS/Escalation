@@ -145,7 +145,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usmc/usmcquartermaster
 	title = "USMC Quartermaster"
@@ -593,7 +593,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwmg
 	title = "BDW Machinengewehrschutze"
@@ -938,7 +938,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafsl
 	title = "BAF Squad Leader"
@@ -1286,7 +1286,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usaquartermaster
 	title = "USA Quartermaster"

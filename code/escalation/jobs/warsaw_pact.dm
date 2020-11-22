@@ -207,7 +207,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/sasl
 	title = "SA Komandir Otdeleniya"
@@ -647,7 +647,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvasl
 	title = "NVA Gruppenfuhrer"
@@ -1007,7 +1007,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 		
 /datum/job/escalation/finn/finnsl
 	title = "FINN Ryhmanjohtaja"

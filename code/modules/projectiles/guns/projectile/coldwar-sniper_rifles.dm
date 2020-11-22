@@ -33,7 +33,7 @@
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 2.4)
+	src.toggle_scope(usr, 3)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	name = "SVD"
@@ -84,7 +84,7 @@
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 2.4)
+	src.toggle_scope(usr, 3)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3sg1
 	name = "G3SG1"
@@ -133,7 +133,7 @@
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 2.4)
+	src.toggle_scope(usr, 3)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/wa2000
 	name = "WA2000"
@@ -182,7 +182,7 @@
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 2.4)
+	src.toggle_scope(usr, 3)
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m82
@@ -363,7 +363,7 @@
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 2.4)
+	src.toggle_scope(usr, 3)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/l96/attack_self(mob/user as mob)
 	bolt_open = !bolt_open
@@ -466,7 +466,7 @@
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 2.4)
+	src.toggle_scope(usr, 3)
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/m40a1
 	name = "M40A1"
@@ -541,7 +541,7 @@
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 2.4)
+	src.toggle_scope(usr, 3)
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/load_ammo(var/obj/item/A, mob/user)
 	..()
@@ -591,7 +591,7 @@
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 2.4)
+	src.toggle_scope(usr, 3)
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/mosin
 	name = "Mosin-Nagant M39"
