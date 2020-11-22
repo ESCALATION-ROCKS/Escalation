@@ -190,7 +190,6 @@ finn_enlisted
 
 CeSium_Shark = {
 finn_enlisted
-sa_enlisted
 }
 
 Bob Cool = {
@@ -277,8 +276,6 @@ baf_enlisted
 
 Gy1ta23 = {
 baf_enlisted
-baf_officer
-baf_nco
 }
 
 Master8688 = {
@@ -502,18 +499,4 @@ usmc_enlisted
 
 Willical = {
 usmc_enlisted
-}
-
-
-
-Higher_Life = {
-finn_enlisted
-}
-
-Herr Kriegsmarine = {
-sa_enlisted
-}
-
-Vlad3 = {
-finn_enlisted
 }
