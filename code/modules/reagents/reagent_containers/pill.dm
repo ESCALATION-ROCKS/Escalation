@@ -10,7 +10,7 @@
 	randpixel = 7
 	possible_transfer_amounts = null
 	w_class = ITEM_SIZE_TINY
-	slot_flags = SLOT_EARS
+	slot_flags = null
 	volume = 60
 
 	New()

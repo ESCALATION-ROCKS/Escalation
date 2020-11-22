@@ -6,7 +6,7 @@
 	item_state = null
 	amount_per_transfer_from_this = 5
 	w_class = 1
-	slot_flags = SLOT_EARS
+	slot_flags = null
 	volume = 10
 	flags = null
 	var/closed = 1
