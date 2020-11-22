@@ -66,7 +66,7 @@
 	unbreakable = 1
 	weapon_speed_delay = 4
 
-/obj/item/weapon/material/knife/attack_self(mob/user)
+/*/obj/item/weapon/material/knife/attack_self(mob/user)
 	if(ishuman(user))
 		var/mob/living/carbon/human/H = user
 		if(user.a_intent == I_HELP)
@@ -124,7 +124,7 @@
 		return  
 
 	else
-		return ..()
+		return ..()*/ ////////////fix this shit sometime - severe
 								
 /obj/item/weapon/material/knife/hook
 	name = "meat hook"

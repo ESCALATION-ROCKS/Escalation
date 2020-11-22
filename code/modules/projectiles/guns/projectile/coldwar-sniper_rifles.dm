@@ -418,6 +418,41 @@
 	slowdown_general = 0.35
 	bayonet_attachable = 0
 
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/attack_self(mob/user as mob)
+	bolt_open = !bolt_open
+	if(do_after(user, 6.5, src))
+		if(bolt_open)
+			playsound(src.loc, 'sound/weapons/gunporn/tkiv_boltback.ogg', 50, 1)
+			if(chambered)
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
+				chambered.loc = get_turf(src)
+				loaded -= chambered
+				chambered = null
+			else
+				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
+		else
+			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
+			playsound(src.loc, 'sound/weapons/gunporn/tkiv_boltforward.ogg', 50, 1)
+			bolt_open = 0
+		add_fingerprint(user)
+		update_icon()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/special_check(mob/user)
+	if(bolt_open)
+		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
+		return 0
+	return ..()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/load_ammo(var/obj/item/A, mob/user)
+	if(!bolt_open)
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/unload_ammo(mob/user, var/allow_dump=1)
+	if(!bolt_open)
+		return
+	..()
+
 /obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/update_icon()
 	..()
 	if(bolt_open)
@@ -457,6 +492,41 @@
 	jam_chance = 0.360
 	slowdown_general = 0.35
 	bayonet_attachable = 0
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/attack_self(mob/user as mob)
+	bolt_open = !bolt_open
+	if(do_after(user, 6.5, src))
+		if(bolt_open)
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
+			if(chambered)
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
+				chambered.loc = get_turf(src)
+				loaded -= chambered
+				chambered = null
+			else
+				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
+		else
+			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
+			bolt_open = 0
+		add_fingerprint(user)
+		update_icon()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/special_check(mob/user)
+	if(bolt_open)
+		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
+		return 0
+	return ..()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/load_ammo(var/obj/item/A, mob/user)
+	if(!bolt_open)
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/unload_ammo(mob/user, var/allow_dump=1)
+	if(!bolt_open)
+		return
+	..()
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/update_icon()
 	..()

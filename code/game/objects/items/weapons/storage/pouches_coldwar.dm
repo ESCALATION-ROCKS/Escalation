@@ -332,22 +332,22 @@
 	slot_flags = null
 
 /obj/item/weapon/storage/belt/holster/flaskstorage/nato
-	special_item = /obj/item/weapon/reagent_containers/food/drinks/flask/wornflask/nato
+	special_item = /obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask/nato
 	icon_state = "natoflask"
 	icon_closed = "natoflask_empty"
 	startswith = list(
-		/obj/item/weapon/reagent_containers/food/drinks/flask/wornflask/nato)
+		/obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask/nato)
 	can_hold = list(
-		/obj/item/weapon/reagent_containers/food/drinks/flask/wornflask)
+		/obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask)
 
 /obj/item/weapon/storage/belt/holster/flaskstorage/soviet
 	icon_state = "warpacflask"
 	icon_closed = "warpacflask_empty"
-	special_item = /obj/item/weapon/reagent_containers/food/drinks/flask/wornflask/
+	special_item = /obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask
 	startswith = list(
-		/obj/item/weapon/reagent_containers/food/drinks/flask/wornflask/)
+		/obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask)
 	can_hold = list(
-		/obj/item/weapon/reagent_containers/food/drinks/flask/wornflask)
+		/obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask)
 
 
 

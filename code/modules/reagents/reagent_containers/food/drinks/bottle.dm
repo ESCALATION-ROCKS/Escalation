@@ -486,3 +486,22 @@
 /obj/item/weapon/reagent_containers/food/drinks/bottle/small/ale/New()
 	. = ..()
 	reagents.add_reagent(/datum/reagent/ethanol/ale, 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask
+	name = "worn flask"
+	desc = "That one seems to be used a little bit."
+	amount_per_transfer_from_this = 5
+	icon_state = "wornflask"
+	volume = 60
+	isGlass = 0
+	center_of_mass = "x=15;y=4"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/water, 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask/small
+	icon_state = "smallflask"
+	volume = 30
+
+/obj/item/weapon/reagent_containers/food/drinks/bottle/wornflask/nato
+	icon_state = "natoflask"
