@@ -44,7 +44,7 @@ EvenInDeathIStillServe = {
 ::ALL::
 }
 
-# FINN
+# FINLAND
 
 QuickLoad = {
 finn_officer
@@ -64,6 +64,26 @@ finn_enlisted
 }
 
 Murgel = {
+finn_enlisted
+}
+
+OGBlackFlag = {
+finn_enlisted
+}
+
+REDkiller922 = {
+finn_enlisted
+}
+
+Gefrakt = {
+finn_enlisted
+}
+
+johnravioli = {
+finn_enlisted
+}
+
+Booperkin343435 = {
 finn_enlisted
 }
 
@@ -123,11 +143,31 @@ finn_enlisted
 finn_nco
 }
 
-Timtwoshoes1 = {
+Timtwoshoes = {
 finn_enlisted
 }
 
 LeoTheKiller = {
+finn_enlisted
+}
+
+SickoRingo = {
+finn_enlisted
+}
+
+Electrolyz = {
+finn_enlisted
+}
+
+Echion = {
+finn_enlisted
+}
+
+BurnedSweetPotato = {
+finn_enlisted
+}
+
+Battieralarm3 = {
 finn_enlisted
 }
 
@@ -139,7 +179,7 @@ Real Josef Stalin = {
 finn_enlisted
 }
 
-Luft = {
+Luftie = {
 finn_enlisted
 }
 
@@ -157,10 +197,6 @@ finn_enlisted
 }
 
 Villeri = {
-finn_enlisted
-}
-
-loserwastaken = {
 finn_enlisted
 }
 
@@ -214,6 +250,14 @@ sa_enlisted
 }
 
 BornToKill946 = {
+sa_enlisted
+}
+
+Tramp123 = {
+sa_enlisted
+}
+
+jimmynutron2013 = {
 sa_enlisted
 }
 
@@ -390,6 +434,26 @@ blank cat = {
 baf_enlisted
 }
 
+
+Moorish_infanteer = {
+baf_enlisted
+}
+
+
+Auzoil = {
+baf_enlisted
+}
+
+
+AsbestosMan = {
+baf_enlisted
+}
+
+
+loserwastaken = {
+baf_enlisted
+}
+
 # USA
 
 Tristan63 = {
@@ -421,7 +485,7 @@ ToasterRoboto = {
 usmc_enlisted
 }
 
-Yacobpro157 = {
+Yacobpo157 = {
 usmc_enlisted
 }
 

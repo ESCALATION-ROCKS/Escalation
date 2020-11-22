@@ -909,6 +909,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	head = /obj/item/clothing/head/ushanka/finn
+	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/rocketass
