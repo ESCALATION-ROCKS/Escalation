@@ -18,15 +18,9 @@ xlyana = {
 ::ALL::
 }
 
-SilverSZ = {
-::ALL::
-}
-
 Xxxretroxgears3 = {
 ::ALL::
 }
-
-# DEVELOPERS
 
 cabostein = {
 ::ALL::
@@ -43,8 +37,6 @@ eskjjlj = {
 EvenInDeathIStillServe = {
 ::ALL::
 }
-
-# FINLAND
 
 QuickLoad = {
 finn_officer
@@ -66,6 +58,11 @@ finn_enlisted
 Murgel = {
 finn_enlisted
 }
+
+Vlad3 = {
+finn_enlisted
+}
+
 
 OGBlackFlag = {
 finn_enlisted
@@ -190,9 +187,14 @@ finn_enlisted
 
 CeSium_Shark = {
 finn_enlisted
+sa_enlisted
 }
 
 Bob Cool = {
+finn_enlisted
+}
+
+Higher_Life = {
 finn_enlisted
 }
 
@@ -205,8 +207,6 @@ finn_officer
 finn_nco
 finn_enlisted
 }
-
-# SA
 
 Freiwillige = {
 sa_nco
@@ -229,7 +229,7 @@ Trollarch = {
 sa_enlisted
 }
 
-FireNightPower = {
+Herr Kriegsmarine = {
 sa_enlisted
 }
 
@@ -261,9 +261,7 @@ jimmynutron2013 = {
 sa_enlisted
 }
 
-# BAF
-
-I like D0nUts = {
+SilverSZ = {
 baf_officer
 baf_nco
 baf_enlisted
@@ -276,6 +274,7 @@ baf_enlisted
 
 Gy1ta23 = {
 baf_enlisted
+baf_nco
 }
 
 Master8688 = {
@@ -453,8 +452,6 @@ baf_enlisted
 loserwastaken = {
 baf_enlisted
 }
-
-# USA
 
 Tristan63 = {
 usmc_nco
