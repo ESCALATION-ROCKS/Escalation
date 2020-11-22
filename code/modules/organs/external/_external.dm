@@ -652,7 +652,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 		heal_amt = heal_amt / (wounds.len + 1)
 		// faster healing on a bed
 		if(owner.buckled && istype(owner.buckled,/obj/structure/bed))
-			heal_amt *= 1.1
+			heal_amt *= 2
 		// making it look prettier on scanners
 		heal_amt = round(heal_amt,0.1)
 		W.heal_damage(heal_amt)
