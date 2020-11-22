@@ -90,7 +90,6 @@ finn_enlisted
 Dudeman100 = {
 finn_nco
 finn_enlisted
-finn_officer
 }
 
 Cryleve = {
@@ -99,8 +98,6 @@ finn_enlisted
 
 Corbe = {
 finn_enlisted
-finn_nco
-finn_officer
 }
 
 Manny pardo = {
@@ -128,8 +125,6 @@ finn_nco
 
 Timtwoshoes1 = {
 finn_enlisted
-finn_rco
-finn_officer
 }
 
 LeoTheKiller = {
@@ -167,7 +162,6 @@ finn_enlisted
 
 loserwastaken = {
 finn_enlisted
-baf_enlisted
 }
 
 Kyrac = {
@@ -442,78 +436,3 @@ usmc_enlisted
 Willical = {
 usmc_enlisted
 }
-Booperkin343435 = {
-finn_enlisted
-}
-
-Moorish_infanteer = {
-baf_enlisted
-}
-
-Herr Kriegsmarine = {
-sa_enlisted
-}
-
-johnravioli = {
-finn_enlisted
-}
-
-Gefrakt = {
-finn_enlisted
-}
-
-REDkiller922 = {
-finn_enlisted
-}
-
-Auzoil = {
-baf_enlisted
-}
-
-AsbestosMAn = {
-baf_enlisted
-}
-
-OGBlackFlag = {
-finn_enlisted
-}
-
-Battieralarm3 = {
-finn_nco
-finn_officer
-finn_enlisted
-}
-
-
-
-
-Burnedsweetpotato = {
-::finn_enlisted::
-::ALL::
-}
-
-
-Echion = {
-finn_enlisted
-}
-
-Electrolyz = {
-finn_enlisted
-}
-
-
-
-
-Sicko_Ringo = {
-finn_enlisted
-}
-
-Tramp123 = {
-sa_enlisted
-}
-
-jimmynutron2013 = {
-sa_enlisted
-}
-
-
