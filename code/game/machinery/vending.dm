@@ -703,7 +703,7 @@
 
 
 /obj/machinery/vending/cola
-	name = "Coca Cola Machine"
+	name = "Coca Cola machine"
 	desc = "Coca Cola - Don't Forget The Ice."
 	icon_state = "Cola_Machine"
 	icon_vend = "Cola_Machine-vend"
@@ -716,7 +716,7 @@
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
 
 /obj/machinery/vending/pepsi
-	name = "Pepsi"
+	name = "Pepsi machine"
 	desc = "Catch that Pepsi spirit!"
 	icon_state = "pepsi"
 	icon_vend = "pepsi-vend"
