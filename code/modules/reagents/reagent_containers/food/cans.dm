@@ -122,3 +122,39 @@
 /obj/item/weapon/reagent_containers/food/drinks/cans/sodawater/New()
 	. = ..()
 	reagents.add_reagent(/datum/reagent/drink/sodawater, 50)
+
+/obj/item/weapon/reagent_containers/food/drinks/cans/pepsi
+	name = "\improper Pepsi"
+	desc = "Your favourite slightly medicinal Coca Cola competitor."
+	icon_state = "pepsi"
+	center_of_mass = "x=16;y=8"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/drink/pepsi_cola, 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/cans/dr_pepper
+	name = "\improper Dr. Pepper"
+	desc = "The hell does 'Be a Pepper' mean?"
+	icon_state = "dr-pepper"
+	center_of_mass = "x=16;y=10"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/drink/dr_pepper, 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/cans/sprite
+	name = "\improper Sprite"
+	desc = "Sugar free! SUGAR FREE?!?"
+	icon_state = "sprite"
+	center_of_mass = "x=16;y=10"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/drink/sprite, 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/cans/dr_pepper_fake
+	name = "\improper Dr. Pibb"
+	desc = "Improved formula! Now with absolutely no relation to Dr. Pepper whatsoever."
+	icon_state = "dr-pepperfake"
+	center_of_mass = "x=16;y=10"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/drink/dr_pepper_fake, 30)

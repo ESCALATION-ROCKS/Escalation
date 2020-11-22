@@ -16,7 +16,7 @@
 
 	var/icon_vend //Icon_state when vending
 	var/icon_deny //Icon_state when denying access
-	var/diona_spawn_chance = 1 //For admin shenanigans
+	var/diona_spawn_chance = 0 //For admin shenanigans
 
 	// Power
 	use_power = 1
@@ -710,10 +710,24 @@
 	vend_delay = 11
 	product_slogans = ""
 	product_ads = ""
-	products = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10)
+	products = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/dr_pepper_fake = 10,	/obj/item/weapon/reagent_containers/food/drinks/cans/sprite = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10)
 	contraband = null
 	prices = null
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
+
+/obj/machinery/vending/pepsi
+	name = "Pepsi"
+	desc = "Catch that Pepsi spirit!"
+	icon_state = "pepsi"
+	icon_vend = "pepsi-vend"
+	vend_delay = 11
+	product_slogans = ""
+	product_ads = ""
+	products = list(/obj/item/weapon/reagent_containers/food/drinks/cans/pepsi = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 10,
+					/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/dr_pepper = 10)
+	contraband = null
+	prices = null
+	idle_power_usage = null //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
 
 /obj/machinery/vending/fitness
 	name = "SweatMAX"

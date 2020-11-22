@@ -914,6 +914,58 @@
 	glass_desc = "Space Mountain Wind. As you know, there are no mountains in space, only wind."
 	glass_special = list(DRINK_FIZZ)
 
+/datum/reagent/drink/dr_pepper
+	name = "Dr. Pepper"
+	description = "You're pretty sure Dr. Pepper isn't licensed anymore."
+	taste_description = "cola, cherry and black licorice all at the same time"
+	reagent_state = LIQUID
+	color = "#140905"
+	adj_drowsy = -7
+	adj_temp = -1
+
+	glass_name = "Dr. Pepper"
+	glass_desc = "How do they fit all 23 flavours in one glass?"
+	glass_special = list(DRINK_FIZZ)
+
+/datum/reagent/drink/dr_pepper_fake
+	name = "Dr. Pibb"
+	description = "It goes down good."
+	taste_description = "spicy cherry cola with a hint of infringement"
+	reagent_state = LIQUID
+	color = "#140905"
+	adj_drowsy = -6
+	adj_temp = -2
+
+	glass_name = "Dr. Pibb"
+	glass_desc = "You swear this used to be called Peppo."
+	glass_special = list(DRINK_FIZZ)
+
+/datum/reagent/drink/sprite
+	name = "Sprite"
+	description = "Wanna unfunny joke? Of course you do."
+	taste_description = "lemon-lime dishsoap and aspartame"
+	reagent_state = LIQUID
+	color = "#f2f2f2"
+	adj_drowsy = -3
+	adj_temp = -7
+
+	glass_name = "Sprite"
+	glass_desc = "Reeks of aspartame."
+	glass_special = list(DRINK_FIZZ)
+
+/datum/reagent/drink/pepsi_cola
+	name = "Pepsi"
+	description = "You would've preferred coke."
+	taste_description = "cola and medicine"
+	reagent_state = LIQUID
+	color = "#331a00"
+	adj_drowsy = -5
+	adj_temp = -3
+
+	glass_name = "Pepsi"
+	glass_desc = "A glass of strangely medicinal cola."
+	glass_special = list(DRINK_FIZZ)
+
 /datum/reagent/drink/dr_gibb
 	name = "Dr. Gibb"
 	description = "A delicious blend of 42 different flavours"
@@ -928,7 +980,7 @@
 /datum/reagent/drink/space_up
 	name = "Space-Up"
 	description = "Tastes like a hull breach in your mouth."
-	taste_description = "a hull breach"
+	taste_description = "lemon lime dishsoap"
 	color = "#202800"
 	adj_temp = -8
 
