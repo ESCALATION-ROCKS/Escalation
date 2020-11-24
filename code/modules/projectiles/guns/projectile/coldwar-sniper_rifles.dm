@@ -344,6 +344,7 @@
 	var/bolt_open = 0
 	fire_sound = 'sound/weapons/gunshot/l96.ogg'
 	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
+	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/m40a1_dist.ogg'
 	jam_chance = 0.360
