@@ -41,7 +41,7 @@
 ##
 
 {
-ckey: madmannobrain
-item_path: /obj/item/clothing/head/helmet/coldwar/bdw/m62/foliage
+ckey: Corbe
+item_path: /obj/item/clothing/mask/smokable/cigarette/cigar/havana
 }
 

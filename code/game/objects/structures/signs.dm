@@ -1641,10 +1641,50 @@ obj/structure/sign/noshitlers
 	density = 1
 
 ////////////SPORTSCAR
-/obj/structure/sign/vehicle/sportscar
+/obj/structure/sign/vehicle/sportscar1
 	name = "sportscar"
-	icon = 'icons/obj/sportscar.dmi'
-	icon_state = "sportscar"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "sportscar1"
+	desc = "A dandy sports car."
+	anchored = 1
+	density = 1
+
+/obj/structure/sign/vehicle/sportscar2
+	name = "sportscar"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "sportscar2"
+	desc = "A dandy sports car."
+	anchored = 1
+	density = 1
+
+/obj/structure/sign/vehicle/sportscar3
+	name = "sportscar"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "sportscar3"
+	desc = "A dandy sports car."
+	anchored = 1
+	density = 1
+	
+/obj/structure/sign/vehicle/sportscar4
+	name = "sportscar"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "sportscar4"
+	desc = "A dandy sports car."
+	anchored = 1
+	density = 1
+	
+/obj/structure/sign/vehicle/sportscar5
+	name = "sportscar"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "sportscar5"
+	desc = "A dandy sports car."
+	anchored = 1
+	density = 1
+	
+/obj/structure/sign/vehicle/sportscar6
+	name = "sportscar"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "sportscar6"
 	desc = "A dandy sports car."
 	anchored = 1
 	density = 1
