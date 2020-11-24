@@ -246,7 +246,7 @@
 			user << "<span class='warning'>[src] is full!</span>"
 			return
 		L.loading = 1
-		if(!do_after(user, 5, src))
+		if(!do_after(user, 1, src))
 			L.loading = 0
 			return
 		var/obj/item/ammo_casing/AC = L.stored_ammo[1] //select the next casing.
