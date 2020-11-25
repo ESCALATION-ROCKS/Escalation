@@ -124,3 +124,10 @@
 	id_g = "m19"
 	slowdown_general = 3
 	need_type = /obj/item/weapon/gun/projectile/heavy_mg/mk19
+
+/obj/item/weapon/mg_tripod/mg3
+	name = "MG3 tripod"
+	icon_state = "nato-tripod" // fix //FIXXXXX ~~~JTB
+	id_g = "mg3"
+	slowdown_general = 3
+	need_type = /obj/item/weapon/gun/projectile/heavy_mg/mg3

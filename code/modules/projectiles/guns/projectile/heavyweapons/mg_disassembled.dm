@@ -40,3 +40,9 @@
 	icon_state = "mk19-disconnected"
 	slowdown_general = 3
 	id_g = "m19"
+
+/obj/item/weapon/mg_disassembled/mg3
+	name = "disassembled MG3"
+	icon_state = "mg3-disconnected"
+	slowdown_general = 3
+	id_g = "mg3"

@@ -404,3 +404,35 @@
 		icon_state = "mk19"
 	else
 		icon_state = "mk19-empty"
+
+//////////////////////////////
+////////////MG3 TRIPOD/////////
+//////////////////////////////
+
+/obj/item/weapon/gun/projectile/heavy_mg/mg3
+	name = "MG3"
+	desc = "A general purpose machine gun with peripherals to accept a tripod, used by Bundeswehr"
+	icon_state = "mg3"
+	load_method = MAGAZINE//we do not have ammo box for it
+//	handle_casings = REMOVE_CASINGS//replace in EJECT later after tests and balancing
+	caliber = "762x51"//fix caliber
+	ammo_type = /obj/item/ammo_casing/a762x51 //fix
+	max_shells = 0
+	dist_shot_sound = 'sound/weapons/gunshot/mg3.ogg'
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51b/bdw, /obj/item/ammo_magazine/c762x51b/bdw/drum)
+	fire_sound = 'sound/weapons/gunshot/dist/mg_dist.ogg'
+	jam_chance = 0.3
+	accuracy = 2.3
+
+	firemodes = list(
+		list(mode_name = "semiauto", burst = 1, burst_delay = null, fire_delay = 7.8, burst_accuracy=null, dispersion =list(0.15)),
+		list(mode_name = "short bursts", burst = 3, burst_delay = 0.5, fire_delay = 0.5, burst_accuracy=list(1,0,-1), dispersion =list(0.15, 0.25, 0.55)),
+		list(mode_name = "long bursts", burst = 5, burst_delay = 0.5, fire_delay = 0.5, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.15, 0.25, 0.55, 0.60, 0.70)),
+		)
+
+/obj/item/weapon/gun/projectile/heavy_mg/mg3/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "mg3"
+	else
+		icon_state = "mg3-empty"
