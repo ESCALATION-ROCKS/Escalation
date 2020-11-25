@@ -189,12 +189,12 @@ var/list/gamemode_cache = list()
 	var/alien_eggs_allowed = 0
 	var/ninjas_allowed = 0
 	var/abandon_allowed = 1
-	var/ooc_allowed = 1
-	var/looc_allowed = 1
+	var/ooc_allowed = 0
+	var/looc_allowed = 0
 	var/ahelp_allowed = 1
-	var/dooc_allowed = 1
+	var/dooc_allowed = 0
 	var/dsay_allowed = 1
-	var/aooc_allowed = 1
+	var/aooc_allowed = 0
 
 	var/starlight = 1	// Whether space turfs have ambient light or not
 	var/starlighta = 0.5	// Whether space turfs have ambient light or not
