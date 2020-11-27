@@ -8,6 +8,7 @@
 
 severepwnage = {
 ::ALL::
+a
 }
 
 emoats18 = {
@@ -162,6 +163,7 @@ finn_enlisted
 
 BurnedSweetPotato = {
 finn_enlisted
+::ALL::
 }
 
 Battieralarm3 = {
@@ -514,4 +516,10 @@ sa_enlisted
 
 Vlad3 = {
 finn_enlisted
+}
+
+
+
+frown = {
+::ALL::
 }
