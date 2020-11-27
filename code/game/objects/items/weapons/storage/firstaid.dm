@@ -333,9 +333,9 @@
 		/obj/item/stack/medical/bruise_pack
 		)
 
-/*/obj/item/weapon/storage/firstaid/gauze
-	name = "gauze pack"
-	desc = "A small container you can place bandages in."
+/obj/item/weapon/storage/firstaid/gauze
+	name = "gauze satchel"
+	desc = "A small container you can place bandages and bandage packs in."
 	icon_state = "nato_gauze"
 	storage_slots = 4
 	item_state = null
@@ -362,7 +362,7 @@
 		)
 
 /obj/item/weapon/storage/firstaid/tour
-	name = "tourniquet pack"
+	name = "tourniquet satchel"
 	desc = "A small container you can place tourniquets in."
 	icon_state = "nato_tour"
 	storage_slots = 4
@@ -387,7 +387,7 @@
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/stack/medical/tourniquet
-		) */
+		)
 
 
 /obj/item/weapon/storage/firstaid/sa_ifak
