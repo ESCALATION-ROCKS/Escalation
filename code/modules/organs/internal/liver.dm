@@ -60,17 +60,17 @@
 	var/blood_volume_raw = owner.vessel.get_reagent_amount(/datum/reagent/blood)
 	if(blood_volume_raw < species.blood_volume)
 		var/datum/reagent/blood/B = owner.get_blood(owner.vessel)
-		/*var/regen_value = 0.1
+		var/regen_value = 0.1
 		if(owner.hydratation >= 400) //Regen more blood at the cost of hydration.
 			regen_value = 0.5
 			owner.hydratation -= 2
 		if(owner.buckled && istype(owner.buckled,/obj/structure/bed))
-			regen_value *= 2*/
+			regen_value = 2
 		if(istype(B))
 			B.volume += 0.1 + owner.chem_effects[CE_BLOODRESTORE] // regenerate blood VERY slowly
 
-			/* B.volume += regen_value + owner.chem_effects[CE_BLOODRESTORE] // regenerate blood VERY slowly
-			*/
+			B.volume += regen_value + owner.chem_effects[CE_BLOODRESTORE] // regenerate blood VERY slowly
+
 
 	// Blood loss or liver damage make you lose nutriments
 	var/blood_volume = owner.get_blood_volume()
