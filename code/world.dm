@@ -626,15 +626,15 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>ESCALATION 2021 - Under New Management!</b>";
+	s += "<b>ESCALATION 1984</b>";
 	s += "<br>"
-	s += "An immersive tactical combat experience set in the Cold War. Now featuring Britain and Finland"
+	s += "An immersive combat experience set in the Cold War."
 	s += "<br>"
-	s += "Join as an Observer, while you apply to play on our DISCORD!"
+	s += "Join and OBSERVE while you apply for a whitelist on our DISCORD!"
 	s += "<br>"
 	s += " ("
-	s += "<a href=\"https://discord.gg/Rqd6TyXwuj\">" //Change this to wherever you want the hub to link to.
-	s += "DISCORD WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "<a href=\"https://discord.gg/ahNndkqq8s">" //Change this to wherever you want the hub to link to.
+	s += "JOIN OUR DISCORD - WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"
 
