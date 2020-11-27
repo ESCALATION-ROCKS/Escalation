@@ -639,7 +639,7 @@
 
 	sideswept
 		name = "Sideswept"
-		icon_state = hair_sideswept
+		icon_state = "hair_sideswept"
 		gender = MALE
 		veryshort = 1
 
