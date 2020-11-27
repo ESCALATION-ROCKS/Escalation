@@ -765,6 +765,9 @@ mob/new_player/proc/StatRand()
 			if(job.minimum_character_age && (client.prefs.age < job.minimum_character_age))
 				continue
 
+			if(job.sex_lock && job.sex_lock != src.client.prefs.gender)
+				continue
+
 			var/active = 0
 			// Only players with the job assigned and AFK for less than 10 minutes count as active
 			for(var/mob/M in GLOB.player_list) if(M.mind && M.client && M.mind.assigned_role == job.title && M.client.inactivity <= 10 * 60 * 10)

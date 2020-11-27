@@ -44,6 +44,8 @@
 	var/whitelist_group = ""
 	var/military_faction				  //Whether they are apart the NATO or WARPAC faction. Not really sure of a better way to do this right now.
 
+	var/sex_lock // FEMOIDS NOT WELCOME
+
 /datum/job/New()
 	..()
 	if(prob(100-availablity_chance))	//Close positions, blah blah.
