@@ -41,7 +41,7 @@
 	for(var/client/target in GLOB.clients)
 		if(target.is_key_ignored(C.key)) // [country2chaticon(C.country)] right before <EM> for flags
 			continue
-		var/sent_message = "[create_text_tag("ooc", "OOC:", target)] [country2chaticon(C.country)] <EM>[C.key]:</EM> <span class='message'>[message]</span>"
+		var/sent_message = "[create_text_tag("ooc", "OOC:", target)] [country2chaticon(C.country)]<EM>[C.key]:</EM> <span class='message'>[message]</span>"
 		if(can_badmin)
 			receive_communication(C, target, "<font color='[ooc_color]'><span class='ooc'>[sent_message]</font></span>")
 		else
