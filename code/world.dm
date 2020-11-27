@@ -632,7 +632,6 @@ var/world_topic_spam_protect_time = world.timeofday
 	s += "<br>"
 	s += "Join and OBSERVE while you apply for a whitelist on our DISCORD!"
 	s += "<br>"
-	s += " ("
 	s += "<a href=\"https://discord.gg/ahNndkqq8s\">" //Change this to wherever you want the hub to link to.
 	s += "JOIN OUR DISCORD - WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
