@@ -370,6 +370,27 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/cccp/saatrifle
+	title = "SA LAT Strelok"
+	name = "Strelok (LAT)"
+	english_name = "Rifleman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/atstrelok
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 3
+	enabled = 1
+	whitelist_rank = "sa_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+
 
 /datum/job/escalation/cccp/saotvco
 	title = "SA OTV Komandir"
@@ -599,7 +620,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/sanitar
 	selection_color = "#FA8072"
 	rank_number = 4
-	position = "team"
+	position = "fireteam"
 	amount = 4
 	enabled = 1
 	whitelist_rank = "ddr_enlisted"
@@ -812,6 +833,26 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/nvaddr/nvaatrifle
+	title = "NVA LAT Schutze"
+	name = "Schutze (LAT)"
+	english_name = "Rifleman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/atrifleman
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "ddr_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 //Finnish Army
 
 /datum/job/escalation/finn
@@ -988,7 +1029,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
-		
+
 /datum/job/escalation/finn/finnsm
 	title = "FINN Tarkka-ampuja"
 	name = "Tarkka-ampuja"
@@ -1008,7 +1049,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
-		
+
 /datum/job/escalation/finn/finnsl
 	title = "FINN Ryhmanjohtaja"
 	name = "Ryhmanjohtaja"

@@ -235,7 +235,7 @@
 	name = "XM249"
 	desc = "A standard-issue USMC squad support weapon. Chambers 5.56x45 rounds."
 	icon_state = "xm249"
-	item_state = "m60"
+	item_state = "xm249"
 	w_class = 5
 	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK

@@ -92,14 +92,14 @@
 
 /datum/job/escalation/usmc/usmccorpsman
 	title = "USMC Corpsman"
-	name = "Corpsman"
+	name = "Squad Corpsman"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/corpsman
 	selection_color = "#B0C4DE"
-	position = "team"
+	position = "fireteam"
 	enabled = 1
 	amount = 1
 	whitelist_rank = "usmc_enlisted"
@@ -138,7 +138,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/marksman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 1
+	enabled = 0
 	amount = 1
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
@@ -176,7 +176,7 @@
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usmc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
@@ -195,7 +195,7 @@
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
@@ -214,7 +214,7 @@
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
@@ -284,6 +284,26 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/usmc/usmcftlat
+	title = "USMC LAT Rifleman"
+	name = "Fireteam Rifleman (LAT)"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/lat
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "usmc_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 /datum/job/escalation/usmc/usmcftmg
 	title = "USMC Fireteam Machinegunner"
 	name = "Fireteam Machinegunner"
@@ -295,7 +315,7 @@
 	selection_color = "#B0C4DE"
 	rank_number = 6
 	position = "fireteam"
-	amount = 2
+	amount = 1
 	enabled = 1
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
@@ -336,7 +356,7 @@
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
@@ -356,7 +376,7 @@
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usmc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
@@ -376,7 +396,7 @@
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
@@ -396,7 +416,7 @@
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
@@ -506,8 +526,8 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/corpsman
 	selection_color = "#4682B4"
-	position = "team"
-	amount = 4
+	position = "fireteam"
+	amount = 3
 	rank_number = 2
 	enabled = 1
 	whitelist_rank = "bdw_enlisted"
@@ -680,6 +700,25 @@
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/rifleman
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "bdw_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/bund/bdwatrifle
+	title = "BDW LAT Schutze"
+	name = "Schutze (LAT)"
+	english_name = "Rifleman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/atrifleman
 	selection_color = "#4682B4"
 	position = "fireteam"
 	amount = 2
@@ -1544,3 +1583,4 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+

@@ -315,6 +315,19 @@
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
+/decl/hierarchy/outfit/job/coldwar/nvaddr/atrifleman
+	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR AT Rifleman")
+	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/nva
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
+	r_pocket = null
+	back = /obj/item/weapon/gun/launcher/oneuse/rpg18
+	head = /obj/item/clothing/head/garcap/nvaddr
+	belt = /obj/item/weapon/storage/belt/harness/nvaddr
+
 /decl/hierarchy/outfit/job/coldwar/nvaddr/marksman
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Marksman")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
@@ -664,6 +677,20 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	back = /obj/item/weapon/storage/backpack/gassoviet
+	r_pocket = null
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	suit = /obj/item/clothing/suit/armor/vest/coat/sa
+	head = /obj/item/clothing/head/ushanka/soviet
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/atstrelok
+	name = OUTFIT_JOB_NAME("Coldwar - Soviet Strelok(AT)")
+	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back = /obj/item/weapon/gun/launcher/oneuse/rpg18/rpg22
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
@@ -1147,6 +1174,21 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	head = /obj/item/clothing/head/ushanka/uswintercap
+	suit = /obj/item/clothing/suit/armor/vest/coat/usa
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
+
+/decl/hierarchy/outfit/job/coldwar/usmc/lat
+	name = OUTFIT_JOB_NAME("Coldwar - USMC LAT Rifleman")
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/pfc
+	shoes = /obj/item/clothing/shoes/usmc/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	r_pocket = null
+	back = /obj/item/weapon/gun/launcher/oneuse/m72
 	head = /obj/item/clothing/head/ushanka/uswintercap
 	suit = /obj/item/clothing/suit/armor/vest/coat/usa
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -1785,6 +1827,19 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
+	head = /obj/item/clothing/head/garcap/bundeswehr
+	belt = /obj/item/weapon/storage/belt/harness/bdw
+
+/decl/hierarchy/outfit/escalation/nato/bundes/atrifleman
+	name = OUTFIT_JOB_NAME("Coldwar - BDW AT Rifleman")
+	uniform = /obj/item/clothing/under/bundeswehr/olive/soldat
+	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
+	shoes = /obj/item/clothing/shoes/bundeswehr/field
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	r_pocket = null
+	back = /obj/item/weapon/gun/launcher/oneuse/m72
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 

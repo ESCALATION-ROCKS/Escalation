@@ -15,11 +15,12 @@ Otdelenie Anna:cccp
 /datum/job/escalation/cccp/sasld
 /datum/job/escalation/cccp/sasrad
 /datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/samgas
+/datum/job/escalation/cccp/grenadier
+/datum/job/escalation/cccp/saatrifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
 @END@
 
 # NATO
@@ -27,49 +28,53 @@ Otdelenie Anna:cccp
 Squad Delta:usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcftlat
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
 /datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmccorpsman
 @END@
 
 Gruppe Alpha:bund
 /datum/job/escalation/bund/bdwsl
 /datum/job/escalation/bund/bdwsld
 /datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwgrenadier
 /datum/job/escalation/bund/bdwmg
 /datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwatrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
+//datum/job/escalation/bund/bdwcorpsman
 @END@
 
 Gruppe Bravo:bund
 /datum/job/escalation/bund/bdwsl
 /datum/job/escalation/bund/bdwsld
 /datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwgrenadier
 /datum/job/escalation/bund/bdwmg
 /datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwatrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
+//datum/job/escalation/bund/bdwcorpsman
 @END@
 
 Gruppe Charlie:bund
 /datum/job/escalation/bund/bdwsl
 /datum/job/escalation/bund/bdwsld
 /datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwgrenadier
 /datum/job/escalation/bund/bdwmg
 /datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwatrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
+//datum/job/escalation/bund/bdwcorpsman
 @END@
 
 Panzerabwehrschutze Gruppe:bund
@@ -166,36 +171,36 @@ Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvasrad
-/datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamgass
+/datum/job/escalation/nvaddr/nvaatrifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvacorpsman
 @END@
 
 Gruppe 'Berta':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvasrad
-/datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamgass
+/datum/job/escalation/nvaddr/nvaatrifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvacorpsman
 @END@
 
 Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvasrad
-/datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamgass
+/datum/job/escalation/nvaddr/nvaatrifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvacorpsman
 @END@
 
 Rhyma 'Aarne':finn
