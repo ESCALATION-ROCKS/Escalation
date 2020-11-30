@@ -12,7 +12,7 @@
 	multi_aim = 1
 	burst_delay = 2
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
-	dropsound = 'sound/items/interactions/drop_gun.ogg'
+	drop_sound = 'sound/items/interactions/drop_gun.ogg'
 	upg_bar = 1
 	upg_rap = 1
 	upg_aut = 1

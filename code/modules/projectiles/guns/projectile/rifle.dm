@@ -19,7 +19,7 @@
 	bolt_open = 0
 	wielded_item_state = "gun_wielded" //sort of placeholder
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
-	dropsound = 'sound/items/interactions/drop_gun.ogg'
+	drop_sound = 'sound/items/interactions/drop_gun.ogg'
 	reload_sound = 'sound/weapons/gunhandling/brifle_magin.wav'
 	cocked_sound = 'sound/weapons/gunhandling/brifle_cock.wav'
 	jam_chance = 0.2

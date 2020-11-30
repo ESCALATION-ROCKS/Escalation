@@ -16,7 +16,7 @@
 	var/boom_mod_count = 1
 	blowout_chance = 5
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
-	dropsound = 'sound/items/interactions/drop_gun.ogg'
+	drop_sound = 'sound/items/interactions/drop_gun.ogg'
 	load_method = SINGLE_CASING
 
 /obj/item/weapon/gun/projectile/craftrifle/attackby(obj/item/weapon/W as obj, mob/user as mob)
