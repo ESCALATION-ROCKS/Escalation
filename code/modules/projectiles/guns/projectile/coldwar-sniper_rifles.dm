@@ -473,14 +473,14 @@
 	name = "SSG 82"
 	desc = "The Scharfschützengewehr 82, a rare East German bolt action rifle. Chambers 5.45x39mm rounds."
 	icon = 'icons/obj/boltactions.dmi'
-	icon_state = "tkiv"
-	item_state = "tkiv"
+	icon_state = "ssg82"
+	item_state = "ssg82"
 	force = 8
 	caliber = "545x39"
 	load_method = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39s)
-	wielded_item_state = "tkiv-wielded"
+	wielded_item_state = "ssg82-wielded"
 	w_class = ITEM_SIZE_HUGE
 	handle_casings = HOLD_CASINGS
 	screen_shake = 3 //extra kickback
@@ -500,9 +500,9 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/ssg82/update_icon()
 	..()
 	if(bolt_open)
-		icon_state = "tkiv-open"
+		icon_state = "ssg82-open"
 	else
-		icon_state = "tkiv"
+		icon_state = "ssg82"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ssg82/verb/scope()
 	set name = "Use Scope"
