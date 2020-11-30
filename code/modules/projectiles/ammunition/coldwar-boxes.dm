@@ -4,7 +4,7 @@
 	name = "magazine (5.56x45mm)"
 	desc = "A STANAG magazine that fits thirty 5.56mm rounds."
 	icon_state = "5.56x45mm"
-	item_state = 'm16_mag'
+	item_state = "m16_mag"
 	mag_type = MAGAZINE
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
@@ -28,7 +28,7 @@
 	name = "magazine (5.56x45mm)"
 	desc = "A STANAG magazine that fits twenty 5.56x45mm rounds."
 	icon_state = "5.56x45s"
-	item_state = 'm16_mag'
+	item_state = "m16_mag"
 	mag_type = MAGAZINE
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
@@ -52,7 +52,7 @@
 	name = "magazine (7.62x51mm)"
 	desc = "A STANAG magazine that fits thirty 7.62x51mm rounds."
 	icon_state = "7.62x51mm"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -76,7 +76,7 @@
 	name = "magazine (7.62x51mm)"
 	desc = "A STANAG magazine that fits twenty 7.62x51mm rounds."
 	icon_state = "7.62x51s"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -101,7 +101,7 @@
 	name = "L96 magazine (7.62x51mm)"
 	desc = "An L96 magazine that fits ten 7.62x51mm rounds."
 	icon_state = "l96"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -126,7 +126,7 @@
 	name = "M60 belt box (7.62x51mm)"
 	desc = "An M60 box that fits one hundred 7.62x51mm rounds."
 	icon_state = "m60"
-	item_state = 'm60_mag'
+	item_state = "m60_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x51"
@@ -153,7 +153,7 @@
 	name = "MG3 belt box (7.62x51mm)"
 	desc = "An MG3 box that fits one hundred 7.62x51mm rounds."
 	icon_state = "mg3"
-	item_state = 'mg3_mag'
+	item_state = "mg3_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x51"
@@ -179,7 +179,7 @@
 	name = "MG3 belt drum (7.62x51mm)"
 	desc = "A belt drum that fits fifty 7.62x51mm rounds."
 	icon_state = "mg3s"
-	item_state = 'mg3_mag'
+	item_state = "mg3_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "762x51"
@@ -205,7 +205,7 @@
 	name = "L7A2 belt box (7.62x51mm)"
 	desc = "An L7A2 belt box that fits one hundred 7.62x51mm rounds."
 	icon_state = "l7a2"
-	item_state = 'mg3_mag'
+	item_state = "mg3_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x51"
@@ -231,7 +231,7 @@
 	name = "M249 belt box (5.56x45mm)"
 	desc = "An M249 belt box that fits two hundred 5.56x45mm rounds."
 	icon_state = "m249"
-	item_state = 'm60_mag'
+	item_state = "m60_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "556x45"
@@ -257,7 +257,7 @@
 	name = "magazine (.50 cal)"
 	desc = "A magazine for the M82 Barreta, fits ten .50 cal rounds."
 	icon_state = "50cal"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	w_class = 5
 	caliber = ".50"
@@ -283,7 +283,7 @@
 	name = "magazine (9x19mm)"
 	desc = "A P1 magazine that fits eight 9x19mm rounds."
 	icon_state = "9x19a"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a9x19
 	w_class = 1
@@ -310,7 +310,7 @@
 	name = "smg magazine (9x19mm)"
 	desc = "A Sterling magazine that fits thirty 9x19mm rounds."
 	icon_state = "9x19s"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a9x19
 	w_class = 2
@@ -336,7 +336,7 @@
 	name = "smg drum magazine (9x19mm)"
 	desc = "A KP31 magazine that fits seventy one 9x19mm rounds."
 	icon_state = "9x19k"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a9x19
 	w_class = 2
@@ -362,7 +362,7 @@
 	name = "magazine (9x19mm)"
 	desc = "A Browning Hi-Power magazine that fits thirteen 9x19mm rounds."
 	icon_state = "9x19b"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a9x19
 	w_class = 1
@@ -388,7 +388,7 @@
 	name = "magazine (.45 ACP)"
 	desc = "An M1911 magazine that fits seven .45 ACP rounds."
 	icon_state = "45"
-	item_state = 'm16_mag'
+	item_state = "m16_mag"
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a45
 	caliber = ".45"
@@ -412,7 +412,7 @@
 	name = "WA2000 magazine (7.62x51mm)"
 	desc = "A WA2000 magazine that fits six 7.62x51mm rounds."
 	icon_state = "wa2000mag"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -438,7 +438,7 @@
 	name = "magazine (5.45x39mm)"
 	desc = "An AK-platform magazine that fits thirty 5.45x39mm rounds. Made of bakelite."
 	icon_state = "5.45x39mm"
-	item_state = 'ak_mag'
+	item_state = "ak_mag"
 	mag_type = MAGAZINE
 	caliber = "545x39"
 	ammo_type = /obj/item/ammo_casing/a545x39
@@ -462,7 +462,7 @@
 	name = "large magazine (5.45x39mm)"
 	desc = "An AK-platform magazine that fits fourty five 5.45x39mm rounds. Made of bakelite."
 	icon_state = "5.45x39b"
-	item_state = 'ak_mag'
+	item_state = "ak_mag"
 	mag_type = MAGAZINE
 	caliber = "545x39"
 	ammo_type = /obj/item/ammo_casing/a545x39
@@ -488,7 +488,7 @@
 	name = "small magazine (5.45x39mm)"
 	desc = "A small magazine that fits five 5.45x39mm rounds. Made of stainless steel."
 	icon_state = "5.45x39s"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	caliber = "545x39"
 	ammo_type = /obj/item/ammo_casing/a545x39
@@ -502,7 +502,7 @@
 	name = "magazine (7.62x39mm)"
 	desc = "An AK-platform magazine that fits thirty 7.62x39mm rounds."
 	icon_state = "7.62x39mm"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	caliber = "762x39"
 	ammo_type = /obj/item/ammo_casing/a762x39
@@ -527,7 +527,7 @@
 	name = "large magazine (7.62x39mm)"
 	desc = "An AK-platform magazine that fits fourty 7.62x39mm rounds."
 	icon_state = "7.62x39mmb"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "762x39"
@@ -554,7 +554,7 @@
 	name = "drum magazine (7.62x39mm)"
 	desc = "An AK-platform drum magazine that fits seventy five 7.62x39mm rounds."
 	icon_state = "rpdbaraban"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x39"
@@ -580,7 +580,7 @@
 	name = "RPD belt drum (7.62x39mm)"
 	desc = "An RPD belt drum that fits seventy five 7.62x39mm rounds."
 	icon_state = "rpdbaraban100"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x39"
@@ -606,7 +606,7 @@
 	name = "KK62 belt drum (7.62x39mm)"
 	desc = "A KK62 belt drum that fits one hundred 7.62x39mm rounds."
 	icon_state = "kk62"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x39"
@@ -632,7 +632,7 @@
 	name = "SVD magazine (7.62x54mmR)"
 	desc = "A SVD magazine that fits ten 7.62x54mm rounds."
 	icon_state = "7.62x54s"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
@@ -657,7 +657,7 @@
 	name = "PKM belt box (7.62x54mmR)"
 	desc = "A PKM belt box that fits one hundred 7.62x54mmR rounds."
 	icon_state = "pkm"
-	item_state = 'pkm_mag'
+	item_state = "pkm_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x54"
@@ -684,7 +684,7 @@
 	name = "Vz. 59 belt box (7.62x54mmR)"
 	desc = "A gray Vz.59 belt box that fits one hundred 7.62x54mmR rounds."
 	icon_state = "vz59"
-	item_state = 'mg3_mag'
+	item_state = "mg3_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x54"
@@ -710,7 +710,7 @@
 	name = "magazine (9x18mm)"
 	desc = "A Makarov magazine that fits eight 9x18mm rounds."
 	icon_state = "9x18a"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a9x18
@@ -736,7 +736,7 @@
 	name = "magazine (9x18mm)"
 	desc = "A Stechkin APS magazine that fits twenty 9x18mm rounds."
 	icon_state = "9x18b"
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a9x18
@@ -762,7 +762,7 @@
 	name = "magazine (9x18mm)"
 	desc = "A CZ85 magazine that fits eight 9x18mm rounds."
 	icon_state = "9x18a" //fix
-	item_state = 'generic_mag'
+	item_state = "generic_mag"
 	w_class = 1
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a9x18
@@ -790,7 +790,7 @@
 	name = "UTES belt box (12.7x108mm)"
 	desc = "A NSV Utes belt box that fits one hundred 12.7x108mm rounds."
 	icon_state = "utes"
-	item_state = 'pkm_mag'
+	item_state = "pkm_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "127x108mm"
@@ -803,7 +803,7 @@
 	name = "Browning belt box (.50 cal)"
 	desc = "A Browning belt box that fits one hundred .50 cal rounds."
 	icon_state = "m2ammo"
-	item_state = 'm60_mag'
+	item_state = "m60_mag"
 	mag_type = MAGAZINE
 	w_class = 5
 	caliber = ".50"
@@ -826,7 +826,7 @@
 	name = "AGS belt box (VOG 30x29mm)"
 	desc = "An AGS Plamya belt box that fits thirty grenades."
 	icon_state = "ags30x29mm"
-	item_state = 'pkm_mag'
+	item_state = "pkm_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE
 	caliber = "30x29mm"
@@ -838,7 +838,7 @@
 	name = "MK19 belt box (MK19 40x53mm)"
 	desc = "A MK19 box that fits thirty two grenades."
 	icon_state = "mk19ammo"
-	item_state = 'm60_mag'
+	item_state = "m60_mag"
 	mag_type = MAGAZINE
 	caliber = "40x53mm"
 	ammo_type = /obj/item/ammo_casing/mk19_40x53mm/shrapnel
@@ -855,7 +855,7 @@
 	name = "ammo box (5.45x39mm)"
 	desc = "A 40-round pack of 5.45x39mm ammunition."
 	icon_state = "sa_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a545x39
 	caliber = "545x39"
 
@@ -863,21 +863,21 @@
 	name = "AP ammo box (5.45x39mm)"
 	desc = "A 40-round pack of armor-piercing 5.45x39mm ammunition."
 	icon_state = "sa_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a545x39/ap
 
 /obj/item/ammo_magazine/box/paper/box545x39/tr
 	name = "tracer ammo box (5.45x39mm)"
 	desc = "A 40-round pack of 5.45x39mm tracer ammunition."
 	icon_state = "sa_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a545x39/tr
 
 /obj/item/ammo_magazine/box/paper/box762x39
 	name = "ammo box (7.62x39mm)"
 	desc = "A 40-round pack of 7.62x39mm ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x39
 	caliber = "762x39"
 
@@ -885,21 +885,21 @@
 	name = "AP ammo box (7.62x39mm)"
 	desc = "A 40-round pack of armor-piercing 7.62x39mm ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x39/ap
 
 /obj/item/ammo_magazine/box/paper/box762x39/tr
 	name = "tracer ammo box (7.62x39mm)"
 	desc = "A 40-round pack of 7.62x39mm tracer ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x39/tr
 
 /obj/item/ammo_magazine/box/paper/box762x54
 	name = "ammo box (7.62x54mmR)"
 	desc = "A 40-round pack of 7.62x54mmR ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x54
 	caliber = "762x54"
 
@@ -907,21 +907,21 @@
 	name = "AP ammo box (7.62x54mmR)"
 	desc = "A 40-round pack of armor-piercing 7.62x54mmR ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/box/paper/box762x54/tr
 	name = "tracer ammo box (7.62x54mmR)"
 	desc = "A 40-round pack of 7.62x54mmR tracer ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/box/paper/box556x45
 	name = "ammo box (5.56x45mm)"
 	desc = "A 40-round pack of 5.56x45mm ammunition."
 	icon_state = "usmc_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a556x45
 	caliber = "556x45"
 
@@ -929,21 +929,21 @@
 	name = "AP ammo box (5.56x45mm)"
 	desc = "A 40-round pack of armor-piercing 5.56x45mm ammunition."
 	icon_state = "usmc_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a556x45/ap
 
 /obj/item/ammo_magazine/box/paper/box556x45/tr
 	name = "tracer ammo box (5.56x45mm)"
 	desc = "A 40-round pack of 5.56x45mmtracer ammunition."
 	icon_state = "usmc_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a556x45/tr
 
 /obj/item/ammo_magazine/box/paper/box762x51
 	name = "ammo box (7.62x51mm)"
 	desc = "A 40-round pack of 7.62x51mm ammunition."
 	icon_state = "bdw_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x51
 	caliber = "762x51"
 
@@ -967,7 +967,7 @@
 	name = "ammo box (9x19mm)"
 	desc = "A 40-round pack of 9x19mm ammunition."
 	icon_state = "nine_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a9x19
 	caliber = "9x19"
 
@@ -975,21 +975,21 @@
 	name = "ammo box (9x19mm)"
 	desc = "A 40-round pack of 9x19mm armor-piercing ammunition."
 	icon_state = "bdw_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a9x19/ap
 
 /obj/item/ammo_magazine/box/paper/box9x19/tr
 	name = "ammo box (9x19mm)"
 	desc = "A 40-round pack of 9x19mm ammunition."
 	icon_state = "bdw_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a9x19/tr
 
 /obj/item/ammo_magazine/box/paper/box9x18
 	name = "ammo box (9x18mm)"
 	desc = "A 40-round pack of 9x18mm ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a9x18
 	caliber = "9x18"
 
@@ -997,7 +997,7 @@
 	name = "ammo box (9x18mm)"
 	desc = "A 40-round pack of armor-piercing 9x18mm ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a9x18/ap
 	caliber = "9x18"
 
@@ -1005,7 +1005,7 @@
 	name = "tracer ammo box (9x18mm)"
 	desc = "A 40-round pack of 9x18mm tracer ammunition."
 	icon_state = "csla_box"
-	item_state = 'paper_mag'
+	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a9x18/tr
 	caliber = "9x18"
 
@@ -1016,7 +1016,7 @@
 	desc = "A clip of 7.62x53mmR ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "h762x53"
-	item_state = 'clip_mag'
+	item_state = "clip_mag"
 	caliber = "762x53"
 	ammo_type = /obj/item/ammo_casing/a762x53
 	w_class = 1
@@ -1028,7 +1028,7 @@
 	desc = "A stripper clip of yellow tipped 7.62x53mmR ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "hy762x53"
-	item_state = 'clip_mag'
+	item_state = "clip_mag"
 	caliber = "762x53"
 	ammo_type = /obj/item/ammo_casing/a762x53/tr
 	w_class = 1
@@ -1040,7 +1040,7 @@
 	desc = "A stripper clip of light-blue tipped 7.62x53mmR ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "hb762x53"
-	item_state = 'clip_mag'
+	item_state = "clip_mag"
 	caliber = "762x53"
 	ammo_type = /obj/item/ammo_casing/a762x53/ap
 	w_class = 1
@@ -1055,7 +1055,7 @@
 	desc = "A clip of .303 British ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "h762x53"
-	item_state = 'clip_mag'
+	item_state = "clip_mag"
 	caliber = "303"
 	ammo_type = /obj/item/ammo_casing/a303
 	w_class = 1
@@ -1067,7 +1067,7 @@
 	desc = "A stripper clip of .303 British tracer ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "h762x53"
-	item_state = 'clip_mag'
+	item_state = "clip_mag"
 	caliber = "303"
 	ammo_type = /obj/item/ammo_casing/a303/tr
 	w_class = 1
@@ -1079,7 +1079,7 @@
 	desc = "A stripper clip of armor-piercing .303 British ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "h762x53"
-	item_state = 'clip_mag'
+	item_state = "clip_mag"
 	caliber = "303"
 	ammo_type = /obj/item/ammo_casing/a303/ap
 	w_class = 1
