@@ -236,7 +236,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
-	max_ammo = 200
+	max_ammo = 150
 	multiple_sprites = 1
 	load_delay = 30
 
