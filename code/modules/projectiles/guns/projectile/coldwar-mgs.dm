@@ -242,7 +242,7 @@
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
 	load_method = MAGAZINE
-	allowed_magazines = /obj/item/ammo_magazine/c556x45b
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45m)
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
 	jam_chance = 0.35
