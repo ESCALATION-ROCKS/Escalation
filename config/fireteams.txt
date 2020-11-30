@@ -16,7 +16,7 @@ Otdelenie Anna:cccp
 /datum/job/escalation/cccp/sasrad
 /datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/samgas
-/datum/job/escalation/cccp/grenadier
+/datum/job/escalation/cccp/sagrengl
 /datum/job/escalation/cccp/saatrifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
@@ -48,7 +48,7 @@ Gruppe Alpha:bund
 /datum/job/escalation/bund/bdwatrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
-//datum/job/escalation/bund/bdwcorpsman
+/datum/job/escalation/bund/bdwcorpsman
 @END@
 
 Gruppe Bravo:bund
@@ -61,7 +61,7 @@ Gruppe Bravo:bund
 /datum/job/escalation/bund/bdwatrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
-//datum/job/escalation/bund/bdwcorpsman
+/datum/job/escalation/bund/bdwcorpsman
 @END@
 
 Gruppe Charlie:bund
@@ -74,13 +74,13 @@ Gruppe Charlie:bund
 /datum/job/escalation/bund/bdwatrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
-//datum/job/escalation/bund/bdwcorpsman
+/datum/job/escalation/bund/bdwcorpsman
 @END@
 
-Panzerabwehrschutze Gruppe:bund
-/datum/job/escalation/bund/bdwatlead
-/datum/job/escalation/bund/bdwatgun
-/datum/job/escalation/bund/bdwatasst
+Schweren Waffen Gruppe:bund
+/datum/job/escalation/bund/mgcom
+/datum/job/escalation/bund/mgload
+/datum/job/escalation/bund/mgop
 @END@
 
 Squad Alpha:usa
@@ -172,7 +172,8 @@ Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamgass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvagrenat
 /datum/job/escalation/nvaddr/nvaatrifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
@@ -184,7 +185,8 @@ Gruppe 'Berta':nvaddr
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamgass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvagrengl
 /datum/job/escalation/nvaddr/nvaatrifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
@@ -196,11 +198,18 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamgass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvagrengl
 /datum/job/escalation/nvaddr/nvaatrifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvacorpsman
+@END@
+
+Schweren Waffen Gruppe:nvaddr
+/datum/job/escalation/nvaddr/mgcom
+/datum/job/escalation/nvaddr/mgload
+/datum/job/escalation/nvaddr/mgop
 @END@
 
 Rhyma 'Aarne':finn

@@ -656,8 +656,8 @@
 
 /datum/job/escalation/bund/bdwgrenadier
 	title = "BDW Grenadier"
-	name = "Grenadier"
-	english_name = ""
+	name = "Panzerabwerschutze"
+	english_name = "Grenadier"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
