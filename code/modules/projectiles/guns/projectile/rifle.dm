@@ -18,7 +18,8 @@
 	accuracy = 5
 	bolt_open = 0
 	wielded_item_state = "gun_wielded" //sort of placeholder
-	picksound = 'sound/items/interactions/rifle_draw.wav'
+	picksound = 'sound/items/interactions/rifle_draw.ogg'
+	dropsound = 'sound/items/interactions/drop_gun.ogg'
 	reload_sound = 'sound/weapons/gunhandling/brifle_magin.wav'
 	cocked_sound = 'sound/weapons/gunhandling/brifle_cock.wav'
 	jam_chance = 0.2
@@ -114,7 +115,7 @@
 	one_hand_penalty = 3
 	accuracy = 2
 	wielded_item_state = "gun_wielded" //sort of placeholder
-	picksound = 'sound/items/interactions/rifle_draw.wav'
+	picksound = 'sound/items/interactions/rifle_draw.ogg'
 	magazine_type = /obj/item/ammo_magazine/a762x51smag
 	allowed_magazines =/obj/item/ammo_magazine/a762x51smag //more damage compared to the wt550, smaller mag size
 	unload_sound = 'sound/weapons/gunhandling/rifle_magout.wav'

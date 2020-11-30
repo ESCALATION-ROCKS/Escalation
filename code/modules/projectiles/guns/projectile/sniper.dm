@@ -18,7 +18,8 @@
 	scoped_accuracy = 5 //increased accuracy over the LWAP because only one shot
 	var/bolt_open = 0
 	wielded_item_state = "heavysniper-wielded" //sort of placeholder
-	picksound = 'sound/items/interactions/rifle_draw.wav'
+	picksound = 'sound/items/interactions/rifle_draw.ogg'
+	dropsound = 'sound/items/interactions/drop_gun.ogg'
 
 /obj/item/weapon/gun/projectile/heavysniper/update_icon()
 	..()

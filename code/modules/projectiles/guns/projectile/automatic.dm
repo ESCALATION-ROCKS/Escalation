@@ -11,7 +11,8 @@
 	ammo_type = /obj/item/ammo_casing/c9mm
 	multi_aim = 1
 	burst_delay = 2
-	picksound = 'sound/items/interactions/rifle_draw.wav'
+	picksound = 'sound/items/interactions/rifle_draw.ogg'
+	dropsound = 'sound/items/interactions/drop_gun.ogg'
 	upg_bar = 1
 	upg_rap = 1
 	upg_aut = 1
@@ -290,7 +291,7 @@
 	..()
 
 
-//redline shit заебался сука делать эту хуйню убейте меня кто-нибудь плззззззззз
+//redline shit пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 /obj/item/weapon/gun/projectile/automatic/smg/mpistol
 	name = "machine pistol"
