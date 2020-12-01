@@ -439,7 +439,7 @@
 	name = "syringe case"
 	desc = "That's a small case used for sterile syringes."
 	icon = 'icons/obj/storage.dmi'
-	icon_state = "syringe_case"
+	icon_state = "syringecase"
 	max_storage_space = 6
 	key_type = /obj/item/weapon/reagent_containers/syringe
 	startswith = list(
@@ -447,7 +447,3 @@
 		/obj/item/weapon/reagent_containers/syringe,
 		/obj/item/weapon/reagent_containers/syringe
 		)
-
-/obj/item/weapon/storage/fancy/syringe/New()
-	..()
-	icon_state = "syringe_case_[rand(1,6)]"
