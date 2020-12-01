@@ -155,7 +155,7 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 
-/obj/item/clothing/suit/armor/vest/coat/bdw
+/obj/item/clothing/suit/armor/vest/coat/bdwponcho
 	name = "bundeswehr winter poncho"
 	desc = "A standard issue Bundeswehr winter poncho."
 	icon_state = "ponchobdw"
