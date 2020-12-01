@@ -130,11 +130,37 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 
 /obj/item/clothing/suit/armor/vest/coat/bdw
-	name = "bundeswehr winter parka"
-	desc = "A standard issue Bundeswehr winter coat."
+	name = "bundeswehr parka"
+	desc = "A standard issue Bundeswehr coat."
 	icon_state = "parkabdw"
 	item_state = "parkabdw"
 	/*down_icon_state = "parkabdw_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+
+/obj/item/clothing/suit/armor/vest/coat/nvaddr
+	name = "volksarmee zeltbahn poncho"
+	desc = "A standard NVA zeltbahn pattern poncho."
+	icon_state = "zeltbahn"
+	item_state = "zeltbahn"
+	/*down_icon_state = "zeltbahn_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+
+/obj/item/clothing/suit/armor/vest/coat/bdw
+	name = "bundeswehr winter poncho"
+	desc = "A standard issue Bundeswehr winter poncho."
+	icon_state = "ponchobdw"
+	item_state = "ponchobdw"
+	/*down_icon_state = "ponchobdw_t"*/
 	/*down_icon_flags = BLOCKHAIR */
 	/*down_body_parts_covered = HEAD*/
 	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
