@@ -39,9 +39,9 @@
 	show_above_suit = 0
 	w_class = ITEM_SIZE_SMALL
 
-/obj/item/clothing/mask/tacticalmask/gray
-	name = "gray bandana"
-	desc = "A gray piece of cloth you can cover your face with or hang around your neck."
+/obj/item/clothing/mask/tacticalmask/blue
+	name = "blue bandana"
+	desc = "A blue piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_gray"
 	item_state = "scarf_gray"
 

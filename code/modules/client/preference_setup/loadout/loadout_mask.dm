@@ -7,6 +7,6 @@
 	..()
 	var/bandanas = list()
 	bandanas["tan bandana"] = /obj/item/clothing/mask/tacticalmask
-	bandanas["gray bandana"] = /obj/item/clothing/mask/tacticalmask/gray
+	bandanas["blue bandana"] = /obj/item/clothing/mask/tacticalmask/blue
 	bandanas["green bandana"] = /obj/item/clothing/mask/tacticalmask/green
 	gear_tweaks += new/datum/gear_tweak/path(bandanas)
