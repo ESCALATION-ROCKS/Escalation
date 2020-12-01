@@ -76,7 +76,7 @@
 		/obj/item/weapon/gun/projectile/makarov,
 		/obj/item/ammo_magazine/a9x18
 		)
-	
+
 /obj/item/weapon/storage/belt/holster/waltherppk
 	name = "Walther PPK holster"
 	storage_slots = 3
@@ -598,6 +598,19 @@
 		)
 	startswith = null
 
+/obj/item/weapon/storage/belt/suit/ammo/sa/ssg82
+	w_class = ITEM_SIZE_HUGE
+	name = "SSG82 magazine pouch"
+	desc = "Has enough space to hold two SSG82 magazines."
+	icon_state = "tkiv_ammo"
+	item_state = "sa_ammo"
+	open_delay = 5
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/ammo_magazine/c545x39s
+		)
+	startswith = null
+
 /obj/item/weapon/storage/belt/suit/ammo/sa/tkiv
 	w_class = ITEM_SIZE_HUGE
 	name = "TKIV stripper clip pouch"
@@ -698,7 +711,12 @@
 		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/c762x39m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x39b,
+		/obj/item/ammo_magazine/c762x39b,
+		/obj/item/ammo_magazine/c762x39b,
+		/obj/item/ammo_magazine/c762x39b
+	)
 
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
@@ -772,8 +790,8 @@
 		/obj/item/weapon/grenade/frag/vog25/,
 		/obj/item/weapon/grenade/frag/vog25/,
 		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/
+		/obj/item/weapon/grenade/smokebomb/vog25/,
+		/obj/item/weapon/grenade/smokebomb/vog25/
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
@@ -788,8 +806,8 @@
 		/obj/item/weapon/grenade/frag/vog25/,
 		/obj/item/weapon/grenade/frag/vog25/,
 		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/
+		/obj/item/weapon/grenade/smokebomb/vog25/,
+		/obj/item/weapon/grenade/smokebomb/vog25/
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
@@ -804,8 +822,8 @@
 		/obj/item/weapon/grenade/frag/shell40mm/,
 		/obj/item/weapon/grenade/frag/shell40mm/,
 		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/
+		/obj/item/weapon/grenade/smokebomb/shell40mm/,
+		/obj/item/weapon/grenade/smokebomb/shell40mm/
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
@@ -820,8 +838,8 @@
 		/obj/item/weapon/grenade/frag/shell40mm/,
 		/obj/item/weapon/grenade/frag/shell40mm/,
 		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/
+		/obj/item/weapon/grenade/smokebomb/shell40mm/,
+		/obj/item/weapon/grenade/smokebomb/shell40mm/
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/flarepouch
