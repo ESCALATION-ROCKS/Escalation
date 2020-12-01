@@ -513,7 +513,7 @@
 
 /obj/item/weapon/gun/launcher/oneuse/m72/attack_self(mob/user)
 	if(folded)
-		playsound(src.loc,'sound/weapons/gunporn/law_deploy.ogg',80, 0)
+		playsound(src.loc,'sound/weapons/gunporn/rpgoneuse_deploying.ogg',80, 0)
 		user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
 		if(do_after(usr, 30, src))
 			usr.visible_message("<span class='notice'>\The [usr] extends [src].</span>", "<span class='notice'>You deploy the [src]</span>")
@@ -522,7 +522,7 @@
 			item_state = "[item_state]-deployed"
 			slot_flags = null
 	else
-		playsound(src.loc,'sound/weapons/gunporn/law_deploy.ogg',80, 0)
+		playsound(src.loc,'sound/weapons/gunporn/rpgoneuse_deploying.ogg',80, 0)
 		user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
 		if(do_after(usr, 30, src))
 			usr.visible_message("<span class='notice'>\The [usr] folds the [src].</span>", "<span class='notice'>You fold the [src]</span>")
