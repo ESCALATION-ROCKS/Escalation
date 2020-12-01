@@ -1,6 +1,6 @@
 /decl/emote/visible
-	key ="tail"
-	emote_message_3p = "USER waves USER_THEIR tail."
+	key ="blink"
+	emote_message_3p = "USER blinks."
 	message_type = VISIBLE_MESSAGE
 
 /decl/emote/visible/scratch
@@ -15,25 +15,12 @@
 
 /decl/emote/visible/nod
 	key ="nod"
-	emote_message_3p = "USER nods USER_THEIR head."
-
-/decl/emote/visible/sway
-	key ="sway"
-	emote_message_3p = "USER sways around dizzily."
-
-/decl/emote/visible/sulk
-	key ="sulk"
-	emote_message_3p = "USER sulks down sadly."
+	emote_message_3p = "USER nods."
 
 /decl/emote/visible/dance
 	key ="dance"
 	check_restraints = TRUE
 	emote_message_3p = "USER dances around happily."
-
-/decl/emote/visible/roll
-	key ="roll"
-	check_restraints = TRUE
-	emote_message_3p = "USER rolls."
 
 /decl/emote/visible/shake
 	key ="shake"
@@ -43,30 +30,10 @@
 	key ="jump"
 	emote_message_3p = "USER jumps!"
 
-/decl/emote/visible/hiss
-	key ="hiss_"
-	emote_message_3p = "USER hisses softly."
-
 /decl/emote/visible/shiver
 	key ="shiver"
 	emote_message_3p = "USER shivers."
 	conscious = 0
-
-/decl/emote/visible/collapse
-	key ="collapse"
-	emote_message_3p = "USER collapses!"
-
-/decl/emote/visible/collapse/do_extra(var/mob/user)
-	if(istype(user))
-		user.Paralyse(2)
-
-/decl/emote/visible/flash
-	key = "flash"
-	emote_message_3p = "The lights on USER flash quickly."
-
-/decl/emote/visible/blink
-	key = "blink"
-	emote_message_3p = "USER blinks."
 
 /decl/emote/visible/airguitar
 	key = "airguitar"
@@ -86,16 +53,6 @@
 	key = "salute"
 	emote_message_3p_target = "USER salutes to TARGET."
 	emote_message_3p = "USER salutes."
-
-/decl/emote/visible/flap
-	key = "flap"
-	check_restraints = TRUE
-	emote_message_3p = "USER flaps USER_THEIR wings."
-
-/decl/emote/visible/aflap
-	key = "aflap"
-	check_restraints = TRUE
-	emote_message_3p = "USER flaps USER_THEIR wings ANGRILY!"
 
 /decl/emote/visible/eyebrow
 	key = "eyebrow"
@@ -145,7 +102,7 @@
 /decl/emote/visible/look
 	key = "look"
 	emote_message_3p = "USER looks at TARGET."
-	emote_message_3p = "USER looks."
+	emote_message_3p = "USER looks around."
 
 /decl/emote/visible/point
 	key = "point"
@@ -170,14 +127,6 @@
 	key = "smile"
 	emote_message_3p = "USER smiles."
 
-/decl/emote/visible/pale
-	key = "pale"
-	emote_message_3p = "USER goes pale for a second."
-
-/decl/emote/visible/tremble
-	key = "tremble"
-	emote_message_3p = "USER trembles in fear!"
-
 /decl/emote/visible/wink
 	key = "wink"
 	emote_message_3p = "USER winks."
@@ -188,12 +137,6 @@
 	emote_message_3p = "USER hugs USER_THEMself."
 	emote_message_3p_target = "USER hugs TARGET."
 
-/decl/emote/visible/dap
-	key = "dap"
-	check_restraints = TRUE
-	emote_message_3p = "USER sadly can't find anybody to give daps to, and daps USER_THEMself."
-	emote_message_3p_target = "USER gives daps to TARGET."
-
 /decl/emote/visible/signal
 	key = "signal"
 	check_restraints = TRUE
@@ -201,26 +144,6 @@
 
 /decl/emote/visible/signal/check_user(var/atom/user)
 	return ismob(user)
-
-/decl/emote/visible/bounce
-	key = "bounce"
-	emote_message_3p = "USER bounces in place."
-
-/decl/emote/visible/jiggle
-	key = "jiggle"
-	emote_message_3p = "USER jiggles!"
-
-/decl/emote/visible/lightup
-	key = "light"
-	emote_message_3p = "USER lights up for a bit, then stops."
-
-/decl/emote/visible/vibrate
-	key = "vibrate"
-	emote_message_3p = "USER vibrates!"
-
-/decl/emote/visible/deathgasp_robot
-	key = "deathgasp"
-	emote_message_3p = "USER shudders violently for a moment, then becomes motionless, USER_THEIR eyes slowly darkening."
 
 /decl/emote/visible/handshake
 	key = "handshake"
