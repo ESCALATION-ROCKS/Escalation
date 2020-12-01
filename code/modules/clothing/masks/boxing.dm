@@ -32,7 +32,7 @@
 	name = "bandana"
 	desc = "A tan piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_tan"
-	item_state = "scarf_tan_down"
+	item_state = "scarf_tan"
 	flags_inv = null
 	body_parts_covered = null
 	pull_mask = 0
@@ -43,13 +43,13 @@
 	name = "gray bandana"
 	desc = "A gray piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_gray"
-	item_state = "scarf_gray_down"
+	item_state = "scarf_gray"
 
 /obj/item/clothing/mask/tacticalmask/green
 	name = "green bandana"
 	desc = "A green piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_green"
-	item_state = "scarf_green_down"
+	item_state = "scarf_green"
 
 /obj/item/clothing/mask/luchador
 	name = "Luchador Mask"
