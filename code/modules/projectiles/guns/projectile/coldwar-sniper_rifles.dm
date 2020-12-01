@@ -498,22 +498,23 @@
 	bayonet_attachable = 0
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ssg82/update_icon()
-	..()
-	if(bolt_open)
-		icon_state = "ssg82-open"
-	else
-		icon_state = "ssg82"
-
-/obj/item/weapon/gun/projectile/automatic/rifle/ssg82/update_icon()
     ..()
     if(bolt_open && ammo_magazine)
         icon_state = "ssg82-open"
+		item_state = "ssg82"
+		wielded_item_state = "ssg82-wielded"
     if(bolt_open && !ammo_magazine)
         icon_state = "ssg82-open-empty"
+		item_state = "ssg82-empty"
+		wielded_item_state = "ssg82-wielded-empty"
     if(!bolt_open && ammo_magazine)
         icon_state = "ssg82"
+		item_state = "ssg82"
+		wielded_item_state = "ssg82-wielded"
     if(!bolt_open && !ammo_magazine)
         icon_state = "ssg82-empty"
+		item_state = "ssg82-empty"
+		wielded_item_state = "ssg82-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ssg82/verb/scope()
 	set name = "Use Scope"
