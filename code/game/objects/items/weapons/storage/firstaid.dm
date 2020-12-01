@@ -350,6 +350,7 @@
 
 	can_hold = list(
 		/obj/item/weapon/gauze_pack,
+		/obj/item/stack/medical/bruise_pack/
 		)
 
 /obj/item/weapon/storage/firstaid/gauze/wp
