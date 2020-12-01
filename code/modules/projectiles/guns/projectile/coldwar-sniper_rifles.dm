@@ -328,7 +328,7 @@
 	desc = "A standard-issue British sniper rifle. Chambers 7.62x51 rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "l96"
-	item_state = "l96" 
+	item_state = "l96"
 	force = 10
 	caliber = "762x51"
 	load_method = MAGAZINE
@@ -393,13 +393,13 @@
 		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
 		return 0
 	return ..()
-	
+
 /obj/item/weapon/gun/projectile/rifle/boltaction/tkiv
 	name = "7.62 Tkiv 85"
 	desc = "A standard issue Finnish sniper rifle. Chambers 7.62X53mmR rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "tkiv"
-	item_state = "tkiv" 
+	item_state = "tkiv"
 	force = 8
 	caliber = "762x53"
 	wielded_item_state = "tkiv-wielded"
@@ -469,12 +469,95 @@
 
 	src.toggle_scope(usr, 3)
 
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg82
+	name = "SSG 82"
+	desc = "The Scharfschützengewehr 82, a rare East German bolt action rifle. Chambers 5.45x39mm rounds."
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "ssg82"
+	item_state = "ssg82"
+	force = 8
+	caliber = "545x39"
+	load_method = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a545x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39s)
+	wielded_item_state = "ssg82-wielded"
+	w_class = ITEM_SIZE_HUGE
+	handle_casings = HOLD_CASINGS
+	screen_shake = 3 //extra kickback
+	max_shells = 5
+	one_hand_penalty = 8
+	accuracy = 6
+	var/bolt_open = 0
+	fire_sound = 'sound/weapons/gunshot/tkiv.ogg'
+	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
+	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/tkiv_dist.ogg'
+	jam_chance = 0.360
+	slowdown_general = 0.360
+	bayonet_attachable = 0
+
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg82/update_icon()
+	..()
+	if(bolt_open && ammo_magazine)
+		icon_state = "ssg82-open"
+		item_state = "ssg82"
+		wielded_item_state = "ssg82-wielded"
+	if(bolt_open && !ammo_magazine)
+		icon_state = "ssg82-open-empty"
+		item_state = "ssg82-empty"
+		wielded_item_state = "ssg82-wielded-empty"
+	if(!bolt_open && ammo_magazine)
+		icon_state = "ssg82"
+		item_state = "ssg82"
+		wielded_item_state = "ssg82-wielded"
+	if(!bolt_open && !ammo_magazine)
+		icon_state = "ssg82-empty"
+		item_state = "ssg82-empty"
+		wielded_item_state = "ssg82-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg82/verb/scope()
+	set name = "Use Scope"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 0
+
+	src.toggle_scope(usr, 3)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg82/attack_self(mob/user as mob)
+	bolt_open = !bolt_open
+	if(do_after(user, 6.5, src))
+		if(bolt_open)
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
+			if(chambered)
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
+				chambered.loc = get_turf(src)
+				loaded -= chambered
+				chambered = null
+			else
+				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
+		else
+			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
+			bolt_open = 0
+			if(!chambered)
+				chambered = ammo_magazine.stored_ammo[1]
+				ammo_magazine.stored_ammo -= chambered
+		add_fingerprint(user)
+		update_icon()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg82/special_check(mob/user)
+	if(bolt_open)
+		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
+		return 0
+	return ..()
+
 /obj/item/weapon/gun/projectile/rifle/boltaction/m40a1
 	name = "M40A1"
 	desc = "A standard issue American sniper rifle. Chambers 7.62X51 rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "m40a1"
-	item_state = "m40a1" 
+	item_state = "m40a1"
 	force = 8
 	caliber = "762x51"
 	wielded_item_state = "m40a1-wielded"
@@ -547,7 +630,7 @@
 /obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/load_ammo(var/obj/item/A, mob/user)
 	..()
 	var/obj/item/ammo_magazine/AM = user.get_active_hand(A)
-	
+
 	if(AM.stored_ammo.len == 0)
 		qdel(AM)
 		return
@@ -559,7 +642,7 @@
 	desc = "A standard issue British sniper rifle. Chambers .303 rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "enfield"
-	item_state = "enfield" 
+	item_state = "enfield"
 	force = 8
 	caliber = "303"
 	wielded_item_state = "tkiv-wielded"
@@ -599,7 +682,7 @@
 	desc = "An outdated Finnish rifle. Chambers 7.62x53mmR rounds."
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "mosin"
-	item_state = "enfield" 
+	item_state = "enfield"
 	force = 8
 	caliber = "762x53"
 	wielded_item_state = "mosin-wielded"

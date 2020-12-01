@@ -74,7 +74,7 @@
 	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 25, bio = 0, rad = 0)
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
-	
+
 /obj/item/clothing/suit/storage/vest/flakvest/New()
 	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 2)
@@ -102,7 +102,7 @@
 	slowdown_general = 0.0
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
-	
+
 /obj/item/clothing/suit/armor/vest/coat/finn
 	name = "finnish parka"
 	desc = "A standard issue Finnish Army winter coat."
@@ -118,10 +118,23 @@
 
 /obj/item/clothing/suit/armor/vest/coat/usa
 	name = "us winter coat"
-	desc = "A standard issue US Army winter coat."
+	desc = "A standard issue USMC winter coat."
 	icon_state = "parkaus"
 	item_state = "parkaus"
 	/*down_icon_state = "parkaus_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+
+/obj/item/clothing/suit/armor/vest/coat/bdw
+	name = "bundeswehr winter parka"
+	desc = "A standard issue Bundeswehr winter coat."
+	icon_state = "parkabdw"
+	item_state = "parkabdw"
+	/*down_icon_state = "parkabdw_t"*/
 	/*down_icon_flags = BLOCKHAIR */
 	/*down_body_parts_covered = HEAD*/
 	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)

@@ -15,7 +15,8 @@
 	handle_casings = HOLD_CASINGS
 	one_hand_penalty = 2
 	wielded_item_state = "gun_wielded"
-	picksound = 'sound/items/interactions/rifle_draw.wav'
+	picksound = 'sound/items/interactions/rifle_draw.ogg'
+	drop_sound = 'sound/items/interactions/drop_gun.ogg'
 	reload_sound = 'sound/weapons/gunhandling/shell_insert.wav'
 	var/recentpump = 0 // to prevent spammage
 	fire_sound = 'sound/weapons/gunshot/m3-1.ogg'
