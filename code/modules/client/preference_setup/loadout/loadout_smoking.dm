@@ -1,3 +1,7 @@
+/datum/gear/smoking
+	cost = 0
+	sort_category = "Smoking"
+	category = /datum/gear/gloves
 
 /datum/gear/matchbook
 	display_name = "matchbook"
@@ -23,4 +27,5 @@
 	cigarretes["Marlboro"] = /obj/item/weapon/storage/fancy/cigarettes/marlboro
 	cigarretes["Prima"] = /obj/item/weapon/storage/fancy/cigarettes/prima
 	cigarretes["Yava"] = /obj/item/weapon/storage/fancy/cigarettes/yava
+	cigarretes["Newport"] = /obj/item/weapon/storage/fancy/cigarettes/newports
 	gear_tweaks += new/datum/gear_tweak/path(cigarretes)

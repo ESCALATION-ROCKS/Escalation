@@ -29,3 +29,7 @@
 /datum/gear/eyes/shades/
 	display_name = "sunglasses"
 	path = /obj/item/clothing/glasses/sunglasses
+
+/datum/gear/eyes/shades/big
+	display_name = "shades"
+	path = /obj/item/clothing/glasses/sunglasses/big
