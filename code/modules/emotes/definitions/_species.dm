@@ -12,12 +12,7 @@
 
 // Specific defines follow.
 /datum/species/slime
-	default_emotes = list(
-		/decl/emote/visible/bounce,
-		/decl/emote/visible/jiggle,
-		/decl/emote/visible/lightup,
-		/decl/emote/visible/vibrate
-		)
+	default_emotes = null
 
 /datum/species/unathi
 	default_emotes = list(

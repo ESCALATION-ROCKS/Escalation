@@ -794,8 +794,8 @@
 
 /datum/job/escalation/nvaddr/nvagrenat
 	title = "NVA Panzerabwehrschutze"
-	name = "Panzerabwehrschutze (AT)"
-	english_name = "Squad Grenadier"
+	name = "Panzerabwehrschutze"
+	english_name = "Squad AT Trooper"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -814,12 +814,12 @@
 
 /datum/job/escalation/nvaddr/nvagrengl
 	title = "NVA Panzerabwehrschutze"
-	name = "Panzerabwehrschutze (GL)"
+	name = "Grenadierschutze"
 	english_name = "Squad Grenadier"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rocket //add ugl loadout
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/grenadier
 	selection_color = "#FA8072"
 	rank_number = 1
 	position = "fireteam"

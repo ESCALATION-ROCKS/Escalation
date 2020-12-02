@@ -1,8 +1,3 @@
-
-/datum/gear/cane
-	display_name = "cane"
-	path = /obj/item/weapon/cane
-
 /datum/gear/dice
 	display_name = "dice pack"
 	path = /obj/item/weapon/storage/pill_bottle/dice
@@ -19,12 +14,20 @@
 	display_name = "thermos"
 	path = /obj/item/weapon/reagent_containers/food/drinks/flask/vacuumflask
 
+/datum/gear/comb
+	display_name = "purple comb"
+	path = /obj/item/weapon/haircomb
+
+/*
+/datum/gear/cane
+	display_name = "cane"
+	path = /obj/item/weapon/cane
+
 /datum/gear/mug
 	display_name = "mug"
 	path = /obj/item/weapon/reagent_containers/food/drinks/coffeecup
 	flags = GEAR_HAS_TYPE_SELECTION
 
-/*
 /datum/gear/tarot
 	display_name = "deck of tarot cards"
 	path = /obj/item/weapon/deck/tarot

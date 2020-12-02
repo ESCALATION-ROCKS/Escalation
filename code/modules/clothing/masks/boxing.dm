@@ -14,6 +14,7 @@
 		SPECIES_TAJARA = 'icons/mob/species/tajaran/mask.dmi',
 		SPECIES_UNATHI = 'icons/mob/species/unathi/mask.dmi',
 		)
+	var/show_above_suit = 0
 
 /obj/item/clothing/mask/balaclava/tactical
 	name = "green balaclava"
@@ -33,32 +34,22 @@
 	icon_state = "scarf_tan"
 	item_state = "scarf_tan"
 	flags_inv = null
-	body_parts_covered = FACE
-	down_body_parts_covered = null
-	down_icon_state = "scarf_tan_down"
-	pull_mask = 1
+	body_parts_covered = null
+	pull_mask = 0
+	var/show_above_suit = 0
 	w_class = ITEM_SIZE_SMALL
 
-/obj/item/clothing/mask/tacticalmask/gray
-	name = "gray bandana"
-	desc = "A gray piece of cloth you can cover your face with or hang around your neck."
+/obj/item/clothing/mask/tacticalmask/blue
+	name = "blue bandana"
+	desc = "A blue piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_gray"
 	item_state = "scarf_gray"
-	down_icon_state = "scarf_gray_down"
 
 /obj/item/clothing/mask/tacticalmask/green
 	name = "green bandana"
 	desc = "A green piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_green"
 	item_state = "scarf_green"
-	down_icon_state = "scarf_green_down"
-
-/obj/item/clothing/mask/tacticalmask/red
-	name = "red bandana"
-	desc = "A red piece of cloth you can cover your face with or hang around your neck."
-	icon_state = "scarf_red"
-	item_state = "scarf_red"
-	down_icon_state = "scarf_red_down"
 
 /obj/item/clothing/mask/luchador
 	name = "Luchador Mask"

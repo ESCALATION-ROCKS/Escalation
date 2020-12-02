@@ -1,12 +1,18 @@
-/*
-
-/datum/gear/gloves
-	cost = 2
+/*/datum/gear/gloves
+	cost = 0
 	slot = slot_gloves
 	sort_category = "Gloves and Handwear"
 	category = /datum/gear/gloves
 
+/datum/gear/gloves/leather
+	display_name = "leather gloves"
+	path = /obj/item/clothing/gloves/bdw
 
+/datum/gear/gloves/mittens
+	display_name = "mittens"
+	path = /obj/item/clothing/gloves/mittens
+
+/*
 /datum/gear/gloves/colored
 	display_name = "gloves, colored"
 	flags = GEAR_HAS_COLOR_SELECTION

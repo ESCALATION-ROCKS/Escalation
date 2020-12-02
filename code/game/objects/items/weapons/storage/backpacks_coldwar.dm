@@ -14,20 +14,22 @@
 	icon_state = "bundes_med"
 	item_state = "bundes_med"
 	reachable = 1
-	max_storage_space = 40
+	max_storage_space = 24
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/storage/firstaid/gauze,
 			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -78,21 +80,23 @@
 	icon_state = "usmc_med"
 	item_state = "usmc_med"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	max_storage_space = 40
+	max_storage_space = 24
 	reachable = 1
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/storage/firstaid/gauze,
 			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -112,20 +116,22 @@
 	item_state = "m3pack"
 	slot_flags = SLOT_BACK
 	reachable = 1
-	max_storage_space = 40
+	max_storage_space = 24
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/storage/firstaid/gauze,
 			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -157,20 +163,22 @@
 	icon_state = "summedsan"
 	item_state = "summedsan"
 	reachable = 1
-	max_storage_space = 40
+	max_storage_space = 24
 	open_delay = 5
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/storage/firstaid/gauze,
 			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -248,20 +256,22 @@
 	icon_state = "summedsan"
 	item_state = "summedsan"
 	reachable = 1
-	max_storage_space = 40
+	max_storage_space = 24
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/storage/firstaid/gauze,
 			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -333,20 +343,22 @@
 	icon_state = "bundes_med"
 	item_state = "bundes_med"
 	reachable = 1
-	max_storage_space = 40
+	max_storage_space = 24
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/reagent_containers/glass/bottle/morphine = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap = 2,
-			/obj/item/weapon/storage/firstaid/gauze = 2,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/storage/firstaid/gauze,
 			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
+			/obj/item/weapon/storage/firstaid/gauze,
+			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -363,13 +375,19 @@
 
 /obj/item/weapon/storage/backpack/rpgsa
 	name = "RPG rocket backpack"
-	desc = "Soviet Army backpack for RPG rockets. Can hold two rockets."
+	desc = "Soviet Army backpack for RPG rockets. Can hold four rockets."
 	icon_state = "sa_rpg2"
 	item_state = "sa_rpg"
 	reachable = 1
-	storage_slots = 2
+	storage_slots = 4
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile
+			)
 
 /obj/item/weapon/storage/backpack/rpgsa/assistant
 	name = "RPG Assistant rocket backpack"
