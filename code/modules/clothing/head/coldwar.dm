@@ -71,6 +71,7 @@
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh68-unzipped"
 
+
 /obj/item/clothing/head/helmet/coldwar/soviet/ssh60
 	name = "SSh-60 helmet"
 	desc = "A cheap and somewhat outdated steel helmet used by Soviet Army."
@@ -78,6 +79,23 @@
 	armor = list(melee = 58, bullet = 20, laser = 10, energy = 10, bomb = 50, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh60-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/soviet/altyn
+	name = "altyn helmet"
+	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units."
+	icon_state = "altyn"
+	armor = list(melee = 62, bullet = 22, laser = 10, energy = 10, bomb = 55, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "altyn-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/soviet/altyn/attack_self(mob/user as mob)
+	..()
+	if(icon_state == initial(icon_state))
+		icon_state = icon_state_unzipped
+		to_chat(user, "You raise the helmet's visor.")
+	else
+		icon_state = initial(icon_state)
+		to_chat(user, "You pull the visor back down.")
 
 //Volksarmee helmets
 
