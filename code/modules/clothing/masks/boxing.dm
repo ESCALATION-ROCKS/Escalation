@@ -36,7 +36,7 @@
 	flags_inv = null
 	body_parts_covered = null
 	pull_mask = 0
-	show_above_suit = 0
+	var/show_above_suit = 0
 	w_class = ITEM_SIZE_SMALL
 
 /obj/item/clothing/mask/tacticalmask/blue
