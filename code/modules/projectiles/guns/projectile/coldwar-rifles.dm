@@ -109,7 +109,7 @@
 	else
 		icon_state = "ak74black-empty"
 
-/obj/item/weapon/gun/projectile/automatic/rifle/ak74
+/obj/item/weapon/gun/projectile/automatic/rifle/aek971
 	name = "AEK-971"
 	desc = "An experimental prototype assault rifle. This isn't a common sight. Chambers 5.45x39 rounds."
 	icon_state = "aek971"
@@ -140,7 +140,7 @@
 		list(mode_name="automatic",    burst=1, fire_delay=0.5,  move_delay=2, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.15, 0.25, 0.45),                     automatic = 0.5),
 		)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/ak74/update_icon()
+/obj/item/weapon/gun/projectile/automatic/rifle/aek971/update_icon()
 	..()
 
 	if(ammo_magazine)
