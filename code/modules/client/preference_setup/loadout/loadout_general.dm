@@ -14,6 +14,10 @@
 	display_name = "thermos"
 	path = /obj/item/weapon/reagent_containers/food/drinks/flask/vacuumflask
 
+/datum/gear/comb
+	display_name = "purple comb"
+	path = /obj/item/weapon/haircomb
+
 /*
 /datum/gear/cane
 	display_name = "cane"
