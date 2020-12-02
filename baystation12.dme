@@ -1312,6 +1312,7 @@
 #include "code\modules\client\preference_setup\loadout\_defines.dm"
 #include "code\modules\client\preference_setup\loadout\gear_tweaks.dm"
 #include "code\modules\client\preference_setup\loadout\loadout.dm"
+#include "code\modules\client\preference_setup\loadout\loadout_clothing.dm"
 #include "code\modules\client\preference_setup\loadout\loadout_cosmetics.dm"
 #include "code\modules\client\preference_setup\loadout\loadout_eyegear.dm"
 #include "code\modules\client\preference_setup\loadout\loadout_general.dm"

@@ -1,3 +1,4 @@
+/*
 /datum/gear/gloves
 	cost = 0
 	slot = slot_gloves

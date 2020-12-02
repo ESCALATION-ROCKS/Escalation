@@ -1,4 +1,4 @@
-// Mask
+/*
 /datum/gear/mask
 	slot = slot_mask
 	sort_category = "Masks"

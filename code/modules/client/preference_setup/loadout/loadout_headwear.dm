@@ -1,3 +1,4 @@
+/*
 /datum/gear/hats
 	slot = slot_head
 	sort_category = "Headwear"
@@ -11,7 +12,7 @@
 	display_name = "headband, red"
 	path = 	/obj/item/clothing/head/headband/red
 
-/*/datum/gear/hats/bdw
+/datum/gear/hats/bdw
 	display_name = "Bunderswehr mountaineer beret"
 	path = /obj/item/clothing/head/beret/bundeswehr
 */

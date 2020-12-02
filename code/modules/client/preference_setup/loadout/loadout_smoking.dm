@@ -1,25 +1,25 @@
 /datum/gear/smoking
 	cost = 0
 	sort_category = "Smoking"
-	category = /datum/gear/gloves
+	category = /datum/gear/smoking
 
-/datum/gear/matchbook
+/datum/gear/smoking/matchbook
 	display_name = "matchbook"
 	path = /obj/item/weapon/storage/box/matches
 
-/datum/gear/lighter
+/datum/gear/smoking/lighter
 	display_name = "cheap lighter"
 	path = /obj/item/weapon/flame/lighter
 
-/datum/gear/zippo
+/datum/gear/smoking/zippo
 	display_name = "zippo"
 	path = /obj/item/weapon/flame/lighter/zippo
 
-/datum/gear/cigarretes
+/datum/gear/smoking/cigarretes
 	display_name = "Cigarrete Boxes"
 	path = /obj/item/weapon/storage/fancy/cigarettes/luckystrikered
 
-/datum/gear/cigarretes/New()
+/datum/gear/smoking/cigarretes/New()
 	..()
 	var/cigarretes = list()
 	cigarretes["Lucky Strike Red"] = /obj/item/weapon/storage/fancy/cigarettes/luckystrikered
