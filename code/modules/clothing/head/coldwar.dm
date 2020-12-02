@@ -106,7 +106,15 @@
 	desc = "A cheap steel helmet used by NVA DDR. Foliage cover."
 	icon_state_unzipped = "m56f-unzipped"
 
+/obj/item/clothing/head/helmet/coldwar/nvaddr/m56/snow
+	icon_state = "m56_snow"
+	desc = "A cheap steel helmet used by NVA DDR. Winter cover."
+	icon_state_unzipped = "m56_snow-unzipped"
 
+/obj/item/clothing/head/helmet/coldwar/nvaddr/m56/snowc
+	icon_state = "m56c_snow"
+	desc = "A cheap steel helmet used by NVA DDR. Winter cover and netting."
+	icon_state_unzipped = "m56c_snow-unzipped"
 
 //Volksarmee hats
 
@@ -194,6 +202,25 @@
 /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
 	icon_state = "pasgtwinter"
 	icon_state_unzipped = "pasgtwinter-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/usmc/m1
+	name = "M1 helmet"
+	desc = "A classic helmet used by the U.S. Army."
+	icon_state = "m1helmet"
+	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "m1helmet-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland
+	icon_state = "m1woodland"
+	desc = "A classic helmet used by the U.S. Army. Woodland cover."
+	icon_state_unzipped = "m1woodland-unzipped"
+
+/*/obj/item/clothing/head/helmet/coldwar/usmc/m1/winter
+	icon_state = "m1snow"
+	desc = "A classic helmet used by the U.S. Army. Snow cover."
+	icon_state_unzipped = "m1snow-unzipped"
+*/
 
 //HEV Helmets
 
