@@ -23,6 +23,10 @@
 	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 4, slot_size = 2)
 
+/obj/item/clothing/suit/storage/vest/soviet/a6b3/green
+	icon_state = "6b3green"
+	item_state = "6b3green"
+
 /obj/item/clothing/suit/armor/vest/soviet/
 	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA, ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA, ACCESSORY_SLOT_ARMOR_S)
@@ -38,9 +42,13 @@
 	name = "6B2 armored vest"
 	desc = "A medium armor vest used by Soviet army."
 	icon_state = "6b2"
-	item_state = "armor"
+	item_state = "6b2"
 	armor = list(melee = 30, bullet = 28, laser = 40, energy = 10, bomb = 20, bio = 0, rad = 0)
 	slowdown_general = 0.20
+
+/obj/item/clothing/suit/storage/vest/soviet/a6b2/green
+	icon_state = "6b2green"
+	item_state = "6b2green"
 
 
 //USMC
