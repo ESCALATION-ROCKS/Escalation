@@ -159,7 +159,7 @@
 /obj/item/clothing/under/soviet/habe/cpt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/cpt)
 
-/obj/item/clothing/under/soviet/habe/
+/obj/item/clothing/under/soviet/airhabe/
 	name = "TTsKO fatigues"
 	desc = "A three-color pattern uniform, issues to Soviet Airborne units."
 	icon_state = "airhabe"

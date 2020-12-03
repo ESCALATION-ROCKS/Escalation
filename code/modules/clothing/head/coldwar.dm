@@ -91,10 +91,10 @@
 /obj/item/clothing/head/helmet/coldwar/soviet/altyn/attack_self(mob/user as mob)
 	..()
 	if(icon_state == initial(icon_state))
-		icon_state = icon_state_unzipped
+		icon_state = "altyn-unzipped"
 		to_chat(user, "You raise the helmet's visor.")
 	else
-		icon_state = initial(icon_state)
+		icon_state = "altyn"
 		to_chat(user, "You pull the visor back down.")
 
 //Volksarmee helmets
