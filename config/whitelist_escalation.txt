@@ -523,3 +523,7 @@ finn_enlisted
 frown = {
 ::ALL::
 }
+
+Turret_Drehturm = {
+::ALL::
+}

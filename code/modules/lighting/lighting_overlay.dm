@@ -94,8 +94,8 @@
 	var/set_luminosity = max > 1e-6
 	#endif
 
-	if((rr & gr & br & ar) && (rg + gg + bg + ag + rb + gb + bb + ab == 8))
-	//anything that passes the first case is very likely to pass the second, and addition is a little faster in this case
+	// If all channels are full lum, there's no point showing the overlay.
+	if(rr + rg + rb + gr + gg + gb + br + bg + bb + ar + ag + ab >= 12)
 		icon_state = "transparent"
 		color = null
 	else if(!set_luminosity)
@@ -112,6 +112,8 @@
 		)
 
 	luminosity = set_luminosity
+	// if (T.above && T.above.shadower)
+	// 	T.above.shadower.copy_lighting(src)
 
 // Variety of overrides so the overlays don't get affected by weird things.
 /atom/movable/lighting_overlay/ex_act()
@@ -122,8 +124,7 @@
 
 /atom/movable/lighting_overlay/Destroy()
 	total_lighting_overlays--
-	global.lighting_update_overlays     -= src
-	global.lighting_update_overlays_old -= src
+	SSlighting.overlay_queue -= src
 
 	var/turf/T = loc
 	if(istype(T))
@@ -132,6 +133,8 @@
 	. = ..()
 
 /atom/movable/lighting_overlay/forceMove()
+	if(QDELING(src))
+		return ..()
 	return 0 //should never move
 
 /atom/movable/lighting_overlay/Move()

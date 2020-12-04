@@ -84,7 +84,7 @@
 #define effect_update(BYOND)            \
 	if(!needs_update)                  \
 	{                                   \
-		lighting_update_lights += src;  \
+		SSlighting.light_queue += src;  \
 		needs_update            = TRUE; \
 	}
 
@@ -243,7 +243,7 @@
 			//Do subprocessing for open turfs
 			for(T = O.below; !isnull(T); T = process_the_turf(T,update_gen));
 
-
+	END_FOR_DVIEW
 
 	update_gen++
 

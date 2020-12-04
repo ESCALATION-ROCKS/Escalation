@@ -100,6 +100,7 @@ var/list/admin_verbs_admin = list(
 	/client/proc/fixatmos,
 	/client/proc/list_traders,
 	/client/proc/add_trader,
+	/client/proc/show_battle_report,
 	/client/proc/remove_trader,
 	/datum/admins/proc/sendFax
 )
@@ -601,7 +602,7 @@ var/list/admin_verbs_mentor = list(
 	log_and_message_admins("created an admin explosion at [epicenter.loc].")
 	feedback_add_details("admin_verb","DB") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
-/client/proc/give_disease2(mob/T as mob in GLOB.mob_list) // -- Giacom
+/client/proc/give_disease2(mob/T as mob in SSmobs.mob_list) // -- Giacom
 	set category = "Fun"
 	set name = "Give Disease"
 	set desc = "Gives a Disease to a mob."
@@ -938,7 +939,7 @@ var/list/admin_verbs_mentor = list(
 			to_chat(src, "<b>Enabled maint drones.</b>")
 			message_admins("Admin [key_name_admin(usr)] has enabled maint drones.", 1)
 
-/client/proc/man_up(mob/T as mob in GLOB.mob_list)
+/client/proc/man_up(mob/T as mob in SSmobs.mob_list)
 	set category = "Fun"
 	set name = "Man Up"
 	set desc = "Tells mob to man up and deal with it."
@@ -953,13 +954,13 @@ var/list/admin_verbs_mentor = list(
 	set name = "Man Up Global"
 	set desc = "Tells everyone to man up and deal with it."
 
-	for (var/mob/T as mob in GLOB.mob_list)
+	for (var/mob/T as mob in SSmobs.mob_list)
 		to_chat(T, "<br><center><span class='notice'><b><font size=4>Man up.<br> Deal with it.</font></b><br>Move on.</span></center><br>")
 		sound_to(T, 'sound/voice/ManUp1.ogg')
 
 	log_and_message_admins("told everyone to man up and deal with it.")
 
-/client/proc/give_spell(mob/T as mob in GLOB.mob_list) // -- Urist
+/client/proc/give_spell(mob/T as mob in SSmobs.mob_list) // -- Urist
 	set category = "Fun"
 	set name = "Give Spell"
 	set desc = "Gives a spell to a mob."
@@ -989,7 +990,7 @@ var/list/admin_verbs_mentor = list(
 			continue
 		var/datum/job/job = job_master.GetJob(H.mind.assigned_role)
 		if(!job)
-			usr << "\red [H] have no job!"
+			to_chat(usr, "<span class='red'>[H] has no job!</span>")
 			continue
 		switch(job.department_flag)
 			if(SOVFORCE)
@@ -1015,14 +1016,14 @@ var/list/admin_verbs_mentor = list(
 				heavily_injured_usmc++
 
 
-	usr << "NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in US Army. [alive_bdw] alive and [heavily_injured_bdw] heavily injured in Bundeswehr."
-	usr << "Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in Soviet Army. [alive_nvaddr] alive and [heavily_injured_nvaddr] heavily injured in NVA DDR."
+	to_chat(usr, "<b>NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in US Army. [alive_bdw] alive and [heavily_injured_bdw] heavily injured in Bundeswehr.</b>")
+	to_chat(usr, "<b>Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in Soviet Army. [alive_nvaddr] alive and [heavily_injured_nvaddr] heavily injured in NVA DDR.</b>")
 
-	var/public = alert(usr, "Show it to public?",,"Yes", "No")
+	var/public = alert(usr, "Show it to the public?",,"Yes", "No")
 
 	if(public == "Yes")
-		world << "NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in US Army. [alive_bdw] alive and [heavily_injured_bdw] heavily injured in Bundeswehr."
-		world << "Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in Soviet Army. [alive_nvaddr] alive and [heavily_injured_nvaddr] heavily injured in NVA DDR."
+		to_world("<b>NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in US Army. [alive_bdw] alive and [heavily_injured_bdw] heavily injured in Bundeswehr.</b>")
+		to_world("<b>Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in Soviet Army. [alive_nvaddr] alive and [heavily_injured_nvaddr] heavily injured in NVA DDR.</b>")
 
 
 /client/proc/show_general_stat()
@@ -1030,7 +1031,7 @@ var/list/admin_verbs_mentor = list(
 	set category = "EscAdmin"
 	if(!holder)
 		return
-	world << show_statistic()
+	to_world(show_statistic())
 	feedback_add_details("admin_verb", "AKL")
 
 /client/proc/show_separated_stat()
@@ -1038,7 +1039,7 @@ var/list/admin_verbs_mentor = list(
 	set category = "EscAdmin"
 	if(!holder)
 		return
-	world << show_statistic_by_faction()
+	to_world(show_statistic_by_faction())
 	feedback_add_details("admin_verb", "AKLL")
 
 /client/proc/add_to_esc_whitelist()
@@ -1078,49 +1079,12 @@ var/list/admin_verbs_mentor = list(
 	if(!daytime)
 		return
 
-	world << "Changing daytime and weather to [daytime]. This may take a while. Be patient."
+	to_world("Changing daytime and weather to [daytime]. This may take a while. Be patient.")
 	spawn(10)
 		for(var/turf/T)
 	//		if(T.z == 1)
 			T.update_starlight()
 //			world << "noice3"
-
-/*show_statistic()
-	//fraction live kill in action mortality rate
-	if(!ticker.mode.wargames)
-		return
-	var/dat = ""
-	if(!all_factions.len)
-		dat = "No factions in game!"
-		return dat
-	for(var/datum/army_faction/F in all_factions)
-		var/live = 0
-		var/dead = 0
-		var/mortality_rate = 0
-		for(var/mob/living/carbon/human/H in F.players)
-			if(H.stat == DEAD)
-				dead++
-			else
-				live++
-		mortality_rate = round(100 * (dead / live))
-		dat += "[F.name] : [live] alive, [dead] KIA. Mortality rate : [mortality_rate]% <br>"
-	return dat
-
-proc/show_armies()
-		//fraction live kill in action mortality rate
-	if(!ticker.mode.wargames)
-		return
-	var/dat = ""
-	if(!all_factions.len)
-		dat = "No factions in game!Show_armyes() fucked up!"
-		return dat
-	for(var/datum/army_faction/F in all_factions)
-		to_world("Army : [F.faction_tag]")
-
-
-//bund, usmc, csla, cccp
-//��� ���� �������� ��� ���� �� ���� �������� ~�������
-proc/show_statistic_by_fraction()*/
 
 var/global/list/global_colour_matrix = null
 /client/proc/change_colour_filter()

@@ -42,38 +42,44 @@
 // Subsystem init_order, from highest priority to lowest priority
 // Subsystems shutdown in the reverse of the order they initialize in
 // The numbers just define the ordering, they are meaningless otherwise.
-#define INIT_ORDER_TONEMAP 19
-#define SS_PRIORITY_AO       40
-#define INIT_ORDER_DBCORE 18
-#define SS_PRIORITY_CHAT           95  // Chat.
-#define INIT_ORDER_BLACKBOX 17
-#define INIT_ORDER_SERVER_MAINT 16
-#define INIT_ORDER_JOBS 15
-#define SS_PRIORITY_ZCOPY          10  // Builds appearances for Z-Mimic.
-#define INIT_ORDER_EVENTS 14
-#define SS_INIT_CHAT     -90 // Should be lower to ensure chat remains smooth during init.
-#define INIT_ORDER_TICKER 13
-#define INIT_ORDER_MAPPING 12
-#define INIT_ORDER_ATOMS 11
-#define INIT_ORDER_LANGUAGE 10
-#define INIT_ORDER_MACHINES 9
-#define INIT_ORDER_SHUTTLE 3
-#define INIT_ORDER_TIMER 1
-#define INIT_ORDER_DEFAULT 0
-#define INIT_ORDER_AIR -1
-#define INIT_ORDER_MINIMAP -2
-#define INIT_ORDER_ASSETS -3
-#define INIT_ORDER_ICON_SMOOTHING -5
-#define INIT_ORDER_OVERLAY -6
-#define INIT_ORDER_XKEYSCORE -10
-#define INIT_ORDER_STICKY_BAN -10
-#define INIT_ORDER_LIGHTING -20
-#define INIT_ORDER_SQUEAK -40
-#define INIT_ORDER_PERSISTENCE -100
-#define INIT_OPEN_SPACE -150
-#define INIT_BAY_LEGACY -200
-#define INIT_ORDER_PLANETS	-250
-#define INIT_ORDER_ARTILLERY	-300
+#define INIT_ORDER_TONEMAP  		31
+#define SS_PRIORITY_AO      		30
+#define INIT_ORDER_DBCORE   		29
+#define SS_PRIORITY_CHAT    		100  // Chat.
+#define INIT_ORDER_BLACKBOX 		27
+#define INIT_ORDER_SERVER_MAINT 	26
+#define SS_PRIORITY_OBJECTS			25
+#define INIT_ORDER_JOBS 			25
+#define SS_PRIORITY_ZCOPY           24  // Builds appearances for Z-Mimic.
+#define INIT_ORDER_EVENTS 			23
+#define SS_INIT_CHAT     			1 // Should be lower to ensure chat remains smooth during init.
+#define INIT_ORDER_TICKER 			21
+#define INIT_ORDER_MAPPING 			20
+#define SS_PRIORITY_MACHINERY		-4
+#define INIT_ORDER_ATOMS 			19
+#define INIT_ORDER_LANGUAGE 		18
+#define INIT_ORDER_MACHINES 		9
+#define INIT_ORDER_SHUTTLE 			3
+#define INIT_ORDER_TIMER 			1
+#define INIT_ORDER_DEFAULT 			0
+#define INIT_ORDER_AIR 				-1
+#define INIT_ORDER_MINIMAP 			-2
+#define INIT_ORDER_ASSETS 			-3
+#define SS_PRIORITY_MOB 			-4
+#define INIT_ORDER_ICON_SMOOTHING   -5
+#define INIT_ORDER_OVERLAY 			-6
+#define SS_INIT_LIGHTING        	-6
+#define SS_PRIORITY_PROCESSING		-7
+#define INIT_ORDER_XKEYSCORE 		-10
+#define INIT_ORDER_STICKY_BAN 		-10
+#define INIT_ORDER_LIGHTING 		-20
+#define INIT_ORDER_SQUEAK 			-40
+#define INIT_ORDER_PERSISTENCE 		-100
+#define INIT_OPEN_SPACE 			-150
+#define INIT_BAY_LEGACY 			-200
+#define INIT_ORDER_PLANETS			-250
+#define SS_PRIORITY_NANO             20    // Updates to nanoui uis.
+#define INIT_ORDER_ARTILLERY		-300
 
 
 // SS runlevels

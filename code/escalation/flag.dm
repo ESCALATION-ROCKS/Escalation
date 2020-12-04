@@ -14,8 +14,9 @@
 		return geodata["countryCode"]
 
 var/list/countries = icon_states('icons/flags.dmi') //эту хуйню надо в вывод OOC поставить как иконку
+
 /proc/country2chaticon(country_code)
 	if(countries.Find(country_code))
-		return "<img class=icon src=\ref['icons/flags.dmi'] iconstate='[country_code]'>"
+		return "[icon2html('icons/flags.dmi', world, country_code)]"
 	else
-		return "<img class=icon src=\ref['icons/flags.dmi'] iconstate='unknown'>"
+		return "[icon2html('icons/flags.dmi', world, "unknown")]"

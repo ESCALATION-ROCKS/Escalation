@@ -65,7 +65,7 @@ proc/show_armies()
 
 	var/dat = ""
 	if(!all_factions.len)
-		dat = "No factions in game!Show_armyes() fucked up!"
+		dat = "No factions in game!Show_armies() fucked up!"
 		return dat
 	for(var/datum/army_faction/F in ticker.mode.teams)
 		to_world("Army : [F.faction_tag]")

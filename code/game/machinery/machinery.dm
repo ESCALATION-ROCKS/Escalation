@@ -116,15 +116,16 @@ Class Procs:
 	var/clicksound			// sound played on succesful interface use by a carbon lifeform
 	var/clickvol = 40		// sound played on succesful interface use
 
-/obj/machinery/New(l, d=0)
-	..(l)
+	var/list/processing_parts // Component parts queued for processing by the machine. Expected type: /obj/item/weapon/stock_parts
+	var/processing_flags         // What is being processed
+
+/obj/machinery/Initialize(mapload, d=0)
+	.= ..()
 	if(d)
 		set_dir(d)
-	if(!machinery_sort_required && ticker)
-		dd_insertObjectList(GLOB.machines, src)
-	else
-		GLOB.machines += src
-		machinery_sort_required = 1
+	START_PROCESSING_MACHINE(src, MACHINERY_PROCESS_SELF) // It's safe to remove machines from here, but only if base machinery/Process returned PROCESS_KILL.
+	SSmachines.machinery += src // All machines should remain in this list, always.
+	power_change()
 
 /obj/machinery/Destroy()
 	GLOB.machines -= src
@@ -139,11 +140,8 @@ Class Procs:
 			qdel(A)
 	return ..()
 
-/obj/machinery/process()//If you dont use process or power why are you here
-	if(!(use_power || idle_power_usage || active_power_usage))
-		return PROCESS_KILL
-
-	return
+/obj/machinery/Process()
+	return PROCESS_KILL // Only process if you need to.
 
 /obj/machinery/emp_act(severity)
 	if(use_power && stat == 0)

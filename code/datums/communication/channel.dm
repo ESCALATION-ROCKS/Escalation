@@ -87,6 +87,7 @@
 
 /proc/sanitize_and_communicate(var/channel_type, var/communicator, var/message)
 	message = sanitize(message)
+	message = emoji_parse(message)
 	return communicate(arglist(args))
 
 /proc/communicate(var/channel_type, var/communicator, var/message)

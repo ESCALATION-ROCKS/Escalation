@@ -1,5 +1,10 @@
 var/global/defer_powernet_rebuild = 0      // True if net rebuild will be called manually after an event.
 
+// Machinery process flags, for use with START_PROCESSING_MACHINE
+#define MACHINERY_PROCESS_SELF       1
+#define MACHINERY_PROCESS_COMPONENTS 2
+#define MACHINERY_PROCESS_ALL        (MACHINERY_PROCESS_SELF | MACHINERY_PROCESS_COMPONENTS)
+
 #define KILOWATTS *1000
 #define MEGAWATTS *1000000
 #define GIGAWATTS *1000000000
