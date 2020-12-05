@@ -13,7 +13,7 @@
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
 
 /datum/army_faction/nato/usmc
-	name = "United States Marine Corps"
+	name = "US Army Rangers"
 	enabled = 1
 	faction_tag = "usmc"
 	flag_state = "us"

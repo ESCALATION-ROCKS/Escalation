@@ -14,7 +14,7 @@
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
 
 /datum/army_faction/warpac/soviet
-	name = "Sovetskaya Armiya"
+	name = "Spetsnaz GRU"
 	enabled = 1
 	faction_tag = "cccp"
 	flag_state = "soviet"

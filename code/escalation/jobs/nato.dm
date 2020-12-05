@@ -91,8 +91,8 @@
 		H.add_skills(rand(1, 2), rand(1,2), 0, 0, rand(0,1), rand(0,1), rand(0,1), -1, 0, rand(0,1))
 
 /datum/job/escalation/usmc/usmccorpsman
-	title = "USMC Corpsman"
-	name = "Squad Corpsman"
+	title = "USMC Field Medic"
+	name = "Squad Medic"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
