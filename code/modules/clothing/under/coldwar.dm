@@ -159,40 +159,51 @@
 /obj/item/clothing/under/soviet/habe/cpt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/cpt)
 
-/obj/item/clothing/under/soviet/afghanka/gefr
+/obj/item/clothing/under/soviet/airhabe/
+	name = "TTsKO fatigues"
+	desc = "A three-color pattern uniform, issues to Soviet Airborne units."
+	icon_state = "airhabe"
+	worn_state = "airhabe"
+	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
+	siemens_coefficient = 0.7
+	slowdown_general = 0.5
+	has_sensor = 0
+
+/obj/item/clothing/under/soviet/airhabe/pvt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/pvt)
+
+/obj/item/clothing/under/soviet/airhabe/gefr
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/gefr)
 
-/obj/item/clothing/under/soviet/afghanka/jsgt
+/obj/item/clothing/under/soviet/airhabe/jsgt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/jsgt)
 
-/obj/item/clothing/under/soviet/afghanka/sgt
+/obj/item/clothing/under/soviet/airhabe/sgt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/sgt)
 
-/obj/item/clothing/under/soviet/afghanka/ssgt
+/obj/item/clothing/under/soviet/airhabe/ssgt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/ssgt)
 
-/obj/item/clothing/under/soviet/afghanka/star
+/obj/item/clothing/under/soviet/airhabe/star
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/star)
 
-/obj/item/clothing/under/soviet/afghanka/mllt
+/obj/item/clothing/under/soviet/airhabe/mllt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/mllt)
 
-/obj/item/clothing/under/soviet/afghanka/lt
+/obj/item/clothing/under/soviet/airhabe/lt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/lt)
 
-/obj/item/clothing/under/soviet/afghanka/stlt
+/obj/item/clothing/under/soviet/airhabe/stlt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/stlt)
 
-/obj/item/clothing/under/soviet/afghanka/prap
+/obj/item/clothing/under/soviet/airhabe/prap
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/prap)
 
-/obj/item/clothing/under/soviet/afghanka/stprap
+/obj/item/clothing/under/soviet/airhabe/stprap
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/stpr)
 
-/obj/item/clothing/under/soviet/afghanka/cpt
+/obj/item/clothing/under/soviet/airhabe/cpt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/cpt)
-
-
 
 //NVA DDR
 

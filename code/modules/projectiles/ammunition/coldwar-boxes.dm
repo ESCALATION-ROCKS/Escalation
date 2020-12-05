@@ -445,6 +445,17 @@
 	max_ammo = 30
 	multiple_sprites = 1
 
+/obj/item/ammo_magazine/c545x39m/black
+	name = "magazine (5.45x39mm)"
+	desc = "An AK-platform magazine that fits thirty armor-piercing 5.45x39mm rounds. Made of bakelite."
+	icon_state = "5.45x39mmb"
+	item_state = "generic_mag"
+	ammo_type = /obj/item/ammo_casing/a545x39/
+
+/obj/item/ammo_magazine/c545x39m/black/empty
+	initial_ammo = 0
+
+
 /obj/item/ammo_magazine/c545x39m/ap
 	name = "AP magazine (5.45x39mm)"
 	desc = "An AK-platform magazine that fits thirty armor-piercing 5.45x39mm rounds. Made of bakelite."
