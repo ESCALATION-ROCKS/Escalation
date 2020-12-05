@@ -94,7 +94,7 @@
 #define WALL_CAN_OPEN 1
 #define WALL_OPENING 2
 
-#define GLASS_MATERIAL 1 
+#define GLASS_MATERIAL 1
 #define WOODEN_MATERIAL 2
 #define STEEL_MATERIAL 3
 #define MARBLE_MATERIAL 4
@@ -318,3 +318,6 @@ Define for getting a bitfield of adjacent turfs that meet a condition.
 #define MATRIX_Achromatomaly 	list(0.62,	0.32, 	0.06, 	0.16, 	0.78, 	0.06, 	0.16, 	0.32, 	0.52)
 #define MATRIX_Vulp_Colorblind 	list(0.50,	0.40,	0.10,	0.50,	0.40,	0.10,	0,		0.20,	0.80)
 #define MATRIX_Taj_Colorblind 	list(0.40,	0.20,	0.40,	0.40,	0.60,	0,		0.20,	0.20,	0.60)
+
+// Adds I to L, initalizing L if necessary, if I is not already in L
+#define LAZYDISTINCTADD(L, I) if(!L) { L = list(); } L |= I;

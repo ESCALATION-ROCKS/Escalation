@@ -48,7 +48,7 @@
 	data["engines_info"] = enginfo
 	data["total_thrust"] = total_thrust
 
-	ui = GLOB.nanomanager.try_update_ui(user, src, ui_key, ui, data, force_open)
+	ui = SSnano.try_update_ui(user, src, ui_key, ui, data, force_open)
 	if (!ui)
 		ui = new(user, src, ui_key, "engines_control.tmpl", "[linked.name] Engines Control", 380, 530)
 		ui.set_initial_data(data)
@@ -70,7 +70,7 @@
 
 	if(href_list["set_global_limit"])
 		var/newlim = input("Input new thrust limit (0..100%)", "Thrust limit", linked.thrust_limit*100) as num
-		if(!CanInteract(usr,state)) 
+		if(!CanInteract(usr,state))
 			return
 		linked.thrust_limit = Clamp(newlim/100, 0, 1)
 		for(var/datum/ship_engine/E in linked.engines)
@@ -85,7 +85,7 @@
 		if(href_list["set_limit"])
 			var/datum/ship_engine/E = locate(href_list["engine"])
 			var/newlim = input("Input new thrust limit (0..100)", "Thrust limit", E.get_thrust_limit()) as num
-			if(!CanInteract(usr,state)) 
+			if(!CanInteract(usr,state))
 				return
 			var/limit = Clamp(newlim/100, 0, 1)
 			if(istype(E))

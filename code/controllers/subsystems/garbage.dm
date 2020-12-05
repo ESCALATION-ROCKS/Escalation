@@ -33,8 +33,6 @@ SUBSYSTEM_DEF(garbage)
 	var/list/qdel_list = list()	// list of all types that have been qdel()eted
 #endif
 
-/datum/var/list/active_timers  //for SStimer
-
 /datum/controller/subsystem/garbage/stat_entry()
 	var/msg = list()
 	msg += "Q:[queue.len]|TD:[totaldels]|TG:[totalgcs]|TGR:"
@@ -244,7 +242,7 @@ SUBSYSTEM_DEF(garbage)
 // Return the appropriate QDEL_HINT; in most cases this is QDEL_HINT_QUEUE.
 /datum/proc/Destroy(force=FALSE)
 	tag = null
-	GLOB.nanomanager && GLOB.nanomanager.close_uis(src)
+	SSnano && SSnano.close_uis(src)
 	var/list/timers = active_timers
 	active_timers = null
 	for(var/thing in timers)
@@ -253,8 +251,6 @@ SUBSYSTEM_DEF(garbage)
 			continue
 		qdel(timer)
 	return QDEL_HINT_QUEUE
-
-/datum/var/gc_destroyed //Time when this object was destroyed.
 
 #ifdef TESTING
 /datum/var/running_find_references

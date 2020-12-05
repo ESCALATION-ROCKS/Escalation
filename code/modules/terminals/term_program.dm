@@ -12,8 +12,7 @@
 		return
 	owner = new_owner
 
-/datum/console_program/proc/Process()
-
+/datum/console_program/proc/process()
 	if(!users.len)
 		return
 

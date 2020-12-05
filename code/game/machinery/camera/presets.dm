@@ -85,12 +85,7 @@
 /obj/machinery/camera/proc/upgradeMotion()
 	assembly.upgrades.Add(new /obj/item/device/assembly/prox_sensor(assembly))
 	setPowerUsage()
-	if(!(src in GLOB.machines))
-		if(!machinery_sort_required && ticker)
-			dd_insertObjectList(GLOB.machines, src)
-		else
-			GLOB.machines += src
-			machinery_sort_required = 1
+	STOP_PROCESSING_MACHINE(src, MACHINERY_PROCESS_SELF)
 	update_coverage()
 
 /obj/machinery/camera/proc/setPowerUsage()
