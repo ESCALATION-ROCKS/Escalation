@@ -4,7 +4,7 @@
 	full_name = "The Example"
 	path = "example"
 
-	lobby_icon = 'maps/finn_river/escnew_lobby.dmi'
+	lobby_icon = 'maps/finn_border_new/escnew_lobby.dmi'
 	lobby_screens = list("valour")
 
 	station_levels = list(1, 2, 3)
