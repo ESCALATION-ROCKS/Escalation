@@ -42,7 +42,7 @@ var opts = {
 	'highlightTerms': [],
 	'highlightLimit': 5,
 	'highlightColor': '#FFFF00', //The color of the highlighted message
-	'pingDisabled': true, //Has the user disabled the ping counter
+	'pingDisabled': false, //Has the user disabled the ping counter
 
 	//Ping display
 	'lastPang': 0, //Timestamp of the last response from the server.
@@ -584,7 +584,6 @@ function handleClientData(ckey, ip, compid) {
 //Or, y'know, whenever really
 function ehjaxCallback(data) {
 	opts.lastPang = Date.now();
-	opts.pingDisabled = true;
 	if (data == 'softPang') {
 		return;
 	} else if (data == 'pang') {
@@ -594,7 +593,7 @@ function ehjaxCallback(data) {
 
 	} else if (data == 'pong') {
 		if (opts.pingDisabled) {return;}
-		/*opts.pongTime = Date.now();
+		opts.pongTime = Date.now();
 		var pingDuration = Math.ceil((opts.pongTime - opts.pingTime) / 2);
 		$('#pingMs').text(pingDuration+'ms');
 		pingDuration = Math.min(pingDuration, 255);
@@ -603,7 +602,6 @@ function ehjaxCallback(data) {
 		var blue = 0;
 		var hex = rgbToHex(red, green, blue);
 		$('#pingDot').css('color', '#'+hex);
-		*/
 
 	} else if (data == 'roundrestart') {
 		opts.restarting = true;
@@ -1182,5 +1180,4 @@ $(function() {
 	}
 	$('#userBar').show();
 	opts.priorChatHeight = $(window).height();
-	opts.pingDisabled = true;
 });
