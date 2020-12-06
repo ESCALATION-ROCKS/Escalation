@@ -66,6 +66,7 @@
 #define INIT_ORDER_MINIMAP 			-2
 #define INIT_ORDER_ASSETS 			-3
 #define SS_PRIORITY_MOB 			-4
+#define SS_PRIORITY_TURF 			5
 #define INIT_ORDER_ICON_SMOOTHING   -5
 #define INIT_ORDER_OVERLAY 			-6
 #define SS_INIT_LIGHTING        	-6

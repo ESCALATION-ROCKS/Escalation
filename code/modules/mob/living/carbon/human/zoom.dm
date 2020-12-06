@@ -8,15 +8,17 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 	var/zoom = 0
 
 //Looking through a scope or binoculars should /not/ improve your periphereal vision. Still, increase viewsize a tiny bit so that sniping isn't as restricted to NSEW
-/mob/verb/zoom() //tileoffset is client view offset in the direction the user is facing. viewsize is how far out this thing zooms. 7 is normal view
+/mob/verb/zoom(mob/user) //tileoffset is client view offset in the direction the user is facing. viewsize is how far out this thing zooms. 7 is normal view
 	set category = "Object"
 	set name = "Look into distance"
+	var/viewsize = 9
 
-	if(!src.client)
+	if(!user.client)
 		return
+
 	var/cannotzoom
 
-	if(src.incapacitated(INCAPACITATION_DISABLED))
+	if(user.incapacitated(INCAPACITATION_DISABLED))
 		to_chat(src, "<span class='warning'>You are unable to focus your vision.</span>")
 		cannotzoom = 1
 //	else if(!zoom && src.equipment_tint_total >= TINT_MODERATE)
@@ -27,12 +29,14 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 //		cannotzoom = 1
 
 	if(!zoom && !cannotzoom)
-		src.toggle_zoom_hud()	// If the user has already limited their HUD this avoids them having a HUD when they zoom in
-		src.client.view = 10
+		if(user.hud_used.hud_shown)
+			user.toggle_zoom_hud()	// If the user has already limited their HUD this avoids them having a HUD when they zoom in
+		user.client.view = viewsize
 		zoom = 1
 
-		var/tilesize = 50
-		var/viewoffset = tilesize * 6
+		var/tileoffset = 9
+		var/tilesize = 20
+		var/viewoffset = tilesize * tileoffset
 
 		switch(src.dir)
 			if (NORTH)
@@ -50,11 +54,10 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 		src.visible_message("[src] looks off into the distance.")
 		src.set_face_dir()
 		src.m_intent = "walk"
-
-
 	else
 		src.client.view = world.view
-		src.toggle_zoom_hud()
+		if(!user.hud_used.hud_shown)
+			user.toggle_zoom_hud()
 		zoom = 0
 		src.client.pixel_x = 0
 		src.client.pixel_y = 0

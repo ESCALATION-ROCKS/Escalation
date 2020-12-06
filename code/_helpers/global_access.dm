@@ -841,8 +841,6 @@
 			return global.priv_syndicate_access;
 		if("processScheduler")
 			return global.processScheduler;
-		if("processing_turfs")
-			return global.processing_turfs;
 		if("prometheans")
 			return global.prometheans;
 		if("protected_objects")
@@ -2003,8 +2001,6 @@
 			global.priv_syndicate_access=newval;
 		if("processScheduler")
 			global.processScheduler=newval;
-		if("processing_turfs")
-			global.processing_turfs=newval;
 		if("prometheans")
 			global.prometheans=newval;
 		if("protected_objects")

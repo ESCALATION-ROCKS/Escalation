@@ -1,13 +1,13 @@
 ### HEALTH ###
 
 ## level of health at which a mob goes into continual shock (soft crit)
-HEALTH_THRESHOLD_SOFTCRIT -80
+HEALTH_THRESHOLD_SOFTCRIT -5
 
 ## level of health at which a mob becomes unconscious (crit)
-HEALTH_THRESHOLD_CRIT -120
+HEALTH_THRESHOLD_CRIT -65
 
 ## level of health at which a mob becomes dead
-HEALTH_THRESHOLD_DEAD -180
+HEALTH_THRESHOLD_DEAD -100
 
 ## Determines whether bones can be broken through excessive damage to the organ
 ## 0 means bones can't break, 1 means they can
