@@ -9,7 +9,7 @@
 	organ_tag = BP_CHEST
 	icon_name = "torso"
 	max_damage = 100
-	min_broken_damage = 45
+	min_broken_damage = 40
 	w_class = ITEM_SIZE_HUGE //Used for dismembering thresholds, in addition to storage. Humans are w_class 6, so it makes sense that chest is w_class 5.
 	body_part = UPPER_TORSO
 	vital = 1
@@ -69,9 +69,9 @@
 	arterial_bleed_severity = 1.5
 
 /obj/item/organ/external/arm/stun_act(var/stun_amount, var/agony_amount)
-	if(!owner || (agony_amount < 5))
+	if(!owner || (agony_amount < 10))
 		return
-	if(prob(35))
+	if(prob(25))
 		owner.grasp_damage_disarm(src)
 
 
@@ -102,9 +102,9 @@
 	arterial_bleed_severity = 1.5
 
 /obj/item/organ/external/leg/stun_act(var/stun_amount, var/agony_amount)
-	if(!owner || agony_amount < 5)
+	if(!owner || agony_amount < 10)
 		return
-	if(prob(35))
+	if(prob(agony_amount*2))
 		to_chat(owner, "<span class='warning'>Your [src] buckles from the shock!</span>")
 		owner.Weaken(5)
 
