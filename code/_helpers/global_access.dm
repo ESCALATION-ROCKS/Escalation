@@ -1145,8 +1145,6 @@
 			return global.whitelisted_species;
 		if("wireColours")
 			return global.wireColours;
-		if("wirelessProcess")
-			return global.wirelessProcess;
 		if("wizards")
 			return global.wizards;
 		if("world_topic_spam_protect_ip")
@@ -2305,8 +2303,6 @@
 			global.whitelisted_species=newval;
 		if("wireColours")
 			global.wireColours=newval;
-		if("wirelessProcess")
-			global.wirelessProcess=newval;
 		if("wizards")
 			global.wizards=newval;
 		if("world_topic_spam_protect_ip")
