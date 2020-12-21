@@ -331,7 +331,7 @@ proc/TextPreview(var/string,var/len=40)
 /proc/create_text_tag(var/tagname, var/tagdesc = tagname, var/client/C = null)
 	if(!(C && C.is_preference_enabled(/datum/client_preference/chat_tags)))
 		return tagdesc
-	return icon2html(icon('./icons/chattags.dmi', tagname), world, realsize=TRUE, class="text_tag")
+	return icon2html(icon('./icons/chattags.dmi', tagname), world, realsize=FALSE, class="text_tag")
 
 /proc/contains_az09(var/input)
 	for(var/i=1, i<=length(input), i++)
