@@ -70,14 +70,12 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	requires_power = 0
 	dynamic_lighting = 1
 
-
 /area/coldwar/helioutdoors
 	name = "helicopter exterior"
 	icon_state = "foboutside"
 	sound_env = FOREST
 	requires_power = 0
 	dynamic_lighting = 1
-
 
 /area/coldwar/forest
 	name = "forest"
@@ -101,6 +99,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	ambience = null
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house1
 	name = "house"
@@ -108,6 +107,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/sawmill
 	name = "sawmill"
@@ -115,6 +115,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house2
 	name = "house"
@@ -122,6 +123,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house3
 	name = "house"
@@ -129,6 +131,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house4
 	name = "house"
@@ -136,6 +139,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house5
 	name = "house"
@@ -143,6 +147,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house6
 	name = "house"
@@ -150,6 +155,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house7
 	name = "house"
@@ -157,6 +163,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house8
 	name = "house"
@@ -164,6 +171,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house9
 	name = "house"
@@ -171,6 +179,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house10
 	name = "house"
@@ -178,6 +187,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house11
 	name = "house"
@@ -185,6 +195,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house12
 	name = "house"
@@ -192,6 +203,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house13
 	name = "house"
@@ -199,6 +211,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house14
 	name = "house"
@@ -206,6 +219,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house15
 	name = "house"
@@ -213,6 +227,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house16
 	name = "house"
@@ -220,6 +235,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house17
 	name = "house"
@@ -227,6 +243,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house18
 	name = "house"
@@ -234,6 +251,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house19
 	name = "house"
@@ -241,6 +259,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house20
 	name = "house"
@@ -248,6 +267,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house21
 	name = "house"
@@ -255,6 +275,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house22
 	name = "house"
@@ -262,6 +283,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/house23
 	name = "house"
@@ -269,6 +291,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/abandonedhouse
 	name = "abandoned house"
@@ -276,6 +299,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/shop2
 	name = "shop"
@@ -283,6 +307,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/fobindoors
 	name = "USMC FOB"
@@ -290,6 +315,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/shop
 	name = "shop"
@@ -297,6 +323,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/gasoline
 	name = "gasoline"
@@ -304,6 +331,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/cafe
 	name = "cafe"
@@ -311,6 +339,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = LIVINGROOM
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/usmcfob
 	name = "USMC FOB"
@@ -318,6 +347,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = PLAIN
 	requires_power = 0
 	dynamic_lighting = 1
+	roofed = 1
 
 /area/coldwar/warpactfob
 	name = "WARPACT FOB"
@@ -325,4 +355,4 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	sound_env = PLAIN
 	requires_power = 0
 	dynamic_lighting = 1
-
+	roofed = 1

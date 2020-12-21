@@ -31,6 +31,11 @@
 		return
 	add_fingerprint(user)
 
+	var/area/A = get_area(src)
+	if(A.roofed)
+		to_chat(user, "<span class='warning'>You refrain from firing the [src] while indoors.</span>")
+		return
+
 	var/choice = alert(user, "Would you like to set the mortar's target coordinates?","Mortar Dialing", "Target","Dial" , "Cancel")
 	if (choice == "Cancel")
 		return
@@ -102,6 +107,11 @@
 
 
 obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
+
+	var/area/A = get_area(src)
+	if(A.roofed)
+		to_chat(user, "<span class='warning'>You refrain from firing the [src] while indoors.</span>")
+		return
 
 	if(istype(O, /obj/item/mortar_shell))
 		var/obj/item/mortar_shell/mortar_shell = O
