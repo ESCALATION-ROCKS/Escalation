@@ -196,8 +196,30 @@
 			C.buckled.unbuckle_mob()
 		C.update_inv_handcuffed()
 		return
-	else
-		..()
+
+	remove_shrapnel(C, user)
+
+		//..()
+
+/obj/item/proc/remove_shrapnel(mob/living/C as mob, mob/living/user as mob) //mattroks more like matt sucks cocks
+	if(ishuman(C))
+		var/mob/living/carbon/human/H = C
+		var/mob/living/carbon/human/userr = user
+		if(userr.a_intent == I_HELP)
+			var/obj/item/organ/external/organ = H.get_organ(userr.zone_sel.selecting)
+			for(var/obj/item/O in organ.implants)
+				if(istype(O,/obj/item/weapon/material/shrapnel))
+					H.visible_message("<span class='bnotice'>[userr] starts to remove \the [O.name] with \the [src].</span>")
+					if(do_after(userr, 40, src))
+						for(var/datum/wound/wound in organ.wounds)
+							wound.embedded_objects -= O
+						organ.implants -= O
+						O.forceMove(get_turf(H))
+						H.visible_message("<span class='bnotice'>[userr] successfully removes \the [O.name] with \the [src].</span>")
+						H.custom_pain("[pick("OW!", "OH GOD WHY!", "THAT HURTS A LOT!")]", 70, affecting = organ)
+						return
+					else
+						return
 
 /obj/item/weapon/wirecutters/power
 	name = "jaws of life"
