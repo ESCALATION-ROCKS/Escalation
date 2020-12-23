@@ -69,9 +69,9 @@
 	arterial_bleed_severity = 1.5
 
 /obj/item/organ/external/arm/stun_act(var/stun_amount, var/agony_amount)
-	if(!owner || (agony_amount < 10))
+	if(!owner || (agony_amount < 5))
 		return
-	if(prob(25))
+	if(prob(10))
 		owner.grasp_damage_disarm(src)
 
 
