@@ -13,7 +13,6 @@
 Otdelenie Anna:cccp
 /datum/job/escalation/cccp/sasl
 /datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
 /datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/samgas
 /datum/job/escalation/cccp/sagrengl
@@ -21,6 +20,39 @@ Otdelenie Anna:cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasrad
+@END@
+
+Otdelenie Boris:cccp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/samgas
+/datum/job/escalation/cccp/sagrengl
+/datum/job/escalation/cccp/saatrifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasrad
+@END@
+
+Otdelenie Vasiliy:cccp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/samgas
+/datum/job/escalation/cccp/sagrengl
+/datum/job/escalation/cccp/saatrifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasrad
+@END@
+
+OTV-1:cccp
+/datum/job/escalation/cccp/saotvco
+/datum/job/escalation/cccp/saotvop
+/datum/job/escalation/cccp/saotvload
 @END@
 
 # NATO
