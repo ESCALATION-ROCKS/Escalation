@@ -1,5 +1,5 @@
 /datum/army_faction/warpac
-	group_name = "WARPAC"
+	group_name = "WARPACT"
 	enabled = 0
 	language = "Russian"
 //	fireteam_names = list("Anna", "Boris", "Vasiliy", "Grigoriy")
@@ -14,7 +14,7 @@
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
 
 /datum/army_faction/warpac/soviet
-	name = "Spetsnaz GRU"
+	name = "Sovetskaya Armiya"
 	enabled = 1
 	faction_tag = "cccp"
 	flag_state = "soviet"

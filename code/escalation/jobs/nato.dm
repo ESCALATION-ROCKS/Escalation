@@ -5,6 +5,7 @@
 	enabled = 0
 	faction_tag = "usmc"
 	military_faction = NATO
+	department_flag = USMCFORCE
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "NATO"
@@ -432,6 +433,7 @@
 	faction_tag = "bund" //The tag of the faction this job is a part of, for lookups
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes
 	military_faction = NATO
+	department_flag = BDWFORCE
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "NATO"
@@ -1185,6 +1187,7 @@
 	enabled = 0
 	faction_tag = "usa"
 	military_faction = NATO
+	department_flag = USMCFORCE
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "NATO"

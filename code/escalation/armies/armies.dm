@@ -6,8 +6,8 @@ proc/init_factions()
 		var/datum/army_faction/faction = new faction_type
 		if(faction.enabled)
 			all_factions += faction
-			i++
 			faction.team_num = i
+			i++
 		else
 			qdel(faction)
 
@@ -39,23 +39,30 @@ proc/list_armies_by_name(var/show_disabled = 0)
 
 proc/show_statistic()
 	//fraction live kill in action mortality rate
-	if(!ticker.mode.wargames)
-		return
+
 	var/dat = ""
-	if(!all_factions.len)
+
+	if(!length(all_factions))
 		dat = "No factions in game!"
 		return dat
-	for(var/datum/army_faction/F in ticker.mode.teams)
-		var/live = 1
-		var/dead = 1
-		var/mortality_rate = 1
+
+	for(var/datum/army_faction/F in all_factions)
+		var/total = length(F.players)
+		var/live  = total
+		var/dead  = 0
+		var/mortality_rate = 0
+
+		if(!total)
+			continue
+
 		for(var/mob/living/carbon/human/H in F.players)
 			if(H.stat == DEAD)
 				dead++
-			else
-				live++
-		mortality_rate = round(100 * (dead / live))//div by 0
-		dat += "[F.name] : [live - 1] alive, [dead - 1] KIA. Mortality rate : [mortality_rate - 1]% <br>"
+				live--
+
+		mortality_rate = (dead / total) * 100
+		dat += "[F.name] : [live] alive, [dead ? dead : "nobody"] KIA. Mortality rate: [round(mortality_rate)]% <br>"
+
 	return dat
 
 proc/show_armies()

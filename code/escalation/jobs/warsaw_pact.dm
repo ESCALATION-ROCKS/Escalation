@@ -4,6 +4,7 @@
 	enabled = 0
 	faction_tag = "cccp"
 	military_faction = WARPAC
+	department_flag = SOVFORCE
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
@@ -19,9 +20,9 @@
 	selection_color = "#B22222"
 	rank_number = 0
 	position = "team"
-	leading = 0
-	amount = 0
-	enabled = 0
+	leading = 1
+	amount = 1
+	enabled = 1
 	whitelist_rank = "sa_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100)
 
@@ -41,7 +42,7 @@
 	rank_number = 2
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 90)
 
@@ -141,7 +142,7 @@
 	rank_number = 4
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100)
 
@@ -160,7 +161,7 @@
 	selection_color = "#B22222"
 	rank_number = 4
 	position = "fireteam"
-	amount = 1
+	amount = 4
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)
@@ -181,7 +182,7 @@
 	rank_number = 2
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100)
 
@@ -201,7 +202,7 @@
 	rank_number = 4
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10)
 
@@ -482,6 +483,7 @@
 	enabled = 0
 	faction_tag = "nvaddr" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPAC
+	department_flag = DDRFORCE
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
