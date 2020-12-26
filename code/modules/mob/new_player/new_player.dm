@@ -66,6 +66,8 @@ mob/new_player/proc/StatRand()
 	output +="<hr>"
 	output += "<center><p><a href='byond://?src=\ref[src];char_setup=1'>Setup Character</a></p></center>"
 
+	output += "<hr>Current character: <b>[client.prefs.real_name]</b>"
+
 	if(ticker && ticker.mode && ticker.mode.admin_enabled_joining)
 		output += "<center><p><a href='byond://?src=\ref[src];join=1'>Join Team!</A></p></center>"
 

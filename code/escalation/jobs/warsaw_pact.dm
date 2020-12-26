@@ -160,7 +160,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sanitar
 	selection_color = "#B22222"
 	rank_number = 4
-	position = "fireteam"
+	position = "team"
 	amount = 4
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
