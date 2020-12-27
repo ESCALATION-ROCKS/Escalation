@@ -19,10 +19,9 @@ client
 	if(mob)
 		mob.overlay_fullscreen("fishbed",/obj/screen/fullscreen/fishbed)
 		mob.overlay_fullscreen("fadeout",/obj/screen/fullscreen/fadeout)
-	
+
 		if(mob.is_preference_enabled(/datum/client_preference/play_lobby_music))
-			sound_to(mob, sound(null, channel = 1))
-			sound_to(mob, sound('sound/music/THUNDERDOME.ogg', wait = 0, volume = 40, channel = 1))
+			sound_to(mob, sound('sound/music/end_credits_escal.ogg', wait = 0, volume = 40, channel = 1))
 
 	var/list/_credits = credits
 	verbs += /client/proc/ClearCredits
@@ -45,7 +44,7 @@ client
 	QDEL_NULL_LIST(credits)
 	mob.clear_fullscreen("fishbed")
 	mob.clear_fullscreen("fadeout")
-	sound_to(mob, sound(null, channel = 1))
+	//sound_to(mob, sound(null, channel = 1))
 
 /obj/screen/credit
 	icon_state = "blank"
@@ -57,10 +56,10 @@ client
 	var/client/parent
 	var/matrix/target
 
-/obj/screen/credit/Initialize(mapload, credited, client/P)
+/obj/screen/credit/New(mapload, credited, client/P)
 	. = ..()
 	parent = P
-	maptext = credited
+	maptext = {"<div style="font:'Small Fonts'">[credited]</div>"}
 	maptext_height = world.icon_size * 2
 	maptext_width = world.icon_size * 14
 
@@ -101,7 +100,8 @@ client
 	possible_titles += "[pick("SPACE", "SEXY", "DRAGON", "WARLOCK", "LAUNDRY", "GUN", "ADVERTISING", "DOG", "CARBON MONOXIDE", "NINJA", "WIZARD", "SOCRATIC", "JUVENILE DELIQUENCY", "POLITICALLY MOTIVATED", "RADTACULAR SICKNASTY")] [pick("QUEST", "FORCE", "ADVENTURE")]"
 	possible_titles += "[pick("THE DAY [uppertext(GLOB.using_map.station_short)] STOOD STILL", "HUNT FOR THE GREEN WEENIE", "ALIEN VS VENDOMAT", "SPACE TRACK")]"
 	titles += "<center><h1>EPISODE [rand(1,1000)]<br>[pick(possible_titles)]<h1></h1></h1></center>"
-	for(var/mob/living/carbon/human/H in world)
+
+	for(var/mob/living/carbon/human/H in GLOB.living_mob_list_|GLOB.dead_mob_list_)
 		if(findtext(H.real_name,"(mannequin)"))
 			continue
 		if(H.isMonkey() && findtext(H.real_name,"[lowertext(H.species.name)]")) //no monki
@@ -112,11 +112,6 @@ client
 		if(GetAssignment(H) != "Unassigned")
 			job = ", [uppertext(GetAssignment(H))]"
 		var/used_name = H.real_name
-		var/datum/data/record/R = find_record("name", H.real_name, GLOB.data_core.general)
-		if(R && R.fields["mil_rank"])
-			var/datum/mil_rank/rank = mil_branches.get_rank(R.fields["mil_branch"], R.fields["mil_rank"])
-			if(rank.name_short)
-				used_name = "[rank.name_short] [used_name]"
 		if(prob(90))
 			var/actor_name = H.species.get_random_name(H.gender)
 			if(!(H.species.spawn_flags & SPECIES_CAN_JOIN) || prob(10)) //sometimes can't get actor of thos species
@@ -166,8 +161,14 @@ client
 	if(goodboys.len)
 		titles += "<center>STAFF'S GOOD BOYS:<br>[english_list(goodboys)]</center>"
 
+	//var/end_round_stat1 =  "[GLOB.total_deaths] people died in total.<br>"
+
+	//titles += "<center>[end_round_stat1]</center>"
+
 	var/disclaimer = "Sponsored by [GLOB.using_map.company_name].<br>All rights reserved.<br>"
-	disclaimer += pick("Use for parody prohibited. Prohibited.", "All stunts were performed by underpaid interns. Do NOT try at home.", "[GLOB.using_map.company_name] does not endorse behaviour depicted. Attempt at your own risk.")
-	titles += "<center>[disclaimer]</center>"
+	disclaimer += pick("Use for parody prohibited. Prohibited.", "All stunts were performed by underpaid interns. Do NOT try at home.")
+
+	titles += "<hr>"
+	titles += "<center><span style='font-size:6pt;'>[disclaimer]</span></center>"
 
 	return titles

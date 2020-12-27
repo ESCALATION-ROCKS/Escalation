@@ -69,6 +69,8 @@
 	can_fire = 0
 	flags |= SS_NO_FIRE
 	Master.subsystems -= src
+	..()
+	return QDEL_HINT_HARDDEL_NOW
 
 
 //Queue it to run.

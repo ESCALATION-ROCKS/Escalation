@@ -389,7 +389,6 @@ var/global/datum/controller/gameticker/ticker
 
 			mode.cleanup()
 
-			//call a transfer shuttle vote
 			spawn(50)
 				if(!round_end_announced) // Spam Prevention. Now it should announce only once.
 					to_world("<span class='danger'>The round has ended!</span>")
@@ -397,96 +396,33 @@ var/global/datum/controller/gameticker/ticker
 						to_world("<B>The OOC channel has been globally enabled!</B>")
 						config.ooc_allowed = !(config.ooc_allowed)
 					round_end_announced = 1
-				vote.autotransfer()
 
 		return 1
 
 /datum/controller/gameticker/proc/declare_completion()
 	to_world("<br><br><br><H1>A round of [mode.name] has ended!</H1>")
+	//for(var/client/C)
+		//if(!C.credits)
+		//	C.RollCredits()
 	for(var/mob/Player in GLOB.player_list)
-/*		if(Player.mind && !isnewplayer(Player))
+		if(Player.mind && !isnewplayer(Player))
 			if(Player.stat != DEAD)
-				var/turf/playerTurf = get_turf(Player)
 				if(evacuation_controller.round_over() && evacuation_controller.emergency_evacuation)
-					if(isNotAdminLevel(playerTurf.z))
-						to_chat(Player, "<font color='blue'><b>You managed to survive, but were marooned on [station_name()] as [Player.real_name]...</b></font>")
-					else
-						to_chat(Player, "<font color='green'><b>You managed to survive the events on [station_name()] as [Player.real_name].</b></font>")
-				else if(isAdminLevel(playerTurf.z))
-					to_chat(Player, "<font color='green'><b>You successfully underwent crew transfer after events on [station_name()] as [Player.real_name].</b></font>")
-				else if(issilicon(Player))
-					to_chat(Player, "<font color='green'><b>You remain operational after the events on [station_name()] as [Player.real_name].</b></font>")
-				else
-					to_chat(Player, "<font color='blue'><b>You got through just another workday on [station_name()] as [Player.real_name].</b></font>")
+					to_chat(Player, "<font color='green'><b>You managed to survive the battlefield of [station_name()] as [Player.real_name].</b></font>")
 			else
 				if(isghost(Player))
 					var/mob/observer/ghost/O = Player
 					if(!O.started_as_observer)
-						to_chat(Player, "<font color='red'><b>You did not survive the events on [station_name()]...</b></font>")
+						to_chat(Player, "<font color='red'><b>You thought you could escape death, but death has found you nonetheless...</b></font>")
 				else
-					to_chat(Player, "<font color='red'><b>You did not survive the events on [station_name()]...</b></font>")
+					to_chat(Player, "<font color='red'><b>You thought you could escape death, but death has found you nonetheless...</b></font>")
 	to_world("<br>")
-
-
-	for (var/mob/living/silicon/ai/aiPlayer in SSmobs.mob_list)
-		if (aiPlayer.stat != 2)
-			to_world("<b>[aiPlayer.name] (Played by: [aiPlayer.key])'s laws at the end of the round were:</b>")
-
-		else
-			to_world("<b>[aiPlayer.name] (Played by: [aiPlayer.key])'s laws when it was deactivated were:</b>")
-
-		aiPlayer.show_laws(1)
-
-		if (aiPlayer.connected_robots.len)
-			var/robolist = "<b>The AI's loyal minions were:</b> "
-			for(var/mob/living/silicon/robot/robo in aiPlayer.connected_robots)
-				robolist += "[robo.name][robo.stat?" (Deactivated) (Played by: [robo.key]), ":" (Played by: [robo.key]), "]"
-			to_world("[robolist]")
-
-
-	var/dronecount = 0
-
-	for (var/mob/living/silicon/robot/robo in SSmobs.mob_list)
-
-		if(istype(robo,/mob/living/silicon/robot/drone))
-			dronecount++
-			continue
-
-		if (!robo.connected_ai)
-			if (robo.stat != 2)
-				to_world("<b>[robo.name] (Played by: [robo.key]) survived as an AI-less synthetic! Its laws were:</b>")
-
-			else
-				to_world("<b>[robo.name] (Played by: [robo.key]) was unable to survive the rigors of being a synthetic without an AI. Its laws were:</b>")
-
-
-			if(robo) //How the hell do we lose robo between here and the world messages directly above this?
-				robo.laws.show_laws(world)
-
-	if(dronecount)
-		to_world("<b>There [dronecount>1 ? "were" : "was"] [dronecount] industrious maintenance [dronecount>1 ? "drones" : "drone"] at the end of this round.</b>")
-
-	if(all_money_accounts.len)
-		var/datum/money_account/max_profit = all_money_accounts[1]
-		var/datum/money_account/max_loss = all_money_accounts[1]
-		for(var/datum/money_account/D in all_money_accounts)
-			if(D == vendor_account) //yes we know you get lots of money
-				continue
-			var/saldo = D.get_balance()
-			if(saldo >= max_profit.get_balance())
-				max_profit = D
-			if(saldo <= max_loss.get_balance())
-				max_loss = D
-		to_world("<b>[max_profit.owner_name]</b> received most <font color='green'><B>PROFIT</B></font> today, with net profit of <b>T[max_profit.get_balance()]</b>.")
-		to_world("On the other hand, <b>[max_loss.owner_name]</b> had most <font color='red'><B>LOSS</B></font>, with total loss of <b>T[max_loss.get_balance()]</b>.")
-*/
 
 	var/shots_fired = 0
 	for (var/obj/item/ammo_casing/M in world)
 		if(M.amount > 0)
 			shots_fired += M.amount
 		to_world("Around <b>[shots_fired]</b> shots have been fired</b>.")
-
 
 	mode.declare_completion()//To declare normal completion.
 
@@ -506,9 +442,9 @@ var/global/datum/controller/gameticker/ticker
 				total_antagonists[temprole] += ": [Mind.name]([Mind.key])"
 
 //	//Now print them all into the log!
-//	log_game("Antagonists at round end were...")
-//	for(var/i in total_antagonists)
-//		log_game("[i]s[total_antagonists[i]].")
+	log_game("Antagonists at round end were...")
+	for(var/i in total_antagonists)
+		log_game("[i]s[total_antagonists[i]].")
 
 	return 1
 
