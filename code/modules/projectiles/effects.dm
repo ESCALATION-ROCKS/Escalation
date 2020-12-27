@@ -4,9 +4,9 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER //Muzzle flashes would be above the lighting plane anyways.
 	//Standard compiletime light vars aren't working here, so we've made some of our own.
-//	light_outer_range = 2
-//	light_max_bright = 1
-//	light_color = "#ff00dc"
+	light_range = 2
+	light_power = 1
+	light_color = "#ff00dc"
 
 	mouse_opacity = 0
 
@@ -130,9 +130,9 @@
 //----------------------------
 /obj/effect/projectile/bullet/muzzle
 	icon_state = "muzzle_bullet"
-//	light_range = 5
-//	light_power = 1
-//	light_color = COLOR_MUZZLE_FLASH
+	light_range = 2
+	light_power = 1
+	light_color = COLOR_MUZZLE_FLASH
 
 /obj/effect/projectile/bullet/impact
 	icon_state = "ping_b"
@@ -144,12 +144,12 @@
 //----------------------------
 /obj/effect/projectile/rocket/rpg
 	icon_state = "muzzle_rocket"
-//	light_outer_range = 5
-//	light_max_bright = 1
-//	light_color = COLOR_MUZZLE_FLASH
+	light_range = 5
+	light_power = 1
+	light_color = COLOR_MUZZLE_FLASH
 
 /obj/effect/projectile/rocket/rpg/breech
 	icon_state = "breech_rocket"
-//	light_outer_range = 5
-//	light_max_bright = 1
-//	light_color = COLOR_MUZZLE_FLASH
+	light_range = 5
+	light_power = 1
+	light_color = COLOR_MUZZLE_FLASH
