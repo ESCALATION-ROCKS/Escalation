@@ -16,7 +16,7 @@ Otdelenie Anna:cccp
 /datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/samgas
 /datum/job/escalation/cccp/sagrengl
-/datum/job/escalation/cccp/saatrifle
+/datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
@@ -29,7 +29,7 @@ Otdelenie Boris:cccp
 /datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/samgas
 /datum/job/escalation/cccp/sagrengl
-/datum/job/escalation/cccp/saatrifle
+/datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
@@ -42,7 +42,7 @@ Otdelenie Vasiliy:cccp
 /datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/samgas
 /datum/job/escalation/cccp/sagrengl
-/datum/job/escalation/cccp/saatrifle
+/datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman

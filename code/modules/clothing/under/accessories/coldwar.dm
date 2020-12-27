@@ -386,7 +386,7 @@
 	icon_state = "bandovest_nato_w"
 
 /obj/item/clothing/accessory/storage/lifchik
-	name = "makeshift webbing vest"
+	name = "'lifchik' vest"
 	desc = "Known by soviet forces as a 'lifchik', which translates to 'brassiere' in English. It seems to be knit from some kind of bag."
 	icon_state = "lifchik_1"
 	gender = NEUTER

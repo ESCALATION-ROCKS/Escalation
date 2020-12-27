@@ -5,9 +5,11 @@
 	faction_tag = "cccp"
 	military_faction = WARPAC
 	department_flag = SOVFORCE
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.fraction = "WP"
+
+/datum/job/escalation/cccp/equip(var/mob/living/carbon/human/H)
+	..()
+	H.fraction = "WP"
+	H.gender = MALE
 
 /datum/job/escalation/cccp/saplatlead
 	title = "SA Komandir Vzvoda"

@@ -26,6 +26,7 @@
 	outfit_type = /decl/hierarchy/outfit/escalation
 	total_positions = -1
 	spawn_positions = -1
+	sex_lock = MALE
 
 /datum/job/escalation/proc/remove_mob(var/datum/fireteam/F, var/datum/army_faction/A, var/mob/mob)
 	var/i = 0

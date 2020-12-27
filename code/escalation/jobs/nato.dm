@@ -6,9 +6,11 @@
 	faction_tag = "usmc"
 	military_faction = NATO
 	department_flag = USMCFORCE
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.fraction = "NATO"
+
+/datum/job/escalation/usmc/equip(var/mob/living/carbon/human/H)
+	..()
+	H.fraction = "NATO"
+	H.gender = MALE
 
 /datum/job/escalation/usmc/usmcplatlead
 	title = "USMC Platoon Leader"
@@ -434,9 +436,11 @@
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes
 	military_faction = NATO
 	department_flag = BDWFORCE
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.fraction = "NATO"
+
+/datum/job/escalation/bund/equip(var/mob/living/carbon/human/H)
+	..()
+	H.fraction = "NATO"
+	H.gender = MALE
 
 /datum/job/escalation/bund/bdwplatlead
 	title = "BDW Zugfuhrer"
@@ -1188,9 +1192,11 @@
 	faction_tag = "usa"
 	military_faction = NATO
 	department_flag = USMCFORCE
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.fraction = "NATO"
+
+/datum/job/escalation/usa/equip(var/mob/living/carbon/human/H)
+	..()
+	H.fraction = "NATO"
+	H.gender = MALE
 
 /datum/job/escalation/usa/usaplatlead
 	title = "USA Platoon Leader"
