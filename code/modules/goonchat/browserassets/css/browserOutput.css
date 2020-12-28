@@ -10,7 +10,9 @@ html, body {
 	color: #a4bad6;
 }
 body {
-	background: #171717;
+	background-image: url("chatbg.png");
+	background-size: 50%;
+	background-attachment: fixed;
 	font-family: Verdana, sans-serif;
 	font-size: 13px;
 	font-color: #a4bad6;
