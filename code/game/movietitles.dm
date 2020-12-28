@@ -22,7 +22,7 @@ client
 
 		if(mob.is_preference_enabled(/datum/client_preference/play_lobby_music))
 			sound_to(mob, sound('sound/music/end_credits_escal.ogg', wait = 0, volume = 40, channel = 1))
-
+	sleep(50)
 	var/list/_credits = credits
 	verbs += /client/proc/ClearCredits
 	for(var/I in GLOB.end_titles)

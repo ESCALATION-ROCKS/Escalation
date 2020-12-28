@@ -91,7 +91,7 @@ var/wlg_selected_cuttree = 0
 					var/deadtree = pick(/obj/structure/flora/tree/dead,
 										/obj/structure/flora/tree/winter/deadbig1,
 										/obj/structure/flora/tree/winter/deadbig2)
-										
+
 						/*/obj/structure/flora/tree/summer/dead1,
 									/obj/structure/flora/tree/summer/dead2,    summer
 									/obj/structure/flora/summer/log1,
@@ -120,12 +120,4 @@ var/wlg_selected_cuttree = 0
 		if(ft.name)
 			text += " called as \"[ft.name]\"."
 		world << "<font size=2>-[text]</font>"
-	return 1
-
-/proc/get_side_name(var/side)
-	if(side == "WARPAC")
-		return "Soviet Army"
-	if(side == "NATO")
-		return "USMC"
-	return null
-	*/
+	return 1*/

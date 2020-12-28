@@ -4,7 +4,7 @@
 	name = "Europe 1984"
 	config_tag = "wargames"
 	required_players = 0
-	round_description = "Teams battle for supremacy!"
+	round_description = "Teams battle for supremacy."
 	extended_round_description = "This gamemode requires admins."
 	ert_disabled = 1
 	addantag_allowed = ADDANTAG_ADMIN //Only admins can add antags. This should be disabled in config anyway
@@ -13,7 +13,7 @@
 	admin_enabled_joining = 0 //Has to be accepted by admins before round can start
 
 /datum/game_mode/wargames/announce()
-/*	to_world("<B>The current game mode is [capitalize(name)]!</B> [round_description]")
+	to_world("<B>The current game mode is [capitalize(name)]!</B> [round_description]")
 	if(teams.len)
 		to_world("The teams fighting are: ")
 		for(var/datum/army_faction/T in teams)
@@ -24,7 +24,7 @@
 	if(neutral_teams.len)
 		to_world("The neutral teams are: ")
 		for(var/datum/army_faction/N in neutral_teams)
-			if(N) to_world("<B>[N.name]</b>")*/
+			if(N) to_world("<B>[N.name]</b>")
 	return
 
 /datum/game_mode/wargames/startRequirements()
@@ -53,7 +53,3 @@
 /datum/game_mode/wargames/check_finished()
 	if(station_was_nuked) return 1
 	return admin_ended_round
-
-/datum/game_mode/wargames/declare_completion()
-	to_world(show_statistic())
-	return 0
