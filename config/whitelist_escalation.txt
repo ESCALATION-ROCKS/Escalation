@@ -527,3 +527,7 @@ frown = {
 Turret_Drehturm = {
 ::ALL::
 }
+
+Turret_Enjoyer = {
+sa_enlisted
+}
