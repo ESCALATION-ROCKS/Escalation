@@ -159,6 +159,7 @@
 	. = ..()	//calls mob.Login()
 	chatOutput.start()
 	prefs.sanitize_preferences()
+	fit_viewport()
 
 	GLOB.using_map.map_info(src)
 
