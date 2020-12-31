@@ -228,6 +228,8 @@ var/list/gamemode_cache = list()
 	var/error_msg_delay = 50 // How long to wait between messaging admins about occurrences of a unique error
 	var/footstep_volume = 30
 
+	var/static/regex/ic_filter_regex //For the cringe filter.
+
 /datum/configuration/New()
 	var/list/L = typesof(/datum/game_mode) - /datum/game_mode
 	for (var/T in L)
@@ -816,6 +818,8 @@ var/list/gamemode_cache = list()
 	if(fps <= 0)
 		fps = initial(fps)
 
+	LoadChatFilter()
+
 /datum/configuration/proc/loadsql(filename)  // -- TLE
 	var/list/Lines = file2list(filename)
 	for(var/t in Lines)
@@ -892,3 +896,16 @@ var/list/gamemode_cache = list()
 
 	if (event_info)
 		custom_event_msg = event_info
+
+/datum/configuration/proc/LoadChatFilter()
+	GLOB.in_character_filter = list()
+
+	for(var/line in world.file2list("config/in_character_filter.txt"))
+		if(!line)
+			continue
+		if(findtextEx(line,"#",1,2))
+			continue
+		GLOB.in_character_filter += line
+
+	if(!ic_filter_regex && GLOB.in_character_filter.len)
+		ic_filter_regex = regex("\\b([jointext(GLOB.in_character_filter, "|")])\\b", "i")

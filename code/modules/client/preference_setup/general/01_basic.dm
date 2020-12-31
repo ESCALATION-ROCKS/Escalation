@@ -62,6 +62,9 @@ datum/preferences
 		if (!isnull(raw_name) && CanUseTopic(user))
 			var/new_name = sanitize_name(raw_name, pref.species)
 			if(new_name)
+				if(GLOB.in_character_filter.len) //If you name yourself brazil, you're getting a random name.
+					if(findtext(new_name, config.ic_filter_regex))
+						new_name = random_name(pref.gender, pref.species)
 				pref.real_name = new_name
 				return TOPIC_REFRESH
 			else

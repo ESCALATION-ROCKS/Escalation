@@ -154,6 +154,25 @@ proc/get_radio_key_from_channel(var/channel)
 			return say_dead(message)
 		return
 
+	if(GLOB.in_character_filter.len)
+		if(findtext(message, config.ic_filter_regex))
+			// let's try to be a bit more informative!
+			var/warning_message = "You tried to say something dumb, but then remembered you're in the army on an active battlefield nd it's 1984. You stop."
+			var/list/words = splittext(message, " ")
+			var/cringe = ""
+			for (var/word in words)
+				if (findtext(word, config.ic_filter_regex))
+					warning_message = "[warning_message]"
+					cringe += ""
+				else
+					warning_message = "[warning_message]"
+
+
+			warning_message = trim(warning_message)
+			to_chat(src, "<span class='warning'>[warning_message]&quot;</span>")
+			log_and_message_admins("[src] just tried to say dumb shit: [cringe]", src) //Uncomment this if you want to keep tabs on who's saying cringe words.
+			return
+
 	var/message_mode = parse_message_mode(message, "headset")
 
 	switch(copytext(message,1,2))

@@ -9,6 +9,8 @@ GLOBAL_LIST_INIT(first_names_female, world.file2list("config/names/first_female.
 GLOBAL_LIST_INIT(last_names, world.file2list("config/names/last.txt"))
 GLOBAL_LIST_INIT(clown_names, world.file2list("config/names/clown.txt"))
 
+GLOBAL_LIST_EMPTY(in_character_filter)
+
 var/list/first_names_male_usmc = file2list("config/names/first_male_bund.txt")
 var/list/first_names_female_usmc = file2list("config/names/first_female_bund.txt")
 var/list/first_names_male_cccp = file2list("config/names/first_male_cccp.txt")
