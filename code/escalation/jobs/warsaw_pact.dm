@@ -104,7 +104,7 @@
 	rank_number = 5
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
 
@@ -124,7 +124,7 @@
 	rank_number = 5
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
 
@@ -163,7 +163,7 @@
 	selection_color = "#B22222"
 	rank_number = 4
 	position = "team"
-	amount = 4
+	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)
@@ -435,7 +435,6 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
-
 /datum/job/escalation/cccp/saotvop
 	title = "SA OTV Operator"
 	name = "OTV Operator"
@@ -456,6 +455,25 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/cccp/saotvopassist
+	title = "SA OTV Operator Assistant"
+	name = "OTV Operator Assistant"
+	english_name = "Heavy Weapons Operator Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/hws_oper
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/cccp/saotvload
 	title = "SA OTV Zaryazhaiuschiy"
