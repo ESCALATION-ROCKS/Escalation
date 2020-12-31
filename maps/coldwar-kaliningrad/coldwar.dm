@@ -2,9 +2,9 @@
 
 	#include "coldwar_define.dm"
 	#include "coldwar_areas.dm"
-//	#include "coldwar-1.dmm"
+	#include "coldwar-1.dmm"
 	#include "coldwar-2.dmm"
-//	#include "coldwar-3.dmm"
+	#include "coldwar-3.dmm"
 	#define using_map_DATUM /datum/map/kaliningrad
 
 #elif !defined(MAP_OVERRIDE)

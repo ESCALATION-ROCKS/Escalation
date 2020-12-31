@@ -24,7 +24,6 @@ var/list/interior_areas = list(/area/coldwar/house1,
 							/area/coldwar/house23
 							)
 
-
 /area/coldwar
 	name = "area"
 	icon_state = "hallF"
