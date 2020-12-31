@@ -148,9 +148,9 @@ SUBSYSTEM_DEF(planets)
 	// Calculate new values to apply
 	var/new_brightness = P.sun["brightness"]
 	var/new_color = P.sun["color"]
-	var/lum_r = new_brightness * GetRedPart  (new_color) / 255
-	var/lum_g = new_brightness * GetGreenPart(new_color) / 255
-	var/lum_b = new_brightness * GetBluePart (new_color) / 255
+	var/lum_r = new_brightness * GETREDPART  (new_color) / 255
+	var/lum_g = new_brightness * GETGREENPART(new_color) / 255
+	var/lum_b = new_brightness * GETBLUEPART (new_color) / 255
 	var/static/update_gen = -1 // Used to prevent double-processing corners. Otherwise would happen when looping over adjacent turfs.
 	for(var/I in P.planet_floors)
 		var/turf/simulated/T = I

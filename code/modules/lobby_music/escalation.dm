@@ -14,3 +14,8 @@
 	artist = "East vs. West OST"
 	title = "Beacon"
 	song = 'sound/music/beacon.ogg'
+
+/lobby_music/escalation4
+	artist = "The Mamas & The Papas"
+	title = "California Dreamin'"
+	song = 'sound/music/californiadreamin.ogg'

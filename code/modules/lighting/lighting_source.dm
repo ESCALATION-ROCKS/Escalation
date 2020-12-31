@@ -57,15 +57,13 @@
 	light_range = source_atom.light_range
 	light_color = source_atom.light_color
 
-	parse_light_color()
+	PARSE_LIGHT_COLOR(src)
 
 	effect_str      = list()
 	affecting_turfs = list()
 
 	update()
 
-
-	return ..()
 
 // Kill ourselves.
 /datum/light_source/proc/destroy()
@@ -149,19 +147,8 @@
 
 	if(source_atom.light_color != light_color)
 		light_color = source_atom.light_color
-		parse_light_color()
+		PARSE_LIGHT_COLOR(src)
 		. = 1
-
-// Decompile the hexadecimal colour into lumcounts of each perspective.
-/datum/light_source/proc/parse_light_color()
-	if(light_color)
-		lum_r = GetRedPart  (light_color) / 255
-		lum_g = GetGreenPart(light_color) / 255
-		lum_b = GetBluePart (light_color) / 255
-	else
-		lum_r = 1
-		lum_g = 1
-		lum_b = 1
 
 // Macro that applies light to a new corner.
 // It is a macro in the interest of speed, yet not having to copy paste it.
@@ -169,25 +156,26 @@
 // As such this all gets counted as a single line.
 // The braces and semicolons are there to be able to do this on a single line.
 
-#define APPLY_CORNER(C)              \
-	. = LUM_FALLOFF(C, source_turf); \
-	. *= light_power/2;              \
-	effect_str[C] = .;               \
-	C.update_lumcount                \
-	(                                \
-		. * applied_lum_r,           \
-		. * applied_lum_g,           \
-		. * applied_lum_b            \
+#define APPLY_CORNER(C)                      \
+	. = LUM_FALLOFF(C, pixel_turf);          \
+	. *= light_power;                        \
+	var/OLD = effect_str[C];                 \
+	effect_str[C] = .;                       \
+											\
+	C.update_lumcount                        \
+	(                                        \
+		(. * lum_r) - (OLD * applied_lum_r), \
+		(. * lum_g) - (OLD * applied_lum_g), \
+		(. * lum_b) - (OLD * applied_lum_b)  \
 	);
 
-// I don't need to explain what this does, do I?
-#define REMOVE_CORNER(C)             \
-	. = -effect_str[C];              \
-	C.update_lumcount                \
-	(                                \
-		. * applied_lum_r,           \
-		. * applied_lum_g,           \
-		. * applied_lum_b            \
+#define REMOVE_CORNER(C)                     \
+	. = -effect_str[C];                      \
+	C.update_lumcount                        \
+	(                                        \
+		. * applied_lum_r,                   \
+		. * applied_lum_g,                   \
+		. * applied_lum_b                    \
 	);
 
 //Original lighting falloff calculation. This looks the best out of the three. However, this is also the most expensive.
@@ -201,7 +189,8 @@
 
 //Linear lighting falloff but with an octagonal shape in place of a diamond shape. Lummox JR please add pointer support.
 #define GET_LUM_DIST(DISTX, DISTY) (DISTX + DISTY + abs(DISTX - DISTY)*0.4)
-#define LUM_FALLOFF(C, T)(1 - CLAMP01(((C.x - T.x) ** 2 +(C.y - T.y) ** 2 + LIGHTING_HEIGHT) ** 0.6 / max(1, light_range)))
+#define LUM_FALLOFF(C, T) (1 - CLAMP01(sqrt((C.x - T.x) ** 2 + (C.y - T.y) ** 2 + LIGHTING_HEIGHT) / max(1, light_range)))
+//#define LUM_FALLOFF(C, T) (1 - CLAMP01(max(GET_LUM_DIST(abs(C.x - T.x), abs(C.y - T.y)),LIGHTING_HEIGHT) / max(1, light_range+1)))
 
 /datum/light_source/proc/apply_lum()
 	var/static/update_gen = 1
@@ -264,8 +253,6 @@
 			continue
 
 		APPLY_CORNER(C)
-
-
 
 	if(!T.affecting_lights)
 		T.affecting_lights = list()
