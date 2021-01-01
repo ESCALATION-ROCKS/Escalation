@@ -4,8 +4,8 @@
 	icon_name = "head"
 	name = "head"
 	slot_flags = SLOT_BELT
-	max_damage = 85
-	min_broken_damage = 45
+	max_damage = 75
+	min_broken_damage = 35
 	w_class = ITEM_SIZE_NORMAL
 	body_part = HEAD
 	parent_organ = BP_CHEST
@@ -49,10 +49,10 @@
 /obj/item/organ/external/head/take_damage(brute, burn, damage_flags, used_weapon = null)
 	. = ..()
 	if (!disfigured)
-		if (brute_dam > 40)
+		if (brute_dam > 100)
 			if (prob(50))
 				disfigure("brute")
-		if (burn_dam > 40)
+		if (burn_dam > 100)
 			disfigure("burn")
 
 /obj/item/organ/external/head/no_eyes
@@ -95,8 +95,9 @@
 	if(owner.h_style)
 		var/style = owner.h_style
 		var/datum/sprite_accessory/hair/hair_style = hair_styles_list[style]
-		if(owner.head && (owner.head.flags_inv & BLOCKHEADHAIR) || owner.wear_mask && (owner.wear_mask.flags_inv & BLOCKHEADHAIR))
-			hair_style = hair_styles_list["Bald"]
+		if(owner.head && (owner.head.flags_inv & BLOCKHEADHAIR))
+			if(!hair_style.veryshort)
+				hair_style = hair_styles_list["Short Hair"]
 		if(hair_style && (species.get_bodytype(owner) in hair_style.species_allowed))
 			var/icon/hair_s = new/icon("icon" = hair_style.icon, "icon_state" = "[hair_style.icon_state]_s")
 			if(hair_style.do_colouration && islist(h_col) && h_col.len >= 3)

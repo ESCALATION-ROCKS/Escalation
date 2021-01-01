@@ -146,7 +146,7 @@
 /obj/item/organ/internal/proc/surgical_fix(mob/user)
 	if(damage > min_broken_damage)
 		var/scarring = damage/max_damage
-		scarring = max(1 - max(0.2, scarring*scarring), 0.01)
+		scarring = 1 - max(0.2, scarring*scarring)
 		var/new_max_dam = Floor(scarring * max_damage)
 		if(new_max_dam < max_damage)
 			to_chat(user, "<span class='warning'>Not every part of [src] could be saved, some dead tissue had to be removed, making it more suspectable to damage in the future.</span>")

@@ -95,7 +95,7 @@
 	#endif
 
 	// If all channels are full lum, there's no point showing the overlay.
-	if((rr & gr & br & ar) && (rg + gg + bg + ag + rb + gb + bb + ab == 8))
+	if(rr + rg + rb + gr + gg + gb + br + bg + bb + ar + ag + ab >= 12)
 		icon_state = "transparent"
 		color = null
 	else if(!set_luminosity)

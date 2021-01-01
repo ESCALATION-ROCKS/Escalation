@@ -9,7 +9,7 @@
 	organ_tag = BP_CHEST
 	icon_name = "torso"
 	max_damage = 100
-	min_broken_damage = 50
+	min_broken_damage = 40
 	w_class = ITEM_SIZE_HUGE //Used for dismembering thresholds, in addition to storage. Humans are w_class 6, so it makes sense that chest is w_class 5.
 	body_part = UPPER_TORSO
 	vital = 1
@@ -40,7 +40,7 @@
 	organ_tag = BP_GROIN
 	icon_name = "groin"
 	max_damage = 100
-	min_broken_damage = 50
+	min_broken_damage = 40
 	w_class = ITEM_SIZE_LARGE
 	body_part = LOWER_TORSO
 	parent_organ = BP_CHEST
@@ -56,7 +56,7 @@
 	name = "left arm"
 	icon_name = "l_arm"
 	max_damage = 50
-	min_broken_damage = 50
+	min_broken_damage = 30
 	w_class = ITEM_SIZE_NORMAL
 	body_part = ARM_LEFT
 	parent_organ = BP_CHEST
@@ -71,7 +71,7 @@
 /obj/item/organ/external/arm/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || (agony_amount < 5))
 		return
-	if(prob(10))
+	if(prob(12))
 		owner.grasp_damage_disarm(src)
 
 
@@ -88,7 +88,7 @@
 	name = "left leg"
 	icon_name = "l_leg"
 	max_damage = 50
-	min_broken_damage = 50
+	min_broken_damage = 30
 	w_class = ITEM_SIZE_NORMAL
 	body_part = LEG_LEFT
 	icon_position = LEFT
@@ -102,7 +102,7 @@
 	arterial_bleed_severity = 1.5
 
 /obj/item/organ/external/leg/stun_act(var/stun_amount, var/agony_amount)
-	if(!owner || agony_amount < 10)
+	if(!owner || agony_amount < 5)
 		return
 	if(prob(agony_amount*2))
 		to_chat(owner, "<span class='warning'>Your [src] buckles from the shock!</span>")
@@ -132,7 +132,7 @@
 	can_stand = 1
 	has_tendon = TRUE
 	tendon_name = "Achilles tendon"
-	has_artery = FALSE
+	arterial_bleed_severity = 1
 
 /obj/item/organ/external/foot/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || agony_amount < 5)
@@ -169,7 +169,7 @@
 	can_grasp = 1
 	has_tendon = TRUE
 	tendon_name = "carpal ligament"
-	has_artery = FALSE
+	arterial_bleed_severity = 1
 
 /obj/item/organ/external/hand/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || (agony_amount < 5))

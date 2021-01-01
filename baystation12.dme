@@ -2593,7 +2593,6 @@
 #include "maps\feld-marz\escnew_areas.dm"
 #include "maps\feld-marz\escnew_define.dm"
 #include "maps\feld-marz\escnew_outfits.dm"
-#include "maps\feld-marz\Feld-Marz.dmm"
 #include "maps\redline\redline_areas.dm"
 #include "maps\~mapsystem\map_preferences.dm"
 #include "maps\~mapsystem\map_ranks.dm"
