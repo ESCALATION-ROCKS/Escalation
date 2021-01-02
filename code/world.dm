@@ -629,10 +629,10 @@ var/world_topic_spam_protect_time = world.timeofday
 	s += "<br>"
 	s += "An immersive combat experience set in the Cold War."
 	s += "<br>"
-	s += "Join and OBSERVE while you apply for a whitelist on our DISCORD!"
+	s += "You are able to join and observe while you apply for a whitelist on our Discord."
 	s += "<br>"
 	s += "<a href=\"https://discord.gg/ahNndkqq8s\">" //Change this to wherever you want the hub to link to.
-	s += "JOIN OUR DISCORD - WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 
 	var/list/features = list()
