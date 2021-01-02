@@ -11,7 +11,6 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 /mob/verb/zoom() //tileoffset is client view offset in the direction the user is facing. viewsize is how far out this thing zooms. 7 is normal view
 	set category = "Object"
 	set name = "Look into distance"
-	var/viewsize = 9
 
 	if(!src.client)
 		return
@@ -32,12 +31,11 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 	if(!zoom && !cannotzoom)
 		if(src.hud_used.hud_shown)
 			src.toggle_zoom_hud()	// If the user has already limited their HUD this avoids them having a HUD when they zoom in
-		src.client.view = viewsize
+		src.client.view = 10
 		zoom = 1
 
-		var/tileoffset = 9
-		var/tilesize = 20
-		var/viewoffset = tilesize * tileoffset
+		var/tilesize = 50
+		var/viewoffset = tilesize * 6
 
 		switch(src.dir)
 			if (NORTH)

@@ -286,5 +286,5 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	icon_state = "foboutside"
 	sound_env = PLAIN
 	requires_power = 0
-	dynamic_lighting = 0
+	dynamic_lighting = 1
 
