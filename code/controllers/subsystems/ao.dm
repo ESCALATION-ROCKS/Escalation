@@ -3,6 +3,7 @@ SUBSYSTEM_DEF(ao)
 	init_order = SS_PRIORITY_AO
 	wait = 1
 	runlevels = RUNLEVELS_DEFAULT | RUNLEVEL_LOBBY
+	flags = SS_NO_INIT
 	var/list/queue = list()
 	var/list/cache = list()
 
@@ -29,3 +30,9 @@ SUBSYSTEM_DEF(ao)
 			CHECK_TICK
 		else if (MC_TICK_CHECK)
 			return
+
+/datum/controller/subsystem/ao/StartLoadingMap()
+	suspend()
+
+/datum/controller/subsystem/ao/StopLoadingMap()
+	wake()

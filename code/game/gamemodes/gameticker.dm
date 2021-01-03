@@ -182,6 +182,8 @@ var/global/datum/controller/gameticker/ticker
 	//Now we have a general cinematic centrally held within the gameticker....far more efficient!
 	var/obj/screen/cinematic = null
 
+	var/force_ending = 0
+
 	//Plus it provides an easy way to make cinematics for other events. Just use this as a template :)
 	proc/station_explosion_cinematic(var/station_missed=0, var/override = null)
 		if( cinematic )	return	//already a cinematic in progress!

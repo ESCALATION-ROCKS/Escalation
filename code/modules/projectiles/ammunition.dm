@@ -14,7 +14,7 @@
 	var/projectile_type					//The bullet type to create when New() is called
 	var/obj/item/projectile/BB = null	//The loaded bullet - make it so that the projectiles are created only when needed?
 	var/spent_icon = "s-casing-spent"
-	var/casing_sound = 'sound/weapons/casings/casing_drop.ogg' //Todo: Shotgun shell sound.
+	var/casing_sound = "casing_drop" //Todo: Shotgun shell sound.
 	var/amount = 1
 	var/maxamount = 15
 

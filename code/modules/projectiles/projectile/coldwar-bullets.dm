@@ -11,9 +11,9 @@
 	kill_count = 120
 	agony = 20
 
-	New()
-		damage = rand(34, 43)
-		penetrating = rand(0, 1)
+/obj/item/projectile/bullet/rifle/a762x39/Initialize()
+	damage = rand(32, 41)
+	penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x39/tr
 	icon_state = "bullet_tracer"
@@ -32,7 +32,7 @@
 	agony = 20
 
 	New()
-		damage = rand(37, 46)
+		damage = rand(35, 44)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x51/tr
@@ -45,7 +45,7 @@
 	agony = 20
 
 	New()
-		damage = rand(42, 52)
+		damage = rand(40, 50)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x51/ap
@@ -61,7 +61,7 @@
 	agony = 20
 
 	New()
-		damage = rand(39, 48)
+		damage = rand(37, 46)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x54/tr
@@ -80,7 +80,7 @@
 	agony = 20
 
 	New()
-		damage = rand(39, 48)
+		damage = rand(37, 46)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x53/tr
@@ -98,7 +98,7 @@
 	agony = 20
 
 	New()
-		damage = rand(33,  40)
+		damage = rand(31,  38)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a545x39/tr
@@ -116,7 +116,7 @@
 	agony = 20
 
 	New()
-		damage = rand(36, 40)
+		damage = rand(34, 38)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a556x45/tr
@@ -135,7 +135,7 @@
 	agony = 25
 
 	New()
-		damage = rand(30, 35)
+		damage = rand(28, 33)
 
 /obj/item/projectile/bullet/rifle/a45/tr
 	icon_state = "bullet_tracer"
@@ -150,7 +150,7 @@
 	agony = 23
 
 	New()
-		damage = rand(25, 31)
+		damage = rand(23, 29)
 
 /obj/item/projectile/bullet/rifle/a9x19/tr
 	icon_state = "bullet_tracer"

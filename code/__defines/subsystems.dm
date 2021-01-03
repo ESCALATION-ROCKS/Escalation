@@ -75,6 +75,8 @@
 #define SS_PRIORITY_WIRELESS 		-10
 #define INIT_ORDER_STICKY_BAN 		-10
 #define INIT_ORDER_LIGHTING 		-20
+#define SS_PRIORITY_CHEMISTRY      60	// Multi-tick chemical reactions.
+#define SS_INIT_CHEMISTRY        10
 #define INIT_ORDER_SQUEAK 			-40
 #define INIT_ORDER_PERSISTENCE 		-100
 #define INIT_OPEN_SPACE 			-150
@@ -82,7 +84,11 @@
 #define INIT_ORDER_PLANETS			-250
 #define SS_PRIORITY_NANO             20    // Updates to nanoui uis.
 #define INIT_ORDER_ARTILLERY		-300
-
+#define SS_PRIORITY_TIMER          20
+#define SS_PRIORITY_INACTIVITY     10  // Idle kicking.
+#define SS_PRIORITY_TGUI          20    // Updates to tgui uis.
+#define SS_PRIORITY_ALARM          20  // Alarm processing.
+#define SS_INIT_ALARM           -4
 
 // SS runlevels
 

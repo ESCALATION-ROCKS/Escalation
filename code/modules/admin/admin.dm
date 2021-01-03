@@ -806,7 +806,7 @@ var/global/floorIsLava = 0
 
 	var/confirm = alert("End the game round?", "Game Ending", "Yes", "Cancel")
 	if(confirm == "Yes")
-		SSticker.force_ending = 1
+		ticker.force_ending = 1
 		ticker.current_state = GAME_STATE_FINISHED
 		Master.SetRunLevel(RUNLEVEL_POSTGAME)
 		spawn
