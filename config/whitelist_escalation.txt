@@ -49,6 +49,7 @@ Verarch = {
 finn_officer
 finn_nco
 finn_enlisted
+sa_officer
 }
 
 Cdr_Riley = {
@@ -75,6 +76,7 @@ finn_enlisted
 
 Gefrakt = {
 finn_enlisted
+sa_enlisted
 }
 
 johnravioli = {
@@ -83,6 +85,7 @@ finn_enlisted
 
 Booperkin343435 = {
 finn_enlisted
+sa_enlisted
 }
 
 Yukfu = {
@@ -91,6 +94,7 @@ finn_enlisted
 
 FoxTail_99 = {
 finn_enlisted
+sa_enlisted
 }
 
 TurtleCactus = {
@@ -99,6 +103,7 @@ finn_enlisted
 
 NazbolGang = {
 finn_enlisted
+sa_enlisted
 }
 
 Robotic Potato = {
@@ -116,11 +121,13 @@ finn_enlisted
 
 Corbe = {
 finn_enlisted
+sa_nco
 }
 
 Manny pardo = {
 finn_enlisted
 finn_nco
+sa_nco
 }
 
 Cookie4634 = {
@@ -134,11 +141,13 @@ finn_enlisted
 Boltersam = {
 finn_enlisted
 finn_nco
+usa_nco
 }
 
 Volcorb = {
 finn_enlisted
 finn_nco
+sa_nco
 }
 
 Timtwoshoes = {
@@ -147,6 +156,7 @@ finn_enlisted
 
 LeoTheKiller = {
 finn_enlisted
+sa_enlisted
 }
 
 SickoRingo = {
@@ -159,6 +169,7 @@ finn_enlisted
 
 Echion = {
 finn_enlisted
+sa_enlisted
 }
 
 BurnedSweetPotato = {
@@ -168,10 +179,12 @@ finn_enlisted
 
 Battieralarm3 = {
 finn_enlisted
+sa_enlisted
 }
 
 cesarjunior233 = {
 finn_enlisted
+sa_enlisted
 }
 
 Real Josef Stalin = {
@@ -180,11 +193,13 @@ finn_enlisted
 
 Luftie = {
 finn_enlisted
+sa_enlisted
 }
 
 Oshibka = {
 finn_nco
 finn_enlisted
+usa_enlisted
 }
 
 CeSium_Shark = {
@@ -198,6 +213,7 @@ finn_enlisted
 
 Higher_Life = {
 finn_enlisted
+sa_enlisted
 }
 
 Villeri = {
@@ -208,6 +224,7 @@ Kyrac = {
 finn_officer
 finn_nco
 finn_enlisted
+sa_nco
 }
 
 Freiwillige = {
@@ -221,6 +238,8 @@ sa_enlisted
 
 Demkova = {
 sa_enlisted
+usa_enlisted
+usa_officer
 }
 
 SilencedMP5A5 = {
@@ -241,6 +260,7 @@ sa_enlisted
 
 epicdwarf = {
 sa_enlisted
+usa_enlisted
 }
 
 icecactus = {
@@ -253,6 +273,7 @@ sa_enlisted
 
 BornToKill946 = {
 sa_enlisted
+sa_nco
 }
 
 Tramp123 = {
@@ -281,19 +302,23 @@ baf_officer
 =======
 >>>>>>> 176c15ef43beac17b6dc8c1ea58912aa9adaf515
 baf_nco
+usa_nco
 }
 
 Master8688 = {
 baf_enlisted
+sa_enlisted
 } 
 
 taumanta = {
 baf_nco
 baf_enlisted
+usa_enlisted
 }
 
 Googles_Hands = {
 baf_enlisted
+usa_enlisted
 }
 
 TacticalPractical = {
@@ -302,6 +327,7 @@ baf_enlisted
 
 Lautaroluna180 = {
 baf_enlisted
+sa_enlisted
 }
 
 optimisticdude = {
@@ -310,6 +336,7 @@ baf_enlisted
 
 Zach666 = {
 baf_enlisted
+usa_enlisted
 }
 
 AbestosMan = {
@@ -322,15 +349,18 @@ baf_enlisted
 
 Jackomago61 = {
 baf_enlisted
+sa_enlisted
 }
 
 Yarnhut = {
 baf_enlisted
+usa_enlisted
 }
 
 Rourke39 = {
 baf_nco
 baf_enlisted
+usa_enlisted
 }
 
 Wieseltier = {
@@ -339,6 +369,7 @@ baf_enlisted
 
 BoringCommunist = {
 baf_enlisted
+usa_enlisted
 }
 
 Bonomedia = {
@@ -363,6 +394,7 @@ baf_enlisted
 
 DemtrixD = {
 baf_enlisted
+usa_enlisted
 }
 
 Ragdoll_Hooman = {
@@ -376,6 +408,7 @@ baf_enlisted
 
 The Secret Slav  = {
 baf_enlisted
+usa_enlisted
 }
 
 Arrfur  = {
@@ -405,10 +438,12 @@ baf_enlisted
 
 Bongosz = {
 baf_enlisted
+usa_nco
 }
 
 theflyingbananagaming = {
 baf_officer
+usa_nco
 }
 
 BonelessJuice  = {
@@ -442,6 +477,7 @@ baf_enlisted
 
 Moorish_infanteer = {
 baf_enlisted
+usa_enlisted
 }
 
 
@@ -452,11 +488,13 @@ baf_enlisted
 
 AsbestosMan = {
 baf_enlisted
+usa_enlisted
 }
 
 
 loserwastaken = {
 baf_enlisted
+usa_enlisted
 }
 
 Tristan63 = {
@@ -478,10 +516,12 @@ usmc_enlisted
 
 PepeFrog = {
 usmc_enlisted
+usa_enlisted
 }
 
 Subdon = {
 usmc_enlisted
+usa_enlisted
 }
 
 ToasterRoboto = {
@@ -530,4 +570,128 @@ Turret_Drehturm = {
 
 Turret_Enjoyer = {
 sa_enlisted
+::ALL::
+}
+
+
+
+
+Eric066 = {
+usa_enlisted
+}
+
+
+
+
+
+
+Commander Chris = {
+usa_enlisted
+}
+
+
+
+Comradejeff = {
+usa_enlisted
+}
+
+
+alexix1989 = {
+usa_enlisted
+}
+
+
+
+Dimosek = {
+sa_enlisted
+}
+
+
+
+gandlhoff = {
+usa_enlisted
+}
+
+
+Virilian = {
+sa_enlisted
+}
+
+
+derpymcderpderp = {
+usa_officer
+}
+
+
+
+
+Stakeyng = {
+sa_enlisted
+}
+
+pcgeek01 = {
+usa_enlisted
+}
+
+
+
+atlasrules87 = {
+sa_enlisted
+}
+
+
+
+
+Billybawblel = {
+usa_enlisted
+}
+
+
+
+
+
+I like D0nUts = {
+sa_enlisted
+}
+
+
+
+Von Carstein = {
+sa_officer
+sa_nco
+}
+
+
+
+FireNightPower = {
+usa_nco
+}
+
+
+
+
+Dreadlord56 = {
+usa_enlisted
+}
+
+
+
+DecebalStalin = {
+sa_enlisted
+}
+
+MikeForce3321 = {
+sa_enlisted
+}
+
+
+C36311 = {
+sa_enlisted
+}
+
+
+
+
+Poggamer21 = {
+usa_enlisted
 }
