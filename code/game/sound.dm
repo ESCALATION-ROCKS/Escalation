@@ -76,6 +76,8 @@ var/list/armorstepsound = list('sound/effects/equipnoise/gear1.wav','sound/effec
 var/list/foliage = list('sound/effects/foliage_01.ogg','sound/effects/foliage_02.ogg', 'sound/effects/foliage_03.ogg', 'sound/effects/foliage_04.ogg', 'sound/effects/foliage_05.ogg')
 var/list/foliagedry = list('sound/effects/foliage_forest_01.ogg','sound/effects/foliage_forest_02.ogg', 'sound/effects/foliage_forest_03.ogg', 'sound/effects/foliage_forest_04.ogg', 'sound/effects/foliage_forest_05.ogg')
 
+var/list/casing_sound = list('sound/weapons/casings/casing_drop1.ogg','sound/weapons/casings/casing_drop2.ogg','sound/weapons/casings/casing_drop3.ogg')
+
 
 /proc/playsound(var/atom/source, soundin, vol as num, vary, extrarange as num, falloff, var/is_global, var/frequency, var/is_ambiance = 0)
 
@@ -200,6 +202,7 @@ var/const/FALLOFF_SOUNDS = 0.5
 			if ("explosion") soundin = pick(explosion_sound)
 			if ("sparks") soundin = pick(spark_sound)
 			if ("rustle") soundin = pick(rustle_sound)
+			if ("casing_drop") soundin = pick(casing_sound)
 			if ("punch") soundin = pick(punch_sound)
 			if ("clownstep") soundin = pick(clown_sound)
 			if ("swing_hit") soundin = pick(swing_hit_sound)

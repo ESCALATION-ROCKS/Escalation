@@ -329,7 +329,7 @@
 	accuracy = 3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 	bayonet_attachable = 1
-	jam_chance = 0.435
+	jam_chance = 0.325
 	slowdown_general = 0.27
 	wielded_item_state = "m16-wielded"
 	fire_sound = 'sound/weapons/gunshot/m16.ogg'

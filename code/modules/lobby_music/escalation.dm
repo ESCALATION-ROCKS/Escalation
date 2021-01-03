@@ -19,3 +19,13 @@
 	artist = "The Mamas & The Papas"
 	title = "California Dreamin'"
 	song = 'sound/music/californiadreamin.ogg'
+
+/lobby_music/escalation5
+	artist = "Black Sabbath"
+	title = "Electric Funeral"
+	song = 'sound/music/electricfuneral.ogg'
+
+/lobby_music/escalation4
+	artist = "Unknown"
+	title = "Chicago Rumble"
+	song = 'sound/music/goomdusic.ogg'
