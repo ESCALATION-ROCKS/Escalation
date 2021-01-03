@@ -99,6 +99,7 @@ sa_enlisted
 
 TurtleCactus = {
 finn_enlisted
+sa_enlisted
 }
 
 NazbolGang = {
@@ -240,6 +241,7 @@ Demkova = {
 sa_enlisted
 usa_enlisted
 usa_officer
+usa_nco
 }
 
 SilencedMP5A5 = {
@@ -293,6 +295,7 @@ baf_enlisted
 Rippie129 = {
 baf_nco
 baf_enlisted
+usa_enlisted
 }
 
 Gy1ta23 = {
@@ -374,6 +377,7 @@ usa_enlisted
 
 Bonomedia = {
 baf_enlisted
+usa_enlisted
 }
 
 Zrixik = {
@@ -400,6 +404,7 @@ usa_enlisted
 Ragdoll_Hooman = {
 baf_nco
 baf_enlisted
+usa_enlisted
 }
 
 Pahndoomack  = {
@@ -429,6 +434,7 @@ baf_enlisted
 
 Fauxvail  = {
 baf_enlisted
+usa_enlisted
 }
 
 AlbertBlackwell = {
@@ -500,6 +506,7 @@ usa_enlisted
 Tristan63 = {
 usmc_nco
 usmc_enlisted
+usa_enlisted
 }
 
 TeknoKot = {
@@ -606,6 +613,9 @@ Dimosek = {
 sa_enlisted
 }
 
+Freiwillige = {
+sa_enlisted
+}
 
 
 gandlhoff = {
@@ -652,6 +662,7 @@ usa_enlisted
 
 I like D0nUts = {
 sa_enlisted
+usa_enlisted
 }
 
 
@@ -693,5 +704,49 @@ sa_enlisted
 
 
 Poggamer21 = {
+usa_enlisted
+}
+
+BlazSnake = {
+sa_enlisted
+}
+
+Jewish soul = {
+sa_enlisted
+}
+
+IFN Mccree = {
+usa_enlisted
+}
+
+
+
+
+Brother_Hangyul = {
+usa_enlisted
+}
+
+
+Morikawa_Cinatsu = {
+usa_enlisted
+}
+
+
+Coolered = {
+usa_enlisted
+}
+
+miakodakot = {
+sa_enlisted
+}
+
+
+Arbs = {
+usa_enlisted
+}
+
+
+
+TechScienc = {
 usa_enlisted
 }
