@@ -25,7 +25,7 @@
 	title = "Electric Funeral"
 	song = 'sound/music/electricfuneral.ogg'
 
-/lobby_music/escalation4
+/lobby_music/escalation6
 	artist = "Unknown"
 	title = "Chicago Rumble"
 	song = 'sound/music/goomdusic.ogg'
