@@ -51,5 +51,7 @@
 	return
 
 /datum/game_mode/wargames/check_finished()
+	if(ticker.force_ending)
+		return 1
 	if(station_was_nuked) return 1
 	return admin_ended_round

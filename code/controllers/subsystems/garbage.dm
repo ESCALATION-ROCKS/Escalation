@@ -237,21 +237,6 @@ SUBSYSTEM_DEF(garbage)
 	else if(D.gc_destroyed == GC_CURRENTLY_BEING_QDELETED)
 		CRASH("[D.type] destroy proc was called multiple times, likely due to a qdel loop in the Destroy logic")
 
-// Default implementation of clean-up code.
-// This should be overridden to remove all references pointing to the object being destroyed.
-// Return the appropriate QDEL_HINT; in most cases this is QDEL_HINT_QUEUE.
-/datum/proc/Destroy(force=FALSE)
-	tag = null
-	SSnano && SSnano.close_uis(src)
-	var/list/timers = active_timers
-	active_timers = null
-	for(var/thing in timers)
-		var/datum/timedevent/timer = thing
-		if (timer.spent)
-			continue
-		qdel(timer)
-	return QDEL_HINT_QUEUE
-
 #ifdef TESTING
 /datum/var/running_find_references
 /datum/var/last_find_references = 0
