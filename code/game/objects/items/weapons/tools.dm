@@ -208,7 +208,7 @@
 		if(userr.a_intent == I_HELP)
 			var/obj/item/organ/external/organ = H.get_organ(userr.zone_sel.selecting)
 			for(var/obj/item/O in organ.implants)
-				if(istype(O,/obj/item/weapon/material/shrapnel))
+				if(istype(O,/obj/item/weapon/material/shard/shrapnel))
 					H.visible_message("<span class='bnotice'>[userr] starts to remove \the [O.name] with \the [src].</span>")
 					if(do_after(userr, 40, src))
 						for(var/datum/wound/wound in organ.wounds)
@@ -216,7 +216,7 @@
 						organ.implants -= O
 						O.forceMove(get_turf(H))
 						H.visible_message("<span class='bnotice'>[userr] successfully removes \the [O.name] with \the [src].</span>")
-						H.custom_pain("[pick("OW!", "OH GOD WHY!", "THAT HURTS A LOT!")]", 70, affecting = organ)
+						H.custom_pain("[pick("That hurts!", "God fucking damn it!", "Shit!")]", 70, affecting = organ)
 						return
 					else
 						return
