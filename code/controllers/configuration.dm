@@ -229,6 +229,7 @@ var/list/gamemode_cache = list()
 	var/footstep_volume = 30
 
 	var/static/regex/ic_filter_regex //For the cringe filter.
+	var/radiation_material_resistance_divisor = 2 //A turf's possible radiation resistance is divided by this number, to get the real value.
 
 /datum/configuration/New()
 	var/list/L = typesof(/datum/game_mode) - /datum/game_mode
@@ -624,6 +625,10 @@ var/list/gamemode_cache = list()
 
 				if("comms_password")
 					config.comms_password = value
+
+				if("radiation_material_resistance_divisor")
+					radiation_material_resistance_divisor = text2num(value)
+				if("radiation_lower_limit")
 
 				if("ban_comms_password")
 					config.ban_comms_password = value

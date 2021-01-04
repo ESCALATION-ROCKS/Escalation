@@ -843,8 +843,6 @@
 			return global.punch_sound;
 		if("rad_collectors")
 			return global.rad_collectors;
-		if("radiation_repository")
-			return global.radiation_repository;
 		if("radio_controller")
 			return global.radio_controller;
 		if("radiochannels")
@@ -1989,8 +1987,6 @@
 			global.punch_sound=newval;
 		if("rad_collectors")
 			global.rad_collectors=newval;
-		if("radiation_repository")
-			global.radiation_repository=newval;
 		if("radio_controller")
 			global.radio_controller=newval;
 		if("radiochannels")

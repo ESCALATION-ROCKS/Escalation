@@ -138,7 +138,7 @@
 			exonet_messages.Add("<b>To [chosen_communicator]:</b><br>[text_message]")
 			log_pda("[usr] (COMM: [src]) sent \"[text_message]\" to [chosen_communicator]")
 			for(var/mob/M in GLOB.player_list)
-				if(M.stat == DEAD && M.is_preference_enabled(/datum/client_preference/ghost_ears))
+				if(M.stat == DEAD && M.get_preference_value(/datum/client_preference/ghost_ears) == GLOB.PREF_ALL_SPEECH)
 					if(istype(M, /mob/new_player))
 						continue
 					if(M == src)

@@ -309,7 +309,7 @@
 
 /obj/machinery/sunreactor/center/process()
 //	eat()
-	radiation_repository.radiate(src, energy * 5)
+	SSradiation.radiate(src, energy * 5)
 	dissipate()
 	check_energy()
 	if(current_size >= 3)
@@ -347,7 +347,7 @@
 
 	// Effect 1: Radiation, weakening to all mobs on Z level
 	for(var/z in affected_z)
-		radiation_repository.z_radiate(locate(1, 1, z), DETONATION_RADS, 1)
+		SSradiation.z_radiate(locate(1, 1, z), DETONATION_RADS, 1)
 
 	// Effect 2: Z-level wide electrical pulse
 	for(var/obj/machinery/power/apc/A in GLOB.machines)

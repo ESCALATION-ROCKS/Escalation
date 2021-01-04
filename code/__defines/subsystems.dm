@@ -89,6 +89,7 @@
 #define SS_PRIORITY_TGUI          20    // Updates to tgui uis.
 #define SS_PRIORITY_ALARM          20  // Alarm processing.
 #define SS_INIT_ALARM           -4
+#define SS_PRIORITY_RADIATION      20   // Radiation processing and cache updates.
 
 // SS runlevels
 

@@ -19,7 +19,7 @@
 /obj/item/device/geiger/process()
 	if(!scanning)
 		return
-	radiation_count = radiation_repository.get_rads_at_turf(get_turf(src))
+	radiation_count = SSradiation.get_rads_at_turf(get_turf(src))
 	update_icon()
 
 /obj/item/device/geiger/examine(mob/user)

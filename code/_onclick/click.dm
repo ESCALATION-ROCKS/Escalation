@@ -65,7 +65,7 @@
 		if(A.Adjacent(src) && !get_active_hand())
 			scramble(A)
 
-	if(stat || paralysis || stunned || weakened)
+	if(stat || paralysis || stunned || weakened || sleeping)
 		return
 
 	face_atom(A) // change direction to face what you clicked on
