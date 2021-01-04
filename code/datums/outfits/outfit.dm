@@ -60,7 +60,7 @@ var/list/outfits_decls_by_type_
 	var/messenger_bag = /obj/item/weapon/storage/backpack/messenger
 	var/satchel_black = /obj/item/weapon/storage/backpack/satchel_black
 
-	var/flags // Specific flags
+	var/flags
 
 /decl/hierarchy/outfit/New()
 	..()

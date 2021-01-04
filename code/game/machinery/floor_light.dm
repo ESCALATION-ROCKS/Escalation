@@ -78,19 +78,6 @@ var/list/floor_light_cache = list()
 		update_brightness()
 		return
 
-/obj/machinery/floor_light/process()
-	..()
-	var/need_update
-	if((!anchored || broken()) && on)
-		use_power = 0
-		on = 0
-		need_update = 1
-	else if(use_power && !on)
-		use_power = 0
-		need_update = 1
-	if(need_update)
-		update_brightness()
-
 /obj/machinery/floor_light/proc/update_brightness()
 	if(on && use_power == 2)
 		if(light_range != default_light_range || light_power != default_light_power || light_color != default_light_colour)
@@ -148,9 +135,3 @@ var/list/floor_light_cache = list()
 			else if(isnull(damaged))
 				damaged = 0
 	return
-
-/obj/machinery/floor_light/Destroy()
-	var/area/A = get_area(src)
-	if(A)
-		on = 0
-	. = ..()
