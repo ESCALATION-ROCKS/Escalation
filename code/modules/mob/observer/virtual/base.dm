@@ -23,7 +23,6 @@ var/list/all_virtual_listeners = list()
 	src.host = host
 	GLOB.moved_event.register(host, src, /atom/movable/proc/move_to_turf_or_null)
 
-	SSmobs.mob_list -= src
 	all_virtual_listeners += src
 
 	update_icon()
