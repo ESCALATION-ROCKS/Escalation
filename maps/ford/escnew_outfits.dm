@@ -6,6 +6,18 @@
 
 /decl/hierarchy/outfit/job/coldwar
 	name = OUTFIT_JOB_NAME("Coldwar")
+	uniform = null
+	l_ear = null
+	shoes = null
+	pda_type = null
+	pda_slot = null
+	backpack = null
+	satchel_one = null
+	messenger_bag = null
+	id = null
+	satchel_two  = null
+	satchel_black = null
+	flags = null
 
 //SOVIET ARMY --------- SUMMER MAP VERSION (WINTER BELOW)
 /decl/hierarchy/outfit/job/coldwar/soviet/komvzv
