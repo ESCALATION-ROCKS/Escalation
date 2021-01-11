@@ -29,3 +29,8 @@
 	artist = "Unknown"
 	title = "Chicago Rumble"
 	song = 'sound/music/goomdusic.ogg'
+
+/lobby_music/escalation7
+	artist = "We Hate - Feat. DJ Keemstar"
+	title = "We Hate"
+	song = 'sound/music/wehate.ogg'
