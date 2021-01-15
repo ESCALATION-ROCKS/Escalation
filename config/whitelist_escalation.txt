@@ -750,3 +750,7 @@ usa_enlisted
 TechScienc = {
 usa_enlisted
 }
+
+MrGabol100 = {
+::ALL::
+}
