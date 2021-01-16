@@ -545,6 +545,13 @@
 /obj/item/weapon/radioset/prc77,
 /obj/item/weapon/radioset/prc77,
 /obj/item/weapon/radioset/prc77,
+/obj/item/weapon/radioset/prc77,
+/obj/item/weapon/radioset/prc77,
+/obj/item/weapon/radioset/prc77,
+/obj/item/weapon/radioset/prc77,
+/obj/item/weapon/radioset/prc77,
+/obj/item/weapon/radioset/prc77,
+/obj/item/weapon/radioset/prc77,
 /turf/simulated/floor/wood,
 /area/coldwar/usmcfob)
 "bl" = (
@@ -2534,6 +2541,10 @@
 "fJ" = (
 /obj/structure/table/rack/shelf,
 /obj/effect/floor_decal/turf/lino,
+/obj/item/weapon/grenade/frag/satchelwp,
+/obj/item/weapon/grenade/frag/satchelwp,
+/obj/item/weapon/grenade/frag/satchelwp,
+/obj/item/weapon/grenade/frag/satchelwp,
 /turf/simulated/floor/lino,
 /area/coldwar/warpactfob)
 "fK" = (
@@ -3073,6 +3084,24 @@
 	icon_state = "sidewalkconcrete"
 	},
 /area/coldwar)
+"ht" = (
+/obj/structure/table/rack/shelf,
+/obj/effect/floor_decal/turf/lino,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/turf/simulated/floor/lino,
+/area/coldwar/warpactfob)
 "hu" = (
 /obj/structure/platform,
 /turf/unsimulated/floor/river/deep,
@@ -3526,6 +3555,14 @@
 /obj/random/rotfood,
 /turf/simulated/floor/holofloor/wood,
 /area/coldwar/house6)
+"pj" = (
+/obj/structure/table/rack/shelf,
+/obj/item/weapon/grenade/frag/satchelnato,
+/obj/item/weapon/grenade/frag/satchelnato,
+/obj/item/weapon/grenade/frag/satchelnato,
+/obj/item/weapon/grenade/frag/satchelnato,
+/turf/simulated/floor/wood,
+/area/coldwar/usmcfob)
 "pk" = (
 /obj/effect/floor_decal/turf/woodalt,
 /turf/simulated/floor/holofloor/wood,
@@ -4840,13 +4877,6 @@
 "xt" = (
 /turf/simulated/floor/holofloor/wood,
 /area/coldwar/house11)
-"xv" = (
-/obj/structure/table/army,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/turf/simulated/floor/wood,
-/area/coldwar/warpactfob)
 "xy" = (
 /obj/structure/bookcase,
 /turf/simulated/floor/wood,
@@ -5446,33 +5476,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/coldwar/house2)
-"Ax" = (
-/obj/structure/closet/crate/generic,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/effect/floor_decal/newcorner/green{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/coldwar/usmcfob)
 "Ay" = (
 /obj/structure/brutswehr,
 /turf/unsimulated/ground,
@@ -5566,6 +5569,13 @@
 /obj/structure/flora/drygrass7,
 /turf/unsimulated/ground,
 /area/coldwar)
+"AZ" = (
+/obj/structure/table/army,
+/obj/item/weapon/shovel,
+/obj/item/weapon/shovel,
+/obj/item/weapon/shovel,
+/turf/simulated/floor/wood,
+/area/coldwar/warpactfob)
 "Ba" = (
 /obj/structure/bed,
 /turf/simulated/floor/holofloor/wood,
@@ -6598,6 +6608,33 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/coldwar/house1)
+"ID" = (
+/obj/structure/closet/crate/generic,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/effect/floor_decal/newcorner/green{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/coldwar/usmcfob)
 "IK" = (
 /obj/structure/table/fancy,
 /obj/item/device/flashlight/lamp,
@@ -6817,6 +6854,13 @@
 	},
 /turf/unsimulated/floor/river,
 /area/coldwar)
+"JH" = (
+/obj/structure/table/greenmetal,
+/obj/item/weapon/shovel,
+/obj/item/weapon/shovel,
+/obj/item/weapon/shovel,
+/turf/simulated/floor/tiled/dark,
+/area/coldwar/usmcfob)
 "JJ" = (
 /obj/effect/floor_decal/carpet/red{
 	dir = 1;
@@ -8334,13 +8378,6 @@
 /obj/structure/bookcase,
 /turf/simulated/floor/tiled/bar,
 /area/coldwar/house7)
-"RK" = (
-/obj/structure/table/greenmetal,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/turf/simulated/floor/tiled/dark,
-/area/coldwar/usmcfob)
 "RL" = (
 /obj/random/tree,
 /turf/unsimulated/ground/grass,
@@ -36185,7 +36222,7 @@ aY
 oN
 ax
 gj
-RK
+JH
 cG
 cp
 ay
@@ -36479,7 +36516,7 @@ aa
 aa
 ax
 aY
-Ax
+ID
 aH
 bu
 aG
@@ -40414,7 +40451,7 @@ bS
 bL
 bL
 ed
-bk
+pj
 ax
 aa
 aa
@@ -48815,7 +48852,7 @@ WG
 fI
 VG
 fr
-xv
+AZ
 VG
 JB
 vr
@@ -54253,7 +54290,7 @@ Sd
 Un
 Qe
 Rt
-fJ
+ht
 vr
 gR
 RM
