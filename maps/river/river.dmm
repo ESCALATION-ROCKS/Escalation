@@ -3006,6 +3006,13 @@
 /obj/item/weapon/storage/box/irp/var2,
 /turf/simulated/floor/tiled/dark,
 /area/coldwar/warpactfob)
+"gW" = (
+/obj/structure/table/greenmetal,
+/obj/item/weapon/shovel,
+/obj/item/weapon/shovel,
+/obj/item/weapon/shovel,
+/turf/simulated/floor/tiled/dark,
+/area/coldwar/usmcfob)
 "gX" = (
 /obj/structure/railing,
 /obj/structure/platform{
@@ -3084,24 +3091,6 @@
 	icon_state = "sidewalkconcrete"
 	},
 /area/coldwar)
-"ht" = (
-/obj/structure/table/rack/shelf,
-/obj/effect/floor_decal/turf/lino,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/obj/item/weapon/radioset/r105d,
-/turf/simulated/floor/lino,
-/area/coldwar/warpactfob)
 "hu" = (
 /obj/structure/platform,
 /turf/unsimulated/floor/river/deep,
@@ -3491,6 +3480,33 @@
 /obj/item/weapon/storage/box/masks,
 /turf/simulated/floor/tiled/freezer,
 /area/coldwar/usmcfob)
+"nI" = (
+/obj/structure/closet/crate/generic,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/item/ammo_magazine/c762x51s,
+/obj/effect/floor_decal/newcorner/green{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/coldwar/usmcfob)
 "nL" = (
 /obj/machinery/door/unpowered/simple/woodalt,
 /turf/simulated/floor/holofloor/wood,
@@ -3547,6 +3563,14 @@
 /obj/machinery/light/coldtint,
 /turf/simulated/floor/tiled/bunker,
 /area/coldwar/usmcfob)
+"oP" = (
+/obj/structure/table/rack/shelf,
+/obj/item/weapon/grenade/frag/satchelnato,
+/obj/item/weapon/grenade/frag/satchelnato,
+/obj/item/weapon/grenade/frag/satchelnato,
+/obj/item/weapon/grenade/frag/satchelnato,
+/turf/simulated/floor/wood,
+/area/coldwar/usmcfob)
 "pg" = (
 /turf/simulated/wall/concrete,
 /area/coldwar)
@@ -3555,14 +3579,6 @@
 /obj/random/rotfood,
 /turf/simulated/floor/holofloor/wood,
 /area/coldwar/house6)
-"pj" = (
-/obj/structure/table/rack/shelf,
-/obj/item/weapon/grenade/frag/satchelnato,
-/obj/item/weapon/grenade/frag/satchelnato,
-/obj/item/weapon/grenade/frag/satchelnato,
-/obj/item/weapon/grenade/frag/satchelnato,
-/turf/simulated/floor/wood,
-/area/coldwar/usmcfob)
 "pk" = (
 /obj/effect/floor_decal/turf/woodalt,
 /turf/simulated/floor/holofloor/wood,
@@ -5569,13 +5585,6 @@
 /obj/structure/flora/drygrass7,
 /turf/unsimulated/ground,
 /area/coldwar)
-"AZ" = (
-/obj/structure/table/army,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/turf/simulated/floor/wood,
-/area/coldwar/warpactfob)
 "Ba" = (
 /obj/structure/bed,
 /turf/simulated/floor/holofloor/wood,
@@ -6352,6 +6361,13 @@
 /obj/structure/table/fancy,
 /turf/simulated/floor/tiled/bar,
 /area/coldwar/house15)
+"Hl" = (
+/obj/structure/table/army,
+/obj/item/weapon/shovel,
+/obj/item/weapon/shovel,
+/obj/item/weapon/shovel,
+/turf/simulated/floor/wood,
+/area/coldwar/warpactfob)
 "Hm" = (
 /obj/structure/platform{
 	dir = 4
@@ -6608,33 +6624,6 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/coldwar/house1)
-"ID" = (
-/obj/structure/closet/crate/generic,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/item/ammo_magazine/c762x51s,
-/obj/effect/floor_decal/newcorner/green{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/coldwar/usmcfob)
 "IK" = (
 /obj/structure/table/fancy,
 /obj/item/device/flashlight/lamp,
@@ -6854,13 +6843,6 @@
 	},
 /turf/unsimulated/floor/river,
 /area/coldwar)
-"JH" = (
-/obj/structure/table/greenmetal,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/turf/simulated/floor/tiled/dark,
-/area/coldwar/usmcfob)
 "JJ" = (
 /obj/effect/floor_decal/carpet/red{
 	dir = 1;
@@ -7220,6 +7202,24 @@
 /obj/item/weapon/reagent_containers/glass/bottle/doxicycline,
 /obj/item/weapon/reagent_containers/glass/bottle/doxicycline,
 /turf/simulated/floor/plating,
+/area/coldwar/warpactfob)
+"LJ" = (
+/obj/structure/table/rack/shelf,
+/obj/effect/floor_decal/turf/lino,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/obj/item/weapon/radioset/r105d,
+/turf/simulated/floor/lino,
 /area/coldwar/warpactfob)
 "LN" = (
 /obj/effect/floor_decal/turf/woodalt4,
@@ -8944,6 +8944,12 @@
 /obj/structure/carcosa/statue,
 /turf/unsimulated/floor/road{
 	icon_state = "sidewalkconcrete"
+	},
+/area/coldwar)
+"UM" = (
+/obj/random/tree,
+/turf/unsimulated/floor/road{
+	icon_state = "concreteroad"
 	},
 /area/coldwar)
 "UO" = (
@@ -36222,7 +36228,7 @@ aY
 oN
 ax
 gj
-JH
+gW
 cG
 cp
 ay
@@ -36516,7 +36522,7 @@ aa
 aa
 ax
 aY
-ID
+nI
 aH
 bu
 aG
@@ -40451,7 +40457,7 @@ bS
 bL
 bL
 ed
-pj
+oP
 ax
 aa
 aa
@@ -48852,7 +48858,7 @@ WG
 fI
 VG
 fr
-AZ
+Hl
 VG
 JB
 vr
@@ -54290,7 +54296,7 @@ Sd
 Un
 Qe
 Rt
-ht
+LJ
 vr
 gR
 RM
@@ -65492,12 +65498,12 @@ ag
 ag
 ag
 ag
-ag
-ag
-ag
-ag
-ag
-ag
+UM
+UM
+UM
+UM
+UM
+UM
 aa
 aa
 "}
@@ -65799,7 +65805,7 @@ ag
 ag
 ag
 ag
-ag
+UM
 aa
 aa
 "}
@@ -66101,7 +66107,7 @@ ag
 ag
 ag
 ag
-ag
+UM
 aa
 aa
 "}
@@ -66403,7 +66409,7 @@ ag
 ag
 ag
 ag
-ag
+UM
 aa
 aa
 "}
@@ -67002,12 +67008,12 @@ ag
 ag
 ag
 ag
-ag
-ag
-ag
-ag
-ag
-ag
+UM
+UM
+UM
+UM
+UM
+UM
 aa
 aa
 "}
@@ -67304,12 +67310,12 @@ ag
 ag
 ag
 ag
+UM
 ag
 ag
 ag
 ag
-ag
-ag
+UM
 aa
 aa
 "}
@@ -67606,12 +67612,12 @@ ag
 ag
 ag
 ag
+UM
 ag
 ag
 ag
 ag
-ag
-ag
+UM
 aa
 aa
 "}
@@ -67908,12 +67914,12 @@ ag
 ag
 ag
 ag
+UM
 ag
 ag
 ag
 ag
-ag
-ag
+UM
 aa
 aa
 "}
@@ -68210,12 +68216,12 @@ ag
 ag
 ag
 ag
-ag
-ag
-ag
-ag
-ag
-ag
+UM
+UM
+UM
+UM
+UM
+UM
 aa
 aa
 "}
@@ -68814,12 +68820,12 @@ ag
 ag
 ag
 ag
-ag
-ag
-ag
-ag
-ag
-ag
+UM
+UM
+UM
+UM
+UM
+UM
 aa
 aa
 "}
@@ -69121,7 +69127,7 @@ ag
 ag
 ag
 ag
-ag
+UM
 aa
 aa
 "}
@@ -69423,7 +69429,7 @@ ag
 ag
 ag
 ag
-ag
+UM
 aa
 aa
 "}
@@ -69725,7 +69731,7 @@ ag
 ag
 ag
 ag
-ag
+UM
 aa
 aa
 "}
