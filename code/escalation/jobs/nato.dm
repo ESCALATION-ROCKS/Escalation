@@ -1299,8 +1299,8 @@
 		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/usa/usaaidman
-	title = "USA Aidman"
-	name = "Aidman"
+	title = "USA Medic"
+	name = "Medic"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1309,7 +1309,7 @@
 	selection_color = "#B0C4DE"
 	position = "team"
 	enabled = 1
-	amount = 1
+	amount = 3
 	whitelist_rank = "usa_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
 
