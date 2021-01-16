@@ -64,7 +64,7 @@
 	rank_number = 2
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 45)
 
@@ -163,7 +163,7 @@
 	selection_color = "#B22222"
 	rank_number = 4
 	position = "team"
-	amount = 1
+	amount = 3
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)
@@ -260,7 +260,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/platmgunner
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/mgunner
 	selection_color = "#B22222"
 	rank_number = 5
 	position = "fireteam"

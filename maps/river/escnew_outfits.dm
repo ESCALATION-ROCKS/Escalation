@@ -160,7 +160,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rpk74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -172,8 +172,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/soviet
@@ -2132,8 +2132,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/rifleman/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/grenadier
 	name = OUTFIT_JOB_NAME("Coldwar - USA Grenadier")
@@ -2150,8 +2149,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/grenadier/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - USA Machine Gunner")
@@ -2168,8 +2166,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/mgunner/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/mgunnera
 	name = OUTFIT_JOB_NAME("Coldwar - USA Machine Gunner Assistant")
@@ -2186,8 +2183,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/mgunnera/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/atcommander
 	name = OUTFIT_JOB_NAME("Coldwar - USA AT Commander")
@@ -2206,8 +2202,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/atgunner/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/atgunner
 	name = OUTFIT_JOB_NAME("Coldwar - USA AT Gunner")
@@ -2226,8 +2221,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/atgunner/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/atass
 	name = OUTFIT_JOB_NAME("Coldwar - USA AT Assistant")
@@ -2244,8 +2238,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/atass/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/ftleader
 	name = OUTFIT_JOB_NAME("Coldwar - USA FT Leader")
@@ -2262,8 +2255,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/ftleader/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/sl
 	name = OUTFIT_JOB_NAME("Coldwar - USA SL")
@@ -2283,8 +2275,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/sl/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/medic
 	name = OUTFIT_JOB_NAME("Coldwar - USA Field Medic")
@@ -2301,8 +2292,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/corpsman/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - USA Field Surgeon")
@@ -2332,8 +2322,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/platlead/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/platleaddep
 	name = OUTFIT_JOB_NAME("Coldwar - USA Platoon Leader Deputy")
@@ -2351,8 +2340,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/platleaddep/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/rto
 	name = OUTFIT_JOB_NAME("Coldwar - USA Radiotelephone Operator")
@@ -2370,8 +2358,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/ratelo/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/messenger
 	name = OUTFIT_JOB_NAME("Coldwar - USA HQ Messenger")
@@ -2394,9 +2381,9 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/sgt
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/rifle/boltaction/m40a1
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/m40
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/m40
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	right_pouch = null
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/usmc
@@ -2405,8 +2392,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/marksman/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/quartermaster
 	name = OUTFIT_JOB_NAME("Coldwar - USA Quartermaster")
@@ -2438,8 +2424,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/hws_commander/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/hws_loader
 	name = OUTFIT_JOB_NAME("Coldwar - USA HWS Loader")
@@ -2455,8 +2440,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/hws_loader/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
 /decl/hierarchy/outfit/job/coldwar/usa/hws_operator
 	name = OUTFIT_JOB_NAME("Coldwar - USA HWS Operator")
@@ -2472,6 +2456,5 @@
 
 /decl/hierarchy/outfit/job/coldwar/usa/hws_operator/pre_equip(mob/living/carbon/human/H)
 	..()
-	suit = pick(/obj/item/clothing/suit/storage/vest/pasgt, /obj/item/clothing/suit/storage/vest/pasgt/woodland)
-	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 

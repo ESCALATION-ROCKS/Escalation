@@ -1436,8 +1436,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usaftmg
-	title = "USA Fireteam Machinegunner"
-	name = "Fireteam Machinegunner"
+	title = "USA Machinegunner"
+	name = "Machinegunner"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1445,7 +1445,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/mgunner
 	selection_color = "#B0C4DE"
 	rank_number = 6
-	position = "fireteam"
+	position = "team"
 	amount = 2
 	enabled = 1
 	whitelist_rank = "usa_enlisted"
@@ -1476,16 +1476,16 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usaftmga
-	title = "USA Fireteam Machinegunner Assistant"
-	name = "Fireteam Machinegunner Assistant"
+	title = "USA Machinegunner Assistant"
+	name = " Machinegunner Assistant"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/mgunnera
 	selection_color = "#B0C4DE"
-	rank_number = 6
-	position = "fireteam"
+	rank_number = 7
+	position = "team"
 	amount = 2
 	enabled = 1
 	whitelist_rank = "usa_enlisted"
