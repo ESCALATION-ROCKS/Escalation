@@ -209,25 +209,28 @@
 	agony = 12
 	armor_penetration = -7
 	check_armour = "bomb"
+	kill_count = 13
 
 	New()
-		damage = rand(12, 29)
+		damage = rand(11, 33)
 
 /obj/item/projectile/bullet/pellet/fragment/offensive
 	agony = 9
 	armor_penetration = -9
 	check_armour = "bomb"
+	kill_count = 6
 
 	New()
-		damage = rand(10, 25)
+		damage = rand(8, 29)
 
 /obj/item/projectile/bullet/pellet/fragment/ugl
 	agony = 8
 	armor_penetration = -11
 	check_armour = "bomb"
+	kill_count = 6
 
 	New()
-		damage = rand(7, 22)
+		damage = rand(5, 27)
 
 
 
