@@ -227,7 +227,7 @@
 
 //proc/explosion(turf/epicenter, devastation_range, heavy_impact_range, light_impact_range, flash_range, adminlog = 1, z_transfer = UP|DOWN, shaped)
 /obj/item/projectile/bullet/ags30x29mm/on_impact(var/atom/target, var/blocked = 0)
-	explosion(target, 0, 1, 3, 4)
+	explosion(target, 0, 1, 3, 3)
 
 /obj/item/projectile/bullet/ags30x29mm/pow
 	damage = 110
@@ -238,7 +238,7 @@
 	kill_count = 70
 
 /obj/item/projectile/bullet/ags30x29mm/pow/on_impact(var/atom/target, var/blocked = 0)
-	explosion(target, 0, 2, 3, 4)
+	explosion(target, 0, 2, 3, 3)
 
 /obj/item/projectile/bullet/mk19_40x53mm
 	name = "MK19' bullet"
@@ -250,7 +250,7 @@
 	kill_count = 60
 
 /obj/item/projectile/bullet/mk19_40x53mm/on_impact(var/atom/target, blocked = 0)
-	explosion(target, 0, 1, 5, 6)//a little bit explosive that 30x29
+	explosion(target, 0, 1, 5, 4)//a little bit explosive that 30x29
 
 
 /obj/item/projectile/bullet/mk19_40x53mm/pow
@@ -262,7 +262,7 @@
 	kill_count = 70
 
 /obj/item/projectile/bullet/mk19_40x53mm/on_impact(var/atom/target, blocked = 0)
-	explosion(target, 0, 1, 4, 5)
+	explosion(target, 0, 1, 4, 3)
 
 /obj/item/projectile/bullet/rgprocket
 	name = "rpg shell"
