@@ -1,9 +1,9 @@
 // Eyes
-/datum/gear/eyes
+/*datum/gear/eyes
 	display_name = "eyepatch"
 	path = /obj/item/clothing/glasses/eyepatch
 	slot = slot_glasses
-	sort_category = "Glasses and Eyewear"
+	sort_category = "Glasses and Eyewear"*/
 
 /datum/gear/eyes/glasses
 	display_name = "prescription glasses"
