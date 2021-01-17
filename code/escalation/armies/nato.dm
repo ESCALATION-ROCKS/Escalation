@@ -22,7 +22,7 @@
 	fireteam_names = list("Squad #1", "Squad #2", "Squad #3", "Squad #4")
 
 /datum/army_faction/nato/usa
-	name = "United States Army"
+	name = "United States Army (1983)"
 	enabled = 1
 	faction_tag = "usa"
 	flag_state = "us"
