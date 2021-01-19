@@ -257,6 +257,7 @@
 	icon_state = "sa_harness"
 	item_state = "sm_harness"
 	storage_slots = 3
+	show_above_suit = 1
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
 	/obj/item/weapon/storage/firstaid/sa_ifak)
