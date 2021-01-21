@@ -19,9 +19,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-	light_range = 2
-	light_power = 1
-	light_color = "#ff5e00"
 
 /obj/item/projectile/bullet/rifle/a762x39/ap
 	armor_penetration = 35
@@ -50,9 +47,6 @@
 	agony = 20
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-	light_range = 2
-	light_power = 1
-	light_color = "#ffe600"
 
 	New()
 		damage = rand(40, 50)
@@ -78,9 +72,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-	light_range = 2
-	light_power = 1
-	light_color = "#5eff00"
 
 /obj/item/projectile/bullet/rifle/a762x54/ap
 	armor_penetration = 60
@@ -102,9 +93,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-	light_range = 2
-	light_power = 1
-	light_color = "#ff0000"
 
 /obj/item/projectile/bullet/rifle/a762x53/ap
 	armor_penetration = 60
@@ -125,9 +113,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-	light_range = 2
-	light_power = 1
-	light_color = "#ee0e59"
 
 /obj/item/projectile/bullet/rifle/a545x39/ap
 	armor_penetration = 30
@@ -148,9 +133,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-	light_range = 2
-	light_power = 1
-	light_color = "#ebae06"
 
 /obj/item/projectile/bullet/rifle/a556x45/ap
 	armor_penetration = 35
@@ -224,9 +206,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-	light_range = 2
-	light_power = 1
-	light_color = "#1fe478"
 
 /obj/item/projectile/bullet/rifle/a127x108mm/ap
 	armor_penetration = 75
@@ -247,9 +226,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-	light_range = 2
-	light_power = 1
-	light_color = "#ff3c00"
 
 /obj/item/projectile/bullet/rifle/a50cal/ap
 	armor_penetration = 65

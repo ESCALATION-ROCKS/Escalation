@@ -1240,6 +1240,16 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/summer/log1 = 1,
 					/obj/structure/flora/summer/log2 = 1)
 
+/obj/random/mine/pfm
+	name = "PFM minefield"
+	desc = "This is a PFM minefield"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "tree1"
+	spawn_nothing_percentage = 97
+
+/obj/random/mine/pfm/spawn_choices()
+		return list(/obj/item/weapon/mine/pfm1/armed = 1)
+
 /obj/random/nofoliage
 	name = "No foliage"
 	desc = "nothing to see there"

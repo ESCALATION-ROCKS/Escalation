@@ -185,7 +185,7 @@
 
 /obj/item/weapon/mine/pmn
 	name = "PMN-1"
-	desc = "That's the generic mine used by Warsaw Pact military."
+	desc = "That's the most common mine used by Warsaw Pact military."
 	icon = 'icons/obj/mines.dmi'
 	icon_state = "pmn1"
 	active = 0
@@ -202,7 +202,7 @@
 
 /obj/item/weapon/mine/pfm1
 	name = "PFM-1"
-	desc = "That's the generic mine used by Warsaw Pact military."
+	desc = "That's a curious mine used by Warsaw Pact military. It seems to resemble a plastic toy."
 	icon = 'icons/obj/mines.dmi'
 	icon_state = "pfm1"
 	active = 0
@@ -223,7 +223,7 @@
 
 /obj/item/weapon/mine/m16
 	name = "M16 APM"
-	desc = "That's the generic bouncing mine used by NATO."
+	desc = "That's the bouncing mine used by NATO."
 	icon = 'icons/obj/mines.dmi'
 	icon_state = "m16apm"
 	active = 0
@@ -242,7 +242,7 @@
 
 /obj/item/weapon/mine/ozm72
 	name = "OZM-72"
-	desc = "That's the generic bouncing mine used by Warsaw Pact. Also known as 'Witch' among Soviet troopers."
+	desc = "That's the bouncing mine used by Warsaw Pact. Also known as 'Witch' among Soviet soldiers."
 	icon = 'icons/obj/mines.dmi'
 	icon_state = "ozm72"
 	active = 0

@@ -375,7 +375,45 @@
 	icon = 'icons/obj/structures/fence/concrete.dmi'
 	icon_state = "fence_0"
 
-/obj/structure/newfence/woodenhigh
+/obj/structure/concretefence
+	layer = ABOVE_OBJ_LAYER + 0.1
+	plane = ABOVE_HUMAN_PLANE
+
+/obj/structure/concretefence/New()
+	update_nearby_icons()
+
+	//Update Sides
+/obj/structure/concretefence/proc/update_nearby_icons()
+	update_icon()
+	for(var/direction in GLOB.cardinal)
+		for(var/obj/structure/concretefence/B in get_step(src,direction))
+			B.update_icon()
+
+	//Update Icons
+/obj/structure/concretefence/update_icon()
+	spawn(2)
+		if(!src)
+			return
+		var/junction = 0 //will be used to determine from which side the barricade is connected to other barricades
+		for(var/obj/structure/concretefence/B in orange(src,1))
+			if(abs(x-B.x)-abs(y-B.y) ) 		//doesn't count barricades, placed diagonally to src
+				junction |= get_dir(src,B)
+
+		icon_state = "fence_[junction]"
+		return
+
+
+/obj/structure/concretefence/concrete
+	name = "concrete fence"
+	desc = "You've definetly seen this fence before."
+	density = 1
+	anchored = 1
+	opacity = 1
+	icon = 'icons/obj/structures/fence/concrete.dmi'
+	icon_state = "fence_0"
+
+/obj/structure/concretefence/woodenhigh
+	flags = OBJ_CLIMBABLE
 	name = "high wooden fence"
 	desc = "You've definetly seen this fence before."
 	density = 1
@@ -383,4 +421,3 @@
 	opacity = 1
 	icon = 'icons/obj/structures/fence/woodenhigh.dmi'
 	icon_state = "fence_0"
-

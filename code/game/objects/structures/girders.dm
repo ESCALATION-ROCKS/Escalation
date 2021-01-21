@@ -313,7 +313,7 @@
 		dismantle()
 
 
-/obj/structure/concretegirder
+/obj/structure/girder/concrete
 	name = "concrete wreckage"
 	icon_state = "conwreckage"
 	anchored = 1

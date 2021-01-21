@@ -5,7 +5,7 @@
 //	fireteam_names = list("Anna", "Boris", "Vasiliy", "Grigoriy")
 
 /datum/army_faction/warpac/nvaddr
-	name = "Nationale Volksarmee"
+	name = "Nationale Volksarmee (1983)"
 	enabled = 1
 	faction_tag = "nvaddr"
 	flag_state = "nvaddr"
@@ -14,7 +14,7 @@
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
 
 /datum/army_faction/warpac/soviet
-	name = "Sovetskaya Armiya"
+	name = "Sovetskaya Armiya (1983)"
 	enabled = 1
 	faction_tag = "cccp"
 	flag_state = "soviet"

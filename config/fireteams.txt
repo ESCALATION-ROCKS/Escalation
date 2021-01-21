@@ -62,17 +62,58 @@ OTV-2:cccp
 
 # NATO
 
-Squad Delta:usmc
+Squad Alpha:usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcftlat
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftar
+/datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmccorpsman
+@END@
+
+Squad Bravo:usmc
+/datum/job/escalation/usmc/usmcsl
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftar
+/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftar
+/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
+@END@
+
+Squad Charlie:usmc
+/datum/job/escalation/usmc/usmcsl
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftar
+/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftar
+/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
+@END@
+
+HWS-1:usmc
+/datum/job/escalation/usmc/usmcmgcom
+/datum/job/escalation/usmc/usmcmgop
+/datum/job/escalation/usmc/usmcmgload
+@END@
+
+HWS-2:usmc
+/datum/job/escalation/usmc/usmcmgcom
+/datum/job/escalation/usmc/usmcmgop
+/datum/job/escalation/usmc/usmcmgload
+@END@
+
+AT-1:usmc
+/datum/job/escalation/usmc/usmcatcom
+/datum/job/escalation/usmc/usmcat
+/datum/job/escalation/usmc/usmcata
 @END@
 
 Gruppe Alpha:bund
@@ -220,43 +261,43 @@ Heavy Weapons Team:baf
 Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvagrenat
-/datum/job/escalation/nvaddr/nvaatrifle
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvacorpsman
 @END@
 
 Gruppe 'Berta':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvagrengl
-/datum/job/escalation/nvaddr/nvaatrifle
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvacorpsman
 @END@
 
 Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvasrad
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvagrengl
-/datum/job/escalation/nvaddr/nvaatrifle
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvacorpsman
 @END@
 
-Schweren Waffen Gruppe:nvaddr
+1. Schweren Waffen Gruppe:nvaddr
+/datum/job/escalation/nvaddr/mgcom
+/datum/job/escalation/nvaddr/mgload
+/datum/job/escalation/nvaddr/mgop
+@END@
+
+2. Schweren Waffen Gruppe:nvaddr
 /datum/job/escalation/nvaddr/mgcom
 /datum/job/escalation/nvaddr/mgload
 /datum/job/escalation/nvaddr/mgop

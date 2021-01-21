@@ -163,6 +163,11 @@
 	desc = "That's a generic field cap in a woodland pattern."
 	icon_state = "woodland_cap"
 
+/obj/item/clothing/head/usmc/cover
+	name = " utility cover"
+	desc = "A green utility cover."
+	icon_state = "greenutility"
+
 /obj/item/clothing/head/usmc/boonie/woodland
 	name = "boonie hat"
 	desc = "That's a generic boonie hat in a woodland pattern."
