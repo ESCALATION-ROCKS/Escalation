@@ -563,7 +563,7 @@
 	rank_number = 0
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
@@ -662,8 +662,8 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/sanitar
 	selection_color = "#FA8072"
 	rank_number = 4
-	position = "fireteam"
-	amount = 4
+	position = "team"
+	amount = 3
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)

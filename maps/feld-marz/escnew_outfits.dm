@@ -386,6 +386,7 @@
 	suit = null
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 
 
 /decl/hierarchy/outfit/job/coldwar/usmc/sl
