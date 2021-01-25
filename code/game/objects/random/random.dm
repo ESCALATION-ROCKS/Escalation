@@ -1250,6 +1250,36 @@ obj/random/hostilenew/spawn_choices()
 /obj/random/mine/pfm/spawn_choices()
 		return list(/obj/item/weapon/mine/pfm1/armed = 1)
 
+/obj/random/mine/pfmhigh
+	name = "PFM minefield high"
+	desc = "This is a PFM minefield"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "tree1"
+	spawn_nothing_percentage = 70
+
+/obj/random/mine/pfm/spawn_choices()
+		return list(/obj/item/weapon/mine/pfm1/armed = 1)
+
+/obj/random/mine/ozm72
+	name = "OZM72 minefield"
+	desc = "This is a PFM minefield"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "tree1"
+	spawn_nothing_percentage = 97
+
+/obj/random/mine/pfm/spawn_choices()
+		return list(/obj/item/weapon/mine/ozm72/armed = 1)
+
+/obj/random/mine/ozm72high
+	name = "OZM72 minefield high"
+	desc = "This is a PFM minefield"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "tree1"
+	spawn_nothing_percentage = 70
+
+/obj/random/mine/pfm/spawn_choices()
+		return list(/obj/item/weapon/mine/ozm72/armed = 1)
+
 /obj/random/nofoliage
 	name = "No foliage"
 	desc = "nothing to see there"
