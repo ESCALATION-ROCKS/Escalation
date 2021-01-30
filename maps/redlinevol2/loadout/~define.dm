@@ -1,0 +1,4 @@
+
+#undef CIVILIAN_ROLES
+#undef ARMED_ROLES
+#undef STERILE_ROLES
