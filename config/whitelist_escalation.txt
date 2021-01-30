@@ -189,10 +189,13 @@ usa_enlisted
 
 firenightpower = {
 usa_nco
+usmc_enlisted
+usa_enlisted
 }
 
 theflyingbananagaming = {
 usa_nco
+nva_nco
 }
 
 dreadlord56 = {
@@ -218,6 +221,9 @@ sa_enlisted
 Master8688 = {
 sa_nco
 sa_enlisted
+nva_officer
+ddr_officer
+sa_officer
 }
 
 
@@ -398,10 +404,12 @@ sa_enlisted
 
 BlazSnake = {
 sa_enlisted
+usa_enlisted
 }
 
 Battieralarm3 = {
 sa_enlisted
+sa_nco
 }
 
 Stakeyng = {
@@ -410,4 +418,227 @@ sa_enlisted
 
 BurnedSweetPotato = {
 sa_enlisted
+sa_officer
+}
+SilverSZ = {
+:all:
+usmc_enlisted
+::ALL::
+}
+
+Oshibka = {
+US_ENLISTED
+;;US_NCO;;
+;;US_ENLISTED;;
+::us_enlisted::
+::ALL::
+}
+
+
+
+Pete112 = {
+::ALL::
+}
+
+
+
+
+The flying banana gaming = {
+::NVA_NCO::
+::nva_enlisted::
+sa_nco
+usa_enlisted
+}
+
+
+Dehzinn = {
+::us_enlisted::
+::ALL::
+}
+
+
+
+
+IFN Mccree = {
+usmc_enlisted
+usa_enlisted
+}
+
+
+silencedmp5a5 = {
+usmc_enlisted
+usa_enlisted
+}
+
+
+
+ExecutorPartner = {
+sa_enlisted
+}
+
+
+
+
+Advisorman = {
+ddr_enlisted
+sa_enlisted
+}
+
+
+
+Nautilus23 = {
+usmc_enlisted
+usa_enlisted
+}
+
+
+50RemAndCounting = {
+sa_enlisted
+ddr_enlisted
+}
+
+
+MakaPakaa1 = {
+usmc_enlisted
+usa_enlisted
+}
+
+
+Ofna01 = {
+usa_enlisted
+}
+
+I like D0nUts = {
+::ALL::
+}
+
+Tramp123 = {
+sa_enlisted
+}
+
+Cesarjunior223 = {
+sa_enlisted
+ddr_enlisted
+}
+
+
+Cesarjunior233 = {
+sa_enlisted
+ddr_enlisted
+}
+
+
+
+
+
+
+SDevils = {
+usmc_enlisted
+usa_enlisted
+}
+
+
+Aeleto = {
+usa_enlisted
+}
+
+Raiddean = {
+usa_enlisted
+}
+
+The Man Who Sold The Horns = {
+::ALL::
+}
+
+TheManWhoSoldTheHorns = {
+usa_enlisted
+}
+
+yung bruh = {
+usa_enlisted
+}
+
+michaelbr360 = {
+usa_enlisted
+}
+
+Ophius = {
+usa_enlisted
+}
+
+Verarch = {
+sa_officer
+}
+
+Meme123456 = {
+usa_enlisted
+}
+
+Shmesser = {
+sa_enlisted
+}
+
+Treble_Clef = {
+usa_enlisted
+}
+
+Spectre808 = {
+usa_enlisted
+}
+
+Bamhalazam = {
+usa_enlisted
+}
+
+WelXy = {
+usa_enlisted
+}
+
+constantinenicotine = {
+usa_enlisted
+}
+
+A NU CHEEKI BREEKI I V DAMKE = {
+sa_enlisted
+}
+
+
+Real Josef Stalin = {
+sa_enlisted
+}
+
+Kullukian = {
+usa_enlisted
+}
+
+Rev1n = {
+sa_enlisted
+}
+
+AngryBoar = {
+sa_enlisted
+}
+
+GarfieldLives = {
+sa_enlisted
+}
+
+Jonpola = {
+::ALL::
+}
+
+Gogoin = {
+::ALL::
+}
+
+AlphaBeth = {
+::ALL::
+}
+
+Stutwoby = {
+::ALL::
+}
+
+Gogoing = {
+::ALL::
 }
