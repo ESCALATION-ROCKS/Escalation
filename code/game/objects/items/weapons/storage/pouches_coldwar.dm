@@ -371,7 +371,10 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s
+	)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -388,7 +391,7 @@
 		/obj/item/ammo_magazine/c762x51b/bdw,
 		/obj/item/ammo_magazine/c762x51b/bdw/drum
 		)
-	startswith = null
+	startswith = /obj/item/ammo_magazine/c762x51b/bdw
 
 /obj/item/weapon/storage/belt/suit/ammo/baf
 	w_class = ITEM_SIZE_HUGE
@@ -404,7 +407,10 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s
+	)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -423,6 +429,12 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s
+	)
 	startswith = null
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
@@ -499,7 +511,11 @@
 		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45m
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -532,7 +548,7 @@
 		/obj/item/ammo_magazine/c762x51b,
 		/obj/item/ammo_magazine/c556x45b
 		)
-	startswith = null
+	startswith = /obj/item/ammo_magazine/c762x51b
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	w_class = ITEM_SIZE_HUGE
@@ -549,7 +565,10 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa
 	w_class = ITEM_SIZE_HUGE
@@ -596,7 +615,12 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54s
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x54s,
+		/obj/item/ammo_magazine/c762x54s,
+		/obj/item/ammo_magazine/c762x54s,
+		/obj/item/ammo_magazine/c762x54s
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/ssg82
 	w_class = ITEM_SIZE_HUGE
@@ -665,7 +689,36 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m
+	)
+
+	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
+	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/ammo/nvaddr/c545
+	w_class = ITEM_SIZE_HUGE
+	name = "strichtarn AK magazine pouch"
+	desc = "Has enough space to hold four AK magazines."
+	icon_state = "nvaddr_ammo"
+	item_state = "nvaddr_ammo"
+	open_delay = 5
+	storage_slots = 4
+	can_hold = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/a9x18
+		)
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m
+	)
+
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 
@@ -682,7 +735,7 @@
 		/obj/item/ammo_magazine/c762x39d,
 		/obj/item/ammo_magazine/c762x39k
 		)
-	startswith = null
+	startswith = /obj/item/ammo_magazine/c762x39d
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/pkm
 	w_class = ITEM_SIZE_HUGE
@@ -696,7 +749,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
 		)
-	startswith = null
+	startswith = /obj/item/ammo_magazine/c762x54b
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	w_class = ITEM_SIZE_HUGE
@@ -730,6 +783,10 @@
 	storage_slots = 3
 	startswith = null
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
+	startswith = list(
+		/obj/item/weapon/grenade/frag/,
+		/obj/item/weapon/grenade/frag/
+	)
 
 //finnish
 

@@ -3,11 +3,11 @@
 	enabled = 0
 //	fireteam_names = list("Alpha", "Bravo", "Charlie", "Delta")
 
-/datum/army_faction/nato/german
-	name = "Bundeswehr"
+/datum/army_faction/nato/bund
+	name = "Bundeswehr (1983)"
 	enabled = 1
 	faction_tag = "bund"
-	flag_state = "german"
+	flag_state = "bund"
 	language = "German"
 	base_color = "black"
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")

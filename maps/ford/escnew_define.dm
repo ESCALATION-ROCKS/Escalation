@@ -1,10 +1,10 @@
 
-/datum/map/feldmarz
-	name = "Feld-Marz"
-	full_name = "Fields of Germany"
+/datum/map/escnew
+	name = "Europe on Flame"
+	full_name = "The Example"
 	path = "example"
 
-	lobby_icon = 'maps/feld-marz/escnew_lobby.dmi'
+	lobby_icon = 'maps/ford/escnew_lobby.dmi'
 	lobby_screens = list("valour")
 
 	station_levels = list(1, 2, 3)
