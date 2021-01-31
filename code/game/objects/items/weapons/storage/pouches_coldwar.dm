@@ -583,7 +583,12 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m
+		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 
@@ -602,7 +607,12 @@
 		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39b,
+		/obj/item/ammo_magazine/c545x39b,
+		/obj/item/ammo_magazine/c545x39b,
+		/obj/item/ammo_magazine/c545x39b
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	w_class = ITEM_SIZE_HUGE
@@ -672,7 +682,10 @@
 	item_state = "sa_grenade"
 	open_delay = 2
 	storage_slots = 3
-	startswith = null
+	startswith = list(
+		/obj/item/weapon/grenade/frag/rgd5,
+		/obj/item/weapon/grenade/frag/rgd5
+		) 
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 
@@ -783,10 +796,7 @@
 	storage_slots = 3
 	startswith = null
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
-	startswith = list(
-		/obj/item/weapon/grenade/frag/,
-		/obj/item/weapon/grenade/frag/
-	)
+	startswith = null
 
 //finnish
 
