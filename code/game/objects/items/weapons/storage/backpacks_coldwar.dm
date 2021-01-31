@@ -214,18 +214,6 @@
 	..()
 	slowdown_per_slot[slot_back] = 0.03
 
-/obj/item/weapon/storage/backpack/alice/medium/autorifle
-	startswith = list(
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m
-		)
-
 /obj/item/weapon/storage/backpack/alice/large
 	name = "ALICE large pack"
 	desc = "Commonly used by USMC."
@@ -411,11 +399,6 @@
 	storage_slots = 3
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
-	startswith = list(
-			/obj/item/ammo_casing/rpg_missile,
-			/obj/item/ammo_casing/rpg_missile,
-			/obj/item/ammo_casing/rpg_missile
-			)
 
 /obj/item/weapon/storage/backpack/rpgcsla
 	name = "RPG rocket backpack"
@@ -453,7 +436,7 @@
 
 /obj/item/weapon/storage/backpack/rpgusa
 	name = "shell rucksack"
-	desc = "A large backpack repurposed to carry three rocket launcher shells."
+	desc = "A large backpack repurposed to carry three recoilless rifle shells."
 	icon_state = "alicelargepack"
 	item_state = "alicelargepack"
 	reachable = 1
@@ -461,9 +444,3 @@
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)
-	startswith = list(
-			/obj/item/ammo_casing/rpg_missile/smaw,
-			/obj/item/ammo_casing/rpg_missile/smaw,
-			/obj/item/ammo_casing/rpg_missile/smaw
-			)
-

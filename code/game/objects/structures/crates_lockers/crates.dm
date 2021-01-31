@@ -360,14 +360,6 @@ obj/structure/closet/crate/alt
 	icon_opened = "woodcrateopen"
 	icon_closed = "woodcrate"
 
-/obj/structure/closet/crate/wood/anchored
-	name = "wooden crate"
-	desc = "A wooden crate."
-	anchored = 1
-	icon_state = "woodcrate"
-	icon_opened = "woodcrateopen"
-	icon_closed = "woodcrate"
-
 /obj/structure/closet/crate/generic
 	name = "crate"
 	desc = "A generic crate with some markings."

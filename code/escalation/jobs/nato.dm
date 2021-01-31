@@ -452,12 +452,14 @@
 	title = "Bundeswehr"
 	enabled = 0
 	faction_tag = "bund" //The tag of the faction this job is a part of, for lookups
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes
 	military_faction = NATO
 	department_flag = BDWFORCE
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.fraction = "NATO"
 
+/datum/job/escalation/bund/equip(var/mob/living/carbon/human/H)
+	..()
+	H.fraction = "NATO"
+	H.gender = MALE
 
 /datum/job/escalation/bund/bdwplatlead
 	title = "BDW Zugfuhrer"
@@ -473,9 +475,8 @@
 	leading = 1
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_officer"
+	whitelist_rank = "bdw_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
-
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -494,7 +495,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "bdw_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -514,7 +515,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 20)
 
 	equip(var/mob/living/carbon/human/H)
@@ -534,7 +535,7 @@
 	amount = 3
 	rank_number = 2
 	enabled = 0
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -554,7 +555,7 @@
 	amount = 3
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
@@ -574,7 +575,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "usa_officer"
+	whitelist_rank = "bdw_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -594,7 +595,7 @@
 	amount = 1
 	leading = 1
 	enabled = 1
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "bdw_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -613,7 +614,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -632,7 +633,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -651,7 +652,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -671,7 +672,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -690,7 +691,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -709,7 +710,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -728,7 +729,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -747,7 +748,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -767,7 +768,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "bdw_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -786,7 +787,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -805,7 +806,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
 
 
@@ -826,7 +827,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 0
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "bdw_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
@@ -846,7 +847,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -866,7 +867,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1288,7 +1289,7 @@
 	selection_color = "#B0C4DE"
 	amount = 2
 	position = "team"
-	enabled = 1
+	enabled = 0
 	rank_number = 2
 	whitelist_rank = "usa_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 20, LANGUAGE_RUSSIAN = 10)
@@ -1300,6 +1301,25 @@
 /datum/job/escalation/usa/usamedic
 	title = "USA Field Medic"
 	name = "Field Medic"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/medic
+	selection_color = "#B0C4DE"
+	position = "team"
+	enabled = 1
+	amount = 0
+	whitelist_rank = "usa_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+
+/datum/job/escalation/usa/usaaidman
+	title = "USA Medic"
+	name = "Medic"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1363,9 +1383,8 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/quartermaster
 	selection_color = "#B0C4DE"
-	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "usa_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
 
@@ -1394,8 +1413,8 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usa/usaftl
-	title = "USA Team Leader"
-	name = "Team Leader"
+	title = "USA Fireteam Leader"
+	name = "Fireteam Leader"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1435,7 +1454,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/datum/job/escalation/usa/usamg
+/datum/job/escalation/usa/usaftmg
 	title = "USA Machinegunner"
 	name = "Machinegunner"
 	english_name = null
@@ -1475,7 +1494,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/datum/job/escalation/usa/usamga
+/datum/job/escalation/usa/usaftmga
 	title = "USA Machinegunner Assistant"
 	name = " Machinegunner Assistant"
 	english_name = null
@@ -1486,26 +1505,6 @@
 	selection_color = "#B0C4DE"
 	rank_number = 7
 	position = "team"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usa_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/usa/usaftar
-	title = "USA Automatic Rifleman"
-	name = "Automatic Rifleman"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usa/autorifleman
-	selection_color = "#B0C4DE"
-	rank_number = 6
-	position = "fireteam"
 	amount = 2
 	enabled = 1
 	whitelist_rank = "usa_enlisted"
