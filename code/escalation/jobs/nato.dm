@@ -102,7 +102,7 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/corpsman
 	selection_color = "#B0C4DE"
-	position = "fireteam"
+	position = "team"
 	enabled = 1
 	amount = 3
 	whitelist_rank = "usa_enlisted"

@@ -499,7 +499,11 @@
 		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45m,
+		/obj/item/ammo_magazine/c556x45m/tr
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -523,7 +527,7 @@
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
 	name = "US machinegun box pouch"
-	desc = "Has enough space to hold one SAW belt box."
+	desc = "Has enough space to hold one machinegun belt box."
 	icon_state = "usmc_ammo_lmg"
 	item_state = "usmc_ammo_lmg"
 	open_delay = 5
@@ -532,7 +536,7 @@
 		/obj/item/ammo_magazine/c762x51b,
 		/obj/item/ammo_magazine/c556x45b
 		)
-	startswith = null
+	startswith = /obj/item/ammo_magazine/c762x51b
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	w_class = ITEM_SIZE_HUGE
@@ -549,7 +553,10 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa
 	w_class = ITEM_SIZE_HUGE
@@ -596,7 +603,12 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54s
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x54s,
+		/obj/item/ammo_magazine/c762x54s,
+		/obj/item/ammo_magazine/c762x54s,
+		/obj/item/ammo_magazine/c762x54s
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/ssg82
 	w_class = ITEM_SIZE_HUGE
@@ -665,7 +677,12 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m/tr
+		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 
@@ -696,7 +713,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
 		)
-	startswith = null
+	startswith = /obj/item/ammo_magazine/c762x54b
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	w_class = ITEM_SIZE_HUGE
@@ -715,7 +732,7 @@
 		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/c762x39b,
-		/obj/item/ammo_magazine/c762x39b
+		/obj/item/ammo_magazine/c762x39b/tr
 	)
 
 
@@ -728,7 +745,10 @@
 	item_state = "nvaddr_grenade"
 	open_delay = 2
 	storage_slots = 3
-	startswith = null
+	startswith = list(
+		/obj/item/weapon/grenade/frag/f1,
+		/obj/item/weapon/grenade/frag/f1
+		)
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 //finnish

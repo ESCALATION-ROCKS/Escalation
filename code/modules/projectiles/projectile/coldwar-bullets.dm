@@ -16,7 +16,7 @@
 	penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x39/tr
-	icon_state = "bullet_tracer"
+	icon_state = "green_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
@@ -69,7 +69,7 @@
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x54/tr
-	icon_state = "bullet_tracer"
+	icon_state = "green_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
@@ -90,7 +90,7 @@
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x53/tr
-	icon_state = "bullet_tracer"
+	icon_state = "green_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
@@ -110,7 +110,7 @@
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a545x39/tr
-	icon_state = "bullet_tracer"
+	icon_state = "green_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
@@ -203,7 +203,7 @@
 		damage = rand(46, 54)
 
 /obj/item/projectile/bullet/rifle/a127x108mm/tr
-	icon_state = "bullet_tracer"
+	icon_state = "green_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 

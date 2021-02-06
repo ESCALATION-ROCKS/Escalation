@@ -165,7 +165,7 @@
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
 	load_method = MAGAZINE
-	magazine_type = null
+	magazine_type = /obj/item/ammo_magazine/c762x51b/tr
 	allowed_magazines = /obj/item/ammo_magazine/c762x51b
 	one_hand_penalty = 9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
@@ -528,7 +528,7 @@
 	caliber = "762x39"
 	ammo_type = /obj/item/ammo_casing/a762x39
 	load_method = MAGAZINE
-	magazine_type = null
+	magazine_type = /obj/item/ammo_magazine/c762x39b/tr
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
 	accuracy = 2.9
