@@ -83,7 +83,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
-	back = /obj/item/weapon/storage/backpack/rpgsa/assistant
+	back = /obj/item/weapon/storage/backpack/rpgsa
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
@@ -275,8 +275,9 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	suit = /obj/item/clothing/accessory/storage/bandolier_nato
 	r_pocket = null
-	back = /obj/item/weapon/storage/backpack/alice/medium
+	back = /obj/item/weapon/storage/backpack/alice/large/autorifle
 	head = /obj/item/clothing/head/usmc/cover
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland
