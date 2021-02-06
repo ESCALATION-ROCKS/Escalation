@@ -229,27 +229,6 @@
 	..()
 	slowdown_per_slot[slot_back] = 0.03
 
-/obj/item/weapon/storage/backpack/alice/large/autorifle
-	name = "ALICE large pack"
-	desc = "Commonly used by USMC."
-	icon_state = "alicelargepack"
-	item_state = "alicelargepack"
-	slot_flags = SLOT_BACK
-	reachable = 0
-	max_storage_space = 24
-	open_delay = 5
-	startswith = list(
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m/tr
-		/obj/item/ammo_magazine/c556x45m/tr
-			)
-
 //finnish
 
 /obj/item/weapon/storage/backpack/finn/finn_buttpack
@@ -396,7 +375,7 @@
 
 /obj/item/weapon/storage/backpack/rpgsa
 	name = "RPG rocket backpack"
-	desc = "Soviet Army backpack for RPG rockets. Can hold three rockets."
+	desc = "Soviet Army backpack for RPG rockets. Can hold four rockets."
 	icon_state = "sa_rpg2"
 	item_state = "sa_rpg"
 	reachable = 1
@@ -404,6 +383,7 @@
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
 	startswith = list(
+			/obj/item/ammo_casing/rpg_missile,
 			/obj/item/ammo_casing/rpg_missile,
 			/obj/item/ammo_casing/rpg_missile,
 			/obj/item/ammo_casing/rpg_missile
