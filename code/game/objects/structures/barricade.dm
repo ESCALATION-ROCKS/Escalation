@@ -161,6 +161,13 @@
 	w_class = 1
 	var/sand_amount = 0//how much piles of dirt on item's spawn
 
+/obj/item/weapon/sandbag/full
+	name = "sandbags"
+	//icon = 'icons/obj/weapons.dmi'
+	icon_state = "sandbag"
+	w_class = 4
+	sand_amount = 4
+
 //��������� ��������
 //if there are like 3-4 sandbags or they are placed in one directions and each of them will call CanPass for projectiles - very imbalanced
 /obj/item/weapon/sandbag/proc/check4sandbags(mob/user as mob)
@@ -240,5 +247,5 @@
 		if(do_after(user, 100 * W.toolspeed,src))
 			if(!src) return
 			to_chat(user, "<span class='notice'>You take down sandbags!</span>")
-			new /obj/item/weapon/sandbag(src.loc)
+			new /obj/item/weapon/sandbag/full(src.loc)
 			qdel(src)
