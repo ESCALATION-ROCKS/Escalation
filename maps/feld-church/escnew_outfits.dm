@@ -63,6 +63,20 @@
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
 
+/decl/hierarchy/outfit/job/coldwar/nvaddr/rocketcom
+	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR RPG")
+	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
+	shoes = /obj/item/clothing/shoes/soviet/marching/nva
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
+	back = /obj/item/weapon/storage/backpack/rpgsa
+	l_hand = /obj/item/weapon/gun/launcher/rpg7
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
+	r_pocket = null
+	head = /obj/item/clothing/head/garcap/nvaddr
+	belt = /obj/item/weapon/storage/belt/harness/nvaddr
+
 /decl/hierarchy/outfit/job/coldwar/nvaddr/rocket
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR RPG")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr

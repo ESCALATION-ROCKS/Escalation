@@ -104,12 +104,6 @@ HWS-1:usmc
 /datum/job/escalation/usmc/usmcmgload
 @END@
 
-HWS-2:usmc
-/datum/job/escalation/usmc/usmcmgcom
-/datum/job/escalation/usmc/usmcmgop
-/datum/job/escalation/usmc/usmcmgload
-@END@
-
 AT-1:usmc
 /datum/job/escalation/usmc/usmcatcom
 /datum/job/escalation/usmc/usmcat
@@ -291,16 +285,16 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 @END@
 
-1. Schweren Waffen Gruppe:nvaddr
+Schweren Waffen Gruppe 'Heinrich':nvaddr
 /datum/job/escalation/nvaddr/mgcom
 /datum/job/escalation/nvaddr/mgload
 /datum/job/escalation/nvaddr/mgop
 @END@
 
-2. Schweren Waffen Gruppe:nvaddr
-/datum/job/escalation/nvaddr/mgcom
-/datum/job/escalation/nvaddr/mgload
-/datum/job/escalation/nvaddr/mgop
+Schweren Waffen Gruppe 'Panzyr':nvaddr
+/datum/job/escalation/nvaddr/rocketcom
+/datum/job/escalation/nvaddr/rockettwo
+/datum/job/escalation/nvaddr/nvarocketasstwo
 @END@
 
 Rhyma 'Aarne':finn

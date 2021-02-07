@@ -913,6 +913,55 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/nvaddr/rocketcom
+	title = "NVA ATS Commander"
+	name = "Schwere Waffen Gruppenfuhrer"
+	english_name = "Anti Tank Section Commander"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rocketcom
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/nvaddr/rockettwo
+	title = "NVA ATS Operator"
+	name = "Schwere Waffen Gruppe Panzerabwehrschutze"
+	english_name = "Anti Tank Section Grenadier"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rocket
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
+
+/datum/job/escalation/nvaddr/nvarocketasstwo
+	title = "NVA ATS Assistant"
+	name = "Schwere Waffen Gruppe Panzerabwerschutze Stellvertretender"
+	english_name = "Anti Tank Section Grenadier Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rocketass
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
+
 //Finnish Army
 
 /datum/job/escalation/finn
