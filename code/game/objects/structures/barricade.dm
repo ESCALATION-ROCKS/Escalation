@@ -232,3 +232,13 @@
 		icon_state = "sandbag"
 	else
 		icon_state = "sandbag_empty"
+
+/obj/structure/sandbag/attackby(obj/item/W as obj, mob/user as mob)
+	if(istype(W, /obj/item/weapon/shovel) && health == 200)
+		to_chat(user, "<span class='notice'>Now taking down the sandbags...</span>")
+		playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
+		if(do_after(user, 100 * W.toolspeed,src))
+			if(!src) return
+			to_chat(user, "<span class='notice'>You take down sandbags!</span>")
+			new /obj/item/weapon/sandbag(src.loc)
+			qdel(src)
