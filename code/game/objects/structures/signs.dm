@@ -1544,6 +1544,10 @@ obj/structure/sign/noshitlers
 	name = "Skeleton flag"
 	icon_state = "sansundertale"
 
+/obj/structure/sign/flag/trollwaffenflag
+	name = "Hyperborean flag"
+	icon_state = "trollwaffen"
+
 
 ///////////////////////////// CARS, VEHICLES
 //////MOSKVICH
