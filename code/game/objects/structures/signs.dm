@@ -1540,6 +1540,10 @@ obj/structure/sign/noshitlers
 	name = "British flag"
 	icon_state = "britishflag"
 
+/obj/structure/sign/flag/sansflag
+	name = "Skeleton flag"
+	icon_state = "sansundertale"
+
 
 ///////////////////////////// CARS, VEHICLES
 //////MOSKVICH
@@ -1664,7 +1668,7 @@ obj/structure/sign/noshitlers
 	desc = "A dandy sports car."
 	anchored = 1
 	density = 1
-	
+
 /obj/structure/sign/vehicle/sportscar4
 	name = "sportscar"
 	icon = 'icons/obj/decorations.dmi'
@@ -1672,7 +1676,7 @@ obj/structure/sign/noshitlers
 	desc = "A dandy sports car."
 	anchored = 1
 	density = 1
-	
+
 /obj/structure/sign/vehicle/sportscar5
 	name = "sportscar"
 	icon = 'icons/obj/decorations.dmi'
@@ -1680,7 +1684,7 @@ obj/structure/sign/noshitlers
 	desc = "A dandy sports car."
 	anchored = 1
 	density = 1
-	
+
 /obj/structure/sign/vehicle/sportscar6
 	name = "sportscar"
 	icon = 'icons/obj/decorations.dmi'

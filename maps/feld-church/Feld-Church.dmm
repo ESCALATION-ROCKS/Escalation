@@ -1474,7 +1474,7 @@
 "kyw" = (/obj/structure/fire_source/burningbarrel/lit,/turf/simulated/floor/plating,/area/coldwar)
 "kyV" = (/obj/structure/barricade/wooden,/turf/unsimulated/ground/grass,/area/coldwar/usmcfob)
 "kzQ" = (/obj/structure/table/army,/obj/effect/floor_decal/newcorner/kafel/white/diagonal,/turf/simulated/floor/tiled/white,/area/coldwar/house22)
-"kAx" = (/obj/structure/skele_stand,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"kAx" = (/obj/structure/skele_stand{name = "Sans Undertale"},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "kAW" = (/obj/structure/sink{dir = 8; pixel_x = -8},/obj/structure/sink{dir = 8; pixel_x = -8},/turf/simulated/floor/tiled/bar,/area/coldwar/house1)
 "kBE" = (/obj/structure/table/army,/obj/item/weapon/folder/yellow,/obj/item/weapon/stamp,/turf/simulated/floor/wood,/area/coldwar/house16)
 "kEh" = (/obj/structure/barbwire{dir = 9},/obj/structure/newfence/wooden,/obj/structure/brutswehr,/turf/unsimulated/ground,/area/coldwar)
