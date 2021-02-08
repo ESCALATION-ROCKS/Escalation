@@ -45,7 +45,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
-	r_pocket = null
+	r_pocket = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
@@ -231,6 +231,9 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/waltherppk
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	l_pocket = /obj/item/weapon/masterkey/nvaco
 	r_pocket = null
 	head = /obj/item/clothing/head/nvaddr/officer
@@ -453,10 +456,10 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/fstlt
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/usmc/cover
 	l_pocket = /obj/item/weapon/masterkey/usmclt
@@ -522,7 +525,7 @@
 	shoes = /obj/item/clothing/shoes/usmc/field
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/usmc

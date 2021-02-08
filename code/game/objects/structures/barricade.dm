@@ -160,6 +160,7 @@
 	icon_state = "sandbag_empty"
 	w_class = 1
 	var/sand_amount = 0//how much piles of dirt on item's spawn
+	toolspeed = 1
 
 /obj/item/weapon/sandbag/full
 	name = "sandbags"
@@ -200,6 +201,10 @@
 
 	if(check4sandbags(user) || check4struct(user))// 0 || 0
 		return
+
+	if(do_after(user, 30, src))
+		to_chat(user, "<span class='notice'>You finish setting up the sandbags!</span>")
+		if(!src) return
 
 	var/obj/structure/sandbag/bag = new(user.loc)//new (user.loc)
 	bag.set_dir(user.dir)
@@ -244,7 +249,7 @@
 	if(istype(W, /obj/item/weapon/shovel) && health == 200)
 		to_chat(user, "<span class='notice'>Now taking down the sandbags...</span>")
 		playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
-		if(do_after(user, 100 * W.toolspeed,src))
+		if(do_after(user, 80 * W.toolspeed,src))
 			if(!src) return
 			to_chat(user, "<span class='notice'>You take down sandbags!</span>")
 			new /obj/item/weapon/sandbag/full(src.loc)
