@@ -160,7 +160,6 @@
 	icon_state = "sandbag_empty"
 	w_class = 1
 	var/sand_amount = 0//how much piles of dirt on item's spawn
-	toolspeed = 1
 
 /obj/item/weapon/sandbag/full
 	name = "sandbags"
