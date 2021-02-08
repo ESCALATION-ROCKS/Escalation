@@ -72,6 +72,8 @@ Squad Alpha:usmc
 /datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmccorpsman
+/datum/job/escalation/usmc/usmcratelo
 @END@
 
 Squad Bravo:usmc
@@ -84,6 +86,8 @@ Squad Bravo:usmc
 /datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmccorpsman
+/datum/job/escalation/usmc/usmcratelo
 @END@
 
 Squad Charlie:usmc
@@ -96,6 +100,8 @@ Squad Charlie:usmc
 /datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmccorpsman
+/datum/job/escalation/usmc/usmcratelo
 @END@
 
 HWS-1:usmc
@@ -261,6 +267,9 @@ Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvacorpsman
+/datum/job/escalation/nvaddr/nvasrad
 @END@
 
 Gruppe 'Berta':nvaddr
@@ -272,6 +281,9 @@ Gruppe 'Berta':nvaddr
 /datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvacorpsman
+/datum/job/escalation/nvaddr/nvasrad
 @END@
 
 Gruppe 'Cesar':nvaddr
@@ -283,6 +295,9 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvacorpsman
+/datum/job/escalation/nvaddr/nvasrad
 @END@
 
 Schweren Waffen Gruppe 'Heinrich':nvaddr

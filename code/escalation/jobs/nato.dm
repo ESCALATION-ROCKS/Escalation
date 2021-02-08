@@ -104,7 +104,7 @@
 	selection_color = "#B0C4DE"
 	position = "team"
 	enabled = 1
-	amount = 3
+	amount = 1
 	whitelist_rank = "usa_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 30, LANGUAGE_FINNISH = 30)
 
