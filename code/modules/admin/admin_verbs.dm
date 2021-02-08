@@ -1167,14 +1167,14 @@ var/global/list/global_colour_matrix = null
 	set name = "National Volksarmee Major Victory"
 	log_and_message_admins("has declared Volkarmee Major Victory")
 	to_world("<b><font size=7>THE NATIONAL VOLKSARMEE DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+	sound_to(world, 'sound/music/derheimlicheaufmarsch.ogg')
 
 /client/proc/nva_minor()
 	set category = "EscDeclareWinner"
 	set name = "National Volksarmee Minor Victory"
 	log_and_message_admins("has declared Volkarmee Minor Victory")
 	to_world("<b><font size=5>The National Volksarmee have secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+	sound_to(world, 'sound/music/terranrepubliccombat4.ogg')
 
 /client/proc/bund_major()
 	set category = "EscDeclareWinner"
@@ -1244,7 +1244,7 @@ var/global/list/global_colour_matrix = null
 	set name = "Soviet Army Minor Victory"
 	log_and_message_admins("has declared Soviet Army Minor Victory")
 	to_world("<b><font size=5>The Red Army has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+	sound_to(world, 'sound/music/redtide.ogg')
 
 /client/proc/warpact_major()
 	set category = "EscDeclareWinner"
@@ -1272,4 +1272,4 @@ var/global/list/global_colour_matrix = null
 	set name = "NATO Minor Victory"
 	log_and_message_admins("has declared Nato Minor Victory")
 	to_world("<b><font size=5>The North Atlantic Treaty Organization has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+	sound_to(world, 'sound/music/lmfaopartyrock.ogg')
