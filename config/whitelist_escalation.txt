@@ -124,6 +124,7 @@ usa_enlisted
 
 Rippie129 = {
 usa_enlisted
+::ALL::
 }
 
 thesecretslav = {
@@ -224,6 +225,7 @@ sa_enlisted
 Luftie = {
 sa_nco
 sa_enlisted
+sa_officer
 }
 
 corbe = {
@@ -250,6 +252,7 @@ sa_enlisted
 
 Jackomago61 = {
 sa_enlisted
+::ALL::
 }
 
 LeoTheKiller = {
@@ -402,6 +405,7 @@ sa_enlisted
 
 Battieralarm3 = {
 sa_enlisted
+sa_nco
 }
 
 Stakeyng = {
@@ -410,4 +414,99 @@ sa_enlisted
 
 BurnedSweetPotato = {
 sa_enlisted
+}
+Real Josef Stalin = {
+wp_enlist
+::ALL::
+sa_enlisted
+}
+
+Cesarjunioer223 = {
+sa_enlisted
+}
+
+Cesarjunior233 = {
+sa_enlisted
+}
+
+TrashBandit = {
+us_enlist
+usa_enlisted
+}
+
+
+SilencedMP5A5 = {
+usa_enlisted
+}
+
+Rev1n = {
+sa_enlisted
+}
+
+
+ExecutorPartner = {
+sa_enlisted
+}
+
+Nayser = {
+sa_enlisted
+}
+
+Pete112 = {
+::ALL::
+}
+
+
+
+The flying banana gaming = {
+sa_nco
+}
+
+
+The Man Who Sold The Horns = {
+::ALL::
+}
+
+
+Trogdr = {
+sa_enlisted
+}
+
+Jackomango61 = {
+::ALL::
+}
+
+
+Nautilus23 = {
+usa_enlisted
+}
+
+Spectre808 = {
+usa_enlisted
+::ALL::
+}
+
+
+Shmesser = {
+::ALL::
+}
+
+IFN Mccree = {
+usa_enlisted
+}
+
+LynuahSororitas = {
+sa_enlisted
+}
+
+Bamhalazam = {
+::ALL::
+}
+
+Oshibka = {
+usa_enlisted
+}
+
+I like D0nuts = {
+::ALL::
 }
