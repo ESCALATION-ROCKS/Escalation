@@ -214,6 +214,7 @@ Von Carstein = {
 sa_officer
 sa_nco
 sa_enlisted
+::ALL::
 }
 
 Master8688 = {
@@ -406,6 +407,7 @@ sa_enlisted
 Battieralarm3 = {
 sa_enlisted
 sa_nco
+::ALL::
 }
 
 Stakeyng = {
@@ -437,6 +439,7 @@ usa_enlisted
 
 SilencedMP5A5 = {
 usa_enlisted
+::ALL::
 }
 
 Rev1n = {
@@ -508,5 +511,36 @@ usa_enlisted
 }
 
 I like D0nuts = {
+::ALL::
+}
+
+
+
+Sranklin = {
+::ALL::
+}
+
+Wulferion = {
+sa_enlisted
+}
+
+Verarch = {
+::ALL::
+}
+
+Snow7 = {
+sa_enlisted
+}
+
+Alpella18 = {
+sa_enlisted
+}
+
+Xperia15 = {
+usa_enlisted
+}
+
+
+M.Green = {
 ::ALL::
 }
