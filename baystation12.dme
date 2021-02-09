@@ -1581,6 +1581,7 @@
 #include "code\modules\lighting\~lighting_undefs.dm"
 #include "code\modules\lobby_music\_licenses.dm"
 #include "code\modules\lobby_music\_lobby_music.dm"
+#include "code\modules\lobby_music\escalation.dm"
 #include "code\modules\locks\batyakey.dm"
 #include "code\modules\locks\key.dm"
 #include "code\modules\locks\lock.dm"
