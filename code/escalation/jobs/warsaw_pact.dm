@@ -170,7 +170,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
 
 /datum/job/escalation/cccp/sasurgerist
 	title = "SA Polevoi Vrach"
@@ -190,7 +190,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 6, 1, 2, 0)
 
 /datum/job/escalation/cccp/sasniper
 	title = "SA Snaiper"
@@ -670,7 +670,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
 
 /datum/job/escalation/nvaddr/nvasurgerist
 	title = "NVA Feldchirurg"
@@ -690,7 +690,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 6, 1, 2, 0)
 
 /datum/job/escalation/nvaddr/nvasm
 	title = "NVA Scharfschutze"
@@ -1117,7 +1117,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
 
 /datum/job/escalation/finn/finnsurgerist
 	title = "FINN Kenttakirurg"
@@ -1137,7 +1137,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 6, 1, 2, 0)
 
 /datum/job/escalation/finn/finnsm
 	title = "FINN Tarkka-ampuja"

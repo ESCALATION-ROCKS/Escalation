@@ -110,7 +110,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
 
 /datum/job/escalation/usmc/usmcsurgerist
 	title = "USMC Field Surgeon"
@@ -129,7 +129,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 6, 1, 2, 0)
 
 /datum/job/escalation/usmc/usmcmarksman
 	title = "USMC Designated Marksman"
@@ -560,7 +560,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
 
 /datum/job/escalation/bund/bdwsurgerist
 	title = "BDW Feldchirurg"
@@ -580,7 +580,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 6, 1, 2, 0)
 
 /datum/job/escalation/bund/bdwsl
 	title = "BDW Gruppenfuhrer"
@@ -964,7 +964,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
 
 /datum/job/escalation/baf/bafsurgeon
 	title = "BAF Field Surgeon"
@@ -983,7 +983,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 6, 1, 2, 0)
 
 /datum/job/escalation/baf/bafmarksman
 	title = "BAF Designated Marksman"
@@ -1315,7 +1315,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
 
 /datum/job/escalation/usa/usaaidman
 	title = "USA Medic"
@@ -1334,7 +1334,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
 
 /datum/job/escalation/usa/usasurgeon
 	title = "USA Field Surgeon"
@@ -1353,7 +1353,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 6, 1, 2, 0)
 
 /datum/job/escalation/usa/usamarksman
 	title = "USA Designated Marksman"
