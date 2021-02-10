@@ -2,7 +2,7 @@
 	name = "incomplete brustwehr"
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "brustwehr_isntready"
-	density = 0
+	density = 1
 	throwpass = 1//we can throw grenades despite its density
 	anchored = 1
 	flags = OBJ_CLIMBABLE
@@ -106,7 +106,7 @@
 //checks if projectile 'P' from turf 'from' can hit whatever is behind the table. Returns 1 if it can, 0 if bullet stops.
 /obj/structure/brutswehr/proc/check_cover(obj/item/projectile/P, turf/from)
 	var/turf/cover = get_step(loc, get_dir(from, loc))
-	if (get_dist(P.starting, loc) <= 1) //Barricades won't help you if people are THIS close
+	if (get_dist(P.starting, loc) <= 4) //Barricades won't help you if people are THIS close
 		return 1
 	if (get_turf(P.original) == cover)
 		var/chance = 70

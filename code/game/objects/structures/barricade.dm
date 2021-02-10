@@ -73,7 +73,7 @@
 		if(proj.firer && Adjacent(proj.firer))
 			return 1
 
-		if (get_dist(proj.starting, loc) <= 1)//allows to fire from 1 tile away of sandbag
+		if (get_dist(proj.starting, loc) <= 4)//allows to fire from 4 tile away of sandbag
 			return 1
 
 		return check_cover(mover, target)
