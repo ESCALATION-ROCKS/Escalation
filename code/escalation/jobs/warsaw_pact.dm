@@ -756,16 +756,36 @@
 
 /datum/job/escalation/nvaddr/nvamg
 	title = "NVA Machinengewehrschutze"
-	name = "Machinengewehrschutze"
+	name = "Squad Machinengewehrschutze"
+	english_name = "Squad Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/platmgunner
+	selection_color = "#FA8072"
+	rank_number = 2
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/nvaddr/nvaar
+	title = "NVA Automatischer Schutze"
+	name = "Squad Automatischer Schutze"
 	english_name = "Machinegunner"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/mgunner
 	selection_color = "#FA8072"
-	rank_number = 1
+	rank_number = 3
 	position = "fireteam"
-	amount = 1
+	amount = 6
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)

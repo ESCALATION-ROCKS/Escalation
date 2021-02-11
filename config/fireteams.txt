@@ -261,8 +261,8 @@ Heavy Weapons Team:baf
 Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvaar
+/datum/job/escalation/nvaddr/nvaar
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
@@ -275,8 +275,8 @@ Gruppe 'Anton':nvaddr
 Gruppe 'Berta':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvaar
+/datum/job/escalation/nvaddr/nvaar
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
@@ -289,8 +289,8 @@ Gruppe 'Berta':nvaddr
 Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvaar
+/datum/job/escalation/nvaddr/nvaar
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvarifle
