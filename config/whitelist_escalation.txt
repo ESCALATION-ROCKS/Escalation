@@ -93,6 +93,11 @@ usa_nco
 usa_enlisted
 }
 
+Weras57 = {
+usa_enlisted
+usa_officer
+}
+
 #WP Enlisted
 
 LynuahSororitas = {
@@ -284,10 +289,6 @@ usa_enlisted
 }
 
 sowilu = {
-usa_enlisted
-}
-
-Weras57 = {
 usa_enlisted
 }
 
