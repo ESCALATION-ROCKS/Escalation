@@ -45,7 +45,8 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
-	r_pocket = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
+	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
