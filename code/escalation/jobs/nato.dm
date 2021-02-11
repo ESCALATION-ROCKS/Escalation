@@ -313,8 +313,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usmc/usmcmg
-	title = "USMC Machinegunner"
-	name = "Machinegunner"
+	title = "USMC Platoon Machinegunner"
+	name = "Platoon Machinegunner"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -334,7 +334,7 @@
 
 /datum/job/escalation/usmc/usmcmgass
 	title = "USMC Machinegunner Assistant"
-	name = "Machinegunner Assistant"
+	name = "Platoon Machinegunner Assistant"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
