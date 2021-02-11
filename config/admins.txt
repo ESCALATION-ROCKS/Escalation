@@ -1,12 +1,10 @@
 emoats18 - Host
 Von Carstein - Host
-
+Sintyz - Host
 
 MrGabol100 - Developer
 cabostein - Developer
 realmagnum - Developer
-Sintyz - Developer
-
 
 DerpyMcDerpDerp - Administrator
 Pete112 - Administrator
