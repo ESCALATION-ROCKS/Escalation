@@ -603,7 +603,7 @@
 	selection_color = "#FA8072"
 	rank_number = 1
 	position = "team"
-	amount = 1
+	amount = 2
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
@@ -623,7 +623,7 @@
 	selection_color = "#FA8072"
 	rank_number = 1
 	position = "team"
-	amount = 1
+	amount = 2
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
