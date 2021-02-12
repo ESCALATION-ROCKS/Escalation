@@ -1223,14 +1223,14 @@ var/global/list/global_colour_matrix = null
 	set name = "US Marines Major Victory"
 	log_and_message_admins("has declared USMC Minor Victory")
 	to_world("<b><font size=7>THE UNITED STATES MARINE CORP DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+	sound_to(world, 'sound/music/camouflage.ogg')
 
 /client/proc/usarmy_minor()
 	set category = "EscDeclareWinner"
 	set name = "US Marines Minor Victory"
 	log_and_message_admins("has declared USMC Minor Victory")
 	to_world("<b><font size=5>The United States Marine Corp has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+	sound_to(world, 'sound/music/ambushedagain.ogg')
 
 /client/proc/sovietarmy_major()
 	set category = "EscDeclareWinner"
