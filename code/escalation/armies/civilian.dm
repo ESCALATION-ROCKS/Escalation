@@ -12,7 +12,7 @@
 
 /datum/army_faction/civ/redcross
 	name = "Red Cross"
-	enabled = 0
+	enabled = 1
 	faction_tag = "redc"
 	flag_state = "redcross"
 	base_color = "white"
