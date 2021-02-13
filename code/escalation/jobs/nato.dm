@@ -1735,7 +1735,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/datum/job/escalation/redcross
+/datum/job/escalation/redcross/redcrossmedic
 	title = "Red Cross Corpsman"
 	name = "Corpsman"
 	english_name = null
@@ -1745,9 +1745,6 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/redcross/medic
 	selection_color = "#B0C4DE"
 	position = "team"
-	faction_tag = "redc"
-	military_faction = NEUTRAL
-	department_flag = NEUTRALFORCE
 	enabled = 1
 	amount = 1
 	rank_number = 1
