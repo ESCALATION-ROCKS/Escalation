@@ -354,3 +354,7 @@ Raskaiden Aseiden Joukkue:finn
 /datum/job/escalation/finn/finnhwtgnr
 /datum/job/escalation/finn/finnhwtload
 @END@
+
+Red-Cross:redc
+/datum/job/escalation/redcross/redcrossmedic
+@END@

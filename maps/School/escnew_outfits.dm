@@ -2428,3 +2428,18 @@
 	..()
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
+/decl/hierarchy/outfit/job/coldwar/redcross/medic
+	name = OUTFIT_JOB_NAME("Coldwar - Red Cross Medic")
+	uniform = /obj/item/clothing/under/rank/medical/paramedic
+	shoes = /obj/item/clothing/shoes/soviet/marching/nva
+	holster = null
+	l_hand = /obj/item/weapon/storage/firstaid/surgery
+	left_pouch = /obj/item/weapon/storage/med_pouch/trauma
+	right_pouch = /obj/item/weapon/storage/med_pouch/trauma
+	r_pocket = /obj/item/weapon/key/wpmed
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack/med
+	back_2 = /obj/item/weapon/storage/backpack/summedsan
+	head = /obj/item/clothing/head/helmet/tactical/mirania
+	l_pocket = /obj/item/weapon/key/natomed
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	gloves = /obj/item/clothing/gloves/thick
