@@ -66,7 +66,8 @@
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/rocketcom
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR RPG")
-	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
+	uniform = /obj/item/clothing/under/nvaddr/strichtarn/obergefr
+	l_ear = /obj/item/device/binoculars/wp
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
@@ -347,6 +348,7 @@
 /decl/hierarchy/outfit/job/coldwar/usmc/atcommander
 	name = OUTFIT_JOB_NAME("Coldwar - USMC AT Commander")
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
+	l_ear = /obj/item/device/binoculars/nato
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
