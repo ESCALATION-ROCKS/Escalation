@@ -1734,22 +1734,3 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/redcross/redcrossmedic
-	title = "Red Cross Corpsman"
-	name = "Corpsman"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/redcross/medic
-	selection_color = "#B0C4DE"
-	position = "team"
-	enabled = 1
-	amount = 1
-	rank_number = 1
-	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_FINNISH = 100)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 4, 1, 1, 0)
