@@ -50,33 +50,7 @@ Sintyz = {
 ::ALL::
 }
 
-#NATO AND WP Officers and NCOs
-
-Luftie = {
-sa_officer
-sa_nco
-sa_enlisted
-}
-
-Jackomago61 = {
-sa_nco
-sa_enlisted
-}
-
-Battieralarm3 = {
-sa_nco
-sa_enlisted
-}
-
-corbe = {
-sa_nco
-sa_enlisted
-}
-
-theflyingbananagaming = {
-sa_nco
-sa_enlisted
-}
+#NATO Officers and NCOs
 
 Rippie129 = {
 usa_nco
@@ -98,189 +72,7 @@ usa_enlisted
 usa_officer
 }
 
-#WP Enlisted
 
-LynuahSororitas = {
-sa_enlisted
-}
-
-LeoTheKiller = {
-sa_enlisted
-}
-
-cesarjunior233 = {
-sa_enlisted
-}
-
-Boltersam = {
-sa_enlisted
-}
-
-rev1n = {
-sa_enlisted
-}
-
-Real Josef Stalin = {
-sa_enlisted
-}
-
-LynuahSororitas = {
-sa_enlisted
-}
-
-Timtwoshoes = {
-sa_enlisted
-}
-
-TurtleCactus = {
-sa_enlisted
-}
-
-CeSium_Shark = {
-sa_enlisted
-}
-
-Oshibka = {
-sa_enlisted
-}
-
-AlexUNDRRRMKaroff = {
-sa_enlisted
-}
-
-Nayser = {
-sa_enlisted
-}
-
-Cr3ye = {
-sa_enlisted
-}
-
-MikeForce3321 = {
-sa_enlisted
-}
-
-Wulferion = {
-sa_enlisted
-}
-
-Master8688 = {
-sa_enlisted
-}
-
-Shmesser = {
-sa_enlisted
-}
-
-Snow7 = {
-sa_enlisted
-}
-
-Manny pardo = {
-sa_enlisted
-}
-
-Echion = {
-sa_enlisted
-}
-
-Booperkin343435 = {
-sa_enlisted
-}
-
-C36311 = {
-sa_enlisted
-}
-
-Lautaroluna180 = {
-sa_enlisted
-}
-
-Sha.SCT = {
-sa_enlisted
-}
-
-Gefrakt = {
-sa_enlisted
-}
-
-FoxTail_99 = {
-sa_enlisted
-}
-
-ExecutorPartner = {
-sa_enlisted
-}
-
-Stakeyng = {
-sa_enlisted
-}
-
-AngryBoar = {
-sa_enlisted
-}
-
-Peanutbuttersandwich = {
-sa_enlisted
-}
-
-AzazelChan = {
-sa_enlisted
-}
-
-#WP RESERVISTS
-
-Higher_Life = {
-sa_enlisted
-}
-
-vlad3 = {
-sa_enlisted
-}
-
-Trikannov = {
-sa_enlisted
-}
-
-UnwaveringGrey = {
-sa_enlisted
-}
-
-Smokeych3353 = {
-sa_enlisted
-}
-
-Subjecter = {
-sa_enlisted
-}
-
-ExtentEnzo = {
-sa_enlisted
-}
-
-johnravioli = {
-sa_enlisted
-}
-
-Makeshift16 = {
-sa_enlisted
-}
-
-Slywater = {
-sa_enlisted
-}
-
-Villeri = {
-sa_enlisted
-}
-
-AdvisorMan = {
-sa_enlisted
-}
-
-Dimosek = {
-sa_enlisted
-}
 
 #NATO Enlisted
 
@@ -398,4 +190,187 @@ usa_enlisted
 
 Sapu222 = {
 usa_enlisted
+}
+Nowik347 = {
+sa_enlisted
+}
+
+# WP PLATOON
+
+Luftie = {
+sa_officer
+sa_enlisted
+sa_nco
+}
+
+Cabostein = {
+sa_enlisted
+}
+
+Andrej99 = {
+sa_enlisted
+}
+
+The Elder Hobo = {
+sa_enlisted
+}
+
+AtlasRules87 = {
+sa_enlisted
+}
+
+Burtyu = {
+sa_enlisted
+}
+
+#ANTON
+
+Jackomago61 = {
+sa_nco
+sa_enlisted
+}
+
+LynuahSororitas = {
+sa_enlisted
+}
+
+LeoTheKiller = {
+sa_enlisted
+}
+
+cesarjunior233 = {
+sa_enlisted
+}
+
+Boltersam = {
+sa_enlisted
+}
+
+rev1n = {
+sa_enlisted
+}
+
+Real Josef Stalin = {
+sa_enlisted
+}
+
+Timtwoshoes = {
+sa_enlisted
+}
+
+CeSium_Shark = {
+sa_enlisted
+}
+
+#BERTA
+
+Battieralarm3 = {
+sa_nco
+sa_enlisted
+}
+
+Oshibka = {
+sa_enlisted
+}
+
+AlexUNDRRRMKaroff = {
+sa_enlisted
+}
+
+Cr3ye = {
+sa_enlisted
+}
+ 
+Master8688 = {
+sa_enlisted
+}
+ 
+MikeForce3321 = {
+sa_enlisted
+}
+ 
+Wulferion = {
+sa_enlisted
+}
+ 
+Electrolyz = {
+sa_enlisted
+}
+ 
+Shmesser = {
+sa_enlisted
+}
+ 
+Snow7 = {
+sa_enlisted
+}
+ 
+# CESAR
+corbe = {
+sa_nco
+sa_enlisted
+}
+ 
+Manny pardo = {
+sa_enlisted
+}
+ 
+Echion = {
+sa_enlisted
+}
+ 
+Booperkin343435 = {
+sa_enlisted
+}
+ 
+Lautaroluna180 = {
+sa_enlisted
+}
+ 
+Sha.SCT = {
+sa_enlisted
+}
+ 
+Gefrakt = {
+sa_enlisted
+}
+ 
+FoxTail_99 = {
+sa_enlisted
+}
+ 
+ExecutorPartner = {
+sa_enlisted
+}
+ 
+# HEINRICH
+theflyingbananagaming = {
+sa_nco
+sa_enlisted
+}
+ 
+Stakeyng = {
+sa_enlisted
+}
+ 
+AngryBoar = {
+sa_enlisted
+}
+ 
+Peanutbuttersandwich = {
+sa_enlisted
+}
+ 
+# PANZYR
+Nayser = {
+sa_nco
+sa_enlisted
+}
+ 
+Nowik347 = {
+sa_enlisted
+}
+ 
+AzazelChan = {
+sa_enlisted
 }
