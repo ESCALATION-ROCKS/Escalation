@@ -1746,8 +1746,6 @@
 	selection_color = "#B0C4DE"
 	position = "team"
 	faction_tag = "redc"
-	military_faction = NEUTRAL
-	department_flag = NEUTRALFORCE
 	enabled = 1
 	amount = 1
 	rank_number = 1
