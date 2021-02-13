@@ -50,38 +50,14 @@ Sintyz = {
 ::ALL::
 }
 
-#NATO Officers and NCOs
+#NATO
 
 Rippie129 = {
 usa_nco
-usa_enlisted
 }
 
-Gy1ta23 = {
-usa_nco
-usa_enlisted
-}
-
-TheManWhoSoldTheHorns = {
-usa_nco
-usa_enlisted
-}
-
-Weras57 = {
-usa_enlisted
+weras57 = {
 usa_officer
-}
-
-
-
-#NATO Enlisted
-
-yung bruh = {
-usa_enlisted
-}
-
-sowilu = {
-usa_enlisted
 }
 
 Treble_Clef = {
@@ -92,39 +68,11 @@ SilencedMP5A5 = {
 usa_enlisted
 }
 
-epicdwarf = {
-usa_enlisted
-}
-
-firenightpower = {
-usa_enlisted
-}
-
-Taumanta = {
-usa_enlisted
-}
-
-chaznoodles = {
-usa_enlisted
-}
-
-Bonomedia = {
-usa_enlisted
-}
-
-Smugaroni = {
-usa_enlisted
-}
-
-PepeFrog = {
-usa_enlisted
-}
-
-M.Green = {
-usa_enlisted
-}
-
 SilverSZ = {
+usa_enlisted
+}
+
+TheSecretSlav = {
 usa_enlisted
 }
 
@@ -144,10 +92,9 @@ Mrpotatobag123 = {
 usa_enlisted
 }
 
-Arbs = {
+ILikeToGammon = {
 usa_enlisted
 }
-
 Eric066 = {
 usa_enlisted
 }
@@ -155,8 +102,15 @@ usa_enlisted
 Tristan63 = {
 usa_enlisted
 }
-
 michaelbr360 = {
+usa_enlisted
+}
+
+gy1ta23 = {
+usa_nco
+}
+
+IFN Mccree = {
 usa_enlisted
 }
 
@@ -164,15 +118,11 @@ Freiwillige = {
 usa_enlisted
 }
 
-IFN Mccree = {
-usa_enlisted
-}
-
-Avalanchee = {
-usa_enlisted
-}
-
 aguyiguess = {
+usa_enlisted
+}
+
+Dreadlord56 = {
 usa_enlisted
 }
 
@@ -180,8 +130,8 @@ DemtrixD = {
 usa_enlisted
 }
 
-Zach666 = {
-usa_enlisted
+TheManWhoSoldTheHorns = {
+usa_nco
 }
 
 Spectre808 = {
@@ -191,8 +141,37 @@ usa_enlisted
 Sapu222 = {
 usa_enlisted
 }
-Nowik347 = {
-sa_enlisted
+
+Zach666 = {
+usa_enlisted
+}
+
+ epicdwarf = {
+usa_enlisted
+}
+
+Taumanta = {
+usa_enlisted
+}
+
+Bonomedia = {
+usa_enlisted
+}
+
+Smugaroni = {
+usa_enlisted
+}
+
+Ratpack = {
+usa_enlisted
+}
+
+M.green = {
+usa_enlisted
+}
+
+WombatWave = {
+usa_enlisted
 }
 
 # WP PLATOON
