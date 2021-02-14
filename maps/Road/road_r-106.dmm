@@ -735,7 +735,7 @@
 "pg" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/usmcfob)
 "ph" = (/obj/effect/floor_decal/turf/woodalt4,/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "pi" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 8},/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
-"pj" = (/obj/structure/bed/chair/wood/lyoha{dir = 4; icon_state = "chairlyoha_preview"},/turf/simulated/floor/lino,/area/coldwar/warpactfob)
+"pj" = (/obj/structure/bed/chair/wood/lyoha{dir = 4; icon_state = "chairlyoha_preview"},/obj/effect/landmark/start{name = "NVA Funktelefonbetreiber"},/turf/simulated/floor/lino,/area/coldwar/warpactfob)
 "pk" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/white,/area/coldwar/house1)
 "pl" = (/obj/structure/table/rack/shelf,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/usmcfob)
 "pm" = (/obj/structure/table/fancy,/obj/structure/radiole,/turf/simulated/floor/lino,/area/coldwar/warpactfob)
