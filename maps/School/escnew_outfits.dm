@@ -207,7 +207,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
-	head = /obj/item/clothing/head/fieldcap/nvaddr
+	head = /obj/item/clothing/head/beret/sol/stratcom
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
 	l_ear = /obj/item/device/binoculars/wp
@@ -218,8 +218,9 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/leutnant
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	l_pocket = /obj/item/weapon/masterkey/nvaco
 	r_pocket = null
@@ -430,7 +431,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/corpsman
 	name = OUTFIT_JOB_NAME("Coldwar - USMC Corpsman")
-	uniform = /obj/item/clothing/under/usmc/woodland/alt
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
@@ -459,10 +460,10 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/fstlt
 	shoes = /obj/item/clothing/shoes/usmc/field
 	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/usmc/cover
 	l_pocket = /obj/item/weapon/masterkey/usmclt
@@ -2428,18 +2429,3 @@
 	..()
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/m1, /obj/item/clothing/head/helmet/coldwar/usmc/m1/woodland)
 
-/decl/hierarchy/outfit/job/coldwar/redcross/medic
-	name = OUTFIT_JOB_NAME("Coldwar - Red Cross Medic")
-	uniform = /obj/item/clothing/under/rank/medical/paramedic
-	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = null
-	l_hand = /obj/item/weapon/storage/firstaid/surgery
-	left_pouch = /obj/item/weapon/storage/med_pouch/trauma
-	right_pouch = /obj/item/weapon/storage/med_pouch/trauma
-	r_pocket = /obj/item/weapon/key/wpmed
-	back = /obj/item/weapon/storage/backpack/usmc_buttpack/med
-	back_2 = /obj/item/weapon/storage/backpack/summedsan
-	head = /obj/item/clothing/head/helmet/tactical/mirania
-	l_pocket = /obj/item/weapon/key/natomed
-	belt = /obj/item/weapon/storage/belt/harness/usmc
-	gloves = /obj/item/clothing/gloves/thick
