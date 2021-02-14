@@ -777,7 +777,7 @@
 /datum/job/escalation/nvaddr/nvaar
 	title = "NVA Automatischer Schutze"
 	name = "Squad Automatischer Schutze"
-	english_name = "Machinegunner"
+	english_name = "Automatic Rifleman"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
