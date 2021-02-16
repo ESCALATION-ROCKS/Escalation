@@ -54,6 +54,7 @@ Sintyz = {
 
 Rippie129 = {
 usa_nco
+usa_enlisted
 }
 
 weras57 = {
@@ -116,6 +117,7 @@ usa_enlisted
 
 Freiwillige = {
 usa_enlisted
+::ALL::
 }
 
 aguyiguess = {
@@ -334,6 +336,7 @@ sa_enlisted
  
 AngryBoar = {
 sa_enlisted
+sa_nco
 }
  
 Peanutbuttersandwich = {
@@ -385,3 +388,22 @@ sa_enlisted
 Hemph = {
 sa_enlisted
 }
+
+Arbs = {
+usa_enlisted
+}
+
+
+
+TurtleCactus = {
+sa_enlisted
+}
+
+Yung bruh = {
+usa_enlisted
+}
+
+Rippe129 = {
+usa_enlisted
+}
+
