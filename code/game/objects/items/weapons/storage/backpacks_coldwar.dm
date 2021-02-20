@@ -22,14 +22,10 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -89,14 +85,10 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -124,14 +116,10 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -171,14 +159,10 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -285,14 +269,10 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
@@ -372,14 +352,10 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
 			)
 	can_hold = list(
-			/obj/item/weapon/storage/firstaid/gauze,
-			/obj/item/weapon/storage/firstaid/tour,
 			/obj/item/weapon/storage/box/pill_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,

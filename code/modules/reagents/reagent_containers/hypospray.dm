@@ -206,13 +206,13 @@
 
 
 
-/obj/item/weapon/reagent_containers/syrette/promedolum
+/*/obj/item/weapon/reagent_containers/syrette/promedolum
 	name = "promedolum syrette"
 
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/morphine, 2)
-		reagents.add_reagent(/datum/reagent/tramadol, 3)
+		reagents.add_reagent(/datum/reagent/tramadol, 3)*/
 
 //////////////////////////////
 ////Combat Injector Define////
@@ -300,14 +300,14 @@
 		..()
 		reagents.add_reagent("peridaxon", 5)
 
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/combat/promedolum
+/*/obj/item/weapon/reagent_containers/hypospray/autoinjector/combat/promedolum
 	name = "promedolum autoinjector"
 	cap_color = "green"
 
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/morphine, 5)
-		reagents.add_reagent(/datum/reagent/tramadol, 2)
+		reagents.add_reagent(/datum/reagent/tramadol, 2)*/
 
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/combat/epinephrine
 	name = "epinephrine autoinjector"
