@@ -12,7 +12,7 @@
 	slot = slot_gloves
 	path = /obj/item/clothing/gloves/mittens
 
-/datum/gear/clothing/mask/tacticalmask
+/*/datum/gear/clothing/mask/tacticalmask
 	display_name = "bandana selection"
 	slot = slot_wear_mask
 	path = /obj/item/clothing/mask/tacticalmask
@@ -23,7 +23,7 @@
 	bandanas["tan bandana"] = /obj/item/clothing/mask/tacticalmask
 	bandanas["green bandana"] = /obj/item/clothing/mask/tacticalmask/green
 	bandanas["blue bandana"] = /obj/item/clothing/mask/tacticalmask/blue
-	gear_tweaks += new/datum/gear_tweak/path(bandanas)
+	gear_tweaks += new/datum/gear_tweak/path(bandanas)*/
 
 /datum/gear/clothing/mask/balaclava
 	display_name = "balaclava"
