@@ -54,7 +54,6 @@ Sintyz = {
 
 Rippie129 = {
 usa_nco
-usa_enlisted
 }
 
 weras57 = {
@@ -69,7 +68,7 @@ SilencedMP5A5 = {
 usa_enlisted
 }
 
-SilverSZ = {
+Silver = {
 usa_enlisted
 }
 
@@ -108,7 +107,7 @@ usa_enlisted
 }
 
 gy1ta23 = {
-usa_nco
+usa_enlisted
 }
 
 IFN Mccree = {
@@ -117,7 +116,6 @@ usa_enlisted
 
 Freiwillige = {
 usa_enlisted
-::ALL::
 }
 
 aguyiguess = {
@@ -145,7 +143,7 @@ usa_enlisted
 }
 
 Zach666 = {
-usa_enlisted
+usa_nco
 }
 
  epicdwarf = {
@@ -153,7 +151,7 @@ usa_enlisted
 }
 
 Taumanta = {
-usa_enlisted
+usa_nco
 }
 
 Bonomedia = {
@@ -173,6 +171,50 @@ usa_enlisted
 }
 
 WombatWave = {
+usa_enlisted
+}
+
+Bamhalazam = {
+usa_enlisted
+}
+
+BurnedSweetPotato = {
+usa_nco
+}
+
+chaznoodles = {
+usa_enlisted
+}
+
+Arbs = {
+usa_enlisted
+}
+
+ToroidalZer0 = {
+usa_enlisted
+}
+
+TommyGoYonder = {
+usa_enlisted
+}
+
+AvgustFroch = {
+usa_enlisted
+}
+
+Merrgear = {
+usa_enlisted
+}
+
+Subrelog = {
+usa_enlisted
+}
+
+yungbruh = {
+usa_enlisted
+}
+
+Xperia15 = {
 usa_enlisted
 }
 
