@@ -19,7 +19,7 @@
 	satchel_black = null
 	flags = null
 
-//SOVIET ARMY --------- SUMMER MAP VERSION (WINTER BELOW)
+//SOVIET ARMY --------- SUMMER MAERSION (WINTER BELOW)
 /decl/hierarchy/outfit/job/coldwar/soviet/komvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Komandir Vzvoda")
 	uniform = /obj/item/clothing/under/soviet/habe/lt
