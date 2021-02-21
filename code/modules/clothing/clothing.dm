@@ -805,7 +805,7 @@ BLIND     // can't see anything
 		M.update_inv_w_uniform()
 
 
-/obj/item/clothing/under/examine(mob/user)
+/*/obj/item/clothing/under/examine(mob/user)
 	. = ..(user)
 	switch(src.sensor_mode)
 		if(0)
@@ -815,7 +815,7 @@ BLIND     // can't see anything
 		if(2)
 			to_chat(user, "Its vital tracker appears to be enabled.")
 		if(3)
-			to_chat(user, "Its vital tracker and tracking beacon appear to be enabled.")
+			to_chat(user, "Its vital tracker and tracking beacon appear to be enabled.")*/
 
 /obj/item/clothing/under/proc/set_sensors(mob/user as mob)
 	var/mob/M = user
