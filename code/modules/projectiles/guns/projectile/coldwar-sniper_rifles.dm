@@ -6,7 +6,7 @@
 	screen_shake = 2
 	accuracy = 5
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
-	magazine_type = /obj/item/ammo_magazine/c762x51s
+	magazine_type = null
 	wielded_item_state = "m21-wielded"
 	bayonet_attachable = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
@@ -49,7 +49,7 @@
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
 	load_method = MAGAZINE
-	magazine_type = /obj/item/ammo_magazine/c762x54s
+	magazine_type = null
 	allowed_magazines = /obj/item/ammo_magazine/c762x54s
 	one_hand_penalty = 10
 	bayonet_attachable = 1

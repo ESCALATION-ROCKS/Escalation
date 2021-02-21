@@ -41,7 +41,7 @@
 ##
 
 {
-ckey: Corbe
+ckey: SeverePwnage
 item_path: /obj/item/clothing/mask/smokable/cigarette/cigar/havana
 }
 
