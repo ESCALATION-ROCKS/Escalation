@@ -14,7 +14,7 @@ MrGabol100 = {
 ::ALL::
 }
 
-emoats18 = {
+SeverePwnage = {
 ::ALL::
 }
 
@@ -55,371 +55,534 @@ Sintyz = {
 Rippie129 = {
 usa_nco
 usa_enlisted
+usa_officer
 }
 
 weras57 = {
+usa_nco
+usa_enlisted
 usa_officer
 }
 
 Treble_Clef = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 SilencedMP5A5 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 SilverSZ = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 TheSecretSlav = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Ragdoll_Hooman = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Subdon = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Nautilus23 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Mrpotatobag123 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 ILikeToGammon = {
+usa_nco
 usa_enlisted
+usa_officer
 }
+
 Eric066 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Tristan63 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
+
 michaelbr360 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 gy1ta23 = {
 usa_nco
+usa_enlisted
+usa_officer
 }
 
 IFN Mccree = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Freiwillige = {
+usa_nco
 usa_enlisted
-::ALL::
+usa_officer
 }
 
 aguyiguess = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Dreadlord56 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 DemtrixD = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 TheManWhoSoldTheHorns = {
 usa_nco
+usa_enlisted
+usa_officer
 }
 
 Spectre808 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Sapu222 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Zach666 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
  epicdwarf = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Taumanta = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Bonomedia = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Smugaroni = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Ratpack = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 M.green = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 WombatWave = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 # WP PLATOON
 
 Luftie = {
-sa_officer
-sa_enlisted
-sa_nco
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Cabostein = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Andrej99 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 The Elder Hobo = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 AtlasRules87 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Burtyu = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 #ANTON
 
 Jackomago61 = {
-sa_nco
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 LynuahSororitas = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 LeoTheKiller = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 cesarjunior233 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Boltersam = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 rev1n = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Real Josef Stalin = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Timtwoshoes = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 CeSium_Shark = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 #BERTA
 
 Battieralarm3 = {
-sa_nco
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Oshibka = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 AlexUNDRRRMKaroff = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Cr3ye = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Master8688 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 MikeForce3321 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Wulferion = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Electrolyz = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Shmesser = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Snow7 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 # CESAR
 corbe = {
-sa_nco
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Manny pardo = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Echion = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Booperkin343435 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Lautaroluna180 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Sha.SCT = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Gefrakt = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 FoxTail_99 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 ExecutorPartner = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 # HEINRICH
 theflyingbananagaming = {
-sa_nco
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Stakeyng = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 AngryBoar = {
-sa_enlisted
-sa_nco
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Peanutbuttersandwich = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 # PANZYR
 Nayser = {
-sa_nco
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 Nowik347 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
  
 AzazelChan = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 DecebalStalin = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Higher_Life = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Tramp123 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 PepeFrog = {
-usa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 borntokill946 = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Xperia15 = {
-usa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 ExtentEnzo = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Hemph = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Arbs = {
-usa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
-
-
 TurtleCactus = {
-sa_enlisted
+ddr_officer
+ddr_enlisted
+drr_nco
 }
 
 Yung bruh = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 Rippe129 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 
 BlazSnake = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 SilverSZ = {
+usa_nco
 usa_enlisted
-us_enlisted
+usa_officer
 }
 
 
 Torn223 = {
+usa_nco
 usa_enlisted
+usa_officer
 }
 
 AlbertBlackwell = {
@@ -428,15 +591,6 @@ usa_enlisted
 usa_officer
 }
 
-
-
-SeverePwnage = {
-::ALL::
-}
-
-Alpella18 = {
-sa_enlisted
-}
 
 KillingSpree13 = {
 ::ALL::
