@@ -107,7 +107,7 @@ Squad 'Alpha':usa
 /datum/job/escalation/usa/usasl
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
-/datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
@@ -119,7 +119,7 @@ Squad 'Bravo':usa
 /datum/job/escalation/usa/usasl
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
-/datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
@@ -131,7 +131,7 @@ Squad 'Charlie':usa
 /datum/job/escalation/usa/usasl
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
-/datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usaftmg
 /datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
@@ -236,9 +236,9 @@ Gruppe 'Cesar':nvaddr
 @END@
 
 SwG. 'Dora':nvaddr
-/datum/job/escalation/nvaddr/mgcom
-/datum/job/escalation/nvaddr/mgop
-/datum/job/escalation/nvaddr/mgload
+/datum/job/escalation/nvaddr/nvahwscom
+/datum/job/escalation/nvaddr/nvahwsop
+/datum/job/escalation/nvaddr/nvahwsload
 @END@
 
 ########ESCA ARCTIC############
