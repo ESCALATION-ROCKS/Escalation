@@ -104,26 +104,9 @@ var/list/admin_verbs_admin = list(
 	/client/proc/remove_trader,
 	/datum/admins/proc/sendFax,
 	/client/proc/announce_battle_start,
-	/client/proc/speznaz_major,
-	/client/proc/speznaz_minor,
-	/client/proc/usranger_major,
-	/client/proc/usranger_minor,
-	/client/proc/nva_major,
-	/client/proc/nva_minor,
-	/client/proc/bund_major,
-	/client/proc/bund_minor,
-	/client/proc/finn_major,
-	/client/proc/finn_minor,
-	/client/proc/brit_major,
-	/client/proc/brit_minor,
-	/client/proc/usarmy_major,
-	/client/proc/usarmy_minor,
-	/client/proc/sovietarmy_major,
-	/client/proc/sovietarmy_minor,
 	/client/proc/warpact_major,
-	/client/proc/warpact_minor,
 	/client/proc/nato_major,
-	/client/proc/nato_minor
+	/client/proc/draw_major,
 )
 var/list/admin_verbs_ban = list(
 	/client/proc/unban_panel,
@@ -1128,13 +1111,34 @@ var/global/list/global_colour_matrix = null
 /client/proc/announce_battle_start()
 	set category = "EscAdmin"
 	set name = "Announce Battle Start"
-	to_world("<b><font size=4>Attention all units! The missiles are flying, it is time to do your part! Move forward and destroy the enemy!</font></b>")
-	to_world("<b><font size=4>I repeat again! Attention all units! The missiles are flying! Move forward and destroy the enemy!</font></b>")
-	to_world("<b><font size=4>This will be our last broadcast, good luck and good hunting! Regimental Command Out!</font></b>")
+	to_world("<b><font size=2>All callsigns, multiple ballistic launches have been detected. Operational readiness No. 1 has been declared!</font></b>")
+	to_world("<b><font size=2>Repeat, all callsigns, Operational readiness No. 1 has been declared!</font></b>")
+	to_world("<b><font size=3>This will be our final broadcast. Advance under platoon-scale command. Good luck.</font></b>")
 	sound_to(world, 'sound/effects/Evacuation.ogg')
-	log_and_message_admins("has started WW3")
+	log_and_message_admins("has set forth the end of the world.")
 
-/client/proc/speznaz_major()
+/client/proc/nato_major()
+	set category = "EscAdmin"
+	set name = "Announce NATO Victory"
+	log_and_message_admins("has declared NATO Victory")
+	to_world("<b><font size=5>NATO forces have occupied the field!</font></b>")
+	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+
+/client/proc/warpact_major()
+	set category = "EscAdmin"
+	set name = "Announce WARPACT Victory"
+	log_and_message_admins("has declared WARPACT Victory")
+	to_world("<b><font size=5>WARPACT forces have occupied the field!</font></b>")
+	sound_to(world, 'sound/effects/speznaztheme.ogg')
+
+/client/proc/draw_major()
+	set category = "EscAdmin"
+	set name = "Announce Round Draw"
+	log_and_message_admins("has declared a draw...")
+	to_world("<b><font size=4>The battlefield is deserted and the remaining troops have retreated...</font></b>")
+	sound_to(world, 'sound/music/bluemonday.ogg')
+
+/*/client/proc/speznaz_major()
 	set category = "EscDeclareWinner"
 	set name = "GRU Speznaz Major Victory"
 	log_and_message_admins("has declared GRU Spetznaz Major Victory")
@@ -1246,13 +1250,6 @@ var/global/list/global_colour_matrix = null
 	to_world("<b><font size=5>The Red Army has secured the battlefield!</font></b>")
 	sound_to(world, 'sound/music/redtide.ogg')
 
-/client/proc/warpact_major()
-	set category = "EscDeclareWinner"
-	set name = "Warsaw Pact Major Victory"
-	log_and_message_admins("has declared Warsaw Pact Major Victory")
-	to_world("<b><font size=7>THE WARSAW PACT DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
 /client/proc/warpact_minor()
 	set category = "EscDeclareWinner"
 	set name = "Warsaw Pact Minor Victory"
@@ -1260,16 +1257,9 @@ var/global/list/global_colour_matrix = null
 	to_world("<b><font size=5>The Warsaw Pact has secured the battlefield!</font></b>")
 	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
 
-/client/proc/nato_major()
-	set category = "EscDeclareWinner"
-	set name = "NATO Major Victory"
-	log_and_message_admins("has declared Nato Major Victory")
-	to_world("<b><font size=7>THE NORTH ATLANTIC TREATY ORGANIZATION DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
 /client/proc/nato_minor()
 	set category = "EscDeclareWinner"
 	set name = "NATO Minor Victory"
 	log_and_message_admins("has declared Nato Minor Victory")
 	to_world("<b><font size=5>The North Atlantic Treaty Organization has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/music/lmfaopartyrock.ogg')
+	sound_to(world, 'sound/music/lmfaopartyrock.ogg')*/

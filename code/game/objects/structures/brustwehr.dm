@@ -225,7 +225,7 @@
 			else
 				to_chat(user, "<span class='notice'>You do not have enough wood to reinforce the brustwehr.</span>")
 
-	else if(istype(I, /obj/item/weapon/sandbag))
+	/*else if(istype(I, /obj/item/weapon/sandbag))
 		if(!reinforced)
 			var/obj/item/weapon/sandbag/R = I
 
@@ -242,7 +242,7 @@
 				density = 1
 				src.overlays += image('icons/obj/sandbags.dmi', "brustwehr_sandbagoverlay", layer=3.1)
 			else
-				to_chat(user, "<span class='notice'>The sandbag isn't full enough to reinforce the brustwehr.</span>")
+				to_chat(user, "<span class='notice'>The sandbag isn't full enough to reinforce the brustwehr.</span>")*/
 
 	else if(istype(I, /obj/item/weapon/shovel))
 		var/obj/item/weapon/shovel/S = I

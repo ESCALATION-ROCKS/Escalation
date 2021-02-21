@@ -226,6 +226,11 @@
 	icon_state = "pasgtwinter"
 	icon_state_unzipped = "pasgtwinter-unzipped"
 
+/obj/item/clothing/head/helmet/coldwar/usmc/pasgt/un
+	icon_state = "pasgtantichrist"
+	icon_state_unzipped = "pasgtantichrist-unzipped"
+	desc = "A kevlar helmet painted in bright blue, signature to the UN forces."
+
 /obj/item/clothing/head/helmet/coldwar/usmc/m1
 	name = "M1 helmet"
 	desc = "A classic helmet used by the U.S. Army."

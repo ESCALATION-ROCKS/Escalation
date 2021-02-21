@@ -116,7 +116,7 @@
 		
 //1983 Tapes
 
-/obj/item/device/cassette/bdw/tape1/New()
+/*/obj/item/device/cassette/bdw/tape1/New()
 	..()
 	name = "Tape No. 1"
 	desc = "Side A - Luftballons, Side B - Keine Heimat"
@@ -267,4 +267,4 @@
 	desc = "Side A - Belaya Armiya, Chorniy Baron, Side B - Dark eyed cossack girl"
 	a_side = 'sound/music/belaya.ogg'
 	b_side = 'sound/music/cossackgirl.ogg'
-	sound_inside = a_side
+	sound_inside = a_side*/

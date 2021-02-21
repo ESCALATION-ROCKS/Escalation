@@ -489,9 +489,15 @@
 	icon_state = "rpg22"
 	item_state = "rpg22"
 
+/obj/item/weapon/gun/launcher/oneuse/rpg18/m72
+	name = "M72 LAW"
+	desc = "A single-use rocket launcher used by NATO forces. Fires a 66mm HEAT shell."
+	icon_state = "m72"
+	item_state = "m72"
+	fire_sound = 'sound/weapons/gunshot/m72.ogg'
 
 
-/obj/item/weapon/gun/launcher/oneuse/m72
+/*/obj/item/weapon/gun/launcher/oneuse/m72
 	name = "M72 LAW"
 	desc = "A single-use rocket launcher used by NATO forces. Fires a 66mm HEAT shell."
 	icon_state = "m72"
@@ -580,4 +586,4 @@
 		//M.primed = TRUE
 		rockets -= I
 		return M
-	return null
+	return null*/

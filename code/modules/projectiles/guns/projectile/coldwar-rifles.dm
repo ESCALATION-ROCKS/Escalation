@@ -324,7 +324,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
-	magazine_type = /obj/item/ammo_magazine/c556x45m/tr
+	magazine_type = null
 	one_hand_penalty = 4
 	accuracy = 3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
@@ -406,7 +406,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
-	magazine_type = /obj/item/ammo_magazine/c556x45m
+	magazine_type = null
 	one_hand_penalty = 4
 	accuracy = 3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
@@ -486,7 +486,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
-	magazine_type = /obj/item/ammo_magazine/c556x45m
+	magazine_type = null
 	one_hand_penalty = 4
 	bayonet_attachable = 1
 	accuracy = 3
@@ -870,7 +870,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
-	magazine_type = /obj/item/ammo_magazine/c762x39m
+	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 2.7
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
@@ -911,7 +911,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
-	magazine_type = /obj/item/ammo_magazine/c762x39m
+	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 2.6
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
@@ -952,7 +952,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
-	magazine_type = /obj/item/ammo_magazine/c762x39m
+	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 2.6
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
@@ -993,7 +993,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
-	magazine_type = /obj/item/ammo_magazine/c762x39m
+	magazine_type = null
 	one_hand_penalty = 5
 	accuracy = 2.7
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/

@@ -114,7 +114,7 @@
 	special_item = /obj/item/weapon/gun/projectile/colt911
 	holster_sound = 'sound/effects/holster/tactiholsterin.ogg'
 	unholster_sound = 'sound/effects/holster/tactiholsterout.ogg'
-	name = "ALICE M12 holster"
+	name = "M1911 holster"
 	icon_state = "alice_holster"
 	icon_closed = "alice_holster_empty"
 	storage_slots = 3
@@ -499,11 +499,7 @@
 		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m/tr
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -536,7 +532,7 @@
 		/obj/item/ammo_magazine/c762x51b,
 		/obj/item/ammo_magazine/c556x45b
 		)
-	startswith = /obj/item/ammo_magazine/c762x51b
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	w_class = ITEM_SIZE_HUGE
@@ -553,10 +549,7 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x51s,
-		/obj/item/ammo_magazine/c762x51s
-		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/sa
 	w_class = ITEM_SIZE_HUGE
@@ -603,12 +596,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54s
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x54s,
-		/obj/item/ammo_magazine/c762x54s,
-		/obj/item/ammo_magazine/c762x54s,
-		/obj/item/ammo_magazine/c762x54s
-		)
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/ssg82
 	w_class = ITEM_SIZE_HUGE
@@ -675,15 +663,9 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c545x39m,
 		/obj/item/ammo_magazine/c762x39m,
-		/obj/item/ammo_magazine/c762x39b,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x39m,
-		/obj/item/ammo_magazine/c762x39m,
-		/obj/item/ammo_magazine/c762x39m,
-		/obj/item/ammo_magazine/c762x39m/tr
-		)
+	startswith = null
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 
@@ -714,7 +696,7 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
 		)
-	startswith = /obj/item/ammo_magazine/c762x54b
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	w_class = ITEM_SIZE_HUGE
@@ -726,16 +708,13 @@
 	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39b,
+		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/c762x39b,
-		/obj/item/ammo_magazine/c762x39m
+		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = list(
-		/obj/item/ammo_magazine/c762x39b,
-		/obj/item/ammo_magazine/c762x39b,
-		/obj/item/ammo_magazine/c762x39b,
-		/obj/item/ammo_magazine/c762x39b/tr
-	)
-
+	startswith = null
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	w_class = ITEM_SIZE_HUGE
@@ -746,10 +725,7 @@
 	item_state = "nvaddr_grenade"
 	open_delay = 2
 	storage_slots = 3
-	startswith = list(
-		/obj/item/weapon/grenade/frag/f1,
-		/obj/item/weapon/grenade/frag/f1
-		)
+	startswith = null
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
 
 //finnish

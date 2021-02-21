@@ -333,7 +333,7 @@
 		/obj/item/stack/medical/bruise_pack
 		)
 
-/obj/item/weapon/storage/firstaid/gauze
+/*/obj/item/weapon/storage/firstaid/gauze
 	name = "gauze satchel"
 	desc = "A small container you can place bandages and bandage packs in."
 	icon_state = "nato_gauze"
@@ -388,7 +388,7 @@
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/stack/medical/tourniquet
-		)
+		)*/
 
 
 /obj/item/weapon/storage/firstaid/sa_ifak
