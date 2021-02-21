@@ -2593,7 +2593,6 @@
 #include "maps\river\escnew_define.dm"
 #include "maps\river\escnew_outfits.dm"
 #include "maps\river\river.dmm"
-#include "maps\School\escnew_outfits.dm"
 #include "maps\~mapsystem\map_preferences.dm"
 #include "maps\~mapsystem\map_ranks.dm"
 #include "maps\~mapsystem\maps.dm"
