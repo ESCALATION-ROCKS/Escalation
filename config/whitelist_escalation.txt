@@ -54,6 +54,7 @@ Sintyz = {
 
 Rippie129 = {
 usa_nco
+usa_enlisted
 }
 
 weras57 = {
@@ -68,7 +69,7 @@ SilencedMP5A5 = {
 usa_enlisted
 }
 
-Silver = {
+SilverSZ = {
 usa_enlisted
 }
 
@@ -107,7 +108,7 @@ usa_enlisted
 }
 
 gy1ta23 = {
-usa_enlisted
+usa_nco
 }
 
 IFN Mccree = {
@@ -116,6 +117,7 @@ usa_enlisted
 
 Freiwillige = {
 usa_enlisted
+::ALL::
 }
 
 aguyiguess = {
@@ -143,7 +145,7 @@ usa_enlisted
 }
 
 Zach666 = {
-usa_nco
+usa_enlisted
 }
 
  epicdwarf = {
@@ -151,7 +153,7 @@ usa_enlisted
 }
 
 Taumanta = {
-usa_nco
+usa_enlisted
 }
 
 Bonomedia = {
@@ -171,50 +173,6 @@ usa_enlisted
 }
 
 WombatWave = {
-usa_enlisted
-}
-
-Bamhalazam = {
-usa_enlisted
-}
-
-BurnedSweetPotato = {
-usa_nco
-}
-
-chaznoodles = {
-usa_enlisted
-}
-
-Arbs = {
-usa_enlisted
-}
-
-ToroidalZer0 = {
-usa_enlisted
-}
-
-TommyGoYonder = {
-usa_enlisted
-}
-
-AvgustFroch = {
-usa_enlisted
-}
-
-Merrgear = {
-usa_enlisted
-}
-
-Subrelog = {
-usa_enlisted
-}
-
-yungbruh = {
-usa_enlisted
-}
-
-Xperia15 = {
 usa_enlisted
 }
 
@@ -449,3 +407,37 @@ Rippe129 = {
 usa_enlisted
 }
 
+
+BlazSnake = {
+usa_enlisted
+}
+
+SilverSZ = {
+usa_enlisted
+us_enlisted
+}
+
+
+Torn223 = {
+usa_enlisted
+}
+
+AlbertBlackwell = {
+usa_nco
+usa_enlisted
+usa_officer
+}
+
+
+
+SeverePwnage = {
+::ALL::
+}
+
+Alpella18 = {
+sa_enlisted
+}
+
+KillingSpree13 = {
+::ALL::
+}
