@@ -63,42 +63,42 @@ ATS-1:usmc
 ###BUNDESWEHR###
 
 Gruppe 'Delta':bund
-/datum/job/escalation/nato/bund/bdwsl
-/datum/job/escalation/nato/bund/bdwsld
-/datum/job/escalation/nato/bund/bdwsqradio
-/datum/job/escalation/nato/bund/bdwmg
-/datum/job/escalation/nato/bund/bdwmgas
-/datum/job/escalation/nato/bund/bdwgrenadier
-/datum/job/escalation/nato/bund/bdwrifle
-/datum/job/escalation/nato/bund/bdwrifle
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
 @END@
 
 Gruppe 'Echo':bund
-/datum/job/escalation/nato/bund/bdwsl
-/datum/job/escalation/nato/bund/bdwsld
-/datum/job/escalation/nato/bund/bdwsqradio
-/datum/job/escalation/nato/bund/bdwmg
-/datum/job/escalation/nato/bund/bdwmgas
-/datum/job/escalation/nato/bund/bdwgrenadier
-/datum/job/escalation/nato/bund/bdwrifle
-/datum/job/escalation/nato/bund/bdwrifle
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
 @END@
 
 Gruppe 'Foxtrot':bund
-/datum/job/escalation/nato/bund/bdwsl
-/datum/job/escalation/nato/bund/bdwsld
-/datum/job/escalation/nato/bund/bdwsqradio
-/datum/job/escalation/nato/bund/bdwmg
-/datum/job/escalation/nato/bund/bdwmgas
-/datum/job/escalation/nato/bund/bdwgrenadier
-/datum/job/escalation/nato/bund/bdwrifle
-/datum/job/escalation/nato/bund/bdwrifle
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
 @END@
 
 SwG. I:bund
-/datum/job/escalation/nato/bund/mgcom
-/datum/job/escalation/nato/bund/mgload
-/datum/job/escalation/nato/bund/mgop
+/datum/job/escalation/bund/mgcom
+/datum/job/escalation/bund/mgload
+/datum/job/escalation/bund/mgop
 @END@
 
 ###US ARMY###
