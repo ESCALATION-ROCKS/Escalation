@@ -1120,14 +1120,14 @@ var/global/list/global_colour_matrix = null
 /client/proc/nato_major()
 	set category = "EscAdmin"
 	set name = "Announce NATO Victory"
-	log_and_message_admins("has declared Nato Major Victory")
+	log_and_message_admins("has declared NATO Victory")
 	to_world("<b><font size=5>NATO forces have occupied the field!</font></b>")
 	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
 
 /client/proc/warpact_major()
 	set category = "EscAdmin"
 	set name = "Announce WARPACT Victory"
-	log_and_message_admins("has declared Warsaw Pact Major Victory")
+	log_and_message_admins("has declared WARPACT Victory")
 	to_world("<b><font size=5>WARPACT forces have occupied the field!</font></b>")
 	sound_to(world, 'sound/effects/speznaztheme.ogg')
 
@@ -1135,8 +1135,8 @@ var/global/list/global_colour_matrix = null
 	set category = "EscAdmin"
 	set name = "Announce Round Draw"
 	log_and_message_admins("has declared a draw...")
-	to_world("<b><font size=4>The battlefield is deserted and the remaining troops have retreated.</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+	to_world("<b><font size=4>The battlefield is deserted and the remaining troops have retreated...</font></b>")
+	sound_to(world, 'sound/music/bluemonday.ogg')
 
 /*/client/proc/speznaz_major()
 	set category = "EscDeclareWinner"

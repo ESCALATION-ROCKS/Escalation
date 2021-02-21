@@ -69,7 +69,7 @@
 
 /decl/hierarchy/outfit/escalation/nato/usmc/marksman
 	name = "USMC Marksman"
-	l_hand = /obj/item/weapon/gun/projectile/automatic/m14/scoped
+	l_hand = /obj/item/weapon/gun/projectile/automatic/m21
 
 /decl/hierarchy/outfit/escalation/nato/usmc/headmedic
 	name = "USMC Head Medic"

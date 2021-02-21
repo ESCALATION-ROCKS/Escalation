@@ -1,11 +1,14 @@
-/obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped
+/obj/item/weapon/gun/projectile/automatic/rifle/m21
 	name = "M21"
 	desc = "A standard-issue USMC marksman rifle."
-	icon_state = "m14scoped"
+	icon_state = "m21"
 	item_state = "m21"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK | SLOT_BACK
 	screen_shake = 2
 	accuracy = 5
+	caliber = "762x51"
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
+	load_method = MAGAZINE
 	magazine_type = null
 	wielded_item_state = "m21-wielded"
 	bayonet_attachable = 1
@@ -13,22 +16,28 @@
 	jam_chance = 0.6
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 	slowdown_general = 0.5
+	fire_sound = 'sound/weapons/gunshot/m14.ogg'
+	wielded_item_state = "m14-wielded"
+	unload_sound = 'sound/weapons/gunporn/m14_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/m14_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m14_charge.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=8.5,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
 		)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped/update_icon()
+/obj/item/weapon/gun/projectile/automatic/rifle/m21/update_icon()
 	..()
 	if(ammo_magazine)
-		icon_state = "m14scoped"
+		icon_state = "m21scoped"
 		wielded_item_state = "m21-wielded"
 	else
-		icon_state = "m14scoped-empty"
+		icon_state = "m21scoped-empty"
 		wielded_item_state = "m21-wielded-empty"
 	update_held_icon()
 
-/obj/item/weapon/gun/projectile/automatic/rifle/m14/scoped/verb/scope()
+/obj/item/weapon/gun/projectile/automatic/rifle/m21/verb/scope()
 	set name = "Use Scope"
 	set category = "Object"
 	set src in usr
@@ -41,7 +50,7 @@
 	desc = "A standard-issue Soviet Army and NVA DDR marksman rifle. Chambers 7.62x54mmR rounds."
 	icon_state = "svd"
 	item_state = "svd"
-	slot_flags = SLOT_BACK_GUN
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK | SLOT_BACK
 	w_class = 5
 	force = 10
 	max_shells = 10
@@ -95,7 +104,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
-	slot_flags = SLOT_BACK_GUN
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
@@ -147,7 +156,7 @@
 	max_shells = 6
 	load_method = MAGAZINE
 	caliber = "762x51"
-	slot_flags = SLOT_BACK_GUN
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -196,7 +205,7 @@
 	max_shells = 10
 	load_method = MAGAZINE
 	caliber = ".50"
-	slot_flags = SLOT_BACK_GUN
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a50cal
 	allowed_magazines = list(/obj/item/ammo_magazine/c50cals)
 	magazine_type = null
@@ -235,7 +244,7 @@
 /////////---------------BOLT ACTIONS
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/
-	slot_flags = SLOT_BACK_GUN
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	var/bolt_open = 0
 	var/bayonet_type = null
 	var/bayonet_attachable = 0
