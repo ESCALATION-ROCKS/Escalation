@@ -387,8 +387,8 @@
 /obj/item/ammo_magazine/a45
 	name = "magazine (.45 ACP)"
 	desc = "An M1911 magazine that fits seven .45 ACP rounds."
-	icon_state = "45"
-	item_state = "m16_mag"
+	icon_state = "a45"
+	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a45
 	caliber = ".45"

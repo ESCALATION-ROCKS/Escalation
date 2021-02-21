@@ -33,7 +33,7 @@
 	icon_state = "dirt"
 	blend_with_neighbors = 3
 	permit_ao = 0
-	movement_delay = 1.5
+	movement_delay = 2
 	outdoors = 1
 	footstep_sounds = list("human" = list(
 		'sound/effects/footsteps/dirt1.wav',

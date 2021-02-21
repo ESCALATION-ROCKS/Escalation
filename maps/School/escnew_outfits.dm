@@ -1801,7 +1801,6 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
-	back = /obj/item/weapon/gun/launcher/oneuse/m72
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 

@@ -5,6 +5,7 @@
 	item_state = "m21"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK | SLOT_BACK
 	screen_shake = 2
+	w_class = 5
 	accuracy = 5
 	caliber = "762x51"
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
@@ -13,11 +14,11 @@
 	wielded_item_state = "m21-wielded"
 	bayonet_attachable = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
-	jam_chance = 0.6
+	jam_chance = 0.4
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 	slowdown_general = 0.5
 	fire_sound = 'sound/weapons/gunshot/m14.ogg'
-	wielded_item_state = "m14-wielded"
+	wielded_item_state = "m21-wielded"
 	unload_sound = 'sound/weapons/gunporn/m14_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/m14_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m14_charge.ogg'
