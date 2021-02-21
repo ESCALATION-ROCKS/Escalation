@@ -19,9 +19,9 @@
 	selection_color = "#B22222"
 	rank_number = 0
 	position = "team"
-	leading = 0
-	amount = 0
-	enabled = 0
+	leading = 1
+	amount = 1
+	enabled = 1
 	whitelist_rank = "sa_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100)
 
@@ -41,7 +41,7 @@
 	rank_number = 2
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 90)
 
@@ -121,7 +121,7 @@
 	rank_number = 5
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
 
@@ -141,7 +141,7 @@
 	rank_number = 4
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100)
 
@@ -160,7 +160,7 @@
 	selection_color = "#B22222"
 	rank_number = 4
 	position = "team"
-	amount = 1
+	amount = 4
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)
@@ -181,7 +181,7 @@
 	rank_number = 2
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100)
 
@@ -800,7 +800,7 @@
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
-	selection_color = "#FA8072"
+	selection_color = "#f7ddda"
 	rank_number = 1
 	position = "fireteam"
 	amount = 3
@@ -811,6 +811,65 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/nvaddr/nvahwscom
+	title = "NVA HWS Commander"
+	name = "Schwere Waffen Gruppenfuhrer"
+	english_name = "Heavy Weapons Group Commander"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/komod
+	selection_color = "#fa8072"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "ddr_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/nvaddr/nvahwsload
+	title = "NVA HWS Loader"
+	name = "Schwere Waffen Gruppe Ladeschutze"
+	english_name = "Heavy Weapons Group Loader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
+	selection_color = "#f7ddda"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "ddr_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/nvaddr/nvahwsop
+	title = "NVA HWS Operator"
+	name = "Schwere Waffen Gruppe Schutze"
+	english_name = "Heavy Weapons Group Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
+	selection_color = "#f7ddda"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "ddr_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
+
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 
 //Finnish Army
 

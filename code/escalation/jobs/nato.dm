@@ -20,9 +20,9 @@
 	selection_color = "#B0C4DE"
 	rank_number = 0
 	position = "team"
-	enabled = 0
-	leading = 0
-	amount = 0
+	enabled = 1
+	leading = 1
+	amount = 1
 	whitelist_rank = "usmc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
 
@@ -41,7 +41,7 @@
 	selection_color = "#B0C4DE"
 	amount = 1
 	rank_number = 1
-	enabled = 0
+	enabled = 1
 	position = "team"
 	whitelist_rank = "usmc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 60)
@@ -60,7 +60,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/ratelo
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	rank_number = 2
 	position = "team"
 	whitelist_rank = "usmc_enlisted"
@@ -101,7 +101,7 @@
 	selection_color = "#B0C4DE"
 	position = "team"
 	enabled = 1
-	amount = 1
+	amount = 4
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 30, LANGUAGE_FINNISH = 30)
 
@@ -119,7 +119,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/doctor
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	position = "team"
 	whitelist_rank = "usmc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
@@ -408,9 +408,9 @@
 
 /datum/job/escalation/bund
 	title = "Bundeswehr"
-	enabled = 0
+	enabled = 1
 	faction_tag = "bund" //The tag of the faction this job is a part of, for lookups
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund
 	military_faction = NATO
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -423,7 +423,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/platlead
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/platlead
 	selection_color = "#4682B4"
 	rank_number = 0
 	position = "team"
@@ -444,7 +444,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/platleaddep
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/platleaddep
 	selection_color = "#4682B4"
 	rank_number = 1
 	position = "team"
@@ -464,7 +464,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/ratelo
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/ratelo
 	selection_color = "#4682B4"
 	position = "team"
 	amount = 1
@@ -484,7 +484,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/messenger
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/messenger
 	selection_color = "#4682B4"
 	position = "team"
 	amount = 3
@@ -504,7 +504,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/corpsman
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/corpsman
 	selection_color = "#4682B4"
 	position = "team"
 	amount = 4
@@ -524,7 +524,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/doctor
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/doctor
 	selection_color = "#4682B4"
 	position = "team"
 	amount = 1
@@ -544,7 +544,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/sqleader
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/sqleader
 	selection_color = "#4682B4"
 	position = "fireteam"
 	amount = 1
@@ -564,7 +564,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/sqleaderdep
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/sqleaderdep
 	selection_color = "#4682B4"
 	position = "fireteam"
 	amount = 1
@@ -583,7 +583,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/marksman
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/marksman
 	selection_color = "#4682B4"
 	position = "team"
 	amount = 1
@@ -602,7 +602,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/mgunner
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/mgunner
 	selection_color = "#4682B4"
 	position = "fireteam"
 	amount = 1
@@ -621,7 +621,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/mgunnera
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/mgunnera
 	selection_color = "#FA8072"
 	rank_number = 1
 	position = "fireteam"
@@ -641,7 +641,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/grenadier
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/grenadier
 	selection_color = "#4682B4"
 	position = "fireteam"
 	amount = 1
@@ -660,7 +660,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/radioman
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/radioman
 	selection_color = "#4682B4"
 	position = "fireteam"
 	amount = 1
@@ -679,7 +679,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/rifleman
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/rifleman
 	selection_color = "#4682B4"
 	position = "fireteam"
 	amount = 2
@@ -699,7 +699,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/sqleader
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/sqleader
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
@@ -718,7 +718,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/rifleman
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/rifleman
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
@@ -737,7 +737,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/rifleman
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/rifleman
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
@@ -757,7 +757,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatlead
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwatlead
 	selection_color = "#4682B4"
 	rank_number = 6
 	position = "fireteam"
@@ -777,7 +777,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatkanonier
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwatkanonier
 	selection_color = "#4682B4"
 	rank_number = 2
 	position = "fireteam"
@@ -797,7 +797,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bundes/bdwatassist
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwatassist
 	selection_color = "#4682B4"
 	rank_number = 3
 	position = "fireteam"

@@ -8,100 +8,44 @@
 # /datum/job/escalation/cccp/grenadier
 # @END@
 
-# WARPAC
+##############NATO#################
 
-Otdelenie Anna:cccp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sagrengl
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-@END@
+###USMC###
 
-Otdelenie Boris:cccp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sagrengl
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-@END@
-
-Otdelenie Vasiliy:cccp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sagrengl
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-@END@
-
-OTV-1:cccp
-/datum/job/escalation/cccp/saotvco
-/datum/job/escalation/cccp/saotvload
-/datum/job/escalation/cccp/saotvop
-/datum/job/escalation/cccp/saotvopassist
-@END@
-
-OTV-2:cccp
-/datum/job/escalation/cccp/saotvco
-/datum/job/escalation/cccp/saotvload
-/datum/job/escalation/cccp/saotvop
-/datum/job/escalation/cccp/saotvopassist
-@END@
-
-# NATO
-
-Squad Alpha:usmc
+Squad 'Alpha':usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcratelo
+/datum/job/escalation/usmc/usmcfto
 @END@
 
-Squad Bravo:usmc
+Squad 'Bravo':usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcratelo
+/datum/job/escalation/usmc/usmcfto
 @END@
 
-Squad Charlie:usmc
+Squad 'Charlie':usmc
 /datum/job/escalation/usmc/usmcsl
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftar
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcratelo
+/datum/job/escalation/usmc/usmcfto
 @END@
 
 HWS-1:usmc
@@ -110,58 +54,56 @@ HWS-1:usmc
 /datum/job/escalation/usmc/usmcmgload
 @END@
 
-AT-1:usmc
+ATS-1:usmc
 /datum/job/escalation/usmc/usmcatcom
 /datum/job/escalation/usmc/usmcat
 /datum/job/escalation/usmc/usmcata
 @END@
 
-Gruppe Alpha:bund
-/datum/job/escalation/bund/bdwsl
-/datum/job/escalation/bund/bdwsld
-/datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwmg
-/datum/job/escalation/bund/bdwmgas
-/datum/job/escalation/bund/bdwgrenadier
-/datum/job/escalation/bund/bdwatrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwcorpsman
+###BUNDESWEHR###
+
+Gruppe 'Delta':bund
+/datum/job/escalation/nato/bund/bdwsl
+/datum/job/escalation/nato/bund/bdwsld
+/datum/job/escalation/nato/bund/bdwsqradio
+/datum/job/escalation/nato/bund/bdwmg
+/datum/job/escalation/nato/bund/bdwmgas
+/datum/job/escalation/nato/bund/bdwgrenadier
+/datum/job/escalation/nato/bund/bdwrifle
+/datum/job/escalation/nato/bund/bdwrifle
 @END@
 
-Gruppe Bravo:bund
-/datum/job/escalation/bund/bdwsl
-/datum/job/escalation/bund/bdwsld
-/datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwmg
-/datum/job/escalation/bund/bdwmgas
-/datum/job/escalation/bund/bdwgrenadier
-/datum/job/escalation/bund/bdwatrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwcorpsman
+Gruppe 'Echo':bund
+/datum/job/escalation/nato/bund/bdwsl
+/datum/job/escalation/nato/bund/bdwsld
+/datum/job/escalation/nato/bund/bdwsqradio
+/datum/job/escalation/nato/bund/bdwmg
+/datum/job/escalation/nato/bund/bdwmgas
+/datum/job/escalation/nato/bund/bdwgrenadier
+/datum/job/escalation/nato/bund/bdwrifle
+/datum/job/escalation/nato/bund/bdwrifle
 @END@
 
-Gruppe Charlie:bund
-/datum/job/escalation/bund/bdwsl
-/datum/job/escalation/bund/bdwsld
-/datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwmg
-/datum/job/escalation/bund/bdwmgas
-/datum/job/escalation/bund/bdwgrenadier
-/datum/job/escalation/bund/bdwatrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwcorpsman
+Gruppe 'Foxtrot':bund
+/datum/job/escalation/nato/bund/bdwsl
+/datum/job/escalation/nato/bund/bdwsld
+/datum/job/escalation/nato/bund/bdwsqradio
+/datum/job/escalation/nato/bund/bdwmg
+/datum/job/escalation/nato/bund/bdwmgas
+/datum/job/escalation/nato/bund/bdwgrenadier
+/datum/job/escalation/nato/bund/bdwrifle
+/datum/job/escalation/nato/bund/bdwrifle
 @END@
 
-Schweren Waffen Gruppe:bund
-/datum/job/escalation/bund/mgcom
-/datum/job/escalation/bund/mgload
-/datum/job/escalation/bund/mgop
+SwG. I:bund
+/datum/job/escalation/nato/bund/mgcom
+/datum/job/escalation/nato/bund/mgload
+/datum/job/escalation/nato/bund/mgop
 @END@
 
-Squad Alpha:usa
+###US ARMY###
+
+Squad 'Alpha':usa
 /datum/job/escalation/usa/usasl
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
@@ -173,7 +115,7 @@ Squad Alpha:usa
 /datum/job/escalation/usa/usafto
 @END@
 
-Squad Bravo:usa
+Squad 'Bravo':usa
 /datum/job/escalation/usa/usasl
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
@@ -185,7 +127,7 @@ Squad Bravo:usa
 /datum/job/escalation/usa/usafto
 @END@
 
-Squad Charlie:usa
+Squad 'Charlie':usa
 /datum/job/escalation/usa/usasl
 /datum/job/escalation/usa/usaftl
 /datum/job/escalation/usa/usaftg
@@ -203,114 +145,149 @@ HWS-1:usa
 /datum/job/escalation/usa/usamgload
 @END@
 
-HWS-2:usa
-/datum/job/escalation/usa/usamgcom
-/datum/job/escalation/usa/usamgop
-/datum/job/escalation/usa/usamgload
-@END@
-
-AT-1:usa
+ATS-1:usa
 /datum/job/escalation/usa/usaatcom
 /datum/job/escalation/usa/usaat
 /datum/job/escalation/usa/usaata
 @END@
 
+###########WARPACT#############
 
-Squad Alpha:baf
-/datum/job/escalation/baf/bafsl
-/datum/job/escalation/baf/bafftl
-/datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/bafata
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/bafftl
-/datum/job/escalation/baf/bafftmg
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
+###SA###
+
+Otdelenie 'Anna':cccp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
 @END@
 
-Squad Bravo:baf
-/datum/job/escalation/baf/bafsl
-/datum/job/escalation/baf/bafftl
-/datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/bafata
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/bafftl
-/datum/job/escalation/baf/bafftmg
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
+Otdelenie 'Boris':cccp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
 @END@
 
-Squad Charlie:baf
-/datum/job/escalation/baf/bafsl
-/datum/job/escalation/baf/bafftl
-/datum/job/escalation/baf/bafat
-/datum/job/escalation/baf/bafata
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/bafftl
-/datum/job/escalation/baf/bafftmg
-/datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/baffto
+Otdelenie 'Vasiliy':cccp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
 @END@
 
-Heavy Weapons Team:baf
-/datum/job/escalation/baf/bafmgcom
-/datum/job/escalation/baf/bafmgop
-/datum/job/escalation/baf/bafmgload
+OTV-1:cccp
+/datum/job/escalation/cccp/saotvco
+/datum/job/escalation/cccp/saotvload
+/datum/job/escalation/cccp/saotvop
 @END@
+
+###NVA###
 
 Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvaar
-/datum/job/escalation/nvaddr/nvaar
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvacorpsman
-/datum/job/escalation/nvaddr/nvasrad
 @END@
 
-Gruppe 'Berta':nvaddr
+Gruppe 'Bertha':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvaar
-/datum/job/escalation/nvaddr/nvaar
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvacorpsman
-/datum/job/escalation/nvaddr/nvasrad
 @END@
 
 Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvaar
-/datum/job/escalation/nvaddr/nvaar
 /datum/job/escalation/nvaddr/nvarocket
 /datum/job/escalation/nvaddr/nvarocketass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvacorpsman
-/datum/job/escalation/nvaddr/nvasrad
 @END@
 
-Schweren Waffen Gruppe 'Heinrich':nvaddr
+SwG. 'Dora':nvaddr
 /datum/job/escalation/nvaddr/mgcom
-/datum/job/escalation/nvaddr/mgload
 /datum/job/escalation/nvaddr/mgop
+/datum/job/escalation/nvaddr/mgload
 @END@
 
-Schweren Waffen Gruppe 'Panzyr':nvaddr
-/datum/job/escalation/nvaddr/rocketcom
-/datum/job/escalation/nvaddr/rockettwo
-/datum/job/escalation/nvaddr/nvarocketasstwo
+########ESCA ARCTIC############
+
+###BAF###
+
+Squad 'Alpha':baf
+/datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafat
+/datum/job/escalation/baf/bafata
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafftmg
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
 @END@
+
+Squad 'Bravo':baf
+/datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafat
+/datum/job/escalation/baf/bafata
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafftmg
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
+@END@
+
+Squad 'Charlie':baf
+/datum/job/escalation/baf/bafsl
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafat
+/datum/job/escalation/baf/bafata
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafftmg
+/datum/job/escalation/baf/baffto
+/datum/job/escalation/baf/baffto
+@END@
+
+HWT-1:baf
+/datum/job/escalation/baf/bafmgcom
+/datum/job/escalation/baf/bafmgop
+/datum/job/escalation/baf/bafmgload
+@END@
+
+###FINN###
 
 Rhyma 'Aarne':finn
 /datum/job/escalation/finn/finnsl

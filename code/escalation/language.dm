@@ -102,7 +102,7 @@
 
 /datum/language/escalation/german
 	name = "German"
-	desc = "This is the languaged used by the Bundeswehr."
+	desc = "This is the languaged used by the Bundeswehr and the NVADDR."
 	colour = "german"
 	key = "g"
 	syllables = list("die", "das", "wein", "mir", "und", "wier", "ein", "nein", "gen", "en", "sauen", "bien", "nien", "rien", "rhein", "deut", "der", "lieb", "en", "stein", "nein", "ja", "wolle", "sil", "be")
