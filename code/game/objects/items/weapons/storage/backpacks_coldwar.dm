@@ -132,18 +132,25 @@
 			/obj/item/weapon/reagent_containers/pill,
 			)
 
-/obj/item/weapon/storage/backpack/sovietpack
-	name = "kitbag"
-	desc = "Commonly used by Warsaw Pact."
+/obj/item/weapon/storage/backpack/sakitbag
+	name = "soviet kit bag"
+	desc = "A tarp folded carefully to resemble a bag. Used widely by Soviet forces."
 	icon_state = "sovietpack"
 	item_state = "sovietpack"
+	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 12
+	max_storage_space = 16
 	open_delay = 5
 
-/obj/item/weapon/storage/backpack/sovietpack/New()
+/obj/item/weapon/storage/backpack/alice/medium/New()
 	..()
-	slowdown_per_slot[slot_back] = 1
+	slowdown_per_slot[slot_back] = 0.03
+
+/obj/item/weapon/storage/backpack/sakitbag/nvaddr
+	name = "strichtarn kit bag"
+	desc = "A tarp folded carefully to resemble a bag. Used widely by DDR forces."
+	icon_state = "nvapack"
+	item_state = "nvapack"
 
 /obj/item/weapon/storage/backpack/summedsan
 	name = "sanitar medical bag"

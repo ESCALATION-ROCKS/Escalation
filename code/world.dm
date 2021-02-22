@@ -627,12 +627,10 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	s += "<b>ESCALATION 1984, non leben, non IS12, non CM. Back to the roots.</b>";
 	s += "<br>"
-	s += "An unforgiving, realistic mil-sim RP, set in an alternate universe Cold-War-gone-hot scenario. Under new management (again)!"
+	s += "An unforgiving, realistic mil-sim RP, set in an alternate universe Cold-War-gone-hot scenario. Under new management (again)! You can observe while you join our Discord to apply for a whitelist."
 	s += "<br>"
-	s += "You may join and observe while you apply for a whitelist on our Discord."
+	s += "https://discord.gg/QF5naBv2gw\ Join to apply for  WL."
 	s += "<br>"
-	s += "<a href=\"https://discord.gg/QF5naBv2gw\">" //Change this to wherever you want the hub to link to.
-	s += "WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 
 	var/list/features = list()

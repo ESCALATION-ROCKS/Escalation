@@ -511,12 +511,6 @@ macro "hotkeymode"
 		name = "C"
 		command = "look-into-distance"
 	elem 
-		name = "V"
-		command = "grenade-launcher"
-	elem 
-		name = "B"
-		command = "use-scope"
-	elem 
 		name = "D+REP"
 		command = ".moveright"
 	elem 

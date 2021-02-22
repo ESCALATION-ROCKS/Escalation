@@ -101,6 +101,12 @@ SwG. I:bund
 /datum/job/escalation/bund/mgop
 @END@
 
+PzfG. I:bund
+/datum/job/escalation/bund/bdwatlead
+/datum/job/escalation/bund/bdwatgun
+/datum/job/escalation/bund/bdwatasst
+@END@
+
 ###US ARMY###
 
 Squad 'Alpha':usa

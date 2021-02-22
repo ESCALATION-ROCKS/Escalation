@@ -24,7 +24,7 @@ var/global/list/image/ghost_sightless_images = list() //this is a list of images
 	var/atom/movable/following = null
 	var/admin_ghosted = 0
 	var/anonsay = 0
-	var/ghostvision = 1 //is the ghost able to see things humans can't?
+	var/ghostvision = 0 //is the ghost able to see things humans can't?
 	var/seedarkness = 1
 
 	var/obj/item/device/multitool/ghost_multitool

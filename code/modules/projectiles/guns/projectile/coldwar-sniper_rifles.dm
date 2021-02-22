@@ -57,7 +57,7 @@
 	max_shells = 10
 	screen_shake = 2
 	caliber = "762x54"
-	ammo_type = /obj/item/ammo_casing/a762x54
+	ammo_type = null
 	load_method = MAGAZINE
 	magazine_type = null
 	allowed_magazines = /obj/item/ammo_magazine/c762x54s
@@ -106,7 +106,7 @@
 	load_method = MAGAZINE
 	caliber = "762x51"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	ammo_type = /obj/item/ammo_casing/a762x51
+	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
 	screen_shake = 2
@@ -124,9 +124,7 @@
 	slowdown_general = 0.5
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=8,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=0.4,  move_delay=3,    one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.6, 0.8 ),         automatic = 0.4)
-		)
+		list(mode_name="semiauto",     burst=1, fire_delay=8,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0))
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3sg1/update_icon()
 	..()
@@ -160,7 +158,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
-	ammo_type = /obj/item/ammo_casing/a762x51
+	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51wa, /obj/item/ammo_magazine/c762x51wa/ap)
 	magazine_type = null
 	one_hand_penalty = 6
@@ -207,7 +205,7 @@
 	load_method = MAGAZINE
 	caliber = ".50"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	ammo_type = /obj/item/ammo_casing/a50cal
+	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c50cals)
 	magazine_type = null
 	one_hand_penalty = 10
@@ -343,7 +341,7 @@
 	force = 10
 	caliber = "762x51"
 	load_method = MAGAZINE
-	ammo_type = /obj/item/ammo_casing/a762x51
+	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51l)
 	wielded_item_state = "l96-wielded"
 	w_class = ITEM_SIZE_HUGE
@@ -419,7 +417,7 @@
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING|SPEEDLOADER
 	max_shells = 5
-	ammo_type = /obj/item/ammo_casing/a762x53
+	ammo_type = null
 	one_hand_penalty = 6
 	accuracy = 6
 	fire_sound = 'sound/weapons/gunshot/tkiv.ogg'
@@ -489,7 +487,7 @@
 	force = 8
 	caliber = "545x39"
 	load_method = MAGAZINE
-	ammo_type = /obj/item/ammo_casing/a545x39
+	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39s)
 	wielded_item_state = "ssg82-wielded"
 	w_class = ITEM_SIZE_HUGE
@@ -577,7 +575,7 @@
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING|SPEEDLOADER
 	max_shells = 5
-	ammo_type = /obj/item/ammo_casing/a762x51
+	ammo_type = null
 	one_hand_penalty = 6
 	accuracy = 6
 	fire_sound = 'sound/weapons/gunshot/m40a1.ogg'
@@ -662,7 +660,7 @@
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING|SPEEDLOADER
 	max_shells = 5
-	ammo_type = /obj/item/ammo_casing/a303
+	ammo_type = null
 	one_hand_penalty = 6
 	accuracy = 6
 	fire_sound = 'sound/weapons/gunshot/762boltifle.ogg'
@@ -702,7 +700,7 @@
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING|SPEEDLOADER
 	max_shells = 5
-	ammo_type = /obj/item/ammo_casing/a762x53
+	ammo_type = null
 	one_hand_penalty = 6
 	accuracy = 6
 	fire_sound = 'sound/weapons/gunshot/762boltifle.ogg'

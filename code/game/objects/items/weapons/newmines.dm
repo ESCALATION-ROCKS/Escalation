@@ -190,7 +190,7 @@
 	icon_state = "pmn1"
 	active = 0
 	anchored = 0
-	w_class = 3.0
+	w_class = 3
 	power1 = 1
 	power2 = 2
 	power3 = 2
@@ -199,6 +199,7 @@
 /obj/item/weapon/mine/pmn/armed
 	active = 1
 	anchored = 1
+	w_class = 6
 
 /obj/item/weapon/mine/pfm1
 	name = "PFM-1"
@@ -207,7 +208,7 @@
 	icon_state = "pfm1"
 	active = 0
 	anchored = 0
-	w_class = 2.0
+	w_class = 3
 	power1 = 1
 	power2 = 2
 	power3 = 2
@@ -220,6 +221,7 @@
 /obj/item/weapon/mine/pfm1/armed
 	active = 1
 	anchored = 1
+	w_class = 6
 
 /obj/item/weapon/mine/m16
 	name = "M16 APM"
@@ -228,7 +230,7 @@
 	icon_state = "m16apm"
 	active = 0
 	anchored = 0
-	w_class = 3.0
+	w_class = 3
 	power1 = 0
 	power2 = 0
 	power3 = 1
@@ -239,6 +241,7 @@
 /obj/item/weapon/mine/m16/armed
 	active = 1
 	anchored = 1
+	w_class = 6
 
 /obj/item/weapon/mine/ozm72
 	name = "OZM-72"
@@ -247,7 +250,7 @@
 	icon_state = "ozm72"
 	active = 0
 	anchored = 0
-	w_class = 3.0
+	w_class = 3
 	power1 = 0
 	power2 = 0
 	power3 = 1
@@ -258,6 +261,7 @@
 /obj/item/weapon/mine/ozm72/armed
 	active = 1
 	anchored = 1
+	w_class = 6
 
 /obj/item/weapon/mine/claymore
 	name = "M18 Claymore"
@@ -266,7 +270,7 @@
 	icon_state = "claymoremine"
 	active = 0
 	anchored = 0
-	w_class = 2.0
+	w_class = 3
 	power1 = 1
 	power2 = 2
 	power3 = 2
@@ -275,3 +279,4 @@
 /obj/item/weapon/mine/claymore/armed
 	active = 1
 	anchored = 1
+	w_class = 6
