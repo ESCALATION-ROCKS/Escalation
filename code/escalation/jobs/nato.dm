@@ -2,7 +2,7 @@
 
 /datum/job/escalation/usmc
 	title = "United States Marine Corps"
-	enabled = 0
+	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "usmc"
 	military_faction = NATO
 	equip(var/mob/living/carbon/human/H)
@@ -408,8 +408,8 @@
 
 /datum/job/escalation/bund
 	title = "Bundeswehr"
-	enabled = 1
-	faction_tag = "bund" //The tag of the faction this job is a part of, for lookups
+	enabled = 0 ///////base job, keep disabled.
+	faction_tag = "bund"  //The tag of the faction this job is a part of, for lookups
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund
 	military_faction = NATO
 	equip(var/mob/living/carbon/human/H)
@@ -814,7 +814,7 @@
 
 /datum/job/escalation/baf
 	title = "British Armed Forces"
-	enabled = 0
+	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "baf"
 	military_faction = NATO
 	equip(var/mob/living/carbon/human/H)
@@ -1143,7 +1143,7 @@
 /////////////USA///////
 /datum/job/escalation/usa
 	title = "United States Army"
-	enabled = 0
+	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "usa"
 	military_faction = NATO
 	equip(var/mob/living/carbon/human/H)

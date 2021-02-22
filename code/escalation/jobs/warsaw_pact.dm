@@ -1,7 +1,7 @@
 //Soviet Army
 /datum/job/escalation/cccp
 	title = "cccp"
-	enabled = 0
+	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "cccp"
 	military_faction = WARPAC
 	equip(var/mob/living/carbon/human/H)
@@ -438,7 +438,7 @@
 
 /datum/job/escalation/nvaddr
 	title = "NVA DDR"
-	enabled = 0
+	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "nvaddr" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPAC
 	equip(var/mob/living/carbon/human/H)
@@ -875,7 +875,7 @@
 
 /datum/job/escalation/finn
 	title = "Finnish Militaria"
-	enabled = 0
+	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "finn" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPAC
 	equip(var/mob/living/carbon/human/H)
