@@ -627,9 +627,9 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	s += "<b>ESCALATION 1984, non leben, non IS12, non CM. Back to the roots.</b>";
 	s += "<br>"
-	s += "An unforgiving, realistic mil-sim RP, set in an alternate universe Cold-War-gone-hot scenario. Under new management (again)! You can observe while you join our Discord to apply for a whitelist."
+	s += "An unforgiving, realistic mil-sim RP, set in an alternate universe Cold-War-gone-hot scenario."
 	s += "<br>"
-	s += "https://discord.gg/QF5naBv2gw\ Join to apply for  WL."
+	s += "https://discord.gg/QF5naBv2gw\ You may observe while you join to apply for a whitelist."
 	s += "<br>"
 	s += "</a>"
 
