@@ -629,13 +629,8 @@ var/world_topic_spam_protect_time = world.timeofday
 	s += "<br>"
 	s += "An unforgiving, realistic mil-sim RP set in an alternate-universe Cold War."
 	s += "<br>"
-	s += "Join as an Observer, while you apply to play on our DISCORD!"
+	s += "Join as an Observer, while you apply to play on our DISCORD! https://discord.gg/QF5naBv2gw"
 	s += "<br>"
-	s += " ("
-	s += "<a href=\"https://discord.gg/QF5naBv2gw\">" //Change this to wherever you want the hub to link to.
-	s += "DISCORD WHITELIST REQUIRED"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
-	s += "</a>"
-	s += ")"
 
 	var/list/features = list()
 
