@@ -98,6 +98,18 @@ Gruppe 'Foxtrot':bund
 /datum/job/escalation/bund/bdwrifle
 @END@
 
+Gruppe 'Golf':bund
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+@END@
+
 SwG. I:bund
 /datum/job/escalation/bund/mgcom
 /datum/job/escalation/bund/mgload
@@ -241,6 +253,18 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvarocketass
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+@END@
+
+Gruppe 'Emil':nvaddr
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 @END@
