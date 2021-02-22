@@ -71,6 +71,7 @@ Gruppe 'Delta':bund
 /datum/job/escalation/bund/bdwgrenadier
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
 @END@
 
 Gruppe 'Echo':bund
@@ -82,6 +83,7 @@ Gruppe 'Echo':bund
 /datum/job/escalation/bund/bdwgrenadier
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
 @END@
 
 Gruppe 'Foxtrot':bund
@@ -91,6 +93,7 @@ Gruppe 'Foxtrot':bund
 /datum/job/escalation/bund/bdwmg
 /datum/job/escalation/bund/bdwmgas
 /datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 @END@

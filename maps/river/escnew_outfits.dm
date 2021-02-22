@@ -2135,7 +2135,7 @@
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	belt = /obj/item/weapon/storage/belt/harness/usmc
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 
 /decl/hierarchy/outfit/job/coldwar/usmc/atgunner/pre_equip(mob/living/carbon/human/H)
 	..()
