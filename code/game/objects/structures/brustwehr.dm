@@ -2,7 +2,7 @@
 	name = "incomplete brustwehr"
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "brustwehr_isntready"
-	density = 1
+	density = 0
 	throwpass = 1//we can throw grenades despite its density
 	anchored = 1
 	flags = OBJ_CLIMBABLE
