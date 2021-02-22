@@ -17,6 +17,15 @@
 	siemens_coefficient = 0.7
 	can_hold_item = 1
 
+/obj/item/clothing/shoes/soviet/moscva
+	name = "'Moscva' sneakers'"
+	desc = "A pair of sneakers, privately owned and used by the Soviet troops."
+	icon_state = "moscva"
+	force = 5
+	armor = list(melee = 20, bullet = 40, laser = 40,energy = 25, bomb = 50, bio = 10, rad = 0)
+	siemens_coefficient = 0.7
+	can_hold_item = 1
+
 /obj/item/clothing/shoes/soviet/marching/nva
 	desc = "A pair of marching boots, issued by the Nationale Volksarmee. These are worn covered by the uniform's pants, as per NVA doctrine."
 	item_state = "nvaboots"
