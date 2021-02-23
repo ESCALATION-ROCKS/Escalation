@@ -556,6 +556,85 @@
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl
+	name = "M16A2 w/ M203"
+	desc = "A standard-issue USMC combat rifle with a M203 launcher attached. Chambers 5.56x39 rounds."
+	icon_state = "m16a2gl"
+	item_state = "m16gl"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "556x45"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a556x45
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
+	magazine_type = null
+	one_hand_penalty = 4
+	accuracy = 3
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
+	bayonet_attachable = 1
+	jam_chance = 0.325
+	slowdown_general = 0.27
+	wielded_item_state = "m16a2gl-wielded"
+	fire_sound = 'sound/weapons/gunshot/m16.ogg'
+	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
+	firemodes = list(
+		list(mode_name="semiauto",       burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20)),
+		list(mode_name="3-round bursts", burst=3, fire_delay=1.5,    move_delay=2,    one_hand_penalty=5, burst_accuracy=list(2,1,1),   dispersion=list(0.1, 0.3, 0.4)),
+		)
+	var/use_launcher = FALSE
+	var/obj/item/weapon/gun/launcher/grenade/underslung/m203/launcher
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/New()
+	..()
+	launcher = new(src)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/attackby(obj/item/I, mob/user)
+	if((istype(I, /obj/item/weapon/grenade)))//launcher.load check it for it's type and handles all another things so don't worry
+		launcher.load(I, user)
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/attack_hand(mob/user)
+	if(user.get_inactive_hand() == src && use_launcher)
+		launcher.unload(user)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(use_launcher)
+		launcher.Fire(target, user, params, pointblank, reflex)
+		if(!launcher.chambered)
+			switch_firemodes() //do we need it? :wha:
+			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "m16a2gl"
+		wielded_item_state = "m16gl-wielded"
+	else
+		icon_state = "m16a2gl-empty"
+		wielded_item_state = "m16gl-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/verb/set_gp()
+	set name = "Grenade Launcher"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 1
+
+	if(launcher)
+		use_launcher = !use_launcher
+		if(do_after(usr, 1, src))
+			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
+			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	name = "G3A3"
