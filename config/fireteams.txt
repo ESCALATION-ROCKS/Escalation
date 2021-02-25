@@ -72,6 +72,7 @@ Gruppe 'Delta':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwmedic
 @END@
 
 Gruppe 'Echo':bund
@@ -84,6 +85,7 @@ Gruppe 'Echo':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwmedic
 @END@
 
 Gruppe 'Foxtrot':bund
@@ -96,6 +98,7 @@ Gruppe 'Foxtrot':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwmedic
 @END@
 
 Gruppe 'Golf':bund
@@ -243,6 +246,7 @@ Gruppe 'Bertha':nvaddr
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvamedic
 @END@
 
 Gruppe 'Cesar':nvaddr
@@ -255,6 +259,7 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvamedic
 @END@
 
 Gruppe 'Emil':nvaddr
@@ -267,6 +272,7 @@ Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvamedic
 @END@
 
 SwG. 'Dora':nvaddr

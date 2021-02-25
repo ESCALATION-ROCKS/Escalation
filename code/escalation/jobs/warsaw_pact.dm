@@ -600,7 +600,7 @@
 	selection_color = "#FA8072"
 	rank_number = 4
 	position = "team"
-	amount = 4
+	amount = 1
 	enabled = 1
 	whitelist_rank = "ddr_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
@@ -690,6 +690,25 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
+/datum/job/escalation/nvaddr/nvamedic
+	title = "NVA Sanitaterschutze"
+	name = "Sanitaterschutze"
+	english_name = "Squad Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/sanitar
+	selection_color = "#FA8072"
+	rank_number = 4
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "ddr_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/nvaddr/nvamg
 	title = "NVA Machinengewehrschutze"
@@ -819,7 +838,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/komod
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/nvahwscom
 	selection_color = "#fa8072"
 	position = "fireteam"
 	amount = 1
@@ -838,7 +857,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/nvahwsload
 	selection_color = "#f7ddda"
 	position = "fireteam"
 	amount = 1
@@ -857,7 +876,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/nvahwsload
 	selection_color = "#f7ddda"
 	position = "fireteam"
 	amount = 1
