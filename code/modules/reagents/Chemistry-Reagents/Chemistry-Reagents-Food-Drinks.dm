@@ -657,11 +657,11 @@
 	taste_description = "bitterness"
 	taste_mult = 1.3
 	color = "#482000"
-	adj_dizzy = -5
+	/*adj_dizzy = -5
 	adj_drowsy = -3
-	adj_sleepy = -2
+	adj_sleepy = -2*/
 	adj_temp = 25
-	overdose = 45
+	overdose = 200
 
 	glass_name = "coffee"
 	glass_desc = "Don't drop it, or you'll send scalding liquid and glass shards everywhere."
@@ -991,7 +991,7 @@
 /datum/reagent/drink/lemon_lime
 	name = "Lemon Lime"
 	description = "A tangy substance made of 0.5% natural citrus!"
-	taste_description = "tangy lime and lemon soda"
+	taste_description = "tangy lime and lemon juice."
 	color = "#878f00"
 	adj_temp = -8
 
