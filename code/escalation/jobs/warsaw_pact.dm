@@ -832,7 +832,7 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvahwscom
-	title = "NVA HWS Commander"
+	title = "NVA Schwere Waffen Gruppenfuhrer"
 	name = "Schwere Waffen Gruppenfuhrer"
 	english_name = "Heavy Weapons Group Commander"
 	minimal_player_age = 21
@@ -851,7 +851,7 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/nvaddr/nvahwsload
-	title = "NVA HWS Loader"
+	title = "NVA Schwere Waffen Gruppe Ladeschutze"
 	name = "Schwere Waffen Gruppe Ladeschutze"
 	english_name = "Heavy Weapons Group Loader"
 	minimal_player_age = 21
@@ -870,9 +870,9 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvahwsop
-	title = "NVA HWS Operator"
-	name = "Schwere Waffen Gruppe Schutze"
-	english_name = "Heavy Weapons Group Operator"
+	title = "NVA Schwere Waffen Gruppe Kanonier"
+	name = "Schwere Waffen Gruppe Kanonier"
+	english_name = "Heavy Weapons Group Gunner"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28

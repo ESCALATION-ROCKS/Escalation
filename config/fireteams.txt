@@ -114,9 +114,9 @@ Gruppe 'Golf':bund
 @END@
 
 SwG. I:bund
-/datum/job/escalation/bund/mgcom
-/datum/job/escalation/bund/mgload
-/datum/job/escalation/bund/mgop
+/datum/job/escalation/bund/hwscom
+/datum/job/escalation/bund/hwsop
+/datum/job/escalation/bund/hwsload
 @END@
 
 PzfG. I:bund
@@ -233,7 +233,7 @@ Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvamg
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvamedic
 @END@
 
 Gruppe 'Bertha':nvaddr
@@ -272,7 +272,6 @@ Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvamedic
 @END@
 
 SwG. 'Dora':nvaddr

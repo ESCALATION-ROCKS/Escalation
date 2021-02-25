@@ -712,14 +712,14 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
-/datum/job/escalation/bund/mgcom
+/datum/job/escalation/bund/hwscom
 	title = "BDW HWS Commander"
 	name = "Schwere Waffen Gruppenfuhrer"
 	english_name = "Heavy Weapons Section Commander"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwhscom
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwhwscom
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
@@ -731,7 +731,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
-/datum/job/escalation/bund/mgload
+/datum/job/escalation/bund/hwsload
 	title = "BDW HWS Loader"
 	name = "Schwere Waffen Gruppe Ladeschutze"
 	english_name = "Heavy Weapons Section Loader"
@@ -750,14 +750,14 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/datum/job/escalation/bund/mgop
+/datum/job/escalation/bund/hwsop
 	title = "BDW HWS Operator"
-	name = "Schwere Waffen Gruppe Schutze"
+	name = "Schwere Waffen Gruppe Kanonier"
 	english_name = "Heavy Weapons Section Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwhwsload
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwhwsop
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
