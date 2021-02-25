@@ -590,7 +590,7 @@
 /obj/item/ammo_magazine/c762x39d
 	name = "RPD belt drum (7.62x39mm)"
 	desc = "An RPD belt drum that fits seventy five 7.62x39mm rounds."
-	icon_state = "rpdbaraban100"
+	icon_state = "c762x39d"
 	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	w_class = ITEM_SIZE_LARGE

@@ -78,7 +78,7 @@
 	name = "MG3"
 	desc = "A standard-issue Bundeswehr squad support weapon. Chambers 7.62x51 rounds."
 	icon_state = "mg3"
-	item_state = "m60"
+	item_state = "mg3"
 	w_class = 5
 	force = 15
 	accuracy = 2.3
@@ -90,7 +90,7 @@
 	magazine_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51b/bdw, /obj/item/ammo_magazine/c762x51b/bdw/drum)
 	one_hand_penalty = 9
-	wielded_item_state = "m60-wielded" //change
+	wielded_item_state = "mg3-wielded" //change
 	fire_sound = 'sound/weapons/gunshot/mg3.ogg'
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
@@ -587,9 +587,9 @@
 	fire_sound = 'sound/weapons/gunshot/rpd.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.5, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,   dispersion=list(0.5, 0.8),                  automatic = 0.5)
-		)
+		list(mode_name="semiauto",     burst=1, fire_delay=5,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,    dispersion=list(0.1),   automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.2, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,   dispersion=list(0.15, 0.25, 0.55),  automatic = 0.2)
+	)
 
 	var/cover_opened = FALSE
 

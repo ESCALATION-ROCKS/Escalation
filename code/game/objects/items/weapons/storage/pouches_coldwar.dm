@@ -689,14 +689,16 @@
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/pkm
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "strichtarn PKM box pouch"
-	desc = "Has enough space to hold one PKM box."
+	name = "strichtarn box pouch"
+	desc = "Has enough space to hold one box or drum magazine."
 	icon_state = "nvaddr_ammo_pkm"
 	item_state = "nvaddr_ammo_lmg"
 	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
-		/obj/item/ammo_magazine/c762x54b
+		/obj/item/ammo_magazine/c762x54b,
+		/obj/item/ammo_magazine/c762x39d,
+		/obj/item/ammo_magazine/c762x39k
 		)
 	startswith = null
 
