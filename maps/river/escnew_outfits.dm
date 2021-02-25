@@ -474,7 +474,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	l_pocket = /obj/item/weapon/masterkey/nvadoc
 	head = /obj/item/clothing/head/garcap/nvaddr
-	r_pocket = null
+	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/nvaddr
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/nvakapt
@@ -1054,7 +1054,7 @@
 	left_pouch = null
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	l_pocket = /obj/item/weapon/masterkey/nvadoc
-	r_pocket = null
+	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/quart
@@ -1667,6 +1667,7 @@
 	back = /obj/item/weapon/storage/backpack/baf_med
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	l_pocket = /obj/item/weapon/masterkey/usmcdoc
+	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	head = /obj/item/clothing/head/beret/baf
 
@@ -1939,6 +1940,7 @@
 	back_2 = /obj/item/weapon/storage/backpack/bundes_med
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwdoc
+	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bund/platlead
@@ -2332,6 +2334,7 @@
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	l_pocket = /obj/item/weapon/masterkey/usmcdoc
+	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usa/platlead
