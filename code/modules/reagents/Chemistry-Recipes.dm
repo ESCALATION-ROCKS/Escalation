@@ -537,7 +537,7 @@
 
 /datum/chemical_reaction/gatorade
 	name = "Gatorade Lemon-Lime"
-	result = /datum/reagent/lemon_lime
+	result = /datum/reagent/drink/lemon_lime
 	required_reagents = list(/datum/reagent/water = 15, /datum/reagent/drink/gatoradepowder = 5)
 	result_amount = 20
 
