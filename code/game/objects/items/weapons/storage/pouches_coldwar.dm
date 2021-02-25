@@ -203,6 +203,8 @@
 	name = "HK69 holster"
 	storage_slots = 1
 	max_w_class = ITEM_SIZE_HUGE
+	icon_state = "hkholster"
+	icon_closed = "hkholster_empty"
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/launcher/grenade/hk69
