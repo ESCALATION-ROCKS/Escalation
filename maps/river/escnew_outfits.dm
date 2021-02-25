@@ -2093,7 +2093,7 @@
 	..()
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/bdw/m62, /obj/item/clothing/head/helmet/coldwar/bdw/m62/foliage, /obj/item/clothing/head/helmet/coldwar/bdw/m62/cover)
 
-	/decl/hierarchy/outfit/escalation/nato/bund/bdwhwscom
+/decl/hierarchy/outfit/escalation/nato/bund/hwscom
 	name = OUTFIT_JOB_NAME("Coldwar - BDW HWS Leader")
 	uniform = /obj/item/clothing/under/bundeswehr/olive/unter
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
@@ -2111,7 +2111,7 @@
 	..()
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/bdw/m62, /obj/item/clothing/head/helmet/coldwar/bdw/m62/foliage, /obj/item/clothing/head/helmet/coldwar/bdw/m62/cover)
 
-/decl/hierarchy/outfit/escalation/nato/bund/bdwhwsop
+/decl/hierarchy/outfit/escalation/nato/bund/hwsop
 	name = OUTFIT_JOB_NAME("Coldwar - BDW HWS Gunner")
 	uniform = /obj/item/clothing/under/bundeswehr/olive/soldat
 	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
@@ -2128,7 +2128,7 @@
 	..()
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/bdw/m62, /obj/item/clothing/head/helmet/coldwar/bdw/m62/foliage, /obj/item/clothing/head/helmet/coldwar/bdw/m62/cover)
 
-/decl/hierarchy/outfit/escalation/nato/bund/bdwhwsload
+/decl/hierarchy/outfit/escalation/nato/bund/hwsload
 	name = OUTFIT_JOB_NAME("Coldwar - BDW HWS Loader")
 	uniform = /obj/item/clothing/under/bundeswehr/olive/soldat
 	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw

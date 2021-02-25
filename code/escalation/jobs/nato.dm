@@ -719,7 +719,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwhwscom
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/hwscom
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
@@ -738,7 +738,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwhwsload
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/hwsload
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
@@ -757,7 +757,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/bdwhwsop
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/hwsop
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
