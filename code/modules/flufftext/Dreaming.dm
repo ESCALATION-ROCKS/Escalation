@@ -1,17 +1,17 @@
 
 var/list/dreams = list(
-	"an ID card","a bottle","a familiar face","a crewmember","a toolbox","a security officer","the captain",
-	"voices from all around","deep space","a doctor","the engine","a traitor","an ally","darkness",
-	"light","a scientist","a monkey","a catastrophe","a loved one","a gun","warmth","freezing","the sun",
-	"a hat","a ruined station","a planet","phoron","air","the medical bay","the bridge","blinking lights",
-	"a blue light","an abandoned laboratory","NanoTrasen", "pirates", "mercenaries","blood","healing","power","respect",
-	"riches","space","a crash","happiness","pride","a fall","water","flames","ice","melons","flying","the eggs","money",
-	"the chief engineer","the research director","the chief medical officer",
-	"a station engineer","the janitor","the atmospheric technician",
-	"a cargo technician","the botanist","a shaft miner","the psychologist","the chemist",
-	"the virologist","the roboticist","a chef","the bartender","a chaplain","a librarian","a mouse",
-	"a beach","the holodeck","a smokey room","a voice","the cold","a mouse","an operating table","the rain","a skrell",
-	"an unathi","a tajaran","the ai core","a beaker of strange liquid","the supermatter"
+	"a dog tag","a bottle","a familiar face","a soldier","a rifle","a deputy","the lieutenant",
+	"voices from all around","home","the surgeon","the fields","a traitor","an ally","darkness",
+	"light","a leader","hellfire","a catastrophe","a loved one","a sniper","warmth","freezing","the sun",
+	"a helmet","a ruined life","a planet","fresh breeze","kisses","the medic","the bunks","blinking lights",
+	"a light","an abandoned school","World War Three", "death", "pain","blood","agony","power","respect",
+	"redemption","hope","despair","happiness","pride","a fall","water","flames","ice","lead","flying","children","money",
+	"the staff sergeant","the bootcamp","the drafting act",
+	"a friendly face","God","Jesus Christ",
+	"heaven","hell","suffering","anguish","hurt",
+	"morals","the capitalists","the communists","please return home","a shout","a punch","a cat",
+	"a dog","my parents","my dog","a voice","the cold","my cat","an operating table","the rain","the pain",
+	"this is not real","please come back","please wake up","none of this is real","i love you"
 	)
 
 mob/living/carbon/proc/dream()
