@@ -116,6 +116,23 @@
 		
 //1983 Tapes
 
+/obj/item/device/cassette/nato/New()
+	..()
+	name = "pop music tape"
+	desc = "A tape with a minimalist design. It reads 'Alphaville - Big In Japan'"
+	a_side = 'sound/music/biginjapan.ogg'
+	b_side = null
+	sound_inside = a_side
+
+/obj/item/device/cassette/warpact/New()
+	..()
+	name = "marschmusik tape"
+	desc = "A tape with an unit number stamped on it. It reads 'Unterwegs!'"
+	a_side = 'sound/music/unterwegs.ogg'
+	b_side = null
+	sound_inside = a_side
+
+
 /*/obj/item/device/cassette/bdw/tape1/New()
 	..()
 	name = "Tape No. 1"

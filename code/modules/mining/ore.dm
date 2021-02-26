@@ -52,7 +52,7 @@
 	ore = /ore/glass
 
 // POCKET SAND!
-/obj/item/weapon/ore/glass/throw_impact(atom/hit_atom)
+/*/obj/item/weapon/ore/glass/throw_impact(atom/hit_atom)
 	..()
 	var/mob/living/carbon/human/H = hit_atom
 	if(istype(H) && H.has_eyes() && prob(85))
@@ -60,7 +60,7 @@
 		H.eye_blind += 5
 		H.eye_blurry += 10
 		spawn(1)
-			if(istype(loc, /turf/)) qdel(src)
+			if(istype(loc, /turf/)) qdel(src)*/
 
 /obj/item/weapon/ore/glass/
 	ore = /ore/glass

@@ -246,10 +246,10 @@
 
 /obj/structure/sandbag/attackby(obj/item/W as obj, mob/user as mob)
 	if(istype(W, /obj/item/weapon/shovel) && health == 200)
-		to_chat(user, "<span class='notice'>Now taking down the sandbags...</span>")
+		to_chat(user, "<span class='notice'>You start dismantling the sandbags...</span>")
 		playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
 		if(do_after(user, 80 * W.toolspeed,src))
 			if(!src) return
-			to_chat(user, "<span class='notice'>You take down sandbags!</span>")
+			to_chat(user, "<span class='notice'>You take apart the sandbags!</span>")
 			new /obj/item/weapon/sandbag/full(src.loc)
 			qdel(src)
