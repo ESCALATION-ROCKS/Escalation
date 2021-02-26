@@ -138,7 +138,7 @@
 	else return*/
 
 /obj/item/weapon/mine/attackby(obj/item/weapon/W as obj)
-	if(istype(W, /obj/item/weapon/material/knife/bayonet/))
+	if(istype(W, /obj/item/weapon/shovel))
 		deactivate()
 	else if(active)
 		if(prob(75))

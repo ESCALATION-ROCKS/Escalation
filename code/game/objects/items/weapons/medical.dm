@@ -260,28 +260,34 @@
 	can_hold = list(/obj/item/weapon/ampule_pack/)
 
 /obj/item/weapon/storage/box/ampule_box/morphine
-	name = "morphine ampule pack"
+	name = "morphine ampule box"
 	desc = "Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 	startswith = list(/obj/item/weapon/ampule_pack/morphine = 2)
 
-/obj/item/weapon/storage/box/ampule_box/epinephrine
-	name = "epinephrine ampule pack"
-	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
-	startswith = list(/obj/item/weapon/ampule_pack/epinephrine = 2)
-
 /obj/item/weapon/storage/box/ampule_box/naltamine
-	name = "naltamine ampule pack"
+	name = "naltamine ampule box"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose."
 	startswith = list(/obj/item/weapon/ampule_pack/naltamine = 2)
 
 /obj/item/weapon/storage/box/ampule_box/talotropine
-	name = "talotropine ampule pack"
+	name = "talotropine ampule box"
 	startswith = list(/obj/item/weapon/ampule_pack/talotropine = 2)
 
-/obj/item/weapon/storage/box/ampule_box/aminocaproic
-	name = "aminocaproic acid ampule pack"
-	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
-	startswith = list(/obj/item/weapon/ampule_pack/aminocaproic = 2)
+/obj/item/weapon/storage/box/ampule_box/angiotensin
+	name = "angiotensin ampule box"
+	desc = "An effective compound which helps restore bloodflow to the brain and organs, useful for toxin and brain damage."
+	startswith = list(/obj/item/weapon/ampule_pack/angiotensin = 1)
+
+/obj/item/weapon/storage/box/ampule_box/thiopental
+	name = "sodium thiopental ampule box"
+	desc = "A rapid-onset sedative for surgical operations. Do not inject more than one ampoule at a time."
+	startswith = list(/obj/item/weapon/ampule_pack/thiopental = 1)
+
+/obj/item/weapon/storage/box/ampule_box/epinephrine
+	name = "epinephrine ampule box"
+	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
+	startswith = list(/obj/item/weapon/ampule_pack/epinephrine = 1)
+
 
 /obj/item/weapon/ampule_pack
 	name = "ampule pack"
@@ -333,11 +339,6 @@
 	desc = "Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
 	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/morphine
 
-/obj/item/weapon/ampule_pack/epinephrine
-	name = "epinephrine ampule pack"
-	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
-	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/epinephrine
-
 /obj/item/weapon/ampule_pack/naltamine
 	name = "naltamine ampule pack"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose."
@@ -351,6 +352,21 @@
 	name = "aminocaproic acid ampule pack"
 	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
 	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/aminocaproic
+
+/obj/item/weapon/ampule_pack/angiotensin
+	name = "angiotensin ampule pack"
+	desc = "An effective compound which helps restore bloodflow to the brain and organs, useful for toxin and brain damage."
+	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/angiotensin
+
+/obj/item/weapon/ampule_pack/thiopental
+	name = "sodium thiopental ampule pack"
+	desc = "A rapid-onset sedative for surgical operations. Do not inject more than one ampoule at a time."
+	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/thiopental
+
+/obj/item/weapon/ampule_pack/epinephrine
+	name = "epinephrine ampule pack"
+	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
+	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/epinephrine
 
 //pillboxes
 

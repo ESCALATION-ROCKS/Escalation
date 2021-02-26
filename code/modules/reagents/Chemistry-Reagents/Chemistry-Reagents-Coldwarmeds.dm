@@ -290,3 +290,27 @@
 		M.add_chemical_effect(CE_BRAIN_REGEN, 1)
 		M.adjustToxLoss(-20 * removed)
 		M.heal_organ_damage(1 * removed, 0)
+
+/datum/reagent/thiopental
+	name = "sodium thiopental"
+	description = "A rapid-onset sedative for surgical operations."
+	taste_description = "bitterness"
+	reagent_state = LIQUID
+	color = "#00a000"
+	overdose = 6
+	metabolism = 0.05
+	scannable = 1
+	flags = IGNORE_MOB_SIZE
+
+/datum/reagent/thiopental/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	if(alien != IS_DIONA)
+		M.druggy = max(M.druggy, 60)
+		M.sleeping = max(M.sleeping, 60)
+		M.drowsyness = max(M.drowsyness, 60)
+		M.add_chemical_effect(CE_PAINKILLER, 65)
+
+/datum/reagent/thiopental/overdose(var/mob/living/carbon/M, var/alien)
+	..()
+	M.druggy = max(M.druggy, 60)
+	M.hallucination(150)
+	M.add_chemical_effect(CE_NOPULSE , 150)

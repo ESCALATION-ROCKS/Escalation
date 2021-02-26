@@ -20,13 +20,46 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/stack/medical/splint = 1
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/stack/medical/ointment/nato = 1
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			)
+
+/obj/item/weapon/storage/backpack/bundes_surg
+	name = "surgeon's bag"
+	desc = "A leather tablet bag used by Bundeswehr surgeons."
+	icon_state = "bundes_med"
+	item_state = "bundes_med"
+	reachable = 1
+	max_storage_space = 24
+	open_delay = 5
+	slot_flags = SLOT_BACK
+	startswith = list(
+			/obj/item/weapon/storage/box/ampule_box/thiopental,
+			/obj/item/weapon/storage/box/ampule_box/angiotensin,
+			/obj/item/weapon/storage/box/ampule_box/epinephrine,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/storage/fancy/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/box/ampule_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,
@@ -83,7 +116,6 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
@@ -114,7 +146,6 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
@@ -164,10 +195,10 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/stack/medical/splint = 1
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/stack/medical/ointment/soviet = 1
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
@@ -181,6 +212,40 @@
 			/obj/item/weapon/reagent_containers/glass/bottle,
 			/obj/item/weapon/reagent_containers/pill,
 			)
+
+/obj/item/weapon/storage/backpack/wp_surg
+	name = "surgeon's bag"
+	desc = "A medical bag used by Warsaw Pact surgeons."
+	icon_state = "summedsan"
+	item_state = "summedsan"
+	reachable = 1
+	max_storage_space = 24
+	open_delay = 5
+	slot_flags = SLOT_BACK
+	startswith = list(
+			/obj/item/weapon/storage/box/ampule_box/thiopental,
+			/obj/item/weapon/storage/box/ampule_box/angiotensin,
+			/obj/item/weapon/storage/box/ampule_box/epinephrine,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/storage/fancy/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/box/ampule_box,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			)
+
 /obj/item/weapon/storage/backpack/gassoviet
 	name = "gas mask satchel"
 	desc = "That's a generic gas mask bag commonly used by Warsaw Pact."
@@ -274,7 +339,6 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1
@@ -357,7 +421,6 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/angiotensin,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1

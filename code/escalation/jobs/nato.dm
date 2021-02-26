@@ -588,6 +588,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
+	rank_number = 3
 	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 

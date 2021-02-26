@@ -469,12 +469,11 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Field Surgerist")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/feldwebel
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	back_2 = /obj/item/weapon/storage/backpack/summedsan
+	back_2 = /obj/item/weapon/storage/backpack/wp_surg
 	left_pouch = null
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	l_pocket = /obj/item/weapon/masterkey/nvadoc
 	head = /obj/item/clothing/head/garcap/nvaddr
-	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/nvaddr
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/nvakapt
@@ -1667,7 +1666,6 @@
 	back = /obj/item/weapon/storage/backpack/baf_med
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	l_pocket = /obj/item/weapon/masterkey/usmcdoc
-	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	head = /obj/item/clothing/head/beret/baf
 
@@ -1937,10 +1935,9 @@
 	uniform = /obj/item/clothing/under/bundeswehr/olive/leutnant
 	holster = /obj/item/weapon/storage/belt/holster/bdw
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
-	back_2 = /obj/item/weapon/storage/backpack/bundes_med
+	back_2 = /obj/item/weapon/storage/backpack/bundes_surg
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/masterkey/bdwdoc
-	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/bdw
 
 /decl/hierarchy/outfit/escalation/nato/bund/platlead
@@ -2334,7 +2331,6 @@
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	l_pocket = /obj/item/weapon/masterkey/usmcdoc
-	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/usmc
 
 /decl/hierarchy/outfit/job/coldwar/usa/platlead

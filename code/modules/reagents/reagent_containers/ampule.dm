@@ -32,13 +32,6 @@
 		..()
 		reagents.add_reagent(/datum/reagent/morphine, 10)
 
-/obj/item/weapon/reagent_containers/glass/ampule/epinephrine
-	name = "epinephrine ampule"
-	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/adrenaline, 5)
-
 /obj/item/weapon/reagent_containers/glass/ampule/naltamine
 	name = "naltamine ampule"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose."
@@ -58,5 +51,26 @@
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/aminocaproic, 10)
+
+/obj/item/weapon/reagent_containers/glass/ampule/thiopental
+	name = "naltamine ampule"
+	desc = "A rapid-onset sedative for surgical operations. Do not inject more than one ampoule at a time."
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/thiopental, 5)
+
+/obj/item/weapon/reagent_containers/glass/ampule/angiotensin
+	name = "angiotensin ampule"
+	desc = "An effective compound which helps restore bloodflow to the brain and organs, useful for toxin and brain damage."
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/angiotensin, 5)
+
+/obj/item/weapon/reagent_containers/glass/ampule/epinephrine
+	name = "epinephrine ampule"
+	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/adrenaline, 5)
 
 
