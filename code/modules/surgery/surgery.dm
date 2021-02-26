@@ -92,11 +92,11 @@
 		if(locate(/obj/machinery/optable, T))
 			. -= 0
 		else if(locate(/obj/structure/bed/roller, T))
-			. -= 0
+			. -= 30
 		else if(locate(/obj/structure/bed, T))
-			. -= 5
+			. -= 25
 		else if(locate(/obj/structure/table, T))
-			. -= 10
+			. -= 45
 		else if(locate(/obj/effect/rune/, T))
 			. -= 10
 	. = max(., 0)
