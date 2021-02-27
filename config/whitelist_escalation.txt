@@ -4,13 +4,9 @@
 # TITLE ROLE
 # }
 
-# STAFF
+############### HOST - PARTNERS
 
 Von Carstein = {
-::ALL::
-}
-
-MrGabol100 = {
 ::ALL::
 }
 
@@ -18,11 +14,13 @@ SeverePwnage = {
 ::ALL::
 }
 
-Verarch = {
+Sintyz = {
 ::ALL::
 }
 
-I like D0nUts = {
+############### ADMINS
+
+Verarch = {
 ::ALL::
 }
 
@@ -34,6 +32,12 @@ DerpyMcDerpDerp = {
 ::ALL::
 }
 
+I like D0nUts = {
+::ALL::
+}
+
+############### CONTRIBUTORS
+
 Bongosz = {
 ::ALL::
 }
@@ -42,556 +46,395 @@ cabostein = {
 ::ALL::
 }
 
-realmagnum = {
-::ALL::
+
+#frownalt, dont tell anyone i let him in hehehe -severe
+
+sonyxperia = {
+bdw_enlisted
+ddr_enlisted
 }
 
-Sintyz = {
-::ALL::
-}
+###############NATO-BDW
 
-#NATO
+AlbertBlackwell = {
+bdw_officer
+}
 
 Rippie129 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-weras57 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Treble_Clef = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-SilencedMP5A5 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-SilverSZ = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-TheSecretSlav = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Ragdoll_Hooman = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Subdon = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Nautilus23 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Mrpotatobag123 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-ILikeToGammon = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Eric066 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Tristan63 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-michaelbr360 = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_nco
 }
 
 gy1ta23 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-IFN Mccree = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Freiwillige = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-aguyiguess = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Dreadlord56 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-DemtrixD = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_nco
 }
 
 TheManWhoSoldTheHorns = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Spectre808 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Sapu222 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
-Zach666 = {
-usa_nco
-usa_enlisted
-usa_officer
-}
-
- epicdwarf = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_nco
 }
 
 Taumanta = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_nco
+}
+
+BurnedSweetPotato = {
+bdw_nco
+}
+
+Treble_Clef = {
+bdw_enlisted
+}
+
+SilencedMP5A5 = {
+bdw_enlisted
+}
+
+Ragdoll_Hooman = {
+bdw_enlisted
+}
+
+Subdon = {
+bdw_enlisted
+}
+
+Nautilus23 = {
+bdw_enlisted
+}
+
+Mrpotatobag123 = {
+bdw_enlisted
+}
+
+ILikeToGammon = {
+bdw_enlisted
+}
+
+Eric066 = {
+bdw_enlisted
+}
+
+Tristan63 = {
+bdw_enlisted
+}
+
+michaelbr360 = {
+bdw_enlisted
+}
+
+IFN Mccree = {
+bdw_enlisted
+}
+
+aguyiguess = {
+bdw_enlisted
+}
+
+Dreadlord56 = {
+bdw_enlisted
+}
+
+DemtrixD = {
+bdw_enlisted
+}
+
+Spectre808 = {
+bdw_enlisted
+}
+
+Sapu222 = {
+bdw_enlisted
+}
+
+Zach666 = {
+bdw_enlisted
+}
+
+epicdwarf = {
+bdw_enlisted
 }
 
 Bonomedia = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_enlisted
 }
 
 Smugaroni = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_enlisted
 }
 
 Ratpack = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_enlisted
 }
 
 M.green = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_enlisted
 }
 
 WombatWave = {
-usa_nco
-usa_enlisted
-usa_officer
+bdw_enlisted
 }
 
-# WP PLATOON
-
-Luftie = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Cabostein = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Andrej99 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-The Elder Hobo = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-AtlasRules87 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Burtyu = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-#ANTON
-
-Jackomago61 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-LynuahSororitas = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-LeoTheKiller = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-cesarjunior233 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Boltersam = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-rev1n = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Real Josef Stalin = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Timtwoshoes = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-CeSium_Shark = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-#BERTA
-
-Battieralarm3 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Oshibka = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-AlexUNDRRRMKaroff = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Cr3ye = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Master8688 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-MikeForce3321 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Wulferion = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Electrolyz = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Shmesser = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Snow7 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-# CESAR
-corbe = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Manny pardo = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Echion = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Booperkin343435 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Lautaroluna180 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Sha.SCT = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Gefrakt = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-FoxTail_99 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-ExecutorPartner = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-# HEINRICH
-theflyingbananagaming = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Stakeyng = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-AngryBoar = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Peanutbuttersandwich = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-# PANZYR
-Nayser = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-Nowik347 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
- 
-AzazelChan = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-DecebalStalin = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Higher_Life = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Tramp123 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-PepeFrog = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-borntokill946 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Xperia15 = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-ExtentEnzo = {
-ddr_officer
-ddr_enlisted
-drr_nco
-}
-
-Hemph = {
-ddr_officer
-ddr_enlisted
-drr_nco
+chaznoodles = {
+bdw_enlisted
 }
 
 Arbs = {
-ddr_officer
+bdw_enlisted
+}
+
+ToroidalZer0 = {
+bdw_enlisted
+}
+
+TommyGoYonder = {
+bdw_enlisted
+}
+
+AvgustFroch = {
+bdw_enlisted
+}
+
+Merrgear = {
+bdw_enlisted
+}
+
+yungbruh = {
+bdw_enlisted
+}
+
+Xperia15 = {
+bdw_enlisted
+}
+
+BlazSnake = {
+bdw_enlisted
+}
+
+gogoing = {
+bdw_enlisted
+}
+
+ben11567= {
+bdw_enlisted
+}
+
+PepeFrog = {
+bdw_enlisted
+}
+
+Behxmoth = {
+bdw_enlisted
+}
+
+Hooderino = {
+bdw_enlisted
+}
+
+TheDoctorFate = {
+bdw_enlisted
+}
+
+FatSeal = {
+bdw_enlisted
+}
+
+Torn223 = {
+bdw_enlisted
+}
+
+Marvi123 = {
+bdw_enlisted
+}
+
+MymindisBlank = {
+bdw_enlisted
+}
+
+MullerHauptmann = {
+bdw_enlisted
+}
+
+TheSecretSlav = {
+bdw_enlisted
+}
+
+Eric066 = {
+bdw_enlisted
+}
+
+epicdwarf = {
+bdw_enlisted
+}
+
+###############WP-NVADDR
+
+theflyingbananagaming = {
+ddr_nco
+}
+
+Jackomago61 = {
+ddr_nco
+}
+
+Battieralarm3 = {
+ddr_nco
+}
+
+corbe = {
+ddr_nco
+}
+
+Nayser = {
+ddr_nco
 ddr_enlisted
-drr_nco
+}
+
+CeSium_Shark = {
+ddr_enlisted
+}
+
+Billy Hays = {
+ddr_enlisted
+}
+
+cesarjunior233 = {
+ddr_enlisted
+}
+
+Mikaelcg = {
+ddr_enlisted
+}
+
+rev1n = {
+ddr_enlisted
+}
+
+Daftspy = {
+ddr_enlisted
 }
 
 TurtleCactus = {
-ddr_officer
 ddr_enlisted
-drr_nco
 }
 
-Yung bruh = {
-usa_nco
-usa_enlisted
-usa_officer
+MixanovR64 = {
+ddr_enlisted
 }
 
-Rippe129 = {
-usa_nco
-usa_enlisted
-usa_officer
+Timtwoshoes = {
+ddr_enlisted
 }
 
-
-BlazSnake = {
-usa_nco
-usa_enlisted
-usa_officer
+Oshibka = {
+ddr_enlisted
 }
 
 SilverSZ = {
-usa_nco
-usa_enlisted
-usa_officer
+ddr_enlisted
 }
 
-
-Torn223 = {
-usa_nco
-usa_enlisted
-usa_officer
+Shmesser = {
+ddr_enlisted
 }
 
-AlbertBlackwell = {
-usa_nco
-usa_enlisted
-usa_officer
+AlexUNDRRRMKaroff = {
+ddr_enlisted
 }
 
+Master8688 = {
+ddr_enlisted
+}
 
-KillingSpree13 = {
-::ALL::
+Wulferion = {
+ddr_enlisted
+}
+
+Freiwillige = {
+ddr_enlisted
+}
+
+ExtentEnzo = {
+ddr_enlisted
+}
+
+Manny pardo = {
+ddr_enlisted
+}
+
+Booperkin343435 = {
+ddr_enlisted
+}
+
+Sha.SCT = {
+ddr_enlisted
+}
+
+Lautaroluna180 = {
+ddr_enlisted
+}
+
+FoxTail_99 = {
+ddr_enlisted
+}
+
+Gefrakt = {
+ddr_enlisted
+}
+
+AzazelChan = {
+ddr_enlisted
+}
+
+AngryBoar = {
+ddr_enlisted
+}
+
+Luftie = {
+ddr_enlisted
+}
+
+atlasrules87 = {
+ddr_enlisted
+}
+
+Nowik347 = {
+ddr_enlisted
+}
+
+Echion = {
+ddr_enlisted
+}
+
+Vlad3 = {
+ddr_enlisted
+}
+
+Higher_Life = {
+ddr_enlisted
+}
+
+Subjecter = {
+ddr_enlisted
+}
+
+Trikannov = {
+ddr_enlisted
+}
+
+Dimosek = {
+ddr_enlisted
+}
+
+Urist McInternetuser = {
+ddr_enlisted
+}
+
+johnravioli = {
+ddr_enlisted
+}
+
+Sivuha = {
+ddr_enlisted
+}
+
+Alpella18 = {
+ddr_enlisted
 }
