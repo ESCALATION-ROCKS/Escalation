@@ -124,8 +124,9 @@
 	slowdown_general = 0.5
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=8,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=null,           automatic = 0))
-
+		list(mode_name="semiauto", burst=1, fire_delay=8.5,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
+		)
+		
 /obj/item/weapon/gun/projectile/automatic/rifle/g3sg1/update_icon()
 	..()
 	if(ammo_magazine)

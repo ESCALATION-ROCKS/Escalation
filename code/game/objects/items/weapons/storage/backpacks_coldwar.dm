@@ -442,19 +442,15 @@
 
 /obj/item/weapon/storage/backpack/rpgsa
 	name = "RPG rocket backpack"
-	desc = "Soviet Army backpack for RPG rockets. Can hold three rockets."
+	desc = "Soviet Army backpack for RPG rockets. Can hold two rockets."
 	icon_state = "sa_rpg2"
 	item_state = "sa_rpg"
 	reachable = 1
 	max_storage_space = 30
-	storage_slots = 3
+	storage_slots = 2
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
-	startswith = list(
-			/obj/item/ammo_casing/rpg_missile,
-			/obj/item/ammo_casing/rpg_missile,
-			/obj/item/ammo_casing/rpg_missile
-			)
+	startswith = null
 
 /obj/item/weapon/storage/backpack/rpgsa/assistant
 	name = "RPG Assistant rocket backpack"
@@ -466,6 +462,7 @@
 	storage_slots = 3
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
+	startswith = null
 
 /obj/item/weapon/storage/backpack/rpgcsla
 	name = "RPG rocket backpack"
@@ -476,6 +473,7 @@
 	storage_slots = 2
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile)
+	startswith = null
 
 /obj/item/weapon/storage/backpack/rpgfin
 	name = "55 S 55 shell backpack"
@@ -487,6 +485,7 @@
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/finn)
+	startswith = null
 
 
 /obj/item/weapon/storage/backpack/rpgbrit
@@ -499,6 +498,7 @@
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)
+	startswith = null
 
 
 /obj/item/weapon/storage/backpack/rpgusa
@@ -511,3 +511,4 @@
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)
+	startswith = null

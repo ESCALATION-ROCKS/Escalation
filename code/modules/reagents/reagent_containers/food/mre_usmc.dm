@@ -214,7 +214,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/halbbitter/attack_self(mob/user as mob)
 	if (wrapped)
 		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
-		icon_state = "chickencurry_open"
+		icon_state = "halbbitter_open"
 		wrapped = 0
 	else 
 		..()
