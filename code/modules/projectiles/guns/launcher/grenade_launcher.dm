@@ -196,6 +196,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	w_class = 4
 	max_grenades = 0
 	screen_shake = 1
+	safety = 1
 	release_force = 2
 	throw_distance = 40
 	slot_flags =  SLOT_HOLSTER | SLOT_BACK_GUN | SLOT_BACK

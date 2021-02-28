@@ -123,7 +123,7 @@ proc/explosion_rec(turf/epicenter, power, shaped)
 
 /turf/simulated/floor
 	explosion_resistance = 1
-	movement_delay = 1
+	movement_delay = 0.7
 
 /turf/simulated/mineral
 	explosion_resistance = 2

@@ -53,7 +53,7 @@
 /obj/structure/log
 	icon = 'icons/obj/wood.dmi'
 	icon_state = "log"
-	density = 1
+	density = 0
 	anchored = 0
 
 /obj/structure/log/attackby(var/obj/item/I, mob/user as mob)

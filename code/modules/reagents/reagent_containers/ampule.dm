@@ -73,4 +73,11 @@
 		..()
 		reagents.add_reagent(/datum/reagent/adrenaline, 5)
 
+/obj/item/weapon/reagent_containers/glass/ampule/salbutamol
+	name = "salbutamol ampule"
+	desc = "A strong bronchodilator. Intended for patients who have their bronches or airways obstructed by helping them breathe."
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 5)
+
 

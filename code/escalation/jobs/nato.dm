@@ -126,7 +126,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, -8, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/usmc/usmcmarksman
 	title = "USMC Designated Marksman"
@@ -535,7 +535,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, -8, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/bund/bdwsl
 	title = "BDW Gruppenfuhrer"
@@ -940,7 +940,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, -8, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/baf/bafmarksman
 	title = "BAF Designated Marksman"
@@ -1288,7 +1288,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, -8, -1, -1, 5, 1, 2, 0)
 
 /datum/job/escalation/usa/usamarksman
 	title = "USA Designated Marksman"

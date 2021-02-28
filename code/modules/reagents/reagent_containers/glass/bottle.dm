@@ -323,7 +323,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/salbutamol
 	name = "salbutamol bottle"
-	desc = "A small bottle which contains a strong bronchodilator. Intended for patients who have their bronches or airways obstructed by helping them breathe.."
+	desc = "A strong bronchodilator. Intended for patients who have their bronches or airways obstructed by helping them breathe."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-blu"
 	New()

@@ -288,6 +288,16 @@
 	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
 	startswith = list(/obj/item/weapon/ampule_pack/epinephrine = 1)
 
+/obj/item/weapon/storage/box/ampule_box/aminocaproic
+	name = "aminocaproic acid ampule box"
+	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
+	startswith = list(/obj/item/weapon/ampule_pack/aminocaproic = 1)
+
+/obj/item/weapon/storage/box/ampule_box/salbutamol
+	name = "salbutamol ampule box"
+	desc = "A strong bronchodilator. Intended for patients who have their bronches or airways obstructed by helping them breathe."
+	startswith = list(/obj/item/weapon/ampule_pack/salbutamol = 1)
+
 
 /obj/item/weapon/ampule_pack
 	name = "ampule pack"
@@ -368,6 +378,11 @@
 	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
 	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/epinephrine
 
+/obj/item/weapon/ampule_pack/salbutamol
+	name = "salbutamol ampule pack"
+	desc = "A strong bronchodilator. Intended for patients who have their bronches or airways obstructed by helping them breathe."
+	ampule_type = /obj/item/weapon/reagent_containers/glass/ampule/salbutamol
+	
 //pillboxes
 
 /obj/item/weapon/storage/box/pill_box/phenazepam

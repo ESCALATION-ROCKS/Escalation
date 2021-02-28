@@ -72,7 +72,7 @@
 	cocked_sound = 'sound/weapons/gunporn/svd_boltback.ogg'
 	jam_chance = 0.360
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
-	slowdown_general = 0.5
+	slowdown_general = 0.30
 
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=7,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
@@ -121,7 +121,7 @@
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
 	jam_chance = 0.25
-	slowdown_general = 0.5
+	slowdown_general = 0.30
 
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=8.5,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
@@ -171,7 +171,7 @@
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
 	jam_chance = 0.25
-	slowdown_general = 0.5
+	slowdown_general = 0.30
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=9,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
