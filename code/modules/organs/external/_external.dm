@@ -4,7 +4,7 @@
 
 /obj/item/organ/external
 	name = "external"
-	min_broken_damage = 30
+	min_broken_damage = 50
 	max_damage = 0
 	dir = SOUTH
 	organ_tag = "limb"
@@ -650,6 +650,9 @@ Note that amputating the affected organ does in fact remove the infection from t
 		heal_amt = heal_amt * config.organ_regeneration_multiplier
 		// amount of healing is spread over all the wounds
 		heal_amt = heal_amt / (wounds.len + 1)
+		/*// faster healing on a bed
+		if(owner.buckled && istype(owner.buckled,/obj/structure/bed))
+			heal_amt *= 2*/
 		// making it look prettier on scanners
 		heal_amt = round(heal_amt,0.1)
 		W.heal_damage(heal_amt)
@@ -1057,7 +1060,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 	return 0
 
 /obj/item/organ/external/is_usable()
-	return ..() && !(status & ORGAN_TENDON_CUT) && (!can_feel_pain() || get_pain() < pain_disability_threshold) && brute_ratio < 1 && burn_ratio < 1
+	return ..() && !(status & ORGAN_TENDON_CUT) && (!can_feel_pain() || pain < pain_disability_threshold)
 
 /obj/item/organ/external/proc/is_malfunctioning()
 	return ((robotic >= ORGAN_ROBOT) && (brute_dam + burn_dam) >= 10 && prob(brute_dam + burn_dam))
@@ -1173,7 +1176,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 			owner.visible_message("<span class='danger'>\The [owner]'s [name] melts away, turning into mangled mess!</span>",	\
 			"<span class='danger'>Your [name] melts away!</span>",	\
 			"<span class='danger'>You hear a sickening sizzle.</span>")
-	disfigured = 1
+	disfigured = 0 /* Set to 1 if you want faces to become unrecognizeable after taking 40 brute */
 
 /obj/item/organ/external/proc/get_incision(var/strict)
 	var/datum/wound/cut/incision
