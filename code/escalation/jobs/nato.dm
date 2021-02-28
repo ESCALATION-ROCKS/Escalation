@@ -714,7 +714,7 @@
 
 
 /datum/job/escalation/bund/hwscom
-	title = "BDW HWS Commander"
+	title = "BDW Schwere Waffen Gruppenfuhrer"
 	name = "Schwere Waffen Gruppenfuhrer"
 	english_name = "Heavy Weapons Section Commander"
 	minimal_player_age = 21
@@ -733,7 +733,7 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/bund/hwsload
-	title = "BDW HWS Loader"
+	title = "BDW Schwere Waffen Gruppe Ladeschutze"
 	name = "Schwere Waffen Gruppe Ladeschutze"
 	english_name = "Heavy Weapons Section Loader"
 	minimal_player_age = 21
@@ -752,7 +752,7 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/hwsop
-	title = "BDW HWS Operator"
+	title = "BDW Schwere Waffen Gruppe Kanonier"
 	name = "Schwere Waffen Gruppe Kanonier"
 	english_name = "Heavy Weapons Section Operator"
 	minimal_player_age = 21
