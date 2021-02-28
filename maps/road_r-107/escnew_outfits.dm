@@ -199,7 +199,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
-	back = /obj/item/weapon/storage/backpack/rpgsa/assistant
+	back = /obj/item/weapon/storage/backpack/rpgsaassistant
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
@@ -387,7 +387,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
-	back = /obj/item/weapon/storage/backpack/rpgsa/assistant
+	back = /obj/item/weapon/storage/backpack/rpgsaassistant
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
@@ -970,7 +970,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
-	back = /obj/item/weapon/storage/backpack/rpgsa/assistant
+	back = /obj/item/weapon/storage/backpack/rpgsaassistant
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	head = /obj/item/clothing/head/ushanka/finn
@@ -1290,7 +1290,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
-	back = /obj/item/weapon/storage/backpack/rpgusa
+	back = /obj/item/weapon/storage/backpack/rpgusaassistant
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
 
@@ -1596,7 +1596,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
-	back = /obj/item/weapon/storage/backpack/rpgbrit
+	back = /obj/item/weapon/storage/backpack/rpgbritassistant
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	head = /obj/item/clothing/head/beret/baf
 
@@ -2046,7 +2046,7 @@
 	uniform = /obj/item/clothing/under/bundeswehr/olive/hauptgefr
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
 	holster = /obj/item/weapon/storage/belt/holster/bdw
-	back = /obj/item/weapon/storage/backpack/rpgbrit
+	back = /obj/item/weapon/storage/backpack/rpgbritassistant
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	head = /obj/item/clothing/head/garcap/bundeswehr
@@ -2084,7 +2084,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	back = /obj/item/weapon/storage/backpack/rpgbrit
+	back = /obj/item/weapon/storage/backpack/rpgbritassistant
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 
@@ -2222,7 +2222,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
 	l_ear = /obj/item/device/binoculars/nato
-	back = /obj/item/weapon/storage/backpack/rpgusa
+	back = /obj/item/weapon/storage/backpack/rpgusaassistant
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -2260,7 +2260,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
-	back = /obj/item/weapon/storage/backpack/rpgusa
+	back = /obj/item/weapon/storage/backpack/rpgusaassistant
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
