@@ -1,6 +1,6 @@
 
 /datum/map/escnew
-	name = "road_r-106"
+	name = "Europe on Flame"
 	full_name = "The Example"
 	path = "example"
 
