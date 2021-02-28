@@ -24,34 +24,32 @@ Verarch = {
 ::ALL::
 }
 
-Pete112 = {
-::ALL::
-}
-
-DerpyMcDerpDerp = {
-::ALL::
-}
-
-I like D0nUts = {
+Bongosz = {
 ::ALL::
 }
 
 ############### CONTRIBUTORS
 
-Bongosz = {
-::ALL::
-}
-
 cabostein = {
 ::ALL::
 }
 
-
-#frownalt, dont tell anyone i let him in hehehe -severe
-
-sonyxperia = {
+BlazSnake = {
 bdw_enlisted
+}
+
+Manny pardo = {
 ddr_enlisted
+}
+
+############### frownalts and specialboys
+
+SONY XPERIA = {
+::ALL::
+}
+
+I like D0nUts = {
+::ALL::
 }
 
 ###############NATO-BDW
@@ -204,10 +202,6 @@ Xperia15 = {
 bdw_enlisted
 }
 
-BlazSnake = {
-bdw_enlisted
-}
-
 gogoing = {
 bdw_enlisted
 }
@@ -264,10 +258,22 @@ epicdwarf = {
 bdw_enlisted
 }
 
+TeknoKot = {
+bdw_enlisted
+}
+
+ExecutorPartner = {
+bdw_enlisted
+}
+
+BoringCommunist = {
+bdw_enlisted
+}
+
 ###############WP-NVADDR
 
-theflyingbananagaming = {
-ddr_nco
+The flying banana gaming = {
+ddr_officer
 }
 
 Jackomago61 = {
@@ -355,10 +361,6 @@ ExtentEnzo = {
 ddr_enlisted
 }
 
-Manny pardo = {
-ddr_enlisted
-}
-
 Booperkin343435 = {
 ddr_enlisted
 }
@@ -438,3 +440,8 @@ ddr_enlisted
 Alpella18 = {
 ddr_enlisted
 }
+
+Pete112 = {
+ddr_enlisted
+}
+
