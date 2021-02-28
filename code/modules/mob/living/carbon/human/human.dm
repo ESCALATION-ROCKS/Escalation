@@ -1599,6 +1599,12 @@
 		return
 
 	else
+		if(zoom)
+			zoom()
+		/*for(var/obj/item/item in usr.contents) unzoom them if they go down
+			if(item.zoom)
+				item.zoom(usr)
+				break*/
 		Weaken(1)
 		resting = 1
 		rest.icon_state = "rest1"

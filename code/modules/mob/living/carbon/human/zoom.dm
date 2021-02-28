@@ -14,11 +14,13 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 
 	if(!src.client)
 		return
+
 	var/cannotzoom
 
-	if(src.incapacitated(INCAPACITATION_DISABLED))
+	if(!zoom && src.incapacitated(INCAPACITATION_DISABLED) || src.resting || src.lying)
 		to_chat(src, "<span class='warning'>You are unable to focus your vision.</span>")
 		cannotzoom = 1
+
 //	else if(!zoom && src.equipment_tint_total >= TINT_MODERATE)
 //		to_chat(src, "<span class='warning'>Your visor gets in the way of looking far.</span>")
 //		cannotzoom = 1
@@ -27,7 +29,8 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 //		cannotzoom = 1
 
 	if(!zoom && !cannotzoom)
-		src.toggle_zoom_hud()	// If the user has already limited their HUD this avoids them having a HUD when they zoom in
+		if(src.hud_used.hud_shown)
+			src.toggle_zoom_hud()	// If the user has already limited their HUD this avoids them having a HUD when they zoom in
 		src.client.view = 10
 		zoom = 1
 
@@ -50,11 +53,10 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 		src.visible_message("[src] looks off into the distance.")
 		src.set_face_dir()
 		src.m_intent = "walk"
-
-
 	else
 		src.client.view = world.view
-		src.toggle_zoom_hud()
+		if(!src.hud_used.hud_shown)
+			src.toggle_zoom_hud()
 		zoom = 0
 		src.client.pixel_x = 0
 		src.client.pixel_y = 0
