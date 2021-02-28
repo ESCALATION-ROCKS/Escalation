@@ -561,6 +561,7 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
+	r_hand = /obj/item/weapon/maptool
 	r_pocket = /obj/item/weapon/masterkey/nvasarge
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
@@ -1822,7 +1823,6 @@
 	holster = /obj/item/weapon/storage/belt/holster/bdw
 	back_2 = /obj/item/weapon/gun/projectile/automatic/mg3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/lmg
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/lmg
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
@@ -2241,7 +2241,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/xm177
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -2310,7 +2310,7 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/spc
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/xm177
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/storage/backpack/usmcm3
@@ -2475,7 +2475,7 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/cpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/xm177
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack

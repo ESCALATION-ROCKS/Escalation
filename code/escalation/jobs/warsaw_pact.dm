@@ -160,7 +160,7 @@
 	selection_color = "#B22222"
 	rank_number = 4
 	position = "team"
-	amount = 4
+	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)
@@ -219,8 +219,8 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sanitar
 	selection_color = "#B22222"
 	rank_number = 4
-	position = "team"
-	amount = 4
+	position = "fireteam"
+	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)

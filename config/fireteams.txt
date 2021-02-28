@@ -137,6 +137,7 @@ Squad 'Alpha':usa
 /datum/job/escalation/usa/usaftg
 /datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usacorpsman
 @END@
 
 Squad 'Bravo':usa
@@ -149,6 +150,7 @@ Squad 'Bravo':usa
 /datum/job/escalation/usa/usaftg
 /datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usacorpsman
 @END@
 
 Squad 'Charlie':usa
@@ -161,6 +163,7 @@ Squad 'Charlie':usa
 /datum/job/escalation/usa/usaftg
 /datum/job/escalation/usa/usafto
 /datum/job/escalation/usa/usafto
+/datum/job/escalation/usa/usacorpsman
 @END@
 
 HWS-1:usa
@@ -189,6 +192,7 @@ Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
 @END@
 
 Otdelenie 'Boris':cccp
@@ -201,6 +205,7 @@ Otdelenie 'Boris':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
 @END@
 
 Otdelenie 'Vasiliy':cccp
@@ -213,6 +218,7 @@ Otdelenie 'Vasiliy':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
 @END@
 
 OTV-1:cccp
