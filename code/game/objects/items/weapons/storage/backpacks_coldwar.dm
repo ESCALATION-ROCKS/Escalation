@@ -23,7 +23,8 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1,
-			/obj/item/stack/medical/ointment/nato = 1
+			/obj/item/stack/medical/ointment/nato = 1,
+			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
@@ -118,7 +119,9 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/stack/medical/splint = 1
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/stack/medical/ointment/nato = 1,
+			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
@@ -148,7 +151,9 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/stack/medical/splint = 1
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/stack/medical/ointment/nato = 1,
+			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
@@ -184,7 +189,7 @@
 	item_state = "nvapack"
 
 /obj/item/weapon/storage/backpack/summedsan
-	name = "sanitar medical bag"
+	name = "sanitar's bag"
 	desc = "That's the 'Sumka Meditsinskaya Sanitarnaya', a medical bag commonly used by Warsaw Pact."
 	icon_state = "summedsan"
 	item_state = "summedsan"
@@ -198,7 +203,8 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
 			/obj/item/stack/medical/splint = 1,
-			/obj/item/stack/medical/ointment/soviet = 1
+			/obj/item/stack/medical/ointment/soviet = 1,
+			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
@@ -341,7 +347,9 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/stack/medical/splint = 1
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/stack/medical/ointment/soviet = 1,
+			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
@@ -423,7 +431,9 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
 			/obj/item/weapon/pill_pack/amidopyrinum = 2,
-			/obj/item/stack/medical/splint = 1
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/stack/medical/ointment/nato = 1,
+			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
