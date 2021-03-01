@@ -396,8 +396,6 @@ meteor_act
 
 		if(in_throw_mode && !get_active_hand() && speed <= THROWFORCE_SPEED_DIVISOR)	//empty active hand and we're in throw mode
 			if(canmove && !restrained())
-				if(isturf(AM,/obj/item/weapon/grenade/frag/ugl/))
-					return
 				if(isturf(O.loc))
 					put_in_active_hand(O)
 					visible_message("<span class='warning'>[src] catches [O]!</span>")
