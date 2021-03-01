@@ -27,8 +27,8 @@
 //////////////////////////////////////////////////////////////////
 /datum/surgery_step/internal/fix_organ
 	allowed_tools = list(
-	/obj/item/stack/medical/advanced/bruise_pack= 100,  \
-	/obj/item/stack/medical/bruise_pack/gauze = 90,		\
+	/obj/item/stack/medical/advanced/bruise_pack = 100,  \
+	/obj/item/stack/medical/bruise_pack/gauze = 100,		\
 	/obj/item/stack/medical/bruise_pack = 40,	\
 	/obj/item/weapon/tape_roll = 20
 	)
@@ -58,7 +58,7 @@
 	if (istype(tool, /obj/item/stack/medical/advanced/bruise_pack))
 		tool_name = "regenerative membrane"
 	else if (istype(tool, /obj/item/stack/medical/bruise_pack))
-		tool_name = "the bandaid"
+		tool_name = "the gauze"
 
 	if (!hasorgans(target))
 		return
@@ -78,7 +78,7 @@
 	if (istype(tool, /obj/item/stack/medical/advanced/bruise_pack))
 		tool_name = "regenerative membrane"
 	if (istype(tool, /obj/item/stack/medical/bruise_pack))
-		tool_name = "the bandaid"
+		tool_name = "gauze"
 
 	if (!hasorgans(target))
 		return
@@ -96,23 +96,12 @@
 			I.surgical_fix(user)
 
 /datum/surgery_step/internal/fix_organ/fail_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
-
-	if (!hasorgans(target))
-		return
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-
 	user.visible_message("<span class='warning'>[user]'s hand slips, getting mess and tearing the inside of [target]'s [affected.name] with \the [tool]!</span>", \
 	"<span class='warning'>Your hand slips, getting mess and tearing the inside of [target]'s [affected.name] with \the [tool]!</span>")
-	var/dam_amt = 2
-
-	if (istype(tool, /obj/item/stack/medical/advanced/bruise_pack))
-		target.adjustToxLoss(5)
-
-	else
-		dam_amt = 5
-		target.adjustToxLoss(10)
+	var/dam_amt = 1
+	if (istype(tool, /obj/item/stack/medical/bruise_pack/gauze))
 		affected.take_damage(dam_amt, 0, (DAM_SHARP|DAM_EDGE), used_weapon = tool)
-
 	for(var/obj/item/organ/internal/I in affected.internal_organs)
 		if(I && I.damage > 0 && I.robotic < ORGAN_ROBOT && (I.surface_accessible || affected.open() >= (affected.encased ? 3 : 2)))
 			I.take_damage(dam_amt,0)
