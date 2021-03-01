@@ -175,7 +175,7 @@
 /////////////////GP's vogs for soviet and muricans//////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-/obj/item/weapon/grenade/frag/shell40mm
+/obj/item/weapon/grenade/frag/ugl/shell40mm
 	name = "40x46mm 'M381 HE' grenade shell"
 	desc = "Cannot be thrown as the usual grenade, by the way."
 	icon_state = "M406"
@@ -189,10 +189,10 @@
 	arm_sound = 'sound/weapons/grenlauncher.ogg'
 
 
-/obj/item/weapon/grenade/frag/shell40mm/attack_self(mob/user)
+/obj/item/weapon/grenade/frag/ugl/shell40mm/attack_self(mob/user)
 	return
 
-/obj/item/weapon/grenade/frag/vog25
+/obj/item/weapon/grenade/frag/ugl/vog25
 	name = "40x103mm 'VOG-25' grenade shell"
 	desc = "Cannot be thrown as the usual grenade, by the way."
 	icon_state = "40x103mmshell"
@@ -205,7 +205,7 @@
 	edge =  1
 	arm_sound = 'sound/weapons/grenlauncher.ogg'
 
-/obj/item/weapon/grenade/frag/vog25/attack_self(mob/user)
+/obj/item/weapon/grenade/frag/ugl/vog25/attack_self(mob/user)
 	return
 
 

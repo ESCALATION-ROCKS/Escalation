@@ -64,6 +64,7 @@
 	amputation_point = "left shoulder"
 	can_grasp = 1
 	has_tendon = TRUE
+	has_artery = TRUE
 	tendon_name = "palmaris longus tendon"
 	artery_name = "basilic vein"
 	arterial_bleed_severity = 1.5
@@ -97,6 +98,7 @@
 	amputation_point = "left hip"
 	can_stand = 1
 	has_tendon = TRUE
+	has_artery = TRUE
 	tendon_name = "cruciate ligament"
 	artery_name = "femoral artery"
 	arterial_bleed_severity = 1.5

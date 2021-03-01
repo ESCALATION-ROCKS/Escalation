@@ -149,12 +149,12 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	throw_distance = 40
 	desc = "Not much more than a tube and a firing mechanism, this grenade launcher is designed to be fitted to a rifle."
 	whitelisted_grenades = list(
-		/obj/item/weapon/grenade/frag/shell40mm,
-		/obj/item/weapon/grenade/smokebomb/shell40mm
+		/obj/item/weapon/grenade/frag/ugl/shell40mm,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm
 		)
 	blacklisted_grenades = list(
-		/obj/item/weapon/grenade/frag/vog25,
-		/obj/item/weapon/grenade/smokebomb/vog25,
+		/obj/item/weapon/grenade/frag/ugl/vog25,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25,
 		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/grenade/smokebomb
 		)
@@ -166,12 +166,12 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	throw_distance = 40
 	desc = "Not much more than a tube and a firing mechanism, this grenade launcher is designed to be fitted to a rifle."
 	whitelisted_grenades = list(
-		/obj/item/weapon/grenade/frag/vog25,
-		/obj/item/weapon/grenade/smokebomb/vog25,
+		/obj/item/weapon/grenade/frag/ugl/vog25,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25,
 		)
 	blacklisted_grenades = list(
-		/obj/item/weapon/grenade/frag/shell40mm,
-		/obj/item/weapon/grenade/smokebomb/shell40mm,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm,
 		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/grenade/smokebomb
 		)
@@ -181,12 +181,12 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	name = "HK69A1 grenade launcher"
 	desc = "That's a rifle grenade launcher used by Bundeswehr"
 	whitelisted_grenades = list(
-		/obj/item/weapon/grenade/frag/shell40mm,
-		/obj/item/weapon/grenade/smokebomb/shell40mm
+		/obj/item/weapon/grenade/frag/ugl/shell40mm,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm
 		)
 	blacklisted_grenades = list(
-		/obj/item/weapon/grenade/frag/vog25,
-		/obj/item/weapon/grenade/smokebomb/vog25,
+		/obj/item/weapon/grenade/frag/ugl/vog25,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25,
 		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/grenade/smokebomb
 		)

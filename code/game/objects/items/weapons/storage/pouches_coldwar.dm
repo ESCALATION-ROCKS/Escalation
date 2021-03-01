@@ -785,14 +785,14 @@
 	icon_state = "sa_ugl"
 	item_state = "sa_ugrenade"
 	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
+	can_hold = list (/obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25, /obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm)
 	startswith = list(
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/smokebomb/vog25/,
-		/obj/item/weapon/grenade/smokebomb/vog25/
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25/,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25/
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
@@ -801,14 +801,14 @@
 	icon_state = "nnaddr_ugl"
 	item_state = "sa_ugrenade"
 	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25, /obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm)
+	can_hold = list (/obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25, /obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm)
 	startswith = list(
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/frag/vog25/,
-		/obj/item/weapon/grenade/smokebomb/vog25/,
-		/obj/item/weapon/grenade/smokebomb/vog25/
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25/,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25/
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
@@ -817,14 +817,14 @@
 	icon_state = "usmc_grenbandolier"
 	item_state = "usmc_grenbandolier"
 	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
+	can_hold = list (/obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm, /obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25)
 	startswith = list(
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/smokebomb/shell40mm/,
-		/obj/item/weapon/grenade/smokebomb/shell40mm/
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm/,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm/
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
@@ -833,14 +833,14 @@
 	icon_state = "bdw_grenbandolier"
 	item_state = "bdw_grenbandolier"
 	storage_slots = 6
-	can_hold = list (/obj/item/weapon/grenade/frag/shell40mm/, /obj/item/weapon/grenade/smokebomb/shell40mm, /obj/item/weapon/grenade/frag/vog25/, /obj/item/weapon/grenade/smokebomb/vog25)
+	can_hold = list (/obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm, /obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25)
 	startswith = list(
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/frag/shell40mm/,
-		/obj/item/weapon/grenade/smokebomb/shell40mm/,
-		/obj/item/weapon/grenade/smokebomb/shell40mm/
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm/,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm/
 		)
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc/flarepouch
