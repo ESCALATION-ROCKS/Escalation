@@ -20,7 +20,7 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
@@ -54,7 +54,7 @@
 			/obj/item/weapon/storage/box/ampoule_box/epinephrine,
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/weapon/storage/fancy/syringe
 			)
@@ -117,7 +117,7 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
@@ -149,7 +149,7 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
@@ -200,7 +200,7 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/soviet = 1,
@@ -234,7 +234,7 @@
 			/obj/item/weapon/storage/box/ampoule_box/epinephrine,
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/weapon/storage/fancy/syringe
 			)
@@ -345,7 +345,7 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/soviet = 1,
@@ -429,7 +429,7 @@
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
-			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,

@@ -177,38 +177,6 @@
 		..()
 		reagents.add_reagent(/datum/reagent/salbutamol, 10)
 
-/obj/item/weapon/reagent_containers/pill/doxicycline
-	name = "doxicycline pill"
-	desc = "Contains antiviral agents."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/doxicycline, 15)
-		
-/obj/item/weapon/reagent_containers/pill/amidopyrinum
-	name = "amidopyrinum pill"
-	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/amidopyrinum, 5)
-
-/obj/item/weapon/reagent_containers/pill/doxycicline
-	name = "doxycicline pill"
-	desc = "A broad spectrum antibiotic to fight against infections."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/doxicycline, 5)
-
-/obj/item/weapon/reagent_containers/pill/promethazine
-	name = "promethazine pill"
-	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/promethazine, 5)
-
 /obj/item/weapon/reagent_containers/pill/ethaperazine
 	name = "ethaperazine pill"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
@@ -217,13 +185,70 @@
 		..()
 		reagents.add_reagent(/datum/reagent/ethaperazine, 5)
 
+/obj/item/weapon/reagent_containers/pill/doxicycline
+	name = "doxicycline pill (10u)"
+	desc = "Contains antiviral agents."
+	icon_state = "pill21"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/doxicycline, 10)
+		
 /obj/item/weapon/reagent_containers/pill/angiotensin
-	name = "Angiotensin pill"
+	name = "angiotensin pill (5u)"
 	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
 	icon_state = "pill21"
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/angiotensin, 5)
+
+/obj/item/weapon/reagent_containers/pill/promethazine
+	name = "promethazine pill (10u)"
+	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
+	icon_state = "pill21"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/promethazine, 10)
+
+/obj/item/weapon/reagent_containers/pill/morphine
+	name = "morphine pill (5u)"
+	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
+	icon_state = "pill21"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/morphine, 5)
+
+/obj/item/weapon/reagent_containers/pill/amidopyrinum
+	name = "amidopyrinum pill"
+	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
+	icon_state = "pill21"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/amidopyrinum, 5)
+
+/obj/item/weapon/reagent_containers/pill/thiopental
+	name = "sodium thiopental pill (5u)"
+	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
+	icon_state = "pill21"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/thiopental, 5)
+
+/obj/item/weapon/reagent_containers/pill/naltamine
+	name = "naltamine pill (5u)"
+	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
+	icon_state = "pill21"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/naltamine, 5)
+
+/obj/item/weapon/reagent_containers/pill/epinephrine
+	name = "epinephrine pill (5u)"
+	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
+	icon_state = "pill21"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/epinephrine, 5)
+
 
 ///////////// COLDWAR PILL PACKS
 
@@ -287,15 +312,20 @@
 	desc = "A broad spectrum antibiotic to fight against infections. Do NOT administer more than 15u."
 	pill_type = /obj/item/weapon/reagent_containers/pill/salbutamol
 
+/obj/item/weapon/pill_pack/ethaperazine
+	name = "ethaperazine pill pack"
+	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
+	pill_type = /obj/item/weapon/reagent_containers/pill/ethaperazine
+	
 /obj/item/weapon/pill_pack/doxycycline
 	name = "doxycycline pill pack"
 	desc = "A broad spectrum antibiotic to fight against infections. Do NOT administer more than 15u."
-	pill_type = /obj/item/weapon/reagent_containers/pill/doxycicline
+	pill_type = /obj/item/weapon/reagent_containers/pill/doxicycline
 
-/obj/item/weapon/pill_pack/amidopyrinum
-	name = "amidopyrinum pill pack"
-	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
-	pill_type = /obj/item/weapon/reagent_containers/pill/amidopyrinum
+/obj/item/weapon/pill_pack/angiotensin
+	name = "angiotensin pill pack"
+	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
+	pill_type = /obj/item/weapon/reagent_containers/pill/angiotensin
 
 /obj/item/weapon/pill_pack/paracetamol
 	name = "paracetamol pill pack"
@@ -307,15 +337,30 @@
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
 	pill_type = /obj/item/weapon/reagent_containers/pill/promethazine
 
-/obj/item/weapon/pill_pack/ethaperazine
-	name = "ethaperazine pill pack"
-	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
-	pill_type = /obj/item/weapon/reagent_containers/pill/ethaperazine
+/obj/item/weapon/pill_pack/morphine
+	name = "morphine pill pack"
+	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
+	pill_type = /obj/item/weapon/reagent_containers/pill/morphine
 
-/obj/item/weapon/pill_pack/angiotensin
-	name = "angiotensin pill pack"
-	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
-	pill_type = /obj/item/weapon/reagent_containers/pill/angiotensin
+/obj/item/weapon/pill_pack/amidopyrinum
+	name = "amidopyrinum pill pack"
+	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
+	pill_type = /obj/item/weapon/reagent_containers/pill/amidopyrinum
+
+/obj/item/weapon/pill_pack/thiopental
+	name = "amidopyrinum pill pack"
+	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
+	pill_type = /obj/item/weapon/reagent_containers/pill/amidopyrinum
+
+/obj/item/weapon/pill_pack/naltamine
+	name = "amidopyrinum pill pack"
+	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
+	pill_type = /obj/item/weapon/reagent_containers/pill/amidopyrinum
+
+/obj/item/weapon/pill_pack/epinephrine
+	name = "amidopyrinum pill pack"
+	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
+	pill_type = /obj/item/weapon/reagent_containers/pill/amidopyrinum
 
 /////////COLDWAR PILL BOXES
 
@@ -329,45 +374,60 @@
 	can_hold = list(/obj/item/weapon/pill_pack/)
 
 
-/obj/item/weapon/storage/box/pill_box/tetracetam
-	name = "tetracetam pill box"
-	max_storage_space = 2
-	startswith = list(/obj/item/weapon/pill_pack/tetracetam = 2)
+/obj/item/weapon/storage/box/pill_box/aminocaproic
+	name = "ethaperazine pill box"
+	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
+	startswith = list(/obj/item/weapon/pill_pack/aminocaproic = 2)
+	
+/obj/item/weapon/storage/box/pill_box/salbutamol
+	name = "ethaperazine pill box"
+	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
+	startswith = list(/obj/item/weapon/pill_pack/salbutamol = 2)
 
-/obj/item/weapon/storage/box/pill_box/oxaprofen
-	name = "oxaprofen pill box"
-	max_storage_space = 4
-	startswith = list(/obj/item/weapon/pill_pack/oxaprofen = 4)
-
-/obj/item/weapon/storage/box/pill_box/amidopyrinum
-	name = "amidopyrinum pill box"
-	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
-	startswith = list(/obj/item/weapon/pill_pack/amidopyrinum = 2)
-
-/obj/item/weapon/storage/box/pill_box/promethazine
-	name = "promethazine pill box"
-	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
-	startswith = list(/obj/item/weapon/pill_pack/promethazine = 2)
-
+/obj/item/weapon/storage/box/pill_box/ethaperazine
+	name = "ethaperazine pill box"
+	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
+	startswith = list(/obj/item/weapon/pill_pack/ethaperazine = 2)
+	
 /obj/item/weapon/storage/box/pill_box/doxycycline
 	name = "doxycycline pill box"
 	desc = "A broad spectrum antibiotic to fight against infections. Do NOT administer more than 15u."
 	startswith = list(/obj/item/weapon/pill_pack/doxycycline = 2)
+
+/obj/item/weapon/storage/box/pill_box/angiotensin
+	name = "angiotensin pill box"
+	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
+	startswith = list(/obj/item/weapon/pill_pack/angiotensin = 2)
 
 /obj/item/weapon/storage/box/pill_box/paracetamol
 	name = "paracetamol pill box"
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	startswith = list(/obj/item/weapon/pill_pack/paracetamol = 2)
 
-/obj/item/weapon/storage/box/pill_box/ethaperazine
+/obj/item/weapon/storage/box/pill_box/promethazine
+	name = "promethazine pill box"
+	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
+	startswith = list(/obj/item/weapon/pill_pack/promethazine = 2)
+
+/obj/item/weapon/storage/box/pill_box/morphine
 	name = "ethaperazine pill box"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
-	startswith = list(/obj/item/weapon/pill_pack/ethaperazine = 2)
+	startswith = list(/obj/item/weapon/pill_pack/morphine = 2)
 
-/obj/item/weapon/storage/box/pill_box/angiotensin
-	name = "angiotensin pill box"
-	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
-	startswith = list(/obj/item/weapon/pill_pack/angiotensin = 2)
+/obj/item/weapon/storage/box/pill_box/amidopyrinum
+	name = "amidopyrinum pill box"
+	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
+	startswith = list(/obj/item/weapon/pill_pack/amidopyrinum = 2)
+
+/obj/item/weapon/storage/box/pill_box/thiopental
+	name = "ethaperazine pill box"
+	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
+	startswith = list(/obj/item/weapon/pill_pack/thiopental = 2)
+	
+/obj/item/weapon/storage/box/pill_box/naltamine
+	name = "ethaperazine pill box"
+	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
+	startswith = list(/obj/item/weapon/pill_pack/naltamine = 2)
 
 /obj/item/weapon/storage/box/pill_box/epinephrine
 	name = "epinephrine pill box"
@@ -538,17 +598,6 @@
 /obj/item/weapon/ampoule_pack/update_icon()
 	icon_state = "[initial(icon_state)][contents.len]"
 
-
-/obj/item/weapon/ampoule_pack/morphine
-	name = "morphine ampoule pack"
-	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
-	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/morphine
-
-/obj/item/weapon/ampoule_pack/naltamine
-	name = "naltamine ampoule pack"
-	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
-	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/naltamine
-
 /obj/item/weapon/ampoule_pack/aminocaproic
 	name = "aminocaproic acid ampoule pack"
 	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
@@ -563,16 +612,46 @@
 	name = "ethaperazine ampoule pack"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/ethaperazine
-
+	
+/obj/item/weapon/ampoule_pack/doxycycline
+	name = "ethaperazine ampoule pack"
+	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/ethaperazine
+	
 /obj/item/weapon/ampoule_pack/angiotensin
 	name = "angiotensin ampoule pack"
 	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/angiotensin
+	
+/obj/item/weapon/ampoule_pack/paracetamol
+	name = "morphine ampoule pack"
+	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/morphine
+	
+/obj/item/weapon/ampoule_pack/promethazine
+	name = "morphine ampoule pack"
+	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/morphine
+
+/obj/item/weapon/ampoule_pack/morphine
+	name = "morphine ampoule pack"
+	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/morphine
+
+/obj/item/weapon/ampoule_pack/amidopyrinum
+	name = "morphine ampoule pack"
+	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/morphine
 
 /obj/item/weapon/ampoule_pack/thiopental
 	name = "sodium thiopental ampoule pack"
 	desc = "A rapid-onset sedative for surgical operations. Do NOT administer more than 5u."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/thiopental
+
+/obj/item/weapon/ampoule_pack/naltamine
+	name = "naltamine ampoule pack"
+	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/naltamine
 
 /obj/item/weapon/ampoule_pack/epinephrine
 	name = "epinephrine ampoule pack"
@@ -651,3 +730,271 @@
 	name = "epinephrine ampoule box"
 	desc = "A neurotransmitter that is capable of restarting hearts. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/ampoule_pack/epinephrine = 2)
+
+
+//////// COLDWAR BOTTLES
+
+/obj/item/weapon/reagent_containers/glass/bottle/morphine
+	name = "morphine bottle"
+	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-purp"
+
+/obj/item/weapon/reagent_containers/glass/bottle/morphine/New()
+	..()
+	reagents.add_reagent(/datum/reagent/morphine, 60)
+	update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/naltamine
+	name = "naltamine bottle"
+	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-4"
+
+/obj/item/weapon/reagent_containers/glass/bottle/naltamine/New()
+	..()
+	reagents.add_reagent(/datum/reagent/naltamine,60)
+	update_icon()
+
+
+/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic
+	name = "aminocaproic acid bottle"
+	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-red"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/aminocaproic, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/salbutamol
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/ethaperazine
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/doxycycline
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/angiotensin
+	name = "angiotensin bottle"
+	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-grene"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/angiotensin, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/paracetamol
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/promethazine
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/morphine
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/amidopyrinum
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/thiopental
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/naltamine
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/epinephrine
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////BAY12 BULLSHIT - HERE ENDS ESCALATION
+
+//////////////////
+////Pill Packs////
+//////////////////
+/obj/item/weapon/pill_pack/antitox
+	name = "antitoxin pill pack"
+	desc = "Removes toxins and poisions from blood."
+	pill_type = /obj/item/weapon/reagent_containers/pill/antitox
+
+/obj/item/weapon/pill_pack/tetracetam
+	name = "tetracetam pill pack"
+	pill_type = /obj/item/weapon/reagent_containers/pill/tetracetam
+
+/obj/item/weapon/pill_pack/oxaprofen
+	name = "oxaprofen pill pack"
+	pill_type = /obj/item/weapon/reagent_containers/pill/oxaprofen
+
+/obj/item/weapon/pill_pack/antitox
+	name = "antitoxin pill pack"
+	desc = "Removes toxins and poisions from blood."
+	pill_type = /obj/item/weapon/reagent_containers/pill/antitox
+
+/obj/item/weapon/pill_pack/tramadol
+	name = "tramadol pill pack"
+	desc = "Effective painkiller."
+	pill_type = /obj/item/weapon/reagent_containers/pill/tramadol
+
+/obj/item/weapon/pill_pack/dexalin
+	name = "dexalin pill pack"
+	desc = "Used in cases of oxygen deprivation."
+	pill_type = /obj/item/weapon/reagent_containers/pill/dexalin
+
+/obj/item/weapon/pill_pack/bicaridine
+	name = "bicaridine pill pack"
+	desc = "Helps treat brute injures."
+	pill_type = /obj/item/weapon/reagent_containers/pill/bicaridine
+
+/obj/item/weapon/pill_pack/inaprovaline
+	name = "inaprovaline pill pack"
+	desc = "Prevents death by pain shock."
+	pill_type = /obj/item/weapon/reagent_containers/pill/inaprovaline
+
+/obj/item/weapon/pill_pack/adminordrazine
+	name = "adminordrazine pill pack"
+	desc = "Where did you even get that?"
+	pill_type = /obj/item/weapon/reagent_containers/pill/adminordrazine
+
+
+/obj/item/weapon/pill_pack/phenazepam
+	name = "phenazepam pill pack"
+	desc = "A mild painkiller with a slow metabolization speed. Meant for mild injuries."
+	pill_type = /obj/item/weapon/reagent_containers/pill/aminocaproic
+
+/obj/item/weapon/pill_pack/naloxone
+	name = "naloxone pill pack"
+	desc = "You have no idea what's that."
+	pill_type = /obj/item/weapon/reagent_containers/pill/aminocaproic
+
+/obj/item/weapon/storage/box/pill_box/tetracetam
+	name = "tetracetam pill box"
+	max_storage_space = 2
+	startswith = list(/obj/item/weapon/pill_pack/tetracetam = 2)
+
+/obj/item/weapon/storage/box/pill_box/oxaprofen
+	name = "oxaprofen pill box"
+	max_storage_space = 4
+	startswith = list(/obj/item/weapon/pill_pack/oxaprofen = 4)
+
+/obj/item/weapon/storage/pill_bottle/paracetamol
+	name = "bottle of paracetamol"
+	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries."
+
+	startswith = list(/obj/item/weapon/reagent_containers/pill/paracetamol = 7)
+
+/obj/item/weapon/reagent_containers/glass/bottle/talotropine
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/reagent_containers/glass/bottle/tetracetam
+	name = "salbutamol bottle"
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "bottle-blu"
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/salbutamol, 60)
+		update_icon()
+
+/obj/item/weapon/storage/box/ampoule_box/talotropine
+	name = "aminocaproic acid ampoule box"
+	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
+	startswith = list(/obj/item/weapon/ampoule_pack/aminocaproic = 2)

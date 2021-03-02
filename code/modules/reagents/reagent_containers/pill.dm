@@ -141,14 +141,6 @@
 		reagents.add_reagent(/datum/reagent/synaptizine, 5)
 		reagents.add_reagent(/datum/reagent/hyperzine, 5)
 
-/obj/item/weapon/reagent_containers/pill/doxicycline
-	name = "doxicycline pill"
-	desc = "Contains antiviral agents."
-	icon_state = "pill19"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/doxicycline, 15)
-
 /obj/item/weapon/reagent_containers/pill/tetracetam
 	name = "tetracetam pill"
 	desc = "Contains tetracetam."
