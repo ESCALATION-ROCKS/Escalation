@@ -142,10 +142,10 @@
 				/obj/item/weapon/storage/pill_bottle/citalopram = 2,
 				/obj/item/weapon/storage/box/pill_box/oxaprofen = 2,
 				/obj/item/weapon/storage/box/pill_box/tetracetam = 1,
-				/obj/item/weapon/storage/box/ampule_box/epinephrine = 2,
-				/obj/item/weapon/storage/box/ampule_box/morphine = 2,
-				/obj/item/weapon/storage/box/ampule_box/naltamine = 1,
-				/obj/item/weapon/storage/box/ampule_box/talotropine = 1,
+				/obj/item/weapon/storage/box/ampoule_box/epinephrine = 2,
+				/obj/item/weapon/storage/box/ampoule_box/morphine = 2,
+				/obj/item/weapon/storage/box/ampoule_box/naltamine = 1,
+				/obj/item/weapon/storage/box/ampoule_box/talotropine = 1,
 				/obj/item/weapon/reagent_containers/syringe/antiviral = 1,
 				/obj/item/weapon/storage/box/freezer = 1)
 

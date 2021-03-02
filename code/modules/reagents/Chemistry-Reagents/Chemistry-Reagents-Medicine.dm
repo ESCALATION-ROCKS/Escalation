@@ -172,26 +172,6 @@
 
 /* Painkillers */
 
-/datum/reagent/paracetamol
-	name = "Paracetamol"
-	description = "Most probably know this as Tylenol, but this chemical is a mild, simple painkiller."
-	taste_description = "sickness"
-	reagent_state = LIQUID
-	color = "#c8a5dc"
-	overdose = 21
-	reagent_state = LIQUID
-	scannable = 1
-	metabolism = 0.05
-	flags = IGNORE_MOB_SIZE
-
-/datum/reagent/paracetamol/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	M.add_chemical_effect(CE_PAINKILLER, 30)
-
-/datum/reagent/paracetamol/overdose(var/mob/living/carbon/M, var/alien)
-	..()
-	M.druggy = max(M.druggy, 2)
-	M.make_dizzy(10)
-
 /datum/reagent/tramadol
 	name = "Tramadol"
 	description = "A simple, yet effective painkiller. Don't mix with alcohol."
@@ -448,32 +428,6 @@
 	M.adjustToxLoss(-10 * removed)
 	if(prob(60))
 		M.take_organ_damage(4 * removed, 0)
-
-/datum/reagent/doxycycline
-	name = "doxycycline"
-	description = "An all-purpose antiviral agent."
-	taste_description = "bitterness"
-	reagent_state = LIQUID
-	color = "#c1c1c1"
-	metabolism = REM * 0.1
-	overdose = REAGENTS_OVERDOSE/2
-	scannable = 1
-
-/datum/reagent/doxycycline/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	M.immunity = max(M.immunity - 0.1, 0)
-	M.add_chemical_effect(CE_ANTIVIRAL, VIRUS_COMMON)
-	if(volume > 10)
-		M.immunity = max(M.immunity - 0.3, 0)
-		M.add_chemical_effect(CE_ANTIVIRAL, VIRUS_ENGINEERED)
-	if(M.chem_doses[type] > 15)
-		M.immunity = max(M.immunity - 0.25, 0)
-
-/datum/reagent/doxycycline/overdose(var/mob/living/carbon/M, var/alien)
-	..()
-	M.immunity = max(M.immunity - 0.25, 0)
-	M.add_chemical_effect(CE_ANTIVIRAL, VIRUS_EXOTIC)
-	if(prob(2))
-		M.immunity_norm = max(M.immunity_norm - 1, 0)
 
 /datum/reagent/sterilizine
 	name = "Sterilizine"
@@ -805,61 +759,6 @@
 	M.add_chemical_effect(CE_PAINKILLER, 10)
 
 
-/datum/reagent/morphine
-	name = "Morphine"
-	taste_description = "bitterness"
-	taste_mult = 0.1
-	reagent_state = LIQUID
-	color = "#800080"
-	flags = IGNORE_MOB_SIZE
-	overdose = 15
-	metabolism = 0.10
-	ingest_met = -1
-
-/datum/reagent/morphine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	if(alien != IS_DIONA)
-		M.add_chemical_effect(CE_PAINKILLER, 80)
-	M.add_chemical_effect(CE_PULSE, 1)
-	if(prob(5))
-		M.emote(pick("twitch", "blink_r", "shiver"))
-	if(volume <= 0.02 && M.chem_doses[type] >= 1 && world.time > data + ANTIDEPRESSANT_MESSAGE_DELAY * 0.3)
-		data = world.time
-		to_chat(M, "<span class='warning'>You feel antsy, your concentration wavers...</span>")
-	else
-		if(world.time > data + ANTIDEPRESSANT_MESSAGE_DELAY * 0.3)
-			data = world.time
-			to_chat(M, "<span class='notice'>You feel better.</span>")
-
-/datum/reagent/morphine/overdose(var/mob/living/carbon/M, var/alien)
-	..()
-	M.make_dizzy(10)
-	M.make_jittery(10)
-	if(M.losebreath < 2)
-		M.losebreath++
-
-
-/datum/reagent/naltamine
-	name = "Naltamine"
-	reagent_state = LIQUID
-	color = "#605048"
-	overdose = REAGENTS_OVERDOSE
-	metabolism = 0.15
-
-/datum/reagent/naltamine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	if(alien == IS_DIONA)
-		return
-	M.dizziness = 0
-	M.drowsyness = 0
-	M.stuttering = 0
-	M.confused = 0
-	if(M.ingested)
-		for(var/datum/reagent/R in M.ingested.reagent_list)
-			if(istype(R, /datum/reagent/morphine))
-				M.chem_doses[R.type] = max(M.chem_doses[R.type] - removed * 5, 0)
-			else if(istype(R, /datum/reagent/tramadol))
-				M.chem_doses[R.type] = max(M.chem_doses[R.type] - removed * 5, 0)
-
-
 /datum/reagent/deletrathol
 	name = "Deletrathol"
 	description = "An effective painkiller that causes confusion."
@@ -884,26 +783,3 @@
 	..()
 	M.druggy = max(M.druggy, 2)
 	M.add_chemical_effect(CE_PAINKILLER, 10)
-
-/datum/reagent/aminocaproic
-	name = "Aminocaproic Acid"
-	taste_description = "bitterness"
-	reagent_state = LIQUID
-	color = "#00bfff"
-	overdose = REAGENTS_OVERDOSE * 2
-	metabolism = REM * 0.05
-	scannable = 1
-	flags = IGNORE_MOB_SIZE
-	ingest_met = -1
-
-/datum/reagent/aminocaproic/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	if(alien != IS_DIONA)
-		M.add_chemical_effect(CE_HEMOSTATIC, 4)
-		M.heal_organ_damage(3 * removed, 0)
-
-/datum/reagent/aminocaproic/overdose(var/mob/living/carbon/M, var/alien)
-	..()
-	M.make_dizzy(10)
-	M.make_jittery(10)
-	if(M.losebreath < 2)
-		M.losebreath++

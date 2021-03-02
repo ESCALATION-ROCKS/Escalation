@@ -203,12 +203,6 @@
 
 	startswith = list(/obj/item/weapon/reagent_containers/pill/antidexafen = 7)
 
-/obj/item/weapon/storage/pill_bottle/paracetamol
-	name = "bottle of paracetamol"
-	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries."
-
-	startswith = list(/obj/item/weapon/reagent_containers/pill/paracetamol = 7)
-
 
 /obj/item/weapon/storage/firstaid/docbag
 	name = "medical bag"

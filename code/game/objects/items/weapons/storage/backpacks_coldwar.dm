@@ -21,7 +21,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -49,18 +49,18 @@
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/storage/box/ampule_box/thiopental,
-			/obj/item/weapon/storage/box/ampule_box/angiotensin,
-			/obj/item/weapon/storage/box/ampule_box/epinephrine,
+			/obj/item/weapon/storage/box/ampoule_box/thiopental,
+			/obj/item/weapon/storage/box/ampoule_box/angiotensin,
+			/obj/item/weapon/storage/box/ampoule_box/epinephrine,
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
-			/obj/item/weapon/storage/box/ampule_box,
+			/obj/item/weapon/storage/box/ampoule_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,
@@ -118,7 +118,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -150,7 +150,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -201,7 +201,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/soviet = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -229,18 +229,18 @@
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
-			/obj/item/weapon/storage/box/ampule_box/thiopental,
-			/obj/item/weapon/storage/box/ampule_box/angiotensin,
-			/obj/item/weapon/storage/box/ampule_box/epinephrine,
+			/obj/item/weapon/storage/box/ampoule_box/thiopental,
+			/obj/item/weapon/storage/box/ampoule_box/angiotensin,
+			/obj/item/weapon/storage/box/ampoule_box/epinephrine,
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
 			/obj/item/weapon/storage/box/pill_box,
-			/obj/item/weapon/storage/box/ampule_box,
+			/obj/item/weapon/storage/box/ampoule_box,
 			/obj/item/weapon/pill_pack,
 			/obj/item/weapon/gauze_pack,
 			/obj/item/stack/medical,
@@ -346,7 +346,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/soviet = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -430,7 +430,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocap,
-			/obj/item/weapon/pill_pack/amidopyrinum = 2,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe

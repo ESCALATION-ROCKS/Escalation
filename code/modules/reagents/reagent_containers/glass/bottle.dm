@@ -272,35 +272,11 @@
 	reagents.add_reagent(/datum/reagent/frostoil, 60)
 	update_icon()
 
-////////
-
-/obj/item/weapon/reagent_containers/glass/bottle/talotropine
-	name = "talotropine bottle"
-	desc = "A small bottle. Contains talotropine."
-	icon = 'icons/obj/chemical.dmi'
-	icon_state = "bottle-1"
-
-/obj/item/weapon/reagent_containers/glass/bottle/talotropine/New()
-	..()
-	reagents.add_reagent(/datum/reagent/talotropine, 30)
-	update_icon()
-
-
-/obj/item/weapon/reagent_containers/glass/bottle/tetracetam
-	name = "tetracetam bottle"
-	desc = "A small bottle. Contains tetracetam."
-	icon = 'icons/obj/chemical.dmi'
-	icon_state = "bottle-3"
-
-/obj/item/weapon/reagent_containers/glass/bottle/tetracetam/New()
-	..()
-	reagents.add_reagent(/datum/reagent/tetracetam, 30)
-	update_icon()
-
+//////// COLDWAR BOTTLES
 
 /obj/item/weapon/reagent_containers/glass/bottle/morphine
 	name = "morphine bottle"
-	desc = "A small bottle. Contains Morphine, A Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
+	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-purp"
 
@@ -311,7 +287,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/naltamine
 	name = "naltamine bottle"
-	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. "
+	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-4"
 
@@ -323,7 +299,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/salbutamol
 	name = "salbutamol bottle"
-	desc = "A strong bronchodilator. Intended for patients who have their bronches or airways obstructed by helping them breathe."
+	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-blu"
 	New()
@@ -333,7 +309,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/aminocap
 	name = "aminocaproic acid bottle"
-	desc = "A small bottle which contains Aminocaproic Acid. An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting."
+	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-red"
 	New()
@@ -343,7 +319,7 @@
 
 /obj/item/weapon/reagent_containers/glass/bottle/angiotensin
 	name = "angiotensin bottle"
-	desc = "A small bottle which contains Angiotensin. An effective compound which helps restore bloodflow to the brain and organs, useful for toxin and brain damage."
+	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-grene"
 	New()

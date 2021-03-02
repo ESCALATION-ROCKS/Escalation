@@ -284,6 +284,7 @@
 
 /obj/structure/reagent_dispensers/medical/morphine
 	name = "chemical tank (morphine)"
+	desc = "A tank filled to the brim with morphine. Bring some drinking glasses!"
 	initial_reagent_types = list(/datum/reagent/morphine = 200)
 
 /obj/structure/reagent_dispensers/medical/ethanol

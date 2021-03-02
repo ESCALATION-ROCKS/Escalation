@@ -1,82 +1,5 @@
-////////////////////////////////////////////////////////////////////////////////
-/// Pills.
-////////////////////////////////////////////////////////////////////////////////
-/obj/item/weapon/reagent_containers/pill
-	name = "pill"
-	desc = "A pill."
-	icon = 'icons/obj/chemical.dmi'
-	icon_state = null
-	item_state = "pill"
-	randpixel = 7
-	possible_transfer_amounts = null
-	w_class = ITEM_SIZE_TINY
-	slot_flags = null
-	volume = 60
+///////////////////////////////////////////bay12 snowflake pills - we dont use these/////////////////////////////////////
 
-	New()
-		..()
-		if(!icon_state)
-			icon_state = "pill[rand(1, 20)]"
-
-	attack(mob/M as mob, mob/user as mob, def_zone)
-		//TODO: replace with standard_feed_mob() call.
-
-		if(M == user)
-			if(!M.can_eat(src))
-				return
-
-			to_chat(M, "<span class='notice'>You swallow \the [src].</span>")
-			M.drop_from_inventory(src) //icon update
-			if(reagents.total_volume)
-				reagents.trans_to_mob(M, reagents.total_volume, CHEM_INGEST)
-			qdel(src)
-			return 1
-
-		else if(istype(M, /mob/living/carbon/human))
-			if(!M.can_force_feed(user, src))
-				return
-
-			user.visible_message("<span class='warning'>[user] attempts to force [M] to swallow \the [src].</span>")
-
-			user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
-			if(!do_mob(user, M))
-				return
-
-			user.drop_from_inventory(src) //icon update
-			user.visible_message("<span class='warning'>[user] forces [M] to swallow \the [src].</span>")
-
-			var/contained = reagentlist()
-			admin_attack_log(user, M, "Fed the victim with [name] (Reagents: [contained])", "Was fed [src] (Reagents: [contained])", "used [src] (Reagents: [contained]) to feed")
-
-			if(reagents.total_volume)
-				reagents.trans_to_mob(M, reagents.total_volume, CHEM_INGEST)
-			qdel(src)
-
-			return 1
-
-		return 0
-
-	afterattack(obj/target, mob/user, proximity)
-		if(!proximity) return
-
-		if(target.is_open_container() && target.reagents)
-			if(!target.reagents.total_volume)
-				to_chat(user, "<span class='notice'>[target] is empty. Can't dissolve \the [src].</span>")
-				return
-			to_chat(user, "<span class='notice'>You dissolve \the [src] in [target].</span>")
-
-			admin_attacker_log(user, "spiked \a [target] with a pill. Reagents: [reagentlist()]")
-			reagents.trans_to(target, reagents.total_volume)
-			for(var/mob/O in viewers(2, user))
-				O.show_message("<span class='warning'>[user] puts something in \the [target].</span>", 1)
-
-			qdel(src)
-
-		return
-
-////////////////////////////////////////////////////////////////////////////////
-/// Pills. END
-////////////////////////////////////////////////////////////////////////////////
 
 //Pills
 /obj/item/weapon/reagent_containers/pill/antitox
@@ -129,7 +52,7 @@
 
 /obj/item/weapon/reagent_containers/pill/paracetamol
 	name = "Paracetamol pill"
-	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries."
+	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	icon_state = "pill8"
 	New()
 		..()
@@ -298,70 +221,3 @@ obj/item/weapon/reagent_containers/pill/noexcutite/New()
 		reagents.add_reagent(/datum/reagent/drink/juice/lemon, 5)
 		reagents.add_reagent(/datum/reagent/menthol, REM*0.2)
 
-
-//coldwar pills
-
-/obj/item/weapon/reagent_containers/pill/amidopyrinum
-	name = "amidopyrinum pill"
-	desc = "A very strong painkiller, intended for use with patients that are in shock. - WARNING! Do not administer if the patient is not breathing."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/amidopyrinum, 5)
-
-/obj/item/weapon/reagent_containers/pill/doxycicline
-	name = "doxycicline pill"
-	desc = "A broad spectrum antibiotic to fight against infections."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/doxicycline, 5)
-
-
-/obj/item/weapon/reagent_containers/pill/phenazepam
-	name = "phenazepam pill"
-	desc = "A mild painkiller with a slow metabolization speed. Meant for mild injuries."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/phenazepam, 5)
-
-/* /obj/item/weapon/reagent_containers/pill/sydnocarbum
-	name = "sydnocarbum pill"
-	desc = "That's a pill."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/water, 5) /*lovushka jokera*/ */
-
-/obj/item/weapon/reagent_containers/pill/naloxone
-	name = "Naloxone pill"
-	desc = "That's a pill."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/naloxone, 5)
-
-/obj/item/weapon/reagent_containers/pill/promethazine
-	name = "promethazine pill"
-	desc = "Mild sedative for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/promethazine, 5)
-
-/obj/item/weapon/reagent_containers/pill/ethaperazine
-	name = "ethaperazine pill"
-	desc = "A mild neuroleptic and anti-emetic. Provides relief from nausea and vomiting."
-	icon_state = "pill21"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/ethaperazine, 5)
-
-/obj/item/weapon/reagent_containers/pill/angiotensin
-	name = "Angiotensin pill"
-	desc = "An effective compound which helps restore bloodflow to the brain and organs, useful for toxin and brain damage."
-	icon_state = "pill11"
-	New()
-		..()
-		reagents.add_reagent(/datum/reagent/angiotensin, 15)

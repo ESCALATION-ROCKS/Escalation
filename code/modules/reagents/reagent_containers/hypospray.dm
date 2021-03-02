@@ -119,7 +119,7 @@
 	icon_state = "syrette"
 	item_state = "autoinjector"
 	amount_per_transfer_from_this = 5
-	volume = 5
+	volume = 10
 	icon = 'icons/obj/syringe.dmi'
 	var/closed = 1
 
@@ -198,11 +198,11 @@
 
 /obj/item/weapon/reagent_containers/syrette/morphine
 	name = "morphine syrette"
-	desc = "Strong painkiller with a quick metabolization speed. Meant for life threatening injuries. WARNING! Do not administer orally!"
+	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
 
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/morphine, 5)
+		reagents.add_reagent(/datum/reagent/morphine, 10)
 
 
 
