@@ -190,7 +190,7 @@
 	new /obj/item/weapon/shovel/etool(hold)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(hold)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(hold)
-	new /obj/item/weapon/storage/firstaid/usmc_ifak(hold)
+	new /obj/item/weapon/storage/firstaid/ifak/nato(hold)
 
 /obj/item/clothing/accessory/storage/sa_harness
 	name = "harness"
@@ -217,7 +217,7 @@
 	..()
 	new /obj/item/weapon/shovel/etool(hold)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(hold)
-	new /obj/item/weapon/storage/firstaid/usmc_ifak(hold)
+	new /obj/item/weapon/storage/firstaid/ifak/nato(hold)
 
 /obj/item/clothing/accessory/storage/nvaddr_harness
 	name = "harness"

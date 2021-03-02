@@ -239,14 +239,27 @@
 		/obj/item/weapon/reagent_containers/hypospray/autoinjector/ethanol = 10
 		)
 
-/obj/item/weapon/storage/firstaid/usmc_ifak
+
+/obj/item/weapon/storage/firstaid/ifak
 	name = "IFAK"
-	desc = "That's the Individual First Aid Kit, a standard-issued NATO first aid kit ."
+	desc = "That's the Individual First Aid Kit."
 	icon_state = "usmc_ifak"
 	storage_slots = 4
 	item_state = null
 	w_class = 2
-	slot_flags = SLOT_ID
+	startswith = null
+
+	can_hold = list(
+		/obj/item/weapon/reagent_containers/syrette/morphine,
+		/obj/item/stack/medical/tourniquet,
+		/obj/item/weapon/gauze_pack,
+		/obj/item/stack/medical/bruise_pack,
+		/obj/item/stack/medical/splint/ifak
+		)
+	
+/obj/item/weapon/storage/firstaid/ifak/nato
+	desc = "That's the Individual First Aid Kit, a standard-issued NATO first aid kit."
+	icon_state = "usmc_ifak"
 	startswith = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet/nato,
@@ -254,34 +267,13 @@
 		/obj/item/stack/medical/splint/ifak
 		)
 
-	can_hold = list(
-		/obj/item/weapon/reagent_containers/syrette/morphine,
-		/obj/item/stack/medical/tourniquet/nato,
-		/obj/item/weapon/gauze_pack,
-		/obj/item/stack/medical/bruise_pack,
-		/obj/item/stack/medical/splint/ifak
-		)
-
-/obj/item/weapon/storage/firstaid/sa_ifak
-	name = "IFAK"
+/obj/item/weapon/storage/firstaid/ifak/soviet
 	desc = "That's a standard-issued Soviet first aid kit ."
 	icon_state = "soviet_ifak"
-	storage_slots = 4
-	item_state = null
-	w_class = 4
-	slot_flags = SLOT_ID
 	startswith = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/weapon/gauze_pack/ipp,
-		/obj/item/stack/medical/splint/ifak
-		)
-
-	can_hold = list(
-		/obj/item/weapon/reagent_containers/syrette/morphine,
-		/obj/item/stack/medical/tourniquet,
-		/obj/item/weapon/gauze_pack,
-		/obj/item/stack/medical/bruise_pack,
 		/obj/item/stack/medical/splint/ifak
 		)
 
@@ -387,25 +379,3 @@
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/stack/medical/tourniquet
 		)*/
-
-
-/obj/item/weapon/storage/firstaid/sa_ifak
-	name = "IFAK"
-	desc = "That's the Individual First Aid Kit, a standard-issued Soviet first aid kit ."
-	icon_state = "soviet_ifak"
-	storage_slots = 3
-	item_state = null
-	w_class = 2
-	slot_flags = SLOT_ID
-	startswith = list(
-		/obj/item/weapon/reagent_containers/syrette/morphine,
-		/obj/item/stack/medical/tourniquet,
-		/obj/item/weapon/gauze_pack/ipp
-		)
-
-	can_hold = list(
-		/obj/item/weapon/reagent_containers/syrette/morphine,
-		/obj/item/stack/medical/tourniquet,
-		/obj/item/weapon/gauze_pack,
-		/obj/item/stack/medical/bruise_pack
-		)

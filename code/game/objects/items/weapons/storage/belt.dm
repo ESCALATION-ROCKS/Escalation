@@ -231,13 +231,13 @@
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
-	/obj/item/weapon/storage/firstaid/sa_ifak)
+	/obj/item/weapon/storage/firstaid/ifak/soviet)
 
 /obj/item/weapon/storage/belt/harness/sa/New()
 	..()
 	new /obj/item/weapon/shovel/spadewp(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
-	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
+	new /obj/item/weapon/storage/firstaid/ifak/soviet(src)
 
 /obj/item/weapon/storage/belt/sa
 	name = "soviet belt"
@@ -260,13 +260,13 @@
 	show_above_suit = 1
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
-	/obj/item/weapon/storage/firstaid/sa_ifak)
+	/obj/item/weapon/storage/firstaid/ifak/soviet)
 
 /obj/item/weapon/storage/belt/harness/finn/New()
 	..()
 	new /obj/item/weapon/shovel/spadewp(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
-	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
+	new /obj/item/weapon/storage/firstaid/ifak/soviet(src)
 
 /obj/item/weapon/storage/belt/finn
 	name = "finnish belt"
@@ -301,13 +301,13 @@
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
-	/obj/item/weapon/storage/firstaid/usmc_ifak)
+	/obj/item/weapon/storage/firstaid/ifak/nato)
 
 /obj/item/weapon/storage/belt/harness/bdw/New()
 	..()
 	new /obj/item/weapon/shovel/etool(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
-	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
+	new /obj/item/weapon/storage/firstaid/ifak/nato(src)
 
 /obj/item/weapon/storage/belt/harness/baf
 	name = "british harness"
@@ -318,13 +318,13 @@
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
-	/obj/item/weapon/storage/firstaid/usmc_ifak)
+	/obj/item/weapon/storage/firstaid/ifak/nato)
 
 /obj/item/weapon/storage/belt/harness/baf/New()
 	..()
 	new /obj/item/weapon/shovel/etool(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
-	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
+	new /obj/item/weapon/storage/firstaid/ifak/nato(src)
 
 
 /obj/item/weapon/storage/belt/harness/nvaddr
@@ -335,13 +335,13 @@
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/spadewp,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
-	/obj/item/weapon/storage/firstaid/sa_ifak)
+	/obj/item/weapon/storage/firstaid/ifak/soviet)
 
 /obj/item/weapon/storage/belt/harness/nvaddr/New()
 	..()
 	new /obj/item/weapon/shovel/spadewp(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
-	new /obj/item/weapon/storage/firstaid/sa_ifak(src)
+	new /obj/item/weapon/storage/firstaid/ifak/soviet(src)
 
 /obj/item/weapon/storage/belt/nvaddr
 	name = "nationale volksarmee belt"
@@ -364,13 +364,13 @@
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/shovel/etool,
 	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
-	/obj/item/weapon/storage/firstaid/usmc_ifak)
+	/obj/item/weapon/storage/firstaid/ifak/nato)
 
 /obj/item/weapon/storage/belt/harness/usmc/New()
 	..()
 	new /obj/item/weapon/shovel/etool(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
-	new /obj/item/weapon/storage/firstaid/usmc_ifak(src)
+	new /obj/item/weapon/storage/firstaid/ifak/nato(src)
 
 /obj/item/weapon/storage/belt/usmc
 	name = "ALICE belt"
