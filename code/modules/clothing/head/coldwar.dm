@@ -71,6 +71,17 @@
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh68-unzipped"
 
+/obj/item/clothing/head/helmet/coldwar/soviet/ssh68/medic
+	name = "SSh-68 helmet"
+	desc = "A cheap steel helmet used by Soviet Army. This one has a red cross on it."
+	icon_state_unzipped = "ssh68medic-unzipped"
+	icon_state = "ssh68medic"
+
+/obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
+	name = "SSh-68 helmet"
+	desc = "A cheap steel helmet used by Soviet Army. This one has a netting on it."
+	icon_state_unzipped = "ssh68netting-unzipped"
+	icon_state = "ssh68netting"
 
 /obj/item/clothing/head/helmet/coldwar/soviet/ssh60
 	name = "SSh-60 helmet"
@@ -108,20 +119,25 @@
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m56-unzipped"
 
-/obj/item/clothing/head/helmet/coldwar/nvaddr/cover
+/obj/item/clothing/head/helmet/coldwar/nvaddr/m56/cover
 	name = "M56 stahlhelm"
-	desc = "A cheap steel helmet used by NVA DDR. Strichtarn cover."
+	desc = "A cheap steel helmet used by NVA DDR. This one has a stricharn cover on it."
 	icon_state = "m56-cover"
 	icon_state_unzipped = "m56-cover-unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/grey
 	icon_state = "m56_grey"
-	desc = "A cheap steel helmet used by NVA DDR. Grey and lame."
+	desc = "A cheap steel helmet used by NVA DDR."
 	icon_state_unzipped = "m56_grey-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/nvaddr/m56/medic
+	icon_state = "m56medic"
+	desc = "A cheap steel helmet used by NVA DDR. This one has a red cross on it."
+	icon_state_unzipped = "m56medic-unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/foliage
 	icon_state = "m56f"
-	desc = "A cheap steel helmet used by NVA DDR. Foliage cover."
+	desc = "A cheap steel helmet used by NVA DDR. This one is covered in foliage."
 	icon_state_unzipped = "m56f_unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/snow
@@ -129,10 +145,10 @@
 	desc = "A cheap steel helmet used by NVA DDR. Winter cover."
 	icon_state_unzipped = "m56_snow-unzipped"
 
-/obj/item/clothing/head/helmet/coldwar/nvaddr/m56/snowc
-	icon_state = "m56c_snow"
-	desc = "A cheap steel helmet used by NVA DDR. Winter cover and netting."
-	icon_state_unzipped = "m56c_snow-unzipped"
+/obj/item/clothing/head/helmet/coldwar/nvaddr/m56/netting
+	icon_state = "m56netting"
+	desc = "A cheap steel helmet used by NVA DDR. This one has a netting on it."
+	icon_state_unzipped = "m56netting-unzipped"
 
 //Volksarmee hats
 
@@ -296,10 +312,15 @@
 	icon_state = "m62helmetfoliage"
 	icon_state_unzipped = "m62helmetfoliage-unzipped"
 
-/obj/item/clothing/head/helmet/coldwar/bdw/m62/cover
+/obj/item/clothing/head/helmet/coldwar/bdw/m62/netting
 	desc = "A helmet used by Bundeswehr based on American M1 helmet. This one is covered by a camoflaged net."
 	icon_state = "m62c"
 	icon_state_unzipped = "m62c-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/bdw/m62/medic
+	desc = "A helmet used by Bundeswehr based on American M1 helmet. This one has a red cross on it."
+	icon_state = "m62medic"
+	icon_state_unzipped = "m62medic-unzipped"
 
 //UK Hats
 

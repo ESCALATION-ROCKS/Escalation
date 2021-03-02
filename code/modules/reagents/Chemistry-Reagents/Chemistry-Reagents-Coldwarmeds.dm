@@ -95,16 +95,31 @@
 	taste_description = "bitterness"
 	reagent_state = LIQUID
 	color = "#0040FF"
-	overdose = REAGENTS_OVERDOSE * 0.5
 	scannable = 0
 	flags = IGNORE_MOB_SIZE
 	ingest_met = -1
 
 /datum/reagent/salbutamol/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	if(alien == IS_VOX)
+	if(alien == IS_DIONA)
+		return
+	if(M.chem_doses[type] < 2)	//not that effective after initial rush
+		M.add_chemical_effect(CE_PULSE, 0.5)
+	else if(M.chem_doses[type] < 5)
+		M.add_chemical_effect(CE_PULSE, 1)
+		M.add_chemical_effect(CE_OXYGENATED, 0.5)
+	else if(M.chem_doses[type] < 10)
+		M.add_chemical_effect(CE_PULSE, 1)
+		M.add_chemical_effect(CE_OXYGENATED, 0.5)
+	if(M.chem_doses[type] > 10)
+		M.add_chemical_effect(CE_PULSE, 3)
+		M.add_chemical_effect(CE_OXYGENATED, -1)
+		M.add_chemical_effect(CE_BREATHLOSS, 1)
+		M.make_dizzy(5)
+
+	/*if(alien == IS_VOX)
 		M.adjustToxLoss(removed * 9)
 	else if(alien != IS_DIONA)
-		M.adjustOxyLoss(-25 * removed)
+		M.adjustOxyLoss(-25 * removed)*/
 
 /datum/reagent/salbutamol/overdose(var/mob/living/carbon/M, var/alien)
 	..()
