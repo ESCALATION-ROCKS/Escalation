@@ -91,7 +91,7 @@
 	bicaridine	spawn_reagent = /datum/reagent/bicaridine
 	hyperzine	spawn_reagent = /datum/reagent/hyperzine
 	rezadone	spawn_reagent = /datum/reagent/rezadone
-	doxicycline	spawn_reagent = /datum/reagent/doxicycline
+	doxycycline	spawn_reagent = /datum/reagent/doxycycline
 	ethylredox	spawn_reagent = /datum/reagent/ethylredoxrazine
 	sleeptox	spawn_reagent = /datum/reagent/soporific
 	chloral		spawn_reagent = /datum/reagent/chloralhydrate

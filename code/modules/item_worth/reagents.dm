@@ -434,7 +434,7 @@
 /datum/reagent/arithrazine
 	value = 2.7
 
-/datum/reagent/doxicycline
+/datum/reagent/doxycycline
 	value = 10
 
 /datum/reagent/talotropine

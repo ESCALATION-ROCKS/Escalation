@@ -211,19 +211,6 @@
 	reagents.add_reagent(/datum/reagent/diethylamine, 60)
 	update_icon()
 
-
-/obj/item/weapon/reagent_containers/glass/bottle/doxicycline
-	name = "doxicycline bottle"
-	desc = "A broad spectrum antibiotic to fight against infections."
-	icon = 'icons/obj/chemical.dmi'
-	icon_state = "bottle-yello"
-
-/obj/item/weapon/reagent_containers/glass/bottle/doxicycline/New()
-	..()
-	reagents.add_reagent(/datum/reagent/doxicycline, 60)
-	update_icon()
-
-
 /obj/item/weapon/reagent_containers/glass/bottle/pacid
 	name = "Polytrinic Acid Bottle"
 	desc = "A small bottle. Contains a small amount of Polytrinic Acid."

@@ -48,7 +48,7 @@
 			/obj/item/weapon/reagent_containers/chem_disp_cartridge/bicaridine,
 			/obj/item/weapon/reagent_containers/chem_disp_cartridge/hyperzine,
 			/obj/item/weapon/reagent_containers/chem_disp_cartridge/rezadone,
-			/obj/item/weapon/reagent_containers/chem_disp_cartridge/doxicycline,
+			/obj/item/weapon/reagent_containers/chem_disp_cartridge/doxycycline,
 			/obj/item/weapon/reagent_containers/chem_disp_cartridge/ethylredox,
 			/obj/item/weapon/reagent_containers/chem_disp_cartridge/sleeptox,
 			/obj/item/weapon/reagent_containers/chem_disp_cartridge/chloral,

@@ -363,9 +363,9 @@
 	required_reagents = list(/datum/reagent/cryoxadone = 1, /datum/reagent/sodium = 1, /datum/reagent/toxin/phoron = 0.1)
 	result_amount = 2
 
-/datum/chemical_reaction/doxicycline
-	name = "doxicycline"
-	result = /datum/reagent/doxicycline
+/datum/chemical_reaction/doxycycline
+	name = "doxycycline"
+	result = /datum/reagent/doxycycline
 	required_reagents = list(/datum/reagent/cryptobiolin = 1, /datum/reagent/inaprovaline = 1)
 	result_amount = 2
 

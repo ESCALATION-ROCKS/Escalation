@@ -347,11 +347,11 @@
 		update_icon()
 
 /obj/item/weapon/reagent_containers/syringe/antiviral
-	name = "Syringe (doxicycline)"
+	name = "Syringe (doxycycline)"
 	desc = "Contains antiviral agents."
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/doxicycline, 15)
+		reagents.add_reagent(/datum/reagent/doxycycline, 15)
 		mode = SYRINGE_INJECT
 		update_icon()
 

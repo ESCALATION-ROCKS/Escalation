@@ -144,7 +144,7 @@ var/list/organ_cache = list()
 
 /obj/item/organ/proc/handle_germ_effects()
 	//** Handle the effects of infections
-	var/antibiotics = owner.reagents.get_reagent_amount(/datum/reagent/doxicycline)
+	var/antibiotics = owner.reagents.get_reagent_amount(/datum/reagent/doxycycline)
 
 	if (germ_level > 0 && germ_level < INFECTION_LEVEL_ONE/2 && prob(owner.virus_immunity()*0.3))
 		germ_level--
@@ -212,7 +212,7 @@ var/list/organ_cache = list()
 /obj/item/organ/proc/handle_antibiotics()
 	var/antibiotics = 0
 	if(owner)
-		antibiotics = owner.reagents.get_reagent_amount(/datum/reagent/doxicycline)
+		antibiotics = owner.reagents.get_reagent_amount(/datum/reagent/doxycycline)
 
 	if (!germ_level || antibiotics < 5)
 		return

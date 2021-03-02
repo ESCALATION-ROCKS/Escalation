@@ -268,7 +268,7 @@
 								  /obj/item/weapon/reagent_containers/glass/bottle/tetracetam = TRADER_THIS_TYPE,
 								  /obj/item/weapon/reagent_containers/glass/bottle/naltamine = TRADER_THIS_TYPE,
 								  /obj/item/weapon/reagent_containers/glass/bottle/morphine = TRADER_THIS_TYPE,
-								  /obj/item/weapon/reagent_containers/glass/bottle/doxicycline = TRADER_THIS_TYPE,
+								  /obj/item/weapon/reagent_containers/glass/bottle/doxycycline = TRADER_THIS_TYPE,
 								  /obj/item/suture = TRADER_THIS_TYPE,
 								  /obj/item/weapon/storage/firstaid/regular = TRADER_THIS_TYPE,
 								  /obj/item/weapon/storage/box/syringes = TRADER_THIS_TYPE,

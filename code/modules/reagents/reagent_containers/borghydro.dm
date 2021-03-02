@@ -13,7 +13,7 @@
 	var/charge_tick = 0
 	var/recharge_time = 5 //Time it takes for shots to recharge (in seconds)
 
-	var/list/reagent_ids = list(/datum/reagent/tricordrazine, /datum/reagent/inaprovaline, /datum/reagent/doxicycline)
+	var/list/reagent_ids = list(/datum/reagent/tricordrazine, /datum/reagent/inaprovaline, /datum/reagent/doxycycline)
 	var/list/reagent_volumes = list()
 	var/list/reagent_names = list()
 
