@@ -310,7 +310,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/cover
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/sakitbag/nvaddr
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 	
@@ -544,7 +544,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/sakitbag/nvaddr
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch =/obj/item/weapon/storage/belt/suit/ammo/nvaddr/pkm
@@ -593,7 +593,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	r_pocket = null
 	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/cover
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/sakitbag/nvaddr
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
@@ -1865,7 +1865,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/lmg
-	back = /obj/item/weapon/storage/backpack/bundes_buttpack
+	back = /obj/item/weapon/storage/backpack/alice/medium
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
@@ -1891,6 +1891,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
 	shoes = /obj/item/clothing/shoes/bundeswehr/field
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	back = /obj/item/weapon/storage/backpack/alice/medium
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	head = /obj/item/clothing/head/garcap/bundeswehr
@@ -2088,7 +2089,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	r_pocket = null
-	back = /obj/item/weapon/storage/backpack/bundes_buttpack
+	back = /obj/item/weapon/storage/backpack/alice/medium
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62

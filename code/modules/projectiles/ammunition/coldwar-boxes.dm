@@ -9,6 +9,7 @@
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
 	max_ammo = 30
+	load_delay = 10
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c556x45m/ap
@@ -33,6 +34,7 @@
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
 	max_ammo = 20
+	load_delay = 7
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c556x45s/ap
@@ -57,6 +59,7 @@
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
 	max_ammo = 30
+	load_delay = 12
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c762x51m/ap
@@ -82,7 +85,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	max_ammo = 20
 	multiple_sprites = 1
-	load_delay = 7
+	load_delay = 9
 
 /obj/item/ammo_magazine/c762x51s/ap
 	name = "AP magazine (7.62x51mm)"
@@ -107,7 +110,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	max_ammo = 10
 	multiple_sprites = 1
-	load_delay = 7
+	load_delay = 10
 
 /obj/item/ammo_magazine/c762x51l/ap
 	name = "AP L96 magazine (7.62x51mm)"
@@ -186,7 +189,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	max_ammo = 50
 	multiple_sprites = 1
-	load_delay = 30
+	load_delay = 15
 
 /obj/item/ammo_magazine/c762x51b/bdw/drum/ap
 	name = "MG3 AP belt drum (7.62x51mm)"
@@ -317,6 +320,7 @@
 	matter = list(DEFAULT_WALL_MATERIAL = 1200)
 	caliber = "9x19"
 	max_ammo = 30
+	load_delay = 8
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/a9x19s/ap
@@ -343,6 +347,7 @@
 	matter = list(DEFAULT_WALL_MATERIAL = 1200)
 	caliber = "9x19"
 	max_ammo = 71
+	load_delay = 12
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/a9x19k/ap
@@ -504,6 +509,7 @@
 	caliber = "545x39"
 	ammo_type = /obj/item/ammo_casing/a545x39
 	max_ammo = 5
+	load_delay = 7
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c545x39s/empty
@@ -545,7 +551,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	max_ammo = 40
 	multiple_sprites = 1
-	load_delay = 15
+	load_delay = 12
 	slowdown_general = 0.1
 
 /obj/item/ammo_magazine/c762x39b/ap
@@ -572,7 +578,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	max_ammo = 75
 	multiple_sprites = 1
-	load_delay = 20
+	load_delay = 18
 
 /obj/item/ammo_magazine/c762x39k/ap
 	name = "AP drum magazine (7.62x39mm)"
@@ -598,7 +604,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	max_ammo = 75
 	multiple_sprites = 1
-	load_delay = 30
+	load_delay = 20
 
 /obj/item/ammo_magazine/c762x39d/ap
 	name = "RPD AP belt drum (7.62x39mm)"

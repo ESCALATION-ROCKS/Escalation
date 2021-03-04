@@ -316,7 +316,7 @@
 	item_state = "vz59"
 	w_class = 5
 	force = 15
-	accuracy = 2.3
+	accuracy = 2.6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 200
 	caliber = "762x54"
@@ -488,7 +488,7 @@
 	magazine_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	one_hand_penalty = 6
-	accuracy = 3.1
+	accuracy = 3
 	wielded_item_state = "rpk-wielded"
 	slowdown_general = 0.45
 	jam_chance = 0.3
@@ -576,6 +576,7 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x39d
 	one_hand_penalty = 9
 	automatic = FALSE
+	accuracy = 2.6
 	jam_chance = 0.275
 	slowdown_general = 0.8
 

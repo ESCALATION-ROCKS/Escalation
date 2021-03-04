@@ -102,6 +102,19 @@ Gruppe 'Foxtrot':bund
 @END@
 
 Gruppe 'Golf':bund
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwmedic
+@END@
+
+Gruppe 'Hotel':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
@@ -268,6 +281,19 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvamedic
 @END@
 
+Gruppe 'Dora':nvaddr
+/datum/job/escalation/nvaddr/nvasl
+/datum/job/escalation/nvaddr/nvasld
+/datum/job/escalation/nvaddr/nvasrad
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarocketass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvamedic
+@END@
+
 Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
@@ -280,7 +306,7 @@ Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 @END@
 
-SwG. 'Dora':nvaddr
+SwG. I:nvaddr
 /datum/job/escalation/nvaddr/nvahwscom
 /datum/job/escalation/nvaddr/nvahwsop
 /datum/job/escalation/nvaddr/nvahwsload

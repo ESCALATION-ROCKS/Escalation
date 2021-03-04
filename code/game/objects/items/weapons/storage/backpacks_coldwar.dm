@@ -185,7 +185,7 @@
 	max_storage_space = 16
 	open_delay = 5
 
-/obj/item/weapon/storage/backpack/alice/medium/New()
+/obj/item/weapon/storage/backpack/sakitbag/New()
 	..()
 	slowdown_per_slot[slot_back] = 0.03
 
