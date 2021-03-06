@@ -313,7 +313,7 @@
 	back = /obj/item/weapon/storage/backpack/sakitbag/nvaddr
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
-	
+
 /decl/hierarchy/outfit/job/coldwar/nvaddr/marksman
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Marksman")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
@@ -1280,7 +1280,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
 	r_hand = /obj/item/weapon/gun/launcher/smaw
-	back = /obj/item/weapon/storage/backpack/rpgusa 
+	back = /obj/item/weapon/storage/backpack/rpgusa
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
@@ -1842,7 +1842,7 @@
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	back = /obj/item/weapon/radioset/prc77
 	belt = /obj/item/weapon/storage/belt/harness/bdw
-	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/
+	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
 
 /decl/hierarchy/outfit/escalation/nato/bund/grenadier
 	name = OUTFIT_JOB_NAME("Coldwar - BDW Grenadier")
