@@ -179,7 +179,7 @@
 	name = "soviet kit bag"
 	desc = "A tarp folded carefully to resemble a bag. Used widely by Soviet forces."
 	icon_state = "sovietpack"
-	item_state = "sovietpack"
+	item_state = "sovietkitpack"
 	slot_flags = SLOT_BACK
 	reachable = 0
 	max_storage_space = 16
@@ -193,7 +193,7 @@
 	name = "strichtarn kit bag"
 	desc = "A tarp folded carefully to resemble a bag. Used widely by DDR forces."
 	icon_state = "nvapack"
-	item_state = "nvapack"
+	item_state = "nvakitpack"
 
 /obj/item/weapon/storage/backpack/summedsan
 	name = "sanitar's bag"
