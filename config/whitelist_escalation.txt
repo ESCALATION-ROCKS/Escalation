@@ -26,6 +26,7 @@ bdw_nco
 
 gy1ta23 = {
 bdw_officer
+bdw_enlisted
 }
 
 ############### CONTRIBUTORS
@@ -57,6 +58,8 @@ bdw_enlisted
 
 BurnedSweetPotato = {
 bdw_nco
+bdw_enlist
+bdw_enlisted
 }
 
 Rippie129 = {
@@ -469,3 +472,64 @@ bdw_enlisted
 ddr_enlisted
 }
 
+
+MeeM4903 = {
+bdw_enlisted
+}
+
+
+GabeGG = {
+bdw_enlisted
+}
+
+Manu9123 = {
+bdw_enlisted
+}
+
+bardinatavern = {
+bdw_officer
+}
+
+YeemanRuss = {
+bdw_enlisted
+}
+
+DecebalStalin = {
+ddr_enlisted
+}
+
+Zach666 = {
+bdw_nco
+bund_nco
+}
+
+
+LuckyX1 = {
+bdw_enlisted
+}
+
+bzrkr = {
+ddr_enlisted
+}
+
+
+
+JakeTitler = {
+ddr_enlisted
+}
+
+Valenth = {
+bdw_enlisted
+}
+
+Ultimum = {
+bdw_enlisted
+}
+
+Lastcrusader105 = {
+bdw_enlisted
+}
+
+Balpindo = {
+bdw_enlisted
+}

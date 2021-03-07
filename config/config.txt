@@ -343,14 +343,14 @@ EVENT_CUSTOM_START_MAJOR 80;100
 #DISABLE_ENTRY
 
 ## Uncomment to disable the OOC channel by default.
-#DISABLE_OOC
+DISABLE_OOC
 
 ## Uncomment to disable the AHELP channel by default.
 DISABLE_AHELP
 
 
 ## Uncomment to disable the dead OOC channel by default.
-#DISABLE_DEAD_OOC
+DISABLE_DEAD_OOC
 
 ## Uncomment to disable the AOOC channel by default.
 DISABLE_AOOC
