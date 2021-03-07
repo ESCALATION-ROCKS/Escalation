@@ -132,7 +132,7 @@
 /obj/item/weapon/grenade/frag/satchelnato
 	name = "C4 explosive satchel"
 	desc = "A pack of high explosives, used by NATO armies."
-	w_class = 4
+	w_class = 3
 	icon_state = "satchelnato"
 	throw_speed = 1
 	throw_range = 3
@@ -153,7 +153,7 @@
 /obj/item/weapon/grenade/frag/satchelwp
 	name = "explosive satchel"
 	desc = "A pack of high explosives, used by WP armies."
-	w_class = 4
+	w_class = 3
 	icon_state = "satchelwp"
 	throw_speed = 1
 	throw_range = 3
