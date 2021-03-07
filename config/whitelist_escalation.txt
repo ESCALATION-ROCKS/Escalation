@@ -46,10 +46,13 @@ ddr_enlisted
 
 Merrgear = {
 bdw_nco
+bdw_officer
+bdw_enlisted
 }
 
 yung bruh = {
 bdw_nco
+bdw_enlisted
 }
 
 BurnedSweetPotato = {
@@ -232,6 +235,7 @@ ddr_nco
 
 Battieralarm3 = {
 ddr_nco
+ddr_enlisted
 }
 
 corbe = {
@@ -419,3 +423,49 @@ ddr_enlisted
 MrHamster3 = {
 ddr_enlisted
 }
+
+Xxxretroxgears3 = {
+ddr_enlisted
+}
+
+ExecutorPartner = {
+bdw_enlisted
+}
+
+Ondrej008 = {
+ddr_enlisted
+}
+
+Amanhead = {
+ddr_enlisted
+}
+
+
+
+xDyou = {
+ddr_enlisted
+}
+
+CringMomentJBC = {
+ddr_enlisted
+}
+
+
+Horatius21 = {
+ddr_enlisted
+}
+
+
+Ezhlk = {
+ddr_enlisted
+}
+
+Seclog = {
+ddr_enlisted
+}
+
+SDevils = {
+bdw_enlisted
+ddr_enlisted
+}
+
