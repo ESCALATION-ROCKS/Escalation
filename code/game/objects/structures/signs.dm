@@ -1371,6 +1371,11 @@ obj/structure/sign/noshitlers
 	icon_state = "ddr_flag"
 	desc = "That's the Deutsche Demokratische Republik flag."
 
+/obj/structure/sign/czech_flag
+	name = "Czechoslovakia flag"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "czech_flag"
+	desc = "That's the Czechoslovakia flag."
 
 /obj/structure/sign/westgerman_flag
 	name = "West German flag"
@@ -1540,14 +1545,9 @@ obj/structure/sign/noshitlers
 	name = "British flag"
 	icon_state = "britishflag"
 
-/obj/structure/sign/flag/sansflag
-	name = "Skeleton flag"
-	icon_state = "sansundertale"
-
-/obj/structure/sign/flag/trollwaffenflag
-	name = "Hyperborean flag"
-	icon_state = "trollwaffen"
-
+/obj/structure/sign/flag/czechflag
+	name = "Czechoslovakia flag"
+	icon_state = "czechflag"
 
 ///////////////////////////// CARS, VEHICLES
 //////MOSKVICH
