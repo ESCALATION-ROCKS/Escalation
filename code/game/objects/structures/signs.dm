@@ -1374,7 +1374,7 @@ obj/structure/sign/noshitlers
 /obj/structure/sign/czech_flag
 	name = "Czechoslovakia flag"
 	icon = 'icons/obj/decorations.dmi'
-	icon_state = "czech_flag"
+	icon_state = "csla_flag"
 	desc = "That's the Czechoslovakia flag."
 
 /obj/structure/sign/westgerman_flag
@@ -1547,7 +1547,7 @@ obj/structure/sign/noshitlers
 
 /obj/structure/sign/flag/czechflag
 	name = "Czechoslovakia flag"
-	icon_state = "czechflag"
+	icon_state = "cslaflag"
 
 ///////////////////////////// CARS, VEHICLES
 //////MOSKVICH
