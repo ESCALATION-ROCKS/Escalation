@@ -138,8 +138,8 @@
 	item_state = "gun"
 	w_class = 2
 	caliber = "9x18"
-	accuracy = 3
-	fire_delay = 3
+	fire_delay = 2.6
+	accuracy = 4
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/cz9x18
 	allowed_magazines = /obj/item/ammo_magazine/cz9x18

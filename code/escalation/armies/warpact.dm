@@ -30,3 +30,12 @@
 	language = "Finnish"
 	base_color = "pink"
 	fireteam_names = list("Aarne #1", "Bertta #2", "Celsius #3", "Daavid #4")
+
+/datum/army_faction/warpact/csla
+	name = "CSLA"
+	enabled = 1
+	faction_tag = "csla"
+	flag_state = "czech"
+	language = "Czech"
+	base_color = "yellow"
+	fireteam_names = list("Aarne #1", "Bertta #2", "Celsius #3", "Daavid #4")

@@ -110,6 +110,7 @@ h1.alert, h2.alert		{color: #000000;}
 .russian                {color: #d05050;}
 .german                 {color: #6dbf70;}
 .finnish                {color: #b200c9;}
+.czech                  {color: #999900;}
 
 
 .interface				{color: #330033;}

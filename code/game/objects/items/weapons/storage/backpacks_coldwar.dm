@@ -195,6 +195,12 @@
 	icon_state = "nvapack"
 	item_state = "nvakitpack"
 
+/obj/item/weapon/storage/backpack/sakitbag/csla
+	name = "canvas kit bag"
+	desc = "A canvas bag used widely by CSLA forces."
+	icon_state = "cslapack"
+	item_state = "cslakitpack"
+
 /obj/item/weapon/storage/backpack/summedsan
 	name = "sanitar's bag"
 	desc = "That's the 'Sumka Meditsinskaya Sanitarnaya', a medical bag commonly used by Warsaw Pact."

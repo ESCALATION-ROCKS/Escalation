@@ -318,3 +318,29 @@
 
 /obj/item/clothing/under/brit/tiger/olive/alt/lcpl
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/baf/lcpl)
+
+
+/obj/item/clothing/under/csla/vz60
+	name = "Vz.60 pattern uniform"
+	desc = "That's the camouflaged field uniform, used by regular CSLA motorized infantry, border guard etc."
+	icon_state = "csla"
+	worn_state = "csla"
+	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
+	siemens_coefficient = 0.7
+	slowdown_general = 0.5
+	has_sensor = 0
+
+/obj/item/clothing/under/csla/vz60/sold
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/soldat)
+
+/obj/item/clothing/under/csla/vz60/subchetar
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/feldwebel)
+
+/obj/item/clothing/under/csla/vz60/chetar
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/unter)
+
+/obj/item/clothing/under/csla/vz60/sublieutenant
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/unterfeldwebel)
+
+/obj/item/clothing/under/csla/vz60/lieutnant
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/leutnant)

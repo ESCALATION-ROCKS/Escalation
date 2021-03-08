@@ -1,31 +1,34 @@
-/obj/item/weapon/gun/projectile/automatic/vz59 //Do not use
+/obj/item/weapon/gun/projectile/automatic/vz59
 	name = "Vz. 59"
 	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x54 rounds."
 	icon_state = "vz59"
 	item_state = "vz59"
 	w_class = 5
 	force = 15
+	accuracy = 2.3
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 200
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
 	load_method = MAGAZINE
 	magazine_type = null
-	allowed_magazines = /obj/item/ammo_magazine/c762x39v
+	allowed_magazines = /obj/item/ammo_magazine/c762x54b
 	one_hand_penalty = 9
-	wielded_item_state = "kk62-wielded"
+	automatic = FALSE
+	jam_chance = 0.2
+	slowdown_general = 0.8
+
+	wielded_item_state = "vz59-wielded"
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/mg_dist.ogg'
-	automatic = 0
-	slowdown_general = 0.8
+	fire_sound = 'sound/weapons/gunshot/pkm.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=2,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,              dispersion=null,                          automatic = 0),
-		list(mode_name="automatic",    burst=1, fire_delay=0.2, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,     dispersion=list(0.25, 0.45, 0.75),                  automatic = 0.4),
+		list(mode_name="semiauto",     burst=1, fire_delay=6,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,              dispersion=list(0.15),                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.3, move_delay=3,       one_hand_penalty = 10, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.55),                  automatic = 0.2)
 		)
-
 	var/cover_opened = FALSE
 
 
@@ -558,9 +561,50 @@
 		wielded_item_state = "nvarpk-wielded-empty"
 	update_held_icon()
 
+/obj/item/weapon/gun/projectile/automatic/cslarpk
+	name = "Sa Vz.58 P"
+	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x39 rounds."
+	icon_state = "cslarpkrpk"
+	item_state = "cslarpkrpk"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	w_class = 5
+	force = 15
+	max_shells = 75
+	caliber = "762x39"
+	ammo_type = /obj/item/ammo_casing/a762x39
+	load_method = MAGAZINE
+	magazine_type = null
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
+	one_hand_penalty = 6
+	accuracy = 2.9
+	wielded_item_state = "cslarpk-wielded"
+	slowdown_general = 0.45
+	jam_chance = 0.225
+
+	fire_sound = 'sound/weapons/gunshot/akm.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 
-/obj/item/weapon/gun/projectile/automatic/rpd //Do not use
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=4,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.5),              automatic = 0.6),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/cslarpk/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "cslarpk"
+		wielded_item_state = "cslarpk-wielded"
+	else
+		icon_state = "cslarpk-empty"
+		wielded_item_state = "cslarpk-wielded-empty"
+	update_held_icon()
+
+
+/obj/item/weapon/gun/projectile/automatic/rpd
 	name = "RPD"
 	desc = "That's the Ruchnoi Pulemet Degtyaryova, an outdated machine gun which is still used by NVA DDR."
 	icon_state = "rpd"

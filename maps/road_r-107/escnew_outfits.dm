@@ -624,6 +624,284 @@
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
+
+//CSLA
+/decl/hierarchy/outfit/job/coldwar/csla/rifleman
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Rifleman")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	back = /obj/item/weapon/storage/backpack/sakitbag/csla
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/sapper
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Sapper")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/csla
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/
+	back = /obj/item/weapon/storage/backpack/sakitbag/csla
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/marksman
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Marksman")
+	uniform = /obj/item/clothing/under/csla/vz60/subchetar
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/svd
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/svd
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/radio
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Radio")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back = /obj/item/weapon/radioset/r105d
+	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	back_2 = /obj/item/weapon/storage/backpack/gassoviet
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/mgunner
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA MG")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/cslarpk
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/rpk
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/rpk
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/rocket
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA RPG")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
+	back = /obj/item/weapon/storage/backpack/rpgsa
+	l_hand = /obj/item/weapon/gun/launcher/rpg7
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
+	head = /obj/item/clothing/head/garcap/nvaddr
+	belt = /obj/item/weapon/storage/belt/harness/nvaddr
+
+/decl/hierarchy/outfit/job/coldwar/csla/rocketass
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA RPG Assistant")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	back = /obj/item/weapon/storage/backpack/rpgsaassistant
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/srad
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Radio Operator")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back = /obj/item/weapon/radioset/r105d
+	back_2 = /obj/item/weapon/storage/backpack/gassoviet
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	r_pocket = null
+	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/sldep
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA SL Assistant")
+	uniform = /obj/item/clothing/under/csla/vz60/subchetar
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/ugrenades
+	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/sl
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA SL")
+	uniform = /obj/item/clothing/under/csla/vz60/sublieutenant
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	head = /obj/item/clothing/head/fieldcap/csla
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	r_pocket = /obj/item/weapon/key/wpnco
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/sanitar
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Sanitar")
+	uniform = /obj/item/clothing/under/csla/vz60/subchetar
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/medic
+	back = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
+	back_2 = /obj/item/weapon/storage/backpack/summedsan
+	holster = /obj/item/weapon/storage/belt/holster/csla
+	head = /obj/item/clothing/head/garcap/csla
+	l_pocket = /obj/item/weapon/key/wpmed
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/surgeon
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Field Surgerist")
+	uniform = /obj/item/clothing/under/csla/vz60/sublieutenant
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	back_2 = /obj/item/weapon/storage/backpack/wp_surg
+	left_pouch = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/medic
+	holster = /obj/item/weapon/storage/belt/holster/csla
+	l_pocket = /obj/item/weapon/masterkey/wpsurgeon
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/qm
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Quartermaster")
+	uniform = /obj/item/clothing/under/csla/vz60/sublieutenant
+	holster = /obj/item/weapon/storage/belt/holster/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	head = /obj/item/clothing/head/csla/officer
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	r_pocket = /obj/item/weapon/key/wpnco
+	belt = /obj/item/weapon/storage/belt/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/platleaddep
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon Leader Deputy")
+	uniform = /obj/item/clothing/under/csla/vz60/sublieutenant
+	holster = /obj/item/weapon/storage/belt/holster/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	head = /obj/item/clothing/head/fieldcap/csla
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	r_pocket = /obj/item/weapon/masterkey/wppl
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/csla/
+
+/decl/hierarchy/outfit/job/coldwar/csla/platlead
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon Leader")
+	uniform = /obj/item/clothing/under/csla/vz60/lieutnant
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	l_pocket = /obj/item/weapon/masterkey/wppl
+	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	head = /obj/item/clothing/head/csla/officer
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/csla/
+
+/decl/hierarchy/outfit/job/coldwar/csla/platmgunner
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon MG")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/vz59
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/vz59
+	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/platmgass
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon MG Assistant")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back = /obj/item/weapon/storage/backpack/sakitbag/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch =/obj/item/weapon/storage/belt/suit/ammo/csla/vz59
+	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/hwscom
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA HWS Leader")
+	uniform = /obj/item/clothing/under/csla/vz60/sublieutenant
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	head = /obj/item/clothing/head/fieldcap/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	r_hand = /obj/item/weapon/maptool
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage
+	r_pocket = /obj/item/weapon/key/wpnco
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/hwsop
+	name = OUTFIT_JOB_NAME("Coldwar - VSLA HWS Gunner")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
+/decl/hierarchy/outfit/job/coldwar/csla/hwsload
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA HWS Loader")
+	uniform = /obj/item/clothing/under/csla/vz60/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
+	back = /obj/item/weapon/storage/backpack/sakitbag/csla
+	head = /obj/item/clothing/head/garcap/csla
+	belt = /obj/item/weapon/storage/belt/harness/csla
+
 /*//SOVIET ARMY --------- WINTER MAP VERSION (SUMMER ABOVE)
 /decl/hierarchy/outfit/job/coldwar/soviet/komvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Komandir Vzvoda")

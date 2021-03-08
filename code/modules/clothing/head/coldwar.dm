@@ -164,7 +164,50 @@
 
 
 
+////////////
+//CSLA hats
 
+/obj/item/clothing/head/garcap/csla
+	name = "garrison cap"
+	desc = "That's a garrison cap used by the CSLA."
+	icon_state = "cslagarrisoncap"
+	icon_state_alt = "cslagarrisoncap_alt"
+
+/obj/item/clothing/head/fieldcap/csla
+	name = "field cap"
+	desc = "That's a garrison cap used by the CSLA."
+	icon_state = "csla_cap"
+
+/obj/item/clothing/head/csla/officer
+	name = "officer cap"
+	desc = "An uniform headdress of officers."
+	icon_state = "csla_officer"
+
+
+//NVADDR helmets
+
+/obj/item/clothing/head/helmet/coldwar/csla/vz53
+	name = "Vz.53"
+	desc = "A cheap steel helmet used by the CSLA."
+	icon_state = "vz53"
+	armor = list(melee = 58, bullet = 20, laser = 10, energy = 10, bomb = 50, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "vz53-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
+	icon_state = "vz53netting"
+	desc = "A cheap steel helmet used by the CSLA. This one has a netting on it."
+	icon_state_unzipped = "vz53netting-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage
+	icon_state = "vz53f"
+	desc = "A cheap steel helmet used by the CSLA. This one is covered in foliage."
+	icon_state_unzipped = "vz53f_unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/csla/vz53/medic
+	icon_state = "vz53medic"
+	desc = "A cheap steel helmet used by the CSLA. This one has a red cross on it."
+	icon_state_unzipped = "vz53medic-unzipped"
 
 
 

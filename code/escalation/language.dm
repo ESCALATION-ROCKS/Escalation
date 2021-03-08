@@ -42,6 +42,9 @@
 			H.add_language(LANGUAGE_FINNISH)
 			L = all_languages[LANGUAGE_FINNISH]
 
+		if("csla")
+			H.add_language(LANGUAGE_CZECH)
+			L = all_languages[LANGUAGE_CZECH]
 
 	if(L)
 		H.default_language = L

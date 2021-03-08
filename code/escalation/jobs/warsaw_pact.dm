@@ -1390,3 +1390,437 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+
+//CSLA
+
+/datum/job/escalation/csla
+	title = "CSLA"
+	enabled = 0 ///////base job, keep disabled.
+	faction_tag = "csla" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
+	military_faction = WARPAC
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.fraction = "WP"
+
+
+/datum/job/escalation/csla/cslaplatlead
+	title = "CSLA Poruchik"
+	name = "Poruchik"
+	english_name = "Platoon Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/platlead
+	selection_color = "#FA8072"
+	rank_number = 0
+	position = "team"
+	leading = 1
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
+
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+
+/datum/job/escalation/csla/cslaplatleaddep
+	title = "CSLA Podporuchik"
+	name = "Podporuchik"
+	english_name = "Platoon Leader Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/platleaddep
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 70, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
+
+/datum/job/escalation/csla/cslaqm
+	title = "CSLA Chetar"
+	name = "Chetar"
+	english_name = "Quartermaster"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/qm
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 0
+	whitelist_rank = "csla_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/csla/cslaplatmg
+	title = "CSLA Rota Delostrelec"
+	name = "Rota Delostrelec"
+	english_name = "Platoon Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/platmgunner
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslaplatmgas
+	title = "CSLA Pomocnik Rota Delostrelec"
+	name = "Pomocnik Rota Delostrelec"
+	english_name = "Platoon Machinegunner Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/platmgass
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslahqrad
+	title = "CSLA Rota Radista"
+	name = "Rota Radista"
+	english_name = "HQ Radio Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/radio
+	selection_color = "#FA8072"
+	rank_number = 5
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 2, 0)
+
+/datum/job/escalation/nvaddr/cslasapper
+	title = "CSLA Zenista"
+	name = "Zenista"
+	english_name = "Sapper"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/sapper
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslacorpsman
+	title = "CSLA Sanitar"
+	name = "Sanitar"
+	english_name = "Field Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/sanitar
+	selection_color = "#FA8072"
+	rank_number = 4
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+
+/datum/job/escalation/csla/cslasurgerist
+	title = "CSLA Chirurg"
+	name = "Chirurg"
+	english_name = "Field Surgeon"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/surgeon
+	selection_color = "#FA8072"
+	rank_number = 2
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, -8, -1, -1, 5, 1, 2, 0)
+
+/datum/job/escalation/csla/cslamarksman
+	title = "CSLA Nadstrelec"
+	name = "Nadstrelec"
+	english_name = "Designated Marksman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/marksman
+	selection_color = "#FA8072"
+	rank_number = 6
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslasl
+	title = "CSLA Subchetar"
+	name = "Subchetar"
+	english_name = "Squad Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/sl
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	leading = 1
+	whitelist_rank = "csla_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/csla/cslasld
+	title = "CSLA Pomocnik Subchetar"
+	name = "Pomocnik Subchetar"
+	english_name = "Squad Leader Deputy"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/sldep
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
+
+/datum/job/escalation/csla/cslamedic
+	title = "CSLA Sanitarstrelec"
+	name = "Sanitarstrelec"
+	english_name = "Squad Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/sanitar
+	selection_color = "#FA8072"
+	rank_number = 4
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+
+/datum/job/escalation/csla/cslamg
+	title = "CSLA Delostrelec"
+	name = "Delostrelec"
+	english_name = "Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/mgunner
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslasrad
+	title = "CSLA Radista"
+	name = "Radista"
+	english_name = "Squad Radio Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/srad
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslarocket
+	title = "CSLA Pancerovnik"
+	name = "Pancerovnik"
+	english_name = "Squad Grenadier"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/rocket
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslarocketass
+	title = "CSLA Pomocnik Pancerovnika"
+	name = "Pomocnik Pancerovnika"
+	english_name = "Grenadier Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/rocketass
+	selection_color = "#FA8072"
+	rank_number = 5
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+
+/datum/job/escalation/csla/cslarifleman
+	title = "CSLA Strelec"
+	name = "Strelec"
+	english_name = "Rifleman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/rifleman
+	selection_color = "#f7ddda"
+	rank_number = 1
+	position = "fireteam"
+	amount = 3
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslahwscom
+	title = "CSLA Tezke Zbrane Subchetar"
+	name = "Tezke Zbrane Subchetar"
+	english_name = "Heavy Weapons Group Commander"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/hwscom
+	selection_color = "#fa8072"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/csla/cslahwsload
+	title = "CSLA Tezke Zbrane Subchetar Nakladac"
+	name = "Tezke Zbrane Subchetar Nakladac"
+	english_name = "Heavy Weapons Group Loader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/hwsload
+	selection_color = "#f7ddda"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/csla/cslahwsop
+	title = "CSLA Tezke Zbrane Subchetar Strelec"
+	name = "Tezke Zbrane Subchetar Strelec"
+	english_name = "Heavy Weapons Group Gunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/hwsload
+	selection_color = "#f7ddda"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "csla_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
+
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)

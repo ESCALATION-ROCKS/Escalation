@@ -251,6 +251,35 @@
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
 
+
+/obj/item/weapon/storage/belt/harness/csla
+	name = "csla harness"
+	desc = "A cheap harness used by Warsaw Pact military forces."
+	icon_state = "sa_harness"
+	item_state = "sa_harness"
+	storage_slots = 3
+	can_hold = list(/obj/item/weapon/shovel/spadewp,
+	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+	/obj/item/weapon/storage/firstaid/ifak/soviet)
+
+/obj/item/weapon/storage/belt/harness/csla/New()
+	..()
+	new /obj/item/weapon/shovel/spadewp(src)
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
+	new /obj/item/weapon/storage/firstaid/ifak/soviet(src)
+
+/obj/item/weapon/storage/belt/csla
+	name = "csla belt"
+	desc = "A belt used by Czech officers. An USSR Star is engraved on the buckle."
+	icon_state = "sa_officerharness"
+	item_state = "sa_officerharness"
+	storage_slots = 1
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
+
+/obj/item/weapon/storage/belt/csla/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
+
 /obj/item/weapon/storage/belt/harness/finn
 	name = "finnish harness"
 	desc = "A cheap harness used by Finnnish military forces."

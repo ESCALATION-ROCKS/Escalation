@@ -326,6 +326,19 @@
 	can_hold = list(
 		/obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr)
 
+/obj/item/weapon/storage/belt/holster/sheath/csla
+	name = "Bodak Vz.58 sheath"
+	desc = "This sheath can hold a Bodak Vz.58."
+	special_item = /obj/item/weapon/material/knife/bayonet/csla
+	holster_sound = 'sound/effects/holster/sheathin.ogg'
+	unholster_sound = 'sound/effects/holster/sheathout.ogg'
+	icon_state = "bodak_sheath"
+	icon_closed = "bodak_sheath_empty"
+	startswith = list(
+		/obj/item/weapon/material/knife/bayonet/csla)
+	can_hold = list(
+		/obj/item/weapon/material/knife/bayonet/csla)
+
 /obj/item/weapon/storage/belt/holster/flaskstorage
 	name = "flask pouch"
 	desc = "This one can hold some kind of flask."
@@ -777,6 +790,81 @@
 	startswith = null
 
 
+
+/////////////czech
+/obj/item/weapon/storage/belt/suit/ammo/csla
+	w_class = ITEM_SIZE_HUGE
+	name = "leather AK magazine pouch"
+	desc = "Has enough space to hold four AK magazines."
+	icon_state = "csla_ammo"
+	item_state = "sa_ammo"
+	storage_slots = 4
+	open_delay = 5
+	can_hold = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/a9x18
+		)
+	startswith = null
+	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
+	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/ammo/csla/rpk
+	w_class = ITEM_SIZE_HUGE
+	name = "leather SA-58P magazine pouch"
+	desc = "Has enough space to hold four large AK magazines."
+	icon_state = "csla_ammo"
+	item_state = "sa_ammo"
+	open_delay = 5
+	storage_slots = 4
+	can_hold = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39b,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39b,
+		/obj/item/ammo_magazine/a9x18
+		)
+	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/csla/svd
+	w_class = ITEM_SIZE_HUGE
+	name = "leather SVD magazine pouch"
+	desc = "Has enough space to hold four SVD magazines."
+	icon_state = "csla_svd"
+	item_state = "sa_ammo"
+	open_delay = 5
+	storage_slots = 4
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x54s
+		)
+	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/csla/grenades
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = 2
+	name = "leather grenade pouch"
+	desc = "Can hold three grenades."
+	icon_state = "csla_grenade"
+	item_state = "sa_grenade"
+	open_delay = 2
+	storage_slots = 3
+	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
+	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/csla/vz59
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "Vz.59 box pouch"
+	desc = "Has enough space to hold to hold one box."
+	icon_state = "csla_ammo_lmg"
+	item_state = "sa_ammo_lmg"
+	open_delay = 5
+	storage_slots = 1
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x54b/csla
+		)
+	startswith = null
+
 //ugl nade pouches
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
@@ -843,6 +931,21 @@
 		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm/
 		)
 
+/obj/item/weapon/storage/belt/suit/ammo/csla/ugrenades
+	name = "leather grenade satchel"
+	desc = "Generic grenade satchel used by CSLA. Has enough space to hold six underbarrel grenades."
+	icon_state = "csla_ugl"
+	item_state = "sa_ugrenade"
+	storage_slots = 6
+	can_hold = list (/obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25, /obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm)
+	startswith = list(
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25/,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25/
+		)
 
 
 /////////////sapper bags
