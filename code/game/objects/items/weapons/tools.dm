@@ -18,9 +18,8 @@
  */
 /obj/item/weapon/wrench
 	name = "wrench"
-	desc = "A good, durable combination wrench, with self-adjusting, universal open- and ring-end mechanisms to match a wide variety of nuts and bolts."
-	description_info = "This versatile tool is used for dismantling machine frames, anchoring or unanchoring heavy objects like vending machines and emitters, and much more. In general, if you want something to move or stop moving entirely, you ought to use a wrench on it."
-	description_fluff = "The classic open-end wrench (or spanner, if you prefer) hasn't changed significantly in shape in over 500 years, though these days they employ a bit of automated trickery to match various bolt sizes and configurations."
+	desc = "A good, durable, combination wrench."
+	description_fluff = "The classic"
 	description_antag = "Not only is this handy tool good for making off with machines, but it even makes a weapon in a pinch!"
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "wrench"
@@ -154,9 +153,9 @@
  * Wirecutters
  */
 /obj/item/weapon/wirecutters
-	name = "wirecutters"
-	desc = "A special pair of pliers with cutting edges. Various brackets and manipulators built into the handle allow it to repair severed wiring."
-	description_info = "This tool will cut wiring anywhere you see it - make sure to wear insulated gloves! When used on more complicated machines or airlocks, it can not only cut cables, but repair them, as well."
+	name = "bolt cutters"
+	desc = "A pair of pliers with cutting edges."
+	description_info = "This tool will cut wiring anywhere you see it."
 	description_fluff = "With modern alloys, today's wirecutters can snap through cables of astonishing thickness."
 	description_antag = "These cutters can be used to cripple the power anywhere on the ship. All it takes is some creativity, and being in the right place at the right time."
 	icon = 'icons/obj/tools.dmi'

@@ -70,14 +70,14 @@
 		icon_state = "hair_c"
 		veryshort = 1
 
-	flair
+	/*flair
 		name = "Flaired Hair"
 		icon_state = "hair_flair"
 		gender = FEMALE
 
 	long
 		name = "Shoulder-length Hair"
-		icon_state = "hair_b"
+		icon_state = "hair_b"*/
 
 /*
 	longish
@@ -95,17 +95,17 @@
 		icon_state = "hair_longest"
 		gender = FEMALE
 */
-	longfringe
+	/*longfringe
 		name = "Long Fringe"
 		icon_state = "hair_longfringe"
-		gender = FEMALE
+		gender = FEMALE*/
 
 /*
 	longestalt
 		name = "Longer Fringe"
 		icon_state = "hair_vlongfringe"
 */
-	halfbang
+	/*halfbang
 		name = "Half-banged Hair"
 		icon_state = "hair_halfbang"
 
@@ -124,7 +124,7 @@
 
 	ponytail3
 		name = "Ponytail 3"
-		icon_state = "hair_ponytail3"
+		icon_state = "hair_ponytail3"*/
 
 /*
 	ponytail4
@@ -133,7 +133,7 @@
 		gender = FEMALE
 */
 
-	ponytail5
+	/*ponytail5
 		name = "Ponytail 5"
 		icon_state = "hair_ponytail5"
 		gender = FEMALE
@@ -141,7 +141,7 @@
 	ponytail6
 		name = "Ponytail 6"
 		icon_state = "hair_ponytail6"
-		gender = FEMALE
+		gender = FEMALE*/
 
 /*
 	sideponytail
@@ -153,10 +153,10 @@
 		name = "Parted"
 		icon_state = "hair_parted"
 
-	pompadour
+	/*pompadour
 		name = "Pompadour"
 		icon_state = "hair_pompadour"
-		gender = MALE
+		gender = MALE*/
 
 	sleeze
 		name = "Sleeze"
@@ -237,10 +237,10 @@
 		icon_state = "hair_father"
 		gender = MALE
 
-	reversemohawk
+	/*reversemohawk
 		name = "Reverse Mohawk"
 		icon_state = "hair_reversemohawk"
-		gender = MALE
+		gender = MALE*/
 
 	devillock
 		name = "Devil Lock"
@@ -284,13 +284,13 @@
 		veryshort = 1
 */
 
-	emo
+	/*emo
 		name = "Emo"
 		icon_state = "hair_emo"
 
 	emo2
 		name = "Emo Alt"
-		icon_state = "hair_emo2"
+		icon_state = "hair_emo2"*/
 /*
 	longemo
 		name = "Long Emo"
@@ -305,13 +305,13 @@
 		name = "Overeye Long"
 		icon_state = "hair_longovereye"
 */
-	fag
+	/*fag
 		name = "Flow Hair"
 		icon_state = "hair_f"
 
 	feather
 		name = "Feather"
-		icon_state = "hair_feather"
+		icon_state = "hair_feather"*/
 
 /*
 	hitop
@@ -330,7 +330,7 @@
 		icon_state = "hair_jensen"
 		gender = MALE
 
-	gelled
+	/*gelled
 		name = "Gelled Back"
 		icon_state = "hair_gelled"
 		gender = FEMALE
@@ -338,7 +338,7 @@
 	gentle
 		name = "Gentle"
 		icon_state = "hair_gentle"
-		gender = FEMALE
+		gender = FEMALE*/
 
 /*
 	spiky
@@ -350,7 +350,7 @@
 		icon_state = "hair_kusanagi"
 */
 
-	kagami
+	/*kagami
 		name = "Pigtails"
 		icon_state = "hair_kagami"
 		gender = FEMALE
@@ -363,7 +363,7 @@
 	shorthime
 		name = "Short Hime Cut"
 		icon_state = "hair_shorthime"
-		gender = FEMALE
+		gender = FEMALE*/
 
 /*
 	grandebraid
@@ -418,7 +418,7 @@
 		icon_state = "hair_thefamilyman"
 		gender = MALE
 */
-	mahdrills
+	/*mahdrills
 		name = "Drillruru"
 		icon_state = "hair_drillruru"
 		gender = FEMALE
@@ -431,7 +431,7 @@
 	dandypomp
 		name = "Dandy Pompadour"
 		icon_state = "hair_dandypompadour"
-		gender = MALE
+		gender = MALE*/
 
 /*
 	poofy
@@ -553,11 +553,11 @@
 		gender = MALE
 		veryshort = 1
 
-	tightbun
+	/*tightbun
 		name = "Tight Bun"
 		icon_state = "hair_tightbun"
 		gender = FEMALE
-		veryshort = 1
+		veryshort = 1*/
 
 	coffeehouse
 		name = "Coffee House Cut"
@@ -746,9 +746,9 @@
 		name = "Adam Jensen Beard"
 		icon_state = "facial_jensen"
 
-	volaju
+	/*volaju
 		name = "Volaju"
-		icon_state = "facial_volaju"
+		icon_state = "facial_volaju"*/
 /*
 	dwarf
 		name = "Dwarf Beard"
@@ -786,9 +786,9 @@
 		name = "Mutton Chops and Moustache"
 		icon_state = "facial_muttonmus"
 */
-	walrus
+	/*walrus
 		name = "Walrus Moustache"
-		icon_state = "facial_walrus"
+		icon_state = "facial_walrus"*/
 
 	croppedbeard
 		name = "Full Cropped Beard"

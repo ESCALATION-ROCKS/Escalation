@@ -7,7 +7,7 @@
 	display_name = "prescription glasses"
 	path = /obj/item/clothing/glasses/regular
 
-/datum/gear/eyes/glasses/hippie
+/*/datum/gear/eyes/glasses/hippie
 	display_name = "Hippie glasses"
 	path = /obj/item/clothing/glasses/hippie
 
@@ -32,4 +32,4 @@
 
 /datum/gear/eyes/shades/big
 	display_name = "shades"
-	path = /obj/item/clothing/glasses/sunglasses/big
+	path = /obj/item/clothing/glasses/sunglasses/big*/

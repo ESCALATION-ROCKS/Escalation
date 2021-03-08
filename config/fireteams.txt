@@ -22,6 +22,7 @@ Squad 'Alpha':usmc
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcsapper
 @END@
 
 Squad 'Bravo':usmc
@@ -34,6 +35,7 @@ Squad 'Bravo':usmc
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcsapper
 @END@
 
 Squad 'Charlie':usmc
@@ -46,6 +48,7 @@ Squad 'Charlie':usmc
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcsapper
 @END@
 
 HWS-1:usmc
@@ -73,6 +76,7 @@ Gruppe 'Delta':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
+/datum/job/escalation/bund/bdwsapper
 @END@
 
 Gruppe 'Echo':bund
@@ -86,6 +90,7 @@ Gruppe 'Echo':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
+/datum/job/escalation/bund/bdwsapper
 @END@
 
 Gruppe 'Foxtrot':bund
@@ -99,22 +104,10 @@ Gruppe 'Foxtrot':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
+/datum/job/escalation/bund/bdwsapper
 @END@
 
 Gruppe 'Golf':bund
-/datum/job/escalation/bund/bdwsl
-/datum/job/escalation/bund/bdwsld
-/datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwmg
-/datum/job/escalation/bund/bdwmgas
-/datum/job/escalation/bund/bdwgrenadier
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwmedic
-@END@
-
-Gruppe 'Hotel':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
@@ -206,6 +199,7 @@ Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasapper
 @END@
 
 Otdelenie 'Boris':cccp
@@ -219,6 +213,7 @@ Otdelenie 'Boris':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasapper
 @END@
 
 Otdelenie 'Vasiliy':cccp
@@ -232,6 +227,7 @@ Otdelenie 'Vasiliy':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasapper
 @END@
 
 OTV-1:cccp
@@ -253,6 +249,7 @@ Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvamedic
+/datum/job/escalation/nvaddr/nvasapper
 @END@
 
 Gruppe 'Bertha':nvaddr
@@ -266,6 +263,7 @@ Gruppe 'Bertha':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvamedic
+/datum/job/escalation/nvaddr/nvasapper
 @END@
 
 Gruppe 'Cesar':nvaddr
@@ -279,19 +277,7 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvamedic
-@END@
-
-Gruppe 'Dora':nvaddr
-/datum/job/escalation/nvaddr/nvasl
-/datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvasrad
-/datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarocketass
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvamedic
+/datum/job/escalation/nvaddr/nvasapper
 @END@
 
 Gruppe 'Emil':nvaddr
@@ -306,7 +292,7 @@ Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 @END@
 
-SwG. I:nvaddr
+SwG. 'Dora':nvaddr
 /datum/job/escalation/nvaddr/nvahwscom
 /datum/job/escalation/nvaddr/nvahwsop
 /datum/job/escalation/nvaddr/nvahwsload

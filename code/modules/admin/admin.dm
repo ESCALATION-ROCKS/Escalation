@@ -890,7 +890,7 @@ var/global/floorIsLava = 0
 	if(config.abandon_allowed)
 		to_world("<B>You may now respawn.</B>")
 	else
-		to_world("<B>You may no longer respawn :(</B>")
+		to_world("<B>You may no longer respawn</B>")
 	log_and_message_admins("toggled respawn to [config.abandon_allowed ? "On" : "Off"].")
 	world.update_status()
 	feedback_add_details("admin_verb","TR") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!

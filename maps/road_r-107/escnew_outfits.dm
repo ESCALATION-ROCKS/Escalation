@@ -141,6 +141,19 @@
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
+/decl/hierarchy/outfit/job/coldwar/soviet/sapper
+	name = OUTFIT_JOB_NAME("Coldwar - Soviet Sapper")
+	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	r_pocket = null
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/sa
+	head = /obj/item/clothing/head/garcap/soviet
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
 /decl/hierarchy/outfit/job/coldwar/soviet/sniper
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Snaiper")
 	uniform = /obj/item/clothing/under/soviet/habe/gefr
@@ -314,6 +327,20 @@
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
+
+/decl/hierarchy/outfit/job/coldwar/nvaddr/sapper
+	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Sapper")
+	uniform = /obj/item/clothing/under/nvaddr/strichtarn/sold
+	shoes = /obj/item/clothing/shoes/soviet/marching/nva
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/ddr
+	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/cover
+	back = /obj/item/weapon/storage/backpack/sakitbag/nvaddr
+	head = /obj/item/clothing/head/garcap/nvaddr
+	belt = /obj/item/weapon/storage/belt/harness/nvaddr
+
 /decl/hierarchy/outfit/job/coldwar/nvaddr/marksman
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Marksman")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/gefr
@@ -421,8 +448,8 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR SL Assistant")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/obergefr
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
-	holster = /obj/item/weapon/storage/belt/holster/sheath/ddr74
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl
+	holster = /obj/item/weapon/storage/belt/holster/sheath/ddrm
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	r_pocket = null
@@ -436,7 +463,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/unter
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
@@ -476,7 +503,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Quartermaster")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/feldwebel
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiakmk
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/nvaddr/officer
@@ -489,7 +516,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon Leader Deputy")
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/feldwebel
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
@@ -504,7 +531,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/leutnant
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	l_pocket = /obj/item/weapon/masterkey/wppl
@@ -558,7 +585,7 @@
 	uniform = /obj/item/clothing/under/nvaddr/strichtarn/unter
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
@@ -1220,6 +1247,21 @@
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
 
+/decl/hierarchy/outfit/job/coldwar/usmc/sapper
+	name = OUTFIT_JOB_NAME("Coldwar - USMC Sapper")
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/pfc
+	shoes = /obj/item/clothing/shoes/usmc/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/usa
+	r_pocket = null
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	head = /obj/item/clothing/head/ushanka/uswintercap
+	suit = /obj/item/clothing/suit/armor/vest/coat/usa
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
+
 /decl/hierarchy/outfit/job/coldwar/usmc/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - USMC Machine Gunner")
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/lcpl
@@ -1839,6 +1881,21 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	back = /obj/item/weapon/radioset/prc77
+	belt = /obj/item/weapon/storage/belt/harness/bdw
+	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
+
+
+/decl/hierarchy/outfit/escalation/nato/bund/sapper
+	name = OUTFIT_JOB_NAME("Coldwar - BDW Sapper")
+	uniform = /obj/item/clothing/under/bundeswehr/olive/soldat
+	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
+	shoes = /obj/item/clothing/shoes/bundeswehr/field
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/bdw
+	r_pocket = null
+	back = /obj/item/weapon/storage/backpack/bundes_buttpack
+	head = /obj/item/clothing/head/garcap/bundeswehr
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 	l_hand = /obj/item/clothing/head/helmet/coldwar/bdw/m62
 

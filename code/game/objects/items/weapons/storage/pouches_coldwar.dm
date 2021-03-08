@@ -843,6 +843,66 @@
 		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm/
 		)
 
+
+
+/////////////sapper bags
+
+/obj/item/weapon/storage/belt/suit/sapper
+	name = "sappers bag"
+	slot_flags = SLOT_LPOUCH | SLOT_RPOUCH
+	w_class = ITEM_SIZE_HUGE
+	desc = "Has enough space to hold a variety of engineering tools."
+	icon_state = "nvaddr_sapper"
+	item_state = "nvaddr_ammo"
+	open_delay = 5
+	storage_slots = 5
+	can_hold = list(
+		/obj/item/weapon/shovel/sapper,
+		/obj/item/weapon/wrench,
+		/obj/item/weapon/wirecutters,
+		/obj/item/weapon/carpentry/axe/hatchet,
+		/obj/item/weapon/carpentry/saw/sapper
+		)
+	startswith = list(
+		/obj/item/weapon/shovel/sapper,
+		/obj/item/weapon/wrench,
+		/obj/item/weapon/wirecutters,
+		/obj/item/weapon/carpentry/axe/hatchet,
+		/obj/item/weapon/carpentry/saw/sapper,
+		)
+	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
+	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/sapper/ddr
+	name = "strichtarn sappers bag"
+	icon_state = "nvaddr_sapper"
+	item_state = "nvaddr_ammo"
+
+/obj/item/weapon/storage/belt/suit/sapper/sa
+	name = "sappers bag"
+	icon_state = "sa_sapper"
+	item_state = "sa_ammo"
+
+/obj/item/weapon/storage/belt/suit/sapper/csla
+	name = "sappers bag"
+	icon_state = "csla_sapper"
+	item_state = "sa_ammo"
+
+/obj/item/weapon/storage/belt/suit/sapper/bdw
+	name = "sappers bag"
+	icon_state = "bdw_sapper"
+	item_state = "bdw_ammo"
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/sapper/usa
+	name = "sappers bag"
+	icon_state = "usa_sapper"
+	item_state = "usmc_ammo"
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
+
 /obj/item/weapon/storage/belt/suit/ammo/usmc/flarepouch
 	name = "Flare Pouch."
 	desc = "Generic flare pouch."

@@ -67,6 +67,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
 	one_hand_penalty = 5
+	force = 15
 	accuracy = 2.8
 	wielded_item_state = "ak74-wielded"
 	jam_chance = 0.285
@@ -122,6 +123,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
 	one_hand_penalty = 5
+	force = 15
 	accuracy = 2.8
 	wielded_item_state = "aek971-wielded"
 	jam_chance = 0.285
@@ -166,6 +168,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
 	one_hand_penalty = 5
+	force = 15
 	accuracy = 2.7
 	jam_chance = 0.285
 	slowdown_general = 0.27
@@ -206,6 +209,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
 	one_hand_penalty = 5
+	force = 15
 	accuracy = 2.6
 	jam_chance = 0.285
 	slowdown_general = 0.27
@@ -245,6 +249,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
 	one_hand_penalty = 3
+	force = 15
 	accuracy = 2.8
 	bayonet_attachable = 0
 	wielded_item_state = "ak74gl-wielded"
@@ -321,6 +326,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "556x45"
+	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
@@ -362,6 +368,7 @@
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
 	load_method = MAGAZINE
+	force = 15
 	magazine_type = null
 	allowed_magazines = /obj/item/ammo_magazine/c762x51s
 	screen_shake = 1
@@ -407,6 +414,7 @@
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 4
 	accuracy = 3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
@@ -448,6 +456,7 @@
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 4
 	accuracy = 2.3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
@@ -487,6 +496,7 @@
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 4
 	bayonet_attachable = 1
 	accuracy = 3
@@ -564,6 +574,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "556x45"
+	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
@@ -636,7 +647,7 @@
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+/obj/item/weapon/gun/projectile/automatic/rifle/fa3
 	name = "G3A3"
 	desc = "A standard-issue Bundeswehr combat rifle. Chambers 7.62x51 rounds."
 	icon_state = "g3a3"
@@ -644,12 +655,13 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
+	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 2.7
+	accuracy = 3
 	screen_shake = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
@@ -702,7 +714,8 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 2.7
+	force = 15
+	accuracy = 2.9
 	screen_shake = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
@@ -742,6 +755,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 2.9
 	bayonet_attachable = 0
@@ -825,6 +839,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 3
 	accuracy = 2
 	fire_delay = 1.7
@@ -877,6 +892,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
 	one_hand_penalty = 3
+	force = 15
 	accuracy = 2.5
 	bayonet_attachable = 0
 	fire_delay = 1.7
@@ -946,6 +962,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
+	force = 15
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
@@ -991,6 +1008,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 2.6
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
@@ -1032,6 +1050,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 2.6
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
@@ -1073,6 +1092,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 2.7
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr/
@@ -1156,6 +1176,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
 	one_hand_penalty = 5
+	force = 15
 	accuracy = 2.8
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
 	bayonet_attachable = 1
@@ -1197,6 +1218,7 @@
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 3
 	accuracy = 2.8
 	bayonet_attachable = 0
@@ -1278,6 +1300,7 @@
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 2.7
 	fire_delay = 2
@@ -1321,6 +1344,7 @@
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 2.5
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr/
@@ -1363,6 +1387,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 3
 	accuracy = 2.7
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/finn/
@@ -1402,6 +1427,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 3.2
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/baf/
@@ -1442,6 +1468,7 @@
 	ammo_type = /obj/item/ammo_casing/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19s
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 1.4
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/baf/
@@ -1482,6 +1509,7 @@
 	ammo_type = /obj/item/ammo_casing/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19k
 	magazine_type = null
+	force = 15
 	one_hand_penalty = 5
 	accuracy = 1.4
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/baf/

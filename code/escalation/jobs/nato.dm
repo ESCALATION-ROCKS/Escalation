@@ -165,6 +165,25 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
+/datum/job/escalation/usmc/usmcsapper
+	title = "USMC Sapper"
+	name = "Sapper"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/sapper
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usmc_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 /datum/job/escalation/usmc/usmcmgcom
 	title = "USMC HWS Commander"
 	name = "Heavy Weapon Section Commander"
@@ -692,6 +711,25 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/bund/bdwsapper
+	title = "BDW Ingenieurschutze"
+	name = "Ingenieurschutze"
+	english_name = "Sapper"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/sapper
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "bdw_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwrifle
 	title = "BDW Schutze"

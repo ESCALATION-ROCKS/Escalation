@@ -9,7 +9,7 @@
 	w_class = 5
 	throw_speed = 3
 	throw_range = 40
-	force = 5.0
+	force = 15
 	flags =  CONDUCT
 	slot_flags = 0
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
@@ -81,7 +81,7 @@
 	w_class = 4
 	throw_speed = 2
 	throw_range = 10
-	force = 5.0
+	force = 15
 	flags =  CONDUCT
 	slot_flags = 0
 	fire_sound = 'sound/weapons/gunshot/rocketfire1.ogg'
@@ -149,7 +149,7 @@
 	w_class = 4
 	throw_speed = 2
 	throw_range = 10
-	force = 5.0
+	force = 15
 	flags =  CONDUCT
 	slot_flags = 0
 	fire_sound = 'sound/weapons/gunshot/rocketfire1.ogg'

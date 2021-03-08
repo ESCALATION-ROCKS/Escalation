@@ -316,7 +316,7 @@
 	item_state = "vz59"
 	w_class = 5
 	force = 15
-	accuracy = 2.6
+	accuracy = 2.3
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 200
 	caliber = "762x54"
@@ -480,7 +480,7 @@
 	item_state = "rpk"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = 5
-	force = 10
+	force = 15
 	max_shells = 45
 	caliber = "545x39"
 	ammo_type = /obj/item/ammo_casing/a545x39
@@ -488,7 +488,7 @@
 	magazine_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	one_hand_penalty = 6
-	accuracy = 3
+	accuracy = 3.1
 	wielded_item_state = "rpk-wielded"
 	slowdown_general = 0.45
 	jam_chance = 0.3
@@ -517,13 +517,13 @@
 //heavily ak-74 version, have a little bit faster bullets and larger barrel - ~750m\sec against of ak's 715m\sec
 //have bipods on bayonet's slot
 /obj/item/weapon/gun/projectile/automatic/nvarpk
-	name = "IMG-K"
+	name = "LMG-K"
 	desc = "A standard-issue Nationale Volksarmee squad support weapon. Chambers 7.62x39 rounds."
 	icon_state = "nvarpk"
 	item_state = "nvarpk"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = 5
-	force = 10
+	force = 15
 	max_shells = 75
 	caliber = "762x39"
 	ammo_type = /obj/item/ammo_casing/a762x39
@@ -576,7 +576,6 @@
 	allowed_magazines = /obj/item/ammo_magazine/c762x39d
 	one_hand_penalty = 9
 	automatic = FALSE
-	accuracy = 2.6
 	jam_chance = 0.275
 	slowdown_general = 0.8
 
@@ -646,7 +645,7 @@
 	icon_state = "kk62"
 	item_state = "kk62"
 	w_class = 5
-	force = 12.5
+	force = 15
 	accuracy = 2.3
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 100

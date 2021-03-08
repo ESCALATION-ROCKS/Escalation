@@ -16,7 +16,7 @@
 	path = /obj/item/weapon/flame/lighter/zippo
 
 /datum/gear/smoking/cigarretes
-	display_name = "Cigarrete Boxes"
+	display_name = "cigarette pack"
 	path = /obj/item/weapon/storage/fancy/cigarettes/luckystrikered
 
 /datum/gear/smoking/cigarretes/New()

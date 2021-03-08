@@ -17,6 +17,12 @@
 	attack_verb = list("cut", "sawed")
 	matter = list(DEFAULT_WALL_MATERIAL = 1000, "wood" = 500)
 
+/obj/item/weapon/carpentry/saw/sapper
+	name = "sappers saw"
+	desc = "A small saw designed for sawing logs into usable planks."
+	icon_state = "sappersaw"
+	item_state = "saw"
+
 /obj/item/weapon/carpentry/axe
 	name = "woodsman's axe"
 	desc = "A heavy axe designed for chopping down large trees."
@@ -31,3 +37,9 @@
 	attack_verb = list("slashed", "cut", "chopped", "hacked")
 	w_class = 4.0 //suck it
 	matter = list(DEFAULT_WALL_MATERIAL = 2000, "wood" = 1000)
+
+/obj/item/weapon/carpentry/axe/hatchet
+	name = "sappers hatchet"
+	desc = "A small axe designed for chopping down large trees."
+	icon_state = "sapperhatchet"
+	item_state = "axe"

@@ -53,7 +53,7 @@
 	item_state = "svd"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK | SLOT_BACK
 	w_class = 5
-	force = 10
+	force = 15
 	max_shells = 10
 	screen_shake = 2
 	caliber = "762x54"
@@ -151,7 +151,7 @@
 	icon_state = "wa2000"
 	item_state = "wa2000"
 	w_class = 5
-	force = 10
+	force = 15
 	screen_shake = 1
 	max_shells = 6
 	load_method = MAGAZINE
@@ -339,7 +339,7 @@
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "l96"
 	item_state = "l96"
-	force = 10
+	force = 15
 	caliber = "762x51"
 	load_method = MAGAZINE
 	ammo_type = null
@@ -410,7 +410,7 @@
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "tkiv"
 	item_state = "tkiv"
-	force = 8
+	force = 15
 	caliber = "762x53"
 	wielded_item_state = "tkiv-wielded"
 	w_class = ITEM_SIZE_LARGE
@@ -485,7 +485,7 @@
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "ssg82"
 	item_state = "ssg82"
-	force = 8
+	force = 15
 	caliber = "545x39"
 	load_method = MAGAZINE
 	ammo_type = null
@@ -568,7 +568,7 @@
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "m40a1"
 	item_state = "m40a1"
-	force = 8
+	force = 15
 	caliber = "762x51"
 	wielded_item_state = "m40a1-wielded"
 	w_class = ITEM_SIZE_LARGE
@@ -653,7 +653,7 @@
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "enfield"
 	item_state = "enfield"
-	force = 8
+	force = 15
 	caliber = "303"
 	wielded_item_state = "tkiv-wielded"
 	w_class = ITEM_SIZE_LARGE
@@ -693,7 +693,7 @@
 	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "mosin"
 	item_state = "enfield"
-	force = 8
+	force = 15
 	caliber = "762x53"
 	wielded_item_state = "mosin-wielded"
 	w_class = ITEM_SIZE_LARGE

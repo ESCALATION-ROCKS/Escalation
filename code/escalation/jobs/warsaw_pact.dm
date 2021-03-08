@@ -149,6 +149,25 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
+/datum/job/escalation/cccp/sasapper
+	title = "SA Ingenieur"
+	name = "Ingenieur"
+	english_name = "Sapper"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sapper
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
+
 /datum/job/escalation/cccp/samedic
 	title = "SA Polevoi Medik"
 	name = "Polevoi Medik"
@@ -609,6 +628,25 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 2, 0)
+
+/datum/job/escalation/nvaddr/nvasapper
+	title = "NVA Ingenieur"
+	name = "Ingenieur"
+	english_name = "Sapper"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr/sapper
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "ddr_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvacorpsman
 	title = "NVA Sanitater"

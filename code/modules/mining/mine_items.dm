@@ -193,6 +193,17 @@
 	throwforce = 20.0
 	sharp = 1
 
+/obj/item/weapon/shovel/sapper
+	name = "sappers shovel"
+	desc = "A compact shovel with a wide mouth, perfect for digging operations."
+	icon_state = "spade_nato"
+	item_state = "armyspade"
+	w_class = 2
+	icon = 'icons/obj/items.dmi'
+	force = 15.0
+	throwforce = 20.0
+	sharp = 1
+
 /obj/item/weapon/shovel/etool
 	name = "entrenching tool"
 	icon_state = "etool"
