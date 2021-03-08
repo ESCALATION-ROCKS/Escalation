@@ -68,16 +68,24 @@
 //////czech/////////
 ////////////////////
 
-//they used f1 also as a offensive grenade
-
 /obj/item/weapon/grenade/frag/rg42
 	name = "RG-42 grenade"
-	desc = "That's a defensive grenade used by Czech army."
-	icon_state = "rg42grenade"
+	desc = "That's an offensive grenade used by Czech army."
+	icon_state = "rg42"
+	throw_speed = 3
+	throw_range = 13
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
+	num_fragments = 170  //total number of fragments produced by the grenade
+	explosion_size = 4
+
+/obj/item/weapon/grenade/frag/urg86
+	name = "URG-86 grenade"
+	desc = "That's a defensive grenade used by Czech army. Has a weird shape."
+	icon_state = "urg86"
 	throw_speed = 2
-	throw_range = 8
-	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/strong)
-	num_fragments = 230  //total number of fragments produced by the grenade
+	throw_range = 10
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
+	num_fragments = 290  //total number of fragments produced by the grenade
 	explosion_size = 2
 
 //////british/////////
