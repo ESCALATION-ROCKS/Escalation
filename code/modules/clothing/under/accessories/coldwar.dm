@@ -351,6 +351,33 @@
 	icon_state = "usmc_1stlt_insignia"
 	rank = "Luutnantti"
 
+
+//////////csla 
+/obj/item/clothing/accessory/insignia/csla/soldat
+	name = "Soldat insignia"
+	icon_state = "sa_soldat"
+	rank = "Soldat"
+
+/obj/item/clothing/accessory/insignia/csla/subchetar
+	name = "Subchetar insignia"
+	icon_state = "sa_gefreiter"
+	rank = "Subchetar"
+
+/obj/item/clothing/accessory/insignia/csla/chetar
+	name = "Chetar insignia"
+	icon_state = "sa_obergefreiter"
+	rank = "Chetar"
+
+/obj/item/clothing/accessory/insignia/csla/subleutnant
+	name = "Subleutnant insignia"
+	icon_state = "sa_unteroffizier"
+	rank = "Subleutnant"
+
+/obj/item/clothing/accessory/insignia/csla/leutnant
+	name = "Leutnant insignia"
+	icon_state = "sa_unterfeldwebel"
+	rank = "Leutnant"
+
 //Storage Accessories
 /obj/item/clothing/accessory/storage/bandolier_nato
 	name = "bandolier"

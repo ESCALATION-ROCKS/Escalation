@@ -332,8 +332,8 @@
 	special_item = /obj/item/weapon/material/knife/bayonet/csla
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
-	icon_state = "bodak_sheath"
-	icon_closed = "bodak_sheath_empty"
+	icon_state = "csla_sheath"
+	icon_closed = "csla_sheath_empty"
 	startswith = list(
 		/obj/item/weapon/material/knife/bayonet/csla)
 	can_hold = list(

@@ -128,10 +128,10 @@
 	icon_state = "6h3_ddr"
 
 /obj/item/weapon/material/knife/bayonet/csla
-	name = "Bodak Vz.58 bayonet"
+	name = "Bodak Vz.58"
 	desc = "A slim and sharp, but somewhat fragile Czechoslovakian bayonet."
 	icon = 'icons/obj/weapons.dmi'
-	icon_state = "bodak"
+	icon_state = "csla"
 
 /obj/item/weapon/material/knife/bayonet/usmc
 	name = "M7 bayonet"

@@ -331,16 +331,16 @@
 	has_sensor = 0
 
 /obj/item/clothing/under/csla/vz60/sold
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/soldat)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/soldat)
 
 /obj/item/clothing/under/csla/vz60/subchetar
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/feldwebel)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/subchetar)
 
 /obj/item/clothing/under/csla/vz60/chetar
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/unter)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/chetar)
 
-/obj/item/clothing/under/csla/vz60/sublieutenant
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/unterfeldwebel)
+/obj/item/clothing/under/csla/vz60/subleutnant
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/subleutnant)
 
-/obj/item/clothing/under/csla/vz60/lieutnant
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/nnaddr/leutnant)
+/obj/item/clothing/under/csla/vz60/leutnant
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/leutnant)
