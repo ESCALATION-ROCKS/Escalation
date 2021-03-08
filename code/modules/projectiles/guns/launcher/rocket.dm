@@ -489,6 +489,12 @@
 	icon_state = "rpg22"
 	item_state = "rpg22"
 
+/obj/item/weapon/gun/launcher/oneuse/rpg18/rpg75
+	name = "RPG-75"
+	desc = "Single-use rocket launcher used by the CSLA."
+	icon_state = "rpg75"
+	item_state = "rpg75"
+
 /obj/item/weapon/gun/launcher/oneuse/rpg18/m72
 	name = "M72 LAW"
 	desc = "A single-use rocket launcher used by NATO forces. Fires a 66mm HEAT shell."

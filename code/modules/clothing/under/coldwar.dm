@@ -323,8 +323,8 @@
 /obj/item/clothing/under/csla/vz60
 	name = "Vz.60 pattern uniform"
 	desc = "That's the camouflaged field uniform, used by regular CSLA motorized infantry, border guard etc."
-	icon_state = "csla"
-	worn_state = "csla"
+	icon_state = "vz60"
+	worn_state = "vz60"
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
 	siemens_coefficient = 0.7
 	slowdown_general = 0.5

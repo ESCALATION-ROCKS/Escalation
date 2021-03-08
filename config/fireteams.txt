@@ -334,7 +334,7 @@ SwG. I:nvaddr
 
 ###CSLA###
 
-Cheta 'Anton':csla
+Cheta 'Ato':csla
 /datum/job/escalation/csla/cslasl
 /datum/job/escalation/csla/cslasld
 /datum/job/escalation/csla/cslasrad
@@ -348,7 +348,7 @@ Cheta 'Anton':csla
 /datum/job/escalation/csla/cslasapper
 @END@
 
-Cheta 'Bertha':csla
+Cheta 'Baba':csla
 /datum/job/escalation/csla/cslasl
 /datum/job/escalation/csla/cslasld
 /datum/job/escalation/csla/cslasrad
@@ -362,7 +362,7 @@ Cheta 'Bertha':csla
 /datum/job/escalation/csla/cslasapper
 @END@
 
-Cheta 'Cesar':csla
+Cheta 'Cesta':csla
 /datum/job/escalation/csla/cslasl
 /datum/job/escalation/csla/cslasld
 /datum/job/escalation/csla/cslasrad

@@ -311,7 +311,7 @@
 
 /obj/item/ammo_magazine/a9x19s
 	name = "smg magazine (9x19mm)"
-	desc = "A Sterling magazine that fits thirty 9x19mm rounds."
+	desc = "An SMG magazine that fits thirty 9x19mm rounds."
 	icon_state = "9x19s"
 	item_state = "generic_mag"
 	mag_type = MAGAZINE
@@ -325,12 +325,12 @@
 
 /obj/item/ammo_magazine/a9x19s/ap
 	name = "smg AP magazine (9x19mm)"
-	desc = "A Sterling magazine that fits thirty armor-piercing 9x19mm rounds."
+	desc = "An SMG magazine that fits thirty armor-piercing 9x19mm rounds."
 	ammo_type = /obj/item/ammo_casing/a9x19/ap
 
 /obj/item/ammo_magazine/a9x19s/tr
 	name = "smg tracer magazine (9x19mm)"
-	desc = "A Sterling magazine that fits thirty 9x19mm tracer rounds."
+	desc = "An SMG magazine that fits thirty 9x19mm tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a9x19/tr
 
 /obj/item/ammo_magazine/a9x19s/empty
@@ -777,7 +777,7 @@
 
 /obj/item/ammo_magazine/cz9x18
 	name = "magazine (9x18mm)"
-	desc = "A CZ85 magazine that fits eight 9x18mm rounds."
+	desc = "A CZ82 magazine that fits twelve 9x18mm rounds."
 	icon_state = "9x18a" //fix
 	item_state = "generic_mag"
 	w_class = 1
@@ -790,12 +790,12 @@
 
 /obj/item/ammo_magazine/cz9x18/ap
 	name = "magazine (9x18mm)"
-	desc = "A CZ85 magazine that fits eight armor-piercing 9x18mm rounds."
+	desc = "A CZ82 magazine that fits eight armor-piercing 9x18mm rounds."
 	ammo_type = /obj/item/ammo_casing/a9x18/ap
 
 /obj/item/ammo_magazine/cz9x18/tr
 	name = "magazine (9x18mm)"
-	desc = "A CZ85 magazine that fits eight 9x18mm tracer rounds."
+	desc = "A CZ82 magazine that fits eight 9x18mm tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a9x18/tr
 
 /obj/item/ammo_magazine/cz9x18/empty

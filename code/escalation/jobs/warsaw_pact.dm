@@ -1747,7 +1747,7 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 
-/datum/job/escalation/csla/cslarifleman
+/datum/job/escalation/csla/cslarifle
 	title = "CSLA Strelec"
 	name = "Strelec"
 	english_name = "Rifleman"

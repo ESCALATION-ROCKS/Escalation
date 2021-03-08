@@ -828,10 +828,10 @@
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58
-	name = "Vz.58"
+	name = "Sa Vz.58"
 	desc = "A standard-issue CSLA combat rifle. Chambers 7.62x39 rounds."
 	icon_state = "vz58"
-	item_state = "vz58"
+	item_state = "mpi"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
@@ -868,10 +868,10 @@
 		icon_state = "vz58-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
-	name = "Vz.58 V"
+	name = "Sa Vz.58 V"
 	desc = "A standard-issue CSLA combat rifle with a folding stock. Chambers 7.62x39 rounds."
 	icon_state = "vz58v"
-	item_state = "vz58"
+	item_state = "mpi"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
@@ -887,7 +887,7 @@
 	jam_chance = 0.475
 	slowdown_general = 0.15
 
-	wielded_item_state = "vz58-wielded"
+	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/akm.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
@@ -904,17 +904,17 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "vz58v"
-		wielded_item_state = "vz58-wielded"
+		wielded_item_state = "mpi-wielded"
 	else
 		icon_state = "vz58v-empty"
-		wielded_item_state = "vz58-wielded-empty"
+		wielded_item_state = "mpi-wielded-empty"
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl
-	name = "Vz.58 w/ GP-25"
+	name = "Sa Vz.58 w/ GP-25"
 	desc = "A standard-issue CSLA combat rifle with a GP-25 attached."
 	icon_state = "vz58gl"
-	item_state = "vz58gl"
+	item_state = "mpigl"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
@@ -930,7 +930,7 @@
 	jam_chance = 0.45
 	slowdown_general = 0.27
 
-	wielded_item_state = "mpi-wielded"
+	wielded_item_state = "mpigl-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
@@ -970,10 +970,13 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl/update_icon()
 	..()
+	
 	if(ammo_magazine)
 		icon_state = "vz58gl"
+		wielded_item_state = "mpigl-wielded"
 	else
 		icon_state = "vz58gl-empty"
+		wielded_item_state = "mpigl-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl/verb/set_gp()
 	set name = "Grenade launcher"
@@ -988,7 +991,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
 	name = "MPi-KM"
-	desc = "That's an outdated rifle used by NVA DDR. Chambers 7.62x39 rounds."
+	desc = "A standard-issue NVA DDR rifle. Chambers 7.62x39 rounds."
 	icon_state = "mpikm"
 	item_state = "mpi"
 	w_class = 5
@@ -1030,7 +1033,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
 	name = "MPi-KMS"
-	desc = "That's an outdated rifle with a folding stock used by NVA DDR. Chambers 7.62x39 rounds."
+	desc = "A standard-issue NVA DDR rifle with a folding stock. Chambers 7.62x39 rounds."
 	icon_state = "mpikms"
 	item_state = "mpi"
 	w_class = 5
@@ -1072,7 +1075,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiakmk
 	name = "MPi-AKM-K"
-	desc = "That's an outdated carbine used by NVA DDR. Chambers 7.62x39 rounds."
+	desc = "A standard-issue NVA DDR carbine. Chambers 7.62x39 rounds."
 	icon_state = "mpiakmk"
 	item_state = "aks"
 	w_class = 5
@@ -1114,9 +1117,9 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl
 	name = "MPi-KM w/ GP-25"
-	desc = "That's an outdated rifle used by NVA DDR. There's a GP-25 attached to it. Chambers 7.62x39 rounds."
+	desc = "A standard-issue NVA DDR rifle. There's a GP-25 attached to it. Chambers 7.62x39 rounds."
 	icon_state = "mpikm"
-	item_state = "ak74gl"
+	item_state = "mpigl"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
@@ -1132,7 +1135,7 @@
 	jam_chance = 0.45
 	slowdown_general = 0.25
 
-	wielded_item_state = "mpi-wielded"
+	wielded_item_state = "mpigl-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
@@ -1151,10 +1154,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "mpikmgp"
-		wielded_item_state = "ak74gl-wielded"
+		wielded_item_state = "mpigl-wielded"
 	else
 		icon_state = "mpikmgp-empty"
-		wielded_item_state = "ak74gl-wielded-empty"
+		wielded_item_state = "mpigl-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/New()
 	..()
@@ -1569,3 +1572,44 @@
 	else
 		icon_state = "kp31-empty"
 		wielded_item_state = "sterling-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mp5
+	name = "MP5"
+	desc = "A submachine gun used by the Bundeswehr. Chambers 9x19 rounds."
+	icon_state = "mp5"
+	item_state = "mp5"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "9x19"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a9x19
+	allowed_magazines = /obj/item/ammo_magazine/a9x19s
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 5
+	accuracy = 1.4
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
+	bayonet_attachable = 0
+	jam_chance = 0.725
+	slowdown_general = 0.15
+	wielded_item_state = "mp5-wielded"
+	fire_sound = 'sound/weapons/gunshot/scorpion.ogg' /////////change all sounds
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=3,    move_delay=null, one_hand_penalty=2, burst_accuracy=null,              dispersion=list(0.0, 0.1, 0.2),                          automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=3, burst_accuracy=null,              dispersion=list(0.2, 0.3, 0.4),                     automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/mp5/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "mp5"
+		wielded_item_state = "mp5-wielded"
+	else
+		icon_state = "mp5-empty"
+		wielded_item_state = "mp5-wielded-empty"

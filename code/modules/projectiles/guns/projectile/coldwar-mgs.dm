@@ -12,7 +12,7 @@
 	ammo_type = /obj/item/ammo_casing/a762x54
 	load_method = MAGAZINE
 	magazine_type = null
-	allowed_magazines = /obj/item/ammo_magazine/c762x54b
+	allowed_magazines = /obj/item/ammo_magazine/c762x54b/csla
 	one_hand_penalty = 9
 	automatic = FALSE
 	jam_chance = 0.2
@@ -565,7 +565,7 @@
 	name = "Sa Vz.58 P"
 	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x39 rounds."
 	icon_state = "cslarpkrpk"
-	item_state = "cslarpkrpk"
+	item_state = "nvarpk"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = 5
 	force = 15
@@ -577,7 +577,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
 	accuracy = 2.9
-	wielded_item_state = "cslarpk-wielded"
+	wielded_item_state = "nvarpk-wielded"
 	slowdown_general = 0.45
 	jam_chance = 0.225
 
@@ -597,10 +597,10 @@
 	..()
 	if(ammo_magazine)
 		icon_state = "cslarpk"
-		wielded_item_state = "cslarpk-wielded"
+		wielded_item_state = "nvarpk-wielded"
 	else
 		icon_state = "cslarpk-empty"
-		wielded_item_state = "cslarpk-wielded-empty"
+		wielded_item_state = "nvarpk-wielded-empty"
 	update_held_icon()
 
 
