@@ -1710,6 +1710,12 @@ var/list/rank_prefix = list(\
 	"Korpraali" = "Korpraali",\
 	"Jakaari" = "Jakaari",\
 
+//csla
+	"Leutnant" = "Leutnant",\
+	"Subleutnant" = "Subleutnant",\
+	"Chetar" = "Chetar",\
+	"Subchetar" = "Subchetar",\
+	"Soldat" = "Soldat",\
 
 //british army
 	"Lieutenant" = "Lieutenant",\
