@@ -84,7 +84,7 @@
 	item_state = "mg3"
 	w_class = 5
 	force = 15
-	accuracy = 2.3
+	accuracy = 2.5
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 100
 	caliber = "762x51"
@@ -611,6 +611,7 @@
 	item_state = "rpd"
 	w_class = 5
 	force = 15
+	accuracy = 2.6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 100
 	caliber = "762x39"

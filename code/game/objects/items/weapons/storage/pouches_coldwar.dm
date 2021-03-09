@@ -1015,7 +1015,7 @@
 
 /obj/item/weapon/storage/belt/suit/sapper/usa
 	name = "sappers bag"
-	icon_state = "usa_sapper"
+	icon_state = "usmc_sapper"
 	item_state = "usmc_ammo"
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
