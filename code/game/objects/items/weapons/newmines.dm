@@ -99,7 +99,7 @@
 		qdel(src)
 
 
-/obj/item/weapon/mine/attack_self()
+/obj/item/weapon/mine/attack_self(mob/user)
 	if(active)
 		active = 0
 		anchored = 0
@@ -109,6 +109,8 @@
 		if (do_after(usr, 60))
 			active = 1
 			anchored = 1
+			message_admins("[key_name_admin(user)] planted a mine. ([src.name]).")
+			log_game("[key_name_admin(user)] planted a mine.")
 			usr << "You activated the [src]."
 		else
 			usr << "OH SHIT RUN!"
