@@ -990,6 +990,7 @@
 #include "code\game\objects\structures\electricchair.dm"
 #include "code\game\objects\structures\electricpole.dm"
 #include "code\game\objects\structures\extinguisher.dm"
+#include "code\game\objects\structures\fauxvehicles.dm"
 #include "code\game\objects\structures\fireaxe_cabinet.dm"
 #include "code\game\objects\structures\fitness.dm"
 #include "code\game\objects\structures\flags.dm"
