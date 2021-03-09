@@ -153,6 +153,11 @@
 	if(explosion_size)
 		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
 
+/obj/item/weapon/grenade/frag/satchelnato/attack_self(mob/user)
+	message_admins("[key_name_admin(user)] activated a satchel charge. ([src.name]).")
+	log_game("[key_name_admin(user)] activated a satchel charge.")
+	..()
+
 /obj/item/weapon/grenade/frag/satchelnato/New()
 	..()
 	slowdown_per_slot[slot_l_hand] = 1.5
@@ -173,6 +178,11 @@
 /obj/item/weapon/grenade/frag/satchelwp/on_explosion(var/turf/O)
 	if(explosion_size)
 		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
+
+/obj/item/weapon/grenade/frag/satchelwp/attack_self(mob/user)
+	message_admins("[key_name_admin(user)] activated a satchel charge. ([src.name]).")
+	log_game("[key_name_admin(user)] activated a satchel charge.")
+	..()
 
 /obj/item/weapon/grenade/frag/satchelwp/New()
 	..()

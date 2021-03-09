@@ -16,8 +16,8 @@
 	desc = "An uncommon armor vest with some pouches and titanium plates used by Soviet army."
 	icon_state = "6b3"
 	item_state = "armor"
-	armor = list(melee = 30, bullet = 48, laser = 0, energy = 25, bomb = 26, bio = 0, rad = 0)
-	slowdown_general = 0.40
+	armor = list(melee = 30, bullet = 32, laser = 0, energy = 25, bomb = 26, bio = 0, rad = 0)
+	slowdown_general = 0.26
 
 /obj/item/clothing/suit/storage/vest/soviet/a6b3/New()
 	..()
