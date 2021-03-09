@@ -848,7 +848,7 @@
 	slowdown_general = 0.27
 
 	wielded_item_state = "mpi-wielded"
-	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
+	fire_sound = 'sound/weapons/gunshot/vz58.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
@@ -888,7 +888,7 @@
 	slowdown_general = 0.15
 
 	wielded_item_state = "mpi-wielded"
-	fire_sound = 'sound/weapons/gunshot/akm.ogg'
+	fire_sound = 'sound/weapons/gunshot/vz58.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
@@ -931,7 +931,7 @@
 	slowdown_general = 0.27
 
 	wielded_item_state = "mpigl-wielded"
-	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
+	fire_sound = 'sound/weapons/gunshot/vz58.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'

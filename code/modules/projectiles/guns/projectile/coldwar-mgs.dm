@@ -564,7 +564,7 @@
 /obj/item/weapon/gun/projectile/automatic/cslarpk
 	name = "Sa Vz.58 P"
 	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x39 rounds."
-	icon_state = "cslarpkrpk"
+	icon_state = "cslarpk"
 	item_state = "nvarpk"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = 5
@@ -581,7 +581,7 @@
 	slowdown_general = 0.45
 	jam_chance = 0.225
 
-	fire_sound = 'sound/weapons/gunshot/akm.ogg'
+	fire_sound = 'sound/weapons/gunshot/sa58.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
