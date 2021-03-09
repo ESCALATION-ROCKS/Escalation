@@ -329,7 +329,7 @@
 	has_sensor = 0
 
 /obj/item/clothing/under/csla/vz60/sold
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/soldat, /obj/item/clothing/accessory/storage/uniform_pockets))
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/soldat, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/csla/vz60/subchetar
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/subchetar, /obj/item/clothing/accessory/storage/uniform_pockets)
