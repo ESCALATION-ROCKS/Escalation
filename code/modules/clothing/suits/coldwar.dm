@@ -83,10 +83,6 @@
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
-/obj/item/clothing/suit/storage/vest/flakvest/New()
-	..()
-	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 2)
-
 /obj/item/clothing/suit/armor/vest/coat/
 	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
