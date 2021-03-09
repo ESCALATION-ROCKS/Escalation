@@ -6,7 +6,7 @@
 	opacity = 0
 	plane = EFFECTS_BELOW_LIGHTING_PLANE
 	layer = ABOVE_PROJECTILE_LAYER
-	time_to_live = 300
+	time_to_live = 600
 	pass_flags = PASSTABLE | PASSGRILLE | PASSGLASS //PASS_FLAG_GLASS is fine here, it's just so the visual effect can "flow" around glass
 	var/splash_amount = 10 //atoms moving through a smoke cloud get splashed with up to 10 units of reagent
 	var/turf/destination

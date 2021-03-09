@@ -283,9 +283,9 @@
 /obj/item/projectile/bullet/rgprocket
 	name = "rpg shell"
 	icon_state = "rocket"
-	damage = 200
+	damage = 0
+	nodamage = 1
 	step_delay = 1
-//	impact_force = 1
 	penetrating = 0
 	kill_count = 40
 	fire_sound = null//here we gonna use sound in AGS and not in bullets
