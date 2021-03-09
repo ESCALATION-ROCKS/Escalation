@@ -179,6 +179,14 @@
 	icon_state = "factoryworker-apron"
 	slots = 2
 
+//universal unremovable pockets to add two storage slots to the uniform as an accessory
+//made unremovable by making an exception in remove_accessory() proc in clothing_accessories.dm
+/obj/item/clothing/accessory/storage/uniform_pockets
+	name = "pockets"
+	desc = null
+	icon_state = null
+	slots = 2
+
 /obj/item/clothing/accessory/storage/usmc_harness
 	name = "ALICE harness"
 	desc = "Can store some stuff."

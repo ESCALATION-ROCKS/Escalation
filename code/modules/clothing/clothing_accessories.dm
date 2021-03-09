@@ -81,6 +81,8 @@
 	var/obj/item/clothing/under/U = src
 	if(!(A in accessories))
 		return
+	if(A.name == "pockets") //exception for uniform pockets
+		return
 	var/obj/item/clothing/accessory/insignia/P
 	if(P in U.accessories)
 		U.insrank = null
