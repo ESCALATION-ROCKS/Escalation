@@ -114,6 +114,6 @@
 	icon = 'icons/obj/darts.dmi'
 	icon_state = "dart"
 	force = 4
-	throwforce = 15
+	throwforce = 5
 	w_class = 2
 

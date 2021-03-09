@@ -5,7 +5,7 @@
 	item_state = "vz59"
 	w_class = 5
 	force = 15
-	accuracy = 2.3
+	accuracy = 2.6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 200
 	caliber = "762x54"
@@ -316,10 +316,10 @@
 	name = "PKM"
 	desc = "A standard-issue Soviet Army general purpose machine gun. Chambers 7.62x54 rounds."
 	icon_state = "pkm"
-	item_state = "vz59"
+	item_state = "pkm"
 	w_class = 5
 	force = 15
-	accuracy = 2.3
+	accuracy = 2.6
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	max_shells = 200
 	caliber = "762x54"
@@ -332,7 +332,7 @@
 	jam_chance = 0.2
 	slowdown_general = 0.8
 
-	wielded_item_state = "vz59-wielded"
+	wielded_item_state = "pkm-wielded"
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
