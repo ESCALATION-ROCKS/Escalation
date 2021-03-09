@@ -156,9 +156,9 @@ var/global/datum/controller/gameticker/ticker
 		mode.post_setup()
 		to_world("<FONT color='blue'><B>Enjoy the game!</B></FONT>")
 		sound_to(world, sound(GLOB.using_map.welcome_sound))
-		if (!config.ooc_allowed)
+		/*if (!config.ooc_allowed)
 			config.ooc_allowed = !(config.ooc_allowed)
-			to_world("<B>The OOC channel has been globally disabled!</B>")
+			to_world("<B>The OOC channel has been globally disabled!</B>")*/
 		//Holiday Round-start stuff	~Carn
 		Holiday_Game_Start()
 
@@ -394,9 +394,9 @@ var/global/datum/controller/gameticker/ticker
 			spawn(50)
 				if(!round_end_announced) // Spam Prevention. Now it should announce only once.
 					to_world("<span class='danger'>The round has ended!</span>")
-					if (config.ooc_allowed)
+					/*if (config.ooc_allowed)
 						to_world("<B>The OOC channel has been globally enabled!</B>")
-						config.ooc_allowed = !(config.ooc_allowed)
+						config.ooc_allowed = !(config.ooc_allowed)*/
 					round_end_announced = 1
 
 		return 1

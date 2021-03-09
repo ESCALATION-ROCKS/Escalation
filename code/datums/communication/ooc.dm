@@ -18,7 +18,11 @@
 			return FALSE
 		if(findtext(message, "byond://"))
 			to_chat(C, "<B>Advertising other servers is not allowed.</B>")
-			log_and_message_admins("has attempted to advertise in [name]: [message]")
+			log_and_message_admins("has attempted to advertise a BYOND server in [name]: [message]")
+			return FALSE
+		if(findtext(message, "discord.gg/"))
+			to_chat(C, "<B>Advertising other discord servers is not allowed.</B>")
+			log_and_message_admins("has attempted to advertise a discord channel in [name]: [message]")
 			return FALSE
 
 /decl/communication_channel/ooc/do_communicate(var/client/C, var/message)
