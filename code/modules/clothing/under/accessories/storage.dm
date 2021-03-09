@@ -187,6 +187,31 @@
 	icon_state = null
 	slots = 2
 
+/obj/item/clothing/accessory/storage/uniform_pockets/New()
+	..()
+	hold.can_hold = list(
+		/obj/item/ammo_magazine/a9x19,
+		/obj/item/ammo_magazine/a9x19b,
+		/obj/item/ammo_magazine/a9x18,
+		/obj/item/ammo_magazine/cz9x18,
+		/obj/item/ammo_magazine/a45,
+		/obj/item/weapon/storage/fancy/cigarettes,
+		/obj/item/weapon/flame/lighter/,
+		/obj/item/weapon/storage/box/matches,
+		/obj/item/clothing/head/headband,
+		/obj/item/clothing/head/garcap,
+		/obj/item/clothing/head/fieldcap,
+		/obj/item/clothing/head/usmc/boonie,
+		/obj/item/clothing/head/ushanka,
+		/obj/item/clothing/head/beret,
+		/obj/item/weapon/deck/cards,
+		/obj/item/weapon/haircomb,
+		/obj/item/weapon/storage/pill_bottle/dice,
+		/obj/item/clothing/glasses,
+		/obj/item/clothing/gloves,
+		/obj/item/clothing/mask/balaclava
+	)
+
 /obj/item/clothing/accessory/storage/usmc_harness
 	name = "ALICE harness"
 	desc = "Can store some stuff."
