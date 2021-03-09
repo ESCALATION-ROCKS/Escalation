@@ -413,18 +413,21 @@
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h23
 	icon_state = "2,3"
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h04
 	icon_state = "0,4"
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h14
 	icon_state = "1,4"
@@ -443,12 +446,14 @@
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h05
 	icon_state = "0,5"
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h15
 	icon_state = "1,5"
@@ -467,6 +472,7 @@
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h06
 	icon_state = "0,6"
@@ -521,24 +527,28 @@
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h18
 	icon_state = "1,8"
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h28
 	icon_state = "2,8"
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h38
 	icon_state = "3,8"
 	anchored = 1
 	density = 1
 	layer = 1
+	opacity = 1
 
 /obj/structure/sign/vehicle/helicopter/h09
 	icon_state = "0,9"
