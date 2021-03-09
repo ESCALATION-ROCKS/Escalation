@@ -89,3 +89,47 @@
 			return
 	else
 		return
+
+
+//deployable barbwire
+/obj/item/stack/barbwire_coil //taken from /obj/item/stack/metalcoil
+	name = "barbwire coil"
+	desc = "Barbwire coil used for setting up barbwire."
+	singular_name = "coil"
+	icon = 'icons/obj/craftlootable.dmi'
+	icon_state = "coil"
+	flags = CONDUCT
+	w_class = ITEM_SIZE_LARGE
+	force = 2.0
+	throwforce = 15.0
+	throw_speed = 5
+	throw_range = 20
+	matter = list(DEFAULT_WALL_MATERIAL = 1875)
+	amount = 10 //starting amount, I put it at 10 since its a starting item
+	max_amount = 10
+	center_of_mass = null
+	attack_verb = list("hit", "bludgeoned", "whacked")
+
+//checking to see there are no barbwire on the turf, prevents stacking barbwire
+/obj/item/stack/barbwire_coil/proc/check4barbwire(mob/user as mob)
+	if(locate(/obj/structure/barbwire) in user.loc.contents)
+		to_chat(user, "<span class='warning'>There is already some barbwire there.</span>")
+		return 1
+	return 0
+
+/obj/item/stack/barbwire_coil/attack_self(mob/user as mob)
+	if(check4barbwire(user)) //delete this and replace with the comment below to disable barbedwire being placed on top
+//	if((check4barbwire(user) || check4sandbags(user) || check4struct(user))// 0 || 0 || 0
+		return
+
+	if(!isturf(user.loc)) //from sandbags
+		to_chat(user, "<span class='warning'>Haha, not funny.</span>")
+		return
+
+	if(do_after(user, 30, src))
+		to_chat(user, "<span class='notice'>You finish setting up the barbwire!</span>")
+		use(1)
+		if(!src) return
+
+	var/obj/structure/barbwire/deployed = new(user.loc)//new (user.loc)
+	deployed.set_dir(user.dir)
