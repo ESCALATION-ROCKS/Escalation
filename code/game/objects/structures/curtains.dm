@@ -78,14 +78,16 @@
 /obj/structure/curtain/visyulki
 	name = "curtain"
 	icon_state = "visyolkyclosed"
-	alpha = 150
-
-/obj/structure/curtain/visyulki/open
-	icon_state = "visyolkyopen"
+	color = null
 	plane = ABOVE_HUMAN_PLANE
-	layer = ABOVE_HUMAN_LAYER
-	opacity = 0
-	alpha = 150
+	layer = ABOVE_WINDOW_LAYER
+
+/obj/structure/curtain/visyulki/toggle()
+	set_opacity(!opacity)
+	if(opacity)
+		icon_state = "visyolkyclosed"
+	else
+		icon_state = "visyolkyopen"
 
 #undef SHOWER_OPEN_LAYER
 #undef SHOWER_CLOSED_LAYER
