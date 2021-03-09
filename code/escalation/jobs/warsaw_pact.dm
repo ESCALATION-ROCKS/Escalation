@@ -150,8 +150,8 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/sasapper
-	title = "SA Ingenieur"
-	name = "Ingenieur"
+	title = "SA Saper"
+	name = "Saper"
 	english_name = "Sapper"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1447,8 +1447,8 @@
 		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
 
 /datum/job/escalation/csla/cslaqm
-	title = "CSLA Chetar"
-	name = "Chetar"
+	title = "CSLA Quartermaster"
+	name = "Quartermaster"
 	english_name = "Quartermaster"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1467,8 +1467,8 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/csla/cslaplatmg
-	title = "CSLA Rota Delostrelec"
-	name = "Rota Delostrelec"
+	title = "CSLA Druzhstvo Delostrelec"
+	name = "Druzhstvo Delostrelec"
 	english_name = "Platoon Machinegunner"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1487,8 +1487,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/csla/cslaplatmgas
-	title = "CSLA Pomocnik Rota Delostrelec"
-	name = "Pomocnik Rota Delostrelec"
+	title = "CSLA Pomocnik Druzhstvo Delostrelec"
+	name = "Pomocnik Druzhstvo Delostrelec"
 	english_name = "Platoon Machinegunner Assistant"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1507,8 +1507,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/csla/cslahqrad
-	title = "CSLA Rota Radista"
-	name = "Rota Radista"
+	title = "CSLA Druzhstvo Radista"
+	name = "Druzhstvo Radista"
 	english_name = "HQ Radio Operator"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1526,7 +1526,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 2, 0)
 
-/datum/job/escalation/nvaddr/cslasapper
+/datum/job/escalation/csla/cslasapper
 	title = "CSLA Zenista"
 	name = "Zenista"
 	english_name = "Sapper"
@@ -1606,8 +1606,8 @@
 		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/csla/cslasl
-	title = "CSLA Subchetar"
-	name = "Subchetar"
+	title = "CSLA Chetar"
+	name = "Chetar"
 	english_name = "Squad Leader"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1627,8 +1627,8 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/csla/cslasld
-	title = "CSLA Pomocnik Subchetar"
-	name = "Pomocnik Subchetar"
+	title = "CSLA Subchetar"
+	name = "Subchetar"
 	english_name = "Squad Leader Deputy"
 	minimal_player_age = 21
 	economic_modifier = 5
