@@ -1,6 +1,6 @@
 /obj/item/weapon/gun/projectile/automatic/vz59
 	name = "Vz. 59"
-	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x54 rounds."
+	desc = "A standard-issue CSLA general purpose machine gun. Chambers 7.62x54 rounds."
 	icon_state = "vz59"
 	item_state = "vz59"
 	w_class = 5
@@ -29,6 +29,7 @@
 		list(mode_name="semiauto",     burst=1, fire_delay=6,    move_delay=null, one_hand_penalty=8, burst_accuracy=null,              dispersion=list(0.15),                          automatic = 0),
 		list(mode_name="automatic",     burst=1, fire_delay=0.3, move_delay=3,       one_hand_penalty = 10, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.55),                  automatic = 0.2)
 		)
+
 	var/cover_opened = FALSE
 
 
@@ -75,7 +76,7 @@
 	else
 		icon_state = "vz59[cover_opened ? "open" : "closed"]-empty"
 	update_held_icon()
-
+	..()
 
 /obj/item/weapon/gun/projectile/automatic/mg3
 	name = "MG3"
