@@ -5,10 +5,10 @@
 	icon = 'icons/obj/radio.dmi'
 	icon_state = "defibunit"
 	item_state = "defibunit"
-	slot_flags = SLOT_BACK
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	w_class = ITEM_SIZE_LARGE
 	action_button_name = "Remove/Replace Headset"
-	
+
 
 	var/obj/item/device/radio/escalation/radio
 
@@ -181,7 +181,7 @@ var/global/list/army_channels_ph = list(
 	radio = /obj/item/device/radio/escalation/linked/nato
 	icon_state = "prc77"
 	item_state = "prc77"
-	
+
 
 /obj/item/weapon/radioset/r105d
 	name = "R-105D"
@@ -189,4 +189,4 @@ var/global/list/army_channels_ph = list(
 	radio = /obj/item/device/radio/escalation/linked/warpac
 	icon_state = "r105d"
 	item_state = "r105d"
-	
+
