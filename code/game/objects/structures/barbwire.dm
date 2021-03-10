@@ -3,6 +3,7 @@
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "barbwire"
 	anchored = 1
+	layer = 5
 
 /obj/structure/barbwire/ex_act(severity)
 	switch (severity)
@@ -95,15 +96,16 @@
 /obj/item/stack/barbwire_coil //taken from /obj/item/stack/metalcoil
 	name = "barbwire coil"
 	desc = "Barbwire coil used for setting up barbwire."
-	singular_name = "coil"
+	singular_name = "barbwire coil"
 	icon = 'icons/obj/craftlootable.dmi'
-	icon_state = "coil"
+	icon_state = "barbwire"
+	item_state = "rods"
 	flags = CONDUCT
 	w_class = ITEM_SIZE_LARGE
 	force = 2.0
-	throwforce = 15.0
+	throwforce = 5
 	throw_speed = 5
-	throw_range = 20
+	throw_range = 5
 	matter = list(DEFAULT_WALL_MATERIAL = 1875)
 	amount = 10 //starting amount, I put it at 10 since its a starting item
 	max_amount = 10
