@@ -33,11 +33,11 @@
 				var/obj/item/organ/external/affecting = H.get_organ(pick("l_foot", "r_foot", "l_leg", "r_leg"))
 				if(affecting.status & ORGAN_ROBOT)
 					return
-				if(affecting.take_damage(5, 0))
+				if(affecting.take_damage(10, 0))
 					H.UpdateDamageIcon()
 				H.updatehealth()
 				if(!(H.species && (H.species.flags)))
-					H.Weaken(2)
+					H.Weaken(4)
 				to_chat(M, "\red <B>Your [affecting.name] gets slightly cut by \the [src]!</B>")
 				return ..()
 			if (prob (33))
@@ -45,11 +45,11 @@
 				var/obj/item/organ/external/affecting = H.get_organ(pick("l_foot", "r_foot", "l_leg", "r_leg"))
 				if(affecting.status & ORGAN_ROBOT)
 					return
-				if(affecting.take_damage(10, 0))
+				if(affecting.take_damage(20, 0))
 					H.UpdateDamageIcon()
 				H.updatehealth()
 				if(!(H.species && (H.species.flags)))
-					H.Weaken(4)
+					H.Weaken(6)
 				to_chat(M, "\red <B>Your [affecting.name] gets cut by \the [src]!</B>")
 				return ..()
 			if (prob (33))
@@ -57,11 +57,11 @@
 				var/obj/item/organ/external/affecting = H.get_organ(pick("l_foot", "r_foot", "l_leg", "r_leg"))
 				if(affecting.status & ORGAN_ROBOT)
 					return
-				if(affecting.take_damage(15, 0))
+				if(affecting.take_damage(30, 0))
 					H.UpdateDamageIcon()
 				H.updatehealth()
 				if(!(H.species && (H.species.flags)))
-					H.Weaken(5)
+					H.Weaken(10)
 				to_chat(M, "\red <B>Your [affecting.name] gets deeply cut by \the [src]!</B>")
 				return ..()
 	..()
@@ -77,7 +77,7 @@
 			playsound(src.loc, 'sound/items/Wirecutter.ogg', 50, 1)
 			qdel(src)
 			return
-	if(istype(W, /obj/item/weapon/material/knife/bayonet/))
+	/*if(istype(W, /obj/item/weapon/material/knife/bayonet/))
 		if(anchored)
 			user.visible_message("\blue \The [user] starts to cut through \the [src] with [W].")
 			if(!do_after(user,120))
@@ -86,7 +86,7 @@
 			user.visible_message("\blue \The [user] finishes cutting through \the [src]!")
 			playsound(src.loc, 'sound/items/Wirecutter.ogg', 50, 1)
 			qdel(src)
-			return
+			return*/
 	else
 		return
 
