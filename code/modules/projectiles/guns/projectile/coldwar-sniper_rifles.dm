@@ -126,7 +126,7 @@
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=8.5,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
 		)
-		
+
 /obj/item/weapon/gun/projectile/automatic/rifle/g3sg1/update_icon()
 	..()
 	if(ammo_magazine)
@@ -298,7 +298,43 @@
 
 //bayonet for boltactions
 
-/obj/item/weapon/gun/projectile/rifle/boltaction/attack_self(mob/user as mob)
+/////////////////////////////////////////
+//bolt-action operation mechanics below//
+/////////////////////////////////////////
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/consume_next_projectile() //necessary to chamber properly
+	if(chambered)
+		return chambered.BB
+	return null
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/attack_self(mob/living/user as mob) //the bolt action operation itself
+	bolt_open = !bolt_open
+	if(do_after(user, 6.5, src))
+		if(bolt_open)
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
+
+			if(chambered)//We have a shell in the chamber
+				chambered.forceMove(get_turf(src))//Eject casing
+				if(LAZYLEN(chambered.casing_sound))
+					playsound(loc, chambered.casing_sound, 50, 1)
+				chambered = null
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
+			else
+				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
+		else
+			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
+			bolt_open = 0
+			if(loaded.len)
+				var/obj/item/ammo_casing/AC = loaded[1] //load next casing.
+				loaded -= AC //Remove casing from loaded list.
+				chambered = AC
+
+		add_fingerprint(user)
+		update_icon()
+
+//old code commented out, delete if you want
+/*/obj/item/weapon/gun/projectile/rifle/boltaction/attack_self(mob/user as mob)
 	bolt_open = !bolt_open
 	if(do_after(user, 6.5, src))
 		if(bolt_open)
@@ -315,7 +351,7 @@
 			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
 			bolt_open = 0
 		add_fingerprint(user)
-		update_icon()
+		update_icon()*/
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/special_check(mob/user)
 	if(bolt_open)
@@ -376,7 +412,38 @@
 
 	src.toggle_scope(usr, 3)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/l96/attack_self(mob/user as mob)
+/obj/item/weapon/gun/projectile/automatic/rifle/l96/consume_next_projectile()
+	if(chambered)
+		return chambered.BB
+	return null
+
+/obj/item/weapon/gun/projectile/automatic/rifle/l96/attack_self(mob/living/user as mob)
+	bolt_open = !bolt_open
+	if(do_after(user, 6.5, src))
+		if(bolt_open)
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
+
+			if(chambered) //We have a shell in the chamber
+				chambered.forceMove(get_turf(src)) //Eject casing
+				if(LAZYLEN(chambered.casing_sound))
+					playsound(loc, chambered.casing_sound, 50, 1)
+				chambered = null
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
+			else
+				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
+		else
+			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
+			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
+			bolt_open = 0
+			if(!chambered)
+				chambered = ammo_magazine.stored_ammo[1]
+				ammo_magazine.stored_ammo -= chambered
+
+		add_fingerprint(user)
+		update_icon()
+
+//commented out old code for l96, keep or delete if you want
+/*/obj/item/weapon/gun/projectile/automatic/rifle/l96/attack_self(mob/user as mob)
 	bolt_open = !bolt_open
 	if(do_after(user, 6.5, src))
 		if(bolt_open)
@@ -396,7 +463,7 @@
 				chambered = ammo_magazine.stored_ammo[1]
 				ammo_magazine.stored_ammo -= chambered
 		add_fingerprint(user)
-		update_icon()
+		update_icon()*/
 
 /obj/item/weapon/gun/projectile/automatic/rifle/l96/special_check(mob/user)
 	if(bolt_open)
@@ -429,22 +496,34 @@
 	slowdown_general = 0.35
 	bayonet_attachable = 0
 
-/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/attack_self(mob/user as mob)
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/consume_next_projectile()
+	if(chambered)
+		return chambered.BB
+	return null
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/tkiv/attack_self(mob/living/user as mob)
 	bolt_open = !bolt_open
 	if(do_after(user, 6.5, src))
 		if(bolt_open)
 			playsound(src.loc, 'sound/weapons/gunporn/tkiv_boltback.ogg', 50, 1)
-			if(chambered)
-				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
-				chambered.loc = get_turf(src)
-				loaded -= chambered
+
+			if(chambered)//We have a shell in the chamber
+				chambered.forceMove(get_turf(src))//Eject casing
+				if(LAZYLEN(chambered.casing_sound))
+					playsound(loc, chambered.casing_sound, 50, 1)
 				chambered = null
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
 			else
 				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
 		else
 			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
 			playsound(src.loc, 'sound/weapons/gunporn/tkiv_boltforward.ogg', 50, 1)
 			bolt_open = 0
+			if(loaded.len)
+				var/obj/item/ammo_casing/AC = loaded[1] //load next casing.
+				loaded -= AC //Remove casing from loaded list.
+				chambered = AC
+
 		add_fingerprint(user)
 		update_icon()
 
@@ -534,16 +613,23 @@
 
 	src.toggle_scope(usr, 3)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/ssg82/attack_self(mob/user as mob)
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg82/consume_next_projectile()
+	if(chambered)
+		return chambered.BB
+	return null
+
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg82/attack_self(mob/living/user as mob)
 	bolt_open = !bolt_open
 	if(do_after(user, 6.5, src))
 		if(bolt_open)
 			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
-			if(chambered)
-				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
-				chambered.loc = get_turf(src)
-				loaded -= chambered
+
+			if(chambered)//We have a shell in the chamber
+				chambered.forceMove(get_turf(src))//Eject casing
+				if(LAZYLEN(chambered.casing_sound))
+					playsound(loc, chambered.casing_sound, 50, 1)
 				chambered = null
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
 			else
 				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
 		else
@@ -553,6 +639,7 @@
 			if(!chambered)
 				chambered = ammo_magazine.stored_ammo[1]
 				ammo_magazine.stored_ammo -= chambered
+
 		add_fingerprint(user)
 		update_icon()
 
@@ -587,22 +674,34 @@
 	slowdown_general = 0.35
 	bayonet_attachable = 0
 
-/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/attack_self(mob/user as mob)
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/consume_next_projectile()
+	if(chambered)
+		return chambered.BB
+	return null
+
+/obj/item/weapon/gun/projectile/rifle/boltaction/m40a1/attack_self(mob/living/user as mob)
 	bolt_open = !bolt_open
 	if(do_after(user, 6.5, src))
 		if(bolt_open)
 			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
-			if(chambered)
-				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
-				chambered.loc = get_turf(src)
-				loaded -= chambered
+
+			if(chambered)//We have a shell in the chamber
+				chambered.forceMove(get_turf(src))//Eject casing
+				if(LAZYLEN(chambered.casing_sound))
+					playsound(loc, chambered.casing_sound, 50, 1)
 				chambered = null
+				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
 			else
 				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
 		else
 			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
 			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
 			bolt_open = 0
+			if(loaded.len)
+				var/obj/item/ammo_casing/AC = loaded[1] //load next casing.
+				loaded -= AC //Remove casing from loaded list.
+				chambered = AC
+
 		add_fingerprint(user)
 		update_icon()
 
