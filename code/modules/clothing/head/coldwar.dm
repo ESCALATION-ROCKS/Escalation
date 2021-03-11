@@ -427,33 +427,31 @@
 	icon_state = "bdwberret"
 
 //heer helmets
-/obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder
-	name = "helmet"
-	desc = "A cheap and somewhat outdated steel helmet used by Bundesheer."
-	icon_state = "helmet"
+/obj/item/clothing/head/helmet/coldwar/heer/m1
+	name = "M1 helmet"
+	desc = "An outdated steel helmet used by Bundesheer. This one has a cover on it."
+	icon_state = "m1cover"
 	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
-	icon_state_unzipped = "helmet-unzipped"
+	icon_state_unzipped = "m1cover-unzipped"
 
-/obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
-	desc = "A cheap and somewhat outdated steel helmet used by Bundesheer. This one has a netting on it."
-	icon_state = "netting"
-	icon_state_unzipped = "netting-unzipped"
-	
-/obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/foliage
-	desc = "A cheap and somewhat outdated steel helmet used by Bundesheer. This one is covered in foliage."
-	icon_state = "foliage"
-	icon_state_unzipped = "foliage-unzipped"
+/obj/item/clothing/head/helmet/coldwar/heer/m1/netting
+	desc = "An outdated steel helmet used by Bundesheer. This one has a netting on it."
+	icon_state = "m1netting"
+	icon_state_unzipped = "m1netting-unzipped"
 
-/obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/medic
-	desc = "A cheap and somewhat outdated steel helmet used by Bundesheer. This one has a red cross on it."
-	icon_state = "medic"
-	icon_state_unzipped = "medic-unzipped"
+/obj/item/clothing/head/helmet/coldwar/heer/m1/medic
+	desc = "An outdated steel helmet used by Bundesheer. This one has a red cross on it."
+	icon_state = "m1medic"
+	icon_state_unzipped = "m1medic-unzipped"
 
-
-
-
-
+/obj/item/clothing/head/helmet/coldwar/heer/pasgt
+	name = "PASGT M81 helmet"
+	desc = "An experimental tactical kevlar helmet used by the Bundesheer."
+	icon_state = "pasgt-heer"
+	armor = list(melee = 48, bullet = 34, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "pasgt-heer-unzipped"
 
 
 //UK Hats

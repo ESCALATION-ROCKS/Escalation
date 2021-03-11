@@ -2128,7 +2128,7 @@
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1
 
 /decl/hierarchy/outfit/escalation/nato/heer/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Machine Gunner")
@@ -2140,7 +2140,7 @@
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/netting
 
 /decl/hierarchy/outfit/escalation/nato/heer/radioman
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Radio Operator")
@@ -2154,7 +2154,7 @@
 	head = /obj/item/clothing/head/garcap/bundesheer
 	back = /obj/item/weapon/radioset/prc77
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1
 
 
 /decl/hierarchy/outfit/escalation/nato/heer/sapper
@@ -2169,7 +2169,7 @@
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1
 
 /decl/hierarchy/outfit/escalation/nato/heer/grenadier
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Grenadier")
@@ -2182,7 +2182,7 @@
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/netting
 
 /decl/hierarchy/outfit/escalation/nato/heer/mgunnera
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Machine Gunner Assistant")
@@ -2195,7 +2195,7 @@
 	back = /obj/item/weapon/storage/backpack/alice/medium
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1
 
 /decl/hierarchy/outfit/escalation/nato/heer/sqleader
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Squad Leader")
@@ -2210,7 +2210,7 @@
 	head = /obj/item/clothing/head/beret/bundesheer
 	l_pocket = /obj/item/weapon/key/natonco
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/foliage
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/pasgt
 
 /decl/hierarchy/outfit/escalation/nato/heer/sqleaderdep
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Squad Leader Deputy")
@@ -2223,7 +2223,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/netting
 
 /decl/hierarchy/outfit/escalation/nato/heer/corpsman
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Corpsman")
@@ -2237,7 +2237,7 @@
 	head = /obj/item/clothing/head/garcap/bundesheer
 	l_pocket = /obj/item/weapon/key/natomed
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/medic
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/medic
 
 /decl/hierarchy/outfit/escalation/nato/heer/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Field Surgerist")
@@ -2248,7 +2248,7 @@
 	head = /obj/item/clothing/head/usmc/cap/bundesheer
 	l_pocket = /obj/item/weapon/masterkey/natosurgeon
 	belt = /obj/item/weapon/storage/belt/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/medic
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/medic
 
 /decl/hierarchy/outfit/escalation/nato/heer/platlead
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Platoon Leader")
@@ -2263,7 +2263,7 @@
 	head = /obj/item/clothing/head/beret/bundesheer
 	l_pocket = /obj/item/weapon/masterkey/natopl
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/foliage
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/pasgt
 
 /decl/hierarchy/outfit/escalation/nato/heer/platleaddep
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Platoon Leader Deputy")
@@ -2278,7 +2278,7 @@
 	head = /obj/item/clothing/head/garcap/bundesheer
 	l_pocket = /obj/item/weapon/masterkey/natopl
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/netting
 
 /decl/hierarchy/outfit/escalation/nato/heer/ratelo
 	name = OUTFIT_JOB_NAME("Coldwar - BDH RATELO")
@@ -2292,7 +2292,7 @@
 	back = /obj/item/weapon/radioset/prc77
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/
 
 /decl/hierarchy/outfit/escalation/nato/heer/messenger
 	name = OUTFIT_JOB_NAME("Coldwar - BDH HQ Messenger")
@@ -2305,7 +2305,7 @@
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/
 
 /decl/hierarchy/outfit/escalation/nato/heer/marksman
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Designated Marksman")
@@ -2318,7 +2318,7 @@
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/foliage
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/pasgt
 
 /decl/hierarchy/outfit/escalation/nato/heer/quartermaster
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Quartermaster")
@@ -2331,7 +2331,7 @@
 	head = /obj/item/clothing/head/usmc/cap/bundeswehr
 	l_pocket = /obj/item/weapon/key/natonco
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/netting
 
 /decl/hierarchy/outfit/escalation/nato/heer/atlead
 	name = OUTFIT_JOB_NAME("Coldwar - BDH AT Group Leader")
@@ -2345,7 +2345,7 @@
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/auga1
 	belt = /obj/item/weapon/storage/belt/harness/heer
 	l_ear = /obj/item/device/binoculars/nato
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/foliage
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/pasgt
 
 
 /decl/hierarchy/outfit/escalation/nato/heer/atgunner
@@ -2361,7 +2361,7 @@
 	head = /obj/item/clothing/head/garcap/bundesheer
 	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/auga1
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/netting
 
 
 /decl/hierarchy/outfit/escalation/nato/heer/atassist
@@ -2375,7 +2375,7 @@
 	back = /obj/item/weapon/storage/backpack/rpgbritassistant
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1
 
 /decl/hierarchy/outfit/escalation/nato/heer/hwscom
 	name = OUTFIT_JOB_NAME("Coldwar - BDH HWS Leader")
@@ -2390,7 +2390,7 @@
 	head = /obj/item/clothing/head/beret/bundesheer
 	l_pocket = /obj/item/weapon/key/natonco
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/foliage
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/pasgt
 
 
 /decl/hierarchy/outfit/escalation/nato/heer/hwsop
@@ -2405,7 +2405,7 @@
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundeswehr
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/netting
 
 /decl/hierarchy/outfit/escalation/nato/heer/hwsload
 	name = OUTFIT_JOB_NAME("Coldwar - BDH HWS Loader")
@@ -2419,7 +2419,7 @@
 	back = /obj/item/weapon/storage/backpack/alice/medium
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder
+	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1
 
 //BDW --------- SUMMER MAPS
 /decl/hierarchy/outfit/escalation/nato/bund/
