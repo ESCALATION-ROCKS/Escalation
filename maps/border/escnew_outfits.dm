@@ -240,7 +240,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Doctor")
 	uniform = /obj/item/clothing/under/soviet/habe/mllt
 	shoes = /obj/item/clothing/shoes/soviet/field
-	back_2 = /obj/item/weapon/storage/backpack/summedsan
+	back_2 = /obj/item/weapon/storage/backpack/wp_surg
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	head = /obj/item/clothing/head/soviet/officer
@@ -1664,7 +1664,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - USMC Field Surgerist")
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/scndlt
 	shoes = /obj/item/clothing/shoes/usmc/field
-	back = /obj/item/weapon/storage/backpack/usmcm3
+	back = /obj/item/weapon/storage/backpack/usmcm3/surgeon
 	left_pouch = null
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	l_pocket = /obj/item/weapon/masterkey/natosurgeon
@@ -1718,9 +1718,9 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
 	back = /obj/item/weapon/radioset/prc77
-	head = /obj/item/clothing/head/usmc/boonie/woodland
+	head = /obj/item/clothing/head/usmc/cap/woodland
 	belt = /obj/item/weapon/storage/belt/harness/usmc
-	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/winter
+	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt
 
 
 /decl/hierarchy/outfit/job/coldwar/usmc/messenger

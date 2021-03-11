@@ -303,7 +303,7 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/usmc/usmcfto
-	title = "USMC Rifleman"
+	title = "USMC Fireteam Rifleman"
 	name = "Fireteam Rifleman"
 	english_name = null
 	minimal_player_age = 21

@@ -1768,8 +1768,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/csla/cslahwscom
-	title = "CSLA Tezke Zbrane Subchetar"
-	name = "Tezke Zbrane Subchetar"
+	title = "CSLA Tezke Zbrane Chetar"
+	name = "Tezke Zbrane Chetar"
 	english_name = "Heavy Weapons Group Commander"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1787,8 +1787,8 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/csla/cslahwsload
-	title = "CSLA Tezke Zbrane Subchetar Nakladac"
-	name = "Tezke Zbrane Subchetar Nakladac"
+	title = "CSLA Tezke Zbrane Cheta Nakladac"
+	name = "Tezke Zbrane Cheta Nakladac"
 	english_name = "Heavy Weapons Group Loader"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1806,8 +1806,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/csla/cslahwsop
-	title = "CSLA Tezke Zbrane Subchetar Strelec"
-	name = "Tezke Zbrane Subchetar Strelec"
+	title = "CSLA Tezke Zbrane Cheta Strelec"
+	name = "Tezke Zbrane Cheta Strelec"
 	english_name = "Heavy Weapons Group Gunner"
 	minimal_player_age = 21
 	economic_modifier = 5
