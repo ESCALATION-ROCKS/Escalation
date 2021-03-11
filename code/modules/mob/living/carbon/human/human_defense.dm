@@ -397,6 +397,8 @@ meteor_act
 		if(in_throw_mode && !get_active_hand() && speed <= THROWFORCE_SPEED_DIVISOR)	//empty active hand and we're in throw mode
 			if(canmove && !restrained())
 				if(isturf(O.loc))
+					if((O.icon_state == "M406_active") || (O.icon_state == "M406s_active") || (O.icon_state == "40x103mmshell_active")  || (O.icon_state == "40x103mmshells_active")) //exception to not catch ugl nades
+						return
 					put_in_active_hand(O)
 					visible_message("<span class='warning'>[src] catches [O]!</span>")
 					throw_mode_off()
