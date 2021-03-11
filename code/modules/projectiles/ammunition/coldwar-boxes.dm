@@ -319,13 +319,12 @@
 	w_class = 1
 	matter = list(DEFAULT_WALL_MATERIAL = 1200)
 	caliber = "9x19"
-	max_ammo = 8
+	max_ammo = 18
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/a9x19g/ap
 	name = "glock AP magazine (9x19mm)"
 	desc = "A Glock magazine that fits eight armor-piercing 9x19mm rounds."
-	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a9x19/ap
 
 /obj/item/ammo_magazine/a9x19g/tr
