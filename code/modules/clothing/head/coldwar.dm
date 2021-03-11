@@ -406,6 +406,56 @@
 
 
 
+
+
+//BDHeer hats
+
+/obj/item/clothing/head/usmc/cap/bundesheer
+	name = "Bundeswehr cap"
+	desc = "That's a generic field cap in a 'Steingrau-olive' pattern."
+	icon_state = "heer_cap"
+
+/obj/item/clothing/head/garcap/bundesheer
+	name = "garrison cap"
+	desc = "That's a garrison cap used by Bundesheer."
+	icon_state = "heergarrisoncap"
+	icon_state_alt = "heergarrisoncap_alt"
+
+/obj/item/clothing/head/beret/bundesheer
+	name = "mountaineer beret"
+	desc = "A black beret common amongst Bundesheer mountaineer divisions."
+	icon_state = "heerberret"
+
+//heer helmets
+/obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder
+	name = "helmet"
+	desc = "A cheap and somewhat outdated steel helmet used by Bundesheer."
+	icon_state = "helmet"
+	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "helmet-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/netting
+	desc = "A cheap and somewhat outdated steel helmet used by Bundesheer. This one has a netting on it."
+	icon_state = "netting"
+	icon_state_unzipped = "netting-unzipped"
+	
+/obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/foliage
+	desc = "A cheap and somewhat outdated steel helmet used by Bundesheer. This one is covered in foliage."
+	icon_state = "foliage"
+	icon_state_unzipped = "foliage-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/heer/helmetplaceholder/medic
+	desc = "A cheap and somewhat outdated steel helmet used by Bundesheer. This one has a red cross on it."
+	icon_state = "medic"
+	icon_state_unzipped = "medic-unzipped"
+
+
+
+
+
+
+
 //UK Hats
 
 /obj/item/clothing/head/beret/baf

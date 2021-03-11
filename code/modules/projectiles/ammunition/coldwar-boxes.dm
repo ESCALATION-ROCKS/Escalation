@@ -309,6 +309,33 @@
 /obj/item/ammo_magazine/a9x19/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/a9x19g
+	name = "glock magazine (9x19mm)"
+	desc = "A Glock magazine that fits eighteen 9x19mm rounds."
+	icon_state = "9x19b"
+	item_state = "generic_mag"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 1
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 8
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9x19g/ap
+	name = "glock AP magazine (9x19mm)"
+	desc = "A Glock magazine that fits eight armor-piercing 9x19mm rounds."
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/a9x19/ap
+
+/obj/item/ammo_magazine/a9x19g/tr
+	name = "glock tracer magazine (9x19mm)"
+	desc = "A Glock magazine that fits eight 9x19mm tracer rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/tr
+
+/obj/item/ammo_magazine/a9x19g/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/a9x19s
 	name = "smg magazine (9x19mm)"
 	desc = "An SMG magazine that fits thirty 9x19mm rounds."

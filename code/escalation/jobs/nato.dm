@@ -888,6 +888,452 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+
+////////////////////////AUSTRIAN BUNDESHEER
+/datum/job/escalation/heer
+	title = "Bundesheer"
+	enabled = 0 ///////base job, keep disabled.
+	faction_tag = "heer"  //The tag of the faction this job is a part of, for lookups
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer
+	military_faction = NATO
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.fraction = "NATO"
+
+/datum/job/escalation/heer/heerplatlead
+	title = "BDH Zugfuhrer"
+	name = "Zugfuhrer"
+	english_name = "Platoon Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/platlead
+	selection_color = "#4682B4"
+	rank_number = 0
+	position = "team"
+	leading = 1
+	amount = 1
+	enabled = 1
+	whitelist_rank = "bdh_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+
+/datum/job/escalation/heer/heerplatleaddep
+	title = "BDH Zugfuhrerassistant"
+	name = "Zugfuhrerassistant"
+	english_name = "Platoon Leader Deputy"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/platleaddep
+	selection_color = "#4682B4"
+	rank_number = 1
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "bdw_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
+
+/datum/job/escalation/heer/heerratelo
+	title = "BDH Funktelefonbetreiber"
+	name = "Funktelefonbetreiber"
+	english_name = "HQ Radio Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/ratelo
+	selection_color = "#4682B4"
+	position = "team"
+	amount = 1
+	rank_number = 2
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
+
+/datum/job/escalation/heer/heermessenger
+	title = "BDH Bote"
+	name = "Bote"
+	english_name = "Messenger"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/messenger
+	selection_color = "#4682B4"
+	position = "team"
+	amount = 3
+	rank_number = 2
+	enabled = 0
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heercorpsman
+	title = "BDH Sanitater"
+	name = "Sanitater"
+	english_name = "Field Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/corpsman
+	selection_color = "#4682B4"
+	position = "team"
+	amount = 1
+	rank_number = 2
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 35)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+
+/datum/job/escalation/heer/heersurgerist
+	title = "BDH Feldchirurg"
+	name = "Feldchirurg"
+	english_name = "Field Surgeon"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/doctor
+	selection_color = "#4682B4"
+	position = "team"
+	amount = 1
+	rank_number = 2
+	enabled = 1
+	whitelist_rank = "heer_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, -8, -1, -1, 5, 1, 2, 0)
+
+/datum/job/escalation/heer/heersl
+	title = "BDH Gruppenfuhrer"
+	name = "Gruppenfuhrer"
+	english_name = "Squad Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/sqleader
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	leading = 1
+	enabled = 1
+	whitelist_rank = "heer_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/heer/heersld
+	title = "BDH Gruppenfuhrer Stellvertretender"
+	name = "Gruppenfuhrer Stellvertretender"
+	english_name = "Squad Leader Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/sqleaderdep
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
+
+/datum/job/escalation/heer/heersm
+	title = "BDH Scharfschutze"
+	name = "Scharfschutze"
+	english_name = "Marksman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/marksman
+	selection_color = "#4682B4"
+	position = "team"
+	amount = 1
+	enabled = 1
+	rank_number = 3
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heermedic
+	title = "BDH Sanitaterschutze"
+	name = "Sanitaterschutze"
+	english_name = "Squad Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/corpsman
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	rank_number = 2
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 35)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+
+/datum/job/escalation/heer/heermg
+	title = "BDH Machinengewehrschutze"
+	name = "Machinengewehrschutze"
+	english_name = "Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/mgunner
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heermgas
+	title = "BDH Machinengewehrschutze Stellvertretender"
+	name = "Machinengewehrschutze Stellvertretender"
+	english_name = "Machinegunner Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/mgunnera
+	selection_color = "#FA8072"
+	rank_number = 1
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heergrenadier
+	title = "BDH Grenadier"
+	name = "Grenadier"
+	english_name = "Squad Grenadier"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/grenadier
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heersqradio
+	title = "BDH Squad Radio Operator"
+	name = "Gruppenfunker"
+	english_name = "Squad Radioman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/radioman
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heersapper
+	title = "BDH Ingenieurschutze"
+	name = "Ingenieurschutze"
+	english_name = "Sapper"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/sapper
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heerrifle
+	title = "BDH Schutze"
+	name = "Schutze"
+	english_name = "Rifleman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/rifleman
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+
+/datum/job/escalation/heer/heerhwscom
+	title = "BDH Schwere Waffen Gruppenfuhrer"
+	name = "Schwere Waffen Gruppenfuhrer"
+	english_name = "Heavy Weapons Section Commander"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/hwscom
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/heer/heerhwsload
+	title = "BDH Schwere Waffen Gruppe Ladeschutze"
+	name = "Schwere Waffen Gruppe Ladeschutze"
+	english_name = "Heavy Weapons Section Loader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/hwsload
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heerhwsop
+	title = "BDH Schwere Waffen Gruppe Kanonier"
+	name = "Schwere Waffen Gruppe Kanonier"
+	english_name = "Heavy Weapons Section Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/hwsop
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
+
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heeratlead
+	title = "BDH AT Gruppenfuhrer"
+	name = "Panzerabwehrschutze Gruppenfuhrer"
+	english_name = "AT Group Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/atlead
+	selection_color = "#4682B4"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 0
+	whitelist_rank = "bdw_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/heer/heeratgun
+	title = "BDH Panzerfaustschutze"
+	name = "Panzerfaustschutze"
+	english_name = "AT Group Gunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/atgunner
+	selection_color = "#4682B4"
+	rank_number = 2
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/heer/heeratasst
+	title = "BDH Panzerfaustschutze Assistant"
+	name = "Panzerfaustschutze Stellvertretender"
+	english_name = "AT Group Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/atassist
+	selection_color = "#4682B4"
+	rank_number = 3
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "heer_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 ////////////////////////////////////////////BAF///////////////////////////////////////////////
 
 /datum/job/escalation/baf

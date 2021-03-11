@@ -94,6 +94,48 @@
 /obj/item/clothing/under/bundeswehr/olive/stabsunter
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundeswehr/stabsunter, /obj/item/clothing/accessory/storage/uniform_pockets)
 
+//Bundesheer
+
+/obj/item/clothing/under/bundesheer/
+	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/
+	name = "fatigues"
+	desc = null
+	icon_state = null
+	worn_state = null
+	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
+	siemens_coefficient = 0.7
+	slowdown_general = 0.5
+	has_sensor = 0
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/soldat
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/soldat, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/gefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/gefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/stabsgefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/stabsgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/hauptgefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/hauptgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/oberstabsgefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/oberstabsgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/oberleutnant
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/oberleutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/leutnant
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/leutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/unter
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/unter, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/uniformplaceholder/stabsunter
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/stabsunter, /obj/item/clothing/accessory/storage/uniform_pockets)
+
 
 //Soviet Army
 /obj/item/clothing/under/soviet/

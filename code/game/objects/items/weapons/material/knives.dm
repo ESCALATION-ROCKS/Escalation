@@ -156,3 +156,9 @@
 	desc = "A bayonet based on Finnish 'puukko' knives."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "finn"
+
+/obj/item/weapon/material/knife/bayonet/heer
+	name = "Feldmesser M78 bayonet"
+	desc = "Combat knife of the Bundesheer forces. German quality."
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "heer"

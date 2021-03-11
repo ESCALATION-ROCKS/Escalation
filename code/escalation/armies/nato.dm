@@ -12,6 +12,15 @@
 	base_color = "black"
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
 
+/datum/army_faction/nato/heer
+	name = "Bundesheer"
+	enabled = 1
+	faction_tag = "heer"
+	flag_state = "german"
+	language = "German"
+	base_color = "black"
+	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
+
 /datum/army_faction/nato/usmc
 	name = "United States Marine Corps"
 	enabled = 1

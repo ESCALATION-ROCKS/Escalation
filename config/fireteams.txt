@@ -150,6 +150,63 @@ PzfG. I:bund
 /datum/job/escalation/bund/bdwatasst
 @END@
 
+
+### BUNDESHEER - BDH ###
+
+Gruppe 'Delta':heer
+/datum/job/escalation/heer/heersl
+/datum/job/escalation/heer/heersld
+/datum/job/escalation/heer/heersqradio
+/datum/job/escalation/heer/heermg
+/datum/job/escalation/heer/heermgas
+/datum/job/escalation/heer/heergrenadier
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heermedic
+/datum/job/escalation/heer/heersapper
+@END@
+
+Gruppe 'Echo':heer
+/datum/job/escalation/heer/heersl
+/datum/job/escalation/heer/heersld
+/datum/job/escalation/heer/heersqradio
+/datum/job/escalation/heer/heermg
+/datum/job/escalation/heer/heermgas
+/datum/job/escalation/heer/heergrenadier
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heermedic
+/datum/job/escalation/heer/heersapper
+@END@
+
+Gruppe 'Foxtrot':heer
+/datum/job/escalation/heer/heersl
+/datum/job/escalation/heer/heersld
+/datum/job/escalation/heer/heersqradio
+/datum/job/escalation/heer/heermg
+/datum/job/escalation/heer/heermgas
+/datum/job/escalation/heer/heergrenadier
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heermedic
+/datum/job/escalation/heer/heersapper
+@END@
+
+SwG. I:heer
+/datum/job/escalation/heer/hwscom
+/datum/job/escalation/heer/hwsop
+/datum/job/escalation/heer/hwsload
+@END@
+
+PzfG. I:heer
+/datum/job/escalation/heer/atlead
+/datum/job/escalation/heer/atgun
+/datum/job/escalation/heer/atasst
+@END@
+
 ###US ARMY###
 
 Squad 'Alpha':usa

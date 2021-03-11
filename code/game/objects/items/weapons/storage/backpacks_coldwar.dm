@@ -75,11 +75,88 @@
 			/obj/item/weapon/reagent_containers/pill,
 			)
 
+/obj/item/weapon/storage/backpack/heer_med
+	name = "medical bag"
+	desc = "A leather tablet bag used by Bundesheer medical personnel."
+	icon_state = "bundes_med"
+	item_state = "bundes_med"
+	reachable = 1
+	max_storage_space = 24
+	open_delay = 5
+	slot_flags = SLOT_BACK
+	startswith = list(
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/stack/medical/splint = 1,
+			/obj/item/stack/medical/ointment/nato = 1,
+			/obj/item/weapon/storage/fancy/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/ampoule_pack,
+			/obj/item/weapon/storage/box/ampoule_box,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			)
+
+/obj/item/weapon/storage/backpack/heer_surg
+	name = "surgeon's bag"
+	desc = "A leather tablet bag used by Bundesheer surgeons."
+	icon_state = "bundes_med"
+	item_state = "bundes_med"
+	reachable = 1
+	max_storage_space = 24
+	open_delay = 5
+	slot_flags = SLOT_BACK
+	startswith = list(
+			/obj/item/weapon/storage/box/ampoule_box/thiopental,
+			/obj/item/weapon/storage/box/ampoule_box/angiotensin,
+			/obj/item/weapon/storage/box/ampoule_box/epinephrine,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
+			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/storage/fancy/syringe
+			)
+	can_hold = list(
+			/obj/item/weapon/storage/box/pill_box,
+			/obj/item/weapon/storage/box/ampoule_box,
+			/obj/item/weapon/ampoule_pack,
+			/obj/item/weapon/pill_pack,
+			/obj/item/weapon/gauze_pack,
+			/obj/item/stack/medical,
+			/obj/item/stack/medical/tourniquet,
+			/obj/item/weapon/reagent_containers/syringe,
+			/obj/item/weapon/storage/fancy/syringe,
+			/obj/item/weapon/reagent_containers/syrette,
+			/obj/item/weapon/reagent_containers/glass/bottle,
+			/obj/item/weapon/reagent_containers/pill,
+			)
+
 /obj/item/weapon/storage/backpack/bundes_buttpack
 	name = "BDW field pack"
 	desc = "A sturdy field pack used by Bundeswehr."
 	icon_state = "bundes_buttpack"
 	item_state = "bundes_buttpack"
+	reachable = 1
+	open_delay = 10
+	max_storage_space = 6
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+
+/obj/item/weapon/storage/backpack/heer_buttpack
+	name = "BDH field pack"
+	desc = "A sturdy field pack used by Bundesheer."
+	icon_state = "heer_buttpack"
+	item_state = "heer_buttpack"
 	reachable = 1
 	open_delay = 10
 	max_storage_space = 6
