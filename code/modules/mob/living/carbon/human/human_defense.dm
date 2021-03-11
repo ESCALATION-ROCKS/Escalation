@@ -393,16 +393,16 @@ meteor_act
 /mob/living/carbon/human/hitby(atom/movable/AM as mob|obj,var/speed = THROWFORCE_SPEED_DIVISOR)
 	if(istype(AM,/obj/))
 		var/obj/O = AM
-
-		if(in_throw_mode && !get_active_hand() && speed <= THROWFORCE_SPEED_DIVISOR)	//empty active hand and we're in throw mode
-			if(canmove && !restrained())
-				if(isturf(O.loc))
-					if((O.icon_state == "M406_active") || (O.icon_state == "M406s_active") || (O.icon_state == "40x103mmshell_active")  || (O.icon_state == "40x103mmshells_active")) //exception to not catch ugl nades
-						return
-					put_in_active_hand(O)
-					visible_message("<span class='warning'>[src] catches [O]!</span>")
-					throw_mode_off()
-					return
+		if(isturf(O.loc))
+		//exception to not catch ugl nades. This can perhaps be turned into a list if need arises for more items are to be added (for practical purposes it can be checked by if(O in list) insted of the prolonged if condition)
+			if(!((O.icon_state == "M406_active") || (O.icon_state == "M406s_active") || (O.icon_state == "40x103mmshell_active")  || (O.icon_state == "40x103mmshells_active"))) //exception to not catch ugl nades
+				if(in_throw_mode && !get_active_hand() && speed <= THROWFORCE_SPEED_DIVISOR)	//empty active hand and we're in throw mode
+					if(canmove && !restrained())
+						if(isturf(O.loc))
+							put_in_active_hand(O)
+							visible_message("<span class='warning'>[src] catches [O]!</span>")
+							throw_mode_off()
+							return
 
 
 		var/dtype = O.damtype
