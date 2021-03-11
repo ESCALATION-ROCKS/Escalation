@@ -812,7 +812,7 @@
 	name = "leather AK magazine pouch"
 	desc = "Has enough space to hold four AK magazines."
 	icon_state = "csla_ammo"
-	item_state = "sa_ammo"
+	item_state = "csla_ammo"
 	storage_slots = 4
 	open_delay = 5
 	can_hold = list(
@@ -829,7 +829,7 @@
 	name = "leather SA-58P magazine pouch"
 	desc = "Has enough space to hold four large AK magazines."
 	icon_state = "csla_ammo"
-	item_state = "sa_ammo"
+	item_state = "csla_ammo"
 	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
@@ -846,7 +846,7 @@
 	name = "leather SVD magazine pouch"
 	desc = "Has enough space to hold four SVD magazines."
 	icon_state = "csla_svd"
-	item_state = "sa_ammo"
+	item_state = "csla_ammo"
 	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
@@ -860,7 +860,7 @@
 	name = "leather grenade pouch"
 	desc = "Can hold three grenades."
 	icon_state = "csla_grenade"
-	item_state = "sa_grenade"
+	item_state = "csla_grenade"
 	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
@@ -872,7 +872,7 @@
 	name = "Vz.59 box pouch"
 	desc = "Has enough space to hold to hold one box."
 	icon_state = "csla_ammo_lmg"
-	item_state = "sa_ammo_lmg"
+	item_state = "csla_ammo_lmg"
 	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
