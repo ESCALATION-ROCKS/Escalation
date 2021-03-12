@@ -186,6 +186,8 @@
 /obj/item/weapon/storage/belt/holster/heer
 	name = "Glock 17 holster"
 	storage_slots = 3
+	icon_state = "glock_holster"
+	icon_closed = "glock_holster_empty"
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/glock17
@@ -259,8 +261,8 @@
 	special_item = /obj/item/weapon/material/knife/bayonet/heer
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
-	icon_state = "kampfm_sheath"
-	icon_closed = "kampfm_sheath_empty"
+	icon_state = "heer_sheath"
+	icon_closed = "heer_sheath_empty"
 	startswith = list(
 		/obj/item/weapon/material/knife/bayonet/heer)
 	can_hold = list(
@@ -455,7 +457,7 @@
 	name = "5.56 STANAG magazine pouch"
 	desc = "Has enough space to hold two 5.56 STANAG magazines."
 	icon_state = "heer_ammo"
-	item_state = "heer_ammo"
+	item_state = "usmc_ammo"
 	open_delay = 5
 	storage_slots = 2 
 	can_hold = list(
@@ -467,13 +469,32 @@
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
+
+/obj/item/weapon/storage/belt/suit/ammo/heer/sniper
+	w_class = ITEM_SIZE_HUGE
+	name = "7.62 STANAG magazine pouch"
+	desc = "Has enough space to hold two 7.62 STANAG magazines."
+	icon_state = "heer_sniper"
+	item_state = "heersniper"
+	open_delay = 5
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/a9x19,
+		/obj/item/ammo_magazine/c762x51wa,
+		/obj/item/ammo_magazine/c762x51m
+		)
+	startswith = null
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
 /obj/item/weapon/storage/belt/suit/ammo/heer/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
 	name = "MG3 box pouch"
 	desc = "Has enough space to hold one MG3 box."
 	icon_state = "heer_ammo_lmg"
-	item_state = "heer_ammo_lmg"
+	item_state = "usmc_ammo_lmg"
 	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
@@ -874,7 +895,7 @@
 	name = "leather AK magazine pouch"
 	desc = "Has enough space to hold four AK magazines."
 	icon_state = "csla_ammo"
-	item_state = "sa_ammo"
+	item_state = "csla_ammo"
 	storage_slots = 4
 	open_delay = 5
 	can_hold = list(
@@ -891,7 +912,7 @@
 	name = "leather SA-58P magazine pouch"
 	desc = "Has enough space to hold four large AK magazines."
 	icon_state = "csla_ammo"
-	item_state = "sa_ammo"
+	item_state = "csla_ammo"
 	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
@@ -908,7 +929,7 @@
 	name = "leather SVD magazine pouch"
 	desc = "Has enough space to hold four SVD magazines."
 	icon_state = "csla_svd"
-	item_state = "sa_ammo"
+	item_state = "csla_ammo"
 	open_delay = 5
 	storage_slots = 4
 	can_hold = list(
@@ -922,7 +943,7 @@
 	name = "leather grenade pouch"
 	desc = "Can hold three grenades."
 	icon_state = "csla_grenade"
-	item_state = "sa_grenade"
+	item_state = "csla_grenade"
 	open_delay = 2
 	storage_slots = 3
 	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
@@ -934,7 +955,7 @@
 	name = "Vz.59 box pouch"
 	desc = "Has enough space to hold to hold one box."
 	icon_state = "csla_ammo_lmg"
-	item_state = "sa_ammo_lmg"
+	item_state = "csla_ammo_lmg"
 	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
@@ -1011,8 +1032,8 @@
 /obj/item/weapon/storage/belt/suit/ammo/heer/ugrenades
 	name = "bundesheer grenade bandolier"
 	desc = "Generic grenade satchel used by NATO forces. Has enough space to hold six underbarrel grenades."
-	icon_state = "bdw_grenbandolier"
-	item_state = "bdw_grenbandolier"
+	icon_state = "heer_grenbandolier"
+	item_state = "usmc_grenbandolier"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm, /obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25)
 	startswith = list(
@@ -1093,8 +1114,8 @@
 
 /obj/item/weapon/storage/belt/suit/sapper/heer
 	name = "sappers bag"
-	icon_state = "bdw_sapper"
-	item_state = "bdw_ammo"
+	icon_state = "heer_sapper"
+	item_state = "usmc_ammo"
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 

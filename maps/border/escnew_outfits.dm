@@ -2312,9 +2312,9 @@
 	uniform = /obj/item/clothing/under/bundesheer/uniformplaceholder/gefr
 	shoes = /obj/item/clothing/shoes/bundesheer/field
 	holster = /obj/item/weapon/storage/belt/holster/heer
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3sg1
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ssg82
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer/sniper
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer/sniper
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer

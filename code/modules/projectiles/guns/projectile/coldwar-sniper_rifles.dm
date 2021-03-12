@@ -145,6 +145,55 @@
 
 	src.toggle_scope(usr, 3)
 
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg58
+	name = "SSG 58"
+	desc = "The sniper configuration of an outdated Bundesheer combat rifle. Chambers 7.62x51 rounds."
+	icon_state = "ssg58"
+	item_state = "ssg58"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x51"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = null
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
+	magazine_type = null
+	screen_shake = 2
+	one_hand_penalty = 5
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
+	bayonet_attachable = 1
+	accuracy = 4.7
+	wielded_item_state = "ssg58-wielded"
+	fire_sound = 'sound/weapons/gunshot/fnfal.ogg'
+	unload_sound = 'sound/weapons/gunporn/fnfal_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/fnfal_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/fnfal_dist.ogg'
+	jam_chance = 0.25
+	slowdown_general = 0.30
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=8.5,    move_delay=null, one_hand_penalty=10, burst_accuracy=null, dispersion=null),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg58/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "ssg58"
+		wielded_item_state = "ssg58-wielded"
+	else
+		icon_state = "ssg58-empty"
+		wielded_item_state = "ssg58-wielded-empty"
+	update_held_icon()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/ssg58/verb/scope()
+	set name = "Use Scope"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 0
+
+	src.toggle_scope(usr, 3)
+
+
 /obj/item/weapon/gun/projectile/automatic/rifle/wa2000
 	name = "WA2000"
 	desc = "An incredibly rare and accurate semi-automatic bullpup sniper rifle. Chambers 7.62x51 rounds."
