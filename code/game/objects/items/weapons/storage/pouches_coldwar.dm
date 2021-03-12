@@ -909,7 +909,7 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/csla/rpk
 	w_class = ITEM_SIZE_HUGE
-	name = "leather SA-58P magazine pouch"
+	name = "leather RPK magazine pouch"
 	desc = "Has enough space to hold four large AK magazines."
 	icon_state = "csla_ammo"
 	item_state = "csla_ammo"

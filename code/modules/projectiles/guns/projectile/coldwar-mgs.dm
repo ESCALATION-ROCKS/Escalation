@@ -563,7 +563,7 @@
 	update_held_icon()
 
 /obj/item/weapon/gun/projectile/automatic/cslarpk
-	name = "Sa Vz.58 P"
+	name = "Sa Vz.58 'Klec'"
 	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x39 rounds."
 	icon_state = "cslarpk"
 	item_state = "nvarpk"
