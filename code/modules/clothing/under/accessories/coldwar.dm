@@ -401,30 +401,35 @@
 	rank = "Luutnantti"
 
 
-//////////csla 
-/obj/item/clothing/accessory/insignia/csla/soldat
-	name = "Soldat insignia"
-	icon_state = "sa_soldat"
-	rank = "Soldat"
+//////////csla
+/obj/item/clothing/accessory/insignia/csla/svobodnik
+	name = "Svobodnik insignia"
+	icon_state = "vpp_patrolman"
+	rank = "Svobodník"
 
-/obj/item/clothing/accessory/insignia/csla/subchetar
-	name = "Subchetar insignia"
-	icon_state = "sa_gefreiter"
-	rank = "Subchetar"
+/obj/item/clothing/accessory/insignia/csla/desatnik
+	name = "Desatnik insignia"
+	icon_state = "vpp_patrolman"
+	rank = "Desatnik"
 
-/obj/item/clothing/accessory/insignia/csla/chetar
-	name = "Chetar insignia"
-	icon_state = "sa_obergefreiter"
-	rank = "Chetar"
+/obj/item/clothing/accessory/insignia/csla/cetar
+	name = "Cetar insignia"
+	icon_state = "vpp_sergeant"
+	rank = "Cetar"
+
+/obj/item/clothing/accessory/insignia/csla/rotny
+	name = "Rotny insignia"
+	icon_state = "provgov_staffsergeant"
+	rank = "Rotny"
 
 /obj/item/clothing/accessory/insignia/csla/subleutnant
 	name = "Subleutnant insignia"
-	icon_state = "sa_unteroffizier"
+	icon_state = "provgov_junlieutenant"
 	rank = "Subleutnant"
 
 /obj/item/clothing/accessory/insignia/csla/leutnant
 	name = "Leutnant insignia"
-	icon_state = "sa_unterfeldwebel"
+	icon_state = "provgov_lieutenant"
 	rank = "Leutnant"
 
 //Storage Accessories

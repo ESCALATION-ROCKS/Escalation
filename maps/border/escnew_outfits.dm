@@ -36,7 +36,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Zamestitel' Komandira Vzvoda")
-	uniform = /obj/item/clothing/under/soviet/habe/ssgt
+	/obj/item/clothing/under/soviet/habe/star
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
@@ -64,7 +64,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomod
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Zamestitel' Komandir Otdeleniya")
-	uniform = /obj/item/clothing/under/soviet/habe/ssgt
+	uniform = /obj/item/clothing/under/soviet/habe/jsgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -628,7 +628,7 @@
 //CSLA
 /decl/hierarchy/outfit/job/coldwar/csla/rifleman
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Rifleman")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/svobodnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
@@ -641,7 +641,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/sapper
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Sapper")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/svobodnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
@@ -654,7 +654,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/marksman
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Marksman")
-	uniform = /obj/item/clothing/under/csla/vz60/subchetar
+	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/svd
@@ -666,7 +666,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/radio
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Radio")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back = /obj/item/weapon/radioset/r105d
@@ -680,7 +680,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA MG")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/cslarpk
@@ -693,7 +693,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/rocket
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA RPG")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
@@ -707,7 +707,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/rocketass
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA RPG Assistant")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/svobodnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
@@ -721,7 +721,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/srad
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Radio Operator")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back = /obj/item/weapon/radioset/r105d
@@ -736,7 +736,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/sldep
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA SL Assistant")
-	uniform = /obj/item/clothing/under/csla/vz60/subchetar
+	uniform = /obj/item/clothing/under/csla/vz60/cetar
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl
@@ -750,7 +750,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/sl
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA SL")
-	uniform = /obj/item/clothing/under/csla/vz60/subleutnant
+	uniform = /obj/item/clothing/under/csla/vz60/rotny
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
@@ -765,7 +765,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/sanitar
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Sanitar")
-	uniform = /obj/item/clothing/under/csla/vz60/subchetar
+	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
 	r_pocket = null
@@ -833,7 +833,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon MG")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/vz59
@@ -846,7 +846,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/platmgass
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon MG Assistant")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/svobodnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back = /obj/item/weapon/storage/backpack/sakitbag/csla
@@ -860,7 +860,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/hwscom
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA HWS Leader")
-	uniform = /obj/item/clothing/under/csla/vz60/subleutnant
+	uniform = /obj/item/clothing/under/csla/vz60/cetar
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
@@ -875,8 +875,8 @@
 	belt = /obj/item/weapon/storage/belt/harness/csla
 
 /decl/hierarchy/outfit/job/coldwar/csla/hwsop
-	name = OUTFIT_JOB_NAME("Coldwar - VSLA HWS Gunner")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	name = OUTFIT_JOB_NAME("Coldwar - CSLA HWS Gunner")
+	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
@@ -890,7 +890,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/csla/hwsload
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA HWS Loader")
-	uniform = /obj/item/clothing/under/csla/vz60/sold
+	uniform = /obj/item/clothing/under/csla/vz60/svobodnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58

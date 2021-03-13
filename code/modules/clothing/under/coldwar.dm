@@ -370,17 +370,20 @@
 	slowdown_general = 0.5
 	has_sensor = 0
 
-/obj/item/clothing/under/csla/vz60/sold
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/soldat, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/csla/vz60/svobodnik
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/, /obj/item/clothing/accessory/insignia/csla/svobodnik, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/csla/vz60/subchetar
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/subchetar, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/csla/vz60/desatnik
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/, /obj/item/clothing/accessory/insignia/csla/desatnik, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/csla/vz60/chetar
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/chetar, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/csla/vz60/cetar
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/, /obj/item/clothing/accessory/insignia/csla/cetar, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/csla/vz60/rotny
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/, /obj/item/clothing/accessory/insignia/csla/rotny, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/csla/vz60/subleutnant
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/subleutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/, /obj/item/clothing/accessory/insignia/csla/subleutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/csla/vz60/leutnant
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/csla/leutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/, /obj/item/clothing/accessory/insignia/csla/leutnant, /obj/item/clothing/accessory/storage/uniform_pockets)

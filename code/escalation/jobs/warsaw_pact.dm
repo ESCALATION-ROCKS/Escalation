@@ -1125,7 +1125,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, -8, -1, -1, 5, 1, 2, 0)
-		
+
 /datum/job/escalation/finn/finnsm
 	title = "FINN Tarkka-ampuja"
 	name = "Tarkka-ampuja"
@@ -1145,7 +1145,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
-		
+
 /datum/job/escalation/finn/finnsl
 	title = "FINN Ryhmanjohtaja"
 	name = "Ryhmanjohtaja"
