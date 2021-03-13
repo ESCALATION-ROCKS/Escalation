@@ -14,6 +14,10 @@ SeverePwnage = {
 ::ALL::
 }
 
+Among us crewmate = {
+::ALL::
+}
+
 ############### BDW OFFICER
 
 bardinatavern = {
