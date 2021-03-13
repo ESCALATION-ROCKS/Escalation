@@ -14,63 +14,23 @@ SeverePwnage = {
 ::ALL::
 }
 
-############### ADMINS
+############### BDW OFFICER
 
-Verarch = {
-ddr_officer
+bardinatavern = {
+bdw_officer
 }
+
+############### BDW NCO
 
 Bongosz = {
 bdw_nco
 }
 
-gy1ta23 = {
-bdw_officer
-bdw_enlisted
-}
-
-############### CONTRIBUTORS
-
-BlazSnake = {
-bdw_enlisted
-}
-
-Arbs = {
-bdw_enlisted
-}
-
-Cabostein = {
-ddr_enlisted
-}
-
-############### NATO-BDW
-
-Merrgear = {
-bdw_nco
-bdw_officer
-bdw_enlisted
-}
-
-yung bruh = {
-bdw_nco
-bdw_enlisted
-}
-
 BurnedSweetPotato = {
-bdw_nco
-bdw_enlist
-bdw_enlisted
-}
-
-Rippie129 = {
 bdw_nco
 }
 
 taumanta = {
-bdw_nco
-}
-
-SONY XPERIA = {
 bdw_nco
 }
 
@@ -82,47 +42,45 @@ Zach665 = {
 bdw_nco
 }
 
-Printer16 = {
+Rippie129 = {
+bdw_nco
+}
+
+SONY XPERIA = {
+bdw_nco
+}
+
+############### BDW ENLISTED
+
+Gy1ta23 = {
 bdw_enlisted
 }
 
-ben11567 = {
+Spectre808 = {
 bdw_enlisted
 }
 
-ToroidalZer0 = {
+I like D0nUts = {
 bdw_enlisted
 }
 
-The Secret Slav = {
+Bob newman = {
 bdw_enlisted
 }
 
-Xperia15 = {
+SilverSZ = {
 bdw_enlisted
 }
 
-MymindisBlank = {
-bdw_enlisted
-}
-
-WildSwan = {
-bdw_enlisted
-}
-
-Ratpack = {
-bdw_enlisted
-}
-
-PepeFrog = {
-bdw_enlisted
-}
-
-Torn223 = {
+BlazSnake = {
 bdw_enlisted
 }
 
 Eric066 = {
+bdw_enlisted
+}
+
+Balpindo = {
 bdw_enlisted
 }
 
@@ -134,19 +92,15 @@ aguyiguess = {
 bdw_enlisted
 }
 
-Druzhina = {
+Arbs = {
 bdw_enlisted
 }
 
-Bob newman = {
+Uhhuhhello = {
 bdw_enlisted
 }
 
-Spectre808 = {
-bdw_enlisted
-}
-
-Sapu222 = {
+yeemanruss = {
 bdw_enlisted
 }
 
@@ -158,11 +112,27 @@ epicdwarf = {
 bdw_enlisted
 }
 
-Jerman5 = {
+LastCrusader105 = {
 bdw_enlisted
 }
 
-Subdon = {
+MeeM4903 = {
+bdw_enlisted
+}
+
+Manu9123 = {
+bdw_enlisted
+}
+
+GabeGG = {
+bdw_enlisted
+}
+
+RandomLad645 = {
+bdw_enlisted
+}
+
+Jerman5 = {
 bdw_enlisted
 }
 
@@ -170,19 +140,7 @@ Ragdoll_Hooman = {
 bdw_enlisted
 }
 
-DemtrixD = {
-bdw_enlisted
-}
-
-SilencedMP5A5 = {
-bdw_enlisted
-}
-
-Hooderino = {
-bdw_enlisted
-}
-
-Sraserdas = {
+ToroidalZer0 = {
 bdw_enlisted
 }
 
@@ -190,55 +148,97 @@ Mrpotatobag123 = {
 bdw_enlisted
 }
 
+LuckyX1 = {
+bdw_enlisted
+}
+
+Gogoing  = {
+bdw_enlisted
+}
+
+Outboarduniform = {
+bdw_enlisted
+}
+
+Druzhina = {
+bdw_enlisted
+}
+
+Ocelottt = {
+bdw_enlisted
+}
+
+MymindisBlank = {
+bdw_enlisted
+}
+
+WildSwan = {
+bdw_enlisted
+}
+
+Beffagorn = {
+bdw_enlisted
+}
+
+BrainDamagedToneMain = {
+bdw_enlisted
+}
+
+Autisme = {
+bdw_enlisted
+}
+
+Subdon = {
+bdw_enlisted
+}
+
+Mrpotatobag123 = {
+bdw_enlisted
+}
+
+PepeFrog = {
+bdw_enlisted
+}
+
+SilencedMP5A5 = {
+bdw_enlisted
+}
+
+Xperia15 = {
+bdw_enlisted
+}
+
+Sapu222 = {
+bdw_enlisted
+}
+
 Fat Seal = {
 bdw_enlisted
 }
 
-MullerHauptmann = {
+Merrgear = {
+bdw_enlisted
+}
+
+DemtrixD = {
 bdw_enlisted
 }
 
 
-############### NATO RESERVISTS
+############### DDR OFFICER
 
-AvgustFroch = {
-bdw_enlisted
+Verarch = {
+ddr_officer
 }
-
-Moccha = {
-bdw_enlisted
-}
-
-Marvi123 = {
-bdw_enlisted
-}
-
-Nautilus23 = {
-bdw_enlisted
-}
-
-Tristan63 = {
-bdw_enlisted
-}
-
-Doctor Frog = {
-bdw_enlisted
-}
-
-
-############### WARPACT-NVADDR
 
 The flying banana gaming = {
 ddr_officer
 }
 
+############### DDR NCO
+
 Jackomago61 = {
 ddr_nco
-}
-
-Battieralarm3 = {
-ddr_nco
-ddr_enlisted
 }
 
 corbe = {
@@ -249,17 +249,23 @@ Luftie = {
 ddr_nco
 }
 
-Pete112 = {
-ddr_enlisted
+Battieralarm3 = {
+ddr_nco
 }
 
-Nowik347 = {
-ddr_enlisted
+Oshibka = {
+ddr_nco
+}
+
+Nayser = {
+ddr_nco
 }
 
 Echion = {
-ddr_enlisted
+ddr_nco
 }
+
+############### DDR ENLISTED
 
 CeSium_Shark = {
 ddr_enlisted
@@ -277,7 +283,7 @@ Mikaelcg = {
 ddr_enlisted
 }
 
-rev1n = {
+xDyou = {
 ddr_enlisted
 }
 
@@ -289,43 +295,11 @@ TurtleCactus = {
 ddr_enlisted
 }
 
-MixanovR64 = {
-ddr_enlisted
-}
-
 Timtwoshoes = {
 ddr_enlisted
 }
 
-Booperkin343435 = {
-ddr_enlisted
-}
-
-LynuahSororitas = {
-ddr_enlisted
-}
-
-Sha.SCT = {
-ddr_enlisted
-}
-
-Lautaroluna180 = {
-ddr_enlisted
-}
-
-FoxTail_99 = {
-ddr_enlisted
-}
-
-Gefrakt = {
-ddr_enlisted
-}
-
-Oshibka = {
-ddr_enlisted
-}
-
-SilverSZ = {
+LeoTheKiller = {
 ddr_enlisted
 }
 
@@ -337,7 +311,7 @@ Villeri = {
 ddr_enlisted
 }
 
-AlexUNDRRRMKaroff = {
+Alpella18 = {
 ddr_enlisted
 }
 
@@ -357,7 +331,19 @@ ExtentEnzo = {
 ddr_enlisted
 }
 
-Villeri = {
+DjSmail1 = {
+ddr_enlisted
+}
+
+rev1n = {
+ddr_enlisted
+}
+
+Bob46 = {
+ddr_enlisted
+}
+
+AlexUNDRRRMKaroff = {
 ddr_enlisted
 }
 
@@ -365,7 +351,67 @@ Sivuha = {
 ddr_enlisted
 }
 
-I like D0nUts = {
+MixanovR64 = {
+ddr_enlisted
+}
+
+Nikita588 = {
+ddr_enlisted
+}
+
+Sha.SCT = {
+ddr_enlisted
+}
+
+Vlad3 = {
+ddr_enlisted
+}
+
+Booperkin343435 = {
+ddr_enlisted
+}
+
+DecebalStalin = {
+ddr_enlisted
+}
+
+Bzrkr = {
+ddr_enlisted
+}
+
+Lord_Omega932 = {
+ddr_enlisted
+}
+
+FoxTail_99 = {
+ddr_enlisted
+}
+
+YackMiller = {
+ddr_enlisted
+}
+
+Arbufy = {
+ddr_enlisted
+}
+
+Gefrakt = {
+ddr_enlisted
+}
+
+Ezhlk = {
+ddr_enlisted
+}
+
+Villeri = {
+ddr_enlisted
+}
+
+Horatius14 = {
+ddr_enlisted
+}
+
+MrHamster3 = {
 ddr_enlisted
 }
 
@@ -373,17 +419,23 @@ Bjamcham = {
 ddr_enlisted
 }
 
-AngryBoar = {
+Kindadread = {
 ddr_enlisted
 }
 
-############### WARPACT RESERVISTS
-
-Vlad3 = {
+RayZEvans = {
 ddr_enlisted
 }
 
-Higher_Life = {
+Ondrej008 = {
+ddr_enlisted
+}
+
+Xxxretroxgears3 = {
+ddr_enlisted
+}
+
+amanhead = {
 ddr_enlisted
 }
 
@@ -411,11 +463,7 @@ cookyznmlk78 = {
 ddr_enlisted
 }
 
-Alpella18 = {
-ddr_enlisted
-}
-
-Nayser = {
+Lautaroluna180 = {
 ddr_enlisted
 }
 
@@ -423,113 +471,14 @@ lved = {
 ddr_enlisted
 }
 
-MrHamster3 = {
+Cabostein = {
 ddr_enlisted
 }
 
-Xxxretroxgears3 = {
+Krutomer = {
 ddr_enlisted
 }
 
-ExecutorPartner = {
-bdw_enlisted
-}
-
-Ondrej008 = {
+Hsiwe = {
 ddr_enlisted
-}
-
-Amanhead = {
-ddr_enlisted
-}
-
-
-
-xDyou = {
-ddr_enlisted
-}
-
-CringMomentJBC = {
-ddr_enlisted
-}
-
-
-Horatius21 = {
-ddr_enlisted
-}
-
-
-Ezhlk = {
-ddr_enlisted
-}
-
-Seclog = {
-ddr_enlisted
-}
-
-SDevils = {
-bdw_enlisted
-ddr_enlisted
-}
-
-
-MeeM4903 = {
-bdw_enlisted
-}
-
-
-GabeGG = {
-bdw_enlisted
-}
-
-Manu9123 = {
-bdw_enlisted
-}
-
-bardinatavern = {
-bdw_officer
-}
-
-YeemanRuss = {
-bdw_enlisted
-}
-
-DecebalStalin = {
-ddr_enlisted
-}
-
-Zach666 = {
-bdw_nco
-bund_nco
-}
-
-
-LuckyX1 = {
-bdw_enlisted
-}
-
-bzrkr = {
-ddr_enlisted
-}
-
-
-
-JakeTitler = {
-ddr_enlisted
-}
-
-Valenth = {
-bdw_enlisted
-}
-
-Ultimum = {
-bdw_enlisted
-}
-
-Lastcrusader105 = {
-bdw_enlisted
-}
-
-Balpindo = {
-bdw_enlisted
 }
