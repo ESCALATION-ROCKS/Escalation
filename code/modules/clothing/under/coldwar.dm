@@ -99,41 +99,41 @@
 /obj/item/clothing/under/bundesheer/
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/
-	name = "fatigues"
-	desc = null
-	icon_state = null
-	worn_state = null
+/obj/item/clothing/under/bundesheer/flecktarn/
+	name = "M57 'Flecktarn' fatigues"
+	desc = "That's the M57 'Flecktarn' pattern uniform, commonly used by the Bundesheer."
+	icon_state = "flecktarn"
+	worn_state = "flecktarn"
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
 	siemens_coefficient = 0.7
 	slowdown_general = 0.5
 	has_sensor = 0
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/soldat
+/obj/item/clothing/under/bundesheer/flecktarn/soldat
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/soldat, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/gefr
+/obj/item/clothing/under/bundesheer/flecktarn/gefr
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/gefr, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/stabsgefr
+/obj/item/clothing/under/bundesheer/flecktarn/stabsgefr
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/stabsgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/hauptgefr
+/obj/item/clothing/under/bundesheer/flecktarn/hauptgefr
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/hauptgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/oberstabsgefr
+/obj/item/clothing/under/bundesheer/flecktarn/oberstabsgefr
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/oberstabsgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/oberleutnant
+/obj/item/clothing/under/bundesheer/flecktarn/oberleutnant
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/oberleutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/leutnant
+/obj/item/clothing/under/bundesheer/flecktarn/leutnant
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/leutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/unter
+/obj/item/clothing/under/bundesheer/flecktarn/unter
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/unter, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/bundesheer/uniformplaceholder/stabsunter
+/obj/item/clothing/under/bundesheer/flecktarn/stabsunter
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/stabsunter, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 
