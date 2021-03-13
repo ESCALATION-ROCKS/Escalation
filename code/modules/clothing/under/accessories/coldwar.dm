@@ -231,6 +231,55 @@
 	icon_state = "bdw_oberleutnant"
 	rank = "Oberleutnant"
 
+/obj/item/clothing/accessory/insignia/bundesheer/soldat
+	name = "Schutze insignia"
+	icon_state = "bdw_soldat"
+	rank = "Schutze"
+
+/obj/item/clothing/accessory/insignia/bundesheer/gefr
+	name = "Gefreiter insignia"
+	icon_state = "bdw_gefreiter"
+	rank = "Gefreiter"
+
+/obj/item/clothing/accessory/insignia/bundesheer/obergefr
+	name = "Obergefreiter insignia"
+	icon_state = "bdw_obergefreiter"
+	rank = "Obergefreiter"
+
+/obj/item/clothing/accessory/insignia/bundesheer/hauptgefr
+	name = "Hauptgefreiter insignia"
+	icon_state = "bdw_hauptgefreiter"
+	rank = "Hauptgefreiter"
+
+/obj/item/clothing/accessory/insignia/bundesheer/stabsgefr
+	name = "Stabsgefreiter insignia"
+	icon_state = "bdw_stabsgefreiter"
+	rank = "Stabsgefreiter"
+
+/obj/item/clothing/accessory/insignia/bundesheer/oberstabsgefr
+	name = "Obertabsgefreiter insignia"
+	icon_state = "bdw_oberstabsgefreiter"
+	rank = "Obertabsgefreiter"
+
+/obj/item/clothing/accessory/insignia/bundesheer/unter
+	name = "Unteroffizier insignia"
+	icon_state = "bdw_unteroffizier"
+	rank = "Unteroffizier"
+
+/obj/item/clothing/accessory/insignia/bundesheer/stabsunter
+	name = "Stabsunteroffizier insignia"
+	icon_state = "bdw_stabsunteroffizier"
+	rank = "Stabsunteroffizier"
+
+/obj/item/clothing/accessory/insignia/bundesheer/leutnant
+	name = "Leutnant insignia"
+	icon_state = "bdw_leutnant"
+	rank = "Leutnant"
+
+/obj/item/clothing/accessory/insignia/bundesheer/oberleutnant
+	name = "Oberleutnant insignia"
+	icon_state = "bdw_oberleutnant"
+	rank = "Oberleutnant"
 
 /obj/item/clothing/accessory/insignia/nnaddr/soldat
 	name = "Soldat insignia"

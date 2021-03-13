@@ -827,6 +827,131 @@
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1
+	name = "AUG A1"
+	desc = "A standard-issue BDH assault rifle. Chambers 5.56x45 rounds."
+	icon_state = "auga1"
+	item_state = "aug"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "556x45"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a556x45
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 4
+	accuracy = 3
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/heer/
+	bayonet_attachable = 1
+	jam_chance = 0.425
+	slowdown_general = 0.27
+
+	wielded_item_state = "aug-wielded"
+	fire_sound = 'sound/weapons/gunshot/m16.ogg'
+	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20)),
+		list(mode_name="automatic",    burst=1, fire_delay=0.9,  move_delay=2,    one_hand_penalty=5, burst_accuracy = null,            dispersion=list(0.2, 0.3, 0.5),                automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "auga1"
+		wielded_item_state = "aug-wielded"
+	else
+		icon_state = "auga1-empty"
+		wielded_item_state = "aug-wielded-empty"
+
+
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1gl
+	name = "AUG A1 w/ M203"
+	desc = "A standard-issue BDH assault rifle with a M203 launcher attached. Chambers 5.56x45 rounds."
+	icon_state = "auga1gl"
+	item_state = "auggl"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "556x45"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a556x45
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 4
+	bayonet_attachable = 1
+	accuracy = 3
+	jam_chance = 0.425
+	slowdown_general = 0.27
+	wielded_item_state = "auggl-wielded"
+	fire_sound = 'sound/weapons/gunshot/m16.ogg'
+	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
+
+	var/use_launcher = FALSE
+	var/obj/item/weapon/gun/launcher/grenade/underslung/m203/launcher
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20)),
+		list(mode_name="automatic",    burst=1, fire_delay=0.9,  move_delay=2,    one_hand_penalty=6, burst_accuracy = null,            dispersion=list(0.2, 0.3, 0.5),           automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/New()
+	..()
+	launcher = new(src)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/attackby(obj/item/I, mob/user)
+	if((istype(I, /obj/item/weapon/grenade)))//launcher.load check it for it's type and handles all another things so don't worry
+		launcher.load(I, user)
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/attack_hand(mob/user)
+	if(user.get_inactive_hand() == src && use_launcher)
+		launcher.unload(user)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(use_launcher)
+		launcher.Fire(target, user, params, pointblank, reflex)
+		if(!launcher.chambered)
+			switch_firemodes() //do we need it? :wha:
+			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "auga1gl"
+		wielded_item_state = "auggl-wielded"
+	else
+		icon_state = "auga1gl-empty"
+		wielded_item_state = "auggl-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/verb/set_gp()
+	set name = "Grenade Launcher"
+	set category = "Object"
+	set src in usr
+	set popup_menu = 1
+
+	if(launcher)
+		use_launcher = !use_launcher
+		if(do_after(usr, 1, src))
+			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
+			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
+
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58
 	name = "Sa Vz.58"
 	desc = "A standard-issue CSLA combat rifle. Chambers 7.62x39 rounds."

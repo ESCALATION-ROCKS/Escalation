@@ -46,6 +46,10 @@
 			H.add_language(LANGUAGE_CZECH)
 			L = all_languages[LANGUAGE_CZECH]
 
+		if("heer")
+			H.add_language(LANGUAGE_GERMAN)
+			L = all_languages[LANGUAGE_GERMAN]
+			
 	if(L)
 		H.default_language = L
 

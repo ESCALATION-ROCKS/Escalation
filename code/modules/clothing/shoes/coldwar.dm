@@ -57,6 +57,15 @@
 	siemens_coefficient = 0.6
 	can_hold_item = 1
 
+/obj/item/clothing/shoes/bundesheer/field
+	name = "field boots"
+	desc = "That's a pair of standard issue combat boots, issued by Bundesheer."
+	icon_state = "duty"
+	force = 3
+	armor = list(melee = 20, bullet = 40, laser = 40,energy = 25, bomb = 50, bio = 10, rad = 0)
+	siemens_coefficient = 0.6
+	can_hold_item = 1
+
 /obj/item/clothing/shoes/usmc/field
 	name = "combat boots"
 	desc = "That's a pair of Combat Boots Gen.I , issued by USMC."

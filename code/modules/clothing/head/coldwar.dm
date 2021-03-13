@@ -406,6 +406,54 @@
 
 
 
+
+
+//BDHeer hats
+
+/obj/item/clothing/head/usmc/cap/bundesheer
+	name = "Bundeswehr cap"
+	desc = "That's a generic field cap in a 'Steingrau-olive' pattern."
+	icon_state = "bdw_cap"
+
+/obj/item/clothing/head/garcap/bundesheer
+	name = "garrison cap"
+	desc = "That's a garrison cap used by Bundesheer."
+	icon_state = "bdwgarrisoncap"
+	icon_state_alt = "bdwgarrisoncap_alt"
+
+/obj/item/clothing/head/beret/bundesheer
+	name = "beret"
+	desc = "A black beret common amongst Bundesheer divisions."
+	icon_state = "bdwberret"
+
+//heer helmets
+/obj/item/clothing/head/helmet/coldwar/heer/m1
+	name = "M1 helmet"
+	desc = "An outdated steel helmet used by Bundesheer. This one has a cover on it."
+	icon_state = "m1cover"
+	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "m1cover-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/heer/m1/netting
+	desc = "An outdated steel helmet used by Bundesheer. This one has a netting on it."
+	icon_state = "m1netting"
+	icon_state_unzipped = "m1netting-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/heer/m1/medic
+	desc = "An outdated steel helmet used by Bundesheer. This one has a red cross on it."
+	icon_state = "m1medic"
+	icon_state_unzipped = "m1medic-unzipped"
+
+/obj/item/clothing/head/helmet/coldwar/heer/pasgt
+	name = "PASGT M81 helmet"
+	desc = "An experimental tactical kevlar helmet used by the Bundesheer."
+	icon_state = "pasgt-heer"
+	armor = list(melee = 48, bullet = 34, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "pasgt-heer-unzipped"
+
+
 //UK Hats
 
 /obj/item/clothing/head/beret/baf

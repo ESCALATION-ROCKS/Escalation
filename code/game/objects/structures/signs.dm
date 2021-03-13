@@ -1377,6 +1377,12 @@ obj/structure/sign/noshitlers
 	icon_state = "csla_flag"
 	desc = "That's the Czechoslovakia flag."
 
+/obj/structure/sign/heer_flag
+	name = "Austria flag"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "heer_flag"
+	desc = "That's the Austria flag."
+
 /obj/structure/sign/westgerman_flag
 	name = "West German flag"
 	icon = 'icons/obj/decorations.dmi'
@@ -1548,3 +1554,7 @@ obj/structure/sign/noshitlers
 /obj/structure/sign/flag/czechflag
 	name = "Czechoslovakia flag"
 	icon_state = "cslaflag"
+
+/obj/structure/sign/flag/heerflag
+	name = "Austria flag"
+	icon_state = "heerflag"

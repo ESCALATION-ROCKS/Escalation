@@ -201,6 +201,33 @@
 	else
 		icon_state = "p1-empty"
 
+
+/obj/item/weapon/gun/projectile/glock17
+	name = "Glock 17"
+	desc = "A state-of-the-art Glock 17 pistol. Uses 9x19 ammunition"
+	icon_state = "glock" //fix
+	item_state = "gun"
+	w_class = ITEM_SIZE_NORMAL
+	caliber = "9x19"
+	fire_delay = 3.1
+	accuracy = 3
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/a9x19g
+	allowed_magazines = /obj/item/ammo_magazine/a9x19g
+	fire_sound = 'sound/weapons/gunshot/waltherp1.ogg'
+	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
+	jam_chance = 1
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+
+/obj/item/weapon/gun/projectile/glock17/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "glock"
+	else
+		icon_state = "glock-empty"
+
 /obj/item/weapon/gun/projectile/lahti
 	name = "Lahti"
 	desc = "A Finnish standard issue handgun. Uses 9x19 ammunition"

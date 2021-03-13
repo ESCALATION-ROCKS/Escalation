@@ -321,6 +321,19 @@
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
 
+
+/obj/item/weapon/storage/belt/heer
+	name = "bundesheer belt"
+	desc = "A pistol belt used by Bundesheer officers. A Bundesadler is engraved on the buckle"
+	icon_state = "bdw_belt"
+	item_state = "bdw_belt"
+	storage_slots = 1
+	can_hold = (/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
+
+/obj/item/weapon/storage/belt/heer/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
+
 /obj/item/weapon/storage/belt/harness/bdw
 	name = "bundeswehr harness"
 	desc = "A generic harness used by Bundeswehr."
@@ -333,6 +346,23 @@
 	/obj/item/weapon/storage/firstaid/ifak/nato)
 
 /obj/item/weapon/storage/belt/harness/bdw/New()
+	..()
+	new /obj/item/weapon/shovel/etool(src)
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
+	new /obj/item/weapon/storage/firstaid/ifak/nato(src)
+
+/obj/item/weapon/storage/belt/harness/heer
+	name = "bundesheer harness"
+	desc = "A generic harness used by Bundesheer."
+	icon_state = "bdw_harness"
+	item_state = "bdw_harness"
+	show_above_suit = 1
+	storage_slots = 3
+	can_hold = list(/obj/item/weapon/shovel/etool,
+	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
+	/obj/item/weapon/storage/firstaid/ifak/nato)
+
+/obj/item/weapon/storage/belt/harness/heer/New()
 	..()
 	new /obj/item/weapon/shovel/etool(src)
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
