@@ -183,7 +183,122 @@
 		icon_state = "brustwehr_[junction]"
 		return
 
+/////////////////////////////////////////////////////
+////////////replacement for wood upgrades////////////
+/////////////////////////////////////////////////////
+
+
+/obj/machinery/deployable/brutswehr_cade
+	name = "burstwehr wood barricade"
+	desc = "Some wooden planks covering a brustwehr."
+	icon = 'icons/obj/sandbags.dmi'
+	anchored = 1
+	density = 1
+	icon_state = "brustwehr_barricadeoverlay"
+	//if(A.density && !A.throwpass) src.throw_impact(A,speed)
+	throwpass = 0 //we can throw grenades despite its density
+	var/basic_chance = 100
+	var/health = 400 //Actual health depends on snow layer
+
+/*/obj/machinery/deployable/barrier/brutswehr_cade/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)//So bullets will fly over and stuff.
+	if(air_group || (height==0))
+		return 0
+	if(istype(mover) && mover.checkpass(PASSTABLE))
+		return 0
+	else
+		return 0*/
+
+/obj/machinery/deployable/brutswehr_cade/New(loc, direction)
+	if(direction)
+		dir = direction
+	..()
+
+/obj/machinery/deployable/brutswehr_cade/Initialize()
+	. = ..()
+	update_layers()
+	//to_world(" New(). Dir:[dir]; Layer:[layer]; plane:[plane]")
+
+/obj/machinery/deployable/brutswehr_cade/Destroy()
+	basic_chance = null
+	..()
+
+/obj/machinery/deployable/brutswehr_cade/proc/update_layers()
+	if(dir != SOUTH)
+		layer = initial(layer) + 0.1
+		plane = initial(plane)
+	else
+		layer = ABOVE_OBJ_LAYER + 0.1
+		plane = ABOVE_HUMAN_PLANE
+
+/obj/machinery/deployable/brutswehr_cade/set_dir()
+	..()
+	update_layers()
+
+/obj/machinery/deployable/brutswehr_cade/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
+	if(istype(mover, /obj/item/projectile))
+		var/obj/item/projectile/proj = mover
+
+		if(proj.firer && Adjacent(proj.firer))
+			return 0
+
+		if (get_dist(proj.starting, loc) <= 0)//allows to fire from 0 tile away of sandbag
+			return 0
+
+		return check_cover(mover, target)
+
+	if(get_dir(get_turf(src), target) == dir)//turned in front of sandbag
+		return 0
+
+	else
+		return 1
+
+//checks if projectile 'P' from turf 'from' can hit whatever is behind the table. Returns 1 if it can, 0 if bullet stops.
+/obj/machinery/deployable/brutswehr_cade/proc/check_cover(obj/item/projectile/P, turf/from)
+	var/turf/cover = get_turf(src)
+	var/chance = basic_chance
+
+	if(!cover)
+		return 1
+
+	if(prob(chance))
+		visible_message("<span class='warning'>[P] hits \the [src]!</span>")
+		health -= P.damage/2
+		health_check()
+		return 0
+
+	return 1
+
+	//Check cade
+/obj/machinery/deployable/brutswehr_cade/proc/health_check(var/die)
+	if(health < 1 || die)
+		visible_message("\red <B>[src] falls apart!</B>")
+		qdel(src)
+
 /obj/structure/brutswehr/attackby(var/obj/item/I, mob/user as mob)
+
+	if(!locate(/obj/machinery/deployable/brutswehr_cade) in src.loc.contents)//checks to see if there is one already planted, stacking brust cades is OP
+
+		if(istype(I, /obj/item/stack/material/wood)) //default wood
+			var/obj/item/stack/material/wood/R = I
+			if(R.amount >= 3)
+				var /obj/machinery/deployable/brutswehr_cade/W = new(src.loc)
+				R.use(3)
+				W.throwpass = 0
+				playsound(get_turf(loc), "rustle", 15, 1, -3)
+
+		if(istype(I, /obj/item/stack/material/r_wood)) //wood from cutting trees
+			var/obj/item/stack/material/r_wood/R = I
+			if(R.amount >= 3)
+				var /obj/machinery/deployable/brutswehr_cade/W = new(src.loc)
+				R.use(3)
+				W.throwpass = 0
+				playsound(get_turf(loc), "rustle", 15, 1, -3)
+
+
+
+//reinforcement code, commented out to deactivate.
+//Wooden upgrades are being replaced by spawning a special "wood barricade" on top of the brustwehr instead of upgrading the brustwehr itself now
+/*/obj/structure/brutswehr/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/stack/material/wood))
 		if(!reinforced)
 
@@ -223,7 +338,7 @@
 				density = 1
 				src.overlays += image('icons/obj/sandbags.dmi', "brustwehr_barricadeoverlay", layer=3.1)
 			else
-				to_chat(user, "<span class='notice'>You do not have enough wood to reinforce the brustwehr.</span>")
+				to_chat(user, "<span class='notice'>You do not have enough wood to reinforce the brustwehr.</span>")*/
 
 	/*else if(istype(I, /obj/item/weapon/sandbag))
 		if(!reinforced)
@@ -244,7 +359,7 @@
 			else
 				to_chat(user, "<span class='notice'>The sandbag isn't full enough to reinforce the brustwehr.</span>")*/
 
-	else if(istype(I, /obj/item/weapon/shovel))
+/*	else if(istype(I, /obj/item/weapon/shovel))
 		var/obj/item/weapon/shovel/S = I
 		if(S.ground)
 			to_chat(user, "<span class='notice'>The brustwehr is fully built.</span>")
@@ -282,7 +397,9 @@
 			for(var/i=0, i<5, i++)
 				new /obj/item/weapon/ore/glass(src.loc)
 			src.update_nearby_icons()
-			qdel(src)
+			qdel(src)*/
+
+
 
 /*
 /obj/item/weapon/ore/glass/attack_self(mob/user as mob)
