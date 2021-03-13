@@ -53,7 +53,7 @@
 	throwpass = 1//we can throw grenades despite its density
 	anchored = 1
 	flags = OBJ_CLIMBABLE
-	var/basic_chance = 20
+	var/basic_chance = 35
 	var/health = 200 //Actual health depends on snow layer
 	var/reinforced = 0 //has there been a bridge built?
 
