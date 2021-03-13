@@ -22,6 +22,7 @@
 	desc = "A small saw designed for sawing logs into usable planks."
 	icon_state = "sappersaw"
 	item_state = "saw"
+	w_class = ITEM_SIZE_SMALL
 
 /obj/item/weapon/carpentry/axe
 	name = "woodsman's axe"
@@ -43,3 +44,4 @@
 	desc = "A small axe designed for chopping down large trees."
 	icon_state = "sapperhatchet"
 	item_state = "axe"
+	w_class = ITEM_SIZE_SMALL
