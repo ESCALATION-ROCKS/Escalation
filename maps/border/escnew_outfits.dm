@@ -2135,7 +2135,7 @@
 	uniform = /obj/item/clothing/under/bundesheer/uniformplaceholder/soldat
 	shoes = /obj/item/clothing/shoes/bundesheer/field
 	holster = /obj/item/weapon/storage/belt/holster/heer
-	back_2 = /obj/item/weapon/gun/projectile/automatic/mg3
+	back_2 = /obj/item/weapon/gun/projectile/automatic/mg3/mg74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer/lmg
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
 	head = /obj/item/clothing/head/garcap/bundesheer
@@ -2369,7 +2369,7 @@
 	uniform = /obj/item/clothing/under/bundesheer/uniformplaceholder/soldat
 	holster = /obj/item/weapon/storage/belt/holster/sheath/heer
 	shoes = /obj/item/clothing/shoes/bundesheer/field
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/auga1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	back = /obj/item/weapon/storage/backpack/rpgbritassistant

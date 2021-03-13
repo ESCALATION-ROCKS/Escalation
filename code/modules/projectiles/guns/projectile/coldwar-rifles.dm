@@ -647,7 +647,7 @@
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/fa3
+/obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	name = "G3A3"
 	desc = "A standard-issue Bundeswehr combat rifle. Chambers 7.62x51 rounds."
 	icon_state = "g3a3"

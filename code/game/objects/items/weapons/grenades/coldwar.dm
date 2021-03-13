@@ -61,7 +61,29 @@
 	desc = "A dual purpose grenade used by the Bundeswehr. This one has it's fragmentation jacket on."
 	throw_speed = 3
 	throw_range = 10
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
+	num_fragments = 270  //total number of fragments produced by the grenade
+	explosion_size = 2
+
+///heer//////////////////////
+/////////////////////////////
+/obj/item/weapon/grenade/frag/hdgr78
+	name = "HDGr. 78 grenade"
+	desc = "A dual purpose grenade used by the Bundesheer."
+	icon_state = "hdgr78"
+	throw_speed = 4
+	throw_range = 13
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
+	num_fragments = 190  //total number of fragments produced by the grenade
+	explosion_size = 3
+
+/obj/item/weapon/grenade/frag/hdgr73
+	name = "HDGr. 73 grenade"
+	icon_state = "hdgr73"
+	desc = "An outdated defensive grenade used by the Bundesheer."
+	throw_speed = 3
+	throw_range = 10
+	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/defensive)
 	num_fragments = 270  //total number of fragments produced by the grenade
 	explosion_size = 2
 

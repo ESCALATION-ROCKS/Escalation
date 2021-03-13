@@ -156,6 +156,19 @@
 	update_held_icon()
 	..()
 
+/obj/item/weapon/gun/projectile/automatic/mg3/mg74
+	name = "MG74"
+	desc = "A standard-issue Bundesheer squad support weapon. Chambers 7.62x51 rounds."
+	icon_state = "mg74"
+
+/obj/item/weapon/gun/projectile/automatic/mg3/mg74/update_icon()
+	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b/bdw))
+		icon_state = "mg74[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 100)]"
+	else
+		icon_state = "mg74[cover_opened ? "open" : "closed"]-empty"
+	update_held_icon()
+	..()
+
 /obj/item/weapon/gun/projectile/automatic/m60
 	name = "M60E1"
 	desc = "A standard-issue USMC squad support weapon. Chambers 7.62x51 rounds."
