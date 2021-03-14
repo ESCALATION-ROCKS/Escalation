@@ -21,8 +21,8 @@
 	desc = "[initial(desc)]\nName: [H.real_name]\nBlood type: [H.b_type]"
 
 /obj/item/clothing/accessory/badge/wpdogtag
-	name = "WARPACT dogtag"
-	desc = "A piece of stamped metal containing the identification for a WARPACT soldier."
+	name = "Warsaw Pact dogtag"
+	desc = "A piece of stamped metal containing the identification for a Warsaw Pact soldier."
 	icon_state = "wpdog"
 	icon = 'icons/obj/clothing/ties.dmi'
 	gender = PLURAL

@@ -1,6 +1,6 @@
 /obj/item/weapon/storage/backpack/soviet_tabletbag
 	name = "tablet bag"
-	desc = "A leather tablet bag used by soviet officers and other command staff."
+	desc = "A leather tablet bag used by Warsaw Pact officers and other command staff."
 	icon_state = "sa_officer_satchel"
 	item_state = "sa_officer_satchel"
 	reachable = 1
@@ -584,7 +584,7 @@
 
 /obj/item/weapon/storage/backpack/rpgsa
 	name = "rocket backpack"
-	desc = "A special-purpose backpack used by the WARPACT armies. Can hold two rockets."
+	desc = "A special-purpose backpack used by the Warsaw Pact armies. Can hold two rockets."
 	icon_state = "sa_rpg2"
 	item_state = "sa_rpg"
 	reachable = 1
@@ -596,7 +596,7 @@
 
 /obj/item/weapon/storage/backpack/rpgsaassistant
 	name = "large rocket backpack"
-	desc = "A large special-purpose backpack used by the WARPACT armies. Can hold three rockets."
+	desc = "A large special-purpose backpack used by the Warsaw Pact armies. Can hold three rockets."
 	icon_state = "sa_rpg3"
 	item_state = "sa_rpg"
 	reachable = 1

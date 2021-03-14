@@ -724,8 +724,8 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x54b/csla
-	name = "Vz. 59 belt box (7.62x54mmR)"
-	desc = "A gray Vz.59 belt box that fits one hundred 7.62x54mmR rounds."
+	name = "vz. 59 belt box (7.62x54mmR)"
+	desc = "A gray vz.59 belt box that fits one hundred 7.62x54mmR rounds."
 	icon_state = "vz59"
 	item_state = "mg3_mag"
 	mag_type = MAGAZINE
@@ -737,13 +737,13 @@
 	load_delay = 30
 
 /obj/item/ammo_magazine/c762x54b/csla/ap
-	name = "Vz. 59 AP belt box (7.62x54mmR)"
-	desc = "A gray Vz.59 belt box that fits one hundred armor-piercing 7.62x54mmR rounds."
+	name = "vz. 59 AP belt box (7.62x54mmR)"
+	desc = "A gray vz.59 belt box that fits one hundred armor-piercing 7.62x54mmR rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/c762x54b/csla/tr
-	name = "Vz. 59 tracer belt box (7.62x54mmR)"
-	desc = "A gray Vz.59 belt box that fits one hundred 7.62x54mmR tracer rounds."
+	name = "vz. 59 tracer belt box (7.62x54mmR)"
+	desc = "A gray vz.59 belt box that fits one hundred 7.62x54mmR tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/c762x54b/csla/empty

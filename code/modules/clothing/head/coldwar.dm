@@ -187,7 +187,7 @@
 //NVADDR helmets
 
 /obj/item/clothing/head/helmet/coldwar/csla/vz53
-	name = "Vz.53"
+	name = "vz.53"
 	desc = "A cheap steel helmet used by the CSLA."
 	icon_state = "vz53"
 	armor = list(melee = 58, bullet = 20, laser = 10, energy = 10, bomb = 50, bio = 0, rad = 0)

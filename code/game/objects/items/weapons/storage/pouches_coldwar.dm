@@ -358,7 +358,7 @@
 		/obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr)
 
 /obj/item/weapon/storage/belt/holster/sheath/csla
-	name = "Bodak Vz.58 sheath"
+	name = "Bodak vz.58 sheath"
 	desc = "This sheath can hold a Bodak Vz.58."
 	special_item = /obj/item/weapon/material/knife/bayonet/csla
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
@@ -952,7 +952,7 @@
 /obj/item/weapon/storage/belt/suit/ammo/csla/vz59
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "Vz.59 box pouch"
+	name = "vz.59 box pouch"
 	desc = "Has enough space to hold to hold one box."
 	icon_state = "csla_ammo_lmg"
 	item_state = "csla_ammo_lmg"

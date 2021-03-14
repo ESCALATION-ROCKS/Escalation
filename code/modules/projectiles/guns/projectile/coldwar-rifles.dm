@@ -953,7 +953,7 @@
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58
-	name = "Sa Vz.58"
+	name = "Sa vz.58"
 	desc = "A standard-issue CSLA combat rifle. Chambers 7.62x39 rounds."
 	icon_state = "vz58"
 	item_state = "mpi"
@@ -993,7 +993,7 @@
 		icon_state = "vz58-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
-	name = "Sa Vz.58 V"
+	name = "Sa vz.58 V"
 	desc = "A standard-issue CSLA combat rifle with a folding stock. Chambers 7.62x39 rounds."
 	icon_state = "vz58v"
 	item_state = "mpi"

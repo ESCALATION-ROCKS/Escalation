@@ -361,7 +361,7 @@
 
 
 /obj/item/clothing/under/csla/vz60
-	name = "Vz.60 pattern uniform"
+	name = "vz.60 pattern uniform"
 	desc = "That's the camouflaged field uniform, used by regular CSLA motorized infantry, border guard etc."
 	icon_state = "vz60"
 	worn_state = "vz60"

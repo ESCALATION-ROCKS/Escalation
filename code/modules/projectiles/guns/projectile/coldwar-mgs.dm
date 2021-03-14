@@ -1,5 +1,5 @@
 /obj/item/weapon/gun/projectile/automatic/vz59
-	name = "Vz. 59"
+	name = "UK vz. 59"
 	desc = "A standard-issue CSLA general purpose machine gun. Chambers 7.62x54 rounds."
 	icon_state = "vz59"
 	item_state = "vz59"
@@ -613,7 +613,7 @@
 
 
 /obj/item/weapon/gun/projectile/automatic/cslarpk
-	name = "Sa Vz.58 'Klec'"
+	name = "Sa vz.58 'Klec'"
 	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x39 rounds."
 	icon_state = "cslarpk"
 	item_state = "nvarpk"
