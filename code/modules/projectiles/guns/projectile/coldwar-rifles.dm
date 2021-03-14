@@ -873,7 +873,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1gl
 	name = "AUG A1 w/ M203"
 	desc = "A standard-issue BDH assault rifle with a M203 launcher attached. Chambers 5.56x45 rounds."
-	icon_state = "auga1gl"
+	icon_state = "auggl"
 	item_state = "auggl"
 	w_class = 5
 	load_method = MAGAZINE
@@ -934,10 +934,10 @@
 	..()
 	update_held_icon()
 	if(ammo_magazine)
-		icon_state = "auga1gl"
+		icon_state = "auggl"
 		wielded_item_state = "auggl-wielded"
 	else
-		icon_state = "auga1gl-empty"
+		icon_state = "auggl-empty"
 		wielded_item_state = "auggl-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/verb/set_gp()
