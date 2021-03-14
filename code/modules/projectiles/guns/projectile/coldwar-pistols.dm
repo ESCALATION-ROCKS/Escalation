@@ -214,12 +214,12 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19g
 	allowed_magazines = /obj/item/ammo_magazine/a9x19g
-	fire_sound = 'sound/weapons/gunshot/waltherp1.ogg'
-	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
+	fire_sound = 'sound/weapons/gunshotnew/glock.ogg'
+	unload_sound = 'sound/weapons/gunporn/glock_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/glock_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/glock_cock.ogg'
 	jam_chance = 1
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/glock_dist.ogg'
 
 /obj/item/weapon/gun/projectile/glock17/update_icon()
 	..()

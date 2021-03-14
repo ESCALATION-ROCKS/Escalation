@@ -848,11 +848,11 @@
 	slowdown_general = 0.27
 
 	wielded_item_state = "aug-wielded"
-	fire_sound = 'sound/weapons/gunshot/m16.ogg'
-	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
+	fire_sound = 'sound/weapons/gunshotnew/aug.ogg'
+	unload_sound = 'sound/weapons/gunporn/aug_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/aug_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/aug_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/aug_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20)),
@@ -884,16 +884,16 @@
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 4
-	bayonet_attachable = 1
+	bayonet_attachable = 0
 	accuracy = 3
 	jam_chance = 0.425
 	slowdown_general = 0.27
 	wielded_item_state = "auggl-wielded"
-	fire_sound = 'sound/weapons/gunshot/m16.ogg'
-	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
+	fire_sound = 'sound/weapons/gunshotnew/aug.ogg'
+	unload_sound = 'sound/weapons/gunporn/aug_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/aug_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/aug_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/aug_dist.ogg'
 
 	var/use_launcher = FALSE
 	var/obj/item/weapon/gun/launcher/grenade/underslung/m203/launcher
