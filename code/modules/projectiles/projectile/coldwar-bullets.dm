@@ -289,6 +289,7 @@
 	penetrating = 0
 	kill_count = 40
 	fire_sound = null//here we gonna use sound in AGS and not in bullets
+	var/ricochetchance = 0
 
 	muzzle_type = /obj/effect/projectile/rocket/rpg
 	breech_type = /obj/effect/projectile/rocket/rpg/breech

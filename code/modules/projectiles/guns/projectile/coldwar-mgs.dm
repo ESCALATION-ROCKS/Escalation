@@ -73,8 +73,10 @@
 /obj/item/weapon/gun/projectile/automatic/vz59/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x54b/csla))
 		icon_state = "vz59[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		wielded_item_state = "vz59-wielded"
 	else
 		icon_state = "vz59[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "vz59-wielded-empty"
 	update_held_icon()
 	..()
 
@@ -151,8 +153,11 @@
 /obj/item/weapon/gun/projectile/automatic/mg3/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b/bdw))
 		icon_state = "mg3[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 100)]"
+		wielded_item_state = "mg3-wielded"
+	
 	else
 		icon_state = "mg3[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "mg3-wielded-empty"
 	update_held_icon()
 	..()
 
@@ -229,8 +234,10 @@
 /obj/item/weapon/gun/projectile/automatic/mg74/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b/bdw))
 		icon_state = "mg74[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 100)]"
+		wielded_item_state = "mg3-wielded"
 	else
 		icon_state = "mg74[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "mg3-wielded-empty"
 	update_held_icon()
 	..()
 
@@ -308,8 +315,10 @@
 /obj/item/weapon/gun/projectile/automatic/m60/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
 		icon_state = "m60[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		wielded_item_state = "m60-wielded"
 	else
 		icon_state = "m60[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "m60-wielded-empty"
 	..()
 
 /* this thing needs to accept 30-20 rnd STANAG mags too*/
@@ -385,8 +394,10 @@
 /obj/item/weapon/gun/projectile/automatic/xm249/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
 		icon_state = "xm249[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		wielded_item_state = "m60-wielded"
 	else
 		icon_state = "xm249[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "m60-wielded-empty"
 	..()
 
 //true kalashnikov's machinegun - standart soviet lmg
@@ -466,8 +477,10 @@
 /obj/item/weapon/gun/projectile/automatic/pkm/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x54b))
 		icon_state = "pkm[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		wielded_item_state = "pkm-wielded"
 	else
 		icon_state = "pkm[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "pkm-wielded-empty"
 	update_held_icon()
 	..()
 
@@ -547,57 +560,13 @@
 /obj/item/weapon/gun/projectile/automatic/l7a2/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x54b))
 		icon_state = "l7a2[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		wielded_item_state = "l7a2-wielded"
 	else
 		icon_state = "l7a2[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "l7a2-wielded-empty"
 	update_held_icon()
 	..()
 
-
-//heavily ak-74 version, have a little bit faster bullets and larger barrel - ~750m\sec against of ak's 715m\sec
-//have bipods on bayonet's slot
-/obj/item/weapon/gun/projectile/automatic/rpk74
-	name = "RPK-74"
-	desc = "A standard-issue Soviet Army squad support weapon. Chambers 5.45x39 rounds."
-	icon_state = "rpk74"
-	item_state = "rpk"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
-	w_class = 5
-	force = 15
-	max_shells = 45
-	caliber = "545x39"
-	ammo_type = /obj/item/ammo_casing/a545x39
-	load_method = MAGAZINE
-	magazine_type = null
-	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
-	one_hand_penalty = 6
-	accuracy = 3.1
-	wielded_item_state = "rpk-wielded"
-	slowdown_general = 0.45
-	jam_chance = 0.3
-
-	fire_sound = 'sound/weapons/gunshot/rpk74.ogg'
-	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
-
-
-	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3.5,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.5, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.1, 0.2, 0.4),                 automatic = 0.5),
-		)
-
-/obj/item/weapon/gun/projectile/automatic/rpk74/update_icon()
-	..()
-	if(ammo_magazine)
-		icon_state = "rpk74"
-	else
-		icon_state = "rpk74-empty"
-	update_held_icon()
-
-
-//heavily ak-74 version, have a little bit faster bullets and larger barrel - ~750m\sec against of ak's 715m\sec
-//have bipods on bayonet's slot
 /obj/item/weapon/gun/projectile/automatic/nvarpk
 	name = "LMG-K"
 	desc = "A standard-issue Nationale Volksarmee squad support weapon. Chambers 7.62x39 rounds."
@@ -632,13 +601,16 @@
 
 /obj/item/weapon/gun/projectile/automatic/nvarpk/update_icon()
 	..()
+	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "nvarpk"
 		wielded_item_state = "nvarpk-wielded"
 	else
 		icon_state = "nvarpk-empty"
 		wielded_item_state = "nvarpk-wielded-empty"
-	update_held_icon()
+
+
+
 
 /obj/item/weapon/gun/projectile/automatic/cslarpk
 	name = "Sa Vz.58 'Klec'"
@@ -674,13 +646,13 @@
 
 /obj/item/weapon/gun/projectile/automatic/cslarpk/update_icon()
 	..()
+	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "cslarpk"
 		wielded_item_state = "nvarpk-wielded"
 	else
 		icon_state = "cslarpk-empty"
 		wielded_item_state = "nvarpk-wielded-empty"
-	update_held_icon()
 
 
 /obj/item/weapon/gun/projectile/automatic/rpd
@@ -758,8 +730,10 @@
 /obj/item/weapon/gun/projectile/automatic/rpd/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x39d))
 		icon_state = "rpd[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 100)]"
+		wielded_item_state = "rpd-wielded"
 	else
 		icon_state = "rpd[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "rpd-wielded-empty"
 	update_held_icon()
 	..()
 
@@ -838,7 +812,51 @@
 /obj/item/weapon/gun/projectile/automatic/kk62/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x39v))
 		icon_state = "kk62[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 100)]"
+		wielded_item_state = "kk62-wielded"
 	else
 		icon_state = "kk62[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "kk62-wielded-empty"
 	update_held_icon()
 	..()
+
+/obj/item/weapon/gun/projectile/automatic/sarpk
+	name = "RPK-74"
+	desc = "A standard-issue Soviet Army squad support weapon. Chambers 5.45x39 rounds."
+	icon_state = "sarpk"
+	item_state = "rpk"
+	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	w_class = 5
+	force = 15
+	max_shells = 75
+	caliber = "545x39"
+	ammo_type = /obj/item/ammo_casing/a545x39
+	load_method = MAGAZINE
+	magazine_type = null
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
+	one_hand_penalty = 6
+	accuracy = 3.1
+	wielded_item_state = "rpk-wielded"
+	slowdown_general = 0.45
+	jam_chance = 0.220
+
+	fire_sound = 'sound/weapons/gunshot/rpk74.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
+
+
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=3.5,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.5, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.1, 0.2, 0.4),              automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/sarpk/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "sarpk"
+		wielded_item_state = "rpk-wielded"
+	else
+		icon_state = "sarpk-empty"
+		wielded_item_state = "rpk-wielded-empty"

@@ -171,7 +171,7 @@
 	uniform = /obj/item/clothing/under/soviet/habe/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rpk74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/sarpk
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	back = /obj/item/weapon/storage/backpack/gassoviet
