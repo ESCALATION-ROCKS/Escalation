@@ -404,32 +404,32 @@
 //////////csla
 /obj/item/clothing/accessory/insignia/csla/svobodnik
 	name = "Svobodnik insignia"
-	icon_state = "vpp_patrolman"
-	rank = "Svobodník"
+	icon_state = "nnaddr_soldat"
+	rank = "Svobodnik"
 
 /obj/item/clothing/accessory/insignia/csla/desatnik
 	name = "Desatnik insignia"
-	icon_state = "vpp_patrolman"
+	icon_state = "nnaddr_obergefreiter"
 	rank = "Desatnik"
 
 /obj/item/clothing/accessory/insignia/csla/cetar
 	name = "Cetar insignia"
-	icon_state = "vpp_sergeant"
+	icon_state = "nnaddr_unteroffizier"
 	rank = "Cetar"
 
 /obj/item/clothing/accessory/insignia/csla/rotny
 	name = "Rotny insignia"
-	icon_state = "provgov_staffsergeant"
+	icon_state = "nnaddr_unteroffizier"
 	rank = "Rotny"
 
 /obj/item/clothing/accessory/insignia/csla/subleutnant
 	name = "Subleutnant insignia"
-	icon_state = "provgov_junlieutenant"
+	icon_state = "nnaddr_feldwebel"
 	rank = "Subleutnant"
 
 /obj/item/clothing/accessory/insignia/csla/leutnant
 	name = "Leutnant insignia"
-	icon_state = "provgov_lieutenant"
+	icon_state = "nnaddr_leutnant"
 	rank = "Leutnant"
 
 //Storage Accessories
