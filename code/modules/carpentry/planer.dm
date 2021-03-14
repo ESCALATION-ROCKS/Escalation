@@ -41,17 +41,17 @@
 
 
 /obj/item/stack/material/r_wood
-	name = "unprocessed wooden planks"
+	name = "wooden planks"
 //	desc = "A bunch of unprocessed wood planks."
 	icon = 'icons/obj/wood.dmi'
 	icon_state = "planks"
-	singular_name = "unprocessed wood plank"
+	singular_name = "wood plank"
 	default_type = "wood"
 
 /obj/item/stack/material/r_wood/New()
 	..()
-	name = "unprocessed wooden planks"
-	singular_name = "unprocessed wood plank"
+	name = "wooden planks"
+	singular_name = "wood plank"
 
 /obj/item/stack/material/r_wood/attack_self(var/mob/user)
 	return

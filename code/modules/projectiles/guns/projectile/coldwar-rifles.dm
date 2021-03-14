@@ -661,7 +661,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 3
+	accuracy = 2.9
 	screen_shake = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1

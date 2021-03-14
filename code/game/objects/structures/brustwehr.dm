@@ -288,9 +288,9 @@
 
 		if(istype(I, /obj/item/stack/material/r_wood)) //wood from cutting trees
 			var/obj/item/stack/material/r_wood/R = I
-			if(R.amount >= 3)
+			if(R.amount >= 9)
 				var /obj/machinery/deployable/brutswehr_cade/W = new(src.loc)
-				R.use(3)
+				R.use(9)
 				W.throwpass = 0
 				playsound(get_turf(loc), "rustle", 15, 1, -3)
 

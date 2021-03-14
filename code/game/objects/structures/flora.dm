@@ -8,7 +8,7 @@
 	pixel_x = -16
 	plane = ABOVE_HUMAN_PLANE
 	layer = ABOVE_HUMAN_LAYER
-	var/chops = 0 //how many times it's been chopped. Gotta make them work for it!
+	var/chops = 3 //how many times it's been chopped. Gotta make them work for it!
 	var/small = 0
 	mouse_opacity = 0
 
@@ -40,9 +40,7 @@
 
 			playsound(src.loc, 'sound/effects/treefalling.ogg', 100, 1)
 
-			new /obj/structure/log(get_step(src, NORTH))
-			new /obj/structure/log(src.loc)
-			var/obj/structure/log/L = new /obj/structure/log(get_step(src, NORTH))
+			var/obj/structure/log/L = new /obj/structure/log(src.loc)
 
 			L.y += 1
 
@@ -60,12 +58,12 @@
 	if(istype(I, /obj/item/weapon/carpentry/saw))
 		user << "<span class='notice'>You saw the [src] with [I].</span>"
 
-		if(do_after(user, 20))
+		if(do_after(user, 80))
 
 			var/obj/item/stack/material/r_wood/W = new /obj/item/stack/material/r_wood(src.loc)
 
 			W.pixel_y = src.pixel_y
-			W.amount = rand(3,6) //going to mess with this value for a while, we'll see
+			W.amount = rand(3) //going to mess with this value for a while, we'll see
 
 			qdel(src)
 

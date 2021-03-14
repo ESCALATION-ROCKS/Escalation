@@ -192,7 +192,7 @@ var/list/gamemode_cache = list()
 	var/ooc_allowed = 0
 	var/looc_allowed = 0
 	var/ahelp_allowed = 1
-	var/dooc_allowed = 0
+	var/dooc_allowed = 1
 	var/dsay_allowed = 1
 	var/aooc_allowed = 0
 

@@ -10,10 +10,6 @@
 	display_name = "deck of cards"
 	path = /obj/item/weapon/deck/cards
 
-/datum/gear/thermos
-	display_name = "thermos"
-	path = /obj/item/weapon/reagent_containers/food/drinks/flask/vacuumflask
-
 /datum/gear/comb
 	display_name = "purple comb"
 	path = /obj/item/weapon/haircomb

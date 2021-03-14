@@ -1,8 +1,8 @@
-/datum/gear/clothing
+/*/datum/gear/clothing
 	sort_category = "Clothing"
 	category = /datum/gear/clothing
 
-/*/datum/gear/clothing/gloves/leather
+/datum/gear/clothing/gloves/leather
 	display_name = "leather gloves"
 	slot = slot_gloves
 	path = /obj/item/clothing/gloves/bdw
@@ -28,7 +28,7 @@
 /datum/gear/clothing/mask/balaclava
 	display_name = "balaclava"
 	slot = slot_wear_mask
-	path = /obj/item/clothing/mask/balaclava */
+	path = /obj/item/clothing/mask/balaclava
 
 /datum/gear/clothing/hats/hbg
 	display_name = "headband, green"
@@ -38,4 +38,4 @@
 /datum/gear/clothing/hats/hbr
 	display_name = "headband, red"
 	slot = slot_head
-	path = 	/obj/item/clothing/head/headband/red
+	path = 	/obj/item/clothing/head/headband/red*/

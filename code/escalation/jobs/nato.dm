@@ -732,8 +732,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwsapper
-	title = "BDW Ingenieurschutze"
-	name = "Ingenieurschutze"
+	title = "BDW Pioneer"
+	name = "Pioneer"
 	english_name = "Sapper"
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1178,8 +1178,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/heer/heersapper
-	title = "BDH Ingenieurschutze"
-	name = "Ingenieurschutze"
+	title = "BDH Pioneer"
+	name = "Pioneer"
 	english_name = "Sapper"
 	minimal_player_age = 21
 	economic_modifier = 5

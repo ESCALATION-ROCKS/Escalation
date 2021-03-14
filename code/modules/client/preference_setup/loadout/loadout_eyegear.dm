@@ -1,4 +1,4 @@
-/datum/gear/eyes
+/*/datum/gear/eyes
 	sort_category = "Glasses and Eyewear"
 	category = /datum/gear/eyes
 	slot = slot_glasses
@@ -7,7 +7,7 @@
 	display_name = "prescription glasses"
 	path = /obj/item/clothing/glasses/regular
 
-/*/datum/gear/eyes/glasses/hippie
+/datum/gear/eyes/glasses/hippie
 	display_name = "Hippie glasses"
 	path = /obj/item/clothing/glasses/hippie
 
