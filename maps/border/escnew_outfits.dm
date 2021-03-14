@@ -22,7 +22,7 @@
 //SOVIET ARMY --------- SUMMER MAERSION (WINTER BELOW)
 /decl/hierarchy/outfit/job/coldwar/soviet/komvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Komandir Vzvoda")
-	uniform = /obj/item/clothing/under/soviet/habe/lt
+	uniform = /obj/item/clothing/under/soviet/afghanka/lt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
@@ -36,7 +36,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Zamestitel' Komandira Vzvoda")
-	/obj/item/clothing/under/soviet/habe/star
+	/obj/item/clothing/under/soviet/afghanka/star
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
@@ -50,13 +50,13 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/komod
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Komandir Otdeleniya")
-	uniform = /obj/item/clothing/under/soviet/habe/sgt
+	uniform = /obj/item/clothing/under/soviet/afghanka/sgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	r_pocket = /obj/item/weapon/key/wpnco
 	l_ear = /obj/item/device/binoculars/wp
@@ -64,7 +64,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomod
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Zamestitel' Komandir Otdeleniya")
-	uniform = /obj/item/clothing/under/soviet/habe/jsgt
+	uniform = /obj/item/clothing/under/soviet/afghanka/jsgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -79,7 +79,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/strifle
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Starshiy Strelok")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -91,7 +91,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/sanitar
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Sanitar")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/field
 	back_2 = /obj/item/weapon/storage/backpack/summedsan
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -104,7 +104,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Platoon MG")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	head = /obj/item/clothing/head/garcap/soviet
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sa
@@ -116,7 +116,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/platmgass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Platoon MG Assistant")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/storage/backpack/gassoviet
@@ -130,7 +130,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/strelok
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Strelok")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -143,7 +143,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/sapper
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Sapper")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -156,7 +156,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/sniper
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Snaiper")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/svd
@@ -168,7 +168,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet MG")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/sarpk
@@ -180,7 +180,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/mgass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet MG Assistant")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	back = /obj/item/weapon/storage/backpack/gassoviet
@@ -194,7 +194,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/rocket
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet RPG")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
@@ -208,7 +208,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/rocketass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet RPG Assistant")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -221,7 +221,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/radio
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Radio Operator")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/radioset/r105d
@@ -238,7 +238,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Doctor")
-	uniform = /obj/item/clothing/under/soviet/habe/mllt
+	uniform = /obj/item/clothing/under/soviet/afghanka/mllt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	back_2 = /obj/item/weapon/storage/backpack/wp_surg
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -250,7 +250,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/starshina
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Starshina")
-	uniform = /obj/item/clothing/under/soviet/habe/prap
+	uniform = /obj/item/clothing/under/soviet/afghanka/prap
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
@@ -263,7 +263,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zampolit
 	name = OUTFIT_JOB_NAME("Coldwar - Zampolit")
-	uniform = /obj/item/clothing/under/soviet/habe/mllt
+	uniform = /obj/item/clothing/under/soviet/afghanka/mllt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/aps
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
@@ -274,7 +274,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_com
 	name = OUTFIT_JOB_NAME("Coldwar - OTV Commander")
-	uniform = /obj/item/clothing/under/soviet/habe/jsgt
+	uniform = /obj/item/clothing/under/soviet/afghanka/jsgt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -289,7 +289,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_load
 	name = OUTFIT_JOB_NAME("Coldwar - OTV Loader")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -302,7 +302,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_oper
 	name = OUTFIT_JOB_NAME("Coldwar - OTV Operator")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -905,7 +905,7 @@
 /*//SOVIET ARMY --------- WINTER MAP VERSION (SUMMER ABOVE)
 /decl/hierarchy/outfit/job/coldwar/soviet/komvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Komandir Vzvoda")
-	uniform = /obj/item/clothing/under/soviet/habe/lt
+	uniform = /obj/item/clothing/under/soviet/afghanka/lt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
@@ -920,7 +920,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Zamestitel' Komandira Vzvoda")
-	uniform = /obj/item/clothing/under/soviet/habe/ssgt
+	uniform = /obj/item/clothing/under/soviet/afghanka/ssgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
@@ -936,7 +936,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/komod
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Komandir Otdeleniya")
-	uniform = /obj/item/clothing/under/soviet/habe/sgt
+	uniform = /obj/item/clothing/under/soviet/afghanka/sgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
@@ -951,7 +951,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomod
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Zamestitel' Komandir Otdeleniya")
-	uniform = /obj/item/clothing/under/soviet/habe/ssgt
+	uniform = /obj/item/clothing/under/soviet/afghanka/ssgt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -965,7 +965,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/strifle
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Starshiy Strelok")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -978,7 +978,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/sanitar
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Sanitar")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/field
 	back_2 = /obj/item/weapon/storage/backpack/summedsan
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -992,7 +992,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Platoon MG")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/pkm
@@ -1005,7 +1005,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/platmgass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Platoon MG Assistant")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/storage/backpack/gassoviet
@@ -1020,7 +1020,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/strelok
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Strelok")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -1034,7 +1034,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/sniper
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Snaiper")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/svd
@@ -1047,7 +1047,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet MG")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rpk74
@@ -1060,7 +1060,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/mgass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet MG Assistant")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	back = /obj/item/weapon/storage/backpack/gassoviet
@@ -1075,7 +1075,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/rocket
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet RPG")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
@@ -1090,7 +1090,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/rocketass
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet RPG Assistant")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -1104,7 +1104,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/radio
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Radio Operator")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/radioset/r105d
@@ -1122,7 +1122,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Doctor")
-	uniform = /obj/item/clothing/under/soviet/habe/mllt
+	uniform = /obj/item/clothing/under/soviet/afghanka/mllt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	back_2 = /obj/item/weapon/storage/backpack/summedsan
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -1135,7 +1135,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/starshina
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Starshina")
-	uniform = /obj/item/clothing/under/soviet/habe/prap
+	uniform = /obj/item/clothing/under/soviet/afghanka/prap
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
@@ -1148,7 +1148,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zampolit
 	name = OUTFIT_JOB_NAME("Coldwar - Zampolit")
-	uniform = /obj/item/clothing/under/soviet/habe/mllt
+	uniform = /obj/item/clothing/under/soviet/afghanka/mllt
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/aps
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
@@ -1160,7 +1160,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_com
 	name = OUTFIT_JOB_NAME("Coldwar - OTV Commander")
-	uniform = /obj/item/clothing/under/soviet/habe/jsgt
+	uniform = /obj/item/clothing/under/soviet/afghanka/jsgt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -1176,7 +1176,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_load
 	name = OUTFIT_JOB_NAME("Coldwar - OTV Loader")
-	uniform = /obj/item/clothing/under/soviet/habe/gefr
+	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
@@ -1190,7 +1190,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_oper
 	name = OUTFIT_JOB_NAME("Coldwar - OTV Operator")
-	uniform = /obj/item/clothing/under/soviet/habe/pvt
+	uniform = /obj/item/clothing/under/soviet/afghanka/pvt
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
