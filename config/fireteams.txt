@@ -196,15 +196,15 @@ Gruppe 'Foxtrot':heer
 @END@
 
 SwG. I:heer
-/datum/job/escalation/heer/hwscom
-/datum/job/escalation/heer/hwsop
-/datum/job/escalation/heer/hwsload
+/datum/job/escalation/heer/heerhwscom
+/datum/job/escalation/heer/heerhwsop
+/datum/job/escalation/heer/heerhwsload
 @END@
 
 PzfG. I:heer
-/datum/job/escalation/heer/atlead
-/datum/job/escalation/heer/atgun
-/datum/job/escalation/heer/atasst
+/datum/job/escalation/heer/heeratlead
+/datum/job/escalation/heer/heeratgun
+/datum/job/escalation/heer/heeratasst
 @END@
 
 ###US ARMY###
