@@ -612,8 +612,8 @@
 	icon_state = "pillbox"
 	icon = 'icons/obj/medical.dmi'
 	w_class = 2
-	max_w_class = 1
-	max_storage_space = 5
+	max_w_class = 2
+	max_storage_space = 4
 	can_hold = list(/obj/item/weapon/pill_pack/)
 
 
@@ -801,7 +801,7 @@
 	name = "ampoule pack"
 	desc = "That's an ampoule pack."
 	icon = 'icons/obj/medical.dmi'
-	w_class = 1
+	w_class = 2
 	icon_state = "ampoule_pack"
 	var/ampoule_type = null
 
@@ -910,8 +910,8 @@
 	icon_state = "ampoulebox"
 	icon = 'icons/obj/medical.dmi'
 	w_class = 2
-	max_w_class = 1
-	max_storage_space = 2
+	max_w_class = 2
+	max_storage_space = 4
 	can_hold = list(/obj/item/weapon/ampoule_pack/)
 
 /obj/item/weapon/storage/box/ampoule_box/aminocaproic
