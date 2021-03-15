@@ -194,6 +194,7 @@
 		/obj/item/ammo_magazine/a9x19b,
 		/obj/item/ammo_magazine/a9x18,
 		/obj/item/ammo_magazine/cz9x18,
+		/obj/item/ammo_magazine/a9x19g,
 		/obj/item/ammo_magazine/a45,
 		/obj/item/weapon/storage/fancy/cigarettes,
 		/obj/item/weapon/flame/lighter/,

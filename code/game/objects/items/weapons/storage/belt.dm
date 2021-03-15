@@ -354,7 +354,7 @@
 /obj/item/weapon/storage/belt/harness/heer
 	name = "bundesheer harness"
 	desc = "A generic harness used by Bundesheer."
-	icon_state = "bdw_harness"
+	icon_state = "heer_harness"
 	item_state = "bdw_harness"
 	show_above_suit = 1
 	storage_slots = 3
