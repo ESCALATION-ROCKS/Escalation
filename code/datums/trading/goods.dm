@@ -266,7 +266,7 @@
 								  /obj/item/weapon/bonesetter = TRADER_THIS_TYPE,
 								  /obj/item/weapon/reagent_containers/glass/bottle/talotropine = TRADER_THIS_TYPE,
 								  /obj/item/weapon/reagent_containers/glass/bottle/tetracetam = TRADER_THIS_TYPE,
-								  /obj/item/weapon/reagent_containers/glass/bottle/naltamine = TRADER_THIS_TYPE,
+								  /obj/item/weapon/reagent_containers/glass/bottle/naloxone = TRADER_THIS_TYPE,
 								  /obj/item/weapon/reagent_containers/glass/bottle/morphine = TRADER_THIS_TYPE,
 								  /obj/item/weapon/reagent_containers/glass/bottle/doxycycline = TRADER_THIS_TYPE,
 								  /obj/item/suture = TRADER_THIS_TYPE,
