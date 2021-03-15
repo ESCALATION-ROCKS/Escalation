@@ -2136,7 +2136,7 @@
 /decl/hierarchy/outfit/escalation/nato/heer/rifleman
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Rifleman")
 	uniform = /obj/item/clothing/under/bundesheer/flecktarn/soldat
-	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
+	holster = /obj/item/weapon/storage/belt/holster/sheath/heer
 	shoes = /obj/item/clothing/shoes/bundesheer/field
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/auga1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
