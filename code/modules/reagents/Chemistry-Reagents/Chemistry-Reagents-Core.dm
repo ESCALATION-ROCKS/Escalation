@@ -136,10 +136,12 @@
 	M.adjustToxLoss(2 * removed)
 
 /datum/reagent/water/affect_ingest(var/mob/living/carbon/M, var/alien, var/removed)
-	M.hydratation += hydratation * removed
+	if(M.hydratation < 1000)
+		M.hydratation += hydratation * removed
 	if(!istype(M, /mob/living/carbon/slime) && alien != IS_SLIME)
 		return
 	M.adjustToxLoss(2 * removed)
+
 
 /datum/reagent/water/touch_turf(var/turf/simulated/T)
 	if(!istype(T))
