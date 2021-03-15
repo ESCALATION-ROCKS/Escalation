@@ -971,7 +971,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 2.6
+	accuracy = 2.5
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/csla
 	bayonet_attachable = 1
 	jam_chance = 0.36
@@ -985,7 +985,7 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto", burst=1, fire_delay=3.8, move_delay=null, one_hand_penalty=3, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.1), automatic = 0),
+		list(mode_name="semiauto", burst=1, fire_delay=3.8, move_delay=null, one_hand_penalty=3, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
 		list(mode_name="automatic", burst=1, fire_delay=0.7, move_delay=2, one_hand_penalty=4, burst_accuracy=null, dispersion=list(0.15, 0.25, 0.45), automatic = 0.5),
 		)
 
@@ -1011,7 +1011,7 @@
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 5
-	accuracy = 2.5
+	accuracy = 2.6
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/csla
 	bayonet_attachable = 1
 	jam_chance = 0.36
