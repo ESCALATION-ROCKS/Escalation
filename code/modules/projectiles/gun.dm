@@ -50,7 +50,7 @@
 	time_to_unequip = 5
 	origin_tech = list(TECH_COMBAT = 1)
 	attack_verb = list("struck", "hit", "bashed")
-	zoomdevicename = "iron sights"
+	zoomdevicename = "scope"
 
 	var/empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 	var/burst = 1
