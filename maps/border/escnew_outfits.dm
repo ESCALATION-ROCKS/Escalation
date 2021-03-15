@@ -29,14 +29,16 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/soviet/officer
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	l_pocket = /obj/item/weapon/masterkey/wppl
 	r_pocket = null
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa/
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zamkomvzv
 	name = OUTFIT_JOB_NAME("Coldwar - Zamestitel' Komandira Vzvoda")
-	/obj/item/clothing/under/soviet/afghanka/star
+	uniform = /obj/item/clothing/under/soviet/afghanka/star
 	shoes = /obj/item/clothing/shoes/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
@@ -45,6 +47,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	r_pocket = /obj/item/weapon/masterkey/wppl
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
@@ -58,6 +61,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/soviet/cap/afghanka
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
 	r_pocket = /obj/item/weapon/key/wpnco
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -72,6 +76,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	r_pocket = null
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	head = /obj/item/clothing/head/garcap/soviet
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -85,6 +90,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	head = /obj/item/clothing/head/garcap/soviet
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -97,6 +103,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/medic
 	head = /obj/item/clothing/head/garcap/soviet
 	l_pocket = /obj/item/weapon/key/wpmed
 	r_pocket = null
@@ -110,6 +117,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/pkm
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -120,6 +128,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back = /obj/item/weapon/storage/backpack/gassoviet
+	r_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
@@ -134,6 +143,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -148,6 +158,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	back = /obj/item/weapon/storage/backpack/gassoviet
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/sa
@@ -161,6 +172,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	back = /obj/item/weapon/storage/backpack/gassoviet
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	head = /obj/item/clothing/head/garcap/soviet
@@ -174,6 +186,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/sarpk
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -184,11 +197,11 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	back = /obj/item/weapon/storage/backpack/gassoviet
-	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	r_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/rpk
 	r_pocket = null
-	back = /obj/item/weapon/storage/backpack/gassoviet
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
@@ -201,6 +214,7 @@
 	back = /obj/item/weapon/storage/backpack/rpgsa
 	r_pocket = null
 	l_hand = /obj/item/weapon/gun/launcher/rpg7
+	r_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/garcap/soviet
@@ -215,6 +229,7 @@
 	back = /obj/item/weapon/storage/backpack/rpgsaassistant
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	r_pocket = null
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -227,6 +242,7 @@
 	back = /obj/item/weapon/radioset/r105d
 	back_2 = /obj/item/weapon/storage/backpack/gassoviet
 	r_pocket = null
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/garcap/soviet
@@ -284,6 +300,7 @@
 	head = /obj/item/clothing/head/soviet/cap/afghanka
 	l_hand = /obj/item/weapon/maptool
 	r_pocket = null
+	r_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
@@ -297,6 +314,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
@@ -310,6 +328,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	r_pocket = null
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
@@ -493,7 +512,6 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/nva
 	back_2 = /obj/item/weapon/storage/backpack/wp_surg
 	left_pouch = null
-	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/medic
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	l_pocket = /obj/item/weapon/masterkey/wpsurgeon
 	head = /obj/item/clothing/head/garcap/nvaddr
@@ -590,7 +608,7 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/nvaddr
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
-	r_hand = /obj/item/weapon/maptool
+	l_pocket = /obj/item/weapon/maptool
 	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/foliage
 	r_pocket = /obj/item/weapon/key/wpnco
 	l_ear = /obj/item/device/binoculars/wp
@@ -783,7 +801,6 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	back_2 = /obj/item/weapon/storage/backpack/wp_surg
 	left_pouch = null
-	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/medic
 	holster = /obj/item/weapon/storage/belt/holster/csla
 	l_pocket = /obj/item/weapon/masterkey/wpsurgeon
 	head = /obj/item/clothing/head/garcap/csla
@@ -806,12 +823,13 @@
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon Leader Deputy")
 	uniform = /obj/item/clothing/under/csla/vz60/subleutnant
 	holster = /obj/item/weapon/storage/belt/holster/csla
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/csla
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/ugrenades
 	r_pocket = /obj/item/weapon/masterkey/wppl
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/csla/
@@ -822,7 +840,8 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	l_pocket = /obj/item/weapon/masterkey/wppl
 	r_pocket = null
@@ -868,7 +887,7 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/fieldcap/csla
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
-	r_hand = /obj/item/weapon/maptool
+	l_pocket = /obj/item/weapon/maptool
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage
 	r_pocket = /obj/item/weapon/key/wpnco
 	l_ear = /obj/item/device/binoculars/wp
@@ -1362,7 +1381,6 @@
 	left_pouch = null
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	l_pocket = /obj/item/weapon/masterkey/wpsurgeon
-	r_pocket = /obj/item/weapon/storage/box/pill_box/angiotensin
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 /decl/hierarchy/outfit/job/coldwar/finn/quart
@@ -1670,7 +1688,6 @@
 	l_pocket = /obj/item/weapon/masterkey/natosurgeon
 	r_pocket = null
 	belt = /obj/item/weapon/storage/belt/usmc
-	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/medic
 
 /decl/hierarchy/outfit/job/coldwar/usmc/platlead
 	name = OUTFIT_JOB_NAME("Coldwar - Platoon Leader")
@@ -1807,7 +1824,7 @@
 	uniform = /obj/item/clothing/under/usmc/woodland/alt/lcpl
 	shoes = /obj/item/clothing/shoes/usmc/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/m16a1
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/xm177
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
@@ -2248,7 +2265,6 @@
 	head = /obj/item/clothing/head/usmc/cap/bundesheer
 	l_pocket = /obj/item/weapon/masterkey/natosurgeon
 	belt = /obj/item/weapon/storage/belt/heer
-	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1/medic
 
 /decl/hierarchy/outfit/escalation/nato/heer/platlead
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Platoon Leader")

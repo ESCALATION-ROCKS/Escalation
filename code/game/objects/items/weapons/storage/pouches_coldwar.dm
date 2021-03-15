@@ -635,8 +635,8 @@
 /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "US machinegun box pouch"
-	desc = "Has enough space to hold one machinegun belt box."
+	name = "US SAW box pouch"
+	desc = "Has enough space to hold one SAW belt box."
 	icon_state = "usmc_ammo_lmg"
 	item_state = "usmc_ammo_lmg"
 	open_delay = 5

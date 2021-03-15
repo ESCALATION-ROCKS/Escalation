@@ -214,7 +214,7 @@
 	jam_chance = 0.285
 	slowdown_general = 0.27
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
-	bayonet_attachable = 1
+	bayonet_attachable = 0
 	wielded_item_state = "aks-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
 	unload_sound = 'sound/weapons/gunporn/aks74u_magout.ogg'

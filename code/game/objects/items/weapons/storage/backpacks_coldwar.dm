@@ -185,7 +185,7 @@
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmcm3/surgeon
-	name = "M3 medical pack"
+	name = "M3 surgeon satchel"
 	desc = "A sturdy Vietnam era satchel used by U.S. surgeons."
 	icon_state = "m3pack"
 	item_state = "m3pack"
