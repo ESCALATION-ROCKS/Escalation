@@ -119,7 +119,6 @@
 
 /obj/item/weapon/gauze_pack/ipp
 	name = "'IPP'"
-	singular_name = "gauze length"
 	desc = "That's the Individualniy Perevyazochniy Paket. Contains sterile gauze."
 	w_class = 1
 	icon_state = "bint_pack"
@@ -133,7 +132,6 @@
 
 /obj/item/weapon/gauze_pack/gauze
 	name = "M56 bandage pack"
-	singular_name = "gauze length"
 	desc = "Contains sterile gauze."
 	w_class = 1
 	icon_state = "gauze_pack"
@@ -414,16 +412,16 @@
 		..()
 		reagents.add_reagent(/datum/reagent/salbutamol, 10)
 
-/obj/item/weapon/reagent_containers/pill/ethaperazine
-	name = "ethaperazine pill (10u)"
+/obj/item/weapon/reagent_containers/pill/lorazepam
+	name = "lorazepam pill (10u)"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	icon_state = "pill7"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/ethaperazine, 10)
+		reagents.add_reagent(/datum/reagent/lorazepam, 10)
 
 /obj/item/weapon/reagent_containers/pill/doxycycline
-	name = "doxycyclinee pill (10u)"
+	name = "doxycycline pill (10u)"
 	desc = "A broad spectrum antibiotic to fight against infections. Do NOT administer more than 15u."
 	icon_state = "green"
 	New()
@@ -446,13 +444,13 @@
 		..()
 		reagents.add_reagent(/datum/reagent/paracetamol, 10)
 
-/obj/item/weapon/reagent_containers/pill/promethazine
-	name = "promethazine pill (10u)"
+/obj/item/weapon/reagent_containers/pill/rohypnol
+	name = "rohypnol pill (10u)"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
 	icon_state = "pill18"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/promethazine, 10)
+		reagents.add_reagent(/datum/reagent/rohypnol, 10)
 
 /obj/item/weapon/reagent_containers/pill/morphine
 	name = "morphine pill (5u)"
@@ -462,13 +460,13 @@
 		..()
 		reagents.add_reagent(/datum/reagent/morphine, 5)
 
-/obj/item/weapon/reagent_containers/pill/amidopyrinum
-	name = "amidopyrinum pill"
+/obj/item/weapon/reagent_containers/pill/fentanyl
+	name = "fentanyl pill"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
 	icon_state = "orange"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/amidopyrinum, 5)
+		reagents.add_reagent(/datum/reagent/fentanyl, 5)
 
 /obj/item/weapon/reagent_containers/pill/thiopental
 	name = "sodium thiopental pill (5u)"
@@ -478,13 +476,13 @@
 		..()
 		reagents.add_reagent(/datum/reagent/thiopental, 5)
 
-/obj/item/weapon/reagent_containers/pill/naltamine
-	name = "naltamine pill (7u)"
+/obj/item/weapon/reagent_containers/pill/naloxone
+	name = "naloxone pill (7u)"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
 	icon_state = "blue"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/naltamine, 7)
+		reagents.add_reagent(/datum/reagent/naloxone, 7)
 
 /obj/item/weapon/reagent_containers/pill/epinephrine
 	name = "epinephrine pill (5u)"
@@ -557,10 +555,10 @@
 	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	pill_type = /obj/item/weapon/reagent_containers/pill/salbutamol
 
-/obj/item/weapon/pill_pack/ethaperazine
-	name = "ethaperazine pill pack"
+/obj/item/weapon/pill_pack/lorazepam
+	name = "lorazepam pill pack"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
-	pill_type = /obj/item/weapon/reagent_containers/pill/ethaperazine
+	pill_type = /obj/item/weapon/reagent_containers/pill/lorazepam
 	
 /obj/item/weapon/pill_pack/doxycycline
 	name = "doxycycline pill pack"
@@ -577,30 +575,30 @@
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	pill_type = /obj/item/weapon/reagent_containers/pill/paracetamol
 
-/obj/item/weapon/pill_pack/promethazine
-	name = "promethazine pill pack"
+/obj/item/weapon/pill_pack/rohypnol
+	name = "rohypnol pill pack"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
-	pill_type = /obj/item/weapon/reagent_containers/pill/promethazine
+	pill_type = /obj/item/weapon/reagent_containers/pill/rohypnol
 
 /obj/item/weapon/pill_pack/morphine
 	name = "morphine pill pack"
 	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
 	pill_type = /obj/item/weapon/reagent_containers/pill/morphine
 
-/obj/item/weapon/pill_pack/amidopyrinum
-	name = "amidopyrinum pill pack"
+/obj/item/weapon/pill_pack/fentanyl
+	name = "fentanyl pill pack"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
-	pill_type = /obj/item/weapon/reagent_containers/pill/amidopyrinum
+	pill_type = /obj/item/weapon/reagent_containers/pill/fentanyl
 
 /obj/item/weapon/pill_pack/thiopental
 	name = "sodium thiopental pill pack"
 	desc = "A rapid-onset sedative for surgical operations. Do NOT administer more than 5u."
 	pill_type = /obj/item/weapon/reagent_containers/pill/thiopental
 
-/obj/item/weapon/pill_pack/naltamine
-	name = "naltamine pill pack"
+/obj/item/weapon/pill_pack/naloxone
+	name = "naloxone pill pack"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
-	pill_type = /obj/item/weapon/reagent_containers/pill/naltamine
+	pill_type = /obj/item/weapon/reagent_containers/pill/naloxone
 
 /obj/item/weapon/pill_pack/epinephrine
 	name = "epinephrine pill pack"
@@ -629,10 +627,10 @@
 	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	startswith = list(/obj/item/weapon/pill_pack/salbutamol = 2)
 
-/obj/item/weapon/storage/box/pill_box/ethaperazine
-	name = "ethaperazine pill box"
+/obj/item/weapon/storage/box/pill_box/lorazepam
+	name = "lorazepam pill box"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
-	startswith = list(/obj/item/weapon/pill_pack/ethaperazine = 2)
+	startswith = list(/obj/item/weapon/pill_pack/lorazepam = 2)
 	
 /obj/item/weapon/storage/box/pill_box/doxycycline
 	name = "doxycycline pill box"
@@ -649,30 +647,30 @@
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	startswith = list(/obj/item/weapon/pill_pack/paracetamol = 2)
 
-/obj/item/weapon/storage/box/pill_box/promethazine
-	name = "promethazine pill box"
+/obj/item/weapon/storage/box/pill_box/rohypnol
+	name = "rohypnol pill box"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
-	startswith = list(/obj/item/weapon/pill_pack/promethazine = 2)
+	startswith = list(/obj/item/weapon/pill_pack/rohypnol = 2)
 
 /obj/item/weapon/storage/box/pill_box/morphine
 	name = "morphine pill box"
 	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
 	startswith = list(/obj/item/weapon/pill_pack/morphine = 2)
 
-/obj/item/weapon/storage/box/pill_box/amidopyrinum
-	name = "amidopyrinum pill box"
+/obj/item/weapon/storage/box/pill_box/fentanyl
+	name = "fentanyl pill box"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
-	startswith = list(/obj/item/weapon/pill_pack/amidopyrinum = 2)
+	startswith = list(/obj/item/weapon/pill_pack/fentanyl = 2)
 
 /obj/item/weapon/storage/box/pill_box/thiopental
 	name = "sodium thiopental pill box"
 	desc = "A rapid-onset sedative for surgical operations. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/pill_pack/thiopental = 2)
 	
-/obj/item/weapon/storage/box/pill_box/naltamine
-	name = "naltamine pill box"
+/obj/item/weapon/storage/box/pill_box/naloxone
+	name = "naloxone pill box"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
-	startswith = list(/obj/item/weapon/pill_pack/naltamine = 2)
+	startswith = list(/obj/item/weapon/pill_pack/naloxone = 2)
 
 /obj/item/weapon/storage/box/pill_box/epinephrine
 	name = "epinephrine pill box"
@@ -727,12 +725,12 @@
 		..()
 		reagents.add_reagent(/datum/reagent/salbutamol, 5)
 	
-/obj/item/weapon/reagent_containers/glass/ampoule/ethaperazine
-	name = "ethaperazine ampoule"
+/obj/item/weapon/reagent_containers/glass/ampoule/lorazepam
+	name = "lorazepam ampoule"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/ethaperazine, 5)
+		reagents.add_reagent(/datum/reagent/lorazepam, 5)
 
 /obj/item/weapon/reagent_containers/glass/ampoule/doxycycline
 	name = "doxycycline ampoule"
@@ -755,12 +753,12 @@
 		..()
 		reagents.add_reagent(/datum/reagent/paracetamol, 5)
 		
-/obj/item/weapon/reagent_containers/glass/ampoule/promethazine
-	name = "promethazine ampoule"
+/obj/item/weapon/reagent_containers/glass/ampoule/rohypnol
+	name = "rohypnol ampoule"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/promethazine, 5)
+		reagents.add_reagent(/datum/reagent/rohypnol, 5)
 
 /obj/item/weapon/reagent_containers/glass/ampoule/morphine
 	name = "morphine ampoule"
@@ -769,12 +767,12 @@
 		..()
 		reagents.add_reagent(/datum/reagent/morphine, 5)
 
-/obj/item/weapon/reagent_containers/glass/ampoule/amidopyrinum
-	name = "amidopyrinum ampoule"
+/obj/item/weapon/reagent_containers/glass/ampoule/fentanyl
+	name = "fentanyl ampoule"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/amidopyrinum, 5)
+		reagents.add_reagent(/datum/reagent/fentanyl, 5)
 
 /obj/item/weapon/reagent_containers/glass/ampoule/thiopental
 	name = "sodium thiopental ampoule"
@@ -783,12 +781,12 @@
 		..()
 		reagents.add_reagent(/datum/reagent/thiopental, 5)
 
-/obj/item/weapon/reagent_containers/glass/ampoule/naltamine
-	name = "naltamine ampoule"
+/obj/item/weapon/reagent_containers/glass/ampoule/naloxone
+	name = "naloxone ampoule"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/naltamine, 5)
+		reagents.add_reagent(/datum/reagent/naloxone, 5)
 
 /obj/item/weapon/reagent_containers/glass/ampoule/epinephrine
 	name = "epinephrine ampoule"
@@ -853,10 +851,10 @@
 	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/salbutamol
 
-/obj/item/weapon/ampoule_pack/ethaperazine
-	name = "ethaperazine ampoule pack"
+/obj/item/weapon/ampoule_pack/lorazepam
+	name = "lorazepam ampoule pack"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
-	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/ethaperazine
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/lorazepam
 	
 /obj/item/weapon/ampoule_pack/doxycycline
 	name = "doxycycline ampoule pack"
@@ -873,30 +871,30 @@
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/paracetamol
 	
-/obj/item/weapon/ampoule_pack/promethazine
-	name = "promethazine ampoule pack"
+/obj/item/weapon/ampoule_pack/rohypnol
+	name = "rohypnol ampoule pack"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
-	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/promethazine
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/rohypnol
 
 /obj/item/weapon/ampoule_pack/morphine
 	name = "morphine ampoule pack"
 	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/morphine
 
-/obj/item/weapon/ampoule_pack/amidopyrinum
-	name = "amidopyrinum ampoule pack"
+/obj/item/weapon/ampoule_pack/fentanyl
+	name = "fentanyl ampoule pack"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
-	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/amidopyrinum
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/fentanyl
 
 /obj/item/weapon/ampoule_pack/thiopental
 	name = "sodium thiopental ampoule pack"
 	desc = "A rapid-onset sedative for surgical operations. Do NOT administer more than 5u."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/thiopental
 
-/obj/item/weapon/ampoule_pack/naltamine
-	name = "naltamine ampoule pack"
+/obj/item/weapon/ampoule_pack/naloxone
+	name = "naloxone ampoule pack"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
-	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/naltamine
+	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/naloxone
 
 /obj/item/weapon/ampoule_pack/epinephrine
 	name = "epinephrine ampoule pack"
@@ -926,10 +924,10 @@
 	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	startswith = list(/obj/item/weapon/ampoule_pack/salbutamol = 2)
 
-/obj/item/weapon/storage/box/ampoule_box/ethaperazine
-	name = "ethaperazine ampoule box"
+/obj/item/weapon/storage/box/ampoule_box/lorazepam
+	name = "lorazepam ampoule box"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
-	startswith = list(/obj/item/weapon/ampoule_pack/ethaperazine = 2)
+	startswith = list(/obj/item/weapon/ampoule_pack/lorazepam = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/doxycycline
 	name = "doxycycline ampoule box"
@@ -946,30 +944,30 @@
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	startswith = list(/obj/item/weapon/ampoule_pack/paracetamol = 2)
 
-/obj/item/weapon/storage/box/ampoule_box/promethazine
-	name = "promethazine ampoule box"
+/obj/item/weapon/storage/box/ampoule_box/rohypnol
+	name = "rohypnol ampoule box"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
-	startswith = list(/obj/item/weapon/ampoule_pack/promethazine = 2)
+	startswith = list(/obj/item/weapon/ampoule_pack/rohypnol = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/morphine
 	name = "morphine ampoule box"
 	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
 	startswith = list(/obj/item/weapon/ampoule_pack/morphine = 2)
 
-/obj/item/weapon/storage/box/ampoule_box/amidopyrinum
-	name = "amidopyrinum ampoule box"
+/obj/item/weapon/storage/box/ampoule_box/fentanyl
+	name = "fentanyl ampoule box"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
-	startswith = list(/obj/item/weapon/ampoule_pack/amidopyrinum = 2)
+	startswith = list(/obj/item/weapon/ampoule_pack/fentanyl = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/thiopental
 	name = "sodium thiopental ampoule box"
 	desc = "A rapid-onset sedative for surgical operations. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/ampoule_pack/thiopental = 2)
 
-/obj/item/weapon/storage/box/ampoule_box/naltamine
-	name = "naltamine ampoule box"
+/obj/item/weapon/storage/box/ampoule_box/naloxone
+	name = "naloxone ampoule box"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
-	startswith = list(/obj/item/weapon/ampoule_pack/naltamine = 2)
+	startswith = list(/obj/item/weapon/ampoule_pack/naloxone = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/epinephrine
 	name = "epinephrine ampoule box"
@@ -999,14 +997,14 @@
 		reagents.add_reagent(/datum/reagent/salbutamol, 60)
 		update_icon()
 
-/obj/item/weapon/reagent_containers/glass/bottle/ethaperazine
-	name = "ethaperazine bottle"
+/obj/item/weapon/reagent_containers/glass/bottle/lorazepam
+	name = "lorazepam bottle"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-yellow"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/ethaperazine, 60)
+		reagents.add_reagent(/datum/reagent/lorazepam, 60)
 		update_icon()
 
 /obj/item/weapon/reagent_containers/glass/bottle/doxycycline
@@ -1039,14 +1037,14 @@
 		reagents.add_reagent(/datum/reagent/paracetamol, 60)
 		update_icon()
 
-/obj/item/weapon/reagent_containers/glass/bottle/promethazine
-	name = "promethazine bottle"
+/obj/item/weapon/reagent_containers/glass/bottle/rohypnol
+	name = "rohypnol bottle"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-yellow"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/promethazine, 60)
+		reagents.add_reagent(/datum/reagent/rohypnol, 60)
 		update_icon()
 
 /obj/item/weapon/reagent_containers/glass/bottle/morphine
@@ -1059,14 +1057,14 @@
 		reagents.add_reagent(/datum/reagent/morphine, 60)
 		update_icon()
 
-/obj/item/weapon/reagent_containers/glass/bottle/amidopyrinum
-	name = "amidopyrinum bottle"
+/obj/item/weapon/reagent_containers/glass/bottle/fentanyl
+	name = "fentanyl bottle"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-yellow"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/amidopyrinum, 60)
+		reagents.add_reagent(/datum/reagent/fentanyl, 60)
 		update_icon()
 
 /obj/item/weapon/reagent_containers/glass/bottle/thiopental
@@ -1079,14 +1077,14 @@
 		reagents.add_reagent(/datum/reagent/thiopental, 60)
 		update_icon()
 
-/obj/item/weapon/reagent_containers/glass/bottle/naltamine
-	name = "naltamine bottle"
+/obj/item/weapon/reagent_containers/glass/bottle/naloxone
+	name = "naloxone bottle"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
 	icon = 'icons/obj/chemical.dmi'
 	icon_state = "bottle-teal"
 	New()
 		..()
-		reagents.add_reagent(/datum/reagent/naltamine, 60)
+		reagents.add_reagent(/datum/reagent/naloxone, 60)
 		update_icon()
 
 /obj/item/weapon/reagent_containers/glass/bottle/epinephrine

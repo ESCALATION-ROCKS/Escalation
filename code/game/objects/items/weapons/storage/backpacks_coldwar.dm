@@ -21,7 +21,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -57,7 +57,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
@@ -88,7 +88,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -124,7 +124,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
@@ -201,7 +201,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
@@ -233,7 +233,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -267,7 +267,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -326,7 +326,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/soviet = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -362,7 +362,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/weapon/storage/fancy/syringe
 			)
 	can_hold = list(
@@ -474,7 +474,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/soviet = 1,
 			/obj/item/weapon/storage/fancy/syringe
@@ -560,7 +560,7 @@
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
-			/obj/item/weapon/pill_pack/amidopyrinum = 1,
+			/obj/item/weapon/pill_pack/fentanyl = 1,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/nato = 1,
 			/obj/item/weapon/storage/fancy/syringe

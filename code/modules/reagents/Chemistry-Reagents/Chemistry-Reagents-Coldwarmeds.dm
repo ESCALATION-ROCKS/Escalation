@@ -78,8 +78,8 @@
 	M.drowsyness += 2
 
 
-/datum/reagent/ethaperazine
-	name = "Ethaperazine"
+/datum/reagent/lorazepam
+	name = "Lorazepam"
 	description = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	taste_description = "sourness"
 	reagent_state = LIQUID
@@ -89,7 +89,7 @@
 	metabolism = 0.15
 	overdose = 11
 
-/datum/reagent/ethaperazine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/lorazepam/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien == IS_DIONA)
 		return
 	if(M.chem_doses[type] < 3)
@@ -166,6 +166,9 @@
 /datum/reagent/angiotensin/overdose(var/mob/living/carbon/M, var/alien)
 	if(alien != IS_DIONA)
 		M.add_chemical_effect(CE_BRAIN_REGEN, -2)
+		M.druggy = max(M.druggy, 2)
+		M.make_dizzy(10)
+		M.make_jittery(5)
 
 
 ////////////////////painkillers, listed by strength
@@ -188,12 +191,15 @@
 	..()
 	M.druggy = max(M.druggy, 2)
 	M.make_dizzy(10)
+	M.make_jittery(5)
+	M.drowsyness += 2
+	M.emote(pick("twitch", "drool", "moan", "gasp"))
+	M.adjustToxLoss(1)
 
 
 
-
-/datum/reagent/promethazine
-	name = "Promethazine"
+/datum/reagent/rohypnol
+	name = "Rohypnol"
 	description = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
 	taste_description = "bitterness"
 	reagent_state = LIQUID
@@ -203,7 +209,7 @@
 	metabolism = 0.12
 	overdose = 16
 
-/datum/reagent/promethazine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/rohypnol/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(M.chem_doses[type] < 3)
 		if(M.chem_doses[type] == metabolism * 2 || prob(5))
 			M.add_chemical_effect(CE_PAINKILLER, 30)
@@ -219,7 +225,7 @@
 		M.drowsyness = max(M.drowsyness, 60)
 	M.add_chemical_effect(CE_PULSE, -2)
 
-/datum/reagent/promethazine/overdose(var/mob/living/carbon/M, var/alien)
+/datum/reagent/rohypnol/overdose(var/mob/living/carbon/M, var/alien)
 	..()
 	M.hallucination(60, 20)
 	M.make_dizzy(5)
@@ -270,8 +276,8 @@
 
 
 
-/datum/reagent/amidopyrinum
-	name = "Amidopyrinum"
+/datum/reagent/fentanyl
+	name = "Fentanyl"
 	description = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
 	taste_description = "bitterness"
 	reagent_state = LIQUID
@@ -281,15 +287,28 @@
 	overdose = 6
 	metabolism = 0.20
 	
-/datum/reagent/amidopyrinum/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
-	M.add_chemical_effect(CE_PAINKILLER, 90)
+/datum/reagent/fentanyl/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	if(alien != IS_DIONA)
+		M.add_chemical_effect(CE_PAINKILLER, 150)
+	M.add_chemical_effect(CE_PULSE, 1)
+	if(prob(5))
+		M.emote(pick("twitch", "blink_r", "shiver"))
+	if(volume <= 0.02 && M.chem_doses[type] >= 1 && world.time > data + ANTIDEPRESSANT_MESSAGE_DELAY * 0.3)
+		data = world.time
+		to_chat(M, "<span class='warning'>You feel antsy, your concentration wavers...</span>")
+	else
+		if(world.time > data + ANTIDEPRESSANT_MESSAGE_DELAY * 0.3)
+			data = world.time
+			to_chat(M, "<span class='notice'>You feel better.</span>")
 
-/datum/reagent/amidopyrinum/overdose(var/mob/living/carbon/M, var/alien)
+/datum/reagent/fentanyl/overdose(var/mob/living/carbon/M, var/alien)
 	..()
 	M.druggy = max(M.druggy, 10)
 	M.hallucination(60, 20)
-
-
+	M.make_dizzy(10)
+	M.make_jittery(10)
+	if(M.losebreath < 2)
+		M.losebreath++
 
 
 
@@ -319,8 +338,8 @@
 
 
 
-/datum/reagent/naltamine
-	name = "Naltamine"
+/datum/reagent/naloxone
+	name = "Naloxone"
 	description = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
 	taste_description = "bitterness"
 	reagent_state = LIQUID
@@ -330,7 +349,7 @@
 	metabolism = 0.15
 	overdose = 16
 
-/datum/reagent/naltamine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/naloxone/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien == IS_DIONA)
 		return
 	M.dizziness = 0
@@ -344,7 +363,7 @@
 			else if(istype(R, /datum/reagent/tramadol))
 				M.chem_doses[R.type] = max(M.chem_doses[R.type] - removed * 5, 0)
 
-/datum/reagent/naltamine/overdose(var/mob/living/carbon/M, var/alien)
+/datum/reagent/naloxone/overdose(var/mob/living/carbon/M, var/alien)
 	..()
 	M.make_dizzy(10)
 	M.make_jittery(10)

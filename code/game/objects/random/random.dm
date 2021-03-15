@@ -144,7 +144,7 @@
 				/obj/item/weapon/storage/box/pill_box/tetracetam = 1,
 				/obj/item/weapon/storage/box/ampoule_box/epinephrine = 2,
 				/obj/item/weapon/storage/box/ampoule_box/morphine = 2,
-				/obj/item/weapon/storage/box/ampoule_box/naltamine = 1,
+				/obj/item/weapon/storage/box/ampoule_box/naloxone = 1,
 				/obj/item/weapon/storage/box/ampoule_box/talotropine = 1,
 				/obj/item/weapon/reagent_containers/syringe/antiviral = 1,
 				/obj/item/weapon/storage/box/freezer = 1)
@@ -162,7 +162,7 @@
 				/obj/item/weapon/storage/pill_bottle/antidexafen = 2,
 				/obj/item/weapon/storage/pill_bottle/paracetamol = 2,
 				/obj/item/weapon/reagent_containers/glass/bottle/talotropine = 0.5,
-				/obj/item/weapon/reagent_containers/glass/bottle/naltamine = 0.5,
+				/obj/item/weapon/reagent_containers/glass/bottle/naloxone = 0.5,
 				/obj/item/stack/medical/splint = 1,
 				/obj/item/stack/medical/medispray = 1,
 				/obj/item/weapon/reagent_containers/hypospray/autoinjector = 1)

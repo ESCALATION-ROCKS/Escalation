@@ -1122,14 +1122,14 @@ var/global/list/global_colour_matrix = null
 	set name = "Announce NATO Victory"
 	log_and_message_admins("has declared NATO Victory")
 	to_world("<b><font size=5>NATO forces have occupied the field!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
+	/*sound_to(world, 'sound/effects/usarmyrangertheme.ogg')*/
 
 /client/proc/warpact_major()
 	set category = "EscAdmin"
 	set name = "Announce WARPACT Victory"
 	log_and_message_admins("has declared WARPACT Victory")
 	to_world("<b><font size=5>WARPACT forces have occupied the field!</font></b>")
-	sound_to(world, 'sound/effects/speznaztheme.ogg')
+	/*sound_to(world, 'sound/effects/speznaztheme.ogg')*/
 
 /client/proc/draw_major()
 	set category = "EscAdmin"
