@@ -28,7 +28,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/usmc/usmcplatleaddep
 	title = "USMC Platoon Leader Deputy"
@@ -164,7 +164,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 3, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usmc/usmcquartermaster
 	title = "USMC Quartermaster"
@@ -278,7 +278,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/usmcftl
 	title = "USMC Fireteam Leader"
@@ -473,7 +473,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/bund/bdwplatleaddep
 	title = "BDW Zugfuhrerassistant"
@@ -593,7 +593,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/bund/bdwsld
 	title = "BDW Gruppenfuhrer Stellvertretender"
@@ -612,7 +612,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/bund/bdwsm
 	title = "BDW Scharfschutze"
@@ -632,7 +632,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 3, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/bund/bdwmedic
 	title = "BDW Sanitaterschutze"
@@ -919,7 +919,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/heer/heerplatleaddep
 	title = "BDH Zugfuhrerassistant"
@@ -1039,7 +1039,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/heer/heersld
 	title = "BDH Gruppenfuhrer Stellvertretender"
@@ -1058,7 +1058,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/heer/heersm
 	title = "BDH Scharfschutze"
@@ -1078,7 +1078,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 3, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/heer/heermedic
 	title = "BDH Sanitaterschutze"
@@ -1364,7 +1364,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/baf/bafplatleaddep
 	title = "BAF Platoon Leader Deputy"
@@ -1462,7 +1462,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 3, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/bafsl
 	title = "BAF Squad Leader"
@@ -1482,7 +1482,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/baf/bafftl
 	title = "BAF Fireteam Leader"
@@ -1693,7 +1693,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/usa/usaplatleaddep
 	title = "USA Platoon Leader Deputy"
@@ -1810,7 +1810,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 3, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/usa/usacorpsman
 	title = "USA Corpsman"
@@ -1867,7 +1867,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usa/usaftl
 	title = "USA Fireteam Leader"

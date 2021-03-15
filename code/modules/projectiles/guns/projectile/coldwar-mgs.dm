@@ -627,9 +627,9 @@
 	magazine_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
-	accuracy = 2.9
+	accuracy = 2.8
 	wielded_item_state = "nvarpk-wielded"
-	slowdown_general = 0.45
+	slowdown_general = 0.32
 	jam_chance = 0.225
 
 	fire_sound = 'sound/weapons/gunshot/sa58.ogg'
@@ -641,7 +641,7 @@
 
 	firemodes = list(
 		list(mode_name="semiauto",      burst=1, fire_delay=4,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.7, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.5),              automatic = 0.6),
+		list(mode_name="automatic",     burst=1, fire_delay=0.6, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.27, 0.37, 0.48),              automatic = 0.6),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/cslarpk/update_icon()

@@ -841,11 +841,11 @@
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 4
-	accuracy = 3
+	accuracy = 2.9
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/heer/
 	bayonet_attachable = 1
-	jam_chance = 0.425
-	slowdown_general = 0.27
+	jam_chance = 0.450
+	slowdown_general = 0.25
 
 	wielded_item_state = "aug-wielded"
 	fire_sound = 'sound/weapons/gunshotnew/aug.ogg'
@@ -856,7 +856,7 @@
 
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20)),
-		list(mode_name="automatic",    burst=1, fire_delay=0.9,  move_delay=2,    one_hand_penalty=5, burst_accuracy = null,            dispersion=list(0.2, 0.3, 0.5),                automatic = 0.5),
+		list(mode_name="automatic",    burst=1, fire_delay=0.8,  move_delay=2,    one_hand_penalty=5, burst_accuracy = null,            dispersion=list(0.3, 0.4, 0.5),                automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1/update_icon()
@@ -886,8 +886,8 @@
 	one_hand_penalty = 4
 	bayonet_attachable = 0
 	accuracy = 3
-	jam_chance = 0.425
-	slowdown_general = 0.27
+	jam_chance = 0.450
+	slowdown_general = 0.25
 	wielded_item_state = "auggl-wielded"
 	fire_sound = 'sound/weapons/gunshotnew/aug.ogg'
 	unload_sound = 'sound/weapons/gunporn/aug_magout.ogg'
@@ -899,8 +899,8 @@
 	var/obj/item/weapon/gun/launcher/grenade/underslung/m203/launcher
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20)),
-		list(mode_name="automatic",    burst=1, fire_delay=0.9,  move_delay=2,    one_hand_penalty=6, burst_accuracy = null,            dispersion=list(0.2, 0.3, 0.5),           automatic = 0.5),
+		list(mode_name="semiauto",     burst=1, burst=1, fire_delay=3.2,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,          dispersion=list(0.0, 0.1, 0.20)),
+		list(mode_name="automatic",    burst=1, fire_delay=0.8,  move_delay=2,    one_hand_penalty=5, burst_accuracy = null,            dispersion=list(0.3, 0.4, 0.5),                automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/New()
@@ -966,11 +966,11 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 2.7
+	accuracy = 2.6
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/csla
 	bayonet_attachable = 1
-	jam_chance = 0.45
-	slowdown_general = 0.27
+	jam_chance = 0.36
+	slowdown_general = 0.23
 
 	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/vz58.ogg'
@@ -980,8 +980,8 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3.5,    move_delay=null, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.0, 0.1, 0.2),                        automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=2,    one_hand_penalty=6, burst_accuracy=null,              dispersion=list(0.3, 0.4, 0.6),                     automatic = 0.6),
+		list(mode_name="semiauto",      burst=1, fire_delay=3.5,    move_delay=null, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.0, 0.0, 0.1),                        automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.6,  move_delay=2,    one_hand_penalty=6, burst_accuracy=null,              dispersion=list(0.4, 0.5, 0.7),                     automatic = 0.6),
 		)
 
 
@@ -1006,11 +1006,11 @@
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 5
-	accuracy = 2.6
+	accuracy = 2.5
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/csla
 	bayonet_attachable = 1
-	jam_chance = 0.475
-	slowdown_general = 0.15
+	jam_chance = 0.36
+	slowdown_general = 0.21
 
 	wielded_item_state = "mpi-wielded"
 	fire_sound = 'sound/weapons/gunshot/vz58.ogg'
@@ -1020,8 +1020,8 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3.5,    move_delay=null, one_hand_penalty=4, burst_accuracy=null,              dispersion=list(0.0, 0.1, 0.2),                          automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=1,    one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.35, 0.45, 0.7),                    automatic = 0.7),
+		list(mode_name="semiauto",      burst=1, fire_delay=3.5,    move_delay=null, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.0, 0.0, 0.1),                        automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.6,  move_delay=2,    one_hand_penalty=6, burst_accuracy=null,              dispersion=list(0.5, 0.6, 0.7),                     automatic = 0.6),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58v/update_icon()
@@ -1049,11 +1049,11 @@
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 5
-	accuracy = 2.7
+	accuracy = 2.6
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/csla/
 	bayonet_attachable = 0
-	jam_chance = 0.45
-	slowdown_general = 0.25
+	jam_chance = 0.36
+	slowdown_general = 0.22
 
 	wielded_item_state = "mpigl-wielded"
 	fire_sound = 'sound/weapons/gunshot/vz58.ogg'
@@ -1063,9 +1063,11 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3.5,    move_delay=null, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.0, 0.1, 0.2),                           automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.7,  move_delay=2,    one_hand_penalty=6, burst_accuracy=null,              dispersion=list(0.3, 0.4, 0.6),           automatic = 0.6),
+		list(mode_name="semiauto",      burst=1, fire_delay=3.5,    move_delay=null, one_hand_penalty=5, burst_accuracy=null,              dispersion=list(0.0, 0.0, 0.1),                        automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.6,  move_delay=2,    one_hand_penalty=6, burst_accuracy=null,              dispersion=list(0.4, 0.5, 0.7),                     automatic = 0.6),
 		)
+
+
 	var/use_launcher = FALSE
 	var/obj/item/weapon/gun/launcher/grenade/underslung/gp25/launcher
 

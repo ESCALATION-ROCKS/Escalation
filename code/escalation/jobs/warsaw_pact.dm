@@ -27,7 +27,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/cccp/saplatleaddep
 	title = "SA Zamestitel Komandira Vzvoda"
@@ -268,7 +268,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/sasld
 	title = "SA Zamestitel Komandira Otdeleniya"
@@ -506,7 +506,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/nvaddr/nvaplatleaddep
 	title = "NVA Zugfuhrerassistant"
@@ -706,7 +706,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 3, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/nvaddr/nvasl
 	title = "NVA Gruppenfuhrer"
@@ -727,7 +727,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/nvaddr/nvasld
 	title = "NVA Gruppenfuhrer Stellvertretender"
@@ -747,7 +747,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 2, 0)
 
 /datum/job/escalation/nvaddr/nvamedic
 	title = "NVA Sanitaterschutze"
@@ -981,7 +981,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/finn/finnplatleaddep
 	title = "FINN Ylikersantti"
@@ -1144,7 +1144,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 3, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/finnsl
 	title = "FINN Ryhmanjohtaja"
@@ -1165,7 +1165,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/finn/finnsld
 	title = "FINN Ryhmanjohtaja Jasen"
@@ -1185,7 +1185,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 2, 0)
 
 
 /datum/job/escalation/finn/finnmg
@@ -1424,7 +1424,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 2, 1, 4, 0)
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/csla/cslaplatleaddep
 	title = "CSLA Podporuchik"
@@ -1603,7 +1603,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+		H.add_skills(0, 3, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/csla/cslasl
 	title = "CSLA Chetar"
@@ -1624,7 +1624,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/csla/cslasld
 	title = "CSLA Subchetar"
