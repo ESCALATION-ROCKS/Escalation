@@ -186,7 +186,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
-	max_ammo = 100
+	max_ammo = 120
 	multiple_sprites = 1
 	load_delay = 30
 
@@ -238,7 +238,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
-	max_ammo = 100
+	max_ammo = 200
 	multiple_sprites = 1
 	load_delay = 30
 
@@ -264,7 +264,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
-	max_ammo = 150
+	max_ammo = 200
 	multiple_sprites = 1
 	load_delay = 30
 
@@ -730,7 +730,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
-	max_ammo = 100
+	max_ammo = 200
 	multiple_sprites = 1
 	load_delay = 30
 	slowdown_general = 0.1
@@ -757,7 +757,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
-	max_ammo = 100
+	max_ammo = 200
 	multiple_sprites = 1
 	load_delay = 30
 
@@ -863,7 +863,7 @@
 	w_class = ITEM_SIZE_LARGE
 	caliber = "127x108mm"
 	ammo_type = /obj/item/ammo_casing/a127x108mm
-	max_ammo = 100
+	max_ammo = 50
 	multiple_sprites = 1
 	slowdown_general = 0.1
 
@@ -1002,7 +1002,7 @@
 
 /obj/item/ammo_magazine/box/paper/box556x45/tr
 	name = "tracer ammo box (5.56x45mm)"
-	desc = "A 40-round pack of 5.56x45mmtracer ammunition."
+	desc = "A 40-round pack of 5.56x45mm tracer ammunition."
 	icon_state = "usmc_box"
 	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a556x45/tr
