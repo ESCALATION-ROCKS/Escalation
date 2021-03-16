@@ -674,7 +674,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Marksman")
 	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
-	holster = /obj/item/weapon/storage/belt/holster/sa
+	holster = /obj/item/weapon/storage/belt/holster/csla
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/svd
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage

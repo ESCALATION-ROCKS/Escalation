@@ -40,8 +40,25 @@
 # }
 ##
 
+#USMC - /obj/item/clothing/glasses/sunglasses/big
+
 {
-ckey: SeverePwnage
-item_path: /obj/item/clothing/mask/smokable/cigarette/cigar/havana
+ckey: BurnedSweetPotato
+item_path: /obj/item/clothing/glasses/sunglasses/big
 }
 
+{
+ckey: Pete112
+item_path: /obj/item/clothing/glasses/sunglasses/big
+}
+
+{
+ckey: I like D0nUts
+item_path: /obj/item/clothing/glasses/sunglasses/big
+}
+
+#SA - /obj/item/clothing/shoes/soviet/moscva
+
+#BDH - /obj/item/clothing/head/headband
+
+#CSLA - /obj/item/clothing/head/headband/red
