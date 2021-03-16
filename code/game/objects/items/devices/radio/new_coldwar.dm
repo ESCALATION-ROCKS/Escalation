@@ -91,6 +91,8 @@
 
 	if((slot_flags & SLOT_BACK) && M.get_equipped_item(slot_back) == src)
 		return 1
+	if((slot_flags & SLOT_BACK_GUN) && M.get_equipped_item(slot_add_gun) == src)
+		return 1
 	if((slot_flags & SLOT_BELT) && M.get_equipped_item(slot_belt) == src)
 		return 1
 
