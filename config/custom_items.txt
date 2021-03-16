@@ -40,21 +40,21 @@
 # }
 ##
 
-#USMC - /obj/item/clothing/glasses/sunglasses/big
+#USMC - /obj/item/clothing/glasses/sunglasses
 
 {
 ckey: BurnedSweetPotato
-item_path: /obj/item/clothing/glasses/sunglasses/big
+item_path: /obj/item/clothing/glasses/sunglasses
 }
 
 {
 ckey: Pete112
-item_path: /obj/item/clothing/glasses/sunglasses/big
+item_path: /obj/item/clothing/glasses/sunglasses
 }
 
 {
 ckey: I like D0nUts
-item_path: /obj/item/clothing/glasses/sunglasses/big
+item_path: /obj/item/clothing/glasses/sunglasses
 }
 
 #SA - /obj/item/clothing/shoes/soviet/moscva
