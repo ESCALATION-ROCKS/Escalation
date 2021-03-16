@@ -1,7 +1,7 @@
 /////////////////////////////////////NATO magazines/////////////////////////////////////////////
 
 /obj/item/ammo_magazine/c556x45m
-	name = "magazine (5.56x45mm)"
+	name = "STANAG magazine (5.56x45mm)"
 	desc = "A STANAG magazine that fits thirty 5.56mm rounds."
 	icon_state = "5.56x45mm"
 	item_state = "m16_mag"
@@ -13,20 +13,45 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c556x45m/ap
-	name = "AP magazine (5.56x45mm)"
+	name = "STANAG AP magazine (5.56x45mm)"
 	desc = "A STANAG magazine that fits thirty armor-piercing 5.56mm rounds."
 	ammo_type = /obj/item/ammo_casing/a556x45/ap
 
 /obj/item/ammo_magazine/c556x45m/tr
-	name = "tracer magazine (5.56x45mm)"
+	name = "STANAG tracer magazine (5.56x45mm)"
 	desc = "A STANAG magazine that fits thirty 5.56mm tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a556x45/tr
 
 /obj/item/ammo_magazine/c556x45m/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/c556x45g
+	name = "AUG magazine (5.56x45mm)"
+	desc = "A Steyr AUG magazine that fits thirty 5.56mm rounds."
+	icon_state = "aug"
+	item_state = "m16_mag"
+	mag_type = MAGAZINE
+	caliber = "556x45"
+	ammo_type = /obj/item/ammo_casing/a556x45
+	max_ammo = 30
+	load_delay = 12
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/c556x45g/ap
+	name = "AUG AP magazine (5.56x45mm)"
+	desc = "A Steyr AUG magazine that fits thirty armor-piercing 5.56mm rounds."
+	ammo_type = /obj/item/ammo_casing/a556x45/ap
+
+/obj/item/ammo_magazine/c556x45g/tr
+	name = "AUG tracer magazine (5.56x45mm)"
+	desc = "A Steyr AUG magazine that fits thirty 5.56mm tracer rounds."
+	ammo_type = /obj/item/ammo_casing/a556x45/tr
+
+/obj/item/ammo_magazine/c556x45g/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c556x45s
-	name = "magazine (5.56x45mm)"
+	name = "STANAG magazine (5.56x45mm)"
 	desc = "A STANAG magazine that fits twenty 5.56x45mm rounds."
 	icon_state = "5.56x45s"
 	item_state = "m16_mag"
@@ -38,12 +63,12 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c556x45s/ap
-	name = "AP magazine (5.56x45mm)"
+	name = "STANAG AP magazine (5.56x45mm)"
 	desc = "A STANAG magazine that fits twenty armor-piercing 5.56x45mm rounds."
 	ammo_type = /obj/item/ammo_casing/a556x45/ap
 
 /obj/item/ammo_magazine/c556x45s/tr
-	name = "tracer magazine (5.56x45mm)"
+	name = "STANAG tracer magazine (5.56x45mm)"
 	desc = "A STANAG magazine that fits twenty 5.56x45mm tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a556x45/tr
 

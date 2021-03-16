@@ -454,15 +454,15 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/heer
 	w_class = ITEM_SIZE_HUGE
-	name = "5.56 STANAG magazine pouch"
-	desc = "Has enough space to hold two 5.56 STANAG magazines."
+	name = "5.56 AUG magazine pouch"
+	desc = "Has enough space to hold four Steyr AUG magazines."
 	icon_state = "heer_ammo"
 	item_state = "usmc_ammo"
 	open_delay = 5
-	storage_slots = 2 
+	storage_slots = 4 
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45s,
+		/obj/item/ammo_magazine/c556x45g,
 		/obj/item/ammo_magazine/c45m
 		)
 	startswith = null
@@ -491,8 +491,8 @@
 /obj/item/weapon/storage/belt/suit/ammo/heer/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
-	name = "MG3 box pouch"
-	desc = "Has enough space to hold one MG3 box."
+	name = "MG74 box pouch"
+	desc = "Has enough space to hold one MG74 box."
 	icon_state = "heer_ammo_lmg"
 	item_state = "usmc_ammo_lmg"
 	open_delay = 5

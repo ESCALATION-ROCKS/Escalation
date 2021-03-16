@@ -842,7 +842,7 @@
 	caliber = "556x45"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
-	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45g)
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 4
@@ -885,7 +885,7 @@
 	caliber = "556x45"
 	slot_flags = SLOT_BACK_GUN | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
-	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45g)
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 4
