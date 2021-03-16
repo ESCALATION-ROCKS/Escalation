@@ -124,7 +124,7 @@
 						if(H.l_store) H.l_store.screen_loc = hud_data["loc"]
 					if(slot_r_store)
 						if(H.r_store) H.r_store.screen_loc = hud_data["loc"]
-					if(slot_add_gun)
+					if(slot_gun_slot)
 						if(H.wear_gun) H.wear_gun.screen_loc = hud_data["loc"]
 			else
 				switch(hud_data["slot"])
@@ -140,7 +140,7 @@
 						if(H.l_store) H.l_store.screen_loc = null
 					if(slot_r_store)
 						if(H.r_store) H.r_store.screen_loc = null
-					if(slot_add_gun)
+					if(slot_gun_slot)
 						if(H.wear_gun) H.wear_gun.screen_loc = null
 
 

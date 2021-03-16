@@ -62,7 +62,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -118,7 +118,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -163,7 +163,7 @@
 	w_class = 4
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -204,7 +204,7 @@
 	w_class = 4
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -246,7 +246,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -329,7 +329,7 @@
 	load_method = MAGAZINE
 	caliber = "556x45"
 	force = 15
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
@@ -366,7 +366,7 @@
 	desc = "A former standard-issue USMC combat rifle. Chambers 7.62x51 rounds."
 	icon_state = "m14"
 	item_state = "m14"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	w_class = 5
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -413,7 +413,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "556x45"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
@@ -454,7 +454,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "556x45"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
@@ -495,7 +495,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "556x45"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
@@ -578,7 +578,7 @@
 	load_method = MAGAZINE
 	caliber = "556x45"
 	force = 15
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
 	magazine_type = null
@@ -661,7 +661,7 @@
 	load_method = MAGAZINE
 	caliber = "762x51"
 	force = 15
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
@@ -714,7 +714,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
@@ -756,7 +756,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
@@ -840,7 +840,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "556x45"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45g)
 	magazine_type = null
@@ -883,7 +883,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "556x45"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a556x45
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45g)
 	magazine_type = null
@@ -966,7 +966,7 @@
 	load_method = MAGAZINE
 	caliber = "762x39"
 	force = 15
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
@@ -1005,7 +1005,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
@@ -1048,7 +1048,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
@@ -1134,7 +1134,7 @@
 	load_method = MAGAZINE
 	caliber = "762x39"
 	force = 15
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
@@ -1175,7 +1175,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
@@ -1217,7 +1217,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
@@ -1259,7 +1259,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
@@ -1343,7 +1343,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -1386,7 +1386,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -1468,7 +1468,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -1512,7 +1512,7 @@
 	w_class = 4
 	load_method = MAGAZINE
 	caliber = "545x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a545x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
 	magazine_type = null
@@ -1555,7 +1555,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x39"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x39
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
@@ -1596,7 +1596,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a762x51
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
@@ -1637,7 +1637,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "9x19"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19s
 	magazine_type = null
@@ -1678,7 +1678,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "9x19"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19k
 	magazine_type = null
@@ -1719,7 +1719,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "9x19"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a9x19
 	allowed_magazines = /obj/item/ammo_magazine/a9x19s
 	magazine_type = null

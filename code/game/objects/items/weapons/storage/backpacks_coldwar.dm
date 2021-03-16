@@ -150,7 +150,7 @@
 	reachable = 1
 	open_delay = 10
 	max_storage_space = 6
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/heer_buttpack
 	name = "BDH field pack"
@@ -160,7 +160,7 @@
 	reachable = 1
 	open_delay = 10
 	max_storage_space = 6
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/bundes_utilitypouch
 	name = "BDW utility pouch"
@@ -182,14 +182,14 @@
 	reachable = 1
 	open_delay = 10
 	max_storage_space = 6
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmcm3/surgeon
 	name = "M3 surgeon satchel"
 	desc = "A sturdy Vietnam era satchel used by U.S. surgeons."
 	icon_state = "m3pack"
 	item_state = "m3pack"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_storage_space = 24
 	reachable = 1
 	open_delay = 5
@@ -224,7 +224,7 @@
 	desc = "A sturdy field pack used by U.S. army. Also referred as butt pack. This one has a red cross on it."
 	icon_state = "usmc_med"
 	item_state = "usmc_med"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_storage_space = 24
 	reachable = 1
 	open_delay = 5
@@ -321,7 +321,7 @@
 	reachable = 1
 	max_storage_space = 24
 	open_delay = 5
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	startswith = list(
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
@@ -388,7 +388,7 @@
 	reachable = 1
 	max_storage_space = 6
 	open_delay = 10
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/alice/medium
 	name = "ALICE medium pack"

@@ -79,6 +79,7 @@ var/global/list/string_part_flags = list(
 // Strings which corraspond to slot flags, useful for outputting what slot something is.
 var/global/list/string_slot_flags = list(
 	"back" = SLOT_BACK,
+	"gun slot" = SLOT_GUN_SLOT,
 	"face" = SLOT_MASK,
 	"waist" = SLOT_BELT,
 	"ID slot" = SLOT_ID,

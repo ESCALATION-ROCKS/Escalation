@@ -611,7 +611,7 @@ var/global/list/damage_icon_parts = list()
 
 /mob/living/carbon/human/update_inv_add_gun(var/update_icons=1)
 	if( wear_gun && ( istype(wear_gun, /obj/item) ) )
-		overlays_standing[ADD_GUN_LAYER] = wear_gun.get_mob_overlay(src,slot_add_gun_str)
+		overlays_standing[ADD_GUN_LAYER] = wear_gun.get_mob_overlay(src,slot_gun_slot_str)
 	else
 		overlays_standing[ADD_GUN_LAYER] = null
 

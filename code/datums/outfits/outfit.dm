@@ -25,7 +25,7 @@ var/list/outfits_decls_by_type_
 	var/uniform = null
 	var/suit = null
 	var/back = null
-	var/back_2 = null
+	var/gun_slot = null
 	var/belt = null
 	var/gloves = null
 	var/shoes = null
@@ -148,8 +148,8 @@ var/list/outfits_decls_by_type_
 		H.equip_to_slot_or_del(new suit(H),slot_wear_suit)
 	if(back)
 		H.equip_to_slot_or_del(new back(H),slot_back)
-	if(back_2)
-		H.equip_to_slot_or_del(new back_2(H),slot_add_gun)
+	if(gun_slot)
+		H.equip_to_slot_or_del(new gun_slot(H),slot_gun_slot)
 	if(belt)
 		H.equip_to_slot_or_del(new belt(H),slot_belt)
 	if(gloves)

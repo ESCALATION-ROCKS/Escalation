@@ -3,7 +3,7 @@
 	desc = "A standard-issue USMC marksman rifle."
 	icon_state = "m21"
 	item_state = "m21"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	screen_shake = 2
 	w_class = 5
 	accuracy = 5
@@ -51,7 +51,7 @@
 	desc = "A standard-issue Soviet Army and NVA DDR marksman rifle. Chambers 7.62x54mmR rounds."
 	icon_state = "svd"
 	item_state = "svd"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	w_class = 5
 	force = 15
 	max_shells = 10
@@ -105,7 +105,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
@@ -153,7 +153,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
@@ -205,7 +205,7 @@
 	max_shells = 6
 	load_method = MAGAZINE
 	caliber = "762x51"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
 	ammo_type = null
@@ -254,7 +254,7 @@
 	max_shells = 10
 	load_method = MAGAZINE
 	caliber = ".50"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c50cals)
 	magazine_type = null
@@ -293,7 +293,7 @@
 /////////---------------BOLT ACTIONS
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	var/bolt_open = 0
 	var/bayonet_type = null
 	var/bayonet_attachable = 0

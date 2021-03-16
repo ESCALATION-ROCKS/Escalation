@@ -5,7 +5,7 @@
 	icon = 'icons/obj/radio.dmi'
 	icon_state = "defibunit"
 	item_state = "defibunit"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	w_class = ITEM_SIZE_LARGE
 	action_button_name = "Remove/Replace Headset"
 
@@ -91,7 +91,7 @@
 
 	if((slot_flags & SLOT_BACK) && M.get_equipped_item(slot_back) == src)
 		return 1
-	if((slot_flags & SLOT_BACK_GUN) && M.get_equipped_item(slot_add_gun) == src)
+	if((slot_flags & SLOT_GUN_SLOT) && M.get_equipped_item(slot_gun_slot) == src)
 		return 1
 	if((slot_flags & SLOT_BELT) && M.get_equipped_item(slot_belt) == src)
 		return 1

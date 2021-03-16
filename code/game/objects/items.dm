@@ -305,7 +305,7 @@
 //Defines which slots correspond to which slot flags
 var/list/global/slot_flags_enumeration = list(
 	"[slot_wear_mask]" = SLOT_MASK,
-	"[slot_add_gun]" = SLOT_BACK_GUN,
+	"[slot_gun_slot]" = SLOT_GUN_SLOT,
 	"[slot_left_pouch]" = SLOT_LPOUCH,
 	"[slot_right_pouch]" = SLOT_RPOUCH,
 	"[slot_holster]" = SLOT_NHOLSTER,
@@ -402,12 +402,12 @@ var/list/global/slot_flags_enumeration = list(
 					allow = 1
 			if(!allow)
 				return 0
-		if(slot_add_gun)
+		if(slot_gun_slot)
 			if(!H.w_uniform && (slot_w_uniform in mob_equip))
 				if(!disable_warning)
 					to_chat(H, "<span class='warning'>You need a jumpsuit before you can attach this [name].</span>")
 				return 0
-			if(!(slot_flags & SLOT_BACK_GUN))
+			if(!(slot_flags & SLOT_GUN_SLOT))
 				to_chat(H, "<span class='warning'>You can't place [name] on your shoulder.</span>")
 				return 0
 			if(istype(src, typesof(/obj/item/)) )

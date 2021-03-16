@@ -16,7 +16,7 @@
 #define SLOT_NHOLSTER	0x100
 #define SLOT_BELT       0x200
 #define SLOT_BACK       0x400
-#define SLOT_BACK_GUN   0x600
+#define SLOT_GUN_SLOT   0x600
 #define SLOT_POCKET     0x800  // This is to allow items with a w_class of 3 or 4 to fit in pockets.
 #define SLOT_DENYPOCKET 0x1000  // This is to  deny items with a w_class of 2 or 1 from fitting in pockets.
 #define SLOT_TWOEARS    0x2000
@@ -108,7 +108,7 @@
 #define slot_legs        21
 #define slot_tie         22
 #define slot_last        26
-#define slot_add_gun     23
+#define slot_gun_slot    23
 #define slot_left_pouch  24
 #define slot_right_pouch 25
 #define slot_holster     26
@@ -136,11 +136,11 @@
 #define slot_glasses_str  	"slot_glasses"
 #define slot_s_store_str	"slot_s_store"
 #define slot_tie_str		"slot_tie"
-#define slot_add_gun_str    "slot_add_gun"//aditional gun
+#define slot_gun_slot_str    "slot_gun_slot"//aditional gun
 #define slot_left_pouch_str "slot_left_pouch"
 #define slot_right_pouch_str "slot_right_pouch"
 #define slot_holster_str    "slot_holster"
-#define slot_back_gun_str	"slot_back_gun"
+#define slot_gun_slot	"slot_gun_slot"
 
 // Bitflags for clothing parts.
 #define HEAD        0x1
@@ -266,6 +266,6 @@ var/list/default_onmob_icons = list(
 		slot_right_pouch_str = 'icons/mob/right_pouch.dmi',
 		slot_holster_str = 'icons/mob/holster.dmi',
 		slot_tie_str = 'icons/mob/ties.dmi',
-		slot_add_gun_str = 'icons/mob/gun_slot.dmi'
+		slot_gun_slot_str = 'icons/mob/gun_slot.dmi'
 		)
 

@@ -76,7 +76,7 @@ This saves us from having to call add_fingerprint() any time something is put in
 			return has_organ(BP_CHEST)
 		if(slot_wear_mask)
 			return has_organ(BP_HEAD)
-		if(slot_add_gun)
+		if(slot_gun_slot)
 			return has_organ(BP_CHEST)
 		if(slot_right_pouch)
 			return has_organ(BP_CHEST)
@@ -268,7 +268,7 @@ This saves us from having to call add_fingerprint() any time something is put in
 				update_inv_ears(0)
 			W.equipped(src, slot)
 			update_inv_wear_mask(redraw_mob)
-		if(slot_add_gun)//custom gun slot
+		if(slot_gun_slot)//custom gun slot
 			src.wear_gun = W
 			W.equipped(src, slot)
 			W.screen_loc = ui_gun_slot
@@ -423,7 +423,7 @@ This saves us from having to call add_fingerprint() any time something is put in
 /mob/living/carbon/human/get_equipped_item(var/slot)
 	switch(slot)
 		if(slot_back)       return back
-		if(slot_add_gun)    return wear_gun
+		if(slot_gun_slot)    return wear_gun
 		if(slot_holster)    return holster
 		if(slot_right_pouch)return right_pouch
 		if(slot_left_pouch) return left_pouch

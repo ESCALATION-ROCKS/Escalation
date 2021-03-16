@@ -6,7 +6,7 @@
 	w_class = 5
 	force = 15
 	accuracy = 2.6
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 200
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
@@ -88,7 +88,7 @@
 	w_class = 5
 	force = 15
 	accuracy = 2.5
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 100
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -169,7 +169,7 @@
 	w_class = 5
 	force = 15
 	accuracy = 2.5
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 100
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -249,7 +249,7 @@
 	w_class = 5
 	force = 15
 	accuracy = 2.3
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 200
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -329,7 +329,7 @@
 	item_state = "xm249"
 	w_class = 5
 	force = 15
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
 	load_method = MAGAZINE
@@ -410,7 +410,7 @@
 	w_class = 5
 	force = 15
 	accuracy = 2.6
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 200
 	caliber = "762x54"
 	ammo_type = /obj/item/ammo_casing/a762x54
@@ -493,7 +493,7 @@
 	w_class = 5
 	force = 15
 	accuracy = 2.3
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 200
 	caliber = "762x51"
 	ammo_type = /obj/item/ammo_casing/a762x51
@@ -572,7 +572,7 @@
 	desc = "A standard-issue Nationale Volksarmee squad support weapon. Chambers 7.62x39 rounds."
 	icon_state = "nvarpk"
 	item_state = "nvarpk"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	w_class = 5
 	force = 15
 	max_shells = 75
@@ -617,7 +617,7 @@
 	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x39 rounds."
 	icon_state = "cslarpk"
 	item_state = "nvarpk"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	w_class = 5
 	force = 15
 	max_shells = 75
@@ -663,7 +663,7 @@
 	w_class = 5
 	force = 15
 	accuracy = 2.6
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 100
 	caliber = "762x39"
 	ammo_type = /obj/item/ammo_casing/a762x39
@@ -745,7 +745,7 @@
 	w_class = 5
 	force = 15
 	accuracy = 2.3
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 100
 	caliber = "762x39"
 	ammo_type = /obj/item/ammo_casing/a762x39
@@ -824,7 +824,7 @@
 	desc = "A standard-issue Soviet Army squad support weapon. Chambers 5.45x39 rounds."
 	icon_state = "sarpk"
 	item_state = "rpk"
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	w_class = 5
 	force = 15
 	max_shells = 75

@@ -68,7 +68,7 @@
 	flags =  CONDUCT
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
 	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 	release_force = 40
 	throw_distance = 30
@@ -149,7 +149,7 @@
 	flags =  CONDUCT
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
 	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 	release_force = 40
 	throw_distance = 30
@@ -230,7 +230,7 @@
 	flags =  CONDUCT
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
 	fire_sound = 'sound/weapons/gunshot/gustaf_fire.ogg'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 	release_force = 40
 	throw_distance = 30
@@ -312,7 +312,7 @@
 	flags =  CONDUCT
 	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
 	fire_sound = 'sound/weapons/gunshot/finnrpg_fire.ogg'
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 	release_force = 40
 	throw_distance = 30
@@ -382,7 +382,7 @@
 
 ///////////////////Not ours///////////////////////////////////////////////
 /obj/item/weapon/gun/launcher/oneuse/
-	slot_flags = SLOT_BACK_GUN | SLOT_BACK
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	var/folded = 1
 
 /obj/item/weapon/gun/launcher/oneuse/attack_self(mob/user)
@@ -403,7 +403,7 @@
 			folded = 1
 			icon_state = initial(icon_state)
 			item_state = initial(item_state)
-			slot_flags = SLOT_BACK_GUN | SLOT_BACK
+			slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/gun/launcher/oneuse/special_check(mob/user)
 	if(folded == 1)
@@ -541,7 +541,7 @@
 			folded = 1
 			icon_state = initial(icon_state)
 			item_state = initial(item_state)
-			slot_flags = SLOT_BACK_GUN | SLOT_BACK
+			slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/gun/launcher/oneuse/m72/special_check(mob/user)
 	if(folded == 1)
