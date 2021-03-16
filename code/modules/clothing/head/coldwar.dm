@@ -413,22 +413,22 @@
 /obj/item/clothing/head/usmc/cap/bundesheer
 	name = "Bundeswehr cap"
 	desc = "That's a generic field cap in a 'Steingrau-olive' pattern."
-	icon_state = "bdw_cap"
+	icon_state = "heer_cap"
 
 /obj/item/clothing/head/garcap/bundesheer
 	name = "garrison cap"
 	desc = "That's a garrison cap used by Bundesheer."
-	icon_state = "bdwgarrisoncap"
-	icon_state_alt = "bdwgarrisoncap_alt"
+	icon_state = "heergarrisoncap"
+	icon_state_alt = "heergarrisoncap_alt"
 
 /obj/item/clothing/head/beret/bundesheer
 	name = "beret"
-	desc = "A black beret common amongst Bundesheer divisions."
-	icon_state = "bdwberret"
+	desc = "A green beret common amongst Bundesheer divisions."
+	icon_state = "heerberret"
 
 //heer helmets
 /obj/item/clothing/head/helmet/coldwar/heer/m1
-	name = "M1 helmet"
+	name = "M75 helmet"
 	desc = "An outdated steel helmet used by Bundesheer. This one has a cover on it."
 	icon_state = "m1cover"
 	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
