@@ -477,6 +477,17 @@
 	slots = 4
 	armor_slowdown = 0.0
 
+/obj/item/clothing/accessory/storage/kaz
+	name = "KAZ03 chest rig"
+	desc = "A chest rig used by the Bundesheer, meant to be attached on the flak vest."
+	icon_state = "bandovest_heer"
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
+	armor_slowdown = 0.0
+
 /obj/item/clothing/accessory/storage/lifchik/alt
 	icon_state = "lifchik_2"
 	slots = 2

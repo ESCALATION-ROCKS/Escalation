@@ -83,6 +83,13 @@
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
+/obj/item/clothing/suit/storage/vest/flakvest/heer
+	name = "Kampfweste KAZ03"
+	desc = "A flak vest used by the Bundesheer."
+	icon_state = "flakvest_heer"
+	item_state = "flakvest_heer"
+
+
 /obj/item/clothing/suit/armor/vest/coat/
 	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
