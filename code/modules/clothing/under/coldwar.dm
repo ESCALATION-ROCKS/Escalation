@@ -136,6 +136,43 @@
 /obj/item/clothing/under/bundesheer/flecktarn/stabsunter
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/stabsunter, /obj/item/clothing/accessory/storage/uniform_pockets)
 
+/obj/item/clothing/under/bundesheer/kaz03/
+	name = "KAZ03 fatigues"
+	desc = "That's the KAZ03 pattern uniform, used by the Bundesheer."
+	icon_state = "kaz03"
+	worn_state = "kaz03"
+	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
+	siemens_coefficient = 0.7
+	slowdown_general = 0.5
+	has_sensor = 0
+
+/obj/item/clothing/under/bundesheer/kaz03/soldat
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/soldat, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/kaz03/gefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/gefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/kaz03/stabsgefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/stabsgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/kaz03/hauptgefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/hauptgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/kaz03/oberstabsgefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/oberstabsgefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/kaz03/oberleutnant
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/oberleutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/kaz03/leutnant
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/leutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/kaz03/unter
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/unter, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/bundesheer/kaz03/stabsunter
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/bundesheer/stabsunter, /obj/item/clothing/accessory/storage/uniform_pockets)
+
 
 //Soviet Army
 /obj/item/clothing/under/soviet/
