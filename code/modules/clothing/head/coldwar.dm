@@ -429,11 +429,11 @@
 //heer helmets
 /obj/item/clothing/head/helmet/coldwar/heer/m1
 	name = "M75 helmet"
-	desc = "An outdated steel helmet used by Bundesheer."
-	icon_state = "m1helmet"
+	desc = "An outdated steel helmet used by Bundesheer. This one has a cover on it."
+	icon_state = "m1heer"
 	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
-	icon_state_unzipped = "m1helmet-unzipped"
+	icon_state_unzipped = "m1heer-unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/heer/m1/netting
 	desc = "An outdated steel helmet used by Bundesheer. This one has a netting on it."
