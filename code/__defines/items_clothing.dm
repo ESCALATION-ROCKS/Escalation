@@ -140,6 +140,7 @@
 #define slot_left_pouch_str "slot_left_pouch"
 #define slot_right_pouch_str "slot_right_pouch"
 #define slot_holster_str    "slot_holster"
+#define slot_back_gun_str	"slot_back_gun"
 
 // Bitflags for clothing parts.
 #define HEAD        0x1
