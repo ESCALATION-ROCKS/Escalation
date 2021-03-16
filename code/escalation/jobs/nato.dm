@@ -1159,7 +1159,7 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/heer/heersqradio
-	title = "BDH Squad Radio Operator"
+	title = "BDH Gruppenfunker"
 	name = "Gruppenfunker"
 	english_name = "Squad Radioman"
 	minimal_player_age = 21

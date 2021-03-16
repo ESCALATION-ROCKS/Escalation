@@ -2209,7 +2209,7 @@
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/auga1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer/lmg
-	back = /obj/item/weapon/storage/backpack/alice/medium
+	back = /obj/item/weapon/storage/backpack/alice/heer
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
 	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1
@@ -2235,7 +2235,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/heer
 	shoes = /obj/item/clothing/shoes/bundesheer/field
 	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/auga1
-	back = /obj/item/weapon/storage/backpack/alice/medium
+	back = /obj/item/weapon/storage/backpack/alice/heer
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	head = /obj/item/clothing/head/garcap/bundesheer
@@ -2328,7 +2328,7 @@
 	uniform = /obj/item/clothing/under/bundesheer/flecktarn/gefr
 	shoes = /obj/item/clothing/shoes/bundesheer/field
 	holster = /obj/item/weapon/storage/belt/holster/heer
-	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ssg82
+	back_2 = /obj/item/weapon/gun/projectile/automatic/rifle/ssg58
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer/sniper
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer/sniper
 	back = /obj/item/weapon/storage/backpack/heer_buttpack
@@ -2432,7 +2432,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	r_pocket = null
-	back = /obj/item/weapon/storage/backpack/alice/medium
+	back = /obj/item/weapon/storage/backpack/alice/heer
 	head = /obj/item/clothing/head/garcap/bundesheer
 	belt = /obj/item/weapon/storage/belt/harness/heer
 	l_hand = /obj/item/clothing/head/helmet/coldwar/heer/m1
