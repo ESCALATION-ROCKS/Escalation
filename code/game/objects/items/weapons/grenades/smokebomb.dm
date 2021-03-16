@@ -5,7 +5,6 @@
 	icon_state = "flashbang"
 	det_time = 20
 	item_state = "flashbang"
-	slot_flags = SLOT_BELT
 	var/datum/effect/effect/system/smoke_spread/bad/smoke
 
 /obj/item/weapon/grenade/smokebomb/New()
@@ -95,7 +94,6 @@
 	icon_state = "flashbang"
 	det_time = 15
 	item_state = "flashbang"
-	slot_flags = SLOT_BELT
 	var/datum/effect/effect/system/smoke_spread/tear/smoke
 
 /obj/item/weapon/grenade/tear/New()

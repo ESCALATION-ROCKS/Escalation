@@ -146,7 +146,6 @@
 	icon = 'icons/obj/items.dmi'
 	icon_state = "shovel"
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	force = 8.0
 	throwforce = 4.0
 	item_state = "shovel"

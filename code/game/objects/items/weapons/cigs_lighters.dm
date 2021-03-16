@@ -548,7 +548,6 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 	w_class = ITEM_SIZE_TINY
 	throwforce = 4
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	attack_verb = list("burnt", "singed")
 	var/max_fuel = 5
 

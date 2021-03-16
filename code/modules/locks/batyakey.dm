@@ -1,5 +1,5 @@
 /obj/item/weapon/masterkey
-	slot_flags = SLOT_ID|SLOT_BELT
+	slot_flags = SLOT_ID
 	icon = 'icons/obj/items.dmi'
 	icon_state = "keyring"
 	name = "keyring"

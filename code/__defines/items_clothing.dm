@@ -136,11 +136,10 @@
 #define slot_glasses_str  	"slot_glasses"
 #define slot_s_store_str	"slot_s_store"
 #define slot_tie_str		"slot_tie"
-#define slot_gun_slot_str    "slot_gun_slot"//aditional gun
+#define slot_gun_slot_str    "slot_gun_slot"
 #define slot_left_pouch_str "slot_left_pouch"
 #define slot_right_pouch_str "slot_right_pouch"
 #define slot_holster_str    "slot_holster"
-#define slot_gun_slot	"slot_gun_slot"
 
 // Bitflags for clothing parts.
 #define HEAD        0x1

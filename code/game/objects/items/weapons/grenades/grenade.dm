@@ -8,7 +8,6 @@
 	throw_speed = 4
 	throw_range = 20
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	var/active = 0
 	var/det_time = 50
 	var/arm_sound = 'sound/effects/pinpull.ogg'

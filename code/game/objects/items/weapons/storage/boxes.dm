@@ -42,7 +42,6 @@
 	icon_state = "matchboxsmall"
 	item_state = "zippo"
 	w_class = 1
-	slot_flags = SLOT_BELT
 	can_hold = list(/obj/item/weapon/flame/match)
 	startswith = list(/obj/item/weapon/flame/match = 5)
 	storage_slots = 5
@@ -346,7 +345,6 @@
 	icon_state = "matchbox"
 	item_state = "zippo"
 	w_class = ITEM_SIZE_TINY
-	slot_flags = SLOT_BELT
 	can_hold = list(/obj/item/weapon/flame/match)
 	startswith = list(/obj/item/weapon/flame/match = 10)
 

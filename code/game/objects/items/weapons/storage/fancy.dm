@@ -78,7 +78,6 @@
 	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_TINY
 	max_storage_space = 5
-	slot_flags = SLOT_BELT
 
 	key_type = /obj/item/weapon/flame/candle
 	startswith = list(/obj/item/weapon/flame/candle = 5)
@@ -127,7 +126,6 @@
 	max_w_class = ITEM_SIZE_TINY
 	max_storage_space = 6
 	throwforce = 2
-	slot_flags = SLOT_BELT
 
 	key_type = /obj/item/clothing/mask/smokable/cigarette
 	startswith = list(/obj/item/clothing/mask/smokable/cigarette = 6)
@@ -241,7 +239,6 @@
 	max_w_class = ITEM_SIZE_TINY
 	max_storage_space = 6
 	throwforce = 2
-	slot_flags = SLOT_BELT
 	storage_slots = 7
 
 	key_type = /obj/item/clothing/mask/smokable/cigarette/cigar

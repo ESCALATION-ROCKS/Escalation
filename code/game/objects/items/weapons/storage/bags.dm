@@ -5,7 +5,6 @@
 	allow_quick_gather = 1
 	allow_quick_empty = 1
 	use_to_pickup = 1
-	slot_flags = SLOT_BELT
 
 /obj/item/weapon/storage/bag/handle_item_insertion(obj/item/W as obj, prevent_warning = 0)
 	. = ..()

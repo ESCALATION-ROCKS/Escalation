@@ -5,7 +5,6 @@
 	icon = 'icons/obj/items.dmi'
 	icon_state = "handcuff"
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	throwforce = 5
 	w_class = 1
 	throw_speed = 2

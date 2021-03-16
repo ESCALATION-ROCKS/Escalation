@@ -5,7 +5,7 @@
 	icon_state = "binoculars"
 
 	flags = CONDUCT
-	slot_flags = SLOT_BELT | SLOT_EARS
+	slot_flags = SLOT_EARS
 	force = 5.0
 	w_class = ITEM_SIZE_SMALL
 	throwforce = 5.0

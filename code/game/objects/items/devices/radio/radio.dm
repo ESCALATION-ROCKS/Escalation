@@ -19,7 +19,6 @@
 	var/syndie = 0//Holder to see if it's a syndicate encrypted radio
 	var/badquality = 0
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	throw_speed = 2
 	throw_range = 9
 	w_class = ITEM_SIZE_SMALL

@@ -24,7 +24,6 @@
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "wrench"
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	force = 5.0
 	throwforce = 7.0
 	w_class = ITEM_SIZE_SMALL
@@ -68,7 +67,6 @@
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "screwdriver"
 	flags = CONDUCT
-	slot_flags = SLOT_BELT | SLOT_EARS
 	force = 5.0
 	w_class = ITEM_SIZE_TINY
 	throwforce = 5.0
@@ -161,7 +159,6 @@
 	icon = 'icons/obj/tools.dmi'
 	icon_state = "cutters"
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	force = 6.0
 	throw_speed = 2
 	throw_range = 9
@@ -252,7 +249,6 @@
 	description_fluff = "One of many tools of ancient design, still used in today's busy world of engineering with only minor tweaks here and there. Compact machinery and innovations in fuel storage have allowed for conveniences like this one-piece, handheld welder to exist."
 	description_antag = "You can use a welder to rapidly seal off doors, ventilation ducts, and scrubbers. It also makes for a devastating weapon. Modify it with a screwdriver and stick some metal rods on it, and you've got the beginnings of a flamethrower."
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	center_of_mass = "x=14;y=15"
 
 	//Amount of OUCH when it's thrown
@@ -721,7 +717,6 @@
 	weapon_speed_delay = 7
 	w_class = ITEM_SIZE_NORMAL
 	matter = list(DEFAULT_WALL_MATERIAL = 80)
-	slot_flags = SLOT_BELT
 
 /obj/item/weapon/crowbar/prybar/Initialize()
 	icon_state = "prybar[pick("","_red","_green","_aubergine","_blue")]"

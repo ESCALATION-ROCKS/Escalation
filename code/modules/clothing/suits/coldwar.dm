@@ -59,8 +59,8 @@
 	icon_state = "pasgt_vest"
 	item_state = "armor"
 	w_class = ITEM_SIZE_LARGE
-	armor = list(melee = 30, bullet = 32, laser = 0, energy = 25, bomb = 22, bio = 0, rad = 0)
-	slowdown_general = 0.23
+	armor = list(melee = 30, bullet = 30, laser = 0, energy = 25, bomb = 22, bio = 0, rad = 0)
+	slowdown_general = 0.18
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 /obj/item/clothing/suit/storage/vest/pasgt/New()

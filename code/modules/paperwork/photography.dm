@@ -141,7 +141,6 @@ var/global/photo_count = 0
 	item_state = "electropack"
 	w_class = ITEM_SIZE_SMALL
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 	matter = list(DEFAULT_WALL_MATERIAL = 2000)
 	var/pictures_max = 10
 	var/pictures_left = 10
