@@ -17,7 +17,7 @@
 	icon_state = "6b3"
 	item_state = "armor"
 	armor = list(melee = 30, bullet = 32, laser = 0, energy = 25, bomb = 26, bio = 0, rad = 0)
-	slowdown_general = 0.26
+	slowdown_general = 0.22
 
 /obj/item/clothing/suit/storage/vest/soviet/a6b3/New()
 	..()
@@ -59,13 +59,11 @@
 	icon_state = "pasgt_vest"
 	item_state = "armor"
 	w_class = ITEM_SIZE_LARGE
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 30, bullet = 30, laser = 0, energy = 25, bomb = 22, bio = 0, rad = 0)
 	slowdown_general = 0.18
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
-
-/obj/item/clothing/suit/storage/vest/pasgt/New()
-	..()
-	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 2)
 
 /obj/item/clothing/suit/storage/vest/pasgt/woodland
 	icon_state = "pasgt_vest_woodland"

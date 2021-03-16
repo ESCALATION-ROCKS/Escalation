@@ -441,7 +441,7 @@
 	w_class = ITEM_SIZE_LARGE
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
-	slots = 5
+	slots = 4
 	armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/bandolier_nato/filled/New()
