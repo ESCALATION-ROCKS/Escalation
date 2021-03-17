@@ -43,6 +43,11 @@
 #USMC - /obj/item/clothing/glasses/sunglasses
 
 {
+ckey: SONY XPERIA
+item_path: /obj/item/clothing/head/usmc/cavhat
+}
+
+{
 ckey: BurnedSweetPotato
 item_path: /obj/item/clothing/glasses/sunglasses
 }

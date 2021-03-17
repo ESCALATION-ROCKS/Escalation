@@ -179,7 +179,7 @@
 
 /obj/item/ammo_magazine/c762x51b/bdw
 	name = "MG3 belt box (7.62x51mm)"
-	desc = "An MG3 box that fits one hundred 7.62x51mm rounds."
+	desc = "An MG3 box that fits one hundred and fifty 7.62x51mm rounds."
 	icon_state = "mg3"
 	item_state = "mg3_mag"
 	mag_type = MAGAZINE
@@ -192,12 +192,12 @@
 
 /obj/item/ammo_magazine/c762x51b/bdw/ap
 	name = "MG3 AP belt box (7.62x51mm)"
-	desc = "A belt box that fits one hundred armor-piercing 7.62x51mm rounds."
+	desc = "A belt box that fits one hundred and fifty armor-piercing 7.62x51mm rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/ap
 
 /obj/item/ammo_magazine/c762x51b/bdw/tr
 	name = "MG3 tracer belt box (7.62x51mm)"
-	desc = "A belt box that fits one hundred 7.62x51mm tracer rounds."
+	desc = "A belt box that fits one hundred and fifty 7.62x51mm tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
 
 /obj/item/ammo_magazine/c762x51b/bdw/empty
@@ -231,7 +231,7 @@
 
 /obj/item/ammo_magazine/c762x51b/en
 	name = "L7A2 belt box (7.62x51mm)"
-	desc = "An L7A2 belt box that fits one hundred 7.62x51mm rounds."
+	desc = "An L7A2 belt box that fits two hundred 7.62x51mm rounds."
 	icon_state = "l7a2"
 	item_state = "mg3_mag"
 	mag_type = MAGAZINE
@@ -244,12 +244,12 @@
 
 /obj/item/ammo_magazine/c762x51b/en/ap
 	name = "L7A2 AP belt box (7.62x51mm)"
-	desc = "A belt box that fits one hundred armor-piercing 7.62x51mm rounds."
+	desc = "A belt box that fits two hundred armor-piercing 7.62x51mm rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/ap
 
 /obj/item/ammo_magazine/c762x51b/en/tr
 	name = "L7A2 tracer belt box (7.62x51mm)"
-	desc = "A belt box that fits one hundred 7.62x51mm tracer rounds."
+	desc = "A belt box that fits two hundred 7.62x51mm tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
 
 /obj/item/ammo_magazine/c762x51b/en/empty
@@ -723,7 +723,7 @@
 
 /obj/item/ammo_magazine/c762x54b
 	name = "PKM belt box (7.62x54mmR)"
-	desc = "A PKM belt box that fits one hundred 7.62x54mmR rounds."
+	desc = "A PKM belt box that fits two hundred 7.62x54mmR rounds."
 	icon_state = "pkm"
 	item_state = "pkm_mag"
 	mag_type = MAGAZINE
@@ -737,12 +737,12 @@
 
 /obj/item/ammo_magazine/c762x54b/ap
 	name = "PKM AP belt box (7.62x54mmR)"
-	desc = "A PKM belt box that fits one hundred armor-piercing 7.62x54mmR rounds."
+	desc = "A PKM belt box that fits two hundred armor-piercing 7.62x54mmR rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/c762x54b/tr
 	name = "PKM tracer belt box (7.62x54mmR)"
-	desc = "A PKM belt box that fits one hundred 7.62x54mmR tracer rounds."
+	desc = "A PKM belt box that fits two hundred 7.62x54mmR tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/c762x54b/empty
@@ -750,7 +750,7 @@
 
 /obj/item/ammo_magazine/c762x54b/csla
 	name = "vz. 59 belt box (7.62x54mmR)"
-	desc = "A gray vz.59 belt box that fits one hundred 7.62x54mmR rounds."
+	desc = "A gray vz.59 belt box that fits two hundred 7.62x54mmR rounds."
 	icon_state = "vz59"
 	item_state = "mg3_mag"
 	mag_type = MAGAZINE
@@ -763,12 +763,12 @@
 
 /obj/item/ammo_magazine/c762x54b/csla/ap
 	name = "vz. 59 AP belt box (7.62x54mmR)"
-	desc = "A gray vz.59 belt box that fits one hundred armor-piercing 7.62x54mmR rounds."
+	desc = "A gray vz.59 belt box that fits two hundred armor-piercing 7.62x54mmR rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/ap
 
 /obj/item/ammo_magazine/c762x54b/csla/tr
 	name = "vz. 59 tracer belt box (7.62x54mmR)"
-	desc = "A gray vz.59 belt box that fits one hundred 7.62x54mmR tracer rounds."
+	desc = "A gray vz.59 belt box that fits two hundred 7.62x54mmR tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/c762x54b/csla/empty
@@ -856,7 +856,7 @@
 
 /obj/item/ammo_magazine/c127x108b
 	name = "UTES belt box (12.7x108mm)"
-	desc = "A NSV Utes belt box that fits one hundred 12.7x108mm rounds."
+	desc = "A NSV Utes belt box that fits fifty 12.7x108mm rounds."
 	icon_state = "utes"
 	item_state = "pkm_mag"
 	mag_type = MAGAZINE

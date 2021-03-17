@@ -275,6 +275,11 @@
 	desc = "That's a generic boonie hat in a woodland pattern."
 	icon_state = "boonie_woodl"
 
+/obj/item/clothing/head/usmc/cavhat
+	name = "cavalry hat"
+	desc = null
+	icon_state = "cavhat"
+
 /obj/item/clothing/head/ushanka/uswintercap
 	name = "winter cap"
 	desc = "That's a generic winter cap for cold climates."
