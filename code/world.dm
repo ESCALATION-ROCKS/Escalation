@@ -66,6 +66,7 @@
 
 	return match
 
+var/roundstarted = 0
 
 /world
 	mob = /mob/new_player

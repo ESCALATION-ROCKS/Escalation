@@ -1108,6 +1108,7 @@ var/global/list/global_colour_matrix = null
 										0, 0.33, 0.33,\
 										0, 0.33, 0.33)
 
+
 /client/proc/announce_battle_start()
 	set category = "EscAdmin"
 	set name = "Announce Battle Start"
@@ -1116,6 +1117,7 @@ var/global/list/global_colour_matrix = null
 	to_world("<b><font size=3>This will be our final broadcast. Advance under platoon-scale command. Good luck.</font></b>")
 	sound_to(world, 'sound/effects/Evacuation.ogg')
 	log_and_message_admins("has set forth the end of the world.")
+	roundstarted = 1
 
 /client/proc/nato_major()
 	set category = "EscAdmin"

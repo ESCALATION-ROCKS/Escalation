@@ -165,7 +165,7 @@
 	w_class = 3
 	icon_state = "satchelnato"
 	throw_speed = 1
-	throw_range = 3
+	throw_range = 2
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
 	num_fragments = 70  //total number of fragments produced by the grenade
 	det_time = 100
@@ -176,9 +176,13 @@
 		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
 
 /obj/item/weapon/grenade/frag/satchelnato/attack_self(mob/user)
-	message_admins("[key_name_admin(user)] activated a satchel charge. ([src.name]).")
-	log_game("[key_name_admin(user)] activated a satchel charge.")
-	..()
+	if (roundstarted == 0)
+		to_chat(user, "<span class='notice'>There is nothing to blow up yet!</span>")
+		return
+	else
+		message_admins("[key_name_admin(user)] activated a satchel charge. ([src.name]).")
+		log_game("[key_name_admin(user)] activated a satchel charge.")
+		..()
 
 /obj/item/weapon/grenade/frag/satchelnato/New()
 	..()
@@ -191,7 +195,7 @@
 	w_class = 3
 	icon_state = "satchelwp"
 	throw_speed = 1
-	throw_range = 3
+	throw_range = 2
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
 	num_fragments = 70  //total number of fragments produced by the grenade
 	det_time = 100
@@ -202,9 +206,13 @@
 		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
 
 /obj/item/weapon/grenade/frag/satchelwp/attack_self(mob/user)
-	message_admins("[key_name_admin(user)] activated a satchel charge. ([src.name]).")
-	log_game("[key_name_admin(user)] activated a satchel charge.")
-	..()
+	if (roundstarted == 0)
+		to_chat(user, "<span class='notice'>There is nothing to blow up yet!</span>")
+		return
+	else
+		message_admins("[key_name_admin(user)] activated a satchel charge. ([src.name]).")
+		log_game("[key_name_admin(user)] activated a satchel charge.")
+		..()
 
 /obj/item/weapon/grenade/frag/satchelwp/New()
 	..()
