@@ -48,8 +48,8 @@ meteor_act
 			P.damage *= 0.9
 		if(BP_L_FOOT, BP_R_FOOT)
 			P.damage *= 0.6
-			P.agony *= 3.0
-			if(prob(60))
+			P.agony *= 1.5
+			if(prob(40))
 				AdjustWeakened(rand(1, 2))
 				emote("me", 1, "screams in pain and falls on the ground!")
 		if(BP_L_LEG, BP_R_LEG)
