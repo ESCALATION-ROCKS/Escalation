@@ -81,11 +81,17 @@
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
-/obj/item/clothing/suit/storage/vest/flakvest/heer
+/obj/item/clothing/suit/storage/vest/heervest
 	name = "Kampfweste KAZ03"
-	desc = "A flak vest used by the Bundesheer."
+	desc = "A flak vest used by Bundesheer personnel."
 	icon_state = "flakvest_heer"
-	item_state = "flakvest_heer"
+	item_state = "armor"
+	w_class = ITEM_SIZE_LARGE
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 25, bio = 0, rad = 0)
+	slowdown_general = 0.15
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 
 /obj/item/clothing/suit/armor/vest/coat/
