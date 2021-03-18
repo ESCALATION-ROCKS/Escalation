@@ -72,7 +72,7 @@ proc/show_armies()
 
 
 //bund, usmc, csla, cccp
-//охх сука отрубите мне руки за этот говнокод ~Бастард
+//пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ ~пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 proc/show_statistic_by_faction()
 	//fraction live kill in action mortality rate
 	if(!ticker.mode.wargames)
@@ -148,7 +148,7 @@ proc/show_statistic_by_faction()
 	var/language = "English" //Main language of the army.
 	var/datum/mind/leader //the connected key of the factions current main leader (can only be one)
 	var/base_color = "white" //Color code for various things
-	var/group_name //Name of the group this team belongs to, ie. WARPAC
+	var/group_name //Name of the group this team belongs to, ie. WARPACT
 	var/list/players = list()
 	var/num_fireteams = 3
 	var/list/datum/fireteam/fireteams = list()

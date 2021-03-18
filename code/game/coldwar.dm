@@ -109,7 +109,7 @@ var/wlg_selected_cuttree = 0
 	for(var/datum/fireteam/ft in job_master.all_fireteams)
 		if(!ft.is_full())
 			continue
-		if(ft.side == "WARPAC")
+		if(ft.side == "WARPACT")
 			ru_fireteams++
 		if(ft.side == "NATO")
 			en_fireteams++

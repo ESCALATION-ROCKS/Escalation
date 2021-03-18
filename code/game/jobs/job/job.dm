@@ -42,7 +42,7 @@
 	var/hud_icon						  //icon used for Sec HUD overlay
 	var/whitelist_only = 1
 	var/whitelist_group = ""
-	var/military_faction				  //Whether they are apart the NATO or WARPAC faction. Not really sure of a better way to do this right now.
+	var/military_faction				  //Whether they are apart the NATO or WARPACT faction. Not really sure of a better way to do this right now.
 
 	var/sex_lock // FEMOIDS NOT WELCOME
 

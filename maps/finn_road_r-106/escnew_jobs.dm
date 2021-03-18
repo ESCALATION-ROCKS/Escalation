@@ -292,7 +292,7 @@
 
 //BDW
 /datum/job/escalation/bdw/bdwplatlead
-	title = "Zugfuhrår"
+	title = "Zugfuhrï¿½r"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -434,7 +434,7 @@
 	enabled = 0
 	faction_tag = "nvaddr"
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/nvaddr
-	military_faction = WARPAC
+	military_faction = WARPACT
 	latejoin_at_spawnpoints = 1
 
 
@@ -617,7 +617,7 @@
 	enabled = 0
 	faction_tag = "sa"
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet
-	military_faction = WARPAC
+	military_faction = WARPACT
 	latejoin_at_spawnpoints = 1
 
 //Soviet Army

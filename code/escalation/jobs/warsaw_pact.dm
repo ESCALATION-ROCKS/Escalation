@@ -3,7 +3,7 @@
 	title = "cccp"
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "cccp"
-	military_faction = WARPAC
+	military_faction = WARPACT
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
@@ -480,7 +480,7 @@
 	title = "NVA DDR"
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "nvaddr" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
-	military_faction = WARPAC
+	military_faction = WARPACT
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
@@ -955,7 +955,7 @@
 	title = "Finnish Militaria"
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "finn" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
-	military_faction = WARPAC
+	military_faction = WARPACT
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
@@ -1398,7 +1398,7 @@
 	title = "CSLA"
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "csla" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
-	military_faction = WARPAC
+	military_faction = WARPACT
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"

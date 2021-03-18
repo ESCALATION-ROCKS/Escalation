@@ -1,10 +1,10 @@
-/datum/army_faction/warpac
+/datum/army_faction/warpact
 	group_name = "WARPACT"
 	enabled = 0
 	language = "Russian"
 //	fireteam_names = list("Anna", "Boris", "Vasiliy", "Grigoriy")
 
-/datum/army_faction/warpac/nvaddr
+/datum/army_faction/warpact/nvaddr
 	name = "Nationale Volksarmee"
 	enabled = 1
 	faction_tag = "nvaddr"
@@ -13,7 +13,7 @@
 	base_color = "brown"
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
 
-/datum/army_faction/warpac/soviet
+/datum/army_faction/warpact/soviet
 	name = "Sovetskaya Armiya"
 	enabled = 1
 	faction_tag = "cccp"
