@@ -1112,12 +1112,16 @@ var/global/list/global_colour_matrix = null
 /client/proc/announce_battle_start()
 	set category = "EscAdmin"
 	set name = "Announce Battle Start"
-	to_world("<b><font size=2>All callsigns, multiple ballistic launches have been detected. Operational readiness No. 1 has been declared!</font></b>")
-	to_world("<b><font size=2>Repeat, all callsigns, Operational readiness No. 1 has been declared!</font></b>")
-	to_world("<b><font size=3>This will be our final broadcast. Advance under platoon-scale command. Good luck.</font></b>")
-	sound_to(world, 'sound/effects/Evacuation.ogg')
-	log_and_message_admins("has set forth the end of the world.")
-	roundstarted = 1
+	var/startconfirm = alert("Are you sure you want to start the battle?", "Are you sure you want to start the battle?", "Yes", "No")
+	if(startconfirm == "Yes")
+		to_world("<b><font size=2>All callsigns, multiple ballistic launches have been detected. Operational readiness No. 1 has been declared!</font></b>")
+		to_world("<b><font size=2>Repeat, all callsigns, Operational readiness No. 1 has been declared!</font></b>")
+		to_world("<b><font size=3>This will be our final broadcast. Advance under platoon-scale command. Good luck.</font></b>")
+		sound_to(world, 'sound/effects/Evacuation.ogg')
+		log_and_message_admins("has set forth the end of the world.")
+		roundstarted = 1
+	else
+		return
 
 /client/proc/nato_major()
 	set category = "EscAdmin"
