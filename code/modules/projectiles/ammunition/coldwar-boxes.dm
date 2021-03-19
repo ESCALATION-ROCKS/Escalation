@@ -488,6 +488,32 @@
 /obj/item/ammo_magazine/c762x51wa/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/m9x19
+	name = "magazine (9x19mm)"
+	desc = "A Beretta M9 magazine that fits fifteen 9x19mm rounds."
+	icon_state = "9x19b"
+	item_state = "generic_mag"
+	w_class = 1
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 15
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/m9x19/ap
+	name = "AP magazine (9x19mm)"
+	desc = "A Beretta M9 magazine that fits fifteen armor-piercing 9x18mm rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/ap
+
+/obj/item/ammo_magazine/m9x19/tr
+	name = "tracer magazine (9x18mm)"
+	desc = "A Beretta M9 magazine that fits fifteen 9x19mm tracer rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/tr
+
+/obj/item/ammo_magazine/m9x19/empty
+	initial_ammo = 0
+
 //////////////////////////////////// WARPACT magazines//////////////////////////////////////////
 
 /obj/item/ammo_magazine/c545x39m

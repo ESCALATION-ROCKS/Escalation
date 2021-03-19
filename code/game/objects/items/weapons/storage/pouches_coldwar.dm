@@ -183,6 +183,24 @@
 		/obj/item/ammo_magazine/a9x19
 		)
 
+/obj/item/weapon/storage/belt/holster/berettam9
+	name = "Beretta M9 holster"
+	storage_slots = 3
+	icon_state = "alice_holster"
+	icon_closed = "alice_holster_empty"
+	holster_sound = 'sound/effects/holster/holsterin.ogg'
+	unholster_sound = 'sound/effects/holster/holsterout.ogg'
+	special_item = /obj/item/weapon/gun/projectile/berettam9
+	desc = "This holster can hold a Beretta M9 and one magazine."
+	startswith = list(
+		/obj/item/weapon/gun/projectile/berettam9,
+		/obj/item/ammo_magazine/m9x19
+		)
+	can_hold = list(
+		/obj/item/weapon/gun/projectile/berettam9,
+		/obj/item/ammo_magazine/m9x19
+		)
+
 /obj/item/weapon/storage/belt/holster/heer
 	name = "Glock 17 holster"
 	storage_slots = 3
