@@ -41,6 +41,35 @@
 		to_chat(user, "There [key_count == 1? "is" : "are"] [key_count] [key_name]\s in the box.")
 
 /*
+ * Flare Pack
+ */
+
+/obj/item/weapon/storage/fancy/flare_pack
+	name = "flare pack"
+	desc = "A small pack of flares."
+	icon = 'icons/obj/lighting.dmi'
+	icon_state = "flarepacknato"
+	storage_slots = 4
+	max_w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_NORMAL
+
+	key_type = /obj/item/device/flashlight/flare/
+	can_hold = /obj/item/device/flashlight/flare/
+	startswith = list(/obj/item/device/flashlight/flare/ = 4)
+
+/obj/item/weapon/storage/fancy/flare_pack/nato
+	icon_state = "flarepacknato"
+	key_type = /obj/item/device/flashlight/natoflare/
+	can_hold = /obj/item/device/flashlight/natoflare/
+	startswith = list(/obj/item/device/flashlight/natoflare/ = 4)
+
+/obj/item/weapon/storage/fancy/flare_pack/wp
+	icon_state = "flarepackwarpact"
+	key_type = /obj/item/device/flashlight/wpflare/
+	can_hold = /obj/item/device/flashlight/wpflare/
+	startswith = list(/obj/item/device/flashlight/wpflare/ = 4)
+
+/*
  * Egg Box
  */
 

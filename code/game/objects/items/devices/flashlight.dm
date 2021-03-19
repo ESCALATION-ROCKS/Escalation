@@ -6,7 +6,6 @@
 	item_state = "flashlight"
 	w_class = ITEM_SIZE_SMALL
 	flags = CONDUCT
-	slot_flags = SLOT_BELT
 
 	matter = list(DEFAULT_WALL_MATERIAL = 50,"glass" = 20)
 
@@ -342,12 +341,253 @@
 	src.damtype = initial(src.damtype)
 	update_icon()
 
-/obj/item/device/flashlight/flare/attack_self(mob/user)
+/obj/item/device/flashlight/flare/attack_self(mob/user as mob)
 	if(turn_on(user))
 		user.visible_message("<span class='notice'>\The [user] activates \the [src].</span>", "<span class='notice'>You pull the cord on the flare, activating it!</span>")
 		playsound(src.loc, activation_sound, 75, 1)
+		if(iscarbon(user))
+			var/mob/living/carbon/C = user
+			C.throw_mode_on()
 
 /obj/item/device/flashlight/flare/proc/turn_on(var/mob/user)
+	if(on)
+		return FALSE
+	if(!fuel)
+		if(user)
+			to_chat(user, "<span class='notice'>It's out of fuel.</span>")
+		return FALSE
+	on = TRUE
+	force = on_damage
+	damtype = "fire"
+	GLOB.processing_objects += src
+	update_icon()
+	return 1
+
+/obj/item/device/flashlight/wpflare
+	name = "RSP-30 flare"
+	desc = "A red-lighting flare used widely by WARPACT armies."
+	w_class = ITEM_SIZE_SMALL
+	brightness_on = 8 // Pretty bright.
+	light_power = 3
+	light_color = COLOR_RED
+
+	light_color = "#e58775"
+	icon_state = "wpflare"
+	item_state = "wpflare"
+	action_button_name = null //just pull it manually, neckbeard.
+	power_use = 0
+	var/fuel = 0
+	var/on_damage = 7
+	var/produce_heat = 1500
+	activation_sound = 'sound/effects/flare.ogg'
+
+/obj/item/device/flashlight/wpflare/New()
+	fuel = rand(800, 1000)
+	..()
+
+/obj/item/device/flashlight/wpflare/process()
+	var/turf/pos = get_turf(src)
+	if(pos)
+		pos.hotspot_expose(produce_heat, 5)
+	fuel = max(fuel - 1, 0)
+	playsound(src.loc, 'sound/effects/flareburning.ogg', 75, 1)
+	if(!fuel || !on)
+		turn_off()
+		if(!fuel)
+			src.icon_state = "[initial(icon_state)]-empty"
+		GLOB.processing_objects -= src
+
+/obj/item/device/flashlight/wpflare/proc/turn_off()
+	on = 0
+	src.force = initial(src.force)
+	src.damtype = initial(src.damtype)
+	update_icon()
+
+/obj/item/device/flashlight/wpflare/attack_self(mob/user as mob)
+	if(turn_on(user))
+		user.visible_message("<span class='notice'>\The [user] activates \the [src].</span>", "<span class='notice'>You pull the cord on the flare, activating it!</span>")
+		playsound(src.loc, activation_sound, 75, 1)
+		if(iscarbon(user))
+			var/mob/living/carbon/C = user
+			C.throw_mode_on()
+
+/obj/item/device/flashlight/wpflare/proc/turn_on(var/mob/user)
+	if(on)
+		return FALSE
+	if(!fuel)
+		if(user)
+			to_chat(user, "<span class='notice'>It's out of fuel.</span>")
+		return FALSE
+	on = TRUE
+	force = on_damage
+	damtype = "fire"
+	GLOB.processing_objects += src
+	update_icon()
+	return 1
+
+/obj/item/device/flashlight/natoflare
+	name = "COMET handheld flare"
+	desc = "A generic red-lighting flare used widely by NATO armies."
+	w_class = ITEM_SIZE_SMALL
+	brightness_on = 8 // Pretty bright.
+	light_power = 3
+	light_color = COLOR_RED
+
+	light_color = "#e58775"
+	icon_state = "natoflare"
+	item_state = "natoflare"
+	action_button_name = null //just pull it manually, neckbeard.
+	power_use = 0
+	var/fuel = 0
+	var/on_damage = 7
+	var/produce_heat = 1500
+	activation_sound = 'sound/effects/flare.ogg'
+
+/obj/item/device/flashlight/natoflare/New()
+	fuel = rand(800, 1000)
+	..()
+
+/obj/item/device/flashlight/natoflare/process()
+	var/turf/pos = get_turf(src)
+	if(pos)
+		pos.hotspot_expose(produce_heat, 5)
+	fuel = max(fuel - 1, 0)
+	playsound(src.loc, 'sound/effects/flareburning.ogg', 75, 1)
+	if(!fuel || !on)
+		turn_off()
+		if(!fuel)
+			src.icon_state = "[initial(icon_state)]-empty"
+		GLOB.processing_objects -= src
+
+/obj/item/device/flashlight/natoflare/proc/turn_off()
+	on = 0
+	src.force = initial(src.force)
+	src.damtype = initial(src.damtype)
+	update_icon()
+
+/obj/item/device/flashlight/natoflare/attack_self(mob/user as mob)
+	if(turn_on(user))
+		user.visible_message("<span class='notice'>\The [user] activates \the [src].</span>", "<span class='notice'>You pull the cord on the flare, activating it!</span>")
+		playsound(src.loc, activation_sound, 75, 1)
+		if(iscarbon(user))
+			var/mob/living/carbon/C = user
+			C.throw_mode_on()
+
+/obj/item/device/flashlight/natoflare/proc/turn_on(var/mob/user)
+	if(on)
+		return FALSE
+	if(!fuel)
+		if(user)
+			to_chat(user, "<span class='notice'>It's out of fuel.</span>")
+		return FALSE
+	on = TRUE
+	force = on_damage
+	damtype = "fire"
+	GLOB.processing_objects += src
+	update_icon()
+	return 1
+
+/obj/item/device/flashlight/m203flare
+	name = "M583 flare shell"
+	desc = "A 40mm flare shell used by NATO armies."
+	w_class = ITEM_SIZE_SMALL
+	brightness_on = 8 // Pretty bright.
+	light_power = 3
+	light_color = COLOR_RED
+
+	light_color = "#e58775"
+	icon_state = "m203flare"
+	item_state = "m203flare"
+	action_button_name = null //just pull it manually, neckbeard.
+	power_use = 0
+	var/fuel = 0
+	var/on_damage = 7
+	var/produce_heat = 1500
+	activation_sound = 'sound/effects/flare.ogg'
+
+/obj/item/device/flashlight/m203flare/New()
+	fuel = rand(800, 1000)
+	..()
+
+/obj/item/device/flashlight/m203flare/process()
+	var/turf/pos = get_turf(src)
+	if(pos)
+		pos.hotspot_expose(produce_heat, 5)
+	fuel = max(fuel - 1, 0)
+	playsound(src.loc, 'sound/effects/flareburning.ogg', 75, 1)
+	if(!fuel || !on)
+		turn_off()
+		if(!fuel)
+			src.icon_state = "[initial(icon_state)]-empty"
+		GLOB.processing_objects -= src
+
+/obj/item/device/flashlight/m203flare/proc/turn_off()
+	on = 0
+	src.force = initial(src.force)
+	src.damtype = initial(src.damtype)
+	update_icon()
+
+/obj/item/device/flashlight/m203flare/attack_self(mob/user as mob)
+	return
+
+/obj/item/device/flashlight/m203flare/proc/turn_on(var/mob/user)
+	if(on)
+		return FALSE
+	if(!fuel)
+		if(user)
+			to_chat(user, "<span class='notice'>It's out of fuel.</span>")
+		return FALSE
+	on = TRUE
+	force = on_damage
+	damtype = "fire"
+	GLOB.processing_objects += src
+	update_icon()
+	return 1
+
+/obj/item/device/flashlight/gp25flare
+	name = "GP25 flare shell"
+	desc = "A 40mm flare shell used by WARPACT armies."
+	w_class = ITEM_SIZE_SMALL
+	brightness_on = 8 // Pretty bright.
+	light_power = 3
+	light_color = COLOR_RED
+
+	light_color = "#e58775"
+	icon_state = "gp25flare"
+	item_state = "gp25flare"
+	action_button_name = null //just pull it manually, neckbeard.
+	power_use = 0
+	var/fuel = 0
+	var/on_damage = 7
+	var/produce_heat = 1500
+	activation_sound = 'sound/effects/flare.ogg'
+
+/obj/item/device/flashlight/gp25flare/New()
+	fuel = rand(800, 1000)
+	..()
+
+/obj/item/device/flashlight/gp25flare/process()
+	var/turf/pos = get_turf(src)
+	if(pos)
+		pos.hotspot_expose(produce_heat, 5)
+	fuel = max(fuel - 1, 0)
+	playsound(src.loc, 'sound/effects/flareburning.ogg', 75, 1)
+	if(!fuel || !on)
+		turn_off()
+		if(!fuel)
+			src.icon_state = "[initial(icon_state)]-empty"
+		GLOB.processing_objects -= src
+
+/obj/item/device/flashlight/gp25flare/proc/turn_off()
+	on = 0
+	src.force = initial(src.force)
+	src.damtype = initial(src.damtype)
+	update_icon()
+
+/obj/item/device/flashlight/gp25flare/attack_self(mob/user as mob)
+	return
+
+/obj/item/device/flashlight/gp25flare/proc/turn_on(var/mob/user)
 	if(on)
 		return FALSE
 	if(!fuel)

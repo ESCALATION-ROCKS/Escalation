@@ -1144,17 +1144,3 @@
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
-
-/obj/item/weapon/storage/belt/suit/ammo/usmc/flarepouch
-	name = "Flare Pouch."
-	desc = "Generic flare pouch."
-	icon_state = "usmc_grenbandolier" //FUCKING PLACEHOLDER
-	storage_slots = 12
-	can_hold = list (/obj/item/device/flashlight/flare/)
-
-/obj/item/weapon/storage/belt/suit/ammo/bdw/flarepouch
-	name = "Flare Pouch."
-	desc = "Generic flare pouch."
-	icon_state = "bdw_grenbandolier" //placeholder
-	storage_slots = 12
-	can_hold = list (/obj/item/device/flashlight/flare/)

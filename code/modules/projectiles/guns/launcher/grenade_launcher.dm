@@ -150,8 +150,10 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	desc = "Not much more than a tube and a firing mechanism, this grenade launcher is designed to be fitted to a rifle."
 	whitelisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/shell40mm,
-		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm,
+		/obj/item/device/flashlight/m203flare
 		)
+
 	blacklisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/vog25,
 		/obj/item/weapon/grenade/smokebomb/ugl/vog25,
@@ -168,6 +170,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	whitelisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/vog25,
 		/obj/item/weapon/grenade/smokebomb/ugl/vog25,
+		/obj/item/device/flashlight/gp25flare
 		)
 	blacklisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/shell40mm,
