@@ -1032,7 +1032,7 @@ var/list/admin_verbs_mentor = list(
 
 /client/proc/show_general_stat()
 	set name = "Show generally armies stats"
-	set category = "EscAdmin"
+	set category = null ///"EscAdmin"
 	if(!holder)
 		return
 	to_world(show_statistic())
@@ -1040,7 +1040,7 @@ var/list/admin_verbs_mentor = list(
 
 /client/proc/show_separated_stat()
 	set name = "Show separated stats"
-	set category = "EscAdmin"
+	set category = null //"EscAdmin"
 	if(!holder)
 		return
 	to_world(show_statistic_by_faction())
@@ -1073,8 +1073,8 @@ var/list/admin_verbs_mentor = list(
 	feedback_add_details("admin_verbs", "AKCV")
 
 /client/proc/set_daytime()
-	set category = "EscAdmin"
-	set name = "Set daytime"
+	set category = null ///"EscAdmin" DOESNT WORK AT ALL
+	set name = "Set starlight"
 
 	var/list/modes = list("Brighty day" = "#FFFFFF", "Cloudy day" = "#999999", "Very cloudy day" = "#777777", "Sunset" = "#FFC966", "Bright night" = "#444444", "Dark night" = "#111111", "Sunrise" = "#DEDF64", "Special" = "#FF77FF")
 
@@ -1083,7 +1083,7 @@ var/list/admin_verbs_mentor = list(
 	if(!daytime)
 		return
 
-	to_world("Changing daytime and weather to [daytime]. This may take a while. Be patient.")
+	to_world("Changing starlight to [daytime]. This may take a while.")
 	spawn(10)
 		for(var/turf/T)
 	//		if(T.z == 1)

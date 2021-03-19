@@ -539,8 +539,8 @@
 	feedback_add_details("admin_verb","ANLS") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
 /datum/admins/proc/change_weather()
-	set category = "Debug"
-	set name = "Change Weather"
+	set category = "EscAdmin"
+	set name = "Change weather"
 	set desc = "Changes the current weather."
 
 	if(!check_rights(R_DEBUG))
@@ -555,8 +555,8 @@
 		log_admin(log)
 
 /datum/admins/proc/change_time()
-	set category = "Debug"
-	set name = "Change Planet Time"
+	set category = "EscAdmin"
+	set name = "Change time"
 	set desc = "Changes the time of a planet."
 
 	if(!check_rights(R_DEBUG))

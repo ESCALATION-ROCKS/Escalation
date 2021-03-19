@@ -366,7 +366,7 @@
 /obj/item/device/flashlight/wpflare
 	name = "RSP-30 flare"
 	desc = "A red-lighting flare used widely by WARPACT armies."
-	w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_NORMAL
 	brightness_on = 8 // Pretty bright.
 	light_power = 3
 	light_color = COLOR_RED
@@ -428,7 +428,7 @@
 /obj/item/device/flashlight/natoflare
 	name = "COMET handheld flare"
 	desc = "A generic red-lighting flare used widely by NATO armies."
-	w_class = ITEM_SIZE_SMALL
+	w_class = ITEM_SIZE_NORMAL
 	brightness_on = 8 // Pretty bright.
 	light_power = 3
 	light_color = COLOR_RED

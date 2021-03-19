@@ -47,7 +47,7 @@ SUBSYSTEM_DEF(artillery)
 
 /client/proc/stop_arty_gib()
 	set name = "Stop Artillery Gibbing"
-	set category = "EscAdmin"
+	set category = null //"EscAdmin" we dont use this anymore
 
 	if(!holder)
 		return
