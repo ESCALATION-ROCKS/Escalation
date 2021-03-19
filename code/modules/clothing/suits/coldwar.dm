@@ -82,7 +82,7 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 /obj/item/clothing/suit/storage/vest/heervest
-	name = "Kampfweste KAZ03"
+	name = "KAZ03 flak vest"
 	desc = "A flak vest used by Bundesheer personnel."
 	icon_state = "flakvest_heer"
 	item_state = "armor"
