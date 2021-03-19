@@ -151,7 +151,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	whitelisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/shell40mm,
 		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm,
-		/obj/item/device/flashlight/m203flare
+		/*/obj/item/device/grenade/flare/ugl/m203flare*/
 		)
 
 	blacklisted_grenades = list(
@@ -170,7 +170,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	whitelisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/vog25,
 		/obj/item/weapon/grenade/smokebomb/ugl/vog25,
-		/obj/item/device/flashlight/gp25flare
+		/*/obj/item/device/grenade/flare/ugl/gp25flare*/
 		)
 	blacklisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/shell40mm,
@@ -186,6 +186,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 	whitelisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/shell40mm,
 		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm
+		/*/obj/item/device/grenade/flare/ugl/m203flare*/
 		)
 	blacklisted_grenades = list(
 		/obj/item/weapon/grenade/frag/ugl/vog25,
