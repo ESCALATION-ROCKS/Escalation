@@ -545,8 +545,8 @@
 	return 1
 
 /obj/item/device/flashlight/gp25flare
-	name = "GP25 flare shell"
-	desc = "A 40mm flare shell used by WARPACT armies."
+	name = "VGS-40-1 flare shell"
+	desc = "A flare shell used by WARPACT armies."
 	w_class = ITEM_SIZE_SMALL
 	brightness_on = 8 // Pretty bright.
 	light_power = 3
