@@ -473,11 +473,11 @@
 /obj/item/weapon/storage/belt/suit/ammo/heer
 	w_class = ITEM_SIZE_HUGE
 	name = "5.56 AUG magazine pouch"
-	desc = "Has enough space to hold four Steyr AUG magazines."
+	desc = "Has enough space to hold two Steyr AUG magazines."
 	icon_state = "heer_ammo"
 	item_state = "usmc_ammo"
 	open_delay = 5
-	storage_slots = 4 
+	storage_slots = 2 
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45m,
 		/obj/item/ammo_magazine/c556x45g,

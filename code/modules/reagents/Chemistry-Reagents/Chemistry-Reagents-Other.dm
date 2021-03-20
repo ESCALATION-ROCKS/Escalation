@@ -6,7 +6,7 @@
 	taste_description = "the back of class"
 	reagent_state = LIQUID
 	color = "#888888"
-	overdose = 5
+	overdose = 150
 
 /datum/reagent/crayon_dust/red
 	name = "Red crayon dust"

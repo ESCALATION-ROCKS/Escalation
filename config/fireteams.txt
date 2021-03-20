@@ -19,7 +19,7 @@ Squad 'Alpha':usmc
 /datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmccorpsman
@@ -33,7 +33,7 @@ Squad 'Bravo':usmc
 /datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmccorpsman
@@ -47,7 +47,7 @@ Squad 'Charlie':usmc
 /datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmccorpsman

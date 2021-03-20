@@ -14,7 +14,7 @@
 	matter = list("glass" = 150)
 	amount_per_transfer_from_this = 5
 	possible_transfer_amounts = null
-	volume = 10
+	volume = 15
 	w_class = 1
 	slot_flags = null
 	sharp = 1
