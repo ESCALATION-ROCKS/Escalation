@@ -83,7 +83,7 @@
 	amount = 1
 	enabled = 0
 	whitelist_rank = "sa_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 55)
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 55, LANGUAGE_CZECH = 55)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -103,7 +103,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -123,7 +123,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -143,7 +143,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -162,7 +162,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -182,7 +182,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 30, LANGUAGE_CZECH = 30)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -202,7 +202,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_officer"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -221,8 +221,8 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10)
+	whitelist_rank = "sa_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -242,7 +242,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 30, LANGUAGE_CZECH = 30)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -264,7 +264,7 @@
 	enabled = 1
 	leading = 1
 	whitelist_rank = "sa_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_FINNISH = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_FINNISH = 40, LANGUAGE_CZECH = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -284,7 +284,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -304,7 +304,7 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 5)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 5, LANGUAGE_CZECH = 5)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -324,7 +324,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -344,7 +344,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -364,7 +364,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -384,7 +384,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -404,7 +404,7 @@
 	amount = 3
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -425,7 +425,7 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "sa_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_CZECH = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -446,7 +446,7 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -467,7 +467,7 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -701,7 +701,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "ddr_enlisted"
+	whitelist_rank = "ddr_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1139,7 +1139,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "finn_enlisted"
+	whitelist_rank = "finn_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1440,7 +1440,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "csla_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 70, LANGUAGE_RUSSIAN = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 70, LANGUAGE_RUSSIAN = 100, LANGUAGE_GERMAN = 70)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -1520,7 +1520,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "csla_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_GERMAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -1579,7 +1579,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "csla_officer"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_GERMAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -1598,7 +1598,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "csla_enlisted"
+	whitelist_rank = "csla_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1620,7 +1620,7 @@
 	enabled = 1
 	leading = 1
 	whitelist_rank = "csla_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 20)
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -1700,7 +1700,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "csla_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_GERMAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
