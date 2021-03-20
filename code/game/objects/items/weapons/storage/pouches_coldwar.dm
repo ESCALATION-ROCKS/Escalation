@@ -682,6 +682,20 @@
 		)
 	startswith = null
 
+
+/obj/item/weapon/storage/belt/suit/ammo/barrett
+	w_class = ITEM_SIZE_HUGE
+	name = "Barrett M82 magazine pouch"
+	desc = "Has enough space to hold two Barrett M82."
+	icon_state = "m40_ammo"
+	item_state = "usmc_ammo"
+	open_delay = 5
+	storage_slots = 2
+	can_hold = /obj/item/ammo_magazine/c50cals
+	startswith = null
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
 /obj/item/weapon/storage/belt/suit/ammo/sa
 	w_class = ITEM_SIZE_HUGE
 	name = "AK magazine pouch"

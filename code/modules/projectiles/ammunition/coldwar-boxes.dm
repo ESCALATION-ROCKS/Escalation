@@ -283,11 +283,11 @@
 
 /obj/item/ammo_magazine/c50cals
 	name = "magazine (.50 cal)"
-	desc = "A magazine for the M82 Barreta, fits ten .50 cal rounds."
+	desc = "A magazine for the M82 Barrett, fits ten .50 cal rounds."
 	icon_state = "50cal"
 	item_state = "generic_mag"
 	mag_type = MAGAZINE
-	w_class = 5
+	w_class = ITEM_SIZE_LARGE
 	caliber = ".50"
 	ammo_type = /obj/item/ammo_casing/a50cal
 	max_ammo = 10
@@ -296,12 +296,12 @@
 
 /obj/item/ammo_magazine/c50cals/ap
 	name = "AP magazine (.50 cal)"
-	desc = "A magazine for the M82 Barreta, fits ten armor-piercing .50 cal rounds."
+	desc = "A magazine for the M82 Barrett, fits ten armor-piercing .50 cal rounds."
 	ammo_type = /obj/item/ammo_casing/a50cal/ap
 
 /obj/item/ammo_magazine/c50cals/tr
 	name = "tracer magazine (.50 cal)"
-	desc = "A magazine for the M82 Barreta, fits ten .50 cal tracer rounds."
+	desc = "A magazine for the M82 Barrett, fits ten .50 cal tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a50cal/tr
 
 /obj/item/ammo_magazine/c50cals/empty

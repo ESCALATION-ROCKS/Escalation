@@ -244,51 +244,53 @@
 	src.toggle_scope(usr, 3)
 
 
-/obj/item/weapon/gun/projectile/automatic/rifle/m82
-	name = "Barret M82"
-	desc = "A powerful and recognized anti material rifle chambered in .50. Manufactured in 1982."
-	icon_state = "heavysniper"
+/obj/item/weapon/gun/projectile/automatic/rifle/barrett
+	name = "Barrett M82"
+	desc = "A powerful and recognized anti material rifle. Chambers .50 rounds."
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "barrett"
 	item_state = "heavysniper"
 	w_class = 5
 	force = 15
 	max_shells = 10
 	load_method = MAGAZINE
 	caliber = ".50"
+	screen_shake = 5
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c50cals)
 	magazine_type = null
 	one_hand_penalty = 10
-	accuracy = 6
+	accuracy = 8
 	wielded_item_state = "heavysniper-wielded"
-	fire_sound = 'sound/weapons/gunshot/m2hb.ogg'
-	unload_sound = 'sound/weapons/gunporn/svd_magout.ogg' // NEED TO CHANGE SOUNDS
-	reload_sound = 'sound/weapons/gunporn/svd_magin.ogg'
-	cocked_sound = 'sound/weapons/flipblade.ogg'
+	fire_sound = 'sound/weapons/gunshot/barrett.ogg'
+	unload_sound = 'sound/weapons/gunporn/barrett_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/barrett_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/barrett_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
-	jam_chance = 0.1
-	slowdown_general = 0.8
-
+	jam_chance = 0.15
+	slowdown_general = 1.5
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=12,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
+		list(mode_name="semiauto",     burst=1, fire_delay=16,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
 	)
+
 /obj/item/weapon/gun/projectile/automatic/rifle/m82/update_icon()
 	..()
 	if(ammo_magazine)
-		icon_state = "heavysniper"
+		icon_state = "barrett"
 		wielded_item_state = "heavysniper-wielded"
 	else
-		icon_state = "heavysniper-empty"
+		icon_state = "barrett-empty"
 		wielded_item_state = "heavysniper-wielded-empty"
 	update_held_icon()
 
-/obj/item/weapon/gun/projectile/automatic/rifle/m82/verb/scope()
+/obj/item/weapon/gun/projectile/automatic/rifle/barrett/verb/scope()
 	set name = "Use Scope"
 	set category = "Object"
 	set src in usr
 	set popup_menu = 0
 
-	src.toggle_scope(usr, 3.4)
+	src.toggle_scope(usr, 5)
 
 /////////---------------BOLT ACTIONS
 
