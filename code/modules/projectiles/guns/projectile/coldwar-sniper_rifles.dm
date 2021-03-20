@@ -150,6 +150,7 @@
 	desc = "The sniper configuration of an outdated Bundesheer combat rifle. Chambers 7.62x51 rounds."
 	icon_state = "ssg58"
 	item_state = "ssg58"
+	force = 15
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"

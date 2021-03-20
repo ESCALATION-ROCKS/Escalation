@@ -28,6 +28,7 @@ usmc_nco
 
 I like D0nUts = {
 usmc_nco
+usmc_enlisted
 }
 
 CeSium_Shark = {
@@ -70,6 +71,7 @@ usmc_enlisted
 
 PepeFrog = {
 usmc_enlisted
+usmc_nco
 }
 
 MymindisBlank = {
@@ -189,16 +191,13 @@ Bongosz = {
 heer_nco
 }
 
-DemtrixD = {
-heer_nco
-}
-
 Gy1ta23 = {
 heer_nco
 }
 
 BoringCommunist = {
 heer_nco
+heer_enlisted
 }
 
 taumanta = {
@@ -221,6 +220,7 @@ heer_enlisted
 
 DemtrixD = {
 heer_enlisted
+heer_nco
 }
 
 Outboarduniform = {
@@ -480,6 +480,8 @@ csla_nco
 
 Freiwillige = {
 csla_nco
+sa_officer
+sa_nco
 }
 
 Battieralarm3 = {
@@ -578,4 +580,56 @@ csla_enlisted
 
 Ondrej008 = {
 csla_enlisted
+}
+
+
+
+
+
+yung bruh = {
+usmc_nco
+usmc_enlisted
+}
+
+
+
+
+Nowik347 = {
+sa_enlisted
+}
+
+Zach666 = {
+heer_nco
+}
+
+XTGN DustonWS = {
+csla_enlisted
+}
+
+Mikaelcg = {
+csla_enlisted
+}
+
+AvgustFroch = {
+heer_enlisted
+}
+
+spectre808 = {
+usmc_nco
+}
+
+killerkarpfen = {
+csla_enlisted
+}
+
+BornToKill946 = {
+sa_enlisted
+}
+
+not-so-quick = {
+usmc_enlisted
+}
+
+Wheasymold552 = {
+heer_enlisted
 }
