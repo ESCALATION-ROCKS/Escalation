@@ -914,7 +914,7 @@
 	leading = 1
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdh_officer"
+	whitelist_rank = "heer_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
@@ -934,7 +934,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_nco"
+	whitelist_rank = "heer_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1287,7 +1287,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 0
-	whitelist_rank = "bdw_nco"
+	whitelist_rank = "heer_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)

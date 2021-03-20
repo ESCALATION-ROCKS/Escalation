@@ -173,150 +173,150 @@ usmc_enlisted
 }
 
 
-############### BDH OFFICER
+############### HEER OFFICER
 
 bardinatavern = {
-bdh_officer
+heer_officer
 }
 
 Desven = {
-bdh_officer
+heer_officer
 }
 
-############### BDH NCO
+############### HEER NCO
 
 Bongosz = {
-bdh_nco
+heer_nco
 }
 
 DemtrixD = {
-bdh_nco
+heer_nco
 }
 
 Gy1ta23 = {
-bdh_nco
+heer_nco
 }
 
 BoringCommunist = {
-bdh_nco
+heer_nco
 }
 
 taumanta = {
-bdh_nco
+heer_nco
 }
 
 Zach665 = {
-bdh_nco
+heer_nco
 }
 
 BlazSnake = {
-bdh_nco
+heer_nco
 }
 
-############### BDH ENLISTED
+############### HEER ENLISTED
 
 Bamhalazam = {
-bdh_enlisted
+heer_enlisted
 }
 
 DemtrixD = {
-bdh_enlisted
+heer_enlisted
 }
 
 Outboarduniform = {
-bdh_enlisted
+heer_enlisted
 }
 
 atlasrules87 = {
-bdh_enlisted
+heer_enlisted
 }
 
 Ocelottt = {
-bdh_enlisted
+heer_enlisted
 }
 
 fattybunbah = {
-bdh_enlisted
+heer_enlisted
 }
 
 WildSwan = {
-bdh_enlisted
+heer_enlisted
 }
 
 Beffagorn = {
-bdh_enlisted
+heer_enlisted
 }
 
 Scoobov = {
-bdh_enlisted
+heer_enlisted
 }
 
 Autisme = {
-bdh_enlisted
+heer_enlisted
 }
 
 epicdwarf = {
-bdh_enlisted
+heer_enlisted
 }
 
 ATimm = {
-bdh_enlisted
+heer_enlisted
 }
 
 SilencedMP5A5 = {
-bdh_enlisted
+heer_enlisted
 }
 
 Sapu222 = {
-bdh_enlisted
+heer_enlisted
 }
 
 Fat Seal = {
-bdh_enlisted
+heer_enlisted
 }
 
 rambosambo123 = {
-bdh_enlisted
+heer_enlisted
 }
 
 Bob newman = {
-bdh_enlisted
+heer_enlisted
 }
 
 FighterOfKeyboard = {
-bdh_enlisted
+heer_enlisted
 }
  
 Caryl = {
-bdh_enlisted
+heer_enlisted
 }
 
 Eric066 = {
-bdh_enlisted
+heer_enlisted
 }
 
 LuckyX1 = {
-bdh_enlisted
+heer_enlisted
 }
 
 IronDuck = {
-bdh_enlisted
+heer_enlisted
 }
 
 aguyiguess = {
-bdh_enlisted
+heer_enlisted
 }
 
 B3anz = {
-bdh_enlisted
+heer_enlisted
 }
 
 Uhhuhhello = {
-bdh_enlisted
+heer_enlisted
 }
 
 ILikeToGammon = {
-bdh_enlisted
+heer_enlisted
 }
 
 ############### SA OFFICER
