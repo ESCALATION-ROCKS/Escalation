@@ -1521,7 +1521,7 @@
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	belt = /obj/item/weapon/storage/belt/harness/usmc
-	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt
 
 /decl/hierarchy/outfit/job/coldwar/usmc/sapper
 	name = OUTFIT_JOB_NAME("Coldwar - USMC Sapper")
@@ -1548,7 +1548,7 @@
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	belt = /obj/item/weapon/storage/belt/harness/usmc
-	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt
 
 
 /decl/hierarchy/outfit/job/coldwar/usmc/mgunnera
@@ -1597,7 +1597,7 @@
 	back = /obj/item/weapon/storage/backpack/rpgusa
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	belt = /obj/item/weapon/storage/belt/harness/usmc
-	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt
 
 
 /decl/hierarchy/outfit/job/coldwar/usmc/atass
@@ -1814,7 +1814,7 @@
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	belt = /obj/item/weapon/storage/belt/harness/usmc
-	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt
 
 
 //BAF ------------- WINTER MAPS

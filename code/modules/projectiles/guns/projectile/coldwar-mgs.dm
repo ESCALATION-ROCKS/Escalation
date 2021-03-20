@@ -152,7 +152,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/mg3/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b/bdw))
-		icon_state = "mg3[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 100)]"
+		icon_state = "mg3[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 150)]"
 		wielded_item_state = "mg3-wielded"
 	
 	else
@@ -233,7 +233,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/mg74/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b/bdw))
-		icon_state = "mg74[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 100)]"
+		icon_state = "mg74[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 150)]"
 		wielded_item_state = "mg3-wielded"
 	else
 		icon_state = "mg74[cover_opened ? "open" : "closed"]-empty"
