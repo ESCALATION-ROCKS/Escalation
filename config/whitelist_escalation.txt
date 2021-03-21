@@ -26,16 +26,19 @@ BurnedSweetPotato = {
 usmc_nco
 }
 
-I like D0nUts = {
-usmc_nco
-usmc_enlisted
-}
-
-CeSium_Shark = {
+Spectre808 = {
 usmc_nco
 }
 
-Lastcrusader105 = {
+jerman5 = {
+usmc_nco
+}
+
+SpiritOfRevenge = {
+usmc_nco
+}
+
+ArbsArbs = {
 usmc_nco
 }
 
@@ -45,15 +48,23 @@ Yacobpo157 = {
 usmc_enlisted
 }
 
+ThePolish_Lancer = {
+usmc_enlisted
+}
+
+Selchoni = {
+usmc_enlisted
+}
+
+The Elder Hobo = {
+usmc_enlisted
+}
+
 0xDEED = {
 usmc_enlisted
 }
 
 Tristan63 = {
-usmc_enlisted
-}
-
-Arbs = {
 usmc_enlisted
 }
 
@@ -67,11 +78,6 @@ usmc_enlisted
 
 Pete112 = {
 usmc_enlisted
-}
-
-PepeFrog = {
-usmc_enlisted
-usmc_nco
 }
 
 MymindisBlank = {
@@ -90,15 +96,7 @@ Merrgear = {
 usmc_enlisted
 }
 
-ThePolish_Lancer = {
-usmc_enlisted
-}
-
-Selchoni = {
-usmc_enlisted
-}
-
-Jerman5 = {
+Lastcrusader105 = {
 usmc_enlisted
 }
 
@@ -170,7 +168,19 @@ Soundwavesghost = {
 usmc_enlisted
 }
 
-SilverSZ = {
+AvgustFroch = {
+usmc_enlisted
+}
+
+not-so-quick = {
+usmc_enlisted
+}
+
+Belle Felphine = {
+usmc_enlisted
+}
+
+MauroVega = {
 usmc_enlisted
 }
 
@@ -191,26 +201,11 @@ Bongosz = {
 heer_nco
 }
 
-Gy1ta23 = {
-heer_nco
-}
+DemtrixD
+taumanta
+Zach665
+BoringCommunist
 
-BoringCommunist = {
-heer_nco
-heer_enlisted
-}
-
-taumanta = {
-heer_nco
-}
-
-Zach665 = {
-heer_nco
-}
-
-BlazSnake = {
-heer_nco
-}
 
 ############### HEER ENLISTED
 
@@ -218,9 +213,8 @@ Bamhalazam = {
 heer_enlisted
 }
 
-DemtrixD = {
+Bamhalazam = {
 heer_enlisted
-heer_nco
 }
 
 Outboarduniform = {
@@ -259,6 +253,10 @@ epicdwarf = {
 heer_enlisted
 }
 
+Sapu222 = {
+heer_enlisted
+}
+
 ATimm = {
 heer_enlisted
 }
@@ -267,7 +265,7 @@ SilencedMP5A5 = {
 heer_enlisted
 }
 
-Sapu222 = {
+Wheasymold552 = {
 heer_enlisted
 }
 
@@ -279,14 +277,18 @@ rambosambo123 = {
 heer_enlisted
 }
 
+Bongosz = {
+heer_enlisted
+}
+
 Bob newman = {
 heer_enlisted
 }
 
-FighterOfKeyboard = {
+FighterOfKeyboard  = {
 heer_enlisted
 }
- 
+
 Caryl = {
 heer_enlisted
 }
@@ -321,7 +323,7 @@ heer_enlisted
 
 ############### SA OFFICER
 
-Verarch = {
+DanseMacabre = {
 sa_officer
 }
 
@@ -331,15 +333,15 @@ Jackomago61 = {
 sa_nco
 }
 
-Hero1001 = {
+BornToKill946 = {
 sa_nco
 }
 
-Nayser = {
+Gabol = {
 sa_nco
 }
 
-theflyingbananagaming = {
+BlazSnake = {
 sa_nco
 }
 
@@ -349,67 +351,15 @@ Billy Hays = {
 sa_enlisted
 }
 
-theXDkidoflol = {
+DiceRNice = {
 sa_enlisted
 }
 
-TurtleCactus = {
+theflyingbananagaming = {
 sa_enlisted
 }
 
-Clement1129 = {
-sa_enlisted
-}
-
-xDyou = {
-sa_enlisted
-}
-
-Rata123 = {
-sa_enlisted
-}
-
-Cabostein = {
-sa_enlisted
-}
-
-Timtwoshoes = {
-sa_enlisted
-}
-
-Nobillynotreally = {
-sa_enlisted
-}
-
-LeoTheKiller = {
-sa_enlisted
-}
-
-DreggMorris = {
-sa_enlisted
-}
-
-Night_Fang212 = {
-sa_enlisted
-}
-
-stonks1234 = {
-sa_enlisted
-}
-
-ExtentEnzo = {
-sa_enlisted
-}
-
-Pannacotta = {
-sa_enlisted
-}
-
-Master8688 = {
-sa_enlisted
-}
-
-DjSmail1 = {
+I like D0nUts = {
 sa_enlisted
 }
 
@@ -417,19 +367,31 @@ rev1n = {
 sa_enlisted
 }
 
+SilverSZ = {
+sa_enlisted
+}
+
+CeSium_Shark = {
+sa_enlisted
+}
+
+TurtleCactus = {
+sa_enlisted
+}
+
+LeoTheKiller = {
+sa_enlisted
+}
+
+xdyou = {
+sa_enlisted
+}
+
 AlexUNDRRRMKaroff = {
 sa_enlisted
 }
 
-Bob46 = {
-sa_enlisted
-}
-
-Sivuha = {
-sa_enlisted
-}
-
-MixanovR64 = {
+Master8688 = {
 sa_enlisted
 }
 
@@ -437,32 +399,24 @@ RayZEvans = {
 sa_enlisted
 }
 
-Nikita588 = {
+Yarnhut = {
 sa_enlisted
 }
 
-Overlord_000 = {
+theXDkidoflol = {
 sa_enlisted
 }
 
-Pannacotta = {
-sa_enlisted
-}
-
-cesarjunior233 = {
-sa_enlisted
-}
-
-stonks1234 = {
-sa_enlisted
-}
-
-Dimosek = {
+Timtwoshoes = {
 sa_enlisted
 }
 
 
 ############### CSLA OFFICER
+
+Luftie = {
+csla_officer
+}
 
 ############### CSLA NCO
 
@@ -470,29 +424,23 @@ Corbe = {
 csla_nco
 }
 
-Echion = {
-csla_nco
-}
-
-Luftie = {
-csla_nco
-}
-
-Freiwillige = {
-csla_nco
-sa_officer
-sa_nco
-}
-
 Battieralarm3 = {
 csla_nco
 }
 
-############### CSLA ENLISTED
-
-Gyurka66 = {
-csla_enlisted
+Echion = {
+csla_nco
 }
+
+MikeForce3321 = {
+csla_nco
+}
+
+Ondrej008 = {
+csla_nco
+}
+
+############### CSLA ENLISTED
 
 Sha.SCT = {
 csla_enlisted
@@ -530,7 +478,11 @@ Lautaroluna180 = {
 csla_enlisted
 }
 
-MikeForce3321 = {
+cesarjunior233 = {
+csla_enlisted
+}
+
+Urist McInternetuser = {
 csla_enlisted
 }
 
@@ -566,70 +518,11 @@ Ezhlk = {
 csla_enlisted
 }
 
-Hemph = {
-csla_enlisted
-}
-
-Urist McInternetuser = {
-csla_enlisted
-}
-
 BartDrown = {
 csla_enlisted
 }
 
-Ondrej008 = {
+AngryBoar = {
 csla_enlisted
 }
 
-
-
-
-
-yung bruh = {
-usmc_nco
-usmc_enlisted
-}
-
-
-
-
-Nowik347 = {
-sa_enlisted
-}
-
-Zach666 = {
-heer_nco
-}
-
-XTGN DustonWS = {
-csla_enlisted
-}
-
-Mikaelcg = {
-csla_enlisted
-}
-
-AvgustFroch = {
-heer_enlisted
-}
-
-spectre808 = {
-usmc_nco
-}
-
-killerkarpfen = {
-csla_enlisted
-}
-
-BornToKill946 = {
-sa_enlisted
-}
-
-not-so-quick = {
-usmc_enlisted
-}
-
-Wheasymold552 = {
-heer_enlisted
-}
