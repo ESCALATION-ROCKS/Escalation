@@ -4,7 +4,7 @@
 	name = "Beretta M9"  // DO NOT USE
 	desc = "That's a Beretta M9. Chambers 9x19mm cartridges."
 	icon_state = "berettam9"
-	item_state = "gun"
+	item_state = "glock"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
 	fire_delay = 2.2
@@ -30,7 +30,7 @@
 	name = "Makarov PM"
 	desc = "That's a Pistolet Makarova. Chambers 9x18mm cartridges."
 	icon_state = "makarov"
-	item_state = "gun"
+	item_state = "pm"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
 	fire_delay = 2.7
@@ -58,7 +58,7 @@
 	name = "Stechkin APS"
 	desc = "That's an Avtomaticheskiy Pistolet Stechkina. Chambers 9x18mm cartridges.."
 	icon_state = "aps"
-	item_state = "gun"
+	item_state = "pm"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
 	load_method = MAGAZINE
@@ -89,7 +89,7 @@
 	name = "CZ82"
 	desc = "That's a CZ82. Uses 9x18 ammunition."
 	icon_state = "cz82"
-	item_state = "gun"
+	item_state = "glock"
 	w_class = 2
 	caliber = "9x18"
 	fire_delay = 2.6
@@ -107,7 +107,7 @@
 	name = "Colt M1911A1"
 	desc = "A solid classic. Chambers .45 ACP cartridges."
 	icon_state = "colt" //fix
-	item_state = "gun"
+	item_state = "m1911"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = ".45"
 	fire_delay = 3.7
@@ -133,7 +133,7 @@
 	name = "P1"
 	desc = "A modified Walther P38 with a politically correct name. Chambers 9x19mm cartridges."
 	icon_state = "p1" //fix
-	item_state = "gun"
+	item_state = "m1911"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
 	fire_delay = 3.1
@@ -160,7 +160,7 @@
 	name = "Glock 17"
 	desc = "A state-of-the-art Glock 17 pistol. Chambers 9x19mm cartridges."
 	icon_state = "glock" //fix
-	item_state = "gun"
+	item_state = "glock"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
 	fire_delay = 3.1
@@ -186,7 +186,7 @@
 	name = "Lahti"
 	desc = "A Finnish standard issue handgun. Chambers 9x19mm cartridges."
 	icon_state = "lahti" //fix
-	item_state = "gun"
+	item_state = "m1911"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
 	fire_delay = 3.5
@@ -212,7 +212,7 @@
 	name = "Walther PPK"
 	desc = "Issued to the Stasi officers, this Walther PPK is a rare sight to its victims. Has a suppressor thread on its barrel. Chambers 9x19mm cartridges."
 	icon_state = "waltherppk"
-	item_state = "gun"
+	item_state = "pm"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x18"
 	accuracy = 2.3
@@ -239,7 +239,7 @@
 	name = "Browning Hi-Power"
 	desc = "A dated yet reliable design. Chambers 9x19mm cartridges."
 	icon_state = "hipower"
-	item_state = "gun"
+	item_state = "m1911"
 	w_class = ITEM_SIZE_NORMAL
 	caliber = "9x19"
 	fire_delay = 3.2
