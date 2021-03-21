@@ -120,17 +120,17 @@ var/list/interior_areas = list(/area/coldwar/sewer,
 
 /area/coldwar/largesoftfloor
 	name = "large soft floor"
-	icon_state = "house"
+	icon_state = "largesoft"
 	sound_env = LARGE_SOFTFLOOR
 
 /area/coldwar/mediumsoftfloor
 	name = "medium soft floor"
-	icon_state = "house"
+	icon_state = "mediumsoft"
 	sound_env = MEDIUM_SOFTFLOOR
 
 /area/coldwar/smallsoftfloor
 	name = "small soft floor"
-	icon_state = "house"
+	icon_state = "smallsoft"
 	sound_env = SMALL_SOFTFLOOR
 
 /area/coldwar/usmcfob
