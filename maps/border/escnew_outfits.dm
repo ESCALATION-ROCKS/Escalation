@@ -2150,7 +2150,7 @@
 
 /decl/hierarchy/outfit/escalation/nato/heer/mgunner
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Machine Gunner")
-	uniform = /obj/item/clothing/under/bundesheer/flecktarn/soldat
+	uniform = /obj/item/clothing/under/bundesheer/kaz03/soldat
 	shoes = /obj/item/clothing/shoes/bundesheer/field
 	holster = /obj/item/weapon/storage/belt/holster/heer
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/mg74
@@ -2191,7 +2191,7 @@
 
 /decl/hierarchy/outfit/escalation/nato/heer/grenadier
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Grenadier")
-	uniform = /obj/item/clothing/under/bundesheer/flecktarn/soldat
+	uniform = /obj/item/clothing/under/bundesheer/kaz03/soldat
 	shoes = /obj/item/clothing/shoes/bundesheer/field
 	holster = /obj/item/weapon/storage/belt/holster/heer
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/auga1gl

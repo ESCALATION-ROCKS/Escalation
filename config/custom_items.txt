@@ -39,8 +39,15 @@
 # kit_icon: salvage
 # }
 ##
-
 #USMC - /obj/item/clothing/glasses/sunglasses
+#BDH - /obj/item/clothing/head/headband
+#CSLA - /obj/item/clothing/head/headband/red
+#SA - /obj/item/clothing/shoes/soviet/moscva
+
+{
+ckey: SeverePwnage
+item_path: /obj/item/clothing/head/usmc/cavhat
+}
 
 {
 ckey: SONY XPERIA
@@ -62,23 +69,12 @@ ckey: I like D0nUts
 item_path: /obj/item/clothing/glasses/sunglasses
 }
 
-#SA - /obj/item/clothing/shoes/soviet/moscva
-
 {
 ckey: Jackomago61
 item_path: /obj/item/clothing/shoes/soviet/moscva
 }
 
-#BDH - /obj/item/clothing/head/headband
-
 {
 ckey: SilencedMP5A5
 item_path: /obj/item/clothing/head/headband
 }
-
-{
-ckey: SilencedMP5A5
-item_path: /obj/item/clothing/head/headband
-}
-
-#CSLA - /obj/item/clothing/head/headband/red
