@@ -1266,6 +1266,21 @@ obj/structure/sign/noshitlers
 	icon = 'icons/obj/decorations.dmi'
 	icon_state = "post3"
 
+/obj/structure/sign/mcdonalds1
+	name = "mcdonalds"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "mcdonalds1"
+
+/obj/structure/sign/mcdonalds2
+	name = "mcdonalds"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "mcdonalds2"
+
+/obj/structure/sign/mcdonalds3
+	name = "mcdonaldsr"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "mcdonalds3"
+
 /obj/structure/sign/posterart
 	name = "art poster"
 	icon = 'icons/obj/decorations.dmi'
