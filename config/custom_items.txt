@@ -38,17 +38,12 @@
 # kit_desc: An orange voidsuit. Reinforced!
 # kit_icon: salvage
 # }
-##
 #USMC - /obj/item/clothing/glasses/sunglasses
 #BDH - /obj/item/clothing/head/headband
 #CSLA - /obj/item/clothing/head/headband/red
 #SA - /obj/item/clothing/shoes/soviet/moscva
+##
 
-{
-ckey: SeverePwnage
-item_path: /obj/item/clothing/head/usmc/cavhat
-}
-, 
 {
 ckey: SONY XPERIA
 item_path: /obj/item/clothing/head/usmc/cavhat
