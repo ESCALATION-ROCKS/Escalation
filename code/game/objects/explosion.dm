@@ -3,7 +3,6 @@
 	var/multi_z_scalar = 0.35
 	src = null	//so we don't abort once src is deleted
 	spawn(0)
-		var/start = world.timeofday
 		epicenter = get_turf(epicenter)
 		if(!epicenter) return
 
@@ -107,7 +106,7 @@
 	return 1
 
 
-
 proc/secondaryexplosion(turf/epicenter, range)
 	for(var/turf/tile in range(range, epicenter))
 		tile.ex_act(2)
+
