@@ -1266,6 +1266,16 @@ obj/structure/sign/noshitlers
 	icon = 'icons/obj/decorations.dmi'
 	icon_state = "post3"
 
+/obj/structure/sign/russian1
+	name = "russiansign"
+	icon = 'icons/obj/decals48.dmi'
+	icon_state = "pereyaslavskoe"
+	
+/obj/structure/sign/russian2
+	name = "russiansign"
+	icon = 'icons/obj/decals48.dmi'
+	icon_state = "graevka"
+
 /obj/structure/sign/mcdonalds1
 	name = "mcdonalds"
 	icon = 'icons/obj/decorations.dmi'
