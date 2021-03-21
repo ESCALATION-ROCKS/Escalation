@@ -172,6 +172,12 @@
 	blend_with_neighbors = 1
 	movement_delay = 0.7
 
+/turf/unsimulated/ground/stone
+	name = "stone"
+	icon_state = "asteroidplating"
+	blend_with_neighbors = 1
+	movement_delay = 0.7
+
 /turf/unsimulated/ground/grass
 	name = "grass"
 	icon = 'icons/turf/ground.dmi'

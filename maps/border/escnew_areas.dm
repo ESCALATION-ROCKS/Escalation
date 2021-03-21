@@ -30,6 +30,7 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	icon_state = "hallF"
 	requires_power = 0
 	dynamic_lighting = 1
+	sound_env = FOREST
 	base_turf = /turf/unsimulated/ground/
 	ambience = list (
 	'sound/ambience/coldwar/0Background0.ogg',

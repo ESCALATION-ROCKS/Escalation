@@ -26,9 +26,10 @@ var/list/interior_areas = list(/area/coldwar/house1,
 
 
 /area/coldwar
-	name = "area"
+	name = "outside"
 	icon_state = "hallF"
 	requires_power = 0
+	sound_env = FOREST
 	dynamic_lighting = 1
 	base_turf = /turf/unsimulated/ground/
 	ambience = list (
@@ -37,6 +38,44 @@ var/list/interior_areas = list(/area/coldwar/house1,
 	'sound/ambience/coldwar/0Background2.ogg',
 	'sound/ambience/coldwar/0Background3.ogg',
 	'sound/ambience/coldwar/0Background4.ogg',
+	)
+
+/area/coldwar/sewer
+	name = "sewer"
+	icon_state = "sewer"
+	requires_power = 0
+	dynamic_lighting = 1
+	sound_env = LARGE_ENCLOSED
+	base_turf = /turf/unsimulated/ground/stone
+	ambience = list (
+	'sound/ambiencenew/Sewer_FX.ogg',
+	'sound/ambiencenew/Sewer_FX2.ogg',
+	'sound/ambiencenew/Sewer_FX3.ogg',
+	'sound/ambiencenew/Sewer_FX4.ogg',
+	'sound/ambiencenew/Sewer_FX5.ogg',
+	'sound/ambiencenew/Sewer_FX6.ogg',
+	'sound/ambiencenew/Sewer_FX7.ogg',
+	'sound/ambiencenew/Sewer_FX8.ogg',
+	'sound/ambiencenew/Sewer_FX9.ogg',
+	'sound/ambiencenew/Sewer_FX10.ogg'
+	)
+
+/area/coldwar/underground
+	name = "underground"
+	icon_state = "underground"
+	requires_power = 0
+	dynamic_lighting = 1
+	sound_env = LARGE_ENCLOSED
+	base_turf = /turf/unsimulated/ground/stone
+	ambience = list (
+	'sound/ambiencenew/ugrnd_ambient_1.ogg',
+	'sound/ambiencenew/ugrnd_ambient_2.ogg',
+	'sound/ambiencenew/ugrnd_ambient_3.ogg',
+	'sound/ambiencenew/ugrnd_ambient_4.ogg',
+	'sound/ambiencenew/ugrnd_ambient_5.ogg',
+	'sound/ambiencenew/ugrnd_ambient_6.ogg',
+	'sound/ambiencenew/eerie_amb_1.ogg',
+	'sound/ambiencenew/ventsound.ogg'
 	)
 
 /area/coldwar/surrounding

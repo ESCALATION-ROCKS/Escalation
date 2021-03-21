@@ -48,32 +48,32 @@
 ckey: SeverePwnage
 item_path: /obj/item/clothing/head/usmc/cavhat
 }
-
+, 
 {
 ckey: SONY XPERIA
 item_path: /obj/item/clothing/head/usmc/cavhat
 }
-
+, 
 {
 ckey: BurnedSweetPotato
 item_path: /obj/item/clothing/glasses/sunglasses
 }
-
+, 
 {
 ckey: Pete112
 item_path: /obj/item/clothing/glasses/sunglasses
 }
-
+, 
 {
 ckey: I like D0nUts
 item_path: /obj/item/clothing/glasses/sunglasses
 }
-
+, 
 {
 ckey: Jackomago61
 item_path: /obj/item/clothing/shoes/soviet/moscva
 }
-
+, 
 {
 ckey: SilencedMP5A5
 item_path: /obj/item/clothing/head/headband
