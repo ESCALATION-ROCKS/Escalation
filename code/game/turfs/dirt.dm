@@ -171,12 +171,27 @@
 	icon_state = "sand"
 	blend_with_neighbors = 1
 	movement_delay = 0.7
-
-/turf/unsimulated/ground/stone
+	
+/turf/unsimulated/stone
 	name = "stone"
-	icon_state = "asteroidplating"
-	blend_with_neighbors = 1
+	dynamic_lighting = 1
+	icon = 'icons/turf/ground.dmi'
+	name = "stone"
+	icon_state = "stone"
 	movement_delay = 0.7
+	blend_with_neighbors = 3
+	permit_ao = 0
+	movement_delay = 0.7
+	outdoors = 1
+	footstep_sounds = list("human" = list(
+		'sound/effects/footsteps/dirt1.wav',
+		'sound/effects/footsteps/dirt2.wav',
+		'sound/effects/footsteps/dirt3.wav',
+		'sound/effects/footsteps/dirt4.wav',
+		'sound/effects/footsteps/dirt5.wav',
+		'sound/effects/footsteps/dirt6.wav',
+		'sound/effects/footsteps/dirt7.wav',
+		'sound/effects/footsteps/dirt8.wav'))
 
 /turf/unsimulated/ground/grass
 	name = "grass"

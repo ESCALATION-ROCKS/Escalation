@@ -1,6 +1,4 @@
-var/list/interior_areas = list(/area/coldwar/sewer,
-							/area/coldwar/underground,
-							/area/coldwar/underground/bunker,
+var/list/interior_areas = list(
 							/area/coldwar/verylargeenclosed,
 							/area/coldwar/largeenclosed,
 							/area/coldwar/mediumenclosed,

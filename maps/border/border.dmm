@@ -82,7 +82,7 @@
 "cq" = (/obj/machinery/light/small/warmtint{dir = 1},/turf/simulated/floor/tiled,/area/coldwar/warpactfob)
 "ct" = (/obj/machinery/door/unpowered/simple/interiorroom,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "cv" = (/obj/structure/closet,/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
-"cw" = (/obj/structure/fence{dir = 4},/turf/simulated/floor/asteroid,/area/coldwar/underground)
+"cw" = (/obj/structure/fence{dir = 4},/turf/unsimulated/stone,/area/coldwar/underground)
 "cx" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/table/fancy,/obj/item/device/flashlight/lamp,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "cy" = (/obj/structure/sign/vehicle/helicopter/h28,/turf/unsimulated/ground/sand,/area/coldwar/foboutside)
 "cz" = (/obj/item/weapon/setofplates,/obj/item/weapon/setofplates,/obj/item/weapon/setofplates,/obj/structure/table/rack/steriletable,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/freezer,/area/coldwar/usmcfob)
@@ -308,6 +308,7 @@
 "iE" = (/obj/structure/bed/chair/subway{dir = 4},/turf/simulated/floor/tiled,/area/coldwar)
 "iG" = (/obj/machinery/light/small/warmtint{dir = 1},/obj/structure/closet,/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
 "iH" = (/obj/effect/floor_decal/turf/plating,/obj/effect/floor_decal/turf/plating,/obj/structure/barricade/metal,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
+"iI" = (/turf/unsimulated/stone,/area/coldwar/underground)
 "iK" = (/obj/structure/sign/vehicle/ural/uralcargo1,/turf/simulated/floor/tiled,/area/coldwar/largeenclosed)
 "iL" = (/obj/structure/sign/vehicle/ural/uralcargomiddleright,/obj/structure/sign/vehicle/ural/uralcargobenchleft,/obj/structure/closet/crate/wood,/obj/effect/floor_decal/turf/platingalt2,/turf/simulated/floor/plating,/area/coldwar/largeenclosed)
 "iM" = (/obj/structure/bed/chair/wood/goon{pixel_x = -16},/turf/simulated/floor/wood,/area/coldwar/mediumsoftfloor)
@@ -709,7 +710,7 @@
 "tH" = (/obj/structure/bed/chair/wood/soviet,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "tI" = (/obj/structure/darts,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "tJ" = (/obj/effect/floor_decal/turf/woodalt5,/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
-"tK" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/asteroid,/area/coldwar/underground)
+"tK" = (/obj/effect/decal/cleanable/dirt,/turf/unsimulated/stone,/area/coldwar/underground)
 "tL" = (/turf/simulated/floor/tiled/white,/area/coldwar/mediumenclosed)
 "tN" = (/obj/effect/floor_decal/newcorner/blue/diagonal,/obj/structure/bed/roller/soviet,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/white,/area/coldwar/warpactfob)
 "tO" = (/obj/item/stack/material/cyborg/wood,/turf/simulated/floor/wood,/area/coldwar)
@@ -719,7 +720,7 @@
 "tT" = (/obj/random/nofoliage,/turf/unsimulated/ground/sand,/area/coldwar/foboutside)
 "tV" = (/obj/structure/sign/chinese/electrical_equipment,/turf/simulated/wall/concrete_cian,/area/coldwar/mediumsoftfloor)
 "tW" = (/obj/structure/fence{dir = 4},/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
-"tY" = (/obj/structure/fence/door,/turf/simulated/floor/asteroid,/area/coldwar/underground)
+"tY" = (/obj/structure/fence/door,/turf/unsimulated/stone,/area/coldwar/underground)
 "tZ" = (/obj/structure/table/gamblingtable,/obj/item/weapon/deck/cards,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "ua" = (/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar/forest)
 "ub" = (/obj/structure/sandbag{dir = 8},/turf/unsimulated/ground,/area/coldwar)
@@ -909,7 +910,7 @@
 "zo" = (/obj/effect/floor_decal/turf/platingalt2,/obj/effect/floor_decal/industrial/warning{dir = 8},/obj/structure/closet/crate/secure/large,/turf/simulated/floor/plating,/area/coldwar/largeenclosed)
 "zp" = (/obj/structure/bed/soviet,/obj/item/weapon/bedsheet/brown,/obj/structure/curtain/open/bed,/obj/effect/landmark/start{name = "CSLA Chirurg"},/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/lino,/area/coldwar/warpactfob)
 "zq" = (/obj/effect/floor_decal/turf/woodalt5,/obj/item/trash/mre,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
-"zs" = (/obj/effect/decal/cleanable/dirt,/obj/random/trash,/obj/machinery/light/small/red,/turf/simulated/floor/asteroid,/area/coldwar/underground)
+"zs" = (/obj/effect/decal/cleanable/dirt,/obj/random/trash,/obj/machinery/light/small/red,/turf/unsimulated/stone,/area/coldwar/underground)
 "zv" = (/obj/effect/floor_decal/turf/woodalt5,/obj/structure/filingcabinet/chestdrawer,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "zx" = (/obj/structure/closet/cabinet,/obj/machinery/light/coldtint,/turf/simulated/floor/holofloor/wood,/area/coldwar/smallenclosed)
 "zy" = (/obj/structure/bed/chair/couch/middle/beige{dir = 8},/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
@@ -1067,7 +1068,7 @@
 "DL" = (/obj/structure/closet/crate/ammo{name = "F1 crate"},/obj/effect/floor_decal/turf/platingalt,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/item/weapon/grenade/frag/urg86,/obj/effect/floor_decal/turf/plating,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "DN" = (/obj/machinery/sign/neon/casino,/turf/simulated/wall/brick,/area/coldwar/mediumenclosed)
 "DP" = (/obj/structure/table/reinforced,/obj/item/weapon/engine/electric,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/coldwar/mediumenclosed)
-"DR" = (/obj/machinery/light/small/red,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/asteroid,/area/coldwar/underground)
+"DR" = (/obj/machinery/light/small/red,/obj/effect/decal/cleanable/dirt,/turf/unsimulated/stone,/area/coldwar/underground)
 "DT" = (/obj/structure/sign/double/sky/right,/turf/simulated/wall/brick,/area/coldwar/mediumenclosed)
 "DU" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled,/area/coldwar/largeenclosed)
 "DV" = (/obj/random/nofoliage,/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar)
@@ -1241,7 +1242,7 @@
 "IZ" = (/obj/structure/scrap,/turf/unsimulated/ground,/area/coldwar)
 "Ja" = (/obj/random/tree,/obj/structure/barbwire{dir = 4},/obj/structure/barbwire{dir = 4},/turf/unsimulated/ground,/area/coldwar/foboutside)
 "Jc" = (/obj/effect/floor_decal/newcorner/green/solid,/obj/structure/bed/roller,/obj/machinery/light/coldtint,/turf/simulated/floor/tiled,/area/coldwar/usmcfob)
-"Jd" = (/obj/effect/decal/cleanable/dirt,/obj/random/trash,/turf/simulated/floor/asteroid,/area/coldwar/underground)
+"Jd" = (/obj/effect/decal/cleanable/dirt,/obj/random/trash,/turf/unsimulated/stone,/area/coldwar/underground)
 "Je" = (/obj/random/smokes,/obj/structure/table/marble,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "Jg" = (/obj/effect/floor_decal/industrial/warning/dust{dir = 4},/obj/effect/floor_decal/newcorner/red{dir = 8},/turf/simulated/floor/tiled,/area/coldwar)
 "Jh" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled,/area/coldwar/largeenclosed)
@@ -2285,7 +2286,7 @@ yRCJCJCJCJCJCJCJCJyRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
 yRYrYrYrYrYrYrYrYryRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
 yRuWuWuWuWOnNuNuuWyRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
 yRtxtxtYcwtxtxtxaOyRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
-yRtKJdtKtKtKtKtKtKyRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
+yRtKJdiItKtKtKtKtKyRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
 yRtKJdtKJdtKtKJdJdyRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
 yRJdtKbAtKtKJdtKJdyRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
 yRtKJdtKtKDRtKJdtKyRwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwiwi
