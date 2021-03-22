@@ -171,7 +171,13 @@
 	icon_state = "sand"
 	blend_with_neighbors = 2
 	movement_delay = 0.7
-	
+
+/turf/unsimulated/ground/coarse
+	name = "coarse sand"
+	icon_state = "coarse"
+	blend_with_neighbors = 2
+	movement_delay = 0.9
+
 /turf/unsimulated/stone
 	name = "stone"
 	dynamic_lighting = 1

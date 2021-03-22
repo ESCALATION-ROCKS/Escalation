@@ -14,7 +14,7 @@
 
 /obj/structure/flora/tree/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/weapon/carpentry/axe))
-		user << "<span class='notice'>You chop [src] with [I].</span>"
+		user.visible_message("<span class='notice'>You chop [src] with [I].</span>")
 		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
 		playsound(src.loc, 'sound/effects/chopchop.ogg', 100, 1)
 
@@ -24,7 +24,7 @@
 		chops += 1
 
 		if(chops == 4 && small)
-			user << "<span class='notice'>[src] comes crashing down!</span>"
+			user.visible_message("<span class='notice'>[src] comes crashing down!</span>")
 
 			sleep(15)
 
@@ -34,7 +34,7 @@
 			qdel(src)
 
 		else if(chops == 8)
-			user << "<span class='notice'>[src] comes crashing down!</span>"
+			user.visible_message("<span class='notice'>[src] comes crashing down!</span>")
 
 			sleep(15)
 
@@ -56,7 +56,7 @@
 
 /obj/structure/log/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/weapon/carpentry/saw))
-		user << "<span class='notice'>You saw the [src] with [I].</span>"
+		user.visible_message("<span class='notice'>You saw the [src] with [I].</span>")
 
 		if(do_after(user, 80))
 
@@ -64,6 +64,15 @@
 
 			W.pixel_y = src.pixel_y
 			W.amount = rand(3) //going to mess with this value for a while, we'll see
+
+			qdel(src)
+
+	if(istype(I, /obj/item/weapon/shovel))
+		user.visible_message("<span class='notice'>You start digging a fire pit with [I].</span>")
+
+		if(do_after(user, 150))
+
+			new /obj/structure/fire_source/hearth(src.loc)
 
 			qdel(src)
 

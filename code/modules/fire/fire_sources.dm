@@ -63,6 +63,14 @@ var/list/fire_sounds = list(
 	if(lit == FIRE_LIT)
 		density = 1
 
+/obj/structure/fire_source/hearth/attackby(var/obj/item/I, mob/user as mob)
+	if(istype(I, /obj/item/weapon/shovel))
+		user.visible_message("<span class='notice'>You start deconstructing the fire pit with [I].</span>")
+
+		if(do_after(user, 150))
+
+			qdel(src)
+
 /obj/structure/fire_source/stove
 	name = "stove"
 	desc = "Just the thing to warm your hands by."
