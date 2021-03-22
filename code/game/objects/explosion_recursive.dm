@@ -122,17 +122,17 @@ proc/explosion_rec(turf/epicenter, power, shaped)
 	explosion_resistance = 3
 
 /turf/simulated/floor
-	explosion_resistance = 1
+	explosion_resistance = 3
 	movement_delay = 0.7
 
 /turf/simulated/mineral
 	explosion_resistance = 2
 
 /turf/simulated/shuttle/wall
-	explosion_resistance = 10
+	explosion_resistance = 1
 
 /turf/simulated/wall
-	explosion_resistance = 10
+	explosion_resistance = 1
 
 /obj/machinery/door/get_explosion_resistance()
 	if(!density)

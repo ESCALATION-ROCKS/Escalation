@@ -169,11 +169,11 @@
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
 	num_fragments = 70  //total number of fragments produced by the grenade
 	det_time = 100
-	explosion_size = 6
+	explosion_size = 4
 
 /obj/item/weapon/grenade/frag/satchelnato/on_explosion(var/turf/O)
 	if(explosion_size)
-		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
+		explosion(O, 3, 4, explosion_size, round(explosion_size/3), 0)
 
 /obj/item/weapon/grenade/frag/satchelnato/attack_self(mob/user)
 	if (roundstarted == 0)
@@ -199,11 +199,11 @@
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/offensive)
 	num_fragments = 70  //total number of fragments produced by the grenade
 	det_time = 100
-	explosion_size = 6
+	explosion_size = 4
 
 /obj/item/weapon/grenade/frag/satchelwp/on_explosion(var/turf/O)
 	if(explosion_size)
-		explosion(O, 2, 3, explosion_size, round(explosion_size/3), 0)
+		explosion(O, 3, 4, explosion_size, round(explosion_size/3), 0)
 
 /obj/item/weapon/grenade/frag/satchelwp/attack_self(mob/user)
 	if (roundstarted == 0)
