@@ -175,14 +175,34 @@
 /turf/unsimulated/ground/coarse
 	name = "coarse sand"
 	icon_state = "coarse"
-	blend_with_neighbors = 2
-	movement_delay = 0.9
+	blend_with_neighbors = 3
+	movement_delay = 0.7
 
 /turf/unsimulated/stone
 	name = "stone"
 	dynamic_lighting = 1
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "stone"
+	movement_delay = 0.7
+	blend_with_neighbors = 5
+	permit_ao = 0
+	movement_delay = 0.7
+	outdoors = 1
+	footstep_sounds = list("human" = list(
+		'sound/effects/footsteps/concrete1.wav',
+		'sound/effects/footsteps/concrete2.wav',
+		'sound/effects/footsteps/concrete3.wav',
+		'sound/effects/footsteps/concrete4.wav',
+		'sound/effects/footsteps/concrete5.wav',
+		'sound/effects/footsteps/concrete6.wav',
+		'sound/effects/footsteps/concrete7.wav',
+		'sound/effects/footsteps/concrete8.wav'))
+
+/turf/unsimulated/blendingroad
+	name = "road"
+	dynamic_lighting = 1
+	icon = 'icons/turf/ground.dmi'
+	icon_state = "concreteroad"
 	movement_delay = 0.7
 	blend_with_neighbors = 3
 	permit_ao = 0
