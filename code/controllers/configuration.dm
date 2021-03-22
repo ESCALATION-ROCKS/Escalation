@@ -92,7 +92,7 @@ var/list/gamemode_cache = list()
 	var/limitalienplayers = 0
 	var/alien_to_human_ratio = 0.5
 	var/allow_extra_antags = 0
-	var/guests_allowed = 1
+	var/guests_allowed = 0
 	var/debugparanoid = 0
 
 	var/serverurl

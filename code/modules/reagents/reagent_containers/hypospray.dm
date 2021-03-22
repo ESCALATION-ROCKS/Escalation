@@ -13,7 +13,7 @@
 	volume = 30
 	possible_transfer_amounts = null
 	flags = OPENCONTAINER
-	slot_flags = SLOT_BELT
+	slot_flags = null
 
 ///obj/item/weapon/reagent_containers/hypospray/New() //comment this to make hypos start off empty
 //	..()

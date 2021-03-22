@@ -3,7 +3,7 @@
 	organ_tag = BP_HEAD
 	icon_name = "head"
 	name = "head"
-	slot_flags = SLOT_BELT
+	slot_flags = null
 	max_damage = 130
 	min_broken_damage = 35
 	w_class = ITEM_SIZE_NORMAL

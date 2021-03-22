@@ -176,7 +176,6 @@
 	name = "stone"
 	dynamic_lighting = 1
 	icon = 'icons/turf/ground.dmi'
-	name = "stone"
 	icon_state = "stone"
 	movement_delay = 0.7
 	blend_with_neighbors = 3
@@ -192,6 +191,25 @@
 		'sound/effects/footsteps/dirt6.wav',
 		'sound/effects/footsteps/dirt7.wav',
 		'sound/effects/footsteps/dirt8.wav'))
+
+/turf/unsimulated/bridge
+	name = "wooden"
+	dynamic_lighting = 1
+	icon = 'icons/turf/ground.dmi'
+	icon_state = "wood"
+	movement_delay = 0.7
+	blend_with_neighbors = 3
+	permit_ao = 0
+	outdoors = 1
+	footstep_sounds = list("human" = list(
+		'sound/effects/footsteps/wood1.wav',
+		'sound/effects/footsteps/wood2.wav',
+		'sound/effects/footsteps/wood3.wav',
+		'sound/effects/footsteps/wood4.wav',
+		'sound/effects/footsteps/wood5.wav',
+		'sound/effects/footsteps/wood6.wav',
+		'sound/effects/footsteps/wood7.wav',
+		'sound/effects/footsteps/wood8.wav'))
 
 /turf/unsimulated/ground/grass
 	name = "grass"

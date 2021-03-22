@@ -5,7 +5,7 @@
 	icon = 'icons/obj/radio.dmi'
 	icon_state = "defibunit"
 	item_state = "defibunit"
-	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	slot_flags = SLOT_BACK
 	w_class = ITEM_SIZE_LARGE
 	action_button_name = "Remove/Replace Headset"
 
@@ -77,7 +77,7 @@
 		return
 
 	if(!slot_check())
-		to_chat(user, "<span class='warning'>You need to equip [src] before taking out [radio].</span>")
+		to_chat(user, "<span class='warning'>The [src] needs to be secured on your back before taking out the [radio].</span>")
 	else
 		if(!usr.put_in_hands(radio)) //Detach the paddles into the user's hands
 			to_chat(user, "<span class='warning'>You need a free hand to hold the paddles!</span>")
@@ -91,10 +91,10 @@
 
 	if((slot_flags & SLOT_BACK) && M.get_equipped_item(slot_back) == src)
 		return 1
-	if((slot_flags & SLOT_GUN_SLOT) && M.get_equipped_item(slot_gun_slot) == src)
-		return 1
-	if((slot_flags & SLOT_BELT) && M.get_equipped_item(slot_belt) == src)
-		return 1
+	/*if((slot_flags & SLOT_GUN_SLOT) && M.get_equipped_item(slot_gun_slot) == src)
+		return 1*/
+	/*if((slot_flags & SLOT_BELT) && M.get_equipped_item(slot_belt) == src)
+		return 1*/
 
 	return 0
 
@@ -165,7 +165,7 @@ var/global/list/army_channels_ph = list(
 	item_state = "r105d-receiver"
 	frequency = 1449
 	slot_flags = SLOT_EARS
-	badquality = 0
+	badquality = 1
 
 /obj/item/device/radio/escalation/linked/nato
 	name = "AN/PRC-77 receiver"
@@ -173,7 +173,7 @@ var/global/list/army_channels_ph = list(
 	item_state = "prc77-receiver"
 	frequency = 1351
 	slot_flags = SLOT_EARS
-	badquality = 0
+	badquality = 1
 
 
 
@@ -183,6 +183,7 @@ var/global/list/army_channels_ph = list(
 	radio = /obj/item/device/radio/escalation/linked/nato
 	icon_state = "prc77"
 	item_state = "prc77"
+	slot_flags = SLOT_BACK
 
 
 /obj/item/weapon/radioset/r105d
@@ -191,4 +192,5 @@ var/global/list/army_channels_ph = list(
 	radio = /obj/item/device/radio/escalation/linked/warpac
 	icon_state = "r105d"
 	item_state = "r105d"
+	slot_flags = SLOT_BACK
 

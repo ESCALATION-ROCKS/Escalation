@@ -4,6 +4,7 @@
 	suffix = "\[3\]"
 	icon_state = "walkietalkie"
 	item_state = "walkietalkie"
+	slot_flags = SLOT_BACK
 
 	var/on = 1 // 0 for off
 	var/last_transmission
@@ -346,7 +347,7 @@
 			// so that they can be logged even AFTER the mob is deleted or something
 
 		  // Other tags:
-			"compression" = 0, // compressed radio signal
+			"compression" = 1, // compressed radio signal
 			"message" = rhtml_decode(sanitize(message)), // the actual sent message
 			"connection" = connection, // the radio connection to use
 			"radio" = src, // stores the radio used for transmission

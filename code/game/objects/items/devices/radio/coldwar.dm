@@ -6,7 +6,6 @@ var/global/list/army_channels_ph = list(
 	icon = 'icons/obj/radio.dmi'
 	icon_state = "warpact_radio"
 	item_state = "warpact_radio"
-
 	flags = CONDUCT
 	slot_flags = SLOT_BACK
 	throw_speed = 2

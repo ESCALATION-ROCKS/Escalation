@@ -167,7 +167,7 @@
 	icon_state = "defibcompact"
 	item_state = "defibcompact"
 	w_class = ITEM_SIZE_NORMAL
-	slot_flags = SLOT_BELT
+	slot_flags = null
 	origin_tech = list(TECH_BIO = 5, TECH_POWER = 3)
 
 /obj/item/weapon/defibrillator/compact/loaded

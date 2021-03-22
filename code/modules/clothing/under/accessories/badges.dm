@@ -8,7 +8,7 @@
 	name = "detective's badge"
 	desc = "A simple badge, made from gold."
 	icon_state = "goldbadge"
-	slot_flags = SLOT_BELT | SLOT_TIE
+	slot_flags = SLOT_TIE
 	slot = ACCESSORY_SLOT_INSIGNIA
 	var/stored_name
 	var/badge_string = "Private Investigator"

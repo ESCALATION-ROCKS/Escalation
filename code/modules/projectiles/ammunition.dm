@@ -5,7 +5,7 @@
 	icon_state = "s-casing"
 	randpixel = 10
 	flags = CONDUCT
-	slot_flags = SLOT_BELT | SLOT_EARS
+	slot_flags = SLOT_EARS
 	throwforce = 1
 	w_class = ITEM_SIZE_TINY
 
