@@ -30,7 +30,7 @@ var/list/interior_areas = list(
 /area/coldwar/foboutside
 	name = "fob outside"
 	icon_state = "foboutside"
-	sound_env = FOREST
+	sound_env = CITY
 
 /area/coldwar/forest
 	name = "forest"
