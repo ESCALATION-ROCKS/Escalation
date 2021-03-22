@@ -189,14 +189,14 @@
 	movement_delay = 0.7
 	outdoors = 1
 	footstep_sounds = list("human" = list(
-		'sound/effects/footsteps/dirt1.wav',
-		'sound/effects/footsteps/dirt2.wav',
-		'sound/effects/footsteps/dirt3.wav',
-		'sound/effects/footsteps/dirt4.wav',
-		'sound/effects/footsteps/dirt5.wav',
-		'sound/effects/footsteps/dirt6.wav',
-		'sound/effects/footsteps/dirt7.wav',
-		'sound/effects/footsteps/dirt8.wav'))
+		'sound/effects/footsteps/concrete1.wav',
+		'sound/effects/footsteps/concrete2.wav',
+		'sound/effects/footsteps/concrete3.wav',
+		'sound/effects/footsteps/concrete4.wav',
+		'sound/effects/footsteps/concrete5.wav',
+		'sound/effects/footsteps/concrete6.wav',
+		'sound/effects/footsteps/concrete7.wav',
+		'sound/effects/footsteps/concrete8.wav'))
 
 /turf/unsimulated/bridge
 	name = "wooden"
