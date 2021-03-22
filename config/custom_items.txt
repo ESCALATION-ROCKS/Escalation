@@ -42,34 +42,40 @@
 #BDH - /obj/item/clothing/head/headband
 #CSLA - /obj/item/clothing/head/headband/red
 #SA - /obj/item/clothing/shoes/soviet/moscva
+#IF YOU DON'T ENTER CKEYS IN LOWERCASE IT WONT WORK IF YOU DON'T ENTER CKEYS IN LOWERCASE IT WONT WORK IF YOU DON'T ENTER CKEYS IN LOWERCASE IT WONT WORK 
 ##
 
 {
-ckey: SONY XPERIA
+ckey: sony xperia
 item_path: /obj/item/clothing/head/usmc/cavhat
 }
-, 
+
 {
-ckey: BurnedSweetPotato
+ckey: burnedsweetpotato
 item_path: /obj/item/clothing/glasses/sunglasses
 }
-, 
+
 {
-ckey: Pete112
+ckey: pete112
 item_path: /obj/item/clothing/glasses/sunglasses
 }
-, 
+
 {
-ckey: I like D0nUts
+ckey: i like d0nuts
 item_path: /obj/item/clothing/glasses/sunglasses
 }
-, 
+
 {
-ckey: Jackomago61
+ckey: jackomago61
 item_path: /obj/item/clothing/shoes/soviet/moscva
 }
-, 
+
 {
-ckey: SilencedMP5A5
+ckey: silencedmp5a5
+item_path: /obj/item/clothing/head/headband
+}
+
+{
+ckey: severepwnage
 item_path: /obj/item/clothing/head/headband
 }
