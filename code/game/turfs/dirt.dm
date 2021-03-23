@@ -31,7 +31,7 @@
 	dynamic_lighting = 1
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "dirt"
-	blend_with_neighbors = 3
+	blend_with_neighbors = 4
 	permit_ao = 0
 	movement_delay = 1.6
 	outdoors = 1
@@ -172,11 +172,25 @@
 	blend_with_neighbors = 2
 	movement_delay = 0.7
 
-/turf/unsimulated/ground/coarse
-	name = "coarse sand"
+/turf/unsimulated/coarse
+	name = "coarse"
+	dynamic_lighting = 1
+	icon = 'icons/turf/ground.dmi'
 	icon_state = "coarse"
-	blend_with_neighbors = 3
 	movement_delay = 0.7
+	blend_with_neighbors = 5
+	permit_ao = 0
+	movement_delay = 0.7
+	outdoors = 1
+	footstep_sounds = list("human" = list(
+		'sound/effects/footsteps/dirt1.wav',
+		'sound/effects/footsteps/dirt2.wav',
+		'sound/effects/footsteps/dirt3.wav',
+		'sound/effects/footsteps/dirt4.wav',
+		'sound/effects/footsteps/dirt5.wav',
+		'sound/effects/footsteps/dirt6.wav',
+		'sound/effects/footsteps/dirt7.wav',
+		'sound/effects/footsteps/dirt8.wav'))
 
 /turf/unsimulated/stone
 	name = "stone"
@@ -184,7 +198,7 @@
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "stone"
 	movement_delay = 0.7
-	blend_with_neighbors = 5
+	blend_with_neighbors = 3
 	permit_ao = 0
 	movement_delay = 0.7
 	outdoors = 1

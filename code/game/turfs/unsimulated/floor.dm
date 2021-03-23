@@ -25,7 +25,7 @@
 	name = "road"
 	icon = 'icons/turf/newfloor.dmi'
 	icon_state = "roaddottedstripes"
-	blend_with_neighbors = 10
+	blend_with_neighbors = 5
 	outdoors = 1
 	movement_delay = 0.7
 	permit_ao = FALSE
