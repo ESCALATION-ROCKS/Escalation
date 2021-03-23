@@ -1629,6 +1629,47 @@
 		icon_state = "l1a1-empty"
 		wielded_item_state = "l1a1-wielded-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/stg58
+	name = "StG 58"
+	desc = "An outdated Bundesheer combat rifle. Chambers 7.62x51 rounds."
+	icon_state = "stg58"
+	item_state = "l1a1"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x51"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x51
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 5
+	accuracy = 3.2
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/heer/
+	bayonet_attachable = 1
+	jam_chance = 0.360
+	slowdown_general = 0.27
+	wielded_item_state = "l1a1-wielded"
+	fire_sound = 'sound/weapons/gunshot/fnfal.ogg'
+	unload_sound = 'sound/weapons/gunporn/fnfal_magout.ogg' // NEED TO CHANGE SOUNDS
+	reload_sound = 'sound/weapons/gunporn/fnfal_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/fnfal_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=4, move_delay=null, one_hand_penalty=6, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
+		list(mode_name="automatic", burst=1, fire_delay=0.6, move_delay=3, one_hand_penalty=8, burst_accuracy=null, dispersion=list(0.5, 0.7, 1), automatic = 0.9)
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/stg58/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "stg58"
+		wielded_item_state = "l1a1-wielded"
+	else
+		icon_state = "stg58-empty"
+		wielded_item_state = "l1a1-wielded-empty"
+
 /obj/item/weapon/gun/projectile/automatic/rifle/sterling
 	name = "Sterling SMG"
 	desc = "A submachine gun used by the Royal Marines. Chambers 9x19 rounds."
