@@ -1,5 +1,6 @@
 /obj/structure/sandbag
 	name = "sandbag"
+	desc = "Some stacked bags full of sand to protect against incoming fire."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "sandbag"
 	density = 1
@@ -29,6 +30,20 @@
 /obj/structure/sandbag/Destroy()
 	basic_chance = null
 	..()
+
+/obj/structure/sandbag/examine(mob/user)
+	. = ..(user)
+	switch(health)
+		if(200 to INFINITY)
+			to_chat(user, "It's intact.")
+		if(150 to 200)
+			to_chat(user, "It's slightly damaged.")
+		if(100 to 150)
+			to_chat(user, "<span class='warning'>It's badly damaged.</span>")
+		if(50 to 100)
+			to_chat(user, "<span class='warning'>It's heavily damaged.</span>")
+		else
+			to_chat(user, "<span class='warning'>It's falling apart!</span>")
 
 // Duplicated from structures.dm, but its a bit different.
 /obj/structure/sandbag/do_climb(var/mob/living/user)
@@ -182,9 +197,9 @@
 
 //or there are any shit on turf you want to place sandbag
 /obj/item/weapon/sandbag/proc/check4struct(mob/user as mob)
-	if((locate(/obj/structure/chezh_hangehog) || \
+	if((locate(/obj/structure/hedgehog) || \
 		locate(/obj/structure/sandbag/concrete_block) || \
-		locate(/obj/structure/brutswehr)) in user.loc.contents \
+		locate(/obj/structure/brustwehr)) in user.loc.contents \
 		)
 		to_chat(user, "<span class='warning'>There is no more space.</span>")
 		return 1

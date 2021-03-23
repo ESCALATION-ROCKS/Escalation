@@ -1,4 +1,4 @@
-/obj/structure/brutswehrincomplete
+/obj/structure/brustwehrincomplete
 	name = "incomplete brustwehr"
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "brustwehr_isntready"
@@ -8,11 +8,11 @@
 	flags = OBJ_CLIMBABLE
 	var/digstage = 0
 
-/obj/structure/brutswehrincomplete/Initialize(var/obj/structure/flora/F)
+/obj/structure/brustwehrincomplete/Initialize(var/obj/structure/flora/F)
 	if(locate(F) in src.loc.contents)
 		qdel(F)
 
-/obj/structure/brutswehrincomplete/attackby(obj/item/weapon/W as obj, mob/user as mob)
+/obj/structure/brustwehrincomplete/attackby(obj/item/weapon/W as obj, mob/user as mob)
 
 	if(istype(W,/obj/item/weapon/shovel))
 		var/obj/item/weapon/shovel/C = W
@@ -39,12 +39,12 @@
 	else
 		return ..()
 
-/obj/structure/brutswehrincomplete/proc/update_stage()
+/obj/structure/brustwehrincomplete/proc/update_stage()
 	if(digstage >= 4)
-		new /obj/structure/brutswehr(src.loc)
+		new /obj/structure/brustwehr(src.loc)
 		qdel(src)
 
-/obj/structure/brutswehr
+/obj/structure/brustwehr
 	name = "brustwehr"
 	desc = "A breast-high earthwork structure meant to provide cover."
 	icon = 'icons/obj/sandbags.dmi'
@@ -57,21 +57,21 @@
 	var/health = 200 //Actual health depends on snow layer
 	var/reinforced = 0 //has there been a bridge built?
 
-/obj/structure/brutswehr/Initialize(var/obj/structure/flora/F)
+/obj/structure/brustwehr/Initialize(var/obj/structure/flora/F)
 	if(locate(F) in src.loc.contents)
 		qdel(F)
 
 
-/obj/structure/brutswehr/New()
+/obj/structure/brustwehr/New()
 	..()
 	flags |= ON_BORDER
 	update_nearby_icons()
 
-/obj/structure/brutswehr/Destroy()
+/obj/structure/brustwehr/Destroy()
 	basic_chance = null
 	..()
 
-/obj/structure/brutswehr/examine(mob/user)
+/obj/structure/brustwehr/examine(mob/user)
 	. = ..(user)
 	switch(health)
 		if(200 to INFINITY)
@@ -85,7 +85,7 @@
 		else
 			to_chat(user, "<span class='warning'>It's falling apart!</span>")
 
-/obj/structure/brutswehr/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
+/obj/structure/brustwehr/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if(istype(mover, /obj/item/projectile))
 		var/obj/item/projectile/proj = mover
 
@@ -104,7 +104,7 @@
 		..()
 
 //checks if projectile 'P' from turf 'from' can hit whatever is behind the table. Returns 1 if it can, 0 if bullet stops.
-/obj/structure/brutswehr/proc/check_cover(obj/item/projectile/P, turf/from)
+/obj/structure/brustwehr/proc/check_cover(obj/item/projectile/P, turf/from)
 	var/turf/cover = get_step(loc, get_dir(from, loc))
 	if (get_dist(P.starting, loc) <= 4) //Barricades won't help you if people are THIS close
 		return 1
@@ -121,7 +121,7 @@
 			return 0
 	return 1
 
-/obj/structure/brutswehr/MouseDrop_T(obj/O as obj, mob/user as mob)
+/obj/structure/brustwehr/MouseDrop_T(obj/O as obj, mob/user as mob)
 	..()
 	if ((!( istype(O, /obj/item/weapon) ) || user.get_active_hand() != O))
 		return
@@ -134,14 +134,14 @@
 	return
 
 	//Check Health
-/obj/structure/brutswehr/proc/health_check(var/die)
+/obj/structure/brustwehr/proc/health_check(var/die)
 	if(health < 1 || die)
 		update_nearby_icons()
 		visible_message("\red <B>[src] falls apart!</B>")
 		qdel(src)
 
 	//Explosion Act
-/obj/structure/brutswehr/ex_act(severity)
+/obj/structure/brustwehr/ex_act(severity)
 	switch(severity)
 		if(1.0)
 			visible_message("\red <B>[src] is blown apart!</B>")
@@ -164,19 +164,19 @@
 			return
 
 	//Update Sides
-/obj/structure/brutswehr/proc/update_nearby_icons()
+/obj/structure/brustwehr/proc/update_nearby_icons()
 	update_icon()
 	for(var/direction in GLOB.cardinal)
-		for(var/obj/structure/brutswehr/B in get_step(src,direction))
+		for(var/obj/structure/brustwehr/B in get_step(src,direction))
 			B.update_icon()
 
 	//Update Icons
-/obj/structure/brutswehr/update_icon()
+/obj/structure/brustwehr/update_icon()
 	spawn(2)
 		if(!src)
 			return
 		var/junction = 0 //will be used to determine from which side the barricade is connected to other barricades
-		for(var/obj/structure/brutswehr/B in orange(src,1))
+		for(var/obj/structure/brustwehr/B in orange(src,1))
 			if(abs(x-B.x)-abs(y-B.y) ) 		//doesn't count barricades, placed diagonally to src
 				junction |= get_dir(src,B)
 
@@ -188,7 +188,7 @@
 /////////////////////////////////////////////////////
 
 
-/obj/machinery/deployable/brutswehr_cade
+/obj/machinery/deployable/brustwehr_cade
 	name = "burstwehr wood barricade"
 	desc = "Some wooden planks covering a brustwehr."
 	icon = 'icons/obj/sandbags.dmi'
@@ -200,7 +200,7 @@
 	var/basic_chance = 100
 	var/health = 400 //Actual health depends on snow layer
 
-/*/obj/machinery/deployable/barrier/brutswehr_cade/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)//So bullets will fly over and stuff.
+/*/obj/machinery/deployable/barrier/brustwehr_cade/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)//So bullets will fly over and stuff.
 	if(air_group || (height==0))
 		return 0
 	if(istype(mover) && mover.checkpass(PASSTABLE))
@@ -208,21 +208,35 @@
 	else
 		return 0*/
 
-/obj/machinery/deployable/brutswehr_cade/New(loc, direction)
+/obj/machinery/deployable/brustwehr_cade/New(loc, direction)
 	if(direction)
 		dir = direction
 	..()
 
-/obj/machinery/deployable/brutswehr_cade/Initialize()
+/obj/machinery/deployable/brustwehr_cade/Initialize()
 	. = ..()
 	update_layers()
 	//to_world(" New(). Dir:[dir]; Layer:[layer]; plane:[plane]")
 
-/obj/machinery/deployable/brutswehr_cade/Destroy()
+/obj/machinery/deployable/brustwehr_cade/Destroy()
 	basic_chance = null
 	..()
 
-/obj/machinery/deployable/brutswehr_cade/proc/update_layers()
+/obj/machinery/deployable/brustwehr_cade/examine(mob/user)
+	. = ..(user)
+	switch(health)
+		if(100 to INFINITY)
+			to_chat(user, "It's intact.")
+		if(80 to 100)
+			to_chat(user, "It's slightly damaged.")
+		if(50 to 80)
+			to_chat(user, "<span class='warning'>It's badly damaged.</span>")
+		if(20 to 50)
+			to_chat(user, "<span class='warning'>It's heavily damaged.</span>")
+		else
+			to_chat(user, "<span class='warning'>It's falling apart!</span>")
+
+/obj/machinery/deployable/brustwehr_cade/proc/update_layers()
 	if(dir != SOUTH)
 		layer = initial(layer) + 0.1
 		plane = initial(plane)
@@ -230,11 +244,11 @@
 		layer = ABOVE_OBJ_LAYER + 0.1
 		plane = ABOVE_HUMAN_PLANE
 
-/obj/machinery/deployable/brutswehr_cade/set_dir()
+/obj/machinery/deployable/brustwehr_cade/set_dir()
 	..()
 	update_layers()
 
-/obj/machinery/deployable/brutswehr_cade/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
+/obj/machinery/deployable/brustwehr_cade/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if(istype(mover, /obj/item/projectile))
 		var/obj/item/projectile/proj = mover
 
@@ -253,7 +267,7 @@
 		return 1
 
 //checks if projectile 'P' from turf 'from' can hit whatever is behind the table. Returns 1 if it can, 0 if bullet stops.
-/obj/machinery/deployable/brutswehr_cade/proc/check_cover(obj/item/projectile/P, turf/from)
+/obj/machinery/deployable/brustwehr_cade/proc/check_cover(obj/item/projectile/P, turf/from)
 	var/turf/cover = get_turf(src)
 	var/chance = basic_chance
 
@@ -269,19 +283,19 @@
 	return 1
 
 	//Check cade
-/obj/machinery/deployable/brutswehr_cade/proc/health_check(var/die)
+/obj/machinery/deployable/brustwehr_cade/proc/health_check(var/die)
 	if(health < 1 || die)
 		visible_message("\red <B>[src] falls apart!</B>")
 		qdel(src)
 
-/obj/structure/brutswehr/attackby(var/obj/item/I, mob/user as mob)
+/obj/structure/brustwehr/attackby(var/obj/item/I, mob/user as mob)
 
-	if(!locate(/obj/machinery/deployable/brutswehr_cade) in src.loc.contents)//checks to see if there is one already planted, stacking brust cades is OP
+	if(!locate(/obj/machinery/deployable/brustwehr_cade) in src.loc.contents)//checks to see if there is one already planted, stacking brust cades is OP
 
 		if(istype(I, /obj/item/stack/material/wood)) //default wood
 			var/obj/item/stack/material/wood/R = I
 			if(R.amount >= 3)
-				var /obj/machinery/deployable/brutswehr_cade/W = new(src.loc)
+				var /obj/machinery/deployable/brustwehr_cade/W = new(src.loc)
 				R.use(3)
 				W.throwpass = 0
 				playsound(get_turf(loc), "rustle", 15, 1, -3)
@@ -289,7 +303,7 @@
 		if(istype(I, /obj/item/stack/material/r_wood)) //wood from cutting trees
 			var/obj/item/stack/material/r_wood/R = I
 			if(R.amount >= 9)
-				var /obj/machinery/deployable/brutswehr_cade/W = new(src.loc)
+				var /obj/machinery/deployable/brustwehr_cade/W = new(src.loc)
 				R.use(9)
 				W.throwpass = 0
 				playsound(get_turf(loc), "rustle", 15, 1, -3)
@@ -298,7 +312,7 @@
 
 //reinforcement code, commented out to deactivate.
 //Wooden upgrades are being replaced by spawning a special "wood barricade" on top of the brustwehr instead of upgrading the brustwehr itself now
-/*/obj/structure/brutswehr/attackby(var/obj/item/I, mob/user as mob)
+/*/obj/structure/brustwehr/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/stack/material/wood))
 		if(!reinforced)
 
@@ -410,7 +424,7 @@
 	if(!check4struct(user))
 		return
 
-	var/obj/structure/brutswehr/B = new(user.loc)
+	var/obj/structure/brustwehr/B = new(user.loc)
 	B.set_dir(user.dir)
 	user.drop_item()
 	qdel(src)

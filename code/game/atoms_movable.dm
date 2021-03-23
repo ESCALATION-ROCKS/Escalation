@@ -100,8 +100,10 @@
 				if(A:lying) continue
 				src.throw_impact(A,speed)
 			if(isobj(A))
-				if(A.density && !A.throwpass)	// **TODO: Better behaviour for windows which are dense, but shouldn't always stop movement
+				if(A.density && !A.throwpass)
 					src.throw_impact(A,speed)
+				else
+					continue
 
 /atom/movable/proc/throw_at(atom/target, range, speed, thrower, var/spinoverride)
 	if(!target || !src)

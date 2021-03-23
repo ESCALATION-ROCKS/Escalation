@@ -135,3 +135,55 @@
 
 	var/obj/structure/barbwire/deployed = new(user.loc)//new (user.loc)
 	deployed.set_dir(user.dir)
+
+//deployable hedgehog
+/obj/item/stack/hedgehog_rods
+	name = "hedgehog rods"
+	desc = "Bent metal rods used to assemble a hedgehog."
+	singular_name = "hedgehog rod"
+	icon = 'icons/obj/craftlootable.dmi'
+	icon_state = "hedgehog"
+	item_state = "rods"
+	flags = CONDUCT
+	w_class = ITEM_SIZE_HUGE
+	force = 2.0
+	throwforce = 5
+	throw_speed = 5
+	throw_range = 5
+	matter = list(DEFAULT_WALL_MATERIAL = 1875)
+	amount = 3 //starting amount, I put it at 10 since its a starting item
+	max_amount = 3
+	center_of_mass = null
+	attack_verb = list("hit", "bludgeoned", "whacked")
+
+//checking to see there are no hedgehog on the turf, prevents stacking hedgehog
+/obj/item/stack/hedgehog_rods/proc/check4hedgehog(mob/user as mob)
+	if(locate(/obj/structure/hedgehog) in user.loc.contents)
+		to_chat(user, "<span class='warning'>There is already a hedgehog there.</span>")
+		return 1
+	return 0
+
+/obj/item/stack/hedgehog_rods/attack_self(mob/user as mob)
+	if(check4hedgehog(user)) //delete this and replace with the comment below to hedgehog being placed on top
+//	if((check4barbwire(user) || check4sandbags(user) || check4struct(user))// 0 || 0 || 0
+		return
+
+	if(!isturf(user.loc)) //from sandbags
+		to_chat(user, "<span class='warning'>Haha, not funny.</span>")
+		return
+
+	if(do_after(user, 30, src))
+		to_chat(user, "<span class='notice'>You finish setting up the hedgehog!</span>")
+		use(1)
+		if(!src) return
+
+	var/obj/structure/hedgehog/deployed = new(user.loc)//new (user.loc)
+	deployed.set_dir(user.dir)
+
+/obj/item/stack/hedgehog_rods/New()
+	..()
+	slowdown_per_slot[slot_l_hand] = 1.5
+	slowdown_per_slot[slot_r_hand] = 1.5
+
+/obj/item/stack/hedgehog_rods/single
+	amount = 1

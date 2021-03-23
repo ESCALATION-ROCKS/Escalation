@@ -72,7 +72,7 @@
 			return
 		var/turf/T = get_turf(src)
 		for(var/obj/structure/S in T)
-			if(is_type_in_typecache(S, list(/obj/structure/chezh_hangehog = TRUE, /obj/structure/brutswehr = TRUE, /obj/structure/brutswehrincomplete = TRUE, /obj/structure/sandbag/concrete_block = TRUE)))
+			if(is_type_in_typecache(S, list(/obj/structure/hedgehog = TRUE, /obj/structure/brustwehr = TRUE, /obj/structure/brustwehrincomplete = TRUE, /obj/structure/sandbag/concrete_block = TRUE)))
 				to_chat(user, "<span class='warning'>There is no more space.</span>")
 				return FALSE
 		if(istype(src, /turf/unsimulated/floor/river/deep || /turf/unsimulated/floor/river))
@@ -88,7 +88,7 @@
 		if(!do_after(user, 20,src))
 			C.working = 0
 			return
-		new /obj/structure/brutswehrincomplete(src.loc)
+		new /obj/structure/brustwehrincomplete(src.loc)
 		C.update_icon()
 		C.ground = 0
 		C.working = 0
