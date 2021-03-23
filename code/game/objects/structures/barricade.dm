@@ -1,6 +1,6 @@
 /obj/structure/sandbag
 	name = "sandbag"
-	desc = "Some stacked bags full of sand to protect against incoming fire."
+	desc = "Some stacked sandbags to protect against incoming fire."
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "sandbag"
 	density = 1
