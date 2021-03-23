@@ -294,7 +294,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/radioset/r105d
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/soviet/cap/afghanka
@@ -880,7 +880,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/csla
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/vz58
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla
-	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	back = /obj/item/weapon/radioset/r105d
 	head = /obj/item/clothing/head/fieldcap/csla
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
 	l_pocket = /obj/item/weapon/maptool
@@ -1789,7 +1789,7 @@
 	r_hand = /obj/item/weapon/maptool
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	r_pocket = null
-	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	back = /obj/item/weapon/radioset/prc77
 	head = /obj/item/clothing/head/usmc/cap/woodland
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -2390,7 +2390,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/heer
 	l_ear = /obj/item/device/binoculars/nato
-	back = /obj/item/weapon/storage/backpack/heer_buttpack
+	back = /obj/item/weapon/radioset/prc77
 	head = /obj/item/clothing/head/beret/bundesheer
 	l_pocket = /obj/item/weapon/key/natonco
 	belt = /obj/item/weapon/storage/belt/harness/heer
