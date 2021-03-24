@@ -722,6 +722,9 @@ var/list/floor_decals = list()
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "roadspline"
 
+/obj/effect/floor_decal/road/three
+	icon_state = "roadspline3"
+	
 /obj/effect/floor_decal/road/lyuk
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "lyuk"
@@ -729,3 +732,6 @@ var/list/floor_decals = list()
 /obj/effect/floor_decal/road/sliv
 	icon = 'icons/turf/flooring/decals.dmi'
 	icon_state = "sliv"
+
+/obj/effect/floor_decal/road/sliv/three
+	icon_state = "sliv3"
