@@ -5,7 +5,7 @@
 
 	#include "../../code/modules/lobby_music/escalation.dm"
 
-	#define using_map_DATUM /datum/map/feldmarz
+	#define using_map_DATUM /datum/map/escnew
 
 #elif !defined(MAP_OVERRIDE)
 
