@@ -748,6 +748,9 @@
 	if(lying)
 		plane = LYING_MOB_PLANE
 		layer = LYING_MOB_LAYER
+	if(stat == DEAD)
+		plane = DEAD_HUMAN_PLANE
+		layer = DEAD_HUMAN_LAYER
 	else
 		reset_plane_and_layer()
 

@@ -74,8 +74,3 @@ item_path: /obj/item/clothing/shoes/soviet/moscva
 ckey: silencedmp5a5
 item_path: /obj/item/clothing/head/headband
 }
-
-{
-ckey: severepwnage
-item_path: /obj/item/clothing/head/headband
-}

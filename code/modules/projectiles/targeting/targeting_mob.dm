@@ -26,6 +26,7 @@
 	. = ..(gibbed, deathmessage, show_dead_message)
 	if(.)
 		stop_aiming(no_message=1)
+		reset_layer()
 	GLOB.total_deaths++
 
 /mob/living/update_canmove()
