@@ -41,7 +41,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Zamestitel' Komandira Vzvoda")
 	uniform = /obj/item/clothing/under/soviet/afghanka/star
 	shoes = /obj/item/clothing/shoes/soviet/field
-	holster = /obj/item/weapon/storage/belt/sheath/sovietm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -71,7 +71,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Zamestitel' Komandir Otdeleniya")
 	uniform = /obj/item/clothing/under/soviet/afghanka/jsgt
 	shoes = /obj/item/clothing/shoes/soviet/field
-	holster = /obj/item/weapon/storage/belt/sheath/soviet74
+	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -102,7 +102,7 @@
 	shoes = /obj/item/clothing/shoes/soviet/field
 	back = /obj/item/weapon/storage/backpack/summedsan
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	holster = /obj/item/weapon/storage/belt/sheath/soviet74
+	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/medic
 	head = /obj/item/clothing/head/garcap/soviet
@@ -115,7 +115,7 @@
 	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	head = /obj/item/clothing/head/garcap/soviet
 	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/sheath/sovietm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/pkm
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
 	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
@@ -170,7 +170,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Snaiper")
 	uniform = /obj/item/clothing/under/soviet/afghanka/gefr
 	shoes = /obj/item/clothing/shoes/soviet/marching
-	holster = /obj/item/weapon/storage/belt/sheath/sovietm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
@@ -672,7 +672,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Marksman")
 	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
-	holster = /obj/item/weapon/storage/belt/sheath/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/svd
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage
@@ -786,7 +786,7 @@
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/medic
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/vz58v
 	back = /obj/item/weapon/storage/backpack/summedsan
-	holster = /obj/item/weapon/storage/belt/sheath/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	head = /obj/item/clothing/head/garcap/csla
 	l_pocket = /obj/item/weapon/key/wpmed
 	belt = /obj/item/weapon/storage/belt/harness/csla
@@ -818,7 +818,7 @@
 /decl/hierarchy/outfit/job/coldwar/csla/platleaddep
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon Leader Deputy")
 	uniform = /obj/item/clothing/under/csla/vz60/subleutnant
-	holster = /obj/item/weapon/storage/belt/sheath/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
@@ -850,7 +850,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - CSLA Platoon MG")
 	uniform = /obj/item/clothing/under/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/soviet/marching/csla
-	holster = /obj/item/weapon/storage/belt/sheath/csla
+	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/vz59
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/vz59
 	r_pocket = null
