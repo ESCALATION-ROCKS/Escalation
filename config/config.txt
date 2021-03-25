@@ -42,7 +42,7 @@ USE_RECURSIVE_EXPLOSIONS
 
 ## Bans from the server anyone whose ckey is not in data/ckey_whitelist.txt the actual message is stored in /modules/admin/IsBanned.dm
 ## one ckey per line, in lowercase.
-USECKEYWHITELIST
+# USECKEYWHITELIST
 
 ## log OOC channel
 LOG_OOC

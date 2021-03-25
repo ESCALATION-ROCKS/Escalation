@@ -1,0 +1,6 @@
+##############################################################
+# one Ckey per line, all lowercase                           #
+# comments and lines starting with space or tab are ignored  #
+##############################################################
+severepwnage
+von carstein

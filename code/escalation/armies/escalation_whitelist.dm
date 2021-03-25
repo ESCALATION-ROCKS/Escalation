@@ -1,5 +1,3 @@
-#define CKEYWHITELIST "config/whitelist_escalation.txt"
-
 /proc/init_whitelist()
 	whitelisted_escalation.Cut()
 	var/list/whitelist_file = file2list("config/whitelist_escalation.txt")
@@ -97,19 +95,15 @@
 /proc/load_ckey_whitelist()
 	log_admin("Loading ckey_whitelist")
 	ckey_whitelist = list()
-	var/list/Lines = file2list(CKEYWHITELIST)
+	var/list/Lines = file2list("config/whitelist_escalation.txt")
 	for(var/line in Lines)
+		if(!length(line))
+			continue
 
-		if(!length(line))				continue
-		if(copytext(line,1,2) == "#")	continue
+		var/ascii = text2ascii(line,1)
 
-		//Split the line at every "="
-		var/list/List = splittext(line, "=")
-		if(!List.len)					continue
-
-		//ckey is before the first "="
-		var/ckey = ckey(List[1])
-		if(!ckey)						continue
+		if(copytext(line,1,2) == "#" || ascii == 9 || ascii == 32)//# space or tab
+			continue
 
 		ckey_whitelist.Add(line)
 
