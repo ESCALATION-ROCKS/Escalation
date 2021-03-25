@@ -60,7 +60,7 @@ LOG_ACCESS
 LOG_GAME
 
 ## log player votes
-LOG_VOTE
+#LOG_VOTE
 
 ## log client Whisper
 LOG_WHISPER
@@ -72,16 +72,16 @@ LOG_EMOTE
 LOG_ATTACK
 
 ## log pda messages
-LOG_PDA
+#LOG_PDA
 
 ## log world.log messages
 LOG_WORLD_OUTPUT
 
 ## log all Topic() calls (for use by coders in tracking down Topic issues)
-LOG_HREFS
+#LOG_HREFS
 
 ## log world.log and runtime errors to a file
-LOG_RUNTIME
+#LOG_RUNTIME
 
 ## log admin warning messages
 ##LOG_ADMINWARN  ## Also duplicates a bunch of other messages.
@@ -189,7 +189,7 @@ HOSTEDBY SeverePwnage
 GUEST_JOBBAN
 
 ## Uncomment this to stop people connecting to your server without a registered ckey. (i.e. guest-* are all blocked from connecting)
-#GUEST_BAN
+GUEST_BAN
 ## Set to jobban everyone who's key is not listed in data/whitelist.txt from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Uncomment to 1 to jobban, leave commented out to allow these positions for everyone (but see GUEST_JOBBAN above and regular jobbans)
 # USEWHITELIST
@@ -211,7 +211,7 @@ GUEST_JOBBAN
 # GITHUBURL https://github.com/example-user/example-repository
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS http://example.com
+BANAPPEALS https://discord.gg/QF5naBv2gw
 
 ## In-game features
 ## spawns a spellbook which gives object-type spells instead of verb-type spells for the wizard
@@ -228,7 +228,7 @@ GUEST_JOBBAN
 #POPUP_ADMIN_PM
 
 ## Remove the # to allow special 'Easter-egg' events on special holidays such as seasonal holidays and stuff like 'Talk Like a Pirate Day' :3 YAARRR
-ALLOW_HOLIDAYS
+# ALLOW_HOLIDAYS
 
 ##Defines the ticklag for the world.  0.9 is the normal one, 0.5 is smoother.
 TICKLAG 0.5
@@ -350,7 +350,7 @@ EVENT_CUSTOM_START_MAJOR 80;100
 DISABLE_OOC
 
 ## Uncomment to disable the AHELP channel by default.
-DISABLE_AHELP
+#DISABLE_AHELP
 
 
 ## Uncomment to disable the dead OOC channel by default.
