@@ -99,8 +99,17 @@
 	ckey_whitelist = list()
 	var/list/Lines = file2list(CKEYWHITELIST)
 	for(var/line in Lines)
-		if(!length(line))
-			continue
+
+		if(!length(line))				continue
+		if(copytext(line,1,2) == "#")	continue
+
+		//Split the line at every "="
+		var/list/List = splittext(line, "=")
+		if(!List.len)					continue
+
+		//ckey is before the first "="
+		var/ckey = ckey(List[1])
+		if(!ckey)						continue
 
 		ckey_whitelist.Add(line)
 
