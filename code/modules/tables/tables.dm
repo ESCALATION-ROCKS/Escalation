@@ -132,7 +132,7 @@
 			return 1 
 
 		playsound(src.loc, 'sound/effects/chopchop.ogg', 100, 1)
-		to_chat(usr, "You begin to tear down [src] into its bare components.")
+		to_chat(usr, "You begin to tear down the [src].")
 		if(do_after(usr, 100, src))
 			if(scrap_type == GLASS_MATERIAL) 
 				new /obj/item/weapon/material/shard(src.loc)

@@ -288,6 +288,20 @@
 		visible_message("\red <B>[src] falls apart!</B>")
 		qdel(src)
 
+/obj/structure/hedgehog/attackby(obj/item/weapon/W as obj, mob/user as mob)
+    if(istype(W, /obj/item/weapon/carpentry/axe && health == 100))
+        check4struct(user)
+        if(anchored)
+            to_chat(user, "<span class='notice'>You start dismantling the [src].</span>")
+            if(do_after(user, 50, src))
+                playsound(src.loc, 'sound/effects/chopchop.ogg', 50, 1)
+                anchored = TRUE
+                to_chat(user, "<span class='notice'>You dismantled the [src].</span>")
+                new /obj/item/stack/material/wood(src.loc)
+                qdel(src)
+        else
+            return
+
 /obj/structure/brustwehr/attackby(var/obj/item/I, mob/user as mob)
 
 	if(!locate(/obj/machinery/deployable/brustwehr_cade) in src.loc.contents)//checks to see if there is one already planted, stacking brust cades is OP

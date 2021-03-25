@@ -109,7 +109,7 @@
 			return
 
 /obj/structure/hedgehog/attackby(obj/item/weapon/W as obj, mob/user as mob)
-    if(istype(W, /obj/item/weapon/wrench))
+    if(istype(W, /obj/item/weapon/wrench && health == 200))
         check4struct(user)
         if(anchored)
             to_chat(user, "<span class='notice'>You start dismantling the [src].</span>")
@@ -121,6 +121,7 @@
                 qdel(src)
         else
             return
+
 
 /obj/structure/hedgehog/proc/check4struct(mob/user as mob)
 	if((locate(/obj/structure/hedgehog) || \
