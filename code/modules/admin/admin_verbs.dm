@@ -107,6 +107,8 @@ var/list/admin_verbs_admin = list(
 	/client/proc/warpact_major,
 	/client/proc/nato_major,
 	/client/proc/draw_major,
+	/datum/admins/proc/ToggleCkeyWhitelist,
+	/datum/admins/proc/ReloadCkeyWhitelist,
 )
 var/list/admin_verbs_ban = list(
 	/client/proc/unban_panel,

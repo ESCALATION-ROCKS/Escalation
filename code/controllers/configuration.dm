@@ -61,6 +61,7 @@ var/list/gamemode_cache = list()
 	var/allow_ai = 1					// allow ai job
 	var/hostedby = null
 	var/respawn_delay = 3
+	var/useckeywhitelist = 0
 	var/guest_jobban = 1
 	var/usewhitelist = 0
 	var/kick_inactive = 10				//force disconnect for inactive players after this many minutes, if non-0
@@ -481,6 +482,9 @@ var/list/gamemode_cache = list()
 
 				if ("usewhitelist")
 					config.usewhitelist = 1
+
+				if ("useckeywhitelist")
+					config.useckeywhitelist = 1
 
 				if ("feature_object_spell_system")
 					config.feature_object_spell_system = 1
