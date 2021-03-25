@@ -15,6 +15,10 @@
 		key_cache[key] = 0
 		return ..()
 
+	//Check if user is whitelisted
+	if(config.useckeywhitelist && !check_ckey_whitelisted(ckey(key)))
+		return list("reason"="Civilian", "desc"="\nNon-whitelisted users are not allowed.")
+
 	//Guest Checking
 	if(!config.guests_allowed && IsGuestKey(key))
 		log_access("Failed Login: [key] - Guests not allowed")
