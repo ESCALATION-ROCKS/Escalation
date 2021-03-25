@@ -17,7 +17,7 @@
 
 	//Check if user is whitelisted
 	if(config.useckeywhitelist && !check_ckey_whitelisted(ckey(key)))
-		return list("reason"="Civilian", "desc"="\nNon-whitelisted users are not allowed.")
+		return list("reason"="civilian", "desc"="\nNon-whitelisted users are not allowed. Get whitelisted at https://discord.gg/QF5naBv2gw")
 
 	//Guest Checking
 	if(!config.guests_allowed && IsGuestKey(key))
