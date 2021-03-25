@@ -102,11 +102,6 @@
 		if(!length(line))
 			continue
 
-		var/ascii = text2ascii(line,1)
-
-		if(copytext(line,1,2) == "#" || ascii == 9 || ascii == 32)//# space or tab
-			continue
-
 		ckey_whitelist.Add(line)
 
 	if(!ckey_whitelist.len)
