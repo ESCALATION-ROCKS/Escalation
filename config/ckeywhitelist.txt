@@ -1,16 +1,16 @@
-# one Ckey per line, all lowercase.
-von carstein
+﻿#one Ckey per line , all lowercase , no space bars AT ALL.
+voncarstein
 severepwnage
-sony xperıa
+sonyxperıa
 gogoing
 burnedsweetpotato
-the elder hobo
+theelderhobo
 spectre808
 arbs
 jerman5
 spiritofrevenge
 yacobpo157
-yung bruh
+yungbruh
 thepolish_lancer
 selchoni
 0xdeed
@@ -18,7 +18,7 @@ tristan63
 meem4903
 toroidalzer0
 aco07
-belle felphine
+bellefelphine
 balpindo
 mrpotatobag123
 pete112
@@ -41,8 +41,8 @@ soundwavesghost
 druzhina
 polin2
 valenth
-sir alcatraz
-grade 9 fixer
+siralcatraz
+grade9fixer
 fernandez123
 soslannyy
 lowtec
@@ -58,7 +58,7 @@ boringcommunist
 zach665
 fighterofkeyboard
 atlasrules87
-tactical tortoise
+tacticaltortoise
 koekiegast
 fattybunbah
 wildswan
@@ -70,7 +70,7 @@ silencedmp5a5
 bamhalazam
 wheasymold552
 rambosambo123
-fat seal
+fatseal
 madmre
 caryl
 eric066
@@ -79,11 +79,11 @@ filmsplitter341
 aguyiguess
 b3anz
 uhhuhhello
-bob newman
+bobnewman
 bongosz
 dansemacabre
 borntokill946
-billy hays
+billyhays
 blazsnake
 dicernice
 bigboyoncampus
@@ -107,14 +107,14 @@ chuckk
 bob46
 mixanovr64
 nikita588
-james sirk
+jamessirk
 achap
 tallfission
 suriyel
 silversz
 cesium_shark
 turtlecactus
-real josef stalin
+realjosefstalin
 leothekiller
 trollarch
 colonist
@@ -130,7 +130,7 @@ mikeforce3321
 ondrej008
 echion
 sha.sct
-youre in a coma
+youreinacoma
 yeehar
 nowik347
 vlad3
@@ -143,7 +143,7 @@ nobillynotreally
 foxtail_99
 lautaroluna180
 cesarjunior233
-urist mcınternetuser
+uristmcınternetuser
 kindadread
 horatius21
 bzrkr
@@ -158,3 +158,7 @@ bartdrown
 angryboar
 tsoutsekios
 recker214
+bobmancer343
+wirpy
+minecrafterboi
+jaaackx
