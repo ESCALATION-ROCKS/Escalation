@@ -95,7 +95,7 @@
 /proc/load_ckey_whitelist()
 	log_admin("Loading ckey_whitelist")
 	ckey_whitelist = list()
-	var/list/Lines = file2list("config/whitelist_escalation.txt")
+	var/list/Lines = file2list("config/ckeywhitelist.txt")
 	for(var/line in Lines)
 		if(!length(line))
 			continue
