@@ -20,13 +20,25 @@ SONY XPERIA = {
 usmc_officer
 }
 
+Gogoing = {
+usmc_officer
+}
+
 ############### USMC NCO
 
 BurnedSweetPotato = {
 usmc_nco
 }
 
+The Elder Hobo = {
+usmc_nco
+}
+
 Spectre808 = {
+usmc_nco
+}
+
+Arbs = {
 usmc_nco
 }
 
@@ -38,13 +50,13 @@ SpiritOfRevenge = {
 usmc_nco
 }
 
-ArbsArbs = {
-usmc_nco
-}
-
 ############### USMC ENLISTED
 
 Yacobpo157 = {
+usmc_enlisted
+}
+
+yung bruh = {
 usmc_enlisted
 }
 
@@ -56,10 +68,6 @@ Selchoni = {
 usmc_enlisted
 }
 
-The Elder Hobo = {
-usmc_enlisted
-}
-
 0xDEED = {
 usmc_enlisted
 }
@@ -68,7 +76,23 @@ Tristan63 = {
 usmc_enlisted
 }
 
-LowTec = {
+MeeM4903 = {
+usmc_enlisted
+}
+
+ToroidalZer0 = {
+usmc_enlisted
+}
+
+aco07 = {
+usmc_enlisted
+}
+
+Belle Felphine = {
+usmc_enlisted
+}
+
+Balpindo = {
 usmc_enlisted
 }
 
@@ -80,19 +104,35 @@ Pete112 = {
 usmc_enlisted
 }
 
-MymindisBlank = {
+Mymindisblank = {
 usmc_enlisted
 }
 
-Subdon = {
+PepeFrog = {
 usmc_enlisted
 }
 
-mrrory = {
+not-so-quick = {
+usmc_enlisted
+}
+
+MAZENALMORAUD = {
+usmc_enlisted
+}
+
+Saulmahoney = {
 usmc_enlisted
 }
 
 Merrgear = {
+usmc_enlisted
+}
+
+Mrsandis123 = {
+usmc_enlisted
+}
+
+MauroVega = {
 usmc_enlisted
 }
 
@@ -108,6 +148,10 @@ TheManWhoSoldTheHorns = {
 usmc_enlisted
 }
 
+Egorium = {
+usmc_enlisted
+}
+
 Jericho2021 = {
 usmc_enlisted
 }
@@ -116,11 +160,11 @@ Ranbee = {
 usmc_enlisted
 }
 
-MeeM4903 = {
+GabeGG = {
 usmc_enlisted
 }
 
-Balpindo = {
+Soundwavesghost = {
 usmc_enlisted
 }
 
@@ -140,50 +184,29 @@ Sir Alcatraz = {
 usmc_enlisted
 }
 
-Soundwavesghost = {
-usmc_enlisted
-}
-
-Mrsandis123 = {
-usmc_enlisted
-}
-
-ToroidalZer0 = {
-usmc_enlisted
-}
-
 Grade 9 fixer = {
 usmc_enlisted
 }
 
-Balpindo = {
+Fernandez123 = {
 usmc_enlisted
 }
 
-GabeGG = {
+Soslannyy = {
 usmc_enlisted
 }
 
-Soundwavesghost = {
+LowTec = {
 usmc_enlisted
 }
 
-AvgustFroch = {
+Freeders = {
 usmc_enlisted
 }
 
-not-so-quick = {
+mrrory = {
 usmc_enlisted
 }
-
-Belle Felphine = {
-usmc_enlisted
-}
-
-MauroVega = {
-usmc_enlisted
-}
-
 
 ############### HEER OFFICER
 
@@ -201,31 +224,41 @@ Bongosz = {
 heer_nco
 }
 
-DemtrixD
-taumanta
-Zach665
-BoringCommunist
+DemtrixD = {
+heer_nco
+}
 
+epicdwarf = {
+heer_nco
+}
+
+taumanta = {
+heer_nco
+}
+
+BoringCommunist = {
+heer_nco
+}
+
+Zach665 = {
+heer_nco
+}
+
+FighterOfKeyboard  = {
+heer_nco
+}
 
 ############### HEER ENLISTED
-
-Bamhalazam = {
-heer_enlisted
-}
-
-Bamhalazam = {
-heer_enlisted
-}
-
-Outboarduniform = {
-heer_enlisted
-}
 
 atlasrules87 = {
 heer_enlisted
 }
 
-Ocelottt = {
+Tactical Tortoise = {
+heer_enlisted
+}
+
+Koekiegast = {
 heer_enlisted
 }
 
@@ -237,19 +270,11 @@ WildSwan = {
 heer_enlisted
 }
 
-Beffagorn = {
+Jarntell = {
 heer_enlisted
 }
 
-Scoobov = {
-heer_enlisted
-}
-
-Autisme = {
-heer_enlisted
-}
-
-epicdwarf = {
+Jackomago61  = {
 heer_enlisted
 }
 
@@ -265,11 +290,11 @@ SilencedMP5A5 = {
 heer_enlisted
 }
 
-Wheasymold552 = {
+Bamhalazam = {
 heer_enlisted
 }
 
-Fat Seal = {
+Wheasymold552 = {
 heer_enlisted
 }
 
@@ -277,15 +302,11 @@ rambosambo123 = {
 heer_enlisted
 }
 
-Bongosz = {
+Fat Seal = {
 heer_enlisted
 }
 
-Bob newman = {
-heer_enlisted
-}
-
-FighterOfKeyboard  = {
+MadMrE = {
 heer_enlisted
 }
 
@@ -301,7 +322,7 @@ LuckyX1 = {
 heer_enlisted
 }
 
-IronDuck = {
+FilmSplitter341 = {
 heer_enlisted
 }
 
@@ -317,7 +338,11 @@ Uhhuhhello = {
 heer_enlisted
 }
 
-ILikeToGammon = {
+Bob newman = {
+heer_enlisted
+}
+
+Bongosz = {
 heer_enlisted
 }
 
@@ -329,15 +354,11 @@ sa_officer
 
 ############### SA NCO
 
-Jackomago61 = {
-sa_nco
-}
-
 BornToKill946 = {
 sa_nco
 }
 
-Gabol = {
+Billy Hays = {
 sa_nco
 }
 
@@ -345,13 +366,13 @@ BlazSnake = {
 sa_nco
 }
 
-############### SA ENLISTED
-
-Billy Hays = {
-sa_enlisted
+DiceRNice = {
+sa_nco
 }
 
-DiceRNice = {
+############### SA ENLISTED
+
+BigBoyOnCampus = {
 sa_enlisted
 }
 
@@ -359,11 +380,95 @@ theflyingbananagaming = {
 sa_enlisted
 }
 
-I like D0nUts = {
+HoChiMinh = {
+sa_enlisted
+}
+
+Troontjelolo1010 = {
+sa_enlisted
+}
+
+Master8688 = {
+sa_enlisted
+}
+
+RayZEvans = {
+sa_enlisted
+}
+
+stonks1234 = {
+sa_enlisted
+}
+
+Nobillynotreally = {
+sa_enlisted
+}
+
+theXDkidoflol = {
+sa_enlisted
+}
+
+moneymakeslove = {
+sa_enlisted
+}
+
+Yarnhut = {
+sa_enlisted
+}
+
+Timtwoshoes = {
+sa_enlisted
+}
+
+AlexUNDRRRMKaroff = {
+sa_enlisted
+}
+
+Night_Fang212 = {
+sa_enlisted
+}
+
+Nayser = {
+sa_enlisted
+}
+
+Sivuha = {
 sa_enlisted
 }
 
 rev1n = {
+sa_enlisted
+}
+
+Chuckk = {
+sa_enlisted
+}
+
+Bob46 = {
+sa_enlisted
+}
+
+MixanovR64 = {
+sa_enlisted
+}
+
+Nikita588 = {
+sa_enlisted
+}
+
+James Sirk = {
+sa_enlisted
+}
+
+achap = {
+sa_enlisted
+}
+
+tallfission = {
+sa_enlisted
+}
+
+Suriyel = {
 sa_enlisted
 }
 
@@ -379,7 +484,19 @@ TurtleCactus = {
 sa_enlisted
 }
 
+Real Josef Stalin = {
+sa_enlisted
+}
+
 LeoTheKiller = {
+sa_enlisted
+}
+
+Trollarch = {
+sa_enlisted
+}
+
+Colonist = {
 sa_enlisted
 }
 
@@ -387,34 +504,21 @@ xdyou = {
 sa_enlisted
 }
 
-AlexUNDRRRMKaroff = {
+Kulduad = {
 sa_enlisted
 }
 
-Master8688 = {
+AvgustFroch = {
 sa_enlisted
 }
-
-RayZEvans = {
-sa_enlisted
-}
-
-Yarnhut = {
-sa_enlisted
-}
-
-theXDkidoflol = {
-sa_enlisted
-}
-
-Timtwoshoes = {
-sa_enlisted
-}
-
 
 ############### CSLA OFFICER
 
 Luftie = {
+csla_officer
+}
+
+Lushsalmon123 = {
 csla_officer
 }
 
@@ -428,7 +532,7 @@ Battieralarm3 = {
 csla_nco
 }
 
-Echion = {
+Wotzizname = {
 csla_nco
 }
 
@@ -440,9 +544,25 @@ Ondrej008 = {
 csla_nco
 }
 
+Echion = {
+csla_nco
+}
+
 ############### CSLA ENLISTED
 
 Sha.SCT = {
+csla_enlisted
+}
+
+Youre in a coma = {
+csla_enlisted
+}
+
+YeeHar = {
+csla_enlisted
+}
+
+Nowik347 = {
 csla_enlisted
 }
 
@@ -462,11 +582,15 @@ Gefrakt = {
 csla_enlisted
 }
 
+Mikaelcg = {
+csla_enlisted
+}
+
 Arbufy = {
 csla_enlisted
 }
 
-Lord_Omega932 = {
+Nobillynotreally = {
 csla_enlisted
 }
 
@@ -498,11 +622,11 @@ Bzrkr = {
 csla_enlisted
 }
 
-Bjamcham = {
+Ezhlk = {
 csla_enlisted
 }
 
-Wotzizname = {
+Daelso = {
 csla_enlisted
 }
 
@@ -514,7 +638,15 @@ Wulferion = {
 csla_enlisted
 }
 
-Ezhlk = {
+Bjamcham = {
+csla_enlisted
+}
+
+Lord_Omega932 = {
+csla_enlisted
+}
+
+optimisticdude = {
 csla_enlisted
 }
 
@@ -523,6 +655,14 @@ csla_enlisted
 }
 
 AngryBoar = {
+csla_enlisted
+}
+
+Tsoutsekios = {
+csla_enlisted
+}
+
+Recker214 = {
 csla_enlisted
 }
 
