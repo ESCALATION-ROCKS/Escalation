@@ -51,26 +51,16 @@ item_path: /obj/item/clothing/head/usmc/cavhat
 }
 
 {
-ckey: burnedsweetpotato
-item_path: /obj/item/clothing/glasses/sunglasses
-}
-
-{
-ckey: pete112
-item_path: /obj/item/clothing/glasses/sunglasses
-}
-
-{
-ckey: i like d0nuts
-item_path: /obj/item/clothing/glasses/sunglasses
-}
-
-{
-ckey: jackomago61
+ckey: borntokill946
 item_path: /obj/item/clothing/shoes/soviet/moscva
 }
 
 {
-ckey: silencedmp5a5
-item_path: /obj/item/clothing/head/headband
+ckey: billy hays
+item_path: /obj/item/clothing/shoes/soviet/moscva
+}
+
+{
+ckey: trollarch
+item_path: /obj/item/clothing/shoes/soviet/moscva
 }
