@@ -100,8 +100,9 @@
 		if(!length(line))
 			continue
 
-
-		if(copytext(line,1,2) == "#")
+		var/ascii = text2ascii(line,1)
+		
+		if(copytext(line,1,2) == "#" || ascii == 32)
 			continue
 
 		ckey_whitelist.Add(line)
