@@ -26,8 +26,6 @@
 		if(chops == 4 && small)
 			user.visible_message("<span class='notice'>[src] comes crashing down!</span>")
 
-			sleep(15)
-
 			playsound(src.loc, 'sound/effects/treefalling.ogg', 100, 1)
 			new /obj/structure/log(src.loc)
 
@@ -35,8 +33,6 @@
 
 		else if(chops == 8)
 			user.visible_message("<span class='notice'>[src] comes crashing down!</span>")
-
-			sleep(15)
 
 			playsound(src.loc, 'sound/effects/treefalling.ogg', 100, 1)
 

@@ -1,6 +1,4 @@
-# one Ckey per line, all lowercase, comments and lines starting with space or tab are ignored 
-# one Ckey per line, all lowercase, comments and lines starting with space or tab are ignored
-# one Ckey per line, all lowercase, comments and lines starting with space or tab are ignored
+# one Ckey per line, all lowercase.
 von carstein
 severepwnage
 sony xperıa

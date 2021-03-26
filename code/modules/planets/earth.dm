@@ -297,7 +297,7 @@ datum/weather/sif
 					U.throw_at(get_edge_target_turf(U, pick(alldirs)), 8, 1, L)
 
 			L.water_act(2)*/
-			to_chat(L, "<span class='warning'>Rain falls on you, drenching you in water.</span>")
+			/*to_chat(L, "<span class='warning'>Rain falls on you, drenching you in water.</span>")*/
 
 	handle_lightning()
 

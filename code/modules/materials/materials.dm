@@ -443,6 +443,7 @@ var/list/name_to_material
 	sheet_plural_name = "planks"
 	hitsound = 'sound/effects/woodhit.ogg'
 	conductive = 0
+	ignition_point = T0C+288
 
 /material/army
 	name = "army"

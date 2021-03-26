@@ -70,6 +70,7 @@ var/list/fire_sounds = list(
 		if(do_after(user, 150))
 
 			qdel(src)
+	..()
 
 /obj/structure/fire_source/stove
 	name = "stove"
