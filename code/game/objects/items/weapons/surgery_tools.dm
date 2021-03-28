@@ -148,7 +148,7 @@
 /obj/item/weapon/FixOVein
 	name = "microcautery"
 	icon = 'icons/obj/surgery.dmi'
-	icon_state = "cautery"
+	icon_state = "microcautery"
 	desc = "This cautery is small enough to mend veins."
 	force = 0
 	throwforce = 1.0

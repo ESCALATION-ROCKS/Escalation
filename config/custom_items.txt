@@ -46,21 +46,6 @@
 ##
 
 {
-ckey: sony xperia
-item_path: /obj/item/clothing/head/usmc/cavhat
-}
-
-{
-ckey: borntokill946
-item_path: /obj/item/clothing/shoes/soviet/moscva
-}
-
-{
-ckey: billy hays
-item_path: /obj/item/clothing/shoes/soviet/moscva
-}
-
-{
-ckey: trollarch
-item_path: /obj/item/clothing/shoes/soviet/moscva
+ckey: example
+item_path: /obj/item/clothing/glasses/sunglasses
 }
