@@ -58,7 +58,7 @@
 			if (M.lying)
 				chance += 20				//Lying down lets you catch less bullets
 		if(prob(chance))
-			health -= P.damage/4
+			health -= P.damage/2
 			visible_message("<span class='warning'>[P] hits [src]!</span>")
 			health_check()
 			return 0

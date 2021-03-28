@@ -5,6 +5,7 @@
 	var/pixeldisy = 12
 	var/breakable
 	var/parts
+	explosion_resistance = 1
 
 /obj/structure/Destroy()
 	if(parts)

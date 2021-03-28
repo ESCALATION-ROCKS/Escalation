@@ -8,8 +8,9 @@
 	throwpass = 1 //we can throw grenades despite its density
 	anchored = 1
 	flags = OBJ_CLIMBABLE
+	explosion_resistance = 1
 	var/basic_chance = 50
-	var/health = 200 //Actual health depends on snow layer
+	var/health = 400 //Actual health depends on snow layer
 
 /obj/structure/sandbag/New(loc, direction)
 	if(direction)
@@ -128,7 +129,7 @@
 
 	if(prob(chance))
 		visible_message("<span class='warning'>[P] hits \the [src]!</span>")
-		health -= P.damage/3
+		health -= P.damage
 		visible_message("<span class='warning'>[P] hits [src]!</span>")
 		health_check()
 		return 0

@@ -3,6 +3,7 @@
 	icon = 'icons/obj/structures.dmi'
 	icon_state = "brustwehr_isntready"
 	density = 0
+	explosion_resistance = 1
 	throwpass = 1//we can throw grenades despite its density
 	anchored = 1
 	flags = OBJ_CLIMBABLE
@@ -52,9 +53,10 @@
 	density = 1
 	throwpass = 1//we can throw grenades despite its density
 	anchored = 1
+	explosion_resistance = 1
 	flags = OBJ_CLIMBABLE
 	var/basic_chance = 35
-	var/health = 200 //Actual health depends on snow layer
+	var/health = 600 //Actual health depends on snow layer
 	var/reinforced = 0 //has there been a bridge built?
 
 /obj/structure/brustwehr/Initialize(var/obj/structure/flora/F)
@@ -115,7 +117,7 @@
 			if (M.lying)
 				chance += 20				//Lying down lets you catch less bullets
 		if(prob(chance))
-			health -= P.damage/4
+			health -= P.damage
 			visible_message("<span class='warning'>[P] hits [src]!</span>")
 			health_check()
 			return 0
@@ -198,7 +200,7 @@
 	//if(A.density && !A.throwpass) src.throw_impact(A,speed)
 	throwpass = 0 //we can throw grenades despite its density
 	var/basic_chance = 100
-	var/health = 400 //Actual health depends on snow layer
+	var/health = 200 //Actual health depends on snow layer
 
 /*/obj/machinery/deployable/barrier/brustwehr_cade/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)//So bullets will fly over and stuff.
 	if(air_group || (height==0))
@@ -276,7 +278,7 @@
 
 	if(prob(chance))
 		visible_message("<span class='warning'>[P] hits \the [src]!</span>")
-		health -= P.damage/2
+		health -= P.damage
 		health_check()
 		return 0
 

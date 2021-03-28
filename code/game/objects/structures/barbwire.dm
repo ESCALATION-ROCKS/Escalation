@@ -4,6 +4,7 @@
 	icon_state = "barbwire"
 	anchored = 1
 	layer = 5
+	explosion_resistance = 1
 
 /obj/structure/barbwire/ex_act(severity)
 	switch (severity)

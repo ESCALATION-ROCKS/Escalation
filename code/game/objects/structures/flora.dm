@@ -11,6 +11,7 @@
 	var/chops = 3 //how many times it's been chopped. Gotta make them work for it!
 	var/small = 0
 	mouse_opacity = 0
+	explosion_resistance = 2
 
 /obj/structure/flora/tree/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/weapon/carpentry/axe))
