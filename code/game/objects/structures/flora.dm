@@ -11,7 +11,7 @@
 	var/chops = 3 //how many times it's been chopped. Gotta make them work for it!
 	var/small = 0
 	mouse_opacity = 0
-	explosion_resistance = 2
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/weapon/carpentry/axe))
@@ -810,6 +810,7 @@
 	anchored = 1
 	density = 0
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/summer
 	name = "tree"
@@ -820,6 +821,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/summer/alt1
 	icon = 'icons/obj/flora/96tree.dmi'
@@ -829,6 +831,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/summer/alt2
 	icon = 'icons/obj/flora/96tree.dmi'
@@ -838,6 +841,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/summer/alt3
 	icon = 'icons/obj/flora/96tree.dmi'
@@ -847,6 +851,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/summer/log1
 	name = "wooden log"
@@ -868,6 +873,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/summer/dead2
 	name = "dead tree"
@@ -876,9 +882,20 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 ////////////////////////////////////////////////winter trees
 /////////////////// /obj/structure/flora/tree/pine don't forget these exist too
+
+/obj/structure/flora/tree/winter
+	icon = 'icons/obj/flora/96tree.dmi'
+	icon_state = "96tree"
+	pixel_x = -32
+	density = 1
+	anchored = 1
+	alpha = 150
+	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/winter/deadbig1
 	name = "dead tree"
@@ -889,6 +906,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/winter/deadbig1/New()
 	..()
@@ -903,6 +921,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/winter/deadbig2/New()
 	..()
@@ -917,6 +936,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/winter/alt1/New()
 	..()
@@ -931,6 +951,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/winter/alt2/New()
 	..()
@@ -945,6 +966,7 @@
 	anchored = 1
 	alpha = 150
 	mouse_opacity = 0
+	explosion_resistance = 1
 
 /obj/structure/flora/tree/winter/alt3/New()
 	..()
