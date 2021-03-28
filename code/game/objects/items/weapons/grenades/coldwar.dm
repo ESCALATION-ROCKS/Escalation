@@ -259,7 +259,7 @@
 
 /obj/item/projectile/bullet/pellet/fragment/defensive
 	agony = 12
-	armor_penetration = -7
+	armor_penetration = -4
 	check_armour = "bomb"
 	kill_count = 13
 
@@ -268,7 +268,7 @@
 
 /obj/item/projectile/bullet/pellet/fragment/offensive
 	agony = 9
-	armor_penetration = -9
+	armor_penetration = -5
 	check_armour = "bomb"
 	kill_count = 6
 
@@ -277,7 +277,7 @@
 
 /obj/item/projectile/bullet/pellet/fragment/ugl
 	agony = 8
-	armor_penetration = -11
+	armor_penetration = -5
 	check_armour = "bomb"
 	kill_count = 6
 
