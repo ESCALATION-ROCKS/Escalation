@@ -8,7 +8,7 @@
 	name = "upper body"
 	organ_tag = BP_CHEST
 	icon_name = "torso"
-	max_damage = 400
+	max_damage = 100
 	min_broken_damage = 40
 	w_class = ITEM_SIZE_HUGE //Used for dismembering thresholds, in addition to storage. Humans are w_class 6, so it makes sense that chest is w_class 5.
 	body_part = UPPER_TORSO
@@ -39,7 +39,7 @@
 	name = "lower body"
 	organ_tag = BP_GROIN
 	icon_name = "groin"
-	max_damage = 200
+	max_damage = 100
 	min_broken_damage = 40
 	w_class = ITEM_SIZE_LARGE
 	body_part = LOWER_TORSO
@@ -55,7 +55,7 @@
 	organ_tag = BP_L_ARM
 	name = "left arm"
 	icon_name = "l_arm"
-	max_damage = 120
+	max_damage = 50
 	min_broken_damage = 30
 	w_class = ITEM_SIZE_NORMAL
 	body_part = ARM_LEFT
@@ -88,7 +88,7 @@
 	organ_tag = BP_L_LEG
 	name = "left leg"
 	icon_name = "l_leg"
-	max_damage = 120
+	max_damage = 50
 	min_broken_damage = 30
 	w_class = ITEM_SIZE_NORMAL
 	body_part = LEG_LEFT
@@ -123,7 +123,7 @@
 	organ_tag = BP_L_FOOT
 	name = "left foot"
 	icon_name = "l_foot"
-	max_damage = 75
+	max_damage = 30
 	min_broken_damage = 15
 	w_class = ITEM_SIZE_SMALL
 	body_part = FOOT_LEFT
@@ -161,7 +161,7 @@
 	organ_tag = BP_L_HAND
 	name = "left hand"
 	icon_name = "l_hand"
-	max_damage = 75
+	max_damage = 30
 	min_broken_damage = 15
 	w_class = ITEM_SIZE_SMALL
 	body_part = HAND_LEFT
