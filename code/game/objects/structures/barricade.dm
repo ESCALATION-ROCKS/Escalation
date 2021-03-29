@@ -35,13 +35,13 @@
 /obj/structure/sandbag/examine(mob/user)
 	. = ..(user)
 	switch(health)
-		if(200 to INFINITY)
+		if(400 to INFINITY)
 			to_chat(user, "It's intact.")
-		if(150 to 200)
+		if(300 to 400)
 			to_chat(user, "It's slightly damaged.")
-		if(100 to 150)
+		if(150 to 300)
 			to_chat(user, "<span class='warning'>It's badly damaged.</span>")
-		if(50 to 100)
+		if(50 to 150)
 			to_chat(user, "<span class='warning'>It's heavily damaged.</span>")
 		else
 			to_chat(user, "<span class='warning'>It's falling apart!</span>")
@@ -261,7 +261,7 @@
 		icon_state = "sandbag_empty"
 
 /obj/structure/sandbag/attackby(obj/item/W as obj, mob/user as mob)
-	if(istype(W, /obj/item/weapon/shovel) && health == 200)
+	if(istype(W, /obj/item/weapon/shovel) && health == 400)
 		to_chat(user, "<span class='notice'>You start dismantling the sandbags...</span>")
 		playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
 		if(do_after(user, 80 * W.toolspeed,src))
