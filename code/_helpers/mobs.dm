@@ -150,9 +150,9 @@ proc/age2agedescription(age)
 		if(0 to 1)			return "infant"
 		if(1 to 3)			return "toddler"
 		if(3 to 13)			return "child"
-		if(13 to 19)		return "teenager"
-		if(19 to 30)		return "young adult"
-		if(30 to 45)		return "adult"
+		if(13 to 18)		return "teenager"
+		if(18 to 24)		return "young adult"
+		if(24 to 45)		return "adult"
 		if(45 to 60)		return "middle-aged"
 		if(60 to 70)		return "aging"
 		if(70 to INFINITY)	return "elderly"
@@ -162,17 +162,17 @@ proc/age2agedescription(age)
 proc/ageAndGender2Desc(age, gender)//Used for the radio
 	if(gender == FEMALE)
 		switch(age)
-			if(0 to 15)			return "Girl"
-			if(15 to 25)		return "Young Woman"
-			if(25 to 60)		return "Woman"
-			if(60 to INFINITY)	return "Old Woman"
+			if(0 to 18)			return "Girl"
+			if(18 to 24)		return "Young Woman"
+			if(24 to 45)		return "Woman"
+			if(45 to INFINITY)	return "Old Woman"
 			else				return "Unknown"
 	else
 		switch(age)
-			if(0 to 15)			return "Boy"
-			if(15 to 25)		return "Young Man"
-			if(25 to 60)		return "Man"
-			if(60 to INFINITY)	return "Old Man"
+			if(0 to 18)			return "Boy"
+			if(18 to 24)		return "Young Man"
+			if(24 to 45)		return "Man"
+			if(45 to INFINITY)	return "Old Man"
 			else				return "Unknown"
 
 /proc/RoundHealth(health)

@@ -42,7 +42,7 @@
 	..()
 
 	if(!uvi)
-		uvi = "�[rand(1,9)]"
+		uvi = " #[rand(1,20)]"
 	if(dna)
 		dna.ready_dna(src)
 		dna.real_name = real_name
