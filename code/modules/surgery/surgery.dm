@@ -92,13 +92,13 @@
 		if(locate(/obj/machinery/optable, T))
 			. -= 0
 		else if(locate(/obj/structure/bed/roller, T))
-			. -= 30
+			. -= 90
 		else if(locate(/obj/structure/bed, T))
-			. -= 25
+			. -= 80
 		else if(locate(/obj/structure/table, T))
-			. -= 45
-		else if(locate(/obj/effect/rune/, T))
-			. -= 10
+			. -= 95
+		else if(locate(/obj/effect/rune/, T)) ///if you manage to find a rune you deserve it
+			. -= 0
 	. = max(., 0)
 
 /proc/spread_germs_to_organ(var/obj/item/organ/external/E, var/mob/living/carbon/human/user)
