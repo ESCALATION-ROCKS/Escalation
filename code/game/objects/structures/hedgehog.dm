@@ -109,19 +109,20 @@
 				qdel(src)
 			return
 
-/obj/structure/hedgehog/attackby(obj/item/weapon/W as obj, mob/user as mob)
-    if(istype(W, /obj/item/weapon/wrench && health == 200))
-        check4struct(user)
-        if(anchored)
-            to_chat(user, "<span class='notice'>You start dismantling the [src].</span>")
-            if(do_after(user, 50, src))
-                playsound(src.loc, 'sound/items/Ratchet.ogg', 50, 1)
-                anchored = TRUE
-                to_chat(user, "<span class='notice'>You dismantled the [src].</span>")
-                new /obj/item/stack/hedgehog_rods/single(src.loc)
-                qdel(src)
-        else
-            return
+/obj/structure/hedgehog/attackby(obj/item/W as obj, mob/user as mob)
+	if(istype(W, /obj/item/weapon/wrench) && health == 200)
+		to_chat(user, "<span class='notice'>You start dismantling the hedgehog...</span>")
+		playsound(src, 'sound/items/Ratchet.ogg', 50, 1)
+		if(do_after(user, 60))
+			if(!src) return
+			to_chat(user, "<span class='notice'>You dismantle the hedgehog!</span>")
+			new /obj/item/stack/hedgehog_rods/(src.loc)
+			qdel(src)
+			return
+		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
+		if(!do_mob(user, 60))
+			to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
+			return 0
 
 
 /obj/structure/hedgehog/proc/check4struct(mob/user as mob)

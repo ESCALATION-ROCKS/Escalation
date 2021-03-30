@@ -132,10 +132,14 @@
 	if(do_after(user, 30, src))
 		to_chat(user, "<span class='notice'>You finish setting up the barbwire!</span>")
 		use(1)
+		var/obj/structure/barbwire/deployed = new(user.loc)//new (user.loc)
+		deployed.set_dir(user.dir)
+		return
 		if(!src) return
-
-	var/obj/structure/barbwire/deployed = new(user.loc)//new (user.loc)
-	deployed.set_dir(user.dir)
+	user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
+	if(!do_mob(user, 30, src))
+		to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
+		return
 
 //deployable hedgehog
 /obj/item/stack/hedgehog_rods
@@ -176,10 +180,14 @@
 	if(do_after(user, 30, src))
 		to_chat(user, "<span class='notice'>You finish setting up the hedgehog!</span>")
 		use(1)
+		var/obj/structure/hedgehog/deployed = new(user.loc)//new (user.loc)
+		deployed.set_dir(user.dir)
+		return
 		if(!src) return
-
-	var/obj/structure/hedgehog/deployed = new(user.loc)//new (user.loc)
-	deployed.set_dir(user.dir)
+	user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
+	if(!do_mob(user, 30, src))
+		to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
+		return
 
 /obj/item/stack/hedgehog_rods/New()
 	..()

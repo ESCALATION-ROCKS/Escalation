@@ -17,7 +17,7 @@ SUBSYSTEM_DEF(planets)
 	var/list/needs_temp_update = list()
 
 /datum/controller/subsystem/planets/Initialize(timeofday)
-	admin_notice("<span class='danger'>Initializing planetary weather.</span>", R_DEBUG)
+	admin_notice("<span class='boldannounce'>Initializing planetary weather.</span>", R_DEBUG)
 	createPlanets()
 	allocateTurfs(TRUE)
 	..()

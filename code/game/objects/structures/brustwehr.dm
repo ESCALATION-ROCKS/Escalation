@@ -252,18 +252,18 @@
 
 /obj/machinery/deployable/brustwehr_cade/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
 	if(istype(mover, /obj/item/projectile))
-		var/obj/item/projectile/proj = mover
+		/*var/obj/item/projectile/proj = mover
 
 		if(proj.firer && Adjacent(proj.firer))
 			return 0
 
 		if (get_dist(proj.starting, loc) <= 0)//allows to fire from 0 tile away of sandbag
-			return 0
+			return 0*/
 
 		return check_cover(mover, target)
 
-	if(get_dir(get_turf(src), target) == dir)//turned in front of sandbag
-		return 0
+	/*if(get_dir(get_turf(src), target) == dir)//turned in front of sandbag
+		return 0*/
 
 	else
 		return 1
@@ -290,39 +290,37 @@
 		visible_message("\red <B>[src] falls apart!</B>")
 		qdel(src)
 
-/obj/structure/hedgehog/attackby(obj/item/weapon/W as obj, mob/user as mob)
-    if(istype(W, /obj/item/weapon/carpentry/axe && health == 200))
-        check4struct(user)
-        if(anchored)
-            to_chat(user, "<span class='notice'>You start dismantling the [src].</span>")
-            if(do_after(user, 50, src))
-                playsound(src.loc, 'sound/effects/chopchop.ogg', 50, 1)
-                anchored = TRUE
-                to_chat(user, "<span class='notice'>You dismantled the [src].</span>")
-                new /obj/item/stack/material/wood(src.loc)
-                qdel(src)
-        else
-            return
+/obj/machinery/deployable/brustwehr_cade/attackby(obj/item/W as obj, mob/user as mob)
+	if(istype(W, /obj/item/weapon/carpentry/axe) && health == 200)
+		to_chat(user, "<span class='notice'>You start dismantling the barricade...</span>")
+		playsound(src, 'sound/effects/chopchop.ogg', 50, 1)
+		if(do_after(user, 80))
+			if(!src) return
+			to_chat(user, "<span class='notice'>You dismantle the barricade!</span>")
+			new /obj/item/stack/material/r_wood/(src.loc)
+			qdel(src)
+			return
+		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
+		if(!do_mob(user, 80))
+			to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
+			return 0
 
-/obj/structure/brustwehr/attackby(var/obj/item/I, mob/user as mob)
+/obj/structure/brustwehr/attackby(var/obj/item/stack/material/r_wood/R, mob/user as mob)
 
 	if(!locate(/obj/machinery/deployable/brustwehr_cade) in src.loc.contents)//checks to see if there is one already planted, stacking brust cades is OP
 
-		if(istype(I, /obj/item/stack/material/wood)) //default wood
-			var/obj/item/stack/material/wood/R = I
-			if(R.amount >= 3)
+		if(do_after(user, 50 ,src)) //wood from cutting trees
+			if(R.amount >= 6)
 				var /obj/machinery/deployable/brustwehr_cade/W = new(src.loc)
-				R.use(3)
+				to_chat(user, "<span class='notice'>You finish setting up the wooden barricade!</span>")
+				R.use(6)
 				W.throwpass = 0
 				playsound(get_turf(loc), "rustle", 15, 1, -3)
-
-		if(istype(I, /obj/item/stack/material/r_wood)) //wood from cutting trees
-			var/obj/item/stack/material/r_wood/R = I
-			if(R.amount >= 9)
-				var /obj/machinery/deployable/brustwehr_cade/W = new(src.loc)
-				R.use(9)
-				W.throwpass = 0
-				playsound(get_turf(loc), "rustle", 15, 1, -3)
+				return
+		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
+		if(!do_mob(user, 50, src))
+			to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
+			return 0
 
 
 

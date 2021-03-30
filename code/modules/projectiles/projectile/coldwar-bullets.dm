@@ -317,7 +317,7 @@
 			M1.activate()
 
 /obj/item/projectile/bullet/rgprocket/on_impact(var/atom/target, var/blocked = 0)
-	explosion(target, 1, 2, 3, 2)
+	explosion(target, 2, 3, 3, 2)
 
 /obj/item/projectile/bullet/rgprocket/he
 	penetrating = 0

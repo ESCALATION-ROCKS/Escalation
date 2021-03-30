@@ -219,12 +219,17 @@
 
 	if(do_after(user, 30, src))
 		to_chat(user, "<span class='notice'>You finish setting up the sandbags!</span>")
+		var/obj/structure/sandbag/bag = new(user.loc)//new (user.loc)
+		bag.set_dir(user.dir)
+		user.drop_item()
+		qdel(src)
+		return
 		if(!src) return
-
-	var/obj/structure/sandbag/bag = new(user.loc)//new (user.loc)
-	bag.set_dir(user.dir)
-	user.drop_item()
-	qdel(src)
+	
+	user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
+	if(!do_mob(user, 30, src))
+		to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
+		return
 
 /obj/item/weapon/sandbag/attackby(obj/O as obj, mob/user as mob)
 	if(istype(O, /obj/item/weapon/ore/glass))
@@ -269,3 +274,8 @@
 			to_chat(user, "<span class='notice'>You take apart the sandbags!</span>")
 			new /obj/item/weapon/sandbag/full(src.loc)
 			qdel(src)
+			return
+		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
+		if(!do_mob(user, 80 * W.toolspeed,src))
+			to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
+			return 0
