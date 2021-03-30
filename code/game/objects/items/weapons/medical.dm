@@ -122,23 +122,23 @@
 	desc = "That's the Individualniy Perevyazochniy Paket. Contains sterile gauze."
 	w_class = 2
 	icon_state = "bint_pack"
-	content_type = /obj/item/stack/medical/bruise_pack/bint
+	content_type = /obj/item/stack/medical/bruise_pack/gauze
 
-/obj/item/stack/medical/bruise_pack/bint
+/obj/item/stack/medical/bruise_pack/bint///unused
 	name = "Bint"
 	singular_name = "bint length"
 	icon = 'icons/obj/medical.dmi'
 	icon_state = "bint"
 
 /obj/item/weapon/gauze_pack/gauze
-	name = "M56 bandage pack"
+	name = "M56 gauze pack"
 	desc = "Contains sterile gauze."
 	w_class = 2
 	icon_state = "gauze_pack"
 	content_type = /obj/item/stack/medical/bruise_pack/gauze
 
-/obj/item/stack/medical/bruise_pack/gauze ////////unused
-	name = "roll of bandage"
+/obj/item/stack/medical/bruise_pack/gauze
+	name = "roll of gauze"
 	singular_name = "gauze length"
 	icon = 'icons/obj/medical.dmi'
 	icon_state = "gauze"
