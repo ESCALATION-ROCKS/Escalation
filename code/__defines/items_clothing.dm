@@ -16,15 +16,15 @@
 #define SLOT_NHOLSTER	0x100
 #define SLOT_BELT       0x200
 #define SLOT_BACK       0x400
-#define SLOT_GUN_SLOT   0x600
 #define SLOT_POCKET     0x800  // This is to allow items with a w_class of 3 or 4 to fit in pockets.
 #define SLOT_DENYPOCKET 0x1000  // This is to  deny items with a w_class of 2 or 1 from fitting in pockets.
 #define SLOT_TWOEARS    0x2000
 #define SLOT_TIE        0x4000
-#define SLOT_HOLSTER	0x8000 //16th bit - higher than this will overflow
-#define SLOT_LPOUCH		0x16000 //16th bit - higher than this will overflow
-#define SLOT_RPOUCH		0x32000 //16th bit - higher than this will overflow
-#define SLOT_ID			0x64000
+#define SLOT_GUN_SLOT   0x8000 /////WHOEVER SET THIS TO 600 INITIALLY I HOPE YOUR MOM GETS FUCKED BY A NIGGER COCK -SEVERE
+#define SLOT_HOLSTER	0x16000
+#define SLOT_LPOUCH		0x32000 //16th bit - higher than this will overflow
+#define SLOT_RPOUCH		0x64000 //16th bit - higher than this will overflow
+#define SLOT_ID			0x63000 ///unused so putting in some bullshit number. will stay unused
  //16th bit - higher than this will overflow
 
 #define ACCESSORY_SLOT_UTILITY  "Utility"
