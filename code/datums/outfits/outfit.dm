@@ -60,6 +60,33 @@ var/list/outfits_decls_by_type_
 	var/messenger_bag = /obj/item/weapon/storage/backpack/messenger
 	var/satchel_black = /obj/item/weapon/storage/backpack/satchel_black
 
+	var/sabackpack = /obj/item/weapon/storage/backpack/sakitbag
+	var/sasatchel  = /obj/item/weapon/storage/backpack/gassoviet
+
+	var/cslabackpack = /obj/item/weapon/storage/backpack/sakitbag/csla
+	var/cslasatchel  = /obj/item/weapon/storage/backpack/gassoviet
+
+	var/usabackpack = /obj/item/weapon/storage/backpack/alice/medium
+	var/usasatchel  = /obj/item/weapon/storage/backpack/usmc_buttpack
+
+	var/usmcbackpack = /obj/item/weapon/storage/backpack/alice/medium
+	var/usmcsatchel  = /obj/item/weapon/storage/backpack/usmc_buttpack
+
+	var/bdhbackpack = /obj/item/weapon/storage/backpack/alice/heer
+	var/bdhsatchel  = /obj/item/weapon/storage/backpack/heer_buttpack
+
+	var/bdwbackpack = /obj/item/weapon/storage/backpack/alice/medium
+	var/bdwsatchel  = /obj/item/weapon/storage/backpack/bundes_buttpack
+
+	var/nvabackpack = /obj/item/weapon/storage/backpack/sakitbag/nvaddr
+	var/nvasatchel  = /obj/item/weapon/storage/backpack/gassoviet
+
+	var/bafbackpack = /obj/item/weapon/storage/backpack/baf/medium
+	var/bafsatchel  = /obj/item/weapon/storage/backpack/baf_buttpack
+
+	var/finnbackpack = /obj/item/weapon/storage/backpack/finn/finn_backpack
+	var/finnsatchel  = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+
 	var/flags
 
 /decl/hierarchy/outfit/New()
@@ -70,16 +97,61 @@ var/list/outfits_decls_by_type_
 	outfits_decls_by_type_[type] = src
 	dd_insertObjectList(outfits_decls_, src)
 
-/decl/hierarchy/outfit/proc/pre_equip(mob/living/carbon/human/H)
-	if(flags & OUTFIT_HAS_BACKPACK)
+/decl/hierarchy/outfit/proc/pre_equip(mob/living/carbon/human/H) //////extremely shitty code that needs optimization
+	/*if(flags & OUTFIT_HAS_BACKPACK)
 		switch(H.backbag)
 			if(2) back = backpack
 			if(3) back = satchel_one
 			if(4) back = satchel_two
 			if(5) back = messenger_bag
 			if(6) back = satchel_black
+			else back = null*/
+	if(flags & OUTFIT_HAS_SABACKPACK)
+		switch(H.backbag)
+			if(1) back = sabackpack
+			if(2) back = sasatchel
 			else back = null
-
+	if(flags & OUTFIT_HAS_CSLABACKPACK)
+		switch(H.backbag)
+			if(1) back = cslabackpack
+			if(2) back = cslasatchel
+			else back = null
+	if(flags & OUTFIT_HAS_USABACKPACK)
+		switch(H.backbag)
+			if(1) back = usabackpack
+			if(2) back = usasatchel
+			else back = null
+	if(flags & OUTFIT_HAS_USMCBACKPACK)
+		switch(H.backbag)
+			if(1) back = usmcbackpack
+			if(2) back = usmcsatchel
+			else back = null
+	if(flags & OUTFIT_HAS_BDHBACKPACK)
+		switch(H.backbag)
+			if(1) back = bdhbackpack
+			if(2) back = bdhsatchel
+			else back = null
+	if(flags & OUTFIT_HAS_BDWBACKPACK)
+		switch(H.backbag)
+			if(1) back = bdwbackpack
+			if(2) back = bdwsatchel
+			else back = null
+	if(flags & OUTFIT_HAS_NVABACKPACK)
+		switch(H.backbag)
+			if(1) back = nvabackpack
+			if(2) back = nvasatchel
+			else back = null
+	if(flags & OUTFIT_HAS_BAFBACKPACK)
+		switch(H.backbag)
+			if(1) back = bafbackpack
+			if(2) back = bafsatchel
+			else back = null
+	if(flags & OUTFIT_HAS_FINNBACKPACK)
+		switch(H.backbag)
+			if(1) back = finnbackpack
+			if(2) back = finnsatchel
+			else back = null
+	
 /decl/hierarchy/outfit/proc/post_equip(mob/living/carbon/human/H)
 	if(flags & OUTFIT_HAS_JETPACK)
 		var/obj/item/weapon/tank/jetpack/J = locate(/obj/item/weapon/tank/jetpack) in H
