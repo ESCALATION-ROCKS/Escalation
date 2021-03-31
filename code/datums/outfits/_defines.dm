@@ -9,6 +9,6 @@
 #define OUTFIT_HAS_USMCBACKPACK              0x80
 #define OUTFIT_HAS_BDHBACKPACK               0x100
 #define OUTFIT_HAS_BDWBACKPACK               0x200
-#define OUTFIT_HAS_NVABACKPACK               0x600
+#define OUTFIT_HAS_NVABACKPACK               0x400
 #define OUTFIT_HAS_BAFBACKPACK               0x800
 #define OUTFIT_HAS_FINNBACKPACK              0x1000
