@@ -1660,7 +1660,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
-	back = /obj/item/weapon/radioset/prc77
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/usmc/boonie/woodland
 	l_pocket = /obj/item/weapon/key/natonco

@@ -129,7 +129,14 @@
 
 /obj/item/weapon/radioset/dropped(mob/user)
 	..()
-	reattach_radio(user) //paddles attached to a base unit should never exist outside of their base unit or the mob equipping the base unit
+	reattach_radio(user) 
+
+/obj/item/weapon/radioset/nato/headset/dropped(mob/user)
+	..() 
+	reattach_headset(user)
+
+/obj/item/weapon/radioset/warpact/headset/dropped(mob/user)
+	..()
 	reattach_headset(user)
 
 /obj/item/weapon/radioset/proc/reattach_radio(mob/user)

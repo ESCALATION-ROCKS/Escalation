@@ -203,6 +203,25 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/usmc/usmcftradio
+	title = "USMC Field Radio Operator"
+	name = "Field Radio Operator"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/ratelo
+	selection_color = "#B0C4DE"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "usmc_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_FINNISH = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 2, 1, 2, 0)
+
 /datum/job/escalation/usmc/usmcmgcom
 	title = "USMC HWS Commander"
 	name = "Heavy Weapon Section Commander"
