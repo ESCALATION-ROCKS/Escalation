@@ -110,34 +110,6 @@ Gruppe 'Foxtrot':bund
 /datum/job/escalation/bund/bdwsapper
 @END@
 
-Gruppe 'Golf':bund
-/datum/job/escalation/bund/bdwsl
-/datum/job/escalation/bund/bdwsld
-/datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwmg
-/datum/job/escalation/bund/bdwmgas
-/datum/job/escalation/bund/bdwgrenadier
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwmedic
-/datum/job/escalation/bund/bdwsapper
-@END@
-
-Gruppe 'Hotel':bund
-/datum/job/escalation/bund/bdwsl
-/datum/job/escalation/bund/bdwsld
-/datum/job/escalation/bund/bdwsqradio
-/datum/job/escalation/bund/bdwmg
-/datum/job/escalation/bund/bdwmgas
-/datum/job/escalation/bund/bdwgrenadier
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwrifle
-/datum/job/escalation/bund/bdwmedic
-/datum/job/escalation/bund/bdwsapper
-@END@
-
 SwG. I:bund
 /datum/job/escalation/bund/hwscom
 /datum/job/escalation/bund/hwsop
@@ -343,35 +315,6 @@ Gruppe 'Bertha':nvaddr
 @END@
 
 Gruppe 'Cesar':nvaddr
-/datum/job/escalation/nvaddr/nvasl
-/datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvasrad
-/datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarocketass
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvamedic
-/datum/job/escalation/nvaddr/nvasapper
-@END@
-
-
-Gruppe 'Dora':nvaddr
-/datum/job/escalation/nvaddr/nvasl
-/datum/job/escalation/nvaddr/nvasld
-/datum/job/escalation/nvaddr/nvasrad
-/datum/job/escalation/nvaddr/nvarocket
-/datum/job/escalation/nvaddr/nvarocketass
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvamg
-/datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvarifle
-/datum/job/escalation/nvaddr/nvamedic
-/datum/job/escalation/nvaddr/nvasapper
-@END@
-
-Gruppe 'Emil':nvaddr
 /datum/job/escalation/nvaddr/nvasl
 /datum/job/escalation/nvaddr/nvasld
 /datum/job/escalation/nvaddr/nvasrad
