@@ -27,6 +27,12 @@
 	icon_state = "tanktop"
 	has_color = TRUE
 */
+
+
+/datum/category_item/underwear/undershirt/shirt_marine
+	name = "Shirt, Marines"
+	icon_state = "marine_s"
+	
 /datum/category_item/underwear/undershirt/tank_top_alt
 	is_default = TRUE
 	name = "Tank top"
@@ -50,7 +56,7 @@
 	icon_state = "tank_rainbow_s"
 */
 /datum/category_item/underwear/undershirt/tank_top_stripes
-	name = "Tank top, striped"
+	name = "Telnyashka, tank top"
 	underwear_name = "tank top"
 	icon_state = "tank_stripes_s"
 /*
@@ -76,9 +82,6 @@
 	name = "Shirt, <3"
 	icon_state = "lover_s"
 */
-/datum/category_item/underwear/undershirt/shirt_marine
-	name = "Shirt, Marines"
-	icon_state = "marine_s"
 /*
 /datum/category_item/underwear/undershirt/shirt_nt
 	name = "Shirt, NT"
@@ -112,7 +115,7 @@
 */
 
 /datum/category_item/underwear/undershirt/shirt_blue_striped
-	name = "Shirt, blue stripes"
+	name = "Telnyashka, short sleeve"
 	icon_state = "shirt_stripes_s"
 /*
 /datum/category_item/underwear/undershirt/longjon
@@ -121,13 +124,13 @@
 	icon_state = "ljont"
 	has_color = TRUE
 */
-/datum/category_item/underwear/undershirt/longstripe_black
+/*/datum/category_item/underwear/undershirt/longstripe_black
 	name = "Longsleeve Striped Shirt, Black"
 	underwear_name = "long johns"
-	icon_state = "longstripe"
+	icon_state = "longstripe"*/
 
 /datum/category_item/underwear/undershirt/longstripe_blue
-	name = "Longsleeve Striped Shirt, Blue"
+	name = "Telnyashka, long sleeve"
 	icon_state = "longstripe_blue"
 /*
 /datum/category_item/underwear/undershirt/blouse_female
@@ -160,10 +163,10 @@
 	has_color = TRUE
 */
 
-/datum/category_item/underwear/undershirt/turtleneck
+/*/datum/category_item/underwear/undershirt/turtleneck
 	name = "Turtleneck Sweater"
 	icon_state = "turtleneck_s"
-	has_color = TRUE
+	has_color = TRUE*/
 
 /*
 /datum/category_item/underwear/undershirt/tanktop_alt_female
