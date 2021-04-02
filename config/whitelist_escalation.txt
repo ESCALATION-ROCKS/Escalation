@@ -606,7 +606,7 @@ Bjamcham = {
 csla_enlisted
 }
 
-atlasrules8 = {
+atlasrules87 = {
 csla_enlisted
 }
 
@@ -656,4 +656,20 @@ csla_enlisted
 
 Arbufy = {
 csla_enlisted
+}
+
+iliked0nuts = {
+sa_enlisted
+}
+
+Nightfang212 = {
+sa_enlisted
+}
+
+blank cat = {
+usmc_enlisted
+}
+
+Ianninjac = {
+usmc_enlisted
 }
