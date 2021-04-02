@@ -118,7 +118,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/pkm
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
-	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	r_pocket = null
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
@@ -174,7 +174,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	back = /obj/item/weapon/storage/backpack/gassoviet
-	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68/netting
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
 	r_pocket = null
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	head = /obj/item/clothing/head/garcap/soviet
