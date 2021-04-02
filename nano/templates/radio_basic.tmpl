@@ -79,17 +79,6 @@ Used In File(s): /code/game/objects/item/devices/radio/radio.dm
 	</div>
 {{/if}}
 
-<div class="item">
-	<div class="itemLabelWide">
-		Frequency: {{:data.freq}}
-	</div>
-	<div class="itemContentMedium">
-		{{:helper.link('--', null, {'freq' : -10})}}
-		{{:helper.link('-', null, {'freq' : -2})}}
-		{{:helper.link('+', null, {'freq' : 2})}}
-		{{:helper.link('++', null, {'freq' : 10})}}
-	</div>
-</div>
 
 {{if data.chan_list_len >= 1}}
 	<h3>Channels</h3>
