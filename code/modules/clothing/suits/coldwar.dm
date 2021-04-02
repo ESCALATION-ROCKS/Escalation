@@ -46,14 +46,14 @@
 	armor = list(melee = 30, bullet = 28, laser = 40, energy = 10, bomb = 20, bio = 0, rad = 0)
 	slowdown_general = 0.20
 
-/obj/item/clothing/suit/storage/vest/soviet/a6b2/green
+/obj/item/clothing/suit/armor/vest/soviet/a6b2/green
 	icon_state = "6b2green"
 	item_state = "6b2green"
 
 
 //USMC
 
-/obj/item/clothing/suit/storage/vest/pasgt
+/obj/item/clothing/suit/armor/vest/pasgt
 	name = "PASGT M81 vest"
 	desc = "A common kevlar vest used by U.S. army."
 	icon_state = "pasgt_vest"
@@ -65,11 +65,11 @@
 	slowdown_general = 0.18
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
-/obj/item/clothing/suit/storage/vest/pasgt/woodland
+/obj/item/clothing/suit/armor/vest/pasgt/woodland
 	icon_state = "pasgt_vest_woodland"
 
 
-/obj/item/clothing/suit/storage/vest/flakvest
+/obj/item/clothing/suit/armor/vest/flakvest
 	name = "M69 flak vest"
 	desc = "An outdated flak vest used by NATO personnel."
 	icon_state = "flakvest_nato"
@@ -81,7 +81,7 @@
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
-/obj/item/clothing/suit/storage/vest/heervest
+/obj/item/clothing/suit/armor/vest/heervest
 	name = "KAZ03 flak vest"
 	desc = "A flak vest used by Bundesheer personnel."
 	icon_state = "flakvest_heer"
