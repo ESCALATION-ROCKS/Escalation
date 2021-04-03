@@ -14,7 +14,6 @@
 		/obj/item/clothing/under/rank/scientist,
 		/obj/item/clothing/suit/storage/toggle/labcoat,
 		/obj/item/clothing/shoes/white,
-		/obj/item/device/radio/headset/headset_sci,
 		/obj/item/clothing/mask/gas,
 		/obj/item/weapon/clipboard
 	)
@@ -35,7 +34,6 @@
 		/obj/item/clothing/under/rank/scientist,
 		/obj/item/clothing/suit/storage/toggle/labcoat,
 		/obj/item/clothing/shoes/white,
-		/obj/item/device/radio/headset/headset_sci,
 		/obj/item/clothing/mask/gas,
 		/obj/item/clothing/gloves/latex,
 		/obj/item/weapon/clipboard
@@ -63,7 +61,6 @@
 		/obj/item/clothing/shoes/white,
 		/obj/item/clothing/shoes/leather,
 		/obj/item/clothing/gloves/latex,
-		/obj/item/device/radio/headset/heads/rd,
 		/obj/item/clothing/mask/gas,
 		/obj/item/device/flash,
 		/obj/item/weapon/clipboard,
