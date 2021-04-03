@@ -613,7 +613,6 @@
 	icon = 'icons/obj/medical.dmi'
 	w_class = 2
 	max_w_class = 2
-	multiple_sprites = 1
 	max_storage_space = 4
 	can_hold = list(/obj/item/weapon/pill_pack/)
 
@@ -923,7 +922,6 @@
 	icon_state = "ampoulebox"
 	icon = 'icons/obj/medical.dmi'
 	w_class = 2
-	multiple_sprites = 1
 	max_w_class = 2
 	max_storage_space = 4
 	can_hold = list(/obj/item/weapon/ampoule_pack/)

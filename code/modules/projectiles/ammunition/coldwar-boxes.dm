@@ -37,6 +37,10 @@
 	load_delay = 12
 	multiple_sprites = 1
 
+/obj/item/ammo_magazine/c556x45g/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
+
 /obj/item/ammo_magazine/c556x45g/ap
 	name = "AUG AP magazine (5.56x45mm)"
 	desc = "A Steyr AUG magazine that fits thirty armor-piercing 5.56mm rounds."
@@ -320,6 +324,10 @@
 	max_ammo = 8
 	multiple_sprites = 1
 
+/obj/item/ammo_magazine/a9x19/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
+
 /obj/item/ammo_magazine/a9x19/ap
 	name = "AP magazine (9x19mm)"
 	desc = "A P1 magazine that fits eight armor-piercing 9x19mm rounds."
@@ -346,6 +354,10 @@
 	caliber = "9x19"
 	max_ammo = 18
 	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9x19g/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/a9x19g/ap
 	name = "glock AP magazine (9x19mm)"
@@ -427,6 +439,10 @@
 	max_ammo = 13
 	multiple_sprites = 1
 
+/obj/item/ammo_magazine/a9x19b/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
+
 /obj/item/ammo_magazine/a9x19b/ap
 	name = "magazine (9x19mm)"
 	desc = "A Browning Hi-Power magazine that fits thirteen armor-piercing 9x19mm rounds."
@@ -450,6 +466,10 @@
 	caliber = ".45"
 	max_ammo = 7
 	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a45/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/a45/ap
 	name = "AP magazine (.45 ACP)"
@@ -500,6 +520,10 @@
 	caliber = "9x19"
 	max_ammo = 15
 	multiple_sprites = 1
+
+/obj/item/ammo_magazine/m9x19/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/m9x19/ap
 	name = "AP magazine (9x19mm)"
@@ -813,6 +837,10 @@
 	max_ammo = 8
 	multiple_sprites = 1
 
+/obj/item/ammo_magazine/a9x18/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
+
 /obj/item/ammo_magazine/a9x18/ap
 	name = "AP magazine (9x18mm)"
 	desc = "A Makarov magazine that fits eight armor-piercing 9x18mm rounds."
@@ -839,6 +867,10 @@
 	max_ammo = 20
 	multiple_sprites = 1
 
+/obj/item/ammo_magazine/a9x18b/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
+
 /obj/item/ammo_magazine/a9x18/ap
 	name = "AP magazine (9x18mm)"
 	desc = "A Makarov magazine that fits eight armor-piercing 9x18mm rounds."
@@ -864,6 +896,10 @@
 	caliber = "9x18"
 	max_ammo = 12
 	multiple_sprites = 1
+
+/obj/item/ammo_magazine/cz9x18/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/cz9x18/ap
 	name = "magazine (9x18mm)"
