@@ -138,7 +138,7 @@
 
 ////COLDWAR
 
-/obj/item/clothing/mask/gas/gp5
+/obj/item/clothing/mask/gas/gp5 /////NVA
 	name = "GP-5 gas mask"
 	desc = "A gas mask used by the Soviet Army and other WARPACT countries."
 	icon_state = "gp5_mask"
@@ -151,7 +151,7 @@
 	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
 	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
 
-/obj/item/clothing/mask/gas/gp7
+/obj/item/clothing/mask/gas/gp7 ///////SA
 	name = "GP-7 gas mask"
 	desc = "A gas mask used by the Soviet Army and other WARPACT countries."
 	icon_state = "gp7_mask"
@@ -164,11 +164,24 @@
 	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
 	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
 
-/obj/item/clothing/mask/gas/m38
+/obj/item/clothing/mask/gas/m38 ///////BDW - BDH
 	name = "M38 gas mask"
 	desc = "A gas mask used by the Bundeswehr and other NATO counties."
 	icon_state = "m38_mask"
 	item_state = "m38_mask"
+	body_parts_covered = null
+	w_class = ITEM_SIZE_NORMAL
+	filtered_gases = list("phoron", "sleeping_agent", "smoke")
+	visor_color = 0
+	tint = TINT_NONE
+	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
+	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
+
+/obj/item/clothing/mask/gas/m17 ///////USMC - USA
+	name = "M17 gas mask"
+	desc = "A gas mask used by the USA and other NATO counties."
+	icon_state = "m17_mask"
+	item_state = "m17_mask"
 	body_parts_covered = null
 	w_class = ITEM_SIZE_NORMAL
 	filtered_gases = list("phoron", "sleeping_agent", "smoke")

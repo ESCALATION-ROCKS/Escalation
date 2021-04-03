@@ -395,7 +395,7 @@
 	icon_state = "cslagaspouch"
 
 /obj/item/weapon/storage/backpack/gassoviet/nva
-	desc = "That's a canvas gas mask satchel used by the CSLA."
+	desc = "That's a canvas gas mask satchel used by the NVA DDR."
 	icon_state = "nvagaspouch"
 	item_state = "nvagaspouch"
 
