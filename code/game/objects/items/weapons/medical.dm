@@ -613,67 +613,80 @@
 	icon = 'icons/obj/medical.dmi'
 	w_class = 2
 	max_w_class = 2
+	multiple_sprites = 1
 	max_storage_space = 4
 	can_hold = list(/obj/item/weapon/pill_pack/)
 
 
 /obj/item/weapon/storage/box/pill_box/aminocaproic
 	name = "aminocaproic acid pill box"
+	icon_state = "pillbox_aminocaproic"
 	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
 	startswith = list(/obj/item/weapon/pill_pack/aminocaproic = 2)
 	
 /obj/item/weapon/storage/box/pill_box/salbutamol
 	name = "salbutamol pill box"
+	icon_state = "pillbox_salbutamol"
 	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	startswith = list(/obj/item/weapon/pill_pack/salbutamol = 2)
 
 /obj/item/weapon/storage/box/pill_box/lorazepam
 	name = "lorazepam pill box"
+	icon_state = "pillbox_lorazepam"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	startswith = list(/obj/item/weapon/pill_pack/lorazepam = 2)
 	
 /obj/item/weapon/storage/box/pill_box/doxycycline
 	name = "doxycycline pill box"
+	icon_state = "pillbox_doxycycline"
 	desc = "A broad spectrum antibiotic to fight against infections. Do NOT administer more than 15u."
 	startswith = list(/obj/item/weapon/pill_pack/doxycycline = 2)
 
 /obj/item/weapon/storage/box/pill_box/angiotensin
 	name = "angiotensin pill box"
+	icon_state = "pillbox_angiotensin"
 	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
 	startswith = list(/obj/item/weapon/pill_pack/angiotensin = 2)
 
 /obj/item/weapon/storage/box/pill_box/paracetamol
 	name = "paracetamol pill box"
+	icon_state = "pillbox_paracetamol"
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	startswith = list(/obj/item/weapon/pill_pack/paracetamol = 2)
 
 /obj/item/weapon/storage/box/pill_box/rohypnol
 	name = "rohypnol pill box"
+	icon_state = "pillbox_rohypnol"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
 	startswith = list(/obj/item/weapon/pill_pack/rohypnol = 2)
 
 /obj/item/weapon/storage/box/pill_box/morphine
 	name = "morphine pill box"
+	icon_state = "pillbox_morphine"
 	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
 	startswith = list(/obj/item/weapon/pill_pack/morphine = 2)
 
 /obj/item/weapon/storage/box/pill_box/fentanyl
 	name = "fentanyl pill box"
+	icon_state = "pillbox_fentanyl"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/pill_pack/fentanyl = 2)
 
 /obj/item/weapon/storage/box/pill_box/thiopental
 	name = "sodium thiopental pill box"
+	icon_state = "pillbox_thiopental"
 	desc = "A rapid-onset sedative for surgical operations. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/pill_pack/thiopental = 2)
 	
 /obj/item/weapon/storage/box/pill_box/naloxone
 	name = "naloxone pill box"
+	icon_state = "pillbox_naloxone"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
 	startswith = list(/obj/item/weapon/pill_pack/naloxone = 2)
 
 /obj/item/weapon/storage/box/pill_box/epinephrine
 	name = "epinephrine pill box"
+	icon_state = "pillbox_epinephrine"
 	desc = "A neurotransmitter that is capable of restarting hearts. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/pill_pack/epinephrine = 2)
 
@@ -910,67 +923,80 @@
 	icon_state = "ampoulebox"
 	icon = 'icons/obj/medical.dmi'
 	w_class = 2
+	multiple_sprites = 1
 	max_w_class = 2
 	max_storage_space = 4
 	can_hold = list(/obj/item/weapon/ampoule_pack/)
 
 /obj/item/weapon/storage/box/ampoule_box/aminocaproic
 	name = "aminocaproic acid ampoule box"
+	icon_state = "ampoulebox_aminocaproic"
 	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
 	startswith = list(/obj/item/weapon/ampoule_pack/aminocaproic = 2)
 	
 /obj/item/weapon/storage/box/ampoule_box/salbutamol
 	name = "salbutamol ampoule box"
+	icon_state = "ampoulebox_salbutamol"
 	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	startswith = list(/obj/item/weapon/ampoule_pack/salbutamol = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/lorazepam
 	name = "lorazepam ampoule box"
+	icon_state = "ampoulebox_lorazepam"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	startswith = list(/obj/item/weapon/ampoule_pack/lorazepam = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/doxycycline
 	name = "doxycycline ampoule box"
+	icon_state = "ampoulebox_doxycycline"
 	desc = "A broad spectrum antibiotic to fight against infections. Do NOT administer more than 15u."
 	startswith = list(/obj/item/weapon/ampoule_pack/doxycycline = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/angiotensin
 	name = "angiotensin ampoule box"
+	icon_state = "ampoulebox_angiotensin"
 	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
 	startswith = list(/obj/item/weapon/ampoule_pack/angiotensin = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/paracetamol
 	name = "paracetamol ampoule box"
+	icon_state = "ampoulebox_paracetamol"
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	startswith = list(/obj/item/weapon/ampoule_pack/paracetamol = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/rohypnol
 	name = "rohypnol ampoule box"
+	icon_state = "ampoulebox_rohypnol"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
 	startswith = list(/obj/item/weapon/ampoule_pack/rohypnol = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/morphine
 	name = "morphine ampoule box"
+	icon_state = "ampoulebox_morphine"
 	desc = "A strong painkiller with a quick metabolization speed, for life threatening injuries. Do NOT administer more than 10u or orally."
 	startswith = list(/obj/item/weapon/ampoule_pack/morphine = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/fentanyl
 	name = "fentanyl ampoule box"
+	icon_state = "ampoulebox_fentanyl"
 	desc = "A very strong painkiller with a swift metabolization speed, meant for patients in shock. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/ampoule_pack/fentanyl = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/thiopental
 	name = "sodium thiopental ampoule box"
+	icon_state = "ampoulebox_thiopental"
 	desc = "A rapid-onset sedative for surgical operations. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/ampoule_pack/thiopental = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/naloxone
 	name = "naloxone ampoule box"
+	icon_state = "ampoulebox_naloxone"
 	desc = "An opioid antagonist meant to neutralize the effects of morphine and prevent overdose. Do NOT administer more than 15u."
 	startswith = list(/obj/item/weapon/ampoule_pack/naloxone = 2)
 
 /obj/item/weapon/storage/box/ampoule_box/epinephrine
 	name = "epinephrine ampoule box"
+	icon_state = "ampoulebox_epinephrine"
 	desc = "A neurotransmitter that is capable of restarting hearts. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/ampoule_pack/epinephrine = 2)
 
@@ -1126,70 +1152,84 @@
 //////////////////
 /obj/item/weapon/pill_pack/antitox
 	name = "antitoxin pill pack"
+	icon_state = null
 	desc = "Removes toxins and poisions from blood."
 	pill_type = /obj/item/weapon/reagent_containers/pill/antitox
 
 /obj/item/weapon/pill_pack/tetracetam
 	name = "tetracetam pill pack"
+	icon_state = null
 	pill_type = /obj/item/weapon/reagent_containers/pill/tetracetam
 
 /obj/item/weapon/pill_pack/oxaprofen
 	name = "oxaprofen pill pack"
+	icon_state = null
 	pill_type = /obj/item/weapon/reagent_containers/pill/oxaprofen
 
 /obj/item/weapon/pill_pack/antitox
 	name = "antitoxin pill pack"
+	icon_state = null
 	desc = "Removes toxins and poisions from blood."
 	pill_type = /obj/item/weapon/reagent_containers/pill/antitox
 
 /obj/item/weapon/pill_pack/tramadol
 	name = "tramadol pill pack"
+	icon_state = null
 	desc = "Effective painkiller."
 	pill_type = /obj/item/weapon/reagent_containers/pill/tramadol
 
 /obj/item/weapon/pill_pack/dexalin
 	name = "dexalin pill pack"
+	icon_state = null
 	desc = "Used in cases of oxygen deprivation."
 	pill_type = /obj/item/weapon/reagent_containers/pill/dexalin
 
 /obj/item/weapon/pill_pack/bicaridine
 	name = "bicaridine pill pack"
+	icon_state = null
 	desc = "Helps treat brute injures."
 	pill_type = /obj/item/weapon/reagent_containers/pill/bicaridine
 
 /obj/item/weapon/pill_pack/inaprovaline
 	name = "inaprovaline pill pack"
+	icon_state = null
 	desc = "Prevents death by pain shock."
 	pill_type = /obj/item/weapon/reagent_containers/pill/inaprovaline
 
 /obj/item/weapon/pill_pack/adminordrazine
 	name = "adminordrazine pill pack"
+	icon_state = null
 	desc = "Where did you even get that?"
 	pill_type = /obj/item/weapon/reagent_containers/pill/adminordrazine
 
 
 /obj/item/weapon/pill_pack/phenazepam
 	name = "phenazepam pill pack"
+	icon_state = null
 	desc = "A mild painkiller with a slow metabolization speed. Meant for mild injuries."
 	pill_type = /obj/item/weapon/reagent_containers/pill/aminocaproic
 
 /obj/item/weapon/pill_pack/naloxone
 	name = "naloxone pill pack"
+	icon_state = null
 	desc = "You have no idea what's that."
 	pill_type = /obj/item/weapon/reagent_containers/pill/aminocaproic
 
 /obj/item/weapon/storage/box/pill_box/tetracetam
 	name = "tetracetam pill box"
+	icon_state = null
 	max_storage_space = 2
 	startswith = list(/obj/item/weapon/pill_pack/tetracetam = 2)
 
 /obj/item/weapon/storage/box/pill_box/oxaprofen
 	name = "oxaprofen pill box"
+	icon_state = null
 	max_storage_space = 4
 	startswith = list(/obj/item/weapon/pill_pack/oxaprofen = 4)
 
 /obj/item/weapon/storage/pill_bottle/paracetamol
 	name = "bottle of paracetamol"
+	icon_state = null
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries."
 
 	startswith = list(/obj/item/weapon/reagent_containers/pill/paracetamol = 7)
@@ -1198,6 +1238,7 @@
 	name = "talotropine bottle"
 	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	icon = 'icons/obj/chemical.dmi'
+	icon_state = null
 	icon_state = "bottle-blu"
 	New()
 		..()
@@ -1208,6 +1249,7 @@
 	name = "tetracetam bottle"
 	desc = "A strong bronchodilator. Helps patients who have their airways obstructed in breathing. Do NOT administer more than 10u or orally."
 	icon = 'icons/obj/chemical.dmi'
+	icon_state = null
 	icon_state = "bottle-blu"
 	New()
 		..()
@@ -1216,5 +1258,6 @@
 
 /obj/item/weapon/storage/box/ampoule_box/talotropine
 	name = "aminocaproic acid ampoule box"
+	icon_state = null
 	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
 	startswith = list(/obj/item/weapon/ampoule_pack/aminocaproic = 2)
