@@ -134,3 +134,45 @@
 	species_restricted = list(SPECIES_VOX)
 	filtered_gases = list("phoron", "sleeping_agent", "oxygen")
 	visor_color = 0
+
+
+////COLDWAR
+
+/obj/item/clothing/mask/gas/gp5
+	name = "GP-5 gas mask"
+	desc = "A gas mask used by the Soviet Army and other WARPACT countries."
+	icon_state = "gp5_mask"
+	item_state = "gp5_mask"
+	w_class = ITEM_SIZE_NORMAL
+	body_parts_covered = null
+	filtered_gases = list("phoron", "sleeping_agent", "smoke")
+	visor_color = 0
+	tint = TINT_NONE
+	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
+	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
+
+/obj/item/clothing/mask/gas/gp7
+	name = "GP-7 gas mask"
+	desc = "A gas mask used by the Soviet Army and other WARPACT countries."
+	icon_state = "gp7_mask"
+	item_state = "gp7_mask"
+	w_class = ITEM_SIZE_NORMAL
+	body_parts_covered = null
+	filtered_gases = list("phoron", "sleeping_agent", "smoke")
+	visor_color = 0
+	tint = TINT_NONE
+	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
+	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
+
+/obj/item/clothing/mask/gas/m38
+	name = "M38 gas mask"
+	desc = "A gas mask used by the Bundeswehr and other NATO counties."
+	icon_state = "m38_mask"
+	item_state = "m38_mask"
+	body_parts_covered = null
+	w_class = ITEM_SIZE_NORMAL
+	filtered_gases = list("phoron", "sleeping_agent", "smoke")
+	visor_color = 0
+	tint = TINT_NONE
+	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
+	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
