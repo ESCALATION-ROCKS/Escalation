@@ -382,13 +382,24 @@
 
 /obj/item/weapon/storage/backpack/gassoviet
 	name = "gas mask satchel"
-	desc = "That's a generic gas mask bag commonly used by Warsaw Pact."
+	desc = "That's a canvas gas mask satchel used by the Soviet Army."
 	icon_state = "sovietgaspouch"
 	item_state = "sovietgaspouch"
 	reachable = 1
 	max_storage_space = 6
 	open_delay = 10
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+
+/obj/item/weapon/storage/backpack/gassoviet/csla
+	desc = "That's a canvas gas mask satchel used by the CSLA."
+	icon_state = "cslagaspouch"
+
+/obj/item/weapon/storage/backpack/gassoviet/nva
+	desc = "That's a canvas gas mask satchel used by the CSLA."
+	icon_state = "nvagaspouch"
+	item_state = "nvagaspouch"
+
+
 
 /obj/item/weapon/storage/backpack/alice/medium
 	name = "ALICE medium pack"

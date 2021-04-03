@@ -64,7 +64,7 @@ var/list/outfits_decls_by_type_
 	var/sasatchel  = /obj/item/weapon/storage/backpack/gassoviet
 
 	var/cslabackpack = /obj/item/weapon/storage/backpack/sakitbag/csla
-	var/cslasatchel  = /obj/item/weapon/storage/backpack/gassoviet
+	var/cslasatchel  = /obj/item/weapon/storage/backpack/gassoviet/csla
 
 	var/usabackpack = /obj/item/weapon/storage/backpack/alice/medium
 	var/usasatchel  = /obj/item/weapon/storage/backpack/usmc_buttpack
@@ -79,7 +79,7 @@ var/list/outfits_decls_by_type_
 	var/bdwsatchel  = /obj/item/weapon/storage/backpack/bundes_buttpack
 
 	var/nvabackpack = /obj/item/weapon/storage/backpack/sakitbag/nvaddr
-	var/nvasatchel  = /obj/item/weapon/storage/backpack/gassoviet
+	var/nvasatchel  = /obj/item/weapon/storage/backpack/gassoviet/nva
 
 	var/bafbackpack = /obj/item/weapon/storage/backpack/baf/medium
 	var/bafsatchel  = /obj/item/weapon/storage/backpack/baf_buttpack

@@ -371,7 +371,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
 	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/foliage
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/nva
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
@@ -400,7 +400,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/rpk
 	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/netting
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/nva
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
@@ -475,7 +475,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	r_pocket = null
 	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/netting
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/nva
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
@@ -583,7 +583,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/pkm
 	r_pocket = null
 	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/netting
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/nva
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
@@ -628,7 +628,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	r_pocket = null
 	r_hand = /obj/item/clothing/head/helmet/coldwar/nvaddr/m56/netting
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/nva
 	head = /obj/item/clothing/head/garcap/nvaddr
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
@@ -683,7 +683,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/svd
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/csla
 	head = /obj/item/clothing/head/garcap/csla
 	belt = /obj/item/weapon/storage/belt/harness/csla
 
@@ -709,7 +709,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/rpk
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/rpk
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/csla
 	head = /obj/item/clothing/head/garcap/csla
 	belt = /obj/item/weapon/storage/belt/harness/csla
 
@@ -765,7 +765,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/ugrenades
 	r_pocket = null
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/csla
 	head = /obj/item/clothing/head/garcap/csla
 	belt = /obj/item/weapon/storage/belt/harness/csla
 
@@ -862,7 +862,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/vz59
 	r_pocket = null
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/csla
 	head = /obj/item/clothing/head/garcap/csla
 	belt = /obj/item/weapon/storage/belt/harness/csla
 
@@ -907,7 +907,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/grenades
 	r_pocket = null
 	r_hand = /obj/item/clothing/head/helmet/coldwar/csla/vz53/netting
-	back = /obj/item/weapon/storage/backpack/gassoviet
+	back = /obj/item/weapon/storage/backpack/gassoviet/csla
 	head = /obj/item/clothing/head/garcap/csla
 	belt = /obj/item/weapon/storage/belt/harness/csla
 
