@@ -144,7 +144,9 @@
 	icon_state = "gp5_mask"
 	item_state = "gp5_mask"
 	w_class = ITEM_SIZE_NORMAL
-	body_parts_covered = null
+	flags_inv = BLOCKHAIR
+	body_parts_covered = FACE|HEAD
+	down_body_parts_covered = HEAD
 	filtered_gases = list("phoron", "sleeping_agent", "smoke")
 	visor_color = 0
 	tint = TINT_NONE
@@ -157,7 +159,9 @@
 	icon_state = "gp7_mask"
 	item_state = "gp7_mask"
 	w_class = ITEM_SIZE_NORMAL
-	body_parts_covered = null
+	flags_inv = BLOCKHAIR
+	body_parts_covered = FACE|HEAD
+	down_body_parts_covered = HEAD
 	filtered_gases = list("phoron", "sleeping_agent", "smoke")
 	visor_color = 0
 	tint = TINT_NONE
@@ -169,8 +173,10 @@
 	desc = "A gas mask used by the Bundeswehr and other NATO counties."
 	icon_state = "m38_mask"
 	item_state = "m38_mask"
-	body_parts_covered = null
 	w_class = ITEM_SIZE_NORMAL
+	flags_inv = BLOCKHAIR
+	body_parts_covered = FACE|HEAD
+	down_body_parts_covered = HEAD
 	filtered_gases = list("phoron", "sleeping_agent", "smoke")
 	visor_color = 0
 	tint = TINT_NONE
@@ -182,8 +188,10 @@
 	desc = "A gas mask used by the USA and other NATO counties."
 	icon_state = "m17_mask"
 	item_state = "m17_mask"
-	body_parts_covered = null
 	w_class = ITEM_SIZE_NORMAL
+	flags_inv = BLOCKHAIR
+	body_parts_covered = FACE|HEAD
+	down_body_parts_covered = HEAD
 	filtered_gases = list("phoron", "sleeping_agent", "smoke")
 	visor_color = 0
 	tint = TINT_NONE

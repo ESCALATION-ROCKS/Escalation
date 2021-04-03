@@ -453,10 +453,10 @@
 /obj/item/clothing/head/helmet/coldwar/heer/pasgt
 	name = "PASGT M81 helmet"
 	desc = "An experimental tactical kevlar helmet used by the Bundesheer."
-	icon_state = "pasgt-heer"
+	icon_state = "pasgtheer"
 	armor = list(melee = 48, bullet = 34, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
-	icon_state_unzipped = "pasgt-heer-unzipped"
+	icon_state_unzipped = "pasgtheer-unzipped"
 
 
 //UK Hats

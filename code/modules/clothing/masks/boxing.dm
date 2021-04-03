@@ -8,6 +8,7 @@
 	down_body_parts_covered = HEAD
 	down_flags_inv = BLOCKHEADHAIR
 	down_icon_state = "balaclava_r"
+	item_flags = FLEXIBLEMATERIAL
 	pull_mask = 1
 	w_class = ITEM_SIZE_SMALL
 	sprite_sheets = list(
@@ -26,6 +27,7 @@
 	desc = "A wool coif to keep your face warm."
 	icon_state = "coif"
 	item_state = "coif"
+	item_flags = FLEXIBLEMATERIAL
 	down_icon_state = "coif_r"
 
 /obj/item/clothing/mask/tacticalmask

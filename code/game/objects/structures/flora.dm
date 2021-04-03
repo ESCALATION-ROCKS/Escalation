@@ -15,7 +15,7 @@
 
 /obj/structure/flora/tree/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/weapon/carpentry/axe))
-		user.visible_message("<span class='notice'>You chop [src] with [I].</span>")
+		to_chat(user, "<span class='notice'>You chop [src] with [I].")
 		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
 		playsound(src.loc, 'sound/effects/chopchop.ogg', 100, 1)
 
@@ -53,7 +53,7 @@
 
 /obj/structure/log/attackby(var/obj/item/I, mob/user as mob)
 	if(istype(I, /obj/item/weapon/carpentry/saw))
-		user.visible_message("<span class='notice'>You saw the [src] with [I].</span>")
+		to_chat(user, "<span class='notice'>You saw the [src] with [I].</span>")
 
 		if(do_after(user, 80))
 
