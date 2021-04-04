@@ -157,8 +157,8 @@
 
 
 /obj/item/weapon/gun/projectile/glock17
-	name = "Glock 17"
-	desc = "A state-of-the-art Glock 17 pistol. Chambers 9x19mm cartridges."
+	name = "P80"
+	desc = "A state-of-the-art Glock 17 pistol, designated as P80 by the Bundesheer. Chambers 9x19mm cartridges."
 	icon_state = "glock" //fix
 	item_state = "glock"
 	w_class = ITEM_SIZE_NORMAL

@@ -202,14 +202,14 @@
 		)
 
 /obj/item/weapon/storage/belt/holster/heer
-	name = "Glock 17 holster"
+	name = "P80 holster"
 	storage_slots = 3
 	icon_state = "glock_holster"
 	icon_closed = "glock_holster_empty"
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
 	unholster_sound = 'sound/effects/holster/holsterout.ogg'
 	special_item = /obj/item/weapon/gun/projectile/glock17
-	desc = "This holster can hold a Glock 17 and one magazine."
+	desc = "This holster can hold a P80 and one magazine."
 	startswith = list(
 		/obj/item/weapon/gun/projectile/glock17,
 		/obj/item/ammo_magazine/a9x19g

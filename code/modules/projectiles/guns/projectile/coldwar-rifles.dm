@@ -833,7 +833,7 @@
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1
-	name = "AUG A1"
+	name = "StG 77"
 	desc = "A standard-issue BDH assault rifle. Chambers 5.56x45 rounds."
 	icon_state = "auga1"
 	item_state = "aug"
@@ -876,7 +876,7 @@
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1gl
-	name = "AUG A1 w/ M203"
+	name = "StG 77 w/ M203"
 	desc = "A standard-issue BDH assault rifle with a M203 launcher attached. Chambers 5.56x45 rounds."
 	icon_state = "auggl"
 	item_state = "auggl"
