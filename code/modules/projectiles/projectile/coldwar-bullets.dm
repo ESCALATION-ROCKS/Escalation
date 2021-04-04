@@ -317,13 +317,13 @@
 			M1.activate()
 
 /obj/item/projectile/bullet/rgprocket/on_impact(var/atom/target, var/blocked = 0)
-	explosion(target, 2, 3, 3, 2)
+	explosion(target, 1, 2, 3, 3)
 
 /obj/item/projectile/bullet/rgprocket/he
 	penetrating = 0
 
 /obj/item/projectile/bullet/rgprocket/he/on_impact(var/atom/target, var/blocked = 0)
-	explosion(target, 1, 3, 5, 4)
+	explosion(target, 1, 3, 5, 6)
 
 /obj/item/projectile/bullet/rgprocket/gustaf
 	icon_state = "gustaf"

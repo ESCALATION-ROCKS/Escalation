@@ -202,7 +202,7 @@
 /obj/item/clothing/head/helmet/coldwar/csla/vz53/foliage
 	icon_state = "vz53foliage"
 	desc = "A cheap steel helmet used by the CSLA. This one is covered in foliage."
-	icon_state_unzipped = "vz53foliage_unzipped"
+	icon_state_unzipped = "vz53foliage-unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/csla/vz53/medic
 	icon_state = "vz53medic"

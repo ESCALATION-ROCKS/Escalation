@@ -205,6 +205,7 @@
 		/obj/item/clothing/head/usmc/boonie,
 		/obj/item/clothing/head/ushanka,
 		/obj/item/clothing/head/beret,
+		/obj/item/clothing/head/usmc/cap,
 		/obj/item/weapon/deck/cards,
 		/obj/item/weapon/haircomb,
 		/obj/item/weapon/storage/pill_bottle/dice,

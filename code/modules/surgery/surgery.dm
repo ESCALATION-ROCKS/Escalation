@@ -92,11 +92,11 @@
 		if(locate(/obj/machinery/optable, T))
 			. -= 0
 		else if(locate(/obj/structure/bed/roller, T))
-			. -= 90
+			. -= 50
 		else if(locate(/obj/structure/bed, T))
-			. -= 80
+			. -= 40
 		else if(locate(/obj/structure/table, T))
-			. -= 95
+			. -= 60
 		else if(locate(/obj/effect/rune/, T)) ///if you manage to find a rune you deserve it
 			. -= 0
 	. = max(., 0)
