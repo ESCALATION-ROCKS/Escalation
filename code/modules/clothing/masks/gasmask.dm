@@ -168,6 +168,22 @@
 	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
 	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
 
+
+/obj/item/clothing/mask/gas/pmg ///////SA
+	name = "PMG gas mask"
+	desc = "A gas mask uncommonly used by the Soviet Army. This one is labeled 'J-12', you don't know what that means."
+	icon_state = "pmg_mask"
+	item_state = "pmg_mask"
+	w_class = ITEM_SIZE_NORMAL
+	flags_inv = BLOCKHAIR
+	body_parts_covered = FACE|HEAD
+	down_body_parts_covered = HEAD
+	filtered_gases = list("phoron", "sleeping_agent", "smoke")
+	visor_color = 0
+	tint = TINT_NONE
+	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
+	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
+
 /obj/item/clothing/mask/gas/m38 ///////BDW - BDH
 	name = "M38 gas mask"
 	desc = "A gas mask used by the Bundeswehr and other NATO counties."
