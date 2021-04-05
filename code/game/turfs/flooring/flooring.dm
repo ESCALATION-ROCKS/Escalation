@@ -137,8 +137,8 @@ var/list/flooring_types
 /decl/flooring/fancytiles
 	name = "tiles"
 	desc = "Fancy ornamented tiles arranged in beautiful shapes."
-	icon = 'icons/turf/flooring/greylam.dmi'
-	icon_base = "greylam"
+	icon = 'icons/turf/flooring/whitelam.dmi'
+	icon_base = "whitelam"
 	can_paint = 1
 	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/floor_white
