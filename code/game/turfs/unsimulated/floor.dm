@@ -41,5 +41,46 @@
 
 /turf/unsimulated/floor/fakestairs
 	name = "stairs"
-	icon = 'icons/turf/floors.dmi'
-	icon_state = "fakestairs"
+	icon = 'icons/turf/stairs.dmi'
+	icon_state = "stairs"
+
+/turf/unsimulated/floor/fakestairs/north
+	dir = NORTH
+
+/turf/unsimulated/floor/fakestairs/south
+	dir = SOUTH
+
+/turf/unsimulated/floor/fakestairs/east
+	dir = EAST
+
+/turf/unsimulated/floor/fakestairs/west
+	dir = WEST
+
+/turf/unsimulated/floor/fakestairslarge
+	name = "stairs"
+	icon = 'icons/turf/stairslarge.dmi'
+	icon_state = "above"
+
+/turf/unsimulated/floor/fakestairslarge/north
+	dir = NORTH
+	bound_height = 64
+	bound_y = -32
+	pixel_y = -32
+
+/turf/unsimulated/floor/fakestairslarge/south
+	dir = SOUTH
+	bound_height = 64
+	bound_y = -32
+	pixel_y = -32
+
+/turf/unsimulated/floor/fakestairslarge/east
+	dir = EAST
+	bound_width = 64
+	bound_x = -32
+	pixel_x = -32
+
+/turf/unsimulated/floor/fakestairslarge/west
+	dir = WEST
+	bound_width = 64
+	bound_x = -32
+	pixel_x = -32
