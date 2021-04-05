@@ -2280,6 +2280,7 @@
 #include "code\modules\reagents\reagent_containers\food\lunch.dm"
 #include "code\modules\reagents\reagent_containers\food\mre.dm"
 #include "code\modules\reagents\reagent_containers\food\mre_usmc.dm"
+#include "code\modules\reagents\reagent_containers\food\rawfood.dm"
 #include "code\modules\reagents\reagent_containers\food\redlinefoods.dm"
 #include "code\modules\reagents\reagent_containers\food\sandwich.dm"
 #include "code\modules\reagents\reagent_containers\food\snacks.dm"

@@ -1332,7 +1332,7 @@ obj/random/hostilenew/spawn_choices()
 	icon = 'icons/mob/screen1.dmi'
 	icon_state = "swamp"
 	spawn_nothing_percentage = 5
-/obj/random/grasslow/spawn_choices()
+/obj/random/grassswampy/spawn_choices()
 		return list(/obj/structure/flora/ausbushes/fullgrass = 2,
 					/obj/structure/flora/ausbushes/sparsegrass = 2,
 					/obj/structure/flora/ausbushes/pointybush = 2,
