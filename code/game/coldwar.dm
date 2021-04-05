@@ -70,9 +70,7 @@ var/wlg_selected_cuttree = 0
 									/obj/structure/flora/ausbushes,
 									/obj/structure/flora/ausbushes/leafybush,
 									/obj/structure/flora/ausbushes/stalkybush,
-									/obj/structure/flora/ausbushes/genericbush,
-									/obj/structure/flora/ausbushes/sunnybush,
-									/obj/structure/flora/ausbushes/ywflowers)
+									/obj/structure/flora/ausbushes/genericbush)
 					new grass(T)
 				if(88 to 91)
 					wlg_selected_rock++
