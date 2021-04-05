@@ -219,3 +219,11 @@
 /obj/machinery/computer/pod/old/swf
 	name = "Magix System IV"
 	desc = "An arcane artifact that holds much magic. Running E-Knock 2.2: Sorceror's Edition."
+
+
+/obj/machinery/computer/pod/old/c64
+	name = "Commodore 64"
+	desc = "A reputable computing machine with a robust operating system."
+
+/obj/machinery/computer/pod/old/c64/attack_hand(var/mob/user as mob)
+	return
