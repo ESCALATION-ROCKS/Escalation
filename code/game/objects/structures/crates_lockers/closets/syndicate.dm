@@ -11,7 +11,17 @@
 
 /obj/structure/closet/syndicate/personal/New()
 	..()
-	null
+	new /obj/item/weapon/tank/jetpack/oxygen(src)
+	new /obj/item/clothing/mask/gas/syndicate(src)
+	new /obj/item/clothing/under/syndicate(src)
+	new /obj/item/clothing/head/helmet/space/void/merc(src)
+	new /obj/item/clothing/suit/space/void/merc(src)
+	new /obj/item/weapon/crowbar/red(src)
+	new /obj/item/weapon/cell/high(src)
+	new /obj/item/weapon/card/id/syndicate(src)
+	new /obj/item/device/multitool(src)
+	new /obj/item/weapon/shield/energy(src)
+	new /obj/item/clothing/shoes/magboots(src)
 
 
 /obj/structure/closet/syndicate/suit
@@ -19,7 +29,11 @@
 
 /obj/structure/closet/syndicate/suit/New()
 	..()
-	null
+	new /obj/item/weapon/tank/jetpack/oxygen(src)
+	new /obj/item/clothing/shoes/magboots(src)
+	new /obj/item/clothing/suit/space/void/merc(src)
+	new /obj/item/clothing/mask/gas/syndicate(src)
+	new /obj/item/clothing/head/helmet/space/void/merc(src)
 
 
 /obj/structure/closet/syndicate/nuclear
@@ -27,7 +41,28 @@
 
 /obj/structure/closet/syndicate/nuclear/New()
 	..()
-	null
+
+	new /obj/item/ammo_magazine/a10mm(src)
+	new /obj/item/ammo_magazine/a10mm(src)
+	new /obj/item/ammo_magazine/a10mm(src)
+	new /obj/item/ammo_magazine/a10mm(src)
+	new /obj/item/ammo_magazine/a10mm(src)
+	new /obj/item/weapon/storage/box/handcuffs(src)
+	new /obj/item/weapon/storage/box/flashbangs(src)
+	new /obj/item/weapon/gun/energy/gun(src)
+	new /obj/item/weapon/gun/energy/gun(src)
+	new /obj/item/weapon/gun/energy/gun(src)
+	new /obj/item/weapon/gun/energy/gun(src)
+	new /obj/item/weapon/gun/energy/gun(src)
+	new /obj/item/weapon/pinpointer/nukeop(src)
+	new /obj/item/weapon/pinpointer/nukeop(src)
+	new /obj/item/weapon/pinpointer/nukeop(src)
+	new /obj/item/weapon/pinpointer/nukeop(src)
+	new /obj/item/weapon/pinpointer/nukeop(src)
+	new /obj/item/device/pda/syndicate(src)
+	var/obj/item/device/radio/uplink/U = new(src)
+	U.hidden_uplink.uses = 40
+	return
 
 /obj/structure/closet/syndicate/resources/
 	desc = "An old, dusty locker."
