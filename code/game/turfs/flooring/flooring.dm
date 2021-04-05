@@ -137,11 +137,12 @@ var/list/flooring_types
 /decl/flooring/fancytiles
 	name = "tiles"
 	desc = "Fancy ornamented tiles arranged in beautiful shapes."
-	icon = 'icons/turf/flooring/fancytile.dmi'
+	icon = 'icons/turf/flooring/greylam.dmi'
 	icon_base = "greylam"
 	can_paint = 1
 	movement_delay = 0.4
-	build_type = /obj/item/stack/tile/linoleum
+	build_type = /obj/item/stack/tile/floor_white
+	flags = TURF_REMOVE_SCREWDRIVER
 
 
 /decl/flooring/tiling/white
