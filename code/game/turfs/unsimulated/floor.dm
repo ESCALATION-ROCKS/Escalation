@@ -2,6 +2,10 @@
 	name = "floor"
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "Floor3"
+	var/bound_height
+	var/bound_width
+	var/bound_y
+	var/bound_x
 
 /turf/unsimulated/floor/bluespace //non-doomsday version of bluespace for transit and wizden
 	name = "\improper bluespace"
@@ -60,6 +64,9 @@
 	name = "stairs"
 	icon = 'icons/turf/stairslarge.dmi'
 	icon_state = "above"
+	bound_height = 64
+	bound_y = -32
+	pixel_y = -32
 
 /turf/unsimulated/floor/fakestairslarge/north
 	dir = NORTH
