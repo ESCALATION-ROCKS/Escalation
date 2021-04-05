@@ -54,19 +54,25 @@ var/wlg_selected_cuttree = 0
 					continue
 				if(50 to 87)
 					wlg_selected_grass++
-					/*var/grass = pick(/obj/structure/flora/snowbushes/snowgrassa,
+					/*var/grass = pick(/obj/structure/flora/snowbushes/snowgrassa, ///winter, deliberately tiny list
 									/obj/structure/flora/snowbushes/snowgrassb,
 									/obj/structure/flora/snowbushes/snowgrassc,
 									/obj/structure/flora/snowbushes/snowbush,
 									/obj/structure/flora/snowbushes/snowbushstump)
 					new grass(T)*/
-					var/grass = pick(/obj/structure/flora/ausbushes/fullgrass,
+					var/grass = pick(/obj/structure/flora/ausbushes/fullgrass,       //summer
 									/obj/structure/flora/ausbushes/sparsegrass,
 									/obj/structure/flora/ausbushes/pointybush,
 									/obj/structure/flora/bush1,
-									/obj/structure/flora/bush2,     //summer
+									/obj/structure/flora/bush2,
 									/obj/structure/flora/bush3,
-									/obj/structure/flora/bush4)
+									/obj/structure/flora/bush4,
+									/obj/structure/flora/ausbushes,
+									/obj/structure/flora/ausbushes/leafybush,
+									/obj/structure/flora/ausbushes/stalkybush,
+									/obj/structure/flora/ausbushes/genericbush,
+									/obj/structure/flora/ausbushes/sunnybush,
+									/obj/structure/flora/ausbushes/ywflowers)
 					new grass(T)
 				if(88 to 91)
 					wlg_selected_rock++

@@ -866,6 +866,18 @@
 	density = 0
 	anchored = 1
 
+/obj/structure/flora/summer/bigbush1
+	icon = 'icons/obj/flora/miscflora48.dmi'
+	icon_state = "bigbush"
+	density = 0
+	anchored = 1
+
+/obj/structure/flora/summer/bigbush2
+	icon = 'icons/obj/flora/miscflora48.dmi'
+	icon_state = "bigbush2"
+	density = 0
+	anchored = 1
+
 /obj/structure/flora/tree/summer/dead1
 	name = "dead tree"
 	icon_state = "vhdtree152"

@@ -1214,7 +1214,9 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/tree/summer/dead2,
 					/obj/structure/flora/summer/log1 = 2,
 					/obj/structure/flora/summer/log2 = 2,
-					/obj/structure/flora/ausbushes = 3
+					/obj/structure/flora/ausbushes = 3,
+					/obj/structure/flora/summer/bigbush1,
+					/obj/structure/flora/summer/bigbush2
 					)
 
 /obj/random/treelowchance
@@ -1222,12 +1224,13 @@ obj/random/hostilenew/spawn_choices()
 	desc = "This is a random tree"
 	icon = 'icons/mob/screen1.dmi'
 	icon_state = "tree2"
-	spawn_nothing_percentage = 50
+	spawn_nothing_percentage = 40
 
 /obj/random/treelowchance/spawn_choices()
 		return list(/obj/structure/flora/tree/winter/deadbig1,
 					/obj/structure/flora/tree/winter/deadbig2,
 					/*/obj/structure/flora/tree/winter/alt1, too thick*/
+					/obj/structure/flora/tree/pine,
 					/obj/structure/flora/tree/winter/alt2,
 					/obj/structure/flora/tree/winter/alt3,
 					/obj/structure/flora/snowbushes/snowgrassa = 2,
@@ -1301,6 +1304,12 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/bush2,
 					/obj/structure/flora/bush3,
 					/obj/structure/flora/bush4,
+					/obj/structure/flora/ausbushes,
+					/obj/structure/flora/ausbushes/leafybush,
+					/obj/structure/flora/ausbushes/stalkybush,
+					/obj/structure/flora/ausbushes/genericbush,
+					/obj/structure/flora/ausbushes/sunnybush,
+					/obj/structure/flora/ausbushes/pointybush,
 					/obj/structure/flora/smallrock)
 
 /obj/random/grasslow
@@ -1317,6 +1326,21 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/snowbushes/snowbushstump = 2,
 					/obj/structure/flora/smallrock)
 
+/obj/random/grassswampy
+	name = "swamp bush"
+	desc = "This is a random tree"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "swamp"
+	spawn_nothing_percentage = 5
+/obj/random/grasslow/spawn_choices()
+		return list(/obj/structure/flora/ausbushes/fullgrass,
+					/obj/structure/flora/ausbushes/sparsegrass,
+					/obj/structure/flora/ausbushes/pointybush,
+					/obj/structure/flora/ausbushes/reedbush,
+					/obj/structure/flora/ausbushes/fernybush,
+					/obj/structure/flora/ausbushes/grassybush,
+					/obj/structure/flora/smallrock)
+
 /obj/random/flower
 	name = "flowers"
 	desc = "This is a random flower"
@@ -1325,7 +1349,9 @@ obj/random/hostilenew/spawn_choices()
 	spawn_nothing_percentage = 10
 /obj/random/flower/spawn_choices()
 		return list(/obj/structure/flora/ausbushes/ppflowers,
-					/obj/structure/flora/ausbushes/brflowers
+					/obj/structure/flora/ausbushes/brflowers,
+					/obj/structure/flora/ausbushes/ywflowers,
+					/obj/structure/flora/ausbushes/lavendergrass
 					)
 
 
