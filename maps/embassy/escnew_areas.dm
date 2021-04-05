@@ -1,7 +1,7 @@
 
 var/list/interior_areas = list(/area/coldwar/sewer,
 							/area/coldwar/underground,
-							/area/coldwar/bunker,
+							/area/coldwar/underground/bunker,
 							/area/coldwar/verylargeenclosed,
 							/area/coldwar/largeenclosed,
 							/area/coldwar/mediumenclosed,
@@ -63,34 +63,33 @@ var/list/interior_areas = list(/area/coldwar/sewer,
 	name = "sewer"
 	icon_state = "sewer"
 	sound_env = SEWER_PIPE
-	base_turf = /turf/unsimulated/ground/stone
+	base_turf = /turf/unsimulated/stone
 	ambience = list (
-	'sound/ambiencenew/Sewer_FX.ogg',
-	'sound/ambiencenew/Sewer_FX2.ogg',
-	'sound/ambiencenew/Sewer_FX3.ogg',
-	'sound/ambiencenew/Sewer_FX4.ogg',
-	'sound/ambiencenew/Sewer_FX5.ogg',
-	'sound/ambiencenew/Sewer_FX6.ogg',
-	'sound/ambiencenew/Sewer_FX7.ogg',
-	'sound/ambiencenew/Sewer_FX8.ogg',
-	'sound/ambiencenew/Sewer_FX9.ogg',
-	'sound/ambiencenew/Sewer_FX10.ogg'
+	'sound/ambience/coldwar/0Sewer1.ogg',
+	'sound/ambience/coldwar/0Sewer2.ogg',
+	'sound/ambience/coldwar/0Sewer3.ogg',
+	'sound/ambience/coldwar/0Sewer4.ogg',
+	'sound/ambience/coldwar/0Sewer5.ogg',
+	'sound/ambience/coldwar/0Sewer6.ogg',
+	'sound/ambience/coldwar/0Sewer7.ogg',
+	'sound/ambience/coldwar/0Sewer8.ogg',
+	'sound/ambience/coldwar/0Sewer9.ogg',
+	'sound/ambience/coldwar/0Sewer0.ogg'
 	)
 
 /area/coldwar/underground
 	name = "underground"
 	icon_state = "underground"
 	sound_env = TUNNEL_ENCLOSED
-	base_turf = /turf/unsimulated/ground/stone
+	base_turf = /turf/unsimulated/stone
 	ambience = list (
-	'sound/ambiencenew/ugrnd_ambient_1.ogg',
-	'sound/ambiencenew/ugrnd_ambient_2.ogg',
-	'sound/ambiencenew/ugrnd_ambient_3.ogg',
-	'sound/ambiencenew/ugrnd_ambient_4.ogg',
-	'sound/ambiencenew/ugrnd_ambient_5.ogg',
-	'sound/ambiencenew/ugrnd_ambient_6.ogg',
-	'sound/ambiencenew/eerie_amb_1.ogg',
-	'sound/ambiencenew/ventsound.ogg'
+	'sound/ambience/coldwar/0Ugrnd1.ogg',
+	'sound/ambience/coldwar/0Ugrnd2.ogg',
+	'sound/ambience/coldwar/0Ugrnd3.ogg',
+	'sound/ambience/coldwar/0Ugrnd4.ogg',
+	'sound/ambience/coldwar/0Ugrnd5.ogg',
+	'sound/ambience/coldwar/0Ugrnd6.ogg',
+	'sound/ambiencenew/eerie_amb_1.ogg'
 	)
 
 /area/coldwar/underground/bunker
