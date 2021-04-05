@@ -1317,6 +1317,16 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/snowbushes/snowbushstump = 2,
 					/obj/structure/flora/smallrock)
 
+/obj/random/flower
+	name = "flowers"
+	desc = "This is a random flower"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "flower"
+	spawn_nothing_percentage = 10
+/obj/random/flower/spawn_choices()
+		return list(/obj/structure/flora/ausbushes/ppflowers,
+					/obj/structure/flora/ausbushes/brflowers
+					)
 
 
 /*
