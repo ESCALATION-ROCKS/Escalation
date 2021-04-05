@@ -134,6 +134,16 @@ var/list/flooring_types
 	build_type = /obj/item/stack/tile/linoleum
 	flags = TURF_REMOVE_SCREWDRIVER
 
+/decl/flooring/fancytiles
+	name = "tiles"
+	desc = "Fancy ornamented tiles arranged in beautiful shapes."
+	icon = 'icons/turf/flooring/fancytile.dmi'
+	icon_base = "greylam"
+	can_paint = 1
+	movement_delay = 0.4
+	build_type = /obj/item/stack/tile/linoleum
+
+
 /decl/flooring/tiling/white
 	desc = "How sterile."
 	icon_base = "white"

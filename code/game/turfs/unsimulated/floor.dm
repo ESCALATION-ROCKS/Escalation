@@ -38,3 +38,8 @@
 		'sound/effects/footsteps/concrete6.wav',
 		'sound/effects/footsteps/concrete7.wav',
 		'sound/effects/footsteps/concrete8.wav'))
+
+/turf/unsimulated/floor/fakestairs
+	name = "stairs"
+	icon = 'icons/turf/floors.dmi'
+	icon_state = "fakestairs"

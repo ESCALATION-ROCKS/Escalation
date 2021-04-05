@@ -237,6 +237,13 @@
 	icon_state = "lino"
 	initial_flooring = /decl/flooring/linoleum
 
+/turf/simulated/floor/fancytiles
+	name = "tiles"
+	icon = 'icons/turf/flooring/fancytile.dmi'
+	icon_state = "greylam"
+	movement_delay = 0.4
+	initial_flooring = /decl/flooring/fancytiles
+
 //ATMOS PREMADES
 /turf/simulated/floor/reinforced/airless
 	name = "vacuum floor"
