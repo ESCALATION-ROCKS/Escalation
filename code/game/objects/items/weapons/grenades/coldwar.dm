@@ -256,6 +256,7 @@
 /obj/item/weapon/grenade/frag/ugl/vog25/attack_self(mob/user)
 	return
 
+////////Note to future person - don't rebalance grenades around "bullet" armor value as the vest would then make them immune to shrapnel.
 
 /obj/item/projectile/bullet/pellet/fragment/defensive
 	agony = 12

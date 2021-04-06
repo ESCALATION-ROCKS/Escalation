@@ -1,4 +1,5 @@
 //Soviet armor
+/////COLDWAR VEST BULLET DEFINES ONLY APPLY TO PISTOL ROUNDS. SUPERSONIC ROUNDS HAVE %100 PENETRATION ALWAYS
 
 /obj/item/clothing/suit/storage/vest/soviet/
 	w_class = ITEM_SIZE_LARGE
@@ -12,11 +13,11 @@
 	siemens_coefficient = 0.6
 
 /obj/item/clothing/suit/storage/vest/soviet/a6b3
-	name = "6B3 armor vest"
+	name = "6B3 armor vest" //bullet was 32
 	desc = "An uncommon armor vest with some pouches and titanium plates used by Soviet army."
 	icon_state = "6b3"
 	item_state = "armor"
-	armor = list(melee = 30, bullet = 32, laser = 0, energy = 25, bomb = 26, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 90, laser = 0, energy = 25, bomb = 40, bio = 0, rad = 0) ///very effective
 	slowdown_general = 0.22
 
 /obj/item/clothing/suit/storage/vest/soviet/a6b3/New()
@@ -39,11 +40,11 @@
 	siemens_coefficient = 0.6
 
 /obj/item/clothing/suit/armor/vest/soviet/a6b2
-	name = "6B2 armored vest"
+	name = "6B2 armored vest" //bullet was 28
 	desc = "A medium armor vest used by Soviet army."
 	icon_state = "6b2"
 	item_state = "6b2"
-	armor = list(melee = 30, bullet = 28, laser = 40, energy = 10, bomb = 20, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 80, laser = 40, energy = 10, bomb = 35, bio = 0, rad = 0)
 	slowdown_general = 0.20
 
 /obj/item/clothing/suit/armor/vest/soviet/a6b2/green
@@ -54,14 +55,14 @@
 //USMC
 
 /obj/item/clothing/suit/armor/vest/pasgt
-	name = "PASGT M81 vest"
+	name = "PASGT M81 vest" //bullet was 30
 	desc = "A common kevlar vest used by U.S. army."
 	icon_state = "pasgt_vest"
 	item_state = "armor"
 	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
-	armor = list(melee = 30, bullet = 30, laser = 0, energy = 25, bomb = 22, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
 	slowdown_general = 0.18
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
@@ -70,26 +71,26 @@
 
 
 /obj/item/clothing/suit/armor/vest/flakvest
-	name = "M69 flak vest"
+	name = "M69 flak vest" //bullet was 28
 	desc = "An outdated flak vest used by NATO personnel."
 	icon_state = "flakvest_nato"
 	item_state = "armor"
 	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
-	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 25, bio = 0, rad = 0)
+	armor = list(melee = 24, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 /obj/item/clothing/suit/armor/vest/heervest
-	name = "KAZ03 flak vest"
+	name = "KAZ03 flak vest" //bullet was 28
 	desc = "A flak vest used by Bundesheer personnel."
 	icon_state = "flakvest_heer"
 	item_state = "armor"
 	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
-	armor = list(melee = 24, bullet = 28, laser = 0, energy = 25, bomb = 25, bio = 0, rad = 0)
+	armor = list(melee = 24, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 

@@ -3,9 +3,8 @@
 //Rifle caliber
 
 /obj/item/projectile/bullet/rifle/a762x39
-//jokera
 	penetrating = 1
-	armor_penetration = 23
+	armor_penetration = 98 //was 23
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
@@ -21,14 +20,14 @@
 	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a762x39/ap
-	armor_penetration = 35
+	armor_penetration = 98 //was 35
 	penetration_modifier = 0.3
 
 
 /obj/item/projectile/bullet/rifle/a762x51
 	penetrating = 1
-	armor_penetration = 34
-	penetration_modifier = 0.3
+	armor_penetration = 98 //was 34
+	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
 	agony = 20
@@ -40,8 +39,8 @@
 /obj/item/projectile/bullet/rifle/a762x51/tr
 	icon_state = "bullet_tracer"
 	penetrating = 1
-	armor_penetration = 34
-	penetration_modifier = 0.3
+	armor_penetration = 98 //was 34
+	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
 	agony = 20
@@ -53,13 +52,13 @@
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x51/ap
-	armor_penetration = 45
+	armor_penetration = 98 //was 45
 	penetration_modifier = 0.4
 
 /obj/item/projectile/bullet/rifle/a762x54
 	penetrating = 1
-	armor_penetration = 31
-	penetration_modifier = 0.3
+	armor_penetration = 98 //was 31
+	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
 	agony = 20
@@ -74,13 +73,13 @@
 	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a762x54/ap
-	armor_penetration = 60
+	armor_penetration = 98 //was 60
 	penetration_modifier = 0.4
 
 /obj/item/projectile/bullet/rifle/a762x53
 	penetrating = 1
-	armor_penetration = 31
-	penetration_modifier = 0.3
+	armor_penetration = 98 //was 31
+	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
 	agony = 20
@@ -95,18 +94,18 @@
 	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a762x53/ap
-	armor_penetration = 60
+	armor_penetration = 98 //was 60
 	penetration_modifier = 0.4
 
 /obj/item/projectile/bullet/rifle/a545x39
-	armor_penetration = 26
+	armor_penetration = 98 //was 26
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
 	agony = 20
 
 	New()
-		damage = rand(31,  38)
+		damage = rand(34,  38)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a545x39/tr
@@ -115,18 +114,18 @@
 	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a545x39/ap
-	armor_penetration = 30
+	armor_penetration = 98 //was 30
 	penetration_modifier = 0.2
 
 /obj/item/projectile/bullet/rifle/a556x45
-	armor_penetration = 29
-	penetration_modifier = 0.3
+	armor_penetration = 98 //was 29
+	penetration_modifier = 0.5 //slightly less energy than 545 but does more internal damage
 	embed = 1
 	kill_count = 120
 	agony = 20
 
 	New()
-		damage = rand(34, 38)
+		damage = rand(30, 35)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a556x45/tr
@@ -135,15 +134,15 @@
 	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a556x45/ap
-	armor_penetration = 35
-	penetration_modifier = 0.2
+	armor_penetration = 98 //was 35
+	penetration_modifier = 0.5
 
 //Pistol caliber
 
 
 /obj/item/projectile/bullet/rifle/a45
-	armor_penetration = 4
-	penetration_modifier = 0.01
+	armor_penetration = -10 //was 4
+	penetration_modifier = 0.7 //does big internal organ damage if it penetrates
 	agony = 25
 
 	New()
@@ -157,8 +156,8 @@
 	penetration_modifier = 0.1
 
 /obj/item/projectile/bullet/rifle/a9x19
-	armor_penetration = 12
-	penetration_modifier = 0.1
+	armor_penetration = 0 //was 12
+	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
 	agony = 23
 
 	New()
@@ -168,12 +167,12 @@
 	icon_state = "bullet_tracer"
 
 /obj/item/projectile/bullet/rifle/a9x19/ap
-	armor_penetration = 20
+	armor_penetration = 98 //was 20
 	penetration_modifier = 0.1
 
 /obj/item/projectile/bullet/rifle/a9x18
-	armor_penetration = 8
-	penetration_modifier = 0.1
+	armor_penetration = -5 //was 8
+	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
 	agony = 21
 
 	New()
@@ -184,7 +183,7 @@
 	icon_state = "bullet_tracer"
 
 /obj/item/projectile/bullet/rifle/a9x18/ap
-	armor_penetration = 13
+	armor_penetration = 98 //was 13
 
 /obj/item/projectile/bullet/rifle/a4mm
 //	fire_sound = 'sound/weapons/minigun_1sec.ogg'
@@ -194,8 +193,8 @@
 
 /obj/item/projectile/bullet/rifle/a127x108mm
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
-	armor_penetration = 54
-	penetration_modifier = 0.7
+	armor_penetration = 98 //was 54
+	penetration_modifier = 0.9 ///12mm shells gotta hurt
 	agony = 46
 	penetrating = 3
 
@@ -208,14 +207,14 @@
 	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a127x108mm/ap
-	armor_penetration = 75
+	armor_penetration = 98 //was 75
 	penetration_modifier = 0.6
 
 
 /obj/item/projectile/bullet/rifle/a50cal
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
-	armor_penetration = 45
-	penetration_modifier = 0.6
+	armor_penetration = 98 //was 45
+	penetration_modifier = 0.9 ///12mm shells gotta hurt
 	agony = 42
 	penetrating = 3
 
@@ -228,7 +227,7 @@
 	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a50cal/ap
-	armor_penetration = 65
+	armor_penetration = 98 //was 65
 	penetration_modifier = 0.4
 
 /obj/item/projectile/bullet/ags30x29mm
@@ -248,7 +247,7 @@
 /obj/item/projectile/bullet/ags30x29mm/pow
 	damage = 110
 	agony = 20
-	armor_penetration = 1
+	armor_penetration = 98 //was 1
 	step_delay = 1.2
 	penetrating = 0
 	kill_count = 70
@@ -271,7 +270,7 @@
 
 /obj/item/projectile/bullet/mk19_40x53mm/pow
 	damage = 120
-	armor_penetration = 1
+	armor_penetration = 98 //was 1
 	step_delay = 1.2
 //	impact_force = 1
 	penetrating = 0

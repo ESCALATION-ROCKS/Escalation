@@ -26,7 +26,7 @@
 
 
 
-
+/////////bullet armor only applies to pistols as rifle rounds have %100 penetration
 //Soviet hats
 
 /obj/item/clothing/head/garcap/soviet
@@ -60,10 +60,10 @@
 //Soviet helmets
 
 /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
-	name = "SSh-68 helmet"
+	name = "SSh-68 helmet" //bullet was 22
 	desc = "A cheap steel helmet used by Soviet Army."
 	icon_state = "ssh68"
-	armor = list(melee = 62, bullet = 22, laser = 10, energy = 10, bomb = 55, bio = 0, rad = 0)
+	armor = list(melee = 62, bullet = 85, laser = 0, energy = 10, bomb = 55, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh68-unzipped"
 
@@ -78,18 +78,18 @@
 	icon_state = "ssh68medic"
 
 /obj/item/clothing/head/helmet/coldwar/soviet/ssh60
-	name = "SSh-60 helmet"
+	name = "SSh-60 helmet" //bullet was 20
 	desc = "A cheap and somewhat outdated steel helmet used by Soviet Army."
 	icon_state = "ssh60"
-	armor = list(melee = 58, bullet = 20, laser = 10, energy = 10, bomb = 50, bio = 0, rad = 0)
+	armor = list(melee = 58, bullet = 80, laser = 0, energy = 10, bomb = 50, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh60-unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/soviet/altyn
-	name = "altyn helmet"
+	name = "altyn helmet" //bullet was 22
 	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units."
 	icon_state = "altyn"
-	armor = list(melee = 62, bullet = 22, laser = 10, energy = 10, bomb = 55, bio = 0, rad = 0)
+	armor = list(melee = 62, bullet = 95, laser = 0, energy = 10, bomb = 55, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "altyn-unzipped"
 
@@ -130,10 +130,10 @@
 //NVADDR helmets
 
 /obj/item/clothing/head/helmet/coldwar/nvaddr/m56
-	name = "M56 stahlhelm"
+	name = "M56 stahlhelm" //bullet was 24
 	desc = "A cheap steel helmet used by NVA DDR."
 	icon_state = "m56"
-	armor = list(melee = 52, bullet = 24, laser = 10, energy = 10, bomb = 60, bio = 0, rad = 0)
+	armor = list(melee = 52, bullet = 90, laser = 0, energy = 10, bomb = 60, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m56-unzipped"
 
@@ -187,10 +187,10 @@
 //NVADDR helmets
 
 /obj/item/clothing/head/helmet/coldwar/csla/vz53
-	name = "vz.53"
+	name = "vz.53" //bullet was 20
 	desc = "A cheap steel helmet used by the CSLA."
 	icon_state = "vz53"
-	armor = list(melee = 58, bullet = 20, laser = 10, energy = 10, bomb = 50, bio = 0, rad = 0)
+	armor = list(melee = 58, bullet = 85, laser = 0, energy = 10, bomb = 50, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "vz53-unzipped"
 
@@ -228,10 +228,10 @@
 //FINN Helmets
 
 /obj/item/clothing/head/helmet/coldwar/finn/m63
-	name = "M63 helmet"
+	name = "M63 helmet" //bullet was 20
 	desc = "A cheap steel helmet used by the Finnish Army."
 	icon_state = "m63helmet"
-	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = list(melee = 68, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m63helmet-unzipped"
 
@@ -314,10 +314,10 @@
 //US helmets
 
 /obj/item/clothing/head/helmet/coldwar/usmc/pasgt
-	name = "PASGT M81 helmet"
+	name = "PASGT M81 helmet" //bullet was 34
 	desc = "An experimental tactical kevlar helmet used by U.S. army."
 	icon_state = "pasgt-green"
-	armor = list(melee = 48, bullet = 34, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = list(melee = 48, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgt-green-unzipped"
 
@@ -345,10 +345,10 @@
 	desc = "A kevlar helmet painted in bright blue, signature to the UN forces."
 
 /obj/item/clothing/head/helmet/coldwar/usmc/m1
-	name = "M1 helmet"
+	name = "M1 helmet" //bullet was 20
 	desc = "A classic helmet used by the U.S. Army."
 	icon_state = "m1helmet"
-	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = list(melee = 68, bullet = 75, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1helmet-unzipped"
 
@@ -383,10 +383,10 @@
 
 //BDW helmets
 /obj/item/clothing/head/helmet/coldwar/bdw/m62
-	name = "M62 helmet"
+	name = "M62 helmet" //bullet was 20
 	desc = "A cheap and somewhat outdated steel helmet used by Bundeswehr."
 	icon_state = "m62helmet"
-	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = list(melee = 68, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m62helmet-unzipped"
 
@@ -433,10 +433,10 @@
 
 //heer helmets
 /obj/item/clothing/head/helmet/coldwar/heer/m1
-	name = "M75 helmet"
+	name = "M75 helmet" //bullet was 20
 	desc = "An outdated steel helmet used by Bundesheer. This one has a cover on it."
 	icon_state = "m1heer"
-	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = list(melee = 68, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1heer-unzipped"
 
@@ -451,10 +451,10 @@
 	icon_state_unzipped = "m1medic-unzipped"
 
 /obj/item/clothing/head/helmet/coldwar/heer/pasgt
-	name = "PASGT M81 helmet"
+	name = "PASGT M81 helmet" //bullet was 34
 	desc = "An experimental tactical kevlar helmet used by the Bundesheer."
 	icon_state = "pasgtheer"
-	armor = list(melee = 48, bullet = 34, laser = 10, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = list(melee = 48, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgtheer-unzipped"
 
@@ -475,10 +475,10 @@
 //UK Helmets
 
 /obj/item/clothing/head/helmet/coldwar/baf/mkv
-	name = "MKV helmet"
+	name = "MKV helmet" //bullet was 20
 	desc = "A helmet used by the United Kingdom."
 	icon_state = "mkv"
-	armor = list(melee = 68, bullet = 20, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = list(melee = 68, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "mkv-unzipped"
 
@@ -509,7 +509,7 @@
 	name = "H.E.V Advanced Helmet"
 	desc = "An experimental protective helmet used in combination with the Black Mesa H.E.V Suit"
 	icon_state = "pasgt-green"
-	armor = list(melee = 99, bullet = 99, laser = 99, energy = 99, bomb = 99, bio = 100, rad = 100)
+	armor = list(melee = 100, bullet = 100, laser = 100, energy = 100, bomb = 100, bio = 100, rad = 100)
 	siemens_coefficient = 0.9
 	icon_state = "hev_helm_s"
 
