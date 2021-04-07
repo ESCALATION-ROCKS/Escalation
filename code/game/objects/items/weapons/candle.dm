@@ -78,4 +78,4 @@
 	item_state = "menorah1"
 	w_class = ITEM_SIZE_HUGE
 	light_color = "#e09d37"
-	var/wax = 5000
+	wax = 5000
