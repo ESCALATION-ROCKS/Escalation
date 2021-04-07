@@ -3,6 +3,7 @@
 	desc = "A black balaclava vowen from wool to keep your face warm."
 	icon_state = "balaclava"
 	item_state = "balaclava"
+	wearable = 1
 	flags_inv = BLOCKHAIR
 	body_parts_covered = FACE|HEAD
 	down_body_parts_covered = HEAD
@@ -21,12 +22,14 @@
 	name = "green balaclava"
 	icon_state = "swatclava"
 	down_icon_state = "swatclava_r"
+	wearable = 1
 
 /obj/item/clothing/mask/balaclava/coif
 	name = "heat-absorbent coif"
 	desc = "A wool coif to keep your face warm."
 	icon_state = "coif"
 	item_state = "coif"
+	wearable = 1
 	item_flags = FLEXIBLEMATERIAL
 	down_icon_state = "coif_r"
 

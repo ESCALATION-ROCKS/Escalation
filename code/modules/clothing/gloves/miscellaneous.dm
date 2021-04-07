@@ -130,6 +130,7 @@
 /obj/item/clothing/gloves/bdw
 	desc = "A pair of generic leather gloves."
 	name = "leather gloves"
+	wearable = 1
 	icon_state = "bdw_gloves"
 	item_state = "bdw_gloves"
 	force = 4
@@ -140,6 +141,7 @@
 /obj/item/clothing/gloves/usmc
 	desc = "A pair of combat gloves issued to the US Armed Forces."
 	name = "military gloves"
+	wearable = 1
 	icon_state = "usmc_gloves"
 	item_state = "usmc_gloves"
 	force = 4
@@ -150,6 +152,7 @@
 /obj/item/clothing/gloves/mittens
 	desc = "A pair of generic gray mittens. Keeps your hands warm."
 	name = "mittens"
+	wearable = 1
 	icon_state = "mittens"
 	item_state = "mittens"
 	force = 3

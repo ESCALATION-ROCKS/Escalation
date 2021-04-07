@@ -328,8 +328,10 @@
 /obj/item/clothing/head/headband
 	name = "green headband"
 	icon_state = "greenheadb"
+	wearable = 1
 	body_parts_covered = 0
 
 /obj/item/clothing/head/headband/red
 	name = "red headband"
 	icon_state = "redheadb"
+	wearable = 1

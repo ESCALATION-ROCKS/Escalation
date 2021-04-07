@@ -6,6 +6,7 @@
 	icon_state = "natodog"
 	badge_string = "NATO"
 	slot_flags = SLOT_TIE
+	wearable = 1
 
 /obj/item/clothing/accessory/badge/natodogtag/Initialize()
 	. = ..()
@@ -28,6 +29,7 @@
 	gender = PLURAL
 	badge_string = "WARPACT"
 	slot_flags = SLOT_TIE
+	wearable = 1
 
 /obj/item/clothing/accessory/badge/wpdogtag/Initialize()
 	. = ..()
@@ -47,6 +49,7 @@
 	desc = "That's an insignia"
 	on_rolled = list("down" = "none")
 	var/rank = null
+	wearable = 1
 
 /obj/item/clothing/accessory/insignia/soviet/pvt
 	name = "'Ryadovoi' insignia"
@@ -433,7 +436,11 @@
 	rank = "Leutnant"
 
 //Storage Accessories
-/obj/item/clothing/accessory/storage/bandolier_nato
+
+/obj/item/clothing/accessory/storage/coldwar
+	wearable = 1
+
+/obj/item/clothing/accessory/storage/coldwar/bandolier_nato
 	name = "bandolier"
 	desc = "A generic nylon bandolier that can hold 5 items."
 	icon_state = "bandolier_nato"
@@ -444,7 +451,7 @@
 	slots = 4
 	armor_slowdown = 0.0
 
-/obj/item/clothing/accessory/storage/bandolier_nato/filled/New()
+/obj/item/clothing/accessory/storage/coldwar/bandolier_nato/filled/New()
 	..()
 	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
 	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
@@ -452,7 +459,7 @@
 	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
 	new /obj/item/ammo_magazine/box/paper/box556x45(hold)
 
-/obj/item/clothing/accessory/storage/vest
+/obj/item/clothing/accessory/storage/coldwar/vest
 	name = "Bandolier Vest"
 	desc = "A lightweight storage vest with 4 large pouches used by NATO personnel, provides no ballistic protection."
 	icon_state = "bandovest_nato"
@@ -463,10 +470,10 @@
 	slots = 4
 	armor_slowdown = 0.0
 
-/obj/item/clothing/accessory/storage/vest/woodland
+/obj/item/clothing/accessory/storage/coldwar/vest/woodland
 	icon_state = "bandovest_nato_w"
 
-/obj/item/clothing/accessory/storage/lifchik
+/obj/item/clothing/accessory/storage/coldwar/lifchik
 	name = "'lifchik' vest"
 	desc = "Known by soviet forces as a 'lifchik', which translates to 'brassiere' in English. It seems to be knit from some kind of bag."
 	icon_state = "lifchik_1"
@@ -477,7 +484,7 @@
 	slots = 4
 	armor_slowdown = 0.0
 
-/obj/item/clothing/accessory/storage/kaz
+/obj/item/clothing/accessory/storage/coldwar/kaz
 	name = "KAZ03 chest rig"
 	desc = "A chest rig used by the Bundesheer, meant to be attached on the flak vest."
 	icon_state = "bandovest_heer"
@@ -488,13 +495,13 @@
 	slots = 4
 	armor_slowdown = 0.0
 
-/obj/item/clothing/accessory/storage/lifchik/alt
+/obj/item/clothing/accessory/storage/coldwar/lifchik/alt
 	icon_state = "lifchik_2"
 	slots = 2
 	max_w_class = ITEM_SIZE_NORMAL
 	armor_slowdown = 0.0
 
-/obj/item/clothing/accessory/storage/lifchikblack
+/obj/item/clothing/accessory/storage/coldwar/lifchikblack
 	name = "webbing"
 	desc = "A black webbing vest used by the Suomen Maavoimat."
 	icon_state = "lifchikblack_1"
@@ -505,7 +512,7 @@
 	slots = 4
 	armor_slowdown = 0.0
 
-/obj/item/clothing/accessory/storage/lifchikblack/alt
+/obj/item/clothing/accessory/storage/coldwar/lifchikblack/alt
 	icon_state = "lifchikblack_2"
 	slots = 2
 	max_w_class = ITEM_SIZE_NORMAL
@@ -513,7 +520,7 @@
 
 /*coats, these need up-down item states implemented*/
 
-/obj/item/clothing/accessory/storage/palatka
+/obj/item/clothing/accessory/storage/coldwar/palatka
 	name = "palash palatka"
 	desc = "Known by soviet forces as 'palash palatka', it is a half-tent that you can wear as a raincoat!."
 	icon_state = "palatka_t"
@@ -528,7 +535,7 @@
 	slots = 4
 	armor_slowdown = 0.0
 
-/obj/item/clothing/accessory/storage/zeltbahn
+/obj/item/clothing/accessory/storage/coldwar/zeltbahn
 	name = "zeltbahn"
 	desc = "Known by NVA forces as 'zeltbahn', it is a half-tent that you can wear as a raincoat!."
 	icon_state = "zeltbahn_t"
@@ -543,7 +550,7 @@
 	slots = 4
 	armor_slowdown = 0.0
 
-/obj/item/clothing/accessory/storage/usmccoat
+/obj/item/clothing/accessory/storage/coldwar/usmccoat
 	name = "marine winter coat"
 	desc = "A winter coat, issued by US forces."
 	icon_state = "usmc_win_t"

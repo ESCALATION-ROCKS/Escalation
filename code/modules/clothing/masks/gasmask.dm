@@ -138,78 +138,48 @@
 
 ////COLDWAR
 
-/obj/item/clothing/mask/gas/gp5 /////NVA
+/obj/item/clothing/mask/gas/coldwar
+	name = "weird gas mask"
+	desc = "A weird gas mask. You should not be seeing this."
+	icon_state = "gp5_mask"
+	item_state = "gp5_mask"
+	wearable = 1
+	w_class = ITEM_SIZE_NORMAL
+	flags_inv = BLOCKHAIR
+	body_parts_covered = FACE|HEAD
+	down_body_parts_covered = HEAD
+	filtered_gases = list("phoron", "sleeping_agent", "smoke")
+	visor_color = 0
+	tint = TINT_NONE
+	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
+	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
+
+/obj/item/clothing/mask/gas/coldwar/gp5 /////NVA
 	name = "GP-5 gas mask"
 	desc = "A gas mask used by the Soviet Army and other WARPACT countries."
 	icon_state = "gp5_mask"
 	item_state = "gp5_mask"
-	w_class = ITEM_SIZE_NORMAL
-	flags_inv = BLOCKHAIR
-	body_parts_covered = FACE|HEAD
-	down_body_parts_covered = HEAD
-	filtered_gases = list("phoron", "sleeping_agent", "smoke")
-	visor_color = 0
-	tint = TINT_NONE
-	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
-	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
 
-/obj/item/clothing/mask/gas/gp7 ///////SA
+/obj/item/clothing/mask/gas/coldwar/gp7 ///////SA
 	name = "GP-7 gas mask"
 	desc = "A gas mask used by the Soviet Army and other WARPACT countries."
 	icon_state = "gp7_mask"
 	item_state = "gp7_mask"
-	w_class = ITEM_SIZE_NORMAL
-	flags_inv = BLOCKHAIR
-	body_parts_covered = FACE|HEAD
-	down_body_parts_covered = HEAD
-	filtered_gases = list("phoron", "sleeping_agent", "smoke")
-	visor_color = 0
-	tint = TINT_NONE
-	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
-	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
 
-
-/obj/item/clothing/mask/gas/pmg ///////SA
+/obj/item/clothing/mask/gas/coldwar/pmg ///////SA
 	name = "PMG gas mask"
 	desc = "A gas mask uncommonly used by the Soviet Army. This one is labeled 'J-12', you don't know what that means."
 	icon_state = "pmg_mask"
 	item_state = "pmg_mask"
-	w_class = ITEM_SIZE_NORMAL
-	flags_inv = BLOCKHAIR
-	body_parts_covered = FACE|HEAD
-	down_body_parts_covered = HEAD
-	filtered_gases = list("phoron", "sleeping_agent", "smoke")
-	visor_color = 0
-	tint = TINT_NONE
-	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
-	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
 
-/obj/item/clothing/mask/gas/m38 ///////BDW - BDH
+/obj/item/clothing/mask/gas/coldwar/m38 ///////BDW - BDH
 	name = "M38 gas mask"
 	desc = "A gas mask used by the Bundeswehr and other NATO counties."
 	icon_state = "m38_mask"
 	item_state = "m38_mask"
-	w_class = ITEM_SIZE_NORMAL
-	flags_inv = BLOCKHAIR
-	body_parts_covered = FACE|HEAD
-	down_body_parts_covered = HEAD
-	filtered_gases = list("phoron", "sleeping_agent", "smoke")
-	visor_color = 0
-	tint = TINT_NONE
-	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
-	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
 
-/obj/item/clothing/mask/gas/m17 ///////USMC - USA
+/obj/item/clothing/mask/gas/coldwar/m17 ///////USMC - USA
 	name = "M17 gas mask"
 	desc = "A gas mask used by the USA and other NATO counties."
 	icon_state = "m17_mask"
 	item_state = "m17_mask"
-	w_class = ITEM_SIZE_NORMAL
-	flags_inv = BLOCKHAIR
-	body_parts_covered = FACE|HEAD
-	down_body_parts_covered = HEAD
-	filtered_gases = list("phoron", "sleeping_agent", "smoke")
-	visor_color = 0
-	tint = TINT_NONE
-	item_flags = BLOCK_GAS_SMOKE_EFFECT | AIRTIGHT
-	armor = list(melee = 5, bullet = 5, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 0)
