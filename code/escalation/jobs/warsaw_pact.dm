@@ -218,10 +218,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sniper
 	selection_color = "#B22222"
 	rank_number = 4
-	position = "team"
+	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "sa_nco"
+	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1595,10 +1595,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/marksman
 	selection_color = "#FA8072"
 	rank_number = 6
-	position = "team"
+	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "csla_nco"
+	whitelist_rank = "csla_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)

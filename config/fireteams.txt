@@ -24,6 +24,7 @@ Squad 'Alpha':usmc
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmccorpsman
 /datum/job/escalation/usmc/usmcsapper
+/datum/job/escalation/usmc/usmcmarksman
 @END@
 
 Squad 'Bravo':usmc
@@ -38,6 +39,7 @@ Squad 'Bravo':usmc
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmccorpsman
 /datum/job/escalation/usmc/usmcsapper
+/datum/job/escalation/usmc/usmcmarksman
 @END@
 
 Squad 'Charlie':usmc
@@ -52,6 +54,7 @@ Squad 'Charlie':usmc
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmccorpsman
 /datum/job/escalation/usmc/usmcsapper
+/datum/job/escalation/usmc/usmcmarksman
 @END@
 
 HWS-1:usmc
@@ -80,6 +83,7 @@ Gruppe 'Delta':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
 /datum/job/escalation/bund/bdwsapper
+/datum/job/escalation/bund/bdwsm
 @END@
 
 Gruppe 'Echo':bund
@@ -94,6 +98,7 @@ Gruppe 'Echo':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
 /datum/job/escalation/bund/bdwsapper
+/datum/job/escalation/bund/bdwsm
 @END@
 
 Gruppe 'Foxtrot':bund
@@ -108,6 +113,7 @@ Gruppe 'Foxtrot':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
 /datum/job/escalation/bund/bdwsapper
+/datum/job/escalation/bund/bdwsm
 @END@
 
 SwG. I:bund
@@ -137,6 +143,7 @@ Gruppe 'Delta':heer
 /datum/job/escalation/heer/heerrifle
 /datum/job/escalation/heer/heermedic
 /datum/job/escalation/heer/heersapper
+/datum/job/escalation/heer/heersm
 @END@
 
 Gruppe 'Echo':heer
@@ -151,6 +158,7 @@ Gruppe 'Echo':heer
 /datum/job/escalation/heer/heerrifle
 /datum/job/escalation/heer/heermedic
 /datum/job/escalation/heer/heersapper
+/datum/job/escalation/heer/heersm
 @END@
 
 Gruppe 'Foxtrot':heer
@@ -165,6 +173,7 @@ Gruppe 'Foxtrot':heer
 /datum/job/escalation/heer/heerrifle
 /datum/job/escalation/heer/heermedic
 /datum/job/escalation/heer/heersapper
+/datum/job/escalation/heer/heersm
 @END@
 
 SwG. I:heer
@@ -248,6 +257,7 @@ Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
 /datum/job/escalation/cccp/sasapper
+/datum/job/escalation/cccp/sasniper
 @END@
 
 Otdelenie 'Boris':cccp
@@ -262,6 +272,7 @@ Otdelenie 'Boris':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
 /datum/job/escalation/cccp/sasapper
+/datum/job/escalation/cccp/sasniper
 @END@
 
 Otdelenie 'Vasiliy':cccp
@@ -276,6 +287,7 @@ Otdelenie 'Vasiliy':cccp
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
 /datum/job/escalation/cccp/sasapper
+/datum/job/escalation/cccp/sasniper
 @END@
 
 OTV-1:cccp
@@ -349,6 +361,7 @@ Cheta 'Delat':csla
 /datum/job/escalation/csla/cslarifle
 /datum/job/escalation/csla/cslamedic
 /datum/job/escalation/csla/cslasapper
+/datum/job/escalation/csla/cslamarksman
 @END@
 
 Cheta 'Ero':csla
@@ -363,6 +376,7 @@ Cheta 'Ero':csla
 /datum/job/escalation/csla/cslarifle
 /datum/job/escalation/csla/cslamedic
 /datum/job/escalation/csla/cslasapper
+/datum/job/escalation/csla/cslamarksman
 @END@
 
 Cheta 'Fana':csla
@@ -377,6 +391,7 @@ Cheta 'Fana':csla
 /datum/job/escalation/csla/cslarifle
 /datum/job/escalation/csla/cslamedic
 /datum/job/escalation/csla/cslasapper
+/datum/job/escalation/csla/cslamarksman
 @END@
 
 TeZ I.:csla
