@@ -69,3 +69,13 @@
 		lit = 0
 		update_icon()
 		set_light(0)
+
+/obj/item/weapon/flame/candle/menorah
+	name = "menorah"
+	desc = "A large candle holder that holds 7 candles. Hava Nagila."
+	icon = 'icons/obj/candle.dmi'
+	icon_state = "menorah1"
+	item_state = "menorah1"
+	w_class = ITEM_SIZE_HUGE
+	light_color = "#e09d37"
+	var/wax = 5000

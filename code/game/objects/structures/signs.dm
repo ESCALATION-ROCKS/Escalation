@@ -1370,6 +1370,13 @@ obj/structure/sign/noshitlers
 	desc = "That's some bling there."
 	anchored = 0
 
+/obj/structure/sign/jew
+	name = "davids star"
+	icon = 'icons/obj/decorations.dmi'
+	icon_state = "davidstar"
+	desc = "This indicates that there are Jews nearby."
+	anchored = 1
+
 /obj/structure/sign/money2
 	name = "tower of money"
 	icon = 'icons/obj/decorations.dmi'
