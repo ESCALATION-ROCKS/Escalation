@@ -107,6 +107,11 @@ var/list/flooring_types
 	icon_base = "red"
 	build_type = /obj/item/stack/tile/carpetred
 
+/decl/flooring/carpet/arcade
+	name = "arcade carpet"
+	icon_base = "arcade"
+	build_type = /obj/item/stack/tile/carpetred
+
 /decl/flooring/tiling
 	name = "floor"
 	desc = "Scuffed from the passage of countless greyshirts."

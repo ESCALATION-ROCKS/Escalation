@@ -1357,10 +1357,10 @@ obj/structure/sign/noshitlers
 	anchored = 0
 
 /obj/structure/sign/vhsbox
-	name = "Midnight Animal"
+	name = "VHS box"
 	icon = 'icons/obj/decorations.dmi'
 	icon_state = "animal"
-	desc = "A weird American movie with a lot of violence in it."
+	desc = "A VHS box with a VHS tape in it."
 	anchored = 0
 
 /obj/structure/sign/money1

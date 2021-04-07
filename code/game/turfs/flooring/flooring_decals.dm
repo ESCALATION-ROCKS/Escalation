@@ -684,7 +684,7 @@ var/list/floor_decals = list()
 	icon_state = "blue2_edges"
 
 /obj/effect/floor_decal/carpet/purple
-	name = "orange carpet"
+	name = "purple carpet"
 	icon_state = "purple_edges"
 
 /obj/effect/floor_decal/carpet/orange
