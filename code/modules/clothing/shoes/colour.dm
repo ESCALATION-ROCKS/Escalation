@@ -41,6 +41,7 @@
 /obj/item/clothing/shoes/white
 	name = "white shoes"
 	icon_state = "white"
+	wearable = 1
 	permeability_coefficient = 0.01
 
 /obj/item/clothing/shoes/leather
