@@ -1751,6 +1751,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	belt = /obj/item/weapon/storage/belt/harness/usmc
+	r_pocket = /obj/item/weapon/facepaint/green
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
 
@@ -1823,6 +1824,7 @@
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	l_pocket = /obj/item/weapon/key/natonco
 	l_ear = /obj/item/device/binoculars/nato
+	r_pocket = /obj/item/weapon/facepaint/sniper
 	r_hand = /obj/item/weapon/radioset/prc77
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -1839,6 +1841,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	r_pocket = /obj/item/weapon/facepaint/sniper
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
@@ -1856,6 +1859,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	r_pocket = /obj/item/weapon/facepaint/sniper
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
@@ -1870,6 +1874,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	r_pocket = /obj/item/weapon/facepaint/sniper
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
