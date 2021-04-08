@@ -324,6 +324,55 @@
 /obj/item/clothing/under/coldwar/soviet/airhabe/cpt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/cpt, /obj/item/clothing/accessory/storage/uniform_pockets)
 
+
+/obj/item/clothing/under/coldwar/soviet/berezka/
+	name = "'Berezka' fatigues"
+	desc = "An uncommon camouflage uniform issued in Soviet Army."
+	icon_state = "airhabe"
+	worn_state = "airhabe"
+	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
+	siemens_coefficient = 0.7
+	slowdown_general = 0.5
+	has_sensor = 0
+	starting_accessories = list(/obj/item/clothing/accessory/storage/sa_harness)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/pvt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/pvt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/gefr
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/gefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/jsgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/sgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/sgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/ssgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/ssgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/star
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/star, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/mllt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/mllt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/lt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/lt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/stlt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/stlt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/prap
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/prap, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/stprap
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/stpr, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/soviet/berezka/cpt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/cpt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+
 //NVA DDR
 
 /obj/item/clothing/under/coldwar/nvaddr/

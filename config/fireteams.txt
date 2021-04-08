@@ -296,6 +296,15 @@ OTV-1:cccp
 /datum/job/escalation/cccp/saotvop
 @END@
 
+#Element 'Vympel':cccp
+#/datum/job/escalation/cccp/vympsl
+#/datum/job/escalation/cccp/vympop
+#/datum/job/escalation/cccp/vympop
+#/datum/job/escalation/cccp/vympop
+#/datum/job/escalation/cccp/vympmg
+#/datum/job/escalation/cccp/vympsm
+#@END@
+
 ###NVA###
 
 Gruppe 'Anton':nvaddr

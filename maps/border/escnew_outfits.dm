@@ -316,6 +316,61 @@
 	head = /obj/item/clothing/head/coldwar/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
+
+/decl/hierarchy/outfit/job/coldwar/soviet/vympsl
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Komandir Elementa")
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
+	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aek971
+	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	head = /obj/item/clothing/head/coldwar/helmet/soviet/altynvisorless
+	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
+	r_pocket = /obj/item/weapon/key/wpnco
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/vympop
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Operator")
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	head = /obj/item/clothing/head/coldwar/altyn
+	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
+	belt = /obj/item/weapon/storage/belt/harness/sa
+	
+	flags = OUTFIT_HAS_SABACKPACK
+
+/decl/hierarchy/outfit/job/coldwar/soviet/vympmg
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Pulemetchik")
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/pkm
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
+	head = /obj/item/clothing/head/coldwar/altyn
+	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/vympsm
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Snaiper")
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
+	head = /obj/item/clothing/head/coldwar/helmet/soviet/altynvisorless
+	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
 //NVA --------- SUMMER MAPS
 /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Rifleman")
