@@ -316,6 +316,62 @@
 	head = /obj/item/clothing/head/coldwar/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
+
+/decl/hierarchy/outfit/job/coldwar/soviet/vympsl
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Komandir Elementa")
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
+	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aek971
+	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	head = /obj/item/clothing/head/coldwar/helmet/soviet/altynvisorless
+	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
+	r_pocket = /obj/item/weapon/key/wpnco
+	l_hand = /obj/item/weapon/radioset/r105d
+	l_ear = /obj/item/device/binoculars/wp
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/vympop
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Operator")
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	head = /obj/item/clothing/head/coldwar/altyn
+	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
+	belt = /obj/item/weapon/storage/belt/harness/sa
+	
+	flags = OUTFIT_HAS_SABACKPACK
+
+/decl/hierarchy/outfit/job/coldwar/soviet/vympmg
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Pulemetchik")
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/pkm
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
+	head = /obj/item/clothing/head/coldwar/altyn
+	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
+/decl/hierarchy/outfit/job/coldwar/soviet/vympsm
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Snaiper")
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
+	holster = /obj/item/weapon/storage/belt/holster/sa
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
+	back = /obj/item/weapon/storage/backpack/gassoviet
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
+	head = /obj/item/clothing/head/coldwar/helmet/soviet/altynvisorless
+	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
 //NVA --------- SUMMER MAPS
 /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Rifleman")
@@ -1754,6 +1810,68 @@
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt
 
+
+/decl/hierarchy/outfit/job/coldwar/usmc/frcnsl
+	name = OUTFIT_JOB_NAME("Coldwar - FORECON SL")
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/sgt
+	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	holster = /obj/item/weapon/storage/belt/holster/usmc
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	l_pocket = /obj/item/weapon/key/natonco
+	l_ear = /obj/item/device/binoculars/nato
+	r_hand = /obj/item/weapon/radioset/prc77
+	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
+
+
+/decl/hierarchy/outfit/job/coldwar/usmc/frcnop
+	name = OUTFIT_JOB_NAME("Coldwar - FORECON Operator")
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/lcpl
+	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m16a3
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	holster = /obj/item/weapon/storage/belt/holster/usmc
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
+
+	flags = OUTFIT_HAS_USMCBACKPACK
+
+
+/decl/hierarchy/outfit/job/coldwar/usmc/frcnmg
+	name = OUTFIT_JOB_NAME("Coldwar - FORECON Machinegunner")
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/cpl
+	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/xm249
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	holster = /obj/item/weapon/storage/belt/holster/usmc
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
+
+/decl/hierarchy/outfit/job/coldwar/usmc/frcnsm
+	name = OUTFIT_JOB_NAME("Coldwar - FORECON Sniper")
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/lcpl
+	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m21
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	holster = /obj/item/weapon/storage/belt/holster/usmc
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
 //BAF ------------- WINTER MAPS
 /decl/hierarchy/outfit/job/coldwar/baf/rifleman

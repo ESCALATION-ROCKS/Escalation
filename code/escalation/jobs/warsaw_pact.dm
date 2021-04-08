@@ -487,7 +487,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_specops"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_FINNISH = 40, LANGUAGE_CZECH = 40)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -507,7 +507,7 @@
 	amount = 3
 	enabled = 1
 	whitelist_rank = "sa_specops"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_FINNISH = 40, LANGUAGE_CZECH = 40)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_FINNISH = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -527,7 +527,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_specops"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_FINNISH = 40, LANGUAGE_CZECH = 40)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_FINNISH = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -547,7 +547,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_specops"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_FINNISH = 40, LANGUAGE_CZECH = 40)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_FINNISH = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()

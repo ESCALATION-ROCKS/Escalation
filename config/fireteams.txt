@@ -69,6 +69,16 @@ ATS-1:usmc
 /datum/job/escalation/usmc/usmcata
 @END@
 
+
+#1st FORECON 'X-ray':usmc
+#/datum/job/escalation/usmc/frcnsl
+#/datum/job/escalation/usmc/frcnop
+#/datum/job/escalation/usmc/frcnop
+#/datum/job/escalation/usmc/frcnop
+#/datum/job/escalation/usmc/frcnmg
+#/datum/job/escalation/usmc/frcnsm
+#@END@
+
 ###BUNDESWEHR###
 
 Gruppe 'Delta':bund
