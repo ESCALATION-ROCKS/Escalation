@@ -210,6 +210,7 @@
 	desc = "A sterile blue apron for performing surgery."
 	icon_state = "surgical"
 	item_state = "surgical"
+	wearable = 1
 	blood_overlay_type = "armor"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	allowed = list(/obj/item/stack/medical, /obj/item/weapon/reagent_containers/dropper, /obj/item/weapon/reagent_containers/hypospray, /obj/item/weapon/reagent_containers/syringe, \

@@ -56,6 +56,7 @@
 	name = "surgical cap"
 	desc = "A cap surgeons wear during operations. Keeps their hair from tickling your internal organs."
 	icon_state = "surgcap_blue"
+	wearable = 1
 //	flags_inv = BLOCKHEADHAIR
 
 /obj/item/clothing/head/surgery/purple

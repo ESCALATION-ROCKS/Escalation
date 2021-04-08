@@ -4,9 +4,9 @@
 	icon_state ="bible"
 	throw_speed = 1
 	throw_range = 5
-	w_class = ITEM_SIZE_NORMAL
+	/*w_class = ITEM_SIZE_NORMAL
 	max_w_class = ITEM_SIZE_SMALL
-	max_storage_space = 4
+	max_storage_space = 4*/
 	var/mob/affecting = null
 	var/deity_name = "Christ"
 
@@ -34,3 +34,8 @@
 	if (src.use_sound)
 		playsound(src.loc, src.use_sound, 50, 1, -5)
 	return ..()
+
+/obj/item/weapon/storage/torah
+	name = "torah"
+	desc = "It's written in Hebrew. You don't understand a thing of it."
+	icon_state ="torah"

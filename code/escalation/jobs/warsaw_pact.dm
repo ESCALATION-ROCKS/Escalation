@@ -218,10 +218,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sniper
 	selection_color = "#B22222"
 	rank_number = 4
-	position = "team"
+	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "sa_nco"
+	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -473,6 +473,85 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/cccp/vympsl
+	title = "KGB Komandir Elementa"
+	name = "Komandir Elementa"
+	english_name = "Element Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/vympsl
+	selection_color = "#B22222"
+	rank_number = 2
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_specops"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 2, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/cccp/vympop
+	title = "KGB Operator"
+	name = "Operator Elementa"
+	english_name = "Element Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/vympop
+	selection_color = "#B22222"
+	rank_number = 3
+	position = "fireteam"
+	amount = 3
+	enabled = 1
+	whitelist_rank = "sa_specops"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_FINNISH = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/cccp/vympmg
+	title = "KGB Pulemetchik Elementa"
+	name = "Pulemetchik Elementa"
+	english_name = "Element Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/vympmg
+	selection_color = "#B22222"
+	rank_number = 3
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_specops"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_FINNISH = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/cccp/vympsm
+	title = "KGB Snaiper Elementa"
+	name = "Snaiper Elementa"
+	english_name = "Element Sniper"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/vympsm
+	selection_color = "#B22222"
+	rank_number = 3
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_specops"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_FINNISH = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 3, -1, -1, 1, 1, 3, 0)
 
 //NVA DDR
 
@@ -1595,10 +1674,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/csla/marksman
 	selection_color = "#FA8072"
 	rank_number = 6
-	position = "team"
+	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "csla_nco"
+	whitelist_rank = "csla_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)

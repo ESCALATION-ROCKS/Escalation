@@ -381,6 +381,11 @@ var/global/list/damage_icon_parts = list()
 
 	if(update_icons)   update_icons()
 
+///LIPSTICK OVERLAY
+/mob/living/carbon/human/proc/update_lipstick(var/update_icons=1)
+	
+	stand_icon.Blend(new/icon('icons/mob/human_face.dmi', "camo_[lip_style]_s"), ICON_OVERLAY)
+
 //HAIR OVERLAY
 /mob/living/carbon/human/proc/update_hair(var/update_icons=1)
 	//Reset our hair

@@ -67,14 +67,22 @@
 			src.attach_accessory(null, tie)
 
 
-//BS12: Species-restricted clothing check.
-/obj/item/clothing/mob_can_equip(M as mob, slot, disable_warning = 0)
+////////escalation wearable clothing check
+/obj/item/clothing/mob_can_equip(M as mob)
 
 	//if we can't equip the item anyway, don't bother with species_restricted (cuts down on spam)
 	if (!..())
 		return 0
 
-	if(species_restricted && istype(M,/mob/living/carbon/human))
+	if(istype(M,/mob/living/carbon/human))
+		var/mob/living/carbon/human/H = M
+
+		if(!wearable)
+			to_chat(H, "<span class='danger'>You shouldn't be wearing [src].</span>")
+			return 0
+	return 1
+
+	/*if(species_restricted && istype(M,/mob/living/carbon/human)) ////////old species check code
 		var/exclusive = null
 		var/wearable = null
 		var/mob/living/carbon/human/H = M
@@ -94,7 +102,7 @@
 				if(!disable_warning)
 					to_chat(H, "<span class='danger'>Your species cannot wear [src].</span>")
 				return 0
-	return 1
+	return 1*/
 
 /obj/item/clothing/equipped(var/mob/user)
 	if(needs_vision_update())

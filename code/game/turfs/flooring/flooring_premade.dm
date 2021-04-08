@@ -42,6 +42,12 @@
 	icon_state = "red"
 	initial_flooring = /decl/flooring/carpet/red
 
+
+/turf/simulated/floor/carpet/arcade
+	name = "arcade carpet"
+	icon_state = "arcade"
+	initial_flooring = /decl/flooring/carpet/arcade
+
 /turf/simulated/floor/bluegrid
 	name = "mainframe floor"
 	icon = 'icons/turf/flooring/circuit.dmi'

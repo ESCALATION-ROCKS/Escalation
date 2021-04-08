@@ -1,7 +1,7 @@
 /obj/machinery/replicant_uplink
 	name = "Equipment Cache"
 	desc = ""
-	icon = 'icons/obj/decor.dmi'
+	icon = 'icons/obj/fancydecals.dmi'
 	icon_state = "equipcache"
 	density = 1
 	anchored = 1

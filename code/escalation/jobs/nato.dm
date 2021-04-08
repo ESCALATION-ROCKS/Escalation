@@ -156,10 +156,10 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/marksman
 	selection_color = "#B0C4DE"
-	position = "team"
+	position = "fireteam"
 	enabled = 1
 	amount = 1
-	whitelist_rank = "usmc_nco"
+	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -461,6 +461,86 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/usmc/frcnsl
+	title = "FORECON Element Leader"
+	name = "Element Leader"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/frcnsl
+	selection_color = "#B0C4DE"
+	amount = 1
+	rank_number = 2
+	position = "fireteam"
+	enabled = 1
+	whitelist_rank = "usmc_specops"
+	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 2, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/usmc/frcnop
+	title = "FORECON Element Operator"
+	name = "Element Operator"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/frcnop
+	selection_color = "#B0C4DE"
+	amount = 1
+	rank_number = 2
+	position = "fireteam"
+	enabled = 1
+	whitelist_rank = "usmc_specops"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/usmc/frcnmg
+	title = "FORECON Element Machinegunner"
+	name = "Element Machinegunner"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/frcnmg
+	selection_color = "#B0C4DE"
+	amount = 1
+	rank_number = 2
+	position = "fireteam"
+	enabled = 1
+	whitelist_rank = "usmc_specops"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/usmc/frcnsm
+	title = "FORECON Element Marksman"
+	name = "Element Marksman"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/frcnsm
+	selection_color = "#B0C4DE"
+	amount = 1
+	rank_number = 2
+	position = "fireteam"
+	enabled = 1
+	whitelist_rank = "usmc_specops"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 3, -1, -1, 1, 1, 3, 0)
+
 ////////////////////////////////////////////////////////////////////BDW
 
 /datum/job/escalation/bund
@@ -642,11 +722,11 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/marksman
 	selection_color = "#4682B4"
-	position = "team"
+	position = "fireteam"
 	amount = 1
 	enabled = 1
 	rank_number = 3
-	whitelist_rank = "bdw_nco"
+	whitelist_rank = "bdw_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1088,11 +1168,11 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer/marksman
 	selection_color = "#4682B4"
-	position = "team"
+	position = "fireteam"
 	amount = 1
 	enabled = 1
 	rank_number = 3
-	whitelist_rank = "heer_nco"
+	whitelist_rank = "heer_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)

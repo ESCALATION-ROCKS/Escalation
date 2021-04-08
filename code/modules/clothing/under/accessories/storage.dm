@@ -186,6 +186,7 @@
 	desc = null
 	icon_state = null
 	slots = 2
+	wearable = 1
 
 /obj/item/clothing/accessory/storage/uniform_pockets/New()
 	..()
@@ -200,12 +201,10 @@
 		/obj/item/weapon/flame/lighter/,
 		/obj/item/weapon/storage/box/matches,
 		/obj/item/clothing/head/headband,
-		/obj/item/clothing/head/garcap,
-		/obj/item/clothing/head/fieldcap,
-		/obj/item/clothing/head/usmc/boonie,
-		/obj/item/clothing/head/ushanka,
-		/obj/item/clothing/head/beret,
-		/obj/item/clothing/head/usmc/cap,
+		/obj/item/clothing/head/coldwar/garcap,
+		/obj/item/clothing/head/coldwar/fieldcap,
+		/obj/item/clothing/head/coldwar/ushanka,
+		/obj/item/clothing/head/coldwar/beret,
 		/obj/item/weapon/deck/cards,
 		/obj/item/weapon/haircomb,
 		/obj/item/weapon/storage/pill_bottle/dice,

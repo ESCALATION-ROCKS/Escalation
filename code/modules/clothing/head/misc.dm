@@ -282,6 +282,12 @@
 	icon_state = "kippa"
 	body_parts_covered = 0
 
+/obj/item/clothing/head/yamaka
+	name = "yamaka"
+	desc = "A small, brimless cap for Jews."
+	icon_state = "yamaka"
+	body_parts_covered = 0
+
 /obj/item/clothing/head/turban
 	name = "turban"
 	desc = "A sturdy cloth, worn around the head."
@@ -322,8 +328,10 @@
 /obj/item/clothing/head/headband
 	name = "green headband"
 	icon_state = "greenheadb"
+	wearable = 1
 	body_parts_covered = 0
 
 /obj/item/clothing/head/headband/red
 	name = "red headband"
 	icon_state = "redheadb"
+	wearable = 1

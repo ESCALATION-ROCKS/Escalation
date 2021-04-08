@@ -487,6 +487,47 @@
 		icon_state = "xm177-empty"
 		wielded_item_state = "m16-wielded-empty"
 
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a3
+	name = "M16A3"
+	desc = "A prototype USMC combat rifle. Chambers 5.56x45 rounds."
+	icon_state = "m16a2"
+	item_state = "m16"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "556x45"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a556x45
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m, /obj/item/ammo_magazine/c556x45s)
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 4
+	accuracy = 3.2
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
+	bayonet_attachable = 1
+	jam_chance = 0.425
+	slowdown_general = 0.27
+	wielded_item_state = "m16-wielded"
+	fire_sound = 'sound/weapons/gunshot/m16.ogg'
+	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/m16_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m16_chargeback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=3.2, move_delay=null, one_hand_penalty=4, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
+		list(mode_name="automatic", burst=1, fire_delay=0.9, move_delay=2, one_hand_penalty=5, burst_accuracy=null, dispersion=list(0.2, 0.3, 0.4), automatic = 0.4),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/m16a3/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "m16a2"
+		wielded_item_state = "m16-wielded"
+	else
+		icon_state = "m16a2-empty"
+		wielded_item_state = "m16-wielded-empty"
+
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl
 	name = "M16A1 w/ M203"
 	desc = "A standard-issue USMC combat rifle with a M203 launcher attached. Chambers 5.56x45 rounds."
@@ -651,6 +692,7 @@
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
+
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
 	name = "G3A3"

@@ -126,10 +126,10 @@ turf/simulated/wall/titanium
 	color = "#a13423"
 	..(newloc, "brick")
 
-/turf/simulated/wall/brick2/New(var/newloc)
+/turf/simulated/wall/brick/white/New(var/newloc)
 	icon_state = null
-	color = "#852E21"
-	..(newloc,"titanium")
+	color = "#fffdd0"
+	..(newloc,"brick")
 
 /turf/simulated/wall/concrete_black/New(var/newloc)
 	icon_state = null

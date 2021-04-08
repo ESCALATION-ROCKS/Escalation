@@ -33,6 +33,7 @@
 	icon_state = "sterile"
 	item_state = "sterile"
 	w_class = ITEM_SIZE_SMALL
+	wearable = 1
 	body_parts_covered = FACE
 	item_flags = FLEXIBLEMATERIAL
 	gas_transfer_coefficient = 0.90

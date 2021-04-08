@@ -516,9 +516,9 @@
 	icon_state = "ammocan_band"
 	storage_slots = 5
 	max_w_class = ITEM_SIZE_NORMAL
-	key_type = /obj/item/clothing/accessory/storage/bandolier_nato
-	can_hold = /obj/item/clothing/accessory/storage/bandolier_nato
-	startswith = list(/obj/item/clothing/accessory/storage/bandolier_nato/filled = 5)
+	key_type = /obj/item/clothing/accessory/storage/coldwar/bandolier_nato
+	can_hold = /obj/item/clothing/accessory/storage/coldwar/bandolier_nato
+	startswith = list(/obj/item/clothing/accessory/storage/coldwar/bandolier_nato/filled = 5)
 
 /obj/item/weapon/storage/fancy/ammo_can/x919
 	name = "ammo box (9x19mm)"
