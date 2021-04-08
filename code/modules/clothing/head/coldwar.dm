@@ -149,7 +149,7 @@
 		to_chat(user, "You pull the visor back down.")
 
 
-/obj/item/clothing/head/coldwar/helmet/soviet/6b6
+/obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	name = "6b6 helmet"
 	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units."
 	icon_state = "6b6"

@@ -571,3 +571,63 @@
 	icon = 'icons/obj/coldwardecorations.dmi'
 	icon_state = "brit_flag"
 	desc = "That's the Great Britain flag."
+
+
+
+
+
+
+
+
+
+/////////DECORATIVE MANNEQUINS FROM BAY12 - ONLY FOR DECORATING ARCADES ETC. DON'T USE THESE ANYWHERE ELSE LOOKS WACKY AS FUCK
+
+
+/obj/structure/sign/mannequincool1
+	name = "decorative mannequin"
+	icon = 'icons/obj/fancydecals.dmi'
+	icon_state = "syndicatemelee"
+	desc = "A decorative mannequin. It looks damn cool!"
+	anchored = 1
+
+/obj/structure/sign/mannequincool2
+	name = "decorative mannequin"
+	icon = 'icons/obj/fancydecals.dmi'
+	icon_state = "syndicateranged"
+	desc = "A decorative mannequin. It looks damn cool!"
+	anchored = 1
+	
+/obj/structure/sign/mannequincool3
+	name = "decorative mannequin"
+	icon = 'icons/obj/fancydecals.dmi'
+	icon_state = "syndicatemeleespace"
+	desc = "A decorative mannequin. It looks damn cool!"
+	anchored = 1
+
+/obj/structure/sign/mannequincool4
+	name = "decorative mannequin"
+	icon = 'icons/obj/fancydecals.dmi'
+	icon_state = "syndicaterangedspace"
+	desc = "A decorative mannequin. It looks damn cool!"
+	anchored = 1
+
+/obj/structure/sign/mannequincool5
+	name = "decorative mannequin"
+	icon = 'icons/obj/fancydecals.dmi'
+	icon_state = "piratemelee"
+	desc = "A decorative mannequin. It looks damn cool!"
+	anchored = 1
+	
+/obj/structure/sign/mannequincool6
+	name = "decorative mannequin"
+	icon = 'icons/obj/fancydecals.dmi'
+	icon_state = "pirateranged"
+	desc = "A decorative mannequin. It looks damn cool!"
+	anchored = 1
+	
+/obj/structure/sign/mannequincool7
+	name = "clown mannequin"
+	icon = 'icons/obj/fancydecals.dmi'
+	icon_state = "clown"
+	desc = "A mannequin of Ronald McDonald!"
+	anchored = 1
