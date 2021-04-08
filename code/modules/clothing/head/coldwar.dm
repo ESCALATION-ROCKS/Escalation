@@ -132,8 +132,8 @@
 	icon_state_unzipped = "ssh60-unzipped"
 
 /obj/item/clothing/head/coldwar/altyn ////////Special define for the visor to work properly, if you define it as /helmet/ it will also engage the strap action
-	name = "altyn helmet"
-	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units."
+	name = "6b6-3 'Altyn' helmet"
+	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units. This one has a protective visor."
 	icon_state = "altyn"
 	armor = list(melee = 62, bullet = 22, laser = 10, energy = 10, bomb = 55, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
@@ -149,13 +149,13 @@
 		to_chat(user, "You pull the visor back down.")
 
 
-/obj/item/clothing/head/coldwar/helmet/soviet/altynvisorless
-	name = "altyn helmet"
-	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units. This one lacks a visor."
-	icon_state = "altynvisorless"
+/obj/item/clothing/head/coldwar/helmet/soviet/6b6
+	name = "6b6 helmet"
+	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units."
+	icon_state = "6b6"
 	armor = list(melee = 62, bullet = 22, laser = 10, energy = 10, bomb = 55, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
-	icon_state_unzipped = "altynvisorless-unzipped"
+	icon_state_unzipped = "6b6-unzipped"
 
 
 

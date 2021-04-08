@@ -326,7 +326,7 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	head = /obj/item/clothing/head/coldwar/helmet/soviet/altynvisorless
+	head = /obj/item/clothing/head/coldwar/helmet/soviet/6b6
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	r_pocket = /obj/item/weapon/key/wpnco
 	l_hand = /obj/item/weapon/radioset/r105d
@@ -368,7 +368,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
-	head = /obj/item/clothing/head/coldwar/helmet/soviet/altynvisorless
+	head = /obj/item/clothing/head/coldwar/helmet/soviet/6b6
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
