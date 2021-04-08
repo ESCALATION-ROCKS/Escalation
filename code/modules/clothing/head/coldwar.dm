@@ -21,6 +21,7 @@
 /obj/item/clothing/head/coldwar/helmet/
 	var/icon_state_unzipped = null
 	flags_inv = null
+	w_class = ITEM_SIZE_HUGE
 
 /obj/item/clothing/head/coldwar/helmet/attack_self(mob/user as mob)
 	if(icon_state == initial(icon_state))
@@ -132,7 +133,7 @@
 	icon_state_unzipped = "ssh60-unzipped"
 
 /obj/item/clothing/head/coldwar/altyn ////////Special define for the visor to work properly, if you define it as /helmet/ it will also engage the strap action
-	name = "6b6-3 'Altyn' helmet"
+	name = "6B6-3 'Altyn' helmet"
 	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units. This one has a protective visor."
 	icon_state = "altyn"
 	armor = list(melee = 62, bullet = 22, laser = 10, energy = 10, bomb = 55, bio = 0, rad = 0)
@@ -150,7 +151,7 @@
 
 
 /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
-	name = "6b6 helmet"
+	name = "6B6 helmet"
 	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units."
 	icon_state = "6b6"
 	armor = list(melee = 62, bullet = 22, laser = 10, energy = 10, bomb = 55, bio = 0, rad = 0)
