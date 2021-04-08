@@ -326,7 +326,7 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	head = /obj/item/clothing/head/coldwar/helmet/soviet/6b6
+	head = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	r_pocket = /obj/item/weapon/key/wpnco
 	l_hand = /obj/item/weapon/radioset/r105d
@@ -344,7 +344,7 @@
 	head = /obj/item/clothing/head/coldwar/altyn
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	belt = /obj/item/weapon/storage/belt/harness/sa
-	
+
 	flags = OUTFIT_HAS_SABACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympmg
@@ -368,7 +368,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
-	head = /obj/item/clothing/head/coldwar/helmet/soviet/6b6
+	head = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
@@ -2128,7 +2128,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	head = /obj/item/clothing/head/coldwar/beret/baf
-	
+
 	flags = OUTFIT_HAS_BAFBACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_loader/pre_equip(mob/living/carbon/human/H)
@@ -3080,7 +3080,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 	flags = OUTFIT_HAS_USABACKPACK
-	
+
 /decl/hierarchy/outfit/job/coldwar/usa/hws_loader/pre_equip(mob/living/carbon/human/H)
 	..()
 	l_hand = pick(/obj/item/clothing/head/coldwar/helmet/usmc/pasgt, /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland)
