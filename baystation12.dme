@@ -980,6 +980,7 @@
 #include "code\game\objects\structures\catwalk.dm"
 #include "code\game\objects\structures\chalkboard.dm"
 #include "code\game\objects\structures\coathanger.dm"
+#include "code\game\objects\structures\coldwarsigns.dm"
 #include "code\game\objects\structures\concrete_block.dm"
 #include "code\game\objects\structures\cover_box.dm"
 #include "code\game\objects\structures\curtains.dm"
