@@ -1252,7 +1252,7 @@ obj/random/hostilenew/spawn_choices()
 	icon_state = "mineozm72"
 	spawn_nothing_percentage = 97
 
-/obj/random/mine/pfm/spawn_choices()
+/obj/random/mine/ozm7/spawn_choices()
 		return list(/obj/item/weapon/mine/ozm72/armed = 1)
 
 /obj/random/mine/ozm72high
@@ -1262,7 +1262,7 @@ obj/random/hostilenew/spawn_choices()
 	icon_state = "mineozm72high"
 	spawn_nothing_percentage = 70
 
-/obj/random/mine/pfm/spawn_choices()
+/obj/random/mine/ozm72high/spawn_choices()
 		return list(/obj/item/weapon/mine/ozm72/armed = 1)
 
 /obj/random/mine/m16
@@ -1272,7 +1272,7 @@ obj/random/hostilenew/spawn_choices()
 	icon_state = "minem16"
 	spawn_nothing_percentage = 97
 
-/obj/random/mine/pfm/spawn_choices()
+/obj/random/mine/m16/spawn_choices()
 		return list(/obj/item/weapon/mine/m16/armed = 1)
 
 /obj/random/mine/m16high
@@ -1282,7 +1282,7 @@ obj/random/hostilenew/spawn_choices()
 	icon_state = "minem16high"
 	spawn_nothing_percentage = 70
 
-/obj/random/mine/pfm/spawn_choices()
+/obj/random/mine/m16high/spawn_choices()
 		return list(/obj/item/weapon/mine/m16/armed = 1)
 
 /obj/random/nofoliage
@@ -1292,6 +1292,8 @@ obj/random/hostilenew/spawn_choices()
 	icon_state = "notree"
 	spawn_nothing_percentage = 100
 
+
+
 /obj/random/grass
 	name = "random bush (low chance)"
 	desc = "This is a random tree"
@@ -1299,19 +1301,15 @@ obj/random/hostilenew/spawn_choices()
 	icon_state = "grass1"
 	spawn_nothing_percentage = 60
 /obj/random/grass/spawn_choices()
-		return list(/obj/structure/flora/ausbushes/fullgrass = 2,
-					/obj/structure/flora/ausbushes/sparsegrass = 2,
-					/obj/structure/flora/ausbushes/pointybush = 1,
-					/obj/structure/flora/bush1 = 1,
-					/obj/structure/flora/bush2 = 1,
-					/obj/structure/flora/bush3 = 1,
-					/obj/structure/flora/bush4 = 1,
-					/obj/structure/flora/ausbushes = 1,
-					/obj/structure/flora/ausbushes/leafybush = 1,
-					/obj/structure/flora/ausbushes/stalkybush = 1,
-					/obj/structure/flora/ausbushes/genericbush = 2,
-					/obj/structure/flora/ausbushes/pointybush = 1,
+		return list(/obj/structure/flora/ausbushes/fullgrass,
+					/obj/structure/flora/ausbushes/sparsegrass,
+					/obj/structure/flora/ausbushes/pointybush,
+					/obj/structure/flora/ausbushes/stalkybush,
+					/obj/structure/flora/ausbushes/genericbush,
+					/obj/structure/flora/bush3,
+					/obj/structure/flora/bush4,
 					/obj/structure/flora/smallrock)
+
 
 /obj/random/grasslow
 	name = "winter bush (low chance)"
