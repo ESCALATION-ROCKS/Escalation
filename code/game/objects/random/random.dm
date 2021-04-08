@@ -1244,31 +1244,12 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/summer/log1 = 1,
 					/obj/structure/flora/summer/log2 = 1)
 
-/obj/random/mine/pfm
-	name = "PFM minefield"
-	desc = "This is a PFM minefield"
-	icon = 'icons/mob/screen1.dmi'
-	icon_state = "tree1"
-	spawn_nothing_percentage = 97
-
-/obj/random/mine/pfm/spawn_choices()
-		return list(/obj/item/weapon/mine/pfm1/armed = 1)
-
-/obj/random/mine/pfmhigh
-	name = "PFM minefield high"
-	desc = "This is a PFM minefield"
-	icon = 'icons/mob/screen1.dmi'
-	icon_state = "tree1"
-	spawn_nothing_percentage = 70
-
-/obj/random/mine/pfm/spawn_choices()
-		return list(/obj/item/weapon/mine/pfm1/armed = 1)
 
 /obj/random/mine/ozm72
 	name = "OZM72 minefield"
-	desc = "This is a PFM minefield"
+	desc = "This is a OZM72 minefield"
 	icon = 'icons/mob/screen1.dmi'
-	icon_state = "tree1"
+	icon_state = "mineozm72"
 	spawn_nothing_percentage = 97
 
 /obj/random/mine/pfm/spawn_choices()
@@ -1276,13 +1257,33 @@ obj/random/hostilenew/spawn_choices()
 
 /obj/random/mine/ozm72high
 	name = "OZM72 minefield high"
-	desc = "This is a PFM minefield"
+	desc = "This is a OZM72 minefield"
 	icon = 'icons/mob/screen1.dmi'
-	icon_state = "tree1"
+	icon_state = "mineozm72high"
 	spawn_nothing_percentage = 70
 
 /obj/random/mine/pfm/spawn_choices()
 		return list(/obj/item/weapon/mine/ozm72/armed = 1)
+
+/obj/random/mine/m16
+	name = "M16 minefield"
+	desc = "This is a M16 minefield"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "minem16"
+	spawn_nothing_percentage = 97
+
+/obj/random/mine/pfm/spawn_choices()
+		return list(/obj/item/weapon/mine/m16/armed = 1)
+
+/obj/random/mine/m16high
+	name = "M16 minefield high"
+	desc = "This is a M16 minefield"
+	icon = 'icons/mob/screen1.dmi'
+	icon_state = "minem16high"
+	spawn_nothing_percentage = 70
+
+/obj/random/mine/pfm/spawn_choices()
+		return list(/obj/item/weapon/mine/m16/armed = 1)
 
 /obj/random/nofoliage
 	name = "No foliage"
