@@ -1340,7 +1340,7 @@ obj/random/hostilenew/spawn_choices()
 					/obj/structure/flora/ausbushes/fernybush = 2,
 					/obj/structure/flora/ausbushes/grassybush = 2,
 					/obj/structure/flora/ausbushes/sunnybush = 2,
-					/obj/structure/flora/smallrock = 4)
+					/obj/structure/flora/smallrock = 2)
 
 /obj/random/flower
 	name = "flowers"
