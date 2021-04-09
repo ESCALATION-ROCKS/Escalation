@@ -310,6 +310,12 @@
 	icon_state = "cashregister"
 	desc = "That's a regular cash register."
 
+/obj/structure/sign/trashbin
+	name = "trash bin"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	icon_state = "trashbin"
+	desc = "That's a trash bin made out of metal netting."
+
 /obj/structure/sign/alpha1
 	name = "ALPHA-1"
 	icon = 'icons/obj/coldwardecorations.dmi'
@@ -429,19 +435,31 @@
 
 /obj/structure/sign/cafe
 	name = "cafe sign"
+	icon = 'icons/obj/coldwardecorations.dmi'
 	icon_state = "cafesign"
+	plane = -15
+	density = 1
 
 /obj/structure/sign/gasoline
 	name = "gasoline sign"
+	icon = 'icons/obj/coldwardecorations.dmi'
 	icon_state = "gasolinesign"
+	plane = -15
+	density = 1
 
 /obj/structure/sign/human
 	name = "'human on the road' sign"
+	icon = 'icons/obj/coldwardecorations.dmi'
 	icon_state = "humansign"
+	plane = -15
+	density = 1
 
 /obj/structure/sign/way
 	name = "direction sign"
+	icon = 'icons/obj/coldwardecorations.dmi'
 	icon_state = "waysign"
+	plane = -15
+	density = 1
 
 
 /obj/structure/sign/roadsign
