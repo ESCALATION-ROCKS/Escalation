@@ -832,7 +832,7 @@ var/list/name_to_material
 	sheet_plural_name = "chunks"
 
 /material/stone/concrete
-	name = "concrete"
+	name = "concrete - BAY12 CONCRETE DON'T USE ME!!!!!!!!!!!!!"
 	icon_colour = "#bdbdbd"
 	weight = 40
 	hardness = 300

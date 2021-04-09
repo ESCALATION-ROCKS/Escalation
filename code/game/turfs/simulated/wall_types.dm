@@ -77,7 +77,7 @@
 
 /turf/simulated/wall/concrete
 	icon = 'icons/turf/wall_masks.dmi'
-	icon_state = "concrete_preview"
+	icon_state = "dontuseme"
 	color = "#CCCCCC"
 
 /turf/simulated/wall/concrete/New(var/newloc)
@@ -95,17 +95,6 @@
 	color = null
 	..(newloc, "concrete", "steel")
 
-
-/turf/simulated/wall/tentcloth
-	icon = 'icons/turf/wall_masks.dmi'
-	icon_state = "concrete_preview"
-	color = "#5E5C4E"
-
-/turf/simulated/wall/tentcloth/New(var/newloc)
-	icon_state = null
-	color = null
-	..(newloc, "tent cloth")
-
 turf/simulated/wall/titanium
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "concrete_preview"
@@ -116,6 +105,12 @@ turf/simulated/wall/titanium
 	color = null
 	..(newloc,"titanium")
 
+
+//////////////////////////////////////////////////COLDWAR BLOCKS/////////////////////////////////////////////
+
+
+/////////////COLDWAR BRICK BLOCKS
+
 /turf/simulated/wall/brick
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "brick_preview"
@@ -123,43 +118,116 @@ turf/simulated/wall/titanium
 
 /turf/simulated/wall/brick/New(var/newloc)
 	icon_state = null
-	color = "#a13423"
+	color = "#732E24"
 	..(newloc, "brick")
 
-/turf/simulated/wall/brick/white/New(var/newloc)
+/turf/simulated/wall/brick_white
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#ccd4bc"
+
+/turf/simulated/wall/brick_white/New(var/newloc)
 	icon_state = null
-	color = "#fffdd0"
+	color = "#ccd4bc"
 	..(newloc,"brick")
 
-/turf/simulated/wall/concrete_black/New(var/newloc)
+/turf/simulated/wall/brick_red
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#7D4C4C"
+
+/turf/simulated/wall/brick_red/New(var/newloc)
 	icon_state = null
+	color = "#7D4C4C"
+	..(newloc,"brick")
+
+/turf/simulated/wall/brick_blue
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#1e1eb0"
+
+/turf/simulated/wall/brick_blue/New(var/newloc)
+	icon_state = null
+	color = "#161691"
+	..(newloc,"brick")
+
+/turf/simulated/wall/brick_black
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#424242"
+
+/turf/simulated/wall/brick_black/New(var/newloc)
+	icon_state = null
+	color = "#424242"
+	..(newloc,"brick")
+
+
+///////////////COLDWAR CONCRETE BLOCKS
+
+
+/turf/simulated/wall/concrete_black
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "concreteblack-preview"
+	color = null
+
+/turf/simulated/wall/concrete_black/New(var/newloc)
+	icon_state = "null"
 	color = null
 	..(newloc, "concreteblack")
+
+/turf/simulated/wall/concrete_black_r
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "concreteblackr-preview"
+	color = null
 
 /turf/simulated/wall/concrete_black_r/New(var/newloc)
 	icon_state = null
 	color = null
 	..(newloc, "concreteblack", "concreteblack")
 
+/turf/simulated/wall/concrete_pink
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "concretepink-preview"
+	color = null
+
 /turf/simulated/wall/concrete_pink/New(var/newloc)
 	icon_state = null
 	color = null
 	..(newloc, "concretepink")
+
+/turf/simulated/wall/concrete_grey
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "concretegrey-preview"
+	color = null
 
 /turf/simulated/wall/concrete_grey/New(var/newloc)
 	icon_state = null
 	color = null
 	..(newloc, "concretegrey")
 
+/turf/simulated/wall/concrete_red
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "concretered-preview"
+	color = null
+
 /turf/simulated/wall/concrete_red/New(var/newloc)
 	icon_state = null
 	color = null
 	..(newloc, "concretered")
 
+/turf/simulated/wall/concrete_cian
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "concretecian-preview"
+	color = null
+
 /turf/simulated/wall/concrete_cian/New(var/newloc)
 	icon_state = null
 	color = null
 	..(newloc, "concretecian")
+
+
+
+//////////COLDWAR WOOD BLOCKS
 
 /turf/simulated/wall/woodalt
 	icon = 'icons/turf/wall_masks.dmi'
@@ -170,3 +238,27 @@ turf/simulated/wall/titanium
 	icon_state = null
 	color = null
 	..(newloc, "rich wood")
+
+
+//////////COLDWAR TENT BLOCKS
+
+/turf/simulated/wall/tentcloth
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "concrete_preview"
+	color = "#5E5C4E"
+
+/turf/simulated/wall/tentcloth/New(var/newloc)
+	icon_state = null
+	color = "#5E5C4E"
+	..(newloc, "tent cloth")
+
+
+/turf/simulated/wall/tentcloth_black
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "concrete_preview"
+	color = "#424242"
+
+/turf/simulated/wall/tentcloth_black/New(var/newloc)
+	icon_state = null
+	color = "#424242"
+	..(newloc, "tent cloth")
