@@ -124,11 +124,11 @@ turf/simulated/wall/titanium
 /turf/simulated/wall/brick_white
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "brick_preview"
-	color = "#ccd4bc"
+	color = "#ffffff"
 
 /turf/simulated/wall/brick_white/New(var/newloc)
 	icon_state = null
-	color = "#ccd4bc"
+	color = "#ffffff"
 	..(newloc,"brick")
 
 /turf/simulated/wall/brick_red
