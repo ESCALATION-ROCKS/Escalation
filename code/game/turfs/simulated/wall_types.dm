@@ -141,6 +141,46 @@ turf/simulated/wall/titanium
 	color = "#7D4C4C"
 	..(newloc,"brick")
 
+/turf/simulated/wall/brick_orange
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#FFA500"
+
+/turf/simulated/wall/brick_orange/New(var/newloc)
+	icon_state = null
+	color = "#FFA500"
+	..(newloc,"brick")
+
+/turf/simulated/wall/brick_yellow
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#FFFF00"
+
+/turf/simulated/wall/brick_yellow/New(var/newloc)
+	icon_state = null
+	color = "#FFFF00"
+	..(newloc,"brick")
+
+/turf/simulated/wall/brick_green
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#008000"
+
+/turf/simulated/wall/brick_green/New(var/newloc)
+	icon_state = null
+	color = "#008000"
+	..(newloc,"brick")
+
+/turf/simulated/wall/brick_purple
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#800080"
+
+/turf/simulated/wall/brick_purple/New(var/newloc)
+	icon_state = null
+	color = "#800080"
+	..(newloc,"brick")
+
 /turf/simulated/wall/brick_blue
 	icon = 'icons/turf/wall_masks.dmi'
 	icon_state = "brick_preview"
