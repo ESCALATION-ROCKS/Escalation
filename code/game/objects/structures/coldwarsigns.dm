@@ -1,5 +1,6 @@
 /obj/structure/sign/russian
 	name = "incomprehensible sign"
+	icon = 'icons/obj/coldwardecorations.dmi'
 	desc = "A sign written in russian."
 
 /obj/structure/sign/russian/electrical_danger
