@@ -5150,7 +5150,7 @@
 "xFA" = (/turf/unsimulated/ground,/area/coldwar/alley)
 "xFT" = (/obj/effect/floor_decal/turf/woodalt4,/obj/random/junk,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "xGk" = (/obj/effect/floor_decal/newcorner/purple/diagonal,/obj/machinery/light/greentint{dir = 8},/turf/simulated/floor/tiled/dark,/area/coldwar/largeenclosed)
-"xGH" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/reagent_containers/food/snacks/sliceable/bread,/turf/simulated/floor/tiled/freezer,/area/coldwar/mediumenclosed)
+"xGH" = (/obj/structure/table/steel_reinforced,/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/loaf,/turf/simulated/floor/tiled/freezer,/area/coldwar/mediumenclosed)
 "xHE" = (/obj/effect/floor_decal/turf/plating,/obj/effect/floor_decal/turf/woodalt12,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/wood,/area/coldwar/largeenclosed)
 "xHM" = (/obj/effect/floor_decal/spline/plain{dir = 8},/obj/effect/floor_decal/spline/plain{dir = 1; icon_state = "spline_plain"},/turf/simulated/floor/fancytiles{icon_state = "whitelam"},/area/coldwar/largeenclosed)
 "xHP" = (/obj/structure/sign/vehicle/ural/uralback1,/obj/effect/decal/warning_stripes{icon_state = "E-corner"},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar/smallenclosed)
