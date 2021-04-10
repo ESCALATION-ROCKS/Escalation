@@ -16,30 +16,691 @@ SeverePwnage = {
 
 ############### USMC OFFICER
 
+BlazSnake = {
+usmc_officer
+}
+
+AlanParkerMasters = {
+usmc_officer
+}
 
 ############### USMC NCO
 
+Battieralarm3 = {
+usmc_nco
+}
+
+SilverSZ = {
+usmc_nco
+}
+
+Kindadread = {
+usmc_nco
+}
+
+bardinatavern = {
+usmc_nco
+}
+
+Jerman5 = {
+usmc_nco
+}
+
+Spectre808 = {
+usmc_nco
+}
 
 ############### USMC ENLISTED
 
+Sandvich123 = {
+usmc_enlisted
+}
+
+NobleRank = {
+usmc_enlisted
+}
+
+Yacobpo157 = {
+usmc_enlisted
+}
+
+Zerantio = {
+usmc_enlisted
+}
+
+ToroidalZer0 = {
+usmc_enlisted
+}
+
+I_like_D0nUts = {
+usmc_enlisted
+}
+
+MeeM4903 = {
+usmc_enlisted
+}
+
+Freeders = {
+usmc_enlisted
+}
+
+Zray3003 = {
+usmc_enlisted
+}
+
+Merrgear = {
+usmc_enlisted
+}
+
+gogoing = {
+usmc_enlisted
+}
+
+Balpindo = {
+usmc_enlisted
+}
+
+MymindisBlank = {
+usmc_enlisted
+}
+
+PepeFrog = {
+usmc_enlisted
+}
+
+Mrsandis123 = {
+usmc_enlisted
+}
+
+xDyou = {
+usmc_enlisted
+}
+
+MAZENALMORAUD = {
+usmc_enlisted
+}
+
+BulkaGoblina = {
+usmc_enlisted
+}
+
+146DIS = {
+usmc_enlisted
+}
+
+TommyGoYonder = {
+usmc_enlisted
+}
+
+Nbveh123 = {
+usmc_enlisted
+}
+
+0nemore = {
+usmc_enlisted
+}
+
+MICHIoesi = {
+usmc_enlisted
+}
+
+Xenonia = {
+usmc_enlisted
+}
+
+BadAtThisGame = {
+usmc_enlisted
+}
+
+Gy1ta23 = {
+usmc_enlisted
+}
+
+Egorium = {
+usmc_enlisted
+}
+
+Subdon = {
+usmc_enlisted
+}
+
+lastcrusader105 = {
+usmc_enlisted
+}
+
+Cadet0 = {
+usmc_enlisted
+}
+
+0xDEED = {
+usmc_enlisted
+}
+
+Selchoni = {
+usmc_enlisted
+}
+
+Fivetime = {
+usmc_enlisted
+}
+
+############### HEER OFFICER
+
+Verarch = {
+heer_officer
+}
+
+############### HEER NCO
+
+taumanta = {
+heer_nco
+}
+
+Scoobov = {
+heer_nco
+}
+
+DemtrixD = {
+heer_nco
+}
+
+Corbe = {
+heer_nco
+}
+
+BoringCommunist = {
+heer_nco
+}
+
+Arbs = {
+heer_nco
+}
 
 ############### HEER ENLISTED
 
+Bamhalazam = {
+heer_enlisted
+}
+
+epicdwarf = {
+heer_enlisted
+}
+
+FighterOfKeyboard = {
+heer_enlisted
+}
+
+Koekiegast = {
+heer_enlisted
+}
+
+aguyiguess = {
+heer_enlisted
+}
+
+Tactical Tortoise = {
+heer_enlisted
+}
+
+fattybunbah = {
+heer_enlisted
+}
+
+DriverNephi = {
+heer_enlisted
+}
+
+Caryl = {
+heer_enlisted
+}
+
+Logbomb = {
+heer_enlisted
+}
+
+Hhahs28 = {
+heer_enlisted
+}
+
+ILikeToGammon = {
+heer_enlisted
+}
+
+B3anz = {
+heer_enlisted
+}
+
+Sapu222 = {
+heer_enlisted
+}
+
+MadMrE = {
+heer_enlisted
+}
+
+SilencedMP5A5 = {
+heer_enlisted
+}
+
+Eric066 = {
+heer_enlisted
+}
+
+cardsnapper = {
+heer_enlisted
+}
+
+KWP274 = {
+heer_enlisted
+}
+
+ReBull = {
+heer_enlisted
+}
+
+Fat Seal = {
+heer_enlisted
+}
+
+Spyderpk = {
+heer_enlisted
+}
+
+Bongosz = {
+heer_enlisted
+}
+
+Tristan63 = {
+heer_enlisted
+}
+
+Nightmare1243 = {
+heer_enlisted
+}
+
+Bob newman = {
+heer_enlisted
+}
+
+Sha.SCT = {
+heer_enlisted
+}
+
+vlad3 = {
+heer_enlisted
+}
+
+Lautaroluna180 = {
+heer_enlisted
+}
+
+DancingIsNeverAllowed = {
+heer_enlisted
+}
+
+Window Licker = {
+heer_enlisted
+}
+
+Rata123 = {
+heer_enlisted
+}
+
+Booperkin343435 = {
+heer_enlisted
+}
+
+Gefrakt = {
+heer_enlisted
+}
+
+FoxTail_99 = {
+heer_enlisted
+}
+
+Nobillynotreally = {
+heer_enlisted
+}
 
 ############### SA OFFICER
 
 
 ############### SA NCO
 
+BornToKill946 = {
+sa_nco
+}
+
+Jackomago61 = {
+sa_nco
+}
+
+Trollarch = {
+sa_nco
+}
+
+Nayser = {
+sa_nco
+}
+
+theflyingbananagaming = {
+sa_nco
+}
 
 ############### SA ENLISTED
+
+Night_Fang212 = {
+sa_enlisted
+}
+
+AvgustFroch = {
+sa_enlisted
+}
+
+Billy Hays = {
+sa_enlisted
+}
+
+redory = {
+sa_enlisted
+}
+
+Mikaelcg = {
+sa_enlisted
+}
+
+RayZEvans = {
+sa_enlisted
+}
+
+LeoTheKiller = {
+sa_enlisted
+}
+
+Timtwoshoes = {
+sa_enlisted
+}
+
+Master8688 = {
+sa_enlisted
+}
+
+Luke313 = {
+sa_enlisted
+}
+
+Yarnhut = {
+sa_enlisted
+}
+
+rev1n = {
+sa_enlisted
+}
+
+AlexUNDRRRMKaroff = {
+sa_enlisted
+}
+
+SlinkyLink = {
+sa_enlisted
+}
+
+Sivuha = {
+sa_enlisted
+}
+
+Achap = {
+sa_enlisted
+}
+
+MixanovR64 = {
+sa_enlisted
+}
+
+Bannhammger  = {
+sa_enlisted
+}
+
+sugarbone = {
+sa_enlisted
+}
+
+Nikita588 = {
+sa_enlisted
+}
+
+James Sirk = {
+sa_enlisted
+}
+
+Bob46 = {
+sa_enlisted
+}
+
+Suriyel = {
+sa_enlisted
+}
+
+Slirps = {
+sa_enlisted
+}
+
+Kulduad = {
+sa_enlisted
+}
+
+Total_Epicness5 = {
+sa_enlisted
+}
+
+LordCommissar_Scythe = {
+sa_enlisted
+}
+
+MauroVega = {
+sa_enlisted
+}
+
+SpooksTheSkeleton = {
+sa_enlisted
+}
+
+Korsalpl = {
+sa_enlisted
+}
+
+Troontjelolo1010 = {
+sa_enlisted
+}
+
+Real Josef Stalin = {
+sa_enlisted
+}
+
+TurtleCactus = {
+sa_enlisted
+}
+
+HoChiMinh = {
+sa_enlisted
+}
+
+Dragonforcefive = {
+sa_enlisted
+}
+
+Chief_of_Police = {
+sa_enlisted
+}
+
+Jorogao = {
+sa_enlisted
+}
+
+Timur0808 = {
+sa_enlisted
+}
+
+Atenistra = {
+sa_enlisted
+}
+
+Bobmancer343 = {
+sa_enlisted
+}
+
+Colonist = {
+sa_enlisted
+}
+
+Sprdy = {
+sa_enlisted
+}
 
 
 ############### CSLA OFFICER
 
+Luftie = {
+csla_officer
+}
+
+Lushsalmon123 = {
+csla_officer
+}
 
 ############### CSLA NCO
 
+Echion = {
+csla_nco
+}
+
+MikeForce3321 = {
+csla_nco
+}
+
+Wotzizname = {
+csla_nco
+}
+
+Ondrej008 = {
+csla_nco
+}
+
+Lord_Omega932 = {
+csla_nco
+}
 
 ############### CSLA ENLISTED
+
+Youre in a coma = {
+csla_enlisted
+}
+
+Churro5 = {
+csla_enlisted
+}
+
+NobleRank = {
+csla_enlisted
+}
+
+Nowik347 = {
+csla_enlisted
+}
+
+Booperkin343435 = {
+csla_enlisted
+}
+
+DecebalStalin = {
+csla_enlisted
+}
+
+cesarjunior233 = {
+csla_enlisted
+}
+
+Hsiwe = {
+csla_enlisted
+}
+
+Horatius21 = {
+csla_enlisted
+}
+
+Bzrkr = {
+csla_enlisted
+}
+
+Ezhlk = {
+csla_enlisted
+}
+
+Daelso = {
+csla_enlisted
+}
+
+Raze500 = {
+csla_enlisted
+}
+
+Wulferion = {
+csla_enlisted
+}
+
+Bjamcham = {
+csla_enlisted
+}
+
+Richarl won = {
+csla_enlisted
+}
+
+Def0lt = {
+csla_enlisted
+}
+
+atlasrules87 = {
+csla_enlisted
+}
+
+ADashofGinger = {
+csla_enlisted
+}
+
+Slirps = {
+csla_enlisted
+}
+
+Tsoutsekios = {
+csla_enlisted
+}
+
+Anything86 = {
+csla_enlisted
+}
+
+BartDrown = {
+csla_enlisted
+}
+
+AngryBoar = {
+csla_enlisted
+}
+
+Lord_Omega932 = {
+csla_enlisted
+}
+
+optimisticdude = {
+csla_enlisted
+}
+
+Urist McInternetuser = {
+csla_enlisted
+}
+
+Arbufy = {
+csla_enlisted
+}
 
