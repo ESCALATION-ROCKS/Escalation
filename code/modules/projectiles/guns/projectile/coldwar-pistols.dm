@@ -1,7 +1,7 @@
 
 //COLD WAR GUNS
 /obj/item/weapon/gun/projectile/berettam9
-	name = "Beretta M9"  // DO NOT USE
+	name = "Beretta M9"
 	desc = "That's a Beretta M9. Chambers 9x19mm cartridges."
 	icon_state = "berettam9"
 	item_state = "glock"
@@ -56,7 +56,7 @@
 
 /obj/item/weapon/gun/projectile/aps
 	name = "Stechkin APS"
-	desc = "That's an Avtomaticheskiy Pistolet Stechkina. Chambers 9x18mm cartridges.."
+	desc = "That's an Avtomaticheskiy Pistolet Stechkina. Chambers 9x18mm cartridges."
 	icon_state = "aps"
 	item_state = "pm"
 	w_class = ITEM_SIZE_NORMAL

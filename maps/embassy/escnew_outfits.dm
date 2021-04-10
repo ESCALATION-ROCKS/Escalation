@@ -321,7 +321,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - KGB Komandir Elementa")
 	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
-	holster = /obj/item/weapon/storage/belt/holster/sa
+	holster = /obj/item/weapon/storage/belt/holster/aps
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aek971
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
@@ -344,7 +344,7 @@
 	head = /obj/item/clothing/head/coldwar/altyn
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	belt = /obj/item/weapon/storage/belt/harness/sa
-
+	
 	flags = OUTFIT_HAS_SABACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympmg
@@ -1591,7 +1591,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	l_ear = /obj/item/device/binoculars/nato
 	back = /obj/item/weapon/storage/backpack/rpgusaassistant
-	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/woodland
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/coat/usa
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -1647,7 +1647,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/usmc
-	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/woodland
 	l_pocket = /obj/item/weapon/key/natonco
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -1733,7 +1733,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
-	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/woodland
 	l_ear = null
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/winter
@@ -1750,6 +1750,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	belt = /obj/item/weapon/storage/belt/harness/usmc
+	r_pocket = /obj/item/weapon/facepaint/green
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
 
@@ -1818,10 +1819,11 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
-	holster = /obj/item/weapon/storage/belt/holster/usmc
+	holster = /obj/item/weapon/storage/belt/holster/berettam9
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	l_pocket = /obj/item/weapon/key/natonco
 	l_ear = /obj/item/device/binoculars/nato
+	r_pocket = /obj/item/weapon/facepaint/sniper
 	r_hand = /obj/item/weapon/radioset/prc77
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -1838,6 +1840,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	r_pocket = /obj/item/weapon/facepaint/sniper
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
@@ -1854,6 +1857,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	r_pocket = /obj/item/weapon/facepaint/sniper
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
@@ -1868,6 +1872,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/usmc
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
+	r_pocket = /obj/item/weapon/facepaint/sniper
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
@@ -2126,7 +2131,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	head = /obj/item/clothing/head/coldwar/beret/baf
-
+	
 	flags = OUTFIT_HAS_BAFBACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_loader/pre_equip(mob/living/carbon/human/H)
@@ -3078,7 +3083,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 	flags = OUTFIT_HAS_USABACKPACK
-
+	
 /decl/hierarchy/outfit/job/coldwar/usa/hws_loader/pre_equip(mob/living/carbon/human/H)
 	..()
 	l_hand = pick(/obj/item/clothing/head/coldwar/helmet/usmc/pasgt, /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland)

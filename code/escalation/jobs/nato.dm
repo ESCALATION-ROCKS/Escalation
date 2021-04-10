@@ -479,7 +479,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 2, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/frcnop
 	title = "FORECON Element Operator"
@@ -539,7 +539,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 3, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 2, -1, -1, 1, 1, 3, 0)
 
 ////////////////////////////////////////////////////////////////////BDW
 

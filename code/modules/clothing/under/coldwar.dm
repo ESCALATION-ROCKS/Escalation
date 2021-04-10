@@ -328,8 +328,8 @@
 /obj/item/clothing/under/coldwar/soviet/berezka/
 	name = "'Berezka' fatigues"
 	desc = "An uncommon camouflage uniform issued in Soviet Army."
-	icon_state = "airhabe"
-	worn_state = "airhabe"
+	icon_state = "berezka"
+	worn_state = "berezka"
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
 	siemens_coefficient = 0.7
 	slowdown_general = 0.5
