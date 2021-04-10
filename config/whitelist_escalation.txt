@@ -600,15 +600,7 @@ Churro5 = {
 csla_enlisted
 }
 
-NobleRank = {
-csla_enlisted
-}
-
 Nowik347 = {
-csla_enlisted
-}
-
-Booperkin343435 = {
 csla_enlisted
 }
 
@@ -660,10 +652,6 @@ Def0lt = {
 csla_enlisted
 }
 
-atlasrules87 = {
-csla_enlisted
-}
-
 ADashofGinger = {
 csla_enlisted
 }
@@ -704,3 +692,57 @@ Arbufy = {
 csla_enlisted
 }
 
+
+Chalbo159 = {
+usmc_enlisted
+}
+
+Puny_Edward = {
+csla_enlisted
+}
+
+camper80 = {
+usmc_enlisted
+}
+
+KPW274 = {
+heer_enlisted
+}
+
+Lindow Wicker = {
+heer_enlisted
+}
+
+TeenGowen = {
+csla_enlisted
+sa_enlisted
+}
+
+yung bruh = {
+usmc_enlisted
+}
+
+sdadsa = {
+dasdsa
+}
+
+MinecrafterBoi = {
+csla_enlisted
+}
+
+SilentMountain = {
+csla_enlisted
+}
+
+
+Redzuko = {
+usmc_enlisted
+}
+
+kkj113 = {
+usmc_enlisted
+}
+
+Griffithlol = {
+usmc_enlisted
+}
