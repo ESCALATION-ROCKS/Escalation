@@ -289,7 +289,7 @@ turf/simulated/wall/titanium
 
 /turf/simulated/wall/tentcloth/New(var/newloc)
 	icon_state = null
-	color = "#5E5C4E"
+	color = null
 	..(newloc, "tent cloth")
 
 
@@ -300,5 +300,5 @@ turf/simulated/wall/titanium
 
 /turf/simulated/wall/tentcloth_black/New(var/newloc)
 	icon_state = null
-	color = "#424242"
+	color = null
 	..(newloc, "tent cloth")

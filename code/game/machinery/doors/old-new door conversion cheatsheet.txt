@@ -1,0 +1,10 @@
+interior = doubledoor
+interiorroom = room
+interiorglass = interior
+woodshitty = shed
+home = home
+woodalt = parlor
+wood/glass = exterior
+woodglass1 = hut
+metal2 = steel
+metal = vault
