@@ -178,6 +178,7 @@
 	desc = "Made by Nerd. Co."
 	icon_state = "glasses"
 	item_state = "glasses"
+	wearable = 1
 	prescription = 7
 	body_parts_covered = 0
 
