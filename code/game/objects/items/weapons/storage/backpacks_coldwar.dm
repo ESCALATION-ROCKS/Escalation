@@ -294,7 +294,7 @@
 	item_state = "sovietkitpack"
 	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 16
+	max_storage_space = 12
 	open_delay = 5
 
 /obj/item/weapon/storage/backpack/sakitbag/New()
@@ -408,7 +408,7 @@
 	item_state = "alicemediumpack"
 	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 16
+	max_storage_space = 12
 	open_delay = 5
 
 /obj/item/weapon/storage/backpack/alice/medium/New()
@@ -422,7 +422,7 @@
 	item_state = "heermediumpack"
 	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 16
+	max_storage_space = 12
 	open_delay = 5
 
 /obj/item/weapon/storage/backpack/alice/heer/New()
@@ -436,7 +436,7 @@
 	item_state = "alicelargepack"
 	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 24
+	max_storage_space = 16
 	open_delay = 5
 
 
@@ -444,26 +444,6 @@
 	..()
 	slowdown_per_slot[slot_back] = 0.03
 
-/obj/item/weapon/storage/backpack/alice/large/autorifle
-	name = "ALICE large pack"
-	desc = "Commonly used by USMC."
-	icon_state = "alicelargepack"
-	item_state = "alicelargepack"
-	slot_flags = SLOT_BACK
-	reachable = 0
-	max_storage_space = 24
-	open_delay = 5
-	startswith = list(
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m,
-		/obj/item/ammo_magazine/c556x45m/tr,
-		/obj/item/ammo_magazine/c556x45m/tr
-			)
 
 //finnish
 
@@ -483,7 +463,7 @@
 	icon_state = "finn_backpack"
 	item_state = "finn_backpack"
 	reachable = 0
-	max_storage_space = 16
+	max_storage_space = 12
 	open_delay = 5
 
 /obj/item/weapon/storage/backpack/finn/medical
@@ -550,7 +530,7 @@
 	item_state = "bafmediumpack"
 	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 16
+	max_storage_space = 12
 	open_delay = 5
 
 /obj/item/weapon/storage/backpack/baf/medium/New()
@@ -564,7 +544,7 @@
 	item_state = "baflargepack"
 	slot_flags = SLOT_BACK
 	reachable = 0
-	max_storage_space = 24
+	max_storage_space = 16
 	open_delay = 5
 
 

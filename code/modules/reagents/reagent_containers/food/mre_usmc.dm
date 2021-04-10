@@ -2,10 +2,10 @@
 	name = "\improper U.S MRE"
 	desc = "That's the meal-ready-to-eat, a ration pack used by NATO armed forces."
 	icon_state = "mre"
-	w_class = 2
-	can_hold = list()
+	w_class = ITEM_SIZE_NORMAL
+	can_hold = null ////Disables putting things back in the MRE.
 	storage_slots = 5
-	max_w_class = 0
+	w_class = ITEM_SIZE_SMALL
 	foldable = 0
 	icon = 'icons/obj/us_mre.dmi'
 	var/isopened = 0
@@ -41,7 +41,8 @@
 	name = "\improper MRE component"
 	desc = "A package from a Meal Ready-to-Eat, used by NATO. Contains a part of a meal, prepared for field consumption."
 	wrapped = 1
-	bitesize = 5
+	bitesize = 3
+	w_class = ITEM_SIZE_SMALL
 	icon_state = "entree"
 	icon = 'icons/obj/us_mre.dmi'
 	var/flavor = "boneless pork ribs"//default value
@@ -117,10 +118,10 @@
 	name = "\improper BAF ORP"
 	desc = "That's an Operational Ration Pack, a ration pack used by British Armed Forces."
 	icon_state = "orp"
-	w_class = 2
-	can_hold = list()
+	w_class = ITEM_SIZE_NORMAL
+	max_w_class = ITEM_SIZE_SMALL
+	can_hold = null////Disables putting things back in the MRE.
 	storage_slots = 5
-	max_w_class = 0
 	foldable = 0
 	icon = 'icons/obj/baf_mre.dmi'
 	var/isopened = 0
@@ -156,7 +157,8 @@
 	name = "\improper ORP component"
 	desc = "A package from an Operational Ration Pack, used by BAF. Contains a part of a meal, prepared for field consumption."
 	wrapped = 1
-	bitesize = 5
+	bitesize = 3
+	w_class = ITEM_SIZE_SMALL
 	icon_state = "entree"
 	icon = 'icons/obj/baf_mre.dmi'
 	var/flavor = "bacon & beans"//default value
@@ -187,7 +189,7 @@
 			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("beef & tomato soup", "vegetable soup", "cream of mushroom soup")
 			icon_state = "soup"
-			reagents.add_reagent(/datum/reagent/nutriment/, 10)
+			reagents.add_reagent(/datum/reagent/nutriment/, 5)
 			reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
 		if("cracker", "biscuit", "oatmeal biscuit")
 			icon_state = "side"
@@ -198,151 +200,3 @@
 			reagents.add_reagent(/datum/reagent/nutriment/, 5)
 			reagents.add_reagent(/datum/reagent/sugar, 5)
 			reagents.add_reagent(/datum/reagent/nutriment/coco, 5)
-
-/obj/item/weapon/reagent_containers/food/snacks/halbbitter
-	name = "halb-bitter schokolade"
-	desc = "A bar of German chocolate. A soldiers best friend"
-	wrapped = 1
-	bitesize = 3
-	icon_state = "halbbitter"
-	trash = /obj/item/trash/halbbitter
-/obj/item/weapon/reagent_containers/food/snacks/halbbitter/New()
-		..()
-		reagents.add_reagent(/datum/reagent/sugar, 5)
-		reagents.add_reagent(/datum/reagent/nutriment/coco, 10)
-
-/obj/item/weapon/reagent_containers/food/snacks/halbbitter/attack_self(mob/user as mob)
-	if (wrapped)
-		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
-		icon_state = "halbbitter_open"
-		wrapped = 0
-	else 
-		..()
-
-/obj/item/weapon/reagent_containers/food/snacks/beefmushrooms
-	name = "beef & mushrooms"
-	desc = "A can of beef & mushroom sautee with rice."
-	w_class = 2
-	center_of_mass = "x=16;y=14"
-	icon_state = "beefmushrooms"
-	trash = /obj/item/trash/tincan/beefmushrooms
-	bitesize = 3
-	wrapped = 1
-
-/obj/item/weapon/reagent_containers/food/snacks/beefmushrooms/New()
-	..()
-	reagents.add_reagent(/datum/reagent/nutriment, 20)
-	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
-	bitesize = 3
-
-/obj/item/weapon/reagent_containers/food/snacks/beefmushrooms/attack_self(mob/user as mob)
-	if (wrapped)
-		to_chat(user,  "<span class='notice'>You pull open the lid of the meal!</span>")
-		icon_state = "beefmushrooms_open"
-		wrapped = 0
-	else 
-		..()
-
-/obj/item/weapon/reagent_containers/food/snacks/chickencurry
-	name = "chicken curry"
-	desc = "A can of chicken curry with rice."
-	w_class = 2
-	center_of_mass = "x=16;y=14"
-	icon_state = "chickencurry"
-	trash = /obj/item/trash/tincan/chickencurry
-	bitesize = 3
-	wrapped = 1
-
-/obj/item/weapon/reagent_containers/food/snacks/chickencurry/New()
-	..()
-	reagents.add_reagent(/datum/reagent/nutriment, 20)
-	reagents.add_reagent(/datum/reagent/nutriment/protein, 20)
-	bitesize = 3
-
-/obj/item/weapon/reagent_containers/food/snacks/chickencurry/attack_self(mob/user as mob)
-	if (wrapped)
-		to_chat(user,  "<span class='notice'>You pull open the lid of the meal!</span>")
-		icon_state = "chickencurry_open"
-		wrapped = 0
-	else 
-		..()
-
-/obj/item/weapon/reagent_containers/food/snacks/finnchocolate
-	name = "Karl Fazer chocolate"
-	desc = "A bar of Finnish dark chocolate."
-	wrapped = 1
-	bitesize = 3
-	icon_state = "karlfazer"
-	trash = /obj/item/trash/karlfazer
-/obj/item/weapon/reagent_containers/food/snacks/finnchocolate/New()
-		..()
-		reagents.add_reagent(/datum/reagent/sugar, 3)
-		reagents.add_reagent(/datum/reagent/nutriment/coco, 15)
-
-/obj/item/weapon/reagent_containers/food/snacks/finnchocolate/attack_self(mob/user as mob)
-	if (wrapped)
-		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
-		icon_state = "karlfazer_open"
-		wrapped = 0
-	else 
-		..()
-
-/obj/item/weapon/reagent_containers/food/snacks/finnoats
-	name = "honey & oats bar"
-	desc = "A bar of oats, held together by honey."
-	wrapped = 1
-	bitesize = 3
-	icon_state = "finnoats"
-	trash = /obj/item/trash/finnoats
-/obj/item/weapon/reagent_containers/food/snacks/finnoats/New()
-		..()
-		reagents.add_reagent(/datum/reagent/sugar, 5)
-		reagents.add_reagent(/datum/reagent/nutriment, 10)
-
-/obj/item/weapon/reagent_containers/food/snacks/finnoats/attack_self(mob/user as mob)
-	if (wrapped)
-		to_chat(user,  "<span class='notice'>You pull open the package of the oats!</span>")
-		icon_state = "finnoats_open"
-		wrapped = 0
-	else 
-		..()
-
-/obj/item/weapon/reagent_containers/food/snacks/breadsalmon
-	name = "crisp bread w/ salmon"
-	desc = "A piece of crisp bread with salmon spread over it."
-	wrapped = 1
-	bitesize = 3
-	icon_state = "breadsalmon"
-	trash = /obj/item/trash/crispbread
-/obj/item/weapon/reagent_containers/food/snacks/breadsalmon/New()
-		..()
-		reagents.add_reagent(/datum/reagent/nutriment/protein, 5)
-		reagents.add_reagent(/datum/reagent/nutriment, 10)
-
-/obj/item/weapon/reagent_containers/food/snacks/breadsalmon/attack_self(mob/user as mob)
-	if (wrapped)
-		to_chat(user,  "<span class='notice'>You pull open the package of the bread!</span>")
-		icon_state = "breadsalmon_open"
-		wrapped = 0
-	else 
-		..()
-
-/obj/item/weapon/reagent_containers/food/snacks/breadham
-	name = "crisp bread w/ ham"
-	desc = "A piece of crisp bread with ham spread over it."
-	wrapped = 1
-	bitesize = 3
-	icon_state = "breadham"
-	trash = /obj/item/trash/crispbread
-/obj/item/weapon/reagent_containers/food/snacks/breadham/New()
-		..()
-		reagents.add_reagent(/datum/reagent/nutriment/protein, 5)
-		reagents.add_reagent(/datum/reagent/nutriment, 10)
-
-/obj/item/weapon/reagent_containers/food/snacks/breadham/attack_self(mob/user as mob)
-	if (wrapped)
-		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
-		icon_state = "breadham_open"
-		wrapped = 0
-	else 
-		..()
