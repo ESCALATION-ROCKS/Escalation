@@ -358,40 +358,6 @@ var/list/floor_decals = list()
 	name = "L16"
 	icon_state = "L16"
 
-/obj/effect/floor_decal/sign
-	name = "floor sign"
-	icon_state = "white_1"
-
-/obj/effect/floor_decal/sign/two
-	icon_state = "white_2"
-
-/obj/effect/floor_decal/sign/a
-	icon_state = "white_a"
-
-/obj/effect/floor_decal/sign/b
-	icon_state = "white_b"
-
-/obj/effect/floor_decal/sign/c
-	icon_state = "white_c"
-
-/obj/effect/floor_decal/sign/d
-	icon_state = "white_d"
-
-/obj/effect/floor_decal/sign/ex
-	icon_state = "white_ex"
-
-/obj/effect/floor_decal/sign/m
-	icon_state = "white_m"
-
-/obj/effect/floor_decal/sign/cmo
-	icon_state = "white_cmo"
-
-/obj/effect/floor_decal/sign/v
-	icon_state = "white_v"
-
-/obj/effect/floor_decal/sign/p
-	icon_state = "white_p"
-
 /obj/effect/floor_decal/solarpanel
 	icon_state = "solarpanel"
 

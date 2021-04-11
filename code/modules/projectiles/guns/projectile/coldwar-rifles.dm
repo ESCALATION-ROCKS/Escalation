@@ -1675,7 +1675,7 @@
 	name = "StG 58"
 	desc = "An outdated Bundesheer combat rifle. Chambers 7.62x51 rounds."
 	icon_state = "stg58"
-	item_state = "l1a1"
+	item_state = "stg58"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
@@ -1690,7 +1690,7 @@
 	bayonet_attachable = 1
 	jam_chance = 0.360
 	slowdown_general = 0.27
-	wielded_item_state = "l1a1-wielded"
+	wielded_item_state = "stg58-wielded"
 	fire_sound = 'sound/weapons/gunshot/fnfal.ogg'
 	unload_sound = 'sound/weapons/gunporn/fnfal_magout.ogg' // NEED TO CHANGE SOUNDS
 	reload_sound = 'sound/weapons/gunporn/fnfal_magin.ogg'
@@ -1707,10 +1707,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "stg58"
-		wielded_item_state = "l1a1-wielded"
+		wielded_item_state = "stg58-wielded"
 	else
 		icon_state = "stg58-empty"
-		wielded_item_state = "l1a1-wielded-empty"
+		wielded_item_state = "stg58-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/sterling
 	name = "Sterling SMG"

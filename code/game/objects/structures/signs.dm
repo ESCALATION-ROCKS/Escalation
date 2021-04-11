@@ -1148,3 +1148,42 @@ obj/structure/sign/noshitlers
 /obj/structure/sign/chinese/evacuation
 	icon_state = "CH_evacuation"
 
+
+/obj/structure/sign/floor/
+	name = "floor sign"
+	icon = 'icons/obj/decals.dmi'
+	icon_state = "white_1"
+
+/obj/structure/sign/floor/one
+	name = "floor sign"
+	icon_state = "white_1"
+
+/obj/structure/sign/floor/two
+	icon_state = "white_2"
+
+/obj/structure/sign/floor/a
+	icon_state = "white_a"
+
+/obj/structure/sign/floor/b
+	icon_state = "white_b"
+
+/obj/structure/sign/floor/c
+	icon_state = "white_c"
+
+/obj/structure/sign/floor/d
+	icon_state = "white_d"
+
+/obj/structure/sign/floor/ex
+	icon_state = "white_ex"
+
+/obj/structure/sign/floor/m
+	icon_state = "white_m"
+
+/obj/structure/sign/floor/cmo
+	icon_state = "white_cmo"
+
+/obj/structure/sign/floor/v
+	icon_state = "white_v"
+
+/obj/structure/sign/floor/p
+	icon_state = "white_p"

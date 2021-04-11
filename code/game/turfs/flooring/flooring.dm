@@ -53,6 +53,7 @@ var/list/flooring_types
 	flags = TURF_HAS_EDGES | TURF_REMOVE_SHOVEL
 	build_type = /obj/item/stack/tile/grass
 	movement_delay = 0.4
+
 /decl/flooring/asteroid
 	name = "coarse sand"
 	desc = "Gritty and unpleasant."
@@ -61,6 +62,7 @@ var/list/flooring_types
 	flags = TURF_HAS_EDGES | TURF_REMOVE_SHOVEL
 	build_type = null
 	movement_delay = 0.4
+
 /decl/flooring/carpet
 	name = "brown carpet"
 	desc = "Comfy and fancy carpeting."
@@ -129,23 +131,19 @@ var/list/flooring_types
 		'sound/effects/footsteps/tile3.wav',
 		'sound/effects/footsteps/tile4.wav'))
 
-/decl/flooring/linoleum
+/decl/flooring/tiling/linoleum
 	name = "linoleum"
 	desc = "It's like the 2390's all over again."
 	icon = 'icons/turf/flooring/linoleum.dmi'
 	icon_base = "lino"
-	can_paint = 1
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/linoleum
 	flags = TURF_REMOVE_SCREWDRIVER
 
-/decl/flooring/fancytiles
+/decl/flooring/tiling/fancytiles
 	name = "tiles"
 	desc = "Fancy ornamented tiles arranged in beautiful shapes."
 	icon = 'icons/turf/flooring/whitelam.dmi'
 	icon_base = "whitelam"
-	can_paint = 1
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/floor_white
 	flags = TURF_REMOVE_SCREWDRIVER
 
@@ -155,7 +153,6 @@ var/list/flooring_types
 	icon_base = "white"
 	has_damage_range = null
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/floor_white
 	has_damage_range = 4
 
@@ -163,7 +160,6 @@ var/list/flooring_types
 	desc = "How ominous."
 	icon_base = "dark"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/floor_dark
 	has_damage_range = 4
 
@@ -171,7 +167,6 @@ var/list/flooring_types
 	desc = "Don't slip."
 	icon_base = "freezer"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/floor_freezer
 	has_damage_range = 4
 
@@ -182,7 +177,6 @@ var/list/flooring_types
 	icon = 'icons/turf/bunk.dmi'
 	icon_base = "plating"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/bunker
 	has_damage_range = 4
 
@@ -191,7 +185,6 @@ var/list/flooring_types
 	desc = "Don't slip."
 	icon_base = "hydro"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/floor_hydro
 	has_damage_range = 4
 
@@ -200,7 +193,6 @@ var/list/flooring_types
 	desc = "Don't slip."
 	icon_base = "hydro"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/floor_showroom
 	has_damage_range = 4
 
@@ -209,7 +201,6 @@ var/list/flooring_types
 	desc = "Don't slip."
 	icon_base = "cafe"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/floor_cafe
 	has_damage_range = 4
 
@@ -218,7 +209,6 @@ var/list/flooring_types
 	desc = "Don't slip."
 	icon_base = "old_tile_cargo"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/yellow
 	has_damage_range = 4
 
@@ -227,7 +217,6 @@ var/list/flooring_types
 	desc = "Don't slip."
 	icon_base = "old_tile_black"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/black
 	has_damage_range = 4
 
@@ -236,7 +225,6 @@ var/list/flooring_types
 	desc = "Don't slip."
 	icon_base = "old_tile_red"
 	flags = TURF_REMOVE_CROWBAR
-	movement_delay = 0.4
 	build_type = /obj/item/stack/tile/red
 	has_damage_range = 4
 
@@ -246,7 +234,6 @@ var/list/flooring_types
 	icon_base = "polar"
 	build_type = /obj/item/stack/tile/polar
 	has_damage_range = 4
-	movement_delay = 0.4
 
 /decl/flooring/tiling/bar
 	name = "floor"
@@ -256,14 +243,12 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR
 	build_type = /obj/item/stack/tile/bar
 	has_damage_range = 4
-	movement_delay = 0.4
 
 /decl/flooring/tiling/misc
 	icon = 'icons/turf/flooring/misc.dmi'
 	flags = TURF_REMOVE_CROWBAR
 	can_paint = 0
 	has_damage_range = 4
-	movement_delay = 0.4
 
 /decl/flooring/tiling/misc/sec
 	icon_base = "sec_chess"
