@@ -196,27 +196,6 @@
 	desc = "An old vinyl player. Get with the times, old man!"
 	anchored = 0
 
-/obj/structure/sign/vinil
-	name = "Vinyl"
-	icon = 'icons/obj/coldwardecorations.dmi'
-	icon_state = "vinil"
-	desc = "Put this in a player."
-	anchored = 0
-
-/obj/structure/sign/vhstape
-	name = "VHS tape"
-	icon = 'icons/obj/coldwardecorations.dmi'
-	icon_state = "vhs"
-	desc = "Put this in a player."
-	anchored = 0
-
-/obj/structure/sign/vhsbox
-	name = "VHS box"
-	icon = 'icons/obj/coldwardecorations.dmi'
-	icon_state = "animal"
-	desc = "A VHS box with a VHS tape in it."
-	anchored = 0
-
 /obj/structure/sign/money1
 	name = "pile of money"
 	icon = 'icons/obj/coldwardecorations.dmi'
@@ -594,10 +573,77 @@
 
 
 
+////////////VINYLS, TAPES (EXCLUDING BOOMBOX STUFF) - putting them here for ease of access
 
+/obj/structure/sign/vinyl
+	name = "Vinyl player"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	icon_state = "vinylplayer"
+	desc = "An old vinyl player. Get with the times, old man!"
+	anchored = 0
 
+/obj/item/weapon/storage/box/vinylsleeve
+	name = "vinyl sleeve"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	w_class = ITEM_SIZE_LARGE
+	max_w_class = ITEM_SIZE_LARGE
+	use_sound = null
+	max_storage_space = 8
+	desc = "That's a vinyl sleeve made to store a vinyl."
+	foldable = 0
+	icon_state = "vinylsleeve1"
+	can_hold = list(/obj/item/weapon/vinylrecord)
+	startswith = list(/obj/item/weapon/vinylrecord = 1)
 
+/obj/item/weapon/storage/box/vinylsleeve/New()
+	..()
+	icon_state = "vinylsleeve[rand(1, 4)]"
 
+/obj/item/weapon/vinylrecord
+	name = "vinyl"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	w_class = ITEM_SIZE_LARGE
+	desc = "Put this in a vinyl player."
+	icon_state = "vinyl1"
+
+/obj/item/weapon/vinylrecord/New()
+	..()
+	icon_state = "vinyl[rand(1, 4)]"
+
+/obj/structure/sign/vhs
+	name = "VHS player"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	icon_state = "vhsplayer"
+	desc = "Does not have a cassette in it."
+	anchored = 0
+
+/obj/item/weapon/storage/box/vhsbox
+	name = "VHS box"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	icon_state = "vhsbox1"
+	desc = "That's a VHS box made to store a VHS tape."
+	use_sound = null
+	max_storage_space = 2
+	foldable = 0
+	w_class = ITEM_SIZE_NORMAL
+	max_w_class = ITEM_SIZE_SMALL
+	can_hold = list(/obj/item/weapon/vhstape)
+	startswith = list(/obj/item/weapon/vhstape = 1)
+
+/obj/item/weapon/storage/box/vhsbox/New()
+	..()
+	icon_state = "vhsbox[rand(1, 4)]"
+
+/obj/item/weapon/vhstape
+	name = "VHS tape"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	w_class = ITEM_SIZE_SMALL
+	icon_state = "vhstape1"
+	desc = "Put this in a VHS player."
+
+/obj/item/weapon/vhstape/New()
+	..()
+	icon_state = "vhstape[rand(1, 4)]"
 
 /////////DECORATIVE MANNEQUINS FROM BAY12 - ONLY FOR DECORATING ARCADES ETC. DON'T USE THESE ANYWHERE ELSE LOOKS WACKY AS FUCK
 
