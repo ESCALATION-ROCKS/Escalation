@@ -482,7 +482,7 @@
 		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/frcnop
-	title = "FORECON Element Operator"
+	title = "FORECON Operator"
 	name = "Element Operator"
 	english_name = null
 	minimal_player_age = 21
@@ -502,7 +502,7 @@
 		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/frcnmg
-	title = "FORECON Element Machinegunner"
+	title = "FORECON Machinegunner"
 	name = "Element Machinegunner"
 	english_name = null
 	minimal_player_age = 21
@@ -522,7 +522,7 @@
 		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/usmc/frcnsm
-	title = "FORECON Element Marksman"
+	title = "FORECON Marksman"
 	name = "Element Marksman"
 	english_name = null
 	minimal_player_age = 21

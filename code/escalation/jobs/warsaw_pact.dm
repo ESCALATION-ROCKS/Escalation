@@ -514,7 +514,7 @@
 		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/vympmg
-	title = "KGB Pulemetchik Elementa"
+	title = "KGB Pulemetchik"
 	name = "Pulemetchik Elementa"
 	english_name = "Element Machinegunner"
 	minimal_player_age = 21
@@ -534,7 +534,7 @@
 		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/vympsm
-	title = "KGB Snaiper Elementa"
+	title = "KGB Snaiper"
 	name = "Snaiper Elementa"
 	english_name = "Element Sniper"
 	minimal_player_age = 21
