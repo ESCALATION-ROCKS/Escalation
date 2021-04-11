@@ -237,18 +237,17 @@
 	icon_state = "freezer"
 	initial_flooring = /decl/flooring/tiling/freezer
 
-/turf/simulated/floor/lino
+/turf/simulated/floor/tiled/lino
 	name = "lino"
 	icon = 'icons/turf/flooring/linoleum.dmi'
 	icon_state = "lino"
-	initial_flooring = /decl/flooring/linoleum
+	initial_flooring = /decl/flooring/tiling/linoleum
 
-/turf/simulated/floor/fancytiles
+/turf/simulated/floor/tiled/fancytiles
 	name = "tiles"
 	icon = 'icons/turf/flooring/fancytile.dmi'
 	icon_state = "greylam"
-	movement_delay = 0.4
-	initial_flooring = /decl/flooring/fancytiles
+	initial_flooring = /decl/flooring/tiling/fancytiles
 
 //ATMOS PREMADES
 /turf/simulated/floor/reinforced/airless

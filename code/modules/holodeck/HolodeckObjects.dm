@@ -34,7 +34,7 @@
 	name = "lino"
 	icon = 'icons/turf/flooring/linoleum.dmi'
 	icon_state = "lino"
-	initial_flooring = /decl/flooring/linoleum
+	initial_flooring = /decl/flooring/tiling/linoleum
 
 /turf/simulated/floor/holofloor/wood
 	name = "wooden floor"

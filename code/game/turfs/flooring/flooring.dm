@@ -71,7 +71,7 @@ var/list/flooring_types
 	build_type = /obj/item/stack/tile/carpet
 	damage_temperature = T0C+200
 	flags = TURF_HAS_EDGES | TURF_HAS_CORNERS | TURF_REMOVE_CROWBAR | TURF_CAN_BURN
-	movement_delay = 0.4
+	movement_delay = 0.6
 	footstep_sounds = list("human" = list(
 		'sound/effects/footsteps/carpet1.wav',
 		'sound/effects/footsteps/carpet2.wav',
@@ -124,7 +124,7 @@ var/list/flooring_types
 	flags = TURF_REMOVE_CROWBAR | TURF_CAN_BREAK | TURF_CAN_BURN
 	build_type = /obj/item/stack/tile/floor
 	can_paint = 1
-	movement_delay = 0.4
+	movement_delay = 0.6
 	footstep_sounds = list("human" = list(
 		'sound/effects/footsteps/tile1.wav',
 		'sound/effects/footsteps/tile2.wav',
@@ -274,7 +274,7 @@ var/list/flooring_types
 	damage_temperature = T0C+200
 	descriptor = "planks"
 	can_paint = 1
-	movement_delay = 0.4
+	movement_delay = 0.6
 	build_type = /obj/item/stack/tile/wood
 	flags = TURF_CAN_BREAK | TURF_IS_FRAGILE | TURF_REMOVE_SCREWDRIVER
 	footstep_sounds = list("human" = list(
@@ -296,7 +296,7 @@ var/list/flooring_types
 	apply_thermal_conductivity = 0.025
 	apply_heat_capacity = 325000
 	can_paint = 1
-	movement_delay = 0.4
+	movement_delay = 0.5
 	footstep_sounds = list("human" = list(
 		'sound/effects/footsteps/metalgrate1.wav',
 		'sound/effects/footsteps/metalgrate2.wav',
@@ -310,7 +310,6 @@ var/list/flooring_types
 	build_type = null
 	flags = TURF_ACID_IMMUNE | TURF_CAN_BREAK | TURF_REMOVE_WRENCH
 	can_paint = 1
-	movement_delay = 0.4
 
 /decl/flooring/reinforced/circuit/green
 	icon_base = "gcircuit"
@@ -327,7 +326,6 @@ var/list/flooring_types
 	icon_base = "cult"
 	build_type = null
 	has_damage_range = 6
-	movement_delay = 0.4
 	flags = TURF_ACID_IMMUNE | TURF_CAN_BREAK | TURF_REMOVE_WRENCH
 	can_paint = null
 
@@ -340,7 +338,6 @@ var/list/flooring_types
 	build_type = null
 	flags = TURF_ACID_IMMUNE | TURF_CAN_BREAK | TURF_REMOVE_WRENCH
 	can_paint = 1
-	movement_delay = 0.4
 
 /decl/flooring/reinforced/shuttle/blue
 	icon_base = "floor"
@@ -378,7 +375,6 @@ var/list/flooring_types
 	build_type = null
 	flags = TURF_ACID_IMMUNE | TURF_CAN_BREAK
 	can_paint = 1
-	movement_delay = 0.4
 
 /decl/flooring/reinforced/ramp/bottom
 	icon_base = "rampbot"
