@@ -1,11 +1,11 @@
 
 /datum/map/escnew
-	name = "Europe on Flame"
-	full_name = "The Example"
-	path = "example"
+	name = "embassy_1983"
+	full_name = "Escalation: 1983 - Embassy"
+	path = "embassy_1983"
 
-	lobby_icon = 'maps/embassy/escnew_lobby.dmi'
-	lobby_screens = list("valour")
+	lobby_icon = 'maps/embassy_1983/escnew_lobby.dmi'
+	lobby_screens = list("1983")
 
 	station_levels = list(1, 2, 3)
 	contact_levels = list(1, 2, 3)
