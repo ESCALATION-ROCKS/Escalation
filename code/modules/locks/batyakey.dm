@@ -3,6 +3,7 @@
 	icon = 'icons/obj/items.dmi'
 	icon_state = "keyring"
 	name = "keyring"
+	slot_flags = SLOT_EARS
 	desc = "This holds your keys. Use this when you want to unlock something, dummy."
 	w_class = 2
 

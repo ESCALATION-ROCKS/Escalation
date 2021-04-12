@@ -328,8 +328,9 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/coldwar/beret/soviet
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
-	r_pocket = /obj/item/weapon/key/wpnco
+	r_ear = /obj/item/weapon/key/wpnco
 	l_pocket = /obj/item/clothing/gloves/bdw
+	r_pocket = /obj/item/clothing/mask/balaclava
 	r_hand = /obj/item/weapon/radioset/r105d
 	l_hand = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	l_ear = /obj/item/device/binoculars/wp

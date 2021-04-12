@@ -442,7 +442,7 @@
 /obj/item/clothing/head/coldwar/beret/bdw
 	name = "mountaineer beret"
 	desc = "A green beret common amongst Bundeswehr mountaineer divisions."
-	icon_state = "bdwberret"
+	icon_state = "bdwberet"
 
 //BDW helmets
 /obj/item/clothing/head/coldwar/helmet/bdw/m62
@@ -492,7 +492,7 @@
 /obj/item/clothing/head/coldwar/beret/heer
 	name = "beret"
 	desc = "A green beret common amongst Bundesheer divisions."
-	icon_state = "heerberret"
+	icon_state = "heerberet"
 
 //heer helmets
 /obj/item/clothing/head/coldwar/helmet/heer/m1
@@ -527,7 +527,7 @@
 /obj/item/clothing/head/coldwar/beret/baf
 	name = "British Armed Forces beret"
 	desc = "A maroon beret common amongst BAF airtrooper divisions."
-	icon_state = "bafberret"
+	icon_state = "bafberet"
 
 /obj/item/clothing/head/coldwar/garcap/baf
 	name = "garrison cap"

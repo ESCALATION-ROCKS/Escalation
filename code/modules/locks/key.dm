@@ -4,6 +4,7 @@
 	icon = 'icons/obj/items.dmi'
 	icon_state = "keys"
 	w_class = 1
+	slot_flags = SLOT_EARS
 	var/key_data = ""
 
 /obj/item/weapon/key/New()
