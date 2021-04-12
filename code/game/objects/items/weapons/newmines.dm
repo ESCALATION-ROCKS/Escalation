@@ -140,10 +140,12 @@
 	else return*/
 
 /obj/item/weapon/mine/attackby(obj/item/weapon/W as obj)
+	if(prob(4)) ///////1 in every 20 mines are rigged to explode instantly - disabled for now
+		expl()
 	if(istype(W, /obj/item/weapon/shovel))
 		deactivate()
 	else if(active)
-		if(prob(75))
+		if(prob(80))
 			expl()
 		else
 			return
@@ -151,8 +153,8 @@
 /obj/item/weapon/mine/proc/deactivate()
 	if(active)
 		usr << "You start to deactivate [src]."
-		if (do_after(usr, 120))
-			if(prob(50))
+		if (do_after(usr, 180))
+			if(prob(75))
 				src.active = 0
 				update_icon()
 				usr << "\blue Mine has been deactivated."

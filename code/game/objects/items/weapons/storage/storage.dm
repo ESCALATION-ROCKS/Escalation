@@ -23,6 +23,7 @@
 	var/use_sound = "rustle"	//sound played when used. null for no sound.
 	var/close_sound = null
 	var/open_delay = 0
+	var/sealed = 0 //////Does it need to be unsealed before opening? ie. soviet ammo cans - not a very robust implementation codewise but if it works it works
 
 	//initializes the contents of the storage with some items based on an assoc list. The assoc key must be an item path,
 	//the assoc value can either be the quantity, or a list whose first value is the quantity and the rest are args.
@@ -84,6 +85,9 @@
 /obj/item/weapon/storage/proc/open(mob/user as mob)
 	if (src.use_sound)
 		playsound(src.loc, src.use_sound, 50, 1, -5)
+	if(sealed)
+		to_chat(user, "<span class='warning'>You must unseal the [src] before opening it!")
+		return 0
 	if(open_delay && !do_after(user, open_delay * user.sstatmodifier(user.dex), src))
 		return 0
 

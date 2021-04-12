@@ -371,6 +371,7 @@
 	ammo_type = /obj/item/ammo_casing/c9mm
 	max_ammo = 30
 	multiple_sprites = 1
+	var/key_name = "ammo box"
 	mag_type = AMMO_BOX
 
 /obj/item/ammo_magazine/box/paper/x762
@@ -428,7 +429,7 @@
 	icon_state = "ammocan"
 
 /obj/item/weapon/storage/fancy/ammo_can/soviet/
-	var/sealed = 1
+	sealed = 1
 
 /obj/item/weapon/storage/fancy/ammo_can/soviet/MouseDrop()
 	if (sealed)

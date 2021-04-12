@@ -66,7 +66,7 @@
 	name = "pack of nothing"
 	desc = "Contains nothing."
 	icon = 'icons/obj/medical.dmi'
-	w_class = 2 //Packed very effective
+	w_class = ITEM_SIZE_SMALL //Packed very effective
 	var/content_type = null
 	var/packed = 1
 	var/rip_sound = 'sound/effects/rip_pack.ogg'
@@ -120,7 +120,7 @@
 /obj/item/weapon/gauze_pack/ipp
 	name = "'IPP'"
 	desc = "That's the Individualniy Perevyazochniy Paket. Contains sterile gauze."
-	w_class = 2
+	w_class = ITEM_SIZE_SMALL
 	icon_state = "bint_pack"
 	content_type = /obj/item/stack/medical/bruise_pack/gauze
 
@@ -133,7 +133,7 @@
 /obj/item/weapon/gauze_pack/gauze
 	name = "M56 gauze pack"
 	desc = "Contains sterile gauze."
-	w_class = 2
+	w_class = ITEM_SIZE_SMALL
 	icon_state = "gauze_pack"
 	content_type = /obj/item/stack/medical/bruise_pack/gauze
 
@@ -499,7 +499,7 @@
 	name = "pill pack"
 	desc = "Pills in sterile and handy pack."
 	icon = 'icons/obj/medical.dmi'
-	w_class = 2//Packed very effective
+	w_class = ITEM_SIZE_SMALL//Packed very effective
 	icon_state = "pill_pack"
 	var/pill_type = null
 	var/pop_sound = 'sound/effects/pop_pill.ogg'
@@ -611,11 +611,17 @@
 	name = "pill box"
 	icon_state = "pillbox"
 	icon = 'icons/obj/medical.dmi'
-	w_class = 2
-	max_w_class = 2
+	w_class = ITEM_SIZE_SMALL
+	max_w_class = ITEM_SIZE_SMALL
+	foldable = 0
 	max_storage_space = 4
 	can_hold = list(/obj/item/weapon/pill_pack/)
 
+/obj/item/weapon/storage/box/pill_box/update_icon()
+	if(contents.len)
+		src.icon_state = "[initial(icon_state)]"
+	else
+		src.icon_state = "[initial(icon_state)]-empty"
 
 /obj/item/weapon/storage/box/pill_box/aminocaproic
 	name = "aminocaproic acid pill box"
@@ -700,7 +706,7 @@
 	icon_state = "ampoule"
 	item_state = null
 	amount_per_transfer_from_this = 5
-	w_class = 1
+	w_class = ITEM_SIZE_TINY
 	slot_flags = null
 	volume = 10
 	flags = null
@@ -813,7 +819,7 @@
 	name = "ampoule pack"
 	desc = "That's an ampoule pack."
 	icon = 'icons/obj/medical.dmi'
-	w_class = 2
+	w_class = ITEM_SIZE_SMALL
 	icon_state = "ampoule_pack"
 	var/ampoule_type = null
 
@@ -921,10 +927,18 @@
 	name = "ampoule box"
 	icon_state = "ampoulebox"
 	icon = 'icons/obj/medical.dmi'
-	w_class = 2
-	max_w_class = 2
+	w_class = ITEM_SIZE_SMALL
+	max_w_class = ITEM_SIZE_SMALL
+	foldable = 0
 	max_storage_space = 4
 	can_hold = list(/obj/item/weapon/ampoule_pack/)
+
+
+/obj/item/weapon/storage/box/ampoule_box/update_icon()
+	if(contents.len)
+		src.icon_state = "[initial(icon_state)]"
+	else
+		src.icon_state = "[initial(icon_state)]-empty"
 
 /obj/item/weapon/storage/box/ampoule_box/aminocaproic
 	name = "aminocaproic acid ampoule box"
