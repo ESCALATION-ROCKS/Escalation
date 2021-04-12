@@ -55,6 +55,13 @@
 /obj/item/clothing/under/coldwar/usmc/woodland/alt/fstlt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt, /obj/item/clothing/accessory/storage/uniform_pockets)
 
+///FORECON
+/obj/item/clothing/under/coldwar/usmc/woodland/alt/sgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/sgt, /obj/item/clothing/accessory/storage/uniform_pockets, /obj/item/clothing/accessory/coldwar/kneepads)
+
+/obj/item/clothing/under/coldwar/usmc/woodland/alt/lcpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/lcpl, /obj/item/clothing/accessory/storage/uniform_pockets, /obj/item/clothing/accessory/coldwar/kneepads)
+
 
 //Bundeswehr
 
@@ -343,10 +350,10 @@
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/gefr, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/jsgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/jsgt, /obj/item/clothing/accessory/storage/uniform_pockets, /obj/item/clothing/accessory/coldwar/kneepads)
 
 /obj/item/clothing/under/coldwar/soviet/berezka/sgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/sgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/sgt, /obj/item/clothing/accessory/storage/uniform_pockets, /obj/item/clothing/accessory/coldwar/kneepads)
 
 /obj/item/clothing/under/coldwar/soviet/berezka/ssgt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/,/obj/item/clothing/accessory/insignia/soviet/ssgt, /obj/item/clothing/accessory/storage/uniform_pockets)
@@ -522,3 +529,10 @@
 
 /obj/item/clothing/under/coldwar/csla/vz60/leutnant
 	starting_accessories = list(/obj/item/clothing/accessory/badge/wpdogtag/, /obj/item/clothing/accessory/insignia/csla/leutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+
+/obj/item/clothing/accessory/coldwar/kneepads
+	name = "kneepads"
+	desc = "A pair of generic black kneepads."
+	icon_state = "blackkneepads"
+	wearable = 1

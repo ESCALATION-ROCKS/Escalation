@@ -18,9 +18,21 @@
 		)
 	var/show_above_suit = 0
 
+/obj/item/clothing/mask/balaclava/alt
+	name = "balaclava"
+	icon_state = "balaclavam"
+	down_icon_state = "balaclava_r"
+	wearable = 1
+
 /obj/item/clothing/mask/balaclava/tactical
 	name = "green balaclava"
 	icon_state = "swatclava"
+	down_icon_state = "swatclava_r"
+	wearable = 1
+
+/obj/item/clothing/mask/balaclava/tactical/alt
+	name = "green balaclava"
+	icon_state = "swatclavam"
 	down_icon_state = "swatclava_r"
 	wearable = 1
 

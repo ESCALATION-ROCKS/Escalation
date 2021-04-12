@@ -329,8 +329,8 @@
 	head = /obj/item/clothing/head/coldwar/beret/soviet
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	r_ear = /obj/item/weapon/key/wpnco
-	l_pocket = /obj/item/clothing/gloves/bdw
-	r_pocket = /obj/item/clothing/mask/balaclava
+	l_pocket = /obj/item/clothing/gloves/tactical
+	r_pocket = /obj/item/clothing/mask/balaclava/alt
 	r_hand = /obj/item/weapon/radioset/r105d
 	l_hand = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	l_ear = /obj/item/device/binoculars/wp
@@ -348,8 +348,8 @@
 	l_hand = /obj/item/clothing/head/coldwar/altyn
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	belt = /obj/item/weapon/storage/belt/harness/sa
-	r_pocket = /obj/item/clothing/mask/balaclava
-	l_pocket = /obj/item/clothing/gloves/bdw
+	r_pocket = /obj/item/clothing/mask/balaclava/alt
+	l_pocket = /obj/item/clothing/gloves/tactical
 	
 	flags = OUTFIT_HAS_SABACKPACK
 
@@ -365,8 +365,8 @@
 	l_hand = /obj/item/clothing/head/coldwar/altyn
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	belt = /obj/item/weapon/storage/belt/harness/sa
-	r_pocket = /obj/item/clothing/mask/balaclava
-	l_pocket = /obj/item/clothing/gloves/bdw
+	r_pocket = /obj/item/clothing/mask/balaclava/alt
+	l_pocket = /obj/item/clothing/gloves/tactical
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympsm
 	name = OUTFIT_JOB_NAME("Coldwar - KGB Snaiper")
@@ -380,8 +380,8 @@
 	l_hand = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik
 	belt = /obj/item/weapon/storage/belt/harness/sa
-	r_pocket = /obj/item/clothing/mask/balaclava
-	l_pocket = /obj/item/clothing/gloves/bdw
+	r_pocket = /obj/item/clothing/mask/balaclava/alt
+	l_pocket = /obj/item/clothing/gloves/tactical
 
 //NVA --------- SUMMER MAPS
 /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
@@ -1861,7 +1861,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/frcnmg
 	name = OUTFIT_JOB_NAME("Coldwar - FORECON Machinegunner")
-	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/cpl
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/lcpl
 	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/xm249
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
