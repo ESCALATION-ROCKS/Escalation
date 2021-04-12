@@ -70,14 +70,14 @@ ATS-1:usmc
 @END@
 
 
-#1st FORECON 'X-ray':usmc
-#/datum/job/escalation/usmc/frcnsl
-#/datum/job/escalation/usmc/frcnop
-#/datum/job/escalation/usmc/frcnop
-#/datum/job/escalation/usmc/frcnop
-#/datum/job/escalation/usmc/frcnmg
-#/datum/job/escalation/usmc/frcnsm
-#@END@
+1st FORECON 'X-ray':usmc
+/datum/job/escalation/usmc/frcnsl
+/datum/job/escalation/usmc/frcnop
+/datum/job/escalation/usmc/frcnop
+/datum/job/escalation/usmc/frcnop
+/datum/job/escalation/usmc/frcnmg
+/datum/job/escalation/usmc/frcnsm
+@END@
 
 ###BUNDESWEHR###
 
@@ -306,14 +306,14 @@ OTV-1:cccp
 /datum/job/escalation/cccp/saotvop
 @END@
 
-#Element 'Vympel':cccp
-#/datum/job/escalation/cccp/vympsl
-#/datum/job/escalation/cccp/vympop
-#/datum/job/escalation/cccp/vympop
-#/datum/job/escalation/cccp/vympop
-#/datum/job/escalation/cccp/vympmg
-#/datum/job/escalation/cccp/vympsm
-#@END@
+Vympel 'Juliana':cccp
+/datum/job/escalation/cccp/vympsl
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympsm
+@END@
 
 ###NVA###
 
