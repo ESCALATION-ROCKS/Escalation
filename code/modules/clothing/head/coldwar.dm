@@ -92,6 +92,11 @@
 	desc = "An uniform headdress of officers."
 	icon_state = "soviet_officer"
 
+/obj/item/clothing/head/coldwar/beret/soviet
+	name = "Vympel beret"
+	desc = "The signature red beret of the Vympel task force."
+	icon_state = "saberet"
+
 /obj/item/clothing/head/coldwar/ushanka/soviet
 	name = "ushanka"
 	desc = "A generic comfy hat used by the Soviet Army. This one is missing an insignia."
@@ -136,6 +141,7 @@
 	name = "6B6-3 'Altyn' helmet"
 	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units. This one has a protective visor."
 	icon_state = "altyn"
+	body_parts_covered = FACE|HEAD
 	armor = list(melee = 62, bullet = 98, laser = 0, energy = 10, bomb = 80, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	var/icon_state_unzipped = "altyn-unzipped"
@@ -144,9 +150,11 @@
 	..()
 	if(icon_state == initial(icon_state))
 		icon_state = "altyn-unzipped"
+		body_parts_covered = HEAD
 		to_chat(user, "You raise the helmet's visor.")
 	else
 		icon_state = "altyn"
+		body_parts_covered = FACE|HEAD
 		to_chat(user, "You pull the visor back down.")
 
 

@@ -326,10 +326,12 @@
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
-	head = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
+	head = /obj/item/clothing/head/coldwar/beret/soviet
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	r_pocket = /obj/item/weapon/key/wpnco
-	l_hand = /obj/item/weapon/radioset/r105d
+	l_pocket = /obj/item/clothing/gloves/bdw
+	r_hand = /obj/item/weapon/radioset/r105d
+	l_hand = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
@@ -341,9 +343,12 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
-	head = /obj/item/clothing/head/coldwar/altyn
+	head = /obj/item/clothing/head/coldwar/beret/soviet
+	l_hand = /obj/item/clothing/head/coldwar/altyn
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	r_pocket = /obj/item/clothing/mask/balaclava
+	l_pocket = /obj/item/clothing/gloves/bdw
 	
 	flags = OUTFIT_HAS_SABACKPACK
 
@@ -355,9 +360,12 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/pkm
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/lmg
-	head = /obj/item/clothing/head/coldwar/altyn
+	head = /obj/item/clothing/head/coldwar/beret/soviet
+	l_hand = /obj/item/clothing/head/coldwar/altyn
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	r_pocket = /obj/item/clothing/mask/balaclava
+	l_pocket = /obj/item/clothing/gloves/bdw
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympsm
 	name = OUTFIT_JOB_NAME("Coldwar - KGB Snaiper")
@@ -367,9 +375,12 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/svd
-	head = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
+	head = /obj/item/clothing/head/coldwar/beret/soviet
+	l_hand = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik
 	belt = /obj/item/weapon/storage/belt/harness/sa
+	r_pocket = /obj/item/clothing/mask/balaclava
+	l_pocket = /obj/item/clothing/gloves/bdw
 
 //NVA --------- SUMMER MAPS
 /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
