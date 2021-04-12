@@ -20,7 +20,8 @@
 	cannot_amputate = 1
 	parent_organ = null
 	encased = "ribcage"
-	has_artery = FALSE
+	artery_name = "aorta"
+	arterial_bleed_severity = 2
 
 /obj/item/organ/external/chest/robotize()
 	if(..())
@@ -49,7 +50,7 @@
 	dislocated = -1
 	gendered_icon = 1
 	artery_name = "iliac artery"
-	arterial_bleed_severity = 3
+	arterial_bleed_severity = 2
 
 /obj/item/organ/external/arm
 	organ_tag = BP_L_ARM
@@ -64,10 +65,9 @@
 	amputation_point = "left shoulder"
 	can_grasp = 1
 	has_tendon = TRUE
-	has_artery = TRUE
 	tendon_name = "palmaris longus tendon"
 	artery_name = "basilic vein"
-	arterial_bleed_severity = 1.5
+	arterial_bleed_severity = 1
 
 /obj/item/organ/external/arm/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || (agony_amount < 5))
@@ -98,10 +98,9 @@
 	amputation_point = "left hip"
 	can_stand = 1
 	has_tendon = TRUE
-	has_artery = TRUE
 	tendon_name = "cruciate ligament"
 	artery_name = "femoral artery"
-	arterial_bleed_severity = 1.5
+	arterial_bleed_severity = 1
 
 /obj/item/organ/external/leg/stun_act(var/stun_amount, var/agony_amount)
 	if(!owner || agony_amount < 5)
@@ -134,6 +133,7 @@
 	can_stand = 1
 	has_tendon = TRUE
 	tendon_name = "Achilles tendon"
+	artery_name = "dorsal artery"
 	arterial_bleed_severity = 1
 
 /obj/item/organ/external/foot/stun_act(var/stun_amount, var/agony_amount)
@@ -171,6 +171,7 @@
 	can_grasp = 1
 	has_tendon = TRUE
 	tendon_name = "carpal ligament"
+	artery_name = "radial artery"
 	arterial_bleed_severity = 1
 
 /obj/item/organ/external/hand/stun_act(var/stun_amount, var/agony_amount)
