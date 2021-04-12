@@ -132,6 +132,14 @@
 /obj/item/stack/material/tentcloth/attack_self(var/mob/user)
 	return
 
+/obj/item/stack/material/tentclothblack
+	name = "tentclothblack"
+	icon_state = "sheet-cloth"
+	default_type = "black tent cloth"
+
+/obj/item/stack/material/tentclothblack/attack_self(var/mob/user)
+	return
+
 /obj/item/stack/material/phoron
 	name = "solid phoron"
 	icon_state = "sheet-phoron"

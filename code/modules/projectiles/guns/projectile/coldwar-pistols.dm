@@ -103,6 +103,13 @@
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
+/obj/item/weapon/gun/projectile/cz82/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "cz82"
+	else
+		icon_state = "cz82-empty"
+
 /obj/item/weapon/gun/projectile/colt911
 	name = "Colt M1911A1"
 	desc = "A solid classic. Chambers .45 ACP cartridges."

@@ -125,9 +125,12 @@
 
 /datum/surgery_step/mend_skull/end_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	user.visible_message("<span class='notice'>[user] sets [target]'s skull with \the [tool].</span>" , \
-		"<span class='notice'>You set [target]'s skull with \the [tool].</span>")
+	user.visible_message("<span class='notice'>[user] repairs [target]'s skull with \the [tool].</span>" , \
+		"<span class='notice'>You repair [target]'s skull with \the [tool].</span>")
 	affected.stage = 2
+//////used to be:
+//////user.visible_message("<span class='notice'>[user] sets [target]'s skull with \the [tool].</span>" , \
+		//////"<span class='notice'>You set [target]'s skull with \the [tool].</span>")
 
 /datum/surgery_step/mend_skull/fail_step(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)

@@ -159,6 +159,7 @@
 
 		if(world.time >= next_blood_squirt && istype(owner.loc, /turf) && do_spray.len)
 			owner.visible_message("<span class='danger'>Blood squirts from [pick(do_spray)]!</span>")
+			playsound(src.loc, 'sound/effects/body/bloodsquirt.ogg', 50, 1)
 			// It becomes very spammy otherwise. Arterial bleeding will still happen outside of this block, just not the squirt effect.
 			next_blood_squirt = world.time + 100
 			var/turf/sprayloc = get_turf(owner)

@@ -4,8 +4,8 @@
 	icon_name = "head"
 	name = "head"
 	slot_flags = null
-	max_damage = 75
-	min_broken_damage = 35
+	max_damage = 70
+	min_broken_damage = 30
 	w_class = ITEM_SIZE_NORMAL
 	body_part = HEAD
 	parent_organ = BP_CHEST

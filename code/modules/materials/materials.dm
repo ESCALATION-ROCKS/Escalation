@@ -993,6 +993,21 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	weight = 10
 	hardness = 10
 
+/material/cloth_tent_black
+	name = "black tent cloth"
+	icon_colour = "#424242"
+	use_name = "black tent cloth"
+	flags = MATERIAL_PADDING
+	ignition_point = T0C+232
+	melting_point = T0C+300
+	conductive = 0
+	integrity = 200
+	explosion_resistance = 2
+	icon_base = "tent"
+	icon_reinf = "reinf_over"
+	weight = 10
+	hardness = 10
+
 /material/carpet
 	name = "carpet"
 	display_name = "comfy"

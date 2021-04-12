@@ -325,7 +325,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aek971
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/coldwar/helmet/soviet/h6b6
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	r_pocket = /obj/item/weapon/key/wpnco
@@ -340,7 +340,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	head = /obj/item/clothing/head/coldwar/altyn
 	suit = /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3
 	belt = /obj/item/weapon/storage/belt/harness/sa
