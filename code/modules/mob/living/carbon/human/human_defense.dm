@@ -70,7 +70,7 @@ meteor_act
 
 	var/obj/item/organ/external/organ = get_organ(def_zone)
 	var/armor = getarmor_organ(organ, P.check_armour)
-	var/penetrating_damage = ((P.damage + P.armor_penetration) * P.penetration_modifier) - armor
+	var/penetrating_damage = (P.damage * P.penetration_modifier) - armor ///removed + P.armor_penetration as per change. penetration_modifier is used to define internal organ damage chance now.
 // && (organ.sever_artery())
 	//Embed or sever artery
 	if(prob(22.5 + max(penetrating_damage, -10)) && !(prob(50)) && (P.can_embed() && !(species.flags & NO_EMBED)))
