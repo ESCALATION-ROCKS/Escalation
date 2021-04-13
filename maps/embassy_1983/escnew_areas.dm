@@ -64,7 +64,8 @@ var/list/interior_areas = list(/area/coldwar/sewer,
 	icon_state = "sewer"
 	sound_env = SEWER_PIPE
 	base_turf = /turf/unsimulated/stone
-	ambience = list (
+	forced_ambience = list('sound/ambience/shipambience.ogg')
+	/*ambience = list (
 	'sound/ambience/coldwar/0Sewer1.ogg',
 	'sound/ambience/coldwar/0Sewer2.ogg',
 	'sound/ambience/coldwar/0Sewer3.ogg',
@@ -75,14 +76,15 @@ var/list/interior_areas = list(/area/coldwar/sewer,
 	'sound/ambience/coldwar/0Sewer8.ogg',
 	'sound/ambience/coldwar/0Sewer9.ogg',
 	'sound/ambience/coldwar/0Sewer0.ogg'
-	)
+	)*/
 
 /area/coldwar/underground
 	name = "underground"
 	icon_state = "underground"
 	sound_env = TUNNEL_ENCLOSED
 	base_turf = /turf/unsimulated/stone
-	ambience = list (
+	forced_ambience = list('sound/ambience/shipambience.ogg')
+	/*ambience = list (
 	'sound/ambience/coldwar/0Ugrnd1.ogg',
 	'sound/ambience/coldwar/0Ugrnd2.ogg',
 	'sound/ambience/coldwar/0Ugrnd3.ogg',
@@ -90,7 +92,7 @@ var/list/interior_areas = list(/area/coldwar/sewer,
 	'sound/ambience/coldwar/0Ugrnd5.ogg',
 	'sound/ambience/coldwar/0Ugrnd6.ogg',
 	'sound/ambiencenew/eerie_amb_1.ogg'
-	)
+	)*/
 
 /area/coldwar/underground/bunker
 	name = "bunker"

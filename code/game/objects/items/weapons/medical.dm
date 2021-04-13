@@ -153,7 +153,7 @@
 	icon_state = "esmarch_tourniquet"
 	amount = 1
 	animal_heal = 0
-	var/list/tourniquetable_organs = list(BP_HEAD, BP_CHEST, BP_GROIN, BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT)	//List of organs you can splint, natch.
+	var/list/tourniquetable_organs = list(BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT)	//List of organs you can splint, natch.
 
 /obj/item/stack/medical/tourniquet/attackby(obj/item/W as obj, mob/user as mob)
 	if(istype(W, /obj/item/stack/medical/tourniquet))
@@ -182,7 +182,7 @@
 		else
 			if(( !user.hand && (affecting.organ_tag in list(BP_R_ARM, BP_R_HAND)) || \
 				user.hand && (affecting.organ_tag in list(BP_L_ARM, BP_L_HAND)) ))
-				to_chat(user, "<span class='danger'>You can't apply a tourniquet to the arm you're using!</span>")
+				to_chat(user, "<span class='danger'>You can't apply \the [src] to the arm you're using!</span>")
 				return
 			user.visible_message("<span class='danger'>[user] starts to apply \the [src] to their [limb].</span>", "<span class='danger'>You start to apply \the [src] to your [limb].</span>", "<span class='danger'>You hear something being wrapped.</span>")
 		if(do_after(user, max(20, 50 - (user.skill_medicine*15)), M))

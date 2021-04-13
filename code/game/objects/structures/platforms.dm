@@ -27,18 +27,18 @@
 	overlays += I
 	..()
 
-/obj/structure/platform/CheckExit(atom/movable/O as mob|obj, target as turf)
+/*/obj/structure/platform/CheckExit(atom/movable/O as mob|obj, target as turf)
 	if(istype(O) && O.checkpass(PASSTABLE))
 		return 1
 	if(get_dir(O.loc, target) == dir)
 		return 0
-	return 1
+	return 1*/
 
 /obj/structure/platform/CanPass(atom/movable/mover, turf/target)
 	if(!mover)
 		return 1
-	if(istype(mover) && mover.checkpass(PASSTABLE))
-		return 1
+	/*if(istype(mover) && mover.checkpass(PASSTABLE))
+		return 1*/
 	if(get_dir(loc, target) == dir)
 		return 1
 	if(get_dir(get_turf(src), target) == dir)

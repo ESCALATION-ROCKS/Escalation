@@ -47,6 +47,13 @@
 	name = "stairs"
 	icon = 'icons/turf/stairs.dmi'
 	icon_state = "stairs"
+	movement_delay = 0.6
+	blend_with_neighbors = 0
+	footstep_sounds = list("human" = list(
+		'sound/effects/footsteps/tile1.wav',
+		'sound/effects/footsteps/tile2.wav',
+		'sound/effects/footsteps/tile3.wav',
+		'sound/effects/footsteps/tile4.wav'))
 
 /turf/unsimulated/floor/fakestairs/north
 	dir = NORTH
