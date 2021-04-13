@@ -503,8 +503,8 @@ BLIND     // can't see anything
 			overlay = GLOB.global_hud.science
 
 /obj/item/clothing/mask/New()
-	if(pull_mask)
-		action_button_name = "Adjust Mask"
+	/*if(pull_mask)
+		action_button_name = "Adjust Mask"*/
 	..()
 
 /obj/item/clothing/mask/update_clothing_icon()
