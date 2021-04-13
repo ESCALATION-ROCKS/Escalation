@@ -4,7 +4,7 @@
 //	fireteam_names = list("Alpha", "Bravo", "Charlie", "Delta")
 
 /datum/army_faction/nato/bund
-	name = "BDW"
+	name = "Bundeswehr"
 	enabled = 1
 	faction_tag = "bund"
 	flag_state = "german"
@@ -13,7 +13,7 @@
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
 
 /datum/army_faction/nato/heer
-	name = "HEER"
+	name = "Bundesheer"
 	enabled = 1
 	faction_tag = "heer"
 	flag_state = "german"
@@ -22,7 +22,7 @@
 	fireteam_names = list("Gruppe #1", "Gruppe #2", "Gruppe #3", "Gruppe #4")
 
 /datum/army_faction/nato/usmc
-	name = "USMC"
+	name = "United States Marine Corps"
 	enabled = 1
 	faction_tag = "usmc"
 	flag_state = "us"
@@ -31,7 +31,7 @@
 	fireteam_names = list("Squad #1", "Squad #2", "Squad #3", "Squad #4")
 
 /datum/army_faction/nato/usa
-	name = "USA"
+	name = "United States Army"
 	enabled = 1
 	faction_tag = "usa"
 	flag_state = "us"
@@ -40,7 +40,7 @@
 	fireteam_names = list("Squad #1", "Squad #2", "Squad #3", "Squad #4")
 
 /datum/army_faction/nato/baf
-	name = "BAF"
+	name = "British Armed Forces"
 	enabled = 1
 	faction_tag = "baf"
 	flag_state = "baf"
