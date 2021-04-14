@@ -1,4 +1,0 @@
-﻿#one Ckey per line , all lowercase , no underscores, no space bars AT ALL, no unicode shit god help us
-voncarstein
-severepwnage
-arbs
