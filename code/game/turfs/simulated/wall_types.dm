@@ -223,7 +223,7 @@ turf/simulated/wall/titanium
 /turf/simulated/wall/concrete_black_r/New(var/newloc)
 	icon_state = null
 	color = null
-	..(newloc, "concreteblack", "concreteblack")
+	..(newloc, "concreteblackr")
 
 /turf/simulated/wall/concrete_pink
 	icon = 'icons/turf/wall_masks.dmi'
@@ -301,4 +301,4 @@ turf/simulated/wall/titanium
 /turf/simulated/wall/tentcloth_black/New(var/newloc)
 	icon_state = null
 	color = null
-	..(newloc, "black tent cloth")
+	..(newloc, "tent cloth black")

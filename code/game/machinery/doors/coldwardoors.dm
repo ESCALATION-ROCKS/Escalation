@@ -138,7 +138,7 @@
 	icon_state = "storedoor"
 
 /obj/machinery/door/unpowered/simple/coldwar/glass/store/New(var/newloc,var/material_name,var/complexity)
-	..(newloc, "steel", complexity)
+	..(newloc, "glass", complexity)
 	glass = 1
 	set_opacity(0)
 	color = null

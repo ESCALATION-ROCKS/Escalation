@@ -116,8 +116,10 @@ var/list/name_to_material
 
 	// Noise when someone is faceplanted onto a table made of this material.
 	var/tableslam_noise = 'sound/weapons/tablehit1.ogg'
-	// Noise made when a simple door made of this material opens or closes.
+	// Noise made when a simple door made of this material opens.
 	var/dooropen_noise = 'sound/effects/stonedoor_openclose.ogg'
+	// Noise made when a simple door made of this material closes.
+	var/doorclose_noise = 'sound/effects/doors/door_close.ogg'
 	// Noise made when you hit structure made of this material.
 	var/hitsound = 'sound/weapons/genhit.ogg'
 	// Path to resulting stacktype. Todo remove need for this.
@@ -357,6 +359,7 @@ var/list/name_to_material
 	icon_colour = "#666666"
 	hitsound = 'sound/effects/doors/metal_door_impact.wav'
 	dooropen_noise = 'sound/effects/doors/metal_door_open.wav'
+	doorclose_noise = 'sound/effects/doors/metal_door_open.wav'
 	sheet_singular_name = "pile"
 	sheet_plural_name = "pile"
 
@@ -437,6 +440,7 @@ var/list/name_to_material
 	ignition_point = T0C+288
 	stack_origin_tech = list(TECH_MATERIAL = 1, TECH_BIO = 1)
 	dooropen_noise = 'sound/effects/doors/wooden_door_open.wav'
+	doorclose_noise = 'sound/effects/doors/wooden_door_open.wav'
 	door_icon_base = "fancy"
 	destruction_desc = "splinters"
 	sheet_singular_name = "plank"
@@ -462,6 +466,7 @@ var/list/name_to_material
 	ignition_point = T0C+288
 	stack_origin_tech = list(TECH_MATERIAL = 1, TECH_BIO = 1)
 	dooropen_noise = 'sound/effects/doors/wooden_door_open.wav'
+	doorclose_noise = 'sound/effects/doors/wooden_door_open.wav'
 	door_icon_base = "army"
 	destruction_desc = "splinters"
 	sheet_singular_name = "plank"
@@ -498,6 +503,8 @@ var/list/name_to_material
 	weight = 14
 	brute_armor = 1
 	burn_armor = 2
+	dooropen_noise = 'sound/effects/doors/sliding_door_open.ogg'
+	doorclose_noise = 'sound/effects/doors/sliding_door_close.ogg'
 	door_icon_base = "stone"
 	destruction_desc = "shatters"
 	window_options = list("One Direction" = 1, "Full Window" = 4)
@@ -740,6 +747,7 @@ var/list/name_to_material
 	ignition_point = T0C+288
 	stack_origin_tech = list(TECH_MATERIAL = 1, TECH_BIO = 1)
 	dooropen_noise = 'sound/effects/doors/wooden_door_open.wav'
+	doorclose_noise = 'sound/effects/doors/wooden_door_open.wav'
 	door_icon_base = "wood"
 	destruction_desc = "splinters"
 	sheet_singular_name = "plank"
@@ -978,7 +986,7 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 //ESCALATION MATERIALS:
 
 
-/material/cloth_tent
+/material/tentcloth
 	name = "tent cloth"
 	icon_colour = "#5E5C4E"
 	use_name = "tent cloth"
@@ -993,10 +1001,10 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	weight = 10
 	hardness = 10
 
-/material/cloth_tent_black
-	name = "black tent cloth"
+/material/tentcloth_black
+	name = "tent cloth black"
 	icon_colour = "#424242"
-	use_name = "black tent cloth"
+	use_name = "tent cloth black"
 	flags = MATERIAL_PADDING
 	ignition_point = T0C+232
 	melting_point = T0C+300
@@ -1020,7 +1028,21 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	sheet_plural_name = "tiles"
 	conductive = 0
 
-/material/concretecolor
+/material/concreteblack
+	name = "concreteblack"
+	icon_base = "concreteblack"
+	icon_reinf = "reinf_over"
+	icon_colour = null
+	explosion_resistance = 1
+	brute_armor = 3
+	burn_armor = 15
+	hardness = 80
+	weight = 23
+	integrity = 2000
+	hitsound = 'sound/weapons/smash.ogg'
+	stack_type = /obj/item/stack/material/concreteblack
+
+/material/concreteblackr
 	name = "concreteblack"
 	icon_base = "concreteblack"
 	icon_reinf = "concreteblackr"
@@ -1032,26 +1054,12 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	weight = 23
 	integrity = 2000
 	hitsound = 'sound/weapons/smash.ogg'
-	stack_type = /obj/item/stack/material/concrete
+	stack_type = /obj/item/stack/material/concreteblackr
 
-/material/concretecolor/black
-	name = "concreteblack"
-	icon_base = "concreteblack"
-	icon_reinf = "concreteblackr"
-	icon_colour = null
-	explosion_resistance = 1
-	brute_armor = 3
-	burn_armor = 15
-	hardness = 80
-	weight = 23
-	integrity = 2000
-	hitsound = 'sound/weapons/smash.ogg'
-	stack_type = /obj/item/stack/material/concrete
-
-/material/concretecolor/pink
+/material/concretepink
 	name = "concretepink"
 	icon_base = "concretepink"
-	icon_reinf = "concreteblackr"
+	icon_reinf = "reinf_over"
 	icon_colour = null
 	explosion_resistance = 1
 	brute_armor = 3
@@ -1060,12 +1068,12 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	weight = 23
 	integrity = 2000
 	hitsound = 'sound/weapons/smash.ogg'
-	stack_type = /obj/item/stack/material/concrete
+	stack_type = /obj/item/stack/material/concretepink
 
-/material/concretecolor/cian
+/material/concretecian
 	name = "concretecian"
 	icon_base = "concretecian"
-	icon_reinf = "concreteblackr"
+	icon_reinf = "reinf_over"
 	icon_colour = null
 	explosion_resistance = 1
 	brute_armor = 3
@@ -1074,12 +1082,12 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	weight = 23
 	integrity = 2000
 	hitsound = 'sound/weapons/smash.ogg'
-	stack_type = /obj/item/stack/material/concrete
+	stack_type = /obj/item/stack/material/concretecian
 
-/material/concretecolor/grey
+/material/concretegrey
 	name = "concretegrey"
 	icon_base = "concretegrey"
-	icon_reinf = "concreteblackr"
+	icon_reinf = "reinf_over"
 	icon_colour = null
 	explosion_resistance = 1
 	brute_armor = 3
@@ -1088,12 +1096,12 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	weight = 23
 	integrity = 2000
 	hitsound = 'sound/weapons/smash.ogg'
-	stack_type = /obj/item/stack/material/concrete
+	stack_type = /obj/item/stack/material/concretegrey
 
-/material/concretecolor/red
+/material/concretered
 	name = "concretered"
 	icon_base = "concretered"
-	icon_reinf = "concreteblackr"
+	icon_reinf = "reinf_over"
 	icon_colour = null
 	explosion_resistance = 1
 	brute_armor = 3
@@ -1102,12 +1110,12 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	weight = 23
 	integrity = 2000
 	hitsound = 'sound/weapons/smash.ogg'
-	stack_type = /obj/item/stack/material/concrete
+	stack_type = /obj/item/stack/material/concretered
 
 /material/woodalt
 	name = "rich wood"
 	adjective_name = "wooden"
-	stack_type = /obj/item/stack/material/wood
+	stack_type = /obj/item/stack/material/r_wood
 	icon_colour = "#824B28"
 	integrity = 5
 	icon_base = "woodalt"
@@ -1122,6 +1130,7 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	ignition_point = T0C+288
 	stack_origin_tech = list(TECH_MATERIAL = 1, TECH_BIO = 1)
 	dooropen_noise = 'sound/effects/doors/wooden_door_open.wav'
+	doorclose_noise = 'sound/effects/doors/wooden_door_open.wav'
 	door_icon_base = "wood"
 	destruction_desc = "splinters"
 	sheet_singular_name = "plank"
@@ -1132,6 +1141,8 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 /material/brick
 	name = "brick"
 	icon_base = "brick"
+	sheet_singular_name = "brick"
+	sheet_plural_name = "bricks"
 	integrity = 600
 	conductive = 0
 	explosion_resistance = 1

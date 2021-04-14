@@ -25,8 +25,8 @@
 /decl/communication_channel/dsay/do_communicate(var/client/communicator, var/message, var/speech_method_type)
 	var/decl/dsay_communication/speech_method = decls_repository.get_decl(speech_method_type)
 
-	if(world.time < last_message_time + 3 SECOND)
-		to_chat(src, "<span class='warning'>Calm down with the salt, buddy (cooldown).</span>")
+	if(world.time < last_message_time + 2 SECOND)
+		to_chat(communicator, "<span class='warning'>Calm down with the salt, buddy.</span>")
 		return
 	last_message_time = world.time
 

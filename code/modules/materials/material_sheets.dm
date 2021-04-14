@@ -123,21 +123,27 @@
 	name = "concrete brick"
 	icon_state = "sheet-marble"
 	default_type = "concrete"
+	mouse_opacity = 0
+
+/obj/item/stack/material/brick
+	name = "brick"
+	icon_state = "brick"
+	default_type = "brick"
 
 /obj/item/stack/material/tentcloth
-	name = "tentcloth"
-	icon_state = "sheet-cloth"
+	name = "tent cloth"
+	icon_state = "clothsheet"
 	default_type = "tent cloth"
 
 /obj/item/stack/material/tentcloth/attack_self(var/mob/user)
 	return
 
-/obj/item/stack/material/tentclothblack
-	name = "tentclothblack"
-	icon_state = "sheet-cloth"
-	default_type = "black tent cloth"
+/obj/item/stack/material/tentcloth_black
+	name = "tent cloth black"
+	icon_state = "clothsheet"
+	default_type = "tent cloth black"
 
-/obj/item/stack/material/tentclothblack/attack_self(var/mob/user)
+/obj/item/stack/material/tentcloth_black/attack_self(var/mob/user)
 	return
 
 /obj/item/stack/material/phoron
@@ -245,6 +251,7 @@
 	desc = "All that stuff have seen better days."
 	icon_state = "scrap"
 	default_type = DEFAULT_WALL_MATERIAL
+	mouse_opacity = 0
 
 /obj/item/stack/material/steel/ten
 	amount = 10
@@ -335,3 +342,41 @@
 
 /obj/item/stack/material/glass/phoronrglass/ten
 	amount = 10
+
+//////////arbitrary coldwar concrete stacks
+
+/obj/item/stack/material/concretegrey
+	name = "concrete brick"
+	icon_state = "concretescrap"
+	default_type = "concretegrey"
+	mouse_opacity = 0
+
+/obj/item/stack/material/concreteblack
+	name = "concrete brick"
+	icon_state = "concretescrap"
+	default_type = "concreteblack"
+	mouse_opacity = 0
+
+/obj/item/stack/material/concreteblackr
+	name = "concrete brick"
+	icon_state = "concretescrap"
+	default_type = "concreteblackr"
+	mouse_opacity = 0
+
+/obj/item/stack/material/concretered
+	name = "concrete brick"
+	icon_state = "concretescrap"
+	default_type = "concretered"
+	mouse_opacity = 0
+	
+/obj/item/stack/material/concretepink
+	name = "concrete brick"
+	icon_state = "concretescrap"
+	default_type = "concretepink"
+	mouse_opacity = 0
+
+/obj/item/stack/material/concretecian
+	name = "concrete brick"
+	icon_state = "concretescrap"
+	default_type = "concretecian"
+	mouse_opacity = 0
