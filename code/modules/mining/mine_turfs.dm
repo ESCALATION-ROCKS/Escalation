@@ -8,6 +8,23 @@ var/list/mining_floors = list()
 	icon_state = "rock_dark"
 	blocks_air = 1
 	density = 1
+	opacity = 1
+
+/turf/unsimulated/mineral/update_icon(var/update_neighbors) /////indestructible rock walls for esca
+
+	overlays.Cut()
+
+	var/list/step_overlays = list("s" = NORTH, "n" = SOUTH, "w" = EAST, "e" = WEST)
+	for(var/direction in step_overlays)
+		var/turf/turf_to_check = get_step(src,step_overlays[direction])
+		if(update_neighbors && istype(turf_to_check,/turf/unsimulated/stone))
+			var/turf/simulated/floor/asteroid/T = turf_to_check
+			T.updateMineralOverlays()
+		else if(istype(turf_to_check,/turf/space) || istype(turf_to_check,/turf/simulated/floor))
+			var/image/rock_side = image('icons/turf/walls.dmi', "rock_side_dark", dir = turn(step_overlays[direction], 180))
+			rock_side.turf_decal_layerise()
+			turf_to_check.overlays += rock_side
+
 
 //turf/unsimulated/mineral/New()
 //	icon_state = "rock-dark[rand(1,6)]"

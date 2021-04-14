@@ -371,7 +371,7 @@
 	light_power = 3
 	light_color = COLOR_RED
 
-	light_color = "#e58775"
+	light_color = "#da0205"
 	icon_state = "wpflare"
 	item_state = "wpflare"
 	action_button_name = null //just pull it manually, neckbeard.
@@ -401,12 +401,14 @@
 	on = 0
 	src.force = initial(src.force)
 	src.damtype = initial(src.damtype)
+	w_class = ITEM_SIZE_SMALL
 	update_icon()
 
 /obj/item/device/flashlight/wpflare/attack_self(mob/user as mob)
 	if(turn_on(user))
 		user.visible_message("<span class='notice'>\The [user] activates \the [src].</span>", "<span class='notice'>You pull the cord on the flare, activating it!</span>")
 		playsound(src.loc, activation_sound, 75, 1)
+		w_class = ITEM_SIZE_NO_CONTAINER
 		if(iscarbon(user))
 			var/mob/living/carbon/C = user
 			C.throw_mode_on()
@@ -433,7 +435,7 @@
 	light_power = 3
 	light_color = COLOR_RED
 
-	light_color = "#e58775"
+	light_color = "#da0205"
 	icon_state = "natoflare"
 	item_state = "natoflare"
 	action_button_name = null //just pull it manually, neckbeard.
@@ -463,12 +465,14 @@
 	on = 0
 	src.force = initial(src.force)
 	src.damtype = initial(src.damtype)
+	w_class = ITEM_SIZE_SMALL
 	update_icon()
 
 /obj/item/device/flashlight/natoflare/attack_self(mob/user as mob)
 	if(turn_on(user))
 		user.visible_message("<span class='notice'>\The [user] activates \the [src].</span>", "<span class='notice'>You pull the cord on the flare, activating it!</span>")
 		playsound(src.loc, activation_sound, 75, 1)
+		w_class = ITEM_SIZE_NO_CONTAINER
 		if(iscarbon(user))
 			var/mob/living/carbon/C = user
 			C.throw_mode_on()

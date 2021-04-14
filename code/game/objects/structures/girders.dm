@@ -317,7 +317,7 @@
 	name = "concrete wreckage"
 	icon_state = "conwreckage"
 	anchored = 1
-	density = 1
+	density = 0
 	plane = OBJ_PLANE
 	layer = BELOW_OBJ_LAYER
 	w_class = ITEM_SIZE_NO_CONTAINER

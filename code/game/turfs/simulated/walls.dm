@@ -351,15 +351,14 @@
 	return ..()
 
 /turf/simulated/wall/proc/dismantle_wall(var/devastated, var/explode, var/no_product)
+	material.place_dismantled_girder(src)
+	material.place_dismantled_product(src,devastated)
 	if(istype(src, /turf/simulated/wall/woodalt || /turf/simulated/wall/tentcloth))
 		playsound(src, 'sound/items/woodbreak.ogg', 100, 0)
 	else
 		playsound(src, 'sound/items/concretebreak.ogg', 100, 1)
-	if(!no_product)
-		if(reinf_material)
-			reinf_material.place_dismantled_girder(src, reinf_material)
-		else
-			material.place_dismantled_girder(src)
+
+	/////Removes bay12 reinf wall destruction redundancies + enables multiple different wall destruction sounds to exist
 
 
 	for(var/obj/O in src.contents) //Eject contents!

@@ -29,13 +29,13 @@
 /obj/structure/sandbag/concrete_block/ex_act(severity)
 	switch(severity)
 		if(1.0)
-//			new /obj/item/stack/material/concrete(src.loc)
-	//		new /obj/item/stack/material/concrete(src.loc)
-//			new /obj/item/stack/material/concrete(src.loc)
+			new /obj/item/stack/material/concrete(src.loc)
+			new /obj/item/stack/material/concrete(src.loc)
+			new /obj/item/stack/material/concrete(src.loc)
 			qdel(src)
 		if(2.0)
-//			new /obj/item/stack/material/concrete(src)
-//			new /obj/item/stack/material/concrete(src)
+			new /obj/item/stack/material/concrete(src.loc)
+			new /obj/item/stack/material/concrete(src)
 			qdel(src)
 		else
 	return

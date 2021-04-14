@@ -38,7 +38,7 @@
 	if(!mover)
 		return 1
 	if(istype(mover) && mover.checkpass(PASSTABLE))
-		return 1/
+		return 1
 	if(get_dir(loc, target) == dir)
 		return 1
 	if(get_dir(get_turf(src), target) == dir)

@@ -1031,33 +1031,78 @@ work properly (1 tile destroyed, rest damaged by RPG, 2-3 tiles with satchel). g
 	hardness = 80
 	weight = 23
 	integrity = 2000
-	stack_type = /obj/item/stack/material/concrete
 	hitsound = 'sound/weapons/smash.ogg'
+	stack_type = /obj/item/stack/material/concrete
 
 /material/concretecolor/black
 	name = "concreteblack"
 	icon_base = "concreteblack"
 	icon_reinf = "concreteblackr"
+	icon_colour = null
+	explosion_resistance = 1
+	brute_armor = 3
+	burn_armor = 15
+	hardness = 80
+	weight = 23
+	integrity = 2000
+	hitsound = 'sound/weapons/smash.ogg'
+	stack_type = /obj/item/stack/material/concrete
 
 /material/concretecolor/pink
 	name = "concretepink"
 	icon_base = "concretepink"
 	icon_reinf = "concreteblackr"
+	icon_colour = null
+	explosion_resistance = 1
+	brute_armor = 3
+	burn_armor = 15
+	hardness = 80
+	weight = 23
+	integrity = 2000
+	hitsound = 'sound/weapons/smash.ogg'
+	stack_type = /obj/item/stack/material/concrete
 
 /material/concretecolor/cian
 	name = "concretecian"
 	icon_base = "concretecian"
 	icon_reinf = "concreteblackr"
+	icon_colour = null
+	explosion_resistance = 1
+	brute_armor = 3
+	burn_armor = 15
+	hardness = 80
+	weight = 23
+	integrity = 2000
+	hitsound = 'sound/weapons/smash.ogg'
+	stack_type = /obj/item/stack/material/concrete
 
 /material/concretecolor/grey
 	name = "concretegrey"
 	icon_base = "concretegrey"
 	icon_reinf = "concreteblackr"
+	icon_colour = null
+	explosion_resistance = 1
+	brute_armor = 3
+	burn_armor = 15
+	hardness = 80
+	weight = 23
+	integrity = 2000
+	hitsound = 'sound/weapons/smash.ogg'
+	stack_type = /obj/item/stack/material/concrete
 
 /material/concretecolor/red
 	name = "concretered"
 	icon_base = "concretered"
 	icon_reinf = "concreteblackr"
+	icon_colour = null
+	explosion_resistance = 1
+	brute_armor = 3
+	burn_armor = 15
+	hardness = 80
+	weight = 23
+	integrity = 2000
+	hitsound = 'sound/weapons/smash.ogg'
+	stack_type = /obj/item/stack/material/concrete
 
 /material/woodalt
 	name = "rich wood"
