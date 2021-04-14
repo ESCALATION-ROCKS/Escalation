@@ -15,7 +15,7 @@
 		key_cache[key] = 0
 		return ..()
 
-	//Check if user is whitelisted - STILL WORKS LIKE A FUCKING MIRACLE WITH SHITCODE
+	//Check if user is whitelisted
 	if(config.useckeywhitelist && !check_ckey_whitelisted(ckey(key)))
 		return list("reason"="civilian", "desc"="\nNon-whitelisted users are not allowed. Get whitelisted at https://discord.gg/QF5naBv2gw")
 
