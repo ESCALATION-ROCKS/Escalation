@@ -557,6 +557,8 @@
 
 /obj/item/weapon/gun/equipped(mob/user, var/slot)
 	..()
+	if(slot == slot_gun_slot || slot == slot_back)
+		user.client.mouse_pointer_icon = null
 	if(!safety && (slot == slot_l_hand || slot == slot_r_hand))
 		user.client.mouse_pointer_icon = file("icons/misc/pointer.dmi")
 	else
