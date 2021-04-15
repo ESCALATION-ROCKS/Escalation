@@ -22,7 +22,7 @@ var/list/mining_floors = list()
 	var/list/step_overlays = list("s" = NORTH, "n" = SOUTH, "w" = EAST, "e" = WEST)
 	for(var/direction in step_overlays)
 		var/turf/turf_to_check = get_step(src,step_overlays[direction])
-		if(update_neicghbors && istype(turf_to_check,/turf/unsimulated/stone))
+		if(update_neighbors && istype(turf_to_check,/turf/unsimulated/stone/rock))
 			/*var/turf/unsimulated/stone/T = turf_to_check*/
 			var/image/rock_side = image('icons/turf/walls.dmi', "rock_side_dark", dir = turn(step_overlays[direction], 180))
 			rock_side.turf_decal_layerise()
