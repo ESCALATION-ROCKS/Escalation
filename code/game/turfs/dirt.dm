@@ -197,7 +197,6 @@
 	dynamic_lighting = 1
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "stone"
-	movement_delay = 0.7
 	blend_with_neighbors = 3
 	permit_ao = 0
 	movement_delay = 0.7
@@ -211,6 +210,12 @@
 		'sound/effects/footsteps/concrete6.wav',
 		'sound/effects/footsteps/concrete7.wav',
 		'sound/effects/footsteps/concrete8.wav'))
+
+/turf/unsimulated/stone/rock
+	name = "rock"
+	icon_state = "rock"
+	blend_with_neighbors = 2
+	movement_delay = 1.5
 
 /turf/unsimulated/blendingroad
 	name = "road"
