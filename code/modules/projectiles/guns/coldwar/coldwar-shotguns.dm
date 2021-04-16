@@ -115,8 +115,8 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870
 	name = "Remington 870"
 	desc = "An outdated pump action shotgun used by the USMC. Holds seven 12ga shells and one in the chamber."
-	icon = 'icons/obj/escalationguns.dmi'
-	icon_state = "shotgunplaceholder"
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "r870-empty"
 	item_state = "shotgunplaceholder"
 	force = 15
 	caliber = "12ga"
@@ -192,9 +192,9 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870/update_icon()
 	..()
 	if(bolt_open)
-		icon_state = "shotgunplaceholder-open"
+		icon_state = "r870-open"
 	else
-		icon_state = "shotgunplaceholder"
+		icon_state = "r870"
 
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870/load_ammo(var/obj/item/A, mob/user)
@@ -214,8 +214,8 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194
 	name = "TOZ-194"
 	desc = "A pump action shotgun used by the SA. Holds six 12ga shells and one in the chamber."
-	icon = 'icons/obj/escalationguns.dmi'
-	icon_state = "shotgunplaceholder"
+	icon = 'icons/obj/boltactions.dmi'
+	icon_state = "toz194-empty"
 	item_state = "shotgunplaceholder"
 	force = 15
 	caliber = "12ga"
@@ -291,9 +291,9 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194/update_icon()
 	..()
 	if(bolt_open)
-		icon_state = "shotgunplaceholder-open"
+		icon_state = "toz194-open"
 	else
-		icon_state = "shotgunplaceholder"
+		icon_state = "toz194"
 
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194/load_ammo(var/obj/item/A, mob/user)
