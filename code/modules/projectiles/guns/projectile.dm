@@ -167,7 +167,7 @@
 					to_chat(user, "<span class='warning'>[src] is full.</span>")//already a magazine here
 					return
 				var/count = 0
-				if (do_after(user, (AM.reload_delay * (max_shells - loaded.len)), user))
+				if (do_after(user, (AM.reload_delay), user))
 					for(var/obj/item/ammo_casing/C in AM.stored_ammo)
 						if(loaded.len >= max_shells)
 							break
@@ -176,6 +176,7 @@
 							loaded += C
 							AM.stored_ammo -= C //should probably go inside an ammo_magazine proc, but I guess less proc calls this way...
 							count++
+							break
 				if(count)
 					if(reload_sound) playsound(src.loc, reload_sound, 75, 1)
 					cock_gun(user)

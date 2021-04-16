@@ -128,7 +128,7 @@
 	ammo_type = null
 	one_hand_penalty = 6
 	accuracy = 3
-	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
+	cocked_sound = null ///Plays right after inserting a shell, unnecesary for shotguns
 	fire_sound = 'sound/weapons/gunshot/r870.ogg'
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
 	drop_sound = 'sound/items/interactions/drop_gun.ogg'
@@ -226,7 +226,7 @@
 	ammo_type = null
 	one_hand_penalty = 6
 	accuracy = 3
-	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
+	cocked_sound = null ///Plays right after inserting a shell, unnecesary for shotguns
 	fire_sound = 'sound/weapons/gunshot/toz194.ogg'
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
 	drop_sound = 'sound/items/interactions/drop_gun.ogg'
