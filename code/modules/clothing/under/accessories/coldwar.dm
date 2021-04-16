@@ -518,6 +518,22 @@
 	max_w_class = ITEM_SIZE_NORMAL
 	armor_slowdown = 0.0
 
+
+/obj/item/clothing/accessory/storage/coldwar/shellbandolier
+	name = "shell bandolier"
+	desc = "A generic nylon 12ga shell bandolier. It can hold up to thirty 12ga shells."
+	icon_state = "lifchikblack_1" //placeholder
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 6
+	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/coldwar/shellbandolier/New()
+	..()
+	hold.can_hold = list(/obj/item/ammo_magazine/box/clip/ga12)
+
 /*coats, these need up-down item states implemented*/
 
 /obj/item/clothing/accessory/storage/coldwar/palatka

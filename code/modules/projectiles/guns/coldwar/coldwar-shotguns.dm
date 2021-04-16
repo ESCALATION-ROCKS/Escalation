@@ -97,13 +97,14 @@
 		return 0
 	return ..()
 
-/obj/item/weapon/gun/projectile/rifle/pumpaction/load_ammo(var/obj/item/A, mob/user)
+/*/obj/item/weapon/gun/projectile/rifle/pumpaction/load_ammo(var/obj/item/A, mob/user)
 	if(!bolt_open)
 		return
-	..()
+	..()*/ //Shotguns can be loaded with the chamber open or closed.
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/unload_ammo(mob/user, var/allow_dump=1)
 	if(!bolt_open)
+		to_chat(user, "<span class='warning'>You can't unload from the tube while the chamber is closed!</span>")
 		return
 	..()
 
@@ -113,7 +114,7 @@
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870
 	name = "Remington 870"
-	desc = "An outdated pump action shotgun used by the USMC. Chambers seven 12ga shells and one in the chamber."
+	desc = "An outdated pump action shotgun used by the USMC. Holds seven 12ga shells and one in the chamber."
 	icon = 'icons/obj/escalationguns.dmi'
 	icon_state = "shotgunplaceholder"
 	item_state = "shotgunplaceholder"
@@ -137,8 +138,8 @@
 	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 	jam_chance = 0.010
 	slowdown_general = 0.25
-	bayonet_attachable = 1
-	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc
+	bayonet_attachable = 0
+	bayonet_type = null
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870/consume_next_projectile()
 	if(chambered)
@@ -177,13 +178,14 @@
 		return 0
 	return ..()
 
-/obj/item/weapon/gun/projectile/rifle/pumpaction/r870/load_ammo(var/obj/item/A, mob/user)
+/*/obj/item/weapon/gun/projectile/rifle/pumpaction/r870/load_ammo(var/obj/item/A, mob/user)
 	if(!bolt_open)
 		return
-	..()
+	..()*/ //Shotguns can be loaded with the chamber open or closed.
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870/unload_ammo(mob/user, var/allow_dump=1)
 	if(!bolt_open)
+		to_chat(user, "<span class='warning'>You can't unload from the tube while the chamber is closed!</span>")
 		return
 	..()
 
@@ -211,7 +213,7 @@
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194
 	name = "TOZ-194"
-	desc = "A pump action shotgun used by the SA. Chambers seven 12ga shells and one in the chamber."
+	desc = "A pump action shotgun used by the SA. Holds six 12ga shells and one in the chamber."
 	icon = 'icons/obj/escalationguns.dmi'
 	icon_state = "shotgunplaceholder"
 	item_state = "shotgunplaceholder"
@@ -222,7 +224,7 @@
 	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING | HANDFUL
-	max_shells = 7
+	max_shells = 6
 	ammo_type = null
 	one_hand_penalty = 6
 	accuracy = 3
@@ -275,13 +277,14 @@
 		return 0
 	return ..()
 
-/obj/item/weapon/gun/projectile/rifle/pumpaction/toz194/load_ammo(var/obj/item/A, mob/user)
+/*/obj/item/weapon/gun/projectile/rifle/pumpaction/toz194/load_ammo(var/obj/item/A, mob/user)
 	if(!bolt_open)
 		return
-	..()
+	..()*/ //Shotguns can be loaded with the chamber open or closed.
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194/unload_ammo(mob/user, var/allow_dump=1)
 	if(!bolt_open)
+		to_chat(user, "<span class='warning'>You can't unload from the tube while the chamber is closed!</span>")
 		return
 	..()
 
