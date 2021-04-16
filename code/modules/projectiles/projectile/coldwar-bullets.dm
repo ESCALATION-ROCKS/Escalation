@@ -267,12 +267,12 @@
 /obj/item/projectile/bullet/ags30x29mm
 	name = "AGS' bullet"
 	icon_state = "vog"
-	damage = 90
+	agony = 40
+	armor_penetration = 98
+	damage = 50
 	penetrating = 0
 	step_delay = 1.2
-//	impact_force = 1
 	kill_count = 60
-	fire_sound = null//here we gonna use sound in AGS and not in bullets
 
 //proc/explosion(turf/epicenter, devastation_range, heavy_impact_range, light_impact_range, flash_range, adminlog = 1, z_transfer = UP|DOWN, shaped)
 /obj/item/projectile/bullet/ags30x29mm/on_impact(var/atom/target, var/blocked = 0)
@@ -281,7 +281,7 @@
 /obj/item/projectile/bullet/ags30x29mm/pow
 	damage = 110
 	agony = 20
-	armor_penetration = 98 //was 1
+	armor_penetration = 98
 	step_delay = 1.2
 	penetrating = 0
 	kill_count = 70
@@ -292,14 +292,13 @@
 /obj/item/projectile/bullet/mk19_40x53mm
 	name = "MK19' bullet"
 	icon_state = "vog" ////////fix
-	damage = 100
-	penetrating = 0
-	step_delay = 1.2
-//	impact_force = 1
+	damage = 50
+	agony = 40
 	kill_count = 60
+	penetrating = 0
 
 /obj/item/projectile/bullet/mk19_40x53mm/on_impact(var/atom/target, blocked = 0)
-	explosion(target, 0, 1, 5, 4)//a little bit explosive that 30x29
+	explosion(target, 0, 1, 3, 3)
 
 
 /obj/item/projectile/bullet/mk19_40x53mm/pow

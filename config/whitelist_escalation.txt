@@ -11,8 +11,7 @@ Von Carstein = {
 }
 
 SeverePwnage = {
-usmc_specops
-sa_specops
+::ALL::
 }
 
 ############### USMC OFFICER

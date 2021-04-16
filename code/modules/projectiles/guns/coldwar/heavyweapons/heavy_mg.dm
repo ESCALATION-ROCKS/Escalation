@@ -314,26 +314,23 @@
 		list(mode_name="long bursts",   burst=5, fire_delay=4.0, burst_delay = 1.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
 		)
 
-//////////////////////
 ///AGS-17/////////////
-//////////////////////
 /obj/item/weapon/gun/projectile/heavy_mg/ags_17
 	name = "AGS-17 Plamya"
 	desc = "Automatic grenade launcher."
 	icon_state = "ags17"
 	load_method = MAGAZINE
-//	handle_casings = REMOVE_CASINGS//replace in EJECT later after tests and balancing
+//	handle_casings = REMOVE_CASINGS - This makes it caseless
 	caliber = "30x29mm"//cal of ammo box
 	ammo_type = /obj/item/ammo_casing/ags30x29mm
 
 
 	fire_sound = 'sound/weapons/gunshot/mk19.ogg'
-	//i know it's kords sounds, but it is to booring to find and copy-paste URTES' sounds
 
 	firemodes = list(
 		list(mode_name = "semiauto", burst = 1, burst_delay = 8.0, fire_delay = 8.0, burst_accuracy=null, dispersion=null),
-		list(mode_name = "short bursts", burst = 3, burst_delay = 1.5, fire_delay = 4.0, burst_accuracy=list(1,0,-1), dispersion =list(0.3, 0.6, 0.6)),
-		list(mode_name = "long bursts", burst = 5, burst_delay = 1.5, fire_delay = 4.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
+		list(mode_name = "short bursts", burst = 3, burst_delay = 3, fire_delay = 4.0, burst_accuracy=list(1,0,-1), dispersion =list(0.3, 0.6, 0.6)),
+		list(mode_name = "long bursts", burst = 5, burst_delay = 3, fire_delay = 4.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
 		)
 
 /obj/item/weapon/gun/projectile/heavy_mg/ags_17/update_icon()
@@ -384,17 +381,16 @@
 	desc = "Automatic grenade launcher, standard-issued by USMC."
 	icon_state = "mk19"
 	load_method = MAGAZINE
-//	handle_casings = REMOVE_CASINGS//replace in EJECT later after tests and balancing
+//	handle_casings = REMOVE_CASINGS
 	caliber = "40x53mm"
 	ammo_type = /obj/item/ammo_casing/mk19_40x53mm
 
 	fire_sound = 'sound/weapons/gunshot/mk19.ogg'
-	//fixfixfix
 
 	firemodes = list(
 		list(mode_name = "semiauto", burst = 1, burst_delay = 8.0, fire_delay = 8.0, burst_accuracy=null, dispersion=null),
-		list(mode_name = "short bursts", burst = 3, burst_delay = 1.5, fire_delay = 4.0, burst_accuracy=list(1,0,-1), dispersion =list(0.3, 0.6, 0.6)),
-		list(mode_name = "long bursts", burst = 5, burst_delay = 1.5, fire_delay = 4.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
+		list(mode_name = "short bursts", burst = 3, burst_delay = 3, fire_delay = 4.0, burst_accuracy=list(1,0,-1), dispersion =list(0.3, 0.6, 0.6)),
+		list(mode_name = "long bursts", burst = 5, burst_delay = 3, fire_delay = 4.0, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.6, 1.2, 1.5)),
 		)
 
 

@@ -954,15 +954,16 @@
 
 /obj/item/ammo_magazine/ags30x29mm
 	name = "AGS belt box (VOG 30x29mm)"
-	desc = "An AGS Plamya belt box that fits thirty grenades."
+	desc = "An AGS Plamya belt box that fits twenty nine grenades."
 	icon_state = "ags30x29mm"
 	item_state = "pkm_mag"
 	mag_type = MAGAZINE
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_HUGE
 	caliber = "30x29mm"
-	ammo_type = /obj/item/ammo_casing/ags30x29mm/shrapnel
-	max_ammo = 30
+	ammo_type = /obj/item/ammo_casing/ags30x29mm
+	max_ammo = 29
 	multiple_sprites = 1
+	load_delay = 40
 
 /obj/item/ammo_magazine/mk19_40x53mm
 	name = "MK19 belt box (MK19 40x53mm)"
@@ -970,8 +971,9 @@
 	icon_state = "mk19ammo"
 	item_state = "m60_mag"
 	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_HUGE
 	caliber = "40x53mm"
-	ammo_type = /obj/item/ammo_casing/mk19_40x53mm/shrapnel
+	ammo_type = /obj/item/ammo_casing/mk19_40x53mm
 	max_ammo = 32
 	multiple_sprites = 1
 	load_delay = 40
