@@ -5,6 +5,7 @@
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "usmc"
 	military_faction = NATO
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "NATO"
@@ -549,6 +550,7 @@
 	faction_tag = "bund"  //The tag of the faction this job is a part of, for lookups
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund
 	military_faction = NATO
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "NATO"
@@ -995,6 +997,7 @@
 	faction_tag = "heer"  //The tag of the faction this job is a part of, for lookups
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer
 	military_faction = NATO
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "NATO"
@@ -1440,6 +1443,7 @@
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "baf"
 	military_faction = NATO
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "NATO"
@@ -1769,6 +1773,7 @@
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "usa"
 	military_faction = NATO
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "NATO"

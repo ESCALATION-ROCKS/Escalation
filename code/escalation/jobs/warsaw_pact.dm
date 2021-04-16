@@ -4,6 +4,7 @@
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "cccp"
 	military_faction = WARPACT
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
@@ -560,6 +561,7 @@
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "nvaddr" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
@@ -1035,6 +1037,7 @@
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "finn" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
@@ -1478,6 +1481,7 @@
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "csla" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT
+	latejoin_at_spawnpoints = 1
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.fraction = "WP"
