@@ -236,7 +236,7 @@
 /obj/item/projectile/bullet/pellet/ga12 //Based on #00 load
 	armor_penetration = -10 // - does jackshit against armor
 	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
-	agony = 13
+	agony = 35
 	name = "#00 buckshot pellet"
 	icon_state = "pellets" //TODO: would be nice to have it's own icon state
 	pellets = 9		//number of pellets
@@ -245,12 +245,12 @@
 	spread_step = 10   //higher means the pellets spread more across body parts with distance
 
 	New()
-		damage = rand(5, 8)
+		damage = rand(28, 35)
 
 /obj/item/projectile/bullet/rifle/ga12/slug //hits like a train
 	armor_penetration = 20
 	penetration_modifier = 0.3
-	agony = 20
+	agony = 25
 
 	New()
 		damage = rand(40, 55)
@@ -259,7 +259,7 @@
 	armor_penetration = 98 //was 20
 	icon_state = "bullet_flechette"
 	penetration_modifier = 0.1
-	agony = 18
+	agony = 22
 
 	New()
 		damage = rand(20, 30)

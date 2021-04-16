@@ -385,26 +385,6 @@
 		add_fingerprint(user)
 		update_icon()
 
-//old code commented out, delete if you want
-/*/obj/item/weapon/gun/projectile/rifle/boltaction/attack_self(mob/user as mob)
-	bolt_open = !bolt_open
-	if(do_after(user, 6.5, src))
-		if(bolt_open)
-			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
-			if(chambered)
-				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
-				chambered.loc = get_turf(src)
-				loaded -= chambered
-				chambered = null
-			else
-				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
-		else
-			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
-			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
-			bolt_open = 0
-		add_fingerprint(user)
-		update_icon()*/
-
 /obj/item/weapon/gun/projectile/rifle/boltaction/special_check(mob/user)
 	if(bolt_open)
 		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
@@ -494,29 +474,6 @@
 		add_fingerprint(user)
 		update_icon()
 
-//commented out old code for l96, keep or delete if you want
-/*/obj/item/weapon/gun/projectile/automatic/rifle/l96/attack_self(mob/user as mob)
-	bolt_open = !bolt_open
-	if(do_after(user, 6.5, src))
-		if(bolt_open)
-			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
-			if(chambered)
-				to_chat(user, "<span class='notice'>You work the bolt open, ejecting [chambered]!</span>")
-				chambered.loc = get_turf(src)
-				loaded -= chambered
-				chambered = null
-			else
-				to_chat(user, "<span class='notice'>You work the bolt open.</span>")
-		else
-			to_chat(user, "<span class='notice'>You work the bolt closed.</span>")
-			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltforward.ogg', 50, 1)
-			bolt_open = 0
-			if(!chambered)
-				chambered = ammo_magazine.stored_ammo[1]
-				ammo_magazine.stored_ammo -= chambered
-		add_fingerprint(user)
-		update_icon()*/
-
 /obj/item/weapon/gun/projectile/automatic/rifle/l96/special_check(mob/user)
 	if(bolt_open)
 		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
@@ -535,7 +492,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING|SPEEDLOADER
+	load_method = SINGLE_CASING | SPEEDLOADER | HANDFUL
 	max_shells = 5
 	ammo_type = null
 	one_hand_penalty = 6
@@ -713,7 +670,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING|SPEEDLOADER
+	load_method = SINGLE_CASING | SPEEDLOADER | HANDFUL
 	max_shells = 5
 	ammo_type = null
 	one_hand_penalty = 6
@@ -810,7 +767,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING|SPEEDLOADER
+	load_method = SINGLE_CASING | SPEEDLOADER | HANDFUL
 	max_shells = 5
 	ammo_type = null
 	one_hand_penalty = 6
@@ -850,7 +807,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING|SPEEDLOADER
+	load_method = SINGLE_CASING | SPEEDLOADER | HANDFUL
 	max_shells = 5
 	ammo_type = null
 	one_hand_penalty = 6
