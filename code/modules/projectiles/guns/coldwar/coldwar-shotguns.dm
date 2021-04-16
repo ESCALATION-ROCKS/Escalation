@@ -58,11 +58,11 @@
 
 ///////////////////shell loading cooldown/////////////////////
 /obj/item/weapon/gun/projectile/shotgun/attackby(obj/item/weapon/W as obj, mob/user as mob)
-	if(world.time >= recentload + 8)
+	if(world.time >= recentload + 4)
 		recentload = world.time
 		if(istype(W, /obj/item/ammo_casing/ga12/))
 			..()
-		if(istype(W, /obj/item/ammo_magazine/box/paper/boxga12))
+		if(istype(W, /obj/item/ammo_magazine/box/clip/ga12))
 			..()
 	else
 		to_chat(user, "<span class='warning'>[src] is not ready to be loaded again!</span>")
@@ -90,16 +90,16 @@
 	slowdown_general = 0.20
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc
 	bayonet_attachable = 1
-	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	fire_sound = 'sound/weapons/gunshot/r870.ogg'
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
 	drop_sound = 'sound/items/interactions/drop_gun.ogg'
-	reload_sound = 'sound/weapons/gunhandling/shell_insert.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
-	empty_sound = 'sound/weapons/gunhandling/shotgun_empty.ogg'
+	reload_sound = 'sound/weapons/gunporn/r870_shell_insert.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/r870_dist.ogg'
+	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 
 
 /obj/item/weapon/gun/projectile/shotgun/pump/r870/pump(mob/M as mob)
-	playsound(M, 'sound/weapons/gunhandling/shotgunpump.wav', 60, 1)
+	playsound(M, 'sound/weapons/gunporn/r870_pump.ogg', 60, 1)
 
 	if(chambered)//We have a shell in the chamber - Only updates icon_state because who gives a fuck otherwise
 		chambered.forceMove(get_turf(src))//Eject casing
@@ -121,6 +121,16 @@
 	update_icon()
 	update_held_icon()
 
+
+/obj/item/weapon/gun/projectile/shotgun/pump/r870/load_ammo(var/obj/item/A, mob/user)
+	..()
+	var/obj/item/ammo_magazine/AM = user.get_active_hand(A)
+
+	if(AM.stored_ammo.len == 0)
+		qdel(AM)
+		return
+
+	else return
 
 /obj/item/weapon/gun/projectile/shotgun/pump/toz194
 	name = "TOZ-194"
@@ -142,16 +152,16 @@
 	slowdown_general = 0.20
 	bayonet_type = null
 	bayonet_attachable = 0
-	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	fire_sound = 'sound/weapons/gunshot/toz194.ogg'
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
 	drop_sound = 'sound/items/interactions/drop_gun.ogg'
-	reload_sound = 'sound/weapons/gunhandling/shell_insert.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
-	empty_sound = 'sound/weapons/gunhandling/shotgun_empty.ogg'
+	reload_sound = 'sound/weapons/gunporn/toz194_shell_insert.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/toz194_dist.ogg'
+	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 
 
 /obj/item/weapon/gun/projectile/shotgun/toz194/pump/proc/pump(mob/M as mob)
-	playsound(M, 'sound/weapons/gunhandling/shotgunpump.wav', 60, 1)
+	playsound(M, 'sound/weapons/gunporn/toz194_pump.ogg', 60, 1)
 
 	if(chambered)//We have a shell in the chamber - Only updates icon_state because who gives a fuck otherwise
 		chambered.forceMove(get_turf(src))//Eject casing
@@ -173,6 +183,16 @@
 	update_icon()
 	update_held_icon()
 
+
+/obj/item/weapon/gun/projectile/shotgun/toz194/load_ammo(var/obj/item/A, mob/user)
+	..()
+	var/obj/item/ammo_magazine/AM = user.get_active_hand(A)
+
+	if(AM.stored_ammo.len == 0)
+		qdel(AM)
+		return
+
+	else return
 
 
 /////DOUBLE BARRELS AKA LE HOUSE SHOTGUN
@@ -198,14 +218,25 @@
 	slowdown_general = 0.20
 	bayonet_type = null
 	bayonet_attachable = 0
-	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	fire_sound = 'sound/weapons/gunshot/toz194.ogg'
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
 	drop_sound = 'sound/items/interactions/drop_gun.ogg'
-	reload_sound = 'sound/weapons/gunhandling/shell_insert.wav'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
-	empty_sound = 'sound/weapons/gunhandling/shotgun_empty.ogg'
+	reload_sound = 'sound/weapons/gunporn/toz194_shell_insert.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/toz194_dist.ogg'
+	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 	burst_delay = 0
 	firemodes = list(
 		list(mode_name="fire one barrel at a time", burst=1),
 		list(mode_name="fire both barrels at once", burst=2),
 		)
+
+
+/obj/item/weapon/gun/projectile/shotgun/doublebarrel/r1894/load_ammo(var/obj/item/A, mob/user)
+	..()
+	var/obj/item/ammo_magazine/AM = user.get_active_hand(A)
+
+	if(AM.stored_ammo.len == 0)
+		qdel(AM)
+		return
+
+	else return

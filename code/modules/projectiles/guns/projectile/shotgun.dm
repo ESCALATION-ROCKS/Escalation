@@ -29,7 +29,7 @@
 	return null
 
 /obj/item/weapon/gun/projectile/shotgun/pump/attack_self(mob/living/user as mob)
-	if(world.time >= recentpump + 10)
+	if(world.time >= recentpump + 7)
 		pump(user)
 		recentpump = world.time
 	else
