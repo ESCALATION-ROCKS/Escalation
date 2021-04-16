@@ -182,6 +182,58 @@
 	desc = "A .50 cal tracer bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a50cal/tr
 
+
+/obj/item/ammo_casing/ga12
+	name = "12ga #00 buckshot shell"
+	desc = "A 12ga #00 buckshot shell."
+	icon_state = "12gashell"
+	spent_icon = "12gashell-spent"
+	var/recentload = 1
+	caliber = "12ga"
+	projectile_type = /obj/item/projectile/bullet/pellet/ga12
+
+/obj/item/ammo_casing/ga12/slug
+	name = "12ga slug shell"
+	desc = "A 12ga slug shell."
+	icon_state = "12gaslugshell"
+	spent_icon = "12gaslugshell-spent"
+	projectile_type = /obj/item/projectile/bullet/rifle/ga12/slug
+
+/obj/item/ammo_casing/ga12/flec
+	name = "12ga flechette shell"
+	desc = "A 12ga flechette shell."
+	icon_state = "12gaflecshell"
+	spent_icon = "12gaflecshell-spent"
+	projectile_type = /obj/item/projectile/bullet/rifle/ga12/flec
+
+
+/obj/item/ammo_casing/ga12/wp
+	name = "12ga #00 buckshot shell"
+	desc = "A 12ga #00 buckshot shell. This one has a brass shell."
+	icon_state = "12gabrassshell"
+	spent_icon = "12gabrassshell-spent"
+	caliber = "12ga"
+	projectile_type = /obj/item/projectile/bullet/pellet/ga12
+
+/obj/item/ammo_casing/ga12/slug/wp
+	name = "12ga slug shell"
+	desc = "A 12ga slug shell. This one has a brass shell."
+	icon_state = "12gabrassshell"
+	spent_icon = "12gabrassshell-spent"
+	projectile_type = /obj/item/projectile/bullet/rifle/ga12/slug
+
+/obj/item/ammo_casing/ga12/flec/wp
+	name = "12ga flechette shell"
+	desc = "A 12ga flechette shell. This one has a brass shell."
+	icon_state = "12gabrassshell"
+	spent_icon = "12gabrassshell-spent"
+	projectile_type = /obj/item/projectile/bullet/rifle/ga12/flec
+
+/obj/item/ammo_casing/ga12/attackby(obj/item/W as obj, mob/user as mob) //Prevents stacking
+	if(istype(W, /obj/item/ammo_casing/ga12))
+		return
+	..()
+
 /obj/item/ammo_casing/ags30x29mm
 	desc = "A 30x29mm AGS-17' VOG casing"
 	caliber = "30x29mm"

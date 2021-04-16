@@ -1970,7 +1970,7 @@
 	gun_slot = /obj/item/weapon/gun/launcher/carlgustaf
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/sterling
+	r_hand = /obj/item/weapon/gun/projectile/automatic/smg/sterling
 	head = /obj/item/clothing/head/coldwar/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/atgunner/pre_equip(mob/living/carbon/human/H)

@@ -1139,6 +1139,56 @@
 	ammo_type = /obj/item/ammo_casing/a9x18/tr
 	caliber = "9x18"
 
+/////////shotgun boxes
+
+/obj/item/ammo_magazine/box/paper/boxga12
+	name = "#00 buckshot shell box (12ga)"
+	desc = "A 25 shotshell pack of 12ga #00 buckshot shells."
+	icon_state = "nato12ga_box"
+	item_state = "paper_mag"
+	max_ammo = 25
+	ammo_type = /obj/item/ammo_casing/ga12
+	caliber = "12ga"
+
+/obj/item/ammo_magazine/box/paper/boxga12/slug
+	name = "slug shell box (12ga)"
+	desc = "A 25 shotshell pack of 12ga slug shells."
+	icon_state = "nato12gaslug_box"
+	item_state = "paper_mag"
+	max_ammo = 25
+	ammo_type = /obj/item/ammo_casing/ga12/slug
+	caliber = "12ga"
+
+/obj/item/ammo_magazine/box/paper/boxga12/flec
+	name = "flechette shell box (12ga)"
+	desc = "A 25 shotshell pack of 12ga flechette shells."
+	icon_state = "nato12gaflec_box"
+	item_state = "paper_mag"
+	max_ammo = 25
+	ammo_type = /obj/item/ammo_casing/ga12/flec
+	caliber = "12ga"
+
+/obj/item/ammo_magazine/box/paper/boxga12/wp
+	name = "brass #00 buckshot shell box (12ga)"
+	desc = "A 25 shotshell pack of brass 12ga #00 buckshot shells."
+	icon_state = "wp12ga_box"
+	ammo_type = /obj/item/ammo_casing/ga12/wp
+
+
+/obj/item/ammo_magazine/box/paper/boxga12/slug/wp
+	name = "brass slug shell box (12ga)"
+	desc = "A 25 shotshell pack of brass 12ga slug shells."
+	icon_state = "wp12gaslug_box"
+	ammo_type = /obj/item/ammo_casing/ga12/slug/wp
+
+
+/obj/item/ammo_magazine/box/paper/boxga12/flec/wp
+	name = "brass flechette shell box (12ga)"
+	desc = "A 25 shotshell pack of brass flechette shells."
+	icon_state = "wp12gaflec_box"
+	ammo_type = /obj/item/ammo_casing/ga12/slug/wp
+
+
 /////////////////// clips
 
 /obj/item/ammo_magazine/box/clip/h762x53

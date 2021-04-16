@@ -230,6 +230,40 @@
 	armor_penetration = 98 //was 65
 	penetration_modifier = 0.4
 
+
+//////////Refer to bullets.dm pellet/ for balancing shot shells.
+
+/obj/item/projectile/bullet/pellet/ga12 //Based on #00 load
+	armor_penetration = -10 // - does jackshit against armor
+	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
+	agony = 13
+	name = "#00 buckshot pellet"
+	icon_state = "pellets" //TODO: would be nice to have it's own icon state
+	pellets = 9		//number of pellets
+	range_step = 10		//projectile will lose a fragment each time it travels this distance. so this is a 90 tile kill range
+	base_spread = 90	//lower means the pellets spread more across body parts. If zero then this is considered a shrapnel explosion instead of a shrapnel cone
+	spread_step = 10   //higher means the pellets spread more across body parts with distance
+
+	New()
+		damage = rand(5, 8)
+
+/obj/item/projectile/bullet/rifle/ga12/slug //hits like a train
+	armor_penetration = 20
+	penetration_modifier = 0.3
+	agony = 20
+
+	New()
+		damage = rand(40, 55)
+
+/obj/item/projectile/bullet/rifle/ga12/flec //Very very tight grouping so will have its own projectile icon
+	armor_penetration = 98 //was 20
+	icon_state = "bullet_flechette"
+	penetration_modifier = 0.1
+	agony = 18
+
+	New()
+		damage = rand(20, 30)
+
 /obj/item/projectile/bullet/ags30x29mm
 	name = "AGS' bullet"
 	icon_state = "vog"

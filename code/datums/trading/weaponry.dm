@@ -23,7 +23,6 @@
 								/obj/item/weapon/gun/projectile/automatic/ar/redline    = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/pistol/guardian    = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/pistol/deputy    = TRADER_THIS_TYPE,
-								/obj/item/weapon/gun/projectile/shotgun/pump/redline    = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/rifle/boltaction    = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/rifle/    = TRADER_THIS_TYPE,
 								/obj/item/weapon/storage/box/shotgunammo	= TRADER_THIS_TYPE,
@@ -37,7 +36,6 @@
 								/obj/item/weapon/gun/projectile/automatic/ar/redline    = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/pistol/guardian    = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/pistol/deputy    = TRADER_THIS_TYPE,
-								/obj/item/weapon/gun/projectile/shotgun/pump/redline    = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/rifle/boltaction    = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/rifle/    = TRADER_THIS_TYPE)
 /*
