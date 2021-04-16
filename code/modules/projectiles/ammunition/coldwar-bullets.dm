@@ -207,28 +207,6 @@
 	projectile_type = /obj/item/projectile/bullet/rifle/ga12/flec
 
 
-/obj/item/ammo_casing/ga12/wp
-	name = "12ga #00 buckshot shell"
-	desc = "A 12ga #00 buckshot shell. This one has a brass shell."
-	icon_state = "12gabrassshell"
-	spent_icon = "12gabrassshell-spent"
-	caliber = "12ga"
-	projectile_type = /obj/item/projectile/bullet/pellet/ga12
-
-/obj/item/ammo_casing/ga12/slug/wp
-	name = "12ga slug shell"
-	desc = "A 12ga slug shell. This one has a brass shell."
-	icon_state = "12gabrassshell"
-	spent_icon = "12gabrassshell-spent"
-	projectile_type = /obj/item/projectile/bullet/rifle/ga12/slug
-
-/obj/item/ammo_casing/ga12/flec/wp
-	name = "12ga flechette shell"
-	desc = "A 12ga flechette shell. This one has a brass shell."
-	icon_state = "12gabrassshell"
-	spent_icon = "12gabrassshell-spent"
-	projectile_type = /obj/item/projectile/bullet/rifle/ga12/flec
-
 /obj/item/ammo_casing/ga12/attackby(obj/item/W as obj, mob/user as mob) //Prevents stacking
 	if(istype(W, /obj/item/ammo_casing/ga12))
 		return

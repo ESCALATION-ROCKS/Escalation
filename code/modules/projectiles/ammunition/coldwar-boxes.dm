@@ -1170,27 +1170,6 @@
 	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/flec
 	caliber = "12ga"
 
-/obj/item/ammo_magazine/box/paper/boxga12/wp
-	name = "brass #00 buckshot shell box (12ga)"
-	desc = "A 25 shotshell pack of brass 12ga #00 buckshot shells."
-	icon_state = "wp12ga_box"
-	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/wp
-
-
-/obj/item/ammo_magazine/box/paper/boxga12/slug/wp
-	name = "brass slug shell box (12ga)"
-	desc = "A 25 shotshell pack of brass 12ga slug shells."
-	icon_state = "wp12gaslug_box"
-	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/slug/wp
-
-
-/obj/item/ammo_magazine/box/paper/boxga12/flec/wp
-	name = "brass flechette shell box (12ga)"
-	desc = "A 25 shotshell pack of brass flechette shells."
-	icon_state = "wp12gaflec_box"
-	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/flec/wp
-
-
 /////////////////// clips
 
 /obj/item/ammo_magazine/box/clip/h762x53
@@ -1372,16 +1351,3 @@
 	ammo_type = /obj/item/ammo_casing/ga12/flec
 	max_ammo = 5
 	multiple_sprites = 1
-
-
-/obj/item/ammo_magazine/box/clip/ga12/wp
-	icon_state = "ga12brass"
-	ammo_type = /obj/item/ammo_casing/ga12/wp
-
-/obj/item/ammo_magazine/box/clip/ga12/slug/wp
-	icon_state = "ga12brass"
-	ammo_type = /obj/item/ammo_casing/ga12/slug/wp
-
-/obj/item/ammo_magazine/box/clip/ga12/flec/wp
-	icon_state = "ga12brass"
-	ammo_type = /obj/item/ammo_casing/ga12/flec/wp
