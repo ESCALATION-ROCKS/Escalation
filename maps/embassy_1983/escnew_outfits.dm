@@ -319,7 +319,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympsl
 	name = OUTFIT_JOB_NAME("Coldwar - KGB Komandir Elementa")
-	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/star
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/aps
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aek971
@@ -338,7 +338,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympop
 	name = OUTFIT_JOB_NAME("Coldwar - KGB Operator")
-	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
@@ -350,12 +350,12 @@
 	belt = /obj/item/weapon/storage/belt/harness/sa
 	r_pocket = /obj/item/clothing/mask/balaclava/alt
 	l_pocket = /obj/item/clothing/gloves/tactical
-	
+
 	flags = OUTFIT_HAS_SABACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympmg
 	name = OUTFIT_JOB_NAME("Coldwar - KGB Pulemetchik")
-	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/pkm
@@ -370,7 +370,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympsm
 	name = OUTFIT_JOB_NAME("Coldwar - KGB Snaiper")
-	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/jsgt
+	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/svd
@@ -2143,7 +2143,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	head = /obj/item/clothing/head/coldwar/beret/baf
-	
+
 	flags = OUTFIT_HAS_BAFBACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_loader/pre_equip(mob/living/carbon/human/H)
@@ -3095,7 +3095,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 	flags = OUTFIT_HAS_USABACKPACK
-	
+
 /decl/hierarchy/outfit/job/coldwar/usa/hws_loader/pre_equip(mob/living/carbon/human/H)
 	..()
 	l_hand = pick(/obj/item/clothing/head/coldwar/helmet/usmc/pasgt, /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland)
