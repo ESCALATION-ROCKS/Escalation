@@ -1350,11 +1350,11 @@ Note that amputating the affected organ does in fact remove the infection from t
 	if(owner.get_blood_oxygenation() <= 50)
 		badness += "turning blue"
 	if(owner.get_blood_circulation() <= 60)
-		badness += "very pale"
+		badness += "dangerously pale"
 	if(status & ORGAN_DEAD)
 		badness += "rotting"
 	if(!badness.len)
-		to_chat(user, "<span class='notice'>[owner]'s skin is normal.</span>")
+		to_chat(user, "<span class='notice'>[owner]'s skin is fine.</span>")
 	else
 		to_chat(user, "<span class='warning'>[owner]'s skin is [english_list(badness)].</span>")
 
@@ -1367,12 +1367,33 @@ Note that amputating the affected organ does in fact remove the infection from t
 		to_chat(user, "<span class='warning'>The [encased ? encased : "bone in the [name]"] moves slightly when you poke it!</span>")
 		owner.custom_pain("Your [name] hurts where it's poked.",40, affecting = src)
 	else
-		to_chat(user, "<span class='notice'>The [encased ? encased : "bones in the [name]"] seem to be fine.</span>")
+		to_chat(user, "<span class='notice'>[owner]'s bones are fine.</span>")
 
 	if(status & ORGAN_TENDON_CUT)
 		to_chat(user, "<span class='warning'>The tendons in [name] are severed!</span>")
 	if(dislocated == 2)
 		to_chat(user, "<span class='warning'>The [joint] is dislocated!</span>")
+
+	
+	to_chat(user, "<span class='notice'>Checking eyes now...</span>")
+	if(!do_mob(user, owner, 10))
+		to_chat(user, "<span class='notice'>You must stand to check [src] for brain or eye damage.</span>")
+		return
+
+	var/eyebadness
+	if(owner.getBrainLoss() >= 30)
+		eyebadness += "dilated"
+	if(owner.eye_blurry)
+		eyebadness += "bloodied"
+	if(UNCONSCIOUS)
+		eyebadness += "not reacting to light"
+	if(CONSCIOUS && owner.eye_blind)
+		eyebadness += "blind"
+
+	if(!badness.len)
+		to_chat(user, "<span class='notice'>[owner]'s eyes are fine.</span>")
+	else
+		to_chat(user, "<span class='warning'>[owner]'s eyes are [english_list(eyebadness)].</span>")
 	return 1
 
 /obj/item/organ/external/listen()

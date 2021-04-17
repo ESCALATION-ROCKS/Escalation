@@ -235,7 +235,7 @@
 
 /obj/item/projectile/bullet/pellet/ga12 //Based on #00 load
 	armor_penetration = -50 // - does jackshit against armor
-	penetration_modifier = 0.9 ///works per pellet so 0.9 is 0.1 organ damage chance per pellet
+	penetration_modifier = 0.6
 	agony = 15
 	name = "#00 buckshot pellet"
 	icon_state = "pellets" //TODO: would be nice to have it's own icon state

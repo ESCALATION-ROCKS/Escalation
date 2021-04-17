@@ -206,7 +206,7 @@
 	else
 		for(var/datum/wound/wound in affected.wounds)
 			loot |= wound.embedded_objects
-			find_prob += 50
+			find_prob += 85
 
 	if (loot.len)
 
@@ -215,11 +215,11 @@
 		if(istype(obj,/obj/item/weapon/implant))
 			var/obj/item/weapon/implant/imp = obj
 			if (imp.islegal())
-				find_prob +=60
+				find_prob +=85
 			else
-				find_prob +=40
+				find_prob +=85
 		else
-			find_prob +=50
+			find_prob +=85
 
 		if (prob(find_prob))
 			user.visible_message("<span class='notice'>[user] takes something out of incision on [target]'s [affected.name] with \the [tool].</span>", \
