@@ -1832,7 +1832,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/ugrenades
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/berettam9
-	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	head = /obj/item/clothing/head/coldwar/beret/usmc/woodland
 	l_pocket = /obj/item/weapon/key/natonco
 	l_ear = /obj/item/device/binoculars/nato
 	r_pocket = /obj/item/weapon/facepaint/sniper

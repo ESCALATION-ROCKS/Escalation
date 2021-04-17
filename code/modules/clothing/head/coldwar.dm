@@ -328,10 +328,10 @@
 	desc = "That's a generic field cap in a woodland pattern."
 	icon_state = "woodland_cap"
 
-/*/obj/item/clothing/head/usmc/cover
-	name = " utility cover"
-	desc = "A green utility cover."
-	icon_state = "greenutility"*/
+/obj/item/clothing/head/coldwar/beret/usmc/woodland
+	name = "woodland beret"
+	desc = "That's a USMC in a woodland pattern."
+	icon_state = "usmcberet"
 
 /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	name = "boonie hat"
@@ -341,7 +341,7 @@
 /*/obj/item/clothing/head/usmc/cavhat
 	name = "cavalry hat"
 	desc = null
-	icon_state = "cavhat"*/ //////belonged to frown some time.
+	icon_state = "cavhat"*/ //////belonged to frown some time ago.
 
 /obj/item/clothing/head/coldwar/ushanka/us
 	name = "winter cap"
