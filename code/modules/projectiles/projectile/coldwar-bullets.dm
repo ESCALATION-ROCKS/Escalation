@@ -234,35 +234,36 @@
 //////////Refer to bullets.dm pellet/ for balancing shot shells.
 
 /obj/item/projectile/bullet/pellet/ga12 //Based on #00 load
-	armor_penetration = -10 // - does jackshit against armor
-	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
-	agony = 35
+	armor_penetration = -50 // - does jackshit against armor
+	penetration_modifier = 0.9 ///works per pellet so 0.9 is 0.1 organ damage chance per pellet
+	agony = 15
 	name = "#00 buckshot pellet"
 	icon_state = "pellets" //TODO: would be nice to have it's own icon state
 	pellets = 9		//number of pellets
-	range_step = 10		//projectile will lose a fragment each time it travels this distance. so this is a 90 tile kill range
-	base_spread = 90	//lower means the pellets spread more across body parts. If zero then this is considered a shrapnel explosion instead of a shrapnel cone
-	spread_step = 10   //higher means the pellets spread more across body parts with distance
+	range_step = 2		//projectile will lose a fragment each time it travels this distance.
+	base_spread = 98	//lower means the pellets spread more across body parts. If zero then this is considered a shrapnel explosion instead of a shrapnel cone
+	spread_step = 4   //higher means the pellets spread more across body parts with distance
+	//Pretty tight grouping and low range so armors actually fucking work against it. Solution is to aim for limbs
 
 	New()
-		damage = rand(28, 35)
+		damage = rand(15, 22)
 
-/obj/item/projectile/bullet/rifle/ga12/slug //hits like a train
-	armor_penetration = 20
+/obj/item/projectile/bullet/rifle/ga12/slug
+	armor_penetration = 5 //low chance of going through
 	penetration_modifier = 0.3
-	agony = 25
+	agony = 20
 
 	New()
-		damage = rand(40, 55)
+		damage = rand(25, 32)
 
-/obj/item/projectile/bullet/rifle/ga12/flec //Very very tight grouping so will have its own projectile icon
+/obj/item/projectile/bullet/rifle/ga12/flec //Very very tight grouping so its a rifle bullet
 	armor_penetration = 98 //was 20
 	icon_state = "bullet_flechette"
 	penetration_modifier = 0.1
-	agony = 22
+	agony = 16
 
 	New()
-		damage = rand(20, 30)
+		damage = rand(25, 28)
 
 /obj/item/projectile/bullet/ags30x29mm
 	name = "AGS' bullet"
