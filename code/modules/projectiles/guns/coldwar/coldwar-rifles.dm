@@ -290,10 +290,10 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(!roundstarted)
+	if(use_launcher && !roundstarted)
 		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
 		return
-	if(use_launcher)
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
@@ -583,10 +583,10 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(!roundstarted)
+	if(use_launcher && !roundstarted)
 		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
 		return
-	if(use_launcher)
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
@@ -669,10 +669,10 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(!roundstarted)
+	if(use_launcher && !roundstarted)
 		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
 		return
-	if(use_launcher)
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
@@ -853,10 +853,10 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(!roundstarted)
+	if(use_launcher && !roundstarted)
 		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
 		return
-	if(use_launcher)
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
@@ -981,10 +981,10 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(!roundstarted)
+	if(use_launcher && !roundstarted)
 		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
 		return
-	if(use_launcher)
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
@@ -1162,10 +1162,10 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(!roundstarted)
+	if(use_launcher && !roundstarted)
 		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
 		return
-	if(use_launcher)
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
@@ -1375,10 +1375,10 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(!roundstarted)
+	if(use_launcher && !roundstarted)
 		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
 		return
-	if(use_launcher)
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
@@ -1492,10 +1492,10 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(!roundstarted)
+	if(use_launcher && !roundstarted)
 		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
 		return
-	if(use_launcher)
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
