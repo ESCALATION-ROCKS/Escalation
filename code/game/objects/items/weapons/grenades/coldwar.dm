@@ -177,7 +177,7 @@
 
 /obj/item/weapon/grenade/frag/satchelnato/attack_self(mob/user)
 	if (roundstarted == 0)
-		to_chat(user, "<span class='notice'>There is nothing to blow up yet!</span>")
+		to_chat(user, "<span class='warning'>There is nothing to blow up yet!</span>")
 		return
 	else
 		message_admins("[key_name_admin(user)] activated a satchel charge. ([src.name]).")
@@ -207,7 +207,7 @@
 
 /obj/item/weapon/grenade/frag/satchelwp/attack_self(mob/user)
 	if (roundstarted == 0)
-		to_chat(user, "<span class='notice'>There is nothing to blow up yet!</span>")
+		to_chat(user, "<span class='warning'>There is nothing to blow up yet!</span>")
 		return
 	else
 		message_admins("[key_name_admin(user)] activated a satchel charge. ([src.name]).")

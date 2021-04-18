@@ -942,16 +942,6 @@
 	multiple_sprites = 1
 	load_delay = 30
 
-/obj/item/ammo_magazine/a4mm
-	name = "magazine box (4mm)"
-	icon_state = "4mm"
-	mag_type = MAGAZINE
-	w_class = ITEM_SIZE_LARGE
-	caliber = "4mm"
-	ammo_type = /obj/item/ammo_casing/a4mm
-	max_ammo = 400
-	multiple_sprites = 1
-
 /obj/item/ammo_magazine/ags30x29mm
 	name = "AGS belt box (VOG 30x29mm)"
 	desc = "An AGS Plamya belt box that fits twenty nine grenades."

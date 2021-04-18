@@ -88,11 +88,6 @@
 	MG.forceMove(machinegun)
 	src.forceMove(machinegun)
 
-/obj/item/weapon/mg_tripod/minigun
-	name = "stationary machinegun tripod"
-	icon_state = "minigun-tripod"
-	id_g = "mng"
-	need_type = /obj/item/weapon/gun/projectile/heavy_mg/minigun
 
 /obj/item/weapon/mg_tripod/utes
 	name = "NSV Utes tripod"

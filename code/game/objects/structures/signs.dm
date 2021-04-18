@@ -715,7 +715,7 @@ obj/structure/sign/noshitlers
 
 /obj/structure/sign/departments/morgue
 	name = "Morgue"
-	desc = "DEAD NIGGERS STORAGE"
+	desc = "Morgue"
 	icon_state = "Morgue"
 
 /obj/structure/sign/departments/emt

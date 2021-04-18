@@ -123,7 +123,7 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 
 	var/datum/species/mob_species = all_species[pref.species]
 	. += "<table><tr style='vertical-align:top'><td><b>Body</b> "
-	. += "(<a href='?src=\ref[src];random=1'>&reg;</A>)"
+	/*. += "(<a href='?src=\ref[src];random=1'>&reg;</A>)"*/
 	. += "<br>"
 
 /*	if(config.use_cortical_stacks)

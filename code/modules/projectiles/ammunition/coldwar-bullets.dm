@@ -147,11 +147,6 @@
 	desc = "A 9x18mm tracer bullet casing."
 	projectile_type = /obj/item/projectile/bullet/rifle/a9x18/tr
 
-/obj/item/ammo_casing/a4mm
-	desc = "A 4mm bullet casing."
-	caliber = "4mm"
-	projectile_type = /obj/item/projectile/bullet/rifle/a4mm
-
 /obj/item/ammo_casing/a127x108mm
 	desc = "A 12.7x108mm bullet casing."
 	caliber = "127x108mm"
@@ -219,10 +214,6 @@
 	icon_state = "vog17-casing"
 	spent_icon = "vog17-casing-spent"
 
-/obj/item/ammo_casing/ags30x29mm/shrapnel
-	desc = "VOG with something like \"shrapnel\" drawn on it"
-	projectile_type = /obj/item/projectile/bullet/ags30x29mm/pow
-
 /obj/item/ammo_casing/mk19_40x53mm
 	desc = "A 40x53mm MK 19 casing"
 	caliber = "40x53mm"
@@ -230,15 +221,12 @@
 	icon_state = "vog17-casing" ////fix
 	spent_icon = "vog17-casing-spent"/////fix
 
-/obj/item/ammo_casing/mk19_40x53mm/shrapnel
-	projectile_type = /obj/item/projectile/bullet/mk19_40x53mm/pow
-
 /obj/item/ammo_casing/rpg_missile
 	name = "RG-7"
 	desc = "A regular morkovka for rpg"
 	caliber = "7p16"
 	icon_state = "rg-7"
-	projectile_type = /obj/item/projectile/bullet/rgprocket/he
+	projectile_type = /obj/item/projectile/bullet/rpgrocket/he
 	w_class = 4
 	slot_flags = null
 
@@ -266,21 +254,21 @@
 /obj/item/ammo_casing/rpg_missile/recoilless
 	name = "Carl Gustaf shell"
 	desc = "A 84mm Carl Gustaf shell."
-	projectile_type = /obj/item/projectile/bullet/rgprocket/gustaf
+	projectile_type = /obj/item/projectile/bullet/rpgrocket/gustaf
 	icon_state = "carlgustaf"
 	layer = 4
 
 /obj/item/ammo_casing/rpg_missile/finn
 	name = "55 S 55 HEAT shell"
 	desc = "A HEAT shell for the 55 S 55. Even though it looks like a rocket, it doesn't propel its payload after exiting the muzzle."
-	projectile_type = /obj/item/projectile/bullet/rgprocket/finn
+	projectile_type = /obj/item/projectile/bullet/rpgrocket/finn
 	icon_state = "55s55"
 	layer = 4
 
 /obj/item/ammo_casing/oneuserocket
 	name = "rocket"
 	desc = "A rocket."
-	projectile_type = /obj/item/projectile/bullet/rgprocket
+	projectile_type = /obj/item/projectile/bullet/rpgrocket
 	icon_state = null
 	spent_icon = null
 	w_class = 4

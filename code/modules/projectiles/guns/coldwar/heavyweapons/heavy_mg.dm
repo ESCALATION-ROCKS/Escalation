@@ -239,24 +239,6 @@
 
 	detach_tripod(usr)
 
-/////////////////////////////
-////Minigun//////////////////
-/////////////////////////////
-/obj/item/weapon/gun/projectile/heavy_mg/minigun
-	name = "staionary machinegun"
-	desc = "6-barreled highspeed machinegun."
-	icon_state = "minigun"
-	load_method = MAGAZINE
-//	handle_casings = REMOVE_CASINGS//replace in EJECT later after tests and balancing
-	caliber = "4mm"
-	ammo_type = /obj/item/ammo_casing/a4mm
-
-//	fire_sound = 'sound/weapons/minigun_1sec.ogg'
-
-	firemodes = list(
-		list(mode_name="3000 rpm", burst=10, burst_delay=0.1, fire_delay=1.0, dispersion=list(1.0), burst_accuracy=list(0,-1)),
-		list(mode_name="6000 rpm", burst=20, burst_delay=0.05, fire_delay=1.5, dispersion=list(1.5), burst_accuracy=list(0,-1,-1))
-		)
 
 //////////////////////
 ///UTES///////////////

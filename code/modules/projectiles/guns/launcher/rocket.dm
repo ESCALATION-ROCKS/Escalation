@@ -39,7 +39,7 @@
 /obj/item/weapon/gun/launcher/rocket/consume_next_projectile()
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/M = new (src)
+		var/obj/item/projectile/bullet/rpgrocket/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
