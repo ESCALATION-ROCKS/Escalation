@@ -241,22 +241,22 @@
 	armor_penetration = -50 // - does jackshit against armor
 	penetration_modifier = 0.6
 	kill_count = 25
-	agony = 15
+	agony = 20
 	name = "#00 buckshot pellet"
 	icon_state = "pellets" //TODO: would be nice to have it's own icon state
 	pellets = 9		//number of pellets
 	range_step = 2		//projectile will lose a fragment each time it travels this distance.
 	base_spread = 98	//lower means the pellets spread more across body parts. If zero then this is considered a shrapnel explosion instead of a shrapnel cone
-	spread_step = 4   //higher means the pellets spread more across body parts with distance
+	spread_step = 2   //higher means the pellets spread more across body parts with distance
 	//Pretty tight grouping and low range so armors actually fucking work against it. Solution is to aim for limbs
 
 	New()
-		damage = rand(15, 22)
+		damage = rand(25, 38)
 
 /obj/item/projectile/bullet/rifle/ga12/slug
 	armor_penetration = 5 //low chance of going through
 	penetration_modifier = 0.3
-	agony = 20
+	agony = 18
 	kill_count = 60
 
 	New()

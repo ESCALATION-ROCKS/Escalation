@@ -24,6 +24,8 @@
 		to_chat(user, "<span class='notice'>You attach [knife.name] to the [src].</span>")
 		src.verbs += /obj/item/weapon/gun/projectile/rifle/pumpaction/verb/remove_bayonet
 		update_icon()
+	if(istype(W, /obj/item/ammo_magazine/box/paper))
+		return
 	..()
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/update_icon()
@@ -115,7 +117,7 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870
 	name = "Remington 870"
 	desc = "An outdated pump action shotgun used by the USMC. Holds seven 12ga shells and one in the chamber."
-	icon = 'icons/obj/boltactions.dmi'
+	icon = 'icons/obj/escalationguns.dmi'
 	icon_state = "r870-empty"
 	item_state = "shotgunplaceholder"
 	force = 15
@@ -124,7 +126,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING | HANDFUL
+	load_method = SINGLE_CASING|AMMO_BOX
 	max_shells = 7
 	ammo_type = null
 	one_hand_penalty = 6
@@ -138,8 +140,8 @@
 	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 	jam_chance = 0.010
 	slowdown_general = 0.25
-	bayonet_attachable = 0
-	bayonet_type = null
+	bayonet_attachable = 1
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870/consume_next_projectile()
 	if(chambered)
@@ -214,7 +216,7 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194
 	name = "TOZ-194"
 	desc = "A pump action shotgun used by the SA. Holds six 12ga shells and one in the chamber."
-	icon = 'icons/obj/boltactions.dmi'
+	icon = 'icons/obj/escalationguns.dmi'
 	icon_state = "toz194-empty"
 	item_state = "shotgunplaceholder"
 	force = 15
@@ -223,7 +225,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING | HANDFUL
+	load_method = SINGLE_CASING|AMMO_BOX
 	max_shells = 6
 	ammo_type = null
 	one_hand_penalty = 6
@@ -331,7 +333,7 @@
 
 
 
-/////DOUBLE BARRELS AKA LE HOUSE SHOTGUN
+/////DOUBLE BARRELS AKA LE HOUSE SHOTGUN - will probably make one later idk this one doesnt work
 /*/obj/item/weapon/gun/projectile/shotgun/doublebarrel/r1894
 	name = "Remington 1894"
 	desc = "A true classic. Chambers two 12ga shells."

@@ -1138,8 +1138,9 @@
 	desc = "A 25 shotshell pack of 12ga #00 buckshot shells."
 	icon_state = "nato12ga_box"
 	item_state = "paper_mag"
-	max_ammo = 25
-	ammo_type = /obj/item/ammo_casing/ga12
+	w_class = ITEM_SIZE_LARGE
+	max_ammo = 5
+	ammo_type = /obj/item/ammo_magazine/box/clip/ga12
 	caliber = "12ga"
 
 /obj/item/ammo_magazine/box/paper/boxga12/slug
@@ -1147,17 +1148,19 @@
 	desc = "A 25 shotshell pack of 12ga slug shells."
 	icon_state = "nato12gaslug_box"
 	item_state = "paper_mag"
-	max_ammo = 25
-	ammo_type = /obj/item/ammo_casing/ga12/slug
+	w_class = ITEM_SIZE_LARGE
+	max_ammo = 5
+	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/slug
 	caliber = "12ga"
 
 /obj/item/ammo_magazine/box/paper/boxga12/flec
 	name = "flechette shell box (12ga)"
 	desc = "A 25 shotshell pack of 12ga flechette shells."
 	icon_state = "nato12gaflec_box"
+	w_class = ITEM_SIZE_LARGE
 	item_state = "paper_mag"
-	max_ammo = 25
-	ammo_type = /obj/item/ammo_casing/ga12/flec
+	max_ammo = 5
+	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/flec
 	caliber = "12ga"
 
 /////////////////// clips
@@ -1245,7 +1248,7 @@
 /obj/item/ammo_magazine/box/clip/t762x51
 	name = "handful of bullets (7.62x51mm)"
 	desc = "A handful of 7.62x51mm bullets."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "t762x51"
 	caliber = "762x51"
 	w_class = 1
@@ -1256,7 +1259,7 @@
 /obj/item/ammo_magazine/box/clip/t762x51/tr
 	name = "handful of tracer bullets (7.62x51mm)"
 	desc = "A handful of orange tipped 7.62x51mm bullets."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "to762x51"
 	caliber = "762x51"
 	w_class = 1
@@ -1267,7 +1270,7 @@
 /obj/item/ammo_magazine/box/clip/t762x51/ap
 	name = "handful of armor-piercing bullets (7.62x51mm)"
 	desc = "A handful of black tipped 7.62x51mm bullets."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "tb762x51"
 	caliber = "762x51"
 	w_class = 1
@@ -1278,7 +1281,7 @@
 /obj/item/ammo_magazine/box/clip/t762x53
 	name = "handful of bullets (7.62x53mmR)"
 	desc = "A handful of 7.62x53mmR bullets."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "t762x53"
 	caliber = "762x53"
 	w_class = 1
@@ -1289,7 +1292,7 @@
 /obj/item/ammo_magazine/box/clip/t762x53/tr
 	name = "handful of tracer bullets (7.62x53mmR)"
 	desc = "A handful of yellow tipped 7.62x53mmR bullets."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "ty762x53"
 	caliber = "762x53"
 	w_class = 1
@@ -1300,7 +1303,7 @@
 /obj/item/ammo_magazine/box/clip/t762x53/ap
 	name = "handful of armor-piercing bullets (7.62x53mmR)"
 	desc = "A handful of light-blue tipped 7.62x53mmR bullets."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "tb762x53"
 	caliber = "762x53"
 	w_class = 1
@@ -1312,7 +1315,7 @@
 /obj/item/ammo_magazine/box/clip/ga12
 	name = "handful of #00 buckshot shells (12ga)"
 	desc = "A handful of #00 buckshot shells."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "ga12"
 	caliber = "12ga"
 	w_class = 1
@@ -1323,7 +1326,7 @@
 /obj/item/ammo_magazine/box/clip/ga12/slug
 	name = "handful of slug shells (12ga)"
 	desc = "A handful of slug shells."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "ga12slug"
 	caliber = "12ga"
 	w_class = 1
@@ -1334,7 +1337,7 @@
 /obj/item/ammo_magazine/box/clip/ga12/flec
 	name = "handful of flechette shells (12ga)"
 	desc = "A handful of flechette shells."
-	mag_type = HANDFUL
+	mag_type = AMMO_BOX
 	icon_state = "ga12flec"
 	caliber = "12ga"
 	w_class = 1
