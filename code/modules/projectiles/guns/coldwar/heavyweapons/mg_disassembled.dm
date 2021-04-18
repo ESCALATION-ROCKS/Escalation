@@ -10,11 +10,6 @@
 	var/id_g = "bmg"
 	slowdown_general = 1.5
 
-/obj/item/weapon/mg_disassembled/minigun
-	name = "disassembled stationary machinegun"
-	icon_state = "minigun-disconnected"
-	id_g = "mng"
-
 /obj/item/weapon/mg_disassembled/utes
 	name = "disassembled NSV Utes"
 	icon_state = "utes-disconnected"

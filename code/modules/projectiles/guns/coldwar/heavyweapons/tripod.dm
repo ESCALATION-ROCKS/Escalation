@@ -16,7 +16,8 @@
 	..()
 	if(istype(A, /obj/item/weapon/mg_disassembled))
 		var/obj/item/weapon/mg_disassembled/MG = A
-		make_machinegun(MG, user)
+		if(do_after(user, 20, src))
+			make_machinegun(MG, user)
 
 /obj/item/weapon/mg_tripod/afterattack(var/atom/A, var/mob/user, proximity)
 	..()
@@ -54,8 +55,8 @@
 	density = 1
 	icon_state = "[initial(icon_state)]-turf"
 	if(show_message)
-		M.visible_message("<span class='notice'>[M.name] attached to ground \the tripod.</span>", \
-						  "<span class='notice'>You attached to ground \the tripod.</span>")
+		M.visible_message("<span class='notice'>[M.name] fixed \the tripod into the ground.</span>", \
+						  "<span class='notice'>You affix \the tripod into the ground.</span>")
 
 
 /obj/item/weapon/mg_tripod/proc/detach_from_turf(var/mob/M, var/show_message = 0)
@@ -66,8 +67,8 @@
 	density = 0
 	icon_state = initial(icon_state)
 	if(show_message)
-		M.visible_message("<span class='notice'>[M.name] detached from ground \the tripod.</span>", \
-						  "<span class='notice'>You detached from ground \the tripod.</span>")
+		M.visible_message("<span class='notice'>[M.name] detached \the tripod from the ground.</span>", \
+						  "<span class='notice'>You detached \the tripod from the ground.</span>")
 
 /obj/item/weapon/mg_tripod/proc/make_machinegun(var/obj/item/weapon/mg_disassembled/MG, var/mob/user)
 	if(!MG || !istype(MG) || !ismob(user))
