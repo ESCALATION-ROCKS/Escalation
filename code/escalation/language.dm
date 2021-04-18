@@ -109,7 +109,7 @@
 
 /datum/language/escalation/german
 	name = "German"
-	desc = "This is the languaged used by the Bundeswehr and the NVADDR."
+	desc = "This is the languaged used by the Bundeswehr, Bundesheer and the NVADDR."
 	colour = "german"
 	key = "g"
 	syllables = list("die", "das", "wein", "mir", "und", "wier", "ein", "nein", "gen", "en", "sauen", "bien", "nien", "rien", "rhein", "deut", "der", "lieb", "en", "stein", "nein", "ja", "wolle", "sil", "be")
@@ -120,6 +120,20 @@
 	colour = "finnish"
 	key = "f"
 	syllables = list("mine", "sine", "hen", "me", "te", "he", "tame", "tuo", "se", "name", "nuo", "ne", "kuka", "mika", "ken", "kumpi", "joka", "mike", "toinen", "itse", "Ei", "Anteeksi", "Kiitos")
+
+/datum/language/escalation/spanish
+	name = "Spanish"
+	desc = "This is the languaged used by the Spanish Army."
+	colour = "spanish"
+	key = "p"
+	syllables = list("va", "que", "qi", "si", "non", "te", "ta", "juz", "gue", "vez", "fe", "he", "hi", "in", "is", "it", "la", "re", "tin", "pa", "sa", "arr", "vi", "va", "mie", "do", "ri", "tos", "tra", "ma", "ra", "jo", "ero", "dad", "ejo", "ala", "ches", "bol", "bras", "som", "san", "bre", "erpo", "feliz", "juevez", "yes", "oje", "nol", "esp", "co", "un", "dos", "tres", "favor", "por", "bien", "como", "luz", "del", "ahi", "ajos", "veo", "tor", "apia", "riza", "hombre", "dador", "pindejo")
+
+/datum/language/escalation/french
+	name = "French"
+	desc = "This is the languaged used by the French Army."
+	colour = "spanish"
+	key = "h"
+	syllables = list("voux", "que", "qi", "cha", "non", "une", "la", "le", "l'", "j'", "d'", "mer", "rea", "lite", "ite", "eta", "la", "moi", "toi", "nous", "et", "tu", "tou", "jours", "mains", "moin", "les", "mise", "tra", "ma", "ra", "je", "nom", "lier", "ejo", "jeu", "nesse", "che", "pere", "som", "san", "bre", "sou", "vent", "mer", "les", "eux", "aux", "oux", "iux", "tiere", "dos", "tres", "etre", "ne", "bien", "tous", "lus", "del", "j'etat", "est", "sans", "eils", "guerre", "oire", "noire", "beaucoup", "merci")
 
 //////////NOTE: Make sure BAY12 does not use the hotkey that you are going to use for a new language
 ////////// just search ( key = "" ) and you will find it
