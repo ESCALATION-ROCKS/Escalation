@@ -234,7 +234,7 @@
 	throw_range = 30
 	sharp = 1
 	edge =  1
-	arm_sound = 'sound/weapons/grenlauncher.ogg'
+	arm_sound = 'sound/weapons/gunshot/m203.ogg'
 
 
 /obj/item/weapon/grenade/frag/ugl/shell40mm/attack_self(mob/user)
@@ -251,7 +251,7 @@
 	throw_range = 30
 	sharp = 1
 	edge =  1
-	arm_sound = 'sound/weapons/grenlauncher.ogg'
+	arm_sound = 'sound/weapons/gunshot/vog25.ogg'
 
 /obj/item/weapon/grenade/frag/ugl/vog25/attack_self(mob/user)
 	return

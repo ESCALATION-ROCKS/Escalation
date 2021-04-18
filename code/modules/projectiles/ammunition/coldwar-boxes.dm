@@ -1138,8 +1138,8 @@
 	desc = "A 25 shotshell pack of 12ga #00 buckshot shells."
 	icon_state = "nato12ga_box"
 	item_state = "paper_mag"
-	max_ammo = 5
-	ammo_type = /obj/item/ammo_magazine/box/clip/ga12
+	max_ammo = 25
+	ammo_type = /obj/item/ammo_casing/ga12
 	caliber = "12ga"
 
 /obj/item/ammo_magazine/box/paper/boxga12/slug
@@ -1147,8 +1147,8 @@
 	desc = "A 25 shotshell pack of 12ga slug shells."
 	icon_state = "nato12gaslug_box"
 	item_state = "paper_mag"
-	max_ammo = 5
-	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/slug
+	max_ammo = 25
+	ammo_type = /obj/item/ammo_casing/ga12/slug
 	caliber = "12ga"
 
 /obj/item/ammo_magazine/box/paper/boxga12/flec
@@ -1156,8 +1156,8 @@
 	desc = "A 25 shotshell pack of 12ga flechette shells."
 	icon_state = "nato12gaflec_box"
 	item_state = "paper_mag"
-	max_ammo = 5
-	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/flec
+	max_ammo = 25
+	ammo_type = /obj/item/ammo_casing/ga12/flec
 	caliber = "12ga"
 
 /////////////////// clips

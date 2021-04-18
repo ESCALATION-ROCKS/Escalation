@@ -277,24 +277,27 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/gp25_insertgrenade.ogg', 50, 1)
 		launcher.load(I, user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/gp25_openbarrel.ogg', 50, 1)
 		launcher.unload(user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(use_launcher)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
-			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/gp25_empty.ogg', 50, 1)
 	else
 		..()
 
@@ -318,7 +321,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/gp25_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/akm
 	name = "AKM"
@@ -748,10 +751,13 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(use_launcher)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
-			switch_firemodes() //do we need it? :wha:
+			switch_firemodes() //switch back automatically
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
@@ -831,10 +837,13 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(use_launcher)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
-			switch_firemodes() //do we need it? :wha:
+			switch_firemodes() //switch back automatically
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
@@ -1012,10 +1021,13 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(use_launcher)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
-			switch_firemodes() //do we need it? :wha:
+			switch_firemodes() //switch back automatically
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
@@ -1137,10 +1149,13 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(use_launcher)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
-			switch_firemodes() //do we need it? :wha:
+			switch_firemodes() //switch back automatically
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
@@ -1302,24 +1317,27 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/gp25_insertgrenade.ogg', 50, 1)
 		launcher.load(I, user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/gp25_openbarrel.ogg', 50, 1)
 		launcher.unload(user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(use_launcher)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
-			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/gp25_empty.ogg', 50, 1)
 	else
 		..()
 
@@ -1333,7 +1351,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/gp25_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikm
 	name = "MPi-KM"
@@ -1512,27 +1530,29 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/gp25_insertgrenade.ogg', 50, 1)
 		launcher.load(I, user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/gp25_openbarrel.ogg', 50, 1)
 		launcher.unload(user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(use_launcher)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
-			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/gp25_empty.ogg', 50, 1)
 	else
 		..()
-
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/verb/set_gp()
 	set name = "Grenade Launcher"
@@ -1543,7 +1563,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/gp25_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74n
 	name = "MPi-AK-74N"
@@ -1627,24 +1647,27 @@
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/attackby(obj/item/I, mob/user)
 	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
-		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/gp25_insertgrenade.ogg', 50, 1)
 		launcher.load(I, user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src && use_launcher)
-		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
+		playsound(src, 'sound/weapons/gunporn/gp25_openbarrel.ogg', 50, 1)
 		launcher.unload(user)
 	else
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
-	if(use_launcher)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
 			switch_firemodes() //switch back automatically
-			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/gp25_empty.ogg', 50, 1)
 	else
 		..()
 
@@ -1668,7 +1691,7 @@
 		use_launcher = !use_launcher
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
-			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
+			playsound(src, 'sound/weapons/gunporn/gp25_select.ogg', 50, 1)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiaks74n
 	name = "MPi-AKS-74N"

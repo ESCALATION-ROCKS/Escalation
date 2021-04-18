@@ -41,7 +41,7 @@
 	name = "40x46mm 'M676' grenade shell"
 	desc = "Smoke Round, Cannot be thrown as the usual grenade, by the way."
 	icon_state = "M406s"
-	arm_sound = 'sound/weapons/grenlauncher.ogg'
+	arm_sound = 'sound/weapons/gunshot/m203.ogg'
 
 /obj/item/weapon/grenade/smokebomb/ugl/shell40mm/attack_self(mob/user)
 	return
@@ -50,7 +50,7 @@
 	name = "40x103mm 'GRD-50' grenade shell"
 	desc = "Smoke Round, Cannot be thrown as the usual grenade, by the way."
 	icon_state = "40x103mmshells"
-	arm_sound = 'sound/weapons/grenlauncher.ogg'
+	arm_sound = 'sound/weapons/gunshot/vog25.ogg'
 
 /obj/item/weapon/grenade/smokebomb/ugl/vog25/attack_self(mob/user)
 	return

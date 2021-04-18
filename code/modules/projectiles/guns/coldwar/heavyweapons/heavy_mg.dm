@@ -40,13 +40,6 @@
 	var/obj/item/weapon/mg_disassembled/disassembled = null
 	var/obj/item/weapon/mg_tripod/tripod = null
 
-/obj/item/weapon/gun/projectile/heavy_mg/AltClick(mob/user)
-	..()
-	if(used_by_mob == user)
-		safety = !safety
-		playsound(user, 'sound/weapons/selector.ogg', 50, 1)
-		to_chat(user, "<span class='notice'>You toggle the safety [safety ? "on":"off"].</span>")
-
 /obj/item/weapon/gun/projectile/heavy_mg/New(loc, var/direction)
 	..()
 	if(direction)
@@ -93,14 +86,13 @@
 	if(istype(mover, /obj/item/projectile))
 		return 1
 	return 0
-/*
+
 /obj/item/weapon/gun/projectile/heavy_mg/AltClick(mob/user)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>You should always keep the safety on with heavy weapons when there is no reason to fire!</span>")
+		return
 	..()
-	if(used_by_mob == user)
-		safety = !safety
-		playsound(user, 'sound/weapons/selector.ogg', 50, 1)
-		to_chat(user, "<span class='notice'>You toggle the safety [safety ? "on":"off"].</span>")
-*/
+
 /obj/item/weapon/gun/projectile/heavy_mg/MouseDrop(over_object, src_location, over_location)
 	..()
 	if((over_object == usr && in_range(src, usr)) && !used_by_mob)
@@ -234,10 +226,11 @@
 	set src in view(1)
 
 	if(ammo_magazine)
-		to_chat(usr, "You need to unload [name] first!")
+		to_chat(usr, "<span class='warning'>You need to unload the [name] first!")
 		return
 
-	detach_tripod(usr)
+	else if(!ammo_magazine && do_after(usr, 20, src))
+		detach_tripod(usr)
 
 
 //////////////////////
