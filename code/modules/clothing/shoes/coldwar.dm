@@ -57,3 +57,9 @@
 	name = "combat boots"
 	desc = "That's a pair of standard issue combat boots issued by BAF."
 	icon_state = "duty"
+
+
+/obj/item/clothing/shoes/coldwar/fra/field
+	name = "combat boots"
+	desc = "That's a pair of standard issue combat boots issued by ADT."
+	icon_state = "duty"

@@ -561,6 +561,44 @@
 	icon_state_unzipped = "mkvmedic-unzipped"
 
 
+//FRA Hats
+
+/obj/item/clothing/head/coldwar/beret/fra
+	name = "Armee de Terre beret"
+	desc = "A maroon beret common amongst BAF airtrooper divisions."
+	icon_state = "fraberet"
+
+/obj/item/clothing/head/coldwar/garcap/fra
+	name = "garrison cap"
+	desc = "That's a garrison cap used by ADT."
+	icon_state = "frafieldcap"
+	icon_state_alt = "frafieldcap_alt"
+
+/obj/item/clothing/head/coldwar/fieldcap/fra
+	name = "field cap"
+	desc = "That's a field cap used by ADT."
+	icon_state = "frafieldcap"
+
+//FRA Helmets
+
+/obj/item/clothing/head/coldwar/helmet/fra/m1978
+	name = "'Modele 1978' helmet"
+	desc = "A helmet used by the Armee de Terre."
+	icon_state = "m1978"
+	armor = list(melee = 68, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "m1978-unzipped"
+
+/obj/item/clothing/head/coldwar/helmet/fra/m1978/cover
+	desc = "A helmet used by the Armee de Terre. This one has a netting on it."
+	icon_state = "m1978c"
+	icon_state_unzipped = "m1978c-unzipped"
+
+/obj/item/clothing/head/coldwar/helmet/fra/m1978/medic
+	desc = "A helmet used by the Armee de Terre. This one has a red cross on it."
+	icon_state = "m1978medic"
+	icon_state_unzipped = "m1978medic-unzipped"
+
 
 //HEV Helmets
 

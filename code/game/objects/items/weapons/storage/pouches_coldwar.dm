@@ -147,6 +147,25 @@
 		/obj/item/ammo_magazine/a9x19b
 		)
 
+
+/obj/item/weapon/storage/belt/holster/esp
+	name = "Star 28 holster"
+	storage_slots = 3
+	icon_state = "alice_holster"
+	icon_closed = "alice_holster_empty"
+	holster_sound = 'sound/effects/holster/holsterin.ogg'
+	unholster_sound = 'sound/effects/holster/holsterout.ogg'
+	desc = "This holster can hold a Star 28 pistol and one magazine."
+	special_item = /obj/item/weapon/gun/projectile/star
+	startswith = list(
+		/obj/item/weapon/gun/projectile/star,
+		/obj/item/ammo_magazine/a9x19b
+		)
+	can_hold = list(
+		/obj/item/weapon/gun/projectile/star,
+		/obj/item/ammo_magazine/a9x19b
+		)
+
 /obj/item/weapon/storage/belt/holster/aps
 	special_item = /obj/item/weapon/gun/projectile/aps
 	holster_sound = 'sound/effects/holster/holsterin.ogg'

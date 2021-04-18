@@ -87,6 +87,12 @@ var/list/outfits_decls_by_type_
 	var/finnbackpack = /obj/item/weapon/storage/backpack/finn/finn_backpack
 	var/finnsatchel  = /obj/item/weapon/storage/backpack/finn/finn_buttpack
 
+	var/espbackpack = /obj/item/weapon/storage/backpack/sakitbag/esp
+	var/espsatchel  = /obj/item/weapon/storage/backpack/gassoviet/esp
+
+	var/frabackpack = /obj/item/weapon/storage/backpack/fra/medium
+	var/frasatchel  = /obj/item/weapon/storage/backpack/fra_buttpack
+
 	var/flags
 
 /decl/hierarchy/outfit/New()
@@ -150,6 +156,16 @@ var/list/outfits_decls_by_type_
 		switch(H.backbag)
 			if(1) back = finnbackpack
 			if(2) back = finnsatchel
+			else back = null
+	if(flags & OUTFIT_HAS_ESPBACKPACK)
+		switch(H.backbag)
+			if(1) back = espbackpack
+			if(2) back = espsatchel
+			else back = null
+	if(flags & OUTFIT_HAS_FRABACKPACK)
+		switch(H.backbag)
+			if(1) back = frabackpack
+			if(2) back = frasatchel
 			else back = null
 	
 /decl/hierarchy/outfit/proc/post_equip(mob/living/carbon/human/H)

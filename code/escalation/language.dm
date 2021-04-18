@@ -50,6 +50,13 @@
 			H.add_language(LANGUAGE_GERMAN)
 			L = all_languages[LANGUAGE_GERMAN]
 			
+		if("esp")
+			H.add_language(LANGUAGE_SPANISH)
+			L = all_languages[LANGUAGE_SPANISH]
+
+		if("fra")
+			H.add_language(LANGUAGE_FRENCH)
+			L = all_languages[LANGUAGE_FRENCH]
 	if(L)
 		H.default_language = L
 

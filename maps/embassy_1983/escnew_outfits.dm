@@ -2183,6 +2183,287 @@
 	..()
 	l_hand = pick(/obj/item/clothing/head/coldwar/helmet/baf/mkv, /obj/item/clothing/head/coldwar/helmet/baf/mkv/cover)
 
+/////////FRA
+/decl/hierarchy/outfit/job/coldwar/fra/rifleman
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Rifleman")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/pfc
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+
+	flags = OUTFIT_HAS_FRABACKPACK
+
+/decl/hierarchy/outfit/job/coldwar/fra/grenadier
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Grenadier")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/pfc
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famasgl
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/ugrenades
+	back = /obj/item/weapon/storage/backpack/fra_buttpack
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+
+/decl/hierarchy/outfit/job/coldwar/fra/sapper
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Sapper")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/pfc
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/usa
+	back = /obj/item/weapon/storage/backpack/alice/medium
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+
+/decl/hierarchy/outfit/job/coldwar/fra/mgunner
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Machine Gunner")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/lcpl
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/minimi
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/lmg
+	back = /obj/item/weapon/storage/backpack/fra_buttpack
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/mgunnera
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Machine Gunner Assistant")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/pfc
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/lmg
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+
+	flags = OUTFIT_HAS_FRABACKPACK
+
+/decl/hierarchy/outfit/job/coldwar/fra/atcommander
+	name = OUTFIT_JOB_NAME("Coldwar - ADT AT Commander")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/cpl
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	l_ear = /obj/item/device/binoculars/nato
+	back = /obj/item/weapon/storage/backpack/rpgusaassistant
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	suit = /obj/item/clothing/suit/armor/vest/coldwar/coat/usa
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/woodland
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/atgunner
+	name = OUTFIT_JOB_NAME("Coldwar - ADT AT Gunner")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/lcpl
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	r_hand = /obj/item/weapon/gun/launcher/smaw
+	back = /obj/item/weapon/storage/backpack/rpgusa
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/atass
+	name = OUTFIT_JOB_NAME("Coldwar - ADT AT Assistant")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/pfc
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	back = /obj/item/weapon/storage/backpack/rpgusaassistant
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/
+
+/decl/hierarchy/outfit/job/coldwar/fra/ftleader
+	name = OUTFIT_JOB_NAME("Coldwar - ADT FT Leader")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/cpl
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	back = /obj/item/weapon/storage/backpack/fra_buttpack
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/woodland
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/sl
+	name = OUTFIT_JOB_NAME("Coldwar - ADT SL")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/ssgt
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	back = /obj/item/weapon/storage/backpack/fra_buttpack
+	holster = /obj/item/weapon/storage/belt/holster/fra
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	l_pocket = /obj/item/weapon/key/natonco
+	l_ear = /obj/item/device/binoculars/nato
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/woodland
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/corpsman
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Corpsman")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/lcpl
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	back = /obj/item/weapon/storage/backpack/usmcm3
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	l_pocket = /obj/item/weapon/key/natomed
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/medic
+
+/decl/hierarchy/outfit/job/coldwar/fra/doctor
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Field Surgerist")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/scndlt
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	back = /obj/item/weapon/storage/backpack/usmcm3/surgeon
+	left_pouch = null
+	holster = /obj/item/weapon/storage/belt/holster/fra
+	r_hand = /obj/item/weapon/masterkey/natosurgeon
+	belt = /obj/item/weapon/storage/belt/usmc
+
+/decl/hierarchy/outfit/job/coldwar/fra/platlead
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Platoon Leader")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/fstlt
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	back = /obj/item/weapon/storage/backpack/fra_buttpack
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	holster = /obj/item/weapon/storage/belt/holster/fra
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	r_hand = /obj/item/weapon/masterkey/natopl
+	l_ear = /obj/item/device/binoculars/nato
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/woodland
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/platleaddep
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Platoon Leader Deputy")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/msgt
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	l_pocket = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	r_hand = /obj/item/weapon/masterkey/natopl
+	l_ear = /obj/item/device/binoculars/nato
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/woodland
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/ratelo
+	name = OUTFIT_JOB_NAME("Coldwar - ADT RATELO")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/lcpl
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	back = /obj/item/weapon/radioset/prc77
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/marksman
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Designated Marksman")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/sgt
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m21
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/m21
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/m21
+	back = /obj/item/weapon/storage/backpack/fra_buttpack
+	holster = /obj/item/weapon/storage/belt/holster/fra
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	r_pocket = /obj/item/weapon/facepaint/green
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/woodland
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/quartermaster
+	name = OUTFIT_JOB_NAME("Coldwar - ADT Quartermaster")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/gysgt
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	l_pocket = /obj/item/weapon/key/natonco
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/winter
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/hws_commander
+	name = OUTFIT_JOB_NAME("Coldwar - ADT HWS Commander")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/sgt
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	r_hand = /obj/item/weapon/maptool
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	back = /obj/item/weapon/radioset/prc77
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	l_ear = /obj/item/device/binoculars/nato
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/woodland
+
+
+/decl/hierarchy/outfit/job/coldwar/fra/hws_loader
+	name = OUTFIT_JOB_NAME("Coldwar - ADT HWS Loader")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/pfc
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/
+
+	flags = OUTFIT_HAS_FRABACKPACK
+
+/decl/hierarchy/outfit/job/coldwar/fra/hws_operator
+	name = OUTFIT_JOB_NAME("Coldwar - ADT HWS Operator")
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/lcpl
+	shoes = /obj/item/clothing/shoes/coldwar/fra/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	back = /obj/item/weapon/storage/backpack/fra_buttpack
+	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	belt = /obj/item/weapon/storage/belt/harness/fra
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+
 //BDH --------- BUNDESHEER
 /decl/hierarchy/outfit/escalation/nato/heer/
 	flags = null

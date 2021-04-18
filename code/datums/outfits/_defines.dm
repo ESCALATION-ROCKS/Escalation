@@ -12,3 +12,5 @@
 #define OUTFIT_HAS_NVABACKPACK               0x400
 #define OUTFIT_HAS_BAFBACKPACK               0x800
 #define OUTFIT_HAS_FINNBACKPACK              0x1000
+#define OUTFIT_HAS_ESPBACKPACK               0x2000
+#define OUTFIT_HAS_FRABACKPACK              0x4000

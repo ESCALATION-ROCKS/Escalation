@@ -320,6 +320,174 @@
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
 
+/obj/item/weapon/gun/projectile/automatic/rifle/akm
+	name = "AKM"
+	desc = "An outdated Soviet rifle used by a large number of militaries. Chambers 7.62x39 rounds."
+	icon_state = "akm"
+	item_state = "mpi"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x39"
+	force = 15
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
+	magazine_type = null
+	one_hand_penalty = 5
+	accuracy = 2.7
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3
+	bayonet_attachable = 1
+	jam_chance = 0.45
+	slowdown_general = 0.27
+
+	wielded_item_state = "mpi-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=3.5, move_delay=null, one_hand_penalty=4, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
+		list(mode_name="automatic", burst=1, fire_delay=0.7, move_delay=2, one_hand_penalty=5, burst_accuracy=null, dispersion=list(0.3, 0.4, 0.6), automatic = 0.6),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akm/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "akm"
+		wielded_item_state = "mpi-wielded"
+	else
+		icon_state = "akm-empty"
+		wielded_item_state = "mpi-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akms
+	name = "AKMS"
+	desc = "An outdated Soviet rifle with a folding stock. Chambers 7.62x39 rounds."
+	icon_state = "akms"
+	item_state = "mpi"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x39"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 5
+	accuracy = 2.6
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3
+	bayonet_attachable = 1
+	jam_chance = 0.475
+	slowdown_general = 0.15
+
+	wielded_item_state = "mpi-wielded"
+	fire_sound = 'sound/weapons/gunshot/akm.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=3.5, move_delay=null, one_hand_penalty=4, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
+		list(mode_name="automatic", burst=1, fire_delay=0.7, move_delay=1, one_hand_penalty=5, burst_accuracy=null, dispersion=list(0.35, 0.45, 0.7), automatic = 0.7),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akms/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "akms"
+		wielded_item_state = "mpi-wielded"
+	else
+		icon_state = "akms-empty"
+		wielded_item_state = "mpi-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akmgl
+	name = "AKM w/ GP-25"
+	desc = "An outdated Soviet rifle. There's a GP-25 attached to it. Chambers 7.62x39 rounds."
+	icon_state = "akmgl"
+	item_state = "mpigl"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "762x39"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a762x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 5
+	accuracy = 2.7
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3
+	bayonet_attachable = 0
+	jam_chance = 0.45
+	slowdown_general = 0.25
+
+	wielded_item_state = "mpigl-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak47.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=3, move_delay=null, one_hand_penalty=4, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
+		list(mode_name="automatic", burst=1, fire_delay=0.6, move_delay=1, one_hand_penalty=5, burst_accuracy=null, dispersion=list(0.4, 0.5, 0.75), automatic = 0.8),
+		)
+
+	var/use_launcher = FALSE
+	var/obj/item/weapon/gun/launcher/grenade/underslung/gp25/launcher
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akmgl/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "akmgl"
+		wielded_item_state = "mpigl-wielded"
+	else
+		icon_state = "akmgl-empty"
+		wielded_item_state = "mpigl-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akmgl/New()
+	..()
+	launcher = new(src)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akmgl/attackby(obj/item/I, mob/user)
+	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
+		playsound(src, 'sound/weapons/gunporn/m203_insertgrenade.ogg', 50, 1)
+		launcher.load(I, user)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akmgl/attack_hand(mob/user)
+	if(user.get_inactive_hand() == src && use_launcher)
+		playsound(src, 'sound/weapons/gunporn/m203_openbarrel.ogg', 50, 1)
+		launcher.unload(user)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akmgl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(use_launcher)
+		launcher.Fire(target, user, params, pointblank, reflex)
+		if(!launcher.chambered)
+			switch_firemodes() //switch back automatically
+			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
+	else
+		..()
+
+
+/obj/item/weapon/gun/projectile/automatic/rifle/akmgl/verb/set_gp()
+	set name = "Grenade Launcher"
+	set category = "Object"
+	set src in usr
+
+	if(launcher)
+		use_launcher = !use_launcher
+		if(do_after(usr, 1, src))
+			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
+			playsound(src, 'sound/weapons/gunporn/m203_select.ogg', 50, 1)
+
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 	name = "M16A2"
 	desc = "A standard-issue USMC combat rifle. Chambers 5.56x39 rounds."
