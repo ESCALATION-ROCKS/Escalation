@@ -56,6 +56,36 @@ proc/esc_random_name(gender, faction)
 			else
 				return capitalize(pick(first_names_male_cccp)) + " " + capitalize(pick(last_names_cccp))
 
+		if("usa")
+			if(gender == FEMALE)
+				return capitalize(pick(first_names_female_usmc)) + " " + capitalize(pick(last_names_usmc))
+			else
+				return capitalize(pick(first_names_male_usmc)) + " " + capitalize(pick(last_names_usmc))
+
+		if("baf")
+			if(gender == FEMALE)
+				return capitalize(pick(first_names_female_usmc)) + " " + capitalize(pick(last_names_usmc))
+			else
+				return capitalize(pick(first_names_male_usmc)) + " " + capitalize(pick(last_names_usmc))
+
+		if("finn")
+			if(gender == FEMALE)
+				return capitalize(pick(first_names_female_finn)) + " " + capitalize(pick(last_names_finn))
+			else
+				return capitalize(pick(first_names_male_finn)) + " " + capitalize(pick(last_names_finn))
+
+		if("csla")
+			if(gender == FEMALE)
+				return capitalize(pick(first_names_female_csla)) + " " + capitalize(pick(last_names_female_csla))
+			else
+				return capitalize(pick(first_names_male_csla)) + " " + capitalize(pick(last_names_csla))
+
+		if("heer")
+			if(gender == FEMALE)
+				return capitalize(pick(first_names_female_bund)) + " " + capitalize(pick(last_names_bund))
+			else
+				return capitalize(pick(first_names_male_bund)) + " " + capitalize(pick(last_names_bund))
+
 
 proc/random_hair_style(gender, species = SPECIES_HUMAN)
 	var/h_style = "Bald"

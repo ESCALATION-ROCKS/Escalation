@@ -247,7 +247,6 @@
 	uniform = /obj/item/clothing/under/coldwar/soviet/afghanka/mllt
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
 	back = /obj/item/weapon/storage/backpack/wp_surg
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	holster = /obj/item/weapon/storage/belt/holster/sa
 	head = /obj/item/clothing/head/coldwar/officer/soviet
 	r_hand = /obj/item/weapon/masterkey/wpsurgeon
@@ -1825,7 +1824,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/frcnsl
 	name = OUTFIT_JOB_NAME("Coldwar - FORECON SL")
-	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/sgt
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/frcn/gysgt
 	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
@@ -1844,7 +1843,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/frcnop
 	name = OUTFIT_JOB_NAME("Coldwar - FORECON Operator")
-	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/lcpl
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/frcn/ssgt
 	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m16a3
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
@@ -1861,7 +1860,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/frcnmg
 	name = OUTFIT_JOB_NAME("Coldwar - FORECON Machinegunner")
-	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/lcpl
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/frcn/ssgt
 	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/xm249
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
@@ -1875,7 +1874,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/usmc/frcnsm
 	name = OUTFIT_JOB_NAME("Coldwar - FORECON Sniper")
-	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/lcpl
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/frcn/ssgt
 	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m21
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21

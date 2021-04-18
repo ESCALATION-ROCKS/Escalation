@@ -5024,7 +5024,7 @@
 "wki" = (/obj/structure/curtain/open/bed,/turf/simulated/floor/wood,/area/coldwar/smallenclosed)
 "wkA" = (/obj/effect/floor_decal/turf/platingalt2,/obj/machinery/light/warmtint,/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/plating,/area/coldwar/largeenclosed)
 "wkQ" = (/turf/unsimulated/floor/fakestairslarge/north,/area/coldwar/largeenclosed)
-"wkY" = (/obj/effect/floor_decal/turf/marblealt,/obj/structure/table/marble,/obj/structure/table/marble,/obj/structure/radiole,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/fancytiles{icon_state = "whitelam"},/area/coldwar/mediumenclosed)
+"wkY" = (/obj/effect/floor_decal/turf/marblealt,/obj/structure/table/marble,/obj/structure/radiole,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/fancytiles{icon_state = "whitelam"},/area/coldwar/mediumenclosed)
 "wls" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/fire_source/stove,/turf/simulated/floor/holofloor/wood,/area/coldwar/mediumenclosed)
 "wlE" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/chair/couch/middle/beige{dir = 8},/obj/machinery/light/small/warmtint{dir = 4},/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
 "wlJ" = (/obj/structure/table/fancy,/obj/item/weapon/reagent_containers/food/condiment/small/sugar,/turf/simulated/floor/tiled/bar,/area/coldwar/mediumenclosed)

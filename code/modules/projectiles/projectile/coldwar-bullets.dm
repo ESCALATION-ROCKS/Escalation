@@ -42,7 +42,6 @@
 	armor_penetration = 98 //was 34
 	penetration_modifier = 0.4
 	embed = 1
-	kill_count = 120
 	agony = 20
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
@@ -144,12 +143,15 @@
 	armor_penetration = -10 //was 4
 	penetration_modifier = 0.7 //does big internal organ damage if it penetrates
 	agony = 25
+	kill_count = 25
 
 	New()
 		damage = rand(28, 33)
 
 /obj/item/projectile/bullet/rifle/a45/tr
 	icon_state = "bullet_tracer"
+	plane = EFFECTS_ABOVE_LIGHTING_PLANE
+	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a45/ap
 	armor_penetration = 20
@@ -159,12 +161,15 @@
 	armor_penetration = 0 //was 12
 	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
 	agony = 23
+	kill_count = 25
 
 	New()
 		damage = rand(23, 29)
 
 /obj/item/projectile/bullet/rifle/a9x19/tr
 	icon_state = "bullet_tracer"
+	plane = EFFECTS_ABOVE_LIGHTING_PLANE
+	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a9x19/ap
 	armor_penetration = 98 //was 20
@@ -174,6 +179,7 @@
 	armor_penetration = -5 //was 8
 	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
 	agony = 21
+	kill_count = 25
 
 	New()
 		damage = rand(21, 28)
@@ -181,15 +187,11 @@
 
 /obj/item/projectile/bullet/rifle/a9x18/tr
 	icon_state = "bullet_tracer"
+	plane = EFFECTS_ABOVE_LIGHTING_PLANE
+	layer = BEAM_PROJECTILE_LAYER
 
 /obj/item/projectile/bullet/rifle/a9x18/ap
 	armor_penetration = 98 //was 13
-
-/obj/item/projectile/bullet/rifle/a4mm
-//	fire_sound = 'sound/weapons/minigun_1sec.ogg'
-	damage = 15
-	armor_penetration = 15
-	kill_count = 120
 
 /obj/item/projectile/bullet/rifle/a127x108mm
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
@@ -197,6 +199,7 @@
 	penetration_modifier = 0.9 ///12mm shells gotta hurt
 	agony = 46
 	penetrating = 3
+	kill_count = 250
 
 	New()
 		damage = rand(46, 54)
@@ -217,6 +220,7 @@
 	penetration_modifier = 0.9 ///12mm shells gotta hurt
 	agony = 42
 	penetrating = 3
+	kill_count = 250
 
 	New()
 		damage = rand(48, 51)
@@ -236,6 +240,7 @@
 /obj/item/projectile/bullet/pellet/ga12 //Based on #00 load
 	armor_penetration = -50 // - does jackshit against armor
 	penetration_modifier = 0.6
+	kill_count = 25
 	agony = 15
 	name = "#00 buckshot pellet"
 	icon_state = "pellets" //TODO: would be nice to have it's own icon state
@@ -252,6 +257,7 @@
 	armor_penetration = 5 //low chance of going through
 	penetration_modifier = 0.3
 	agony = 20
+	kill_count = 60
 
 	New()
 		damage = rand(25, 32)
@@ -261,6 +267,7 @@
 	icon_state = "bullet_flechette"
 	penetration_modifier = 0.1
 	agony = 16
+	kill_count = 80
 
 	New()
 		damage = rand(25, 28)
@@ -275,46 +282,22 @@
 	step_delay = 1.2
 	kill_count = 60
 
-//proc/explosion(turf/epicenter, devastation_range, heavy_impact_range, light_impact_range, flash_range, adminlog = 1, z_transfer = UP|DOWN, shaped)
 /obj/item/projectile/bullet/ags30x29mm/on_impact(var/atom/target, var/blocked = 0)
-	explosion(target, 0, 1, 3, 3)
-
-/obj/item/projectile/bullet/ags30x29mm/pow
-	damage = 110
-	agony = 20
-	armor_penetration = 98
-	step_delay = 1.2
-	penetrating = 0
-	kill_count = 70
-
-/obj/item/projectile/bullet/ags30x29mm/pow/on_impact(var/atom/target, var/blocked = 0)
-	explosion(target, 0, 2, 3, 3)
+	explosion(target, 0, 1, 3, 3, 0)
 
 /obj/item/projectile/bullet/mk19_40x53mm
 	name = "MK19' bullet"
-	icon_state = "vog" ////////fix
+	icon_state = "vog"
 	damage = 50
 	agony = 40
 	kill_count = 60
 	penetrating = 0
 
 /obj/item/projectile/bullet/mk19_40x53mm/on_impact(var/atom/target, blocked = 0)
-	explosion(target, 0, 1, 3, 3)
+	explosion(target, 0, 1, 3, 3, 0)
 
-
-/obj/item/projectile/bullet/mk19_40x53mm/pow
-	damage = 120
-	armor_penetration = 98 //was 1
-	step_delay = 1.2
-//	impact_force = 1
-	penetrating = 0
-	kill_count = 70
-
-/obj/item/projectile/bullet/mk19_40x53mm/on_impact(var/atom/target, blocked = 0)
-	explosion(target, 0, 1, 4, 3)
-
-/obj/item/projectile/bullet/rgprocket
-	name = "rpg shell"
+/obj/item/projectile/bullet/rpgrocket
+	name = "rpg rocket"
 	icon_state = "rocket"
 	damage = 0
 	nodamage = 1
@@ -327,7 +310,7 @@
 	muzzle_type = /obj/effect/projectile/rocket/rpg
 	breech_type = /obj/effect/projectile/rocket/rpg/breech
 
-/obj/item/projectile/bullet/rgprocket/muzzle_effect(var/matrix/T)
+/obj/item/projectile/bullet/rpgrocket/muzzle_effect(var/matrix/T)
 	if(silenced)
 		return
 
@@ -349,17 +332,17 @@
 			M1.pixel_y = -location.pixel_y
 			M1.activate()
 
-/obj/item/projectile/bullet/rgprocket/on_impact(var/atom/target, var/blocked = 0)
+/obj/item/projectile/bullet/rpgrocket/on_impact(var/atom/target, var/blocked = 0)
 	explosion(target, 1, 2, 3, 2)
 
-/obj/item/projectile/bullet/rgprocket/he
+/obj/item/projectile/bullet/rpgrocket/he
 	penetrating = 0
 
-/obj/item/projectile/bullet/rgprocket/he/on_impact(var/atom/target, var/blocked = 0)
+/obj/item/projectile/bullet/rpgrocket/he/on_impact(var/atom/target, var/blocked = 0)
 	explosion(target, 1, 3, 5, 4)
 
-/obj/item/projectile/bullet/rgprocket/gustaf
+/obj/item/projectile/bullet/rpgrocket/gustaf
 	icon_state = "gustaf"
 
-/obj/item/projectile/bullet/rgprocket/finn
+/obj/item/projectile/bullet/rpgrocket/finn
 	icon_state = "finn"

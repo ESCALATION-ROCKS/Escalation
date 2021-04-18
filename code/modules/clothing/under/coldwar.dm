@@ -56,11 +56,15 @@
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 ///FORECON
-/obj/item/clothing/under/coldwar/usmc/woodland/alt/sgt
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/sgt, /obj/item/clothing/accessory/storage/uniform_pockets, /obj/item/clothing/accessory/coldwar/kneepads)
+/obj/item/clothing/under/coldwar/usmc/woodland/frcn/gysgt
+	icon_state = "usmcwoodland_alt"
+	worn_state = "usmcwoodland_alt"
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/gysgt, /obj/item/clothing/accessory/storage/uniform_pockets, /obj/item/clothing/accessory/coldwar/kneepads)
 
-/obj/item/clothing/under/coldwar/usmc/woodland/alt/lcpl
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/lcpl, /obj/item/clothing/accessory/storage/uniform_pockets, /obj/item/clothing/accessory/coldwar/kneepads)
+/obj/item/clothing/under/coldwar/usmc/woodland/frcn/ssgt
+	icon_state = "usmcwoodland_alt"
+	worn_state = "usmcwoodland_alt"
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/ssgt, /obj/item/clothing/accessory/storage/uniform_pockets, /obj/item/clothing/accessory/coldwar/kneepads)
 
 
 //Bundeswehr

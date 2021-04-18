@@ -7,6 +7,7 @@
 	screen_shake = 2
 	w_class = 5
 	accuracy = 5
+	force = 15
 	caliber = "762x51"
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	load_method = MAGAZINE
@@ -105,6 +106,7 @@
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
+	force = 15
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)

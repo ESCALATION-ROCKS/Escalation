@@ -199,12 +199,12 @@ GLOBAL_DATUM_INIT(iconCache, /savefile, new("tmp/iconCache.sav")) //Cache of ico
 					break
 				CHECK_TICK
 
-			//Uh oh this fucker has a history of playing on a banned account!!
+			/*//Uh oh this fucker has a history of playing on a banned account!! - Disabled because it started acting all fucky after the ckeywhitelist implementation
 			if (found.len > 0)
 				var/msg = "[key_name(src.owner)] has a cookie from a banned account! (Matched: [found["ckey"]], [found["ip"]], [found["compid"]])"
 				//TODO: add a new evasion ban for the CURRENT client details, using the matched row details
 				message_admins(msg)
-				log_admin(msg)
+				log_admin(msg)*/
 
 	cookieSent = TRUE
 

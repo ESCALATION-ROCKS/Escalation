@@ -64,7 +64,7 @@
 /obj/item/weapon/gun/launcher/rpg7/consume_next_projectile(mob/user)
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
+		var/obj/item/projectile/bullet/rpgrocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -143,7 +143,7 @@
 /obj/item/weapon/gun/launcher/smaw/consume_next_projectile(mob/user)
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
+		var/obj/item/projectile/bullet/rpgrocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -226,7 +226,7 @@
 /obj/item/weapon/gun/launcher/carlgustaf/consume_next_projectile(mob/user)
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/recoilless/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/gustaf/M = new (src)
+		var/obj/item/projectile/bullet/rpgrocket/gustaf/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -308,7 +308,7 @@
 /obj/item/weapon/gun/launcher/finnrpg/consume_next_projectile(mob/user)
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/finn/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/finn/M = new (src) /////////////////////////this is what determines the projectile type
+		var/obj/item/projectile/bullet/rpgrocket/finn/M = new (src) /////////////////////////this is what determines the projectile type
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -423,7 +423,7 @@
 /obj/item/weapon/gun/launcher/oneuse/rpg18/consume_next_projectile()
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
+		var/obj/item/projectile/bullet/rpgrocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
@@ -536,7 +536,7 @@
 /obj/item/weapon/gun/launcher/oneuse/m72/consume_next_projectile()
 	if(rockets.len)
 		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
-		var/obj/item/projectile/bullet/rgprocket/he/M = new (src)
+		var/obj/item/projectile/bullet/rpgrocket/he/M = new (src)
 		//M.primed = TRUE
 		rockets -= I
 		return M
