@@ -290,6 +290,9 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
 	if(use_launcher)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
@@ -580,10 +583,13 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a1gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
 	if(use_launcher)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
-			switch_firemodes() //do we need it? :wha:
+			switch_firemodes() //switch back automatically
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
@@ -663,10 +669,13 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a2gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
 	if(use_launcher)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
-			switch_firemodes() //do we need it? :wha:
+			switch_firemodes() //switch back automatically
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
@@ -844,10 +853,13 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
 	if(use_launcher)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
-			switch_firemodes() //do we need it? :wha:
+			switch_firemodes() //switch back automatically
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
@@ -969,10 +981,13 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/auga1gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
 	if(use_launcher)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
-			switch_firemodes() //do we need it? :wha:
+			switch_firemodes() //switch back automatically
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
@@ -1147,6 +1162,9 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/vz58gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
 	if(use_launcher)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
@@ -1357,6 +1375,9 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
 	if(use_launcher)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
@@ -1364,7 +1385,6 @@
 			playsound(src, 'sound/weapons/gunporn/m203_empty.ogg', 50, 1)
 	else
 		..()
-
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl/verb/set_gp()
 	set name = "Grenade Launcher"
@@ -1472,6 +1492,9 @@
 		..()
 
 /obj/item/weapon/gun/projectile/automatic/rifle/mpiak74gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
 	if(use_launcher)
 		launcher.Fire(target, user, params, pointblank, reflex)
 		if(!launcher.chambered)
