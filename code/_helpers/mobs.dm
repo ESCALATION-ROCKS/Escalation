@@ -70,9 +70,9 @@ proc/esc_random_name(gender, faction)
 
 		if("finn")
 			if(gender == FEMALE)
-				return capitalize(pick(first_names_female_bund)) + " " + capitalize(pick(last_names_bund))
+				return capitalize(pick(first_names_female_finn)) + " " + capitalize(pick(last_names_finn))
 			else
-				return capitalize(pick(first_names_male_bund)) + " " + capitalize(pick(last_names_bund))
+				return capitalize(pick(first_names_male_finn)) + " " + capitalize(pick(last_names_finn))
 
 		if("csla")
 			if(gender == FEMALE)

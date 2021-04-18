@@ -11,16 +11,31 @@ GLOBAL_LIST_INIT(clown_names, world.file2list("config/names/clown.txt"))
 
 GLOBAL_LIST_INIT(in_character_filter, world.file2list("config/names/namefilter.txt"))
 
-var/list/first_names_male_usmc = file2list("config/names/first_male_bund.txt")
-var/list/first_names_female_usmc = file2list("config/names/first_female_bund.txt")
+var/list/first_names_male_usmc = file2list("config/names/first_male_usmc.txt")
+var/list/first_names_female_usmc = file2list("config/names/first_female_usmc.txt")
+//Used for BAF and USA too
+
 var/list/first_names_male_cccp = file2list("config/names/first_male_cccp.txt")
 var/list/first_names_female_cccp = file2list("config/names/first_female_cccp.txt")
+
 var/list/first_names_male_bund = file2list("config/names/first_male_bund.txt")
 var/list/first_names_female_bund = file2list("config/names/first_female_bund.txt")
-var/list/last_names_bund = file2list("config/names/last_male_bund.txt")
-var/list/last_names_usmc = file2list("config/names/last_male_usmc.txt")
-var/list/last_names_cccp = file2list("config/names/last_male_cccp.txt")
+//Used for NVA and HEER too
+
+var/list/first_names_male_finn = file2list("config/names/first_male_finn.txt")
+var/list/first_names_female_finn = file2list("config/names/first_female_finn.txt")
+
+var/list/first_names_male_csla = file2list("config/names/first_male_csla.txt")
+var/list/first_names_female_csla = file2list("config/names/first_female_csla.txt")
+
+var/list/last_names_bund = file2list("config/names/last_names_bund.txt")
+var/list/last_names_usmc = file2list("config/names/last_names_usmc.txt")
+var/list/last_names_cccp = file2list("config/names/last_names_cccp.txt")
+var/list/last_names_finn = file2list("config/names/last_names_finn.txt")
 var/list/last_names_female_cccp = file2list("config/names/last_female_cccp.txt")
+var/list/last_names_csla = file2list("config/names/last_names_csla.txt")
+var/list/last_names_female_csla = file2list("config/names/last_female_csla.txt")
+//Some languages have gendered last names, make sure to watch out for it.
 
 GLOBAL_LIST_INIT(verbs, world.file2list("config/names/verbs.txt"))
 GLOBAL_LIST_INIT(adjectives, world.file2list("config/names/adjectives.txt"))
