@@ -89,9 +89,13 @@
 
 /obj/item/weapon/gun/projectile/heavy_mg/AltClick(mob/user)
 	if(!roundstarted)
-		to_chat(user, "<span class='warning'>You should always keep the safety on with heavy weapons when there is no reason to fire!</span>")
+		to_chat(user, "<span class='warning'>You should always keep the safety on with launchers when there is no reason to fire!</span>")
 		return
-	..()
+	if(used_by_mob == user)
+		safety = !safety
+		playsound(user, 'sound/weapons/selector.ogg', 50, 1)
+		to_chat(user, "<span class='notice'>You toggle the safety [safety ? "on":"off"].</span>")
+		..()
 
 /obj/item/weapon/gun/projectile/heavy_mg/MouseDrop(over_object, src_location, over_location)
 	..()
