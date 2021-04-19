@@ -244,7 +244,7 @@
 	name = "IFAK"
 	desc = "That's the Individual First Aid Kit."
 	icon_state = "usmc_ifak"
-	storage_slots = 5
+	storage_slots = 4
 	item_state = null
 	w_class = 2
 	startswith = null
@@ -263,7 +263,6 @@
 	startswith = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet/nato,
-		/obj/item/stack/medical/tourniquet/seal/nato,
 		/obj/item/weapon/gauze_pack/gauze,
 		/obj/item/stack/medical/splint/ifak
 		)
@@ -274,7 +273,6 @@
 	startswith = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet,
-		/obj/item/stack/medical/tourniquet/seal,
 		/obj/item/weapon/gauze_pack/ipp,
 		/obj/item/stack/medical/splint/ifak
 		)

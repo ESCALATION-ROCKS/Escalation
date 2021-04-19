@@ -102,6 +102,7 @@
 	edge = 1
 	item_state = "knife"
 	sharpness = 5
+	var/embed_chance = null
 
 /obj/item/weapon/material/knife/bayonet/sa/a6h4
 	name = "6h4 bayonet"
