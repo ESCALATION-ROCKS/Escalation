@@ -1456,3 +1456,10 @@
 	name = "sappers bag"
 	icon_state = "esp_sapper"
 	item_state = "esp_ammo"
+
+/obj/item/weapon/storage/belt/suit/sapper/fra
+	name = "sappers bag"
+	icon_state = "fra_sapper"
+	item_state = "fra_ammo"
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'

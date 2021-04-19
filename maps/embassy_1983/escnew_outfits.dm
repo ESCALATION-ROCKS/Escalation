@@ -2505,7 +2505,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/smg/mat49
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
-	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/usa
+	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/fra
 	back = /obj/item/weapon/storage/backpack/alice/medium
 	head = /obj/item/clothing/head/coldwar/fieldcap/fra
 	belt = /obj/item/weapon/storage/belt/harness/fra
