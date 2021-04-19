@@ -1542,11 +1542,11 @@
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/lt
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
 	holster = /obj/item/weapon/storage/belt/holster/esp
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akms
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/cetmec
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/coldwar/officer/esp
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/grenades
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
 	r_hand = /obj/item/weapon/masterkey/wppl
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
 	l_ear = /obj/item/device/binoculars/wp
@@ -1556,11 +1556,11 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Zamestitel' Komandira Vzvoda")
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/star
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akmgl
+	holster = /obj/item/weapon/storage/belt/holster/sheath/esp
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/cetmec
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/ugrenades
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
 	head = /obj/item/clothing/head/coldwar/fieldcap/afghanka
 	r_hand = /obj/item/weapon/masterkey/wppl
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
@@ -1572,10 +1572,10 @@
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
 	holster = /obj/item/weapon/storage/belt/holster/esp
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akmgl
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/cetmec
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/ugrenades
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
 	head = /obj/item/clothing/head/coldwar/fieldcap/afghanka
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42/netting
 	r_pocket = /obj/item/weapon/key/wpnco
@@ -1589,25 +1589,11 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akm
 	back = /obj/item/weapon/storage/backpack/gassoviet/esp
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/grenades
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
 	head = /obj/item/clothing/head/coldwar/garcap/esp
 	l_ear = /obj/item/device/binoculars/wp
-	belt = /obj/item/weapon/storage/belt/harness/esp
-
-
-/decl/hierarchy/outfit/job/coldwar/esp/strifle
-	name = OUTFIT_JOB_NAME("Coldwar - Soviet Starshiy Strelok")
-	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/gefr
-	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akm
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/grenades
-	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
-	head = /obj/item/clothing/head/coldwar/garcap/esp
-	back = /obj/item/weapon/storage/backpack/gassoviet/esp
 	belt = /obj/item/weapon/storage/belt/harness/esp
 
 /decl/hierarchy/outfit/job/coldwar/esp/espnitar
@@ -1615,9 +1601,9 @@
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/gefr
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
 	back = /obj/item/weapon/storage/backpack/summedsan
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
-	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akms
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/smg
+	holster = /obj/item/weapon/storage/belt/holster/sheath/esp
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/smg/z84
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42/medic
 	head = /obj/item/clothing/head/coldwar/garcap/esp
 	l_pocket = /obj/item/weapon/key/wpmed
@@ -1639,10 +1625,10 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Platoon MG Assistant")
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/pvt
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/esp
 	r_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
-	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/akm
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
+	l_hand = /obj/item/weapon/gun/projectile/automatic/rifle/cetmec
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/lmg
 	head = /obj/item/clothing/head/coldwar/garcap/esp
 	belt = /obj/item/weapon/storage/belt/harness/esp
@@ -1653,11 +1639,11 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Strelok")
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/pvt
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/esp
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/cetmec
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/grenades
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
 	head = /obj/item/clothing/head/coldwar/garcap/esp
 	belt = /obj/item/weapon/storage/belt/harness/esp
 
@@ -1667,11 +1653,11 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Sapper")
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/pvt
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/esp
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/smg/z84
 	back = /obj/item/weapon/storage/backpack/gassoviet/esp
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/smg
 	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/esp
 	head = /obj/item/clothing/head/coldwar/garcap/esp
 	belt = /obj/item/weapon/storage/belt/harness/esp
@@ -1684,6 +1670,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l96
 	back = /obj/item/weapon/storage/backpack/gassoviet/esp
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/l96
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/l96
 	head = /obj/item/clothing/head/coldwar/garcap/esp
 	belt = /obj/item/weapon/storage/belt/harness/esp
@@ -1746,17 +1733,14 @@
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Radio Operator")
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/gefr
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
-	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
+	holster = /obj/item/weapon/storage/belt/holster/sheath/esp
 	back = /obj/item/weapon/radioset/r105d
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/grenades
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
 	head = /obj/item/clothing/head/coldwar/garcap/esp
 	belt = /obj/item/weapon/storage/belt/harness/esp
-
-/decl/hierarchy/outfit/job/coldwar/esp/radio/pre_equip(mob/living/carbon/human/H)
-	..()
-	gun_slot = pick(/obj/item/weapon/gun/projectile/automatic/rifle/akms, /obj/item/weapon/gun/projectile/automatic/rifle/akm)
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/cetmec
 
 /decl/hierarchy/outfit/job/coldwar/esp/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - Soviet Doctor")
@@ -1773,9 +1757,9 @@
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/jsgt
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akm
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/cetmec
 	back = /obj/item/weapon/radioset/r105d
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/cetme
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/grenades
 	head = /obj/item/clothing/head/coldwar/fieldcap/afghanka
 	l_hand = /obj/item/weapon/maptool
@@ -1802,9 +1786,9 @@
 	uniform = /obj/item/clothing/under/coldwar/esp/amoeba/pvt
 	shoes = /obj/item/clothing/shoes/coldwar/esp/marching
 	holster = /obj/item/weapon/storage/belt/holster/sheath/sovietm
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/akm
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/smg/z84
 	back = /obj/item/weapon/storage/backpack/gassoviet/esp
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/smg
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/esp/grenades
 	l_hand = /obj/item/clothing/head/coldwar/helmet/esp/m42
 	head = /obj/item/clothing/head/coldwar/garcap/esp
@@ -2519,8 +2503,8 @@
 	uniform = /obj/item/clothing/under/coldwar/fra/lizard/pfc
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/smg/mat49
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/usa
 	back = /obj/item/weapon/storage/backpack/alice/medium
 	head = /obj/item/clothing/head/coldwar/fieldcap/fra
@@ -2574,9 +2558,9 @@
 	name = OUTFIT_JOB_NAME("Coldwar - ADT AT Gunner")
 	uniform = /obj/item/clothing/under/coldwar/fra/lizard/lcpl
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/smg/mat49
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	r_hand = /obj/item/weapon/gun/launcher/smaw
 	back = /obj/item/weapon/storage/backpack/rpgusa
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
@@ -2631,9 +2615,9 @@
 	uniform = /obj/item/clothing/under/coldwar/fra/lizard/lcpl
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/smg/mat49
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	back = /obj/item/weapon/storage/backpack/usmcm3
 	head = /obj/item/clothing/head/coldwar/fieldcap/fra
 	l_pocket = /obj/item/weapon/key/natomed
@@ -2700,9 +2684,9 @@
 	name = OUTFIT_JOB_NAME("Coldwar - ADT Designated Marksman")
 	uniform = /obj/item/clothing/under/coldwar/fra/lizard/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m21
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/frf2
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/frf2
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/frf2
 	back = /obj/item/weapon/storage/backpack/fra_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/fra
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
@@ -2747,9 +2731,9 @@
 	uniform = /obj/item/clothing/under/coldwar/fra/lizard/lcpl
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
-	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/smg/mat49
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	back = /obj/item/weapon/storage/backpack/fra_buttpack
 	head = /obj/item/clothing/head/coldwar/fieldcap/fra
 	belt = /obj/item/weapon/storage/belt/harness/fra

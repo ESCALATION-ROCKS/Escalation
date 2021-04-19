@@ -450,6 +450,19 @@
 	fire_sound = 'sound/weapons/gunshot/m72.ogg'
 
 
+/obj/item/weapon/gun/launcher/oneuse/rpg18/c90
+	name = "C90-CR"
+	desc = "A single-use rocket launcher used by the ERE."
+	icon_state = "c90"
+	item_state = "c90"
+
+/obj/item/weapon/gun/launcher/oneuse/rpg18/at4
+	name = "AT-4"
+	desc = "A single-use rocket launcher used by NATO forces. Fires a 84mm HEAT shell."
+	icon_state = "at4"
+	item_state = "at4"
+	fire_sound = 'sound/weapons/gunshot/m72.ogg'
+
 /////No longer used for streamlining code, kept for redundancys sake.
 /*/obj/item/weapon/gun/launcher/oneuse/m72
 	name = "M72 LAW"

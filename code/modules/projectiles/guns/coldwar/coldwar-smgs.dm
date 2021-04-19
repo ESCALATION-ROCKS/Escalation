@@ -174,3 +174,85 @@
 	else
 		icon_state = "mp5-empty"
 		wielded_item_state = "mp5-wielded-empty"
+
+
+/obj/item/weapon/gun/projectile/automatic/smg/z84
+	name = "Star Modelo Z84"
+	desc = "A submachine gun used by the Republican Army. Chambers 9x19 rounds."
+	icon_state = "z84"
+	item_state = "z84"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "9x19"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a9x19
+	allowed_magazines = /obj/item/ammo_magazine/a9x19z
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 5
+	accuracy = 1.4
+	bayonet_attachable = 0
+	jam_chance = 0.725
+	slowdown_general = 0.15
+	wielded_item_state = "z84-wielded"
+	fire_sound = 'sound/weapons/gunshot/scorpion.ogg' /////////change all sounds
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=3, move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
+		list(mode_name="automatic", burst=1, fire_delay=0.7, move_delay=1, one_hand_penalty=3, burst_accuracy=null, dispersion=list(0.2, 0.3, 0.4), automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/smg/z84/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "z84"
+		wielded_item_state = "z84-wielded"
+	else
+		icon_state = "z84-empty"
+		wielded_item_state = "z84-wielded-empty"
+
+
+/obj/item/weapon/gun/projectile/automatic/smg/mat49
+	name = "MAT-49"
+	desc = "A submachine gun used by the ADT. Chambers 9x19 rounds."
+	icon_state = "mat49"
+	item_state = "mat49"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "9x19"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a9x19
+	allowed_magazines = /obj/item/ammo_magazine/a9x19t
+	magazine_type = null
+	force = 15
+	one_hand_penalty = 5
+	accuracy = 1.4
+	bayonet_attachable = 0
+	jam_chance = 0.725
+	slowdown_general = 0.15
+	wielded_item_state = "mat49-wielded"
+	fire_sound = 'sound/weapons/gunshot/scorpion.ogg' /////////change all sounds
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=3, move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
+		list(mode_name="automatic", burst=1, fire_delay=0.7, move_delay=1, one_hand_penalty=3, burst_accuracy=null, dispersion=list(0.2, 0.3, 0.4), automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/smg/mat49/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "mat49"
+		wielded_item_state = "mat49-wielded"
+	else
+		icon_state = "mat49-empty"
+		wielded_item_state = "mat49-wielded-empty"

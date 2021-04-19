@@ -154,6 +154,32 @@
 /obj/item/ammo_magazine/c762x51l/empty
 	initial_ammo = 0
 
+
+/obj/item/ammo_magazine/c762x51f
+	name = "FR F2 magazine (7.62x51mm)"
+	desc = "A FR F2 magazine that fits ten 7.62x51mm rounds."
+	icon_state = "l96"
+	item_state = "generic_mag"
+	mag_type = MAGAZINE
+	caliber = "762x51"
+	ammo_type = /obj/item/ammo_casing/a762x51
+	max_ammo = 10
+	multiple_sprites = 1
+	load_delay = 10
+
+/obj/item/ammo_magazine/c762x51f/ap
+	name = "FR F2 magazine (7.62x51mm)"
+	desc = "A FR F2 magazine that fits ten 7.62x51mm rounds."
+	ammo_type = /obj/item/ammo_casing/a762x51/ap
+
+/obj/item/ammo_magazine/c762x51f/tr
+	name = "FR F2 magazine (7.62x51mm)"
+	desc = "A FR F2 magazine that fits ten 7.62x51mm rounds."
+	ammo_type = /obj/item/ammo_casing/a762x51/tr
+
+/obj/item/ammo_magazine/c762x51f/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c762x51b
 	name = "M60 belt box (7.62x51mm)"
 	desc = "An M60 box that fits one hundred 7.62x51mm rounds."
@@ -454,6 +480,62 @@
 	ammo_type = /obj/item/ammo_casing/a9x19/tr
 
 /obj/item/ammo_magazine/a9x19s/empty
+	initial_ammo = 0
+
+
+/obj/item/ammo_magazine/a9x19t
+	name = "MAT-49 magazine (9x19mm)"
+	desc = "A MAT-49 magazine that fits thirty two 9x19mm rounds."
+	icon_state = "9x19t"
+	item_state = "generic_mag"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 2
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 32
+	load_delay = 8
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9x19t/ap
+	name = "MAT-49 magazine (9x19mm)"
+	desc = "A MAT-49 magazine that fits thirty two 9x19mm rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/ap
+
+/obj/item/ammo_magazine/a9x19t/tr
+	name = "MAT-49 magazine (9x19mm)"
+	desc = "A MAT-49 magazine that fits thirty two 9x19mm rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/tr
+
+/obj/item/ammo_magazine/a9x19t/empty
+	initial_ammo = 0
+
+
+/obj/item/ammo_magazine/a9x19z
+	name = "Z84 magazine (9x19mm)"
+	desc = "A Star Modelo Z84 magazine that fits thirty 9x19mm rounds."
+	icon_state = "a9x19z"
+	item_state = "generic_mag"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 2
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 30
+	load_delay = 8
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9x19z/ap
+	name = "Z84 magazine (9x19mm)"
+	desc = "A Star Modelo Z84 magazine that fits thirty 9x19mm rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/ap
+
+/obj/item/ammo_magazine/a9x19z/tr
+	name = "Z84 magazine (9x19mm)"
+	desc = "A Star Modelo Z84 magazine that fits thirty 9x19mm rounds."
+	ammo_type = /obj/item/ammo_casing/a9x19/tr
+
+/obj/item/ammo_magazine/a9x19z/empty
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/a9x19b
@@ -979,6 +1061,19 @@
 /obj/item/ammo_magazine/c127x108b
 	name = "UTES belt box (12.7x108mm)"
 	desc = "A NSV Utes belt box that fits fifty 12.7x108mm rounds."
+	icon_state = "utes"
+	item_state = "pkm_mag"
+	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_LARGE
+	caliber = "127x108mm"
+	ammo_type = /obj/item/ammo_casing/a127x108mm
+	max_ammo = 50
+	multiple_sprites = 1
+	slowdown_general = 0.1
+
+/obj/item/ammo_magazine/c127x108d
+	name = "DsHK belt box (12.7x108mm)"
+	desc = "A DsHK belt box that fits fifty 12.7x108mm rounds."
 	icon_state = "utes"
 	item_state = "pkm_mag"
 	mag_type = MAGAZINE

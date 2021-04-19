@@ -269,6 +269,37 @@
 	else
 		icon_state = "utes-empty"
 
+//////////////////////
+///DSHK///////////////
+//////////////////////
+/obj/item/weapon/gun/projectile/heavy_mg/dshk
+	name = "DsHK"
+	desc = "An outdated heavy machinegun used by WARPACT forces."
+	icon_state = "dshk"
+	load_method = MAGAZINE
+	caliber = "127x108mm"
+	ammo_type = /obj/item/ammo_casing/a127x108mm
+	allowed_magazines = /obj/item/ammo_magazine/c127x108d
+	jam_chance = 0.3
+	accuracy = 0.8
+
+	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
+	fire_sound = 'sound/weapons/gunshot/nsv.ogg'
+	//i know it's kords sounds, but it is to booring to find and copy-paste URTES' sounds
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=7.2, burst_delay = null, burst_accuracy=null, dispersion=list(0.18)),
+		list(mode_name="short bursts", burst=3, fire_delay=1.5, burst_delay = 1.5, burst_accuracy=list(1,0,-1), dispersion=list(0.3, 0.6, 0.6)),
+		list(mode_name="long bursts",   burst=5, fire_delay=1.5, burst_delay = 1.5, burst_accuracy=list(1,0,0,-1,-2), dispersion=list(0.3, 0.6, 0.9, 1.15, 1.35)),
+		)
+
+/obj/item/weapon/gun/projectile/heavy_mg/dshk/update_icon()
+	..()
+	if(ammo_magazine)
+		icon_state = "dshk"
+	else
+		icon_state = "dshk-empty"
+
 ///////////////////////
 ////Stationary KORD////
 ///////////////////////

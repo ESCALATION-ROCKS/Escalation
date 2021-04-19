@@ -682,7 +682,7 @@
 
 /obj/item/weapon/storage/belt/suit/ammo/fra
 	w_class = ITEM_SIZE_HUGE
-	name = "5.56 FAMAS magazine pouch"
+	name = "FAMAS magazine pouch"
 	desc = "Has enough space to hold three 5.56 FAMAS magazines."
 	icon_state = "fra_ammo"
 	item_state = "fra_ammo"
@@ -697,6 +697,22 @@
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
 
+/obj/item/weapon/storage/belt/suit/ammo/fra/smg
+	w_class = ITEM_SIZE_HUGE
+	name = "MAT-49 magazine pouch"
+	desc = "Has enough space to hold four MAT-49 magazines."
+	icon_state = "fra_ammo_smg"
+	item_state = "fra_ammo"
+	open_delay = 5
+	storage_slots = 3
+	can_hold = list(
+		/obj/item/ammo_magazine/a9x19t,
+		/obj/item/ammo_magazine/c45m
+		)
+	startswith = null
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
 /obj/item/weapon/storage/belt/suit/ammo/fra/lmg
 	w_class = ITEM_SIZE_HUGE
 	max_w_class = ITEM_SIZE_LARGE
@@ -710,6 +726,21 @@
 		/obj/item/ammo_magazine/c556x45b/minimi
 		)
 	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/fra/frf2
+	w_class = ITEM_SIZE_HUGE
+	name = "FR F2 magazine pouch"
+	desc = "Has enough space to hold two FR F2 magazines."
+	icon_state = "fra_sniper_ammo"
+	item_state = "fra_ammo"
+	open_delay = 5
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x51f,
+		/obj/item/ammo_magazine/a9x19,)
+	startswith = null
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
 /obj/item/weapon/storage/belt/suit/ammo/usmc
 	w_class = ITEM_SIZE_HUGE
@@ -1134,6 +1165,39 @@
 		/obj/item/ammo_magazine/c545x39m,
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
+		)
+	startswith = null
+	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
+	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/ammo/esp/smg
+	w_class = ITEM_SIZE_HUGE
+	name = "Z84 magazine pouch"
+	desc = "Has enough space to hold four Star Z84 magazines."
+	icon_state = "esp_ammo_smg"
+	item_state = "esp_ammo"
+	storage_slots = 4
+	open_delay = 5
+	can_hold = list(
+		/obj/item/ammo_magazine/a9x19z,
+		)
+	startswith = null
+	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
+	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/ammo/esp/cetme
+	w_class = ITEM_SIZE_HUGE
+	name = "7.62 STANAG magazine pouch"
+	desc = "Has enough space to hold two 7.62 STANAG magazines."
+	icon_state = "baf_ammo"
+	item_state = "bdw_ammo"
+	open_delay = 5
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/a9x19,
+		/obj/item/ammo_magazine/c762x51wa,
+		/obj/item/ammo_magazine/c762x51m
 		)
 	startswith = null
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
