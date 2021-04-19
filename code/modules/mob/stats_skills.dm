@@ -59,8 +59,10 @@
 			return 0
 
 
-/mob/proc/statscheck(var/specskill, var/specstat, var/requirement, var/show_message, var/message = "I have failed to do this.")
+/mob/proc/statscheck(var/mob/living/carbon/M, var/specskill, var/specstat, var/requirement, var/show_message, var/message = "I have failed to do this.")
 	var/H = (roll("2d6") + statadder(specstat) + specskill)// our "dice"
+	if(M.chem_effects[CE_PAINKILLER] > 50)//Being high on painkillers will fuck up your rolls.
+		specskill = -1
 	if(specskill == -1)
 		H -= 3
 	if(requirement <= H)//Rolling that d20
