@@ -253,11 +253,9 @@ ATS-1:usa
 
 ##FRA##
 
-###USMC###
-
 Groupe 'Alpha':fra
 /datum/job/escalation/fra/frasl
-/datum/job/escalation/fra/fraftradio
+/datum/job/escalation/fra/fraratelo
 /datum/job/escalation/fra/fraftl
 /datum/job/escalation/fra/fraftg
 /datum/job/escalation/fra/frafto
@@ -272,7 +270,7 @@ Groupe 'Alpha':fra
 
 Groupe 'Bravo':fra
 /datum/job/escalation/fra/frasl
-/datum/job/escalation/fra/fraftradio
+/datum/job/escalation/fra/fraratelo
 /datum/job/escalation/fra/fraftl
 /datum/job/escalation/fra/fraftg
 /datum/job/escalation/fra/frafto
@@ -287,7 +285,7 @@ Groupe 'Bravo':fra
 
 Groupe 'Charlie':fra
 /datum/job/escalation/fra/frasl
-/datum/job/escalation/fra/fraftradio
+/datum/job/escalation/fra/fraratelo
 /datum/job/escalation/fra/fraftl
 /datum/job/escalation/fra/fraftg
 /datum/job/escalation/fra/frafto

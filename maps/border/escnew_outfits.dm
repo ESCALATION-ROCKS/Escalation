@@ -730,7 +730,7 @@
 	uniform = /obj/item/clothing/under/coldwar/csla/vz60/desatnik
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/marching/csla
 	holster = /obj/item/weapon/storage/belt/holster/sheath/csla
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/cslarpk
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/klec
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/rpk
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/csla/rpk
 	r_hand = /obj/item/clothing/head/coldwar/helmet/csla/vz53/netting

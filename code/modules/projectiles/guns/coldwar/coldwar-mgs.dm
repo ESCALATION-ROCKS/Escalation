@@ -838,7 +838,7 @@
 		list(mode_name="automatic",     burst=1, fire_delay=0.6, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.27, 0.37, 0.48),              automatic = 0.6),
 		)
 
-/obj/item/weapon/gun/projectile/automatic/cslarpk/update_icon()
+/obj/item/weapon/gun/projectile/automatic/klec/update_icon()
 	..()
 	update_held_icon()
 	if(ammo_magazine)
