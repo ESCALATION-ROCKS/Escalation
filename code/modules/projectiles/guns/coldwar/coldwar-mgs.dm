@@ -346,8 +346,8 @@
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.3,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,           dispersion=list(0.075),                    automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.1, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,        dispersion=list(0.1, 0.2, 0.45),           automatic = 0.1)
+		list(mode_name="semiauto",     burst=1, fire_delay=4.3,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,           dispersion=list(0.11),                    automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.1, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,        dispersion=list(0.10, 0.20, 0.45),           automatic = 0.1)
 		)
 
 	var/cover_opened = FALSE
@@ -424,8 +424,8 @@
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
 
 	firemodes = list(
-		list(mode_name="semiauto",     burst=1, fire_delay=4.3,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,           dispersion=list(0.075),                    automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.1, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,        dispersion=list(0.1, 0.2, 0.45),           automatic = 0.1)
+		list(mode_name="semiauto",     burst=1, fire_delay=4.3,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,           dispersion=list(0.11),                    automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.1, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,        dispersion=list(0.10, 0.20, 0.45),           automatic = 0.1)
 		)
 
 	var/cover_opened = FALSE
