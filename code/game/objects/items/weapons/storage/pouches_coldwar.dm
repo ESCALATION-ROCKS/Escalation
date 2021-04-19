@@ -683,6 +683,21 @@
 	startswith = null
 
 
+/obj/item/weapon/storage/belt/suit/ammo/usmc/sg
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "shotgun shell pouch"
+	desc = "Has enough space to hold to twenty five shotshells."
+	icon_state = "usmc_ammo_sg"
+	item_state = "usmc_ammo"
+	open_delay = 5
+	storage_slots = 5
+	can_hold = list(
+		/obj/item/ammo_magazine/box/clip/ga12,
+		/obj/item/ammo_casing/ga12
+		)
+	startswith = null
+
 /obj/item/weapon/storage/belt/suit/ammo/barrett
 	w_class = ITEM_SIZE_HUGE
 	name = "Barrett M82 magazine pouch"
@@ -781,6 +796,21 @@
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x54b
+		)
+	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/sa/sg
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "shotgun shell pouch"
+	desc = "Has enough space to hold to twenty five shotshells."
+	icon_state = "sa_sg"
+	item_state = "sa_grenade"
+	open_delay = 5
+	storage_slots = 5
+	can_hold = list(
+		/obj/item/ammo_magazine/box/clip/ga12,
+		/obj/item/ammo_casing/ga12
 		)
 	startswith = null
 

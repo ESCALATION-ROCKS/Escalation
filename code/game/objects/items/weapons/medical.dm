@@ -208,6 +208,19 @@
 	icon_state = "nato_tourniquet"
 
 
+/obj/item/stack/medical/tourniquet/seal
+	name = "wound seal"
+	singular_name = "wound seal"
+	w_class = ITEM_SIZE_SMALL//Packed very effective
+	desc = "That's a wound seal to treat arterial bleeding in core bodyparts."
+	icon_state = "wp_woundseal"
+	amount = 1
+	animal_heal = 0
+	tourniquetable_organs = list(BP_CHEST, BP_GROIN, BP_HEAD)	//List of organs you can splint, natch.
+
+
+/obj/item/stack/medical/tourniquet/seal/nato
+	icon_state = "nato_woundseal"
 
 
 //////////Splints

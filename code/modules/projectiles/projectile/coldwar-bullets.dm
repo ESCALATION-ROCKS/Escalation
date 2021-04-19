@@ -238,7 +238,7 @@
 //////////Refer to bullets.dm pellet/ for balancing shot shells.
 
 /obj/item/projectile/bullet/pellet/ga12 //Based on #00 load
-	armor_penetration = -50 // - does jackshit against armor
+	armor_penetration = 5 // - does jackshit against armor
 	penetration_modifier = 0.6
 	kill_count = 25
 	agony = 20
@@ -251,10 +251,10 @@
 	//Pretty tight grouping and low range so armors actually fucking work against it. Solution is to aim for limbs
 
 	New()
-		damage = rand(25, 38)
+		damage = rand(40, 60)
 
 /obj/item/projectile/bullet/rifle/ga12/slug
-	armor_penetration = 5 //low chance of going through
+	armor_penetration = 15 //low chance of going through
 	penetration_modifier = 0.3
 	agony = 18
 	kill_count = 60

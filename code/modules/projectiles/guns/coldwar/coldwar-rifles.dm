@@ -239,7 +239,7 @@
 		wielded_item_state = "aks-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/ak74gl
-	name = "AK-74"
+	name = "AK-74 w/ GP25"
 	desc = "A standard-issue Soviet Army combat rifle with a GP-25 launcher attached. Chambers 5.45x39 rounds."
 	icon_state = "ak74gl"
 	item_state = "ak74gl"
@@ -322,6 +322,92 @@
 		if(do_after(usr, 1, src))
 			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
 			playsound(src, 'sound/weapons/gunporn/gp25_select.ogg', 50, 1)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74gl
+	name = "AKS-74 w/ GP25"
+	desc = "A Soviet Army combat rifle with a folding stock and a GP-25 launcher attached. Chambers 5.45x39 rounds."
+	icon_state = "aks74gl"
+	item_state = "ak74gl"
+	w_class = 5
+	load_method = MAGAZINE
+	caliber = "545x39"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	ammo_type = /obj/item/ammo_casing/a545x39
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
+	magazine_type = null
+	one_hand_penalty = 3
+	force = 15
+	accuracy = 2.8
+	bayonet_attachable = 0
+	wielded_item_state = "ak74gl-wielded"
+	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak74_magin.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak74_cock.ogg'
+	jam_chance = 0.285
+	slowdown_general = 0.27
+
+	var/use_launcher = FALSE
+	var/obj/item/weapon/gun/launcher/grenade/underslung/gp25/launcher
+
+	firemodes = list(
+		list(mode_name="semiauto", burst=1, fire_delay=3, move_delay=null, one_hand_penalty=4, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
+		list(mode_name="automatic", burst=1, fire_delay=0.5, move_delay=2, one_hand_penalty=6, burst_accuracy=null, dispersion=list(0.15, 0.25, 0.45), automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74gl/New()
+	..()
+	launcher = new(src)
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74gl/attackby(obj/item/I, mob/user)
+	if((istype(I, /obj/item/weapon/grenade)))//load check it for it's type
+		playsound(src, 'sound/weapons/gunporn/gp25_insertgrenade.ogg', 50, 1)
+		launcher.load(I, user)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74gl/attack_hand(mob/user)
+	if(user.get_inactive_hand() == src && use_launcher)
+		playsound(src, 'sound/weapons/gunporn/gp25_openbarrel.ogg', 50, 1)
+		launcher.unload(user)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74gl/Fire(atom/target, mob/living/user, params, pointblank=0, reflex=0)
+	if(use_launcher && !roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to fire an underbarrel grenade!</span>")
+		return
+	if(use_launcher && roundstarted)
+		launcher.Fire(target, user, params, pointblank, reflex)
+		if(!launcher.chambered)
+			switch_firemodes() //switch back automatically
+			playsound(src, 'sound/weapons/gunporn/gp25_empty.ogg', 50, 1)
+	else
+		..()
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74gl/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "aks74gl"
+		wielded_item_state = "ak74gl-wielded"
+	else
+		icon_state = "aks74gl-empty"
+		wielded_item_state = "ak74gl-wielded-empty"
+
+
+/obj/item/weapon/gun/projectile/automatic/rifle/aks74gl/verb/set_gp()
+	set name = "Grenade Launcher"
+	set category = "Object"
+	set src in usr
+
+	if(launcher)
+		use_launcher = !use_launcher
+		if(do_after(usr, 1, src))
+			to_chat(usr, "<span class='notice'>You [use_launcher ? "prepare the [launcher.name]." : " take your gun back."]</span>")
+			playsound(src, 'sound/weapons/gunporn/gp25_select.ogg', 50, 1)
+
 
 /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
 	name = "M16A2"
