@@ -118,10 +118,10 @@
 	name = "Remington 870"
 	desc = "An outdated pump action shotgun used by the USMC. Holds seven 12ga shells and one in the chamber."
 	icon_state = "r870-empty"
-	item_state = "shotgunplaceholder"
+	item_state = "r870"
 	force = 15
 	caliber = "12ga"
-	wielded_item_state = "shotgunplaceholder-wielded"
+	wielded_item_state = "r870-wielded"
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
@@ -217,10 +217,10 @@
 	name = "TOZ-194"
 	desc = "A pump action shotgun used by the SA. Holds six 12ga shells and one in the chamber."
 	icon_state = "toz194-empty"
-	item_state = "shotgunplaceholder"
+	item_state = "toz194"
 	force = 15
 	caliber = "12ga"
-	wielded_item_state = "shotgunplaceholder-wielded"
+	wielded_item_state = "toz194-wielded"
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
@@ -318,63 +318,4 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////DOUBLE BARRELS AKA LE HOUSE SHOTGUN - will probably make one later idk this one doesnt work
-/*/obj/item/weapon/gun/projectile/shotgun/doublebarrel/r1894
-	name = "Remington 1894"
-	desc = "A true classic. Chambers two 12ga shells."
-	icon_state = "dshotgunplaceholder"
-	item_state = "shotgunplaceholder"
-	wielded_item_state = "shotgunplaceholder-wielded"
-	load_method = SINGLE_CASING|SPEEDLOADER
-	handle_casings = CYCLE_CASINGS
-	max_shells = 2
-	w_class = ITEM_SIZE_HUGE
-	force = 15
-	flags =  CONDUCT
-	ammo_type = null
-	caliber = "12ga"
-	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 1)
-	one_hand_penalty = 5
-	force = 15
-	accuracy = 3.4
-	jam_chance = 0.010
-	slowdown_general = 0.20
-	bayonet_type = null
-	bayonet_attachable = 0
-	fire_sound = 'sound/weapons/gunshot/toz194.ogg'
-	picksound = 'sound/items/interactions/rifle_draw.ogg'
-	drop_sound = 'sound/items/interactions/drop_gun.ogg'
-	reload_sound = 'sound/weapons/gunporn/toz194_shell_insert.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/toz194_dist.ogg'
-	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
-	burst_delay = 0
-	firemodes = list(
-		list(mode_name="fire one barrel at a time", burst=1),
-		list(mode_name="fire both barrels at once", burst=2),
-		)
-
-
-/obj/item/weapon/gun/projectile/shotgun/doublebarrel/r1894/load_ammo(var/obj/item/A, mob/user)
-	..()
-	var/obj/item/ammo_magazine/AM = user.get_active_hand(A)
-
-	if(AM.stored_ammo.len == 0)
-		qdel(AM)
-		return
-
-	else return*/
+/////i'll make doublebarrels later. maybe never. -severepwnage
