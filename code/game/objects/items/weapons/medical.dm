@@ -144,6 +144,20 @@
 	icon_state = "gauze"
 
 
+/obj/item/weapon/gauze_pack/woundseal/nato
+	name = "'Celox' granule packet"
+	desc = "That's the 'Celox' hemostatic granule packet. Contains wound seal."
+	w_class = ITEM_SIZE_NORMAL
+	icon_state = "celox"
+	content_type = /obj/item/stack/medical/tourniquet/woundseal
+
+/obj/item/weapon/gauze_pack/woundseal/wp
+	name = "'Hemostat' granule packet"
+	desc = "That's the 'Hemostat' granule packet. Contains wound seal."
+	w_class = ITEM_SIZE_NORMAL
+	icon_state = "hemostat"
+	content_type = /obj/item/stack/medical/tourniquet/woundseal
+
 /////////Tourniquets
 /obj/item/stack/medical/tourniquet
 	name = "Esmarch tourniquet"
@@ -210,17 +224,14 @@
 
 /obj/item/stack/medical/tourniquet/woundseal
 	name = "wound seal"
-	desc = "A packet of granular 'wound seal', used to treat bleeding in core bodyparts and other limbs."
+	desc = "A handful of granular 'wound seal', used to treat bleeding in core bodyparts and other limbs."
 	icon_state = "woundseal"
 	singular_name = "wound seal"
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_LARGE
 	amount = 1
 	animal_heal = 0
 	tourniquetable_organs = list(BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT, BP_GROIN, BP_CHEST, BP_HEAD)	//List of organs you can splint, natch.
 
-/obj/item/stack/medical/tourniquet/woundseal/nato
-	name = "NATO wound seal"
-	icon_state = "nato_woundseal"
 
 //////////Splints
 /obj/item/stack/medical/splint
