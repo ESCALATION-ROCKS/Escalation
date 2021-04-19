@@ -155,7 +155,6 @@
 #define SPEEDLOADER 	2	//Transfers casings from the mag to the gun when used.
 #define MAGAZINE 		4	//The magazine item itself goes inside the gun
 #define AMMO_BOX 		3
-#define HANDFUL         5   //Handful of rounds, loads them one by one.
 //An item that holds casings and can be used to put them inside guns
 /obj/item/ammo_magazine
 	name = "magazine"

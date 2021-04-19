@@ -514,6 +514,26 @@
 		..()
 		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
 
+/datum/job/escalation/cccp/vympbr
+	title = "KGB Narushitel"
+	name = "Narushitel Elementa"
+	english_name = "Element Breacher"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/vympbr
+	selection_color = "#B22222"
+	rank_number = 3
+	position = "fireteam"
+	amount = 3
+	enabled = 1
+	whitelist_rank = "sa_specops"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_FINNISH = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+
 /datum/job/escalation/cccp/vympmg
 	title = "KGB Pulemetchik"
 	name = "Pulemetchik Elementa"

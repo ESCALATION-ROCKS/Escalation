@@ -74,7 +74,7 @@ ATS-1:usmc
 /datum/job/escalation/usmc/frcnsl
 /datum/job/escalation/usmc/frcnop
 /datum/job/escalation/usmc/frcnop
-/datum/job/escalation/usmc/frcnop
+/datum/job/escalation/usmc/frcnbr
 /datum/job/escalation/usmc/frcnmg
 /datum/job/escalation/usmc/frcnsm
 @END@
@@ -371,7 +371,7 @@ Vympel 'Juliana':cccp
 /datum/job/escalation/cccp/vympsl
 /datum/job/escalation/cccp/vympop
 /datum/job/escalation/cccp/vympop
-/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympbr
 /datum/job/escalation/cccp/vympmg
 /datum/job/escalation/cccp/vympsm
 @END@

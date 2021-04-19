@@ -320,6 +320,8 @@
 		to_chat(user, "<span class='notice'>You attach [knife.name] to the [src].</span>")
 		src.verbs += /obj/item/weapon/gun/projectile/rifle/boltaction/verb/remove_bayonet
 		update_icon()
+	if(istype(W, /obj/item/ammo_magazine/box/paper))
+		return
 	..()
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/update_icon()
@@ -494,7 +496,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING | SPEEDLOADER | HANDFUL
+	load_method = SINGLE_CASING | SPEEDLOADER | AMMO_BOX
 	max_shells = 5
 	ammo_type = null
 	one_hand_penalty = 6
@@ -672,7 +674,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING | SPEEDLOADER | HANDFUL
+	load_method = SINGLE_CASING | AMMO_BOX
 	max_shells = 5
 	ammo_type = null
 	one_hand_penalty = 6
@@ -769,7 +771,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING | SPEEDLOADER | HANDFUL
+	load_method = SINGLE_CASING | SPEEDLOADER | AMMO_BOX
 	max_shells = 5
 	ammo_type = null
 	one_hand_penalty = 6
@@ -809,7 +811,7 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING | SPEEDLOADER | HANDFUL
+	load_method = SINGLE_CASING | AMMO_BOX
 	max_shells = 5
 	ammo_type = null
 	one_hand_penalty = 6

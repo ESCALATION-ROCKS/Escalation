@@ -24,6 +24,8 @@
 		to_chat(user, "<span class='notice'>You attach [knife.name] to the [src].</span>")
 		src.verbs += /obj/item/weapon/gun/projectile/rifle/pumpaction/verb/remove_bayonet
 		update_icon()
+	if(istype(W, /obj/item/ammo_magazine/box/paper))
+		return
 	..()
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/update_icon()
@@ -67,7 +69,7 @@
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/attack_self(mob/living/user as mob) //the bolt action operation itself
 	bolt_open = !bolt_open
-	if(do_after(user, 6.5, src))
+	if(do_after(user, 2, src))
 		if(bolt_open)
 			playsound(src.loc, 'sound/weapons/gunporn/m40a1_boltback.ogg', 50, 1)
 
@@ -115,7 +117,6 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870
 	name = "Remington 870"
 	desc = "An outdated pump action shotgun used by the USMC. Holds seven 12ga shells and one in the chamber."
-	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "r870-empty"
 	item_state = "shotgunplaceholder"
 	force = 15
@@ -124,11 +125,11 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING | HANDFUL
+	load_method = SINGLE_CASING|AMMO_BOX
 	max_shells = 7
 	ammo_type = null
 	one_hand_penalty = 6
-	accuracy = 3
+	accuracy = 2.5
 	cocked_sound = null ///Plays right after inserting a shell, unnecesary for shotguns
 	fire_sound = 'sound/weapons/gunshot/r870.ogg'
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
@@ -136,10 +137,11 @@
 	reload_sound = 'sound/weapons/gunporn/r870_shell_insert.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/r870_dist.ogg'
 	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
+	unload_sound = 'sound/weapons/gunporn/m203_openbarrel.ogg'
 	jam_chance = 0.010
 	slowdown_general = 0.25
-	bayonet_attachable = 0
-	bayonet_type = null
+	bayonet_attachable = 1
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 
 /obj/item/weapon/gun/projectile/rifle/pumpaction/r870/consume_next_projectile()
 	if(chambered)
@@ -214,7 +216,6 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194
 	name = "TOZ-194"
 	desc = "A pump action shotgun used by the SA. Holds six 12ga shells and one in the chamber."
-	icon = 'icons/obj/boltactions.dmi'
 	icon_state = "toz194-empty"
 	item_state = "shotgunplaceholder"
 	force = 15
@@ -223,11 +224,11 @@
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 1 //extra kickback
 	handle_casings = HOLD_CASINGS
-	load_method = SINGLE_CASING | HANDFUL
+	load_method = SINGLE_CASING|AMMO_BOX
 	max_shells = 6
 	ammo_type = null
 	one_hand_penalty = 6
-	accuracy = 3
+	accuracy = 2.3
 	cocked_sound = null ///Plays right after inserting a shell, unnecesary for shotguns
 	fire_sound = 'sound/weapons/gunshot/toz194.ogg'
 	picksound = 'sound/items/interactions/rifle_draw.ogg'
@@ -235,6 +236,7 @@
 	reload_sound = 'sound/weapons/gunporn/toz194_shell_insert.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/toz194_dist.ogg'
 	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
+	unload_sound = 'sound/weapons/gunporn/gp25_openbarrel.ogg'
 	jam_chance = 0.010
 	slowdown_general = 0.25
 	bayonet_attachable = 0
@@ -331,7 +333,7 @@
 
 
 
-/////DOUBLE BARRELS AKA LE HOUSE SHOTGUN
+/////DOUBLE BARRELS AKA LE HOUSE SHOTGUN - will probably make one later idk this one doesnt work
 /*/obj/item/weapon/gun/projectile/shotgun/doublebarrel/r1894
 	name = "Remington 1894"
 	desc = "A true classic. Chambers two 12ga shells."
