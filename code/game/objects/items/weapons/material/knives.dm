@@ -163,3 +163,15 @@
 	desc = "Combat knife of the Bundesheer forces. German quality."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "heer"
+
+/obj/item/weapon/material/knife/bayonet/esp
+	name = "Machete Bayoneta Modelo 1964"
+	desc = "A CETME bayonet with two sharp edges near the tip."
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "esp"
+
+/obj/item/weapon/material/knife/bayonet/fra
+	name = "M 1958 bayonet"
+	desc = "A FAMAS bayonet with two sharp edges near the tip."
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "fra"

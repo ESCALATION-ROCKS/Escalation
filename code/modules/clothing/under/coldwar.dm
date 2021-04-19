@@ -609,23 +609,36 @@
 	slowdown_general = 0.5
 	has_sensor = 0
 
-/obj/item/clothing/under/coldwar/fra/lizard/sold
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/nnaddr/soldat, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/coldwar/fra/lizard/gefr
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/nnaddr/gefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/coldwar/fra/lizard/pfc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/pfc, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/coldwar/fra/lizard/obergefr
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/nnaddr/obergefr, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/coldwar/fra/lizard/lcpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/lcpl, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/coldwar/fra/lizard/feldwebel
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/nnaddr/feldwebel, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/coldwar/fra/lizard/cpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/cpl, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/coldwar/fra/lizard/unter
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/nnaddr/unter, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/coldwar/fra/lizard/spc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/spc, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/coldwar/fra/lizard/unterfeldwebel
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/nnaddr/unterfeldwebel, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/coldwar/fra/lizard/sgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/sgt, /obj/item/clothing/accessory/storage/uniform_pockets)
 
-/obj/item/clothing/under/coldwar/fra/lizard/leutnant
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag/,/obj/item/clothing/accessory/insignia/nnaddr/leutnant, /obj/item/clothing/accessory/storage/uniform_pockets)
+/obj/item/clothing/under/coldwar/fra/lizard/ssgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/ssgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/lizard/sfc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/sfc, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/lizard/msgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/msgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/lizard/gysgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/gysgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/lizard/scndlt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/scndlt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/lizard/fstlt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt, /obj/item/clothing/accessory/storage/uniform_pockets)

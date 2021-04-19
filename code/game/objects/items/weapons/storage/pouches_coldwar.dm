@@ -166,6 +166,24 @@
 		/obj/item/ammo_magazine/a9x19b
 		)
 
+/obj/item/weapon/storage/belt/holster/fra
+	name = "MAC 50 holster"
+	storage_slots = 3
+	icon_state = "alice_holster"
+	icon_closed = "alice_holster_empty"
+	holster_sound = 'sound/effects/holster/holsterin.ogg'
+	unholster_sound = 'sound/effects/holster/holsterout.ogg'
+	desc = "This holster can hold a MAC 50 pistol and one magazine."
+	special_item = /obj/item/weapon/gun/projectile/mac50
+	startswith = list(
+		/obj/item/weapon/gun/projectile/mac50,
+		/obj/item/ammo_magazine/a9x19m
+		)
+	can_hold = list(
+		/obj/item/weapon/gun/projectile/mac50,
+		/obj/item/ammo_magazine/a9x19m
+		)
+
 /obj/item/weapon/storage/belt/holster/aps
 	special_item = /obj/item/weapon/gun/projectile/aps
 	holster_sound = 'sound/effects/holster/holsterin.ogg'
@@ -407,6 +425,32 @@
 	can_hold = list(
 		/obj/item/weapon/material/knife/bayonet/csla)
 
+/obj/item/weapon/storage/belt/holster/sheath/esp
+	name = "Machete Bayoneta Modelo 1964 sheath"
+	desc = "This sheath can hold a Machete Bayoneta Modelo 1964."
+	special_item = /obj/item/weapon/material/knife/bayonet/esp
+	holster_sound = 'sound/effects/holster/sheathin.ogg'
+	unholster_sound = 'sound/effects/holster/sheathout.ogg'
+	icon_state = "esp_sheath"
+	icon_closed = "esp_sheath_empty"
+	startswith = list(
+		/obj/item/weapon/material/knife/bayonet/esp)
+	can_hold = list(
+		/obj/item/weapon/material/knife/bayonet/esp)
+
+/obj/item/weapon/storage/belt/holster/sheath/fra
+	name = "M 1958 sheath"
+	desc = "This sheath can hold a M 1958."
+	special_item = /obj/item/weapon/material/knife/bayonet/fra
+	holster_sound = 'sound/effects/holster/sheathin.ogg'
+	unholster_sound = 'sound/effects/holster/sheathout.ogg'
+	icon_state = "fra_sheath"
+	icon_closed = "fra_sheath_empty"
+	startswith = list(
+		/obj/item/weapon/material/knife/bayonet/fra)
+	can_hold = list(
+		/obj/item/weapon/material/knife/bayonet/fra)
+
 /obj/item/weapon/storage/belt/holster/flaskstorage
 	name = "flask pouch"
 	desc = "This one can hold some kind of flask."
@@ -633,6 +677,37 @@
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51b/en
+		)
+	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/fra
+	w_class = ITEM_SIZE_HUGE
+	name = "5.56 FAMAS magazine pouch"
+	desc = "Has enough space to hold three 5.56 FAMAS magazines."
+	icon_state = "fra_ammo"
+	item_state = "fra_ammo"
+	open_delay = 5
+	storage_slots = 3
+	can_hold = list(
+		/obj/item/ammo_magazine/c556x45s,
+		/obj/item/ammo_magazine/c45m
+		)
+	startswith = null
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
+
+/obj/item/weapon/storage/belt/suit/ammo/fra/lmg
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "MINIMI box pouch"
+	desc = "Has enough space to hold one MINIMI belt box."
+	icon_state = "fra_ammo_lmg"
+	item_state = "fra_ammo_lmg"
+	open_delay = 5
+	storage_slots = 1
+	can_hold = list(
+		/obj/item/ammo_magazine/c556x45b/minimi
 		)
 	startswith = null
 
@@ -1044,6 +1119,80 @@
 		)
 	startswith = null
 
+
+//spanish
+
+/obj/item/weapon/storage/belt/suit/ammo/esp
+	w_class = ITEM_SIZE_HUGE
+	name = "AK magazine pouch"
+	desc = "Has enough space to hold four AK magazines."
+	icon_state = "esp_ammo"
+	item_state = "esp_ammo"
+	storage_slots = 4
+	open_delay = 5
+	can_hold = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/a9x18
+		)
+	startswith = null
+	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
+	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/ammo/esp/rpk
+	w_class = ITEM_SIZE_HUGE
+	name = "RPK magazine pouch"
+	desc = "Has enough space to hold one RPK drum."
+	icon_state = "esp_ammo"
+	item_state = "esp_ammo"
+	open_delay = 5
+	storage_slots = 1
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x39k,
+		/obj/item/ammo_magazine/a9x18
+		)
+	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/esp/lmg
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = ITEM_SIZE_LARGE
+	name = "CETME Ameli box pouch"
+	desc = "Has enough space to hold one CETME belt box."
+	icon_state = "esp_ammo_lmg"
+	item_state = "esp_ammo_lmg"
+	open_delay = 5
+	storage_slots = 1
+	can_hold = list(
+		/obj/item/ammo_magazine/c556x45a)
+	startswith = null
+
+/obj/item/weapon/storage/belt/suit/ammo/esp/l96
+	w_class = ITEM_SIZE_HUGE
+	name = "L96 magazine pouch"
+	desc = "Has enough space to hold two L96 magazines."
+	icon_state = "esp_sniper_ammo"
+	item_state = "esp_ammo"
+	open_delay = 5
+	storage_slots = 2
+	can_hold = list(
+		/obj/item/ammo_magazine/c762x51l,
+		/obj/item/ammo_magazine/a9x19,)
+	startswith = null
+	use_sound = 'sound/items/interactions/natopouchopen.wav'
+	close_sound = 'sound/items/interactions/natopouchclose.wav'
+
+/obj/item/weapon/storage/belt/suit/ammo/esp/grenades
+	w_class = ITEM_SIZE_HUGE
+	max_w_class = 2
+	name = "leather grenade pouch"
+	desc = "Can hold three grenades."
+	icon_state = "esp_grenade"
+	item_state = "esp_grenade"
+	open_delay = 2
+	storage_slots = 3
+	can_hold = list(/obj/item/weapon/grenade/frag/, /obj/item/weapon/grenade/smokebomb)
+	startswith = null
+
 //ugl nade pouches
 
 /obj/item/weapon/storage/belt/suit/ammo/sa/ugrenades
@@ -1143,6 +1292,38 @@
 		)
 
 
+/obj/item/weapon/storage/belt/suit/ammo/esp/ugrenades
+	name = "soviet grenade satchel"
+	desc = "Generic grenade satchel used by ERE. Has enough space to hold six underbarrel grenades."
+	icon_state = "sa_ugl"
+	item_state = "sa_ugrenade"
+	storage_slots = 6
+	can_hold = list (/obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25, /obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm)
+	startswith = list(
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/frag/ugl/vog25/,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25/,
+		/obj/item/weapon/grenade/smokebomb/ugl/vog25/
+		)
+
+/obj/item/weapon/storage/belt/suit/ammo/fra/ugrenades
+	name = "adt grenade bandolier"
+	desc = "Generic grenade satchel used by French forces. Has enough space to hold six underbarrel grenades."
+	icon_state = "heer_grenbandolier"
+	item_state = "usmc_grenbandolier"
+	storage_slots = 6
+	can_hold = list (/obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm, /obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25)
+	startswith = list(
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/frag/ugl/shell40mm/,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm/,
+		/obj/item/weapon/grenade/smokebomb/ugl/shell40mm/
+		)
+
 /////////////sapper bags
 
 /obj/item/weapon/storage/belt/suit/sapper
@@ -1207,3 +1388,7 @@
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
+/obj/item/weapon/storage/belt/suit/sapper/esp
+	name = "sappers bag"
+	icon_state = "esp_sapper"
+	item_state = "esp_ammo"

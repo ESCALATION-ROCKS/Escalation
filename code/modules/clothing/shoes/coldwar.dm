@@ -19,6 +19,11 @@
 	desc = "A pair of marching boots, issued by the Soviet Army"
 	icon_state = "marchboots"
 
+/obj/item/clothing/shoes/coldwar/esp/marching
+	name = "marching jackboots"
+	desc = "A pair of marching boots, issued by the Spanish Army"
+	icon_state = "marchboots"
+
 /obj/item/clothing/shoes/coldwar/soviet/marching/csla
 	name = "marching jackboots"
 	desc = "A pair of marching boots, issued by the CSLA"

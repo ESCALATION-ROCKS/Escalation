@@ -90,7 +90,7 @@ var/list/outfits_decls_by_type_
 	var/espbackpack = /obj/item/weapon/storage/backpack/sakitbag/esp
 	var/espsatchel  = /obj/item/weapon/storage/backpack/gassoviet/esp
 
-	var/frabackpack = /obj/item/weapon/storage/backpack/fra/medium
+	var/frabackpack = /obj/item/weapon/storage/backpack/alice/fra
 	var/frasatchel  = /obj/item/weapon/storage/backpack/fra_buttpack
 
 	var/flags

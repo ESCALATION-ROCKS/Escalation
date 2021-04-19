@@ -55,25 +55,25 @@
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c556x45s
-	name = "STANAG magazine (5.56x45mm)"
-	desc = "A STANAG magazine that fits twenty 5.56x45mm rounds."
+	name = "FAMAS magazine (5.56x45mm)"
+	desc = "A STANAG magazine that fits twenty five 5.56x45mm rounds."
 	icon_state = "5.56x45s"
 	item_state = "m16_mag"
 	mag_type = MAGAZINE
 	caliber = "556x45"
 	ammo_type = /obj/item/ammo_casing/a556x45
-	max_ammo = 20
-	load_delay = 7
+	max_ammo = 25
+	load_delay = 12 //bullpup
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/c556x45s/ap
-	name = "STANAG AP magazine (5.56x45mm)"
-	desc = "A STANAG magazine that fits twenty armor-piercing 5.56x45mm rounds."
+	name = "FAMAS AP magazine (5.56x45mm)"
+	desc = "A FAMAS magazine that fits twenty five armor-piercing 5.56x45mm rounds."
 	ammo_type = /obj/item/ammo_casing/a556x45/ap
 
 /obj/item/ammo_magazine/c556x45s/tr
-	name = "STANAG tracer magazine (5.56x45mm)"
-	desc = "A STANAG magazine that fits twenty 5.56x45mm tracer rounds."
+	name = "FAMAS tracer magazine (5.56x45mm)"
+	desc = "A FAMAS magazine that fits twenty five 5.56x45mm tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a556x45/tr
 
 /obj/item/ammo_magazine/c556x45s/empty
@@ -272,6 +272,10 @@
 	multiple_sprites = 1
 	load_delay = 30
 
+/obj/item/ammo_magazine/c556x45b/minimi
+	name = "MINIMI belt box (5.56x45mm)"
+	desc = "An MINIMI belt box that fits two hundred 5.56x45mm rounds."
+
 /obj/item/ammo_magazine/c556x45b/ap
 	name = "M249 AP belt box (5.56x45mm)"
 	desc = "An M249 belt box that fits two hundred armor-piercing 5.56x45mm rounds."
@@ -283,6 +287,32 @@
 	ammo_type = /obj/item/ammo_casing/a556x45/tr
 
 /obj/item/ammo_magazine/c556x45b/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/c556x45a
+	name = "CETME Ameli belt box (5.56x45mm)"
+	desc = "A CETME Ameli belt box that fits two hundred 5.56x45mm rounds."
+	icon_state = "ameli"
+	item_state = "m60_mag"
+	mag_type = MAGAZINE
+	w_class = ITEM_SIZE_LARGE
+	caliber = "556x45"
+	ammo_type = /obj/item/ammo_casing/a556x45
+	max_ammo = 200
+	multiple_sprites = 1
+	load_delay = 30
+
+/obj/item/ammo_magazine/c556x45a/ap
+	name = "CETME Ameli armor piercing belt box (5.56x45mm)"
+	desc = "A CETME Ameli belt box that fits two hundred armor-piercing 5.56x45mm rounds."
+	ammo_type = /obj/item/ammo_casing/a556x45/ap
+
+/obj/item/ammo_magazine/c556x45a/tr
+	name = "CETME Ameli tracer belt box (5.56x45mm)"
+	desc = "A CETME Ameli belt box that fits two hundred 5.56x45mm tracer rounds."
+	ammo_type = /obj/item/ammo_casing/a556x45/tr
+
+/obj/item/ammo_magazine/c556x45a/empty
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/c50cals
@@ -454,6 +484,36 @@
 	ammo_type = /obj/item/ammo_casing/a9x19/tr
 
 /obj/item/ammo_magazine/a9x19b/empty
+	initial_ammo = 0
+
+/obj/item/ammo_magazine/a9x19m
+	name = "magazine (9x19mm)"
+	desc = "A MAC 50 magazine that fits nine 9x19mm rounds."
+	icon_state = "9x19b"
+	item_state = "generic_mag"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/a9x19
+	w_class = 1
+	matter = list(DEFAULT_WALL_MATERIAL = 1200)
+	caliber = "9x19"
+	max_ammo = 9
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/a9x19m/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
+
+/obj/item/ammo_magazine/a9x19m/ap
+	name = "ap magazine (9x19mm)"
+	desc = "A MAC 50 magazine that fits nine armor piercing 9x19mm rounds"
+	ammo_type = /obj/item/ammo_casing/a9x19/ap
+
+/obj/item/ammo_magazine/a9x19m/tr
+	name = "tracer magazine (9x19mm)"
+	desc = "A MAC 50 magazine that fits nine tracer 9x19mm rounds"
+	ammo_type = /obj/item/ammo_casing/a9x19/tr
+
+/obj/item/ammo_magazine/a9x19m/empty
 	initial_ammo = 0
 
 /obj/item/ammo_magazine/a45

@@ -1846,7 +1846,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/rto
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/ratelo
 	selection_color = "#B0C4DE"
 	amount = 1
 	enabled = 1
@@ -1866,7 +1866,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/medic
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/corpsman
 	selection_color = "#B0C4DE"
 	position = "team"
 	enabled = 1
@@ -1923,7 +1923,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/medic
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/corpsman
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	enabled = 1
@@ -1934,24 +1934,6 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
-
-/datum/job/escalation/fra/fraquartermaster
-	title = "ADT Quartermaster"
-	name = "Quartermaster"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/quartermaster
-	selection_color = "#B0C4DE"
-	amount = 1
-	enabled = 0
-	whitelist_rank = "fra_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/fra/frasl
 	title = "ADT Squad Leader"
