@@ -442,3 +442,61 @@
 /obj/item/weapon/storage/belt/usmc/New()
 	..()
 	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
+
+
+/obj/item/weapon/storage/belt/harness/fra
+	name = "french harness"
+	desc = "A generic leather harness used by the ADT."
+	icon_state = "sa_harness"
+	item_state = "sa_harness"
+	storage_slots = 3
+	can_hold = list(/obj/item/weapon/shovel/etool,
+	/obj/item/weapon/storage/belt/holster/flaskstorage/nato,
+	/obj/item/weapon/storage/firstaid/ifak/nato)
+
+/obj/item/weapon/storage/belt/harness/fra/New()
+	..()
+	new /obj/item/weapon/shovel/etool(src)
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
+	new /obj/item/weapon/storage/firstaid/ifak/nato(src)
+
+/obj/item/weapon/storage/belt/fra
+	name = "french belt"
+	desc = "A belt used by French officers."
+	icon_state = "sa_officerharness"
+	item_state = "sa_officerharness"
+	storage_slots = 1
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/nato)
+
+/obj/item/weapon/storage/belt/fra/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/nato(src)
+
+
+/obj/item/weapon/storage/belt/harness/esp
+	name = "spanish harness"
+	desc = "A cheap harness used by the Spanish forces."
+	icon_state = "esp_harness"
+	item_state = "esp_harness"
+	storage_slots = 3
+	can_hold = list(/obj/item/weapon/shovel/spadewp,
+	/obj/item/weapon/storage/belt/holster/flaskstorage/soviet,
+	/obj/item/weapon/storage/firstaid/ifak/soviet)
+
+/obj/item/weapon/storage/belt/harness/esp/New()
+	..()
+	new /obj/item/weapon/shovel/spadewp(src)
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)
+	new /obj/item/weapon/storage/firstaid/ifak/soviet(src)
+
+/obj/item/weapon/storage/belt/esp
+	name = "spanish belt"
+	desc = "A belt used by Spanish officers. A hammer and sickle is engraved on the buckle."
+	icon_state = "esp_officerharness"
+	item_state = "esp_officerharness"
+	storage_slots = 1
+	can_hold = list(/obj/item/weapon/storage/belt/holster/flaskstorage/soviet)
+
+/obj/item/weapon/storage/belt/esp/New()
+	..()
+	new /obj/item/weapon/storage/belt/holster/flaskstorage/soviet(src)

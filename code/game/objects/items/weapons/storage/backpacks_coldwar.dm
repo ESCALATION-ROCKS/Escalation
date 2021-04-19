@@ -162,6 +162,16 @@
 	max_storage_space = 6
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
+/obj/item/weapon/storage/backpack/fra_buttpack
+	name = "ADT field pack"
+	desc = "A sturdy field pack used by Bundesheer."
+	icon_state = "heer_buttpack"
+	item_state = "heer_buttpack"
+	reachable = 1
+	open_delay = 10
+	max_storage_space = 6
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+
 /obj/item/weapon/storage/backpack/bundes_utilitypouch
 	name = "BDW utility pouch"
 	desc = "Has enough space to hold a few items"
@@ -313,6 +323,12 @@
 	icon_state = "cslapack"
 	item_state = "cslakitpack"
 
+/obj/item/weapon/storage/backpack/sakitbag/esp
+	name = "canvas kit bag"
+	desc = "A canvas bag used widely by ERE forces."
+	icon_state = "esppack"
+	item_state = "espkitpack"
+
 /obj/item/weapon/storage/backpack/summedsan
 	name = "sanitar's bag"
 	desc = "That's the 'Sumka Meditsinskaya Sanitarnaya', a medical bag commonly used by Warsaw Pact."
@@ -399,6 +415,10 @@
 	icon_state = "nvagaspouch"
 	item_state = "nvagaspouch"
 
+/obj/item/weapon/storage/backpack/gassoviet/esp
+	desc = "That's a canvas gas mask satchel used by the ERE."
+	icon_state = "espgaspouch"
+	item_state = "espgaspouch"
 
 
 /obj/item/weapon/storage/backpack/alice/medium
@@ -441,6 +461,20 @@
 
 
 /obj/item/weapon/storage/backpack/alice/large/New()
+	..()
+	slowdown_per_slot[slot_back] = 0.03
+
+/obj/item/weapon/storage/backpack/alice/fra
+	name = "ADT rucksack"
+	desc = "Commonly used by the ADT."
+	icon_state = "heermediumpack"
+	item_state = "heermediumpack"
+	slot_flags = SLOT_BACK
+	reachable = 0
+	max_storage_space = 12
+	open_delay = 5
+
+/obj/item/weapon/storage/backpack/alice/fra/New()
 	..()
 	slowdown_per_slot[slot_back] = 0.03
 

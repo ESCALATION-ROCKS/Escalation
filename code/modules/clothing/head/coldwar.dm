@@ -314,9 +314,43 @@
 	icon_state_unzipped = "m63medic-unzipped"
 
 
+//Spanish hats
 
+/obj/item/clothing/head/coldwar/garcap/esp
+	name = "'Pilotka'"
+	desc = "That's a garrison cap used by Soviet Army."
+	icon_state = "sovietgarrisoncap"
+	icon_state_alt = "sovietgarrisoncap_alt"
 
+/obj/item/clothing/head/coldwar/fieldcap/esp
+	name = "'Afghanka' field cap"
+	desc = "That's a generic field cap usually worn by junior command personnel of the Soviet Army."
+	icon_state = "afghanka_cap"
 
+/obj/item/clothing/head/coldwar/officer/esp
+	name = "officer cap"
+	desc = "An uniform headdress of officers."
+	icon_state = "soviet_officer"
+
+//Spanish helmets
+
+/obj/item/clothing/head/coldwar/helmet/esp/m42
+	name = "M42-79 helmet"
+	desc = "A cheap and very outdated steel helmet used by the Republican Spanish Army."
+	icon_state = "m42"
+	armor = list(melee = 62, bullet = 85, laser = 0, energy = 10, bomb = 55, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "m42-unzipped"
+
+/obj/item/clothing/head/coldwar/helmet/esp/m42/netting
+	desc = "A cheap and very outdated steel helmet used by the Republican Spanish Army. This one has a netting on it."
+	icon_state_unzipped = "m42netting-unzipped"
+	icon_state = "m42netting"
+
+/obj/item/clothing/head/coldwar/helmet/esp/m42/medic
+	desc = "A cheap and very outdated steel helmet used by the Republican Spanish Army. This one has a red cross on it."
+	icon_state_unzipped = "m42medic-unzipped"
+	icon_state = "m42medic"
 
 
 
@@ -560,6 +594,44 @@
 	icon_state = "mkvmedic"
 	icon_state_unzipped = "mkvmedic-unzipped"
 
+
+//FRA Hats
+
+/obj/item/clothing/head/coldwar/beret/fra
+	name = "Armee de Terre beret"
+	desc = "A maroon beret common amongst BAF airtrooper divisions."
+	icon_state = "fraberet"
+
+/obj/item/clothing/head/coldwar/garcap/fra
+	name = "garrison cap"
+	desc = "That's a garrison cap used by ADT."
+	icon_state = "frafieldcap"
+	icon_state_alt = "frafieldcap_alt"
+
+/obj/item/clothing/head/coldwar/fieldcap/fra
+	name = "field cap"
+	desc = "That's a field cap used by ADT."
+	icon_state = "frafieldcap"
+
+//FRA Helmets
+
+/obj/item/clothing/head/coldwar/helmet/fra/m78
+	name = "'Modele 1978' helmet"
+	desc = "A helmet used by the Armee de Terre."
+	icon_state = "m1978"
+	armor = list(melee = 68, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "m1978-unzipped"
+
+/obj/item/clothing/head/coldwar/helmet/fra/m78/cover
+	desc = "A helmet used by the Armee de Terre. This one has a netting on it."
+	icon_state = "m1978c"
+	icon_state_unzipped = "m1978c-unzipped"
+
+/obj/item/clothing/head/coldwar/helmet/fra/m78/medic
+	desc = "A helmet used by the Armee de Terre. This one has a red cross on it."
+	icon_state = "m1978medic"
+	icon_state_unzipped = "m1978medic-unzipped"
 
 
 //HEV Helmets

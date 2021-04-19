@@ -267,3 +267,57 @@
 		icon_state = "hipower"
 	else
 		icon_state = "hipower-empty"
+
+
+/obj/item/weapon/gun/projectile/star
+	name = "Star 28"
+	desc = "A standard issue Spanish service pistol. Chambers 9x19mm cartridges."
+	icon_state = "star"
+	item_state = "m1911"
+	w_class = ITEM_SIZE_NORMAL
+	caliber = "9x19"
+	fire_delay = 3.2
+	accuracy = 2.5
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/a9x19b
+	allowed_magazines = /obj/item/ammo_magazine/a9x19b
+	fire_sound = 'sound/weapons/gunshot/m1911.ogg'
+	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
+	jam_chance = 0.65
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+
+/obj/item/weapon/gun/projectile/star/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "star"
+	else
+		icon_state = "star-empty"
+
+
+/obj/item/weapon/gun/projectile/mac50
+	name = "MAC 50"
+	desc = "A standard issue French service pistol. Chambers 9x19mm cartridges."
+	icon_state = "mac50"
+	item_state = "m1911"
+	w_class = ITEM_SIZE_NORMAL
+	caliber = "9x19"
+	fire_delay = 3.2
+	accuracy = 2.5
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/a9x19b
+	allowed_magazines = /obj/item/ammo_magazine/a9x19b
+	fire_sound = 'sound/weapons/gunshot/m1911.ogg'
+	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
+	jam_chance = 0.65
+	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+
+/obj/item/weapon/gun/projectile/mac50/update_icon()
+	..()
+	if(ammo_magazine && ammo_magazine.stored_ammo.len)
+		icon_state = "mac50"
+	else
+		icon_state = "mac50-empty"

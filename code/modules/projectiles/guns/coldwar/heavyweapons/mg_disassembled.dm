@@ -15,6 +15,11 @@
 	icon_state = "utes-disconnected"
 	id_g = "uts"
 
+/obj/item/weapon/mg_disassembled/dshk
+	name = "disassembled DsHK"
+	icon_state = "dshk-disconnected"
+	id_g = "dsk"
+
 /obj/item/weapon/mg_disassembled/kord
 	name = "disassembled KORD"
 	icon_state = "pkms-disconnected"

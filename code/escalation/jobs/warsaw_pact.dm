@@ -1927,3 +1927,439 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+//Spanish Republican Army
+/datum/job/escalation/esp
+	title = "Ejercito de la Republica Espanola"
+	enabled = 0 ///////base job, keep diespbled.
+	faction_tag = "esp"
+	military_faction = WARPACT
+	latejoin_at_spawnpoints = 1
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.fraction = "WP"
+
+/datum/job/escalation/esp/espplatlead
+	title = "ERE Komandir Vzvoda"
+	name = "Komandir Vzvoda"
+	english_name = "Platoon Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/komvzv
+	selection_color = "#B22222"
+	rank_number = 0
+	position = "team"
+	leading = 1
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
+
+/datum/job/escalation/esp/espplatleaddep
+	title = "ERE Zamestitel Komandira Vzvoda"
+	name = "Zamestitel Komandira Vzvoda"
+	english_name = "Platoon Leader Deputy"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/zamkomvzv
+	selection_color = "#B22222"
+	rank_number = 2
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 90)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 2, 1, 3, 0)
+
+/datum/job/escalation/esp/espplmg
+	title = "ERE Vzvodny Pulemetchik"
+	name = "Vzvodny Pulemetchik"
+	english_name = "Platoon Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/platmgunner
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/espplmgas
+	title = "ERE Pomoshnik Vzvodnogo Pulemetchika"
+	name = "Pomoshnik Vzvodnogo Pulemetchika"
+	english_name = "Platoon Machinegunner Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/platmgass
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/espratelo
+	title = "ERE Shtabnoi Radiotelefonist"
+	name = "Shtabnoi Radiotelefonist"
+	english_name = "HQ Radio Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/radio
+	selection_color = "#B22222"
+	rank_number = 4
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/esp/espesppper
+	title = "ERE Saper"
+	name = "Saper"
+	english_name = "Sapper"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/esppper
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/espmedic
+	title = "ERE Polevoi Medik"
+	name = "Polevoi Medik"
+	english_name = "Field Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/espnitar
+	selection_color = "#B22222"
+	rank_number = 4
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 30, LANGUAGE_CZECH = 30)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+
+/datum/job/escalation/esp/espsurgerist
+	title = "ERE Polevoi Vrach"
+	name = "Polevoi Vrach"
+	english_name = "Field Surgeon"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/doctor
+	selection_color = "#B22222"
+	rank_number = 2
+	position = "team"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_officer"
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, -1, -1, -1, 5, 1, 2, 0)
+
+/datum/job/escalation/esp/espsniper
+	title = "ERE Snaiper"
+	name = "Snaiper"
+	english_name = "Sniper"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/sniper
+	selection_color = "#B22222"
+	rank_number = 4
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/espcorpsman
+	title = "ERE Boevoi Medik"
+	name = "Boevoi Medik"
+	english_name = "Squad Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/espnitar
+	selection_color = "#B22222"
+	rank_number = 4
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_GERMAN = 30, LANGUAGE_FINNISH = 30, LANGUAGE_CZECH = 30)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+
+
+/datum/job/escalation/esp/espsl
+	title = "ERE Komandir Otdeleniya"
+	name = "Komandir Otdeleniya"
+	english_name = "Squad Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/komod
+	selection_color = "#B22222"
+	rank_number = 3
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	leading = 1
+	whitelist_rank = "esp_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_FINNISH = 40, LANGUAGE_CZECH = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+
+/datum/job/escalation/esp/espsld
+	title = "ERE Zamestitel Komandira Otdeleniya"
+	name = "Zamestitel Komandira Otdeleniya"
+	english_name = "Squad Leader Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/zamkomod
+	selection_color = "#B22222"
+	rank_number = 4
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
+
+/datum/job/escalation/esp/espmg
+	title = "ERE Pulemetchik"
+	name = "Pulemetchik"
+	english_name = "Machinegunner"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/mgunner
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 5, LANGUAGE_CZECH = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/espmgas
+	title = "ERE Pomoshnik Pulemetchika"
+	name = "Pomoshnik Pulemetchika"
+	english_name = "Machinegunner Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/mgass
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/espsrad
+	title = "ERE Radiotelefonist"
+	name = "Radiotelefonist"
+	english_name = "Radiotelephone Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/radio
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/esprocket
+	title = "ERE Strelok-Granatometchik"
+	name = "Strelok-Granatometchik"
+	english_name = "Squad Grenadier"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/rocket
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/esprocketass
+	title = "ERE Pomoshnik Granatometchika"
+	name = "Pomoshnik Granatometchika"
+	english_name = "Squad Grenadier Assistant"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/rocketass
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/esp/esprifle
+	title = "ERE Strelok"
+	name = "Strelok"
+	english_name = "Rifleman"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/strelok
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 3
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+
+/datum/job/escalation/esp/espotvco
+	title = "ERE OTV Komandir"
+	name = "OTV Komandir"
+	english_name = "Heavy Weapons Commander"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/hws_com
+	selection_color = "#B22222"
+	rank_number = 4
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "esp_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 40, LANGUAGE_CZECH = 40)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
+
+
+/datum/job/escalation/esp/espotvop
+	title = "ERE OTV Operator"
+	name = "OTV Operator"
+	english_name = "Heavy Weapons Operator"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/hws_oper
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+
+/datum/job/escalation/esp/espotvload
+	title = "ERE OTV Zaryazhaiuschiy"
+	name = "OTV Zaryazhaiuschiy"
+	english_name = "Heavy Weapons Loader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/esp/hws_load
+	selection_color = "#B22222"
+	rank_number = 5
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "esp_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)

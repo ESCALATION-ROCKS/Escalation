@@ -251,6 +251,67 @@ ATS-1:usa
 /datum/job/escalation/usa/usaata
 @END@
 
+##FRA##
+
+###USMC###
+
+Groupe 'Alpha':fra
+/datum/job/escalation/fra/frasl
+/datum/job/escalation/fra/fraftradio
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftmg
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fracorpsman
+/datum/job/escalation/fra/frasapper
+/datum/job/escalation/fra/framarksman
+@END@
+
+Groupe 'Bravo':fra
+/datum/job/escalation/fra/frasl
+/datum/job/escalation/fra/fraftradio
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftmg
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fracorpsman
+/datum/job/escalation/fra/frasapper
+/datum/job/escalation/fra/framarksman
+@END@
+
+Groupe 'Charlie':fra
+/datum/job/escalation/fra/frasl
+/datum/job/escalation/fra/fraftradio
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftmg
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fracorpsman
+/datum/job/escalation/fra/frasapper
+/datum/job/escalation/fra/framarksman
+@END@
+
+HWS-1:fra
+/datum/job/escalation/fra/framgcom
+/datum/job/escalation/fra/framgop
+/datum/job/escalation/fra/framgload
+@END@
+
+ATS-1:fra
+/datum/job/escalation/fra/fraatcom
+/datum/job/escalation/fra/fraat
+/datum/job/escalation/fra/fraata
+@END@
+
 ###########WARPACT#############
 
 ###SA###
@@ -419,6 +480,58 @@ TeZ I.:csla
 /datum/job/escalation/csla/cslahwsload
 @END@
 
+##ESP##
+
+Peloton 'Anna':esp
+/datum/job/escalation/esp/espsl
+/datum/job/escalation/esp/espsld
+/datum/job/escalation/esp/espsrad
+/datum/job/escalation/esp/esprocket
+/datum/job/escalation/esp/esprocketass
+/datum/job/escalation/esp/espmg
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/espcorpsman
+/datum/job/escalation/esp/espsapper
+/datum/job/escalation/esp/espsniper
+@END@
+
+Peloton 'Boris':esp
+/datum/job/escalation/esp/espsl
+/datum/job/escalation/esp/espsld
+/datum/job/escalation/esp/espsrad
+/datum/job/escalation/esp/esprocket
+/datum/job/escalation/esp/esprocketass
+/datum/job/escalation/esp/espmg
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/espcorpsman
+/datum/job/escalation/esp/espsapper
+/datum/job/escalation/esp/espsniper
+@END@
+
+Peloton 'Vasiliy':esp
+/datum/job/escalation/esp/espsl
+/datum/job/escalation/esp/espsld
+/datum/job/escalation/esp/espsrad
+/datum/job/escalation/esp/esprocket
+/datum/job/escalation/esp/esprocketass
+/datum/job/escalation/esp/espmg
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/esprifle
+/datum/job/escalation/esp/espcorpsman
+/datum/job/escalation/esp/espsapper
+/datum/job/escalation/esp/espsniper
+@END@
+
+OTV-1:esp
+/datum/job/escalation/esp/espotvco
+/datum/job/escalation/esp/espotvload
+/datum/job/escalation/esp/espotvop
+@END@
 
 ########ESCA ARCTIC############
 

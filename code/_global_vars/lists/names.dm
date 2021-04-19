@@ -28,10 +28,18 @@ var/list/first_names_female_finn = file2list("config/names/first_female_finn.txt
 var/list/first_names_male_csla = file2list("config/names/first_male_csla.txt")
 var/list/first_names_female_csla = file2list("config/names/first_female_csla.txt")
 
+var/list/first_names_male_esp = file2list("config/names/first_male_finn.txt")
+var/list/first_names_female_esp = file2list("config/names/first_female_finn.txt")
+
+var/list/first_names_male_fra = file2list("config/names/first_male_csla.txt")
+var/list/first_names_female_fra = file2list("config/names/first_female_csla.txt")
+
 var/list/last_names_bund = file2list("config/names/last_names_bund.txt")
 var/list/last_names_usmc = file2list("config/names/last_names_usmc.txt")
 var/list/last_names_cccp = file2list("config/names/last_names_cccp.txt")
 var/list/last_names_finn = file2list("config/names/last_names_finn.txt")
+var/list/last_names_esp = file2list("config/names/last_names_cccp.txt")
+var/list/last_names_fra = file2list("config/names/last_names_finn.txt")
 var/list/last_names_female_cccp = file2list("config/names/last_female_cccp.txt")
 var/list/last_names_csla = file2list("config/names/last_names_csla.txt")
 var/list/last_names_female_csla = file2list("config/names/last_female_csla.txt")

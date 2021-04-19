@@ -19,6 +19,11 @@
 	desc = "A pair of marching boots, issued by the Soviet Army"
 	icon_state = "marchboots"
 
+/obj/item/clothing/shoes/coldwar/esp/marching
+	name = "marching jackboots"
+	desc = "A pair of marching boots, issued by the Spanish Army"
+	icon_state = "marchboots"
+
 /obj/item/clothing/shoes/coldwar/soviet/marching/csla
 	name = "marching jackboots"
 	desc = "A pair of marching boots, issued by the CSLA"
@@ -56,4 +61,10 @@
 /obj/item/clothing/shoes/coldwar/baf/field
 	name = "combat boots"
 	desc = "That's a pair of standard issue combat boots issued by BAF."
+	icon_state = "duty"
+
+
+/obj/item/clothing/shoes/coldwar/fra/field
+	name = "combat boots"
+	desc = "That's a pair of standard issue combat boots issued by ADT."
 	icon_state = "duty"

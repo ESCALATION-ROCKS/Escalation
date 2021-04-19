@@ -39,3 +39,12 @@
 	language = "Czech"
 	base_color = "yellow"
 	fireteam_names = list("Aarne #1", "Bertta #2", "Celsius #3", "Daavid #4")
+
+/datum/army_faction/warpact/esp
+	name = "Ejercito de la Republica Espanola"
+	enabled = 1
+	faction_tag = "esp"
+	flag_state = "spanish"
+	language = "Spanish"
+	base_color = "yellow"
+	fireteam_names = list("Peloton #1", "Peloton #2", "Peloton #3", "Peloton #4")

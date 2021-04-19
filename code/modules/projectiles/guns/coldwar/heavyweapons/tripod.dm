@@ -96,6 +96,12 @@
 	id_g = "uts"
 	need_type = /obj/item/weapon/gun/projectile/heavy_mg/utes
 
+/obj/item/weapon/mg_tripod/dshk
+	name = "DsHK tripod"
+	icon_state = "dshk-tripod"
+	id_g = "dsk"
+	need_type = /obj/item/weapon/gun/projectile/heavy_mg/dshk
+
 /obj/item/weapon/mg_tripod/kord
 	name = "KORD tripod"
 	icon_state = "pkms-tripod"

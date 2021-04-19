@@ -51,6 +51,8 @@
 #define LANGUAGE_RUSSIAN "Russian"
 #define LANGUAGE_CZECH   "Czech"
 #define LANGUAGE_FINNISH "Finnish"
+#define LANGUAGE_SPANISH   "Spanish"
+#define LANGUAGE_FRENCH "French"
 
 // Language flags.
 #define WHITELISTED  1   // Language is available if the speaker is whitelisted.

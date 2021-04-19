@@ -514,6 +514,14 @@
 	name = "Austria flag"
 	icon_state = "heerflag"
 
+/obj/structure/sign/flag/spanishflag
+	name = "Republic of Spain flag"
+	icon_state = "spainflag"
+
+/obj/structure/sign/flag/frenchflag
+	name = "French flag"
+	icon_state = "frenchflag"
+
 ///////////REGULAR 32X FLAGS
 
 /obj/structure/sign/soviet_flag
@@ -570,6 +578,17 @@
 	icon_state = "brit_flag"
 	desc = "That's the Great Britain flag."
 
+/obj/structure/sign/spanish_flag
+	name = "Republic of Spain flag"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	icon_state = "spain_flag"
+	desc = "That's the Republic of Spain flag."
+
+/obj/structure/sign/french_flag
+	name = "French flag"
+	icon = 'icons/obj/coldwardecorations.dmi'
+	icon_state = "french_flag"
+	desc = "That's the French flag."
 
 
 

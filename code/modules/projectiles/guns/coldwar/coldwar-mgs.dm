@@ -321,7 +321,6 @@
 		wielded_item_state = "m60-wielded-empty"
 	..()
 
-/* this thing needs to accept 30-20 rnd STANAG mags too*/
 /obj/item/weapon/gun/projectile/automatic/xm249
 	name = "XM249"
 	desc = "A standard-issue USMC squad support weapon. Chambers 5.56x45 rounds."
@@ -400,6 +399,161 @@
 		wielded_item_state = "m60-wielded-empty"
 	..()
 
+/obj/item/weapon/gun/projectile/automatic/minimi
+	name = "FN MINIMI"
+	desc = "A standard-issue ADT squad support weapon. Chambers 5.56x45 rounds."
+	icon_state = "minimi"
+	item_state = "m60"
+	w_class = 5
+	force = 15
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	caliber = "556x45"
+	ammo_type = /obj/item/ammo_casing/a556x45
+	load_method = MAGAZINE
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45m)
+	one_hand_penalty = 9
+	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
+	jam_chance = 0.35
+	slowdown_general = 0.6
+	accuracy = 2.6
+
+	wielded_item_state = "m60-wielded"
+	fire_sound = 'sound/weapons/gunshot/m249.ogg'
+	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
+	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=4.3,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,           dispersion=list(0.075),                    automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.1, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,        dispersion=list(0.1, 0.2, 0.45),           automatic = 0.1)
+		)
+
+	var/cover_opened = FALSE
+
+
+/obj/item/weapon/gun/projectile/automatic/minimi/special_check(mob/user)
+	if(cover_opened)
+		to_chat(user, "<span class='warning'>[src]'s cover is open! Close it before firing!</span>")
+		return FALSE
+	return ..()
+
+/obj/item/weapon/gun/projectile/automatic/minimi/proc/toggle_cover(mob/user)
+	cover_opened = !cover_opened
+	to_chat(user,"<span class='notice'>You [cover_opened ? "open" : "close"] [src]'s cover.</span>")
+	update_icon()
+
+/obj/item/weapon/gun/projectile/automatic/minimi/attack_self(mob/user as mob)
+	if(cover_opened)
+		toggle_cover(user) //close the cover
+		playsound(user, 'sound/weapons/gunporn/m249_close.ogg', 100, 1)
+	else
+		return ..() //once closed, behave like normal
+
+/obj/item/weapon/gun/projectile/automatic/minimi/attack_hand(mob/user as mob)
+	if(!cover_opened && user.get_inactive_hand() == src)
+		toggle_cover(user) //open the cover
+		playsound(user, 'sound/weapons/gunporn/m249_open.ogg', 100, 1)
+	else
+		return ..() //once open, behave like normal
+
+/obj/item/weapon/gun/projectile/automatic/minimi/load_ammo(var/obj/item/A, mob/user)
+	if(!cover_opened)
+		to_chat(user, "<span class='warning'>You need to open the cover to load that into [src].</span>")
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/automatic/minimi/unload_ammo(mob/user, var/allow_dump=1)
+	if(!cover_opened)
+		to_chat(user, "<span class='warning'>You need to open the cover to unload [src].</span>")
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/automatic/minimi/update_icon()
+	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
+		icon_state = "minimi[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		wielded_item_state = "m60-wielded"
+	else
+		icon_state = "minimi[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "m60-wielded-empty"
+	..()
+
+/obj/item/weapon/gun/projectile/automatic/ameli
+	name = "CETME Ameli"
+	desc = "A standard-issue Spanish Army squad support weapon. Chambers 5.56x45 rounds."
+	icon_state = "ameli"
+	item_state = "ameli"
+	w_class = 5
+	force = 15
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	caliber = "556x45"
+	ammo_type = /obj/item/ammo_casing/a556x45
+	load_method = MAGAZINE
+	allowed_magazines = list(/obj/item/ammo_magazine/c556x45a)
+	one_hand_penalty = 9
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
+	jam_chance = 0.35
+	slowdown_general = 0.6
+	accuracy = 2.6
+
+	wielded_item_state = "ameli-wielded"
+	fire_sound = 'sound/weapons/gunshot/m249.ogg'
+	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
+	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
+	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
+
+	firemodes = list(
+		list(mode_name="semiauto",     burst=1, fire_delay=4.3,    move_delay=null, one_hand_penalty=7, burst_accuracy=null,           dispersion=list(0.075),                    automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.1, move_delay=3,       one_hand_penalty = 8, burst_accuracy=null,        dispersion=list(0.1, 0.2, 0.45),           automatic = 0.1)
+		)
+
+	var/cover_opened = FALSE
+
+
+/obj/item/weapon/gun/projectile/automatic/ameli/special_check(mob/user)
+	if(cover_opened)
+		to_chat(user, "<span class='warning'>[src]'s cover is open! Close it before firing!</span>")
+		return FALSE
+	return ..()
+
+/obj/item/weapon/gun/projectile/automatic/ameli/proc/toggle_cover(mob/user)
+	cover_opened = !cover_opened
+	to_chat(user,"<span class='notice'>You [cover_opened ? "open" : "close"] [src]'s cover.</span>")
+	update_icon()
+
+/obj/item/weapon/gun/projectile/automatic/ameli/attack_self(mob/user as mob)
+	if(cover_opened)
+		toggle_cover(user) //close the cover
+		playsound(user, 'sound/weapons/gunporn/m249_close.ogg', 100, 1)
+	else
+		return ..() //once closed, behave like normal
+
+/obj/item/weapon/gun/projectile/automatic/ameli/attack_hand(mob/user as mob)
+	if(!cover_opened && user.get_inactive_hand() == src)
+		toggle_cover(user) //open the cover
+		playsound(user, 'sound/weapons/gunporn/m249_open.ogg', 100, 1)
+	else
+		return ..() //once open, behave like normal
+
+/obj/item/weapon/gun/projectile/automatic/ameli/load_ammo(var/obj/item/A, mob/user)
+	if(!cover_opened)
+		to_chat(user, "<span class='warning'>You need to open the cover to load that into [src].</span>")
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/automatic/ameli/unload_ammo(mob/user, var/allow_dump=1)
+	if(!cover_opened)
+		to_chat(user, "<span class='warning'>You need to open the cover to unload [src].</span>")
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/automatic/ameli/update_icon()
+	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
+		icon_state = "ameli[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
+		wielded_item_state = "ameli-wielded"
+	else
+		icon_state = "ameli[cover_opened ? "open" : "closed"]-empty"
+		wielded_item_state = "ameli-wielded-empty"
+	..()
 //true kalashnikov's machinegun - standart soviet lmg
 //same with bayonet as RPK
 /obj/item/weapon/gun/projectile/automatic/pkm
@@ -567,11 +721,12 @@
 	update_held_icon()
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/nvarpk
-	name = "LMG-K"
-	desc = "A standard-issue Nationale Volksarmee squad support weapon. Chambers 7.62x39 rounds."
-	icon_state = "nvarpk"
-	item_state = "nvarpk"
+
+/obj/item/weapon/gun/projectile/automatic/rpk
+	name = "RPK"
+	desc = "A standard-issue Soviet squad support weapon. Chambers 7.62x39 rounds."
+	icon_state = "rpk"
+	item_state = "rpk"
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	w_class = 5
 	force = 15
@@ -583,7 +738,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
 	accuracy = 2.9
-	wielded_item_state = "nvarpk-wielded"
+	wielded_item_state = "rpk-wielded"
 	slowdown_general = 0.45
 	jam_chance = 0.225
 
@@ -599,24 +754,63 @@
 		list(mode_name="automatic",     burst=1, fire_delay=0.7, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.5),              automatic = 0.6),
 		)
 
-/obj/item/weapon/gun/projectile/automatic/nvarpk/update_icon()
+/obj/item/weapon/gun/projectile/automatic/rpk/update_icon()
 	..()
 	update_held_icon()
 	if(ammo_magazine)
-		icon_state = "nvarpk"
-		wielded_item_state = "nvarpk-wielded"
+		icon_state = "rpk"
+		wielded_item_state = "rpk-wielded"
 	else
-		icon_state = "nvarpk-empty"
-		wielded_item_state = "nvarpk-wielded-empty"
+		icon_state = "rpk-empty"
+		wielded_item_state = "rpk-wielded-empty"
+
+/obj/item/weapon/gun/projectile/automatic/lmgk
+	name = "LMG-K"
+	desc = "A standard-issue Nationale Volksarmee squad support weapon. Chambers 7.62x39 rounds."
+	icon_state = "lmgk"
+	item_state = "rpk"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	w_class = 5
+	force = 15
+	max_shells = 75
+	caliber = "762x39"
+	ammo_type = /obj/item/ammo_casing/a762x39
+	load_method = MAGAZINE
+	magazine_type = null
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
+	one_hand_penalty = 6
+	accuracy = 2.9
+	wielded_item_state = "rpk-wielded"
+	slowdown_general = 0.45
+	jam_chance = 0.225
+
+	fire_sound = 'sound/weapons/gunshot/akm.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
 
 
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=4,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.7, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.25, 0.35, 0.5),              automatic = 0.6),
+		)
 
+/obj/item/weapon/gun/projectile/automatic/lmgk/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "lmgk"
+		wielded_item_state = "lmgk-wielded"
+	else
+		icon_state = "lmgk-empty"
+		wielded_item_state = "lmgk-wielded-empty"
 
-/obj/item/weapon/gun/projectile/automatic/cslarpk
+/obj/item/weapon/gun/projectile/automatic/klec
 	name = "Sa vz.58 'Klec'"
 	desc = "A standard-issue CSLA squad support weapon. Chambers 7.62x39 rounds."
-	icon_state = "cslarpk"
-	item_state = "nvarpk"
+	icon_state = "klec"
+	item_state = "rpk"
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	w_class = 5
 	force = 15
@@ -628,7 +822,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	one_hand_penalty = 6
 	accuracy = 2.8
-	wielded_item_state = "nvarpk-wielded"
+	wielded_item_state = "rpk-wielded"
 	slowdown_general = 0.32
 	jam_chance = 0.225
 
@@ -648,11 +842,54 @@
 	..()
 	update_held_icon()
 	if(ammo_magazine)
-		icon_state = "cslarpk"
-		wielded_item_state = "nvarpk-wielded"
+		icon_state = "klec"
+		wielded_item_state = "rpk-wielded"
 	else
-		icon_state = "cslarpk-empty"
-		wielded_item_state = "nvarpk-wielded-empty"
+		icon_state = "klec-empty"
+		wielded_item_state = "rpk-wielded-empty"
+
+
+/obj/item/weapon/gun/projectile/automatic/rpk74
+	name = "RPK-74"
+	desc = "A standard-issue Soviet Army squad support weapon. Chambers 5.45x39 rounds."
+	icon_state = "rpk74"
+	item_state = "rpk74"
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+	w_class = 5
+	force = 15
+	max_shells = 75
+	caliber = "545x39"
+	ammo_type = /obj/item/ammo_casing/a545x39
+	load_method = MAGAZINE
+	magazine_type = null
+	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
+	one_hand_penalty = 6
+	accuracy = 3.1
+	wielded_item_state = "rpk74-wielded"
+	slowdown_general = 0.45
+	jam_chance = 0.220
+
+	fire_sound = 'sound/weapons/gunshot/rpk74.ogg'
+	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
+
+
+	firemodes = list(
+		list(mode_name="semiauto",      burst=1, fire_delay=3.5,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
+		list(mode_name="automatic",     burst=1, fire_delay=0.5, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.1, 0.2, 0.4),              automatic = 0.5),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/rpk74/update_icon()
+	..()
+	update_held_icon()
+	if(ammo_magazine)
+		icon_state = "rpk74"
+		wielded_item_state = "rpk74-wielded"
+	else
+		icon_state = "rpk74-empty"
+		wielded_item_state = "rpk74-wielded-empty"
 
 
 /obj/item/weapon/gun/projectile/automatic/rpd
@@ -818,45 +1055,3 @@
 		wielded_item_state = "kk62-wielded-empty"
 	update_held_icon()
 	..()
-
-/obj/item/weapon/gun/projectile/automatic/sarpk
-	name = "RPK-74"
-	desc = "A standard-issue Soviet Army squad support weapon. Chambers 5.45x39 rounds."
-	icon_state = "sarpk"
-	item_state = "rpk"
-	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
-	w_class = 5
-	force = 15
-	max_shells = 75
-	caliber = "545x39"
-	ammo_type = /obj/item/ammo_casing/a545x39
-	load_method = MAGAZINE
-	magazine_type = null
-	allowed_magazines = list(/obj/item/ammo_magazine/c545x39m, /obj/item/ammo_magazine/c545x39b)
-	one_hand_penalty = 6
-	accuracy = 3.1
-	wielded_item_state = "rpk-wielded"
-	slowdown_general = 0.45
-	jam_chance = 0.220
-
-	fire_sound = 'sound/weapons/gunshot/rpk74.ogg'
-	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/ak47_boltback.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/ak_dist.ogg'
-
-
-	firemodes = list(
-		list(mode_name="semiauto",      burst=1, fire_delay=3.5,   move_delay=null,    one_hand_penalty=5, burst_accuracy=null,   dispersion=list(0.0,0.1,0.2),                            automatic = 0),
-		list(mode_name="automatic",     burst=1, fire_delay=0.5, move_delay=3,       one_hand_penalty=6, burst_accuracy=null,   dispersion=list(0.1, 0.2, 0.4),              automatic = 0.5),
-		)
-
-/obj/item/weapon/gun/projectile/automatic/sarpk/update_icon()
-	..()
-	update_held_icon()
-	if(ammo_magazine)
-		icon_state = "sarpk"
-		wielded_item_state = "rpk-wielded"
-	else
-		icon_state = "sarpk-empty"
-		wielded_item_state = "rpk-wielded-empty"

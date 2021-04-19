@@ -47,3 +47,12 @@
 	language = "English"
 	base_color = "purple"
 	fireteam_names = list("Squad #1", "Squad #2", "Squad #3", "Squad #4")
+
+/datum/army_faction/nato/fra
+	name = "Armee de Terre"
+	enabled = 1
+	faction_tag = "fra"
+	flag_state = "fra"
+	language = "French"
+	base_color = "purple"
+	fireteam_names = list("Groupe #1", "Groupe #2", "Groupe #3", "Groupe #4")
