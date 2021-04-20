@@ -23,7 +23,7 @@
 	desc = "An uncommon armor vest with some pouches and titanium plates used by Soviet army."
 	icon_state = "6b3green"
 	item_state = "6b3green"
-	armor = list(melee = 30, bullet = 90, laser = 0, energy = 25, bomb = 40, bio = 0, rad = 0)
+	armor = list(melee = 60, bullet = 90, laser = 0, energy = 25, bomb = 40, bio = 0, rad = 0)
 	slowdown_general = 0.22
 
 /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3/New()
@@ -35,7 +35,7 @@
 	desc = "An uncommon armor vest used by Soviet army. This one has a lifchik attached to it."
 	icon_state = "6b2lifchik"
 	item_state = "6b2lifchik"
-	armor = list(melee = 30, bullet = 80, laser = 40, energy = 10, bomb = 35, bio = 0, rad = 0)
+	armor = list(melee = 35, bullet = 80, laser = 40, energy = 10, bomb = 35, bio = 0, rad = 0)
 	slowdown_general = 0.22
 
 /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik/New()
@@ -55,7 +55,7 @@
 	desc = "An uncommon armor vest used by Soviet army."
 	icon_state = "6b2green"
 	item_state = "6b2green"
-	armor = list(melee = 30, bullet = 80, laser = 40, energy = 10, bomb = 35, bio = 0, rad = 0)
+	armor = list(melee = 35, bullet = 80, laser = 40, energy = 10, bomb = 35, bio = 0, rad = 0)
 	slowdown_general = 0.20
 
 
@@ -85,7 +85,7 @@
 	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
-	armor = list(melee = 24, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 30, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
@@ -97,7 +97,7 @@
 	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
-	armor = list(melee = 24, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor = list(melee = 45, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 

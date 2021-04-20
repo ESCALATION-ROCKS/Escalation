@@ -175,3 +175,14 @@
 	desc = "A FAMAS bayonet with two sharp edges near the tip."
 	icon = 'icons/obj/weapons.dmi'
 	icon_state = "fra"
+
+/obj/item/weapon/material/knife/bayonet/taiga
+	name = "'Taiga' machete"
+	desc = "A deadly Spetsnaz machete. Smart people would stay away from it."
+	icon = 'icons/obj/weapons.dmi'
+	icon_state = "taiga"
+	item_state = "taiga"
+	force_divisor = 2
+	sharp = 1
+	edge = 1
+	sharpness = 10

@@ -451,6 +451,19 @@
 	can_hold = list(
 		/obj/item/weapon/material/knife/bayonet/fra)
 
+/obj/item/weapon/storage/belt/holster/sheath/taiga
+	name = "'Taiga' machete sheath"
+	desc = "This sheath can hold a 'Taiga' machete."
+	special_item = /obj/item/weapon/material/knife/bayonet/taiga
+	holster_sound = 'sound/effects/holster/sheathin.ogg'
+	unholster_sound = 'sound/effects/holster/sheathout.ogg'
+	icon_state = "taiga_sheath"
+	icon_closed = "taiga_sheath_empty"
+	startswith = list(
+		/obj/item/weapon/material/knife/bayonet/taiga)
+	can_hold = list(
+		/obj/item/weapon/material/knife/bayonet/taiga)
+
 /obj/item/weapon/storage/belt/holster/flaskstorage
 	name = "flask pouch"
 	desc = "This one can hold some kind of flask."

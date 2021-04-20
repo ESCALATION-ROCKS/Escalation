@@ -356,7 +356,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - KGB Narushitel")
 	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
-	holster = /obj/item/weapon/storage/belt/holster/sa
+	holster = /obj/item/weapon/storage/belt/holster/sheath/taiga
 	gun_slot = /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/sg
