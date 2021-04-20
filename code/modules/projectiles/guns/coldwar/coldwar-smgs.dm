@@ -195,11 +195,11 @@
 	jam_chance = 0.725
 	slowdown_general = 0.15
 	wielded_item_state = "z84-wielded"
-	fire_sound = 'sound/weapons/gunshot/scorpion.ogg' /////////change all sounds
-	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+	fire_sound = 'sound/weapons/gunshot/z84.ogg' /////////change all sounds
+	unload_sound = 'sound/weapons/gunporn/z84_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/z84_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/z84_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/z84_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=3, move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
@@ -236,11 +236,11 @@
 	jam_chance = 0.725
 	slowdown_general = 0.15
 	wielded_item_state = "mat49-wielded"
-	fire_sound = 'sound/weapons/gunshot/scorpion.ogg' /////////change all sounds
-	unload_sound = 'sound/weapons/gunporn/ak47_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/ak47_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+	fire_sound = 'sound/weapons/gunshot/mat49.ogg' /////////change all sounds
+	unload_sound = 'sound/weapons/gunporn/mat49_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/mat49_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/mat49_cock.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/mat49_dist.ogg'
 
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=3, move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),

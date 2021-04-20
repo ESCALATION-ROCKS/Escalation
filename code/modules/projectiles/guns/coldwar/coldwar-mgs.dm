@@ -334,7 +334,7 @@
 	load_method = MAGAZINE
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45m)
 	one_hand_penalty = 9
-	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
 	jam_chance = 0.35
 	slowdown_general = 0.6
 	accuracy = 2.6
@@ -412,7 +412,7 @@
 	load_method = MAGAZINE
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45b, /obj/item/ammo_magazine/c556x45m)
 	one_hand_penalty = 9
-	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/m16_dist.ogg'
 	jam_chance = 0.35
 	slowdown_general = 0.6
 	accuracy = 2.6
@@ -496,7 +496,8 @@
 	accuracy = 2.6
 
 	wielded_item_state = "ameli-wielded"
-	fire_sound = 'sound/weapons/gunshot/m249.ogg'
+	fire_sound = 'sound/weapons/gunshot/ameli.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/ameli.ogg'
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'

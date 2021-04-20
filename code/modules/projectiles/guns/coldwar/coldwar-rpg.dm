@@ -463,6 +463,27 @@
 	item_state = "at4"
 	fire_sound = 'sound/weapons/gunshot/m72.ogg'
 
+
+/obj/item/weapon/gun/launcher/oneuse/rpg18/at4/attack_self(mob/user)
+	if(folded)
+		playsound(src.loc,'sound/weapons/gunporn/at4_deploy.ogg',80, 0)
+		user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
+		if(do_after(usr, 30, src))
+			usr.visible_message("<span class='notice'>\The [usr] extends [src].</span>", "<span class='notice'>You deploy the [src]</span>")
+			folded = 0
+			icon_state = "[icon_state]-deployed"
+			item_state = "[item_state]-deployed"
+			slot_flags = null
+	else
+		playsound(src.loc,'sound/weapons/gunporn/at4_deploy.ogg',80, 0)
+		user.setClickCooldown(DEFAULT_QUICK_COOLDOWN)
+		if(do_after(usr, 30, src))
+			usr.visible_message("<span class='notice'>\The [usr] folds the [src].</span>", "<span class='notice'>You fold the [src]</span>")
+			folded = 1
+			icon_state = initial(icon_state)
+			item_state = initial(item_state)
+			slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+
 /////No longer used for streamlining code, kept for redundancys sake.
 /*/obj/item/weapon/gun/launcher/oneuse/m72
 	name = "M72 LAW"
