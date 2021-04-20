@@ -306,8 +306,8 @@
 	fire_delay = 3.2
 	accuracy = 2.5
 	load_method = MAGAZINE
-	magazine_type = /obj/item/ammo_magazine/a9x19b
-	allowed_magazines = /obj/item/ammo_magazine/a9x19b
+	magazine_type = /obj/item/ammo_magazine/a9x19m
+	allowed_magazines = /obj/item/ammo_magazine/a9x19m
 	fire_sound = 'sound/weapons/gunshot/m1911.ogg'
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'

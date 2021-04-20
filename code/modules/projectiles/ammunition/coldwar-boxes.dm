@@ -571,7 +571,7 @@
 /obj/item/ammo_magazine/a9x19m
 	name = "magazine (9x19mm)"
 	desc = "A MAC 50 magazine that fits nine 9x19mm rounds."
-	icon_state = "9x19b"
+	icon_state = "9x18a"
 	item_state = "generic_mag"
 	mag_type = MAGAZINE
 	ammo_type = /obj/item/ammo_casing/a9x19
@@ -669,11 +669,11 @@
 
 /obj/item/ammo_magazine/m9x19/ap
 	name = "AP magazine (9x19mm)"
-	desc = "A Beretta M9 magazine that fits fifteen armor-piercing 9x18mm rounds."
+	desc = "A Beretta M9 magazine that fits fifteen armor-piercing 9x19mm rounds."
 	ammo_type = /obj/item/ammo_casing/a9x19/ap
 
 /obj/item/ammo_magazine/m9x19/tr
-	name = "tracer magazine (9x18mm)"
+	name = "tracer magazine (9x19mm)"
 	desc = "A Beretta M9 magazine that fits fifteen 9x19mm tracer rounds."
 	ammo_type = /obj/item/ammo_casing/a9x19/tr
 
