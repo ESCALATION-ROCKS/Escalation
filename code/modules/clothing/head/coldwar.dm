@@ -33,7 +33,7 @@
 
 
 ////////ushankas
- 
+
 /obj/item/clothing/head/coldwar/ushanka
 	name = "ushanka"
 	desc = "Perfect for winter in Siberia, da?"
@@ -166,7 +166,21 @@
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6-unzipped"
 
+/obj/item/clothing/head/coldwar/helmet/soviet/h6b6/korish
+	name = "6B6 helmet"
+	desc = "A recently engineered titanium helmet, used for training purposes only."
+	icon_state = "6b6korish"
+	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "6b6korish"
 
+/obj/item/clothing/head/coldwar/helmet/soviet/h6b6/sinii
+	name = "6B6 helmet"
+	desc = "A recently engineered titanium helmet, used for training purposes only."
+	icon_state = "6b6sinnie"
+	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "6b6sinii"
 
 
 
@@ -491,7 +505,7 @@
 	desc = "A cheap and somewhat outdated steel helmet used by Bundeswehr. This one has a netting on it."
 	icon_state = "m62c"
 	icon_state_unzipped = "m62c-unzipped"
-	
+
 /obj/item/clothing/head/coldwar/helmet/bdw/m62/foliage
 	desc = "A cheap and somewhat outdated steel helmet used by Bundeswehr. This one is covered in foliage."
 	icon_state = "m62helmetfoliage"
