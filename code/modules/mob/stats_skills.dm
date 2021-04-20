@@ -59,11 +59,14 @@
 			return 0
 
 
-/mob/proc/statscheck(var/mob/living/carbon/M, var/specskill, var/specstat, var/requirement, var/show_message, var/message = "I have failed to do this.")
-	var/H = (roll("2d6") + statadder(specstat) + specskill)// our "dice"
-	if(specskill == -1 || M.chem_effects[CE_PAINKILLER]) //-1 skill and painkiller debuff
-		H -= 3
-	if(requirement <= H)//Rolling that d20
+/mob/proc/statscheck(var/specskill, var/specstat, var/requirement, var/show_message, var/message = "I have failed to do this.")
+	var/M = (roll("2d6") + statadder(specstat) + specskill)// our "dice"
+	var/mob/living/carbon/human/H = src
+	if(specskill == -1) //-1 skill debuff
+		M -= 3
+	if(H.chem_effects[CE_PAINKILLER]) //painkiller debuff
+		M -= 3
+	if(requirement <= M)//Rolling that d20
 		//world << "Rolled and passed."
 		return 1
 	else
