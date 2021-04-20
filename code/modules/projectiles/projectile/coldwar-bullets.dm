@@ -19,10 +19,6 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a762x39/ap
-	armor_penetration = 98 //was 35
-	penetration_modifier = 0.3
-
 
 /obj/item/projectile/bullet/rifle/a762x51
 	penetrating = 1
@@ -50,10 +46,6 @@
 		damage = rand(40, 50)
 		penetrating = rand(0, 1)
 
-/obj/item/projectile/bullet/rifle/a762x51/ap
-	armor_penetration = 98 //was 45
-	penetration_modifier = 0.4
-
 /obj/item/projectile/bullet/rifle/a762x54
 	penetrating = 1
 	armor_penetration = 98 //was 31
@@ -71,9 +63,6 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a762x54/ap
-	armor_penetration = 98 //was 60
-	penetration_modifier = 0.4
 
 /obj/item/projectile/bullet/rifle/a762x53
 	penetrating = 1
@@ -92,10 +81,6 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a762x53/ap
-	armor_penetration = 98 //was 60
-	penetration_modifier = 0.4
-
 /obj/item/projectile/bullet/rifle/a545x39
 	armor_penetration = 98 //was 26
 	penetration_modifier = 0.3
@@ -112,9 +97,6 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a545x39/ap
-	armor_penetration = 98 //was 30
-	penetration_modifier = 0.2
 
 /obj/item/projectile/bullet/rifle/a556x45
 	armor_penetration = 98 //was 29
@@ -131,10 +113,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-
-/obj/item/projectile/bullet/rifle/a556x45/ap
-	armor_penetration = 98 //was 35
-	penetration_modifier = 0.5
 
 //Pistol caliber
 
@@ -153,9 +131,6 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a45/ap
-	armor_penetration = 20
-	penetration_modifier = 0.1
 
 /obj/item/projectile/bullet/rifle/a9x19
 	armor_penetration = 0 //was 12
@@ -171,9 +146,6 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a9x19/ap
-	armor_penetration = 98 //was 20
-	penetration_modifier = 0.1
 
 /obj/item/projectile/bullet/rifle/a9x18
 	armor_penetration = -5 //was 8
@@ -189,9 +161,6 @@
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
-
-/obj/item/projectile/bullet/rifle/a9x18/ap
-	armor_penetration = 98 //was 13
 
 /obj/item/projectile/bullet/rifle/a127x108mm
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
@@ -209,11 +178,6 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a127x108mm/ap
-	armor_penetration = 98 //was 75
-	penetration_modifier = 0.6
-
-
 /obj/item/projectile/bullet/rifle/a50cal
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
 	armor_penetration = 98 //was 45
@@ -230,9 +194,6 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a50cal/ap
-	armor_penetration = 98 //was 65
-	penetration_modifier = 0.4
 
 
 //////////Refer to bullets.dm pellet/ for balancing shot shells.

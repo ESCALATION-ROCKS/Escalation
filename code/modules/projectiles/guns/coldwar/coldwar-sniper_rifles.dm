@@ -212,7 +212,7 @@
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
 	ammo_type = null
-	allowed_magazines = list(/obj/item/ammo_magazine/c762x51wa, /obj/item/ammo_magazine/c762x51wa/ap)
+	allowed_magazines = list(/obj/item/ammo_magazine/c762x51wa)
 	magazine_type = null
 	one_hand_penalty = 6
 	accuracy = 6

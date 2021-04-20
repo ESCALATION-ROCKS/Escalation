@@ -12,16 +12,6 @@
 	load_delay = 10
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/c556x45m/ap
-	name = "STANAG AP magazine (5.56x45mm)"
-	desc = "A STANAG magazine that fits thirty armor-piercing 5.56mm rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/ap
-
-/obj/item/ammo_magazine/c556x45m/tr
-	name = "STANAG tracer magazine (5.56x45mm)"
-	desc = "A STANAG magazine that fits thirty 5.56mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/tr
-
 /obj/item/ammo_magazine/c556x45m/empty
 	initial_ammo = 0
 
@@ -41,16 +31,6 @@
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
-/obj/item/ammo_magazine/c556x45g/ap
-	name = "AUG AP magazine (5.56x45mm)"
-	desc = "A Steyr AUG magazine that fits thirty armor-piercing 5.56mm rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/ap
-
-/obj/item/ammo_magazine/c556x45g/tr
-	name = "AUG tracer magazine (5.56x45mm)"
-	desc = "A Steyr AUG magazine that fits thirty 5.56mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/tr
-
 /obj/item/ammo_magazine/c556x45g/empty
 	initial_ammo = 0
 
@@ -65,16 +45,6 @@
 	max_ammo = 25
 	load_delay = 12 //bullpup
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/c556x45s/ap
-	name = "FAMAS AP magazine (5.56x45mm)"
-	desc = "A FAMAS magazine that fits twenty five armor-piercing 5.56x45mm rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/ap
-
-/obj/item/ammo_magazine/c556x45s/tr
-	name = "FAMAS tracer magazine (5.56x45mm)"
-	desc = "A FAMAS magazine that fits twenty five 5.56x45mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/tr
 
 /obj/item/ammo_magazine/c556x45s/empty
 	initial_ammo = 0
@@ -91,16 +61,6 @@
 	load_delay = 12
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/c762x51m/ap
-	name = "AP magazine (7.62x51mm)"
-	desc = "A STANAG magazine that fits thirty armor-piercing 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51m/tr
-	name = "tracer magazine (7.62x51mm)"
-	desc = "A STANAG magazine that fits thirty 7.62x51mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/tr
-
 /obj/item/ammo_magazine/c762x51m/empty
 	initial_ammo = 0
 
@@ -116,14 +76,9 @@
 	multiple_sprites = 1
 	load_delay = 9
 
-/obj/item/ammo_magazine/c762x51s/ap
-	name = "AP magazine (7.62x51mm)"
-	desc = "A STANAG magazine that fits twenty armor-piercing 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51s/tr
-	name = "tracer magazine (7.62x51mm)"
-	desc = "A STANAG magazine that fits twenty 7.62x51mm tracer rounds."
+/obj/item/ammo_magazine/c762x51s/tr ////////Sniper magazines
+	name = "match grade magazine (7.62x51mm)"
+	desc = "A STANAG magazine that fits twenty 7.62x51mm match grade rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
 
 /obj/item/ammo_magazine/c762x51s/empty
@@ -141,14 +96,9 @@
 	multiple_sprites = 1
 	load_delay = 10
 
-/obj/item/ammo_magazine/c762x51l/ap
-	name = "AP L96 magazine (7.62x51mm)"
-	desc = "An L96 magazine that fits ten armor-piercing 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51l/tr
-	name = "tracer magazine (7.62x51mm)"
-	desc = "An L96 magazine that fits ten 7.62x51mm tracer rounds."
+/obj/item/ammo_magazine/c762x51l/tr ////////Sniper magazines
+	name = "match grade magazine (7.62x51mm)"
+	desc = "An L96 magazine that fits ten 7.62x51mm match grade rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
 
 /obj/item/ammo_magazine/c762x51l/empty
@@ -167,12 +117,7 @@
 	multiple_sprites = 1
 	load_delay = 10
 
-/obj/item/ammo_magazine/c762x51f/ap
-	name = "FR F2 magazine (7.62x51mm)"
-	desc = "A FR F2 magazine that fits ten 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51f/tr
+/obj/item/ammo_magazine/c762x51f/tr ////////Sniper magazines
 	name = "FR F2 magazine (7.62x51mm)"
 	desc = "A FR F2 magazine that fits ten 7.62x51mm rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
@@ -194,16 +139,6 @@
 	load_delay = 30
 	slowdown_general = 0.1
 
-/obj/item/ammo_magazine/c762x51b/ap
-	name = "M60 AP belt box (7.62x51mm)"
-	desc = "An M60 belt box that fits one hundred armor-piercing 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51b/tr
-	name = "M60 tracer belt box (7.62x51mm)"
-	desc = "An M60 belt box that fits one hundred 7.62x51mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/tr
-
 /obj/item/ammo_magazine/c762x51b/empty
 	initial_ammo = 0
 
@@ -219,16 +154,6 @@
 	max_ammo = 150
 	multiple_sprites = 1
 	load_delay = 30
-
-/obj/item/ammo_magazine/c762x51b/bdw/ap
-	name = "MG3 AP belt box (7.62x51mm)"
-	desc = "A belt box that fits one hundred and fifty armor-piercing 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51b/bdw/tr
-	name = "MG3 tracer belt box (7.62x51mm)"
-	desc = "A belt box that fits one hundred and fifty 7.62x51mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/tr
 
 /obj/item/ammo_magazine/c762x51b/bdw/empty
 	initial_ammo = 0
@@ -246,16 +171,6 @@
 	multiple_sprites = 1
 	load_delay = 15
 
-/obj/item/ammo_magazine/c762x51b/bdw/drum/ap
-	name = "MG3 AP belt drum (7.62x51mm)"
-	desc = "A belt drum that fits fifty armor-piercing 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51b/bdw/drum/tr
-	name = "MG3 tracer belt drum (7.62x51mm)"
-	desc = "A belt drum that fits fifty 7.62x51mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/tr
-
 /obj/item/ammo_magazine/c762x51b/bdw/drum/empty
 	initial_ammo = 0
 
@@ -271,16 +186,6 @@
 	max_ammo = 200
 	multiple_sprites = 1
 	load_delay = 30
-
-/obj/item/ammo_magazine/c762x51b/en/ap
-	name = "L7A2 AP belt box (7.62x51mm)"
-	desc = "A belt box that fits two hundred armor-piercing 7.62x51mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51b/en/tr
-	name = "L7A2 tracer belt box (7.62x51mm)"
-	desc = "A belt box that fits two hundred 7.62x51mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x51/tr
 
 /obj/item/ammo_magazine/c762x51b/en/empty
 	initial_ammo = 0
@@ -302,16 +207,6 @@
 	name = "MINIMI belt box (5.56x45mm)"
 	desc = "An MINIMI belt box that fits two hundred 5.56x45mm rounds."
 
-/obj/item/ammo_magazine/c556x45b/ap
-	name = "M249 AP belt box (5.56x45mm)"
-	desc = "An M249 belt box that fits two hundred armor-piercing 5.56x45mm rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/ap
-
-/obj/item/ammo_magazine/c556x45b/tr
-	name = "M249 tracer belt box (5.56x45mm)"
-	desc = "An M249 belt box that fits two hundred 5.56x45mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/tr
-
 /obj/item/ammo_magazine/c556x45b/empty
 	initial_ammo = 0
 
@@ -327,16 +222,6 @@
 	max_ammo = 200
 	multiple_sprites = 1
 	load_delay = 30
-
-/obj/item/ammo_magazine/c556x45a/ap
-	name = "CETME Ameli armor piercing belt box (5.56x45mm)"
-	desc = "A CETME Ameli belt box that fits two hundred armor-piercing 5.56x45mm rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/ap
-
-/obj/item/ammo_magazine/c556x45a/tr
-	name = "CETME Ameli tracer belt box (5.56x45mm)"
-	desc = "A CETME Ameli belt box that fits two hundred 5.56x45mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a556x45/tr
 
 /obj/item/ammo_magazine/c556x45a/empty
 	initial_ammo = 0
@@ -354,14 +239,9 @@
 	multiple_sprites = 1
 	load_delay = 30
 
-/obj/item/ammo_magazine/c50cals/ap
-	name = "AP magazine (.50 cal)"
-	desc = "A magazine for the M82 Barrett, fits ten armor-piercing .50 cal rounds."
-	ammo_type = /obj/item/ammo_casing/a50cal/ap
-
-/obj/item/ammo_magazine/c50cals/tr
-	name = "tracer magazine (.50 cal)"
-	desc = "A magazine for the M82 Barrett, fits ten .50 cal tracer rounds."
+/obj/item/ammo_magazine/c50cals/tr ////////Sniper magazines
+	name = "match grade magazine (.50 cal)"
+	desc = "A magazine for the M82 Barrett, fits ten .50 cal match grade rounds."
 	ammo_type = /obj/item/ammo_casing/a50cal/tr
 
 /obj/item/ammo_magazine/c50cals/empty
@@ -384,17 +264,6 @@
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
-/obj/item/ammo_magazine/a9x19/ap
-	name = "AP magazine (9x19mm)"
-	desc = "A P1 magazine that fits eight armor-piercing 9x19mm rounds."
-	w_class = 1
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/a9x19/tr
-	name = "tracer magazine (9x19mm)"
-	desc = "A P1 magazine that fits eight 9x19mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
-
 /obj/item/ammo_magazine/a9x19/empty
 	initial_ammo = 0
 
@@ -415,16 +284,6 @@
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
-/obj/item/ammo_magazine/a9x19g/ap
-	name = "glock AP magazine (9x19mm)"
-	desc = "A Glock magazine that fits eight armor-piercing 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/a9x19g/tr
-	name = "glock tracer magazine (9x19mm)"
-	desc = "A Glock magazine that fits eight 9x19mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
-
 /obj/item/ammo_magazine/a9x19g/empty
 	initial_ammo = 0
 
@@ -442,16 +301,6 @@
 	load_delay = 8
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/a9x19s/ap
-	name = "smg AP magazine (9x19mm)"
-	desc = "An SMG magazine that fits thirty armor-piercing 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/a9x19s/tr
-	name = "smg tracer magazine (9x19mm)"
-	desc = "An SMG magazine that fits thirty 9x19mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
-
 /obj/item/ammo_magazine/a9x19s/empty
 	initial_ammo = 0
 
@@ -468,16 +317,6 @@
 	max_ammo = 71
 	load_delay = 12
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/a9x19k/ap
-	name = "smg AP drum magazine (9x19mm)"
-	desc = "A KP31 magazine that fits seventy one armor-piercing 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/a9x19k/tr
-	name = "smg tracer drum magazine (9x19mm)"
-	desc = "A KP31 magazine that fits seventy one tracer 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
 
 /obj/item/ammo_magazine/a9x19s/empty
 	initial_ammo = 0
@@ -497,16 +336,6 @@
 	load_delay = 8
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/a9x19t/ap
-	name = "MAT-49 magazine (9x19mm)"
-	desc = "A MAT-49 magazine that fits thirty two 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/a9x19t/tr
-	name = "MAT-49 magazine (9x19mm)"
-	desc = "A MAT-49 magazine that fits thirty two 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
-
 /obj/item/ammo_magazine/a9x19t/empty
 	initial_ammo = 0
 
@@ -524,16 +353,6 @@
 	max_ammo = 30
 	load_delay = 8
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/a9x19z/ap
-	name = "Z84 magazine (9x19mm)"
-	desc = "A Star Modelo Z84 magazine that fits thirty 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/a9x19z/tr
-	name = "Z84 magazine (9x19mm)"
-	desc = "A Star Modelo Z84 magazine that fits thirty 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
 
 /obj/item/ammo_magazine/a9x19z/empty
 	initial_ammo = 0
@@ -555,16 +374,6 @@
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
-/obj/item/ammo_magazine/a9x19b/ap
-	name = "magazine (9x19mm)"
-	desc = "A Browning Hi-Power magazine that fits thirteen armor-piercing 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/a9x19b/tr
-	name = "magazine (9x19mm)"
-	desc = "A Browning Hi-Power magazine that fits thirteen 9x19mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
-
 /obj/item/ammo_magazine/a9x19b/empty
 	initial_ammo = 0
 
@@ -585,16 +394,6 @@
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
-/obj/item/ammo_magazine/a9x19m/ap
-	name = "ap magazine (9x19mm)"
-	desc = "A MAC 50 magazine that fits nine armor piercing 9x19mm rounds"
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/a9x19m/tr
-	name = "tracer magazine (9x19mm)"
-	desc = "A MAC 50 magazine that fits nine tracer 9x19mm rounds"
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
-
 /obj/item/ammo_magazine/a9x19m/empty
 	initial_ammo = 0
 
@@ -613,16 +412,6 @@
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
-/obj/item/ammo_magazine/a45/ap
-	name = "AP magazine (.45 ACP)"
-	desc = "An M1911 magazine that fits seven armor-piercing .45 ACP rounds."
-	ammo_type = /obj/item/ammo_casing/a45/ap
-
-/obj/item/ammo_magazine/a45/tr
-	name = "tracer magazine (.45 ACP)"
-	desc = "An M1911 magazine that fits seven tracer .45 ACP rounds."
-	ammo_type = /obj/item/ammo_casing/a45/tr
-
 /obj/item/ammo_magazine/a45/empty
 	initial_ammo = 0
 
@@ -637,14 +426,9 @@
 	max_ammo = 6
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/c762x51wa/ap
-	desc = "A WA2000 magazine that fits six armor-piercing 7.62x51mm rounds."
-	name = "AP magazine (7.62x51mm)"
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-
-/obj/item/ammo_magazine/c762x51wa/tr
-	desc = "A WA2000 magazine that fits six 7.62x51mm tracer rounds."
-	name = "tracer magazine (7.62x51mm)"
+/obj/item/ammo_magazine/c762x51wa/tr ////////Sniper magazines
+	desc = "A WA2000 magazine that fits six 7.62x51mm match grade rounds."
+	name = "match grade magazine (7.62x51mm)"
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
 
 /obj/item/ammo_magazine/c762x51wa/empty
@@ -666,16 +450,6 @@
 /obj/item/ammo_magazine/m9x19/examine(mob/user)
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
-/obj/item/ammo_magazine/m9x19/ap
-	name = "AP magazine (9x19mm)"
-	desc = "A Beretta M9 magazine that fits fifteen armor-piercing 9x19mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
-
-/obj/item/ammo_magazine/m9x19/tr
-	name = "tracer magazine (9x19mm)"
-	desc = "A Beretta M9 magazine that fits fifteen 9x19mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a9x19/tr
 
 /obj/item/ammo_magazine/m9x19/empty
 	initial_ammo = 0
@@ -703,17 +477,6 @@
 /obj/item/ammo_magazine/c545x39m/black/empty
 	initial_ammo = 0
 
-
-/obj/item/ammo_magazine/c545x39m/ap
-	name = "AP magazine (5.45x39mm)"
-	desc = "An AK-platform magazine that fits thirty armor-piercing 5.45x39mm rounds. Made of bakelite."
-	ammo_type = /obj/item/ammo_casing/a545x39/ap
-
-/obj/item/ammo_magazine/c545x39m/tr
-	name = "tracer magazine (5.45x39mm)"
-	desc = "An AK-platform magazine that fits thirty 5.45x39mm tracer rounds. Made of bakelite."
-	ammo_type = /obj/item/ammo_casing/a545x39/tr
-
 /obj/item/ammo_magazine/c545x39m/empty
 	initial_ammo = 0
 
@@ -729,16 +492,6 @@
 	multiple_sprites = 1
 	w_class = 3
 	slowdown_general = 0.1
-
-/obj/item/ammo_magazine/c545x39b/ap
-	name = "large AP magazine (5.45x39mm)"
-	desc = "An AK-platform magazine that fits fourty five armor-piercing 5.45x39mm rounds. Made of bakelite."
-	ammo_type = /obj/item/ammo_casing/a545x39/ap
-
-/obj/item/ammo_magazine/c545x39b/tr
-	name = "large AP magazine (5.45x39mm)"
-	desc = "An AK-platform magazine that fits fourty five 5.45x39mm tracer rounds. Made of bakelite."
-	ammo_type = /obj/item/ammo_casing/a545x39/tr
 
 /obj/item/ammo_magazine/c545x39b/empty
 	initial_ammo = 0
@@ -770,16 +523,6 @@
 	multiple_sprites = 1
 	load_delay = 10
 
-/obj/item/ammo_magazine/c762x39m/ap
-	name = "AP magazine (7.62x39mm)"
-	desc = "An AK-platform magazine that fits thirty armor-piercing 7.62x39mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/ap
-
-/obj/item/ammo_magazine/c762x39m/tr
-	name = "tracer magazine (7.62x39mm)"
-	desc = "An AK-platform magazine that fits thirty 7.62x39mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/tr
-
 /obj/item/ammo_magazine/c762x39m/empty
 	initial_ammo = 0
 
@@ -797,16 +540,6 @@
 	load_delay = 12
 	slowdown_general = 0.1
 
-/obj/item/ammo_magazine/c762x39b/ap
-	name = "large AP magazine (7.62x39mm)"
-	desc = "An AK-platform magazine that fits fourty armor-piercing 7.62x39mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/ap
-
-/obj/item/ammo_magazine/c762x39b/tr
-	name = "large tracer magazine (7.62x39mm)"
-	desc = "An AK-platform magazine that fits fourty 7.62x39mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/tr
-
 /obj/item/ammo_magazine/c762x39b/empty
 	initial_ammo = 0
 
@@ -822,16 +555,6 @@
 	max_ammo = 75
 	multiple_sprites = 1
 	load_delay = 18
-
-/obj/item/ammo_magazine/c762x39k/ap
-	name = "AP drum magazine (7.62x39mm)"
-	desc = "An AK-platform drum magazine that fits seventy five armor-piercing 7.62x39mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/ap
-
-/obj/item/ammo_magazine/c762x39k/tr
-	name = "tracer drum magazine (7.62x39mm)"
-	desc = "An AK-platform drum magazine that fits seventy five 7.62x39mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/tr
 
 /obj/item/ammo_magazine/c762x39k/empty
 	initial_ammo = 0
@@ -849,16 +572,6 @@
 	multiple_sprites = 1
 	load_delay = 20
 
-/obj/item/ammo_magazine/c762x39d/ap
-	name = "RPD AP belt drum (7.62x39mm)"
-	desc = "An RPD belt drum that fits seventy five armor-piercing 7.62x39mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/ap
-
-/obj/item/ammo_magazine/c762x39d/tr
-	name = "RPD AP belt drum (7.62x39mm)"
-	desc = "An RPD belt drum that fits seventy five 7.62x39mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/tr
-
 /obj/item/ammo_magazine/c762x39d/empty
 	initial_ammo = 0
 
@@ -875,16 +588,6 @@
 	multiple_sprites = 1
 	load_delay = 30
 
-/obj/item/ammo_magazine/c762x39v/ap
-	name = "KK62 AP belt drum (7.62x39mm)"
-	desc = "A KK62 belt drum that fits one hundred armor-piercing 7.62x39mm rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/ap
-
-/obj/item/ammo_magazine/c762x39v/tr
-	name = "KK62 tracer belt drum (7.62x39mm)"
-	desc = "A KK62 belt drum that fits one hundred 7.62x39mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x39/tr
-
 /obj/item/ammo_magazine/c762x39v/empty
 	initial_ammo = 0
 
@@ -900,14 +603,9 @@
 	multiple_sprites = 1
 	load_delay = 7
 
-/obj/item/ammo_magazine/c762x54s/ap
-	name = "SVD AP magazine (7.62x54mmR)"
-	desc = "A SVD magazine that fits ten armor-piercing 7.62x54mmR rounds."
-	ammo_type = /obj/item/ammo_casing/a762x54/ap
-
-/obj/item/ammo_magazine/c762x54s/tr
-	name = "SVD tracer magazine (7.62x54mmr)"
-	desc = "A SVD magazine that fits ten 7.62x54mmR tracer rounds."
+/obj/item/ammo_magazine/c762x54s/tr ////////Sniper magazines
+	name = "SVD match grade magazine (7.62x54mmr)"
+	desc = "A SVD magazine that fits ten 7.62x54mmR match grade rounds."
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/c762x54s/empty
@@ -927,16 +625,6 @@
 	load_delay = 30
 	slowdown_general = 0.1
 
-/obj/item/ammo_magazine/c762x54b/ap
-	name = "PKM AP belt box (7.62x54mmR)"
-	desc = "A PKM belt box that fits two hundred armor-piercing 7.62x54mmR rounds."
-	ammo_type = /obj/item/ammo_casing/a762x54/ap
-
-/obj/item/ammo_magazine/c762x54b/tr
-	name = "PKM tracer belt box (7.62x54mmR)"
-	desc = "A PKM belt box that fits two hundred 7.62x54mmR tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x54/tr
-
 /obj/item/ammo_magazine/c762x54b/empty
 	initial_ammo = 0
 
@@ -952,16 +640,6 @@
 	max_ammo = 200
 	multiple_sprites = 1
 	load_delay = 30
-
-/obj/item/ammo_magazine/c762x54b/csla/ap
-	name = "vz. 59 AP belt box (7.62x54mmR)"
-	desc = "A gray vz.59 belt box that fits two hundred armor-piercing 7.62x54mmR rounds."
-	ammo_type = /obj/item/ammo_casing/a762x54/ap
-
-/obj/item/ammo_magazine/c762x54b/csla/tr
-	name = "vz. 59 tracer belt box (7.62x54mmR)"
-	desc = "A gray vz.59 belt box that fits two hundred 7.62x54mmR tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a762x54/tr
 
 /obj/item/ammo_magazine/c762x54b/csla/empty
 	initial_ammo = 0
@@ -983,16 +661,6 @@
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
-/obj/item/ammo_magazine/a9x18/ap
-	name = "AP magazine (9x18mm)"
-	desc = "A Makarov magazine that fits eight armor-piercing 9x18mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x18/ap
-
-/obj/item/ammo_magazine/a9x18/tr
-	name = "AP magazine (9x18mm)"
-	desc = "A Makarov magazine that fits eight 9x18mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a9x18/tr
-
 /obj/item/ammo_magazine/a9x18/empty
 	initial_ammo = 0
 
@@ -1013,16 +681,6 @@
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
-/obj/item/ammo_magazine/a9x18/ap
-	name = "AP magazine (9x18mm)"
-	desc = "A Makarov magazine that fits eight armor-piercing 9x18mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x18/ap
-
-/obj/item/ammo_magazine/a9x18/tr
-	name = "AP magazine (9x18mm)"
-	desc = "A Makarov magazine that fits eight 9x18mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a9x18/tr
-
 /obj/item/ammo_magazine/a9x18b/empty
 	initial_ammo = 0
 
@@ -1042,16 +700,6 @@
 /obj/item/ammo_magazine/cz9x18/examine(mob/user)
 	. = ..()
 	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
-/obj/item/ammo_magazine/cz9x18/ap
-	name = "magazine (9x18mm)"
-	desc = "A CZ82 magazine that fits eight armor-piercing 9x18mm rounds."
-	ammo_type = /obj/item/ammo_casing/a9x18/ap
-
-/obj/item/ammo_magazine/cz9x18/tr
-	name = "magazine (9x18mm)"
-	desc = "A CZ82 magazine that fits eight 9x18mm tracer rounds."
-	ammo_type = /obj/item/ammo_casing/a9x18/tr
 
 /obj/item/ammo_magazine/cz9x18/empty
 	initial_ammo = 0
@@ -1136,16 +784,9 @@
 	ammo_type = /obj/item/ammo_casing/a545x39
 	caliber = "545x39"
 
-/obj/item/ammo_magazine/box/paper/box545x39/ap
-	name = "AP ammo box (5.45x39mm)"
-	desc = "A 40-round pack of armor-piercing 5.45x39mm ammunition."
-	icon_state = "sa_box"
-	item_state = "paper_mag"
-	ammo_type = /obj/item/ammo_casing/a545x39/ap
-
 /obj/item/ammo_magazine/box/paper/box545x39/tr
-	name = "tracer ammo box (5.45x39mm)"
-	desc = "A 40-round pack of 5.45x39mm tracer ammunition."
+	name = "match grade ammo box (5.45x39mm)"
+	desc = "A 40-round pack of 5.45x39mm match grade ammunition."
 	icon_state = "sa_box"
 	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a545x39/tr
@@ -1158,16 +799,9 @@
 	ammo_type = /obj/item/ammo_casing/a762x39
 	caliber = "762x39"
 
-/obj/item/ammo_magazine/box/paper/box762x39/ap
-	name = "AP ammo box (7.62x39mm)"
-	desc = "A 40-round pack of armor-piercing 7.62x39mm ammunition."
-	icon_state = "csla_box"
-	item_state = "paper_mag"
-	ammo_type = /obj/item/ammo_casing/a762x39/ap
-
 /obj/item/ammo_magazine/box/paper/box762x39/tr
-	name = "tracer ammo box (7.62x39mm)"
-	desc = "A 40-round pack of 7.62x39mm tracer ammunition."
+	name = "match grade ammo box (7.62x39mm)"
+	desc = "A 40-round pack of 7.62x39mm match grade ammunition."
 	icon_state = "csla_box"
 	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x39/tr
@@ -1180,16 +814,9 @@
 	ammo_type = /obj/item/ammo_casing/a762x54
 	caliber = "762x54"
 
-/obj/item/ammo_magazine/box/paper/box762x54/ap
-	name = "AP ammo box (7.62x54mmR)"
-	desc = "A 40-round pack of armor-piercing 7.62x54mmR ammunition."
-	icon_state = "csla_box"
-	item_state = "paper_mag"
-	ammo_type = /obj/item/ammo_casing/a762x54/ap
-
 /obj/item/ammo_magazine/box/paper/box762x54/tr
-	name = "tracer ammo box (7.62x54mmR)"
-	desc = "A 40-round pack of 7.62x54mmR tracer ammunition."
+	name = "match grade ammo box (7.62x54mmR)"
+	desc = "A 40-round pack of 7.62x54mmR match grade ammunition."
 	icon_state = "csla_box"
 	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a762x54/tr
@@ -1202,16 +829,9 @@
 	ammo_type = /obj/item/ammo_casing/a556x45
 	caliber = "556x45"
 
-/obj/item/ammo_magazine/box/paper/box556x45/ap
-	name = "AP ammo box (5.56x45mm)"
-	desc = "A 40-round pack of armor-piercing 5.56x45mm ammunition."
-	icon_state = "usmc_box"
-	item_state = "paper_mag"
-	ammo_type = /obj/item/ammo_casing/a556x45/ap
-
 /obj/item/ammo_magazine/box/paper/box556x45/tr
-	name = "tracer ammo box (5.56x45mm)"
-	desc = "A 40-round pack of 5.56x45mm tracer ammunition."
+	name = "match grade ammo box (5.56x45mm)"
+	desc = "A 40-round pack of 5.56x45mm match grade ammunition."
 	icon_state = "usmc_box"
 	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a556x45/tr
@@ -1224,16 +844,9 @@
 	ammo_type = /obj/item/ammo_casing/a762x51
 	caliber = "762x51"
 
-/obj/item/ammo_magazine/box/paper/box762x51/ap
-	name = "AP ammo box (7.62x51mm)"
-	desc = "A 40-round pack of 7.62x51mm armor-piercing ammunition."
-	icon_state = "bdw_box"
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
-	caliber = "762x51"
-
 /obj/item/ammo_magazine/box/paper/box762x51/tr
-	name = "tracer ammo box (7.62x51mm)"
-	desc = "A 40-round pack of 7.62x51mm tracer ammunition."
+	name = "match grade ammo box (7.62x51mm)"
+	desc = "A 40-round pack of 7.62x51mm match grade ammunition."
 	icon_state = "bdw_box"
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
 	caliber = "762x51"
@@ -1247,13 +860,6 @@
 	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a9x19
 	caliber = "9x19"
-
-/obj/item/ammo_magazine/box/paper/box9x19/ap
-	name = "ammo box (9x19mm)"
-	desc = "A 40-round pack of 9x19mm armor-piercing ammunition."
-	icon_state = "bdw_box"
-	item_state = "paper_mag"
-	ammo_type = /obj/item/ammo_casing/a9x19/ap
 
 /obj/item/ammo_magazine/box/paper/box9x19/tr
 	name = "ammo box (9x19mm)"
@@ -1270,17 +876,9 @@
 	ammo_type = /obj/item/ammo_casing/a9x18
 	caliber = "9x18"
 
-/obj/item/ammo_magazine/box/paper/box9x18/ap
-	name = "ammo box (9x18mm)"
-	desc = "A 40-round pack of armor-piercing 9x18mm ammunition."
-	icon_state = "csla_box"
-	item_state = "paper_mag"
-	ammo_type = /obj/item/ammo_casing/a9x18/ap
-	caliber = "9x18"
-
 /obj/item/ammo_magazine/box/paper/box9x18/tr
-	name = "tracer ammo box (9x18mm)"
-	desc = "A 40-round pack of 9x18mm tracer ammunition."
+	name = "match grade ammo box (9x18mm)"
+	desc = "A 40-round pack of 9x18mm match grade ammunition."
 	icon_state = "csla_box"
 	item_state = "paper_mag"
 	ammo_type = /obj/item/ammo_casing/a9x18/tr
@@ -1333,7 +931,7 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/clip/h762x53/tr
-	name = "tracer stripper clip (7.62x53mmR)"
+	name = "match grade stripper clip (7.62x53mmR)"
 	desc = "A stripper clip of yellow tipped 7.62x53mmR ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "hy762x53"
@@ -1343,21 +941,6 @@
 	w_class = 1
 	max_ammo = 5
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/box/clip/h762x53/ap
-	name = "AP stripper clip (7.62x53mmR)"
-	desc = "A stripper clip of light-blue tipped 7.62x53mmR ammunition."
-	mag_type = SPEEDLOADER
-	icon_state = "hb762x53"
-	item_state = "clip_mag"
-	caliber = "762x53"
-	ammo_type = /obj/item/ammo_casing/a762x53/ap
-	w_class = 1
-	max_ammo = 5
-	multiple_sprites = 1
-
-/obj/item/ammo_magazine/box/clip/h762x53/empty
-	initial_ammo = 0
 
 /obj/item/ammo_magazine/box/clip/h303
 	name = "stripper clip (.303 British)"
@@ -1372,25 +955,13 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/clip/h303/tr
-	name = "tracer stripper clip (.303 British)"
-	desc = "A stripper clip of .303 British tracer ammunition."
+	name = "match grade stripper clip (.303 British)"
+	desc = "A stripper clip of .303 British match grade ammunition."
 	mag_type = SPEEDLOADER
 	icon_state = "h762x53"
 	item_state = "clip_mag"
 	caliber = "303"
 	ammo_type = /obj/item/ammo_casing/a303/tr
-	w_class = 1
-	max_ammo = 5
-	multiple_sprites = 1
-
-/obj/item/ammo_magazine/box/clip/h303/ap
-	name = "AP stripper clip (.303 British)"
-	desc = "A stripper clip of armor-piercing .303 British ammunition."
-	mag_type = SPEEDLOADER
-	icon_state = "h762x53"
-	item_state = "clip_mag"
-	caliber = "303"
-	ammo_type = /obj/item/ammo_casing/a303/ap
 	w_class = 1
 	max_ammo = 5
 	multiple_sprites = 1
@@ -1412,24 +983,13 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/clip/t762x51/tr
-	name = "handful of tracer bullets (7.62x51mm)"
+	name = "handful of match grade bullets (7.62x51mm)"
 	desc = "A handful of orange tipped 7.62x51mm bullets."
 	mag_type = AMMO_BOX
 	icon_state = "to762x51"
 	caliber = "762x51"
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
-	max_ammo = 5
-	multiple_sprites = 1
-
-/obj/item/ammo_magazine/box/clip/t762x51/ap
-	name = "handful of armor-piercing bullets (7.62x51mm)"
-	desc = "A handful of black tipped 7.62x51mm bullets."
-	mag_type = AMMO_BOX
-	icon_state = "tb762x51"
-	caliber = "762x51"
-	w_class = 1
-	ammo_type = /obj/item/ammo_casing/a762x51/ap
 	max_ammo = 5
 	multiple_sprites = 1
 
@@ -1445,7 +1005,7 @@
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/clip/t762x53/tr
-	name = "handful of tracer bullets (7.62x53mmR)"
+	name = "handful of match grade bullets (7.62x53mmR)"
 	desc = "A handful of yellow tipped 7.62x53mmR bullets."
 	mag_type = AMMO_BOX
 	icon_state = "ty762x53"
@@ -1454,18 +1014,6 @@
 	ammo_type = /obj/item/ammo_casing/a762x53/tr
 	max_ammo = 5
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/box/clip/t762x53/ap
-	name = "handful of armor-piercing bullets (7.62x53mmR)"
-	desc = "A handful of light-blue tipped 7.62x53mmR bullets."
-	mag_type = AMMO_BOX
-	icon_state = "tb762x53"
-	caliber = "762x53"
-	w_class = 1
-	ammo_type = /obj/item/ammo_casing/a762x53/ap
-	max_ammo = 5
-	multiple_sprites = 1
-
 
 /obj/item/ammo_magazine/box/clip/ga12
 	name = "handful of #00 buckshot shells (12ga)"
