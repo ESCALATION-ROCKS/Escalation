@@ -177,7 +177,7 @@
 /obj/item/clothing/head/coldwar/helmet/soviet/h6b6/sinii
 	name = "6B6 helmet"
 	desc = "A recently engineered titanium helmet, used for training purposes only."
-	icon_state = "6b6sinnie"
+	icon_state = "6b6sinii"
 	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6sinii"
