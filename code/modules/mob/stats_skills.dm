@@ -61,10 +61,7 @@
 
 /mob/proc/statscheck(var/specskill, var/specstat, var/requirement, var/show_message, var/message = "I have failed to do this.")
 	var/M = (roll("2d6") + statadder(specstat) + specskill)// our "dice"
-	var/mob/living/carbon/human/H = src
-	if(specskill == -1) //-1 skill debuff
-		M -= 3
-	if(H.chem_effects[CE_PAINKILLER]) //painkiller debuff
+	if(specskill == -1)
 		M -= 3
 	if(requirement <= M)//Rolling that d20
 		//world << "Rolled and passed."

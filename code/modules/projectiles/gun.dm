@@ -73,6 +73,8 @@
 	var/fire_anim = null
 	var/safety = 1 //Whether or not the safety is on.
 	var/drawsound = 0
+	//var/painkilleraccuracy = 1 // ONE AS ITS DIVIDED BY ACCURACY FORMULA - dropped this idea to do screenshake alone
+	var/painkillershake = 0 //ZERO AS ITS MULTIPLIED BY SHAKE FORMULA
 
 	var/sel_mode = 1 //index of the currently selected mode
 	var/list/firemodes = list()
@@ -335,10 +337,13 @@
 				if(4 to INFINITY)
 					to_chat(user, "<span class='warning'>You struggle to hold \the [src] steady!</span>")
 
-	var/mob/living/carbon/human/H = user
+	var/mob/living/carbon/human/H = user //Very dumbass looking code but it works. I restricted this to ranged weapons because being high on meds and not being able to bandage yourself is fucking bad. I'm not sorry -severe
+	var/painkillershake = 0
+	if(H.chem_effects[CE_PAINKILLER])
+		painkillershake += 6
 	if(screen_shake || !H.arm_actuators)
 		spawn()
-			shake_camera(user, screen_shake/user.accstatmodifier(user.skill_ranged), screen_shake)
+			shake_camera(user, screen_shake/user.accstatmodifier(user.skill_ranged), screen_shake, painkillershake)
 	update_icon()
 
 
@@ -378,10 +383,15 @@
 		if(!held_twohanded)
 			acc_mod += -ceil(one_hand_penalty/2)
 			disp_mod += one_hand_penalty*0.5 //dispersion per point of two-handedness
+	
+	
+	/*var/mob/living/carbon/human/H = src
+	if(H.chem_effects[CE_PAINKILLER])
+		painkilleraccuracy -= 3  */
 
 	//Accuracy modifiers
 	P.accuracy = (accuracy + acc_mod) * user.accstatmodifier(user.skill_ranged)
-	P.dispersion = disp_mod + (dispersion_modifyer / 2 / user.accstatmodifier(user.skill_ranged))//disp_mod see in click.dm
+	P.dispersion = disp_mod + (dispersion_modifyer / 2 / user.accstatmodifier(user.skill_ranged))
 
 	//accuracy bonus from aiming
 	if (aim_targets && (target in aim_targets))

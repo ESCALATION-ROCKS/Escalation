@@ -512,7 +512,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/vympbr
 	title = "KGB Narushitel"
@@ -532,7 +532,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/vympmg
 	title = "KGB Pulemetchik"
@@ -552,7 +552,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 1, -1, -1, 1, 1, 3, 0)
+		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/vympsm
 	title = "KGB Snaiper"

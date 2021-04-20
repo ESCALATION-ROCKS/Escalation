@@ -327,7 +327,7 @@
 	name = "AKS-74 w/ GP25"
 	desc = "A Soviet Army combat rifle with a folding stock and a GP-25 launcher attached. Chambers 5.45x39 rounds."
 	icon_state = "aks74gl"
-	item_state = "ak74gl"
+	item_state = "aks74gl"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "545x39"
@@ -391,10 +391,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "aks74gl"
-		wielded_item_state = "ak74gl-wielded"
+		wielded_item_state = "aks74gl-wielded"
 	else
 		icon_state = "aks74gl-empty"
-		wielded_item_state = "ak74gl-wielded-empty"
+		wielded_item_state = "aks74gl-wielded-empty"
 
 
 /obj/item/weapon/gun/projectile/automatic/rifle/aks74gl/verb/set_gp()

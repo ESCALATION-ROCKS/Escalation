@@ -478,57 +478,57 @@ TeZ I.:csla
 /datum/job/escalation/csla/cslahwsload
 @END@
 
-##ESP##
+###ESP###
 
-Peloton 'A':esp
-/datum/job/escalation/esp/espsl
-/datum/job/escalation/esp/espsld
-/datum/job/escalation/esp/espsrad
-/datum/job/escalation/esp/esprocket
-/datum/job/escalation/esp/esprocketass
-/datum/job/escalation/esp/espmg
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/espcorpsman
-/datum/job/escalation/esp/espsapper
-/datum/job/escalation/esp/espsniper
+Otdelenie 'Anna':esp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasapper
+/datum/job/escalation/cccp/sasniper
 @END@
 
-Peloton 'B':esp
-/datum/job/escalation/esp/espsl
-/datum/job/escalation/esp/espsld
-/datum/job/escalation/esp/espsrad
-/datum/job/escalation/esp/esprocket
-/datum/job/escalation/esp/esprocketass
-/datum/job/escalation/esp/espmg
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/espcorpsman
-/datum/job/escalation/esp/espsapper
-/datum/job/escalation/esp/espsniper
+Otdelenie 'Boris':esp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasapper
+/datum/job/escalation/cccp/sasniper
 @END@
 
-Peloton 'C':esp
-/datum/job/escalation/esp/espsl
-/datum/job/escalation/esp/espsld
-/datum/job/escalation/esp/espsrad
-/datum/job/escalation/esp/esprocket
-/datum/job/escalation/esp/esprocketass
-/datum/job/escalation/esp/espmg
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/esprifle
-/datum/job/escalation/esp/espcorpsman
-/datum/job/escalation/esp/espsapper
-/datum/job/escalation/esp/espsniper
+Otdelenie 'Vasiliy':esp
+/datum/job/escalation/cccp/sasl
+/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/sasrad
+/datum/job/escalation/cccp/sarocket
+/datum/job/escalation/cccp/sarocketass
+/datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sacorpsman
+/datum/job/escalation/cccp/sasapper
+/datum/job/escalation/cccp/sasniper
 @END@
 
 OTV-1:esp
-/datum/job/escalation/esp/espotvco
-/datum/job/escalation/esp/espotvload
-/datum/job/escalation/esp/espotvop
+/datum/job/escalation/cccp/saotvco
+/datum/job/escalation/cccp/saotvload
+/datum/job/escalation/cccp/saotvop
 @END@
 
 ########ESCA ARCTIC############
