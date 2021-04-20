@@ -480,7 +480,7 @@ TeZ I.:csla
 
 ##ESP##
 
-Peloton 'Anna':esp
+Peloton 'A':esp
 /datum/job/escalation/esp/espsl
 /datum/job/escalation/esp/espsld
 /datum/job/escalation/esp/espsrad
@@ -495,7 +495,7 @@ Peloton 'Anna':esp
 /datum/job/escalation/esp/espsniper
 @END@
 
-Peloton 'Boris':esp
+Peloton 'B':esp
 /datum/job/escalation/esp/espsl
 /datum/job/escalation/esp/espsld
 /datum/job/escalation/esp/espsrad
@@ -510,7 +510,7 @@ Peloton 'Boris':esp
 /datum/job/escalation/esp/espsniper
 @END@
 
-Peloton 'Vasiliy':esp
+Peloton 'C':esp
 /datum/job/escalation/esp/espsl
 /datum/job/escalation/esp/espsld
 /datum/job/escalation/esp/espsrad

@@ -143,7 +143,7 @@
 
 /obj/item/weapon/reagent_containers/syrette/attack_self(mob/user as mob)
 	if(closed)
-		if(prob(20))
+		if(prob(40))
 			closed = 0
 			to_chat(user, "<span class='notice'>You open the [src.name].</span>")
 			update_icon()
