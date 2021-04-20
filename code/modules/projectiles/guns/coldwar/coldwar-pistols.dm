@@ -281,12 +281,12 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19b
 	allowed_magazines = /obj/item/ammo_magazine/a9x19b
-	fire_sound = 'sound/weapons/gunshot/m1911.ogg'
-	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
+	fire_sound = 'sound/weapons/gunshot/star.ogg'
+	unload_sound = 'sound/weapons/gunporn/star_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/star_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/star_sliderelease.ogg'
 	jam_chance = 0.65
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/star_dist.ogg'
 
 /obj/item/weapon/gun/projectile/star/update_icon()
 	..()
@@ -308,12 +308,12 @@
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/a9x19m
 	allowed_magazines = /obj/item/ammo_magazine/a9x19m
-	fire_sound = 'sound/weapons/gunshot/m1911.ogg'
-	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
-	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
-	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
+	fire_sound = 'sound/weapons/gunshot/mac50.ogg'
+	unload_sound = 'sound/weapons/gunporn/mac50_magout.ogg'
+	reload_sound = 'sound/weapons/gunporn/mac50_magin.ogg'
+	cocked_sound = 'sound/weapons/gunporn/mac50_sliderelease.ogg'
 	jam_chance = 0.65
-	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/mac50_dist.ogg'
 
 /obj/item/weapon/gun/projectile/mac50/update_icon()
 	..()
