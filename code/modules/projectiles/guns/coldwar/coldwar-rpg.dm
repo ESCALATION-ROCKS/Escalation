@@ -165,7 +165,7 @@
 /obj/item/weapon/gun/launcher/carlgustaf
 	name = "Carl Gustaf recoilless rifle"
 	desc = "A recoilless rifle, standard-issued by the British Armed Forces."
-	icon = 'icons/obj/guncarlgustaf.dmi'
+	icon = 'icons/obj/gunrpg.dmi'
 	icon_state = "carlgustaf"
 	item_state = "carlgustaf"
 	slowdown_general = 0.5
@@ -195,11 +195,11 @@
 /obj/item/weapon/gun/launcher/carlgustaf/update_icon()
 	..()
 	if(rockets.len)
-		icon = 'icons/obj/guncarlgustaf.dmi'
+		icon = 'icons/obj/gunrpg.dmi'
 		icon_state = "carlgustaf"
 		item_state = "carlgustaf"
 	else
-		icon = 'icons/obj/guncarlgustaf.dmi'
+		icon = 'icons/obj/gunrpg.dmi'
 		icon_state = "carlgustaf-empty"
 		item_state = "carlgustaf-empty"
 	update_held_icon()
