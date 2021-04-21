@@ -648,6 +648,44 @@
 	icon_state_unzipped = "m1978medic-unzipped"
 
 
+
+///NVG googles (2nd gen)
+
+/obj/item/clothing/glasses/night/coldwar
+	wearable = 1
+
+/obj/item/clothing/glasses/night/coldwar/pnv10t
+	name = "PNV-10T"
+	desc = "A second generation night vision googles used by WARPACT armies."
+	icon_state = "night"
+	item_state = "glasses"
+	darkness_view = 7
+	action_button_name = "Toggle Goggles"
+	toggleable = 1
+	see_invisible = SEE_INVISIBLE_NOLIGHTING
+	off_state = "denight"
+	electric = 1
+
+/obj/item/clothing/glasses/night/coldwar/pnv10t/New()
+	..()
+	overlay = GLOB.global_hud.nvg
+
+/obj/item/clothing/glasses/night/coldwar/anpvs5
+	name = "AN-PVS5"
+	desc = "A second generation night vision googles used by NATO armies."
+	icon_state = "night"
+	item_state = "glasses"
+	darkness_view = 7
+	action_button_name = "Toggle Goggles"
+	toggleable = 1
+	see_invisible = SEE_INVISIBLE_NOLIGHTING
+	off_state = "denight"
+	electric = 1
+
+/obj/item/clothing/glasses/night/coldwar/anpvs5/New()
+	..()
+	overlay = GLOB.global_hud.nvg
+
 //HEV Helmets
 
 /obj/item/clothing/head/coldwar/helmet/hev_helm/
