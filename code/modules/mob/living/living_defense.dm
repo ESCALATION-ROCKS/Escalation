@@ -260,13 +260,15 @@
 	if(fire_stacks > 0 && !on_fire)
 		on_fire = 1
 		set_light(light_range + 3)
+		playsound(src, 'sound/effects/fire.ogg', 50, TRUE)//A little sizzle as you're lit up.
 		update_fire()
 
 /mob/living/proc/ExtinguishMob()
 	if(on_fire)
 		on_fire = 0
-		fire_stacks = 0
+		fire_stacks = -20
 		set_light(max(0, light_range - 3))
+		playsound(src, 'sound/items/cig_snuff.ogg', 50, TRUE)//A little sizzle as you're put out.
 		update_fire()
 
 /mob/living/proc/update_fire()

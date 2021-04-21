@@ -94,7 +94,10 @@
 	var/upg_stb = 0
 
 	var/blowout_chance = 0
-	var/condition = 100 //phleg
+	var/condition = 100 //Read below why I (severepwnage) didn't port in IS12 condition
+	//Gun balance is fine as it is and we don't need a fleshed out condition system that would make guns jam more
+	//In order for something like that to be realistic we would have to be firing 2000-3000 per game each person
+	//Thats why I can't be bothered to port it. Just set jam chances and roll with it
 
 	var/unload_sound 	= 'sound/weapons/flipblade.ogg'
 	var/reload_sound 	= null //We don't want these for guns that don't have them.

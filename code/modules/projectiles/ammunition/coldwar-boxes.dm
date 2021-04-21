@@ -1113,3 +1113,37 @@
 	ammo_type = /obj/item/ammo_casing/ga6/flec
 	max_ammo = 4
 	multiple_sprites = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////BOTTOM OF THE ICEBERG
+
+/obj/item/ammo_magazine/flamer ////////TEST THING - FLAMETHROWER DOESN'T ACTUALLY WORK
+	name = "flamer fuel"
+	desc = "Put it in your flamer and roast those you don't like."
+	icon_state = "flamer"
+	caliber = "flamer"
+	mag_type = MAGAZINE
+	ammo_type = /obj/item/ammo_casing/flamer
+	max_ammo = 30
+	multiple_sprites = FALSE
+
+/obj/item/ammo_magazine/flamer/attack_self(mob/user) //Can't empty out
+	return

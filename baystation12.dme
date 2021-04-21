@@ -2156,6 +2156,7 @@
 #include "code\modules\projectiles\guns\energy.dm"
 #include "code\modules\projectiles\guns\launcher.dm"
 #include "code\modules\projectiles\guns\projectile.dm"
+#include "code\modules\projectiles\guns\coldwar\coldwar-incendiary.dm"
 #include "code\modules\projectiles\guns\coldwar\coldwar-mgs.dm"
 #include "code\modules\projectiles\guns\coldwar\coldwar-pistols.dm"
 #include "code\modules\projectiles\guns\coldwar\coldwar-rifles.dm"

@@ -86,3 +86,11 @@
 		plane = TURF_PLANE
 	else
 		plane = PLATING_PLANE
+
+/turf/simulated/floor/Crossed(var/atom/A)
+	..()
+	if(istype(A, /obj/item/projectile/flamer))
+		for(var/mob/M in src)
+			if(ishuman(M))
+				return
+		new /obj/flamer_fire(src, 12, 10, "red", 1)

@@ -337,6 +337,13 @@
 /obj/item/projectile/bullet/rpgrocket/he/on_impact(var/atom/target, var/blocked = 0)
 	explosion(target, 1, 3, 5, 4)
 
+/obj/item/projectile/bullet/rpgrocket/thermobaric
+	penetrating = 0
+
+/obj/item/projectile/bullet/rpgrocket/thermobaric/on_impact(var/atom/target, var/blocked = 0)
+	///doesnt work atm
+	explosion(target, 0, 2, 2, 3)
+
 /obj/item/projectile/bullet/rpgrocket/gustaf
 	icon_state = "gustaf"
 

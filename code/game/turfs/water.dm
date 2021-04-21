@@ -25,7 +25,11 @@
 	overmob_overlay = image('icons/turf/flooring/water.dmi',src,"riverwater", "layer" = MOB_LAYER+0.1)
 	overlays += overmob_overlay
 */
-
+/turf/unsimulated/floor/river/Cross(var/atom/A)//People who are on fire go out.
+	if(isliving(A))
+		var/mob/living/L = A
+		L.ExtinguishMob()
+		
 /turf/unsimulated/floor/river/deep
 	name = "deep river"
 	icon_state = "waterdeep"

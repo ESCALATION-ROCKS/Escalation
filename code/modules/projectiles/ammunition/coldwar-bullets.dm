@@ -255,3 +255,26 @@
 	w_class = 4
 	slot_flags = null
 	caliber = "rocketoneuse"
+
+/obj/item/ammo_casing/rpg_missile/thermobaric
+	name = "RG-7"
+	desc = "A regular morkovka for rpg"
+	caliber = "7p16"
+	icon_state = "rg-7"
+	projectile_type = /obj/item/projectile/bullet/rpgrocket/thermobaric
+	w_class = 4
+	slot_flags = null
+
+/obj/item/ammo_casing/rpg_missile/thermobaric/attackby(obj/item/W as obj, mob/user as mob)
+	if(istype(W, /obj/item/ammo_casing))
+		return
+	..()
+	
+//Cthulu fthagn
+/obj/item/ammo_casing/flamer
+	name = "fire"
+	desc = "It doesn't delete properly but its aight -severe."
+	icon_state = "null"
+	spent_icon = "null"
+	caliber = "flamer"
+	projectile_type = /obj/item/projectile/flamer
