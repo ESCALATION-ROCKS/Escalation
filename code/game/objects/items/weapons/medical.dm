@@ -35,7 +35,7 @@
 				if(!do_mob(user, M, W.damage*2))
 					to_chat(user, "<span class='notice'>You must stand still to bandage wounds.</span>")
 					break
-				if(!user.statscheck(user.skill_medicine, user.int, 4, 0, src))
+				if(M == user && !user.statscheck(user.skill_medicine, user.int, 3, 1, src))
 					used++
 					to_chat(user, "<span class='notice'>You fumble with the bandages.</span>")
 					break
@@ -294,7 +294,7 @@
 	amount = 1
 	max_amount = 1
 	animal_heal = 0
-	
+
 /*potential nato/soviet splints? anyone? */
 
 /////////Ointment
@@ -450,7 +450,7 @@
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/doxycycline, 10)
-		
+
 /obj/item/weapon/reagent_containers/pill/angiotensin
 	name = "angiotensin pill (5u)"
 	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
@@ -582,7 +582,7 @@
 	name = "lorazepam pill pack"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	pill_type = /obj/item/weapon/reagent_containers/pill/lorazepam
-	
+
 /obj/item/weapon/pill_pack/doxycycline
 	name = "doxycycline pill pack"
 	desc = "A broad spectrum antibiotic to fight against infections. Do NOT administer more than 15u."
@@ -651,7 +651,7 @@
 	icon_state = "pillbox_aminocaproic"
 	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
 	startswith = list(/obj/item/weapon/pill_pack/aminocaproic = 2)
-	
+
 /obj/item/weapon/storage/box/pill_box/salbutamol
 	name = "salbutamol pill box"
 	icon_state = "pillbox_salbutamol"
@@ -663,7 +663,7 @@
 	icon_state = "pillbox_lorazepam"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	startswith = list(/obj/item/weapon/pill_pack/lorazepam = 2)
-	
+
 /obj/item/weapon/storage/box/pill_box/doxycycline
 	name = "doxycycline pill box"
 	icon_state = "pillbox_doxycycline"
@@ -705,7 +705,7 @@
 	icon_state = "pillbox_thiopental"
 	desc = "A rapid-onset sedative for surgical operations. Do NOT administer more than 5u."
 	startswith = list(/obj/item/weapon/pill_pack/thiopental = 2)
-	
+
 /obj/item/weapon/storage/box/pill_box/naloxone
 	name = "naloxone pill box"
 	icon_state = "pillbox_naloxone"
@@ -765,7 +765,7 @@
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/salbutamol, 5)
-	
+
 /obj/item/weapon/reagent_containers/glass/ampoule/lorazepam
 	name = "lorazepam ampoule"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
@@ -793,7 +793,7 @@
 	New()
 		..()
 		reagents.add_reagent(/datum/reagent/paracetamol, 5)
-		
+
 /obj/item/weapon/reagent_containers/glass/ampoule/rohypnol
 	name = "rohypnol ampoule"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
@@ -896,22 +896,22 @@
 	name = "lorazepam ampoule pack"
 	desc = "A mild neuroleptic and anti-emetic, provides relief from nausea and vomiting. Do NOT administer more than 10u."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/lorazepam
-	
+
 /obj/item/weapon/ampoule_pack/doxycycline
 	name = "doxycycline ampoule pack"
 	desc = "A broad spectrum antibiotic to fight against infections. Do NOT administer more than 15u."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/doxycycline
-	
+
 /obj/item/weapon/ampoule_pack/angiotensin
 	name = "angiotensin ampoule pack"
 	desc = "A compound which restores bloodflow to the brain and organs. Useful for treating brain and toxin damage. Do NOT administer more than 5U."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/angiotensin
-	
+
 /obj/item/weapon/ampoule_pack/paracetamol
 	name = "paracetamol ampoule pack"
 	desc = "Weak painkiller with a very slow metabolization speed. Meant for trivial injuries and cracked bones. Do NOT administer more than 20u."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/paracetamol
-	
+
 /obj/item/weapon/ampoule_pack/rohypnol
 	name = "rohypnol ampoule pack"
 	desc = "Mild painkiller for injured patients that require resting. Provides long-lasting pain relief and strong drowsiness. Do NOT administer more than 15u."
@@ -942,7 +942,7 @@
 	desc = "A neurotransmitter that is capable of restarting a heart with a single ampoule."
 	ampoule_type = /obj/item/weapon/reagent_containers/glass/ampoule/epinephrine
 
-	
+
 ///////////////COLDWAR AMPOULE BOXES
 
 
@@ -968,7 +968,7 @@
 	icon_state = "ampoulebox_aminocaproic"
 	desc = "An anti-hemmorhage drug intended to stop acute bleeding and assist in blood clotting. Do NOT administer more than 60u or orally."
 	startswith = list(/obj/item/weapon/ampoule_pack/aminocaproic = 2)
-	
+
 /obj/item/weapon/storage/box/ampoule_box/salbutamol
 	name = "salbutamol ampoule box"
 	icon_state = "ampoulebox_salbutamol"
