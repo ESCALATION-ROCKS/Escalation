@@ -339,6 +339,9 @@
 /obj/item/ammo_magazine/a9x19t/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/a9x19t/examine(mob/user)
+	. = ..()
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/a9x19z
 	name = "Z84 magazine (9x19mm)"

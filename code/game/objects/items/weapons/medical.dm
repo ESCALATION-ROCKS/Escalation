@@ -225,7 +225,7 @@
 /obj/item/stack/medical/tourniquet/woundseal
 	name = "wound seal"
 	desc = "A handful of granular 'wound seal', used to treat bleeding in core bodyparts and other limbs."
-	icon_state = "woundseal"
+	icon_state = "granule"
 	singular_name = "wound seal"
 	w_class = ITEM_SIZE_LARGE
 	amount = 1
