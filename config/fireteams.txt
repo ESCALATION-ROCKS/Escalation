@@ -253,62 +253,63 @@ ATS-1:usa
 
 ##FRA##
 
-Groupe 'Alpha':fra
-/datum/job/escalation/fra/frasl
-/datum/job/escalation/fra/fraratelo
-/datum/job/escalation/fra/fraftl
-/datum/job/escalation/fra/fraftg
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/fraftl
-/datum/job/escalation/fra/fraftmg
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/fracorpsman
-/datum/job/escalation/fra/frasapper
-/datum/job/escalation/fra/framarksman
+Squad 'Alpha':fra
+/datum/job/escalation/usmc/usmcsl
+/datum/job/escalation/usmc/usmcftradio
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmccorpsman
+/datum/job/escalation/usmc/usmcsapper
+/datum/job/escalation/usmc/usmcmarksman
 @END@
 
-Groupe 'Bravo':fra
-/datum/job/escalation/fra/frasl
-/datum/job/escalation/fra/fraratelo
-/datum/job/escalation/fra/fraftl
-/datum/job/escalation/fra/fraftg
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/fraftl
-/datum/job/escalation/fra/fraftmg
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/fracorpsman
-/datum/job/escalation/fra/frasapper
-/datum/job/escalation/fra/framarksman
+Squad 'Bravo':fra
+/datum/job/escalation/usmc/usmcsl
+/datum/job/escalation/usmc/usmcftradio
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmccorpsman
+/datum/job/escalation/usmc/usmcsapper
+/datum/job/escalation/usmc/usmcmarksman
 @END@
 
-Groupe 'Charlie':fra
-/datum/job/escalation/fra/frasl
-/datum/job/escalation/fra/fraratelo
-/datum/job/escalation/fra/fraftl
-/datum/job/escalation/fra/fraftg
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/fraftl
-/datum/job/escalation/fra/fraftmg
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/frafto
-/datum/job/escalation/fra/fracorpsman
-/datum/job/escalation/fra/frasapper
-/datum/job/escalation/fra/framarksman
+Squad 'Charlie':fra
+/datum/job/escalation/usmc/usmcsl
+/datum/job/escalation/usmc/usmcftradio
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftl
+/datum/job/escalation/usmc/usmcftmg
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmccorpsman
+/datum/job/escalation/usmc/usmcsapper
+/datum/job/escalation/usmc/usmcmarksman
 @END@
 
 HWS-1:fra
-/datum/job/escalation/fra/framgcom
-/datum/job/escalation/fra/framgop
-/datum/job/escalation/fra/framgload
+/datum/job/escalation/usmc/usmcmgcom
+/datum/job/escalation/usmc/usmcmgop
+/datum/job/escalation/usmc/usmcmgload
 @END@
 
 ATS-1:fra
-/datum/job/escalation/fra/fraatcom
-/datum/job/escalation/fra/fraat
-/datum/job/escalation/fra/fraata
+/datum/job/escalation/usmc/usmcatcom
+/datum/job/escalation/usmc/usmcat
+/datum/job/escalation/usmc/usmcata
 @END@
+
 
 ###########WARPACT#############
 

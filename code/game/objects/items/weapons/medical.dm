@@ -147,15 +147,15 @@
 /obj/item/weapon/gauze_pack/woundseal/nato
 	name = "'Celox' granule packet"
 	desc = "That's the 'Celox' hemostatic granule packet. Contains wound seal."
-	w_class = ITEM_SIZE_NORMAL
-	icon_state = "celox"
+	w_class = ITEM_SIZE_SMALL
+	icon_state = "nato_woundseal"
 	content_type = /obj/item/stack/medical/tourniquet/woundseal
 
 /obj/item/weapon/gauze_pack/woundseal/wp
 	name = "'Hemostat' granule packet"
 	desc = "That's the 'Hemostat' granule packet. Contains wound seal."
-	w_class = ITEM_SIZE_NORMAL
-	icon_state = "hemostat"
+	w_class = ITEM_SIZE_SMALL
+	icon_state = "wp_woundseal"
 	content_type = /obj/item/stack/medical/tourniquet/woundseal
 
 /////////Tourniquets
@@ -227,7 +227,7 @@
 	desc = "A handful of granular 'wound seal', used to treat bleeding in core bodyparts and other limbs."
 	icon_state = "granule"
 	singular_name = "wound seal"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_NORMAL
 	amount = 1
 	animal_heal = 0
 	tourniquetable_organs = list(BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG, BP_L_HAND, BP_R_HAND, BP_L_FOOT, BP_R_FOOT, BP_GROIN, BP_CHEST, BP_HEAD)	//List of organs you can splint, natch.
