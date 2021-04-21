@@ -2595,7 +2595,7 @@
 "lAd" = (/obj/structure/window/classic,/turf/simulated/floor,/area/coldwar/smallsoftfloor)
 "lAi" = (/obj/structure/platform{dir = 1},/obj/structure/platform{dir = 4},/obj/random/flower,/turf/unsimulated/ground/grass,/area/coldwar)
 "lAl" = (/obj/effect/floor_decal/carpet/orange{dir = 4},/obj/machinery/light/small/warmtint{dir = 4},/turf/simulated/floor/carpet/orange,/area/coldwar/mediumenclosed)
-"lAs" = (/obj/effect/floor_decal/newcorner/plating/diagonal,/obj/structure/closet/crate/generic,/obj/item/ammo_magazine/box/paper/boxga12/flec,/obj/item/ammo_magazine/box/paper/boxga12/slug,/obj/item/ammo_magazine/box/paper/boxga12,/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
+"lAs" = (/obj/effect/floor_decal/newcorner/plating/diagonal,/obj/structure/closet/crate/generic,/obj/item/ammo_magazine/box/paper/boxga6/flec,/obj/item/ammo_magazine/box/paper/boxga6/slug,/obj/item/ammo_magazine/box/paper/boxga6,/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
 "lAF" = (/obj/effect/floor_decal/carpet/orange{dir = 1},/obj/effect/floor_decal/carpet/orange{dir = 4},/obj/effect/floor_decal/carpet/orange{dir = 5},/turf/simulated/floor/carpet/orange,/area/coldwar/mediumenclosed)
 "lBh" = (/obj/structure/newfence/wooden{icon_state = "OLD_fence_11"},/turf/unsimulated/ground,/area/coldwar)
 "lBJ" = (/obj/structure/sign/vehicle/ural/uralmid3,/obj/structure/sign/vehicle/ural/uralmidchair,/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)

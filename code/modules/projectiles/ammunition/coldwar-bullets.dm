@@ -159,6 +159,35 @@
 		return
 	..()
 
+/obj/item/ammo_casing/ga6
+	name = "6ga buckshot shell"
+	desc = "A 12ga buckshot shell."
+	icon_state = "ga6shell"
+	spent_icon = "ga6shell-spent"
+	var/recentload = 1
+	caliber = "6ga"
+	projectile_type = /obj/item/projectile/bullet/pellet/ga6
+
+/obj/item/ammo_casing/ga6/slug
+	name = "6ga slug shell"
+	desc = "A 12ga slug shell."
+	icon_state = "ga6slugshell"
+	spent_icon = "ga6slugshell-spent"
+	projectile_type = /obj/item/projectile/bullet/rifle/ga6/slug
+
+/obj/item/ammo_casing/ga6/flec
+	name = "6ga flechette shell"
+	desc = "A 12ga flechette shell."
+	icon_state = "ga6flecshell"
+	spent_icon = "ga6flecshell-spent"
+	projectile_type = /obj/item/projectile/bullet/rifle/ga6/flec
+
+
+/obj/item/ammo_casing/ga6/attackby(obj/item/W as obj, mob/user as mob) //Prevents stacking
+	if(istype(W, /obj/item/ammo_casing/ga6))
+		return
+	..()
+
 /obj/item/ammo_casing/ags30x29mm
 	desc = "A 30x29mm AGS-17' VOG casing"
 	caliber = "30x29mm"

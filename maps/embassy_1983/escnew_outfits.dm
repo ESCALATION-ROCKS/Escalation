@@ -357,7 +357,7 @@
 	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/taiga
-	gun_slot = /obj/item/weapon/gun/projectile/rifle/pumpaction/toz194
+	gun_slot = /obj/item/weapon/gun/projectile/rifle/pumpaction/ks23
 	back = /obj/item/weapon/storage/backpack/gassoviet
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/sg
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/sg

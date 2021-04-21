@@ -832,7 +832,9 @@
 	storage_slots = 5
 	can_hold = list(
 		/obj/item/ammo_magazine/box/clip/ga12,
-		/obj/item/ammo_casing/ga12
+		/obj/item/ammo_casing/ga12,
+		/obj/item/ammo_magazine/box/clip/ga6,
+		/obj/item/ammo_casing/ga6
 		)
 	startswith = null
 
@@ -948,7 +950,9 @@
 	storage_slots = 5
 	can_hold = list(
 		/obj/item/ammo_magazine/box/clip/ga12,
-		/obj/item/ammo_casing/ga12
+		/obj/item/ammo_casing/ga12,
+		/obj/item/ammo_magazine/box/clip/ga6,
+		/obj/item/ammo_casing/ga6
 		)
 	startswith = null
 

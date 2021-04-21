@@ -889,7 +889,7 @@
 /obj/item/ammo_magazine/box/paper/boxga12
 	name = "#00 buckshot shell box (12ga)"
 	desc = "A 25 shotshell pack of 12ga #00 buckshot shells."
-	icon_state = "nato12ga_box"
+	icon_state = "ga12_box"
 	item_state = "paper_mag"
 	w_class = ITEM_SIZE_LARGE
 	max_ammo = 5
@@ -899,7 +899,7 @@
 /obj/item/ammo_magazine/box/paper/boxga12/slug
 	name = "slug shell box (12ga)"
 	desc = "A 25 shotshell pack of 12ga slug shells."
-	icon_state = "nato12gaslug_box"
+	icon_state = "ga12slug_box"
 	item_state = "paper_mag"
 	w_class = ITEM_SIZE_LARGE
 	max_ammo = 5
@@ -908,13 +908,43 @@
 
 /obj/item/ammo_magazine/box/paper/boxga12/flec
 	name = "flechette shell box (12ga)"
-	desc = "A 25 shotshell pack of 12ga flechette shells."
-	icon_state = "nato12gaflec_box"
+	desc = "A 20 shotshell pack of 12ga flechette shells."
+	icon_state = "ga12flec_box"
 	w_class = ITEM_SIZE_LARGE
 	item_state = "paper_mag"
 	max_ammo = 5
 	ammo_type = /obj/item/ammo_magazine/box/clip/ga12/flec
 	caliber = "12ga"
+
+/obj/item/ammo_magazine/box/paper/boxga6
+	name = "'Shrapnel-25' shell box (6ga)"
+	desc = "A 20 shotshell pack of 6ga 'Shrapnel-25' buckshot shells."
+	icon_state = "ga6_box"
+	item_state = "paper_mag"
+	w_class = ITEM_SIZE_LARGE
+	max_ammo = 5
+	ammo_type = /obj/item/ammo_magazine/box/clip/ga6
+	caliber = "6ga"
+
+/obj/item/ammo_magazine/box/paper/boxga6/slug
+	name = "'Barricada' shell box (6ga)"
+	desc = "A 25 shotshell pack of 6ga 'Barricada' slug shells."
+	icon_state = "ga6slug_box"
+	item_state = "paper_mag"
+	w_class = ITEM_SIZE_LARGE
+	max_ammo = 5
+	ammo_type = /obj/item/ammo_magazine/box/clip/ga6/slug
+	caliber = "6ga"
+
+/obj/item/ammo_magazine/box/paper/boxga6/flec
+	name = "'Fleshet' shell box (6ga)"
+	desc = "A 20 shotshell pack of 6ga 'Fleshet' flechette shells."
+	icon_state = "ga6flec_box"
+	w_class = ITEM_SIZE_LARGE
+	item_state = "paper_mag"
+	max_ammo = 5
+	ammo_type = /obj/item/ammo_magazine/box/clip/ga6/flec
+	caliber = "6ga"
 
 /////////////////// clips
 
@@ -1046,4 +1076,37 @@
 	w_class = 1
 	ammo_type = /obj/item/ammo_casing/ga12/flec
 	max_ammo = 5
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/ga6
+	name = "handful of buckshot shells (ga6)"
+	desc = "A handful of buckshot shells."
+	mag_type = AMMO_BOX
+	icon_state = "ga6"
+	caliber = "6ga"
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/ga6
+	max_ammo = 4
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/ga6/slug
+	name = "handful of slug shells (ga6)"
+	desc = "A handful of slug shells."
+	mag_type = AMMO_BOX
+	icon_state = "ga6slug"
+	caliber = "6ga"
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/ga6/slug
+	max_ammo = 4
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/clip/ga6/flec
+	name = "handful of flechette shells (ga6)"
+	desc = "A handful of flechette shells."
+	mag_type = AMMO_BOX
+	icon_state = "ga6flec"
+	caliber = "6ga"
+	w_class = 1
+	ammo_type = /obj/item/ammo_casing/ga6/flec
+	max_ammo = 4
 	multiple_sprites = 1

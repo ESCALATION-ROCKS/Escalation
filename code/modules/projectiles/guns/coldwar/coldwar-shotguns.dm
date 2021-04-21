@@ -213,7 +213,108 @@
 		to_chat(user, "<span class='warning'>[src] is not ready to be loaded again!</span>")
 
 
-/obj/item/weapon/gun/projectile/rifle/pumpaction/toz194
+
+/obj/item/weapon/gun/projectile/rifle/pumpaction/ks23
+	name = "KS-23"
+	desc = "A pump action carbine used by the Soviet special units. Holds three 6ga shells and one in the chamber."
+	icon_state = "ks23-empty"
+	item_state = "ks23"
+	force = 15
+	caliber = "6ga"
+	wielded_item_state = "ks23-wielded"
+	w_class = ITEM_SIZE_LARGE
+	screen_shake = 2 //extra kickback
+	handle_casings = HOLD_CASINGS
+	load_method = SINGLE_CASING|AMMO_BOX
+	max_shells = 3
+	ammo_type = null
+	one_hand_penalty = 12
+	accuracy = 2.1
+	cocked_sound = null ///Plays right after inserting a shell, unnecesary for shotguns
+	fire_sound = 'sound/weapons/gunshot/ks23.ogg'
+	picksound = 'sound/items/interactions/rifle_draw.ogg'
+	drop_sound = 'sound/items/interactions/drop_gun.ogg'
+	reload_sound = 'sound/weapons/gunporn/ks23_shell_insert.ogg'
+	dist_shot_sound = 'sound/weapons/gunshot/dist/toz194_dist.ogg'
+	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
+	unload_sound = 'sound/weapons/gunporn/gp25_openbarrel.ogg'
+	jam_chance = 0.010
+	slowdown_general = 0.25
+	bayonet_attachable = 0
+	bayonet_type = null
+
+/obj/item/weapon/gun/projectile/rifle/pumpaction/ks23/consume_next_projectile()
+	if(chambered)
+		return chambered.BB
+	return null
+
+/obj/item/weapon/gun/projectile/rifle/pumpaction/ks23/attack_self(mob/living/user as mob)
+	bolt_open = !bolt_open
+	if(do_after(user, 2, src))
+		if(bolt_open)
+			playsound(src.loc, 'sound/weapons/gunporn/ks23_pumpback.ogg', 50, 1)
+
+			if(chambered)//We have a shell in the chamber
+				chambered.forceMove(get_turf(src))//Eject casing
+				if(LAZYLEN(chambered.casing_sound))
+					playsound(loc, chambered.casing_sound, 50, 1)
+				chambered = null
+				to_chat(user, "<span class='notice'>You pump the chamber open, ejecting a shell!</span>")
+			else
+				to_chat(user, "<span class='notice'>You pump the chamber open.</span>")
+		else
+			to_chat(user, "<span class='notice'>You pump the chamber closed.</span>")
+			playsound(src.loc, 'sound/weapons/gunporn/ks23_pumpforward.ogg', 50, 1)
+			bolt_open = 0
+			if(loaded.len)
+				var/obj/item/ammo_casing/AC = loaded[1] //load next casing.
+				loaded -= AC //Remove casing from loaded list.
+				chambered = AC
+
+		add_fingerprint(user)
+		update_icon()
+
+/obj/item/weapon/gun/projectile/rifle/pumpaction/ks23/special_check(mob/user)
+	if(bolt_open)
+		to_chat(user, "<span class='warning'>You can't fire [src] while the chamber is open!</span>")
+		return 0
+	return ..()
+
+/*/obj/item/weapon/gun/projectile/rifle/pumpaction/ks23/load_ammo(var/obj/item/A, mob/user)
+	if(!bolt_open)
+		return
+	..()*/ //Shotguns can be loaded with the chamber open or closed.
+
+/obj/item/weapon/gun/projectile/rifle/pumpaction/ks23/unload_ammo(mob/user, var/allow_dump=1)
+	if(!bolt_open)
+		to_chat(user, "<span class='warning'>You can't unload from the tube while the chamber is closed!</span>")
+		return
+	..()
+
+/obj/item/weapon/gun/projectile/rifle/pumpaction/ks23/update_icon()
+	..()
+	if(bolt_open)
+		icon_state = "ks23-open"
+	else
+		icon_state = "ks23"
+
+
+/obj/item/weapon/gun/projectile/rifle/pumpaction/ks23/load_ammo(var/obj/item/A, mob/user)
+	if(world.time >= recentload + 2) ////Number determines shell load speed
+		recentload = world.time
+		var/obj/item/ammo_magazine/AM = user.get_active_hand(A)
+		..()
+
+		if(AM.stored_ammo.len == 0)
+			qdel(AM)
+			return
+
+	else
+		to_chat(user, "<span class='warning'>[src] is not ready to be loaded again!</span>")
+
+
+
+/obj/item/weapon/gun/projectile/rifle/pumpaction/toz194 ///Unused
 	name = "TOZ-194"
 	desc = "A pump action shotgun used by the SA. Holds six 12ga shells and one in the chamber."
 	icon_state = "toz194-empty"
