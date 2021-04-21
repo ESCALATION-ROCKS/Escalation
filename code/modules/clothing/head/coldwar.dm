@@ -87,6 +87,11 @@
 	desc = "That's a generic field cap usually worn by junior command personnel of the Soviet Army."
 	icon_state = "afghanka_cap"
 
+/obj/item/clothing/head/coldwar/fieldcap/habe
+	name = "'Habe' field cap"
+	desc = "That's a generic field cap usually worn by junior command personnel of the Soviet Army."
+	icon_state = "afghanka_cap" //change
+
 /obj/item/clothing/head/coldwar/officer/soviet
 	name = "officer cap"
 	desc = "An uniform headdress of officers."
