@@ -199,7 +199,7 @@
 //////////Refer to bullets.dm pellet/ for balancing shot shells.
 
 /obj/item/projectile/bullet/pellet/ga12 //Based on #00 load
-	armor_penetration = 5 // - does jackshit against armor
+	armor_penetration = -15 // - does jackshit against armor
 	penetration_modifier = 0.6
 	kill_count = 25
 	agony = 20
@@ -212,7 +212,7 @@
 	//Pretty tight grouping and low range so armors actually fucking work against it. Solution is to aim for limbs
 
 	New()
-		damage = rand(40, 60)
+		damage = rand(30, 45)
 
 /obj/item/projectile/bullet/rifle/ga12/slug
 	armor_penetration = 15 //low chance of going through
@@ -234,23 +234,23 @@
 		damage = rand(25, 28)
 
 /obj/item/projectile/bullet/pellet/ga6
-	armor_penetration = 10
-	penetration_modifier = 0.6
-	kill_count = 25
-	agony = 26
+	armor_penetration = -10
+	penetration_modifier = 0.5
+	kill_count = 20
+	agony = 21
 	name = "buckshot pellet"
 	icon_state = "pellets"
-	pellets = 10
+	pellets = 9
 	range_step = 2		//projectile will lose a fragment each time it travels this distance.
 	base_spread = 98	//lower means the pellets spread more across body parts. If zero then this is considered a shrapnel explosion instead of a shrapnel cone
 	spread_step = 2   //higher means the pellets spread more across body parts with distance
 	//Pretty tight grouping and low range so armors actually fucking work against it. Solution is to aim for limbs
 
 	New()
-		damage = rand(50, 70)
+		damage = rand(35, 50)
 
 /obj/item/projectile/bullet/rifle/ga6/slug
-	armor_penetration = 20 //low chance of going through
+	armor_penetration = 10 //low chance of going through
 	penetration_modifier = 0.3
 	agony = 23
 	kill_count = 50
