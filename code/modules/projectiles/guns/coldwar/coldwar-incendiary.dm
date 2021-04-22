@@ -171,6 +171,10 @@
 
 /obj/flamer_fire/New(loc, fire_lvl, burn_lvl, f_color, fire_spread_amount)
 	..()
+	if(istype(loc, /turf/unsimulated/floor/river))//No catching the water on fire.
+		qdel(src)
+	playsound(src, "sound/effects/fire.ogg", 40, FALSE)
+	playsound(src, "sound/effects/burning.ogg", 25, FALSE) //Edited to fade in at 5 seconds and fade out at 15. I know I'm a fucking genius
 	if (f_color)
 		flame_color = f_color
 
@@ -304,6 +308,64 @@ obj/flamer_fire/proc/make_more_fire(var/T, var/f_level, var/b_level, var/fcolor,
 	var/turf/O = get_turf(src)
 	if(!O) return
 
-	new /obj/flamer_fire(loc, 5, 6, "flaky", fire_range)
+	new /obj/flamer_fire(loc, 30, 6, "flaky", fire_range)
 
 	qdel(src)
+
+/obj/item/weapon/grenade/fire/anm14
+	icon = 'icons/obj/grenade.dmi'
+	name = "AN/M14"
+	desc = "An incendiary grenade used by NATO armies."
+	icon_state = "anm14"
+	throw_range = 10
+	throw_speed = 1
+	fire_range = 2
+
+/*/obj/item/weapon/grenade/fire/anm14/detonate() - Doesn't work for some reason
+	playsound(src.loc, 'sound/effects/incendiary_detonate.ogg', 80, 1, 30)
+	..()*/
+
+
+//////////Molotov cocktail
+
+/obj/item/weapon/grenade/fire/molotov
+	name = "molotov cocktail"
+	desc = "A large bottle filled with fuel and sealed with a rag. Explodes in 10 seconds if not thrown."
+	icon_state = "molotov"
+	throw_speed = 1
+	throw_range = 10
+	w_class = ITEM_SIZE_SMALL
+	det_time = 100
+	arm_sound = 'sound/items/cig_light.ogg'
+	fire_range = 2
+	var/lit = 0
+
+
+/obj/item/weapon/grenade/fire/molotov/attack_self(mob/user as mob)
+	to_chat(user, "<span class='warning'>You're gonna need some sort of lighter to light this up!</span>")
+	return
+
+/obj/item/weapon/grenade/fire/molotov/attackby(obj/item/weapon/W as obj, mob/user as mob)
+	..()
+	if(!roundstarted)
+		to_chat(user, "<span class='warning'>There is no reason to light up the [src] yet!")
+		return
+	else
+		if(isflamesource(W))
+			activate()
+			to_chat(user, "<span class='warning'>You light up the [src]! 10 seconds!")
+			playsound(src.loc, 'sound/items/cig_light.ogg', 100, 1)
+			var/mob/living/carbon/C = user
+			C.throw_mode_on()
+			return
+		else
+			to_chat(user, "<span class='warning'>You need an active fire source to light up the [src]!")
+			return
+
+/obj/item/weapon/grenade/fire/molotov/throw_impact(atom/hit_atom)
+	if(active)
+		playsound(src.loc, 'sound/effects/glassbr1.ogg', 80, 1, 30)
+		detonate()
+	
+	else
+		return

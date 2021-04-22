@@ -261,6 +261,7 @@
 		on_fire = 1
 		set_light(light_range + 3)
 		playsound(src, 'sound/effects/fire.ogg', 50, TRUE)//A little sizzle as you're lit up.
+		emote("scream")
 		update_fire()
 
 /mob/living/proc/ExtinguishMob()

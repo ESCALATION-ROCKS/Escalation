@@ -2,7 +2,7 @@
 
 	//drop && roll
 	if(on_fire && !buckled)
-		fire_stacks -= 1.2
+		fire_stacks -= 15 //Extinguishes molotov in 2-3 tries, more than that is very fucking damaging.
 		Weaken(3)
 		spin(32,2)
 		visible_message(
