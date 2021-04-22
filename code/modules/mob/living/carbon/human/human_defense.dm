@@ -395,7 +395,7 @@ meteor_act
 		var/obj/O = AM
 		if(isturf(O.loc))
 		//exception to not catch ugl nades. This can perhaps be turned into a list if need arises for more items are to be added (for practical purposes it can be checked by if(O in list) insted of the prolonged if condition)
-			if(!((O.icon_state == "M406_active") || (O.icon_state == "M406s_active") || (O.icon_state == "40x103mmshell_active")  || (O.icon_state == "40x103mmshells_active"))) //exception to not catch ugl nades
+			if(!((O.icon_state == "M406_active") || (O.icon_state == "M406s_active") || (O.icon_state == "40x103mmshell_active")  || (O.icon_state == "40x103mmshells_active" || (O.icon_state == "molotov_active"))) //exception to not catch ugl nades
 				if(in_throw_mode && !get_active_hand() && speed <= THROWFORCE_SPEED_DIVISOR)	//empty active hand and we're in throw mode
 					if(canmove && !restrained())
 						if(isturf(O.loc))
