@@ -201,6 +201,25 @@ turf/simulated/wall/titanium
 	color = "#424242"
 	..(newloc,"brick")
 
+/turf/simulated/wall/brick_aged
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#6B533B"
+
+/turf/simulated/wall/brick_aged/New(var/newloc)
+	icon_state = null
+	color = "#6B533B"
+	..(newloc,"brick")
+
+/turf/simulated/wall/brick_whitewashed
+	icon = 'icons/turf/wall_masks.dmi'
+	icon_state = "brick_preview"
+	color = "#FCF2D8"
+
+/turf/simulated/wall/brick_whitewashed/New(var/newloc)
+	icon_state = null
+	color = "#FCF2D8"
+	..(newloc,"brick")
 
 ///////////////COLDWAR CONCRETE BLOCKS
 
