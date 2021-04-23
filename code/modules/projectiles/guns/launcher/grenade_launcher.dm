@@ -194,7 +194,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/grenade/smokebomb
 		)
-	icon = 'icons/obj/escalationguns.dmi'
+	icon = 'icons/obj/coldwarguns32x32.dmi'
 	icon_state = "hk69"
 	item_state = "hk69"
 	w_class = 4

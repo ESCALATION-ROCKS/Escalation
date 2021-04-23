@@ -270,29 +270,6 @@ obj/flamer_fire/proc/make_more_fire(var/T, var/f_level, var/b_level, var/fcolor,
 
 ///////////////WEAPONS
 
-/*/obj/item/weapon/gun/projectile/automatic/rifle/flamer IS HERE FOR REFERENCE, DOESN'T WORK.
-	icon = 'icons/obj/escalationguns.dmi'
-	name = "Mk.1 Scorcher"
-	desc = "Used to shoot flames at people when bullets just won't do."
-	icon_state = "flamer"
-	item_state = "flamer"
-	wielded_item_state = "flamer-wielded"
-	caliber = "flamer"
-	one_hand_penalty = 50
-	fire_sound = 'sound/effects/fire01.ogg'
-	var/casingsound = null//No eject sound for you.
-	automatic = 0.1
-	fire_delay=0
-	burst=1
-	magazine_type = /obj/item/ammo_magazine/flamer
-	allowed_magazines = /obj/item/ammo_magazine/flamer
-	jam_chance = 0.03
-//m16a1 firemodes lol
-	firemodes = list(
-		list(mode_name="semiauto", burst=1, fire_delay=3.2, move_delay=null, one_hand_penalty=4, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
-		list(mode_name="automatic", burst=1, fire_delay=0.9, move_delay=2, one_hand_penalty=5, burst_accuracy=null, dispersion=list(0.2, 0.3, 0.5), automatic = 0.5),
-		)*/
-
 /obj/item/weapon/grenade/fire
 	icon = 'icons/obj/grenade.dmi'
 	name = "incendiary grenade"
