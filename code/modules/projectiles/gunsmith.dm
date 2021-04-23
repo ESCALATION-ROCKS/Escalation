@@ -1,7 +1,7 @@
 /obj/item/weapon/gunsmith
 	name = "firearms parts"
 	desc = "Details and parts of a firearms."
-	icon = 'icons/obj/ammo.dmi'
+	icon = 'icons/obj/coldwar/ammo.dmi'
 	icon_state = "acc_l"
 	w_class = 2.0
 	throwforce = 5

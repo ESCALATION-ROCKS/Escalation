@@ -3,7 +3,7 @@
 /obj/item/weapon/gun/launcher/rpg7
 	name = "RPG7"
 	desc = "A grenade launcher, standard-issued by the Soviet Army."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "rpg" ///change
 	item_state = "rpg1" ///change
 	slowdown_general = 0.5
@@ -33,11 +33,11 @@
 /obj/item/weapon/gun/launcher/rpg7/update_icon()
 	..()
 	if(rockets.len)
-		icon = 'icons/obj/coldwarguns48x48.dmi'
+		icon = 'icons/obj/coldwar/guns48x48.dmi'
 		icon_state = "rpg" ///change
 		item_state = "rpg1"
 	else
-		icon = 'icons/obj/coldwarguns48x48.dmi'
+		icon = 'icons/obj/coldwar/guns48x48.dmi'
 		icon_state = "rpg-empty" ///change
 		item_state = "rpg1-empty"
 	update_held_icon()
@@ -165,7 +165,7 @@
 /obj/item/weapon/gun/launcher/carlgustaf
 	name = "Carl Gustaf recoilless rifle"
 	desc = "A recoilless rifle, standard-issued by the British Armed Forces."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "carlgustaf"
 	item_state = "carlgustaf"
 	slowdown_general = 0.5
@@ -195,11 +195,11 @@
 /obj/item/weapon/gun/launcher/carlgustaf/update_icon()
 	..()
 	if(rockets.len)
-		icon = 'icons/obj/coldwarguns48x48.dmi'
+		icon = 'icons/obj/coldwar/guns48x48.dmi'
 		icon_state = "carlgustaf"
 		item_state = "carlgustaf"
 	else
-		icon = 'icons/obj/coldwarguns48x48.dmi'
+		icon = 'icons/obj/coldwar/guns48x48.dmi'
 		icon_state = "carlgustaf-empty"
 		item_state = "carlgustaf-empty"
 	update_held_icon()
@@ -247,7 +247,7 @@
 /obj/item/weapon/gun/launcher/finnrpg
 	name = "55 S 55"
 	desc = "A recoilless rifle, standard-issued by the Finnish Army."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "finnrpg" ///change
 	item_state = "finnrpg" ///change
 	slowdown_general = 0.5
@@ -277,11 +277,11 @@
 /obj/item/weapon/gun/launcher/finnrpg/update_icon()
 	..()
 	if(rockets.len)
-		icon = 'icons/obj/coldwarguns48x48.dmi'
+		icon = 'icons/obj/coldwar/guns48x48.dmi'
 		icon_state = "finnrpg" ///change
 		item_state = "finnrpg"
 	else
-		icon = 'icons/obj/coldwarguns48x48.dmi'
+		icon = 'icons/obj/coldwar/guns48x48.dmi'
 		icon_state = "finnrpg-empty" ///change
 		item_state = "finnrpg-empty"
 	update_held_icon()

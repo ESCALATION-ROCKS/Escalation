@@ -1,6 +1,6 @@
 
 /obj/structure/sign/vehicle
-	icon = 'icons/obj/fauxvehicles.dmi'
+	icon = 'icons/obj/coldwar/fauxvehicles.dmi'
 ///////////////////////////// CARS, VEHICLES
 //////MOSKVICH
 /obj/structure/sign/vehicle/moskvich1
@@ -131,14 +131,6 @@
 	anchored = 1
 	density = 1
 
-////////////////BTR
-/obj/structure/sign/vehicle/btr
-	name = "BTR"
-	icon = 'icons/obj/BTR.dmi'
-	icon_state = "BTR"
-	desc = "A Soviet troop carrier."
-	anchored = 1
-	density = 1
 
 ///////////////MOTORCYCLE
 /obj/structure/sign/vehicle/motorcycle
@@ -316,7 +308,7 @@
 //////////helikipotele
 /obj/structure/sign/vehicle/helicopter/
 	name = "Helicopter"
-	icon = 'icons/obj/HELI.dmi'
+	icon = 'icons/obj/coldwar/helicopter.dmi'
 	icon_state = "0,0"
 	anchored = 1
 	density = 0

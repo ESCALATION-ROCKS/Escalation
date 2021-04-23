@@ -1,7 +1,7 @@
 /obj/item/weapon/grenade/smokebomb
 	desc = "It is set to detonate in 2 seconds."
 	name = "smoke bomb"
-	icon = 'icons/obj/grenade.dmi'
+	icon = 'icons/obj/coldwar/grenade.dmi'
 	icon_state = "flashbang"
 	det_time = 20
 	item_state = "flashbang"
@@ -90,7 +90,7 @@
 /obj/item/weapon/grenade/tear
 	desc = "It is set to detonate in 4 seconds."
 	name = "tear gas grenade"
-	icon = 'icons/obj/grenade.dmi'
+	icon = 'icons/obj/coldwar/grenade.dmi'
 	icon_state = "flashbang"
 	det_time = 15
 	item_state = "flashbang"

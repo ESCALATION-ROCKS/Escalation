@@ -1,8 +1,11 @@
 /obj/item/device/whistle
 	name = "\improper whistle"
 	desc = "A metal pea-whistle. Can be blown while held, or worn in the mouth"
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "whistle"
-	w_class = 1.0
+	var/wearable = 1
+	slot_flags = SLOT_EARS
+	w_class = ITEM_SIZE_TINY
 
 	var/volume = 60
 	var/spamcheck = 0

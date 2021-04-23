@@ -2,7 +2,7 @@
 	name = "bullets"
 	desc = "It's a stack of bullets"
 	singular_name = "bullet"
-	icon = 'icons/obj/ammo.dmi'
+	icon = 'icons/obj/coldwar/ammo.dmi'
 	icon_state = null
 	w_class = ITEM_SIZE_TINY
 	max_amount = 5

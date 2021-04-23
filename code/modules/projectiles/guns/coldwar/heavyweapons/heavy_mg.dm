@@ -11,7 +11,7 @@
 /obj/item/weapon/gun/projectile/heavy_mg
 	name = "staionary machinegun"
 	desc = "basic heavy machinegun."
-	icon = 'icons/obj/stationary_guns.dmi'
+	icon = 'icons/obj/coldwar/stationary_guns.dmi'
 	icon_state = "basic-mg"
 	item_state = ""
 	plane = ABOVE_OBJ_PLANE

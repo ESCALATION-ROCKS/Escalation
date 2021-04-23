@@ -219,7 +219,7 @@
 //////////////////////////////
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/combat
 	name = "combat autoinjector"
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	icon_state = "injector_red"
 	volume = 5
 
@@ -269,7 +269,7 @@
 
 /obj/item/weapon/injector_cap
 	name = "injector cap"
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	icon_state = "cap_red"
 
 /obj/item/weapon/injector_cap/New(var/loc, var/color)

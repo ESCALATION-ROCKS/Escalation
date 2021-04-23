@@ -1,7 +1,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/m21
 	name = "M21"
 	desc = "A standard-issue USMC marksman rifle."
-	icon_state = "m21"
+	icon_state = "m21scoped"
 	item_state = "m21"
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	screen_shake = 2
@@ -250,7 +250,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/barrett
 	name = "Barrett M82"
 	desc = "A powerful and recognized anti material rifle. Chambers .50 rounds."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "barrett"
 	item_state = "heavysniper"
 	w_class = 5
@@ -327,7 +327,7 @@
 /obj/item/weapon/gun/projectile/rifle/boltaction/update_icon()
 	..()
 	if(knife)
-		var/image/I = image('icons/obj/bayonets.dmi', src, knife.icon_state)
+		var/image/I = image('icons/obj/coldwar/bayonets.dmi', src, knife.icon_state)
 		I.pixel_x += 10
 		I.pixel_y += 10
 		overlays += I
@@ -408,7 +408,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/l96
 	name = "L96A1"
 	desc = "A standard-issue British sniper rifle. Chambers 7.62x51 rounds."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "l96"
 	item_state = "l96"
 	force = 15
@@ -488,7 +488,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/frf2
 	name = "FR F2"
 	desc = "A standard-issue French sniper rifle. Chambers 7.62x51 rounds."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "frf2"
 	item_state = "frf2"
 	force = 15
@@ -567,7 +567,7 @@
 /obj/item/weapon/gun/projectile/rifle/boltaction/tkiv
 	name = "7.62 Tkiv 85"
 	desc = "A standard issue Finnish sniper rifle. Chambers 7.62X53mmR rounds."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "tkiv"
 	item_state = "tkiv"
 	force = 15
@@ -654,7 +654,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/ssg82
 	name = "SSG 82"
 	desc = "The Scharfschützengewehr 82, a rare East German bolt action rifle. Chambers 5.45x39mm rounds."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "ssg82"
 	item_state = "ssg82"
 	force = 15
@@ -745,7 +745,7 @@
 /obj/item/weapon/gun/projectile/rifle/boltaction/m40a1
 	name = "M40A1"
 	desc = "A standard issue American sniper rifle. Chambers 7.62X51 rounds."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "m40a1"
 	item_state = "m40a1"
 	force = 15
@@ -842,7 +842,7 @@
 /obj/item/weapon/gun/projectile/rifle/boltaction/enfield
 	name = "Enfield SMLE"
 	desc = "A standard issue British sniper rifle. Chambers .303 rounds."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "enfield"
 	item_state = "enfield"
 	force = 15
@@ -882,7 +882,7 @@
 /obj/item/weapon/gun/projectile/rifle/boltaction/mosin
 	name = "Mosin-Nagant M39"
 	desc = "An outdated Finnish rifle. Chambers 7.62x53mmR rounds."
-	icon = 'icons/obj/coldwarguns48x48.dmi'
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "mosin"
 	item_state = "enfield"
 	force = 15

@@ -17,7 +17,7 @@
 /obj/item/weapon/gun/launcher/longbow
 	name = "longbow"
 	desc = "Too simple but still effective."
-	icon = 'icons/obj/weapons.dmi'
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "bow"
 	item_state = "crossbow-solid"
 	fire_sound = 'sound/weapons/punchmiss.ogg' // TODO: Decent THWOK noise.

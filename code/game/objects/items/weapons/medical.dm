@@ -65,7 +65,7 @@
 /obj/item/weapon/gauze_pack
 	name = "pack of nothing"
 	desc = "Contains nothing."
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	w_class = ITEM_SIZE_SMALL //Packed very effective
 	var/content_type = null
 	var/packed = 1
@@ -127,7 +127,7 @@
 /obj/item/stack/medical/bruise_pack/bint///unused
 	name = "Bint"
 	singular_name = "bint length"
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	icon_state = "bint"
 
 /obj/item/weapon/gauze_pack/gauze
@@ -140,7 +140,7 @@
 /obj/item/stack/medical/bruise_pack/gauze
 	name = "roll of gauze"
 	singular_name = "gauze length"
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	icon_state = "gauze"
 
 
@@ -521,7 +521,7 @@
 /obj/item/weapon/pill_pack
 	name = "pill pack"
 	desc = "Pills in sterile and handy pack."
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	w_class = ITEM_SIZE_SMALL//Packed very effective
 	icon_state = "pill_pack"
 	var/pill_type = null
@@ -633,7 +633,7 @@
 /obj/item/weapon/storage/box/pill_box
 	name = "pill box"
 	icon_state = "pillbox"
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_SMALL
 	foldable = 0
@@ -841,7 +841,7 @@
 /obj/item/weapon/ampoule_pack
 	name = "ampoule pack"
 	desc = "That's an ampoule pack."
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	w_class = ITEM_SIZE_SMALL
 	icon_state = "ampoule_pack"
 	var/ampoule_type = null
@@ -949,7 +949,7 @@
 /obj/item/weapon/storage/box/ampoule_box
 	name = "ampoule box"
 	icon_state = "ampoulebox"
-	icon = 'icons/obj/medical.dmi'
+	icon = 'icons/obj/coldwar/medical.dmi'
 	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_SMALL
 	foldable = 0

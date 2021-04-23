@@ -2,7 +2,7 @@
 	name = "metal coil"
 	desc = "Just a coil. Can be used for building, or something."
 	singular_name = "coil"
-	icon = 'icons/obj/craftlootable.dmi'
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "coil"
 	flags = CONDUCT
 	w_class = ITEM_SIZE_LARGE
@@ -20,7 +20,7 @@
 	desc = "Just a rope. Can be used for building, or something."
 	singular_name = "rope"
 	icon_state = "rope"
-	icon = 'icons/obj/craftlootable.dmi'
+	icon = 'icons/obj/coldwar/items.dmi'
 	flags = CONDUCT
 	w_class = ITEM_SIZE_LARGE
 	force = 5.0

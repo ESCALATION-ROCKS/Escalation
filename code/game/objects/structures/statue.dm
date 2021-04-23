@@ -1,7 +1,7 @@
 /obj/structure/carcosa/statue
 	name = "statue"
 	desc = "A statue of some ominous looking, robed, figure. There's barely a scratch on it."
-	icon = 'icons/obj/64x64.dmi'
+	icon = 'icons/obj/coldwar/64x64.dmi'
 	icon_state = "statue"
 	anchored = 1
 	density = 1

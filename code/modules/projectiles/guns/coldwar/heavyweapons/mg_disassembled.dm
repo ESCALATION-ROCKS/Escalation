@@ -4,7 +4,7 @@
 
 /obj/item/weapon/mg_disassembled
 	name = "disassembled stationary machinegun"
-	icon = 'icons/obj/stationary_guns.dmi'
+	icon = 'icons/obj/coldwar/stationary_guns.dmi'
 	icon_state = "basic-mg-disconnected"
 	w_class = ITEM_SIZE_GARGANTUAN
 	var/id_g = "bmg"

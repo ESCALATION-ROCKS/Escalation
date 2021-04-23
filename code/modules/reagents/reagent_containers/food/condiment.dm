@@ -110,19 +110,19 @@
 					name = "ration component (instant tea)"
 					desc = "A package from a ration pack. Contains instant tea powder. Don't drink this straight, mix with 15u hot water!"
 					icon_state = "instanttea"
-					icon = 'icons/obj/us_mre.dmi'
+					icon = 'icons/obj/coldwar/us_mre.dmi'
 					center_of_mass = "x=16;y=6"
 				if(/datum/reagent/drink/instantcoffee)
 					name = "ration component (instant coffee)"
 					desc = "A package from a ration pack. Contains instant coffee powder. Don't drink this straight, mix with 15u water!"
 					icon_state = "instantcoffee"
-					icon = 'icons/obj/us_mre.dmi'
+					icon = 'icons/obj/coldwar/us_mre.dmi'
 					center_of_mass = "x=16;y=6"
 				if(/datum/reagent/drink/gatoradepowder)
 					name = "ration component (gatorade powder)"
 					desc = "A package from a ration pack. Contains gatorade drink powder. Don't drink this straight, mix with 15u water!"
 					icon_state = "gatorade"
-					icon = 'icons/obj/us_mre.dmi'
+					icon = 'icons/obj/coldwar/us_mre.dmi'
 					center_of_mass = "x=16;y=6"
 				else
 					name = "Misc Condiment Bottle"

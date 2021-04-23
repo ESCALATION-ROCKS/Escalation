@@ -98,7 +98,7 @@
 	name = "barbwire coil"
 	desc = "Barbwire coil used for setting up barbwire."
 	singular_name = "barbwire coil"
-	icon = 'icons/obj/craftlootable.dmi'
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "barbwire"
 	item_state = "rods"
 	flags = CONDUCT
@@ -146,7 +146,7 @@
 	name = "hedgehog rods"
 	desc = "Bent metal rods used to assemble a hedgehog."
 	singular_name = "hedgehog rod"
-	icon = 'icons/obj/craftlootable.dmi'
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "hedgehog"
 	item_state = "rods"
 	flags = CONDUCT

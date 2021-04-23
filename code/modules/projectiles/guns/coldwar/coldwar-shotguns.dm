@@ -31,7 +31,7 @@
 /obj/item/weapon/gun/projectile/rifle/pumpaction/update_icon()
 	..()
 	if(knife)
-		var/image/I = image('icons/obj/bayonets.dmi', src, knife.icon_state)
+		var/image/I = image('icons/obj/coldwar/bayonets.dmi', src, knife.icon_state)
 		I.pixel_x += 10
 		I.pixel_y += 10
 		overlays += I

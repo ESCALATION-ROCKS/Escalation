@@ -3,7 +3,7 @@
 /obj/structure/mortar
 	name = "Mortar"
 	desc = "Mortar"
-	icon = 'icons/Marine/mortar.dmi'
+	icon = 'icons/obj/coldwar/mortar.dmi'
 	icon_state = "mortar_m402"
 	anchored = 1
 	density = 1
@@ -184,7 +184,7 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 /obj/item/mortar_kit
 	name = "\improper M402 mortar portable kit"
 	desc = "A manual, crew-operated mortar system intended to rain down 80mm goodness on anything it's aimed at. Needs to be set down first"
-	icon = 'icons/Marine/mortar.dmi'
+	icon = 'icons/obj/coldwar/mortar.dmi'
 	icon_state = "mortar_m402_carry"
 	unacidable = 1
 	w_class = 5
@@ -209,7 +209,7 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 /obj/item/mortar_shell
 	name = "\improper 80mm mortar shell"
 	desc = "An unlabeled 80mm mortar shell, probably a casing."
-	icon = 'icons/Marine/mortar.dmi'
+	icon = 'icons/obj/coldwar/mortar.dmi'
 	icon_state = "mortar_ammo_cas"
 	w_class = 5
 	var/list/fragment_types = list(/obj/item/projectile/bullet/pellet/fragment = 1)
@@ -225,7 +225,7 @@ obj/structure/mortar/attackby(var/obj/item/O as obj, mob/user as mob)
 obj/item/mortar_shell/he
 	name = "\improper 80mm High Explosive mortar shell"
 	desc = "An 80mm mortar shell, loaded with a Highly Explosive Charge."
-	icon = 'icons/Marine/mortar.dmi'
+	icon = 'icons/obj/coldwar/mortar.dmi'
 	icon_state = "mortar_ammo_he"
 	spread_range = 0
 
@@ -235,7 +235,7 @@ obj/item/mortar_shell/he
 obj/item/mortar_shell/frag
 	name = "\improper 80mm Fragmentation mortar shell"
 	desc = "An 80mm mortar shell, loaded with a small charge surrounded by Deadly Metal Pellets."
-	icon = 'icons/Marine/mortar.dmi'
+	icon = 'icons/obj/coldwar/mortar.dmi'
 	icon_state = "mortar_ammo_he"
 	fragment_types = list(/obj/item/projectile/bullet/pellet/fragment/mortar)
 	num_fragments = 350  //total number of fragments produced by the grenade

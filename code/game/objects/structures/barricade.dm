@@ -172,7 +172,7 @@
 
 /obj/item/weapon/sandbag
 	name = "sandbags"
-	//icon = 'icons/obj/weapons.dmi'
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "sandbag_empty"
 	w_class = 1
 	var/sand_amount = 0//how much piles of dirt on item's spawn

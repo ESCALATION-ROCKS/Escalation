@@ -2,7 +2,7 @@
 //backpack item
 /obj/item/weapon/radioset
 	name = "radio kit"
-	icon = 'icons/obj/radio.dmi'
+	icon = 'icons/obj/coldwar/radio.dmi'
 	icon_state = "defibunit"
 	item_state = "defibunit"
 	slot_flags = SLOT_BACK
@@ -205,7 +205,7 @@ var/global/list/army_channels_ph = list(
 )
 
 /obj/item/device/radio/escalation/
-	icon = 'icons/obj/radio.dmi'
+	icon = 'icons/obj/coldwar/radio.dmi'
 	icon_state = "warpact_radio"
 	item_state = "warpact_radio"
 

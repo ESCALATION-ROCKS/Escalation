@@ -418,7 +418,7 @@
 ////////////ammo cans
 
 /obj/item/weapon/storage/fancy/ammo_can
-	icon = 'icons/obj/ammocan.dmi'
+	icon = 'icons/obj/coldwar/ammocan.dmi'
 	icon_state = "ammocan"
 	name = "ammo can"
 	storage_slots = 10

@@ -31,7 +31,7 @@
 /obj/item/weapon/gun
 	name = "gun"
 	desc = "Its a gun. It's pretty terrible, though."
-	icon = 'icons/obj/coldwarguns32x32.dmi'
+	icon = 'icons/obj/coldwar/guns32x32.dmi'
 	item_icons = list(
 		slot_l_hand_str = 'icons/mob/items/lefthand_guns.dmi',
 		slot_r_hand_str = 'icons/mob/items/righthand_guns.dmi',

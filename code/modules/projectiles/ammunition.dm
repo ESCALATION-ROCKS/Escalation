@@ -1,7 +1,7 @@
 /obj/item/ammo_casing
 	name = "bullet casing"
 	desc = "A bullet casing."
-	icon = 'icons/obj/ammo.dmi'
+	icon = 'icons/obj/coldwar/ammo.dmi'
 	icon_state = "s-casing"
 	randpixel = 10
 	flags = CONDUCT
@@ -160,7 +160,7 @@
 	name = "magazine"
 	desc = "A magazine for some kind of gun."
 	icon_state = "357"
-	icon = 'icons/obj/ammo.dmi'
+	icon = 'icons/obj/coldwar/ammo.dmi'
 	flags = CONDUCT
 	item_state = "syringe_kit"
 	matter = list(DEFAULT_WALL_MATERIAL = 500)

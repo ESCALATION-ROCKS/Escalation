@@ -47,18 +47,21 @@
 /obj/item/device/binoculars/wp
 	name = "binoculars"
 	desc = "A pair of binoculars."
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "wp_bino"
 	item_state = "wp_bino"
 
 /obj/item/device/binoculars/nato
 	name = "binoculars"
 	desc = "A pair of binoculars."
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "nato_bino"
 	item_state = "nato_bino"
 
 /obj/item/weapon/maptool
 	name = "Map tools"
 	desc = "A foldable map of the sector and a bundle of cartographic untensils. Used together with binoculars to calculate coordinates."
+	icon = 'icons/obj/coldwar/items.dmi'
 	icon_state = "maptools"
 	w_class = ITEM_SIZE_SMALL
 	slot_flags = SLOT_POCKET

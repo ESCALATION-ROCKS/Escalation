@@ -271,10 +271,10 @@ obj/flamer_fire/proc/make_more_fire(var/T, var/f_level, var/b_level, var/fcolor,
 ///////////////WEAPONS
 
 /obj/item/weapon/grenade/fire
-	icon = 'icons/obj/grenade.dmi'
+	icon = 'icons/obj/coldwar/grenade.dmi'
 	name = "incendiary grenade"
 	desc = "A military incendiary grenade designed to spread and ignite a vast ammount of highly flammable liquid."
-	icon_state = "concussion"
+	icon_state = "anm14"
 	throw_range = 10
 
 	var/fire_range = 2 // size of the fire zone
@@ -290,7 +290,6 @@ obj/flamer_fire/proc/make_more_fire(var/T, var/f_level, var/b_level, var/fcolor,
 	qdel(src)
 
 /obj/item/weapon/grenade/fire/anm14
-	icon = 'icons/obj/grenade.dmi'
 	name = "AN/M14"
 	desc = "An incendiary grenade used by NATO armies."
 	icon_state = "anm14"

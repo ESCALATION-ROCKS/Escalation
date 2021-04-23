@@ -209,7 +209,7 @@
  */
 /obj/structure/bed/roller
 	name = "roller bed"
-	icon = 'icons/obj/rollerbed.dmi'
+	icon = 'icons/obj/coldwar/rollerbed.dmi'
 	icon_state = "down"
 	icon_state = "rbed"
 	anchored = 0
@@ -236,7 +236,7 @@
 /obj/item/roller
 	name = "stretcher"
 	desc = "A collapsed roller bed that can be carried around."
-	icon = 'icons/obj/rollerbed.dmi'
+	icon = 'icons/obj/coldwar/rollerbed.dmi'
 	icon_state = "folded"
 	item_state = "rbed"
 	slot_flags = SLOT_BACK
@@ -263,7 +263,7 @@
 /obj/item/roller_holder
 	name = "roller bed rack"
 	desc = "A rack for carrying a collapsed roller bed."
-	icon = 'icons/obj/rollerbed.dmi'
+	icon = 'icons/obj/coldwar/rollerbed.dmi'
 	icon_state = "folded"
 	var/obj/item/roller/held
 

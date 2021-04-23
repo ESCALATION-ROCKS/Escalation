@@ -7,7 +7,7 @@
 	storage_slots = 5
 	w_class = ITEM_SIZE_SMALL
 	foldable = 0
-	icon = 'icons/obj/us_mre.dmi'
+	icon = 'icons/obj/coldwar/us_mre.dmi'
 	var/isopened = 0
 
 /obj/item/weapon/storage/box/MRE/New()
@@ -44,7 +44,7 @@
 	bitesize = 3
 	w_class = ITEM_SIZE_SMALL
 	icon_state = "entree"
-	icon = 'icons/obj/us_mre.dmi'
+	icon = 'icons/obj/coldwar/us_mre.dmi'
 	var/flavor = "boneless pork ribs"//default value
 
 	New(loc, newflavor)
@@ -92,7 +92,7 @@
 	amount_per_transfer_from_this = 1
 	volume = 5
 	icon_state = "drink"
-	icon = 'icons/obj/us_mre.dmi'
+	icon = 'icons/obj/coldwar/us_mre.dmi'
 	var/flavor = "instanttea"//default value
 
 	New(loc, newflavor)
@@ -123,7 +123,7 @@
 	can_hold = null////Disables putting things back in the MRE.
 	storage_slots = 5
 	foldable = 0
-	icon = 'icons/obj/baf_mre.dmi'
+	icon = 'icons/obj/coldwar/baf_mre.dmi'
 	var/isopened = 0
 /*ORP means Operational Ration Pack */
 /obj/item/weapon/storage/box/ORP/New()
@@ -160,7 +160,7 @@
 	bitesize = 3
 	w_class = ITEM_SIZE_SMALL
 	icon_state = "entree"
-	icon = 'icons/obj/baf_mre.dmi'
+	icon = 'icons/obj/coldwar/baf_mre.dmi'
 	var/flavor = "bacon & beans"//default value
 
 	New(loc, newflavor)

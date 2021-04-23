@@ -1,5 +1,5 @@
 /obj/item/device/radio
-	icon = 'icons/obj/radio.dmi'
+	icon = 'icons/obj/coldwar/radio.dmi'
 	name = "shortwave radio"
 	suffix = "\[3\]"
 	icon_state = "walkietalkie"

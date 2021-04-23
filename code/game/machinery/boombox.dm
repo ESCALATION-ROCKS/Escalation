@@ -1,6 +1,6 @@
 /obj/item/device/boombox
 	name = "boombox"
-	icon = 'icons/obj/boombox.dmi'
+	icon = 'icons/obj/coldwar/boombox.dmi'
 	icon_state = "boombox"
 	item_state = "boombox"
 	var/obj/item/device/cassette/casseta = null
@@ -89,7 +89,7 @@
 /obj/item/device/cassette
 	name = "cassette tape"
 	desc = "A cassette tape."
-	icon = 'icons/obj/boombox.dmi'
+	icon = 'icons/obj/coldwar/boombox.dmi'
 	icon_state = "cassette_0"
 	var/sound/sound_inside
 	w_class = ITEM_SIZE_TINY

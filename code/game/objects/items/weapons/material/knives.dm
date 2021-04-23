@@ -101,85 +101,73 @@
 	sharp = 1
 	edge = 1
 	item_state = "knife"
+	icon = 'icons/obj/coldwar/items.dmi'
 	sharpness = 5
 	var/embed_chance = null
 
 /obj/item/weapon/material/knife/bayonet/sa/a6h4
 	name = "6h4 bayonet"
 	desc = "An AK74 bayonet with two sharp edges near the point."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "6h4"
 
 /obj/item/weapon/material/knife/bayonet/sa/a6h4/ddr
 	name = "Modell AK74 bayonet"
 	desc = "An AK74 bayonet with two sharp edges near the point."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "6h4_ddr"
 
 /obj/item/weapon/material/knife/bayonet/sa/a6h3
 	name = "6h3 bayonet"
 	desc = "An AKM bayonet with two sharp edges near the point."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "6h3"
 
 /obj/item/weapon/material/knife/bayonet/sa/a6h3/ddr
 	name = "Mehrzweckbajonett M1959"
 	desc = "An AKM bayonet with two sharp edges near the point."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "6h3_ddr"
 
 /obj/item/weapon/material/knife/bayonet/csla
 	name = "Bodak vz.58"
 	desc = "A slim and sharp, but somewhat fragile Czechoslovakian bayonet."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "csla"
 
 /obj/item/weapon/material/knife/bayonet/usmc
 	name = "M7 bayonet"
 	desc = "A 12 inch bayonet with a carbon-steel blade. This one was manufacured in West Germany."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "usmc"
 
 /obj/item/weapon/material/knife/bayonet/bdw
 	name = "Kampfmesser M68"
 	desc = "Combat knife of the Bundeswehr forces. German quality."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "bdw"
 
 /obj/item/weapon/material/knife/bayonet/baf
 	name = "L1A3 bayonet"
 	desc = "A 9 inch bayonet with a carbon-steel blade. Produced in Great Britain."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "baf"
 
 /obj/item/weapon/material/knife/bayonet/finn
 	name = "M62 Valmet bayonet"
 	desc = "A bayonet based on Finnish 'puukko' knives."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "finn"
 
 /obj/item/weapon/material/knife/bayonet/heer
 	name = "Feldmesser M78 bayonet"
 	desc = "Combat knife of the Bundesheer forces. German quality."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "heer"
 
 /obj/item/weapon/material/knife/bayonet/esp
 	name = "Machete Bayoneta Modelo 1964"
 	desc = "A CETME bayonet with two sharp edges near the tip."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "esp"
 
 /obj/item/weapon/material/knife/bayonet/fra
 	name = "M 1958 bayonet"
 	desc = "A FAMAS bayonet with two sharp edges near the tip."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "fra"
 
 /obj/item/weapon/material/knife/bayonet/taiga
 	name = "'Taiga' machete"
 	desc = "A deadly Spetsnaz machete. Smart people would stay away from it."
-	icon = 'icons/obj/weapons.dmi'
 	icon_state = "taiga"
 	item_state = "taiga"
 	force_divisor = 2
