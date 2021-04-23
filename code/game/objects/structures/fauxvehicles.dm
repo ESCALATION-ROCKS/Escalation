@@ -149,7 +149,7 @@
 ////////////URAL
 ///////////////1-4 IS THE ENGINE
 /obj/structure/sign/vehicle/ural
-	icon = 'icons/obj/URAL.dmi'
+	icon = 'icons/obj/coldwar/URAL.dmi'
 	
 /obj/structure/sign/vehicle/ural/uralfront1
 	name = "URAL"

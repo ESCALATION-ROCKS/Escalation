@@ -48,7 +48,7 @@
 /obj/structure/brustwehr
 	name = "brustwehr"
 	desc = "A breast-high earthwork structure meant to provide cover."
-	icon = 'icons/obj/sandbags.dmi'
+	icon = 'icons/obj/coldwar/sandbags.dmi'
 	icon_state = "brustwehr_0"
 	density = 1
 	throwpass = 1//we can throw grenades despite its density
@@ -193,7 +193,7 @@
 /obj/machinery/deployable/brustwehr_cade
 	name = "burstwehr wood barricade"
 	desc = "Some wooden planks covering a brustwehr."
-	icon = 'icons/obj/sandbags.dmi'
+	icon = 'icons/obj/coldwar/sandbags.dmi'
 	anchored = 1
 	density = 1
 	icon_state = "brustwehr_barricadeoverlay"
