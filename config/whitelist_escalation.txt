@@ -16,25 +16,721 @@ SeverePwnage = {
 
 ############### USMC OFFICER
 
+Battieralarm3 = {
+usmc_officer
+}
+
+AlanParkerMasters = {
+usmc_officer
+}
+
+
 ############### USMC NCO
+
+ToroidalZer0 = {
+usmc_nco
+}
+
+Freeders = {
+usmc_nco
+}
+
+yung bruh = {
+usmc_nco
+}
+
+Subdon = {
+usmc_nco
+}
+
+Jerman5 = {
+usmc_nco
+}
+
+Spectre808 = {
+usmc_nco
+}
+
 
 ############### USMC ENLISTED
 
+Sandvich123 = {
+usmc_enlisted
+}
+
+NobleRank = {
+usmc_enlisted
+}
+
+Foxeye = {
+usmc_enlisted
+}
+
+Blobmaker3 = {
+usmc_enlisted
+}
+
+MeeM4903 = {
+usmc_enlisted
+}
+
+Sparta_louco = {
+usmc_enlisted
+}
+
+Zray3003 = {
+usmc_enlisted
+}
+
+PrimusOmega = {
+usmc_enlisted
+}
+
+Thatfreak = {
+usmc_enlisted
+}
+
+Desgarradordeprostata = {
+usmc_enlisted
+}
+
+airpiglet = {
+usmc_enlisted
+}
+
+Balpindo = {
+usmc_enlisted
+}
+
+MymindisBlank = {
+usmc_enlisted
+}
+
+xDyou = {
+usmc_enlisted
+}
+
+Dukedukeduke = {
+usmc_enlisted
+}
+
+MAZENALMORAUD = {
+usmc_enlisted
+}
+
+The Spire = {
+usmc_enlisted
+}
+
+Jariko = {
+usmc_enlisted
+}
+
+BulkaGoblina = {
+usmc_enlisted
+}
+
+thatchedrooves = {
+usmc_enlisted
+}
+
+AAAASH = {
+usmc_enlisted
+}
+
+Sapu222 = {
+usmc_enlisted
+}
+
+Chalbo159 = {
+usmc_enlisted
+}
+
+Nbveh123 = {
+usmc_enlisted
+}
+
+0nemore = {
+usmc_enlisted
+}
+
+Xenonia = {
+usmc_enlisted
+}
+
+ILikeToGammon = {
+usmc_enlisted
+}
+
+Junkass2 = {
+usmc_enlisted
+}
+
+Gy1ta23 = {
+usmc_enlisted
+}
+
+Egorium = {
+usmc_enlisted
+}
+
+MICHIoesi = {
+usmc_enlisted
+}
+
+lastcrusader105 = {
+usmc_enlisted
+}
+
+Cadet0 = {
+usmc_enlisted
+}
+
+Selchoni = {
+usmc_enlisted
+}
+
+Fivetime = {
+usmc_enlisted
+}
+
+Misterboris = {
+usmc_enlisted
+}
+
+Merrgear = {
+usmc_enlisted
+}
+
+spaceslug = {
+usmc_enlisted
+}
+
+Ranbee = {
+usmc_enlisted
+}
+
+TommyGoYonder = {
+usmc_enlisted
+}
+
+146DIS = {
+usmc_enlisted
+}
+
+
 ############### USMC SPECOPS
+
+BlazSnake = {
+usmc_specops
+}
+
+SilverSZ = {
+usmc_specops
+}
+
+PepeFrog = {
+usmc_specops
+}
+
+Tristan63 = {
+usmc_specops
+}
+
+Yacobpo157 = {
+usmc_specops
+}
+
+SilencedMP5A5 = {
+usmc_specops
+}
+
+TheManWhoSoldTheHorns = {
+usmc_specops
+}
+
+ExecutorPartner = {
+usmc_specops
+}
+
 
 ############### HEER OFFICER
 
+Verarch = {
+heer_officer
+}
+
 ############### HEER NCO
+
+Taumanta = {
+heer_nco
+}
+
+Scoobov = {
+heer_nco
+}
+
+DemtrixD = {
+heer_nco
+}
+
+Corbe = {
+heer_nco
+}
+
+BoringCommunist = {
+heer_nco
+}
+
+Arbs = {
+heer_nco
+}
+
 
 ############### HEER ENLISTED
 
+Bamhalazam = {
+heer_enlisted
+}
+
+TeenGowen = {
+heer_enlisted
+}
+
+Koekiegast = {
+heer_enlisted
+}
+
+aguyiguess = {
+heer_enlisted
+}
+
+FattyBunBah = {
+heer_enlisted
+}
+
+Caryl = {
+heer_enlisted
+}
+
+Hhahs28 = {
+heer_enlisted
+}
+
+Logbomb = {
+heer_enlisted
+}
+
+blankcat = {
+heer_enlisted
+}
+
+Sapu222 = {
+heer_enlisted
+}
+
+cardsnapper = {
+heer_enlisted
+}
+
+b3anz = {
+heer_enlisted
+}
+
+Eric066 = {
+heer_enlisted
+}
+
+Kpw274 = {
+heer_enlisted
+}
+
+Lord_Inquisitor228 = {
+heer_enlisted
+}
+
+Zack24 = {
+heer_enlisted
+}
+
+FatSeal = {
+heer_enlisted
+}
+
+MadMrE = {
+heer_enlisted
+}
+
+ReBull = {
+heer_enlisted
+}
+
+epicdwarf = {
+heer_enlisted
+}
+
+Coreywin = {
+heer_enlisted
+}
+
+Sha.SCT = {
+heer_enlisted
+}
+
+vlad3 = {
+heer_enlisted
+}
+
+Lautaroluna180 = {
+heer_enlisted
+}
+
+DancingIsNeverAllowed = {
+heer_enlisted
+}
+
+Window Licker = {
+heer_enlisted
+}
+
+Rata123 = {
+heer_enlisted
+}
+
+WildSwan = {
+heer_enlisted
+}
+
+Gefrakt = {
+heer_enlisted
+}
+
+FoxTail_99 = {
+heer_enlisted
+}
+
+Nobillynotreally = {
+heer_enlisted
+}
+
+Booperkin343435 = {
+heer_enlisted
+}
+
+0xDEED = {
+heer_enlisted
+}
+
+Nightmare1243 = {
+heer_enlisted
+}
+
+Bob Newman = {
+heer_enlisted
+}
+
 ############### SA OFFICER
+
+Lushsalmon123 = {
+sa_officer
+}
+
 
 ############### SA NCO
 
+BornToKill946 = {
+sa_nco
+}
+
+Jackomago61 = {
+sa_nco
+}
+
+Nayser = {
+sa_nco
+}
+
+Trollarch = {
+sa_nco
+}
+
+atlasrules34 = {
+sa_nco
+}
+
+Kindadread = {
+sa_nco
+}
+
+Eshlk = {
+sa_nco
+}
+
+
 ############### SA ENLISTED
 
+Night_Fang212 = {
+sa_enlisted
+}
+
+AvgustFroch = {
+sa_enlisted
+}
+
+Kulduad = {
+sa_enlisted
+}
+
+Ondrej008 = {
+sa_enlisted
+}
+
+Billy Hays = {
+sa_enlisted
+}
+
+redory = {
+sa_enlisted
+}
+
+ceasarjunior233 = {
+sa_enlisted
+}
+
+Polyglophone = {
+sa_enlisted
+}
+
+revIn = {
+sa_enlisted
+}
+
+LeoTheKiller = {
+sa_enlisted
+}
+
+Rinambam = {
+sa_enlisted
+}
+
+Timtwoshoes = {
+sa_enlisted
+}
+
+Yarnhut = {
+sa_enlisted
+}
+
+KaiserBlackwood = {
+sa_enlisted
+}
+
+Mikaelcg = {
+sa_enlisted
+}
+
+MixqnovR64 = {
+sa_enlisted
+}
+
+GeniyEvgeniy = {
+sa_enlisted
+}
+
+Sivuha = {
+sa_enlisted
+}
+
+Bob46 = {
+sa_enlisted
+}
+
+JustOrangeDrink = {
+sa_enlisted
+}
+
+Achap = {
+sa_enlisted
+}
+
+sugarbone = {
+sa_enlisted
+}
+
+Nikita588 = {
+sa_enlisted
+}
+
+James Kirk = {
+sa_enlisted
+}
+
+AngryBoar = {
+sa_enlisted
+}
+
+Real Josef Stalin = {
+sa_enlisted
+}
+
+MrMischief2015 = {
+sa_enlisted
+}
+
+Kyrac = {
+sa_enlisted
+}
+
+Youre in a coma = {
+sa_enlisted
+}
+
+Jorogao = {
+sa_enlisted
+}
+
+Churro5 = {
+sa_enlisted
+}
+
+Moorish_infanteer = {
+sa_enlisted
+}
+
+TurtleCacti = {
+sa_enlisted
+}
+
+Bobmancer343 = {
+sa_enlisted
+}
+
+Tsoutsekios = {
+sa_enlisted
+}
+
+TotalEpicness5 = {
+sa_enlisted
+}
+
+Raze500 = {
+sa_enlisted
+}
+
+ChironTheFloof = {
+sa_enlisted
+}
+
+ZandraEmmie = {
+sa_enlisted
+}
+
+Bicardine = {
+sa_enlisted
+}
+
+Skoomonk = {
+sa_enlisted
+}
+
+Getbrecked = {
+sa_enlisted
+}
+
+Bongozs = {
+sa_enlisted
+}
+
+Joooks = {
+sa_enlisted
+}
+
+AlexUNDRRRMKaroff = {
+sa_enlisted
+}
+
+MO_oNyMan = {
+sa_enlisted
+}
+
+Wotzizname = {
+sa_enlisted
+}
+
+Slirps = {
+sa_enlisted
+}
+
+MereWalker = {
+sa_enlisted
+}
+
+optimisticdude = {
+sa_enlisted
+}
+
+Frenchoskeet = {
+sa_enlisted
+}
+
+Suriyel = {
+sa_enlisted
+}
+
+Duke of Wellington = {
+sa_enlisted
+}
+
+Unknownreptile = {
+sa_enlisted
+}
+
+MinecrafterBoi = {
+sa_enlisted
+}
+
+sonyxperia = {
+sa_enlisted
+}
+
+Hsiwe = {
+sa_enlisted
+}
+
+BartDrown = {
+sa_enlisted
+}
+
+
 ############### SA SPECOPS
+
+luftie = {
+sa_specops
+}
+
+theflyingbananagaming = {
+sa_specops
+}
+
+DecebalStalin = {
+sa_specops
+}
+
+petey112 = {
+sa_specops
+}
+
+Echion = {
+sa_specops
+}
+
+Bolotniy = {
+sa_specops
+}
+
+SilencedMP5A5 = {
+sa_specops
+}
 
 ############### CSLA OFFICER
 
