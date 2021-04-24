@@ -22,6 +22,8 @@
 	var/icon_state_unzipped = null
 	flags_inv = null
 	w_class = ITEM_SIZE_HUGE
+	valid_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
 
 /obj/item/clothing/head/coldwar/helmet/attack_self(mob/user as mob)
 	if(icon_state == initial(icon_state))
@@ -691,15 +693,24 @@
 	..()
 	overlay = GLOB.global_hud.nvg
 
-//HEV Helmets
 
-/obj/item/clothing/head/coldwar/helmet/hev_helm/
-	name = "H.E.V Advanced Helmet"
-	desc = "An experimental protective helmet used in combination with the Black Mesa H.E.V Suit"
-	icon_state = "pasgt-green"
-	armor = list(melee = 99, bullet = 99, laser = 99, energy = 99, bomb = 99, bio = 100, rad = 100)
-	siemens_coefficient = 0.9
-	icon_state = "hev_helm_s"
+///helmet covers
+/obj/item/clothing/accessory/armor/coldwar/helmcover
+	name = "helmet cover"
+	desc = "A fabric cover for armored helmets."
+	icon_override = 'icons/mob/modular_armor_new.dmi'
+	icon = 'icons/obj/clothing/modular_armor.dmi'
+	accessory_icons = list(slot_tie_str = 'icons/mob/modular_armor_new.dmi', slot_head_str = 'icons/mob/modular_armor_new.dmi')
+	icon_state = "null"
+	slot = ACCESSORY_SLOT_HELM_C
+	wearable = 1
+	
+/obj/item/clothing/accessory/armor/coldwar/helmcover/m56/strichtarn
+	name = "Strichtarn M56 cover"
+	desc = "A raindrop pattern cover for M56 helmets."
+	icon_state = "m56_strich"
 
-/obj/item/clothing/head/coldwar/helmet/hev_helm/woodland
-	icon_state = "hev_helm_w"
+/obj/item/clothing/accessory/armor/coldwar/helmcover/m56/netting
+	name = "M56 netting cover"
+	desc = "A netting mesh for M56 helmets."
+	icon_state = "m56_netting"

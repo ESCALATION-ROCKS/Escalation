@@ -222,27 +222,3 @@
 	desc = "An officer issue Soviet Army winter coat"
 	icon_state = "parkasaofficer"
 	item_state = "parkasaofficer"
-
-//Wake up, Mister Freeman, Wake up, and Smell the Ashes.
-
-/obj/item/clothing/suit/armor/vest/coldwar/hev/
-	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA)
-	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
-	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
-	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
-	min_cold_protection_temperature = ARMOR_MIN_COLD_PROTECTION_TEMPERATURE
-	heat_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
-	max_heat_protection_temperature = ARMOR_MAX_HEAT_PROTECTION_TEMPERATURE
-	siemens_coefficient = 0.6
-
-/obj/item/clothing/suit/armor/vest/coldwar/hev
-	name = "H.E.V Suit"
-	desc = "Experimental Protective Armor Created by Black Mesa."
-	icon_state = "hev_s"
-	item_state = "armor"
-	w_class = ITEM_SIZE_LARGE
-	armor = list(melee = 99, bullet = 99, laser = 99, energy = 99, bomb = 99, bio = 100, rad = 100)
-	slowdown_general = 0.2
-
-/obj/item/clothing/suit/armor/vest/coldwar/hev/woodland
-	icon_state = "hev_w"
