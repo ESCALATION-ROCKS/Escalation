@@ -353,7 +353,7 @@
 	flags = OUTFIT_HAS_SABACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/soviet/vympbr
-	name = OUTFIT_JOB_NAME("Coldwar - KGB Narushitel")
+	name = OUTFIT_JOB_NAME("Coldwar - KGB Shturmovik")
 	uniform = /obj/item/clothing/under/coldwar/soviet/berezka/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/sheath/taiga

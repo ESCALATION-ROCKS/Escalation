@@ -3266,7 +3266,7 @@
 "oxe" = (/obj/structure/table/rack/holorack,/obj/effect/floor_decal/spline/fancy{dir = 10},/obj/effect/floor_decal/spline/fancy{dir = 6},/obj/item/weapon/reagent_containers/food/condiment/sugarsack,/obj/item/weapon/reagent_containers/food/condiment/sugarsack,/obj/item/weapon/reagent_containers/food/condiment/sugarsack,/obj/item/weapon/reagent_containers/food/condiment/sugarsack,/obj/item/weapon/reagent_containers/food/condiment/sugarsack,/obj/item/weapon/reagent_containers/food/condiment/sugarsack,/obj/item/weapon/reagent_containers/food/condiment/sugarsack,/obj/item/weapon/reagent_containers/food/condiment/sugarsack,/turf/simulated/floor/tiled/bunker/red,/area/coldwar/largeenclosed)
 "oxl" = (/obj/effect/floor_decal/turf/plating,/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
 "oxy" = (/obj/machinery/light/small/warmtint{dir = 8},/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar/mediumenclosed)
-"oxA" = (/obj/structure/sign/vehicle/ural/uralmidchair{name = "Boat"},/obj/effect/floor_decal/newcorner/plating/diagonal,/obj/effect/landmark/start{name = "KGB Narushitel"},/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
+"oxA" = (/obj/structure/sign/vehicle/ural/uralmidchair{name = "Boat"},/obj/effect/floor_decal/newcorner/plating/diagonal,/obj/effect/landmark/start{name = "KGB Shturmovik"},/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
 "oxL" = (/obj/structure/table/fancy,/obj/item/weapon/newspaper,/turf/simulated/floor/carpet/green,/area/coldwar/mediumenclosed)
 "oxR" = (/obj/structure/newfence/wooden{icon_state = "fence_3"},/turf/unsimulated/ground,/area/coldwar)
 "oya" = (/turf/simulated/wall/concrete_grey,/area/coldwar/smallsoftfloor)

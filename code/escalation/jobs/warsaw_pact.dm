@@ -515,8 +515,8 @@
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
 /datum/job/escalation/cccp/vympbr
-	title = "KGB Narushitel"
-	name = "Narushitel Elementa"
+	title = "KGB Shturmovik"
+	name = "Shturmovik Elementa"
 	english_name = "Element Breacher"
 	minimal_player_age = 21
 	economic_modifier = 5
