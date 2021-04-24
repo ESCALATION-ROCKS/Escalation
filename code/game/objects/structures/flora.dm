@@ -768,7 +768,7 @@
 /obj/structure/flora/smallrock
 	name = "small rock"
 	desc = "Boring like your own life."
-	icon = 'icons/obj/flora/rocks.dmi'
+	icon = 'icons/obj/rocks.dmi'
 	icon_state = "smallrock1"
 	layer = -16
 	anchored = 1
@@ -783,7 +783,7 @@
 /obj/structure/flora/bigrock
 	name = "rock"
 	desc = "Boring like your own life."
-	icon = 'icons/obj/flora/rocks.dmi'
+	icon = 'icons/obj/rocks.dmi'
 	icon_state = "bigrock1"
 	anchored = 1
 	density = 0
