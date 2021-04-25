@@ -169,6 +169,25 @@
 		..()
 		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
 
+/datum/job/escalation/cccp/sasapperleader
+	title = "SA Saper Leader"
+	name = "Saper"
+	english_name = "Sapper Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sapperleader
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
+
 /datum/job/escalation/cccp/samedic
 	title = "SA Polevoi Medik"
 	name = "Polevoi Medik"
@@ -1199,7 +1218,7 @@
 	selection_color = "#FA8072"
 	rank_number = 4
 	position = "team"
-	amount = 4
+	amount = 1
 	enabled = 1
 	whitelist_rank = "finn_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 100)
@@ -1238,7 +1257,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/marksman
 	selection_color = "#FA8072"
 	rank_number = 4
-	position = "team"
+	position = "fireteam"
 	amount = 1
 	enabled = 1
 	whitelist_rank = "finn_nco"
@@ -1370,6 +1389,26 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/finn/finnsquadcorpsman
+	title = "FINN Medisiinari"
+	name = "Medisiinari"
+	english_name = "Squad Medic"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/corpsman
+	selection_color = "#FA8072"
+	rank_number = 4
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 100)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
+
 
 /datum/job/escalation/finn/finnhwtlead
 	title = "FINN Raskasaseiden komentaja"
@@ -1456,7 +1495,7 @@
 /datum/job/escalation/finn/finnrocket
 	title = "FINN Panssarintorjunta ampuja"
 	name = "Panssarintorjunta ampuja"
-	english_name = "AT Patrol Grenadier"
+	english_name = "Squad Grenadier"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
@@ -1493,7 +1532,43 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/finn/pioneeri
+	title = "FINN Pioneeri"
+	name = "Pioneeri"
+	english_name = "Pioneer"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/sapper
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
 
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
+
+/datum/job/escalation/finn/pioneerileader
+	title = "FINN Pioneeri"
+	name = "Pioneeri Johtaja"
+	english_name = "Pioneer Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/sapperleader
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "finn_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
 //CSLA
 
 /datum/job/escalation/csla

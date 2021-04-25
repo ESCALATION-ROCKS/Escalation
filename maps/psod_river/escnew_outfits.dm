@@ -335,6 +335,20 @@
 	head = /obj/item/clothing/head/garcap/soviet
 	belt = /obj/item/weapon/storage/belt/harness/sa
 
+/decl/hierarchy/outfit/job/coldwar/soviet/sapperleader
+	name = OUTFIT_JOB_NAME("Coldwar - Soviet Sapper Leader")
+	uniform = /obj/item/clothing/under/soviet/afghanka/jsgt
+	shoes = /obj/item/clothing/shoes/soviet/marching
+	holster = /obj/item/weapon/storage/belt/holster/sheath/soviet74
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/ak74
+	back = /obj/item/weapon/radioset/r105d
+	l_hand = /obj/item/clothing/head/helmet/coldwar/soviet/ssh68
+	r_pocket = null
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/sa
+	head = /obj/item/clothing/head/garcap/soviet
+	belt = /obj/item/weapon/storage/belt/harness/sa
+
 //NVA --------- SUMMER MAPS
 /decl/hierarchy/outfit/job/coldwar/nvaddr/rifleman
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Rifleman")
@@ -1515,6 +1529,31 @@
 	head = /obj/item/clothing/head/finn/cap/talvimetsa
 	belt = /obj/item/weapon/storage/belt/harness/finn/
 
+/decl/hierarchy/outfit/job/coldwar/finn/sapper
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Pioneeri")
+	uniform = /obj/item/clothing/under/finn/talvimetsa/p
+	suit = /obj/item/clothing/suit/armor/vest/coat/finn
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	gun_slot = /obj/item/weapon/gun/projectile/rifle/boltaction/tkiv
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/tkiv
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/tkiv
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	belt = /obj/item/weapon/storage/belt/harness/finn/
+
+/decl/hierarchy/outfit/job/coldwar/finn/sapperleader
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Pioneeri Leader")
+	uniform = /obj/item/clothing/under/finn/talvimetsa/sgt
+	suit = /obj/item/clothing/suit/armor/vest/coat/finn
+	shoes = /obj/item/clothing/shoes/soviet/marching/finn
+	holster = /obj/item/weapon/storage/belt/holster/finn
+	gun_slot = /obj/item/weapon/gun/projectile/rifle/boltaction/tkiv
+	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/tkiv
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/tkiv
+	head = /obj/item/clothing/head/finn/cap/talvimetsa
+	belt = /obj/item/weapon/storage/belt/harness/finn/
 
 	//////////////////////////////////////
 	///////////// NATO ARMIES BELOW THIS POINT
@@ -1839,6 +1878,22 @@
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt
 
+/decl/hierarchy/outfit/job/coldwar/usmc/sapperleader
+	name = OUTFIT_JOB_NAME("Coldwar - USMC Sapper Leader")
+	uniform = /obj/item/clothing/under/usmc/woodland/alt/sgt
+	shoes = /obj/item/clothing/shoes/usmc/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m16a2
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	r_hand = /obj/item/weapon/maptool
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
+	r_pocket = null
+	back = /obj/item/weapon/radioset/prc77
+	head = /obj/item/clothing/head/usmc/cap/woodland
+	l_ear = /obj/item/device/binoculars/nato
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	l_hand = /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland
+
 
 //BAF ------------- WINTER MAPS
 /decl/hierarchy/outfit/job/coldwar/baf/rifleman
@@ -2095,7 +2150,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
 	head = /obj/item/clothing/head/beret/baf
-	
+
 	flags = OUTFIT_HAS_BAFBACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_loader/pre_equip(mob/living/carbon/human/H)
@@ -2136,6 +2191,37 @@
 	..()
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
 
+/decl/hierarchy/outfit/job/coldwar/baf/sapper
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Sapper")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/p
+	suit = /obj/item/clothing/suit/armor/vest/coat/brit
+	shoes = /obj/item/clothing/shoes/baf/field
+	holster = /obj/item/weapon/storage/belt/holster/sheath/baf
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	belt = /obj/item/weapon/storage/belt/harness/baf
+	head = /obj/item/clothing/head/beret/baf
+
+	flags = OUTFIT_HAS_BAFBACKPACK
+
+/decl/hierarchy/outfit/job/coldwar/baf/sapper_commander
+	name = OUTFIT_JOB_NAME("Coldwar - BAF Sapper Commander")
+	uniform = /obj/item/clothing/under/brit/tiger/olive/alt/lcpl
+	suit = /obj/item/clothing/suit/armor/vest/coat/brit
+	shoes = /obj/item/clothing/shoes/baf/field
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf
+	back = /obj/item/weapon/storage/backpack/baf_buttpack
+	holster = /obj/item/weapon/storage/belt/holster/baf
+	r_hand = /obj/item/weapon/maptool
+	belt = /obj/item/weapon/storage/belt/harness/baf
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l1a1
+	head = /obj/item/clothing/head/beret/baf
+
+/decl/hierarchy/outfit/job/coldwar/baf/sapper_commander/pre_equip(mob/living/carbon/human/H)
+	..()
+	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/baf/mkv, /obj/item/clothing/head/helmet/coldwar/baf/mkv/cover)
 //BDH --------- BUNDESHEER
 /decl/hierarchy/outfit/escalation/nato/heer/
 	flags = null
@@ -3077,7 +3163,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/usmc
 
 	flags = OUTFIT_HAS_USABACKPACK
-	
+
 /decl/hierarchy/outfit/job/coldwar/usa/hws_loader/pre_equip(mob/living/carbon/human/H)
 	..()
 	l_hand = pick(/obj/item/clothing/head/helmet/coldwar/usmc/pasgt, /obj/item/clothing/head/helmet/coldwar/usmc/pasgt/woodland)
