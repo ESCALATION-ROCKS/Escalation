@@ -1813,7 +1813,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/sapper_commander
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/sappercommander
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 1
@@ -2435,6 +2435,25 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/datum/job/escalation/usmc/usmcsapperleader
+	title = "USMC Sapper Leader"
+	name = "Sapper Leader"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/sapperleader
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "usmc_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 /datum/job/escalation/usmc/usmcftradio
 	title = "USMC Field Radio Operator"
 	name = "Field Radio Operator"
@@ -2688,25 +2707,6 @@
 	enabled = 1
 	whitelist_rank = "usmc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
-/datum/job/escalation/usmc/usmcsapperlead
-	title = "USMC Sapper Commander"
-	name = "Sapper Commander"
-	english_name = null
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/sapperleader
-	selection_color = "#B0C4DE"
-	position = "fireteam"
-	amount = 2
-	enabled = 1
-	whitelist_rank = "usmc_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
