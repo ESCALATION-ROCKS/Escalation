@@ -1390,7 +1390,7 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/finnsquadcorpsman
-	title = "FINN Medisiinari"
+	title = "FINN Squad Medisiinari"
 	name = "Medisiinari"
 	english_name = "Squad Medic"
 	minimal_player_age = 21
@@ -1552,7 +1552,7 @@
 		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
 
 /datum/job/escalation/finn/pioneerileader
-	title = "FINN Pioneeri"
+	title = "FINN Pioneeri Leader"
 	name = "Pioneeri Johtaja"
 	english_name = "Pioneer Leader"
 	minimal_player_age = 21
