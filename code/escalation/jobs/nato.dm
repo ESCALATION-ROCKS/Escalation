@@ -1541,7 +1541,7 @@
 	selection_color = "#B0C4DE"
 	position = "team"
 	enabled = 1
-	amount = 4
+	amount = 1
 	whitelist_rank = "baf_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
@@ -1577,9 +1577,9 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/marksman
 	selection_color = "#B0C4DE"
-	position = "fireteam"
+	position = "team"
 	enabled = 1
-	amount = 1
+	amount = 2
 	whitelist_rank = "baf_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 5)
 
@@ -1628,6 +1628,26 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 1, 1, 2, 0)
+
+/datum/job/escalation/baf/bafrto
+	title = "BAF Radio Operator"
+	name = "Section Radio Operator"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/baf/rto
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 2
+	enabled = 1
+	whitelist_rank = "baf_enlisted"
+	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5, LANGUAGE_FINNISH = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/baf/baffto
 	title = "BAF Rifleman"

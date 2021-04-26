@@ -297,9 +297,9 @@
 	icon_state = "rocket"
 	damage = 0
 	nodamage = 1
-	step_delay = 1
 	penetrating = 0
 	kill_count = 40
+	step_delay = 0.05
 	fire_sound = null//here we gonna use sound in AGS and not in bullets
 	var/ricochetchance = 0
 
@@ -329,7 +329,7 @@
 			M1.activate()
 
 /obj/item/projectile/bullet/rpgrocket/on_impact(var/atom/target, var/blocked = 0)
-	explosion(target, 1, 2, 3, 2)
+	explosion(target, 1, 3, 5, 4)
 
 /obj/item/projectile/bullet/rpgrocket/he
 	penetrating = 0

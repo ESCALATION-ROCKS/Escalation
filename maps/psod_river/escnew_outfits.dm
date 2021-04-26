@@ -1282,7 +1282,7 @@
 	flags = OUTFIT_HAS_FINNBACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/finn/sapper
-	name = OUTFIT_JOB_NAME("Coldwar - FINN Rifleman")
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Pioneeri")
 	uniform = /obj/item/clothing/under/coldwar/finn/talvimetsa/p
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/coat/finn
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/marching/finn
@@ -1296,7 +1296,7 @@
 	flags = OUTFIT_HAS_FINNBACKPACK
 
 /decl/hierarchy/outfit/job/coldwar/finn/sapperleader
-	name = OUTFIT_JOB_NAME("Coldwar - FINN Rifleman")
+	name = OUTFIT_JOB_NAME("Coldwar - FINN Pioneeri Leader")
 	uniform = /obj/item/clothing/under/coldwar/finn/talvimetsa/cpl
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/coat/finn
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/marching/finn
@@ -2543,7 +2543,7 @@
 
 /decl/hierarchy/outfit/job/coldwar/baf/sappercommander
 	name = OUTFIT_JOB_NAME("Coldwar - BAF Sapper Commander")
-	uniform = /obj/item/clothing/under/coldwar/brit/tiger/olive/alt/p
+	uniform = /obj/item/clothing/under/coldwar/brit/tiger/olive/alt/lcpl
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/coat/brit
 	shoes = /obj/item/clothing/shoes/coldwar/baf/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/baf

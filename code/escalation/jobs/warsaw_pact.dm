@@ -1257,8 +1257,8 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/marksman
 	selection_color = "#FA8072"
 	rank_number = 4
-	position = "fireteam"
-	amount = 1
+	position = "team"
+	amount = 2
 	enabled = 1
 	whitelist_rank = "finn_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)

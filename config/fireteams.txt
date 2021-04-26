@@ -14,47 +14,41 @@
 
 Squad 'Alpha':usmc
 /datum/job/escalation/usmc/usmcsl
-/datum/job/escalation/usmc/usmcftradio
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcmarksman
+/datum/job/escalation/usmc/usmcftradio
+/datum/job/escalation/usmc/usmccorpsman
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftg
 @END@
 
 Squad 'Bravo':usmc
 /datum/job/escalation/usmc/usmcsl
-/datum/job/escalation/usmc/usmcftradio
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcmarksman
+/datum/job/escalation/usmc/usmcftradio
+/datum/job/escalation/usmc/usmccorpsman
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftg
 @END@
 
 Squad 'Charlie':usmc
 /datum/job/escalation/usmc/usmcsl
-/datum/job/escalation/usmc/usmcftradio
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcmarksman
+/datum/job/escalation/usmc/usmcftradio
+/datum/job/escalation/usmc/usmccorpsman
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftg
 @END@
 
 HWS-1:usmc
@@ -319,12 +313,10 @@ Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/sarocket
 /datum/job/escalation/cccp/sarocketass
 /datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasniper
 @END@
 
 Otdelenie 'Boris':cccp
@@ -334,12 +326,10 @@ Otdelenie 'Boris':cccp
 /datum/job/escalation/cccp/sarocket
 /datum/job/escalation/cccp/sarocketass
 /datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasniper
 @END@
 
 Otdelenie 'Vasiliy':cccp
@@ -349,12 +339,10 @@ Otdelenie 'Vasiliy':cccp
 /datum/job/escalation/cccp/sarocket
 /datum/job/escalation/cccp/sarocketass
 /datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasniper
 @END@
 
 OTV-1:cccp
@@ -363,7 +351,7 @@ OTV-1:cccp
 /datum/job/escalation/cccp/saotvop
 @END@
 
-Otyrad 'Kugan':cccp
+Pososhniye Lyudi Detachment:cccp
 /datum/job/escalation/cccp/sasapperleader
 /datum/job/escalation/cccp/sasapper
 /datum/job/escalation/cccp/sasapper
@@ -531,32 +519,32 @@ OTV-1:esp
 
 ###BAF###
 
-Squad 'Echo':baf
+Section 'Echo':baf
 /datum/job/escalation/baf/bafsl
-/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafrto
 /datum/job/escalation/baf/bafat
 /datum/job/escalation/baf/bafata
 /datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/bafmarksman
+/datum/job/escalation/baf/bafsquadmedic
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafftmg
 /datum/job/escalation/baf/bafftmga
 /datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/bafsquadmedic
+/datum/job/escalation/baf/baffto
 @END@
 
-Squad 'Foxtrot':baf
+Section 'Foxtrot':baf
 /datum/job/escalation/baf/bafsl
-/datum/job/escalation/baf/bafftl
+/datum/job/escalation/baf/bafrto
 /datum/job/escalation/baf/bafat
 /datum/job/escalation/baf/bafata
 /datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/bafmarksman
+/datum/job/escalation/baf/bafsquadmedic
 /datum/job/escalation/baf/bafftl
 /datum/job/escalation/baf/bafftmg
 /datum/job/escalation/baf/bafftmga
 /datum/job/escalation/baf/baffto
-/datum/job/escalation/baf/bafsquadmedic
+/datum/job/escalation/baf/baffto
 @END@
 
 HWT-1:baf
@@ -565,7 +553,7 @@ HWT-1:baf
 /datum/job/escalation/baf/bafmgload
 @END@
 
-Sapper Detachment:baf
+Royal British Engineers Detachment:baf
 /datum/job/escalation/baf/bafsappercom
 /datum/job/escalation/baf/bafsapper
 /datum/job/escalation/baf/bafsapper
@@ -579,29 +567,23 @@ Rhyma 'Celsius':finn
 /datum/job/escalation/finn/finnsld
 /datum/job/escalation/finn/finnsrad
 /datum/job/escalation/finn/finnmg
-/datum/job/escalation/finn/finnrocket
-/datum/job/escalation/finn/finnrocketass
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnsquadcorpsman
-/datum/job/escalation/finn/finnsm
 @END@
 
-Rhyma 'Daavid':finn
+Rhyma 'Daviid':finn
 /datum/job/escalation/finn/finnsl
 /datum/job/escalation/finn/finnsld
 /datum/job/escalation/finn/finnsrad
 /datum/job/escalation/finn/finnmg
-/datum/job/escalation/finn/finnrocket
-/datum/job/escalation/finn/finnrocketass
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnsquadcorpsman
-/datum/job/escalation/finn/finnsm
 @END@
 
 Raskaiden Aseiden Joukkue:finn
@@ -610,9 +592,16 @@ Raskaiden Aseiden Joukkue:finn
 /datum/job/escalation/finn/finnhwtload
 @END@
 
-Irtoaminen Pioneeri:finn
+Kymen Pioneeripataljoona:finn
 /datum/job/escalation/finn/pioneerileader
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri
+@END@
+
+Panssarintorjunta Joukkue:finn
+/datum/job/escalation/finn/finnrocketlead
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocketass
+/datum/job/escalation/finn/finnrocketass
 @END@

@@ -102,6 +102,7 @@
 
 /obj/item/clothing/gloves/duty
 	desc = "These brown duty gloves are made from a durable synthetic."
+	wearable = 1
 	name = "work gloves"
 	icon_state = "work"
 	item_state = "wgloves"
