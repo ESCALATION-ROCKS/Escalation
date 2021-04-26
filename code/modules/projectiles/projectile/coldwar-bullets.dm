@@ -299,7 +299,7 @@
 	nodamage = 1
 	penetrating = 0
 	kill_count = 40
-	step_delay = 0.05
+	step_delay = 0.16
 	fire_sound = null//here we gonna use sound in AGS and not in bullets
 	var/ricochetchance = 0
 
