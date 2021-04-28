@@ -1501,7 +1501,7 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/rocket
 	selection_color = "#FA8072"
-	rank_number = 1
+	rank_number = 2
 	position = "fireteam"
 	amount = 1
 	enabled = 1
@@ -1523,7 +1523,7 @@
 	selection_color = "#FA8072"
 	rank_number = 5
 	position = "fireteam"
-	amount = 1
+	amount = 2
 	enabled = 1
 	whitelist_rank = "finn_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 5)
