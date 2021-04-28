@@ -25,10 +25,10 @@ var $messages, $subTheme, $subOptions, $subFont, $selectedSub, $contextMenu, $fi
 var opts = {
 	//General
 	'messageCount': 0, //A count...of messages...
-	'messageLimit': 2053, //A limit...for the messages...
+	'messageLimit': 1000, //A limit...for the messages...
 	'scrollSnapTolerance': 10, //If within x pixels of bottom
 	'clickTolerance': 10, //Keep focus if outside x pixels of mousedown position on mouseup
-	'imageRetryDelay': 50, //how long between attempts to reload images (in ms)
+	'imageRetryDelay': 60, //how long between attempts to reload images (in ms)
 	'imageRetryLimit': 50, //how many attempts should we make?
 	'popups': 0, //Amount of popups opened ever
 	'wasd': false, //Is the user in wasd mode?
@@ -42,7 +42,7 @@ var opts = {
 	'highlightTerms': [],
 	'highlightLimit': 5,
 	'highlightColor': '#FFFF00', //The color of the highlighted message
-	'pingDisabled': true, //Has the user disabled the ping counter
+	'pingDisabled': false, //Has the user disabled the ping counter
 
 	//Ping display
 	'lastPang': 0, //Timestamp of the last response from the server.
@@ -62,7 +62,7 @@ var opts = {
 	'clientData': [],
 
 	'font': 'Arial',
-	'messageCombining': true,
+	'messageCombining': false,
 
 };
 var replaceRegexes = {};
