@@ -23,7 +23,7 @@ ORGAN_HEALTH_MULTIPLIER 130
 
 ## multiplier which influences how fast organs regenerate naturally
 ## 100 means normal, 50 means half
-ORGAN_REGENERATION_MULTIPLIER 60
+ORGAN_REGENERATION_MULTIPLIER 100
 
 ### REVIVAL ###
 
@@ -34,7 +34,7 @@ REVIVAL_POD_PLANTS 1
 REVIVAL_CLONING 1
 
 ## amount of time (in hundredths of seconds) for which a brain retains the "spark of life" after the person's death (set to -1 for infinite)
-REVIVAL_BRAIN_LIFE 60000
+REVIVAL_BRAIN_LIFE -1
 
 
 
@@ -50,7 +50,7 @@ RUN_SPEED 1
 WALK_SPEED 2
 
 ## Volume of footstep sound effects.  Range: 1-100, Set to 0 to disable footstep sounds.
-FOOTSTEP_VOLUME 30
+FOOTSTEP_VOLUME 40
 
 ## The variables below affect the movement of specific mob types.
 HUMAN_DELAY 0
