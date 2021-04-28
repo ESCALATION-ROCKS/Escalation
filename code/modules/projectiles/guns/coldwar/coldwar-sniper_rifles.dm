@@ -405,7 +405,7 @@
 		return
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/rifle/l96
+/obj/item/weapon/gun/projectile/automatic/rifle/l96A1
 	name = "L96A1"
 	desc = "A standard-issue British sniper rifle. Chambers 7.62x51 rounds."
 	icon = 'icons/obj/coldwar/guns48x48.dmi'

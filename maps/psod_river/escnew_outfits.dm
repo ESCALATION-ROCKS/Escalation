@@ -2517,7 +2517,7 @@
 	back = /obj/item/weapon/storage/backpack/baf_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/baf
 	belt = /obj/item/weapon/storage/belt/harness/baf
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l96
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/l96A1
 	head = /obj/item/clothing/head/coldwar/beret/baf
 
 /decl/hierarchy/outfit/job/coldwar/baf/hws_commander/pre_equip(mob/living/carbon/human/H)
