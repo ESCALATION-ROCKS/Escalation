@@ -694,7 +694,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, -1, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 5, 1, 1, 0)
 
 /datum/job/escalation/bund/bdwsl
 	title = "BDW Gruppenfuhrer"
@@ -1141,7 +1141,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, -1, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 5, 1, 1, 0)
 
 /datum/job/escalation/heer/heersl
 	title = "BDH Gruppenfuhrer"
@@ -1511,7 +1511,7 @@
 
 /datum/job/escalation/baf/bafratelo
 	title = "BAF Radiotelephone Operator"
-	name = "Radiotelephone Operator"
+	name = "Signaller"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1566,7 +1566,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, -1, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 5, 1, 1, 0)
 
 /datum/job/escalation/baf/bafmarksman
 	title = "BAF Designated Marksman"
@@ -1818,7 +1818,7 @@
 	selection_color = "#B0C4DE"
 	position = "team"
 	enabled = 1
-	amount = 4
+	amount = 1
 	whitelist_rank = "baf_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
@@ -2397,7 +2397,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, -1, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 5, 1, 1, 0)
 
 /datum/job/escalation/usmc/usmcmarksman
 	title = "USMC Designated Marksman"
@@ -2939,7 +2939,7 @@
 
 	equip(var/mob/living/carbon/human/H)
 		..()
-		H.add_skills(0, 0, -1, -1, 5, 1, 2, 0)
+		H.add_skills(0, 0, -1, -1, 5, 1, 1, 0)
 
 /datum/job/escalation/usa/usamarksman
 	title = "USA Designated Marksman"

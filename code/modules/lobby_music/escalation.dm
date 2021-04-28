@@ -6,4 +6,4 @@
 /lobby_music/escalation
 	artist = null
 	title = "Escalation Theme"
-	song = 'sound/music/atriumcarcerifacesofwar.ogg'
+	song = 'sound/music/AuroraBorealis.ogg'
