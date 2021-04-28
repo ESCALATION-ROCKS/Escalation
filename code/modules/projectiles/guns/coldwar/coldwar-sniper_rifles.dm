@@ -405,7 +405,7 @@
 		return
 	..()
 
-/obj/item/weapon/gun/projectile/automatic/rifle/l96A1
+/obj/item/weapon/gun/projectile/automatic/rifle/l96
 	name = "L96A1"
 	desc = "A standard-issue British sniper rifle. Chambers 7.62x51 rounds."
 	icon = 'icons/obj/coldwar/guns48x48.dmi'
@@ -420,6 +420,7 @@
 	w_class = ITEM_SIZE_HUGE
 	handle_casings = HOLD_CASINGS
 	screen_shake = 3 //extra kickback
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 10
 	one_hand_penalty = 8
 	accuracy = 6
@@ -575,6 +576,7 @@
 	wielded_item_state = "tkiv-wielded"
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING | SPEEDLOADER | AMMO_BOX
 	max_shells = 5
