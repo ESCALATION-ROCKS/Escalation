@@ -70,16 +70,16 @@
 		icon_state = "hair_c"
 		veryshort = 1
 
-	/*flair
+	flair
 		name = "Flaired Hair"
 		icon_state = "hair_flair"
 		gender = FEMALE
 
 	long
 		name = "Shoulder-length Hair"
-		icon_state = "hair_b"*/
+		icon_state = "hair_b"
 
-/*
+
 	longish
 		name = "Longer Hair"
 		icon_state = "hair_b2"
@@ -94,18 +94,18 @@
 		name = "Very Long Hair"
 		icon_state = "hair_longest"
 		gender = FEMALE
-*/
-	/*longfringe
+
+	longfringe
 		name = "Long Fringe"
 		icon_state = "hair_longfringe"
-		gender = FEMALE*/
+		gender = FEMALE
 
-/*
+
 	longestalt
 		name = "Longer Fringe"
 		icon_state = "hair_vlongfringe"
-*/
-	/*halfbang
+
+	halfbang
 		name = "Half-banged Hair"
 		icon_state = "hair_halfbang"
 
@@ -124,16 +124,16 @@
 
 	ponytail3
 		name = "Ponytail 3"
-		icon_state = "hair_ponytail3"*/
+		icon_state = "hair_ponytail3"
 
-/*
+
 	ponytail4
 		name = "Ponytail 4"
 		icon_state = "hair_ponytail4"
 		gender = FEMALE
-*/
 
-	/*ponytail5
+
+	ponytail5
 		name = "Ponytail 5"
 		icon_state = "hair_ponytail5"
 		gender = FEMALE
@@ -141,22 +141,22 @@
 	ponytail6
 		name = "Ponytail 6"
 		icon_state = "hair_ponytail6"
-		gender = FEMALE*/
+		gender = FEMALE
 
-/*
+
 	sideponytail
 		name = "Side Ponytail"
 		icon_state = "hair_stail"
 		gender = FEMALE
-*/
+
 	parted
 		name = "Parted"
 		icon_state = "hair_parted"
 
-	/*pompadour
+	pompadour
 		name = "Pompadour"
 		icon_state = "hair_pompadour"
-		gender = MALE*/
+		gender = MALE
 
 	sleeze
 		name = "Sleeze"
@@ -167,7 +167,7 @@
 		name = "Quiff"
 		icon_state = "hair_quiff"
 		gender = MALE
-/*
+
 	bedhead
 		name = "Bedhead"
 		icon_state = "hair_bedhead"
@@ -207,7 +207,6 @@
 		icon_state = "hair_bobcutalt"
 		gender = FEMALE
 		species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
-*/
 
 	bowl
 		name = "Bowl"
@@ -237,15 +236,15 @@
 		icon_state = "hair_father"
 		gender = MALE
 
-	/*reversemohawk
+	reversemohawk
 		name = "Reverse Mohawk"
 		icon_state = "hair_reversemohawk"
-		gender = MALE*/
+		gender = MALE
 
 	devillock
 		name = "Devil Lock"
 		icon_state = "hair_devilock"
-/*
+
 	dreadlocks
 		name = "Dreadlocks"
 		icon_state = "hair_dreads"
@@ -282,38 +281,38 @@
 		icon_state = "hair_sargeant"
 		gender = MALE
 		veryshort = 1
-*/
 
-	/*emo
+
+	emo
 		name = "Emo"
 		icon_state = "hair_emo"
 
 	emo2
 		name = "Emo Alt"
-		icon_state = "hair_emo2"*/
-/*
+		icon_state = "hair_emo2"
+
 	longemo
 		name = "Long Emo"
 		icon_state = "hair_emolong"
 		gender = FEMALE
-*/
+
 	shortovereye
 		name = "Overeye Short"
 		icon_state = "hair_shortovereye"
-/*
+
 	longovereye
 		name = "Overeye Long"
 		icon_state = "hair_longovereye"
-*/
-	/*fag
+
+	fag
 		name = "Flow Hair"
 		icon_state = "hair_f"
 
 	feather
 		name = "Feather"
-		icon_state = "hair_feather"*/
+		icon_state = "hair_feather"
 
-/*
+
 	hitop
 		name = "Hitop"
 		icon_state = "hair_hitop"
@@ -323,14 +322,13 @@
 		name = "Mohawk"
 		icon_state = "hair_d"
 		species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI)
-*/
 
 	jensen
 		name = "Adam Jensen Hair"
 		icon_state = "hair_jensen"
 		gender = MALE
 
-	/*gelled
+	gelled
 		name = "Gelled Back"
 		icon_state = "hair_gelled"
 		gender = FEMALE
@@ -338,9 +336,9 @@
 	gentle
 		name = "Gentle"
 		icon_state = "hair_gentle"
-		gender = FEMALE*/
+		gender = FEMALE
 
-/*
+
 	spiky
 		name = "Spiky"
 		icon_state = "hair_spikey"
@@ -348,9 +346,9 @@
 	kusangi
 		name = "Kusanagi Hair"
 		icon_state = "hair_kusanagi"
-*/
 
-	/*kagami
+
+	kagami
 		name = "Pigtails"
 		icon_state = "hair_kagami"
 		gender = FEMALE
@@ -363,9 +361,9 @@
 	shorthime
 		name = "Short Hime Cut"
 		icon_state = "hair_shorthime"
-		gender = FEMALE*/
+		gender = FEMALE
 
-/*
+
 	grandebraid
 		name = "Grande Braid"
 		icon_state = "hair_grande"
@@ -400,7 +398,7 @@
 		name = "Updo"
 		icon_state = "hair_updo"
 		gender = FEMALE
-*/
+
 
 	skinhead
 		name = "Skinhead"
@@ -412,13 +410,13 @@
 		icon_state = "hair_e"
 		gender = MALE // turnoff!
 		veryshort = 1
-/*
+
 	familyman
 		name = "The Family Man"
 		icon_state = "hair_thefamilyman"
 		gender = MALE
-*/
-	/*mahdrills
+
+	mahdrills
 		name = "Drillruru"
 		icon_state = "hair_drillruru"
 		gender = FEMALE
@@ -431,9 +429,9 @@
 	dandypomp
 		name = "Dandy Pompadour"
 		icon_state = "hair_dandypompadour"
-		gender = MALE*/
+		gender = MALE
 
-/*
+
 	poofy
 		name = "Poofy"
 		icon_state = "hair_poofy"
@@ -448,7 +446,7 @@
 		name = "Vegeta"
 		icon_state = "hair_toriyama2"
 		gender = MALE
-*/
+
 	cia
 		name = "CIA"
 		icon_state = "hair_cia"
@@ -459,7 +457,7 @@
 		icon_state = "hair_mulder"
 		gender = MALE
 
-/*
+
 	scully
 		name = "Scully"
 		icon_state = "hair_scully"
@@ -482,16 +480,16 @@
 	longeralt2
 		name = "Long Hair Alt 2"
 		icon_state = "hair_longeralt2"
-*/
+
 	shortbangs
 		name = "Short Bangs"
 		icon_state = "hair_shortbangs"
 
-/*
+
 	halfshaved
 		name = "Half-Shaved Emo"
 		icon_state = "hair_halfshaved"
-*/
+
 
 	bun
 		name = "Low Bun"
@@ -501,11 +499,11 @@
 		name = "High Bun"
 		icon_state = "hair_bun2"
 
-/*
+
 	doublebun
 		name = "Double-Bun"
 		icon_state = "hair_doublebun"
-*/
+
 
 	lowfade
 		name = "Low Fade"
@@ -553,11 +551,11 @@
 		gender = MALE
 		veryshort = 1
 
-	/*tightbun
+	tightbun
 		name = "Tight Bun"
 		icon_state = "hair_tightbun"
 		gender = FEMALE
-		veryshort = 1*/
+		veryshort = 1
 
 	coffeehouse
 		name = "Coffee House Cut"
@@ -582,7 +580,7 @@
 		icon_state = "hair_hightight"
 		gender = MALE
 		veryshort = 1
-/*
+
 	rowbun
 		name = "Row Bun"
 		icon_state = "hair_rowbun"
@@ -597,13 +595,13 @@
 		name = "Row Braid"
 		icon_state = "hair_rowbraid"
 		gender = FEMALE
-*/
+
 	regulationmohawk
 		name = "Regulation Mohawk"
 		icon_state = "hair_shavedmohawk"
 		gender = MALE
 		veryshort = 1
-/*
+
 	topknot
 		name = "Topknot"
 		icon_state = "hair_topknot"
@@ -613,7 +611,7 @@
 		name = "Ronin"
 		icon_state = "hair_ronin"
 		gender = MALE
-*/
+
 	bowlcut2
 		name = "Bowl2"
 		icon_state = "hair_bowlcut2"
@@ -659,12 +657,10 @@
 	name = "Combover 2"
 	icon_state = "hair_combover2"
 
-/*
 	manbun
 		name = "Manbun"
 		icon_state = "hair_manbun"
 		gender = MALE
-*/
 
 /*
 ///////////////////////////////////
@@ -746,14 +742,14 @@
 		name = "Adam Jensen Beard"
 		icon_state = "facial_jensen"
 
-	/*volaju
+	volaju
 		name = "Volaju"
-		icon_state = "facial_volaju"*/
-/*
+		icon_state = "facial_volaju"
+
 	dwarf
 		name = "Dwarf Beard"
 		icon_state = "facial_dwarf"
-*/
+
 	threeOclock
 		name = "3 O'clock Shadow"
 		icon_state = "facial_3oclock"

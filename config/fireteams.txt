@@ -63,7 +63,7 @@ ATS-1:usmc
 /datum/job/escalation/usmc/usmcata
 @END@
 
-ENG-1:usmc
+Combat Engineers:usmc
 /datum/job/escalation/usmc/usmcsapperlead
 /datum/job/escalation/usmc/usmcsapper
 /datum/job/escalation/usmc/usmcsapper
@@ -351,7 +351,7 @@ OTV-1:cccp
 /datum/job/escalation/cccp/saotvop
 @END@
 
-Pososhniye Lyudi Detachment:cccp
+Pososhniye Lyudi:cccp
 /datum/job/escalation/cccp/sasapperleader
 /datum/job/escalation/cccp/sasapper
 /datum/job/escalation/cccp/sasapper
@@ -592,16 +592,16 @@ Raskaiden Aseiden Joukkue:finn
 /datum/job/escalation/finn/finnhwtload
 @END@
 
+Panssarpataljoona:finn
+/datum/job/escalation/finn/finnrocketlead
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocketass
+/datum/job/escalation/finn/finnrocketass
+@END@
+
 Kymen Pioneeripataljoona:finn
 /datum/job/escalation/finn/pioneerileader
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri
-@END@
-
-Panssarintorjunta Joukkue:finn
-/datum/job/escalation/finn/finnrocketlead
-/datum/job/escalation/finn/finnrocket
-/datum/job/escalation/finn/finnrocketass
-/datum/job/escalation/finn/finnrocketass
 @END@

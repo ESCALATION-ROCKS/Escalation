@@ -24,7 +24,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_officer"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -44,7 +44,7 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 90)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -150,6 +150,25 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 1, 1, 3, 0)
 
+/datum/job/escalation/cccp/sasapperleader
+	title = "SA Saper Leader"
+	name = "Saper Leader"
+	english_name = "Sapper Leader"
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sapperleader
+	selection_color = "#4682B4"
+	position = "fireteam"
+	amount = 1
+	enabled = 1
+	whitelist_rank = "sa_nco"
+	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
+
 /datum/job/escalation/cccp/sasapper
 	title = "SA Saper"
 	name = "Saper"
@@ -163,25 +182,6 @@
 	amount = 1
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
-
-	equip(var/mob/living/carbon/human/H)
-		..()
-		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
-
-/datum/job/escalation/cccp/sasapperleader
-	title = "SA Saper Leader"
-	name = "Saper"
-	english_name = "Sapper Leader"
-	minimal_player_age = 21
-	economic_modifier = 5
-	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sapperleader
-	selection_color = "#4682B4"
-	position = "fireteam"
-	amount = 1
-	enabled = 1
-	whitelist_rank = "sa_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1472,6 +1472,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+
 /datum/job/escalation/finn/finnrocketlead
 	title = "FINN Panssarintorjunta Ryhmanjohtaja"
 	name = "Panssarintorjunta Ryhmanjohtaja"
@@ -1491,6 +1492,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 
 /datum/job/escalation/finn/finnrocket
 	title = "FINN Panssarintorjunta ampuja"
@@ -1512,6 +1514,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+
 /datum/job/escalation/finn/finnrocketass
 	title = "FINN AT ampuja assistentti "
 	name = "AT ampuja assistentti"
@@ -1531,6 +1534,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
 
 /datum/job/escalation/finn/pioneeri
 	title = "FINN Pioneeri"
