@@ -44,6 +44,11 @@ usmc_nco
 usmc_enlisted
 }
 
+ILikeToGammon = {
+usmc_nco
+usmc_enlisted
+}
+
 ############### USMC ENLISTED
 
 Foxeye = {
@@ -130,10 +135,29 @@ mazenalmoraud = {
 usmc_enlisted
 }
 
-bongozs = {
+Bongosz = {
 usmc_enlisted
 }
 
+PepeFrog = {
+usmc_enlisted
+}
+
+Dudeman100 = {
+usmc_enlisted
+}
+
+Luxorio = {
+usmc_enlisted
+}
+
+Fivetime = {
+usmc_enlisted
+}
+
+NolafRegit= {
+usmc_enlisted
+}
 
 ############### BAF OFFICER
 
