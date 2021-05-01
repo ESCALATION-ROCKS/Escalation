@@ -13,11 +13,149 @@ Von Carstein = {
 
 ############### SA OFFICER
 
+Kindadread = {
+sa_officer
+sa_nco
+sa_enlisted
+}
 
+Lushsalmon123 = {
+sa_officer
+sa_nco
+sa_enlisted
+}
 
 ############### SA NCO
 
+Jackomago61 = {
+sa_nco
+sa_enlisted
+}
+
+Nayser = {
+sa_nco
+sa_enlisted
+}
+
+BardinATavern = {
+sa_nco
+sa_enlisted
+}
+
+Ezhlk = {
+sa_nco
+sa_enlisted
+}
+
 ############### SA ENLISTED
+
+AvgustFroch = {
+sa_enlisted
+}
+
+Duke Of Wellington = {
+sa_enlisted
+}
+
+Redory = {
+sa_enlisted
+}
+
+Getbrecked = {
+sa_enlisted
+}
+
+cesarjunior233 = {
+sa_enlisted
+}
+
+Medcar = {
+sa_enlisted
+}
+
+Rev1n = {
+sa_enlisted
+}
+
+Timtwoshoes = {
+sa_enlisted
+}
+
+Jooks = {
+sa_enlisted
+}
+
+Yarnhut = {
+sa_enlisted
+}
+
+MixanovR64 = {
+sa_enlisted
+}
+
+GeniyEvgeniy = {
+sa_enlisted
+}
+
+Sivuha = {
+sa_enlisted
+}
+
+James Sirk = {
+sa_enlisted
+}
+
+Bob46 = {
+sa_enlisted
+}
+
+Qfmysteryman23 = {
+sa_enlisted
+}
+
+Nikita588 = {
+sa_enlisted
+}
+
+Master8688 = {
+sa_enlisted
+}
+
+Hsiwe = {
+sa_enlisted
+}
+
+FatSeal = {
+sa_enlisted
+}
+
+Jorogao = {
+sa_enlisted
+}
+
+0xDEED = {
+sa_enlisted
+}
+
+AlexUNDRRRMKaroff = {
+sa_enlisted
+}
+
+Unknownreptile = {
+sa_enlisted
+}
+
+ViktorVil = {
+sa_enlisted
+}
+
+Real Josef Stalin = {
+sa_enlisted
+}
+
+Troontjelolo1010 = {
+sa_enlisted
+}
 
 ############### USMC OFFICER
 
@@ -28,6 +166,7 @@ usmc_enlisted
 }
 
 sonyxperia = {
+usmc_officer
 usmc_nco
 usmc_enlisted
 }
@@ -311,6 +450,128 @@ baf_enlisted
 
 ############### FINN OFFICER
 
+Luftie = {
+finn_officer
+finn_nco
+finn_enlisted
+}
+
+Rippie129 = {
+finn_officer
+finn_nco
+finn_enlisted
+}
+
 ############### FINN NCO
 
+Verarch = {
+finn_nco
+finn_enlisted
+}
+
+BoringCommunist = {
+finn_nco
+finn_enlisted
+}
+
 ############### FINN ENLISTED
+
+Churro5 = {
+finn_enlisted
+}
+
+Rata123 = {
+finn_enlisted
+}
+
+Sraserdas = {
+finn_enlisted
+}
+
+BartDrown = {
+finn_enlisted
+}
+
+Sha.SCT = {
+finn_enlisted
+}
+
+vlad3 = {
+finn_enlisted
+}
+
+Echion = {
+finn_enlisted
+}
+
+Corbe = {
+finn_enlisted
+}
+
+Booperkin343425 = {
+finn_enlisted
+}
+
+Nobillynotreally = {
+finn_enlisted
+}
+
+Lautaroluna180 = {
+finn_enlisted
+}
+
+Xxxretroxgears3 = {
+finn_enlisted
+}
+
+Mannypardo = {
+finn_enlisted
+}
+
+FoxTail_99 = {
+finn_enlisted
+}
+
+Billy Hays = {
+finn_enlisted
+}
+
+ToroidalZer0 = {
+finn_enlisted
+}
+
+SilencedMP5A5 = {
+finn_enlisted
+}
+
+Tristan63 = {
+finn_enlisted
+}
+
+Softstone101 = {
+finn_enlisted
+}
+
+aguyiguess = {
+finn_enlisted
+}
+
+ExecutorPartner = {
+finn_enlisted
+}
+
+atlasrules87 = {
+finn_enlisted
+}
+
+Arbufy  = {
+finn_enlisted
+}
+
+Scoobov = {
+finn_enlisted
+}
+
+Ondrej008 = {
+finn_enlisted
+}
