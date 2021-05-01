@@ -20,7 +20,7 @@
 
 /datum/reagent/aminocaproic/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien != IS_DIONA)
-		M.add_chemical_effect(CE_HEMOSTATIC, 4)
+		M.add_chemical_effect(CE_HEMOSTATIC, 5)
 		M.heal_organ_damage(3 * removed, 0)
 
 /datum/reagent/aminocaproic/overdose(var/mob/living/carbon/M, var/alien)
@@ -212,7 +212,7 @@
 /datum/reagent/rohypnol/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(M.chem_doses[type] < 3)
 		if(M.chem_doses[type] == metabolism * 2 || prob(5))
-			M.add_chemical_effect(CE_PAINKILLER, 30)
+			M.add_chemical_effect(CE_PAINKILLER, 50)
 	else if(M.chem_doses[type] < 6)
 		M.eye_blurry = max(M.eye_blurry, 20)
 		M.add_chemical_effect(CE_PAINKILLER, 40)
@@ -253,7 +253,7 @@
 
 /datum/reagent/morphine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien != IS_DIONA)
-		M.add_chemical_effect(CE_PAINKILLER, 80)
+		M.add_chemical_effect(CE_PAINKILLER, 100)
 	M.add_chemical_effect(CE_PULSE, 1)
 	if(prob(5))
 		M.emote(pick("twitch", "blink_r", "shiver"))
@@ -286,7 +286,7 @@
 	flags = IGNORE_MOB_SIZE
 	overdose = 6
 	metabolism = 0.20
-	
+
 /datum/reagent/fentanyl/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien != IS_DIONA)
 		M.add_chemical_effect(CE_PAINKILLER, 150)
