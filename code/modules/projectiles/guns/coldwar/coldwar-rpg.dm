@@ -449,6 +449,12 @@
 	item_state = "m72"
 	fire_sound = 'sound/weapons/gunshot/m72.ogg'
 
+/obj/item/weapon/gun/launcher/oneuse/rpg18/m72/dark
+	name = "M72 LAW"
+	desc = "A single-use rocket launcher used by NATO forces. Fires a 66mm HEAT shell."
+	icon_state = "m72dark"
+	item_state = "m72dark"
+	fire_sound = 'sound/weapons/gunshot/m72.ogg'
 
 /obj/item/weapon/gun/launcher/oneuse/rpg18/c90
 	name = "C90-CR"

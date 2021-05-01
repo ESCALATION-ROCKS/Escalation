@@ -396,7 +396,7 @@
 /obj/item/clothing/head/usmc/cavhat
 	name = "cavalry hat"
 	desc = null
-	icon_state = "cavhat
+	icon_state = "cavhat"
 
 /obj/item/clothing/head/coldwar/ushanka/us
 	name = "winter cap"

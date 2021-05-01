@@ -238,8 +238,8 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/soviet/sniper
 	selection_color = "#B22222"
 	rank_number = 4
-	position = "fireteam"
-	amount = 1
+	position = "team"
+	amount = 2
 	enabled = 1
 	whitelist_rank = "sa_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_GERMAN = 10, LANGUAGE_CZECH = 10)

@@ -668,6 +668,7 @@
 	w_class = ITEM_SIZE_HUGE
 	handle_casings = HOLD_CASINGS
 	screen_shake = 3 //extra kickback
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 5
 	one_hand_penalty = 8
 	accuracy = 6
@@ -755,6 +756,7 @@
 	wielded_item_state = "m40a1-wielded"
 	w_class = ITEM_SIZE_LARGE
 	screen_shake = 3 //extra kickback
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING | AMMO_BOX
 	max_shells = 5
