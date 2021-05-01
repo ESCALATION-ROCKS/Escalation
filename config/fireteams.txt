@@ -51,19 +51,13 @@ Squad 'Charlie':usmc
 /datum/job/escalation/usmc/usmcftg
 @END@
 
-HWS-1:usmc
+Support Fireteams:usmc
 /datum/job/escalation/usmc/usmcmgcom
 /datum/job/escalation/usmc/usmcmgop
 /datum/job/escalation/usmc/usmcmgload
-@END@
-
-ATS-1:usmc
 /datum/job/escalation/usmc/usmcatcom
 /datum/job/escalation/usmc/usmcat
 /datum/job/escalation/usmc/usmcata
-@END@
-
-Combat Engineers:usmc
 /datum/job/escalation/usmc/usmcsapperlead
 /datum/job/escalation/usmc/usmcsapper
 /datum/job/escalation/usmc/usmcsapper
@@ -345,13 +339,10 @@ Otdelenie 'Vasiliy':cccp
 /datum/job/escalation/cccp/sacorpsman
 @END@
 
-OTV-1:cccp
+Support Lyudi:cccp
 /datum/job/escalation/cccp/saotvco
 /datum/job/escalation/cccp/saotvload
 /datum/job/escalation/cccp/saotvop
-@END@
-
-Pososhniye Lyudi:cccp
 /datum/job/escalation/cccp/sasapperleader
 /datum/job/escalation/cccp/sasapper
 /datum/job/escalation/cccp/sasapper
@@ -547,13 +538,10 @@ Section 'Foxtrot':baf
 /datum/job/escalation/baf/baffto
 @END@
 
-HWT-1:baf
+Support Sections:baf
 /datum/job/escalation/baf/bafmgcom
 /datum/job/escalation/baf/bafmgop
 /datum/job/escalation/baf/bafmgload
-@END@
-
-Royal British Engineers Detachment:baf
 /datum/job/escalation/baf/bafsappercom
 /datum/job/escalation/baf/bafsapper
 /datum/job/escalation/baf/bafsapper
@@ -586,20 +574,14 @@ Rhyma 'Daviid':finn
 /datum/job/escalation/finn/finnsquadcorpsman
 @END@
 
-Raskaiden Aseiden Joukkue:finn
+Support Platoona:finn
 /datum/job/escalation/finn/finnhwtlead
 /datum/job/escalation/finn/finnhwtgnr
 /datum/job/escalation/finn/finnhwtload
-@END@
-
-Panssarpataljoona:finn
 /datum/job/escalation/finn/finnrocketlead
 /datum/job/escalation/finn/finnrocket
 /datum/job/escalation/finn/finnrocketass
 /datum/job/escalation/finn/finnrocketass
-@END@
-
-Kymen Pioneeripataljoona:finn
 /datum/job/escalation/finn/pioneerileader
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri

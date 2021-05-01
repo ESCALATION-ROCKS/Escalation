@@ -1544,7 +1544,7 @@
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/sapper
-	selection_color = "#4682B4"
+	selection_color = "#FA8072"
 	position = "fireteam"
 	amount = 1
 	enabled = 1
@@ -1563,7 +1563,7 @@
 	economic_modifier = 5
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/finn/sapperleader
-	selection_color = "#4682B4"
+	selection_color = "#FA8072"
 	position = "fireteam"
 	amount = 1
 	enabled = 1
@@ -1573,6 +1573,8 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
+
+
 //CSLA
 
 /datum/job/escalation/csla
