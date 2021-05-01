@@ -2041,7 +2041,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
-	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/woodland
+	head = /obj/item/clothing/head/usmc/cavhat
 	r_hand = /obj/item/weapon/masterkey/natopl
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/usmc
@@ -2091,6 +2091,20 @@
 	r_pocket = /obj/item/weapon/facepaint/green
 	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
+
+/decl/hierarchy/outfit/job/coldwar/usmc/spotter
+	name = OUTFIT_JOB_NAME("Coldwar - USMC Designated Spotter")
+	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/cpl
+	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m21
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
+	back = /obj/item/weapon/storage/backpack/usmc_buttpack
+	holster = /obj/item/weapon/storage/belt/holster/usmc
+	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
+	belt = /obj/item/weapon/storage/belt/harness/usmc
+	r_pocket = /obj/item/weapon/facepaint/green
+	l_hand = /obj/item/clothing/head/coldwar/helmet/usmc/pasgt/woodland
 
 /decl/hierarchy/outfit/job/coldwar/usmc/quartermaster
 	name = OUTFIT_JOB_NAME("Coldwar - USMC Quartermaster")

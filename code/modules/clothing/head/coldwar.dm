@@ -393,10 +393,10 @@
 	desc = "That's a generic boonie hat in a woodland pattern."
 	icon_state = "boonie_woodl"
 
-/*/obj/item/clothing/head/usmc/cavhat
+/obj/item/clothing/head/usmc/cavhat
 	name = "cavalry hat"
 	desc = null
-	icon_state = "cavhat"*/ //////belonged to frown some time ago.
+	icon_state = "cavhat
 
 /obj/item/clothing/head/coldwar/ushanka/us
 	name = "winter cap"
@@ -704,7 +704,7 @@
 	icon_state = "null"
 	slot = ACCESSORY_SLOT_HELM_C
 	wearable = 1
-	
+
 /obj/item/clothing/accessory/armor/coldwar/helmcover/m56/strichtarn
 	name = "Strichtarn M56 cover"
 	desc = "A raindrop pattern cover for M56 helmets."
