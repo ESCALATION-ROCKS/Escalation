@@ -1,6 +1,6 @@
 /obj/item/weapon/storage/box/irp/var1
 	name = "'Etalon-1' rations"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_NORMAL
 	max_storage_space = 12
 	desc = "That's a ration pack used by Soviet army."
@@ -23,7 +23,7 @@
 
 /obj/item/weapon/storage/box/irp/var2
 	name = "'Etalon-2' rations"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_NORMAL
 	max_storage_space = 12
 	desc = "That's a ration pack used by Soviet Army."
@@ -46,7 +46,7 @@
 
 /obj/item/weapon/storage/box/kportion
 	name = "'K-Portion' rations"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_NORMAL
 	max_storage_space = 12
 	desc = "That's a ration pack used by Nationale Volksarmee."
@@ -67,7 +67,7 @@
 
 /obj/item/weapon/storage/box/finnration/var1
 	name = "'Taistelumuonapakkaus - Valikko-A' rations"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_NORMAL
 	max_storage_space = 12
 	desc = "That's a ration pack used by Finnish army. Menu A"
@@ -91,7 +91,7 @@
 
 /obj/item/weapon/storage/box/finnration/var2
 	name = "'Taistelumuonapakkaus - Valikko-B' rations"
-	w_class = ITEM_SIZE_LARGE
+	w_class = ITEM_SIZE_SMALL
 	max_w_class = ITEM_SIZE_NORMAL
 	max_storage_space = 12
 	desc = "That's a ration pack used by Finnish Army. Menu B"
@@ -121,7 +121,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/tincan
 	name = "tin can"
 	desc = "That's should now be here!"
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_SMALL
 	icon = 'icons/obj/food.dmi'
 	filling_color = "#A66829"
 	center_of_mass = "x=16;y=11"
@@ -219,7 +219,7 @@
 	desc = "A bar of German chocolate. A soldiers best friend"
 	wrapped = 1
 	bitesize = 3
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_SMALL
 	icon_state = "halbbitter"
 	trash = /obj/item/trash/halbbitter
 /obj/item/weapon/reagent_containers/food/snacks/halbbitter/New()
@@ -232,13 +232,13 @@
 		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
 		icon_state = "halbbitter_open"
 		wrapped = 0
-	else 
+	else
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/beefmushrooms
 	name = "beef & mushrooms"
 	desc = "A can of beef & mushroom sautee with rice."
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_SMALL
 	icon_state = "beefmushrooms"
 	trash = /obj/item/trash/tincan/beefmushrooms
 	bitesize = 3
@@ -255,7 +255,7 @@
 		to_chat(user,  "<span class='notice'>You pull open the lid of the meal!</span>")
 		icon_state = "beefmushrooms_open"
 		wrapped = 0
-	else 
+	else
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/chickencurry
@@ -278,13 +278,13 @@
 		to_chat(user,  "<span class='notice'>You pull open the lid of the meal!</span>")
 		icon_state = "chickencurry_open"
 		wrapped = 0
-	else 
+	else
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/finnchocolate
 	name = "Karl Fazer chocolate"
 	desc = "A bar of Finnish dark chocolate."
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_SMALL
 	wrapped = 1
 	bitesize = 3
 	icon_state = "karlfazer"
@@ -299,13 +299,13 @@
 		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
 		icon_state = "karlfazer_open"
 		wrapped = 0
-	else 
+	else
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/finnoats
 	name = "honey & oats bar"
 	desc = "A bar of oats, held together by honey."
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_SMALL
 	wrapped = 1
 	bitesize = 3
 	icon_state = "finnoats"
@@ -320,13 +320,13 @@
 		to_chat(user,  "<span class='notice'>You pull open the package of the oats!</span>")
 		icon_state = "finnoats_open"
 		wrapped = 0
-	else 
+	else
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/breadsalmon
 	name = "crisp bread w/ salmon"
 	desc = "A piece of crisp bread with salmon spread over it."
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_SMALL
 	wrapped = 1
 	bitesize = 3
 	icon_state = "breadsalmon"
@@ -341,13 +341,13 @@
 		to_chat(user,  "<span class='notice'>You pull open the package of the bread!</span>")
 		icon_state = "breadsalmon_open"
 		wrapped = 0
-	else 
+	else
 		..()
 
 /obj/item/weapon/reagent_containers/food/snacks/breadham
 	name = "crisp bread w/ ham"
 	desc = "A piece of crisp bread with ham spread over it."
-	w_class = ITEM_SIZE_NORMAL
+	w_class = ITEM_SIZE_SMALL
 	wrapped = 1
 	bitesize = 3
 	icon_state = "breadham"
@@ -362,5 +362,5 @@
 		to_chat(user,  "<span class='notice'>You pull open the package of the chocolate!</span>")
 		icon_state = "breadham_open"
 		wrapped = 0
-	else 
+	else
 		..()
