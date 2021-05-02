@@ -2081,7 +2081,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - USMC Designated Marksman")
 	uniform = /obj/item/clothing/under/coldwar/usmc/woodland/alt/sgt
 	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
-	gun_slot = /obj/item/weapon/gun/projectile/rifle/boltaction/m40a1
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/m21
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/m21
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack

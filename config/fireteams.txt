@@ -51,14 +51,19 @@ Squad 'Charlie':usmc
 /datum/job/escalation/usmc/usmcftg
 @END@
 
-Support Fireteams:usmc
+HWS-1:usmc
 /datum/job/escalation/usmc/usmcmgcom
 /datum/job/escalation/usmc/usmcmgop
 /datum/job/escalation/usmc/usmcmgload
+@END@
+
+ATS-1:usmc
 /datum/job/escalation/usmc/usmcatcom
 /datum/job/escalation/usmc/usmcat
 /datum/job/escalation/usmc/usmcata
-/datum/job/escalation/usmc/usmcsapperlead
+@END@
+
+ENG-1:usmc
 /datum/job/escalation/usmc/usmcsapper
 /datum/job/escalation/usmc/usmcsapper
 /datum/job/escalation/usmc/usmcsapper
@@ -310,6 +315,7 @@ Otdelenie 'Anna':cccp
 /datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
 @END@
 
@@ -321,6 +327,7 @@ Otdelenie 'Boris':cccp
 /datum/job/escalation/cccp/sarocketass
 /datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/samg
+/datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
@@ -336,13 +343,17 @@ Otdelenie 'Vasiliy':cccp
 /datum/job/escalation/cccp/samg
 /datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sarifle
+/datum/job/escalation/cccp/sarifle
 /datum/job/escalation/cccp/sacorpsman
 @END@
 
-Support Lyudi:cccp
+OTV-1:cccp
 /datum/job/escalation/cccp/saotvco
 /datum/job/escalation/cccp/saotvload
 /datum/job/escalation/cccp/saotvop
+@END@
+
+Support 'Lyudi':cccp
 /datum/job/escalation/cccp/sasapperleader
 /datum/job/escalation/cccp/sasapper
 /datum/job/escalation/cccp/sasapper
@@ -510,7 +521,7 @@ OTV-1:esp
 
 ###BAF###
 
-Section 'Echo':baf
+Squad 'Echo':baf
 /datum/job/escalation/baf/bafsl
 /datum/job/escalation/baf/bafrto
 /datum/job/escalation/baf/bafat
@@ -524,7 +535,7 @@ Section 'Echo':baf
 /datum/job/escalation/baf/baffto
 @END@
 
-Section 'Foxtrot':baf
+Squad 'Foxtrot':baf
 /datum/job/escalation/baf/bafsl
 /datum/job/escalation/baf/bafrto
 /datum/job/escalation/baf/bafat
@@ -538,10 +549,13 @@ Section 'Foxtrot':baf
 /datum/job/escalation/baf/baffto
 @END@
 
-Support Sections:baf
+HWT-1:baf
 /datum/job/escalation/baf/bafmgcom
 /datum/job/escalation/baf/bafmgop
 /datum/job/escalation/baf/bafmgload
+@END@
+
+Sapper Detachment 'ANZAC':baf
 /datum/job/escalation/baf/bafsappercom
 /datum/job/escalation/baf/bafsapper
 /datum/job/escalation/baf/bafsapper
@@ -555,35 +569,42 @@ Rhyma 'Celsius':finn
 /datum/job/escalation/finn/finnsld
 /datum/job/escalation/finn/finnsrad
 /datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocketass
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnsquadcorpsman
+/datum/job/escalation/finn/finnsm
 @END@
 
-Rhyma 'Daviid':finn
+Rhyma 'Daavid':finn
 /datum/job/escalation/finn/finnsl
 /datum/job/escalation/finn/finnsld
 /datum/job/escalation/finn/finnsrad
 /datum/job/escalation/finn/finnmg
+/datum/job/escalation/finn/finnrocket
+/datum/job/escalation/finn/finnrocketass
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnsquadcorpsman
+/datum/job/escalation/finn/finnsm
 @END@
 
-Support Platoona:finn
+RSJ-1:finn
 /datum/job/escalation/finn/finnhwtlead
 /datum/job/escalation/finn/finnhwtgnr
 /datum/job/escalation/finn/finnhwtload
-/datum/job/escalation/finn/finnrocketlead
-/datum/job/escalation/finn/finnrocket
-/datum/job/escalation/finn/finnrocketass
-/datum/job/escalation/finn/finnrocketass
+@END@
+
+Irtoaminen Pioneeri:finn
 /datum/job/escalation/finn/pioneerileader
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri
 @END@
+
+###END OF FILE###

@@ -26,14 +26,14 @@ mob/living/carbon/proc/custom_pain(var/message, var/power, var/force, var/obj/it
 	// Anti message spam checks
 	if(force || (message != last_pain_message) || (world.time >= next_pain_time))
 		last_pain_message = message
-		if(power >= 70)
+		if(power >= 90)
 			to_chat(src, "<span class='danger'><font size=3>[message]</font></span>")
-			if(prob(40 * mstatmodifier(end)))
+			if(prob(20 * mstatmodifier(end)))
 				emote("scream")
 				shake_camera(src, 10, 2)
 		else if(power >= 40)
 			to_chat(src, "<span class='danger'>[message]</span>")
-			if(prob(20 * mstatmodifier(end)))
+			if(prob(10 * mstatmodifier(end)))
 				emote("groan")
 				shake_camera(src, 5, 2)
 
@@ -75,7 +75,7 @@ mob/living/carbon/human/proc/handle_pain()
 			if(91 to 10000)
 				msg = "OH GOD! Your [damaged_organ.name] is [burning ? "on fire" : "hurting terribly"]!"
 				emote("scream")
-				
+
 		custom_pain(msg, maxdam, prob(10), damaged_organ, TRUE)
 
 	// Damage to internal organs hurts a lot.

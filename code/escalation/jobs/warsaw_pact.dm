@@ -1516,7 +1516,7 @@
 
 
 /datum/job/escalation/finn/finnrocketass
-	title = "FINN AT ampuja assistentti "
+	title = "FINN AT ampuja assistentti"
 	name = "AT ampuja assistentti"
 	english_name = "Grenadier Assistant"
 	minimal_player_age = 21
@@ -1555,10 +1555,10 @@
 		..()
 		H.add_skills(0, 0, -1, 3, 0, 1, 0, 0)
 
-/datum/job/escalation/finn/pioneerileader
+/datum/job/escalation/finn/leaderpioneeri
 	title = "FINN Pioneeri Leader"
 	name = "Pioneeri Johtaja"
-	english_name = "Pioneer Leader"
+	english_name = "Lead Pioneer"
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
