@@ -157,7 +157,7 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/marksman
 	selection_color = "#B0C4DE"
-	position = "fireteam"
+	position = "team"
 	enabled = 1
 	amount = 1
 	whitelist_rank = "usmc_enlisted"

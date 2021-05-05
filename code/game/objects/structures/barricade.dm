@@ -1,16 +1,14 @@
 /obj/structure/sandbag
 	name = "sandbag"
-	desc = "Some stacked sandbags to protect against incoming fire."
-	icon = 'icons/obj/structures.dmi'
+	icon = 'icons/obj/coldwar/sandbags.dmi'
 	icon_state = "sandbag"
 	density = 1
 	//if(A.density && !A.throwpass) src.throw_impact(A,speed)
 	throwpass = 1 //we can throw grenades despite its density
 	anchored = 1
 	flags = OBJ_CLIMBABLE
-	explosion_resistance = 1
 	var/basic_chance = 50
-	var/health = 400 //Actual health depends on snow layer
+	var/health = 200 //Actual health depends on snow layer
 
 /obj/structure/sandbag/New(loc, direction)
 	if(direction)
@@ -31,20 +29,6 @@
 /obj/structure/sandbag/Destroy()
 	basic_chance = null
 	..()
-
-/obj/structure/sandbag/examine(mob/user)
-	. = ..(user)
-	switch(health)
-		if(400 to INFINITY)
-			to_chat(user, "It's intact.")
-		if(300 to 400)
-			to_chat(user, "It's slightly damaged.")
-		if(150 to 300)
-			to_chat(user, "<span class='warning'>It's badly damaged.</span>")
-		if(50 to 150)
-			to_chat(user, "<span class='warning'>It's heavily damaged.</span>")
-		else
-			to_chat(user, "<span class='warning'>It's falling apart!</span>")
 
 // Duplicated from structures.dm, but its a bit different.
 /obj/structure/sandbag/do_climb(var/mob/living/user)
@@ -129,7 +113,7 @@
 
 	if(prob(chance))
 		visible_message("<span class='warning'>[P] hits \the [src]!</span>")
-		health -= P.damage
+		health -= P.damage/3
 		visible_message("<span class='warning'>[P] hits [src]!</span>")
 		health_check()
 		return 0
@@ -200,7 +184,7 @@
 /obj/item/weapon/sandbag/proc/check4struct(mob/user as mob)
 	if((locate(/obj/structure/hedgehog) || \
 		locate(/obj/structure/sandbag/concrete_block) || \
-		locate(/obj/structure/brustwehr)) in user.loc.contents \
+		locate(/obj/structure/brutswehr)) in user.loc.contents \
 		)
 		to_chat(user, "<span class='warning'>There is no more space.</span>")
 		return 1
@@ -219,17 +203,12 @@
 
 	if(do_after(user, 30, src))
 		to_chat(user, "<span class='notice'>You finish setting up the sandbags!</span>")
-		var/obj/structure/sandbag/bag = new(user.loc)//new (user.loc)
-		bag.set_dir(user.dir)
-		user.drop_item()
-		qdel(src)
-		return
 		if(!src) return
-	
-	user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
-	if(!do_mob(user, 30, src))
-		to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
-		return
+
+	var/obj/structure/sandbag/bag = new(user.loc)//new (user.loc)
+	bag.set_dir(user.dir)
+	user.drop_item()
+	qdel(src)
 
 /obj/item/weapon/sandbag/attackby(obj/O as obj, mob/user as mob)
 	if(istype(O, /obj/item/weapon/ore/glass))
@@ -266,16 +245,11 @@
 		icon_state = "sandbag_empty"
 
 /obj/structure/sandbag/attackby(obj/item/W as obj, mob/user as mob)
-	if(istype(W, /obj/item/weapon/shovel) && health == 400)
-		to_chat(user, "<span class='notice'>You start dismantling the sandbags...</span>")
+	if(istype(W, /obj/item/weapon/shovel) && health == 200)
+		to_chat(user, "<span class='notice'>Now taking down the sandbags...</span>")
 		playsound(src, 'sound/effects/empty_shovel.ogg', 50, 1)
 		if(do_after(user, 80 * W.toolspeed,src))
 			if(!src) return
-			to_chat(user, "<span class='notice'>You take apart the sandbags!</span>")
+			to_chat(user, "<span class='notice'>You take down sandbags!</span>")
 			new /obj/item/weapon/sandbag/full(src.loc)
 			qdel(src)
-			return
-		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
-		if(!do_mob(user, 80 * W.toolspeed,src))
-			to_chat(user, "<span class='warning'>You must stand still to do that.</span>")
-			return 0

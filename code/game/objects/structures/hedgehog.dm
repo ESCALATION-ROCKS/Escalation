@@ -128,7 +128,7 @@
 /obj/structure/hedgehog/proc/check4struct(mob/user as mob)
 	if((locate(/obj/structure/hedgehog) || \
 		locate(/obj/structure/sandbag) || \
-		locate(/obj/structure/brustwehr)|| \
+		locate(/obj/structure/brutswehr)|| \
 		locate(/obj/structure/sandbag/concrete_block)) in src.loc.contents \
 		)
 		to_chat(user, "\red There is no more space.")

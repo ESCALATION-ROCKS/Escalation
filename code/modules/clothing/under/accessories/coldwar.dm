@@ -495,6 +495,17 @@
 	slots = 4
 	armor_slowdown = 0.0
 
+/obj/item/clothing/accessory/storage/coldwar/baf
+	name = "58 pattern webbing "
+	desc = "A chest rig used by the British Armed Forces."
+	icon_state = "bandovest_baf"
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 3
+	armor_slowdown = 0.0
+
 /obj/item/clothing/accessory/storage/coldwar/lifchik/alt
 	icon_state = "lifchik_2"
 	slots = 2
