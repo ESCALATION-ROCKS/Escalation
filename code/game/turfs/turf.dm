@@ -307,9 +307,9 @@ var/const/enterloopsanity = 100
 	if(!config.starlight)
 //		world << "no starlight cfg aborting"
 		return
-	if(interior)
+/*	if(interior)
 //		world << "turf isn't interior aborting"
-		return
+		return*/
 
 	if(prob(10))
 		new/obj/effect/sun(loc)
