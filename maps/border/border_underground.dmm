@@ -1,12 +1,8 @@
-"ad" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/tiled/dark,/area/coldwar/underground/bunker)
-"af" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/wall/concrete_grey,/area/coldwar/underground/bunker)
-"ai" = (/obj/effect/decal/cleanable/dirt,/turf/unsimulated/floor/fakestairs/east{icon_state = "descent"},/area/coldwar/underground/bunker)
-"aj" = (/obj/effect/decal/cleanable/dirt,/turf/unsimulated/floor/fakestairs/east,/area/coldwar/underground/bunker)
-"ak" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/light/small/warmtint{dir = 1},/turf/simulated/floor/tiled/dark,/area/coldwar/underground/bunker)
-"al" = (/obj/effect/decal/cleanable/dirt,/turf/unsimulated/floor/fakestairs/west,/area/coldwar/underground/bunker)
-"am" = (/obj/effect/decal/cleanable/dirt,/turf/unsimulated/floor/fakestairs/west{icon_state = "bunkertop"},/area/coldwar/underground/bunker)
-"an" = (/obj/effect/decal/cleanable/dirt,/turf/unsimulated/floor/fakestairs/west{icon_state = "descent"},/area/coldwar/underground/bunker)
-"ao" = (/obj/structure/gasradiator{icon_state = "holycross"; name = "cross"},/turf/simulated/wall/concrete_grey,/area/coldwar/underground/bunker)
+"ad" = (/turf/simulated/floor/tiled/dark,/area/coldwar/underground/bunker)
+"af" = (/turf/unsimulated/ground,/area/coldwar/underground/bunker)
+"ai" = (/obj/machinery/light/small/warmtint{dir = 1},/turf/simulated/floor/tiled/dark,/area/coldwar/underground/bunker)
+"aj" = (/obj/structure/stairs/large/east,/turf/unsimulated/ground,/area/coldwar/underground/bunker)
+"ak" = (/obj/structure/gasradiator{icon_state = "holycross"; name = "cross"},/turf/simulated/wall/concrete_grey,/area/coldwar/underground/bunker)
 "aO" = (/obj/structure/sign/ass_flag,/turf/simulated/wall/concrete_grey,/area/coldwar/underground)
 "bA" = (/obj/effect/decal/cleanable/dirt,/obj/structure/ladder/up{target_up = 1},/turf/simulated/floor/plating,/area/coldwar/underground)
 "cw" = (/obj/structure/fence{dir = 4},/turf/unsimulated/bridge,/area/coldwar/underground)
@@ -15,7 +11,7 @@
 "tK" = (/obj/effect/decal/cleanable/dirt,/turf/unsimulated/bridge,/area/coldwar/underground)
 "tY" = (/obj/structure/fence/door,/turf/unsimulated/bridge,/area/coldwar/underground)
 "uW" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/coldwar/sewer)
-"wb" = (/obj/effect/decal/cleanable/dirt,/turf/unsimulated/floor/fakestairs/east{icon_state = "bunkertop"},/area/coldwar/underground/bunker)
+"wb" = (/obj/structure/stairs/large/west,/turf/unsimulated/ground,/area/coldwar/underground/bunker)
 "wi" = (/turf/unsimulated/ground/snow,/area/space)
 "yR" = (/turf/unsimulated/wall/planetary/sif,/area/space)
 "CJ" = (/turf/simulated/floor/sewerwater,/area/coldwar/sewer)
@@ -62,10 +58,10 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyMyMyMyMyadadadafadadadMyMyMyMyMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyaiwbajakadadadakadadadakalamanMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyaiwbajadadadadadadadadadalamanMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyMyMyMyMyadadadaoadadadMyMyMyMyMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyMyMyMyMyadadadMyadadadMyMyMyMyMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyafwbadaiadadadaiadadadaiadafajMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyafwbadadadadadadadadadadadafajMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyMyMyMyMyadadadakadadadMyMyMyMyMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
