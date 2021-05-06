@@ -2,6 +2,7 @@
 
 /datum/job/escalation/usmc
 	title = "United States Marine Corps"
+	department_flag = USMCFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "usmc"
 	military_faction = NATO
@@ -500,6 +501,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/*
 /datum/job/escalation/usmc/frcnsl
 	title = "FORECON Element Leader"
 	name = "Element Leader"
@@ -599,11 +601,13 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 2, -1, -1, 1, 1, 3, 0)
+*/
 
 ////////////////////////////////////////////////////////////////////BDW
 
 /datum/job/escalation/bund
 	title = "Bundeswehr"
+	department_flag = BDWFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "bund"  //The tag of the faction this job is a part of, for lookups
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund
@@ -1051,6 +1055,7 @@
 ////////////////////////AUSTRIAN BUNDESHEER
 /datum/job/escalation/heer
 	title = "Bundesheer"
+	department_flag = OBHFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "heer"  //The tag of the faction this job is a part of, for lookups
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer
@@ -1497,7 +1502,8 @@
 ////////////////////////////////////////////BAF///////////////////////////////////////////////
 
 /datum/job/escalation/baf
-	title = "British Armed Forces"
+	title = "British Army"
+	department_flag = BRITFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "baf"
 	military_faction = NATO
@@ -1902,6 +1908,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/*
 /////////////FRA///////
 /datum/job/escalation/fra
 	title = "Armee de Terre"
@@ -2713,3 +2720,4 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+*/

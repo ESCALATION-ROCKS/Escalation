@@ -983,13 +983,24 @@ var/list/admin_verbs_mentor = list(
 
 	var/alive_usmc = 0
 	var/alive_sov = 0
+	var/alive_brit = 0
+	var/alive_fin = 0
+/*
 	var/alive_bdw = 0
 	var/alive_nvaddr = 0
-
+	var/alive_csla = 0
+	var/alive_obh = 0
+*/
 	var/heavily_injured_usmc = 0
 	var/heavily_injured_sov = 0
+	var/heavily_injured_brit = 0
+	var/heavily_injured_fin = 0
+/*
+	var/heavily_injured_csla = 0
+	var/heavily_injured_obh = 0
 	var/heavily_injured_bdw = 0
 	var/heavily_injured_nvaddr = 0
+*/
 
 	for(var/mob/living/carbon/human/H in GLOB.human_mob_list)
 		if(H.stat == DEAD)
@@ -1001,12 +1012,22 @@ var/list/admin_verbs_mentor = list(
 		switch(job.department_flag)
 			if(SOVFORCE)
 				alive_sov++
+			if(USMCFORCE)
+				alive_usmc++
+			if(BRITFORCE)
+				alive_brit++
+			if(FINFORCE)
+				alive_fin++
+/*
 			if(DDRFORCE)
 				alive_nvaddr++
 			if(BDWFORCE)
 				alive_bdw++
-			if(USMCFORCE)
-				alive_usmc++
+			if(CSLAFORCE)
+				alive_csla++
+			if(OBHFORCE)
+				alive_obh++
+*/
 
 		if(H.health > 0)
 			continue
@@ -1014,24 +1035,34 @@ var/list/admin_verbs_mentor = list(
 		switch(job.department_flag)
 			if(SOVFORCE)
 				heavily_injured_sov++
+			if(USMCFORCE)
+				heavily_injured_usmc++
+			if(BRITFORCE)
+				heavily_injured_brit++
+			if(FINFORCE)
+				heavily_injured_fin++
+/*
 			if(DDRFORCE)
 				heavily_injured_nvaddr++
 			if(BDWFORCE)
 				heavily_injured_bdw++
-			if(USMCFORCE)
-				heavily_injured_usmc++
+			if(CSLAFORCE)
+				heavily_injured_csla++
+			if(OBHFORCE)
+				heavily_injured_obh++
+*/
 
 
-	to_chat(usr, "<b>NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in US Army. [alive_bdw] alive and [heavily_injured_bdw] heavily injured in Bundeswehr.</b>")
-	to_chat(usr, "<b>Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in Soviet Army. [alive_nvaddr] alive and [heavily_injured_nvaddr] heavily injured in NVA DDR.</b>")
+	to_chat(usr, "<b>NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in the USMC. [alive_brit] alive and [heavily_injured_brit] heavily injured in the British Army.</b>")
+	to_chat(usr, "<b>Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in the Soviet Army. [alive_fin] alive and [heavily_injured_fin] heavily injured in the Finnish Army.</b>")
 
 	var/public = alert(usr, "Show it to the public?",,"Yes", "No")
 
 	if(public == "Yes")
-		to_world("<b>NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in US Army. [alive_bdw] alive and [heavily_injured_bdw] heavily injured in Bundeswehr.</b>")
-		to_world("<b>Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in Soviet Army. [alive_nvaddr] alive and [heavily_injured_nvaddr] heavily injured in NVA DDR.</b>")
+		to_world("<b>NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in the USMC. [alive_brit] alive and [heavily_injured_brit] heavily injured in the British Army.</b>")
+		to_world("<b>Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in the Soviet Army. [alive_fin] alive and [heavily_injured_fin] heavily injured in the Finnish Army.</b>")
 
-
+/*
 /client/proc/show_general_stat()
 	set name = "Show generally armies stats"
 	set category = null ///"EscAdmin"
@@ -1047,6 +1078,7 @@ var/list/admin_verbs_mentor = list(
 		return
 	to_world(show_statistic_by_faction())
 	feedback_add_details("admin_verb", "AKLL")
+*/
 
 /client/proc/add_to_esc_whitelist()
 	set name = "Add to WL"
@@ -1066,7 +1098,7 @@ var/list/admin_verbs_mentor = list(
 
 	feedback_add_details("admin_verb", "ESCW")
 
-
+/*
 /client/proc/show_armies_tags()
 	set name = "Show armies' tags"
 	set category = "EscAdmin"
@@ -1074,6 +1106,7 @@ var/list/admin_verbs_mentor = list(
 		return
 	show_armies()
 	feedback_add_details("admin_verbs", "AKCV")
+*/
 
 /client/proc/set_daytime()
 	set category = null ///"EscAdmin" DOESNT WORK AT ALL
@@ -1117,9 +1150,8 @@ var/global/list/global_colour_matrix = null
 	set name = "Announce Battle Start"
 	var/startconfirm = alert("Are you sure you want to start the battle?", "Are you sure you want to start the battle?", "Yes", "No")
 	if(startconfirm == "Yes")
-		to_world("<b><font size=2>All callsigns, multiple ballistic launches have been detected. Operational readiness No. 1 has been declared!</font></b>")
-		to_world("<b><font size=2>Repeat, all callsigns, Operational readiness No. 1 has been declared!</font></b>")
-		to_world("<b><font size=3>This will be our final broadcast. Advance under platoon-scale command. Good luck.</font></b>")
+		to_world("<b><font size=2>Enemy presence in the AO is confirmed. Operational readiness No. 1 has been declared.<font></b>")
+		to_world("<b><font size=2>Division command has authorized the company's advance.</font></b>")
 		sound_to(world, 'sound/effects/Evacuation.ogg')
 		log_and_message_admins("has set forth the end of the world.")
 		roundstarted = 1
@@ -1132,7 +1164,7 @@ var/global/list/global_colour_matrix = null
 	var/victoryconfirm = alert("Are you sure you want to declare a NATO victory?", "Are you sure you want to declare a NATO victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared NATO Victory")
-		to_world("<b><font size=5>NATO forces have occupied the field!</font></b>")
+		to_world("<b><font size=5>NATO forces have occupied the field.</font></b>")
 		sound_to(world, 'sound/music/RussianCircles.ogg')
 	else
 		return
@@ -1143,7 +1175,7 @@ var/global/list/global_colour_matrix = null
 	var/victoryconfirm = alert("Are you sure you want to declare a WARPACT victory?", "Are you sure you want to declare a WARPACT victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared WARPACT Victory")
-		to_world("<b><font size=5>WARPACT forces have occupied the field!</font></b>")
+		to_world("<b><font size=5>WARPACT forces have occupied the field.</font></b>")
 		sound_to(world, 'sound/music/RussianCircles.ogg')
 	else
 		return
@@ -1153,134 +1185,8 @@ var/global/list/global_colour_matrix = null
 	set name = "Announce Round Draw"
 	var/victoryconfirm = alert("Are you sure you want to declare a DRAW?", "Are you sure you want to declare a DRAW?", "Yes", "No")
 	if(victoryconfirm == "Yes")
-		log_and_message_admins("has declared a draw...")
-		to_world("<b><font size=4>The battlefield is deserted and the remaining troops have retreated...</font></b>")
+		log_and_message_admins("has declared a draw.")
+		to_world("<b><font size=4>The battlefield is deserted and the remaining troops have retreated.</font></b>")
 		sound_to(world, 'sound/music/bluemonday.ogg')
 	else
 		return
-
-/*/client/proc/speznaz_major()
-	set category = "EscDeclareWinner"
-	set name = "GRU Speznaz Major Victory"
-	log_and_message_admins("has declared GRU Spetznaz Major Victory")
-	to_world("<b><font size=7>THE GRU SPETZNAZ DOMINATE THE BATTLEFIELD, YA SPETZNAZ!!!</font></b>")
-	sound_to(world, 'sound/effects/speznaztheme.ogg')
-
-/client/proc/speznaz_minor()
-	set category = "EscDeclareWinner"
-	set name = "GRU Speznaz Minor Victory"
-	log_and_message_admins("has declared GRU Spetznaz Minor Victory")
-	to_world("<b><font size=5>The GRU Speznaz have secured the battlefield.</font></b>")
-	sound_to(world, 'sound/effects/speznaztheme.ogg')
-
-/client/proc/usranger_major()
-	set category = "EscDeclareWinner"
-	set name = "US Army Ranger Major Victory"
-	log_and_message_admins("has declared US Ranger Major Victory")
-	to_world("<b><font size=7>THE US ARMY RANGERS DOMINATE THE BATTLEFIELD, RANGERS LEAD THE WAY!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/usranger_minor()
-	set category = "EscDeclareWinner"
-	set name = "US Army Ranger Minor Victory"
-	log_and_message_admins("has declared US Ranger Minor Victory")
-	to_world("<b><font size=5>The US Army Rangers have secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/nva_major()
-	set category = "EscDeclareWinner"
-	set name = "National Volksarmee Major Victory"
-	log_and_message_admins("has declared Volkarmee Major Victory")
-	to_world("<b><font size=7>THE NATIONAL VOLKSARMEE DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/music/derheimlicheaufmarsch.ogg')
-
-/client/proc/nva_minor()
-	set category = "EscDeclareWinner"
-	set name = "National Volksarmee Minor Victory"
-	log_and_message_admins("has declared Volkarmee Minor Victory")
-	to_world("<b><font size=5>The National Volksarmee have secured the battlefield!</font></b>")
-	sound_to(world, 'sound/music/terranrepubliccombat4.ogg')
-
-/client/proc/bund_major()
-	set category = "EscDeclareWinner"
-	set name = "Bundeswehr Major Victory"
-	log_and_message_admins("has declared Bundeswehr Major Victory")
-	to_world("<b><font size=7>THE BUNDESWEHR DOMINATE THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/bund_minor()
-	set category = "EscDeclareWinner"
-	set name = "Bundeswehr Minor Victory"
-	log_and_message_admins("has declared Bundeswehr Minor Victory")
-	to_world("<b><font size=5>The Bundeswehr have secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/finn_major()
-	set category = "EscDeclareWinner"
-	set name = "Finnish Major Victory"
-	log_and_message_admins("has declared Finnish Army Major Victory")
-	to_world("<b><font size=7>THE FINNISH ARMY DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/finn_minor()
-	set category = "EscDeclareWinner"
-	set name = "Finnish Minor Victory"
-	log_and_message_admins("has declared Finnish Army Minor Victory")
-	to_world("<b><font size=5>The Finnish Army has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/brit_major()
-	set category = "EscDeclareWinner"
-	set name = "British Major Victory"
-	log_and_message_admins("has declared British Expeditionary Major Victory")
-	to_world("<b><font size=7>THE BRITISH EXPEDITIONARY FORCE DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/brit_minor()
-	set category = "EscDeclareWinner"
-	set name = "British Minor Victory"
-	log_and_message_admins("has declared British Expeditionary Minor Victory")
-	to_world("<b><font size=5>The British Expeditionary Force has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/usarmy_major()
-	set category = "EscDeclareWinner"
-	set name = "US Marines Major Victory"
-	log_and_message_admins("has declared USMC Minor Victory")
-	to_world("<b><font size=7>THE UNITED STATES MARINE CORP DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/music/camouflage.ogg')
-
-/client/proc/usarmy_minor()
-	set category = "EscDeclareWinner"
-	set name = "US Marines Minor Victory"
-	log_and_message_admins("has declared USMC Minor Victory")
-	to_world("<b><font size=5>The United States Marine Corp has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/music/ambushedagain.ogg')
-
-/client/proc/sovietarmy_major()
-	set category = "EscDeclareWinner"
-	set name = "Soviet Army Major Victory"
-	log_and_message_admins("has declared Soviet Army Major Victory")
-	to_world("<b><font size=7>THE RED ARMY DOMINATES THE BATTLEFIELD!!!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/sovietarmy_minor()
-	set category = "EscDeclareWinner"
-	set name = "Soviet Army Minor Victory"
-	log_and_message_admins("has declared Soviet Army Minor Victory")
-	to_world("<b><font size=5>The Red Army has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/music/redtide.ogg')
-
-/client/proc/warpact_minor()
-	set category = "EscDeclareWinner"
-	set name = "Warsaw Pact Minor Victory"
-	log_and_message_admins("has declared Warsaw Pact Minor Victory")
-	to_world("<b><font size=5>The Warsaw Pact has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/effects/usarmyrangertheme.ogg')
-
-/client/proc/nato_minor()
-	set category = "EscDeclareWinner"
-	set name = "NATO Minor Victory"
-	log_and_message_admins("has declared Nato Minor Victory")
-	to_world("<b><font size=5>The North Atlantic Treaty Organization has secured the battlefield!</font></b>")
-	sound_to(world, 'sound/music/lmfaopartyrock.ogg')*/
