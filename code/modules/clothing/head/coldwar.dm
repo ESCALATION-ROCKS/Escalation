@@ -393,9 +393,9 @@
 	desc = "That's a generic boonie hat in a woodland pattern."
 	icon_state = "boonie_woodl"
 
-/obj/item/clothing/head/usmc/cavhat
-	name = "cavalry hat"
-	desc = null
+/obj/item/clothing/head/coldwar/usmc/cavhat
+	name = "air cavalry hat"
+	desc = "Somebody's lost this."
 	icon_state = "cavhat"
 
 /obj/item/clothing/head/coldwar/ushanka/us
