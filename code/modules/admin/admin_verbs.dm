@@ -17,9 +17,9 @@ var/list/admin_verbs_admin = list(
 	/client/proc/invisimin,				//allows our mob to go invisible/visible,
 //	/datum/admins/proc/show_traitor_panel,	//interface which shows a mob's mind, -Removed due to rare practical use. Moved to debug verbs ~Errorage,
 	/client/proc/set_daytime,
-	/client/proc/show_armies_tags,
-	/client/proc/show_separated_stat,
-	/client/proc/show_general_stat,	//allows us to set a custom colour for everythign we say in ooc,
+//	/client/proc/show_armies_tags,
+//	/client/proc/show_separated_stat,
+//	/client/proc/show_general_stat,	//allows us to set a custom colour for everythign we say in ooc,
 	/client/proc/add_to_esc_whitelist,
 	/client/proc/stop_art_shelling,
 	///client/proc/stop_arty_gib,
@@ -1009,15 +1009,15 @@ var/list/admin_verbs_mentor = list(
 		if(!job)
 			to_chat(usr, "<span class='red'>[H] has no job!</span>")
 			continue
-		switch(job.department_flag)
-			if(SOVFORCE)
-				alive_sov++
+		switch(job.force)
 			if(USMCFORCE)
 				alive_usmc++
 			if(BRITFORCE)
 				alive_brit++
 			if(FINFORCE)
 				alive_fin++
+			if(SOVFORCE)
+				alive_sov++
 /*
 			if(DDRFORCE)
 				alive_nvaddr++
@@ -1029,18 +1029,18 @@ var/list/admin_verbs_mentor = list(
 				alive_obh++
 */
 
-		if(H.health > 0)
+		if(H.health < 30)
 			continue
 
-		switch(job.department_flag)
-			if(SOVFORCE)
-				heavily_injured_sov++
+		switch(job.force)
 			if(USMCFORCE)
 				heavily_injured_usmc++
 			if(BRITFORCE)
 				heavily_injured_brit++
 			if(FINFORCE)
 				heavily_injured_fin++
+			if(SOVFORCE)
+				heavily_injured_sov++
 /*
 			if(DDRFORCE)
 				heavily_injured_nvaddr++
@@ -1053,14 +1053,22 @@ var/list/admin_verbs_mentor = list(
 */
 
 
-	to_chat(usr, "<b>NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in the USMC. [alive_brit] alive and [heavily_injured_brit] heavily injured in the British Army.</b>")
-	to_chat(usr, "<b>Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in the Soviet Army. [alive_fin] alive and [heavily_injured_fin] heavily injured in the Finnish Army.</b>")
+	to_world("<b><font size=4>NATO:</font></b>")
+	to_world("<b>USMC:</b> [alive_usmc] alive, [heavily_injured_usmc] heavily injured.")
+	to_world("<b>British Army:</b> [alive_brit] alive, [heavily_injured_brit] heavily injured.")
+	to_world("<b><font size=4>Warsaw Pact:</font></b>")
+	to_world("<b>Sovetskaya Armiya:</b> [alive_sov] alive, [heavily_injured_sov] heavily injured.")
+	to_world("<b>Suomen Maavoimat:</b> [alive_fin] alive, [heavily_injured_fin] heavily injured.")
 
 	var/public = alert(usr, "Show it to the public?",,"Yes", "No")
 
 	if(public == "Yes")
-		to_world("<b>NATO: [alive_usmc] alive and [heavily_injured_usmc] heavily injured in the USMC. [alive_brit] alive and [heavily_injured_brit] heavily injured in the British Army.</b>")
-		to_world("<b>Warsaw Pact: [alive_sov] alive and [heavily_injured_sov] heavily injured in the Soviet Army. [alive_fin] alive and [heavily_injured_fin] heavily injured in the Finnish Army.</b>")
+		to_world("<b><font size=4>NATO:</font></b>")
+		to_world("<b>USMC:</b> [alive_usmc] alive, [heavily_injured_usmc] heavily injured.")
+		to_world("<b>British Army:</b> [alive_brit] alive, [heavily_injured_brit] heavily injured.")
+		to_world("<b><font size=4>Warsaw Pact:</font></b>")
+		to_world("<b>Sovetskaya Armiya:</b> [alive_sov] alive, [heavily_injured_sov] heavily injured.")
+		to_world("<b>Suomen Maavoimat:</b> [alive_fin] alive, [heavily_injured_fin] heavily injured.")
 
 /*
 /client/proc/show_general_stat()

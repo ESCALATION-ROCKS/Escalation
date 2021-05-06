@@ -1,7 +1,7 @@
 //Soviet Army
 /datum/job/escalation/cccp
 	title = "cccp"
-	department_flag = SOVFORCE
+	force = SOVFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "cccp"
 	military_faction = WARPACT
@@ -598,7 +598,7 @@
 
 /datum/job/escalation/nvaddr
 	title = "NVA DDR"
-	department_flag = DDRFORCE
+	force = DDRFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "nvaddr" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT
@@ -1075,7 +1075,7 @@
 
 /datum/job/escalation/finn
 	title = "Suomen Maavoimat"
-	department_flag = FINFORCE
+	force = FINFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "finn" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT
@@ -1582,7 +1582,7 @@
 
 /datum/job/escalation/csla
 	title = "CSLA"
-	department_flag = CSLAFORCE
+	force = CSLAFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "csla" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT

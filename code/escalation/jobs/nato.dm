@@ -2,7 +2,7 @@
 
 /datum/job/escalation/usmc
 	title = "United States Marine Corps"
-	department_flag = USMCFORCE
+	force = USMCFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "usmc"
 	military_faction = NATO
@@ -607,7 +607,7 @@
 
 /datum/job/escalation/bund
 	title = "Bundeswehr"
-	department_flag = BDWFORCE
+	force = BDWFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "bund"  //The tag of the faction this job is a part of, for lookups
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund
@@ -1055,7 +1055,7 @@
 ////////////////////////AUSTRIAN BUNDESHEER
 /datum/job/escalation/heer
 	title = "Bundesheer"
-	department_flag = OBHFORCE
+	force = OBHFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "heer"  //The tag of the faction this job is a part of, for lookups
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/heer
@@ -1503,7 +1503,7 @@
 
 /datum/job/escalation/baf
 	title = "British Army"
-	department_flag = BRITFORCE
+	force = BRITFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "baf"
 	military_faction = NATO
