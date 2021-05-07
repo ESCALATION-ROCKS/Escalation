@@ -386,8 +386,8 @@
 		if(!held_twohanded)
 			acc_mod += -ceil(one_hand_penalty/2)
 			disp_mod += one_hand_penalty*0.5 //dispersion per point of two-handedness
-	
-	
+
+
 	/*var/mob/living/carbon/human/H = src
 	if(H.chem_effects[CE_PAINKILLER])
 		painkilleraccuracy -= 3  */
@@ -442,7 +442,7 @@
 			playsound(user, 'sound/weapons/silencedshotgun.ogg', 50, 1, 1)
 		else
 			playsound(user, 'sound/weapons/silencedgun.ogg', 50, 1, 1)
-	
+
 	playsound(user, shot_sound, shot_sound_vol, 1)
 
 	if(istype(src,/obj/item/weapon/gun/launcher/oneuse/))
@@ -567,17 +567,19 @@
 	..()
 	if(!safety)
 		user.client.mouse_pointer_icon = file("icons/misc/pointer.dmi")
+	update_icon()
+/obj/item/weapon/gun/dropped(mob/user)
+	..()
+	if(user.get_active_hand() != src)
+		user.client.mouse_pointer_icon = initial(user.client.mouse_pointer_icon)
+	update_icon()
 
 /obj/item/weapon/gun/equipped(mob/user, var/slot)
 	..()
 	if(slot == slot_gun_slot || slot == slot_back)
 		user.client.mouse_pointer_icon = null
-	if(!safety && (slot == slot_l_hand || slot == slot_r_hand))
+	if(!safety && (slot == user.get_active_hand()))
 		user.client.mouse_pointer_icon = file("icons/misc/pointer.dmi")
 	else
 		user.client.mouse_pointer_icon = null
-
-/obj/item/weapon/gun/dropped(mob/user)
-	..()
-	if(user.get_active_hand() != src)
-		user.client.mouse_pointer_icon = initial(user.client.mouse_pointer_icon)
+	update_icon()
