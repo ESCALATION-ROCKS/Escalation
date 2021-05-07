@@ -19,10 +19,10 @@
 	icon_state = "panties_noback"
 	has_color = TRUE
 */
-/*/datum/category_item/underwear/bottom/boxers_loveheart
+/datum/category_item/underwear/bottom/boxers_loveheart
 	name = "Boxers, Loveheart"
 	underwear_name = "boxers"
-	icon_state = "boxers_loveheart"*/
+	icon_state = "boxers_loveheart"
 
 /datum/category_item/underwear/bottom/boxers
 	is_default = TRUE

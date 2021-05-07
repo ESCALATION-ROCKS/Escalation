@@ -201,7 +201,7 @@
 				playsound(get_turf(loc), "rustle", 15, 1, -3)
 				basic_chance += 10
 				density = 1
-				src.overlays += image('icons/obj/sandbags.dmi', "brustwehr_barricadeoverlay", layer=3.1)
+				src.overlays += image('icons/obj/coldwar/sandbags.dmi', "brustwehr_barricadeoverlay", layer=3.1)
 			else
 				to_chat(user, "<span class='notice'>You do not have enough wood to reinforce the brustwehr.</span>")
 
@@ -221,7 +221,7 @@
 				throwpass = 0
 				reinforced = 2
 				density = 1
-				src.overlays += image('icons/obj/sandbags.dmi', "brustwehr_barricadeoverlay", layer=3.1)
+				src.overlays += image('icons/obj/coldwar/sandbags.dmi', "brustwehr_barricadeoverlay", layer=3.1)
 			else
 				to_chat(user, "<span class='notice'>You do not have enough wood to reinforce the brustwehr.</span>")
 
@@ -240,7 +240,7 @@
 				playsound(get_turf(loc), "rustle", 15, 1, -4)
 				reinforced = 3
 				density = 1
-				src.overlays += image('icons/obj/sandbags.dmi', "brustwehr_sandbagoverlay", layer=3.1)
+				src.overlays += image('icons/obj/coldwar/sandbags.dmi', "brustwehr_sandbagoverlay", layer=3.1)
 			else
 				to_chat(user, "<span class='notice'>The sandbag isn't full enough to reinforce the brustwehr.</span>")
 
