@@ -67,3 +67,5 @@ mega
 liquid
 solid
 snake
+amon
+gus
