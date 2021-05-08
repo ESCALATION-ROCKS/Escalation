@@ -11,6 +11,7 @@
 	var/leading = 0 // Is job is leader of team or fireteam?
 	var/list/also_known_languages = list()
 	var/whitelist_rank = null
+	var/force = null
 
 //uuuuuuuuuuhhhhhhhh
 /datum/job/escalation

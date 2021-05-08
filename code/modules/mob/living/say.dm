@@ -157,7 +157,7 @@ proc/get_radio_key_from_channel(var/channel)
 	if(GLOB.in_character_filter.len)
 		if(findtext(message, config.ic_filter_regex))
 			// let's try to be a bit more informative!
-			var/warning_message = "You tried to say something dumb. You decided to not say it."
+			var/warning_message = "Huh?"
 			var/list/words = splittext(message, " ")
 			var/cringe = ""
 			for (var/word in words)

@@ -1,6 +1,7 @@
 //Soviet Army
 /datum/job/escalation/cccp
 	title = "cccp"
+	force = SOVFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "cccp"
 	military_faction = WARPACT
@@ -492,7 +493,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-
+/*
 /datum/job/escalation/cccp/vympsl
 	title = "KGB Komandir Elementa"
 	name = "Komandir Elementa"
@@ -592,11 +593,12 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 2, -1, -1, 1, 1, 3, 0)
-
+*/
 //NVA DDR
 
 /datum/job/escalation/nvaddr
 	title = "NVA DDR"
+	force = DDRFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "nvaddr" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT
@@ -1072,7 +1074,8 @@
 //Finnish Army
 
 /datum/job/escalation/finn
-	title = "Finnish Militaria"
+	title = "Suomen Maavoimat"
+	force = FINFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "finn" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT
@@ -1579,6 +1582,7 @@
 
 /datum/job/escalation/csla
 	title = "CSLA"
+	force = CSLAFORCE
 	enabled = 0 ///////base job, keep disabled.
 	faction_tag = "csla" //The tag of the faction this job is a part of ("bund", "csla"), for lookups
 	military_faction = WARPACT
@@ -2009,6 +2013,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
+/*
 //Spanish Republican Army
 /datum/job/escalation/esp
 	title = "Ejercito de la Republica Espanola"
@@ -2444,3 +2449,4 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+*/

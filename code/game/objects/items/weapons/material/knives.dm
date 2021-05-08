@@ -66,11 +66,59 @@
 	unbreakable = 1
 	weapon_speed_delay = 4
 
-/obj/item/material/sword/combat_knife/attack(mob/living/carbon/C as mob, mob/living/user as mob)
-	if(user.a_intent == I_HELP)
-		remove_shrapnel(C, user)
+/obj/item/weapon/material/knife/attack_self(mob/user)
+	if(ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(user.a_intent == I_HELP)
+			var/obj/item/organ/external/injured_area = H.get_organ(H.zone_sel.selecting)
+			if(!injured_area.implants)
+				to_chat(H, "<span class='warning'>You search for embedded shrapnel, but there is none to be found.</span>")
+				return	
+			for(var/obj/item/weapon/O in injured_area.implants)
+				if(istype(O, /obj/item/weapon/material/shard/shrapnel/))
+					for(var/datum/wound/W in injured_area.wounds)
+						var/shrap_removal_scale = W.embedded_objects.len
+						H.visible_message("<span class='warning'>[H] starts to dig the shrapnel in [injured_area] out.</span>",\
+		"You begin to dig out the shrapnel in [injured_area].")
+						if(!do_after(H, ((60*shrap_removal_scale)-(5*H.skill_medicine)), src)) 
+							to_chat(H, "<span class='userdanger'>You were interrupted.</span>")
+							return 
+						W.embedded_objects -= O
+						injured_area.implants -= O
+						O.forceMove(get_turf(H.loc)) // add bleeding if found how
+						injured_area.take_damage(5-H.skill_medicine, 0, (DAM_SHARP|DAM_EDGE), used_weapon = src)
+						to_chat(H, "<span class='warning'>You remove the shrapnel from [injured_area]. </span>")
+						return
+
+/obj/item/weapon/material/knife/attack(mob/M, mob/user, var/target_zone) // make a loop if possible
+	if(user.a_intent == I_HELP && user.skill_medicine >= 3) // only medics and doctors can do this 
+		var/mob/living/carbon/human/H = user
+		var/mob/living/carbon/human/T = M 
+		if(user.a_intent == I_HELP)
+			for(var/bodypart in BP_ALL_LIMBS)
+				var/obj/item/organ/external/injured_area = T.organs_by_name[bodypart]
+				if(!injured_area.implants)
+					to_chat(H, "<span class='warning'>You search for embedded shrapnel, but there is none to be found.</span>")
+					return	
+				for(var/obj/item/weapon/O in injured_area.implants)
+					if(istype(O, /obj/item/weapon/material/shard/shrapnel/))
+						for(var/datum/wound/W in injured_area.wounds)
+							var/shrap_removal_scale = W.embedded_objects.len
+							H.visible_message("<span class='warning'>[H] starts to dig the shrapnel out of [T]'s [injured_area]. </span>",\
+		"You begin to dig the shrapnel out of [T]'s [injured_area].")
+							if(!do_after(H, ((60*shrap_removal_scale)-(5*H.skill_medicine)), H)) 
+								to_chat(H, "<span class='userdanger'>You were interrupted.</span>")
+								return 
+							W.embedded_objects -= O
+							injured_area.implants -= O
+							O.forceMove(get_turf(H.loc))  // add bleeding if found how
+							injured_area.take_damage(5-H.skill_medicine, 0, (DAM_SHARP|DAM_EDGE), used_weapon = src)
+							to_chat(H, "<span class='warning'>You remove the shrapnel from [T]'s body. </span>")
+							return	
+		return  
+
 	else
-		..()
+		return ..()
 
 /obj/item/weapon/material/knife/hook
 	name = "meat hook"
