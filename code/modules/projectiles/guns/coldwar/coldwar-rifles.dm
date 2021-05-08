@@ -68,7 +68,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	force = 15
-	accuracy = 2.8
+	accuracy = 2.6
 	wielded_item_state = "ak74-wielded"
 	jam_chance = 0.285
 	slowdown_general = 0.27
@@ -169,7 +169,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	force = 15
-	accuracy = 2.7
+	accuracy = 2.6
 	jam_chance = 0.285
 	slowdown_general = 0.27
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
@@ -252,7 +252,7 @@
 	magazine_type = null
 	one_hand_penalty = 3
 	force = 15
-	accuracy = 2.8
+	accuracy = 2.6
 	bayonet_attachable = 0
 	wielded_item_state = "ak74gl-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -337,7 +337,7 @@
 	magazine_type = null
 	one_hand_penalty = 3
 	force = 15
-	accuracy = 2.8
+	accuracy = 2.6
 	bayonet_attachable = 0
 	wielded_item_state = "ak74gl-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
