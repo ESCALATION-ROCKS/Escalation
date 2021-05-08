@@ -8,7 +8,7 @@
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
-	agony = 20
+	agony = 40
 
 /obj/item/projectile/bullet/rifle/a762x39/Initialize()
 	damage = rand(32, 41)
@@ -26,7 +26,7 @@
 	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
-	agony = 20
+	agony = 40
 
 	New()
 		damage = rand(35, 44)
@@ -38,7 +38,7 @@
 	armor_penetration = 98 //was 34
 	penetration_modifier = 0.4
 	embed = 1
-	agony = 20
+	agony = 40
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
@@ -52,7 +52,7 @@
 	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
-	agony = 20
+	agony = 40
 
 	New()
 		damage = rand(37, 46)
@@ -70,7 +70,7 @@
 	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
-	agony = 20
+	agony = 40
 
 	New()
 		damage = rand(37, 46)
@@ -86,7 +86,7 @@
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
-	agony = 20
+	agony = 40
 
 	New()
 		damage = rand(34,  38)
@@ -103,7 +103,7 @@
 	penetration_modifier = 0.5 //slightly less energy than 545 but does more internal damage
 	embed = 1
 	kill_count = 120
-	agony = 20
+	agony = 40
 
 	New()
 		damage = rand(30, 35)
@@ -120,7 +120,7 @@
 /obj/item/projectile/bullet/rifle/a45
 	armor_penetration = -10 //was 4
 	penetration_modifier = 0.7 //does big internal organ damage if it penetrates
-	agony = 25
+	agony = 50
 	kill_count = 25
 
 	New()
@@ -135,7 +135,7 @@
 /obj/item/projectile/bullet/rifle/a9x19
 	armor_penetration = 0 //was 12
 	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
-	agony = 23
+	agony = 46
 	kill_count = 25
 
 	New()
@@ -150,7 +150,7 @@
 /obj/item/projectile/bullet/rifle/a9x18
 	armor_penetration = -5 //was 8
 	penetration_modifier = 0.5 ///does big internal organ damage if penetrates
-	agony = 21
+	agony = 42
 	kill_count = 25
 
 	New()
@@ -166,7 +166,7 @@
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
 	armor_penetration = 98 //was 54
 	penetration_modifier = 0.9 ///12mm shells gotta hurt
-	agony = 46
+	agony = 80
 	penetrating = 3
 	kill_count = 250
 
@@ -182,7 +182,7 @@
 //	fire_sound = 'sound/weapons/gunshot/heavy_mg/kord1.ogg'
 	armor_penetration = 98 //was 45
 	penetration_modifier = 0.9 ///12mm shells gotta hurt
-	agony = 42
+	agony = 80
 	penetrating = 3
 	kill_count = 250
 
@@ -202,7 +202,7 @@
 	armor_penetration = -15 // - does jackshit against armor
 	penetration_modifier = 0.6
 	kill_count = 25
-	agony = 20
+	agony = 40
 	name = "#00 buckshot pellet"
 	icon_state = "pellets" //TODO: would be nice to have it's own icon state
 	pellets = 9		//number of pellets
@@ -217,7 +217,7 @@
 /obj/item/projectile/bullet/rifle/ga12/slug
 	armor_penetration = 15 //low chance of going through
 	penetration_modifier = 0.3
-	agony = 18
+	agony = 36
 	kill_count = 60
 
 	New()
@@ -227,7 +227,7 @@
 	armor_penetration = 98 //was 20
 	icon_state = "bullet_flechette"
 	penetration_modifier = 0.1
-	agony = 16
+	agony = 36
 	kill_count = 80
 
 	New()
@@ -237,7 +237,7 @@
 	armor_penetration = -10
 	penetration_modifier = 0.5
 	kill_count = 20
-	agony = 21
+	agony = 42
 	name = "buckshot pellet"
 	icon_state = "pellets"
 	pellets = 9
@@ -252,7 +252,7 @@
 /obj/item/projectile/bullet/rifle/ga6/slug
 	armor_penetration = 10 //low chance of going through
 	penetration_modifier = 0.3
-	agony = 23
+	agony = 46
 	kill_count = 50
 
 	New()
@@ -262,7 +262,7 @@
 	armor_penetration = 98 //was 20
 	icon_state = "bullet_flechette"
 	penetration_modifier = 0.1
-	agony = 18
+	agony = 28
 	kill_count = 60
 
 	New()
@@ -271,7 +271,7 @@
 /obj/item/projectile/bullet/ags30x29mm
 	name = "AGS' bullet"
 	icon_state = "vog"
-	agony = 40
+	agony = 80
 	armor_penetration = 98
 	damage = 50
 	penetrating = 0
@@ -285,7 +285,7 @@
 	name = "MK19' bullet"
 	icon_state = "vog"
 	damage = 50
-	agony = 40
+	agony = 80
 	kill_count = 60
 	penetrating = 0
 
