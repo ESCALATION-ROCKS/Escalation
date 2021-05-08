@@ -258,7 +258,7 @@
 	max_shells = 10
 	load_method = MAGAZINE
 	caliber = ".50"
-	screen_shake = 5
+	screen_shake = 2
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c50cals)
@@ -419,7 +419,7 @@
 	wielded_item_state = "l96-wielded"
 	w_class = ITEM_SIZE_HUGE
 	handle_casings = HOLD_CASINGS
-	screen_shake = 3 //extra kickback
+	screen_shake = 2
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 10
 	one_hand_penalty = 8
@@ -500,7 +500,7 @@
 	wielded_item_state = "frf2-wielded"
 	w_class = ITEM_SIZE_HUGE
 	handle_casings = HOLD_CASINGS
-	screen_shake = 3 //extra kickback
+	screen_shake = 2
 	max_shells = 10
 	one_hand_penalty = 8
 	accuracy = 6
@@ -575,7 +575,7 @@
 	caliber = "762x53"
 	wielded_item_state = "tkiv-wielded"
 	w_class = ITEM_SIZE_LARGE
-	screen_shake = 3 //extra kickback
+	screen_shake = 2 //extra kickback
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	handle_casings = HOLD_CASINGS
 	load_method = SINGLE_CASING | SPEEDLOADER | AMMO_BOX
