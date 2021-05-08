@@ -25,10 +25,10 @@ var $messages, $subTheme, $subOptions, $subFont, $selectedSub, $contextMenu, $fi
 var opts = {
 	//General
 	'messageCount': 0, //A count...of messages...
-	'messageLimit': 1000, //A limit...for the messages...
+	'messageLimit': 2053, //A limit...for the messages...
 	'scrollSnapTolerance': 10, //If within x pixels of bottom
 	'clickTolerance': 10, //Keep focus if outside x pixels of mousedown position on mouseup
-	'imageRetryDelay': 60, //how long between attempts to reload images (in ms)
+	'imageRetryDelay': 50, //how long between attempts to reload images (in ms)
 	'imageRetryLimit': 50, //how many attempts should we make?
 	'popups': 0, //Amount of popups opened ever
 	'wasd': false, //Is the user in wasd mode?
@@ -62,7 +62,7 @@ var opts = {
 	'clientData': [],
 
 	'font': 'Arial',
-	'messageCombining': false,
+	'messageCombining': true,
 
 };
 var replaceRegexes = {};
@@ -593,7 +593,7 @@ function ehjaxCallback(data) {
 
 	} else if (data == 'pong') {
 		if (opts.pingDisabled) {return;}
-		/*opts.pongTime = Date.now();
+		opts.pongTime = Date.now();
 		var pingDuration = Math.ceil((opts.pongTime - opts.pingTime) / 2);
 		$('#pingMs').text(pingDuration+'ms');
 		pingDuration = Math.min(pingDuration, 255);
@@ -601,7 +601,7 @@ function ehjaxCallback(data) {
 		var green = 255 - pingDuration;
 		var blue = 0;
 		var hex = rgbToHex(red, green, blue);
-		$('#pingDot').css('color', '#'+hex);*/
+		$('#pingDot').css('color', '#'+hex);
 
 	} else if (data == 'roundrestart') {
 		opts.restarting = true;
