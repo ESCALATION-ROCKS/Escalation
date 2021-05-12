@@ -20,7 +20,7 @@ Squad 'Alpha':usmc
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftg
 @END@
@@ -33,7 +33,7 @@ Squad 'Bravo':usmc
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftg
 @END@
@@ -46,7 +46,7 @@ Squad 'Charlie':usmc
 /datum/job/escalation/usmc/usmcftg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcfto
+/datum/job/escalation/usmc/usmcftmg
 /datum/job/escalation/usmc/usmcfto
 /datum/job/escalation/usmc/usmcftg
 @END@
@@ -64,6 +64,7 @@ ATS-1:usmc
 @END@
 
 ENG-1:usmc
+/datum/job/escalation/usmc/usmcleadsapper
 /datum/job/escalation/usmc/usmcsapper
 /datum/job/escalation/usmc/usmcsapper
 /datum/job/escalation/usmc/usmcsapper
@@ -601,7 +602,7 @@ RSJ-1:finn
 @END@
 
 Irtoaminen Pioneeri:finn
-/datum/job/escalation/finn/pioneerileader
+/datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri
 /datum/job/escalation/finn/pioneeri

@@ -2601,6 +2601,7 @@
 #include "maps\border\escnew_areas.dm"
 #include "maps\border\escnew_define.dm"
 #include "maps\border\escnew_outfits.dm"
+#include "maps\border\border.dmm"
 #include "maps\~mapsystem\map_preferences.dm"
 #include "maps\~mapsystem\map_ranks.dm"
 #include "maps\~mapsystem\maps.dm"

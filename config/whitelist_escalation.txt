@@ -4,16 +4,15 @@
 # TITLE ROLE
 # }
 
-############### HOSTS
+############### HOST
 
 Von Carstein = {
 ::ALL::
 }
 
-
 ############### SA OFFICER
 
-Kindadread = {
+Rippie129 = {
 sa_officer
 sa_nco
 sa_enlisted
@@ -27,73 +26,26 @@ sa_enlisted
 
 ############### SA NCO
 
-Jackomago61 = {
-sa_nco
-sa_enlisted
-}
-
-Nayser = {
-sa_nco
-sa_enlisted
-}
-
-BardinATavern = {
-sa_nco
-sa_enlisted
-}
-
-Ezhlk = {
+Ezhlk = { 
 sa_nco
 sa_enlisted
 }
 
 ############### SA ENLISTED
 
-AvgustFroch = {
+ToroidalZer0 = {
 sa_enlisted
 }
 
-Duke Of Wellington = {
+Battieralarm3 = {
 sa_enlisted
 }
 
-Redory = {
+nightfang212 = {
 sa_enlisted
 }
 
-Getbrecked = {
-sa_enlisted
-}
-
-cesarjunior233 = {
-sa_enlisted
-}
-
-Medcar = {
-sa_enlisted
-}
-
-Rev1n = {
-sa_enlisted
-}
-
-Timtwoshoes = {
-sa_enlisted
-}
-
-Jooks = {
-sa_enlisted
-}
-
-Yarnhut = {
-sa_enlisted
-}
-
-MixanovR64 = {
-sa_enlisted
-}
-
-GeniyEvgeniy = {
+Nayser = {
 sa_enlisted
 }
 
@@ -101,15 +53,15 @@ Sivuha = {
 sa_enlisted
 }
 
-James Sirk = {
-sa_enlisted
-}
-
 Bob46 = {
 sa_enlisted
 }
 
-Qfmysteryman23 = {
+MixanovR64 = {
+sa_enlisted
+}
+
+Chrapacz2000 = {
 sa_enlisted
 }
 
@@ -117,23 +69,15 @@ Nikita588 = {
 sa_enlisted
 }
 
-Master8688 = {
+Medcar = {
 sa_enlisted
 }
 
-Hsiwe = {
+Premier_Romanov = {
 sa_enlisted
 }
 
-FatSeal = {
-sa_enlisted
-}
-
-Jorogao = {
-sa_enlisted
-}
-
-0xDEED = {
+1NC06Nl70 = {
 sa_enlisted
 }
 
@@ -141,7 +85,7 @@ AlexUNDRRRMKaroff = {
 sa_enlisted
 }
 
-Unknownreptile = {
+Hsiwe = {
 sa_enlisted
 }
 
@@ -149,11 +93,47 @@ ViktorVil = {
 sa_enlisted
 }
 
-Real Josef Stalin = {
+Rinambam = {
 sa_enlisted
 }
 
-Troontjelolo1010 = {
+LeoTheKiller = {
+sa_enlisted
+}
+
+Luke313 = {
+sa_enlisted
+}
+
+FatSeal = {
+sa_enlisted
+}
+
+Bobmancer343 = {
+sa_enlisted
+}
+
+Gogoing = {
+sa_enlisted
+}
+
+LivonianGuy = {
+sa_enlisted
+}
+
+Unknownreptile = {
+sa_enlisted
+}
+
+Master8688 = {
+sa_enlisted
+}
+
+Timtwoshoes = {
+sa_enlisted
+}
+
+protoszerg = {
 sa_enlisted
 }
 
@@ -171,6 +151,12 @@ usmc_nco
 usmc_enlisted
 }
 
+Spectre808 = {
+usmc_officer
+usmc_nco
+usmc_enlisted
+}
+
 ############### USMC NCO
 
 pete112 = {
@@ -178,12 +164,32 @@ usmc_nco
 usmc_enlisted
 }
 
-yung bruh = {
+spiderman1381 = {
 usmc_nco
 usmc_enlisted
 }
 
 ILikeToGammon = {
+usmc_nco
+usmc_enlisted
+}
+
+PornHubLive = {
+usmc_nco
+usmc_enlisted
+}
+
+Freeders = {
+usmc_nco
+usmc_enlisted
+}
+
+Yacobpo157 = {
+usmc_nco
+usmc_enlisted
+}
+
+yung bruh = {
 usmc_nco
 usmc_enlisted
 }
@@ -194,7 +200,11 @@ Foxeye = {
 usmc_enlisted
 }
 
-Merrgear = {
+TheManWhoSoldTheHorns = {
+usmc_enlisted
+}
+
+Luxorio = {
 usmc_enlisted
 }
 
@@ -202,47 +212,39 @@ Blobmaker3 = {
 usmc_enlisted
 }
 
-Freeders = {
+PepeFrog = {
 usmc_enlisted
 }
 
-Cadeto  = {
+Theduffyboi1916 = {
 usmc_enlisted
 }
 
-BadAtThisGame = {
+GutTC = {
 usmc_enlisted
 }
 
-DavidStormwell = {
+CommanderChris = {
 usmc_enlisted
 }
 
-IlikeToGammon = {
+Agaeteophobia = {
 usmc_enlisted
 }
 
-cardsnapper = {
+Mr.Kieubas = {
 usmc_enlisted
 }
 
-zack24 = {
+Theflyingbananagaming = {
 usmc_enlisted
 }
 
-Luxorio = {
+oxDEED = {
 usmc_enlisted
 }
 
-ReneAngel = {
-usmc_enlisted
-}
-
-Eix = {
-usmc_enlisted
-}
-
-egorium = {
+rev1n = {
 usmc_enlisted
 }
 
@@ -250,43 +252,19 @@ xdyou = {
 usmc_enlisted
 }
 
-Freiwillige = {
+Cadeto = {
 usmc_enlisted
 }
 
-Junkass2 = {
+randomperson05 = {
 usmc_enlisted
 }
 
-I Like DonUts = {
+Bierkraan = {
 usmc_enlisted
 }
 
-mymindisblank = {
-usmc_enlisted
-}
-
-themanwhosoldthehorns = {
-usmc_enlisted
-}
-
-mazenalmoraud = {
-usmc_enlisted
-}
-
-Bongosz = {
-usmc_enlisted
-}
-
-PepeFrog = {
-usmc_enlisted
-}
-
-Dudeman100 = {
-usmc_enlisted
-}
-
-Luxorio = {
+Egorium = {
 usmc_enlisted
 }
 
@@ -294,9 +272,50 @@ Fivetime = {
 usmc_enlisted
 }
 
-NolafRegit= {
+Void Shiki = {
 usmc_enlisted
 }
+
+Feodrich = {
+usmc_enlisted
+}
+
+FireNightPower = {
+usmc_enlisted
+}
+
+Bongosz = {
+usmc_enlisted
+}
+
+MazenalMoraud = {
+usmc_enlisted
+}
+
+NolafRegit = {
+usmc_enlisted
+}
+
+MymindisBlank = {
+usmc_enlisted
+}
+
+SolarMacharius = {
+usmc_enlisted
+}
+
+Freiwillige = {
+usmc_enlisted
+}
+
+SodomKnight = {
+usmc_enlisted
+}
+
+Dudeman100 = {
+usmc_enlisted
+}
+
 
 ############### BAF OFFICER
 
@@ -306,34 +325,41 @@ baf_nco
 baf_enlisted
 }
 
-bamhalazam = {
+Bamhalazam = {
 baf_officer
 baf_nco
 baf_enlisted
 }
 
-gy1ta23 = {
+Gy1ta23 = {
 baf_officer
+baf_nco
+baf_enlisted
 }
 
 ############### BAF NCO
 
-silversz = {
+Koekiegast = {
 baf_nco
 baf_enlisted
 }
 
-teengowen = {
+DemtrixD = {
 baf_nco
 baf_enlisted
 }
 
-mikeforce3321 = {
+bardinatavern = {
 baf_nco
 baf_enlisted
 }
 
-battieralarm3 = {
+KindaDread = {
+baf_nco
+baf_enlisted
+}
+
+Googles_Hands = {
 baf_nco
 baf_enlisted
 }
@@ -344,43 +370,31 @@ jerman5 = {
 baf_enlisted
 }
 
-demtrixd = {
+Balpindo = {
 baf_enlisted
 }
 
-caryl = {
+Eric066 = {
 baf_enlisted
 }
 
-theflyingbananagaming = {
+B3anz = {
 baf_enlisted
 }
 
-eric066 = {
+Zach666 = {
 baf_enlisted
 }
 
-balpindo = {
+Total_Epicness5 = {
 baf_enlisted
 }
 
-b3anz = {
+Ragdoll_Hooman = {
 baf_enlisted
 }
 
-zach666 = {
-baf_enlisted
-}
-
-totalepicness5 = {
-baf_enlisted
-}
-
-koekiegast = {
-baf_enlisted
-}
-
-hhahs28 = {
+NobleRank = {
 baf_enlisted
 }
 
@@ -388,43 +402,47 @@ fattybunbah = {
 baf_enlisted
 }
 
-ragdollhooman = {
+Jackomago61 = {
 baf_enlisted
 }
 
-tomka4476 = {
+Tomka4476 = {
 baf_enlisted
 }
 
-nightmare1243 = {
+MikeForce3321 = {
 baf_enlisted
 }
 
-mikaelcg = {
+Nightmare1243 = {
 baf_enlisted
 }
 
-spartalouco = {
+Caryl = {
 baf_enlisted
 }
 
-dancingisneverallowed = {
+sparta_louco = {
 baf_enlisted
 }
 
-sapu222 = {
+Sapu222 = {
 baf_enlisted
 }
 
-lordinquisitor228 = {
+SilencedMP5A5 = {
 baf_enlisted
 }
 
-moorishinfanteer = {
+Lord_Inquisitor228 = {
 baf_enlisted
 }
 
-madmre = {
+Moorish_infanteer = {
+baf_enlisted
+}
+
+MadMrE = {
 baf_enlisted
 }
 
@@ -432,31 +450,51 @@ epicdwarf = {
 baf_enlisted
 }
 
-rebull = {
+ReBull = {
 baf_enlisted
 }
 
-kpw274 = {
+redory = {
 baf_enlisted
 }
 
-optimisticdude = {
+GreenCow70 = {
 baf_enlisted
 }
 
-desgarradordeprostata = {
+Desgarradordeprostata = {
+baf_enlisted
+}
+
+Logbomb = {
+baf_enlisted
+}
+
+Mikaelcg  = {
+baf_enlisted
+}
+
+TeenGowen = {
+baf_enlisted
+}
+
+Noobfroob = {
+baf_enlisted
+}
+
+Kpw274 = {
 baf_enlisted
 }
 
 ############### FINN OFFICER
 
-Luftie = {
+SilverSZ = {
 finn_officer
 finn_nco
 finn_enlisted
 }
 
-Rippie129 = {
+Rata123 = {
 finn_officer
 finn_nco
 finn_enlisted
@@ -474,21 +512,31 @@ finn_nco
 finn_enlisted
 }
 
+Luftie = {
+finn_nco
+finn_enlisted
+}
+
+BartDrown = {
+finn_nco
+finn_enlisted
+}
+
 ############### FINN ENLISTED
+
+DancingIsNeverAllowed = {
+finn_enlisted
+}
+
+I Like d0nUts = {
+finn_enlisted
+}
 
 Churro5 = {
 finn_enlisted
 }
 
-Rata123 = {
-finn_enlisted
-}
-
-Sraserdas = {
-finn_enlisted
-}
-
-BartDrown = {
+Cesarjunior233 = {
 finn_enlisted
 }
 
@@ -496,7 +544,7 @@ Sha.SCT = {
 finn_enlisted
 }
 
-vlad3 = {
+Nobillynotreally = {
 finn_enlisted
 }
 
@@ -508,11 +556,11 @@ Corbe = {
 finn_enlisted
 }
 
-Booperkin343425 = {
+Booperkin343435 = {
 finn_enlisted
 }
 
-Nobillynotreally = {
+Gefrakt = {
 finn_enlisted
 }
 
@@ -536,35 +584,11 @@ Billy Hays = {
 finn_enlisted
 }
 
-ToroidalZer0 = {
-finn_enlisted
-}
-
-SilencedMP5A5 = {
-finn_enlisted
-}
-
 Tristan63 = {
 finn_enlisted
 }
 
-Softstone101 = {
-finn_enlisted
-}
-
-aguyiguess = {
-finn_enlisted
-}
-
-ExecutorPartner = {
-finn_enlisted
-}
-
-atlasrules87 = {
-finn_enlisted
-}
-
-Arbufy  = {
+Sraserdas = {
 finn_enlisted
 }
 
@@ -572,6 +596,34 @@ Scoobov = {
 finn_enlisted
 }
 
-Ondrej008 = {
+Gogoing = {
+finn_enlisted
+}
+
+atlasrules87 = {
+finn_enlisted
+}
+
+softstone101 = {
+finn_enlisted
+}
+
+aguyiguess = {
+finn_enlisted
+}
+
+executorpartner = {
+finn_enlisted
+}
+
+joooks = {
+finn_enlisted
+}
+
+arbufy = {
+finn_enlisted
+}
+
+ondrej008 = {
 finn_enlisted
 }
