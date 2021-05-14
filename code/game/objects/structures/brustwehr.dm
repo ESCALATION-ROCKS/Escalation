@@ -1,7 +1,7 @@
 /obj/structure/brutswehrincomplete
 	name = "incomplete brustwehr"
 	icon = 'icons/obj/coldwar/sandbags.dmi'
-	icon_state = "brustwehr_isntready"
+	icon_state = "brustwehr"
 	density = 1
 	throwpass = 1//we can throw grenades despite its density
 	anchored = 1
