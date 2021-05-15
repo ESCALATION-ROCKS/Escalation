@@ -284,4 +284,4 @@
 	desc = "Side A - Belaya Armiya, Chorniy Baron, Side B - Dark eyed cossack girl"
 	a_side = 'sound/music/belaya.ogg'
 	b_side = 'sound/music/cossackgirl.ogg'
-	sound_inside = a_side*/
+	sound_inside = a_side
