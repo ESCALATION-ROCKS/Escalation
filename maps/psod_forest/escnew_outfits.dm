@@ -1070,6 +1070,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/finn
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/kk62
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/lmg
 	back = /obj/item/weapon/storage/backpack/finn/finn_buttpack
 	head = /obj/item/clothing/head/coldwar/ushanka/finn
 	belt = /obj/item/weapon/storage/belt/harness/finn/
@@ -1109,7 +1110,7 @@
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/marching/finn
 	holster = /obj/item/weapon/storage/belt/holster/sheath/finn
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/rk62
-	back = /obj/item/weapon/storage/backpack/rpgsaassistant
+	back = /obj/item/weapon/storage/backpack/rpgfinassistant
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/finn/grenades
 	head = /obj/item/clothing/head/coldwar/ushanka/finn
@@ -1387,6 +1388,7 @@
 	shoes = /obj/item/clothing/shoes/coldwar/usmc/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/xm249
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/usmc/lmg
 	back = /obj/item/weapon/storage/backpack/usmc_buttpack
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/woodland
 	holster = /obj/item/weapon/storage/belt/holster/sheath/usmc
@@ -1837,10 +1839,6 @@
 	back = /obj/item/weapon/storage/backpack/rpgbritassistant
 	belt = /obj/item/weapon/storage/belt/harness/baf
 	head = /obj/item/clothing/head/coldwar/helmet/baf/mkv
-
-	flags = OUTFIT_HAS_BAFBACKPACK
-
-
 
 /decl/hierarchy/outfit/job/coldwar/baf/ftleader
 	name = OUTFIT_JOB_NAME("Coldwar - BAF FT Leader")
