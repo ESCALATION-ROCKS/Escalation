@@ -46,7 +46,7 @@
 	icon_state = "bundes_med"
 	item_state = "bundes_med"
 	reachable = 1
-	max_storage_space = 24
+	max_storage_space = 25
 	open_delay = 5
 	slot_flags = SLOT_BACK
 	startswith = list(
@@ -145,7 +145,7 @@
 	item_state = "bundes_buttpack"
 	reachable = 1
 	open_delay = 10
-	max_storage_space = 6
+	max_storage_space = 25
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/heer_buttpack
@@ -155,7 +155,7 @@
 	item_state = "heer_buttpack"
 	reachable = 1
 	open_delay = 10
-	max_storage_space = 6
+	max_storage_space = 25
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/fra_buttpack
@@ -165,7 +165,7 @@
 	item_state = "heer_buttpack"
 	reachable = 1
 	open_delay = 10
-	max_storage_space = 6
+	max_storage_space = 25
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/bundes_utilitypouch
@@ -175,7 +175,7 @@
 	item_state = "bdw_utility"
 	reachable = 1
 	open_delay = 5
-	max_storage_space = 4
+	max_storage_space = 25
 	slot_flags = SLOT_LPOUCH | SLOT_RPOUCH
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
@@ -187,7 +187,7 @@
 	item_state = "usmc_buttpack"
 	reachable = 1
 	open_delay = 10
-	max_storage_space = 6
+	max_storage_space = 25
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 
 /obj/item/weapon/storage/backpack/usmcm3/surgeon
@@ -205,7 +205,10 @@
 			/obj/item/weapon/storage/box/ampoule_box/angiotensin,
 			/obj/item/weapon/storage/box/ampoule_box/epinephrine,
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/storage/fancy/syringe
 			)
@@ -332,8 +335,14 @@
 	open_delay = 5
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	startswith = list(
+			/obj/item/weapon/storage/box/ampoule_box/thiopental,
+			/obj/item/weapon/storage/box/ampoule_box/angiotensin,
+			/obj/item/weapon/storage/box/ampoule_box/epinephrine,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/stack/medical/splint = 1,
 			/obj/item/stack/medical/ointment/soviet = 1,
@@ -368,7 +377,10 @@
 			/obj/item/weapon/storage/box/ampoule_box/angiotensin,
 			/obj/item/weapon/storage/box/ampoule_box/epinephrine,
 			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
+			/obj/item/weapon/reagent_containers/glass/bottle/morphine,
 			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,
+			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/reagent_containers/glass/bottle/aminocaproic,
 			/obj/item/weapon/storage/fancy/syringe
 			)
@@ -612,31 +624,41 @@
 
 /obj/item/weapon/storage/backpack/rpgsa
 	name = "rocket backpack"
-	desc = "A special-purpose backpack used by the Warsaw Pact armies. Can hold two rockets."
+	desc = "A special-purpose backpack used by the Warsaw Pact armies. Can hold four rockets."
 	icon_state = "sa_rpg2"
 	item_state = "sa_rpg"
 	reachable = 1
 	max_storage_space = 30
-	storage_slots = 2
+	storage_slots = 4
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
-	startswith = null
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile,
+			)
 
 /obj/item/weapon/storage/backpack/rpgsaassistant
 	name = "large rocket backpack"
-	desc = "A large special-purpose backpack used by the Warsaw Pact armies. Can hold three rockets."
+	desc = "A large special-purpose backpack used by the Warsaw Pact armies. Can hold five rockets."
 	icon_state = "sa_rpg3"
 	item_state = "sa_rpg"
 	reachable = 1
 	max_storage_space = 30
-	storage_slots = 3
+	storage_slots = 5
 	open_delay = 0
 	can_hold = list (/obj/item/ammo_casing/rpg_missile, /obj/item/ammo_casing/rpg_missile/finn)
-	startswith = null
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile,
+			/obj/item/ammo_casing/rpg_missile,
+			)
 
 /obj/item/weapon/storage/backpack/rpgfin
 	name = "55 S 55 shell backpack"
-	desc = "A backpack for two 55 S 55 shells."
+	desc = "A backpack for four 55 S 55 shells."
 	icon_state = "fin_rpg"
 	item_state = "fin_rpg"
 	reachable = 1
@@ -644,66 +666,96 @@
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/finn)
-	startswith = null
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile/finn,
+			/obj/item/ammo_casing/rpg_missile/finn,
+			/obj/item/ammo_casing/rpg_missile/finn,
+			/obj/item/ammo_casing/rpg_missile/finn,
+			)
 
 /obj/item/weapon/storage/backpack/rpgfinassistant
 	name = "large 55 S 55 shell backpack"
-	desc = "A backpack for three 55 S 55 shells."
+	desc = "A backpack for five 55 S 55 shells."
 	icon_state = "fin_rpg"
 	item_state = "fin_rpg"
 	reachable = 1
-	storage_slots = 3
+	storage_slots = 5
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/finn)
-	startswith = null
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile/finn,
+			/obj/item/ammo_casing/rpg_missile/finn,
+			/obj/item/ammo_casing/rpg_missile/finn,
+			/obj/item/ammo_casing/rpg_missile/finn,
+			)
 
 /obj/item/weapon/storage/backpack/rpgbrit
 	name = "shell rucksack"
-	desc = "A backpack repurposed to carry two recoilless rifle shells."
+	desc = "A backpack repurposed to carry four recoilless rifle shells."
 	icon_state = "baflargepack"
 	item_state = "baflargepack"
 	reachable = 1
-	storage_slots = 2
+	storage_slots = 4
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)
-	startswith = null
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile/recoilless,
+			/obj/item/ammo_casing/rpg_missile/recoilless,
+			/obj/item/ammo_casing/rpg_missile/recoilless,
+			/obj/item/ammo_casing/rpg_missile/recoilless,
+			)
 
 
 /obj/item/weapon/storage/backpack/rpgusa
 	name = "shell rucksack"
-	desc = "A backpack repurposed to carry two SMAW tubes."
+	desc = "A backpack repurposed to carry four SMAW tubes."
 	icon_state = "alicelargepack"
 	item_state = "alicelargepack"
 	reachable = 1
-	storage_slots = 2
+	storage_slots = 4
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)
-	startswith = null
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile/smaw,
+			/obj/item/ammo_casing/rpg_missile/smaw,
+			/obj/item/ammo_casing/rpg_missile/smaw,
+			/obj/item/ammo_casing/rpg_missile/smaw,
+			)
 
 /obj/item/weapon/storage/backpack/rpgbritassistant
 	name = "large shell rucksack"
-	desc = "A large backpack repurposed to carry three recoilless rifle shells."
+	desc = "A large backpack repurposed to carry five recoilless rifle shells."
 	icon_state = "baflargepack"
 	item_state = "baflargepack"
 	reachable = 1
-	storage_slots = 3
+	storage_slots = 5
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)
-	startswith = null
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile/recoilless,
+			/obj/item/ammo_casing/rpg_missile/recoilless,
+			/obj/item/ammo_casing/rpg_missile/recoilless,
+			/obj/item/ammo_casing/rpg_missile/recoilless,
+			)
 
 
 /obj/item/weapon/storage/backpack/rpgusaassistant
 	name = "large shell rucksack"
-	desc = "A large backpack repurposed to carry three SMAW tubes."
+	desc = "A large backpack repurposed to carry five SMAW tubes."
 	icon_state = "alicelargepack"
 	item_state = "alicelargepack"
 	reachable = 1
-	storage_slots = 3
+	storage_slots = 5
 	max_storage_space = 30
 	open_delay = 10
 	can_hold = list(/obj/item/ammo_casing/rpg_missile/smaw, /obj/item/ammo_casing/rpg_missile/recoilless)
-	startswith = null
+	startswith = list(
+			/obj/item/ammo_casing/rpg_missile/smaw,
+			/obj/item/ammo_casing/rpg_missile/smaw,
+			/obj/item/ammo_casing/rpg_missile/smaw,
+			/obj/item/ammo_casing/rpg_missile/smaw,
+			)
