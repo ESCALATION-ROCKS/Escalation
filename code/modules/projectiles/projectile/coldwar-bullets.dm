@@ -106,8 +106,8 @@
 	agony = 40
 
 	New()
-		damage = rand(30, 35)
-		penetrating = rand(0, 1)
+        damage = rand(37, 46)
+        penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a556x45/tr
 	icon_state = "bullet_tracer"
