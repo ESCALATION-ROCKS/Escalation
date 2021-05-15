@@ -113,7 +113,7 @@
 		sound_inside = a_side
 		current_side = 1
 		to_chat(user, "<span class='notice'>You flip the cassette over to the a-side.")
-		
+
 //1983 Tapes
 
 /obj/item/device/cassette/nato/New()
@@ -133,7 +133,7 @@
 	sound_inside = a_side
 
 
-/*/obj/item/device/cassette/bdw/tape1/New()
+/obj/item/device/cassette/bdw/tape1/New()
 	..()
 	name = "Tape No. 1"
 	desc = "Side A - Luftballons, Side B - Keine Heimat"
