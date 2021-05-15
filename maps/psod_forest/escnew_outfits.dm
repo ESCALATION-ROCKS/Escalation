@@ -292,7 +292,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/coldwar/officer/soviet
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
 	belt = /obj/item/weapon/storage/belt/harness/sa/
 
 /decl/hierarchy/outfit/job/coldwar/soviet/zampolit
@@ -301,10 +301,14 @@
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/coat/sa/officer
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/field
 	holster = /obj/item/weapon/storage/belt/holster/aps
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/aks74
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	head = /obj/item/clothing/head/coldwar/officer/soviet
 	r_hand = /obj/item/weapon/masterkey/wppl
+	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/sa/grenades
 	belt = /obj/item/weapon/storage/belt/sa
+	l_ear = /obj/item/device/binoculars/wp
 
 /decl/hierarchy/outfit/job/coldwar/soviet/hws_com
 	name = OUTFIT_JOB_NAME("Coldwar - OTV Commander")
