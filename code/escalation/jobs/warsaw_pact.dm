@@ -63,9 +63,9 @@
 	rank_number = 2
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "sa_officer"
-	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_GERMAN = 45)
+	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_GERMAN = 100, LANGUAGE_FINNISH = 100, LANGUAGE_CZECH = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
