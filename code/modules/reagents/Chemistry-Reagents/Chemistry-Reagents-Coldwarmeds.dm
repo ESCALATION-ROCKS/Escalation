@@ -20,7 +20,7 @@
 
 /datum/reagent/aminocaproic/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(alien != IS_DIONA)
-		M.add_chemical_effect(CE_HEMOSTATIC, 5)
+		M.add_chemical_effect(CE_HEMOSTATIC, 8)
 		M.heal_organ_damage(3 * removed, 0)
 
 /datum/reagent/aminocaproic/overdose(var/mob/living/carbon/M, var/alien)

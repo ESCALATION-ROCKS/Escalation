@@ -68,7 +68,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	force = 15
-	accuracy = 2.6
+	accuracy = 2.4
 	wielded_item_state = "ak74-wielded"
 	jam_chance = 0.285
 	slowdown_general = 0.27
@@ -124,7 +124,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	force = 15
-	accuracy = 2.8
+	accuracy = 2.6
 	wielded_item_state = "aek971-wielded"
 	jam_chance = 0.285
 	slowdown_general = 0.27
@@ -169,7 +169,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	force = 15
-	accuracy = 2.6
+	accuracy = 2.4
 	jam_chance = 0.285
 	slowdown_general = 0.27
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
@@ -210,7 +210,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	force = 15
-	accuracy = 2.6
+	accuracy = 2.4
 	jam_chance = 0.285
 	slowdown_general = 0.27
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h4/
@@ -252,7 +252,7 @@
 	magazine_type = null
 	one_hand_penalty = 3
 	force = 15
-	accuracy = 2.6
+	accuracy = 2.4
 	bayonet_attachable = 0
 	wielded_item_state = "ak74gl-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -337,7 +337,7 @@
 	magazine_type = null
 	one_hand_penalty = 3
 	force = 15
-	accuracy = 2.6
+	accuracy = 2.4
 	bayonet_attachable = 0
 	wielded_item_state = "ak74gl-wielded"
 	fire_sound = 'sound/weapons/gunshot/ak74.ogg'
@@ -422,7 +422,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x39m, /obj/item/ammo_magazine/c762x39b, /obj/item/ammo_magazine/c762x39k)
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 2.7
+	accuracy = 2.3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3
 	bayonet_attachable = 1
 	jam_chance = 0.45
@@ -464,7 +464,7 @@
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 5
-	accuracy = 2.6
+	accuracy = 2.3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3
 	bayonet_attachable = 1
 	jam_chance = 0.475
@@ -506,7 +506,7 @@
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 5
-	accuracy = 2.7
+	accuracy = 2.3
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3
 	bayonet_attachable = 0
 	jam_chance = 0.45
@@ -590,10 +590,10 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c556x45m)
 	magazine_type = null
 	one_hand_penalty = 4
-	accuracy = 3
+	accuracy = 3.2
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
 	bayonet_attachable = 1
-	jam_chance = 0.325
+	jam_chance = 0.20
 	slowdown_general = 0.27
 	wielded_item_state = "m16-wielded"
 	fire_sound = 'sound/weapons/gunshot/m16.ogg'

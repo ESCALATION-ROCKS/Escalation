@@ -1173,7 +1173,7 @@ var/global/list/global_colour_matrix = null
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared NATO Victory")
 		to_world("<b><font size=5>NATO forces have occupied the field.</font></b>")
-		sound_to(world, 'sound/music/RussianCircles.ogg')
+		sound_to(world, 'sound/music/runthroughthejungleinstrumental.ogg')
 	else
 		return
 

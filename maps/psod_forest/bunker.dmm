@@ -1,7 +1,7 @@
 "ac" = (/obj/structure/bed/chair/wood/goon{dir = 4},/obj/effect/landmark/start{name = "FINN Kenttakirurg"},/turf/simulated/floor/tiled/white,/area/coldwar/underground/bunker)
 "af" = (/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
 "ai" = (/obj/machinery/light/small/warmtint{dir = 1},/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
-"aj" = (/obj/structure/stairs/large/east,/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
+"aj" = (/obj/structure/stairs/large/east,/obj/effect/bump_teleporter{id = "63"; id_target = "53"},/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
 "ak" = (/obj/structure/gasradiator{icon_state = "holycross"; name = "cross"},/turf/simulated/wall/concrete_grey,/area/coldwar/underground/bunker)
 "an" = (/obj/machinery/optable,/turf/simulated/floor/tiled/white,/area/coldwar/underground/bunker)
 "aH" = (/obj/structure/bed/chair/wood/goon{dir = 4},/obj/effect/landmark/start{name = "SA Zamestitel Komandira Vzvoda"},/turf/simulated/floor/wood,/area/coldwar/underground/bunker)
@@ -191,6 +191,7 @@
 "Ge" = (/obj/structure/table/army,/obj/item/weapon/paper,/obj/item/weapon/paper,/obj/effect/floor_decal/newcorner/black/diagonal,/obj/item/weapon/paper,/obj/item/weapon/paper,/obj/item/weapon/paper,/turf/simulated/floor/tiled/white,/area/coldwar/underground/bunker)
 "Gh" = (/obj/structure/closet/crate/wood,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/barbwire_coil,/obj/item/stack/hedgehog_rods,/obj/effect/floor_decal/turf/platingalt2,/turf/unsimulated/ground/sand,/area/coldwar/underground/bunker)
 "GH" = (/obj/structure/closet/crate/generic,/obj/item/ammo_magazine/c127x108b,/obj/item/ammo_magazine/c127x108b,/obj/item/ammo_magazine/c127x108b,/obj/item/ammo_magazine/c127x108b,/obj/item/ammo_magazine/c127x108b,/obj/item/ammo_magazine/c127x108b,/obj/item/ammo_magazine/c127x108b,/obj/item/ammo_magazine/c127x108b,/obj/item/weapon/mg_disassembled/utes,/obj/item/weapon/mg_tripod/utes,/obj/effect/floor_decal/turf/platingalt,/obj/structure/sign/finn_flag{pixel_y = -32},/turf/simulated/floor/wood,/area/coldwar/underground/bunker)
+"GW" = (/obj/effect/bump_teleporter{id = "61"; id_target = "51"},/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
 "Hk" = (/obj/structure/noticeboard{pixel_y = -32},/obj/machinery/light/warmtint,/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
 "Hn" = (/obj/structure/bed/chair/wood/goon{dir = 1},/turf/simulated/floor/wood,/area/coldwar/underground/bunker)
 "Hv" = (/obj/structure/bed/foldbed,/obj/effect/landmark/start{name = "FINN Squad Medisiinari"},/turf/simulated/floor/tiled/dark,/area/coldwar/underground/bunker)
@@ -269,11 +270,13 @@
 "Xa" = (/obj/effect/floor_decal/turf/platingalt,/turf/simulated/floor/tiled/white,/area/coldwar/underground/bunker)
 "Xg" = (/obj/structure/sign/soviet_flag{pixel_y = 32},/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
 "Xr" = (/obj/structure/railing{dir = 1},/turf/simulated/floor/sewerwater,/area/coldwar/sewer)
+"XA" = (/obj/structure/stairs/large/east,/obj/effect/bump_teleporter{id = "64"; id_target = "54"},/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
 "XY" = (/obj/effect/floor_decal/industrial/outline/blue,/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
 "Yr" = (/obj/structure/railing,/turf/simulated/floor/sewerwater,/area/coldwar/sewer)
 "Yv" = (/obj/effect/floor_decal/turf/platingalt2,/turf/simulated/floor/tiled/dark,/area/coldwar/underground/bunker)
 "Yy" = (/obj/effect/floor_decal/newcorner/black/diagonal,/turf/simulated/floor/tiled/white,/area/coldwar/underground/bunker)
 "YP" = (/obj/structure/bed/foldbed,/obj/effect/landmark/start{name = "FINN Kivarimies"},/turf/simulated/floor/tiled/dark,/area/coldwar/underground/bunker)
+"YR" = (/obj/effect/bump_teleporter{id = "62"; id_target = "52"},/turf/simulated/floor/tiled,/area/coldwar/underground/bunker)
 "YT" = (/obj/structure/table/army,/obj/item/device/flashlight/lamp/green,/turf/simulated/floor/wood,/area/coldwar/underground/bunker)
 "Zg" = (/obj/structure/table/steel,/obj/item/weapon/reagent_containers/food/snacks/tincan/condensedmilk,/obj/item/weapon/reagent_containers/food/snacks/tincan/condensedmilk,/obj/item/weapon/reagent_containers/food/snacks/tincan/condensedmilk,/obj/item/weapon/reagent_containers/food/snacks/tincan/condensedmilk,/turf/simulated/floor/tiled/bar,/area/coldwar/underground/bunker)
 "Zp" = (/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/item/weapon/gauze_pack/ipp,/obj/structure/table/rack,/obj/effect/floor_decal/turf/platingalt,/turf/simulated/floor/tiled/white,/area/coldwar/underground/bunker)
@@ -318,8 +321,8 @@ ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyMyMyMyMyMyMyKiKiMyytKiKiozlyMyafafafafafafafaf
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyvqVNoBeHMyMyKiKiMyKiKiKiaclNMyafafafafafafafafafafafafafafafafafafafMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyHKKiKiKiQxMyKiKiwuKiKiKiKiAgMyafafMyafRMafzdafafafHkafafafzdafafRMafMyZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMyNwKianKiydMyKiKiMyKiKiKiKiwWMyafafMyMyMyMyMyafafafMyafafafMyMyMyMyMyMyMyMyMytlMyMyMyMyMyMyMyMyMytlMyMyMyMyMyZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMygsKiKiPGfRMyKinKMyMyMyMyMyMyMyafafMyafwbafaiafafafaiafafafaiafafajMyTabouupoBNTrTrdTvKMyTabouupoBNTrTrdTvKMyZZZZZZZZ
-ZZZZZZZZZZZZZZZZZZZZZZMyMyMyMyMyMyMybdbdMyMyMyKiKiMytPYyYyYyGeMyafafMyafwbafafafafafafafafafafafafajMytdtdtdtdtdtdtdtdtdMytdtdtdtdtdtdtdtdtdMyZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZMygsKiKiPGfRMyKinKMyMyMyMyMyMyMyafafMyYRwbafaiafafafaiafafafaiafafajMyTabouupoBNTrTrdTvKMyTabouupoBNTrTrdTvKMyZZZZZZZZ
+ZZZZZZZZZZZZZZZZZZZZZZMyMyMyMyMyMyMybdbdMyMyMyKiKiMytPYyYyYyGeMyafafMyGWwbafafafafafafafafafafafafXAMytdtdtdtdtdtdtdtdtdMytdtdtdtdtdtdtdtdtdMyZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZMyjiXasjXaXaxgKiKiKiKiKiKiKiJIYyYyYyYyoWMyafafMyMyMyMyMyafafafakafafafMyMyMyMyMytdrtrttdVctdZvZvtdMytdZvZvtdyptdHvHvtdMyZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZMywnXaXaXaXaxgKiKiKiKiKiKiKiMyKvYyeeYylTMyafafMySNSNSNxWafafafafafafafoGSNSNSNMytdYPYPtdVctdYPYPtdMytdYPYPtdyptdHvHvtdMyZZZZZZZZ
 ZZZZZZZZZZZZZZZZZZZZZZMyywXaXaXatRMyMyMyMyNjNjMyMyMyMyrzrzAqAqMyafafMySNSNSNMyafErafafafErafMySNSNSNMytdYPYPtdVctdYPYPtdMytdYPYPtdyptdHvHvtdMyZZZZZZZZ

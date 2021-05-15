@@ -1624,7 +1624,7 @@
 	position = "team"
 	enabled = 1
 	amount = 2
-	whitelist_rank = "baf_nco"
+	whitelist_rank = "baf_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 5)
 
 	equip(var/mob/living/carbon/human/H)
