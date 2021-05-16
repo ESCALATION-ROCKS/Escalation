@@ -577,7 +577,6 @@ Rhyma 'Celsius':finn
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnsquadcorpsman
-/datum/job/escalation/finn/finnsm
 @END@
 
 Rhyma 'Daavid':finn
@@ -592,7 +591,6 @@ Rhyma 'Daavid':finn
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnrifle
 /datum/job/escalation/finn/finnsquadcorpsman
-/datum/job/escalation/finn/finnsm
 @END@
 
 RSJ-1:finn
