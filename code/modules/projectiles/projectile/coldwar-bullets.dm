@@ -11,7 +11,7 @@
 	agony = 40
 
 /obj/item/projectile/bullet/rifle/a762x39/Initialize()
-	damage = rand(32, 41)
+	damage = rand(40, 50)
 	penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x39/tr
@@ -29,7 +29,7 @@
 	agony = 40
 
 	New()
-		damage = rand(35, 44)
+		damage = rand(40, 50)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x51/tr
@@ -55,7 +55,7 @@
 	agony = 40
 
 	New()
-		damage = rand(37, 46)
+		damage = rand(40, 50)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x54/tr
@@ -73,7 +73,7 @@
 	agony = 40
 
 	New()
-		damage = rand(37, 46)
+		damage = rand(40, 50)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x53/tr
@@ -89,7 +89,7 @@
 	agony = 40
 
 	New()
-		damage = rand(34,  38)
+		damage = rand(40, 50)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a545x39/tr
@@ -106,8 +106,8 @@
 	agony = 40
 
 	New()
-        damage = rand(37, 46)
-        penetrating = rand(0, 1)
+		damage = rand(40, 50)
+		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a556x45/tr
 	icon_state = "bullet_tracer"
