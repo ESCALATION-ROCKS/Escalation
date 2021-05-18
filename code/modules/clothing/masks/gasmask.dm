@@ -183,3 +183,15 @@
 	desc = "A gas mask used by the USA and other NATO counties."
 	icon_state = "m17_mask"
 	item_state = "m17_mask"
+
+/obj/item/clothing/mask/gas/coldwar/m17 ///////SA
+	name = "GP-7VM gas mask"
+	desc = "A gas mask used by the Soviet Army and other WARPACT countries."
+	icon_state = "gp7vm_mask"
+	item_state = "gp7vm_mask"
+
+/obj/item/clothing/mask/gas/coldwar/m40 ///////USMC - USA
+	name = "M40 gas mask"
+	desc = "A gas mask used by the USA and other NATO counties."
+	icon_state = "m40_mask"
+	item_state = "m40_mask"

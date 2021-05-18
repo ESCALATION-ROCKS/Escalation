@@ -4,14 +4,14 @@
 
 /obj/item/projectile/bullet/rifle/a762x39
 	penetrating = 1
-	armor_penetration = 98 //was 23
+	armor_penetration = 36 //was 36
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
-	agony = 40
+	agony = 20
 
 /obj/item/projectile/bullet/rifle/a762x39/Initialize()
-	damage = rand(40, 50)
+	damage = rand(32, 41)
 	penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x39/tr
@@ -19,26 +19,31 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
+/obj/item/projectile/bullet/rifle/a762x39/ap
+	armor_penetration = 35 //was 35
+	penetration_modifier = 0.3
+
 
 /obj/item/projectile/bullet/rifle/a762x51
 	penetrating = 1
-	armor_penetration = 98 //was 34
+	armor_penetration = 34 //was 34
 	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
-	agony = 40
+	agony = 20
 
 	New()
-		damage = rand(40, 50)
+		damage = rand(35, 44)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x51/tr
 	icon_state = "bullet_tracer"
 	penetrating = 1
-	armor_penetration = 98 //was 34
+	armor_penetration = 34 //was 34
 	penetration_modifier = 0.4
 	embed = 1
-	agony = 40
+	kill_count = 120
+	agony = 20
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
@@ -46,16 +51,20 @@
 		damage = rand(40, 50)
 		penetrating = rand(0, 1)
 
+/obj/item/projectile/bullet/rifle/a762x51/ap
+	armor_penetration = 98 //was 45
+	penetration_modifier = 0.4
+
 /obj/item/projectile/bullet/rifle/a762x54
 	penetrating = 1
-	armor_penetration = 98 //was 31
+	armor_penetration = 31 //was 31
 	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
-	agony = 40
+	agony = 20
 
 	New()
-		damage = rand(40, 50)
+		damage = rand(37, 46)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x54/tr
@@ -63,17 +72,20 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
+/obj/item/projectile/bullet/rifle/a762x54/ap
+	armor_penetration = 60 //was 60
+	penetration_modifier = 0.4
 
 /obj/item/projectile/bullet/rifle/a762x53
 	penetrating = 1
-	armor_penetration = 98 //was 31
+	armor_penetration = 31 //was 31
 	penetration_modifier = 0.4
 	embed = 1
 	kill_count = 120
-	agony = 40
+	agony = 20
 
 	New()
-		damage = rand(40, 50)
+		damage = rand(37, 46)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a762x53/tr
@@ -81,15 +93,19 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
+/obj/item/projectile/bullet/rifle/a762x53/ap
+	armor_penetration = 60 //was 60
+	penetration_modifier = 0.4
+
 /obj/item/projectile/bullet/rifle/a545x39
-	armor_penetration = 98 //was 26
+	armor_penetration = 26 //was 26
 	penetration_modifier = 0.3
 	embed = 1
 	kill_count = 120
-	agony = 40
+	agony = 20
 
 	New()
-		damage = rand(40, 50)
+		damage = rand(34,  38)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a545x39/tr
@@ -97,22 +113,30 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
+/obj/item/projectile/bullet/rifle/a545x39/ap
+	armor_penetration = 30 //was 30
+	penetration_modifier = 0.2
 
 /obj/item/projectile/bullet/rifle/a556x45
-	armor_penetration = 98 //was 29
+	armor_penetration = 29 //was 29
 	penetration_modifier = 0.5 //slightly less energy than 545 but does more internal damage
 	embed = 1
 	kill_count = 120
-	agony = 40
+	agony = 20
 
 	New()
-		damage = rand(40, 50)
+		damage = rand(30, 35)
 		penetrating = rand(0, 1)
 
 /obj/item/projectile/bullet/rifle/a556x45/tr
 	icon_state = "bullet_tracer"
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
+
+/obj/item/projectile/bullet/rifle/a556x45/ap
+	armor_penetration = 98 //was 35
+	penetration_modifier = 0.5
+
 
 //Pistol caliber
 
@@ -298,7 +322,7 @@
 	damage = 0
 	nodamage = 1
 	penetrating = 0
-	kill_count = 40
+	kill_count = 37
 	step_delay = 0.90
 	fire_sound = null//here we gonna use sound in AGS and not in bullets
 	var/ricochetchance = 0

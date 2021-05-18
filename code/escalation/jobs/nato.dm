@@ -1908,7 +1908,7 @@
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
-/*
+
 /////////////FRA///////
 /datum/job/escalation/fra
 	title = "Armee de Terre"
@@ -1931,7 +1931,7 @@
 	selection_color = "#B0C4DE"
 	rank_number = 0
 	position = "team"
-	enabled = 1
+	enabled = 0
 	leading = 1
 	amount = 1
 	whitelist_rank = "fra_officer"
@@ -1952,7 +1952,7 @@
 	selection_color = "#B0C4DE"
 	amount = 1
 	rank_number = 1
-	enabled = 1
+	enabled = 0
 	position = "team"
 	whitelist_rank = "fra_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 60)
@@ -1963,7 +1963,7 @@
 
 /datum/job/escalation/fra/fraratelo
 	title = "ADT Radiotelephone Operator"
-	name = "Radiotelephone Operator"
+	name = "Operateur Radio"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -1973,7 +1973,7 @@
 	amount = 1
 	enabled = 1
 	rank_number = 2
-	position = "team"
+	position = "fireteam"
 	whitelist_rank = "fra_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 40)
 
@@ -1991,7 +1991,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/corpsman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 1
+	enabled = 0
 	amount = 1
 	whitelist_rank = "fra_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
@@ -2010,7 +2010,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/doctor
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	position = "team"
 	whitelist_rank = "fra_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
@@ -2029,7 +2029,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/marksman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 1
+	enabled = 0
 	amount = 1
 	whitelist_rank = "fra_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
@@ -2039,8 +2039,8 @@
 		H.add_skills(0, 2, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/fra/fracorpsman
-	title = "ADT Corpsman"
-	name = "Corpsman"
+	title = "ADT Squad Medic"
+	name = "Infirmier Descouade"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -2051,15 +2051,15 @@
 	enabled = 1
 	amount = 1
 	whitelist_rank = "fra_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/fra/frasl
-	title = "ADT Squad Leader"
-	name = "Squad Leader"
+	title = "ADT Group Leader"
+	name = "Capitaine"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -2071,7 +2071,7 @@
 	position = "fireteam"
 	enabled = 1
 	whitelist_rank = "fra_nco"
-	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -2079,7 +2079,7 @@
 
 /datum/job/escalation/fra/fraftl
 	title = "ADT Fireteam Leader"
-	name = "Fireteam Leader"
+	name = "Team Leader"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -2093,7 +2093,7 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "fra_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 40, LANGUAGE_RUSSIAN = 10)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -2113,7 +2113,7 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "fra_enlisted"
-	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -2121,7 +2121,7 @@
 
 /datum/job/escalation/fra/fraftmg
 	title = "ADT Fireteam Machinegunner"
-	name = "Fireteam Machinegunner"
+	name = "Mitrailleur"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -2133,6 +2133,26 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "fra_enlisted"
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
+
+	equip(var/mob/living/carbon/human/H)
+		..()
+		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
+
+/datum/job/escalation/fra/fralgl
+	title = "ADT Fireteam Lance Grenadier"
+	name = "Lance-Grenadier"
+	english_name = null
+	minimal_player_age = 21
+	economic_modifier = 5
+	ideal_character_age = 28
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/grenadier
+	selection_color = "#B0C4DE"
+	rank_number = 6
+	position = "fireteam"
+	amount = 6
+	enabled = 1
+	whitelist_rank = "fra_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2140,8 +2160,8 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/fra/fraftg
-	title = "ADT Fireteam Grenadier"
-	name = "Fireteam Grenadier"
+	title = "ADT Grenadier Voltigeur"
+	name = "Grenadier-Voltigeur"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -2160,7 +2180,7 @@
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
 
 /datum/job/escalation/fra/fraftmga
-	title = "USA Fireteam Machinegunner Assistant"
+	title = "ADT Fireteam Machinegunner Assistant"
 	name = "Fireteam Machinegunner Assistant"
 	english_name = null
 	minimal_player_age = 21
@@ -2191,7 +2211,7 @@
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "fra_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
@@ -2248,7 +2268,7 @@
 	selection_color = "#B0C4DE"
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "fra_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
@@ -2268,7 +2288,7 @@
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "fra_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
@@ -2288,7 +2308,7 @@
 	rank_number = 6
 	position = "fireteam"
 	amount = 2
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "fra_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
@@ -2720,4 +2740,3 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-*/

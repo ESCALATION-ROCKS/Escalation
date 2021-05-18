@@ -71,7 +71,7 @@
 
 /obj/item/clothing/under/coldwar/bundeswehr/
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
-	
+
 
 /obj/item/clothing/under/coldwar/bundeswehr/olive/
 	name = "olive fatigues"
@@ -114,7 +114,7 @@
 
 /obj/item/clothing/under/coldwar/bundesheer/
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
-	
+
 
 /obj/item/clothing/under/coldwar/bundesheer/flecktarn/
 	name = "M57 'Flecktarn' fatigues"
@@ -194,7 +194,7 @@
 //Soviet Army
 /obj/item/clothing/under/coldwar/soviet/
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
-	
+
 
 /obj/item/clothing/under/coldwar/soviet/habe/
 	name = "'Habe' fatigues"
@@ -425,7 +425,7 @@
 
 /obj/item/clothing/under/coldwar/finn/
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
-	
+
 
 /obj/item/clothing/under/coldwar/finn/talvimetsa
 	name = "'Talvi Metsa' pattern uniform"
@@ -461,7 +461,7 @@
 //British
 /obj/item/clothing/under/coldwar/brit/
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
-	
+
 
 /obj/item/clothing/under/coldwar/brit/tiger
 	name = "'DPM' pattern uniform"
@@ -504,7 +504,7 @@
 //Czech
 /obj/item/clothing/under/coldwar/csla/
 	allowed = list(/obj/item/weapon/storage/belt/suit/ammo/)
-	
+
 
 /obj/item/clothing/under/coldwar/csla/vz60
 	name = "vz.60 pattern uniform"
@@ -607,8 +607,8 @@
 /obj/item/clothing/under/coldwar/fra/lizard
 	name = "'TAP47' pattern uniform"
 	desc = "An 'lizard' pattern camouflage uniform issued by the French forces. Troops like to call it 'Leopard' instead."
-	icon_state = "lizard"
-	worn_state = "lizard"
+	icon_state = "lizardcamo"
+	worn_state = "lizardcamo"
 	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
 	siemens_coefficient = 0.7
 	slowdown_general = 0.5
@@ -646,4 +646,48 @@
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/scndlt, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/coldwar/fra/lizard/fstlt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland
+	name = "'TAP47' pattern uniform"
+	desc = "A 'Woodland' pattern camouflage uniform issued by the French forces. Troops like to call it 'Camoufler' instead."
+	icon_state = "frogcamo"
+	worn_state = "frogcamo"
+	armor = list(melee = 5, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 5)
+	siemens_coefficient = 0.7
+	slowdown_general = 0.5
+	has_sensor = 0
+
+
+/obj/item/clothing/under/coldwar/fra/woodland/pfc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/pfc, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/lcpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/lcpl, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/cpl
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/cpl, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/spc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/spc, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/sgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/sgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/ssgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/ssgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/sfc
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/sfc, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/msgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/msgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/gysgt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/gysgt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/scndlt
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/scndlt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/fstlt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt, /obj/item/clothing/accessory/storage/uniform_pockets)

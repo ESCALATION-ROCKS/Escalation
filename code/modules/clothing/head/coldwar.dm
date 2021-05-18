@@ -620,7 +620,7 @@
 
 /obj/item/clothing/head/coldwar/beret/fra
 	name = "Armee de Terre beret"
-	desc = "A maroon beret common amongst BAF airtrooper divisions."
+	desc = "A maroon beret common amongst ADT airtrooper divisions."
 	icon_state = "fraberet"
 
 /obj/item/clothing/head/coldwar/garcap/fra
@@ -643,18 +643,6 @@
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1978-unzipped"
-
-/obj/item/clothing/head/coldwar/helmet/fra/m78/cover
-	desc = "A helmet used by the Armee de Terre. This one has a netting on it."
-	icon_state = "m1978c"
-	icon_state_unzipped = "m1978c-unzipped"
-
-/obj/item/clothing/head/coldwar/helmet/fra/m78/medic
-	desc = "A helmet used by the Armee de Terre. This one has a red cross on it."
-	icon_state = "m1978medic"
-	icon_state_unzipped = "m1978medic-unzipped"
-
-
 
 ///NVG googles (2nd gen)
 

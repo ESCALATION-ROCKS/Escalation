@@ -83,8 +83,6 @@ Gruppe 'Delta':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
-/datum/job/escalation/bund/bdwsapper
-/datum/job/escalation/bund/bdwsm
 @END@
 
 Gruppe 'Echo':bund
@@ -98,8 +96,6 @@ Gruppe 'Echo':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
-/datum/job/escalation/bund/bdwsapper
-/datum/job/escalation/bund/bdwsm
 @END@
 
 Gruppe 'Foxtrot':bund
@@ -113,11 +109,28 @@ Gruppe 'Foxtrot':bund
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwrifle
 /datum/job/escalation/bund/bdwmedic
-/datum/job/escalation/bund/bdwsapper
-/datum/job/escalation/bund/bdwsm
+@END@
+
+Gruppe 'Golf':bund
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwmedic
 @END@
 
 SwG. I:bund
+/datum/job/escalation/bund/hwscom
+/datum/job/escalation/bund/hwsop
+/datum/job/escalation/bund/hwsload
+@END@
+
+SwG. II:bund
 /datum/job/escalation/bund/hwscom
 /datum/job/escalation/bund/hwsop
 /datum/job/escalation/bund/hwsload
@@ -163,6 +176,21 @@ Gruppe 'Echo':heer
 @END@
 
 Gruppe 'Foxtrot':heer
+/datum/job/escalation/heer/heersl
+/datum/job/escalation/heer/heersld
+/datum/job/escalation/heer/heersqradio
+/datum/job/escalation/heer/heermg
+/datum/job/escalation/heer/heermgas
+/datum/job/escalation/heer/heergrenadier
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heerrifle
+/datum/job/escalation/heer/heermedic
+/datum/job/escalation/heer/heersapper
+/datum/job/escalation/heer/heersm
+@END@
+
+Gruppe 'Golf':heer
 /datum/job/escalation/heer/heersl
 /datum/job/escalation/heer/heersld
 /datum/job/escalation/heer/heersqradio
@@ -244,63 +272,18 @@ ATS-1:usa
 
 ##FRA##
 
-Squad 'Alpha':fra
-/datum/job/escalation/usmc/usmcsl
-/datum/job/escalation/usmc/usmcftradio
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcsapper
-/datum/job/escalation/usmc/usmcmarksman
+SECTION INFANTRIE:fra
+/datum/job/escalation/fra/frasl
+/datum/job/escalation/fra/fraratelo
+/datum/job/escalation/fra/fralgl
+/datum/job/escalation/fra/fracorpsman
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftmg
+/datum/job/escalation/fra/fralgl
 @END@
-
-Squad 'Bravo':fra
-/datum/job/escalation/usmc/usmcsl
-/datum/job/escalation/usmc/usmcftradio
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcsapper
-/datum/job/escalation/usmc/usmcmarksman
-@END@
-
-Squad 'Charlie':fra
-/datum/job/escalation/usmc/usmcsl
-/datum/job/escalation/usmc/usmcftradio
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcftl
-/datum/job/escalation/usmc/usmcftmg
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmcfto
-/datum/job/escalation/usmc/usmccorpsman
-/datum/job/escalation/usmc/usmcsapper
-/datum/job/escalation/usmc/usmcmarksman
-@END@
-
-HWS-1:fra
-/datum/job/escalation/usmc/usmcmgcom
-/datum/job/escalation/usmc/usmcmgop
-/datum/job/escalation/usmc/usmcmgload
-@END@
-
-ATS-1:fra
-/datum/job/escalation/usmc/usmcatcom
-/datum/job/escalation/usmc/usmcat
-/datum/job/escalation/usmc/usmcata
-@END@
-
 
 ###########WARPACT#############
 
@@ -374,7 +357,6 @@ Gruppe 'Anton':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvamedic
-/datum/job/escalation/nvaddr/nvasapper
 @END@
 
 Gruppe 'Bertha':nvaddr
@@ -388,7 +370,6 @@ Gruppe 'Bertha':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvamedic
-/datum/job/escalation/nvaddr/nvasapper
 @END@
 
 Gruppe 'Cesar':nvaddr
@@ -402,10 +383,28 @@ Gruppe 'Cesar':nvaddr
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvarifle
 /datum/job/escalation/nvaddr/nvamedic
-/datum/job/escalation/nvaddr/nvasapper
+@END@
+
+Gruppe 'Dora':nvaddr
+/datum/job/escalation/nvaddr/nvasl
+/datum/job/escalation/nvaddr/nvasld
+/datum/job/escalation/nvaddr/nvasrad
+/datum/job/escalation/nvaddr/nvarocket
+/datum/job/escalation/nvaddr/nvarocketass
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvamg
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvarifle
+/datum/job/escalation/nvaddr/nvamedic
 @END@
 
 SwG. I:nvaddr
+/datum/job/escalation/nvaddr/nvahwscom
+/datum/job/escalation/nvaddr/nvahwsop
+/datum/job/escalation/nvaddr/nvahwsload
+@END@
+
+SwG. II:nvaddr
 /datum/job/escalation/nvaddr/nvahwscom
 /datum/job/escalation/nvaddr/nvahwsop
 /datum/job/escalation/nvaddr/nvahwsload
