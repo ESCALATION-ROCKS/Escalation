@@ -786,11 +786,11 @@
 	ideal_character_age = 28
 	outfit_type = /decl/hierarchy/outfit/escalation/nato/bund/marksman
 	selection_color = "#4682B4"
-	position = "fireteam"
+	position = "team"
 	amount = 1
 	enabled = 1
-	rank_number = 3
-	whitelist_rank = "bdw_enlisted"
+	rank_number = 4
+	whitelist_rank = "bdw_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
