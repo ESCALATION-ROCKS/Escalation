@@ -970,7 +970,7 @@
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
 	one_hand_penalty = 5
-	accuracy = 2.9
+	accuracy = 3.6
 	screen_shake = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
@@ -1024,7 +1024,7 @@
 	magazine_type = null
 	one_hand_penalty = 5
 	force = 15
-	accuracy = 2.9
+	accuracy = 3.2
 	screen_shake = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
@@ -1066,7 +1066,7 @@
 	magazine_type = null
 	force = 15
 	one_hand_penalty = 5
-	accuracy = 2.9
+	accuracy = 3.6
 	bayonet_attachable = 0
 	screen_shake = 1
 	jam_chance = 0.360
@@ -2017,7 +2017,7 @@
 
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=2.8, move_delay=null, one_hand_penalty=4, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
-		list(mode_name="automatic", burst=1, fire_delay=0.6, move_delay=2, one_hand_penalty=5, burst_accuracy=null, dispersion=list(0.3, 0.4, 0.5), automatic = 0.5),
+		list(mode_name="automatic", burst=1, fire_delay=0.5, move_delay=2, one_hand_penalty=5, burst_accuracy=null, dispersion=list(0.3, 0.4, 0.5), automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/famas/update_icon()
@@ -2033,6 +2033,7 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/famasgl
 	name = "FAMAS F1 w/ M203"
 	desc = "A standard-issue ADT assault rifle with a M203 launcher attached. Chambers 5.56x45 rounds."
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "famasgl"
 	item_state = "famasgl"
 	w_class = 5
@@ -2060,7 +2061,7 @@
 
 	firemodes = list(
 		list(mode_name="semiauto", burst=1, fire_delay=2.8, move_delay=null, one_hand_penalty=5, burst_accuracy=null, dispersion=list(0.0, 0.1, 0.2), automatic = 0),
-		list(mode_name="automatic", burst=1, fire_delay=0.6, move_delay=2, one_hand_penalty=6, burst_accuracy=null, dispersion=list(0.3, 0.4, 0.5), automatic = 0.5),
+		list(mode_name="automatic", burst=1, fire_delay=0.5, move_delay=2, one_hand_penalty=6, burst_accuracy=null, dispersion=list(0.3, 0.4, 0.5), automatic = 0.5),
 		)
 
 /obj/item/weapon/gun/projectile/automatic/rifle/famasgl/New()
@@ -2098,10 +2099,10 @@
 	update_held_icon()
 	if(ammo_magazine)
 		icon_state = "famasgl"
-		wielded_item_state = "famasgl-wielded"
+		wielded_item_state = "famas-wielded"
 	else
 		icon_state = "famasgl-empty"
-		wielded_item_state = "famasgl-wielded-empty"
+		wielded_item_state = "famas-wielded-empty"
 
 /obj/item/weapon/gun/projectile/automatic/rifle/famasgl/verb/set_gp()
 	set name = "Grenade Launcher"

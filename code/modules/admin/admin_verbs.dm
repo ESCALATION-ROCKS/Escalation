@@ -106,6 +106,8 @@ var/list/admin_verbs_admin = list(
 	/client/proc/announce_battle_start,
 	/client/proc/warpact_major,
 	/client/proc/nato_major,
+	/client/proc/warpact_minor,
+	/client/proc/nato_minor,
 	/client/proc/draw_major,
 	/datum/admins/proc/ToggleCkeyWhitelist,
 	/datum/admins/proc/ReloadCkeyWhitelist,
@@ -1168,22 +1170,44 @@ var/global/list/global_colour_matrix = null
 
 /client/proc/nato_major()
 	set category = "EscAdmin"
-	set name = "Announce NATO Victory"
-	var/victoryconfirm = alert("Are you sure you want to declare a NATO victory?", "Are you sure you want to declare a NATO victory?", "Yes", "No")
+	set name = "Announce BDW Victory"
+	var/victoryconfirm = alert("Are you sure you want to declare a BDW victory?", "Are you sure you want to declare a BDW victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared NATO Victory")
-		to_world("<b><font size=5>NATO forces have occupied the field.</font></b>")
-		sound_to(world, 'sound/music/runthroughthejungleinstrumental.ogg')
+		to_world("<b><font size=5>The Bundeswehr have secured control of the battlefield. Bundeswehr Vorwärts!</font></b>")
+		sound_to(world, 'sound/music/awakenmymasters.ogg')
 	else
 		return
 
 /client/proc/warpact_major()
 	set category = "EscAdmin"
-	set name = "Announce WARPACT Victory"
-	var/victoryconfirm = alert("Are you sure you want to declare a WARPACT victory?", "Are you sure you want to declare a WARPACT victory?", "Yes", "No")
+	set name = "Announce NVA Victory"
+	var/victoryconfirm = alert("Are you sure you want to declare a NVA victory?", "Are you sure you want to declare a NVA victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared WARPACT Victory")
-		to_world("<b><font size=5>WARPACT forces have occupied the field.</font></b>")
+		to_world("<b><font size=5>The National Volkarmee overun the battlefield. Für die Arbeiter!</font></b>")
+		sound_to(world, 'sound/music/big_cheese_99_luftbaloons_1.ogg')
+	else
+		return
+
+/client/proc/nato_minor()
+	set category = "EscAdmin"
+	set name = "Announce FRA Victory"
+	var/victoryconfirm = alert("Are you sure you want to declare a FRA victory?", "Are you sure you want to declare a FRA victory?", "Yes", "No")
+	if(victoryconfirm == "Yes")
+		log_and_message_admins("has declared WARPACT Victory")
+		to_world("<b><font size=5>The Bundeswehr have secured control of the battlefield, with major assistance from Armee De Terre.</font></b>")
+		sound_to(world, 'sound/music/africa.ogg')
+	else
+		return
+
+/client/proc/warpact_minor()
+	set category = "EscAdmin"
+	set name = "Announce CSLA Victory"
+	var/victoryconfirm = alert("Are you sure you want to declare a CSLA victory?", "Are you sure you want to declare a CSLA victory?", "Yes", "No")
+	if(victoryconfirm == "Yes")
+		log_and_message_admins("has declared WARPACT Victory")
+		to_world("<b><font size=5>The National Volkarmee have secured the battlefield, with major assistance from Czechoslovak People's Army!</font></b>")
 		sound_to(world, 'sound/music/wearethearmyofthepeoplesynth.ogg')
 	else
 		return

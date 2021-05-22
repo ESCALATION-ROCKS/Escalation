@@ -53,6 +53,7 @@
 #define LANGUAGE_FINNISH "Finnish"
 #define LANGUAGE_SPANISH   "Spanish"
 #define LANGUAGE_FRENCH "French"
+#define LANGUAGE_POLISH "Polish"
 
 // Language flags.
 #define WHITELISTED  1   // Language is available if the speaker is whitelisted.

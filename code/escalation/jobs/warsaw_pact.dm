@@ -662,7 +662,7 @@
 	rank_number = 0
 	position = "team"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	whitelist_rank = "ddr_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
@@ -1605,7 +1605,7 @@
 	position = "team"
 	leading = 1
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "csla_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
 
@@ -1626,7 +1626,7 @@
 	rank_number = 1
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "csla_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 70, LANGUAGE_RUSSIAN = 100, LANGUAGE_GERMAN = 70)
 
@@ -1666,7 +1666,7 @@
 	rank_number = 1
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "csla_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
@@ -1686,7 +1686,7 @@
 	rank_number = 1
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "csla_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
@@ -1706,7 +1706,7 @@
 	rank_number = 5
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "csla_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_GERMAN = 100)
 

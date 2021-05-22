@@ -435,6 +435,22 @@
 	icon_state = "nnaddr_leutnant"
 	rank = "Leutnant"
 
+//////FRA
+/obj/item/clothing/accessory/insignia/fra/soldat
+	name = "Soldat insignia"
+	icon_state = "nnaddr_soldat"
+	rank = "Soldat"
+
+/obj/item/clothing/accessory/insignia/fra/caporal
+	name = "Caporal insignia"
+	icon_state = "nnaddr_obergefreiter"
+	rank = "Caporal"
+
+/obj/item/clothing/accessory/insignia/fra/capitaine
+	name = "Capitaine insignia"
+	icon_state = "usmc_1stlt_insignia"
+	rank = "Capitaine"
+
 //Storage Accessories
 
 /obj/item/clothing/accessory/storage/coldwar
@@ -504,6 +520,17 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 3
+	armor_slowdown = 0.0
+
+/obj/item/clothing/accessory/storage/coldwar/adt
+	name = "CCE Tactical Vest "
+	desc = "A chest rig used by the French Military"
+	icon_state = "bandovest_adt"
+	gender = NEUTER
+	w_class = ITEM_SIZE_LARGE
+	slot_flags = SLOT_OCLOTHING
+	slot = ACCESSORY_SLOT_ARMOR_S
+	slots = 4
 	armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/lifchik/alt

@@ -167,6 +167,7 @@
 /obj/item/weapon/gun/launcher/lracf1
 	name = "LRAC FI"
 	desc = "The LRAC FI is sometimes referred to as the STRIM 89mm antitank rocket launcher from the abbreviations for the private firm Société technique de recherches en industries mécaniques that was contracted in 1964 by the French Ministry of Defence, to research a replacement for the M20A1 Super Bazooka."
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "lracf1" ///change
 	item_state = "lracf1" ///change
 	slowdown_general = 0.5

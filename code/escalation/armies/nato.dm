@@ -54,5 +54,5 @@
 	faction_tag = "fra"
 	flag_state = "fra"
 	language = "French"
-	base_color = "purple"
+	base_color = "blue"
 	fireteam_names = list("Groupe #1", "Groupe #2", "Groupe #3", "Groupe #4")

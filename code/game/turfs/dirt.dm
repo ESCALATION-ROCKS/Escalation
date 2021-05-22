@@ -260,21 +260,21 @@
 	name = "grass"
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "grass1"
-	blend_with_neighbors = 2
+	blend_with_neighbors = 4
 	movement_delay = 1.5
 
 /turf/unsimulated/ground/newgrass
 	name = "grass"
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "grass"
-	blend_with_neighbors = 2
+	blend_with_neighbors = 4
 	movement_delay = 1.5
 
 /turf/unsimulated/ground/newgrasslong
 	name = "grass"
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "grasslong"
-	blend_with_neighbors = 2
+	blend_with_neighbors = 4
 	movement_delay = 1.5
 
 

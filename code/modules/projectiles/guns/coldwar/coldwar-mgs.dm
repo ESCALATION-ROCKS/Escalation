@@ -154,7 +154,7 @@
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b/bdw))
 		icon_state = "mg3[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 150)]"
 		wielded_item_state = "mg3-wielded"
-	
+
 	else
 		icon_state = "mg3[cover_opened ? "open" : "closed"]-empty"
 		wielded_item_state = "mg3-wielded-empty"
@@ -402,8 +402,9 @@
 /obj/item/weapon/gun/projectile/automatic/minimi
 	name = "FN MINIMI"
 	desc = "A standard-issue ADT squad support weapon. Chambers 5.56x45 rounds."
+	icon = 'icons/obj/coldwar/guns48x48.dmi'
 	icon_state = "minimi"
-	item_state = "m60"
+	item_state = "minimi"
 	w_class = 5
 	force = 15
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
@@ -417,8 +418,8 @@
 	slowdown_general = 0.6
 	accuracy = 2.6
 
-	wielded_item_state = "m60-wielded"
-	fire_sound = 'sound/weapons/gunshot/m249.ogg'
+	wielded_item_state = "l7a2-wielded"
+	fire_sound = 'sound/weapons/gunshot/pkm.ogg'
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m249_charge.ogg'
@@ -471,10 +472,10 @@
 /obj/item/weapon/gun/projectile/automatic/minimi/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
 		icon_state = "minimi[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
-		wielded_item_state = "m60-wielded"
+		wielded_item_state = "l7a2-wielded"
 	else
 		icon_state = "minimi[cover_opened ? "open" : "closed"]-empty"
-		wielded_item_state = "m60-wielded-empty"
+		wielded_item_state = "l7a2-wielded-empty"
 	..()
 
 /obj/item/weapon/gun/projectile/automatic/ameli

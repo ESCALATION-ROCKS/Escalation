@@ -553,7 +553,7 @@
 	icon_state = "heer_ammo"
 	item_state = "usmc_ammo"
 	open_delay = 5
-	storage_slots = 2 
+	storage_slots = 2
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45m,
 		/obj/item/ammo_magazine/c556x45g,
@@ -697,15 +697,19 @@
 	w_class = ITEM_SIZE_HUGE
 	name = "FAMAS magazine pouch"
 	desc = "Has enough space to hold three 5.56 FAMAS magazines."
-	icon_state = "fra_ammo"
-	item_state = "fra_ammo"
+	icon_state = "adt_ammo"
+	item_state = "adt_ammo"
 	open_delay = 5
 	storage_slots = 3
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45s,
 		/obj/item/ammo_magazine/c45m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c556x45s,
+		/obj/item/ammo_magazine/c556x45s,
+		/obj/item/ammo_magazine/c556x45s
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -714,8 +718,8 @@
 	w_class = ITEM_SIZE_HUGE
 	name = "MAT-49 magazine pouch"
 	desc = "Has enough space to hold four MAT-49 magazines."
-	icon_state = "fra_ammo_smg"
-	item_state = "fra_ammo"
+	icon_state = "adt_ammo"
+	item_state = "adt_ammo"
 	open_delay = 5
 	storage_slots = 3
 	can_hold = list(
@@ -731,14 +735,16 @@
 	max_w_class = ITEM_SIZE_LARGE
 	name = "MINIMI box pouch"
 	desc = "Has enough space to hold one MINIMI belt box."
-	icon_state = "fra_ammo_lmg"
-	item_state = "fra_ammo_lmg"
+	icon_state = "adt_lmg"
+	item_state = "adt_lmg"
 	open_delay = 5
 	storage_slots = 1
 	can_hold = list(
 		/obj/item/ammo_magazine/c556x45b/minimi
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c556x45b/minimi
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/fra/frf2
 	w_class = ITEM_SIZE_HUGE
@@ -1392,8 +1398,8 @@
 /obj/item/weapon/storage/belt/suit/ammo/fra/ugrenades
 	name = "adt grenade bandolier"
 	desc = "Generic grenade satchel used by French forces. Has enough space to hold six underbarrel grenades."
-	icon_state = "heer_grenbandolier"
-	item_state = "usmc_grenbandolier"
+	icon_state = "adt_grenbandolier"
+	item_state = "adt_grenbandolier"
 	storage_slots = 6
 	can_hold = list (/obj/item/weapon/grenade/frag/ugl/shell40mm/, /obj/item/weapon/grenade/smokebomb/ugl/shell40mm, /obj/item/weapon/grenade/frag/ugl/vog25/, /obj/item/weapon/grenade/smokebomb/ugl/vog25)
 	startswith = list(

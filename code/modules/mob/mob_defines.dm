@@ -188,3 +188,5 @@
 
 	var/military_faction = 0
 
+	var/talked = 0
+	var/chatWarn = 0

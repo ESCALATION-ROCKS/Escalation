@@ -40,6 +40,8 @@
 	var/irc_admin			//IRC admin that spoke with them last.
 	var/mute_irc = 0
 	var/warned_about_multikeying = 0	// Prevents people from being spammed about multikeying every time their mob changes.
+	var/talked = 0
+	var/chatWarn = 0
 
 		////////////////////////////////////
 		//things that require the database//

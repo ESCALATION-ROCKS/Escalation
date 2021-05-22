@@ -413,7 +413,7 @@ SwG. II:nvaddr
 
 ###CSLA###
 
-Cheta 'Delat':csla
+Cheta 'Emil':csla
 /datum/job/escalation/csla/cslasl
 /datum/job/escalation/csla/cslasld
 /datum/job/escalation/csla/cslasrad
@@ -424,44 +424,6 @@ Cheta 'Delat':csla
 /datum/job/escalation/csla/cslarifle
 /datum/job/escalation/csla/cslarifle
 /datum/job/escalation/csla/cslamedic
-/datum/job/escalation/csla/cslasapper
-/datum/job/escalation/csla/cslamarksman
-@END@
-
-Cheta 'Ero':csla
-/datum/job/escalation/csla/cslasl
-/datum/job/escalation/csla/cslasld
-/datum/job/escalation/csla/cslasrad
-/datum/job/escalation/csla/cslarocket
-/datum/job/escalation/csla/cslarocketass
-/datum/job/escalation/csla/cslamg
-/datum/job/escalation/csla/cslamg
-/datum/job/escalation/csla/cslarifle
-/datum/job/escalation/csla/cslarifle
-/datum/job/escalation/csla/cslamedic
-/datum/job/escalation/csla/cslasapper
-/datum/job/escalation/csla/cslamarksman
-@END@
-
-Cheta 'Fana':csla
-/datum/job/escalation/csla/cslasl
-/datum/job/escalation/csla/cslasld
-/datum/job/escalation/csla/cslasrad
-/datum/job/escalation/csla/cslarocket
-/datum/job/escalation/csla/cslarocketass
-/datum/job/escalation/csla/cslamg
-/datum/job/escalation/csla/cslamg
-/datum/job/escalation/csla/cslarifle
-/datum/job/escalation/csla/cslarifle
-/datum/job/escalation/csla/cslamedic
-/datum/job/escalation/csla/cslasapper
-/datum/job/escalation/csla/cslamarksman
-@END@
-
-TeZ I.:csla
-/datum/job/escalation/csla/cslahwscom
-/datum/job/escalation/csla/cslahwsop
-/datum/job/escalation/csla/cslahwsload
 @END@
 
 ###ESP###

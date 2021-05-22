@@ -49,7 +49,7 @@
 		if("heer")
 			H.add_language(LANGUAGE_GERMAN)
 			L = all_languages[LANGUAGE_GERMAN]
-			
+
 		if("esp")
 			H.add_language(LANGUAGE_SPANISH)
 			L = all_languages[LANGUAGE_SPANISH]
@@ -132,15 +132,22 @@
 	name = "Spanish"
 	desc = "This is the languaged used by the Spanish Army."
 	colour = "spanish"
-	key = "p"
+	key = "l"
 	syllables = list("va", "que", "qi", "si", "non", "te", "ta", "juz", "gue", "vez", "fe", "he", "hi", "in", "is", "it", "la", "re", "tin", "pa", "sa", "arr", "vi", "va", "mie", "do", "ri", "tos", "tra", "ma", "ra", "jo", "ero", "dad", "ejo", "ala", "ches", "bol", "bras", "som", "san", "bre", "erpo", "feliz", "juevez", "yes", "oje", "nol", "esp", "co", "un", "dos", "tres", "favor", "por", "bien", "como", "luz", "del", "ahi", "ajos", "veo", "tor", "apia", "riza", "hombre", "dador", "pindejo")
 
 /datum/language/escalation/french
 	name = "French"
 	desc = "This is the languaged used by the French Army."
-	colour = "spanish"
+	colour = "english"
 	key = "h"
 	syllables = list("voux", "que", "qi", "cha", "non", "une", "la", "le", "l'", "j'", "d'", "mer", "rea", "lite", "ite", "eta", "la", "moi", "toi", "nous", "et", "tu", "tou", "jours", "mains", "moin", "les", "mise", "tra", "ma", "ra", "je", "nom", "lier", "ejo", "jeu", "nesse", "che", "pere", "som", "san", "bre", "sou", "vent", "mer", "les", "eux", "aux", "oux", "iux", "tiere", "dos", "tres", "etre", "ne", "bien", "tous", "lus", "del", "j'etat", "est", "sans", "eils", "guerre", "oire", "noire", "beaucoup", "merci")
+
+/datum/language/escalation/polish
+	name = "Polish"
+	desc = "This is the languaged used by the Polish People's Republic."
+	colour = "finnish"
+	key = "p"
+	syllables = list("al", "an", "bi", "ve", "vo", "go", "de", "el", "en", "er", "et", "ka", "ko", "la", "li", "lo", "l'", "na", "ne", "ni", "no", "ov", "ol", "on", "or", "slog", "ot", "po", "pr", "ra", "re", "ro", "st", "ta", "te", "to", "t'", "at'", "bil", "ver", "ego", "eni", "enn", "est", "kak", "l'n", "ova", "ogo", "ol'", "oro", "ost", "oto", "pri", "pro", "sta", "stv", "tor", "chto", "eto")
 
 //////////NOTE: Make sure BAY12 does not use the hotkey that you are going to use for a new language
 ////////// just search ( key = "" ) and you will find it

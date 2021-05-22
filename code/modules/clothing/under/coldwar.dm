@@ -616,13 +616,13 @@
 
 
 /obj/item/clothing/under/coldwar/fra/lizard/pfc
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/pfc, /obj/item/clothing/accessory/storage/uniform_pockets)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/fra/soldat, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/coldwar/fra/lizard/lcpl
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/lcpl, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/coldwar/fra/lizard/cpl
-	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/cpl, /obj/item/clothing/accessory/storage/uniform_pockets)
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/fra/caporal, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/coldwar/fra/lizard/spc
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/spc, /obj/item/clothing/accessory/storage/uniform_pockets)
@@ -647,6 +647,9 @@
 
 /obj/item/clothing/under/coldwar/fra/lizard/fstlt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/lizard/captain
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/fra/capitaine, /obj/item/clothing/accessory/storage/uniform_pockets)
 
 /obj/item/clothing/under/coldwar/fra/woodland
 	name = "'TAP47' pattern uniform"

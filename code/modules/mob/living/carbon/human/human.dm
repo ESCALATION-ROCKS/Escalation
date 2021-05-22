@@ -1721,4 +1721,9 @@ var/list/rank_prefix = list(\
 	"Corporal" = "Corporal",\
 	"Lance Corporal" = "Lc. Corporal",\
 	"Private" = "Private",\
+
+//FRA
+	"Soldat" = "Soldat",\
+	"Caporal" = "Caporal",\
+	"Capitaine" = "Capitaine",\
 )
