@@ -46,11 +46,11 @@ REVIVAL_BRAIN_LIFE -1
 
 
 ## These modify the run/walk speed of all mobs before the mob-specific modifiers are applied. 
-RUN_SPEED 0.7
+RUN_SPEED 0.6
 WALK_SPEED 2
 
 ## Volume of footstep sound effects.  Range: 1-100, Set to 0 to disable footstep sounds.
-FOOTSTEP_VOLUME 40
+FOOTSTEP_VOLUME 30
 
 ## The variables below affect the movement of specific mob types.
 HUMAN_DELAY 0

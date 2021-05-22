@@ -255,8 +255,12 @@
 		/obj/item/weapon/gauze_pack/gauze,
 		/obj/item/weapon/gauze_pack/ipp,
 		/obj/item/stack/medical/splint/ifak
+		/obj/item/weapon/gauze_pack/woundseal/nato
+		/obj/item/weapon/gauze_pack/woundseal/wp
+		/obj/item/stack/medical/bruise_pack/gauze
+		/obj/item/stack/medical/tourniquet/woundseal
 		)
-	
+
 /obj/item/weapon/storage/firstaid/ifak/nato
 	desc = "That's the Individual First Aid Kit, a standard-issued NATO first aid kit."
 	icon_state = "usmc_ifak"
