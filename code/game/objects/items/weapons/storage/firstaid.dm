@@ -85,7 +85,7 @@
 		/obj/item/weapon/bonegel,
 		/obj/item/weapon/FixOVein,
 		/obj/item/stack/medical/advanced/bruise_pack,
-		/obj/item/stack/nanopaste
+		/obj/item/stack/nanopaste,
 		)
 
 	startswith = list(
@@ -254,10 +254,10 @@
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/weapon/gauze_pack/gauze,
 		/obj/item/weapon/gauze_pack/ipp,
-		/obj/item/stack/medical/splint/ifak
-		/obj/item/weapon/gauze_pack/woundseal/nato
-		/obj/item/weapon/gauze_pack/woundseal/wp
-		/obj/item/stack/medical/bruise_pack/gauze
+		/obj/item/stack/medical/splint/ifak,
+		/obj/item/weapon/gauze_pack/woundseal/nato,
+		/obj/item/weapon/gauze_pack/woundseal/wp,
+		/obj/item/stack/medical/bruise_pack/gauze,
 		/obj/item/stack/medical/tourniquet/woundseal
 		)
 
