@@ -161,6 +161,88 @@
 	puff.set_up(1,,,smoke_dir)
 	puff.start()
 
+
+/////FRENCH LRAC
+
+/obj/item/weapon/gun/launcher/lracf1
+	name = "LRAC FI"
+	desc = "The LRAC FI is sometimes referred to as the STRIM 89mm antitank rocket launcher from the abbreviations for the private firm Société technique de recherches en industries mécaniques that was contracted in 1964 by the French Ministry of Defence, to research a replacement for the M20A1 Super Bazooka."
+	icon_state = "lracf1" ///change
+	item_state = "lracf1" ///change
+	slowdown_general = 0.5
+	w_class = 5
+	throw_speed = 3
+	one_hand_penalty = 100
+	throw_range = 40
+	force = 5.0
+	flags =  CONDUCT
+	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 5)
+	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
+	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
+
+	release_force = 40
+	throw_distance = 30
+	var/max_rockets = 1
+	var/is_used = FALSE
+	var/list/rockets = new/list(/obj/item/ammo_casing/rpg_missile/smaw)
+	var/datum/effect/effect/system/smoke_spread/puff
+
+/obj/item/weapon/gun/launcher/lracf1/New()
+	..()
+	puff = new /datum/effect/effect/system/smoke_spread()
+	puff.attach(src)
+	update_icon()
+
+/obj/item/weapon/gun/launcher/lracf1/update_icon()
+	..()
+	if(rockets.len)
+		icon_state = "lracf1"
+		item_state = "lracf1"
+	else
+		icon_state = "lracf1-empty"
+		item_state = "lracf1-empty"
+	update_held_icon()
+
+/obj/item/weapon/gun/launcher/lracf1/examine(mob/user)
+	if(!..(user, 2))
+		return
+	to_chat(user, "\blue [rockets.len] / [max_rockets] rockets.")
+
+/obj/item/weapon/gun/launcher/lracf1/attackby(obj/item/I as obj, mob/user as mob)
+	if(istype(I, /obj/item/ammo_casing/rpg_missile))
+		if(rockets.len < max_rockets)
+			playsound(src.loc,'sound/weapons/gunporn/rpgreload.ogg',80, 0)
+			if(do_after(usr, 30, src))
+				user.drop_item()
+				I.loc = src
+				rockets += I
+				update_icon()
+		else
+			to_chat(user, "\red [src] cannot hold more rockets.")
+			update_icon()
+
+
+/obj/item/weapon/gun/launcher/lracf1/consume_next_projectile(mob/user)
+	if(rockets.len)
+		var/obj/item/ammo_casing/rpg_missile/I = rockets[1]
+		var/obj/item/projectile/bullet/rpgrocket/he/M = new (src)
+		//M.primed = TRUE
+		rockets -= I
+		return M
+	return null
+
+/obj/item/weapon/gun/launcher/lracf1/handle_post_fire(mob/user, atom/target)
+	sleep(1)
+	var/smoke_dir = user.dir
+	if(user)
+		switch(smoke_dir) //We want the opposite of their direction.
+			if(2,8)
+				smoke_dir /= 2
+			if(1,4)
+				smoke_dir *= 2
+	puff.set_up(1,,,smoke_dir)
+	puff.start()
+
 ////////////recoilless rifles///////////
 /obj/item/weapon/gun/launcher/carlgustaf
 	name = "Carl Gustaf recoilless rifle"

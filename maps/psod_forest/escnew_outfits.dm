@@ -2138,7 +2138,7 @@
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/coat/usa
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/cover
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 
 /decl/hierarchy/outfit/job/coldwar/fra/atgunner
@@ -2165,7 +2165,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	back = /obj/item/weapon/storage/backpack/rpgusaassistant
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 /decl/hierarchy/outfit/job/coldwar/fra/ftleader
 	name = OUTFIT_JOB_NAME("Coldwar - ADT FT Leader")
@@ -2178,23 +2178,23 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
 	head = /obj/item/clothing/head/coldwar/fieldcap/fra
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/cover
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 
 /decl/hierarchy/outfit/job/coldwar/fra/sl
 	name = OUTFIT_JOB_NAME("Coldwar - ADT SL")
-	uniform = /obj/item/clothing/under/coldwar/fra/lizard/ssgt
+	uniform = /obj/item/clothing/under/coldwar/fra/lizard/sfc
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	back = /obj/item/weapon/storage/backpack/fra_buttpack
 	holster = /obj/item/weapon/storage/belt/holster/fra
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = /obj/item/clothing/head/coldwar/beret/fra
 	l_pocket = /obj/item/weapon/key/natonco
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/cover
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 
 /decl/hierarchy/outfit/job/coldwar/fra/corpsman
@@ -2209,7 +2209,7 @@
 	head = /obj/item/clothing/head/coldwar/fieldcap/fra
 	l_pocket = /obj/item/weapon/key/natomed
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/medic
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 /decl/hierarchy/outfit/job/coldwar/fra/doctor
 	name = OUTFIT_JOB_NAME("Coldwar - ADT Field Surgerist")
@@ -2234,7 +2234,7 @@
 	r_hand = /obj/item/weapon/masterkey/natopl
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/cover
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 
 /decl/hierarchy/outfit/job/coldwar/fra/platleaddep
@@ -2250,7 +2250,7 @@
 	r_hand = /obj/item/weapon/masterkey/natopl
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/cover
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 
 /decl/hierarchy/outfit/job/coldwar/fra/ratelo
@@ -2279,7 +2279,7 @@
 	head = /obj/item/clothing/head/coldwar/fieldcap/usmc/boonie
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	r_pocket = /obj/item/weapon/facepaint/green
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/cover
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 
 
@@ -2296,7 +2296,7 @@
 	head = /obj/item/clothing/head/coldwar/fieldcap/fra
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/cover
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 
 /decl/hierarchy/outfit/job/coldwar/fra/hws_loader
@@ -2309,7 +2309,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	head = /obj/item/clothing/head/coldwar/fieldcap/fra
 	belt = /obj/item/weapon/storage/belt/harness/fra
-	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78/
+	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
 
 	flags = OUTFIT_HAS_FRABACKPACK
 
