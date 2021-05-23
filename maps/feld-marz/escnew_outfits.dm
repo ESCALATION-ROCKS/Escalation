@@ -2154,7 +2154,7 @@
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
-	gunslot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
 	back = /obj/item/weapon/storage/backpack/rpgusa
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
 	belt = /obj/item/weapon/storage/belt/harness/fra
