@@ -2152,10 +2152,9 @@
 	name = OUTFIT_JOB_NAME("Coldwar - ADT AT Gunner")
 	uniform = /obj/item/clothing/under/coldwar/fra/lizard/pfc
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
-	gun_slot = /obj/item/weapon/gun/launcher/lracf1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
-	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/famas
+	gunslot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
 	back = /obj/item/weapon/storage/backpack/rpgusa
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
 	belt = /obj/item/weapon/storage/belt/harness/fra
@@ -2163,6 +2162,7 @@
 	gloves = /obj/item/clothing/gloves/tactical
 	l_pocket = /obj/item/ammo_magazine/c556x45s
 	r_pocket = /obj/item/ammo_magazine/c556x45s
+	r_hand = /obj/item/weapon/gun/launcher/lracf1
 
 /decl/hierarchy/outfit/job/coldwar/fra/atass
 	name = OUTFIT_JOB_NAME("Coldwar - ADT AT Assistant")
