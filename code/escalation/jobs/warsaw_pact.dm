@@ -1745,7 +1745,7 @@
 	rank_number = 4
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "csla_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 20)
 
@@ -1765,7 +1765,7 @@
 	rank_number = 2
 	position = "team"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	whitelist_rank = "csla_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_GERMAN = 100)
 
