@@ -2,9 +2,6 @@
 	#include "escnew_areas.dm"
 
 	#include "europe-1.dmm"
-	#include "bunker.dmm"
-
-	#include "../../code/modules/lobby_music/escalation.dm"
 
 	#define using_map_DATUM /datum/map/escnew
 

@@ -1,4 +1,4 @@
-/*/datum/gear/clothing
+/datum/gear/clothing
 	sort_category = "Clothing"
 	category = /datum/gear/clothing
 
@@ -29,13 +29,3 @@
 	display_name = "balaclava"
 	slot = slot_wear_mask
 	path = /obj/item/clothing/mask/balaclava
-
-/datum/gear/clothing/hats/hbg
-	display_name = "headband, green"
-	slot = slot_head
-	path = /obj/item/clothing/head/headband
-
-/datum/gear/clothing/hats/hbr
-	display_name = "headband, red"
-	slot = slot_head
-	path = 	/obj/item/clothing/head/headband/red*/
