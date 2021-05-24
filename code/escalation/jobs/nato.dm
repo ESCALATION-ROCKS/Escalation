@@ -2071,7 +2071,7 @@
 	position = "fireteam"
 	enabled = 1
 	whitelist_rank = "fra_nco"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -2093,7 +2093,7 @@
 	amount = 2
 	enabled = 1
 	whitelist_rank = "fra_enlisted"
-	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
+	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 25)
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -2166,7 +2166,7 @@
 	minimal_player_age = 21
 	economic_modifier = 5
 	ideal_character_age = 28
-	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/grenadier
+	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/atgunner
 	selection_color = "#B0C4DE"
 	rank_number = 6
 	position = "fireteam"
