@@ -276,6 +276,7 @@ SECTION INFANTRIE:fra
 /datum/job/escalation/fra/frasl
 /datum/job/escalation/fra/fraratelo
 /datum/job/escalation/fra/fralgl
+/datum/job/escalation/fra/fraftg
 /datum/job/escalation/fra/fracorpsman
 /datum/job/escalation/fra/fraftl
 /datum/job/escalation/fra/fraftg
