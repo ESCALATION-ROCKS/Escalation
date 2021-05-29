@@ -2789,10 +2789,10 @@
 	name = OUTFIT_JOB_NAME("Coldwar - BDW Platoon Leader")
 	uniform = /obj/item/clothing/under/coldwar/bundeswehr/olive/leutnant
 	shoes = /obj/item/clothing/shoes/coldwar/bundeswehr/field
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
 	holster = /obj/item/weapon/storage/belt/holster/bdw
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	l_ear = /obj/item/device/binoculars/nato
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/coldwar/beret/bdw
@@ -2804,10 +2804,10 @@
 	name = OUTFIT_JOB_NAME("Coldwar - BDW Platoon Leader Deputy")
 	uniform = /obj/item/clothing/under/coldwar/bundeswehr/olive/stabsunter
 	shoes = /obj/item/clothing/shoes/coldwar/bundeswehr/field
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
 	holster = /obj/item/weapon/storage/belt/holster/bdw
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	l_ear = /obj/item/device/binoculars/nato
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	head = /obj/item/clothing/head/coldwar/fieldcap/bdw
