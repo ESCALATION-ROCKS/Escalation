@@ -644,6 +644,14 @@
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1978-unzipped"
 
+/obj/item/clothing/head/coldwar/helmet/fra/m78/woodland
+	name = "'Modele 1978' helmet"
+	desc = "A helmet used by the Armee de Terre."
+	icon_state = "m1978woodland"
+	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	siemens_coefficient = 0.9
+	icon_state_unzipped = "m1978woodland-unzipped"
+
 ///NVG googles (2nd gen)
 
 /obj/item/clothing/glasses/night/coldwar

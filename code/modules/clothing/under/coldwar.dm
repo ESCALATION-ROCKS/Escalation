@@ -694,3 +694,6 @@
 
 /obj/item/clothing/under/coldwar/fra/woodland/fstlt
 	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/usmc/frstlt, /obj/item/clothing/accessory/storage/uniform_pockets)
+
+/obj/item/clothing/under/coldwar/fra/woodland/captain
+	starting_accessories = list(/obj/item/clothing/accessory/badge/natodogtag, /obj/item/clothing/accessory/insignia/fra/capitaine, /obj/item/clothing/accessory/storage/uniform_pockets)
