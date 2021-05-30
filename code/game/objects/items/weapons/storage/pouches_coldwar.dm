@@ -511,7 +511,10 @@
 		/obj/item/ammo_magazine/c762x51wa,
 		/obj/item/ammo_magazine/c762x51m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51s,
+		/obj/item/ammo_magazine/c762x51s,
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -528,7 +531,9 @@
 		/obj/item/ammo_magazine/c762x51b/bdw,
 		/obj/item/ammo_magazine/c762x51b/bdw/drum
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51b/bdw,
+		)
 
 /obj/item/weapon/storage/belt/suit/ammo/bdw/s
 	w_class = ITEM_SIZE_HUGE
@@ -721,12 +726,17 @@
 	icon_state = "adt_ammo"
 	item_state = "adt_ammo"
 	open_delay = 5
-	storage_slots = 3
+	storage_slots = 4
 	can_hold = list(
 		/obj/item/ammo_magazine/a9x19t,
 		/obj/item/ammo_magazine/c45m
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/a9x19t,
+		/obj/item/ammo_magazine/a9x19t,
+		/obj/item/ammo_magazine/a9x19t,
+		/obj/item/ammo_magazine/a9x19t,
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 
@@ -988,7 +998,12 @@
 		/obj/item/ammo_magazine/c762x39m,
 		/obj/item/ammo_magazine/a9x18
 		)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c545x39m,
+		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
 

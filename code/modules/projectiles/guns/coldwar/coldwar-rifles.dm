@@ -1055,8 +1055,8 @@
 /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
 	name = "G3A3 w/ HK79"
 	desc = "A standard-issue Bundeswehr combat rifle with an HK79 launcher attached. Chambers 7.62x51 rounds."
-	icon_state = "g3a3gl"
-	item_state = "g3a3gl"
+	icon_state = "g3tgs"
+	item_state = "g3tgs"
 	w_class = 5
 	load_method = MAGAZINE
 	caliber = "762x51"
@@ -1072,7 +1072,7 @@
 	jam_chance = 0.360
 	slowdown_general = 0.27
 
-	wielded_item_state = "g3a3-wielded"
+	wielded_item_state = "g3tgs-wielded"
 	fire_sound = 'sound/weapons/gunshot/g3a3.ogg'
 	unload_sound = 'sound/weapons/gunporn/g3_magout.ogg' // NEED TO CHANGE SOUNDS
 	reload_sound = 'sound/weapons/gunporn/g3_magin.ogg'

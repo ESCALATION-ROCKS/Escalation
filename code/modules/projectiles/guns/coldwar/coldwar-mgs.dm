@@ -418,7 +418,7 @@
 	slowdown_general = 0.6
 	accuracy = 2.6
 
-	wielded_item_state = "l7a2-wielded"
+	wielded_item_state = "minimi-wielded"
 	fire_sound = 'sound/weapons/gunshot/pkm.ogg'
 	unload_sound = 'sound/weapons/gunporn/m249_boxremove.ogg'
 	reload_sound = 'sound/weapons/gunporn/m249_boxinsert.ogg'
@@ -472,10 +472,10 @@
 /obj/item/weapon/gun/projectile/automatic/minimi/update_icon()
 	if(istype(ammo_magazine, /obj/item/ammo_magazine/c762x51b))
 		icon_state = "minimi[cover_opened ? "open" : "closed"][round(ammo_magazine.stored_ammo.len, 200)]"
-		wielded_item_state = "l7a2-wielded"
+		wielded_item_state = "minimi-wielded"
 	else
 		icon_state = "minimi[cover_opened ? "open" : "closed"]-empty"
-		wielded_item_state = "l7a2-wielded-empty"
+		wielded_item_state = "minimi-wielded-empty"
 	..()
 
 /obj/item/weapon/gun/projectile/automatic/ameli
