@@ -759,7 +759,7 @@
 /obj/item/weapon/storage/belt/suit/ammo/fra/frf2
 	w_class = ITEM_SIZE_HUGE
 	name = "FR F2 magazine pouch"
-	desc = "Has enough space to hold two FR F2 magazines."
+	desc = "Has enough space to hold two FR F1 magazines."
 	icon_state = "fra_sniper_ammo"
 	item_state = "fra_ammo"
 	open_delay = 5
@@ -999,10 +999,10 @@
 		/obj/item/ammo_magazine/a9x18
 		)
 	startswith = list(
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m,
-		/obj/item/ammo_magazine/c545x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
+		/obj/item/ammo_magazine/c762x39m,
 		)
 	use_sound = 'sound/items/interactions/sovietpouchopen.wav'
 	close_sound = 'sound/items/interactions/sovietpouchclose.wav'
