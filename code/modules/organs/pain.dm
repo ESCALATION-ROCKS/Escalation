@@ -66,10 +66,10 @@ mob/living/carbon/human/proc/handle_pain()
 		var/burning = damaged_organ.burn_dam > damaged_organ.brute_dam
 		var/msg
 		switch(maxdam)
-			if(1 to 10)
+			if(1 to 70)
 				msg =  "Your [damaged_organ.name] [burning ? "burns" : "hurts"]."
 				emote("groan")
-			if(11 to 90)
+			if(70 to 90)
 				msg = "Your[damaged_organ.name] [burning ? "burns" : "hurts"] badly!"
 				emote("scream")
 			if(91 to 10000)
