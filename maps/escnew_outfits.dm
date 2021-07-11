@@ -590,6 +590,7 @@
 	r_hand = /obj/item/clothing/head/coldwar/helmet/nvaddr/m56/foliage
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/grenades
 	r_pocket = /obj/item/weapon/key/wpnco
+	l_pocket = /obj/item/weapon/maptool
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr
 
@@ -644,6 +645,7 @@
 	l_hand = /obj/item/weapon/masterkey/wppl
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
+	l_pocket = /obj/item/weapon/maptool
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/komvzv
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon Leader")
@@ -659,6 +661,7 @@
 	head = /obj/item/clothing/head/coldwar/officer/nvaddr
 	l_ear = /obj/item/device/binoculars/wp
 	belt = /obj/item/weapon/storage/belt/harness/nvaddr/
+	l_pocket = /obj/item/weapon/maptool
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/politoffizier
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Political Commisar")
@@ -670,6 +673,7 @@
 	r_hand = /obj/item/clothing/head/coldwar/helmet/nvaddr/m56/grey
 	head = /obj/item/clothing/head/coldwar/officer/nvaddr
 	belt = /obj/item/weapon/storage/belt/nvaddr
+	l_pocket = /obj/item/weapon/maptool
 
 /decl/hierarchy/outfit/job/coldwar/nvaddr/platmgunner
 	name = OUTFIT_JOB_NAME("Coldwar - NVA DDR Platoon MG")
@@ -2443,6 +2447,7 @@
 	l_pocket = /obj/item/weapon/key/natonco
 	belt = /obj/item/weapon/storage/belt/harness/heer
 	l_hand = /obj/item/clothing/head/coldwar/helmet/heer/pasgt
+	r_pocket = /obj/item/weapon/maptool
 
 /decl/hierarchy/outfit/escalation/nato/heer/sqleaderdep
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Squad Leader Deputy")
@@ -2495,6 +2500,7 @@
 	r_hand = /obj/item/weapon/masterkey/natopl
 	belt = /obj/item/weapon/storage/belt/harness/heer
 	l_hand = /obj/item/clothing/head/coldwar/helmet/heer/pasgt
+	l_pocket = /obj/item/weapon/maptool
 
 /decl/hierarchy/outfit/escalation/nato/heer/platleaddep
 	name = OUTFIT_JOB_NAME("Coldwar - BDH Platoon Leader Deputy")
@@ -2510,6 +2516,7 @@
 	r_hand = /obj/item/weapon/masterkey/natopl
 	belt = /obj/item/weapon/storage/belt/harness/heer
 	l_hand = /obj/item/clothing/head/coldwar/helmet/heer/m1/netting
+	l_pocket = /obj/item/weapon/maptool
 
 /decl/hierarchy/outfit/escalation/nato/heer/ratelo
 	name = OUTFIT_JOB_NAME("Coldwar - BDH RATELO")
