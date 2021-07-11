@@ -211,6 +211,7 @@
 		/obj/item/clothing/glasses,
 		/obj/item/clothing/gloves,
 		/obj/item/clothing/mask/balaclava
+		/obj/item/clothing/mask/tacticalmask
 	)
 
 /obj/item/clothing/accessory/storage/usmc_harness
