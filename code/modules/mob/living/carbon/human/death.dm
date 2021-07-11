@@ -22,9 +22,9 @@
 	else
 		..()
 
-/mob/living/carbon/human/death(gibbed,deathmessage="seizes up and falls limp...", show_dead_message = "You have died.")
-
-	if(stat == DEAD) return
+/mob/living/carbon/human/death(gibbed, deathmessage="seizes up and falls limp...", show_dead_message = "You have died.")
+	if(stat == DEAD)
+		return
 
 	BITSET(hud_updateflag, HEALTH_HUD)
 	BITSET(hud_updateflag, STATUS_HUD)
@@ -68,7 +68,7 @@
 	if(wearing_rig)
 		wearing_rig.notify_ai("<span class='danger'>Warning: user death event. Mobility control passed to integrated intelligence system.</span>")
 
-	. = ..(gibbed, species?.death_message)
+	. = ..(gibbed, species.death_message)
 	if(!gibbed)
 		handle_organs()
 		if(species.death_sound)
@@ -78,7 +78,8 @@
 	handle_hud_list()
 
 /mob/living/carbon/human/proc/ChangeToHusk()
-	if(HUSK in mutations)	return
+	if(HUSK in mutations)
+		return
 
 	if(f_style)
 		f_style = "Shaved"		//we only change the icon_state of the hair datum, so it doesn't mess up their UI/UE
