@@ -333,7 +333,7 @@ obj/item/mortar_shell/frag
 /obj/structure/closet/crate/mortar_ammo/mortar_kit
 	name = "\improper mortar kit"
 	desc = "A crate containing a basic set of a mortar and some shells."
-	icon_state = gencrate
+	icon_state = "gencrate"
 
 /obj/structure/closet/crate/mortar_ammo/mortar_kit/New()
 	..()
