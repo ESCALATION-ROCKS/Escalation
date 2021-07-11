@@ -650,8 +650,9 @@
 	uniform = /obj/item/clothing/under/coldwar/nvaddr/strichtarn/leutnant
 	shoes = /obj/item/clothing/shoes/coldwar/soviet/marching/nva
 	holster = /obj/item/weapon/storage/belt/holster/sa
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/mpikms
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/mpikmgl
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/nvaddr/ugrenades
 	back = /obj/item/weapon/storage/backpack/soviet_tabletbag
 	l_hand = /obj/item/weapon/masterkey/wppl
 	r_hand = /obj/item/clothing/head/coldwar/helmet/nvaddr/m56/grey
