@@ -73,6 +73,8 @@
 		handle_organs()
 		if(species.death_sound)
 			playsound(loc, species.death_sound, 80, 1, 1)
+	if(species.death_sound_local)
+		playsound_local(loc, species.death_sound_local, 80, 0)
 	handle_hud_list()
 
 /mob/living/carbon/human/proc/ChangeToHusk()

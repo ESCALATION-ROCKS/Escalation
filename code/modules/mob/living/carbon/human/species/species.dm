@@ -84,6 +84,7 @@
 	var/gibbed_anim = "gibbed-h"
 	var/dusted_anim = "dust-h"
 	var/death_sound
+	var/death_sound_local = 'sound/effects/death_sound.ogg'
 	var/death_message = "twitches before falling limp."
 	var/knockout_message = "has been knocked out."
 	var/halloss_message = "loses his conciousness."
