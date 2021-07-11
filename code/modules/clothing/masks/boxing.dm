@@ -55,18 +55,21 @@
 	pull_mask = 0
 	var/show_above_suit = 0
 	w_class = ITEM_SIZE_SMALL
+	wearable = 1
 
 /obj/item/clothing/mask/tacticalmask/blue
 	name = "blue bandana"
 	desc = "A blue piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_gray"
 	item_state = "scarf_gray"
+	wearable = 1
 
 /obj/item/clothing/mask/tacticalmask/green
 	name = "green bandana"
 	desc = "A green piece of cloth you can cover your face with or hang around your neck."
 	icon_state = "scarf_green"
 	item_state = "scarf_green"
+	wearable = 1
 
 /obj/item/clothing/mask/luchador
 	name = "Luchador Mask"
