@@ -1,6 +1,5 @@
 ﻿#one Ckey per line , all lowercase , no underscores, no space bars AT ALL, no unicode shit god help us
 voncarstein
-severepwnage
 battieralarm3
 alanparkermasters
 toroidalzer0
@@ -253,3 +252,12 @@ commanderchris
 sfele
 ruediger4
 wallshrubnick
+sugmus
+thunderstorms
+rand4l
+emoats18
+mixanovr64
+communisthater7041776
+montaum
+timtwoshoes
+ChaoticAgent
