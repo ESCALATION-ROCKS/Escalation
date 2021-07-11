@@ -22,12 +22,15 @@
 "aO" = (/obj/structure/flora/drygrass7,/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "aP" = (/obj/structure/platform,/turf/unsimulated/floor/river/deep,/area/coldwar)
 "aQ" = (/obj/structure/platform{dir = 1},/obj/structure/platform{dir = 8},/turf/unsimulated/floor/river/deep,/area/coldwar)
+"aS" = (/obj/effect/floor_decal/carpet/orange{dir = 1},/obj/effect/floor_decal/carpet/orange{dir = 8},/obj/effect/floor_decal/carpet/orange{dir = 9},/turf/simulated/floor/carpet/orange,/area/coldwar)
 "aU" = (/obj/structure/electricpole,/turf/unsimulated/ground/sand,/area/coldwar)
 "aX" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 4},/turf/unsimulated/ground/sand,/area/coldwar)
 "aY" = (/obj/structure/barricade/metal,/turf/unsimulated/ground,/area/coldwar/usmcfob)
 "aZ" = (/obj/structure/fitness/weightlifter,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/dark,/area/coldwar)
+"ba" = (/obj/effect/floor_decal/turf/woodalt,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "bc" = (/obj/structure/fitness/punchingbag,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/dark,/area/coldwar)
 "be" = (/obj/structure/bed/chair/wood/goon{dir = 8},/turf/simulated/floor/tiled/bar,/area/coldwar)
+"bg" = (/obj/structure/device/piano{icon_state = "piano"},/turf/simulated/floor/wood,/area/coldwar)
 "bh" = (/obj/structure/table/greenmetal,/obj/item/weapon/hemostat,/obj/item/weapon/circular_saw,/obj/item/suture,/obj/item/weapon/FixOVein,/turf/simulated/floor/tiled/white,/area/coldwar/warpactfob)
 "bi" = (/obj/structure/bed/chair/office/light,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "bj" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/dark,/area/coldwar)
@@ -41,9 +44,11 @@
 "by" = (/obj/structure/bed/chair/couch/left/black,/obj/structure/bed/chair/couch/middle/black,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "bz" = (/obj/effect/floor_decal/turf/woodalt4,/obj/machinery/light/small/warmtint{dir = 1},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "bA" = (/obj/structure/sandbag,/obj/structure/sandbag{dir = 4},/obj/structure/sandbag{dir = 8},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"bB" = (/obj/structure/fire_source/stove,/turf/simulated/floor/wood,/area/coldwar)
 "bD" = (/obj/structure/bed/chair/couch/middle/black,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "bE" = (/obj/structure/bed/chair/couch/right/black,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "bG" = (/obj/structure/bed/soviet,/obj/item/weapon/bedsheet/soviet,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"bJ" = (/obj/effect/floor_decal/turf/lino,/obj/effect/floor_decal/spline/fancy,/turf/simulated/floor/wood,/area/coldwar)
 "bL" = (/obj/structure/bed/chair/couch/right/black{dir = 8},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "bM" = (/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/tiled/freezer,/area/coldwar)
 "bN" = (/obj/structure/barricade/metal,/obj/effect/floor_decal/turf/woodalt4,/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -68,13 +73,16 @@
 "cz" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/black{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "cB" = (/obj/structure/bed/chair/couch/middle/black{dir = 8},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "cC" = (/obj/structure/closet/crate/generic,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/obj/item/weapon/gauze_pack/woundseal/nato,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"cD" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
 "cF" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/beige{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "cH" = (/obj/effect/floor_decal/turf/lino,/obj/structure/table/glass,/turf/simulated/floor/holofloor/wood,/area/coldwar)
+"cJ" = (/obj/structure/bed/chair/wood/goon,/turf/simulated/floor/wood,/area/coldwar)
 "cK" = (/obj/structure/bed/chair/wheelchair,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "cL" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/flora/pottedplant/tall,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "cM" = (/obj/structure/table/fancy,/obj/machinery/computer/pod/old/syndicate,/turf/simulated/floor/tiled/dark,/area/coldwar)
 "cP" = (/obj/structure/barricade/wooden,/turf/unsimulated/ground/grass,/area/coldwar)
 "cQ" = (/obj/structure/platform{dir = 1},/turf/unsimulated/floor/river/deep,/area/coldwar)
+"cT" = (/obj/structure/flora/tree/summer/alt3,/turf/unsimulated/ground/grass,/area/coldwar)
 "cX" = (/obj/structure/closet/crate/ammo,/obj/effect/floor_decal/turf/woodalt2,/obj/machinery/light{dir = 8},/turf/simulated/floor/holofloor/tiled,/area/coldwar/warpactfob)
 "cY" = (/obj/structure/bed/chair/couch/middle/black{dir = 4},/obj/structure/bed/chair/couch/right/black{dir = 4},/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "cZ" = (/obj/structure/sink/kitchen{pixel_y = 16},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -88,7 +96,7 @@
 "dl" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/beige{dir = 4},/obj/structure/bed/chair/couch/right/beige{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "dm" = (/obj/structure/sign/double/map/right,/obj/effect/forcefield/mime,/turf/simulated/wall/concrete_grey,/area/coldwar/warpactfob)
 "dp" = (/obj/structure/filingcabinet/filingcabinet,/turf/simulated/floor/holofloor/wood,/area/coldwar)
-"dq" = (/obj/structure/table/rack/shelf,/obj/item/clothing/mask/gas/coldwar/m40,/obj/item/clothing/mask/gas/coldwar/m40,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"dq" = (/obj/structure/table/rack/shelf,/obj/item/clothing/mask/gas/coldwar/m40,/obj/item/clothing/mask/gas/coldwar/m40,/obj/item/clothing/mask/gas/coldwar/m40,/obj/item/clothing/mask/gas/coldwar/m40,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "ds" = (/obj/structure/sandbag{dir = 8},/obj/structure/sandbag{pixel_y = -6},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "dx" = (/obj/random/trash,/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
 "dy" = (/obj/item/weapon/storage/wardrobe,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
@@ -102,9 +110,11 @@
 "dI" = (/obj/machinery/door/unpowered/simple/coldwar/wood/home,/turf/simulated/floor/tiled/dark,/area/coldwar)
 "dJ" = (/obj/machinery/door/unpowered/simple/coldwar/metal/bulkhead,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
 "dL" = (/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/ground,/area/coldwar/forest)
-"dT" = (/obj/structure/table/rack/shelf,/obj/item/device/binoculars/nato,/obj/item/weapon/maptool,/obj/item/weapon/maptool,/obj/item/device/binoculars/nato,/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar)
+"dS" = (/obj/effect/floor_decal/turf/lino,/obj/structure/table/fancy,/turf/simulated/floor/wood,/area/coldwar)
+"dT" = (/obj/structure/table/rack/shelf,/obj/item/device/binoculars/nato,/obj/item/weapon/maptool,/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar)
 "dV" = (/obj/structure/bed/foldbed/nato,/obj/effect/landmark/start{name = "BDW Schwere Waffen Gruppe Ladeschutze"},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "dY" = (/obj/structure/platform{dir = 8},/obj/structure/platform,/turf/unsimulated/ground/grass,/area/coldwar)
+"dZ" = (/obj/structure/table/fancy,/obj/effect/floor_decal/carpet/orange{dir = 1},/obj/effect/floor_decal/carpet/orange{dir = 4},/obj/effect/floor_decal/carpet/orange{dir = 5},/turf/simulated/floor/carpet/orange,/area/coldwar)
 "ee" = (/obj/structure/sign/chemtable{pixel_y = 32},/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/foldbed,/obj/effect/landmark/start{name = "NVA Panzerabwehrschutze Stellvertretender"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "ef" = (/obj/structure/table/rack/shelf,/obj/structure/railing,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "ej" = (/obj/structure/table/rack/shelf,/obj/random/drinkbottle,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/dark,/area/coldwar)
@@ -117,6 +127,7 @@
 "ex" = (/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "ey" = (/obj/structure/table/bench/steel,/turf/unsimulated/ground/sand,/area/coldwar/usmcfob)
 "eA" = (/obj/random/trash,/obj/machinery/light/small/warmtint{dir = 8},/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
+"eC" = (/obj/effect/floor_decal/turf/marblealt,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
 "eF" = (/obj/random/tree,/obj/random/tree,/obj/effect/rune/wall,/turf/unsimulated/ground/grass,/area/coldwar/forest)
 "eG" = (/obj/structure/curtain/open/bed,/obj/effect/floor_decal/spline/plain,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "eK" = (/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/dark,/area/coldwar)
@@ -133,14 +144,18 @@
 "ff" = (/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/tiled/dark,/area/coldwar)
 "fg" = (/obj/effect/floor_decal/turf/woodalt4,/obj/machinery/light/small/warmtint{dir = 8},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "fh" = (/obj/structure/holostool,/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/white,/area/coldwar)
+"fj" = (/obj/effect/floor_decal/turf/lino,/obj/structure/table/rack/smalltable,/turf/simulated/floor/wood,/area/coldwar)
 "fl" = (/obj/structure/fence/corner{dir = 8},/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
+"fm" = (/obj/item/weapon/stool/soviet,/turf/simulated/floor/wood,/area/coldwar)
 "fo" = (/obj/structure/fence/door,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "fp" = (/obj/structure/fence/corner,/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "fs" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 8},/obj/structure/sandbag,/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar)
 "ft" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/foldbed,/obj/effect/landmark/start{name = "NVA Panzerabwehrschutze"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "fu" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/table/rack/shelf,/obj/item/weapon/storage/fancy/ammo_can/soviet/x762x54,/obj/item/weapon/storage/fancy/ammo_can/soviet/x762x54,/obj/item/weapon/storage/fancy/ammo_can/soviet/x762x54,/obj/item/weapon/storage/fancy/ammo_can/soviet/x762x54,/obj/item/weapon/storage/fancy/ammo_can/soviet/x762x54,/obj/effect/floor_decal/turf/platingalt,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "fv" = (/obj/item/weapon/storage/wardrobe/alt3{pixel_y = 16},/obj/effect/floor_decal/turf/woodalt2,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"fC" = (/obj/effect/floor_decal/turf/woodalt,/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/wood,/area/coldwar)
 "fD" = (/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar)
+"fG" = (/obj/effect/floor_decal/turf/marblealt,/obj/structure/sink/counter,/turf/simulated/floor/wood,/area/coldwar)
 "fH" = (/obj/structure/flora/ausbushes/grassybush,/obj/structure/barbwire,/turf/unsimulated/ground,/area/coldwar)
 "fI" = (/obj/machinery/light/coldtint{dir = 1},/turf/unsimulated/ground/sand,/area/coldwar)
 "fJ" = (/obj/structure/bed,/turf/simulated/floor/tiled/white,/area/coldwar)
@@ -221,7 +236,7 @@
 "is" = (/obj/structure/flora/pottedplant,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "it" = (/obj/structure/closet/crate/wood,/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/loaf,/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/loaf,/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/loaf,/obj/effect/floor_decal/turf/cafe2,/obj/effect/floor_decal/turf/cafe2,/obj/effect/floor_decal/turf/coldroom{dir = 4},/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/loaf,/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/loaf,/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/loaf,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
 "iu" = (/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
-"iv" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/table/rack/shelf,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"iv" = (/obj/effect/floor_decal/turf/woodalt2,/obj/item/clothing/suit/armor/vest/coldwar/a6b2,/obj/item/clothing/suit/armor/vest/coldwar/a6b2,/obj/item/clothing/suit/armor/vest/coldwar/a6b2,/obj/structure/table/rack/shelf,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "iy" = (/obj/structure/mirror,/turf/simulated/wall/concrete_cian,/area/coldwar)
 "iz" = (/obj/structure/electricpole,/turf/unsimulated/ground/grass,/area/coldwar)
 "iA" = (/obj/effect/floor_decal/turf/shaft,/obj/machinery/shower,/turf/simulated/floor/tiled/freezer,/area/coldwar)
@@ -236,6 +251,7 @@
 "iX" = (/obj/structure/sandbag{pixel_y = -6},/turf/unsimulated/ground/grass,/area/coldwar)
 "jb" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/bunker,/area/coldwar)
 "jc" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/bed/empty,/obj/structure/safe/floor,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"je" = (/obj/effect/floor_decal/carpet/orange{dir = 4},/obj/effect/floor_decal/carpet/orange,/obj/effect/floor_decal/carpet/orange{dir = 6},/turf/simulated/floor/carpet/orange,/area/coldwar)
 "jf" = (/obj/machinery/constructable_frame/machine_frame,/obj/structure/cable,/turf/simulated/floor/plating,/area/coldwar)
 "jh" = (/obj/structure/closet/crate/wood,/obj/effect/floor_decal/turf/platingalt,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/item/ammo_magazine/c762x39m,/obj/machinery/light/small/warmtint{dir = 4},/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "ji" = (/obj/machinery/transformer,/turf/unsimulated/ground/sand,/area/coldwar)
@@ -254,6 +270,7 @@
 "jE" = (/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/ground/sand,/area/coldwar)
 "jG" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/table/rack/shelf,/obj/item/weapon/storage/fancy/ammo_can/soviet/x54539,/obj/item/weapon/storage/fancy/ammo_can/soviet/x54539,/obj/item/weapon/storage/fancy/ammo_can/soviet/x54539,/obj/item/weapon/storage/fancy/ammo_can/soviet/x54539,/obj/item/weapon/storage/fancy/ammo_can/soviet/x54539,/obj/effect/floor_decal/turf/platingalt,/obj/effect/floor_decal/turf/woodalt2,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "jH" = (/obj/structure/brutswehr,/obj/structure/sandbag,/turf/unsimulated/ground/sand,/area/coldwar)
+"jR" = (/obj/structure/table/fancy,/obj/machinery/light/coldtint,/turf/simulated/floor/wood,/area/coldwar)
 "jS" = (/obj/item/weapon/stool,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "jW" = (/obj/structure/flora/drygrass5,/turf/unsimulated/ground/grass,/area/coldwar)
 "jX" = (/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar)
@@ -321,6 +338,7 @@
 "mt" = (/obj/structure/barricade/wooden,/obj/structure/sandbag{pixel_y = -6},/turf/unsimulated/ground/grass,/area/coldwar/usmcfob)
 "mx" = (/obj/effect/bump_teleporter{id = 22; id_target = 23},/turf/unsimulated/ground/sand,/area/coldwar)
 "mz" = (/obj/structure/table/greenmetal,/obj/item/weapon/carpentry/axe,/obj/item/weapon/carpentry/axe,/obj/item/weapon/carpentry/axe,/obj/item/weapon/carpentry/axe,/obj/item/weapon/carpentry/axe,/obj/item/weapon/carpentry/axe,/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"mB" = (/turf/simulated/floor/carpet/orange,/area/coldwar)
 "mC" = (/obj/machinery/light/small/warmtint{dir = 8},/obj/structure/table/fancy,/turf/simulated/floor/holofloor/tiled,/area/coldwar)
 "mD" = (/obj/structure/closet/crate/wood,/turf/simulated/floor/plating,/area/coldwar)
 "mE" = (/obj/structure/window/classic,/obj/structure/curtain/open/bed,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
@@ -364,6 +382,7 @@
 "of" = (/obj/structure/sign/clock{pixel_y = 32},/obj/structure/closet/crate/freezer,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OPlus,/obj/item/weapon/reagent_containers/blood/OPlus,/obj/item/weapon/reagent_containers/blood/BPlus,/obj/item/weapon/reagent_containers/blood/BPlus,/obj/item/weapon/reagent_containers/blood/BMinus,/obj/item/weapon/reagent_containers/blood/BMinus,/obj/item/weapon/reagent_containers/blood/APlus,/obj/item/weapon/reagent_containers/blood/APlus,/obj/item/weapon/reagent_containers/blood/AMinus,/obj/item/weapon/reagent_containers/blood/AMinus,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "og" = (/obj/structure/bed/chair/wood/goon{dir = 1},/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar)
 "oh" = (/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
+"ol" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/nato,/obj/item/weapon/bedsheet/mime,/turf/simulated/floor/wood,/area/coldwar)
 "on" = (/obj/structure/bed/chair/wood/goon{dir = 1},/obj/effect/floor_decal/turf/woodalt4,/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar)
 "op" = (/obj/structure/sandbag{pixel_y = -5},/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar)
 "oq" = (/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/bar,/area/coldwar)
@@ -406,6 +425,7 @@
 "ps" = (/obj/structure/sandbag{dir = 8},/turf/unsimulated/ground/sand,/area/coldwar)
 "pw" = (/obj/effect/floor_decal/road{dir = 1},/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "px" = (/obj/machinery/light/small/warmtint{dir = 4},/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
+"py" = (/obj/effect/floor_decal/carpet/orange{dir = 4},/turf/simulated/floor/carpet/orange,/area/coldwar)
 "pB" = (/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "pC" = (/turf/simulated/floor/fixed/stairs{dir = 1; icon_state = "fakestairs"},/area/coldwar)
 "pD" = (/obj/structure/platform,/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar)
@@ -416,6 +436,7 @@
 "pI" = (/obj/structure/table/fancy,/obj/effect/floor_decal/turf/lino,/obj/item/device/cassette/sa/tape16,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "pM" = (/obj/effect/floor_decal/turf/platingalt2,/obj/structure/largecrate,/obj/random/trash,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
 "pN" = (/obj/structure/bed,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/white,/area/coldwar)
+"pP" = (/obj/effect/floor_decal/turf/lino,/obj/effect/floor_decal/turf/marblealt,/turf/simulated/floor/wood,/area/coldwar)
 "pQ" = (/obj/structure/table/fancy,/obj/item/weapon/reagent_containers/food/drinks/bottle/vodka,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "pV" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar)
 "pW" = (/obj/structure/fence/corner,/turf/unsimulated/ground/sand,/area/coldwar)
@@ -425,6 +446,7 @@
 "qa" = (/obj/random/tree,/turf/simulated/wall/wood,/area/coldwar)
 "qe" = (/obj/machinery/light/small/warmtint{dir = 4},/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "qf" = (/obj/effect/floor_decal/turf/cafe2,/obj/structure/table/bench/wooden,/obj/effect/floor_decal/turf/cafe2,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
+"qg" = (/obj/effect/floor_decal/carpet{dir = 8},/turf/simulated/floor/carpet,/area/coldwar)
 "qi" = (/turf/unsimulated/ground/sand,/area/coldwar/usmcfob)
 "qj" = (/obj/effect/floor_decal/turf/woodalt2,/obj/machinery/light,/obj/effect/landmark/start{name = "NVA Schwere Waffen Gruppe Kanonier"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "qk" = (/obj/structure/table/army,/obj/item/weapon/storage/fancy/cigar,/obj/item/weapon/flame/lighter/zippo,/turf/simulated/floor/carpet/red,/area/coldwar/warpactfob)
@@ -438,9 +460,11 @@
 "qv" = (/obj/structure/table/fancy,/obj/random/rotfood,/turf/simulated/floor/tiled/bar,/area/coldwar)
 "qw" = (/obj/structure/table/fancy,/obj/random/drinkbottle/low_chance,/turf/simulated/floor/tiled/bar,/area/coldwar)
 "qz" = (/obj/structure/table/rack/shelf,/obj/machinery/light/small{dir = 1},/obj/item/clothing/head/coldwar/helmet/bdw/m62,/obj/item/clothing/head/coldwar/helmet/bdw/m62,/obj/item/clothing/head/coldwar/helmet/bdw/m62,/obj/item/clothing/head/coldwar/helmet/bdw/m62,/obj/item/clothing/head/coldwar/helmet/bdw/m62,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"qA" = (/obj/effect/floor_decal/carpet/orange,/turf/simulated/floor/carpet/orange,/area/coldwar)
 "qB" = (/obj/structure/table/fancy,/obj/machinery/chemical_dispenser/bar_coffee/full,/turf/simulated/floor/tiled/bar,/area/coldwar)
 "qC" = (/obj/structure/platform{dir = 4},/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar)
 "qD" = (/obj/structure/toilet,/turf/simulated/floor/tiled/freezer,/area/coldwar)
+"qF" = (/obj/effect/floor_decal/turf/lino,/obj/structure/sink/counter,/obj/effect/floor_decal/turf/marblealt,/turf/simulated/floor/wood,/area/coldwar)
 "qG" = (/obj/effect/floor_decal/turf/marblealt,/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/tiled/freezer,/area/coldwar)
 "qH" = (/obj/structure/flora/drygrass7,/obj/structure/platform{dir = 4},/turf/unsimulated/ground/grass,/area/coldwar)
 "qJ" = (/obj/structure/window_frame,/obj/effect/decal/cleanable/cobweb2,/obj/structure/barricade/wooden,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
@@ -458,6 +482,7 @@
 "ra" = (/obj/structure/device/piano,/turf/simulated/floor/carpet/red,/area/coldwar)
 "rb" = (/obj/effect/floor_decal/turf/woodalt4,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "rd" = (/obj/structure/table/bench/padded,/turf/simulated/floor/carpet/red,/area/coldwar)
+"rg" = (/obj/effect/floor_decal/turf/lino,/obj/structure/closet/crate/wood,/turf/simulated/floor/wood,/area/coldwar)
 "rj" = (/obj/structure/table/rack/shelf,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/obj/item/weapon/grenade/frag/m67,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "rk" = (/obj/structure/platform_decoration{dir = 8},/turf/unsimulated/ground,/area/coldwar)
 "ro" = (/obj/machinery/light/warmtint{dir = 4; icon_state = "tube_preview"},/turf/simulated/floor/carpet/red,/area/coldwar)
@@ -472,6 +497,7 @@
 "rF" = (/obj/structure/sandbag{pixel_y = -6},/obj/item/weapon/stool/padded,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "rG" = (/obj/structure/closet/secure_closet/freezer/fridge{pixel_y = 8},/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/salamistick,/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/butterpack,/obj/item/weapon/reagent_containers/food/snacks/sliceable/breadsys/butterpack,/obj/item/weapon/reagent_containers/food/snacks/tincan/condensedmilk,/obj/item/weapon/reagent_containers/food/snacks/tincan/buckwheat,/obj/item/weapon/reagent_containers/food/snacks/tincan/buckwheat,/obj/item/weapon/reagent_containers/food/snacks/tincan/stew,/obj/item/weapon/reagent_containers/food/snacks/tincan/stew,/obj/item/weapon/reagent_containers/food/snacks/tincan/stewpearlbarley,/obj/item/weapon/reagent_containers/food/snacks/tincan/stewbuckwheat,/obj/effect/floor_decal/turf/coldroom{dir = 4},/obj/effect/floor_decal/turf/coldroom{dir = 4},/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
 "rK" = (/obj/effect/rune/wall,/obj/effect/forcefield/mime,/turf/unsimulated/ground/grass,/area/coldwar)
+"rL" = (/obj/structure/bed/chair/wood/soviet{dir = 4},/turf/simulated/floor/wood,/area/coldwar)
 "rO" = (/obj/effect/landmark/start{name = "BDW Sanitater"},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "rR" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "rS" = (/obj/structure/table/greenmetal,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
@@ -656,6 +682,7 @@
 "xs" = (/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/obj/structure/sandbag{pixel_y = -6},/obj/machinery/light/small,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "xt" = (/obj/effect/floor_decal/turf/shaft,/obj/machinery/shower{dir = 8; icon_state = "shower"},/obj/structure/window/basic,/turf/simulated/floor/tiled/white,/area/coldwar)
 "xu" = (/obj/structure/closet/crate,/obj/effect/floor_decal/industrial/outline/grey,/obj/item/roller,/obj/item/roller,/obj/item/roller,/obj/item/roller,/obj/item/roller,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"xv" = (/obj/structure/bed/chair/wood/soviet{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
 "xy" = (/obj/effect/forcefield/mime,/obj/effect/forcefield/mime,/turf/unsimulated/ground/grass,/area/coldwar/forest)
 "xz" = (/obj/random/tree,/turf/simulated/wall/brick_black,/area/coldwar)
 "xA" = (/obj/structure/table/rack,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
@@ -693,6 +720,7 @@
 "yz" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 4},/turf/unsimulated/ground,/area/coldwar)
 "yB" = (/obj/structure/bed/chair/wood/goon{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "yC" = (/obj/structure/sink{dir = 4; pixel_x = 8},/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/white,/area/coldwar)
+"yD" = (/obj/effect/floor_decal/turf/woodalt,/obj/effect/floor_decal/turf/marblealt,/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/wood,/area/coldwar)
 "yF" = (/obj/structure/sandbag{dir = 8},/obj/structure/sandbag{pixel_y = -6},/obj/structure/table/rack/foldtable,/obj/item/device/boombox/nato,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "yH" = (/obj/structure/platform{dir = 1},/obj/structure/platform{dir = 8},/turf/unsimulated/ground/grass,/area/coldwar)
 "yK" = (/obj/random/trash,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
@@ -743,6 +771,7 @@
 "Am" = (/obj/machinery/door/unpowered/simple/coldwar/wood/double,/turf/simulated/floor/tiled/dark,/area/coldwar)
 "Ao" = (/obj/structure/closet/crate/wood,/obj/item/ammo_magazine/c762x54s,/obj/item/ammo_magazine/c762x54s,/obj/item/ammo_magazine/c762x54s,/obj/item/ammo_magazine/c762x54s,/obj/effect/floor_decal/turf/platingalt,/obj/item/ammo_magazine/c762x54s,/obj/item/ammo_magazine/c762x54s,/obj/item/ammo_magazine/c762x54s,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "Aq" = (/obj/structure/sign/decor/painting,/turf/simulated/floor/wood,/area/coldwar)
+"Ar" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
 "As" = (/obj/structure/bookcase,/turf/simulated/floor/wood,/area/coldwar)
 "At" = (/obj/structure/closet/cabinet,/turf/simulated/floor/wood,/area/coldwar)
 "Au" = (/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/turf/simulated/floor/carpet/red,/area/coldwar)
@@ -763,6 +792,7 @@
 "AR" = (/obj/effect/decal/cleanable/blood/writing{dir = 8; icon_state = "tracks"},/turf/unsimulated/ground/grass,/area/coldwar)
 "AV" = (/obj/machinery/light/small/warmtint,/turf/unsimulated/ground/grass,/area/coldwar)
 "AW" = (/obj/effect/floor_decal/turf/cafe2,/obj/structure/table/bench/wooden,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
+"AX" = (/obj/structure/bed,/obj/item/weapon/bedsheet/red,/turf/simulated/floor/carpet,/area/coldwar)
 "Bc" = (/obj/structure/platform_decoration{dir = 14},/turf/unsimulated/ground/grass,/area/coldwar)
 "Bd" = (/obj/effect/floor_decal/turf/woodalt2,/obj/machinery/light{dir = 4},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Be" = (/obj/structure/table/army,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/item/stack/medical/tourniquet,/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -773,12 +803,15 @@
 "Bj" = (/obj/structure/bed/chair/wheelchair,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "Bn" = (/obj/structure/flora/pottedplant/tall,/obj/effect/floor_decal/turf/lino,/obj/item/weapon/carpentry/saw,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Bo" = (/turf/simulated/floor/wood,/area/coldwar)
+"Bq" = (/obj/effect/floor_decal/turf/lino,/obj/structure/table/fancy,/obj/structure/sign/cmd64,/turf/simulated/floor/wood,/area/coldwar)
+"Br" = (/obj/structure/sink/kitchen,/turf/simulated/floor/wood,/area/coldwar)
 "Bs" = (/obj/structure/table/fancy,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/wood,/area/coldwar)
 "Bt" = (/obj/structure/table/fancy,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/wood,/area/coldwar)
 "Bw" = (/obj/effect/crater64,/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "Bx" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/white,/area/coldwar)
 "By" = (/obj/random/tree,/obj/random/tree,/turf/unsimulated/ground/grass,/area/coldwar/forest)
 "BE" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/masks,/obj/item/weapon/storage/box/masks,/turf/simulated/floor/tiled/white,/area/coldwar)
+"BF" = (/obj/structure/bed/chair/comfy/black{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
 "BG" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/table/bench/wooden,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "BH" = (/obj/structure/closet,/obj/item/clothing/suit/surgicalapron,/obj/item/clothing/suit/surgicalapron,/obj/item/clothing/under/rank/medical/blue,/turf/simulated/floor/tiled/white,/area/coldwar)
 "BI" = (/obj/structure/iv_drip,/turf/simulated/floor/tiled/freezer,/area/coldwar)
@@ -793,6 +826,8 @@
 "BY" = (/obj/structure/toilet{dir = 4; icon_state = "toilet00"},/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/white,/area/coldwar)
 "Ca" = (/obj/structure/flora/pottedplant/thinbush,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Cb" = (/obj/effect/floor_decal/chapel{dir = 4; icon_state = "chapel"},/obj/structure/table/fancy,/obj/item/weapon/reagent_containers/food/drinks/bottle/holywater,/turf/simulated/floor/carpet/red,/area/coldwar)
+"Cc" = (/obj/effect/floor_decal/carpet,/obj/effect/floor_decal/carpet{dir = 8},/obj/effect/floor_decal/carpet{dir = 10},/turf/simulated/floor/carpet,/area/coldwar)
+"Cd" = (/obj/effect/floor_decal/turf/lino,/obj/structure/table/rack/shelf,/turf/simulated/floor/wood,/area/coldwar)
 "Cf" = (/obj/machinery/vending/pepsi,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "Cg" = (/obj/structure/bed/chair/wood/goon{dir = 4},/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "Ch" = (/obj/structure/table/fancy,/obj/item/weapon/folder/red,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -805,8 +840,11 @@
 "Ct" = (/obj/structure/holostool,/turf/simulated/floor/tiled/white,/area/coldwar)
 "Cu" = (/obj/structure/table/fancy,/turf/simulated/floor/wood,/area/coldwar)
 "Cv" = (/obj/structure/bed/chair/wood/goon{dir = 8},/turf/simulated/floor/wood,/area/coldwar)
+"Cw" = (/obj/structure/flora/ausbushes/brflowers,/turf/unsimulated/ground/grass,/area/coldwar)
 "Cy" = (/obj/structure/bed/chair/wood/goon{dir = 4},/turf/simulated/floor/wood,/area/coldwar)
+"Cz" = (/obj/effect/floor_decal/carpet/orange{dir = 8},/turf/simulated/floor/carpet/orange,/area/coldwar)
 "CA" = (/obj/structure/table/standard,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/gloves,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/white,/area/coldwar)
+"CB" = (/obj/effect/floor_decal/turf/lino,/obj/effect/floor_decal/turf/marblealt,/obj/structure/toilet{dir = 8},/turf/simulated/floor/wood,/area/coldwar)
 "CC" = (/obj/structure/bed/foldbed,/obj/effect/landmark/start{name = "CSLA Delostrelec"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "CF" = (/obj/structure/sandbag{dir = 8},/turf/unsimulated/ground/grass,/area/coldwar)
 "CG" = (/obj/structure/table/army,/obj/effect/floor_decal/turf/woodalt5,/obj/item/weapon/folder,/obj/structure/deskclutter,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -819,7 +857,9 @@
 "CQ" = (/obj/structure/table/standard,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/freezer,/area/coldwar)
 "CR" = (/obj/effect/floor_decal/chapel{dir = 8; icon_state = "chapel"},/turf/simulated/floor/carpet/red,/area/coldwar)
 "CS" = (/obj/effect/floor_decal/chapel,/turf/simulated/floor/carpet/red,/area/coldwar)
+"CT" = (/obj/structure/table/fancy,/obj/machinery/microwave,/turf/simulated/floor/wood,/area/coldwar)
 "CU" = (/obj/structure/electricpole,/obj/structure/electricpole,/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
+"CV" = (/obj/structure/bed/chair/wood/lyoha{dir = 8; icon_state = "chairlyoha_preview"},/turf/simulated/floor/wood,/area/coldwar)
 "CW" = (/obj/effect/landmark{name = "JoinLate"},/turf/unsimulated/ground/sand,/area/coldwar)
 "CX" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/foldbed,/obj/effect/landmark/start{name = "NVA Gruppenfuhrer"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "CY" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 8},/turf/unsimulated/ground,/area/coldwar/usmcfob)
@@ -855,8 +895,10 @@
 "DP" = (/obj/structure/flora/drygrass7,/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/ground/grass,/area/coldwar)
 "DQ" = (/obj/structure/flora/drygrass0,/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/ground,/area/coldwar)
 "DR" = (/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/wood,/area/coldwar)
+"DS" = (/obj/effect/floor_decal/turf/marblealt,/obj/structure/toilet{dir = 8},/turf/simulated/floor/wood,/area/coldwar)
 "DT" = (/obj/effect/floor_decal/carpet/red,/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar)
 "DU" = (/obj/structure/sign/double/sky/left,/turf/simulated/wall/brick,/area/coldwar)
+"DX" = (/obj/effect/floor_decal/turf/marblealt,/turf/simulated/floor/wood,/area/coldwar)
 "DY" = (/obj/machinery/constructable_frame/machine_frame,/turf/simulated/floor/plating,/area/coldwar)
 "Ea" = (/obj/structure/table/greenmetal,/obj/item/weapon/storage/fancy/syringe,/turf/simulated/floor/tiled/dark,/area/coldwar/warpactfob)
 "Eb" = (/obj/structure/sign/double/sky/right,/turf/simulated/wall/brick,/area/coldwar)
@@ -898,6 +940,7 @@
 "Fo" = (/obj/item/weapon/storage/wardrobe/tumbo4ka/alt,/obj/machinery/light/small/warmtint,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Fp" = (/obj/effect/floor_decal/turf/woodalt4,/obj/effect/floor_decal/turf/woodalt4,/obj/structure/table/bench/wooden,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "Fq" = (/obj/effect/floor_decal/turf/woodalt,/obj/machinery/light/small{dir = 1; icon_state = "bulb1"},/turf/simulated/floor/holofloor/wood,/area/coldwar)
+"Fr" = (/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar)
 "Ft" = (/obj/structure/closet/crate/wood,/obj/random/smokes,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/dark,/area/coldwar)
 "Fu" = (/obj/structure/newfence/wooden,/turf/unsimulated/ground,/area/coldwar/forest)
 "Fv" = (/obj/structure/barbwire,/turf/unsimulated/ground/grass,/area/coldwar)
@@ -960,6 +1003,7 @@
 "Hs" = (/obj/structure/sandbag{dir = 4},/turf/unsimulated/ground,/area/coldwar)
 "Hu" = (/obj/item/weapon/mine/m16{active = 1},/turf/unsimulated/ground/grass,/area/coldwar)
 "Hv" = (/obj/structure/table/fancy,/obj/machinery/door/blast/bars/open{dir = 2},/obj/effect/floor_decal/turf/woodalt4,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"Hw" = (/obj/effect/floor_decal/carpet,/turf/simulated/floor/carpet,/area/coldwar)
 "Hy" = (/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/carpet/red,/area/coldwar)
 "HA" = (/turf/simulated/floor/exoplanet/water/shallow,/area/coldwar)
 "HB" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/bed/chair/wood/goon{dir = 4},/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/wood,/area/coldwar)
@@ -967,11 +1011,13 @@
 "HE" = (/obj/structure/closet/crate/ammo,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/obj/item/ammo_magazine/c762x51s,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "HF" = (/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "HG" = (/obj/effect/floor_decal/newcorner/blue/diagonal,/obj/structure/closet/secure_closet/freezer/fridge,/obj/item/weapon/reagent_containers/blood/AMinus,/obj/item/weapon/reagent_containers/blood/APlus,/obj/item/weapon/reagent_containers/blood/BMinus,/obj/item/weapon/reagent_containers/blood/BPlus,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OPlus,/obj/item/weapon/reagent_containers/blood/empty,/obj/item/weapon/reagent_containers/blood/empty,/obj/item/weapon/reagent_containers/blood/OMinus,/obj/item/weapon/reagent_containers/blood/OMinus,/turf/simulated/floor/tiled/white,/area/coldwar/warpactfob)
+"HJ" = (/obj/effect/floor_decal/carpet{dir = 8},/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/carpet,/area/coldwar)
 "HL" = (/obj/structure/table/rack/shelf,/obj/item/weapon/soap,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "HM" = (/obj/effect/landmark{name = "Observer-start"},/turf/unsimulated/ground/sand,/area/coldwar)
 "HN" = (/obj/machinery/optable,/turf/simulated/floor/tiled/white,/area/coldwar/warpactfob)
 "HO" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/bed/chair/wood/goon{dir = 8},/turf/simulated/floor/wood,/area/coldwar)
 "HP" = (/obj/structure/table/fancy,/obj/item/weapon/storage/box/glasses/shot,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"HR" = (/turf/simulated/floor/carpet,/area/coldwar)
 "HS" = (/turf/simulated/floor/tiled/ramp,/area/coldwar)
 "HT" = (/obj/machinery/door/unpowered/simple/coldwar/metal/bulkhead,/turf/simulated/wall/brick_aged,/area/coldwar)
 "HU" = (/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/bunker/cafe,/area/coldwar)
@@ -1016,6 +1062,8 @@
 "IX" = (/obj/structure/sandbag{pixel_y = -5},/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar)
 "IY" = (/obj/structure/table/rack/steriletable,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/bruise_pack/gauze,/obj/item/stack/medical/bruise_pack/gauze,/obj/item/stack/medical/bruise_pack/gauze,/obj/item/stack/medical/bruise_pack/gauze,/turf/simulated/floor/tiled/freezer,/area/coldwar)
 "IZ" = (/obj/structure/closet,/obj/item/clothing/accessory/badge/natodogtag,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"Ja" = (/obj/effect/floor_decal/turf/lino,/obj/effect/floor_decal/spline/fancy,/obj/structure/bed/chair/comfy/black{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
+"Jb" = (/obj/effect/floor_decal/turf/woodalt,/obj/structure/closet/cabinet,/turf/simulated/floor/wood,/area/coldwar)
 "Jc" = (/obj/effect/floor_decal/newcorner/blue/diagonal,/obj/effect/landmark/start{name = "NVA Feldchirurg"},/turf/simulated/floor/tiled/white,/area/coldwar/warpactfob)
 "Jd" = (/obj/structure/brutswehr,/obj/structure/sandbag,/obj/structure/sandbag{dir = 4},/turf/unsimulated/ground/sand,/area/coldwar)
 "Je" = (/obj/structure/table/rack/steriletable,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/turf/simulated/floor/tiled/freezer,/area/coldwar)
@@ -1041,11 +1089,13 @@
 "JI" = (/obj/structure/toilet{dir = 8; icon_state = "toilet00"},/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/white,/area/coldwar)
 "JL" = (/obj/structure/closet/crate/footlocker,/obj/item/device/binoculars/nato,/obj/item/ammo_magazine/a45,/obj/item/ammo_magazine/a45,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "JM" = (/obj/structure/bed,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar)
+"JN" = (/obj/effect/floor_decal/turf/woodalt,/obj/machinery/light/coldtint,/turf/simulated/floor/wood,/area/coldwar)
 "JS" = (/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/obj/structure/sandbag{pixel_y = -6},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "JU" = (/obj/structure/closet/athletic_mixed,/turf/simulated/floor/tiled/white,/area/coldwar)
 "JV" = (/obj/random/junkalt,/turf/simulated/floor/tiled/bunker/polar,/area/coldwar/warpactfob)
 "JX" = (/obj/structure/closet/athletic_mixed,/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/white,/area/coldwar)
 "JY" = (/obj/structure/closet/crate/footlocker,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/obj/item/clothing/accessory/armband,/turf/simulated/floor/carpet/red,/area/coldwar/warpactfob)
+"JZ" = (/obj/effect/floor_decal/carpet/orange{dir = 8},/obj/effect/floor_decal/carpet/orange,/obj/effect/floor_decal/carpet/orange{dir = 10},/turf/simulated/floor/carpet/orange,/area/coldwar)
 "Kb" = (/obj/structure/table/greenmetal,/obj/item/weapon/paper_bin,/obj/item/weapon/pen,/turf/simulated/floor/tiled/dark,/area/coldwar/warpactfob)
 "Kc" = (/obj/structure/closet/crate/ammo,/obj/item/weapon/storage/fancy/ammo_can/x762,/obj/item/weapon/storage/fancy/ammo_can/x762,/obj/item/weapon/storage/fancy/ammo_can/x762,/obj/item/weapon/storage/fancy/ammo_can/x762,/obj/item/weapon/storage/fancy/ammo_can/x762,/obj/item/weapon/storage/fancy/ammo_can/x762,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "Kf" = (/obj/effect/floor_decal/turf/woodalt4,/obj/effect/floor_decal/turf/woodalt4,/obj/structure/bed/chair/wood/goon{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
@@ -1066,6 +1116,7 @@
 "KE" = (/obj/structure/sandbag{dir = 1},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "KG" = (/obj/structure/morgue,/turf/simulated/floor/tiled/white,/area/coldwar)
 "KJ" = (/obj/structure/bed/roller,/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/tiled/freezer,/area/coldwar)
+"KK" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/light/coldtint{dir = 1},/obj/effect/floor_decal/turf/marblealt,/turf/simulated/floor/wood,/area/coldwar)
 "KL" = (/obj/structure/sandbag{pixel_y = -6},/obj/structure/barbwire,/turf/unsimulated/ground/grass,/area/coldwar)
 "KO" = (/obj/structure/iv_drip,/obj/structure/sandbag{dir = 4},/turf/simulated/floor/tiled/white,/area/coldwar)
 "KP" = (/obj/structure/bed/chair/wheelchair{dir = 8; icon_state = "wheelchair"},/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/white,/area/coldwar)
@@ -1092,6 +1143,7 @@
 "Lw" = (/obj/structure/toilet,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/white,/area/coldwar)
 "Lx" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 1},/obj/structure/sandbag{dir = 8},/obj/structure/sandbag,/turf/unsimulated/ground,/area/coldwar)
 "Lz" = (/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"LA" = (/obj/structure/newfence/wooden,/turf/unsimulated/ground,/area/coldwar)
 "LC" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/bed/foldbed,/obj/effect/landmark/start{name = "NVA Machinengewehrschutze"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "LD" = (/obj/structure/table/greenmetal,/obj/item/weapon/storage/box/bodybags,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "LF" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -1109,6 +1161,7 @@
 "LY" = (/obj/structure/hedgehog,/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "LZ" = (/obj/structure/table/rack/shelf,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Mb" = (/obj/structure/sandbag,/turf/simulated/floor/tiled/white,/area/coldwar)
+"Me" = (/obj/structure/table/rack/shelf,/obj/item/clothing/suit/armor/vest/coldwar/pasgt,/obj/item/clothing/suit/armor/vest/coldwar/pasgt,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "Mg" = (/obj/effect/floor_decal/turf/woodalt5,/obj/structure/table/army,/obj/item/weapon/paper_bin,/obj/item/weapon/pen,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Mh" = (/obj/machinery/light/coldtint,/turf/simulated/floor/tiled/white,/area/coldwar)
 "Mk" = (/obj/structure/barricade/wooden,/obj/structure/barricade/metal,/turf/unsimulated/ground/grass,/area/coldwar)
@@ -1134,6 +1187,7 @@
 "MR" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/bed/chair/wood/goon{dir = 4},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "MS" = (/obj/structure/bed/soviet,/obj/effect/floor_decal/turf/platingalt,/obj/item/weapon/bedsheet/brown,/obj/structure/curtain/open/bed,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "MT" = (/obj/effect/floor_decal/road{dir = 8; icon_state = "roadspline"},/obj/effect/crater64,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
+"MV" = (/obj/structure/fire_source/fireplace,/turf/simulated/floor/wood,/area/coldwar)
 "MW" = (/obj/effect/floor_decal/turf/woodalt4,/obj/structure/sandbag,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "Nc" = (/obj/structure/table/greenmetal,/obj/item/weapon/storage/box/glasses,/obj/item/weapon/storage/box/glasses/mug,/obj/item/weapon/material/kitchen/utensil/knife,/obj/item/weapon/material/kitchen/rollingpin,/turf/simulated/floor/wood,/area/coldwar)
 "Nd" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/bar,/area/coldwar)
@@ -1182,8 +1236,9 @@
 "Om" = (/obj/structure/table/fancy,/obj/item/device/flashlight/lamp,/obj/effect/floor_decal/carpet/red{dir = 8; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar)
 "On" = (/obj/structure/table/fancy,/obj/random/smokes,/turf/simulated/floor/wood,/area/coldwar)
 "Or" = (/obj/structure/bed,/turf/simulated/floor/holofloor/wood,/area/coldwar)
+"Os" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/wood,/area/coldwar)
 "Ov" = (/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
-"Oy" = (/obj/structure/table/greenmetal,/obj/item/weapon/radioset/prc77,/obj/item/weapon/radioset/prc77,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"Oy" = (/obj/structure/window/classic,/obj/structure/curtain/open/bed,/turf/simulated/floor,/area/coldwar)
 "Oz" = (/obj/structure/table/fancy,/obj/random/drinkbottle,/turf/simulated/floor/wood,/area/coldwar)
 "OA" = (/obj/structure/closet/crate/wood,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/obj/item/weapon/storage/box/kportion,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "OB" = (/obj/structure/table/fancy,/obj/random/rotfood,/turf/simulated/floor/wood,/area/coldwar)
@@ -1242,6 +1297,7 @@
 "Qa" = (/obj/structure/bed/chair/couch/right/beige,/obj/effect/floor_decal/carpet/red{dir = 4; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar)
 "Qb" = (/obj/structure/bed/chair/couch/middle/beige,/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar)
 "Qe" = (/obj/structure/bed/chair/couch/right/beige,/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar)
+"Qf" = (/obj/structure/tires,/turf/unsimulated/ground/grass,/area/coldwar)
 "Qg" = (/obj/machinery/light_construct/small,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "Qi" = (/obj/structure/table/fancy,/obj/item/device/flashlight/lamp,/obj/effect/floor_decal/carpet/red{dir = 1; icon_state = "red_edges"},/turf/simulated/floor/carpet/red,/area/coldwar)
 "Qj" = (/obj/structure/barbwire,/turf/unsimulated/ground,/area/coldwar/forest)
@@ -1249,7 +1305,7 @@
 "Ql" = (/obj/machinery/light/coldtint{dir = 8},/turf/simulated/floor/wood,/area/coldwar)
 "Qn" = (/obj/structure/janitorialcart,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/tiled/bar,/area/coldwar)
 "Qq" = (/obj/structure/sink{dir = 4; pixel_x = 8},/turf/simulated/floor/tiled/white,/area/coldwar)
-"Qr" = (/obj/machinery/light/small{dir = 4},/obj/structure/table/army,/obj/item/weapon/radioset/r105d,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"Qr" = (/obj/machinery/light/small{dir = 4},/obj/structure/table/army,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Qt" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/middle/beige,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "Qu" = (/obj/structure/platform,/turf/unsimulated/ground/sand,/area/coldwar)
 "Qw" = (/obj/structure/bed/chair/wood/goon,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -1276,6 +1332,7 @@
 "Rc" = (/obj/structure/mortar/fixed,/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar)
 "Rd" = (/obj/structure/table/fancy,/obj/structure/flora/pottedplant/small,/obj/effect/floor_decal/turf/lino,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Re" = (/obj/structure/closet/crate/ammo,/obj/item/weapon/storage/belt/holster/flaskstorage/nato,/obj/item/weapon/storage/belt/holster/flaskstorage/nato,/obj/item/weapon/storage/belt/holster/flaskstorage/nato,/obj/item/weapon/storage/belt/holster/flaskstorage/nato,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"Rf" = (/obj/effect/floor_decal/turf/lino,/obj/effect/floor_decal/spline/fancy,/obj/item/weapon/storage/wardrobe,/turf/simulated/floor/wood,/area/coldwar)
 "Rg" = (/obj/effect/floor_decal/turf/woodalt4,/obj/item/weapon/mop,/obj/item/weapon/reagent_containers/glass/bucket,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Rh" = (/obj/structure/platform{dir = 8},/turf/simulated/floor/fixed/stairs{dir = 1; icon_state = "fakestairs"},/area/coldwar)
 "Rk" = (/obj/random/tree,/obj/random/tree,/obj/effect/forcefield/mime,/turf/unsimulated/ground/grass,/area/coldwar/forest)
@@ -1292,7 +1349,7 @@
 "RC" = (/obj/effect/decal/cleanable/blood/writing{dir = 8; icon_state = "tracks"},/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "RD" = (/obj/effect/decal/cleanable/blood,/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/wood,/area/coldwar)
 "RE" = (/obj/effect/floor_decal/turf/lino,/obj/structure/table/glass,/obj/machinery/light/coldtint{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar)
-"RF" = (/obj/structure/table/rack/shelf,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
+"RF" = (/obj/structure/table/rack/shelf,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/obj/item/clothing/suit/armor/vest/coldwar/coat/bdw,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "RG" = (/obj/structure/flora/cuttedtree,/obj/effect/forcefield/mime,/turf/unsimulated/ground/grass,/area/coldwar/forest)
 "RH" = (/obj/effect/floor_decal/turf/woodalt,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "RI" = (/obj/structure/brutswehr,/obj/structure/sandbag{dir = 1},/turf/unsimulated/ground,/area/coldwar/usmcfob)
@@ -1335,6 +1392,7 @@
 "SF" = (/obj/effect/decal/cleanable/blood/writing{dir = 9; icon_state = "tracks"},/turf/unsimulated/ground/sand,/area/coldwar)
 "SG" = (/obj/effect/decal/cleanable/blood/writing{dir = 4; icon_state = "tracks"},/turf/unsimulated/ground/sand,/area/coldwar)
 "SJ" = (/obj/effect/decal/cleanable/blood/writing{dir = 6; icon_state = "tracks"},/turf/unsimulated/ground/sand,/area/coldwar)
+"SK" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/table/rack/shelf,/obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik/alt,/obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik/alt,/obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik/alt,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "SL" = (/obj/effect/decal/cleanable/blood/writing{dir = 9; icon_state = "tracks"},/turf/unsimulated/ground/grass,/area/coldwar)
 "SM" = (/obj/structure/table/rack/shelf,/obj/item/weapon/reagent_containers/spray/sterilizine,/obj/item/weapon/storage/box/syringes,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/bodybags,/obj/item/weapon/storage/box/bodybags,/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,/obj/item/weapon/reagent_containers/glass/bottle/salbutamol,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/obj/item/stack/medical/ointment/soviet,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "SN" = (/obj/structure/table/greenmetal,/obj/item/device/flashlight/lamp,/turf/simulated/floor/tiled/dark,/area/coldwar/warpactfob)
@@ -1385,6 +1443,7 @@
 "Ue" = (/obj/effect/floor_decal/road,/obj/structure/hedgehog,/turf/unsimulated/floor/road{icon_state = "concreteroad"},/area/coldwar)
 "Uf" = (/obj/structure/table/fancy,/obj/item/device/flashlight/lamp,/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "Uh" = (/obj/effect/rune/wall,/obj/effect/bump_teleporter{id = 34; id_target = 35},/turf/unsimulated/ground,/area/coldwar)
+"Ui" = (/obj/structure/sink/puddle,/turf/unsimulated/ground,/area/coldwar)
 "Uj" = (/obj/effect/rune/wall,/obj/effect/bump_teleporter{id = 32; id_target = 33},/turf/unsimulated/ground,/area/coldwar)
 "Uk" = (/obj/effect/rune/wall,/obj/effect/bump_teleporter{id = 30; id_target = 31},/turf/unsimulated/ground,/area/coldwar)
 "Ul" = (/obj/effect/rune/wall,/obj/effect/bump_teleporter{id = 28; id_target = 29},/turf/unsimulated/ground,/area/coldwar)
@@ -1401,12 +1460,13 @@
 "UG" = (/turf/simulated/floor/plating,/area/coldwar)
 "UI" = (/obj/structure/closet/cabinet,/turf/simulated/floor/carpet/red,/area/coldwar/warpactfob)
 "UK" = (/obj/structure/table/greenmetal,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
-"UL" = (/obj/structure/table/rack/shelf,/obj/item/device/binoculars/nato,/obj/item/weapon/maptool,/obj/item/weapon/maptool,/obj/item/device/binoculars/nato,/turf/simulated/floor,/area/coldwar/usmcfob)
+"UL" = (/obj/structure/table/rack/shelf,/obj/item/device/binoculars/nato,/obj/item/weapon/maptool,/turf/simulated/floor,/area/coldwar/usmcfob)
 "UM" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/door/unpowered/simple/coldwar/wood/classic,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "UN" = (/obj/effect/floor_decal/turf/lino,/obj/structure/bed/chair/couch/left/black{dir = 4},/turf/simulated/floor/holofloor/wood,/area/coldwar)
 "UP" = (/obj/structure/table/rack/shelf,/obj/item/weapon/gun/projectile/automatic/rifle/g3ka4,/obj/item/weapon/gun/projectile/automatic/rifle/g3ka4,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "UQ" = (/obj/random/junk,/turf/unsimulated/ground/grass,/area/coldwar)
 "UY" = (/obj/structure/closet/crate/ammo,/obj/effect/floor_decal/turf/woodalt2,/turf/simulated/floor/holofloor/tiled,/area/coldwar/warpactfob)
+"UZ" = (/obj/structure/sign/tv3,/obj/structure/table/rack/smalltable,/turf/simulated/floor/wood,/area/coldwar)
 "Va" = (/obj/structure/closet/crate/generic,/obj/item/clothing/suit/surgicalapron,/obj/item/clothing/head/surgery,/obj/item/clothing/under/rank/medical/blue,/obj/item/clothing/under/rank/medical/blue,/obj/item/clothing/head/surgery,/obj/item/clothing/suit/surgicalapron,/obj/item/clothing/gloves/latex/nitrile,/obj/item/clothing/gloves/latex/nitrile,/obj/item/clothing/mask/surgical,/obj/item/clothing/mask/surgical,/obj/item/clothing/shoes/white,/obj/item/clothing/shoes/white,/obj/effect/floor_decal/turf/platingalt,/turf/simulated/floor/tiled/dark,/area/coldwar/warpactfob)
 "Vd" = (/obj/effect/forcefield/mime,/obj/random/tree,/turf/unsimulated/ground,/area/coldwar/forest)
 "Ve" = (/obj/structure/closet,/turf/simulated/floor/tiled/white,/area/coldwar)
@@ -1418,6 +1478,8 @@
 "Vn" = (/obj/machinery/light/small,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Vp" = (/obj/structure/closet/crate/ammo,/obj/structure/railing,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "Vt" = (/obj/structure/sandbag{pixel_y = -6},/turf/unsimulated/ground,/area/coldwar)
+"Vu" = (/obj/effect/floor_decal/turf/lino,/obj/structure/curtain/open/shower,/obj/machinery/shower{dir = 4; icon_state = "shower"},/obj/effect/floor_decal/turf/shaft,/turf/simulated/floor/wood,/area/coldwar)
+"Vv" = (/obj/effect/floor_decal/turf/marblealt,/obj/structure/sink/bath,/obj/structure/curtain/open/shower,/turf/simulated/floor/wood,/area/coldwar)
 "Vw" = (/obj/item/weapon/reagent_containers/food/snacks/stew,/turf/simulated/floor/wood,/area/coldwar)
 "VA" = (/obj/machinery/shower{dir = 8; icon_state = "shower"},/obj/effect/floor_decal/turf/shaft,/turf/simulated/floor/tiled/freezer,/area/coldwar)
 "VB" = (/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
@@ -1425,6 +1487,7 @@
 "VG" = (/obj/structure/closet/crate/ammo,/obj/item/weapon/storage/fancy/ammo_can/x919,/obj/item/weapon/storage/fancy/ammo_can/x919,/obj/item/weapon/storage/fancy/ammo_can/x919,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "VH" = (/obj/effect/floor_decal/turf/platingalt2,/obj/structure/table/rack/shelf,/obj/item/weapon/storage/box/syringes,/obj/item/weapon/storage/box/syringes,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/gloves,/obj/item/weapon/storage/box/masks,/obj/item/weapon/storage/box/masks,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "VI" = (/obj/structure/bed/chair/couch/right/beige,/obj/effect/floor_decal/turf/lino,/obj/effect/landmark/start{name = "NVA Scharfschutze"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
+"VL" = (/obj/effect/floor_decal/carpet/orange{dir = 1},/turf/simulated/floor/carpet/orange,/area/coldwar)
 "VN" = (/obj/effect/floor_decal/turf/lino,/obj/machinery/light/small/warmtint,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "VO" = (/obj/structure/reagent_dispensers/medical/ethanol,/turf/simulated/floor/plating,/area/coldwar/warpactfob)
 "VQ" = (/obj/structure/bed/foldbed,/obj/effect/landmark/start{name = "CSLA Radista"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -1486,6 +1549,7 @@
 "Yc" = (/obj/structure/table/rack/shelf,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/item/stack/medical/tourniquet/nato,/obj/machinery/light/small{dir = 4},/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "Yd" = (/turf/simulated/wall/concrete_pink,/area/coldwar)
 "Ye" = (/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/tiled/bunker/cafe,/area/coldwar)
+"Yh" = (/obj/structure/gasstove,/turf/simulated/floor/wood,/area/coldwar)
 "Yi" = (/turf/unsimulated/floor/road,/area/coldwar)
 "Yj" = (/obj/effect/floor_decal/turf/woodalt2,/obj/structure/chalkboard{dir = 8; pixel_x = 16},/obj/effect/decal/cleanable/flour,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Yp" = (/obj/structure/bed/chair/wood/lyoha{dir = 8; icon_state = "chairlyoha_preview"},/obj/effect/landmark/start{name = "CSLA Strelec"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
@@ -1496,6 +1560,7 @@
 "Yv" = (/obj/structure/sign/czech_flag,/turf/simulated/wall/woodalt,/area/coldwar/warpactfob)
 "Yz" = (/obj/structure/sandbag{dir = 4; icon_state = "sandbag"},/turf/unsimulated/ground/sand,/area/coldwar)
 "YB" = (/turf/simulated/floor/tiled/dark,/area/coldwar)
+"YC" = (/obj/structure/table/rack/smalltable,/obj/item/weapon/archaeological_find/statuette,/turf/simulated/floor/wood,/area/coldwar)
 "YF" = (/obj/structure/sandbag/concrete_block{dir = 4},/turf/unsimulated/floor/road{icon_state = "sidewalkconcrete"},/area/coldwar)
 "YG" = (/obj/effect/floor_decal/turf/woodalt4,/obj/item/weapon/storage/wardrobe,/obj/machinery/light/small/warmtint{dir = 1},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "YH" = (/turf/simulated/wall/brick,/area/coldwar)
@@ -1537,6 +1602,7 @@
 "ZW" = (/obj/effect/floor_decal/turf/woodalt5,/obj/structure/table/army,/obj/item/ammo_magazine/a9x18,/obj/item/ammo_magazine/a9x18,/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "ZX" = (/obj/structure/bed/chair/wheelchair,/obj/effect/floor_decal/industrial/outline/grey,/turf/simulated/floor/wood,/area/coldwar/usmcfob)
 "ZY" = (/obj/structure/barricade/wooden,/obj/structure/barricade/metal,/turf/unsimulated/ground/grass,/area/coldwar/usmcfob)
+"ZZ" = (/obj/structure/closet/secure_closet/freezer/fridge,/obj/machinery/light/coldtint{dir = 1},/turf/simulated/floor/wood,/area/coldwar)
 
 (1,1,1) = {"
 LULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUnMLULULUYiLULULUnMLULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUnMLUabacadaeLUTbpBnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmkGkGUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxUxdLUxUxUxUxUxUxUxdLUxUxUxUxUxUxUxdLUxdLUxUxUxUxUxJgafaiarasJgUxUxUxUxUxUxUxUxUx
@@ -1580,19 +1646,19 @@ vPvPvPZqZqZqZqZqZqZqZqZqZqZqZqZqvPZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqvPvPizpBZPLU
 vPvPvPZqZqZqZqZqZqZqZqZqZqZqZqZqvPZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqvPvPvPpBZPLULUYiLULUTbpBaUlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXaUlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXaUlXlXlXlXlXlXlXlXlXlXlXlXlXvPvPvPvPizvPvPvPvPvPvPvPvPvPvPizvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPizpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXjEvPZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSkGkGByByByByByByByByByByByByByByByByByByByByByByByByByAfvPvPvPxZWFWFvPXSfNuskIusXSvPmsfMusususkmusususkmususLDosfMCFvPXelXlXXelbpcpclblblblblblXlXlXlXvPvPvPvPvPvPvPvPvPvPjXtxtxXeXeXeXeXeXeXeXevPvPvPvP
 vPvPvPZqZqZqZqZqZqZqZqZqZqZqZqZqvPZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqZqvPvPvPpBZPLULUYiLULUTbpBlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZHZHZHZHZHlXlXlXvPvPvPZHZHZHZHZHZHZHZHZHZHZHZHZHZRZRZRZHZHZHZHZHZHZHZHZHZRZRZHZHvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSDPZSZSZSZSZSZSZSZSZSZSZSZSkGkGByByByByByByByByByByByByByByByByByByByByByByByByByAfvPvPvPxZWFvPvPZYXSXSZYgSZYvPmsUwuLeGuLUAuLeGuLUAuLeGuLuLUwCFvPXelXlXvPXeXelXlXlXlXlXlXlXlXlXvPvPvPlXlXlXlXlXvPvPvPjXSstxagvPvPvPvPvPvPvPvPvPvPvP
 vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPvPZSZSZSZSZSZSZSvPvPvPvPvPZHZHZHZHZHZHZHZHZHZHZHZHZRZRZHZHZRZRZHZHZHZHZHZHZRZRZHZHZHZHZHZHZHlXlXlXvPvPvPZHXhVeVeVeVeVeZHiAiAiAZHaZYBYBYBbcZHUmbeZyEEEEZHHFHFbiqYZHvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPvPvPxZWFvPvPvPvPlXlXlXlXlXlXAzAzlXAzAzAzlXAzAzAzlXAzAzAzlXlXlXlXlXlXlXnylXnylXnylXlXlXlXlXlXlXlXlXlXlXlXlXlXlXvPjXtxjXvPvPvPvPvPvPvPvPvPvPagvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPvPZSZSZSDPZSZSZSvPvPvPvPvPZHYBbjZHbtYBYBbvZHZHbxbybDbEWnZHWnUNsRsRbLZHZHbOQtQtQtbrZHWnWnWnZHlXlXlXvPvPvPZHBxXhXhXhXhXhbMsLsLbTZHbUYBYBYBbXZHUmbYbYZyoqZHHFObObObZRvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPvPvPxZWFvPvPvPvPvPXeXeVtVtyelXyeyeyeyeyeyeyeyeyeyeyeyeyeyelXvPlXlXXecPpXOdpXbSpXcPlXlXlXlXXeaYfMfMfMfMfMfMaYlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPvPZSZSZSZSZSZSZSvPHuZHZHZHZHYBYBclYBYBYBYBZHZHcnsRsRsRcyZHkzczsRsRcBZHZHcFcHcHcHREZHWnWnWnZHlXlXlXvPvPvPZHXhCtfhCtfhCtZHhLhLhLZHbUYBYBYBbXZHUmUmUmZyZyZHHFHFHFHFZRvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPvPxZxZWFvPvPvPvPvPvPmsZYXSZYWxUwfMfMfMfMfMfMfMUwfMfMXSXSZYIPvPlXlXSaMkkJBonaBonDMkIPlXUwfMfMUwmjusuVususvkUwfMfMUwlXvPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPZSZSZSZSPnZSZSZSvPvPZHYBYBYBYBYBcMYBYBYBZHZHZHcYsRsRsRWnZHWnlJsRsRdjZHZHdlcHWnWnWnZHWnWnWnZHlXlXlXvPvPvPZHDgZHZHZHZHZHZHZHZHZHZHclYBYBYBclZHZHZHZHLLZHZHdpHFHFvwZHvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSDPZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPvPxZWFWFvPvPvPvPvPvPmsXSdyususgHtKUKxuYqgmgmgmPQGhlHJqLGfMIPvPlXlXSawGNPBorBBoQZwGIPlXfMlMOXuLususususususuLlMOXfMlXvPvPvPvPvPvPagvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPZSZSZSZSZSZSZSZSvPvPZHbtYBYBYBYBcldAYBYBdBWnWnWnWnWnWnWnZHWnWnWnWnWnZHZHWnWnWnWnWnZHWnWnWndHlXlXlXlXlXlXdIYBbjYBYBYBYBYBYBYBYBbjYBYBYBYBYBbjYBYBYBYBYBZHZHZHhPZHZHvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPXexZWFvPvPvPvPvPvPvPmsXSdyususususususususususWxusaousjSfMIPlXlXlXSawGAEBoBoBoBowGIPlXfMususuLIhjYXosHXousuLususfMlXvPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPZSZSZSZSDPZSZSvPvPvPZHYBYBYBYBYBclYBYBYBdBWnWnWnWnWnWnZHZHZHWnWnWnZHZHZHWnWnZHWnWnZHWnWnenZHeolXlXlXlXepZHYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBhPHFHFHFexZHvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBpBpBpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPXexZWFvPvPvPvPvPvPvPmsXSdyusrOZXZXZXZXusXoususPQIhTYusPtUwIPlXlXlXYzMkNcBoeMVwqVMkpslXkmususkmususususususkmususkmlXvPagvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPZSZSZSZSZSZSvPvPvPvPZHYBYBYBYBeKYBYBYBZHZHeLWnWnWnWnWneNWnWnWnWnWnWneNeRWnWnWnWnWnWnWnWnWndHlXlXlXlXlXlXdIYBYBYBYBYBYBeKYBYBYBYBYBYBYBYBYBeKYBYBYBYBYBZHZHZHhPZHZHvPpBZPLULUYiLULUTbpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSDPZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPxZxZWFvPvPvPvPvPvPvPmsXSdyusususususususXoususWxusjCusPtUwIPlXlXvPlXcPMkwGMkwGMkzolXlXfMqXdVuLOVusXosHusxduLqXdVfMlXvPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPvPvPvPvPvPvPvPvPvPvPZHZHdIZHdIZHZHZHZHZHZHWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnfcWnWnWnWnfeZHlXlXlXvPvPvPZHDgZHZHZHZHZHZHZHZHZHZHffZHZHZHZHZHYBYBYBYBYBZHdpHFHFvwZHvPpBZPLULUYiLULUTbTKflExfoExExExExExExExExExExExExExExExExExfoExExfppBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPxZWFvPvPvPvPvPvPvPvPmsXSdycCcCalWmHpHpususussSPQusususGEfMIPlXlXvPlXlXlblblblbPhlXlXlXUwfMfMUwaYuLuLuLkmaYUwfMfMUwlXvPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXfIlXlXlXZHZHZHZHfKZHZHZHZHZHZHdHZHZHZHZHdHZHZHZHZHZHZHZHZHWnWnfPZHlXlXlXvPvPvPZHXhVeVeVeVeVeZHiAiAiAZHYBYBfRfRfRZHYBYBYBYBYBZHHFHFHFHFZRvPpBZPLULUYiLULUTbpBJwpBLULULULULULULULULULULULULULULULULULULULUpBJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPxZWFvPvPvPvPvPvPvPvPmsZYXSXSfMfMfMfMaYZDziaDGhuLOMOMGEGEXSIPlXlXlXvPlXlXlXlXlXlXvPXelXlXvPvPvPfMPTzOuPusfMvPvPvPlXlXvPvPvPagvPvPvPvPagvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHZHZHsLgfsLgjZHgkgrgxgxZHgkgrgxgxZHZHZHgkgxgxdHWnWngBZHlXlXlXvPvPvPZHBxXhXhXhXhXhbMsLsLbTZHYBYBYBYBgJZHbtYBYBYBgJZHHFHFObObZRvPpBZPLULUYiLULUTbpBJwpBLUgNLULULUgNLULULUgNLULULUgNLUWOSxgPWOWOWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXHuvPvPZSZSZSZSZSZSZSZSZSZSZSZSvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFrKvPxZWFvPvPvPvPvPvPvPvPvPpcpcpcpcpcpcIyfMfMfMfMfMUwfMfMXSXSZYIPXelXlXvPXeXevPvPvPvPvPvPlXlXvPvPvPfMususususfMvPvPlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHZHsLsLsLsLZHgxgxgxgxZHgxgxgxgxZHgxhehhgxgxZHZHZHZHZHlXlXlXvPvPvPZHXhCtCtCtfhCtZHhLhLhLZHhqhrhrhshsZHYBYBYBYBYBZHHFHFhthvZHvPpBZPLULUYiLULUTbLUhwLUWOWOWOXIWOWOWOXIgPWOWOXIWOWOWOWOUGDYZADYWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPZSZSZSZSZSZSZSDPZSZSZSvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFrKXexZWFvPvPvPvPvPvPvPvPXeXeXeXeXeXeXeXeSgpcpclblblblblblblblbXeXelXlXlXXevPvPvPvPvPvPvPlXlXlXlXvPaYfMfMfMkmaYvPlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHsLsLsLhEZHgxhGhegxZHgxhehhgxZHhHhIgxgxgxZRlXlXlXlXlXlXlXvPvPvPZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHdIdIZHZHZRZRZHZHvPpBZPLULUYiLULUTbpBJwpBXIhNXIXIXIhNXIXIXIhNXIXIXIhNXIgPUGidifigWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPZSZSZSZSZSZSZSZSZSZSvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFrKXexZWFvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPXeXeXelXyeyeyeyeyeyeyeyelXlXlXlXXevPvPvPvPlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXXevPXevPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBaUlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHsLinsLiyZHgxgxhIiEZHhHhegxgxZHgxgxiFgxgxZRlXlXlXlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPizvPlXlXvPvPvPvPvPvPizpBZPLULUYiLULUTbpBJwpBXIjbXIXIXIjbXIXIXIjbXIXIXIjbXISxUGjfZADYWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPvPvPZSZSZSZSZSZSZSvPvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFrKXexZWFvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPXeXelXlXYzDFDFDFDFDFDFDFDFpslXlXlXlXlXlXlXlXlXlXlXvPXeXeXelXlXlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvP
-vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHZHZHZHZHZHZHZRZHZHZHZHZHZRZHZHZHZHZHZHZHZHlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXpBZPLULUYiLULUTbpBJwpBXIjuXIXIXIjuXIXIXIjuXIXIXIjuXIgPjwidifjxWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPHuvPvPZSZSZSZSZSZSZSvPvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKljBrKPdxZWFvPvPvPvPvPvPvPvPvPvPvPvPvPXeXeXeXelXlXlXlXPhPhPhPhPhPhPhPhlXlXlXlXlXlXlXlXlXlXvPvPiXiXiXiXiXiXiXiXiXiXiXiXiXiXiXvPvPvPagvPvPvPvPagvPvPvPvP
+vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPUFUFUFUFUFUFUFvPvPvPvPvPpBZPLULUYiLULUTbpBlXvPvPZSZSZSDPZSZSZSvPvPvPvPvPZHYBbjZHbtYBYBbvZHZHbxbybDbEWnZHWnUNsRsRbLZHZHbOQtQtQtbrZHWnWnWnZHlXlXlXvPvPvPZHBxXhXhXhXhXhbMsLsLbTZHbUYBYBYBbXZHUmbYbYZyoqZHHFObObObZRvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPvPvPxZWFvPvPvPvPvPXeXeVtVtyelXyeyeyeyeyeyeyeyeyeyeyeyeyeyelXvPlXlXXecPpXOdpXbSpXcPlXlXlXlXXeaYfMfMfMfMfMfMaYlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvP
+vPvPvPvPvPvPUFUFUFUFUFUFOyUFUFUFUFvPvPvPvPvPvPvPUFUFrgrgArFrolUFUFvPvPvPvPpBZPLULUYiLULUTbpBlXvPvPZSZSZSZSZSZSZSvPHuZHZHZHZHYBYBclYBYBYBYBZHZHcnsRsRsRcyZHkzczsRsRcBZHZHcFcHcHcHREZHWnWnWnZHlXlXlXvPvPvPZHXhCtfhCtfhCtZHhLhLhLZHbUYBYBYBbXZHUmUmUmZyZyZHHFHFHFHFZRvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPvPxZxZWFvPvPvPvPvPvPmsZYXSZYWxUwfMfMfMfMfMfMfMUwfMfMXSXSZYIPvPlXlXSaMkkJBonaBonDMkIPlXUwfMfMUwmjusuVususvkUwfMfMUwlXvPvPvPvPvPvPvPvPvPvPvPvPvP
+vPvPvPvPvPUFUFqFKKpPpPOsBoHJHRAXUFvPvPvPvPvPvPUFUFdSBqdSCdFrFrfjUFUFUFUFUFpBZPLULUYiLULUTbpBlXvPZSZSZSZSPnZSZSZSvPvPZHYBYBYBYBYBcMYBYBYBZHZHZHcYsRsRsRWnZHWnlJsRsRdjZHZHdlcHWnWnWnZHWnWnWnZHlXlXlXvPvPvPZHDgZHZHZHZHZHZHZHZHZHZHclYBYBYBclZHZHZHZHLLZHZHdpHFHFvwZHvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSDPZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPvPxZWFWFvPvPvPvPvPvPmsXSdyususgHtKUKxuYqgmgmgmPQGhlHJqLGfMIPvPlXlXSawGNPBorBBoQZwGIPlXfMlMOXuLususususususuLlMOXfMlXvPvPvPvPvPvPagvPvPvPvPvPvP
+vPvPvPvPvPUFVupPpPpPCBUFBoqgHRAXUFvPvPvPvPvPUFUFRfbJJabJbJbJbJbJbJUFeCfGUFpBZPLULUYiLULUTbpBlXvPZSZSZSZSZSZSZSZSvPvPZHbtYBYBYBYBcldAYBYBdBWnWnWnWnWnWnWnZHWnWnWnWnWnZHZHWnWnWnWnWnZHWnWnWndHlXlXlXlXlXlXdIYBbjYBYBYBYBYBYBYBYBbjYBYBYBYBYBbjYBYBYBYBYBZHZHZHhPZHZHvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBWOWOOiZJZJZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPXexZWFvPvPvPvPvPvPvPmsXSdyususususususususususWxusaousjSfMIPlXlXlXSawGAEBoBoBoBowGIPlXfMususuLIhjYXosHXousuLususfMlXvPvPvPvPvPvPvPvPvPvPvPvPvP
+LALALALALAUFUFUFUFUFUFUFBoCcHwHwUFvPvPvPvPvPOybaOvJNOvOvOvOvOvJNOvyDDXDXUFpBZPLULUYiLULUTbpBlXvPZSZSZSZSDPZSZSvPvPvPZHYBYBYBYBYBclYBYBYBdBWnWnWnWnWnWnZHZHZHWnWnWnZHZHZHWnWnZHWnWnZHWnWnenZHeolXlXlXlXepZHYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBYBhPHFHFHFexZHvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBpBpBpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPXexZWFvPvPvPvPvPvPvPmsXSdyusrOZXZXZXZXusXoususPQIhTYusPtUwIPlXlXlXYzMkNcBoeMVwqVMkpslXkmususkmususususususkmususkmlXvPagvPvPvPvPvPvPvPvPvPvPvP
+PdPdPdPdUiUFbBCuZZCTBrUFBoBoBoBoUFvPvPvPvPvPUFOvUFUFfCUFUFUFUFUFUFUFDXDSUFpBZPLULUYiLULUTbpBlXvPZSZSZSZSZSZSvPvPvPvPZHYBYBYBYBeKYBYBYBZHZHeLWnWnWnWnWneNWnWnWnWnWnWneNeRWnWnWnWnWnWnWnWnWndHlXlXlXlXlXlXdIYBYBYBYBYBYBeKYBYBYBYBYBYBYBYBYBeKYBYBYBYBYBZHZHZHhPZHZHvPpBZPLULUYiLULUTbpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSDPZSZSZSZSZSZSZSvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPxZxZWFvPvPvPvPvPvPvPmsXSdyusususususususXoususWxusjCusPtUwIPlXlXvPlXcPMkwGMkwGMkzolXlXfMqXdVuLOVusXosHusxduLqXdVfMlXvPvPvPvPvPvPvPvPvPvPvPvPvP
+XeXeXeXeXeDRBoBoBoBoBoUFUFDRUFUFUFUFUFUFvPvPUFOvUFaSVLdZBrZZYhUZMVUFDXUFUFpBZPLULUYiLULUTbpBlXvPvPvPvPvPvPvPvPvPvPvPZHZHdIZHdIZHZHZHZHZHZHWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnWnfcWnWnWnWnfeZHlXlXlXvPvPvPZHDgZHZHZHZHZHZHZHZHZHZHffZHZHZHZHZHYBYBYBYBYBZHdpHFHFvwZHvPpBZPLULUYiLULUTbTKflExfoExExExExExExExExExExExExExExExExExfoExExfppBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPxZWFvPvPvPvPvPvPvPvPmsXSdycCcCalWmHpHpususussSPQusususGEfMIPlXlXvPlXlXlblblblbPhlXlXlXUwfMfMUwaYuLuLuLkmaYUwfMfMUwlXvPvPvPvPvPvPvPvPvPvPvPvPvP
+XeXeXeXeXeUFBocJcJBoBoUFcDBoBoMVBobgCVUFvPvPUFOvUFCzmBpyBoBoBoBoBoUFVvUFvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXfIlXlXlXZHZHZHZHfKZHZHZHZHZHZHdHZHZHZHZHdHZHZHZHZHZHZHZHZHWnWnfPZHlXlXlXvPvPvPZHXhVeVeVeVeVeZHiAiAiAZHYBYBfRfRfRZHYBYBYBYBYBZHHFHFHFHFZRvPpBZPLULUYiLULUTbpBJwpBLULULULULULULULULULULULULULULULULULULULUpBJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXvHZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSvPvPkGkGByByByByByByByByByByByByByByByByByByByByByByByByByGqvPxZWFvPvPvPvPvPvPvPvPmsZYXSXSfMfMfMfMaYZDziaDGhuLOMOMGEGEXSIPlXlXlXvPlXlXlXlXlXlXvPXelXlXvPvPvPfMPTzOuPusfMvPvPvPlXlXvPvPvPagvPvPvPvPagvPvPvPvP
+PdPdPdPdPdOyCyCuCuBoBoUFBoBoBoBoBoBoOfUFvPvPUFOvUFJZqAjeBorLYCBoBFUFUFUFvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHZHZHsLgfsLgjZHgkgrgxgxZHgkgrgxgxZHZHZHgkgxgxdHWnWngBZHlXlXlXvPvPvPZHBxXhXhXhXhXhbMsLsLbTZHYBYBYBYBgJZHbtYBYBYBgJZHHFHFObObZRvPpBZPLULUYiLULUTbpBJwpBLUgNLULULUgNLULULUgNLULULUgNLUWOSxgPWOWOWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXHuvPvPZSZSZSZSZSZSZSZSZSZSZSZSvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFrKvPxZWFvPvPvPvPvPvPvPvPvPpcpcpcpcpcpcIyfMfMfMfMfMUwfMfMXSXSZYIPXelXlXvPXeXevPvPvPvPvPvPlXlXvPvPvPfMususususfMvPvPlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvP
+LALALALALAUFUFjRCuBoBoDRBoBoBoBoBoBoAsUFvPvPUFJbUFxvBoBoBoBoxvUFUFUFvPvPvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHZHsLsLsLsLZHgxgxgxgxZHgxgxgxgxZHgxhehhgxgxZHZHZHZHZHlXlXlXvPvPvPZHXhCtCtCtfhCtZHhLhLhLZHhqhrhrhshsZHYBYBYBYBYBZHHFHFhthvZHvPpBZPLULUYiLULUTbLUhwLUWOWOWOXIWOWOWOXIgPWOWOXIWOWOWOWOUGDYZADYWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPZSZSZSZSZSZSZSDPZSZSZSvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFrKXexZWFvPvPvPvPvPvPvPvPXeXeXeXeXeXeXeXeSgpcpclblblblblblblblbXeXelXlXlXXevPvPvPvPvPvPvPlXlXlXlXvPaYfMfMfMkmaYvPlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvP
+vPvPvPvPvPcTUFUFOyOyUFUFUFCufmDoBoAsUFUFvPvPUFUFUFUFUFBoBoDoBoUFvPvPvPvPvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHsLsLsLhEZHgxhGhegxZHgxhehhgxZHhHhIgxgxgxZRlXlXlXlXlXlXlXvPvPvPZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHZHdIdIZHZHZRZRZHZHvPpBZPLULUYiLULUTbpBJwpBXIhNXIXIXIhNXIXIXIhNXIXIXIhNXIgPUGidifigWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPZSZSZSZSZSZSZSZSZSZSvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFrKXexZWFvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPXeXeXelXyeyeyeyeyeyeyeyelXlXlXlXXevPvPvPvPlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXXevPXevPvPvPvPvPvPvPvPvPvPvPvPvP
+vPvPagvPvPvPCwCwCwCwCwCwUFOyOyUFNQUFUFvPvPvPvPvPvPQfUFUFNQUFOyUFvPvPvPvPvPpBZPLULUYiLULUTbpBaUlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHsLinsLiyZHgxgxhIiEZHhHhegxgxZHgxgxiFgxgxZRlXlXlXlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPizvPlXlXvPvPvPvPvPvPizpBZPLULUYiLULUTbpBJwpBXIjbXIXIXIjbXIXIXIjbXIXIXIjbXISxUGjfZADYWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPvPvPZSZSZSZSZSZSZSvPvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFrKXexZWFvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPXeXelXlXYzDFDFDFDFDFDFDFDFpslXlXlXlXlXlXlXlXlXlXlXvPXeXeXelXlXlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvP
+vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPlXlXlXvPvPvPvPvPvPvPvPvPlXlXlXvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXZHZHZHZHZHZHZHZRZHZHZHZHZHZRZHZHZHZHZHZHZHZHlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXpBZPLULUYiLULUTbpBJwpBXIjuXIXIXIjuXIXIXIjuXIXIXIjuXIgPjwidifjxWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPHuvPvPZSZSZSZSZSZSZSvPvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKljBrKPdxZWFvPvPvPvPvPvPvPvPvPvPvPvPvPXeXeXeXelXlXlXlXPhPhPhPhPhPhPhPhlXlXlXlXlXlXlXlXlXlXvPvPiXiXiXiXiXiXiXiXiXiXiXiXiXiXiXvPvPvPagvPvPvPvPagvPvPvPvP
 pBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPlXlXlXvPvPvPvPvPvPvPvPvPlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXpBZPLULUYiLULUTbpBJwpBXIXIXIXIXIXIXIXIXIXIXIXIXIXIXIWOUGDYZADYWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPvPvPZSZSZSZSZSZSZSZSvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKlKljBxZxZxZWFvPXeXeXeXeXeXeXeXeXeXeXeXeXelXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXXevPvPvPmsUwfMfMfMUwfMfMUwfMfMUwfMfMfMUwZOvPvPvPvPvPvPvPvPvPvPvPvP
 pBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPlXvPvPvPvPvPvPvPvPvPvPlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXpBZPLULUYiLULUTbpBJwpBWOlGgPXIWOlGWOXIWOlGWOXIWOlGWOWOSxgPWOWOWOJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXvHvHZSvPvPvPvPZSZSZSZSZSZSZSZSvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKlKlKljBxZWFAeAeXeVtXeVtVtXePdPdXeXeXeXelXlXlXyelXlXgvpBUylXlXlXlXlXlXlXlXhCpBlXlXlXyelXXeXevPvPmsfMDljjzPuLXkXkgHXkZauLTmjjJLfMZOvPvPvPvPvPvPvPvPvPvPvPvP
 vPvPvPvPZqvPvPvPvPvPvPvPvPvPlXlXvPvPvPvPvPZqvPvPvPvPvPvPvPvPvPvPvPvPvPvPizpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPUFUFkaUFUFWBWBWBWBWBWBWBWBlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBJwpBLULULULULULULULULULULULULULULULULULULULUTKJwpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJvHzvvHZSZSZSvPvPZSZSZSZSZSZSZSZSvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKlKlKljBcpWFXSUAEzUAEzUAXSIPPdPdXeXeXelXlXlXYzDFpslXlXUyXNlXRqpBpBpBpBlXlXXNUylXlXYzDFpsXeXevPvPmsfMusususUAusFyusFyusUAusususfMZOvPvPvPvPvPvPvPvPvPvPvPvP
@@ -1610,7 +1676,7 @@ vPvPYsvPvPvPvPOvOvOvrWOvOvOvYskDZqvPvPWOLUlzWOqUlOLULULUWOWOWOWOWOWOWOWOvPpBLULU
 vPvPYsOvOvOvYsOvOvOvOvOvOvOvYskDvPvPvPWOlFlFWOlFLULULULUWOvPvPvPvPvPvPvPvPpBLULULUYiLULUTbpBvPUFUFrYUFUFUFUFUFUFsPtcUFUFUFUFUFUFUFUFUFlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXpBpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXpBZPLULUYiLULUTbpBflExExtiExExExExExExExExExExExExExExExExtiExExfppBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXvHzvZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSZSTFTFlilililililililililililililiTglililililililililiwetntncpWFlXvPvPvPvPvPvPagvPvPvPvPvPvPvPvPXeXeXeXeXeXeXeXeXeXeXeXeXeXelXXeXeXeXeXelXlXlXlXlXlXlXlXlXXeuLcsynfNuLtptqPMuLlXlXuLcsynfNuLtptqPMuLlXXevP
 vPvPruruozozrururururururururutrvPvPvPWOWOWOWOWOWOLULULUWOvPvPvPvPvPvPvPvPpBLULULUYiLULUTbpBvPvPvPvPUQUQUQUQUQvPvPvPvPSSvPvPvPvPvPvPvPlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXtupBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXpBZPLULUYiLULUTbTKpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKlKlwewewexZWFlXvPagvPagvPvPvPvPvPvPvDvDvDvDvDvDClClClXeXeClvDvPvPvPvPXeXeXeXevPvPXeXeXeXelXlXlXlXlXlXlXlXkmusussSuLIhususkmXelXkmusussSuLIhususkmlXXevP
 vPvPvPZqvPvPvPvPvPZqvPZqvPvPlXlXvPvPvPvPvPvPvPvPvPLULULUvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPSSvPvPSSvPvPUQvPSSvPvPvPvPvPvPSSvPvPvPvPlXlXvPvPvPvPlXlXvPvPvPvPvPvPvPvPvPvPlXlXlXlXvPvPvPvPvPvPvPvPvPvPlXlXvPvPvPvPlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBtUtUtUtUtUtVtVtVtUtUtUtUtUlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKlKlKlKlwexZWFlXvPvPvPvPvPagvPvPvPmsXSPQfMPQfMPQfMPQfMRlRlPQXSCFvPagvPvPvPvPvPvPvPXeXeXeXelXXelXlXlXlXlXlXuLtYucfNuLugPMPMuLXelXuLtYfNfNuLugPMPMuLlXvPvP
-pBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBLULULUpBpBpBpBpBpBpBpBpBpBZPLULUYiLULUTbpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBlXlXZGZGZRZRZGZRZRZGZGZRZGukukZGZRZGZGZRZRZGZRZRZGZGlXlXpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBZPLULUYiLULUTbpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBTKunpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBCUpBpBpBpBpBpBpBpBpBpBpBpBpBTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKlKlKlKlwexZWFlXagvPvPvDvDvDvDvDvPmsXSYQKEKEKEKEKEKEFLususOyXSCFvPvPvPagvPvPvPvPvPvPXeXeXelXlXlXlXlXlXlXlXUwfMfMfMUwfMfMfMUwXelXUwfMfMfMUwfMfMfMUwlXXevP
+pBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBLULULUpBpBpBpBpBpBpBpBpBpBZPLULUYiLULUTbpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBlXlXZGZGZRZRZGZRZRZGZGZRZGukukZGZRZGZGZRZRZGZRZRZGZGlXlXpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBZPLULUYiLULUTbpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBTKunpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBpBCUpBpBpBpBpBpBpBpBpBpBpBpBpBTFTFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFeFKlKlKlKlwexZWFlXagvPvPvDvDvDvDvDvPmsXSYQKEKEKEKEKEKEFLususrSXSCFvPvPvPagvPvPvPvPvPvPXeXeXelXlXlXlXlXlXlXlXUwfMfMfMUwfMfMfMUwXelXUwfMfMfMUwfMfMfMUwlXXevP
 LULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUYiLULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUpBlXlXZRuquvuvIxuvuvHFZGuvIxHFHFIxuvZGHFuvuvIxuvuvuwZRlXlXpBLULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUYiLULULUJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEJEpwJEJEJEJEJEJEJEJEJEuyJEJEJEJEJEJEJEJEJEJEJEJEJEkGkGByByByByByByByByByByByByByByByByByByByByByBylilililiwexZWFlXvPvPmsfMXSZYXSXSCFmsXSFLusustZtZtZtZtZusussyXSCFvPagvPvPvPvPvPagvPvPXeXeXelXlXlXlXlXlXlXlXuLcsynfNuLtptqPMuLXelXuLcsynfNuLtptqPMuLlXlXvP
 LULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUYiLULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUpBlXlXZRuquzuzuzuzuzHFhPHFHFHFHFHFHFhPHFuzuzuzuzuzuwZRlXlXpBLULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUYiLULULULULULULULULULULULULULULULULULULULULULULULULULULULULUohLULULULULULULUohLULULULULULULULULULULULULULULULULULULULUohLULULULULULUkGkGByByByByByByByByByByByByByByByByByByByByByByBylililiwexZWFlXvPvPmsXSXyOVOVuLRIRIuLuLXTVBUAuLAMuLhuusVBuLXSCFvPvPvDvDvDvDvDvPvPvPvPXeXelXlXlXlXlXlXlXlXkmusussSuLIhususkmXelXkmusussSuLIhususkmlXlXvP
 LULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUYiLULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUpBlXlXZGuDObObObObObHFZGHFHFHFHFHFHFZGHFObObObObObuEZGlXlXpBLULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUYiLULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULULUohLULULULULULULULULULULUohLULULUohLULULULULULULULULULULULUohLUkGkGByByByByByByByByByByByByByByByByByByByByByByBylililiwexZWFlXvPvPmsZYIhususkmusustJUAXTVBuLHEOTEguLXTustJfMCFvPmsXSXSZYXSXSCFvPvPvPXeXelXlXlXlXlXlXlXlXuLtYucfNuLugPMPMuLvPlXuLtYucfNuLugPMPMuLlXlXvP
@@ -1620,7 +1686,7 @@ vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPlXvPvPvPvPvPvPpBZPLU
 vqvqvqvqvqvPvPvPvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqvqlXlXvqvqvqvqYHvPpBZPLULUYiLULUTbpBUFZNZNZNZNZNZNZNZNZNZNZNZNZNZNZNZNZNZNvrlXlXvPvPvPvPvPlXlXZGZGZGZGZGZGZGZGZGZGvvZGZGvvZGZGZGZGZGZGZGZGZGZGlXlXvPvPvPvPvPlXlXFCvxvFvGFCRHRHFCvxvFvGFCvPvPFCJnvIkBvIkBvIFCpBpBpBpBpBpBpBpBpBlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXlXpBpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJvJvJvJSPSPvPWBWBWBWBWBWBWBvPWBWBWBWBWBvPvPkGkGByByByByByByByByByByByByByByByByByByByByByBylilililiweXexZWFlXvPmsXSINININuLXTusFmUAXTVBUAuLuLuLUAXTVBUAuLUAXTusuLuLUAuLXSCFvPvPvPvPXeXeXelXlXlXlXlXlXlXXeXefMUwfMvPvPvPlXlXlXXeXefMUwfMvPvPvPlXlXvP
 vKWBWBWBWBvPvPvPWBWBWBWBWBvNWBWBWBWBWBWBWBWBvNWBWBWBvPvPvPlXvPUcvPZqvPYHvPpBZPLULUYiLULUTbpBUFvSZNZNZNZNZNZNZNZNZNZNZNZNZNZNZNZNZNUFlXlXvPvPvPvPvPlXlXZRvYwbwdXDXDXDXDXDwdXDXDXDXDwdXDXDXDXDXDwdwgrRZRlXlXvPvPvPvPvPlXlXZRwhwiwihPRHRHhPwiwiwiZRSSvPukYBYBYBYBYBYBFCpBpBpBpBYdukYdYdYdYdYdYdYdYdvPHuvPvPvPvPvPvPYdYdZRZRZRYdYdYdYdYdYdpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXwjvPvPMyYswlwlYsYsYswlpCwlYsYsYsYswpvPkGkGByByByByByByByByByByByByByByByByByByByByByBylilililiweXexZWFlXlXYzZYIhususkmususgqbRusVBuLUPqzyluLXTusziCIQKususuLtaFgFgXSCFvPvPagvPXeXevPlXlXlXlXlXlXUwfMfMUwfMUwfMfMfMlXlXUwfMfMUwfMUwfMfMfMlXXevP
 MylXlXlXlXlXlXlXwqlXwqlXlXYHZRZRYHYHYHYHYHYHYHZRZRYHwpvPZqlXUcUcUcUcvPYHvPpBZPLULUYiLULUTbpBZRwrZNZNUFwsUFUFUFUFUFUFLLUFUFUFLLUFUFUFlXlXvPvPvPvPvPlXlXZRvYwtXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDwBrRZRlXlXvPvPvPvPvPlXlXFCwERHwIFCRHRHFCwERHwIFCvPUQFCYBYBFCFCwMFCFCpBpBpBpBYdwVwVwVwXYdXYYBxpYdvPvPvPvPvPvPvPvPYdUfObvwHFoOOrYdXhxtYdpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPMywlxBOvOvrWOvOvOvOvOvOvGDYswpvPkGkGByByByByByByByByByByByByByByByByByByByByByBylilililiweXexZWFWFWFYzXSVGVGVGuLXTusususususkmusususkmusususususususkmusussSZYCFUwfMfMfMUwvPXelXlXlXlXlXlXuLcsynfNuLtptqPMuLlXXeuLcsynfNuLtptqPMuLlXXevP
-MylXlXlXlXlXlXlXxDxDxDlXepYHxJxNYHxOxSxUxSyfYHBoygYHwpvPZqlXvPUcUcUcUcYHvPpBZPLULUYiLULUTbpBZRwrZNZNUFXIkLkLyhUFZyZyZyyjUFZyZyZyyoZRlXlXvPvPvPvPvPlXlXZGXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDZGlXlXvPvPvPvPvPlXlXFCFCFCFCFCRHyqFCFCFCFCFCvPvPFCJnkBFCtsRHRHZRpBpBpBpBYdZvyryuZvYdXYYBORYdvPvPvPvPvPvPvPvPYdyvyBHFHFHFHFDgXhyCYdpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPMywlOvyHrurururururuvPvPOvvPvPHukGkGByByByByByByByByByByByByByByByByByByByByByBylilililiweXexZxZxZWFYzXSXSZYXSXSXTusuLKcususkmusususkmususvtfMNgNggduLXoXoXoXSCFuLIhusHLuLXelXlXlXlXlXlXlXkmusussSuLIhususkmlXXekmusussSuLIhususkmlXXevP
+MylXlXlXlXlXlXlXxDxDxDlXepYHxJxNYHxOxSxUxSyfYHBoygYHwpvPZqlXvPUcUcUcUcYHvPpBZPLULUYiLULUTbpBZRwrZNZNUFXIkLkLyhUFZyZyZyyjUFZyZyZyyoZRlXlXvPvPvPvPvPlXlXZGXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDXDZGlXlXvPvPvPvPvPlXlXFCFCFCFCFCRHyqFCFCFCFCFCvPvPFCJnkBFCtsRHRHZRpBpBpBpBYdZvyryuZvYdXYYBORYdvPvPvPvPvPvPvPvPYdyvyBHFHFHFHFDgXhyCYdpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPMywlOvyHrurururururuvPvPOvvPvPHukGkGByByByByByByByByByByByByByByByByByByByByByBylilililiweXexZxZxZWFYzXSXSZYXSXSXTusuLKcususkmusususkmususvtfMNgNggduLMeXoXoXSCFuLIhusHLuLXelXlXlXlXlXlXlXkmusussSuLIhususkmlXXekmusussSuLIhususkmlXXevP
 MylXlXlXlXlXlXlXxDxDxDlXlXYHBoBoYHyPyPyRyPySYHyUBoZRwpvPvPlXvPvPUcUcvPYHvPpBZPLULUYiLULUTbpBZRwrZNZNUFUFUFUFUFUFyVzaZyzfUFzgzaZyZyUFlXlXvPvPvPvPvPlXlXZGZGZGZGZGZGZGZGXDznElXDXDElznXDZGZGZGZGZGZGZGZGlXlXvPvPvPvPvPlXlXFCvxRHvGFCRHRHFCzsXYzyFCvPvPFCXYJnFCzMRHRHZRpBpBpBpBYdZvWKWKzNYduXYBejYdvPvPvPvPvPvPvPvPYdObHFHFHFoOOrYdXhzQYdpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXHuvPMyYsOvdYvPvPRUvPvPvPvPvPOvvPvPvPkGkGByByByByByByByByByByByByByByByByByByByByByByBylililiwevPXePdxZWFlXpcpcpcIyXSFUxmfMKcusVBuLNmITNmuLXTusRefMCFvPmsXSXSZYXSXSCFuLcuususkmlXlXlXlXlXlXlXlXuLtYfNfNuLugPMPMuLlXXeuLtYfNfNuLugPMPMuLlXXevP
 MyzRlXlXlXlXlXlXzVlXzVlXlXYHBoBoYHzYYHYHYHzYYHBoBoZRwplXlXlXvPvPvPvPvPYHvPpBZPLULUYiLULUTbpBUFvSZNZNUFBxbPXhpNUFzZZyZyzfUFAbZyZyyoZRlXlXvPvPvPvPvPlXlXZRvYXDXDXDXDXDZGzmZGZGZGZGZGZGzmZGXDXDXDXDXDrRZRlXlXvPvPvPvPvPlXlXZRwhwiwihPRHRHFCXYAdXYFCvPvPFCkBXYFCXOXORHZRpBpBpBpBYdzrzrzrzrffYBYBORYdvPvPvPDPZSZSvPvPYdYdhPYdYdYdYdYdDgYdYdpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPMyYsOvOvdYWBvPtBHuvPRUvPOvwpvPvPkGkGByByByByByByByByByByByByByByByByByByByByByByBylililiwevPXeXexZWFlXlXvPvPvPpcvPmsXSFKusVBUAuLAMuLUAXTusReXSCFvPvPpcpcpcpcpcvPuLqLususuLXeXelXlXlXlXlXlXUwfMfMfMUwfMfMfMUwlXXeUwfMfMfMUwfMfMfMUwlXvPvP
 MyYHAmAmYHYHYHYHZRZRZRYHYHYHYHBoAqBoAsYHAsBoAqBoAtYHwplXlXlXvPvPvPZqvPYHvPpBZPLULUYiLULUTbpBUFZNZNZNUFXhbPXhfJUFUFUFUFUFUFUFUFUFUFUFlXlXvPvPvPvPvPlXlXZRvYXDXDXDXDqPXDpVwVAuwVwVAuwVAvXDqPXDXDXDXDrRZRlXlXvPvPvPvPvPlXlXFCwERHwIFCRHRHFCAGYBALFCvPSSFCANJhFCtszMRHZRpBpBpBpBYdhPYdYdYdYdxpYBXYYdvPvPZSZSDPZSvPvPYdHFHFuzuzuzHFYdHFvwYdpBpBYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPMyYsOvOvOvOvOvAPARvPAVvPYswpvPRUkGkGByByByByByByByByByByByByByByByByByByByByByByBylililiwevPXeXexZWFWFlXvPvPagvPvPmsXSPQusususurdqRFFgususPQXSCFvPvPvPvPvPvPvPvPfMUwfMfMfMvPvPlXlXlXlXlXlXuLcsynfNuLtptqPMuLlXvPuLcsynfNuLtptqPMuLlXXevP
@@ -1691,7 +1757,7 @@ vPvPvPvPvPZSvPvPvPvPvPvPvPvPvPlXlXlXvPvPZqZqZqZqZqZqvPvPvPvPvPvPvPvPvPvPvPpBZPLU
 vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPlXlXlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqvPvPvPlXlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZqZqvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPZSZSvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXjEvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPkGkGkgkgkgkgkgkgkgkgkgkgkgUxUxUxUxJgvOhVhVhVhVhVhVvOxrxrhnvOvOvOvOvOvOHGzhFAzhKnoJxrxrMRUzoJCZCMCMCMCMCMCMCMCMvOvOvOvOvOvOhVhVsYvOaEpehVhVhVaELkhVhVPmsYvOlsCMCMCMAKvOlsCMCMCMAKvOvOvOvOvOxrxrqSlXlXXeXe
 vPvPvPvPvPvPvPZSZSZSZSvPvPvPvPvPvPlXlXlXlXlXlXlXlXvPvPvPvPZSZSvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPlXlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPRUvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLUPSTbpBvPvPvPvPvPvPZSZSZSvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSZSvPvPvPvPvPvPvPvPvPvPvPvPkGkGkgkgkgkgkgkgkgkgkgkgkgUxUxUxUxJgvOvOvOvOUMvOvOvOxrxrxrvOZLMGuxVFvOzhzhzhzhzhoJjcRgxrxrvOCZCMCMCMCMCMCMCMCMvOvLnHGawNhVhVhVhVvOhVpeSmhVhVhVsNmLpQHPAkvOlECMCMCMrAvOlECMCMCMjhvONCNCNCvOxrxrvOXelXXeXe
 vPvPvPvPvPvPvPvPvPZSvPvPvPZqZqZqZqZqZqZqlXlXlXlXlXlXlXvPvPZSPnZSvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPZSvPvPvPvPvPvPvPvPvPZSvPvPvPvPvPvPvPYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSDPZSvPvPvPvPZSZSDPZSZSZSvPvPkGkGkgkgkgkgkgkgkgkgkgkgkgUxUxUxUxJgvOPZnETLhVhVkvvOxryLxrvOewewewewxqzhzhLXzhzhvOvOvOvOLzvODLLzDLvOvOWfvOvOvOvOnHnHnHvOhVhVhVWuvOcvhVhVhVhVhVbVhVbVhVhVvOjnCMqRCMAovOjnCMqRCMAKvONCNCNCvOvOdJvOXelXXeXe
-vPvPvPvPvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqZqvPvPvPvPvPlXlXlXlXvPZSZSvPvPvPvPvPpBZPPSLUYiLULUTbpBvPvPvPRUvPvPvPvPvPZSZSZSvPvPvPvPvPvPvPRUvPvPvPvPvPlXlXvPvPvPvPvPZqZqZqZqZqZqvPvPvPvPZSvPvPvPvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqZqZqvPvPvPRUvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZSZSZSvPvPvPvPvPvPYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSZSvPvPvPvPZSZSZSZSZSZSvPvPkGkGkgkgkgkgkgkgkgkgkgkgkgUxUxUxUxJgLMGNhVIoTHhVTPlZxrxrxrvOvpHNkXewxqzhzhJczhzhOFAJAJAJAJLvAJAJvOududududBfSNvOnHnHTevOwNvOvOvOvOhVhVhVVNhVhVhVVNhVhVhVvOjnCMivCMAKvOjnCMivCMfUvOdbXWXWBXIuPavOXelXXeXe
+vPvPvPvPvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqZqvPvPvPvPvPlXlXlXlXvPZSZSvPvPvPvPvPpBZPPSLUYiLULUTbpBvPvPvPRUvPvPvPvPvPZSZSZSvPvPvPvPvPvPvPRUvPvPvPvPvPlXlXvPvPvPvPvPZqZqZqZqZqZqvPvPvPvPZSvPvPvPvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqZqZqvPvPvPRUvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZSZSZSvPvPvPvPvPvPYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSZSZSZSZSvPvPvPvPZSZSZSZSZSZSvPvPkGkGkgkgkgkgkgkgkgkgkgkgkgUxUxUxUxJgLMGNhVIoTHhVTPlZxrxrxrvOvpHNkXewxqzhzhJczhzhOFAJAJAJAJLvAJAJvOududududBfSNvOnHnHTevOwNvOvOvOvOhVhVhVVNhVhVhVVNhVhVhVvOjnCMivCMAKvOjnCMSKCMfUvOdbXWXWBXIuPavOXelXXeXe
 vPvPRUvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZSZSZSlXlXlXvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPZSZSHhPnPnZSvPvPvPvPvPvPvPvPvPvPvPvPlXlXvPvPvPvPvPZqZqZqZqZqZqvPvPvPvPZSPnZSZSvPvPvPvPvPZqZqZqZqvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZqZqZqZqZqZqZqZqvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPvPvPvPvPvPZSZSZSZSZSZSvPvPvPvPvPkGkGkgkgkgkgkgkgkgkgkgkgkgUxUxUxUxJgLMRdhVhVhVhVhVRdxrxryLvOewewewewxqzhzhzhzhsZvOAJAJAJAJAJAJAJvOudududududIIvOnHCGMgvOAJLvjpRQvOiJvOhVvOMxvOMxvOhVvOiJvOKpCMWLCMAFvOKpCMWLCMCpvOXWXWIuIuIuIuvOXelXXeXe
 vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZSPnPnPnZSlXlXlXlXlXlXvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPZSZSZSPnZSvPvPvPvPvPvPvPvPvPlXlXlXlXvPvPvPvPvPZqZqZqZqZqZqvPvPvPvPvPZSZSvPvPvPvPvPvPZqZqZqZqvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPZSPnPnPnPnGwHhHhPnZSZSZSvPvPvPvPvPkGkGkgkgkgkgkgkgkgkgkgkgkgUxUxUxUxJgvOVfCahVhVhVBnvOxrxrxrvOZLGVbhFzvOuBKmCLKmjzvOLZbGFobGqrbGqrvOsTududududQHvOnHkxiavOiIapAJAJvOFBMxAOiJFBbAFBiJAOywFBvOWSCMCMCMfUvOWSCMCMCMxVvOpMpMpMIuIuIuvOXelXXeXe
 vPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPZSZSZSZSlXlXlXlXlXlXlXlXlXlXpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPlXlXlXlXlXvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPpBZPLULUYiLULUTbpBvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPvPYFZJZJZJZJZJZJZJZJZJZJZJZJZJlXlXlXvPvPZSZSZSZSZSZSZSZSvPvPvPvPvPvPvPvPkGkGkgkgkgkgkgkgkgkgkgkgkgUxUxUxUxJgvOvOLMLMLMvOvOqSDsvODsqSvOvOvOvOvOvOvOvOvOvOvOvOLMvOLMvOLMvOvOvOvOvOvOvOvOvOvOvOvOvOAJNYWHqqvOvOvOLMvOvOLMvOvOLMvOvOvOOYBLjGwvfuvOOYBLjGwvxVvOvOvOvOvOvOvOvOXelXXeXe
