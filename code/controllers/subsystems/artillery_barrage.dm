@@ -1,3 +1,4 @@
+/*
 var/global/list/turf/barraged_turfs = list()
 
 
@@ -57,3 +58,5 @@ SUBSYSTEM_DEF(artillery)
 	SSartillery.pause()
 	SSartillery.Destroy()
 	SSartillery.flags = 0
+
+*/ //commented out for now it sucks

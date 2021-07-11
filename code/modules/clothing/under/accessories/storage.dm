@@ -210,7 +210,7 @@
 		/obj/item/weapon/storage/pill_bottle/dice,
 		/obj/item/clothing/glasses,
 		/obj/item/clothing/gloves,
-		/obj/item/clothing/mask/balaclava
+		/obj/item/clothing/mask/balaclava,
 		/obj/item/clothing/mask/tacticalmask
 	)
 
