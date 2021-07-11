@@ -2752,7 +2752,7 @@
 	uniform = /obj/item/clothing/under/coldwar/bundeswehr/olive/gefr
 	holster = /obj/item/weapon/storage/belt/holster/sheath/bdw
 	shoes = /obj/item/clothing/shoes/coldwar/bundeswehr/field
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3a3
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
@@ -2767,7 +2767,7 @@
 	shoes = /obj/item/clothing/shoes/coldwar/bundeswehr/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3ka4
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	back = /obj/item/weapon/storage/backpack/bundes_med
 	head = /obj/item/clothing/head/coldwar/garcap/bdw
 	l_pocket = /obj/item/weapon/key/natomed
