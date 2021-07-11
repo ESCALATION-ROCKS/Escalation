@@ -65,16 +65,22 @@ mob/living/carbon/human/proc/handle_pain()
 			drop_item()
 		var/burning = damaged_organ.burn_dam > damaged_organ.brute_dam
 		var/msg
-		switch(maxdam)
-			if(1 to 70)
+		switch(round(maxdam, 1))
+			if(1 to 50)
 				msg =  "Your [damaged_organ.name] [burning ? "burns" : "hurts"]."
 				emote("groan")
-			if(70 to 90)
+			if(51 to 90)
 				msg = "Your[damaged_organ.name] [burning ? "burns" : "hurts"] badly!"
-				emote("scream")
+				if(prob(15))
+					emote("scream")
+				else
+					emote(pick("cry", "whimper"))
 			if(91 to 10000)
 				msg = "OH GOD! Your [damaged_organ.name] is [burning ? "on fire" : "hurting terribly"]!"
-				emote("scream")
+				if(prob(75))
+					emote("scream")
+				else
+					emote("cry")
 
 		custom_pain(msg, maxdam, prob(10), damaged_organ, TRUE)
 

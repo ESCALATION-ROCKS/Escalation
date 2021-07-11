@@ -144,6 +144,7 @@
 		heal_damage(0.1)
 
 /obj/item/organ/internal/proc/surgical_fix(mob/user)
+	/* Buffed this. Uncomment if you are insane.
 	if(damage > min_broken_damage)
 		var/scarring = damage/max_damage
 		scarring = 1 - max(0.2, scarring*scarring)
@@ -151,6 +152,7 @@
 		if(new_max_dam < max_damage)
 			to_chat(user, "<span class='warning'>Not every part of [src] could be saved, some dead tissue had to be removed, making it more suspectable to damage in the future.</span>")
 			set_max_damage(new_max_dam)
+	*/
 	heal_damage(damage)
 
 /obj/item/organ/internal/proc/get_scarring_level()
