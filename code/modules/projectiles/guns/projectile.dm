@@ -23,6 +23,7 @@
 	var/ammo_type = null		//the type of ammo that the gun comes preloaded with
 	var/list/loaded = list()	//stored ammo
 	var/starts_loaded = 1		//whether the gun starts loaded or not, can be overridden for guns crafted in-game
+	var/ammocounter = FALSE
 
 	//For MAGAZINE guns
 	var/magazine_type = null	//the type of magazine that the gun comes preloaded with

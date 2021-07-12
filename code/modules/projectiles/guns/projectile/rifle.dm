@@ -22,8 +22,6 @@
 	drop_sound = 'sound/items/interactions/drop_gun.ogg'
 	reload_sound = 'sound/weapons/gunhandling/brifle_magin.wav'
 	cocked_sound = 'sound/weapons/gunhandling/brifle_cock.wav'
-	jam_chance = 0.2
-	jam_chance = 20
 
 /obj/item/weapon/gun/projectile/rifle/boltaction/update_icon()
 	..()
@@ -121,7 +119,6 @@
 	unload_sound = 'sound/weapons/gunhandling/rifle_magout.wav'
 	reload_sound = 'sound/weapons/gunhandling/rifle_magin.wav'
 	cocked_sound = 'sound/weapons/gunhandling/rifle_boltback.wav'
-	jam_chance = 20
 
 /obj/item/weapon/gun/projectile/rifle/update_icon()
 	..()

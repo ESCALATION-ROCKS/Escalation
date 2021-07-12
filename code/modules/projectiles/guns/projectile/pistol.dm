@@ -1,7 +1,7 @@
-/obj/item/weapon/gun/projectile/pistol/
+/obj/item/weapon/gun/projectile/pistol
 	empty_sound = 'sound/weapons/gunhandling/pistol_empty.ogg'
-	jam_chance = 20
 	loud = 0
+
 /obj/item/weapon/gun/projectile/pistol/colt
 	name = "vintage .45 pistol"
 	desc = "A cheap Martian knock-off of a Colt M1911. Uses .45 rounds."

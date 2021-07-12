@@ -13,8 +13,8 @@
 	reload_sound = 'sound/weapons/gunhandling/revolver_loader.wav'
 	cocked_sound = 'sound/weapons/gunhandling/revolver_cock.wav'
 	fire_sound = 'sound/weapons/gunshot/revolver.ogg'
-	jam_chance = 5
 	loud = 0
+
 /obj/item/weapon/gun/projectile/revolver/verb/spin_cylinder()
 	set name = "Spin cylinder"
 	set desc = "Fun when you're bored out of your skull."
@@ -121,7 +121,6 @@
 	caliber = ".44"
 	w_class = 2
 	ammo_type = null
-	jam_chance = 0.01
 	var/cocked = FALSE
 
 /obj/item/weapon/gun/projectile/revolver/chevalier/update_icon()
@@ -157,7 +156,6 @@
 	caliber = ".32"
 	w_class = 2
 	ammo_type = null
-	jam_chance = 10
 	accuracy = 1
 	fire_anim = "nipper_anim"
 	fire_sound = 'sound/weapons/gunshot/revolver_shoot.ogg'
@@ -169,6 +167,5 @@
 	max_shells = 7
 	caliber = ".32"
 	w_class = 2
-	jam_chance = 5
 	accuracy = 1.2
 	fire_anim = "nipper_anim"

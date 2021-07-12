@@ -14,8 +14,7 @@
 	magazine_type = null
 	wielded_item_state = "m21-wielded"
 	bayonet_attachable = 1
-	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
-	jam_chance = 0.4
+	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 	slowdown_general = 0.5
 	fire_sound = 'sound/weapons/gunshot/m14.ogg'
@@ -71,7 +70,6 @@
 	unload_sound = 'sound/weapons/gunporn/svd_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/svd_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/svd_boltback.ogg'
-	jam_chance = 0.360
 	dist_shot_sound = 'sound/weapons/gunshot/dist/rifle_dist.ogg'
 	slowdown_general = 0.30
 
@@ -122,7 +120,6 @@
 	reload_sound = 'sound/weapons/gunporn/g3_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
-	jam_chance = 0.25
 	slowdown_general = 0.30
 
 	firemodes = list(
@@ -171,7 +168,6 @@
 	reload_sound = 'sound/weapons/gunporn/fnfal_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/fnfal_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/fnfal_dist.ogg'
-	jam_chance = 0.25
 	slowdown_general = 0.30
 
 	firemodes = list(
@@ -222,7 +218,6 @@
 	reload_sound = 'sound/weapons/gunporn/g3_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/g3_boltpull.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/g3_dist.ogg'
-	jam_chance = 0.25
 	slowdown_general = 0.30
 
 	firemodes = list(
@@ -271,7 +266,6 @@
 	reload_sound = 'sound/weapons/gunporn/barrett_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/barrett_cock.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
-	jam_chance = 0.15
 	slowdown_general = 1.5
 	firemodes = list(
 		list(mode_name="semiauto",     burst=1, fire_delay=16,    move_delay=null, one_hand_penalty=6, burst_accuracy=null,          dispersion=null,           automatic = 0)
@@ -430,7 +424,6 @@
 	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/m40a1_dist.ogg'
-	jam_chance = 0.360
 	slowdown_general = 0.45
 	bayonet_attachable = 0
 
@@ -510,7 +503,6 @@
 	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/m40a1_dist.ogg'
-	jam_chance = 0.360
 	slowdown_general = 0.45
 	bayonet_attachable = 0
 
@@ -587,7 +579,6 @@
 	reload_sound = 'sound/weapons/gunporn/tkiv_bulletin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/tkiv_dist.ogg'
-	jam_chance = 0.360
 	slowdown_general = 0.35
 	bayonet_attachable = 0
 
@@ -678,7 +669,6 @@
 	unload_sound = 'sound/weapons/gunporn/m16_magout.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/tkiv_dist.ogg'
-	jam_chance = 0.360
 	slowdown_general = 0.360
 	bayonet_attachable = 0
 
@@ -767,7 +757,6 @@
 	reload_sound = 'sound/weapons/gunporn/m40a1_bulletin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/m40a1_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/m40a1_dist.ogg'
-	jam_chance = 0.360
 	slowdown_general = 0.35
 	bayonet_attachable = 0
 
@@ -864,7 +853,6 @@
 	reload_sound = 'sound/weapons/gunporn/tkiv_bulletin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/tkiv_dist.ogg'
-	jam_chance = 0.360
 	slowdown_general = 0.35
 	bayonet_attachable = 0
 
@@ -904,7 +892,6 @@
 	reload_sound = 'sound/weapons/gunporn/tkiv_bulletin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/tkiv_boltlatch.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/tkiv_dist.ogg'
-	jam_chance = 0.360
 	slowdown_general = 0.35
 	bayonet_attachable = 0
 

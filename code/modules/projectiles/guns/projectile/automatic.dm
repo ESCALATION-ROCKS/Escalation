@@ -17,7 +17,6 @@
 	upg_rap = 1
 	upg_aut = 1
 	upg_stb = 1
-	jam_chance = 3
 	//machine pistol, easier to one-hand with
 	firemodes = list(
 		list(mode_name="semiauto",       burst=1, fire_delay=0,    move_delay=null, one_hand_penalty=0, burst_accuracy=null, dispersion=null),
