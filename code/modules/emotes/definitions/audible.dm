@@ -184,7 +184,7 @@
 
 		if(M.gender == MALE)
 			if(prob(99))
-				emote_sound = "sound/vo/laugh_m[rand(1,3)].ogg"
+				emote_sound = "sound/vo/laugh_m[rand(1,4)].ogg"
 			else
 				emote_sound = "sound/vo/tommy_hahahah.ogg"
 
