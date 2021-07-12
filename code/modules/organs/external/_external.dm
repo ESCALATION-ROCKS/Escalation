@@ -1283,7 +1283,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 				desc += "necrotic "
 			else if(organ.germ_level >= 600)
 				desc += "septic "
-			else if(organ..germ_level >= 250)
+			else if(organ.germ_level >= 250)
 				desc += "infected "
 			bits += "[desc ? desc : ""][organ.name]"
 		if(bits.len)
