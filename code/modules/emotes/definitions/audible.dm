@@ -362,7 +362,7 @@
 		if(H.isMonkey()|| M.gender == NEUTER)
 			return
 
-		emote_sound = "sound/vo/dayum.ogg"
+		emote_sound = "sound/vo/dayum[rand(1, 2)].ogg"
 
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, 3)
