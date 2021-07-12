@@ -113,7 +113,10 @@
 		cur_damage += burn_dam
 	var/organ_damage_threshold = 10
 	if(damage_flags & DAM_SHARP)
-		organ_damage_threshold *= 0.5
+		if(damage_flags & DAM_EDGE)
+			organ_damage_threshold *= 0.75
+		else
+			organ_damage_threshold *= 0.5
 	//the bodypart needs to be a tiny bit beat up to cause organ damage
 	var/bodypart_damage_minimum = ceil(max_damage * 0.15)
 	//more damage, higher chance to damage organs
