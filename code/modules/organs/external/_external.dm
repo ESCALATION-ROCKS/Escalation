@@ -1276,7 +1276,16 @@ Note that amputating the affected organ does in fact remove the infection from t
 		if(status & ORGAN_BROKEN)
 			bits += "broken bones"
 		for(var/obj/item/organ/organ in internal_organs)
-			bits += "[organ.damage ? "damaged " : ""][organ.name]"
+			var/desc = ""
+			if(organ.status & ORGAN_BROKEN)
+				desc += "broken "
+			if(organ.status & ORGAN_DEAD)
+				desc += "necrotic "
+			else if(organ.germ_level >= 600)
+				desc += "septic "
+			else if(organ..germ_level >= 250)
+				desc += "infected "
+			bits += "[desc ? desc : ""][organ.name]"
 		if(bits.len)
 			wound_descriptors["[english_list(bits)] visible in the wounds"] = 1
 
@@ -1374,7 +1383,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 	if(dislocated == 2)
 		to_chat(user, "<span class='warning'>The [joint] is dislocated!</span>")
 
-	
+
 	to_chat(user, "<span class='notice'>Checking eyes now...</span>")
 	if(!do_mob(user, owner, 10))
 		to_chat(user, "<span class='notice'>You must stand to check [src] for brain or eye damage.</span>")

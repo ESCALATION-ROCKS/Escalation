@@ -40,34 +40,13 @@
 			if(total_damage > threshold)
 				if(attempt_dismemberment(pure_brute, burn, edge, used_weapon, spillover, total_damage > threshold*4))
 					return
-	// High brute damage or sharp objects may damage internal organs
 
-	if(internal_organs && internal_organs.len)
-		var/damage_amt = brute
-		var/cur_damage = brute_dam
+	// High brute damage or sharp objects may damage internal organs
+	if(internal_organs?.len)
+		var/internal_damage = brute
 		if(laser)
-			damage_amt += burn
-			cur_damage += burn_dam
-		var/organ_damage_threshold = 10
-		if(sharp)
-			organ_damage_threshold *= 0.5
-		var/organ_damage_prob = 5 * damage_amt/organ_damage_threshold //more damage, higher chance to damage
-		if(encased && !(status & ORGAN_BROKEN)) //ribs protect
-			organ_damage_prob *= 0.5
-		if ((cur_damage + damage_amt >= max_damage || damage_amt >= organ_damage_threshold) && prob(organ_damage_prob))
-			// Damage an internal organ
-			var/list/victims = list()
-			for(var/obj/item/organ/internal/I in internal_organs)
-				if(I.damage < I.max_damage && prob(I.relative_size))
-					victims += I
-			if(!victims.len)
-				victims += pick(internal_organs)
-			for(var/obj/item/organ/victim in victims)
-				brute /= 2
-				if(laser)
-					burn /= 2
-				damage_amt /= 2
-				victim.take_damage(damage_amt)
+			internal_damage += burn
+		damage_internal_organs(internal_damage, damage_flags)
 
 	if(status & ORGAN_BROKEN && brute)
 		jostle_bone(brute)
@@ -127,6 +106,34 @@
 		owner.UpdateDamageIcon()
 
 	return created_wound
+
+/obj/item/organ/external/proc/damage_internal_organs(damage_amt = 0, damage_flags)
+	var/cur_damage = brute_dam
+	if(damage_flags & DAM_LASER)
+		cur_damage += burn_dam
+	var/organ_damage_threshold = 10
+	if(damage_flags & DAM_SHARP)
+		organ_damage_threshold *= 0.5
+	//the bodypart needs to be a tiny bit beat up to cause organ damage
+	var/bodypart_damage_minimum = ceil(max_damage * 0.15)
+	//more damage, higher chance to damage organs
+	var/organ_damage_prob = 30 * damage_amt/organ_damage_threshold
+	if(!(damage_flags & DAM_LASER))
+		//ribs protect
+		if(encased && !(status & ORGAN_BROKEN))
+			organ_damage_prob *= 0.5
+	//if all goes well...
+	if((cur_damage + damage_amt >= bodypart_damage_minimum || damage_amt >= organ_damage_threshold) && prob(organ_damage_prob))
+		//damage one internal organ based on size
+		var/list/victims = list()
+		for(var/obj/item/organ/internal/I in internal_organs)
+			if(I.damage < I.max_damage)
+				victims[I] = I.relative_size
+		if(!victims.len)
+			return FALSE
+		var/obj/item/organ/victim = pickweight(victims)
+		if(victim)
+			victim.take_damage(damage_amt)
 
 /obj/item/organ/external/heal_damage(brute, burn, internal = 0, robo_repair = 0)
 	if(robotic >= ORGAN_ROBOT && !robo_repair)
