@@ -22,6 +22,7 @@
 	var/can_cut = (prob(brute*2) || sharp) && (robotic < ORGAN_ROBOT)
 	var/spillover = 0
 	var/pure_brute = brute
+	var/pure_burn = burn
 	if(!is_damageable(brute + burn))
 		spillover =  brute_dam + burn_dam + brute - max_damage
 		if(spillover > 0)
@@ -33,26 +34,27 @@
 
 	owner.updatehealth() //droplimb will call updatehealth() again if it does end up being called
 	//If limb took enough damage, try to cut or tear it off
-	if(owner && loc == owner && !is_stump())
-		if(!cannot_amputate && config.limbs_can_break)
-			var/total_damage = brute_dam + burn_dam + brute + burn + spillover
-			var/threshold = max_damage * config.organ_health_multiplier
-			if(total_damage > threshold)
-				if(attempt_dismemberment(pure_brute, burn, edge, used_weapon, spillover, total_damage > threshold*4))
-					return
+	if(owner && loc == owner && !is_stump() && !cannot_amputate && config.limbs_can_break)
+		if(is_broken() || (!config.bones_can_break && prob(25)))
+			var/integrity_damage = pure_brute
+			if(laser)
+				integrity_damage += pure_burn
+			damage_limb_integrity(integrity_damage, damage_flags)
+		if(attempt_dismemberment(pure_brute, pure_burn, edge, used_weapon, spillover, (brute+burn>=max_damage*2)))
+			return
 
 	// High brute damage or sharp objects may damage internal organs
 	if(internal_organs?.len)
-		var/internal_damage = brute
+		var/internal_damage = pure_brute
 		if(laser)
-			internal_damage += burn
+			internal_damage += pure_burn
 		damage_internal_organs(internal_damage, damage_flags)
 
 	if(status & ORGAN_BROKEN && brute)
 		jostle_bone(brute)
 		if(can_feel_pain() && prob(40))
-
-			owner.emote("groan")	//getting hit on broken hand hurts
+			//getting hit on broken hand hurts
+			owner.emote("groan")
 
 	if(brute_dam > min_broken_damage && prob(brute_dam + brute * (1+blunt)) ) //blunt damage is gud at fracturing
 		fracture()
@@ -107,6 +109,12 @@
 
 	return created_wound
 
+/obj/item/organ/external/proc/damage_limb_integrity(damage_amt = 0, damage_flags)
+	limb_integrity = max(0, limb_integrity - damage_amt)
+
+/obj/item/organ/external/proc/heal_limb_integrity(heal_amt = 0, damage_flags)
+	limb_integrity = min(min(100, max_damage), limb_integrity + heal_amt)
+
 /obj/item/organ/external/proc/damage_internal_organs(damage_amt = 0, damage_flags)
 	var/cur_damage = brute_dam
 	if(damage_flags & DAM_LASER)
@@ -142,6 +150,7 @@
 	if(robotic >= ORGAN_ROBOT && !robo_repair)
 		return
 
+	heal_limb_integrity(brute+burn)
 	//Heal damage on the individual wounds
 	for(var/datum/wound/W in wounds)
 		if(brute == 0 && burn == 0)
@@ -274,36 +283,22 @@
 //3. If the organ has already reached or would be put over it's max damage amount (currently redundant),
 //   and the brute damage dealt exceeds the tearoff threshold, the organ is torn off.
 /obj/item/organ/external/proc/attempt_dismemberment(brute, burn, edge, used_weapon, spillover, force_droplimb)
-	//Check edge eligibility
-	var/edge_eligible = 0
-	if(edge)
-		if(istype(used_weapon,/obj/item))
-			var/obj/item/W = used_weapon
-			if(W.w_class >= w_class)
-				edge_eligible = 1
-		else
-			edge_eligible = 1
-
 	if(force_droplimb)
-		if(burn)
+		if(brute >= burn)
+			droplimb(0, edge ? DROPLIMB_EDGE : DROPLIMB_BLUNT)
+		else
 			droplimb(0, DROPLIMB_BURN)
-		else if(brute)
-			droplimb(0, edge_eligible ? DROPLIMB_EDGE : DROPLIMB_BLUNT)
 		return TRUE
 
-	if(edge_eligible && brute >= max_damage / DROPLIMB_THRESHOLD_EDGE)
-		if(prob(brute/3))
-			droplimb(0, DROPLIMB_EDGE)
+	if(edge && brute+brute_dam >= max_damage / DROPLIMB_THRESHOLD_EDGE)
+		if((limb_integrity <= 0) || (prob(brute/3) && !config.bones_can_break))
+			droplimb(FALSE, DROPLIMB_EDGE)
 			return TRUE
-	else if(burn >= max_damage / DROPLIMB_THRESHOLD_DESTROY)
-		if(prob(burn/3))
-			droplimb(0, DROPLIMB_BURN)
+	else if(burn+burn_dam >= max_damage / DROPLIMB_THRESHOLD_DESTROY)
+		if((limb_integrity <= 0) || (prob(burn/3) && !config.bones_can_break))
+			droplimb(FALSE, DROPLIMB_BURN)
 			return TRUE
-	else if(brute >= max_damage / DROPLIMB_THRESHOLD_DESTROY)
-		if(prob(brute))
-			droplimb(0, DROPLIMB_BLUNT)
+	else if(brute+brute_dam >= max_damage / DROPLIMB_THRESHOLD_DESTROY)
+		if((limb_integrity <= 0) || (prob(brute) && !config.bones_can_break))
+			droplimb(FALSE, DROPLIMB_BLUNT)
 			return TRUE
-/*	else if(brute >= max_damage / DROPLIMB_THRESHOLD_TEAROFF)
-		if(prob(brute/6))
-			droplimb(0, DROPLIMB_EDGE)
-			return TRUE*/

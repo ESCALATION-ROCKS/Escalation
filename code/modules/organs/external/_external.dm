@@ -24,6 +24,8 @@
 	var/last_dam = -1                  // used in healing/processing calculations.
 	var/pain = 0                       // How much the limb hurts.
 	var/pain_disability_threshold      // Point at which a limb becomes unusable due to pain.
+	var/max_limb_integrity			   // Maximum integrity before dismemberment
+	var/limb_integrity				   // When this reaches 0, the limb is dismembered
 
 	// Appearance vars.
 	var/nonsolid                       // Snowflake warning, reee. Used for slime limbs.
@@ -90,6 +92,9 @@
 
 	if(isnull(pain_disability_threshold))
 		pain_disability_threshold = (max_damage * 0.75)
+	if(isnull(max_limb_integrity))
+		max_limb_integrity = min(100, max_damage * 1.5)
+		limb_integrity = max_limb_integrity
 	if(owner)
 		replaced(owner)
 		sync_colour_to_human(owner)
@@ -1283,7 +1288,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 				desc += "necrotic "
 			else if(organ.germ_level >= 600)
 				desc += "septic "
-			else if(organ..germ_level >= 250)
+			else if(organ.germ_level >= 250)
 				desc += "infected "
 			bits += "[desc ? desc : ""][organ.name]"
 		if(bits.len)
