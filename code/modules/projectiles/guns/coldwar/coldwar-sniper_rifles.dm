@@ -56,7 +56,7 @@
 	w_class = 5
 	force = 15
 	max_shells = 10
-	screen_shake = 2
+	screen_shake = 1
 	caliber = "762x54"
 	ammo_type = null
 	load_method = MAGAZINE
@@ -65,7 +65,7 @@
 	one_hand_penalty = 10
 	bayonet_attachable = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/sa/a6h3/
-	accuracy = 5
+	accuracy = 0.5
 	fire_sound = 'sound/weapons/gunshot/svd.ogg'
 	wielded_item_state = "svd-wielded"
 	unload_sound = 'sound/weapons/gunporn/svd_magout.ogg'
@@ -111,7 +111,7 @@
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
-	screen_shake = 2
+	screen_shake = 1
 	one_hand_penalty = 5
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
@@ -160,7 +160,7 @@
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51s, /obj/item/ammo_magazine/c762x51m)
 	magazine_type = null
-	screen_shake = 2
+	screen_shake = 1
 	one_hand_penalty = 5
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 1
@@ -419,7 +419,7 @@
 	wielded_item_state = "l96-wielded"
 	w_class = ITEM_SIZE_HUGE
 	handle_casings = HOLD_CASINGS
-	screen_shake = 2
+	screen_shake = 1
 	slot_flags = SLOT_GUN_SLOT | SLOT_BACK
 	max_shells = 10
 	one_hand_penalty = 8
@@ -500,7 +500,7 @@
 	wielded_item_state = "frf2-wielded"
 	w_class = ITEM_SIZE_HUGE
 	handle_casings = HOLD_CASINGS
-	screen_shake = 2
+	screen_shake = 1
 	max_shells = 10
 	one_hand_penalty = 8
 	accuracy = 6

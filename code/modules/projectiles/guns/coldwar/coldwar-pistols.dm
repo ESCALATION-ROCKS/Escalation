@@ -10,7 +10,7 @@
 	fire_delay = 2.2
 	accuracy = 2.5
 	load_method = MAGAZINE
-	jam_chance = 0.9
+	//jam_chance = 0.9
 	magazine_type = /obj/item/ammo_magazine/m9x19
 	allowed_magazines = /obj/item/ammo_magazine/m9x19
 	fire_sound = 'sound/weapons/gunshotnew/glock.ogg'
@@ -42,7 +42,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.9
+	//jam_chance = 0.9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 
@@ -69,7 +69,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 1.15
+	//jam_chance = 1.15
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 	firemodes = list(
@@ -127,7 +127,7 @@
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
-	jam_chance = 0.55
+	//jam_chance = 0.55
 
 /obj/item/weapon/gun/projectile/colt911/update_icon()
 	..()
@@ -152,7 +152,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 1
+	//jam_chance = 1
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/walther/update_icon()
@@ -179,7 +179,7 @@
 	unload_sound = 'sound/weapons/gunporn/glock_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/glock_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/glock_cock.ogg'
-	jam_chance = 1
+	//jam_chance = 1
 	dist_shot_sound = 'sound/weapons/gunshot/dist/glock_dist.ogg'
 
 /obj/item/weapon/gun/projectile/glock17/update_icon()
@@ -205,7 +205,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.75
+	//jam_chance = 0.75
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/lahti/update_icon()
@@ -231,7 +231,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.9
+	//jam_chance = 0.9
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 
@@ -258,7 +258,7 @@
 	unload_sound = 'sound/weapons/gunporn/pistol_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/pistol_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/pistol_sliderelease.ogg'
-	jam_chance = 0.65
+	//jam_chance = 0.65
 	dist_shot_sound = 'sound/weapons/gunshot/dist/pistol_dist.ogg'
 
 /obj/item/weapon/gun/projectile/hipower/update_icon()
@@ -285,7 +285,7 @@
 	unload_sound = 'sound/weapons/gunporn/star_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/star_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/star_sliderelease.ogg'
-	jam_chance = 0.65
+	//jam_chance = 0.65
 	dist_shot_sound = 'sound/weapons/gunshot/dist/star_dist.ogg'
 
 /obj/item/weapon/gun/projectile/star/update_icon()
@@ -312,7 +312,7 @@
 	unload_sound = 'sound/weapons/gunporn/mac50_magout.ogg'
 	reload_sound = 'sound/weapons/gunporn/mac50_magin.ogg'
 	cocked_sound = 'sound/weapons/gunporn/mac50_sliderelease.ogg'
-	jam_chance = 0.65
+	//jam_chance = 0.65
 	dist_shot_sound = 'sound/weapons/gunshot/dist/mac50_dist.ogg'
 
 /obj/item/weapon/gun/projectile/mac50/update_icon()
