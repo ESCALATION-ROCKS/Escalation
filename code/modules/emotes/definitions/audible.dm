@@ -258,7 +258,7 @@
 			return
 
 		if(M.gender == MALE)
-			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,12)].ogg"
+			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,13)].ogg"
 
 		if(M.gender == FEMALE)
 			emote_sound = "sound/vo/fh1_ReactedInjuryIntense_[rand(1,5)].ogg"
