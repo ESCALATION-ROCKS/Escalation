@@ -2763,7 +2763,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3tgs
 	back = /obj/item/weapon/storage/backpack/bundes_buttpack
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
 	head = /obj/item/clothing/head/coldwar/garcap/bdw
 	belt = /obj/item/weapon/storage/belt/harness/bdw
 	l_hand = /obj/item/clothing/head/coldwar/helmet/bdw/m62/netting
@@ -2775,7 +2775,7 @@
 	shoes = /obj/item/clothing/shoes/coldwar/bundeswehr/field
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/g3ka4
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
-	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw/ugrenades
+	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/bdw
 	back = /obj/item/weapon/storage/backpack/bundes_med
 	head = /obj/item/clothing/head/coldwar/garcap/bdw
 	l_pocket = /obj/item/weapon/key/natomed
