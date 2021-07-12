@@ -258,7 +258,7 @@
 			return
 
 		if(M.gender == MALE)
-			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,12)].ogg"
+			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,13)].ogg"
 
 		if(M.gender == FEMALE)
 			emote_sound = "sound/vo/fh1_ReactedInjuryIntense_[rand(1,5)].ogg"
@@ -333,3 +333,36 @@
 
 		if(emote_sound)
 			playsound(M, emote_sound, 80, 0, 1)
+
+//king emotes
+/decl/emote/audible/byeah
+	key = "byeah"
+	emote_message_3p = "USER yeahs!"
+	conscious = 0
+
+/decl/emote/audible/byeah/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/byeah.ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 75, 0, 3)
+
+/decl/emote/audible/dayum
+	key = "dayum"
+	emote_message_3p = "USER dayums!"
+	conscious = 0
+
+/decl/emote/audible/dayum/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/dayum[rand(1, 2)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 85, 0, 3)
