@@ -81,6 +81,10 @@
 	if((status & ORGAN_DEAD) && dead_icon)
 		icon_state = dead_icon
 
+/obj/item/organ/internal/break_organ()
+	damage = max_damage
+	status |= ORGAN_BROKEN
+
 /obj/item/organ/internal/remove_rejuv()
 	if(owner)
 		owner.internal_organs -= src
@@ -153,6 +157,7 @@
 			to_chat(user, "<span class='warning'>Not every part of [src] could be saved, some dead tissue had to be removed, making it more suspectable to damage in the future.</span>")
 			set_max_damage(new_max_dam)
 	*/
+	status &= ~ORGAN_BROKEN
 	heal_damage(damage)
 
 /obj/item/organ/internal/proc/get_scarring_level()

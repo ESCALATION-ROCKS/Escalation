@@ -24,6 +24,8 @@
 	var/last_dam = -1                  // used in healing/processing calculations.
 	var/pain = 0                       // How much the limb hurts.
 	var/pain_disability_threshold      // Point at which a limb becomes unusable due to pain.
+	var/max_limb_integrity			   // Maximum integrity before dismemberment
+	var/limb_integrity				   // When this reaches 0, the limb is dismembered
 
 	// Appearance vars.
 	var/nonsolid                       // Snowflake warning, reee. Used for slime limbs.
@@ -90,6 +92,9 @@
 
 	if(isnull(pain_disability_threshold))
 		pain_disability_threshold = (max_damage * 0.75)
+	if(isnull(max_limb_integrity))
+		max_limb_integrity = min(100, max_damage * 1.5)
+		limb_integrity = max_limb_integrity
 	if(owner)
 		replaced(owner)
 		sync_colour_to_human(owner)
@@ -1276,7 +1281,16 @@ Note that amputating the affected organ does in fact remove the infection from t
 		if(status & ORGAN_BROKEN)
 			bits += "broken bones"
 		for(var/obj/item/organ/organ in internal_organs)
-			bits += "[organ.damage ? "damaged " : ""][organ.name]"
+			var/desc = ""
+			if(organ.status & ORGAN_BROKEN)
+				desc += "broken "
+			if(organ.status & ORGAN_DEAD)
+				desc += "necrotic "
+			else if(organ.germ_level >= 600)
+				desc += "septic "
+			else if(organ.germ_level >= 250)
+				desc += "infected "
+			bits += "[desc ? desc : ""][organ.name]"
 		if(bits.len)
 			wound_descriptors["[english_list(bits)] visible in the wounds"] = 1
 
@@ -1338,7 +1352,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 		to_chat(user, "<span class='notice'>You find no visible wounds.</span>")
 
 	to_chat(user, "<span class='notice'>Checking skin now...</span>")
-	if(!do_mob(user, owner, 10))
+	if(!do_mob(user, owner, 5))
 		to_chat(user, "<span class='notice'>You must stand still to check [owner]'s skin for abnormalities.</span>")
 		return
 
@@ -1359,7 +1373,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 		to_chat(user, "<span class='warning'>[owner]'s skin is [english_list(badness)].</span>")
 
 	to_chat(user, "<span class='notice'>Checking bones now...</span>")
-	if(!do_mob(user, owner, 10))
+	if(!do_mob(user, owner, 5))
 		to_chat(user, "<span class='notice'>You must stand still to feel [src] for fractures.</span>")
 		return
 
@@ -1374,9 +1388,9 @@ Note that amputating the affected organ does in fact remove the infection from t
 	if(dislocated == 2)
 		to_chat(user, "<span class='warning'>The [joint] is dislocated!</span>")
 
-	
+
 	to_chat(user, "<span class='notice'>Checking eyes now...</span>")
-	if(!do_mob(user, owner, 10))
+	if(!do_mob(user, owner, 5))
 		to_chat(user, "<span class='notice'>You must stand to check [src] for brain or eye damage.</span>")
 		return
 

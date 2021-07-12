@@ -25,3 +25,7 @@
 
 /obj/item/organ/external/stump/is_usable()
 	return 0
+
+/obj/item/organ/external/stump/dropped()
+	. = ..()
+	qdel(src)

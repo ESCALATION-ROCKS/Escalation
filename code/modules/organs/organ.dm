@@ -88,11 +88,17 @@ var/list/organ_cache = list()
 	if(owner && vital)
 		owner.death()
 
-/obj/item/organ/process()
+//should be replaced by organ/internal
+/obj/item/organ/proc/break_organ()
+	damage = max_damage
+	status |= ORGAN_BROKEN
 
+/obj/item/organ/process()
 	if(loc != owner)
 		owner = null
-
+	//check if we've hit max_damage
+	if(damage >= max_damage)
+		break_organ()
 	//dead already, no need for more processing
 	if(status & ORGAN_DEAD)
 		return
@@ -122,10 +128,6 @@ var/list/organ_cache = list()
 		handle_antibiotics()
 		handle_rejection()
 		handle_germ_effects()
-
-	//check if we've hit max_damage
-	if(damage >= max_damage)
-		die()
 
 /obj/item/organ/proc/is_preserved()
 	if(istype(loc,/obj/item/organ))

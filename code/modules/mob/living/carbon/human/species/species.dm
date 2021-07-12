@@ -84,10 +84,11 @@
 	var/gibbed_anim = "gibbed-h"
 	var/dusted_anim = "dust-h"
 	var/death_sound
-	var/death_message = "twitches before falling limp."
+	var/death_sound_local = 'sound/effects/death_sound.ogg'
+	var/death_message = "twitches and falls limp."
 	var/knockout_message = "has been knocked out."
 	var/halloss_message = "loses his conciousness."
-	var/halloss_message_self = "So much pain..."
+	var/halloss_message_self = "Oh god, THE PAIN!"
 
 	var/spawns_with_stack = 0
 	// Environment tolerance/life processes vars.

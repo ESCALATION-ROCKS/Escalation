@@ -15,7 +15,6 @@
 #define CRIT_SUCCESS 2
 #define CRIT_FAILURE 3
 
-
 //I am aware this is probably the worst possible way of doing it but I'm using this method till I get a better one. - Matt
 /mob
 	var/str = 8    //strength - used for hitting and lifting.
@@ -34,8 +33,6 @@
 	var/skill_leadership = 0
 	var/skill_science = 0
 	var/skill_cooking = 0
-
-
 
 	//crit shit
 	var/crit_success_chance = CRIT_SUCCESS_NORM

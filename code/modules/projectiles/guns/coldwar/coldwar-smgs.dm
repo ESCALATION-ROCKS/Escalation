@@ -69,7 +69,7 @@
 	accuracy = 1.4
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/baf/
 	bayonet_attachable = 1
-	jam_chance = 0.725
+	//jam_chance = 0.725
 	slowdown_general = 0.15
 	wielded_item_state = "sterling-wielded"
 	fire_sound = 'sound/weapons/gunshot/sterling.ogg'
@@ -110,7 +110,7 @@
 	accuracy = 1.4
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/baf/
 	bayonet_attachable = 1
-	jam_chance = 0.725
+	//jam_chance = 0.725
 	slowdown_general = 0.15
 	wielded_item_state = "kp31-wielded"
 	fire_sound = 'sound/weapons/gunshot/waltherp1.ogg'
@@ -151,7 +151,7 @@
 	accuracy = 1.4
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/bdw/
 	bayonet_attachable = 0
-	jam_chance = 0.725
+	//jam_chance = 0.725
 	slowdown_general = 0.15
 	wielded_item_state = "mp5-wielded"
 	fire_sound = 'sound/weapons/gunshot/scorpion.ogg' /////////change all sounds
@@ -192,7 +192,7 @@
 	one_hand_penalty = 5
 	accuracy = 1.4
 	bayonet_attachable = 0
-	jam_chance = 0.725
+	//jam_chance = 0.725
 	slowdown_general = 0.15
 	wielded_item_state = "z84-wielded"
 	fire_sound = 'sound/weapons/gunshot/z84.ogg' /////////change all sounds
@@ -233,7 +233,7 @@
 	one_hand_penalty = 5
 	accuracy = 1.4
 	bayonet_attachable = 0
-	jam_chance = 0.725
+	//jam_chance = 0.725
 	slowdown_general = 0.15
 	wielded_item_state = "mat49-wielded"
 	fire_sound = 'sound/weapons/gunshot/mat49.ogg' /////////change all sounds

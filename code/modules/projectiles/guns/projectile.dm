@@ -23,6 +23,7 @@
 	var/ammo_type = null		//the type of ammo that the gun comes preloaded with
 	var/list/loaded = list()	//stored ammo
 	var/starts_loaded = 1		//whether the gun starts loaded or not, can be overridden for guns crafted in-game
+	var/ammocounter = FALSE
 
 	//For MAGAZINE guns
 	var/magazine_type = null	//the type of magazine that the gun comes preloaded with
@@ -31,10 +32,6 @@
 	var/auto_eject = 0			//if the magazine should automatically eject itself when empty.
 	var/auto_eject_sound = null
 
-	var/is_jammed = 0           //Whether this gun is jammed
-	var/jam_chance = 2          //boooooooiiiiiii
-	var/degradation_rate = 1
-	var/ammocounter = 0
 	//TODO generalize ammo icon states for guns
 	//var/magazine_states = 0
 	//var/list/icon_keys = list()		//keys
@@ -49,16 +46,8 @@
 		if(ispath(magazine_type) && (load_method & MAGAZINE))
 			ammo_magazine = new magazine_type(src)
 	update_icon()
-	if(condition >= 1)
-		condition = rand (80, 100) //phleg
-
 
 /obj/item/weapon/gun/projectile/consume_next_projectile(mob/user)
-	if(!is_jammed && prob(jam_chance))
-		src.visible_message("<span class='danger'>\The [src] jams!</span>")
-		is_jammed = 1
-	if(is_jammed)
-		return null
 	//get the next casing
 	if(loaded.len)
 		chambered = loaded[1] //load next casing.
@@ -213,12 +202,6 @@
 
 //attempts to unload src. If allow_dump is set to 0, the speedloader unloading method will be disabled
 /obj/item/weapon/gun/projectile/proc/unload_ammo(mob/user, var/allow_dump=1)
-	if(is_jammed)
-		user.visible_message("\The [user] begins to unjam [src].", "You clear the jam and unload [src]")
-		if(!do_after(user, rand(4,20), src))
-			return
-		is_jammed = 0
-		playsound(src.loc, 'sound/weapons/gunhandling/unjam.ogg', 50, 1)
 	if(ammo_magazine)
 		playsound(user, unload_sound, 60, 1)
 		if(ammo_magazine.load_delay)
@@ -249,15 +232,6 @@
 	update_icon()
 
 /obj/item/weapon/gun/projectile/attackby(var/obj/item/A as obj, mob/user as mob)
-/*	if(istype(A, /obj/item/weapon/rasp))
-		if (src.condition < 100 || src.condition >90 && src.condition != 0)
-			user << "\blue You start repair the [src] with the [A]"
-			sleep(50)
-			user << "\blue You fix the [src]"
-			src.condition += 5
-			if (prob(100 - src.condition))
-				del(A)
-*/
 	if(istype(A, /obj/item/weapon/gunsmith/upgrade))
 		if(istype(A, /obj/item/weapon/gunsmith/upgrade/suppressor) && src.upg_sup == 1)
 			user << "\blue You began installing upgrade."
@@ -269,8 +243,6 @@
 			user << "\blue Success!"
 			src.upg_sup = 2
 			src.desc += " [A.name]."
-			if(src.condition <= 90 && src.condition != 0)
-				src.condition += 10
 			del(A)
 			return
 		if(istype(A, /obj/item/weapon/gunsmith/upgrade/barrelarm) && src.upg_bar == 1)
@@ -282,8 +254,6 @@
 			user << "\blue Success!"
 			src.upg_bar = 2
 			src.desc += " [A.name]."
-			if(src.condition <= 90 && src.condition != 0)
-				src.condition += 10
 			del(A)
 			return
 		if(istype(A, /obj/item/weapon/gunsmith/upgrade/rapidblowback) && src.upg_rap == 1)
@@ -297,8 +267,6 @@
 			user << "\blue Success!"
 			src.upg_rap = 2
 			src.desc += " [A.name]."
-			if(src.condition <= 90 && src.condition != 0)
-				src.condition += 10
 			del(A)
 			return
 		if(istype(A, /obj/item/weapon/gunsmith/upgrade/autofire) && src.upg_aut == 1)
@@ -308,8 +276,6 @@
 			src.upg_aut = 2
 			src.desc += " [A.name]."
 			src.accuracy += 1
-			if(src.condition <= 90 && src.condition != 0)
-				src.condition += 10
 			del(A)
 			return
 		if(istype(A, /obj/item/weapon/gunsmith/upgrade/stabilizer) && src.upg_stb == 1)
@@ -323,8 +289,6 @@
 			user << "\blue Success!"
 			upg_stb = 2
 			src.desc += " [A.name]."
-			if(src.condition <= 90 && src.condition != 0)
-				src.condition += 10
 			del(A)
 			return
 		else
@@ -332,7 +296,6 @@
 	else
 		load_ammo(A, user)
 	return
-
 
 /obj/item/weapon/gun/projectile/attack_self(mob/user as mob)
 	if(firemodes.len > 1)
@@ -347,23 +310,7 @@
 		return ..()
 
 /obj/item/weapon/gun/projectile/afterattack(atom/A, mob/living/user)
-	..()
-	if(!is_jammed)
-		if (prob(3 * src.degradation_rate) && src.condition < 100 && src.condition != 0)
-			src.condition -= 1
-		if (condition < 70 && prob(((100 - src.condition) / 100) * src.jam_chance))
-			src.visible_message("<span class='danger'>\The [src] jams!</span>")
-			is_jammed = 1
-		if(condition < 15 && prob(src.condition * src.jam_chance))
-			user.visible_message("[src] blows into pieces!", "\red <b>[src] blows into pieces!</b>")
-			for(var/mob/K in viewers(usr))
-				K << 'sound/effects/bang.ogg'
-			var/mob/living/M = user
-			M.take_organ_damage(40,80)
-			qdel(src)
-			new /obj/item/weapon/metalparts(user.loc)
-			new /obj/item/weapon/metalparts(user.loc)
-			new /obj/item/weapon/metalparts(user.loc)
+	. = ..()
 	if(auto_eject && ammo_magazine && ammo_magazine.stored_ammo && !ammo_magazine.stored_ammo.len)
 		ammo_magazine.loc = get_turf(src.loc)
 		user.visible_message(
@@ -378,12 +325,8 @@
 
 /obj/item/weapon/gun/projectile/examine(mob/user)
 	. = ..(user)
-	if(is_jammed)
-		to_chat(user, "<span class='warning'>It looks jammed.</span>")
 	if(ammo_magazine)
 		to_chat(user, "It has \a [ammo_magazine] loaded.")
-	if(condition > 0)
-		usr << "Condition is [condition] %."
 	if(ammocounter)
 		to_chat(user, "Has [getAmmo()] round\s remaining.")
 	return
@@ -397,18 +340,3 @@
 	if(chambered)
 		bullets += 1
 	return bullets
-
-/* Unneeded -- so far.
-//in case the weapon has firemodes and can't unload using attack_hand()
-/obj/item/weapon/gun/projectile/verb/unload_gun()
-	set name = "Unload Ammo"
-	set category = "Object"
-	set src in usr
-
-	if(usr.stat || usr.restrained()) return
-
-	unload_ammo(usr)
-*/
-
-
-
