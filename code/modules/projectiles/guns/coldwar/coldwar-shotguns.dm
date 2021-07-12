@@ -138,7 +138,6 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/r870_dist.ogg'
 	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 	unload_sound = 'sound/weapons/gunporn/m203_openbarrel.ogg'
-	jam_chance = 0.010
 	slowdown_general = 0.25
 	bayonet_attachable = 1
 	bayonet_type = /obj/item/weapon/material/knife/bayonet/usmc/
@@ -238,7 +237,6 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/toz194_dist.ogg'
 	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 	unload_sound = 'sound/weapons/gunporn/gp25_openbarrel.ogg'
-	jam_chance = 0.010
 	slowdown_general = 0.25
 	bayonet_attachable = 0
 	bayonet_type = null
@@ -338,7 +336,6 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/toz194_dist.ogg'
 	empty_sound = 'sound/weapons/gunhandling/gen_empty.ogg'
 	unload_sound = 'sound/weapons/gunporn/gp25_openbarrel.ogg'
-	jam_chance = 0.010
 	slowdown_general = 0.25
 	bayonet_attachable = 0
 	bayonet_type = null

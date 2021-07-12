@@ -1,6 +1,5 @@
 /obj/item/weapon/gun/projectile/pistol/sec/MK
 	desc = "Similar in both appearance and use of the NT Mk58, the MK pistol is an cheap knock off that preys on the unsuspecting firearm buyers."
-	jam_chance = 35
 
 /obj/item/weapon/gun/projectile/pistol/silenced/cheap
 	desc = "A handgun with an integrated silencer(?). Uses .45 rounds."
@@ -24,4 +23,3 @@
 
 /obj/item/weapon/gun/projectile/automatic/mini_uzi/usi
 	desc = "An uncommon machine pistol, sometimes refered to as an 'uzi' by the backwater spacers it is often associated with. This one looks especially run-down. Uses .45 rounds."
-	jam_chance = 20

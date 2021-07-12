@@ -12,10 +12,6 @@
 	key = "deathgasp"
 	emote_message_3p = "USER lets out a waning guttural screech, green blood bubbling from its maw."
 
-/decl/emote/audible/whimper
-	key ="whimper"
-	emote_message_3p = "USER whimpers."
-
 /decl/emote/audible/gasp
 	key ="gasp"
 	emote_message_3p = "USER gasps."
@@ -43,6 +39,20 @@
 	key ="choke"
 	emote_message_3p = "USER chokes."
 	conscious = 0
+
+/decl/emote/audible/choke/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+		if(M.gender == MALE)
+			emote_sound = "sound/vo/gurp_male[rand(1,2)].ogg"
+
+		if(M.gender == FEMALE)
+			emote_sound = "sound/vo/gurp_female[rand(1,2)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 25, 0)
 
 /decl/emote/audible/gnarl
 	key ="gnarl"
@@ -96,6 +106,24 @@
 	key = "whimper"
 	emote_message_3p = "USER whimpers."
 
+/decl/emote/audible/whimper/do_extra(var/mob/M)
+	if(M.stat)
+		return
+
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		if(M.gender == MALE)
+			emote_sound = "sound/vo/cry_male[rand(1,4)].ogg"
+
+		if(M.gender == FEMALE)
+			emote_sound = "sound/vo/cry_female[rand(1,6)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 80, 0, 1)
+
 /decl/emote/audible/yawn
 	key = "yawn"
 	emote_message_3p = "USER yawns."
@@ -114,7 +142,6 @@
 
 	if(emote_sound)
 		playsound(M, emote_sound, 70, 0, 1)
-
 
 /decl/emote/audible/chuckle
 	key = "chuckle"
@@ -146,6 +173,24 @@
 /decl/emote/audible/cry
 	key = "cry"
 	emote_message_3p = "USER cries."
+
+/decl/emote/audible/cry/do_extra(var/mob/M)
+	if(M.stat)
+		return
+
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		if(M.gender == MALE)
+			emote_sound = "sound/vo/cry_male[rand(1,4)].ogg"
+
+		if(M.gender == FEMALE)
+			emote_sound = "sound/vo/cry_female[rand(1,6)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 80, 0, 1)
 
 /decl/emote/audible/sigh
 	key = "sigh"
@@ -194,7 +239,6 @@
 		if(emote_sound)
 			playsound(M, emote_sound, 80, 0, 2)
 
-
 /decl/emote/audible/mumble
 	key = "mumble"
 	emote_message_3p = "USER mumbles!"
@@ -220,13 +264,27 @@
 			emote_sound = "sound/vo/fh1_ReactedInjuryIntense_[rand(1,5)].ogg"
 
 		if(emote_sound)
-			playsound(M, emote_sound, 100, 0, 3)
-
+			playsound(M, emote_sound, 100, 0, 2)
 
 /decl/emote/audible/moan
 	key = "moan"
 	emote_message_3p = "USER moans!"
 	conscious = 0
+
+/decl/emote/audible/moan/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		if(M.gender == MALE)
+			emote_sound = "sound/vo/moan_male[rand(1,5)].ogg"
+
+		if(M.gender == FEMALE)
+			emote_sound = "sound/vo/moan_female[rand(1,8)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 80, 0, 2)
 
 /decl/emote/audible/giggle
 	key = "giggle"
@@ -257,7 +315,21 @@
 		if(emote_sound)
 			playsound(M, emote_sound, 100, 0, extrarange = 4)
 
-
 /decl/emote/audible/grunt
 	key = "grunt"
 	emote_message_3p = "USER grunts."
+
+/decl/emote/audible/grunt/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		if(M.gender == MALE)
+			emote_sound = "sound/vo/moan_male[rand(1,5)].ogg"
+
+		if(M.gender == FEMALE)
+			emote_sound = "sound/vo/moan_female[rand(1,8)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 80, 0, 1)

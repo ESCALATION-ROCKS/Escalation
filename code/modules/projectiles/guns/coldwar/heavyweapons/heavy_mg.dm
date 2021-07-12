@@ -25,7 +25,6 @@
 	caliber = "9mm"
 	slot_flags = 0//no flags for BIG GUNS
 	ammo_type = /obj/item/ammo_casing/c9mm//9mm shots hell NO, but for tests it's OK
-	jam_chance = 0.35
 
 	fire_sound = 'sound/weapons/gunshot/heavy_mg/basic-mg.ogg'
 
@@ -249,7 +248,6 @@
 	caliber = "127x108mm"//fix caliber to
 	ammo_type = /obj/item/ammo_casing/a127x108mm
 	allowed_magazines = /obj/item/ammo_magazine/c127x108b
-	jam_chance = 0.3
 	accuracy = 0.8
 
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
@@ -280,7 +278,6 @@
 	caliber = "127x108mm"
 	ammo_type = /obj/item/ammo_casing/a127x108mm
 	allowed_magazines = /obj/item/ammo_magazine/c127x108d
-	jam_chance = 0.3
 	accuracy = 0.8
 
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
@@ -366,7 +363,6 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/50cal_dist.ogg'
 	allowed_magazines = /obj/item/ammo_magazine/c50cal
 	fire_sound = 'sound/weapons/gunshot/m2hb.ogg'
-	jam_chance = 0.455
 	accuracy = 1.2
 
 	firemodes = list(
@@ -427,7 +423,6 @@
 	dist_shot_sound = 'sound/weapons/gunshot/dist/mg_dist.ogg'
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51b/bdw, /obj/item/ammo_magazine/c762x51b/bdw/drum)
 	fire_sound = 'sound/weapons/gunshot/mg3.ogg'
-	jam_chance = 0.3
 	accuracy = 2.3
 
 	firemodes = list(
