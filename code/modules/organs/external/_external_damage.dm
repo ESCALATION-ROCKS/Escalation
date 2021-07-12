@@ -110,10 +110,10 @@
 	return created_wound
 
 /obj/item/organ/external/proc/damage_limb_integrity(damage_amt = 0, damage_flags)
-	limb_integrity = max(0, limb_integrity - damage_amt)
+	limb_integrity = clamp(limb_integrity - damage_amt, 0, max_limb_integrity)
 
 /obj/item/organ/external/proc/heal_limb_integrity(heal_amt = 0, damage_flags)
-	limb_integrity = min(min(100, max_damage), limb_integrity + heal_amt)
+	limb_integrity = clamp(limb_integrity + heal_amt, 0, max_limb_integrity)
 
 /obj/item/organ/external/proc/damage_internal_organs(damage_amt = 0, damage_flags)
 	var/cur_damage = brute_dam
