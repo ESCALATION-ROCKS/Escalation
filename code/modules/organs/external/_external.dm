@@ -1352,7 +1352,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 		to_chat(user, "<span class='notice'>You find no visible wounds.</span>")
 
 	to_chat(user, "<span class='notice'>Checking skin now...</span>")
-	if(!do_mob(user, owner, 10))
+	if(!do_mob(user, owner, 5))
 		to_chat(user, "<span class='notice'>You must stand still to check [owner]'s skin for abnormalities.</span>")
 		return
 
@@ -1373,7 +1373,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 		to_chat(user, "<span class='warning'>[owner]'s skin is [english_list(badness)].</span>")
 
 	to_chat(user, "<span class='notice'>Checking bones now...</span>")
-	if(!do_mob(user, owner, 10))
+	if(!do_mob(user, owner, 5))
 		to_chat(user, "<span class='notice'>You must stand still to feel [src] for fractures.</span>")
 		return
 
@@ -1390,7 +1390,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 
 
 	to_chat(user, "<span class='notice'>Checking eyes now...</span>")
-	if(!do_mob(user, owner, 10))
+	if(!do_mob(user, owner, 5))
 		to_chat(user, "<span class='notice'>You must stand to check [src] for brain or eye damage.</span>")
 		return
 

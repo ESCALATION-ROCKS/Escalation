@@ -9,8 +9,8 @@
 	max_duration = 100
 	can_infect = 1
 	blood_level = 1
-	min_duration = 70
-	max_duration = 90
+	min_duration = 45
+	max_duration = 70
 	shock_level = 40
 
 /datum/surgery_step/suture_wounds/can_use(mob/living/user, mob/living/carbon/human/target, target_zone, obj/item/tool)
