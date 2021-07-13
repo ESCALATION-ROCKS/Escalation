@@ -100,17 +100,12 @@
 			. -= 0
 	. = max(., 0)
 
-//this is fucking useless for now kind of
 /proc/spread_germs_to_organ(var/obj/item/organ/external/E, var/mob/living/carbon/human/user)
-	if(!istype(user) || !istype(E))
-		return
+	if(!istype(user) || !istype(E)) return
 
 	var/germ_level = user.germ_level
 	if(user.gloves)
 		germ_level = user.gloves.germ_level
-
-	if(germ_level)
-		E.germ_level += germ_level
 
 /obj/item/proc/do_surgery(mob/living/carbon/M, mob/living/user, fuckup_prob)
 	if(!istype(M))

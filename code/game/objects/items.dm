@@ -16,7 +16,7 @@
 	var/no_attack_log = 0			//If it's an item we don't want to log attack_logs with, set this to 1
 	var/emchance = 1		//chance of embedding obviously
 	pass_flags = PASSTABLE
-	//causeerrorheresoifixthis
+//	causeerrorheresoifixthis
 	var/obj/item/master = null
 	var/list/origin_tech = null	//Used by R&D to determine what research bonuses it grants.
 	var/list/attack_verb = list("hit") //Used in attackby() to say how something was attacked "[x] has been [z.attack_verb] by [y] with [z]"
@@ -47,6 +47,7 @@
 	var/slowdown_general = 0 // How much clothing is slowing you down. Negative values speeds you up. This is a genera##l slowdown, no matter equipment slot.
 	var/slowdown_per_slot[slot_last] // How much clothing is slowing you down. Negative values speeds you up. This is an associative list: item slot - slowdown
 	var/canremove = 1 //Mostly for Ninja code at this point but basically will not allow the item to be removed if set to 0. /N
+	var/list/armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
 	var/list/allowed = null //suit storage stuff.
 	var/obj/item/device/uplink/hidden_uplink = null // All items can have an uplink hidden inside, just remember to add the triggers.
 	var/zoomdevicename = null //name used for message when binoculars/scope is used
@@ -87,12 +88,16 @@
 	var/drop_sound = null
 	var/picksound = null
 
+/obj/item/proc/picksound(mob/user)
+	if(picksound)
+		playsound(user, picksound, 50, 1)
+
+
 /obj/item/New()
-	. = ..()
+	..()
 	if(randpixel && (!pixel_x && !pixel_y) && isturf(loc)) //hopefully this will prevent us from messing with mapper-set pixel_x/y
 		pixel_x = rand(-randpixel, randpixel)
 		pixel_y = rand(-randpixel, randpixel)
-	InitializeArmorIntegrity()
 
 /obj/item/Destroy()
 	qdel(hidden_uplink)
@@ -104,10 +109,6 @@
 		m.update_inv_l_hand()
 		src.loc = null
 	return ..()
-
-/obj/item/proc/picksound(mob/user)
-	if(picksound)
-		playsound(user, picksound, 50, 1)
 
 /obj/item/device
 	icon = 'icons/obj/device.dmi'

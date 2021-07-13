@@ -150,14 +150,7 @@
 				"bomb" = 0,
 				"bio" = 100,
 				"rad" = 100)
-	var/list/armor_fullblock = list(
-				"melee" = 0,
-				"bullet" = 0,
-				"laser" = 0,
-				"energy" = 0,
-				"bomb" = 0,
-				"bio" = 100,
-				"rad" = 100)
+
 	//Scary debug things
 	var/debug_ai = 3				// Logging level for this mob (1,2,3)
 	var/path_display = 0			// Will display the path in green when pathing
@@ -1538,12 +1531,8 @@
 		if(4)
 			adjustFireLoss(rand(1, 6))
 
-/mob/living/simple_animal/getarmor(def_zone, attack_flag, get_fullblock)
-	var/armorval
-	if(get_fullblock)
-		armorval = armor_fullblock[attack_flag]
-	else
-		armorval = armor[attack_flag]
+/mob/living/simple_animal/getarmor(def_zone, attack_flag)
+	var/armorval = armor[attack_flag]
 	if(!armorval)
 		return 0
 	else

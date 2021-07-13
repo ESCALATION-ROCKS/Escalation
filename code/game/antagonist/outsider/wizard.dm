@@ -126,7 +126,7 @@ var/datum/antagonist/wizard/wizards
 	for(var/spell/spell_to_remove in mind.learned_spells)
 		remove_spell(spell_to_remove)
 
-/obj/item/clothing
+obj/item/clothing
 	var/wizard_garb = 0
 	var/wearable = 0
 

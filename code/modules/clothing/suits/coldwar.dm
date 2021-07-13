@@ -86,7 +86,6 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 30, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
-	armor_fullblock = list(melee = 30, bullet = 80, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 

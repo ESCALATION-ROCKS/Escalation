@@ -9,8 +9,7 @@
 	standard 0 if fail
 */
 /mob/living/proc/apply_damage(var/damage = 0,var/damagetype = BRUTE, var/def_zone = null, var/blocked = 0, var/damage_flags = 0, var/used_weapon = null)
-	if(!damage || (blocked >= 100))
-		return 0
+	if(!damage || (blocked >= 100))	return 0
 	switch(damagetype)
 		if(BRUTE)
 			adjustBruteLoss(damage * blocked_mult(blocked))
@@ -31,8 +30,6 @@
 	updatehealth()
 	return 1
 
-/mob/living/proc/apply_armor_damage(var/damage = 0, var/damagetype = BRUTE, var/def_zone = null, var/blocked = 0, var/damage_flags = 0, var/used_weapon = null)
-	return 1
 
 /mob/living/proc/apply_damages(var/brute = 0, var/burn = 0, var/tox = 0, var/oxy = 0, var/clone = 0, var/halloss = 0, var/def_zone = null, var/blocked = 0, var/damage_flags = 0)
 	if(blocked >= 100)	return 0

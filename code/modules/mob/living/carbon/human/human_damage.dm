@@ -357,12 +357,12 @@ This function restores all organs.
 	return organs_by_name[check_zone(zone)]
 
 /mob/living/carbon/human/apply_damage(var/damage = 0, var/damagetype = BRUTE, var/def_zone = null, var/blocked = 0, var/damage_flags = 0, var/obj/used_weapon = null)
+
 	var/obj/item/organ/external/organ = null
 	if(isorgan(def_zone))
 		organ = def_zone
 	else
-		if(!def_zone)
-			def_zone = ran_zone(def_zone)
+		if(!def_zone)	def_zone = ran_zone(def_zone)
 		organ = get_organ(check_zone(def_zone))
 
 	//Handle other types of damage
@@ -402,31 +402,10 @@ This function restores all organs.
 	BITSET(hud_updateflag, HEALTH_HUD)
 	return created_wound
 
-// please don't fucking apply toxin or clone damage to armor that is dumb
-/mob/living/carbon/human/apply_armor_damage(var/damage = 0, var/damagetype = BRUTE, var/def_zone = null, var/blocked = 0, var/damage_flags = 0, var/used_weapon = null)
-	if(!(damagetype in list(BRUTE, BURN)))
-		return
-	var/obj/item/organ/external/organ = null
-	if(isorgan(def_zone))
-		organ = def_zone
-	else
-		if(!def_zone)
-			def_zone = ran_zone(def_zone)
-		organ = get_organ(check_zone(def_zone))
-	var/list/gear
-	if(!organ)
-		gear = get_equipped_items()
-		for(var/obj/item/pissnigga in gear)
-			pissnigga.damage_armor(damage)
-	else
-		gear = get_covering_equipped_items(organ.body_part)
-		for(var/obj/item/pissnigga in gear)
-			pissnigga.damage_armor(damage, organ.body_part)
-	return 1
-
 // Find out in how much pain the mob is at the moment.
 /mob/living/carbon/human/proc/get_shock()
-	if(!can_feel_pain())
+
+	if (!can_feel_pain())
 		return 0
 
 	var/traumatic_shock = getHalLoss()                 // Pain.
