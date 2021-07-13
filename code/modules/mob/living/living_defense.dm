@@ -11,6 +11,10 @@
 	a blocked amount between 0 - 100, representing the success of the armor check.
 */
 /mob/living/proc/run_armor_check(var/def_zone = null, var/attack_flag = "melee", var/armour_pen = 0, var/absorb_text = null, var/soften_text = null)
+	var/integrity = getarmorintegrity(def_zone)
+	if(integrity < 0)
+		//armor is fucking busted lol
+		return 0
 	var/armor = getarmor(def_zone, attack_flag, FALSE)
 	var/fullblock = getarmor(def_zone, attack_flag, TRUE)
 	if((armour_pen >= armor) && (armour_pen >= fullblock))
@@ -64,8 +68,8 @@
 /mob/living/proc/getarmor(var/def_zone, var/type, var/get_fullblock = FALSE)
 	return 0
 
-/mob/living/proc/damagearmor(var/def_zone, var/type, var/get_fullblock = FALSE)
-	return 0
+/mob/living/proc/getarmorintegrity(var/def_zone)
+	return 100
 
 /mob/living/bullet_act(var/obj/item/projectile/P, var/def_zone)
 	//Being hit while using a deadman switch
@@ -92,6 +96,7 @@
 
 	if(!P.nodamage)
 		apply_damage(damage, P.damage_type, def_zone, absorb, flags, P)
+		apply_armor_damage(P.armor_damage, P.damage_type, def_zone, absorb, flags, P)
 	P.on_hit(src, absorb, def_zone)
 	return absorb
 

@@ -116,6 +116,19 @@ meteor_act
 				total += weight
 	return (armorval/max(total, 1))
 
+/mob/living/carbon/human/getarmorintegrity(var/def_zone, var/type)
+	//If a specific bodypart is targetted, check how that bodypart is protected and return the value.
+	if(def_zone)
+		if(isorgan(def_zone))
+			return getarmorintegrity_organ(def_zone, type)
+		else
+			var/obj/item/organ/external/affecting = get_organ(check_zone(def_zone))
+			if(affecting)
+				return getarmorintegrity_organ(affecting, type)
+	//otherwise no lol
+	else
+		return 0
+
 //this proc returns the Siemens coefficient of electrical resistivity for a particular external organ.
 /mob/living/carbon/human/proc/get_siemens_coefficient_organ(var/obj/item/organ/external/def_zone)
 	if (!def_zone)
@@ -175,6 +188,25 @@ meteor_act
 					else
 						protection = add_armor(protection, bling.armor[type])
 	return protection
+
+//this proc returns the armour value for a particular external organ.
+/mob/living/carbon/human/proc/getarmorintegrity_organ(var/obj/item/organ/external/def_zone, var/type, var/get_fullblock = FALSE)
+	if(!type || !def_zone)
+		return 0
+	if(!istype(def_zone))
+		def_zone = get_organ(check_zone(def_zone))
+	if(!def_zone)
+		return 0
+	var/armor_integrity = 0
+	var/list/protective_gear = list(head, wear_mask, wear_suit, w_uniform, gloves, shoes)
+	for(var/obj/item/clothing/gear in protective_gear)
+		if(gear.body_parts_covered & def_zone.body_part)
+			armor_integrity = add_armor(armor_integrity, gear.armor_integrity["[def_zone.body_part]"])
+		if(gear.accessories.len)
+			for(var/obj/item/clothing/accessory/bling in gear.accessories)
+				if(bling.body_parts_covered & def_zone.body_part)
+					armor_integrity = add_armor(armor_integrity, bling.armor_integrity["[def_zone.body_part]"])
+	return armor_integrity
 
 /mob/living/carbon/human/proc/check_head_coverage()
 	var/list/body_parts = list(head, wear_mask, wear_suit, w_uniform)
