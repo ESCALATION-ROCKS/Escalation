@@ -29,6 +29,7 @@
 	var/dispersion = 0.0
 
 	var/damage = 10
+	var/armor_damage = 10 //How much a projectile damages armor integrity on a given limb
 	var/damage_type = BRUTE //BRUTE, BURN, TOX, OXY, CLONE, PAIN are the only things that should be in here
 	var/nodamage = 0 //Determines if the projectile will skip any damage inflictions
 	var/taser_effect = 0 //If set then the projectile will apply it's agony damage using stun_effect_act() to mobs it hits, and other damage will be ignored
@@ -36,7 +37,8 @@
 	var/projectile_type = /obj/item/projectile
 	var/penetrating = 0 //If greater than zero, the projectile will pass through dense objects as specified by on_penetrate()
 	var/kill_count = 50 //This will de-increment every process(). When 0, it will delete the projectile.
-		//Effects
+
+	//Effects
 	var/stun = 0
 	var/weaken = 0
 	var/paralyze = 0
@@ -55,7 +57,7 @@
 	var/muzzle_type
 	var/tracer_type
 	var/impact_type
-	var/breech_type//ONLY FOR RPG AND ANOTHER REACTIVE SHIT
+	var/breech_type //ONLY FOR RPG AND ANOTHER REACTIVE SHIT
 
 	var/fire_sound
 
@@ -69,6 +71,9 @@
 	var/list/segments = list() //For hitscan projectiles with tracers.
 
 	var/fire_sound_vol = 50
+
+	var/mob_passthrough_chance = 0
+	var/mob_passthrough_check = FALSE
 
 /obj/item/projectile/Initialize()
 	damtype = damage_type //TODO unify these vars properly
@@ -218,9 +223,9 @@
 	//miss_modifier = max(15*(distance-2) - round(15*accuracy) + miss_modifier, 0)
 	miss_modifier = 15*(distance-2) - round(15*accuracy) + miss_modifier
 	if(target_mob == src.original)
-		miss_modifier -= 60
-	var/hit_zone = get_zone_with_miss_chance(def_zone, target_mob, miss_modifier, ranged_attack=(distance > 1 || original != target_mob)) //if the projectile hits a target we weren't originally aiming at then retain the chance to miss
+		miss_modifier -= 50
 
+	var/hit_zone = get_zone_with_miss_chance(def_zone, target_mob, miss_modifier, ranged_attack=(distance > 1 || original != target_mob)) //if the projectile hits a target we weren't originally aiming at then retain the chance to miss
 	var/result = PROJECTILE_FORCE_MISS
 	if(hit_zone)
 		def_zone = hit_zone //set def_zone, so if the projectile ends up hitting someone else later (to be implemented), it is more likely to hit the same part
@@ -283,11 +288,19 @@
 				if(Bump(G.affecting, forced=1))
 					return //If Bump() returns 0 (keep going) then we continue on to attack M.
 
-			passthrough = !attack_mob(M, distance)
+			var/result = attack_mob(M, distance)
+			passthrough = (result == PROJECTILE_CONTINUE)
+			if(result == PROJECTILE_DELETE)
+				qdel(src)
+				return
 		else
-			passthrough = 1 //so ghosts don't stop bullets
+			passthrough = TRUE //so ghosts don't stop bullets
 	else
-		passthrough = (A.bullet_act(src, def_zone) == PROJECTILE_CONTINUE) //backwards compatibility
+		var/result = A.bullet_act(src, def_zone)
+		passthrough = (result == PROJECTILE_CONTINUE) //backwards compatibility
+		if(result == PROJECTILE_DELETE)
+			qdel(src)
+			return
 		if(isturf(A))
 			for(var/obj/O in A)
 				O.bullet_act(src)
