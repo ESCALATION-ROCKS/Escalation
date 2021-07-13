@@ -72,6 +72,9 @@
 
 	var/fire_sound_vol = 50
 
+	var/mob_passthrough_chance = 0
+	var/mob_passthrough_check = FALSE
+
 /obj/item/projectile/Initialize()
 	damtype = damage_type //TODO unify these vars properly
 	if(!hitscan)

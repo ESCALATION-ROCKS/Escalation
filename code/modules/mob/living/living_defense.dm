@@ -31,7 +31,7 @@
 			show_message("<span class='warning'>[absorb_text]</span>")
 		else
 			show_message("<span class='warning'>Your armor absorbs the blow!</span>")
-		return 100
+		return FULLBLOCK_DAMAGE_ABSORPTION
 
 	//i have no idea what any of this means - bomberman66
 

@@ -13,9 +13,6 @@
 
 	muzzle_type = /obj/effect/projectile/bullet/muzzle
 
-	var/mob_passthrough_chance = 0
-	var/mob_passthrough_check = 0
-
 /obj/item/projectile/bullet/on_hit(var/atom/target, var/blocked = 0)
 	if(..(target, blocked))
 		var/mob/living/L = target

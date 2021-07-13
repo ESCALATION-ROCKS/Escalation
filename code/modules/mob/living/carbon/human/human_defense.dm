@@ -62,9 +62,10 @@ meteor_act
 
 	var/obj/item/organ/external/organ = get_organ(def_zone)
 	var/blocked = ..(P, def_zone)
+	var/penetrating_damage = (P.damage * P.penetration_modifier) - blocked
 
 	//Armor passed through, embed success
-	if(!blocked)
+	if(P.can_embed() && (blocked < FULLBLOCK_DAMAGE_ABSORPTION) && (prob(25 + max(penetrating_damage, -25))) )
 		var/obj/item/weapon/material/shard/shrapnel/SP = new()
 		SP.name = (P.name != "shrapnel")? "[P.name] shrapnel" : "shrapnel"
 		SP.desc = "[SP.desc] It looks like it was fired from [P.shot_from]."

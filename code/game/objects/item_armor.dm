@@ -28,7 +28,9 @@
 		return
 	var/static/list/all_parts
 	if(!all_parts)
-		all_parts = list(HEAD, FACE, EYES, UPPER_TORSO, LOWER_TORSO, \
+		//weird order because head armor and chest armor matter most
+		all_parts = list(UPPER_TORSO, HEAD, \
+					FACE, EYES, LOWER_TORSO, \
 					ARM_LEFT, HAND_LEFT, ARM_RIGHT, HAND_RIGHT, \
 					LEG_LEFT, FOOT_LEFT, LEG_RIGHT, FOOT_RIGHT)
 	for(var/bitpart in all_parts)
