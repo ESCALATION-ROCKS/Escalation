@@ -34,15 +34,15 @@
 			if(90 to 100)
 				to_chat(user, "<span class='info'>It is in pristine condition.</span>")
 			if(75 to 90)
-				to_chat(user, "<span class='info'>It is in almost pristine condition</span>")
+				to_chat(user, "<span class='info'>It is in almost pristine condition.</span>")
 			if(50 to 75)
-				to_chat(user, "<span class='warning'>It is in poor condition</span>")
+				to_chat(user, "<span class='warning'>It is in poor condition.</span>")
 			if(25 to 50)
 				to_chat(user, "<span class='warning'>It is in very poor condition.</span>")
 			if(1 to 25)
 				to_chat(user, "<span class='danger'>It is in <b>awful</b> condition.</span>")
 			if(0)
-				to_chat(user, "<span class='danger'>It is absolutely ripped to shreds.</span>")
+				to_chat(user, "<span class='danger'><b>It is absolutely ripped to shreds.</b></span>")
 
 // Updates the icons of the mob wearing the clothing item, if any.
 /obj/item/clothing/proc/update_clothing_icon()
