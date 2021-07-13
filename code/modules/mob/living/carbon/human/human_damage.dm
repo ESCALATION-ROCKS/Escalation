@@ -419,7 +419,7 @@ This function restores all organs.
 		for(var/obj/item/pissnigga in gear)
 			pissnigga.damage_armor(damage)
 	else
-		gear = get_covering_equipped_item(organ.body_part)
+		gear = get_covering_equipped_items(organ.body_part)
 		for(var/obj/item/pissnigga in gear)
 			pissnigga.damage_armor(damage, organ.body_part)
 	return 1

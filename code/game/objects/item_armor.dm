@@ -44,7 +44,7 @@
 		if(isnull(old_armor))
 			return
 		armor_integrity["[zone]"] = max(0, armor_integrity["[zone]"] - damage)
-		if(old_armor < armor_integrity[zone])
+		if(old_armor > armor_integrity[zone])
 			if((armor_integrity < 0) && length(sound_armor_broke))
 				var/sound_damage = pick(sound_armor_broke)
 				playsound(src, sound_damage, 85, 0, 3)

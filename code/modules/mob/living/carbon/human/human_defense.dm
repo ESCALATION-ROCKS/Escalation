@@ -116,15 +116,15 @@ meteor_act
 				total += weight
 	return (armorval/max(total, 1))
 
-/mob/living/carbon/human/getarmorintegrity(var/def_zone, var/type)
+/mob/living/carbon/human/getarmorintegrity(var/def_zone)
 	//If a specific bodypart is targetted, check how that bodypart is protected and return the value.
 	if(def_zone)
 		if(isorgan(def_zone))
-			return getarmorintegrity_organ(def_zone, type)
+			return getarmorintegrity_organ(def_zone)
 		else
 			var/obj/item/organ/external/affecting = get_organ(check_zone(def_zone))
 			if(affecting)
-				return getarmorintegrity_organ(affecting, type)
+				return getarmorintegrity_organ(affecting)
 	//otherwise no lol
 	else
 		return 0
@@ -190,7 +190,7 @@ meteor_act
 	return protection
 
 //this proc returns the armour value for a particular external organ.
-/mob/living/carbon/human/proc/getarmorintegrity_organ(var/obj/item/organ/external/def_zone, var/type, var/get_fullblock = FALSE)
+/mob/living/carbon/human/proc/getarmorintegrity_organ(var/obj/item/organ/external/def_zone)
 	if(!type || !def_zone)
 		return 0
 	if(!istype(def_zone))
