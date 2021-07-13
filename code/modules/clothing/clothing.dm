@@ -19,7 +19,6 @@
 	var/initial_slowdown = 0
 	var/insrank = null
 
-
 // Updates the icons of the mob wearing the clothing item, if any.
 /obj/item/clothing/proc/update_clothing_icon()
 	return
