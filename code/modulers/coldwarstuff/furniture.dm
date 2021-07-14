@@ -14,6 +14,46 @@
 	icon_state = "sofa1v"
 	color = null
 
+/obj/structure/bed/doublebed
+	name = "double sized mattress"
+	desc = "A matress for two, or one particularly fat german."
+	icon = 'icons/obj/coldwar/housefurniture.dmi'
+	base_icon = "mattress-double"
+	icon_state = "mattress-double"
+	color = null
+
+/obj/structure/bed/framelarge
+	name = "double sized bedframe
+	desc = "A bedframe made out wooden planks."
+	icon = 'icons/obj/coldwar/housefurniture.dmi'
+	base_icon = "bed-wooden-frame-double"
+	icon_state = "bed-wooden-frame-double"
+	color = null
+
+/obj/structure/bed/framelarge/wood
+	name = "double sized bedframe
+	desc = "A thin wiremesh bedframe made out iron."
+	icon = 'icons/obj/coldwar/housefurniture.dmi'
+	base_icon = "bed-metal-frame-double"
+	icon_state = "bed-metal-frame-double"
+	color = null
+
+/obj/structure/bed/chair/wood/sofa2
+	name = "futon"
+	desc = "A futon for the intellectual."
+	icon = 'icons/obj/coldwar/housefurniture.dmi'
+	base_icon = "futon"
+	icon_state = "futon"
+	color = null
+
+/obj/structure/bed/chair/wood/sofa2
+	name = "mattress"
+	desc = "Hey you have one of these at home!"
+	icon = 'icons/obj/coldwar/housefurniture.dmi'
+	base_icon = "mattress"
+	icon_state = "mattress"
+	color = null
+
 /obj/structure/sink/bath
 	name = "bath tube"
 	icon = 'icons/obj/coldwar/housefurniture.dmi'
@@ -50,4 +90,28 @@
 	name = "underwear wardrobe"
 	icon = 'icons/obj/coldwar/housefurniture.dmi'
 	icon_state = "wardrobe"
+	density = 1
+
+/obj/structure/dresser
+	name = "dresser"
+	icon = 'icons/obj/coldwar/housefurniture.dmi'
+	icon_state = "dresser"
+	desc = "Why is there a pen cap but no pen in here?."
+	anchored = 1
+	density = 1
+
+/obj/structure/nightstand
+	name = "nightstand"
+	icon = 'icons/obj/coldwar/housefurniture.dmi'
+	icon_state = "nightstand"
+	desc = "A nightstand to go with your bed"
+	anchored = 1
+	density = 1
+
+/obj/structure/holycross
+	name = "stone cross"
+	icon = 'icons/obj/coldwar/housefurniture.dmi'
+	icon_state = "holycross"
+	desc = "You don't like to think about these..."
+	anchored = 1
 	density = 1
