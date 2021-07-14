@@ -67,7 +67,7 @@
 /obj/item/projectile/bullet/pellet
 	name = "shrapnel" //'shrapnel' sounds more dangerous (i.e. cooler) than 'pellet'
 	damage = 17
-	armor_penetration = -15
+	armor_penetration = 0
 	icon_state = "pellets" //TODO: would be nice to have it's own icon state
 	var/pellets = 10		//number of pellets
 	var/range_step = 2		//projectile will lose a fragment each time it travels this distance. Can be a non-integer.
@@ -148,7 +148,8 @@
 /obj/item/projectile/bullet/shotgun
 	name = "slug"
 	damage = 50
-	armor_penetration = 15
+	armor_penetration = 5
+	armor_damage = 40
 
 /obj/item/projectile/bullet/shotgun/beanbag		//because beanbags are not bullets
 	name = "beanbag"
@@ -169,15 +170,15 @@
 /* "Rifle" rounds */
 
 /obj/item/projectile/bullet/rifle
-	armor_penetration = 20
 	penetrating = 1
+	armor_penetration = 12
+	armor_damage = 35
 
 /obj/item/projectile/bullet/rifle/a762
 	damage = 25
 
 /obj/item/projectile/bullet/rifle/a556
 	damage = 30
-	armor_penetration = 25
 
 /obj/item/projectile/bullet/rifle/a145
 	fire_sound = 'sound/weapons/gunshot/sniper.ogg'
@@ -185,8 +186,9 @@
 	stun = 3
 	weaken = 3
 	penetrating = 5
-	armor_penetration = 80
 	hitscan = 1 //so the PTR isn't useless as a sniper weapon
+	armor_penetration = 80
+	armor_damage = 75
 
 /* Miscellaneous */
 
@@ -259,53 +261,54 @@
 	..()
 
 //redline
-
 /obj/item/projectile/bullet/pistol
 	damage = 20
 	penetrating = 0
-	armor_penetration = 0
 	penetration_modifier = 0.1
 	kill_count = 35
 	agony = 10
+	armor_penetration = 0
+	armor_damage = 18
 
 /obj/item/projectile/bullet/pistol/a22lr
-	armor_penetration = -15
 	penetration_modifier = 0.05
 	embed = 0
 	agony = 10
+	armor_penetration = 0
+	armor_damage = 9
 
-	New()
-		damage = rand(10, 20)
+/obj/item/projectile/bullet/pistol/a22lr/New()
+	damage = rand(10, 20)
 
 /obj/item/projectile/bullet/pistol/a9mm
-	armor_penetration = -5
 	penetration_modifier = 0.1
 	agony = 15
 
-	New()
-		damage = rand(15, 30)
-		penetrating = rand(0,1)
+/obj/item/projectile/bullet/pistol/a9mm/New()
+	damage = rand(15, 30)
+	penetrating = rand(0,1)
 
 /obj/item/projectile/bullet/pistol/a40sw
-	armor_penetration = -20
 	penetration_modifier = 0.4
 	agony = 25
+	armor_penetration = 0
+	armor_damage = 20
 
-	New()
-		damage = rand(20, 50)
+/obj/item/projectile/bullet/pistol/a40sw/New()
+	damage = rand(20, 50)
 
 /obj/item/projectile/bullet/pistol/a44sw
-	armor_penetration = -15
 	penetration_modifier = 0.4
 	agony = 35
 
-	New()
-		damage = rand(35, 60)
+/obj/item/projectile/bullet/pistol/a44sw/New()
+	damage = rand(35, 60)
 
 /obj/item/projectile/bullet/pistol/a32sw
-	armor_penetration = -25
 	penetration_modifier = 0.2
 	agony = 25
+	armor_penetration = 0
+	armor_damage = 20
 
-	New()
-		damage = rand(25, 50)
+/obj/item/projectile/bullet/pistol/a32sw/New()
+	damage = rand(25, 50)

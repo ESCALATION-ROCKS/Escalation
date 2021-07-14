@@ -3,7 +3,7 @@
 
 ////////garcap, has use function
 
-/obj/item/clothing/head/coldwar/garcap/
+/obj/item/clothing/head/coldwar/garcap
 	var/icon_state_alt = null
 
 /obj/item/clothing/head/coldwar/garcap/attack_self(mob/user as mob)
@@ -14,11 +14,8 @@
 		icon_state = initial(icon_state)
 		to_chat(user, "You put your cap back in fine state.")
 
-
-
-//////////helmets - PROTECTION VALUES ONLY APPLY FOR SUBSONIC PROJECTILES LIKE PISTOL ROUNDS AND SHRAPNEL - RIFLE ROUNDS HAVE %100 PEN
-
-/obj/item/clothing/head/coldwar/helmet/
+//Helmets
+/obj/item/clothing/head/coldwar/helmet
 	var/icon_state_unzipped = null
 	flags_inv = null
 	w_class = ITEM_SIZE_HUGE
@@ -117,12 +114,12 @@
 	icon_state_up = "sa_ush_officer_up"
 
 //Soviet helmets
-
 /obj/item/clothing/head/coldwar/helmet/soviet/ssh68
 	name = "SSh-68 helmet"
 	desc = "A cheap steel helmet used by Soviet Army."
 	icon_state = "ssh68"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 55, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh68-unzipped"
 
@@ -141,6 +138,7 @@
 	desc = "A cheap and somewhat outdated steel helmet used by Soviet Army."
 	icon_state = "ssh60"
 	armor = list(melee = 80, bullet = 80, laser = 10, energy = 10, bomb = 50, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh60-unzipped"
 
@@ -150,6 +148,7 @@
 	icon_state = "altyn"
 	body_parts_covered = FACE|HEAD
 	armor = list(melee = 98, bullet = 98, laser = 0, energy = 10, bomb = 80, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	var/icon_state_unzipped = "altyn-unzipped"
 
@@ -170,6 +169,7 @@
 	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units."
 	icon_state = "6b6"
 	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6-unzipped"
 
@@ -178,6 +178,7 @@
 	desc = "A recently engineered titanium helmet, used for training purposes only."
 	icon_state = "6b6korish"
 	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6korish"
 
@@ -186,14 +187,11 @@
 	desc = "A recently engineered titanium helmet, used for training purposes only."
 	icon_state = "6b6sinii"
 	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6sinii"
 
-
-
-
 //NVADDR hats
-
 /obj/item/clothing/head/coldwar/garcap/nvaddr
 	name = "garrison cap"
 	desc = "That's a garrison cap used by NVA DDR."
@@ -212,12 +210,12 @@
 
 
 //NVADDR helmets
-
 /obj/item/clothing/head/coldwar/helmet/nvaddr/m56
 	name = "M56 stahlhelm"
 	desc = "A cheap steel helmet used by NVA DDR."
 	icon_state = "m56"
 	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 60, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m56-unzipped"
 
@@ -246,11 +244,8 @@
 	desc = "A cheap steel helmet used by NVA DDR. This one has a red cross on it."
 	icon_state_unzipped = "m56medic-unzipped"
 
-
-
 ////////////
 //CSLA hats
-
 /obj/item/clothing/head/coldwar/garcap/csla
 	name = "garrison cap"
 	desc = "That's a garrison cap used by the CSLA."
@@ -269,12 +264,12 @@
 
 
 //CSLA helmets
-
 /obj/item/clothing/head/coldwar/helmet/csla/vz53
 	name = "vz.53"
 	desc = "A cheap steel helmet used by the CSLA."
 	icon_state = "vz53"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 50, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "vz53-unzipped"
 
@@ -293,11 +288,7 @@
 	desc = "A cheap steel helmet used by the CSLA. This one has a red cross on it."
 	icon_state_unzipped = "vz53medic-unzipped"
 
-
-
-
 //FINN Hats
-
 /obj/item/clothing/head/coldwar/finn/fieldcap/talvimetsa
 	name = "Talvimetsa cap"
 	desc = "That's a generic field cap in a talvimetsa pattern."
@@ -310,12 +301,12 @@
 	icon_state_up = "finnushanka-up"
 
 //FINN Helmets
-
 /obj/item/clothing/head/coldwar/helmet/finn/m63
 	name = "M63 helmet"
 	desc = "A cheap steel helmet used by the Finnish Army."
 	icon_state = "m63helmet"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m63helmet-unzipped"
 
@@ -334,9 +325,7 @@
 	icon_state = "m63medic"
 	icon_state_unzipped = "m63medic-unzipped"
 
-
 //Spanish hats
-
 /obj/item/clothing/head/coldwar/garcap/esp
 	name = "'Pilotka'"
 	desc = "That's a garrison cap used by Soviet Army."
@@ -354,12 +343,12 @@
 	icon_state = "soviet_officer"
 
 //Spanish helmets
-
 /obj/item/clothing/head/coldwar/helmet/esp/m42
 	name = "M42-79 helmet"
 	desc = "A cheap and very outdated steel helmet used by the Republican Spanish Army."
 	icon_state = "m42"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 55, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m42-unzipped"
 
@@ -373,11 +362,7 @@
 	icon_state_unzipped = "m42medic-unzipped"
 	icon_state = "m42medic"
 
-
-
-
 //US hats
-
 /obj/item/clothing/head/coldwar/fieldcap/usmc/woodland
 	name = "woodland cap"
 	desc = "That's a generic field cap in a woodland pattern."
@@ -430,12 +415,12 @@
 
 
 //US helmets
-
 /obj/item/clothing/head/coldwar/helmet/usmc/pasgt
 	name = "PASGT M81 helmet"
 	desc = "An experimental tactical kevlar helmet used by U.S. army."
 	icon_state = "pasgt-green"
 	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgt-green-unzipped"
 
@@ -475,14 +460,7 @@
 	desc = "A classic helmet used by the U.S. Army. Woodland cover."
 	icon_state_unzipped = "m1woodland-unzipped"
 
-
-
-
-
-
-
 //BDW hats
-
 /obj/item/clothing/head/coldwar/fieldcap/bdw
 	name = "Bundeswehr cap"
 	desc = "That's a generic field cap in a 'Steingrau-olive' pattern."
@@ -505,6 +483,7 @@
 	desc = "A cheap and somewhat outdated steel helmet used by Bundeswehr."
 	icon_state = "m62helmet"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m62helmet-unzipped"
 
@@ -523,16 +502,7 @@
 	icon_state = "m62medic"
 	icon_state_unzipped = "m62medic-unzipped"
 
-
-
-
-
-
-
-
-
 //BDHeer hats
-
 /obj/item/clothing/head/coldwar/fieldcap/heer
 	name = "Bundeswehr cap"
 	desc = "That's a generic field cap in a 'Steingrau-olive' pattern."
@@ -555,6 +525,7 @@
 	desc = "An outdated steel helmet used by Bundesheer. This one has a cover on it."
 	icon_state = "m1heer"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1heer-unzipped"
 
@@ -573,12 +544,11 @@
 	desc = "An experimental tactical kevlar helmet used by the Bundesheer."
 	icon_state = "pasgtheer"
 	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgtheer-unzipped"
 
-
 //UK Hats
-
 /obj/item/clothing/head/coldwar/beret/baf
 	name = "British Armed Forces beret"
 	desc = "A maroon beret common amongst BAF airtrooper divisions."
@@ -591,12 +561,12 @@
 	icon_state_alt = "bafgarrisoncap_alt"
 
 //UK Helmets
-
 /obj/item/clothing/head/coldwar/helmet/baf/mkv
 	name = "MKV helmet"
 	desc = "A helmet used by the United Kingdom."
 	icon_state = "mkv"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "mkv-unzipped"
 
@@ -617,7 +587,6 @@
 
 
 //FRA Hats
-
 /obj/item/clothing/head/coldwar/beret/fra
 	name = "Armee de Terre beret"
 	desc = "A maroon beret common amongst ADT airtrooper divisions."
@@ -635,12 +604,12 @@
 	icon_state = "frafieldcap"
 
 //FRA Helmets
-
 /obj/item/clothing/head/coldwar/helmet/fra/m78
 	name = "'Modele 1978' helmet"
 	desc = "A helmet used by the Armee de Terre."
 	icon_state = "m1978"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1978-unzipped"
 
@@ -649,11 +618,11 @@
 	desc = "A helmet used by the Armee de Terre."
 	icon_state = "m1978woodland"
 	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1978woodland-unzipped"
 
 ///NVG googles (2nd gen)
-
 /obj/item/clothing/glasses/night/coldwar
 	wearable = 1
 

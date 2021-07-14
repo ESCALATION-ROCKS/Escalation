@@ -10,13 +10,12 @@
 	no_attack_log = 1
 	muzzle_type = null
 	check_armour = "bomb"
-
-
+	armor_penetration = 0
+	armor_damage = 25
 
 /obj/item/projectile/bullet/pellet/fragment/strong
 	damage = 15
 	check_armour = "bomb"
-
 
 /obj/item/weapon/grenade/frag
 	name = "fragmentation grenade"
@@ -98,5 +97,4 @@
 /obj/item/weapon/grenade/frag/high_yield/on_explosion(var/turf/O)
 	if(explosion_size)
 		explosion(O, -1, round(explosion_size/2), explosion_size, round(explosion_size/2), 0) //has a chance to blow a hole in the floor
-
 

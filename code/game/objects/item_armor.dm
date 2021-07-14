@@ -14,6 +14,7 @@
 					bio = 0, \
 					rad = 0)
 	var/list/armor_integrity = list() //bodypart bitflag to integrity
+	var/armor_integrity_starting = 100
 	var/sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_STANDARD
 	var/sound_armor_broke = ARMOR_BROKE_SOUNDS_STANDARD
 
@@ -33,7 +34,7 @@
 					LEG_LEFT, FOOT_LEFT, LEG_RIGHT, FOOT_RIGHT)
 	for(var/bitpart in all_parts)
 		if(body_parts_covered & bitpart)
-			armor_integrity["[bitpart]"] = 100
+			armor_integrity["[bitpart]"] = armor_integrity_starting
 
 /obj/item/proc/damage_armor(damage, zone)
 	if(!zone)

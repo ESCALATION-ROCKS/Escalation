@@ -4,10 +4,8 @@
 /obj/item/clothing/suit/storage/vest/coldwar
 	wearable = 1
 
-////PROTECTION VALUES ONLY APPLY FOR SUBSONIC PROJECTILES LIKE PISTOL ROUNDS AND SHRAPNEL - RIFLE ROUNDS HAVE %100 PEN
 //Soviet armor
-
-/obj/item/clothing/suit/storage/vest/coldwar/soviet/
+/obj/item/clothing/suit/storage/vest/coldwar/soviet
 	w_class = ITEM_SIZE_LARGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA)
 	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
@@ -24,7 +22,7 @@
 	icon_state = "6b3green"
 	item_state = "6b3green"
 	armor = list(melee = 60, bullet = 90, laser = 0, energy = 25, bomb = 40, bio = 0, rad = 0)
-	armor_fullblock = list(melee = 30, bullet = 90, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.22
 
 /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3/New()
@@ -37,6 +35,7 @@
 	icon_state = "6b2lifchik"
 	item_state = "6b2lifchik"
 	armor = list(melee = 35, bullet = 80, laser = 40, energy = 10, bomb = 35, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.22
 
 /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik/New()
@@ -57,12 +56,11 @@
 	icon_state = "6b2green"
 	item_state = "6b2green"
 	armor = list(melee = 35, bullet = 80, laser = 40, energy = 10, bomb = 35, bio = 0, rad = 0)
-	armor_fullblock = list(melee = 30, bullet = 80, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.20
 
 
 //USMC
-
 /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	name = "PASGT M81 vest"
 	desc = "A common kevlar vest used by U.S. army."
@@ -72,13 +70,12 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 30, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
-	armor_fullblock = list(melee = 30, bullet = 80, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.18
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
 	icon_state = "pasgt_vest_woodland"
-
 
 /obj/item/clothing/suit/armor/vest/coldwar/flakvest
 	name = "M69 flak vest"
@@ -89,7 +86,7 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 30, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
-	armor_fullblock = list(melee = 30, bullet = 80, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
@@ -102,12 +99,11 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = list(melee = 45, bullet = 70, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
-	armor_fullblock = list(melee = 30, bullet = 80, laser = 0, energy = 25, bomb = 30, bio = 0, rad = 0)
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
-
-/obj/item/clothing/suit/armor/vest/coldwar/coat/
+/obj/item/clothing/suit/armor/vest/coldwar/coat
 	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
