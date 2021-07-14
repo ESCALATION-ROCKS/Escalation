@@ -31,7 +31,7 @@
 			show_message("<span class='warning'>[absorb_text]</span>")
 		else
 			show_message("<span class='warning'>Your armor absorbs the blow!</span>")
-		return FULLBLOCK_DAMAGE_ABSORPTION
+		return FULLBLOCK_RETURN_VALUE
 
 	//i have no idea what any of this means - bomberman66
 
@@ -87,17 +87,20 @@
 	var/damage = P.damage
 	var/flags = P.damage_flags()
 	var/absorb = run_armor_check(def_zone, P.check_armour, P.armor_penetration)
-	if(absorb >= 35)
+	if((absorb == FULLBLOCK_RETURN_VALUE) || absorb >= 35)
 		if(flags & DAM_LASER)
 			//the armour causes the heat energy to spread out, which reduces the damage (and the blood loss)
 			//this is mostly so that armour doesn't cause people to lose MORE fluid from lasers than they would otherwise
 			damage *= FLUIDLOSS_CONC_BURN/FLUIDLOSS_WIDE_BURN
 		flags &= ~(DAM_SHARP|DAM_EDGE|DAM_LASER)
 
+	var/final_absorb = absorb
+	if(final_absorb == FULLBLOCK_RETURN_VALUE)
+		final_absorb = FULLBLOCK_DAMAGE_ABSORPTION
 	if(!P.nodamage)
-		apply_damage(damage, P.damage_type, def_zone, absorb, flags, P)
-		apply_armor_damage(P.armor_damage, P.damage_type, def_zone, absorb, flags, P)
-	P.on_hit(src, absorb, def_zone)
+		apply_damage(damage, P.damage_type, def_zone, final_absorb, flags, P)
+		apply_armor_damage(P.armor_damage, P.damage_type, def_zone, final_absorb, flags, P)
+	P.on_hit(src, final_absorb, def_zone)
 	return absorb
 
 //Handles the effects of "stun" weapons

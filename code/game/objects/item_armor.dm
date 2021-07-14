@@ -14,10 +14,8 @@
 					bio = 0, \
 					rad = 0)
 	var/list/armor_integrity = list() //bodypart bitflag to integrity
-	var/sound_armor_damaged = list('sound/bullet/projectile_impact/blt_s_metal1.ogg', \
-							'sound/bullet/projectile_impact/blt_s_metal2.ogg', \
-							'sound/bullet/projectile_impact/blt_s_metal3.ogg')
-	var/sound_armor_broke = list('sound/bullet/projectile_impact/blt_s_metal5.ogg')
+	var/sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_STANDARD
+	var/sound_armor_broke = ARMOR_BROKE_SOUNDS_STANDARD
 
 /obj/item/New()
 	. = ..()
