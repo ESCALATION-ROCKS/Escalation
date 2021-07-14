@@ -20,4 +20,4 @@
 #define ARMOR_BROKE_SOUNDS_METAL list('sound/bullet/projectile_impact/bullet_impact_metal4.wav')
 
 //default fullblock values for helmets and vests
-#define DEFAULT_ARMOR_FULLBLOCK armor_fullblock = list(melee = 30, bullet = 100, laser = 0, energy = 25, bomb = 85, bio = 0, rad = 0)
+#define DEFAULT_ARMOR_FULLBLOCK list(melee = 30, bullet = 100, laser = 0, energy = 25, bomb = 85, bio = 0, rad = 0)

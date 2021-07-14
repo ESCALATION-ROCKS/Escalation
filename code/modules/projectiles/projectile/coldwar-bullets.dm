@@ -244,7 +244,7 @@
 	//Pretty tight grouping and low range so armors actually fucking work against it. Solution is to aim for limbs
 	armor_damage = 12
 
-bj/item/projectile/bullet/pellet/ga6/New()
+/obj/item/projectile/bullet/pellet/ga6/New()
 	damage = rand(35, 50)
 
 /obj/item/projectile/bullet/rifle/ga6/slug
