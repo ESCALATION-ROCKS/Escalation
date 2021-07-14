@@ -51,8 +51,11 @@ mob/living/carbon/human/proc/handle_pain()
 	var/maxdam = 0
 	var/obj/item/organ/external/damaged_organ = null
 	for(var/obj/item/organ/external/E in organs)
-		if(!E.can_feel_pain()) continue
+		if(!E.can_feel_pain())
+			continue
 		var/dam = E.get_damage()
+		for(var/obj/item/organ/internal/I in E.internal_organs)
+			dam += I.damage
 		// make the choice of the organ depend on damage,
 		// but also sometimes use one of the less damaged ones
 		if(dam > maxdam && (maxdam == 0 || prob(70)) )
@@ -69,13 +72,13 @@ mob/living/carbon/human/proc/handle_pain()
 			if(1 to 50)
 				msg =  "Your [damaged_organ.name] [burning ? "burns" : "hurts"]."
 				emote("groan")
-			if(51 to 90)
+			if(51 to 75)
 				msg = "Your[damaged_organ.name] [burning ? "burns" : "hurts"] badly!"
-				if(prob(15))
+				if(prob(20))
 					emote("scream")
 				else
 					emote(pick("cry", "whimper"))
-			if(91 to 10000)
+			if(76 to INFINITY)
 				msg = "OH GOD! Your [damaged_organ.name] is [burning ? "on fire" : "hurting terribly"]!"
 				if(prob(75))
 					emote("scream")
@@ -93,13 +96,10 @@ mob/living/carbon/human/proc/handle_pain()
 			if(I.is_bruised())
 				pain = 25
 				message = "You feel a pain in your [parent.name]"
-				emote("groan")
 			if(I.is_broken())
 				pain = 50
 				message = "You feel a sharp pain in your [parent.name]"
-				emote("scream")
 			src.custom_pain(message, pain, affecting = parent)
-
 
 	if(prob(1))
 		switch(getToxLoss())
