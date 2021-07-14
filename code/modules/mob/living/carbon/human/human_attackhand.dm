@@ -36,6 +36,8 @@
 				return 0
 			var/obj/item/organ/external/affecting = get_organ(ran_zone(H.zone_sel.selecting))
 			var/armor_block = run_armor_check(affecting, "melee")
+			if(armor_block == FULLBLOCK_RETURN_VALUE)
+				armor_block = FULLBLOCK_DAMAGE_ABSORPTION
 
 			if(HULK in H.mutations)
 				damage += 5
@@ -225,6 +227,9 @@
 			real_damage = (max(1, real_damage))
 
 			var/armour = run_armor_check(hit_zone, "melee")
+			if(armour == FULLBLOCK_RETURN_VALUE)
+				armour = FULLBLOCK_DAMAGE_ABSORPTION
+
 			// Apply additional unarmed effects.
 			attack.apply_effects(H, src, armour, rand_damage, hit_zone)
 
@@ -255,6 +260,8 @@
 			var/randn = rand(1, 100)
 			if(!(species.flags & NO_SLIP) && randn <= 60 && !statscheck(skill_melee, dex, 8, 0, src) && M.statscheck(M.skill_melee, M.dex, 3, 0, src))
 				var/armor_check = run_armor_check(affecting, "melee")
+				if(armor_check == FULLBLOCK_RETURN_VALUE)
+					armor_check = FULLBLOCK_DAMAGE_ABSORPTION
 				apply_effect(3, WEAKEN, armor_check)
 				playsound(loc, 'sound/weapons/thudswoosh.ogg', 50, 1, -1)
 				if(armor_check < 100)
@@ -295,6 +302,8 @@
 	var/dam_zone = pick(organs_by_name)
 	var/obj/item/organ/external/affecting = get_organ(ran_zone(dam_zone))
 	var/armor_block = run_armor_check(affecting, armorcheck)
+	if(armor_block == FULLBLOCK_RETURN_VALUE)
+		armor_block = FULLBLOCK_DAMAGE_ABSORPTION
 	apply_damage(damage, damtype, affecting, armor_block)
 	updatehealth()
 	return 1

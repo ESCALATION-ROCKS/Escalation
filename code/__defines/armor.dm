@@ -23,4 +23,4 @@
 #define DEFAULT_ARMOR_NORMALBLOCK list(melee = 35, bullet = 50, laser = 25, energy = 25, bomb = 35, bio = 0, rad = 0)
 
 //default fullblock values for helmets and vests
-#define DEFAULT_ARMOR_FULLBLOCK list(melee = 25, bullet = 100, laser = 0, energy = 0, bomb = 85, bio = 0, rad = 0)
+#define DEFAULT_ARMOR_FULLBLOCK list(melee = 60, bullet = 100, laser = 0, energy = 0, bomb = 85, bio = 0, rad = 0)

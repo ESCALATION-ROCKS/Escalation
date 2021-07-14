@@ -275,6 +275,8 @@ meteor_act
 	receive_damage()
 
 	var/blocked = run_armor_check(hit_zone, "melee", I.armor_penetration, "Your armor has protected your [affecting.name].", "Your armor has softened the blow to your [affecting.name].")
+	if(blocked == FULLBLOCK_RETURN_VALUE)
+		blocked = FULLBLOCK_DAMAGE_ABSORPTION
 	standard_weapon_hit_effects(I, user, effective_force, blocked, hit_zone)
 
 	return blocked
@@ -478,6 +480,8 @@ meteor_act
 
 		src.visible_message("<span class='warning'>\The [src] has been hit in the [hit_area] by \the [O].</span>")
 		var/armor = run_armor_check(affecting, "melee", O.armor_penetration, "Your armor has protected your [hit_area].", "Your armor has softened hit to your [hit_area].") //I guess "melee" is the best fit here
+		if(armor == FULLBLOCK_RETURN_VALUE)
+			armor = FULLBLOCK_DAMAGE_ABSORPTION
 		if(armor < 100)
 			var/damage_flags = O.damage_flags()
 			if(prob(armor))
