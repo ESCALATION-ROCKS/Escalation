@@ -508,3 +508,7 @@ ddr_enlisted
 Akellazp = {
 ddr_enlisted
 }
+
+ChaoticAgent = {
+::ALL::
+}

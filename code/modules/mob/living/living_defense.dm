@@ -11,18 +11,18 @@
 	a blocked amount between 0 - 100, representing the success of the armor check.
 */
 /mob/living/proc/run_armor_check(var/def_zone = null, var/attack_flag = "melee", var/armour_pen = 0, var/absorb_text = null, var/soften_text = null)
-	if(armour_pen >= 100)
-		return 0 //might as well just skip the processing
-
-	var/armor = getarmor(def_zone, attack_flag)
-
-	if(armour_pen >= armor)
+	var/integrity = getarmorintegrity(def_zone)
+	if(integrity < 0)
+		//armor is fucking busted lol
+		return 0
+	var/armor = getarmor(def_zone, attack_flag, FALSE)
+	var/fullblock = getarmor(def_zone, attack_flag, TRUE)
+	if((armour_pen >= armor) && (armour_pen >= fullblock))
 		return 0 //effective_armor is going to be 0, fullblock is going to be 0, blocked is going to 0, let's save ourselves the trouble
 
-	var/effective_armor = (armor - armour_pen)/100
-	var/fullblock = (effective_armor*effective_armor) * ARMOR_BLOCK_CHANCE_MULT
-
-	if(fullblock >= 1 || prob(fullblock*100))
+	var/effective_armor = (armor - armour_pen)
+	var/effective_fullblock = (fullblock - armour_pen)
+	if(prob(effective_fullblock))
 		if(def_zone == BP_HEAD)
 			playsound(src.loc,'sound/effects/bhit_helmet-1.ogg', 60, 1)
 		else
@@ -31,16 +31,17 @@
 			show_message("<span class='warning'>[absorb_text]</span>")
 		else
 			show_message("<span class='warning'>Your armor absorbs the blow!</span>")
-		return 100
+		return FULLBLOCK_DAMAGE_ABSORPTION
+
+	//i have no idea what any of this means - bomberman66
 
 	//this makes it so that X armour blocks X% damage, when including the chance of hard block.
 	//I double checked and this formula will also ensure that a higher effective_armor
 	//will always result in higher (non-fullblock) damage absorption too, which is also a nice property
 	//In particular, blocked will increase from 0 to 50 as effective_armor increases from 0 to 0.999 (if it is 1 then we never get here because ofc)
 	//and the average damage absorption = (blocked/100)*(1-fullblock) + 1.0*(fullblock) = effective_armor
-	var/blocked = (effective_armor - fullblock)/(1 - fullblock)*100
-
-	if(blocked > 20)
+	var/blocked = (effective_armor - effective_fullblock)/(1 - effective_fullblock)
+	if(blocked >= 20)
 		if(def_zone == BP_HEAD)
 			playsound(src.loc,'sound/effects/bhit_helmet-1.ogg', 30, 1)
 		else
@@ -51,7 +52,7 @@
 		else
 			show_message("<span class='warning'>Your armor softens the blow!</span>")
 
-	return round(blocked, 1)
+	return Floor(blocked)
 
 //Adds two armor values together.
 //If armor_a and armor_b are between 0-100 the result will always also be between 0-100.
@@ -64,12 +65,13 @@
 	return 100 - 1/(protection_a + protection_b + 1)*100
 
 //if null is passed for def_zone, then this should return something appropriate for all zones (e.g. area effect damage)
-/mob/living/proc/getarmor(var/def_zone, var/type)
+/mob/living/proc/getarmor(var/def_zone, var/type, var/get_fullblock = FALSE)
 	return 0
 
+/mob/living/proc/getarmorintegrity(var/def_zone)
+	return 100
 
 /mob/living/bullet_act(var/obj/item/projectile/P, var/def_zone)
-
 	//Being hit while using a deadman switch
 	var/obj/item/device/assembly/signaler/signaler = get_active_hand()
 	if(istype(signaler) && signaler.deadman)
@@ -80,13 +82,12 @@
 	//Stun Beams
 	if(P.taser_effect)
 		stun_effect_act(0, P.agony, def_zone, P)
-//		to_chat(src, "<span class='warning'>You have been hit by [P]!</span>")
 
 	//Armor
 	var/damage = P.damage
 	var/flags = P.damage_flags()
 	var/absorb = run_armor_check(def_zone, P.check_armour, P.armor_penetration)
-	if (prob(absorb))
+	if(prob(absorb))
 		if(flags & DAM_LASER)
 			//the armour causes the heat energy to spread out, which reduces the damage (and the blood loss)
 			//this is mostly so that armour doesn't cause people to lose MORE fluid from lasers than they would otherwise
@@ -95,8 +96,8 @@
 
 	if(!P.nodamage)
 		apply_damage(damage, P.damage_type, def_zone, absorb, flags, P)
+		apply_armor_damage(P.armor_damage, P.damage_type, def_zone, absorb, flags, P)
 	P.on_hit(src, absorb, def_zone)
-
 	return absorb
 
 //Handles the effects of "stun" weapons
@@ -310,11 +311,11 @@
 
 /mob/living/proc/surrender_Start()
 	if(!surrendering)
-		surrendering = 1 
+		surrendering = 1
 		update_surrender()
 
 /mob/living/proc/surrender_End()
-	surrendering = 0 
+	surrendering = 0
 	update_surrender()
 
 /mob/living/proc/get_cold_protection()
