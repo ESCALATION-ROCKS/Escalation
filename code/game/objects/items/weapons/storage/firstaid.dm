@@ -247,8 +247,7 @@
 	storage_slots = 4
 	item_state = null
 	w_class = 2
-	startswith = list(/obj/item/stack/medical/bruise_pack/gauze = 2, \
-					/obj/item/suture = 1)
+	startswith = null
 
 	can_hold = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
