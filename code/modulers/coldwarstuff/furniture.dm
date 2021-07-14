@@ -23,15 +23,15 @@
 	color = null
 
 /obj/structure/bed/framelarge
-	name = "double sized bedframe
+	name = "double sized bedframe"
 	desc = "A bedframe made out wooden planks."
 	icon = 'icons/obj/coldwar/housefurniture.dmi'
 	base_icon = "bed-wooden-frame-double"
 	icon_state = "bed-wooden-frame-double"
 	color = null
 
-/obj/structure/bed/framelarge/wood
-	name = "double sized bedframe
+/obj/structure/bed/framelarge/metal
+	name = "double sized bedframe"
 	desc = "A thin wiremesh bedframe made out iron."
 	icon = 'icons/obj/coldwar/housefurniture.dmi'
 	base_icon = "bed-metal-frame-double"
