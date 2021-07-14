@@ -325,10 +325,13 @@
 	kill_count = 37
 	step_delay = 0.90
 	fire_sound = null//here we gonna use sound in AGS and not in bullets
-	var/ricochetchance = 0
 
 	muzzle_type = /obj/effect/projectile/rocket/rpg
 	breech_type = /obj/effect/projectile/rocket/rpg/breech
+
+	armor_damage = 200
+	armor_penetration = 200
+	var/ricochetchance = 0
 
 /obj/item/projectile/bullet/rpgrocket/muzzle_effect(var/matrix/T)
 	if(silenced)

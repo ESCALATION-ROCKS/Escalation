@@ -62,9 +62,12 @@ meteor_act
 
 	var/obj/item/organ/external/organ = get_organ(def_zone)
 	var/blocked = ..(P, def_zone)
+	if(blocked == FULLBLOCK_RETURN_VALUE)
+		blocked = FULLBLOCK_DAMAGE_ABSORPTION
 	var/penetrating_damage = (P.damage * P.penetration_modifier) - blocked
 
 	//Armor passed through, embed success
+	var/embed_success = FALSE
 	if(P.can_embed() && (blocked < FULLBLOCK_DAMAGE_ABSORPTION) && (prob(25 + max(penetrating_damage, -25))) )
 		var/obj/item/weapon/material/shard/shrapnel/SP = new()
 		SP.name = (P.name != "shrapnel")? "[P.name] shrapnel" : "shrapnel"
@@ -73,11 +76,13 @@ meteor_act
 		if(!organ.embed(SP))
 			//embed failure
 			qdel(SP)
+		else
+			embed_success = TRUE
 
 	projectile_hit_bloody(P, P.damage*blocked_mult(blocked), def_zone)
 
 	P.damage = Floor(P.damage - (initial(P.damage) * 0.2))
-	if(P.damage < 1)
+	if((P.damage < 1) || embed_success)
 		return PROJECTILE_DELETE
 	else
 		return PROJECTILE_CONTINUE
