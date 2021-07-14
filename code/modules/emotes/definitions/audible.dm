@@ -381,7 +381,7 @@
 		emote_sound = "sound/vo/cultiste_rire_[rand(1,6)].ogg"
 
 		if(emote_sound)
-			playsound(M, emote_sound, 75, 0, -2)
+			playsound(M, emote_sound, 85, 0, -2)
 
 /decl/emote/audible/cultiste
 	key = "tzchernobog"
