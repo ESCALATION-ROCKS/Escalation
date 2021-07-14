@@ -55,7 +55,7 @@
 	kill_count = 120
 	agony = 20
 
-/obj/item/projectile/bullet/rifle/a762x54New()
+/obj/item/projectile/bullet/rifle/a762x54/New()
 	damage = rand(37, 46)
 	penetrating = rand(0, 1)
 
