@@ -366,3 +366,35 @@
 
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, 3)
+
+/decl/emote/audible/rire
+	key = "rire"
+	emote_message_3p = "USER laughs!"
+	conscious = TRUE
+
+/decl/emote/audible/rire/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/cultiste_rire_[rand(1,6)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 75, 0, -2)
+
+/decl/emote/audible/cultiste
+	key = "tzchernobog"
+	emote_message_3p = "USER praises tzchernobog!"
+	conscious = TRUE
+
+/decl/emote/audible/dayum/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/cultiste_message_[rand(1,10)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 85, 0, -2)
