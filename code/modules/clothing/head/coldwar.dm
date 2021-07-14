@@ -118,7 +118,7 @@
 	name = "SSh-68 helmet"
 	desc = "A cheap steel helmet used by Soviet Army."
 	icon_state = "ssh68"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 55, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh68-unzipped"
@@ -137,7 +137,7 @@
 	name = "SSh-60 helmet"
 	desc = "A cheap and somewhat outdated steel helmet used by Soviet Army."
 	icon_state = "ssh60"
-	armor = list(melee = 80, bullet = 80, laser = 10, energy = 10, bomb = 50, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh60-unzipped"
@@ -147,7 +147,7 @@
 	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units. This one has a protective visor."
 	icon_state = "altyn"
 	body_parts_covered = FACE|HEAD
-	armor = list(melee = 98, bullet = 98, laser = 0, energy = 10, bomb = 80, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	var/icon_state_unzipped = "altyn-unzipped"
@@ -168,7 +168,7 @@
 	name = "6B6 helmet"
 	desc = "A recently engineered titanium helmet, issued in limited quantities to special KGB and Spetsnaz GRU units."
 	icon_state = "6b6"
-	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6-unzipped"
@@ -177,7 +177,7 @@
 	name = "6B6 helmet"
 	desc = "A recently engineered titanium helmet, used for training purposes only."
 	icon_state = "6b6korish"
-	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6korish"
@@ -186,7 +186,7 @@
 	name = "6B6 helmet"
 	desc = "A recently engineered titanium helmet, used for training purposes only."
 	icon_state = "6b6sinii"
-	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6sinii"
@@ -214,7 +214,7 @@
 	name = "M56 stahlhelm"
 	desc = "A cheap steel helmet used by NVA DDR."
 	icon_state = "m56"
-	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 60, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m56-unzipped"
@@ -268,7 +268,7 @@
 	name = "vz.53"
 	desc = "A cheap steel helmet used by the CSLA."
 	icon_state = "vz53"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 50, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "vz53-unzipped"
@@ -305,7 +305,7 @@
 	name = "M63 helmet"
 	desc = "A cheap steel helmet used by the Finnish Army."
 	icon_state = "m63helmet"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m63helmet-unzipped"
@@ -347,7 +347,7 @@
 	name = "M42-79 helmet"
 	desc = "A cheap and very outdated steel helmet used by the Republican Spanish Army."
 	icon_state = "m42"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 55, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m42-unzipped"
@@ -419,7 +419,7 @@
 	name = "PASGT M81 helmet"
 	desc = "An experimental tactical kevlar helmet used by U.S. army."
 	icon_state = "pasgt-green"
-	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgt-green-unzipped"
@@ -482,7 +482,7 @@
 	name = "M62 helmet"
 	desc = "A cheap and somewhat outdated steel helmet used by Bundeswehr."
 	icon_state = "m62helmet"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m62helmet-unzipped"
@@ -524,7 +524,7 @@
 	name = "M75 helmet"
 	desc = "An outdated steel helmet used by Bundesheer. This one has a cover on it."
 	icon_state = "m1heer"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1heer-unzipped"
@@ -543,7 +543,7 @@
 	name = "PASGT M81 helmet"
 	desc = "An experimental tactical kevlar helmet used by the Bundesheer."
 	icon_state = "pasgtheer"
-	armor = list(melee = 90, bullet = 90, laser = 0, energy = 10, bomb = 70, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgtheer-unzipped"
@@ -565,7 +565,7 @@
 	name = "MKV helmet"
 	desc = "A helmet used by the United Kingdom."
 	icon_state = "mkv"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "mkv-unzipped"
@@ -608,7 +608,7 @@
 	name = "'Modele 1978' helmet"
 	desc = "A helmet used by the Armee de Terre."
 	icon_state = "m1978"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1978-unzipped"
@@ -617,7 +617,7 @@
 	name = "'Modele 1978' helmet"
 	desc = "A helmet used by the Armee de Terre."
 	icon_state = "m1978woodland"
-	armor = list(melee = 85, bullet = 85, laser = 0, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1978woodland-unzipped"
