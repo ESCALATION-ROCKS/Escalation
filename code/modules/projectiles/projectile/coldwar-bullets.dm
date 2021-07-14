@@ -41,7 +41,7 @@
 	plane = EFFECTS_ABOVE_LIGHTING_PLANE
 	layer = BEAM_PROJECTILE_LAYER
 
-/obj/item/projectile/bullet/rifle/a762x51/trNew()
+/obj/item/projectile/bullet/rifle/a762x51/tr/New()
 	damage = rand(40, 50)
 	penetrating = rand(0, 1)
 
