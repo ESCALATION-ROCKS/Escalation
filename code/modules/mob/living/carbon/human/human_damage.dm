@@ -417,11 +417,13 @@ This function restores all organs.
 	if(!organ)
 		gear = get_equipped_items()
 		for(var/obj/item/pissnigga in gear)
-			pissnigga.damage_armor(damage)
+			if(pissnigga.damage_armor(damage))
+				break
 	else
 		gear = get_covering_equipped_items(organ.body_part)
 		for(var/obj/item/pissnigga in gear)
-			pissnigga.damage_armor(damage, organ.body_part)
+			if(pissnigga.damage_armor(damage, organ.body_part))
+				break
 	return 1
 
 // Find out in how much pain the mob is at the moment.
