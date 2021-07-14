@@ -41,10 +41,11 @@
 	if(!zone)
 		for(var/zonesex in armor_integrity)
 			armor_integrity[zonesex] = max(0, armor_integrity["[zonesex]"] - damage)
+		return TRUE
 	else
 		var/old_armor = armor_integrity["[zone]"]
 		if(isnull(old_armor))
-			return
+			return FALSE
 		armor_integrity["[zone]"] = max(0, armor_integrity["[zone]"] - damage)
 		if(old_armor > armor_integrity["[zone]"])
 			if((armor_integrity["[zone]"] < 0) && length(sound_armor_broke))
@@ -53,6 +54,7 @@
 			else if(length(sound_armor_damaged))
 				var/sound_damage = pick(sound_armor_damaged)
 				playsound(src, sound_damage, 75, 0, 2)
+			return TRUE
 
 /obj/item/proc/heal_armor(heal_amt, zone)
 	if(!zone)
@@ -61,5 +63,7 @@
 	else
 		var/old_armor = armor_integrity["[zone]"]
 		if(isnull(old_armor))
-			return
-		armor_integrity[zone] = max(0, armor_integrity["[zone]"] + heal_amt)
+			return FALSE
+		armor_integrity["[zone]"] = max(0, armor_integrity["[zone]"] + heal_amt)
+		if(old_armor < armor_integrity["[zone]"])
+			return TRUE
