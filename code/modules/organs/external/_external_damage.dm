@@ -144,7 +144,10 @@
 			return FALSE
 		var/obj/item/organ/victim = pickweight(victims)
 		if(victim)
-			victim.take_damage(damage_amt*0.5)
+			if(istype(victim, /obj/item/organ/internal/brain))
+				victim.take_damage(damage_amt)
+			else
+				victim.take_damage(damage_amt*0.5)
 
 /obj/item/organ/external/heal_damage(brute, burn, internal = 0, robo_repair = 0)
 	if(robotic >= ORGAN_ROBOT && !robo_repair)
