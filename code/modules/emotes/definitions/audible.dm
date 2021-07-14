@@ -388,7 +388,7 @@
 	emote_message_3p = "USER praises tzchernobog!"
 	conscious = TRUE
 
-/decl/emote/audible/dayum/do_extra(var/mob/M)
+/decl/emote/audible/cultiste/do_extra(var/mob/M)
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(H.isMonkey()|| M.gender == NEUTER)
