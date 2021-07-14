@@ -167,8 +167,8 @@
 	agony = 80
 	penetrating = 3
 	kill_count = 250
-	armor_penetration = 65
-	armor_damage = 80
+	armor_penetration = 90
+	armor_damage = 100
 
 /obj/item/projectile/bullet/rifle/a127x108mm/New()
 	damage = rand(46, 54)
