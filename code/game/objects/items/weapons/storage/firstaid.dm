@@ -247,7 +247,8 @@
 	storage_slots = 4
 	item_state = null
 	w_class = 2
-	startswith = null
+	startswith = list(/obj/item/stack/medical/bruise_pack/gauze = 2, \
+					/obj/item/suture = 1)
 
 	can_hold = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
@@ -258,7 +259,8 @@
 		/obj/item/weapon/gauze_pack/woundseal/nato,
 		/obj/item/weapon/gauze_pack/woundseal/wp,
 		/obj/item/stack/medical/bruise_pack/gauze,
-		/obj/item/stack/medical/tourniquet/woundseal
+		/obj/item/stack/medical/tourniquet/woundseal,
+		/obj/item/suture,
 		)
 
 /obj/item/weapon/storage/firstaid/ifak/nato
@@ -268,7 +270,9 @@
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet/nato,
 		/obj/item/weapon/gauze_pack/gauze,
-		/obj/item/stack/medical/splint/ifak
+		/obj/item/weapon/gauze_pack/gauze,
+		/obj/item/stack/medical/splint/ifak,
+		/obj/item/suture,
 		)
 
 /obj/item/weapon/storage/firstaid/ifak/soviet
@@ -278,7 +282,9 @@
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/weapon/gauze_pack/ipp,
-		/obj/item/stack/medical/splint/ifak
+		/obj/item/weapon/gauze_pack/ipp,
+		/obj/item/stack/medical/splint/ifak,
+		/obj/item/suture,
 		)
 
 /obj/item/weapon/storage/firstaid/cms
@@ -327,7 +333,8 @@
 		/obj/item/weapon/setofplates
 		)
 
-/*/obj/item/weapon/storage/firstaid/gauze
+/*
+/obj/item/weapon/storage/firstaid/gauze
 	name = "gauze satchel"
 	desc = "A small container you can place bandages and bandage packs in."
 	icon_state = "nato_gauze"
@@ -382,4 +389,5 @@
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/stack/medical/tourniquet,
 		/obj/item/stack/medical/tourniquet
-		)*/
+		)
+*/

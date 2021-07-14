@@ -5,8 +5,8 @@
 	/obj/item/stack/cable_coil = 60
 	)
 
-	min_duration = 70
-	max_duration = 100
+	min_duration = 50
+	max_duration = 75
 	can_infect = 1
 	blood_level = 1
 	min_duration = 45
@@ -20,7 +20,7 @@
 	if(!affected || affected.is_stump() || (affected.status & ORGAN_ROBOT))
 		return 0
 	for(var/datum/wound/W in affected.wounds)
-		if(W.damage_type == CUT && W.damage)
+		if(W.damage_type in list(PIERCE, CUT) && W.damage)
 			return 1
 	return 0
 
