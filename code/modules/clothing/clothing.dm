@@ -30,8 +30,8 @@
 			if(armor_fullblock[poopshit])
 				has_some_sort_of_armor = TRUE
 	if(has_some_sort_of_armor && length(armor_integrity))
-		switch(Floor(armor_integrity[armor_integrity[1]]))
-			if(90 to 100)
+		switch(Floor(armor_integrity[armor_integrity[1]]/armor_integrity_starting * 100))
+			if(90 to INFINITY)
 				to_chat(user, "<span class='info'>It is in pristine condition.</span>")
 			if(75 to 90)
 				to_chat(user, "<span class='info'>It is in almost pristine condition.</span>")
@@ -41,7 +41,7 @@
 				to_chat(user, "<span class='warning'>It is in very poor condition.</span>")
 			if(1 to 25)
 				to_chat(user, "<span class='danger'>It is in <b>awful</b> condition.</span>")
-			if(0)
+			if(-INFINITY to 0)
 				to_chat(user, "<span class='danger'><b>It is absolutely ripped to shreds.</b></span>")
 
 // Updates the icons of the mob wearing the clothing item, if any.

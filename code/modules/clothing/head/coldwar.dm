@@ -21,6 +21,7 @@
 	w_class = ITEM_SIZE_HUGE
 	valid_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
+	armor_integrity_starting = 35
 
 /obj/item/clothing/head/coldwar/helmet/attack_self(mob/user as mob)
 	if(icon_state == initial(icon_state))
@@ -30,9 +31,7 @@
 		icon_state = initial(icon_state)
 		to_chat(user, "You zip your helmet back.")
 
-
 ////////ushankas
-
 /obj/item/clothing/head/coldwar/ushanka
 	name = "ushanka"
 	desc = "Perfect for winter in Siberia, da?"
@@ -118,6 +117,7 @@
 	name = "SSh-68 helmet"
 	desc = "A cheap steel helmet used by Soviet Army."
 	icon_state = "ssh68"
+	armor_integrity_starting = 35
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9

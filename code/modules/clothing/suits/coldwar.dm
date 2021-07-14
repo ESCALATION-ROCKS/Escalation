@@ -1,5 +1,6 @@
 /obj/item/clothing/suit/armor/vest/coldwar
 	wearable = 1
+	armor_integrity_starting = 70
 
 /obj/item/clothing/suit/storage/vest/coldwar
 	wearable = 1
