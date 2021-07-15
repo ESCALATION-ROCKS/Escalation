@@ -215,10 +215,9 @@
 
 /*
 	Middle click
-	Only used for swapping hands
+	Only used for callouts
 */
 /mob/proc/MiddleClickOn(var/atom/A)
-	swap_hand()
 	return
 
 // In case of use break glass
@@ -235,6 +234,7 @@
 /mob/proc/ShiftClickOn(var/atom/A)
 	A.ShiftClick(src)
 	return
+
 /atom/proc/ShiftClick(var/mob/user)
 	if(user.client && user.client.eye == user)
 		user.examinate(src)
