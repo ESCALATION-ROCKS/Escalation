@@ -3,7 +3,6 @@
 
 /obj/item/clothing/suit/storage/vest/coldwar
 	wearable = 1
-	armor_integrity_starting = 70
 
 //Soviet armor
 /obj/item/clothing/suit/storage/vest/coldwar/soviet
