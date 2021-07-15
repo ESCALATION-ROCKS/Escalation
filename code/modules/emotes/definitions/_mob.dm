@@ -108,7 +108,8 @@
 		/decl/emote/visible/wink,
 		/decl/emote/visible/hug,
 		/decl/emote/visible/signal,
-		/decl/emote/visible/handshake
+		/decl/emote/visible/handshake,
+		/decl/emote/audible/rire,
 	)
 
 /mob/living/silicon/robot
