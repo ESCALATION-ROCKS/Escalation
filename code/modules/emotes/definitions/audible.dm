@@ -370,7 +370,7 @@
 /decl/emote/audible/rire
 	key = "rire"
 	emote_message_3p = "USER laughs!"
-	conscious = TRUE
+	conscious = FALSE
 
 /decl/emote/audible/rire/do_extra(var/mob/M)
 	if(ishuman(M))
@@ -386,7 +386,7 @@
 /decl/emote/audible/cultiste
 	key = "tzchernobog"
 	emote_message_3p = "USER praises tzchernobog!"
-	conscious = TRUE
+	conscious = FALSE
 
 /decl/emote/audible/cultiste/do_extra(var/mob/M)
 	if(ishuman(M))

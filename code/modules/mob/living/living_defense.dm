@@ -12,7 +12,7 @@
 */
 /mob/living/proc/run_armor_check(var/def_zone = null, var/attack_flag = "melee", var/armour_pen = 0, var/absorb_text = null, var/soften_text = null)
 	var/integrity = getarmorintegrity(def_zone)
-	if(integrity < 0)
+	if(integrity <= 0)
 		//armor is fucking busted lol
 		return 0
 	var/armor = getarmor(def_zone, attack_flag, FALSE)
