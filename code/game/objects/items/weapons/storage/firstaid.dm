@@ -269,7 +269,6 @@
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet/nato,
 		/obj/item/weapon/gauze_pack/gauze,
-		/obj/item/weapon/gauze_pack/gauze,
 		/obj/item/stack/medical/splint/ifak,
 		/obj/item/suture,
 		)
@@ -280,7 +279,6 @@
 	startswith = list(
 		/obj/item/weapon/reagent_containers/syrette/morphine,
 		/obj/item/stack/medical/tourniquet,
-		/obj/item/weapon/gauze_pack/ipp,
 		/obj/item/weapon/gauze_pack/ipp,
 		/obj/item/stack/medical/splint/ifak,
 		/obj/item/suture,
