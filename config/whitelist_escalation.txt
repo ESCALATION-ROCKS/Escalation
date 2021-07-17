@@ -6,122 +6,110 @@
 
 ############### HOST AND FRA
 
-Von Carstein = {
+voncarstein = {
 ::ALL::
 }
 
-epicdwarf = {
-fra_enlisted
+echion = {
+ddr_officer
+ddr_nco
+ddr_enlisted
 }
 
-Nayser = {
-fra_enlisted
-}
-
-bardinatavern = {
-fra_enlisted
-}
-
-Meem4903 = {
-fra_enlisted
-}
-
-bongosz = {
-fra_enlisted
+kindadread = {
+ddr_officer
+ddr_nco
+ddr_enlisted
 }
 
 nightfang212 = {
-fra_enlisted
-}
-
-Tristan63 = {
-fra_enlisted
-}
-
-SilencedMP5A5 = {
-fra_enlisted
-}
-
-Balpindo = {
-fra_enlisted
-}
-
-############### NVA OFFICER
-
-Verarch = {
 ddr_officer
 ddr_nco
 ddr_enlisted
 }
 
-Echion = {
-ddr_officer
+ezhlk = {
 ddr_nco
 ddr_enlisted
 }
 
-FireNightPower = {
-ddr_officer
+valot78 = {
 ddr_nco
 ddr_enlisted
 }
 
-Lushsalmon123 = {
-ddr_officer
+jackomago61 = {
 ddr_nco
 ddr_enlisted
 }
 
-##NVA NCO
-
-Jackomago61 = {
+sivuha = {
 ddr_nco
 ddr_enlisted
 }
 
-Ezhlk = {
+softstone101 = {
 ddr_nco
 ddr_enlisted
 }
 
-sraserdas = {
+theflyingbananagaming = {
 ddr_nco
 ddr_enlisted
 }
 
-battieralarm3 = {
+luke313 = {
 ddr_nco
 ddr_enlisted
 }
 
-Corbe = {
+alexundrrrmkaroff = {
 ddr_nco
 ddr_enlisted
 }
 
-Luftie = {
+nayser = {
 ddr_nco
 ddr_enlisted
 }
 
-#NVA ENLISTED
-
-0xDEED = {
+epicdwarf = {
 ddr_enlisted
 }
 
-Billy Hays = {
-ddr_enlisted
-nva_nco
-ddr_enlistetd
-ddr_nco
-}
-
-Churro5 = {
+foxtail99 = {
 ddr_enlisted
 }
 
-rev1n = {
+protoszerg = {
+ddr_enlisted
+}
+
+bob46 = {
+ddr_enlisted
+}
+
+sfele = {
+ddr_enlisted
+}
+
+akellazp = {
+ddr_enlisted
+}
+
+mixanovr64 = {
+ddr_enlisted
+}
+
+thunderstorms = {
+ddr_enlisted
+}
+
+avgustfroch = {
+ddr_enlisted
+}
+
+nikita588 = {
 ddr_enlisted
 }
 
@@ -129,111 +117,15 @@ cesarjunior233 = {
 ddr_enlisted
 }
 
-Desgarradordeprostata = {
+desgarradordeprostata = {
 ddr_enlisted
 }
 
-Luke313 = {
+mikaelcg = {
 ddr_enlisted
 }
 
-LeoTheKiller = {
-ddr_enlisted
-}
-
-AvgustFroch = {
-ddr_enlisted
-}
-
-Arbufy = {
-ddr_enlisted
-}
-
-Timtwoshoes = {
-ddr_enlisted
-}
-
-Paragonia = {
-ddr_enlisted
-}
-
-ToroidalZer0 = {
-ddr_enlisted
-}
-
-Nobillynotreally = {
-ddr_enlisted
-}
-
-Lautaroluna180 = {
-ddr_enlisted
-}
-
-FatSeal = {
-ddr_enlisted
-}
-
-Moorish_infanteer = {
-ddr_enlisted
-}
-
-AlexUNDRRRMKaroff = {
-ddr_enlisted
-}
-
-Scoobov = {
-ddr_enlisted
-}
-
-Booperkin343435 = {
-ddr_enlisted
-}
-
-FoxTail_99 = {
-ddr_enlisted
-}
-
-Sha.SCT = {
-ddr_enlisted
-}
-
-aguyiguess = {
-ddr_enlisted
-}
-
-Rinambam = {
-ddr_enlisted
-}
-
-Dancingisneverallowed = {
-ddr_enlisted
-}
-
-vlad3 = {
-ddr_enlisted
-}
-
-Ondrej008 = {
-ddr_enlisted
-}
-
-MyShort = {
-ddr_enlisted
-}
-
-I like D0nUts = {
-ddr_enlisted
-}
-
-LilArnie = {
-ddr_enlisted
-}
-
-SoftStone101 = {
-ddr_enlisted
-}
-
-atlasrules87 = {
+logankele = {
 ddr_enlisted
 }
 
@@ -241,25 +133,79 @@ hsiwe = {
 ddr_enlisted
 }
 
-Higher_Life = {
+timtwoshoes = {
 ddr_enlisted
 }
 
-Yarnhut = {
+moorishinfanteer = {
 ddr_enlisted
 }
 
-LivonianGuy = {
+yarnhut = {
 ddr_enlisted
 }
 
-Unknownreptile = {
+geniyevgeniy = {
 ddr_enlisted
 }
 
-############### BDW OFFICER
+decebalstalin = {
+ddr_enlisted
+}
 
-TeknoKot = {
+higherlife = {
+ddr_enlisted
+}
+
+churro5 = {
+ddr_enlisted
+}
+
+vulpesishot = {
+ddr_enlisted
+}
+
+0xdeed = {
+ddr_enlisted
+}
+
+nopakizone = {
+ddr_enlisted
+}
+
+leothekiller = {
+ddr_enlisted
+}
+
+alex13t = {
+ddr_enlisted
+}
+
+oshibka = {
+ddr_enlisted
+}
+
+trevic = {
+ddr_enlisted
+}
+
+jamessirk = {
+ddr_enlisted
+}
+
+thesecretslav = {
+ddr_enlisted
+}
+
+ondrej008 = {
+ddr_enlisted
+}
+
+chungusdelux = {
+ddr_enlisted
+}
+
+boringcommunist = {
 bdw_officer
 bdw_nco
 bdw_enlisted
@@ -271,87 +217,67 @@ bdw_nco
 bdw_enlisted
 }
 
-Gy1ta23 = {
+lushsalmon123 = {
 bdw_officer
 bdw_nco
 bdw_enlisted
 }
 
-####BDW NCO
-
-Kindadread = {
+bongosz = {
 bdw_nco
 bdw_enlisted
 }
 
-koekiegast = {
+corbe = {
 bdw_nco
 bdw_enlisted
 }
 
-TheManWhoSoldTheHorns = {
+joooks = {
 bdw_nco
 bdw_enlisted
 }
 
-Rata123 = {
+yungbruh = {
 bdw_nco
 bdw_enlisted
 }
 
-Egorium = {
+billyhays = {
 bdw_nco
 bdw_enlisted
 }
 
-####BDW ENLISTED
-
-Ruediger4 = {
-bdw_enlisted
-}
-
-Eric066 = {
-bdw_enlisted
-}
-
-BoringCommunist = {
-bdw_enlisted
+shasct = {
 bdw_nco
-}
-
-yung bruh = {
 bdw_enlisted
 }
 
-Cadet0 = {
+themanwhosoldthehorns = {
+bdw_nco
 bdw_enlisted
 }
 
-Blobmaker3 = {
+b3anz = {
+bdw_nco
 bdw_enlisted
 }
 
-Sparta_louco = {
+cadeto = {
+bdw_nco
 bdw_enlisted
 }
 
-Cadet0 = {
+yacobpo157 = {
+bdw_nco
 bdw_enlisted
 }
 
-SolarMacharius = {
+bobmancer343 = {
 bdw_enlisted
 }
 
-MadMrE = {
-bdw_enlisted
-}
-
-randomperson05 = {
-bdw_enlisted
-}
-
-Bobmancer343 = {
+egorium = {
 bdw_enlisted
 }
 
@@ -359,156 +285,142 @@ xdyou = {
 bdw_enlisted
 }
 
-Mr.Kieubas = {
+master8688 = {
 bdw_enlisted
 }
 
-ReBull = {
+pappisherman = {
 bdw_enlisted
 }
 
-Master8688 = {
+meem4902 = {
 bdw_enlisted
 }
 
-Logbomb = {
+mrkieubas = {
 bdw_enlisted
 }
 
-redory = {
+sugmus = {
 bdw_enlisted
 }
 
-Total_Epicness5 = {
+vlad3 = {
 bdw_enlisted
 }
 
-Void Shiki = {
+toroidalzer0 = {
 bdw_enlisted
 }
 
-B3anz = {
+chaoticagent = {
 bdw_enlisted
 }
 
-Polyglophone = {
+rebull = {
 bdw_enlisted
 }
 
-theflyingbananagaming = {
+luftie = {
 bdw_enlisted
 }
 
-BulkaGoblina = {
+rand4l = {
 bdw_enlisted
 }
 
-Lord_Inquisitor228 = {
+troy42506 = {
 bdw_enlisted
 }
 
-Googles_Hands = {
+subaruuuuu = {
 bdw_enlisted
 }
 
-arbs = {
+commanderchris = {
 bdw_enlisted
 }
 
-Freeders = {
+mazenalmoraud = {
 bdw_enlisted
 }
 
-MAZENALMORAUD = {
+solarmacharius = {
 bdw_enlisted
 }
 
-ILikeToGammon = {
+tristan63 = {
 bdw_enlisted
 }
 
-Joooks = {
-bdw_enlisted
-bdw_nco
-}
-
-###CSLA
-
-Bob46 = {
-csla_enlisted
-csla_nco
-csla_officer
-}
-
-Sivuha = {
-csla_enlisted
-}
-
-GeniyEvgeniy = {
-csla_enlisted
-}
-
-Fiaskin = {
-csla_enlisted
-}
-
-Nikita588 = {
-csla_enlisted
-}
-
-Sfele = {
-csla_enlisted
-}
-
-Protos-Zerg = {
-csla_enlisted
-}
-AngryBoar = {
-csla_enlisted
-}
-
-CommanderChris = {
+silencedmp5a5 = {
 bdw_enlisted
 }
 
-
-
-
-Nopakizone = {
+dudeman100 = {
 bdw_enlisted
 }
 
-PepeFrog = {
-ddr_enlisted
-}
-
-ExecutorPartner = {
-fra_enlisted
-}
-
-
-
-
-
-wallshrubnick = {
-ddr_enlisted
-}
-
-ConteudoGenerico = {
+arbufy = {
 bdw_enlisted
 }
 
-
-bartdrown = {
-ddr_nco
-ddr_enlisted
+lordinquisitor228 = {
+bdw_enlisted
 }
 
-
-Akellazp = {
-ddr_enlisted
+balpindo = {
+bdw_enlisted
 }
 
-ChaoticAgent = {
-::ALL::
+localizeddownpour = {
+bdw_enlisted
+}
+
+thecrazywolf = {
+bdw_enlisted
+}
+
+shmesser = {
+bdw_enlisted
+}
+
+lynauhsororitas = {
+bdw_enlisted
+}
+
+demkova = {
+bdw_enlisted
+}
+
+omenVI = {
+bdw_enlisted
+}
+
+lordkang45 = {
+bdw_enlisted
+}
+
+mikt4743 = {
+bdw_enlisted
+}
+
+booperkin343435 = {
+bdw_enlisted
+}
+
+thatonedude1 = {
+bdw_enlisted
+}
+
+1kajowsmol = {
+bdw_enlisted
+}
+
+xandimasculu = {
+bdw_enlisted
+}
+
+lol18 = {
+bdw_enlisted
 }
