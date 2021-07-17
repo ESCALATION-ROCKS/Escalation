@@ -247,7 +247,7 @@
 	name = "IFAK"
 	desc = "That's the Individual First Aid Kit."
 	icon_state = "usmc_ifak"
-	storage_slots = 4
+	storage_slots = 5
 	item_state = null
 	w_class = 2
 	startswith = null
