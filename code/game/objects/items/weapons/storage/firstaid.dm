@@ -86,6 +86,8 @@
 		/obj/item/weapon/FixOVein,
 		/obj/item/stack/medical/advanced/bruise_pack,
 		/obj/item/stack/nanopaste,
+		/obj/item/clothing/gloves/latex,
+		/obj/item/clothing/gloves/latex/nitrile,
 		)
 
 	startswith = list(
@@ -99,6 +101,7 @@
 		/obj/item/weapon/bonegel,
 		/obj/item/weapon/FixOVein,
 		/obj/item/stack/medical/advanced/bruise_pack,
+		/obj/item/clothing/gloves/latex/nitrile,
 		)
 
 /*
@@ -203,7 +206,6 @@
 
 	startswith = list(/obj/item/weapon/reagent_containers/pill/antidexafen = 7)
 
-
 /obj/item/weapon/storage/firstaid/docbag
 	name = "medical bag"
 	desc = "Contains some medical tools and medical supplies."
@@ -214,31 +216,32 @@
 	max_storage_space = null
 
 	startswith = list(
-		/obj/item/weapon/scalpel,
-		/obj/item/weapon/storage/pill_bottle/paracetamol,
-		/obj/item/stack/medical/splint,
+		/obj/item/weapon/scalpel = 1,
+		/obj/item/weapon/storage/pill_bottle/paracetamol = 1,
+		/obj/item/stack/medical/splint = 1,
 		/obj/item/stack/medical/bruise_pack = 2,
 		/obj/item/stack/medical/ointment = 1,
 		/obj/item/weapon/reagent_containers/hypospray/autoinjector/pain = 2,
-		/obj/item/weapon/storage/pill_bottle/antidexafen,
-		/obj/item/suture,
-		/obj/item/stack/medical/medispray = 1
+		/obj/item/weapon/storage/pill_bottle/antidexafen = 1,
+		/obj/item/suture = 1,
+		/obj/item/stack/medical/medispray = 1,
+		/obj/item/clothing/gloves/latex/nitrile = 1,
 		)
 
 /obj/item/weapon/storage/firstaid/docbag/advanced
 	startswith = list(
-		/obj/item/weapon/scalpel,
-		/obj/item/weapon/reagent_containers/glass/bottle/talotropine,
-		/obj/item/stack/medical/splint,
+		/obj/item/weapon/scalpel = 1,
+		/obj/item/weapon/reagent_containers/glass/bottle/talotropine = 1,
+		/obj/item/stack/medical/splint = 1,
 		/obj/item/stack/medical/bruise_pack = 2,
 		/obj/item/stack/medical/ointment = 1,
 		/obj/item/weapon/reagent_containers/hypospray/autoinjector/pain = 2,
 		/obj/item/weapon/reagent_containers/hypospray/autoinjector/combatpain = 2,
-		/obj/item/suture,
+		/obj/item/suture = 1,
 		/obj/item/stack/medical/medispray = 1,
-		/obj/item/weapon/reagent_containers/hypospray/autoinjector/ethanol = 10
+		/obj/item/weapon/reagent_containers/hypospray/autoinjector/ethanol = 10,
+		/obj/item/clothing/gloves/latex/nitrile = 1,
 		)
-
 
 /obj/item/weapon/storage/firstaid/ifak
 	name = "IFAK"
@@ -302,7 +305,8 @@
 		/obj/item/weapon/scalpel,
 		/obj/item/weapon/cautery,
 		/obj/item/weapon/reagent_containers/spray/sterilizine,
-		/obj/item/weapon/setofplates
+		/obj/item/clothing/gloves/latex/nitrile,
+		/obj/item/weapon/setofplates,
 		)
 
 	can_hold = list(
@@ -322,10 +326,11 @@
 		/obj/item/weapon/retractor,
 		/obj/item/weapon/scalpel,
 		/obj/item/weapon/cautery,
-		/obj/item/weapon/retractor,
 		/obj/item/weapon/reagent_containers/spray/sterilizine,
+		/obj/item/clothing/gloves/latex,
+		/obj/item/clothing/gloves/latex/nitrile,
 		/obj/item/weapon/gauze_pack,
-		/obj/item/weapon/setofplates
+		/obj/item/weapon/setofplates,
 		)
 
 /*
