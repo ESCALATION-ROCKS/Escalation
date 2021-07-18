@@ -19,7 +19,7 @@
 	icon_state = "empty"
 	volume = 200
 	amount_per_transfer_from_this = 0.1
-	possible_transfer_amounts = list(1;2;5)
+	possible_transfer_amounts = "0.1;0.2;0.5;1;2;5"
 	///Blood type we start with
 	var/blood_type = null
 	///Who are we sticking our needle in?
@@ -44,8 +44,8 @@
 		return PROCESS_KILL
 
 	if(!(get_dist(src, attached) <= 1 && isturf(attached.loc)) || !isliving(loc))
-		attached.visible_message(span_danger("\The IV bag needle is ripped out of <b>[attached]</b>!"), \
-								span_userdanger("Ouch! \The IV bag needle is ripped from me!"))
+		attached.visible_message("<span class='danger'>\The IV bag needle is ripped out of <b>[attached]</b>!", \
+								"<span class='userdanger'>Ouch! \The IV bag needle is ripped from you!</span>")
 		attached.apply_damage(3, BRUTE, pick(BP_R_ARM, BP_L_ARM), damage_flags = DAM_SHARP)
 
 		detach_iv()
@@ -58,7 +58,7 @@
 				reagents.trans_to_mob(attached, amount_per_transfer_from_this, CHEM_BLOOD) //make reagents reacts, but don't spam messages
 		// Take blood
 		else
-			var/amount = attached.vessel.reagents.maximum_volume - attached.vessel.reagents.total_volume
+			var/amount = attached.vessel.maximum_volume - attached.vessel.total_volume
 			amount = min(amount, amount_per_transfer_from_this)
 
 			attached.vessel.trans_to_obj(src, amount)
@@ -97,14 +97,14 @@
 		overlays += filling
 	overlays += image('icons/obj/bloodpack.dmi', "top")
 
-/obj/item/reagent_containers/blood/proc/attach_iv(mob/living/target, mob/user)
+/obj/item/weapon/reagent_containers/blood/proc/attach_iv(mob/living/target, mob/user)
 	user.visible_message("<span class='notice'><b>[user]</b> attaches [src] to [target].</span>", \
 					"<span class='notice'>I attach [src] to [target].</span>")
 	add_fingerprint(user)
 	attached = target
 	START_PROCESSING(SSobj, src)
 
-/obj/item/reagent_containers/blood/proc/detach_iv()
+/obj/item/weapon/reagent_containers/blood/proc/detach_iv()
 	attached = null
 	STOP_PROCESSING(SSobj, src)
 
