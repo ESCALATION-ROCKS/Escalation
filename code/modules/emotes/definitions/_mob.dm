@@ -110,6 +110,7 @@
 		/decl/emote/visible/signal,
 		/decl/emote/visible/handshake,
 		/decl/emote/audible/rire,
+		/decl/emote/audible/cultiste,
 	)
 
 /mob/living/silicon/robot
