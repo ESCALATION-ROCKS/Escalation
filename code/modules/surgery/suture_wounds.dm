@@ -17,7 +17,7 @@
 	if(!istype(target))
 		return 0
 	var/obj/item/organ/external/affected = target.get_organ(target_zone)
-	if(!affected || affected.is_stump() || (affected.status & ORGAN_ROBOT))
+	if(!affected || affected.is_stump() || (affected.status & ORGAN_ROBOT) || ((affected.open() >= SURGERY_RETRACTED) && (affected.status & ORGAN_ARTERY_CUT|ORGAN_TENDON_CUT) ))
 		return 0
 	for(var/datum/wound/W in affected.wounds)
 		if(W.damage_type in list(PIERCE, CUT) && W.damage)
