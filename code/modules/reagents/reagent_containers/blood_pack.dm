@@ -19,7 +19,7 @@
 	icon_state = "empty"
 	volume = 200
 	amount_per_transfer_from_this = 0.1
-	possible_transfer_amounts = list(0.1;0.2;1;2;5)
+	possible_transfer_amounts = list(1;2;5)
 	///Blood type we start with
 	var/blood_type = null
 	///Who are we sticking our needle in?
