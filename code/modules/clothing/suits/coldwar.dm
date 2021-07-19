@@ -7,7 +7,8 @@
 //Soviet armor
 /obj/item/clothing/suit/storage/vest/coldwar/soviet
 	w_class = ITEM_SIZE_LARGE
-	valid_accessory_slots = list(ACCESSORY_SLOT_INSIGNIA)
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	allowed = list(/obj/item/device/radio,/obj/item/weapon/reagent_containers/spray/pepper,/obj/item/weapon/gun/projectile,/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/weapon/melee/baton,/obj/item/weapon/handcuffs,/obj/item/weapon/gun/magnetic)
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	cold_protection = UPPER_TORSO|LOWER_TORSO
@@ -23,12 +24,13 @@
 	item_state = "6b3green"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
-	slowdown_general = 0.22
+	slowdown_general = 0.15
 
 /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3/New()
 	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 4, slot_size = 2)
 
+/*
 /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik
 	name = "6B2 vest w/ lifchik"
 	desc = "An uncommon armor vest used by Soviet army. This one has a lifchik attached to it."
@@ -49,15 +51,20 @@
 /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b2lifchik/alt/New()
 	..()
 	pockets = new/obj/item/weapon/storage/internal/pockets(src, slots = 2, slot_size = 3)
+*/
 
 /obj/item/clothing/suit/armor/vest/coldwar/a6b2
 	name = "6B2 vest"
 	desc = "An uncommon armor vest used by Soviet army."
 	icon_state = "6b2green"
 	item_state = "6b2green"
+	w_class = ITEM_SIZE_LARGE
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
-	slowdown_general = 0.20
+	slowdown_general = 0.15
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 //USMC
 /obj/item/clothing/suit/armor/vest/coldwar/pasgt
@@ -70,7 +77,7 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
-	slowdown_general = 0.18
+	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
@@ -78,7 +85,7 @@
 
 /obj/item/clothing/suit/armor/vest/coldwar/flakvest
 	name = "M69 flak vest"
-	desc = "An outdated flak vest used by NATO personnel."
+	desc = "An outdated flak vest comonly used by Bundeswehr personnel."
 	icon_state = "flakvest_nato"
 	item_state = "armor"
 	w_class = ITEM_SIZE_LARGE
