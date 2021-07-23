@@ -458,14 +458,14 @@
 
 /obj/item/clothing/accessory/storage/coldwar/bandolier_nato
 	name = "bandolier"
-	desc = "A generic nylon bandolier that can hold 5 items."
+	desc = "A generic nylon bandolier that can hold 4 items."
 	icon_state = "bandolier_nato"
 	gender = NEUTER
 	w_class = ITEM_SIZE_LARGE
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/bandolier_nato/filled/New()
 	..()
@@ -484,7 +484,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/vest/woodland
 	icon_state = "bandovest_nato_w"
@@ -498,7 +498,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/kaz
 	name = "KAZ03 chest rig"
@@ -509,7 +509,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/baf
 	name = "58 pattern webbing "
@@ -520,7 +520,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 3
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/adt
 	name = "CCE Tactical Vest "
@@ -537,7 +537,7 @@
 	icon_state = "lifchik_2"
 	slots = 2
 	max_w_class = ITEM_SIZE_NORMAL
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/lifchikblack
 	name = "webbing"
@@ -548,13 +548,13 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/lifchikblack/alt
 	icon_state = "lifchikblack_2"
 	slots = 2
 	max_w_class = ITEM_SIZE_NORMAL
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 
 /obj/item/clothing/accessory/storage/coldwar/shellbandolier
@@ -566,7 +566,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 6
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/shellbandolier/New()
 	..()
@@ -587,7 +587,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/zeltbahn
 	name = "zeltbahn"
@@ -602,7 +602,7 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
 
 /obj/item/clothing/accessory/storage/coldwar/usmccoat
 	name = "marine winter coat"
@@ -617,4 +617,4 @@
 	slot_flags = SLOT_OCLOTHING
 	slot = ACCESSORY_SLOT_ARMOR_S
 	slots = 4
-	armor_slowdown = 0.0
+	//armor_slowdown = 0.0
