@@ -58,6 +58,7 @@
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.20
+	possible_damage_states = 4
 
 //USMC
 /obj/item/clothing/suit/armor/vest/coldwar/pasgt
@@ -72,9 +73,11 @@
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.18
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+	possible_damage_states = 4
 
 /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
 	icon_state = "pasgt_vest_woodland"
+	possible_damage_states = 4
 
 /obj/item/clothing/suit/armor/vest/coldwar/flakvest
 	name = "M69 flak vest"
@@ -88,6 +91,7 @@
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	slowdown_general = 0.15
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+	possible_damage_states = 4
 
 /obj/item/clothing/suit/armor/vest/coldwar/heervest
 	name = "KAZ03 flak vest"
