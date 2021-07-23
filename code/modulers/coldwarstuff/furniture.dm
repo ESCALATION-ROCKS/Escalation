@@ -38,7 +38,7 @@
 	icon_state = "bed-metal-frame-double"
 	color = null
 
-/obj/structure/bed/chair/wood/sofa2
+/obj/structure/bed/chair/futon
 	name = "futon"
 	desc = "A futon for the intellectual."
 	icon = 'icons/obj/coldwar/housefurniture.dmi'
