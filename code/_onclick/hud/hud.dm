@@ -37,8 +37,12 @@
 	var/obj/screen/movable/action_button/hide_toggle/hide_actions_toggle
 	var/action_buttons_hidden = 0
 
+	var/obj/screen/screentip/screentip_text
+
 /datum/hud/New(mob/owner)
 	mymob = owner
+	screentip_text = new(mymob)
+	LAZYADD(adding, screentip_text)
 	instantiate()
 	..()
 
@@ -53,6 +57,7 @@
 	other = null
 	hotkeybuttons = null
 	mymob = null
+	QDEL_NULL(screentip_text)
 
 /datum/hud/proc/hidden_inventory_update()
 	if(!mymob) return
