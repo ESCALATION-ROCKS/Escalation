@@ -137,7 +137,7 @@
 				if(damage < 5)
 					degree = " a bit"
 				owner.custom_pain("Something inside your [parent.name] hurts[degree].", amount, affecting = parent)
-	if(vital && damage >= maxhealth)
+	if(vital && damage >= max_damage)
 		owner?.death()
 
 /obj/item/organ/internal/proc/handle_regeneration()
