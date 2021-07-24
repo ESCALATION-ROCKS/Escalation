@@ -381,18 +381,3 @@
 
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, -2)
-
-/decl/emote/audible/cultiste
-	key = "tzchernobog"
-	emote_message_3p = "USER praises tzchernobog!"
-
-/decl/emote/audible/cultiste/do_extra(var/mob/M)
-	if(ishuman(M))
-		var/mob/living/carbon/human/H = M
-		if(H.isMonkey()|| M.gender == NEUTER)
-			return
-
-		emote_sound = "sound/vo/cultiste_message_[rand(1,10)].ogg"
-
-		if(emote_sound)
-			playsound(M, emote_sound, 85, 0, -2)
