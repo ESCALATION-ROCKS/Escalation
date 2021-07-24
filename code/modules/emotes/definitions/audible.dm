@@ -381,3 +381,18 @@
 
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, -2)
+
+/decl/emote/audible/unf
+	key = "unf"
+	emote_message_3p = "USER unfs!"
+
+/decl/emote/audible/rire/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/doomguy_unf[rand(1,2)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 85, 0, -2)
