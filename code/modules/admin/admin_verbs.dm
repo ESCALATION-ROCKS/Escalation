@@ -106,8 +106,6 @@ var/list/admin_verbs_admin = list(
 	/client/proc/announce_battle_start,
 	/client/proc/warpact_major,
 	/client/proc/nato_major,
-	/client/proc/warpact_minor,
-	/client/proc/nato_minor,
 	/client/proc/draw_major,
 	/datum/admins/proc/ToggleCkeyWhitelist,
 	/datum/admins/proc/ReloadCkeyWhitelist,
