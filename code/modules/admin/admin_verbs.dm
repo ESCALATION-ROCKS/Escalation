@@ -1174,8 +1174,8 @@ var/global/list/global_colour_matrix = null
 	var/victoryconfirm = alert("Are you sure you want to declare a BDW victory?", "Are you sure you want to declare a BDW victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared NATO Victory")
-		to_world("<b><font size=5>The Bundeswehr have secured control of the battlefield. Bundeswehr Vorwärts!</font></b>")
-		sound_to(world, 'sound/music/awakenmymasters.ogg')
+		to_world("<b><font size=5>The Bundeswehr have secured held the American Embassy! Bundeswehr Vorwarts!</font></b>")
+		sound_to(world, 'sound/music/bdwwin.ogg')
 	else
 		return
 
@@ -1185,30 +1185,8 @@ var/global/list/global_colour_matrix = null
 	var/victoryconfirm = alert("Are you sure you want to declare a NVA victory?", "Are you sure you want to declare a NVA victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared WARPACT Victory")
-		to_world("<b><font size=5>The National Volkarmee overun the battlefield. Für die Arbeiter!</font></b>")
-		sound_to(world, 'sound/music/big_cheese_99_luftbaloons_1.ogg')
-	else
-		return
-
-/client/proc/nato_minor()
-	set category = "EscAdmin"
-	set name = "Announce FRA Victory"
-	var/victoryconfirm = alert("Are you sure you want to declare a FRA victory?", "Are you sure you want to declare a FRA victory?", "Yes", "No")
-	if(victoryconfirm == "Yes")
-		log_and_message_admins("has declared WARPACT Victory")
-		to_world("<b><font size=5>The Bundeswehr have secured control of the battlefield, with major assistance from Armee De Terre.</font></b>")
-		sound_to(world, 'sound/music/africa.ogg')
-	else
-		return
-
-/client/proc/warpact_minor()
-	set category = "EscAdmin"
-	set name = "Announce CSLA Victory"
-	var/victoryconfirm = alert("Are you sure you want to declare a CSLA victory?", "Are you sure you want to declare a CSLA victory?", "Yes", "No")
-	if(victoryconfirm == "Yes")
-		log_and_message_admins("has declared WARPACT Victory")
-		to_world("<b><font size=5>The National Volkarmee have secured the battlefield, with major assistance from Czechoslovak People's Army!</font></b>")
-		sound_to(world, 'sound/music/wearethearmyofthepeoplesynth.ogg')
+		to_world("<b><font size=5>The National Volkarmee have pushed the Bundeswehr back! Fur die Arbeiter!</font></b>")
+		sound_to(world, 'sound/music/nvawin.ogg')
 	else
 		return
 
@@ -1218,7 +1196,7 @@ var/global/list/global_colour_matrix = null
 	var/victoryconfirm = alert("Are you sure you want to declare a DRAW?", "Are you sure you want to declare a DRAW?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared a draw.")
-		to_world("<b><font size=4>The battlefield is deserted and the remaining troops have retreated.</font></b>")
+		to_world("<b><font size=4>The battlefield is deserted and the remaining troops from both sides have retreated.</font></b>")
 		sound_to(world, 'sound/music/bluemonday.ogg')
 	else
 		return
