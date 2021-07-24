@@ -258,7 +258,7 @@
 			return
 
 		if(M.gender == MALE)
-			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,13)].ogg"
+			emote_sound = "sound/vo/bf3/m_scream[rand(1,21)].wav"
 
 		if(M.gender == FEMALE)
 			emote_sound = "sound/vo/fh1_ReactedInjuryIntense_[rand(1,5)].ogg"
@@ -305,7 +305,7 @@
 
 		if(M.gender == MALE)
 			if(prob(99))
-				emote_sound = "sound/vo/m_scream[rand(1,9)].ogg"
+				emote_sound = "sound/vo/bf3/m_scream[rand(1,21)].wav"
 			else
 				emote_sound = "sound/vo/scream_wilhelm.ogg"
 
