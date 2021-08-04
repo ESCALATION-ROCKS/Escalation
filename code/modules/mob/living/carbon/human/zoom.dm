@@ -14,51 +14,41 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 
 	if(!src.client)
 		return
-	var/cannotzoom
-
+	var/cannotzoom = FALSE
 	if(src.incapacitated(INCAPACITATION_DISABLED))
 		to_chat(src, "<span class='warning'>You are unable to focus your vision.</span>")
-		cannotzoom = 1
-//	else if(!zoom && src.equipment_tint_total >= TINT_MODERATE)
-//		to_chat(src, "<span class='warning'>Your visor gets in the way of looking far.</span>")
-//		cannotzoom = 1
-//	else if(!zoom && usr.get_active_hand() != src)
-//		to_chat(user, "<span class='warning'>You are too distracted to focus your vision.</span>")
-//		cannotzoom = 1
+		cannotzoom = TRUE
 
 	if(!zoom && !cannotzoom)
-		src.toggle_zoom_hud()	// If the user has already limited their HUD this avoids them having a HUD when they zoom in
-		src.client.view = 10
-		zoom = 1
-
-		var/tilesize = 50
-		var/viewoffset = tilesize * 6
-
-		switch(src.dir)
-			if (NORTH)
-				src.client.pixel_x = 0
-				src.client.pixel_y = viewoffset
-			if (SOUTH)
-				src.client.pixel_x = 0
-				src.client.pixel_y = -viewoffset
-			if (EAST)
-				src.client.pixel_x = viewoffset
-				src.client.pixel_y = 0
-			if (WEST)
-				src.client.pixel_x = -viewoffset
-				src.client.pixel_y = 0
+		src.toggle_zoom_hud()
+		zoom = TRUE
+		var/tilesize = 32
+		var/viewoffset = tilesize * 7
+		var/pixel_x_final = 0
+		var/pixel_y_final = 0
+		if(src.dir & NORTH)
+			pixel_y_final += viewoffset
+		if(src.dir & SOUTH)
+			pixel_y_final += -viewoffset
+		if(src.dir & EAST)
+			pixel_x_final += viewoffset
+		if(src.dir & WEST)
+			pixel_x_final += -viewoffset
+		client.view = 10
+		sleep(0.2 SECONDS)
+		animate(client, pixel_x = pixel_x_final, time = 0.5 SECONDS)
+		animate(client, pixel_y = pixel_y_final, time = 0.5 SECONDS)
 		src.visible_message("[src] looks off into the distance.")
 		src.set_face_dir()
 		src.m_intent = "walk"
-
-
 	else
-		src.client.view = world.view
 		src.toggle_zoom_hud()
-		zoom = 0
-		src.client.pixel_x = 0
-		src.client.pixel_y = 0
-		src.set_face_dir(facingdirnull = 1)
+		zoom = FALSE
+		client.view = world.view
+		sleep(0.2 SECONDS)
+		animate(client, pixel_x = 0, time = 0.5 SECONDS)
+		animate(client, pixel_y = 0, time = 0.5 SECONDS)
+		src.set_face_dir(facingdirnull = TRUE)
 		src.m_intent = "run"
 
 	return

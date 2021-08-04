@@ -386,7 +386,7 @@
 	key = "unf"
 	emote_message_3p = "USER unfs!"
 
-/decl/emote/audible/rire/do_extra(var/mob/M)
+/decl/emote/audible/unf/do_extra(var/mob/M)
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(H.isMonkey()|| M.gender == NEUTER)

@@ -180,20 +180,21 @@
 	if(client.view != world.view)
 		return
 	if(hud_used.hud_shown)
-		hud_used.hud_shown = 0
+		hud_used.hud_shown = FALSE
 		if(src.hud_used.adding)
 			src.client.screen -= src.hud_used.adding
 		if(src.hud_used.other)
 			src.client.screen -= src.hud_used.other
 		if(src.hud_used.hotkeybuttons)
 			src.client.screen -= src.hud_used.hotkeybuttons
-
 		//Due to some poor coding some things need special treatment:
 		//These ones are a part of 'adding', 'other' or 'hotkeybuttons' but we want them to stay
 		if(!full)
-			src.client.screen += src.hud_used.l_hand_hud_object	//we want the hands to be visible
-			src.client.screen += src.hud_used.r_hand_hud_object	//we want the hands to be visible
-			src.client.screen += src.hud_used.action_intent		//we want the intent swticher visible
+			src.client.screen |= src.hud_used.screentip_text
+			src.hud_used.screentip_text.maptext_y = 2
+			src.client.screen |= src.hud_used.l_hand_hud_object	//we want the hands to be visible
+			src.client.screen |= src.hud_used.r_hand_hud_object	//we want the hands to be visible
+			src.client.screen |= src.hud_used.action_intent		//we want the intent swticher visible
 			src.hud_used.action_intent.screen_loc = ui_acti_alt	//move this to the alternative position, where zone_select usually is.
 		else
 			src.client.screen -= src.healths
@@ -204,13 +205,16 @@
 		src.client.screen -= src.zone_sel	//zone_sel is a mob variable for some reason.
 
 	else
-		hud_used.hud_shown = 1
+		hud_used.hud_shown = TRUE
+		if(src.hud_used.screentip_text)
+			src.client.screen |= src.hud_used.screentip_text
+			src.hud_used.screentip_text.maptext_y = 52
 		if(src.hud_used.adding)
-			src.client.screen += src.hud_used.adding
+			src.client.screen |= src.hud_used.adding
 		if(src.hud_used.other && src.hud_used.inventory_shown)
-			src.client.screen += src.hud_used.other
+			src.client.screen |= src.hud_used.other
 		if(src.hud_used.hotkeybuttons && !src.hud_used.hotkey_ui_hidden)
-			src.client.screen += src.hud_used.hotkeybuttons
+			src.client.screen |= src.hud_used.hotkeybuttons
 		if(src.healths)
 			src.client.screen |= src.healths
 		if(src.internals)
@@ -237,7 +241,8 @@
 		return
 
 	if(hud_used.hud_shown)
-		hud_used.hud_shown = 0
+		hud_used.hud_shown = FALSE
+		src.client.screen -= src.hud_used.screentip_text
 		if(src.hud_used.adding)
 			src.client.screen -= src.hud_used.adding
 		if(src.hud_used.other)
@@ -247,15 +252,17 @@
 		src.client.screen -= src.internals
 		src.client.screen -= src.hydratation_icon
 		src.client.screen -= src.nutrition_icon
-		src.client.screen += src.hud_used.action_intent		//we want the intent swticher visible
+		src.client.screen |= src.hud_used.action_intent	//we want the intent swticher visible
+		src.client.screen |= src.hud_used.screentip_text //we want the screen tip visible
 	else
-		hud_used.hud_shown = 1
+		hud_used.hud_shown = TRUE
+		src.client.screen |= src.hud_used.screentip_text
 		if(src.hud_used.adding)
-			src.client.screen += src.hud_used.adding
+			src.client.screen |= src.hud_used.adding
 		if(src.hud_used.other && src.hud_used.inventory_shown)
-			src.client.screen += src.hud_used.other
+			src.client.screen |= src.hud_used.other
 		if(src.hud_used.hotkeybuttons && !src.hud_used.hotkey_ui_hidden)
-			src.client.screen += src.hud_used.hotkeybuttons
+			src.client.screen |= src.hud_used.hotkeybuttons
 		if(src.internals)
 			src.client.screen |= src.internals
 		src.client.screen |= src.hydratation_icon
