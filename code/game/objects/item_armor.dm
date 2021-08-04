@@ -14,7 +14,7 @@
 					bio = 0, \
 					rad = 0)
 	var/list/armor_integrity = list() //bodypart bitflag to integrity
-	var/armor_integrity_starting = 100
+	var/armor_integrity_starting = 0
 	var/sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_STANDARD
 	var/sound_armor_broke = ARMOR_BROKE_SOUNDS_STANDARD
 
@@ -49,10 +49,10 @@
 		if(old_armor > armor_integrity["[zone]"])
 			if((armor_integrity["[zone]"] < 0) && length(sound_armor_broke))
 				var/sound_damage = pick(sound_armor_broke)
-				playsound(src, sound_damage, 85, 0, 3)
+				playsound(src, sound_damage, 95, 0, 3)
 			else if(length(sound_armor_damaged))
 				var/sound_damage = pick(sound_armor_damaged)
-				playsound(src, sound_damage, 75, 0, 2)
+				playsound(src, sound_damage, 95, 0, 2)
 			return TRUE
 
 /obj/item/proc/heal_armor(heal_amt, zone)
