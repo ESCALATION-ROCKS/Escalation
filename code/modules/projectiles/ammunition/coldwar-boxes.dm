@@ -27,10 +27,6 @@
 	load_delay = 12
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/c556x45g/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
 /obj/item/ammo_magazine/c556x45g/empty
 	initial_ammo = 0
 
@@ -76,13 +72,13 @@
 	multiple_sprites = 1
 	load_delay = 9
 
+/obj/item/ammo_magazine/c762x51s/empty
+	initial_ammo = 0
+
 /obj/item/ammo_magazine/c762x51s/tr ////////Sniper magazines
 	name = "match grade magazine (7.62x51mm)"
 	desc = "A STANAG magazine that fits twenty 7.62x51mm match grade rounds."
 	ammo_type = /obj/item/ammo_casing/a762x51/tr
-
-/obj/item/ammo_magazine/c762x51s/empty
-	initial_ammo = 0
 
 /obj/item/ammo_magazine/c762x51l
 	name = "L96 magazine (7.62x51mm)"
@@ -260,10 +256,6 @@
 	max_ammo = 8
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/a9x19/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
 /obj/item/ammo_magazine/a9x19/empty
 	initial_ammo = 0
 
@@ -279,10 +271,6 @@
 	caliber = "9x19"
 	max_ammo = 18
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/a9x19g/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/a9x19g/empty
 	initial_ammo = 0
@@ -339,10 +327,6 @@
 /obj/item/ammo_magazine/a9x19t/empty
 	initial_ammo = 0
 
-/obj/item/ammo_magazine/a9x19t/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
 /obj/item/ammo_magazine/a9x19z
 	name = "Z84 magazine (9x19mm)"
 	desc = "A Star Modelo Z84 magazine that fits thirty 9x19mm rounds."
@@ -373,10 +357,6 @@
 	max_ammo = 13
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/a9x19b/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
 /obj/item/ammo_magazine/a9x19b/empty
 	initial_ammo = 0
 
@@ -393,10 +373,6 @@
 	max_ammo = 9
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/a9x19m/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
 /obj/item/ammo_magazine/a9x19m/empty
 	initial_ammo = 0
 
@@ -410,10 +386,6 @@
 	caliber = ".45"
 	max_ammo = 7
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/a45/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/a45/empty
 	initial_ammo = 0
@@ -449,10 +421,6 @@
 	caliber = "9x19"
 	max_ammo = 15
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/m9x19/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/m9x19/empty
 	initial_ammo = 0
@@ -660,10 +628,6 @@
 	max_ammo = 8
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/a9x18/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
 /obj/item/ammo_magazine/a9x18/empty
 	initial_ammo = 0
 
@@ -680,10 +644,6 @@
 	max_ammo = 20
 	multiple_sprites = 1
 
-/obj/item/ammo_magazine/a9x18b/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
-
 /obj/item/ammo_magazine/a9x18b/empty
 	initial_ammo = 0
 
@@ -699,10 +659,6 @@
 	caliber = "9x18"
 	max_ammo = 12
 	multiple_sprites = 1
-
-/obj/item/ammo_magazine/cz9x18/examine(mob/user)
-	. = ..()
-	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 /obj/item/ammo_magazine/cz9x18/empty
 	initial_ammo = 0

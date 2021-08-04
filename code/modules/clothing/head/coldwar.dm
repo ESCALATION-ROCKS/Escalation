@@ -117,9 +117,10 @@
 	name = "SSh-68 helmet"
 	desc = "A cheap steel helmet used by Soviet Army."
 	icon_state = "ssh68"
-	armor_integrity_starting = 35
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "ssh68-unzipped"
 
@@ -149,6 +150,8 @@
 	body_parts_covered = FACE|HEAD
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	var/icon_state_unzipped = "altyn-unzipped"
 
@@ -170,6 +173,8 @@
 	icon_state = "6b6"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "6b6-unzipped"
 
@@ -216,6 +221,8 @@
 	icon_state = "m56"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m56-unzipped"
 
@@ -270,6 +277,8 @@
 	icon_state = "vz53"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "vz53-unzipped"
 
@@ -307,6 +316,8 @@
 	icon_state = "m63helmet"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m63helmet-unzipped"
 
@@ -349,6 +360,8 @@
 	icon_state = "m42"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m42-unzipped"
 
@@ -421,6 +434,8 @@
 	icon_state = "pasgt-green"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_STONE
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_STONE
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgt-green-unzipped"
 
@@ -451,7 +466,10 @@
 	name = "M1 helmet"
 	desc = "A classic helmet used by the U.S. Army."
 	icon_state = "m1helmet"
-	armor = list(melee = 80, bullet = 80, laser = 10, energy = 10, bomb = 65, bio = 0, rad = 0)
+	armor = DEFAULT_ARMOR_NORMALBLOCK
+	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1helmet-unzipped"
 
@@ -484,6 +502,8 @@
 	icon_state = "m62helmet"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m62helmet-unzipped"
 
@@ -526,6 +546,8 @@
 	icon_state = "m1heer"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1heer-unzipped"
 
@@ -545,6 +567,8 @@
 	icon_state = "pasgtheer"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_STONE
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_STONE
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "pasgtheer-unzipped"
 
@@ -567,6 +591,8 @@
 	icon_state = "mkv"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "mkv-unzipped"
 
@@ -610,6 +636,8 @@
 	icon_state = "m1978"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1978-unzipped"
 
@@ -617,8 +645,6 @@
 	name = "'Modele 1978' helmet"
 	desc = "A helmet used by the Armee de Terre."
 	icon_state = "m1978woodland"
-	armor = DEFAULT_ARMOR_NORMALBLOCK
-	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
 	siemens_coefficient = 0.9
 	icon_state_unzipped = "m1978woodland-unzipped"
 
