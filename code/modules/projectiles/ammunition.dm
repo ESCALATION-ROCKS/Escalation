@@ -275,7 +275,7 @@
 	else if(stored_ammo.len <= max_ammo/3)
 		to_chat(user, "<span class='notice'>[src] weighs less than half full.")
 		return
-	
+
 	else if(stored_ammo.len <= max_ammo/2)
 		to_chat(user, "<span class='notice'>[src] weighs around half full.")
 		return
@@ -283,8 +283,8 @@
 	else if(stored_ammo.len <= max_ammo )
 		to_chat(user, "<span class='notice'>[src] weighs more than half full.")
 		return
-	
-	
+
+
 /obj/item/ammo_magazine/attack_hand(mob/user)
 	if(user.get_inactive_hand() == src)
 		if(!stored_ammo.len)
@@ -309,10 +309,10 @@
 				new_state = ammo_states[idx]
 				break
 		icon_state = (new_state)? new_state : initial(icon_state)
-		
+
 /obj/item/ammo_magazine/examine(mob/user)
 	. = ..()
-	/*to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")*/
+	to_chat(user, "There [(stored_ammo.len == 1)? "is" : "are"] [stored_ammo.len] round\s left!")
 
 //magazine icon state caching
 /var/global/list/magazine_icondata_keys = list()

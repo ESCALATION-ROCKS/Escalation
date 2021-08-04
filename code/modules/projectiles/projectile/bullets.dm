@@ -148,8 +148,7 @@
 /obj/item/projectile/bullet/shotgun
 	name = "slug"
 	damage = 50
-	armor_penetration = 5
-	armor_damage = 40
+	armor_damage = 25
 
 /obj/item/projectile/bullet/shotgun/beanbag		//because beanbags are not bullets
 	name = "beanbag"
@@ -171,8 +170,7 @@
 
 /obj/item/projectile/bullet/rifle
 	penetrating = 1
-	armor_penetration = 12
-	armor_damage = 35
+	armor_damage = 50
 
 /obj/item/projectile/bullet/rifle/a762
 	damage = 25
@@ -187,7 +185,6 @@
 	weaken = 3
 	penetrating = 5
 	hitscan = 1 //so the PTR isn't useless as a sniper weapon
-	armor_penetration = 80
 	armor_damage = 75
 
 /* Miscellaneous */
@@ -251,7 +248,6 @@
 	name = "micrometeor"
 	icon_state = "rock"
 	damage = 40
-	armor_penetration = 25
 	kill_count = 255
 
 /obj/item/projectile/bullet/rock/New()
@@ -267,14 +263,12 @@
 	penetration_modifier = 0.1
 	kill_count = 35
 	agony = 10
-	armor_penetration = 0
 	armor_damage = 18
 
 /obj/item/projectile/bullet/pistol/a22lr
 	penetration_modifier = 0.05
 	embed = 0
 	agony = 10
-	armor_penetration = 0
 	armor_damage = 9
 
 /obj/item/projectile/bullet/pistol/a22lr/New()
@@ -291,8 +285,6 @@
 /obj/item/projectile/bullet/pistol/a40sw
 	penetration_modifier = 0.4
 	agony = 25
-	armor_penetration = 0
-	armor_damage = 20
 
 /obj/item/projectile/bullet/pistol/a40sw/New()
 	damage = rand(20, 50)
@@ -307,8 +299,6 @@
 /obj/item/projectile/bullet/pistol/a32sw
 	penetration_modifier = 0.2
 	agony = 25
-	armor_penetration = 0
-	armor_damage = 20
 
 /obj/item/projectile/bullet/pistol/a32sw/New()
 	damage = rand(25, 50)
