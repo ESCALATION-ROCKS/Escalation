@@ -22,7 +22,7 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 	if(!zoom && !cannotzoom)
 		src.toggle_zoom_hud()
 		zoom = TRUE
-		var/tilesize = 32
+		var/tilesize = 50
 		var/viewoffset = tilesize * 7
 		var/pixel_x_final = 0
 		var/pixel_y_final = 0
