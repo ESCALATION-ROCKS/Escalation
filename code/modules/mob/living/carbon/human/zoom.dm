@@ -35,20 +35,18 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 		if(src.dir & WEST)
 			pixel_x_final += -viewoffset
 		client.view = 10
-		sleep(0.2 SECONDS)
+		sleep(0.5 SECONDS)
 		animate(client, pixel_x = pixel_x_final, time = 0.5 SECONDS)
 		animate(client, pixel_y = pixel_y_final, time = 0.5 SECONDS)
 		src.visible_message("[src] looks off into the distance.")
 		src.set_face_dir()
-		src.m_intent = "walk"
 	else
 		src.toggle_zoom_hud()
 		zoom = FALSE
-		client.view = world.view
-		sleep(0.2 SECONDS)
+		src.set_face_dir(facingdirnull = TRUE)
 		animate(client, pixel_x = 0, time = 0.5 SECONDS)
 		animate(client, pixel_y = 0, time = 0.5 SECONDS)
-		src.set_face_dir(facingdirnull = TRUE)
-		src.m_intent = "run"
+		sleep(0.5 SECONDS)
+		client.view = world.view
 
 	return
