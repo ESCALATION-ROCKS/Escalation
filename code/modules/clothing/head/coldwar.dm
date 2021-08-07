@@ -22,6 +22,7 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_HELM_C)
 	armor_integrity_starting = 35
+	slowdown_general = 0.05
 
 /obj/item/clothing/head/coldwar/helmet/attack_self(mob/user as mob)
 	if(icon_state == initial(icon_state))
