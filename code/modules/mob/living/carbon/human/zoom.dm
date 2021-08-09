@@ -43,7 +43,7 @@ modules/mob/living/carbon/human/life.dm if you die, you will be zoomed out.
 		zoom = FALSE
 		animate(client, pixel_x = 0, time = 0.5 SECONDS)
 		animate(client, pixel_y = 0, time = 0.5 SECONDS)
-		src.visible_message("[src] stoops looking off into the distance.")
+		src.visible_message("[src] stops looking off into the distance.")
 		src.set_face_dir(facingdirnull = TRUE)
 
 	return
