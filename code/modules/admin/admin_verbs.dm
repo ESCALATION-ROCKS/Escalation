@@ -1172,7 +1172,8 @@ var/global/list/global_colour_matrix = null
 	var/victoryconfirm = alert("Are you sure you want to declare a BDW victory?", "Are you sure you want to declare a BDW victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared NATO Victory")
-		to_world("<b><font size=5>The Bundeswehr have secured held the American Embassy! Bundeswehr Vorwarts!</font></b>")
+		to_world("<b><font size=8>Cease Action! The battle has been won!</font></b>")
+		to_world("<b><font size=5>The Bundeswehr have beaten off the Volkarmee! Bundeswehr Vorwarts!</font></b>")
 		sound_to(world, 'sound/music/bdwwin.ogg')
 	else
 		return
@@ -1183,6 +1184,7 @@ var/global/list/global_colour_matrix = null
 	var/victoryconfirm = alert("Are you sure you want to declare a NVA victory?", "Are you sure you want to declare a NVA victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared WARPACT Victory")
+		to_world("<b><font size=8>Cease Action! The battle has been won!</font></b>")
 		to_world("<b><font size=5>The National Volkarmee have pushed the Bundeswehr back! Fur die Arbeiter!</font></b>")
 		sound_to(world, 'sound/music/nvawin.ogg')
 	else
