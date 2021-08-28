@@ -1921,7 +1921,7 @@
 		H.fraction = "NATO"
 
 /datum/job/escalation/fra/fraplatlead
-	title = "ADT Chef de Regiment"
+	title = "ADT Capitaine"
 	name = "Platoon Leader"
 	english_name = null
 	minimal_player_age = 21
@@ -1931,7 +1931,7 @@
 	selection_color = "#B0C4DE"
 	rank_number = 0
 	position = "team"
-	enabled = 0
+	enabled = 1
 	leading = 1
 	amount = 1
 	whitelist_rank = "fra_officer"
@@ -1942,7 +1942,7 @@
 		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/fra/fraplatleaddep
-	title = "ADT Platoon Leader Deputy"
+	title = "ADT Lieutenant"
 	name = "Platoon Leader Deputy"
 	english_name = null
 	minimal_player_age = 21
@@ -1952,9 +1952,9 @@
 	selection_color = "#B0C4DE"
 	amount = 1
 	rank_number = 1
-	enabled = 0
+	enabled = 1
 	position = "team"
-	whitelist_rank = "fra_nco"
+	whitelist_rank = "fra_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 60)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1973,7 +1973,7 @@
 	amount = 1
 	enabled = 1
 	rank_number = 2
-	position = "fireteam"
+	position = "team"
 	whitelist_rank = "fra_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 40)
 
@@ -1991,7 +1991,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/corpsman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 0
+	enabled = 1
 	amount = 1
 	whitelist_rank = "fra_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
@@ -2010,7 +2010,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/doctor
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 0
+	enabled = 1
 	position = "team"
 	whitelist_rank = "fra_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
@@ -2029,7 +2029,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/marksman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 0
+	enabled = 1
 	amount = 1
 	whitelist_rank = "fra_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
@@ -2058,8 +2058,8 @@
 		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/fra/frasl
-	title = "ADT Group Leader"
-	name = "Capitaine"
+	title = "ADT Squad Leader"
+	name = "Chief Corporal"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
