@@ -1,7 +1,7 @@
 
 /obj/vehicles/t64_tank
 	name = "T-64"
-	desc = "The T-64 Main Battle Tank is equipped with a 125mm smoothbore gun loaded with HE shells and 7.62 mm PKMT coaxial machine firing 7.62mm AP rounds. This will present a great foe to any force."
+	desc = "The T-64 Main Battle Tank is equipped with a 125mm smoothbore gun loaded with HE shells and 7.62mm PKMT coaxial machine firing 7.62mm AP rounds. This will present a great foe to any force."
 
 	icon = 'code/modules/vehicles/types/T64.dmi'
 	icon_state = "move"
@@ -33,7 +33,7 @@
 	smoke_step_dist = 2
 	smoke_delay = 1
 
-	can_overrun_cover = 0
+	can_overrun_cover = 1
 
 	min_speed = 13
 	max_speed = 5
@@ -54,9 +54,6 @@
 /obj/item/weapon/gun/vehicle_turret/t64_turret
 	name = "Main Cannon"
 	desc = "A slow firing but devastatinly damaging cannon."
-	w_class = 5
-	one_hand_penalty = 5
-	force = 15
 	accuracy = 2.6
 	fire_sound = 'sound/weapons/gunshot/rpg_fire.ogg'
 	unload_sound = 'sound/weapons/gunporn/ak74_magout.ogg'
@@ -121,3 +118,9 @@
 	damage_type = BRUTE
 	damtype = BRUTE
 	return ..()
+
+/obj/vehicles/t64_tank/destroyed
+	icon_state = "move-destroyed"
+	anchored = 1
+	min_speed = 0
+	max_speed = 0

@@ -33,6 +33,9 @@
 	if(attacked == linked_vehicle)
 		to_chat(user,"<span class = 'notice'>You can't fire at yourself.</span>")
 		return
+	if(!linked_vehicle.comp_prof.gunner_fire_check(user,linked_vehicle,src))
+		user.drop_from_inventory(src)
+		return
 	. = ..()
 
 /obj/item/weapon/gun/vehicle_turret/proc/reconsider_magazine()

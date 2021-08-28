@@ -2488,7 +2488,6 @@
 #include "code\modules\vehicles\vehiclebase.dm"
 #include "code\modules\vehicles\vehiclebase_weaponry.dm"
 #include "code\modules\vehicles\types\scorpion.dm"
-#include "code\modules\vehicles\types\warthog.dm"
 #include "code\modules\ventcrawl\ventcrawl.dm"
 #include "code\modules\ventcrawl\ventcrawl_atmospherics.dm"
 #include "code\modules\ventcrawl\ventcrawl_multiz.dm"

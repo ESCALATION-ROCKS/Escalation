@@ -67,8 +67,6 @@
 			source_vehicle.update_user_view(gunner)
 
 /datum/component_profile/proc/gunner_fire_check(var/mob/user,var/obj/vehicles/source_vehicle,var/obj/gun)
-	if(!(gun.type in gunner_weapons))
-		return 0
 	var/list/gunners = source_vehicle.get_occupants_in_position(pos_to_check)
 	if(source_vehicle.guns_disabled)
 		to_chat(user,"<span class = 'notice'>[source_vehicle]'s weapons have been heavily damaged.</span>")
