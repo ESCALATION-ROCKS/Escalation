@@ -196,3 +196,14 @@
 /mob/living/simple_animal/cat/kitten/New()
 	gender = pick(MALE, FEMALE)
 	..()
+
+/mob/living/simple_animal/cat/fluff/floppa
+	name = "Big Floppa"
+	desc = "Where is my Caracal?"
+	gender = MALE
+	icon_state = "floppa"
+	item_state = "floppa"
+	icon_living = "floppa"
+	icon_dead = "floppa_dead"
+	icon_rest = "floppa"
+	var/friend_name = "Big Chungus"
