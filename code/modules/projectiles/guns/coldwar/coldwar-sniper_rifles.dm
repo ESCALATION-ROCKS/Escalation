@@ -479,18 +479,18 @@
 	return ..()
 
 
-/obj/item/weapon/gun/projectile/automatic/rifle/frf2
-	name = "FR F2"
+/obj/item/weapon/gun/projectile/automatic/rifle/frf1
+	name = "FR F1"
 	desc = "A standard-issue French sniper rifle. Chambers 7.62x51 rounds."
 	icon = 'icons/obj/coldwar/guns48x48.dmi'
-	icon_state = "frf2"
-	item_state = "frf2"
+	icon_state = "frf1"
+	item_state = "frf1"
 	force = 15
 	caliber = "762x51"
 	load_method = MAGAZINE
 	ammo_type = null
 	allowed_magazines = list(/obj/item/ammo_magazine/c762x51f)
-	wielded_item_state = "frf2-wielded"
+	wielded_item_state = "frf1-wielded"
 	w_class = ITEM_SIZE_HUGE
 	handle_casings = HOLD_CASINGS
 	screen_shake = 1
@@ -506,14 +506,14 @@
 	slowdown_general = 0.45
 	bayonet_attachable = 0
 
-/obj/item/weapon/gun/projectile/automatic/rifle/frf2/update_icon()
+/obj/item/weapon/gun/projectile/automatic/rifle/frf1/update_icon()
 	..()
 	if(bolt_open)
-		icon_state = "frf2-open"
+		icon_state = "frf1-open"
 	else
-		icon_state = "frf2"
+		icon_state = "frf1"
 
-/obj/item/weapon/gun/projectile/automatic/rifle/frf2/verb/scope()
+/obj/item/weapon/gun/projectile/automatic/rifle/frf1/verb/scope()
 	set name = "Use Scope"
 	set category = "Object"
 	set src in usr
@@ -521,12 +521,12 @@
 
 	src.toggle_scope(usr, 3)
 
-/obj/item/weapon/gun/projectile/automatic/rifle/frf2/consume_next_projectile()
+/obj/item/weapon/gun/projectile/automatic/rifle/frf1/consume_next_projectile()
 	if(chambered)
 		return chambered.BB
 	return null
 
-/obj/item/weapon/gun/projectile/automatic/rifle/frf2/attack_self(mob/living/user as mob)
+/obj/item/weapon/gun/projectile/automatic/rifle/frf1/attack_self(mob/living/user as mob)
 	bolt_open = !bolt_open
 	if(do_after(user, 6.5, src))
 		if(bolt_open)
@@ -551,7 +551,7 @@
 		add_fingerprint(user)
 		update_icon()
 
-/obj/item/weapon/gun/projectile/automatic/rifle/frf2/special_check(mob/user)
+/obj/item/weapon/gun/projectile/automatic/rifle/frf1/special_check(mob/user)
 	if(bolt_open)
 		to_chat(user, "<span class='warning'>You can't fire [src] while the bolt is open!</span>")
 		return 0

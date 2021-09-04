@@ -735,7 +735,7 @@
 		/obj/item/ammo_magazine/a9x19t,
 		/obj/item/ammo_magazine/a9x19t,
 		/obj/item/ammo_magazine/a9x19t,
-		/obj/item/ammo_magazine/a9x19t,
+		/obj/item/ammo_magazine/a9x19t
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
@@ -767,7 +767,12 @@
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51f,
 		/obj/item/ammo_magazine/a9x19,)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51f,
+		/obj/item/ammo_magazine/c762x51f,
+		/obj/item/ammo_magazine/c762x51f,
+		/obj/item/ammo_magazine/c762x51f
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 

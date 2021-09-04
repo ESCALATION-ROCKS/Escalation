@@ -2133,7 +2133,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/fra
 	back = /obj/item/weapon/storage/backpack/alice/medium
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = head = null
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
@@ -2161,7 +2161,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/lmg
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = null
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
@@ -2178,7 +2178,7 @@
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	l_ear = /obj/item/device/binoculars/nato
 	back = /obj/item/weapon/storage/backpack/rpgusaassistant
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = null
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	belt = /obj/item/weapon/storage/belt/harness/fra
@@ -2263,7 +2263,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	back = /obj/item/weapon/storage/backpack/usmcm3
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = null
 	l_pocket = /obj/item/weapon/key/natomed
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
@@ -2308,7 +2308,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	holster = /obj/item/weapon/storage/belt/holster/sheath/fra
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = null
 	r_hand = /obj/item/weapon/masterkey/natopl
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/fra
@@ -2325,7 +2325,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	back = /obj/item/weapon/radioset/prc77
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = null
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
@@ -2336,7 +2336,7 @@
 	name = OUTFIT_JOB_NAME("Coldwar - ADT Designated Marksman")
 	uniform = /obj/item/clothing/under/coldwar/fra/woodland/pfc
 	shoes = /obj/item/clothing/shoes/coldwar/fra/field
-	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/frf2
+	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/frf1
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/frf2
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/frf2
 	back = /obj/item/weapon/storage/backpack/fra_buttpack
@@ -2359,7 +2359,7 @@
 	r_hand = /obj/item/weapon/maptool
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	back = /obj/item/weapon/radioset/prc77
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = null
 	l_ear = /obj/item/device/binoculars/nato
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
@@ -2374,7 +2374,7 @@
 	gun_slot = /obj/item/weapon/gun/projectile/automatic/rifle/famas
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = null
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
@@ -2390,7 +2390,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	right_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	back = /obj/item/weapon/storage/backpack/fra_buttpack
-	head = /obj/item/clothing/head/coldwar/fieldcap/fra
+	head = null
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
