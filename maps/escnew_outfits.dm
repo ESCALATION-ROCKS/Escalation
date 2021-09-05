@@ -2133,7 +2133,7 @@
 	left_pouch = /obj/item/weapon/storage/belt/suit/ammo/fra/smg
 	right_pouch = /obj/item/weapon/storage/belt/suit/sapper/fra
 	back = /obj/item/weapon/storage/backpack/alice/medium
-	head = head = null
+	head = null
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
