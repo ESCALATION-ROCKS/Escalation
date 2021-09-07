@@ -301,3 +301,11 @@
 	b_side = 'sound/music/fart2.ogg'
 	sound_inside = a_side
 
+/obj/item/device/cassette/usa/tape23/New()
+	..()
+	name = "Tape No. 23"
+	desc = "Side A - Seek & Destroy, Metallica, Side B - Good Mourning/Black Friday, Megadeth"
+	a_side = 'sound/music/seekanddestroy.ogg'
+	b_side = 'sound/music/blackfriday.ogg'
+	sound_inside = a_side
+

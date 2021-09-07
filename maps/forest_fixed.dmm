@@ -879,7 +879,7 @@
 "Vk" = (/obj/effect/floor_decal/turf/lino,/obj/effect/landmark/start{name = "SA Zamestitel Komandira Vzvoda"},/turf/simulated/floor/wood,/area/coldwar/warpactfob)
 "Vl" = (/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/tiled/dark,/area/coldwar/warpactfob)
 "Vn" = (/obj/machinery/door/unpowered/simple/coldwar/wood/room,/turf/simulated/floor/plating,/area/coldwar/smallenclosed)
-"Vr" = (/obj/structure/table/greenmetal,/obj/item/weapon/storage/fancy/cigarettes/marlboro,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
+"Vr" = (/obj/structure/table/greenmetal,/obj/item/device/cassette/usa/tape23{pixel_x = 6; pixel_y = 10},/obj/item/weapon/storage/fancy/cigarettes/marlboro,/turf/simulated/floor/tiled/dark,/area/coldwar/usmcfob)
 "Vs" = (/obj/structure/table/rack/shelf,/obj/effect/floor_decal/industrial/warning,/obj/structure/flora/summer/log2,/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/plating,/area/coldwar/mediumenclosed)
 "Vt" = (/obj/structure/sign/carpetleft{pixel_y = 32},/obj/random/nofoliage,/turf/unsimulated/ground,/area/coldwar/forest)
 "Vv" = (/obj/structure/sign/vehicle/ural/uralcargo3,/obj/machinery/light/small{dir = 1},/obj/effect/landmark/start{name = "ADT Rifleman"},/turf/unsimulated/ground/sand,/area/coldwar/usmcfob)
