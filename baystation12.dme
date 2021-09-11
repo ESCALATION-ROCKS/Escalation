@@ -2603,6 +2603,7 @@
 #include "maps\escnew_define.dm"
 #include "maps\escnew_outfits.dm"
 #include "maps\dresden_outskirts.dmm"
+#include "maps\forest_fixed.dmm"
 #include "maps\~mapsystem\map_preferences.dm"
 #include "maps\~mapsystem\map_ranks.dm"
 #include "maps\~mapsystem\maps.dm"

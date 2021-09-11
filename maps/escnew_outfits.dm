@@ -2346,6 +2346,7 @@
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	r_pocket = /obj/item/weapon/facepaint/green
 	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+	r_hand = /obj/item/weapon/gun/projectile/automatic/rifle/frf1
 
 
 
@@ -2364,6 +2365,7 @@
 	belt = /obj/item/weapon/storage/belt/harness/fra
 	suit = /obj/item/clothing/suit/armor/vest/coldwar/pasgt
 	l_hand = /obj/item/clothing/head/coldwar/helmet/fra/m78
+	gloves = /obj/item/clothing/gloves/tactical
 
 
 /decl/hierarchy/outfit/job/coldwar/fra/hws_loader

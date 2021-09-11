@@ -111,6 +111,7 @@ var/list/admin_verbs_admin = list(
 	/client/proc/draw_major,
 	/datum/admins/proc/ToggleCkeyWhitelist,
 	/datum/admins/proc/ReloadCkeyWhitelist,
+	/client/proc/spyplane_announce,
 )
 var/list/admin_verbs_ban = list(
 	/client/proc/unban_panel,
@@ -1170,23 +1171,29 @@ var/global/list/global_colour_matrix = null
 
 /client/proc/nato_major()
 	set category = "EscAdmin"
-	set name = "Announce BDW Victory"
-	var/victoryconfirm = alert("Are you sure you want to declare a BDW victory?", "Are you sure you want to declare a BDW victory?", "Yes", "No")
+	set name = "Announce FRA Victory"
+	var/victoryconfirm = alert("Are you sure you want to declare a BDW victory?", "Are you sure you want to declare a FRA victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared NATO Victory")
 		to_world("<b><font size=5>The Bundeswehr have secured held the American Embassy! Bundeswehr Vorwarts!</font></b>")
 		sound_to(world, 'sound/music/bdwwin.ogg')
+		to_world("<b><font size=8>Cease Action! The battle has been won!</font></b>")
+		to_world("<b><font size=5>The Armee De Terra have beaten off the GRU-Speznaz! Viva La France!</font></b>")
+		sound_to(world, 'sound/music/blackfriday.ogg')
 	else
 		return
 
 /client/proc/warpact_major()
 	set category = "EscAdmin"
-	set name = "Announce NVA Victory"
-	var/victoryconfirm = alert("Are you sure you want to declare a NVA victory?", "Are you sure you want to declare a NVA victory?", "Yes", "No")
+	set name = "Announce KGB Victory"
+	var/victoryconfirm = alert("Are you sure you want to declare a KGB victory?", "Are you sure you want to declare a KGB victory?", "Yes", "No")
 	if(victoryconfirm == "Yes")
 		log_and_message_admins("has declared WARPACT Victory")
 		to_world("<b><font size=5>The National Volkarmee have pushed the Bundeswehr back! Fur die Arbeiter!</font></b>")
 		sound_to(world, 'sound/music/nvawin.ogg')
+		to_world("<b><font size=8>Cease Action! The battle has been won!</font></b>")
+		to_world("<b><font size=5>The GRU-Speznaz have accomplished their objectives! YA SPEZNAZ!</font></b>")
+		sound_to(world, 'sound/music/RussianCircles.ogg')
 	else
 		return
 
@@ -1198,5 +1205,16 @@ var/global/list/global_colour_matrix = null
 		log_and_message_admins("has declared a draw.")
 		to_world("<b><font size=4>The battlefield is deserted and the remaining troops from both sides have retreated.</font></b>")
 		sound_to(world, 'sound/music/bluemonday.ogg')
+	else
+		return
+
+/client/proc/spyplane_announce()
+	set category = "EscAdmin"
+	set name = "Announce Spyplane"
+	var/victoryconfirm = alert("Are you sure you want to announce spyplane?", "Are you sure you want to announce spyplane?", "Yes", "No")
+	if(victoryconfirm == "Yes")
+		log_and_message_admins("has started combat")
+		to_world("<b><font size=5>You see sleek black plane fly overhead!</font></b>")
+		roundstarted = 1
 	else
 		return

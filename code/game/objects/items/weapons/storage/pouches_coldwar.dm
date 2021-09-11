@@ -444,8 +444,8 @@
 	special_item = /obj/item/weapon/material/knife/bayonet/fra
 	holster_sound = 'sound/effects/holster/sheathin.ogg'
 	unholster_sound = 'sound/effects/holster/sheathout.ogg'
-	icon_state = "fra_sheath"
-	icon_closed = "fra_sheath_empty"
+	icon_state = "csla_sheath"
+	icon_closed = "csla_sheath_empty"
 	startswith = list(
 		/obj/item/weapon/material/knife/bayonet/fra)
 	can_hold = list(
@@ -760,8 +760,8 @@
 	w_class = ITEM_SIZE_HUGE
 	name = "FR F2 magazine pouch"
 	desc = "Has enough space to hold two FR F1 magazines."
-	icon_state = "fra_sniper_ammo"
-	item_state = "fra_ammo"
+	icon_state = "adt_ammo"
+	item_state = "adt_ammo"
 	open_delay = 5
 	storage_slots = 2
 	can_hold = list(

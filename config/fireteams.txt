@@ -429,55 +429,34 @@ Cheta 'Emil':csla
 
 ###ESP###
 
-Otdelenie 'Anna':esp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasapper
-/datum/job/escalation/cccp/sasniper
+Sprezgruppa 'Anna':esp
+/datum/job/escalation/cccp/vympsl
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympbr
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympsm
 @END@
 
-Otdelenie 'Boris':esp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasapper
-/datum/job/escalation/cccp/sasniper
+Sprezgruppa 'Kaskad':esp
+/datum/job/escalation/cccp/vympsl
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympbr
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympsm
 @END@
 
-Otdelenie 'Vasiliy':esp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasapper
-/datum/job/escalation/cccp/sasniper
-@END@
-
-OTV-1:esp
-/datum/job/escalation/cccp/saotvco
-/datum/job/escalation/cccp/saotvload
-/datum/job/escalation/cccp/saotvop
+Sprezgruppa 'Zenyth':esp
+/datum/job/escalation/cccp/vympsl
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympbr
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympsm
 @END@
 
 ########ESCA ARCTIC############

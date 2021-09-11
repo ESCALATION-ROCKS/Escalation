@@ -493,7 +493,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 0, -1, -1, 0, 1, 0, 0)
-/*
+
 /datum/job/escalation/cccp/vympsl
 	title = "KGB Komandir Elementa"
 	name = "Komandir Elementa"
@@ -593,7 +593,7 @@
 	equip(var/mob/living/carbon/human/H)
 		..()
 		H.add_skills(0, 2, -1, -1, 1, 1, 3, 0)
-*/
+
 //NVA DDR
 
 /datum/job/escalation/nvaddr

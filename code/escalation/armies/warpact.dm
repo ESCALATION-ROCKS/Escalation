@@ -41,10 +41,10 @@
 	fireteam_names = list("Aarne #1", "Bertta #2", "Celsius #3", "Daavid #4")
 
 /datum/army_faction/warpact/esp
-	name = "Ejercito de la Republica Espanola"
+	name = "325th Special Purpose Detachment."
 	enabled = 1
 	faction_tag = "esp"
-	flag_state = "spanish"
-	language = "Spanish"
-	base_color = "yellow"
+	flag_state = "soviet"
+	language = "Russian"
+	base_color = "red"
 	fireteam_names = list("Peloton #1", "Peloton #2", "Peloton #3", "Peloton #4")

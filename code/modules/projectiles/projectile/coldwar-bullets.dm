@@ -208,7 +208,7 @@
 	//Pretty tight grouping and low range so armors actually fucking work against it. Solution is to aim for limbs
 
 /obj/item/projectile/bullet/pellet/ga12/New()
-	damage = rand(30, 45)
+	damage = rand(60, 85)
 
 /obj/item/projectile/bullet/rifle/ga12/slug
 	penetration_modifier = 0.3
@@ -216,9 +216,10 @@
 	kill_count = 60
 	armor_penetration = 8 //low chance of going through
 	armor_damage = 35
+	armor_damage = 100
 
 /obj/item/projectile/bullet/rifle/ga12/slug/New()
-	damage = rand(25, 32)
+	damage = rand(45, 62)
 
 /obj/item/projectile/bullet/rifle/ga12/flec //Very very tight grouping so its a rifle bullet
 	icon_state = "bullet_flechette"
@@ -227,9 +228,11 @@
 	kill_count = 80
 	armor_penetration = 75
 	armor_damage = 65
+	kill_count = 10
+	armor_damage = 50
 
 /obj/item/projectile/bullet/rifle/ga12/flec/New()
-	damage = rand(25, 28)
+	damage = rand(65, 120)
 
 /obj/item/projectile/bullet/pellet/ga6
 	penetration_modifier = 0.5
@@ -245,7 +248,7 @@
 	armor_damage = 12
 
 /obj/item/projectile/bullet/pellet/ga6/New()
-	damage = rand(35, 50)
+	damage = rand(60, 85)
 
 /obj/item/projectile/bullet/rifle/ga6/slug
 	penetration_modifier = 0.3
@@ -255,7 +258,7 @@
 	armor_damage = 25
 
 /obj/item/projectile/bullet/rifle/ga6/slug/New()
-	damage = rand(27, 38)
+	damage = rand(45, 62)
 
 /obj/item/projectile/bullet/rifle/ga6/flec //Very very tight grouping so its a rifle bullets
 	icon_state = "bullet_flechette"
@@ -264,9 +267,11 @@
 	kill_count = 60
 	armor_penetration = 65
 	armor_damage = 65
+	armor_damage = 50
+	kill_count = 10
 
 /obj/item/projectile/bullet/rifle/ga6/flec/New()
-	damage = rand(30, 35)
+	damage = rand(65, 120)
 
 /obj/item/projectile/bullet/ags30x29mm
 	name = "AGS' bullet"
