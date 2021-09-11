@@ -1490,29 +1490,12 @@
 	else//We don't want to spam the chat that we're checking ourselves for injuries when we're out fucking cold.
 		to_chat(src, "<span class='notice'><b>You examine yourself.</b></span>")
 
+	for(var/zone in BP_BY_DEPTH)
+		var/obj/item/organ/external/org = get_organ(zone)
+		if(!org)
+			to_chat(src, "<b>[capitalize(parse_zone(zone))]:</b> <span class='danger'>MISSING!</span>")
+			continue
 
-
-		//var/feels = 1 + round(org.pain/100, 0.1)
-		//var/brutedamage = org.brute_dam * feels
-		//var/burndamage = org.burn_dam * feels
-		/*
-		switch(brutedamage)
-			if(1 to 20)
-				status += "bruised"
-			if(20 to 40)
-				status += "wounded"
-			if(40 to INFINITY)
-				status += "mangled"
-
-		switch(burndamage)
-			if(1 to 10)
-				status += "numb"
-			if(10 to 40)
-				status += "blistered"
-			if(40 to INFINITY)
-				status += "peeling away"
-		*/
-	for(var/obj/item/organ/external/org in organs)
 		var/list/status = list()
 		var/hurts = org.get_pain() + org.get_damage()
 
@@ -1526,7 +1509,7 @@
 					status += "<big>PAIN</big>"
 
 		if(org.is_stump())
-			status += "MISSING"
+			status += "STUMP"
 		if(org.status & ORGAN_MUTATED)
 			status += "MISSHAPEN"
 		if(org.status & ORGAN_BLEEDING)
@@ -1536,9 +1519,12 @@
 		if(org.status & ORGAN_BROKEN)
 			status += "BROKEN"
 		if(org.status & ORGAN_DEAD)
-			status += "NECROTIC"
+			status += "GANGRENE"
 		if(!org.is_usable() || org.is_dislocated())
-			status += "UNUSABLE"
+			status += "CRIPPLED"
+		for(var/datum/wound/wound in org.wounds)
+			if(length(wound.embedded_objects))
+				status += "SHRAPNEL"
 		if(status.len)
 			to_chat(src, "<b>[capitalize(org.name)]:</b> <span class='danger'>[english_list(status)]!</span>")
 		else

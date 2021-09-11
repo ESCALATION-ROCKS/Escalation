@@ -272,11 +272,10 @@ ATS-1:usa
 
 ##FRA##
 
-SECTION INFANTRIE:fra
+Squad 'Celestin':fra
 /datum/job/escalation/fra/frasl
 /datum/job/escalation/fra/fraratelo
-/datum/job/escalation/fra/fralgl
-/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/frafto
 /datum/job/escalation/fra/fracorpsman
 /datum/job/escalation/fra/fraftl
 /datum/job/escalation/fra/fraftg
@@ -286,6 +285,50 @@ SECTION INFANTRIE:fra
 /datum/job/escalation/fra/fralgl
 @END@
 
+Squad 'Desiree':fra
+/datum/job/escalation/fra/frasl
+/datum/job/escalation/fra/fraratelo
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fracorpsman
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftmg
+/datum/job/escalation/fra/fralgl
+@END@
+
+Squad 'Eugene':fra
+/datum/job/escalation/fra/frasl
+/datum/job/escalation/fra/fraratelo
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fracorpsman
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftmg
+/datum/job/escalation/fra/fralgl
+@END@
+
+Gruppe 'Ypsilon':fra
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwmedic
+@END@
+
+EDL-1:fra
+/datum/job/escalation/fra/framgcom
+/datum/job/escalation/fra/framgload
+/datum/job/escalation/fra/framgop
+@END@
 ###########WARPACT#############
 
 ###SA###
@@ -332,7 +375,7 @@ Otdelenie 'Vasiliy':cccp
 /datum/job/escalation/cccp/sacorpsman
 @END@
 
-OTV-1:cccp
+KZB-1:cccp
 /datum/job/escalation/cccp/saotvco
 /datum/job/escalation/cccp/saotvload
 /datum/job/escalation/cccp/saotvop
@@ -340,6 +383,7 @@ OTV-1:cccp
 
 Support 'Lyudi':cccp
 /datum/job/escalation/cccp/sasapperleader
+/datum/job/escalation/cccp/sasrad
 /datum/job/escalation/cccp/sasapper
 /datum/job/escalation/cccp/sasapper
 /datum/job/escalation/cccp/sasapper

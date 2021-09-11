@@ -630,7 +630,7 @@ var/world_topic_spam_protect_time = world.timeofday
 	s += "<br>"
 	s += "An unforgiving, semi realistic mil-sim RP set in an alternate-universe Cold War."
 	s += "<br>"
-	s += "Get whitelisted in our Discord! https://discord.gg/usagARfE"
+	s += "Get whitelisted in our Discord! https://discord.gg/yhCaGgtjbu"
 	s += "<br>"
 
 	var/list/features = list()

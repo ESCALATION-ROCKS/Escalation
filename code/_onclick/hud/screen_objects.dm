@@ -345,7 +345,7 @@
 
 		if("look into distance")
 			if(!usr.stat && isturf(usr.loc) && !usr.restrained())
-				usr.zoom()
+				INVOKE_ASYNC(usr, /mob/verb/zoom)
 
 		if("drop")
 			if(usr.client)

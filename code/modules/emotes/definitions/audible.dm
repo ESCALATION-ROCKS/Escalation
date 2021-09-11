@@ -258,7 +258,7 @@
 			return
 
 		if(M.gender == MALE)
-			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,13)].ogg"
+			emote_sound = "sound/vo/bf3/m_scream[rand(1,21)].wav"
 
 		if(M.gender == FEMALE)
 			emote_sound = "sound/vo/fh1_ReactedInjuryIntense_[rand(1,5)].ogg"
@@ -305,7 +305,7 @@
 
 		if(M.gender == MALE)
 			if(prob(99))
-				emote_sound = "sound/vo/m_scream[rand(1,9)].ogg"
+				emote_sound = "sound/vo/bf3/m_scream[rand(1,21)].wav"
 			else
 				emote_sound = "sound/vo/scream_wilhelm.ogg"
 
@@ -382,17 +382,17 @@
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, -2)
 
-/decl/emote/audible/cultiste
-	key = "tzchernobog"
-	emote_message_3p = "USER praises tzchernobog!"
+/decl/emote/audible/unf
+	key = "unf"
+	emote_message_3p = "USER unfs!"
 
-/decl/emote/audible/cultiste/do_extra(var/mob/M)
+/decl/emote/audible/unf/do_extra(var/mob/M)
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(H.isMonkey()|| M.gender == NEUTER)
 			return
 
-		emote_sound = "sound/vo/cultiste_message_[rand(1,10)].ogg"
+		emote_sound = "sound/vo/doomguy_unf[rand(1,2)].ogg"
 
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, -2)

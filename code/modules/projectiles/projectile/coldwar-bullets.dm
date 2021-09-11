@@ -167,8 +167,8 @@
 	agony = 80
 	penetrating = 3
 	kill_count = 250
-	armor_penetration = 90
-	armor_damage = 100
+	armor_damage = 200
+	armor_penetration = 200
 
 /obj/item/projectile/bullet/rifle/a127x108mm/New()
 	damage = rand(46, 54)
@@ -183,8 +183,8 @@
 	agony = 80
 	penetrating = 3
 	kill_count = 250
-	armor_penetration = 90
-	armor_damage = 100
+	armor_damage = 200
+	armor_penetration = 200
 
 /obj/item/projectile/bullet/rifle/a50cal/New()
 	damage = rand(48, 51)
@@ -214,7 +214,6 @@
 	penetration_modifier = 0.3
 	agony = 36
 	kill_count = 60
-	armor_penetration = 8 //low chance of going through
 	armor_damage = 35
 	armor_damage = 100
 
@@ -226,7 +225,6 @@
 	penetration_modifier = 0.1
 	agony = 36
 	kill_count = 80
-	armor_penetration = 75
 	armor_damage = 65
 	kill_count = 10
 	armor_damage = 50
@@ -254,7 +252,6 @@
 	penetration_modifier = 0.3
 	agony = 46
 	kill_count = 50
-	armor_penetration = 10 //low chance of going through
 	armor_damage = 25
 
 /obj/item/projectile/bullet/rifle/ga6/slug/New()
@@ -265,7 +262,6 @@
 	penetration_modifier = 0.1
 	agony = 28
 	kill_count = 60
-	armor_penetration = 65
 	armor_damage = 65
 	armor_damage = 50
 	kill_count = 10
@@ -281,7 +277,6 @@
 	penetrating = 0
 	step_delay = 1.2
 	kill_count = 60
-	armor_penetration = 90
 	armor_damage = 75
 
 /obj/item/projectile/bullet/ags30x29mm/on_impact(var/atom/target, var/blocked = 0)
@@ -294,7 +289,6 @@
 	penetrating = 0
 	damage = 50
 	agony = 80
-	armor_penetration = 60
 	armor_damage = 65
 
 /obj/item/projectile/bullet/mk19_40x53mm/on_impact(var/atom/target, blocked = 0)

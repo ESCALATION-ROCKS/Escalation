@@ -107,11 +107,9 @@ GLOBAL_VAR_CONST(PREF_SILENT, "Silent")
 	description ="Maptext"
 	key = "SHOW_ITEMS"
 
-/datum/client_preference/show_item_names/changed(var/mob/preference_mob, var/new_value)
-	if(ishuman(preference_mob))
-		var/mob/living/carbon/human/H = preference_mob
-		if(new_value == GLOB.PREF_NO)
-			H.hovertext.maptext = ""
+/datum/client_preference/show_maptext/changed(var/mob/preference_mob, var/new_value)
+	if(preference_mob && (new_value == GLOB.PREF_NO))
+		preference_mob.hud_used?.screentip_text?.maptext = ""
 
 /datum/client_preference/ghost_ears
 	description ="Ghost ears"
