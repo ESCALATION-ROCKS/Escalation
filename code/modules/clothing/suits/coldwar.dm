@@ -188,6 +188,19 @@
 	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 
+/obj/item/clothing/suit/armor/vest/coldwar/coat/fra
+	name = "adt winter coat"
+	desc = "A standard issue ADT winter coat."
+	icon_state = "parkafra"
+	item_state = "parkafra"
+	/*down_icon_state = "parkaus_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+
 /obj/item/clothing/suit/armor/vest/coldwar/coat/bdwponcho
 	name = "bundeswehr winter poncho"
 	desc = "A standard issue Bundeswehr winter poncho."

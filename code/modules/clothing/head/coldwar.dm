@@ -630,6 +630,12 @@
 	desc = "That's a field cap used by ADT."
 	icon_state = "frafieldcap"
 
+/obj/item/clothing/head/coldwar/ushanka/fra
+	name = "winter cap"
+	desc = "That's an ADT winter cap for cold climates."
+	icon_state = "frawintercap"
+	icon_state_up = "frawintercap-up"
+
 //FRA Helmets
 /obj/item/clothing/head/coldwar/helmet/fra/m78
 	name = "'Modele 1978' helmet"
