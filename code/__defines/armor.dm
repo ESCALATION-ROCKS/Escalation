@@ -1,6 +1,6 @@
 //yeah
 #define FULLBLOCK_RETURN_VALUE 101
-#define FULLBLOCK_DAMAGE_ABSORPTION 65
+#define FULLBLOCK_DAMAGE_ABSORPTION 40
 
 //armor damage sounds defines
 #define ARMOR_DAMAGED_SOUNDS_STANDARD list('sound/bullet/projectile_impact/bullet_impact_vest1.wav', \
