@@ -301,7 +301,7 @@
 	nodamage = 1
 	penetrating = 0
 	kill_count = 37
-	step_delay = 0.90
+	step_delay = 1.2
 	fire_sound = null//here we gonna use sound in AGS and not in bullets
 
 	muzzle_type = /obj/effect/projectile/rocket/rpg
