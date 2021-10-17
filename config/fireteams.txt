@@ -334,8 +334,8 @@ EDL-1:fra
 ###SA###
 
 Otdelenie 'Anna':cccp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/saplatlead
+/datum/job/escalation/cccp/saplatleaddep
 /datum/job/escalation/cccp/sasrad
 /datum/job/escalation/cccp/sarocket
 /datum/job/escalation/cccp/sarocketass
