@@ -9,7 +9,7 @@
 	ert_disabled = 1
 	addantag_allowed = ADDANTAG_ADMIN //Only admins can add antags. This should be disabled in config anyway
 	wargames = 1
-	autobalance = 0
+	autobalance = 1
 	admin_enabled_joining = 0 //Has to be accepted by admins before round can start
 
 /datum/game_mode/wargames/announce()
