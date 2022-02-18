@@ -626,7 +626,7 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b>ESCALATION 1983</b>";
+	s += "<b>ESCALATION: COLD WAR</b>";
 	s += "<br>"
 	s += "An unforgiving, semi realistic mil-sim RP set in an alternate-universe Cold War."
 	s += "<br>"
