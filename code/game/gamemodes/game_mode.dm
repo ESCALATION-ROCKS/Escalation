@@ -51,6 +51,7 @@ var/global/list/additional_antag_types = list()
 	var/wargames = 0 //Set this to 1 to use our 1983 modes. Overrides certain panels
 	var/campaign = 0 //Skirmish vs. campaign, locks teams in. Uses a #
 	var/autobalance = 0
+	var/round_finished
 
 
 /datum/game_mode/New()
