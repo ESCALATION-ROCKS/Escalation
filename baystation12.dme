@@ -388,6 +388,7 @@
 #include "code\escalation\armies\escalation_whitelist.dm"
 #include "code\escalation\armies\nato.dm"
 #include "code\escalation\armies\warpact.dm"
+#include "code\escalation\gamemodes\wargames.dm"
 #include "code\escalation\gamemodes\koth\koth.dm"
 #include "code\escalation\gamemodes\koth\koth_items.dm"
 #include "code\escalation\gamemodes\koth\kothcontroller.dm"
