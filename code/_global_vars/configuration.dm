@@ -8,9 +8,9 @@ var/changelog_hash      = ""
 var/game_year           = (text2num(time2text(world.realtime, "YYYY")) + 544)
 var/join_motd = null
 
-var/master_mode       = "wargames" // "extended"
-var/secondary_mode    = "wargames"
-var/tertiary_mode     = "wargames"
+var/master_mode       = "koth" // "extended"
+var/secondary_mode    = "koth"
+var/tertiary_mode     = "koth"
 var/secret_force_mode = "secret"   // if this is anything but "secret", the secret rotation will forceably choose this mode.
 
 var/Debug2 = 0
