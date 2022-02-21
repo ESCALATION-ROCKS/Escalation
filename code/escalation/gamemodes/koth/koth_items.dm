@@ -35,7 +35,7 @@ var/list/obj/machinery/capbeacon/cps = list()
 		to_chat(user, "<span class = 'warning'>You are not a human, get outta' here.</span>")
 		return
 	var/mob/living/carbon/human/H = user
-	if(controlled_by == H.team_picked
+	if(controlled_by == H.team_picked)
 		to_chat(H, "<span class = 'notice'>[get_area(loc)] is already captured by your faction!</span>")
 		return
 
