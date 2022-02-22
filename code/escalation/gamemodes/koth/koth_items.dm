@@ -41,4 +41,4 @@ var/list/obj/machinery/capbeacon/cps = list()
 	controlled_by = H.team_picked
 	to_chat("[H.team_picked] has captured the hill beacon at [get_area(loc)].")
 	update_desc()
-	//cap_tickets(controlled_by, capture_points)
+	cap_tickets(controlled_by, capture_points)

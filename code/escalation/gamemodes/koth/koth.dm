@@ -83,11 +83,11 @@
 
 //PROCESS
 
-// /datum/game_mode/koth/proc/cap_tickets(faction, tickets)
-// 	if(faction == )
-// 		nato_tickets += tickets
-// 	if(faction == )
-// 		wp_tickets += tickets
+/datum/game_mode/koth/proc/cap_tickets(faction, tickets)
+	if(faction == /datum/army_faction/nato)
+		nato_tickets += tickets
+	if(faction == /datum/army_faction/warpact)
+		wp_tickets += tickets
 
 /datum/game_mode/koth/process()
 	. = ..()
