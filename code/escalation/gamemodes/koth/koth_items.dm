@@ -7,7 +7,6 @@ var/list/obj/machinery/capbeacon/cps = list()
 	//icon_state = "comm_tower"
 	density = TRUE
 	anchored = TRUE
-	var/time_to_hack = 200 // How much attackby() delay beacon will get//
 	var/capture_points = 5 // How much point faction will get upon capturing//
 	var/ppm = 8 // Points per minute, This can be less than 1 if you want less tickets//
 	var/controlled_by
@@ -42,4 +41,4 @@ var/list/obj/machinery/capbeacon/cps = list()
 		controlled_by = H.team_picked
 		to_chat("[H.team_picked] has captured the hill beacon at [get_area(loc)].")
 		update_desc()
-		cap_tickets(controlled_by, capture_points)
+		//cap_tickets(controlled_by, capture_points)
