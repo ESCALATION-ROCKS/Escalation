@@ -38,12 +38,7 @@ var/list/obj/machinery/capbeacon/cps = list()
 	if(controlled_by == H.team_picked)
 		to_chat(H, "<span class = 'notice'>[get_area(loc)] is already captured by your faction!</span>")
 		return
-
-	to_chat("[H.team_picked] has began capturing the hill beacon at [get_area(loc)].","Navigation System")
-	audible_message("<b>[H.team_picked] has began capturing the hill beacon [get_area(loc)]!<b>")
-	if(do_after(H, time_to_hack, 1, src))
-		controlled_by = H.team_picked
-		to_chat("[H.team_picked] has captured the hill beacon at [get_area(loc)].","UNSC Navigation System")
-		audible_message("<b>[H.team_picked] has captured the hill beacon at [get_area(loc)]!<b>")
-		update_desc()
-		//cap_tickets(controlled_by, capture_points)
+	controlled_by = H.team_picked
+	to_chat("[H.team_picked] has captured the hill beacon at [get_area(loc)].")
+	update_desc()
+	//cap_tickets(controlled_by, capture_points)
