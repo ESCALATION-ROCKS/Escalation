@@ -37,7 +37,7 @@ var/list/obj/machinery/capbeacon/cps = list()
 	if(controlled_by == H.team_picked)
 		to_chat(H, "<span class = 'notice'>[get_area(loc)] is already captured by your faction!</span>")
 		return
-	if(do_after(user, 7))
+	if(do_after(user, 200))
 		controlled_by = H.team_picked
 		to_chat("[H.team_picked] has captured the hill beacon at [get_area(loc)].")
 		update_desc()
