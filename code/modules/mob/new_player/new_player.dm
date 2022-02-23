@@ -63,6 +63,9 @@ mob/new_player/proc/StatRand()
 /mob/new_player/proc/new_player_panel_proc()
 	var/output = ""
 
+	if(!client)
+		return
+
 	output +="<hr>"
 	output += "<center><p><a href='byond://?src=\ref[src];char_setup=1'>Setup Character</a></p></center>"
 
