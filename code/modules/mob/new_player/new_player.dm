@@ -126,11 +126,11 @@ mob/new_player/proc/StatRand()
 		for(var/J in team.slots) //Slots can either be people, or jobs. These are nonsquad jobs.
 			slot_index++
 			if(istype(J,/datum/job/escalation))
-				var/datum/job/escalation/A = J
-				if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
-					out += "<P><a href='byond://?src=\ref[src];set_team_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</A></P>"
-				else
-					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
+				//var/datum/job/escalation/A = J
+				//if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, "esc_nco") || check_player_in_whitelist(src.key, "esc_officer"))
+				out += "<P><a href='byond://?src=\ref[src];set_team_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</A></P>"
+				// else
+				// 	out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
 
 			else
 				if(!ismob(J))
