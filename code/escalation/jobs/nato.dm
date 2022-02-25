@@ -25,7 +25,7 @@
 	enabled = 1
 	leading = 1
 	amount = 1
-	whitelist_rank = "usmc_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
 
 	equip(var/mob/living/carbon/human/H)
@@ -45,7 +45,7 @@
 	rank_number = 1
 	enabled = 1
 	position = "team"
-	whitelist_rank = "usmc_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 60)
 
 	equip(var/mob/living/carbon/human/H)
@@ -65,7 +65,7 @@
 	enabled = 1
 	rank_number = 2
 	position = "team"
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_FINNISH = 100)
 
 	equip(var/mob/living/carbon/human/H)
@@ -85,7 +85,7 @@
 	position = "team"
 	enabled = 0
 	rank_number = 2
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 20, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -104,7 +104,7 @@
 	position = "fireteam"
 	enabled = 1
 	amount = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 30, LANGUAGE_FINNISH = 30)
 
 	equip(var/mob/living/carbon/human/H)
@@ -123,7 +123,7 @@
 	position = "team"
 	enabled = 1
 	amount = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 30, LANGUAGE_FINNISH = 30)
 
 	equip(var/mob/living/carbon/human/H)
@@ -142,7 +142,7 @@
 	amount = 1
 	enabled = 1
 	position = "team"
-	whitelist_rank = "usmc_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
 
 	equip(var/mob/living/carbon/human/H)
@@ -159,9 +159,9 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/marksman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 0
+	enabled = 1
 	amount = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -179,7 +179,7 @@
 	selection_color = "#B0C4DE"
 	amount = 1
 	enabled = 0
-	whitelist_rank = "usmc_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -198,7 +198,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -215,9 +215,9 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/usmc/spotter
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 0
+	enabled = 1
 	amount = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -236,7 +236,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -255,7 +255,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 100, LANGUAGE_FINNISH = 100)
 
 	equip(var/mob/living/carbon/human/H)
@@ -274,7 +274,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -293,7 +293,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -312,7 +312,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -332,7 +332,7 @@
 	rank_number = 2
 	position = "fireteam"
 	enabled = 1
-	whitelist_rank = "usmc_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -354,7 +354,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 40, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -374,7 +374,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -394,7 +394,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -414,7 +414,7 @@
 	position = "fireteam"
 	amount = 6
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -434,7 +434,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -454,7 +454,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -474,7 +474,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -494,7 +494,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usmc_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -631,7 +631,7 @@
 	leading = 1
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
@@ -651,7 +651,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -671,7 +671,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 20)
 
 	equip(var/mob/living/carbon/human/H)
@@ -691,7 +691,7 @@
 	amount = 3
 	rank_number = 2
 	enabled = 0
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -711,7 +711,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
@@ -731,7 +731,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "bdw_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -751,7 +751,7 @@
 	amount = 1
 	leading = 1
 	enabled = 1
-	whitelist_rank = "bdw_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -770,7 +770,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -790,7 +790,7 @@
 	amount = 1
 	enabled = 1
 	rank_number = 4
-	whitelist_rank = "bdw_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -810,7 +810,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
@@ -829,7 +829,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -849,7 +849,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -868,7 +868,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -887,7 +887,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -906,7 +906,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -925,7 +925,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -945,7 +945,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -964,7 +964,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -983,7 +983,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
 
 
@@ -1004,7 +1004,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 0
-	whitelist_rank = "bdw_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1024,7 +1024,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1044,7 +1044,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "bdw_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1079,7 +1079,7 @@
 	leading = 1
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1099,7 +1099,7 @@
 	position = "team"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1119,7 +1119,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 20)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1139,7 +1139,7 @@
 	amount = 3
 	rank_number = 2
 	enabled = 0
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 20, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1159,7 +1159,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1179,7 +1179,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "heer_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1199,7 +1199,7 @@
 	amount = 1
 	leading = 1
 	enabled = 1
-	whitelist_rank = "heer_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 80, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1218,7 +1218,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1238,7 +1238,7 @@
 	amount = 1
 	enabled = 1
 	rank_number = 3
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1258,7 +1258,7 @@
 	amount = 1
 	rank_number = 2
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1277,7 +1277,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1297,7 +1297,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1316,7 +1316,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1335,7 +1335,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 100, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1354,7 +1354,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1373,7 +1373,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1393,7 +1393,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 40, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1412,7 +1412,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1431,7 +1431,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 3)
 
 
@@ -1452,7 +1452,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 0
-	whitelist_rank = "heer_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 30, LANGUAGE_RUSSIAN = 35)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1472,7 +1472,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1492,7 +1492,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "heer_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1526,7 +1526,7 @@
 	enabled = 1
 	leading = 1
 	amount = 1
-	whitelist_rank = "baf_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80, LANGUAGE_FINNISH = 80)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1546,7 +1546,7 @@
 	rank_number = 1
 	enabled = 1
 	position = "team"
-	whitelist_rank = "baf_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 60, LANGUAGE_FINNISH = 60)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1566,7 +1566,7 @@
 	enabled = 1
 	rank_number = 2
 	position = "team"
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 40, LANGUAGE_FINNISH = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1586,7 +1586,7 @@
 	position = "team"
 	enabled = 1
 	amount = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1605,7 +1605,7 @@
 	amount = 1
 	enabled = 1
 	position = "team"
-	whitelist_rank = "baf_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80, LANGUAGE_FINNISH = 80)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1624,7 +1624,7 @@
 	position = "team"
 	enabled = 1
 	amount = 2
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1644,7 +1644,7 @@
 	rank_number = 2
 	position = "fireteam"
 	enabled = 1
-	whitelist_rank = "baf_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1666,7 +1666,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 40, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1686,7 +1686,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5, LANGUAGE_FINNISH = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1706,7 +1706,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5, LANGUAGE_FINNISH = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1726,7 +1726,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5, LANGUAGE_FINNISH = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1746,7 +1746,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5, LANGUAGE_FINNISH = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1767,7 +1767,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5, LANGUAGE_FINNISH = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1787,7 +1787,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5, LANGUAGE_FINNISH = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1806,7 +1806,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1825,7 +1825,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1844,7 +1844,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1863,7 +1863,7 @@
 	position = "team"
 	enabled = 1
 	amount = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1882,7 +1882,7 @@
 	position = "fireteam"
 	amount = 1
 	enabled = 1
-	whitelist_rank = "baf_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1901,7 +1901,7 @@
 	position = "fireteam"
 	amount = 3
 	enabled = 1
-	whitelist_rank = "baf_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10, LANGUAGE_FINNISH = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1921,7 +1921,7 @@
 		H.fraction = "NATO"
 
 /datum/job/escalation/fra/fraplatlead
-	title = "ADT Capitaine"
+	title = "ADT Chef de Regiment"
 	name = "Platoon Leader"
 	english_name = null
 	minimal_player_age = 21
@@ -1931,10 +1931,10 @@
 	selection_color = "#B0C4DE"
 	rank_number = 0
 	position = "team"
-	enabled = 1
+	enabled = 0
 	leading = 1
 	amount = 1
-	whitelist_rank = "fra_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1942,7 +1942,7 @@
 		H.add_skills(0, 1, -1, -1, 2, 1, 4, 0)
 
 /datum/job/escalation/fra/fraplatleaddep
-	title = "ADT Lieutenant"
+	title = "ADT Platoon Leader Deputy"
 	name = "Platoon Leader Deputy"
 	english_name = null
 	minimal_player_age = 21
@@ -1952,9 +1952,9 @@
 	selection_color = "#B0C4DE"
 	amount = 1
 	rank_number = 1
-	enabled = 1
+	enabled = 0
 	position = "team"
-	whitelist_rank = "fra_officer"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 60)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1973,8 +1973,8 @@
 	amount = 1
 	enabled = 1
 	rank_number = 2
-	position = "team"
-	whitelist_rank = "fra_enlisted"
+	position = "fireteam"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -1991,9 +1991,9 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/corpsman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 1
+	enabled = 0
 	amount = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2010,9 +2010,9 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/doctor
 	selection_color = "#B0C4DE"
 	amount = 1
-	enabled = 1
+	enabled = 0
 	position = "team"
-	whitelist_rank = "fra_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2029,9 +2029,9 @@
 	outfit_type = /decl/hierarchy/outfit/job/coldwar/fra/marksman
 	selection_color = "#B0C4DE"
 	position = "team"
-	enabled = 1
+	enabled = 0
 	amount = 1
-	whitelist_rank = "fra_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2050,7 +2050,7 @@
 	position = "fireteam"
 	enabled = 1
 	amount = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2058,8 +2058,8 @@
 		H.add_skills(0, 0, -1, -1, 3, 1, 1, 0)
 
 /datum/job/escalation/fra/frasl
-	title = "ADT Squad Leader"
-	name = "Chief Corporal"
+	title = "ADT Group Leader"
+	name = "Capitaine"
 	english_name = null
 	minimal_player_age = 21
 	economic_modifier = 5
@@ -2070,7 +2070,7 @@
 	rank_number = 2
 	position = "fireteam"
 	enabled = 1
-	whitelist_rank = "fra_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 100)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2092,7 +2092,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_GERMAN = 25)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2112,7 +2112,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2132,7 +2132,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_ENGLISH = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2152,7 +2152,7 @@
 	position = "fireteam"
 	amount = 6
 	enabled = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2172,7 +2172,7 @@
 	position = "fireteam"
 	amount = 6
 	enabled = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2192,7 +2192,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2212,7 +2212,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 0
-	whitelist_rank = "fra_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2231,7 +2231,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2250,7 +2250,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2269,7 +2269,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 0
-	whitelist_rank = "fra_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2289,7 +2289,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 0
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2309,7 +2309,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 0
-	whitelist_rank = "fra_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2341,7 +2341,7 @@
 	enabled = 1
 	leading = 1
 	amount = 1
-	whitelist_rank = "usa_officer"
+	whitelist_rank = "esc_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2361,7 +2361,7 @@
 	rank_number = 1
 	enabled = 1
 	position = "team"
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 60)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2381,7 +2381,7 @@
 	enabled = 1
 	rank_number = 2
 	position = "team"
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 40)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2401,7 +2401,7 @@
 	position = "team"
 	enabled = 0
 	rank_number = 2
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 20, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2420,7 +2420,7 @@
 	position = "team"
 	enabled = 1
 	amount = 4
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2439,7 +2439,7 @@
 	amount = 1
 	enabled = 1
 	position = "team"
-	whitelist_rank = "usa_officer"
+	//whitelist_rank = "usa_officer"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 80)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2458,7 +2458,7 @@
 	position = "team"
 	enabled = 1
 	amount = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2476,7 +2476,7 @@
 	selection_color = "#B0C4DE"
 	amount = 1
 	enabled = 0
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2496,7 +2496,7 @@
 	rank_number = 2
 	position = "fireteam"
 	enabled = 1
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 100, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2515,7 +2515,7 @@
 	position = "fireteam"
 	enabled = 1
 	amount = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 30, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2537,7 +2537,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 40, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2557,7 +2557,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2577,7 +2577,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2597,7 +2597,7 @@
 	position = "fireteam"
 	amount = 6
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2617,7 +2617,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2637,7 +2637,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2656,7 +2656,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2675,7 +2675,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2694,7 +2694,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_nco"
+	whitelist_rank = "esc_nco"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 10)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2714,7 +2714,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)
@@ -2734,7 +2734,7 @@
 	position = "fireteam"
 	amount = 2
 	enabled = 1
-	whitelist_rank = "usa_enlisted"
+	whitelist_rank = "esc_enlisted"
 	also_known_languages = list(LANGUAGE_GERMAN = 10, LANGUAGE_RUSSIAN = 5)
 
 	equip(var/mob/living/carbon/human/H)

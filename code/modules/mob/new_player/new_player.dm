@@ -63,6 +63,9 @@ mob/new_player/proc/StatRand()
 /mob/new_player/proc/new_player_panel_proc()
 	var/output = ""
 
+	if(!client)
+		return
+
 	output +="<hr>"
 	output += "<center><p><a href='byond://?src=\ref[src];char_setup=1'>Setup Character</a></p></center>"
 
@@ -123,11 +126,11 @@ mob/new_player/proc/StatRand()
 		for(var/J in team.slots) //Slots can either be people, or jobs. These are nonsquad jobs.
 			slot_index++
 			if(istype(J,/datum/job/escalation))
-				var/datum/job/escalation/A = J
-				if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
-					out += "<P><a href='byond://?src=\ref[src];set_team_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</A></P>"
-				else
-					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
+				//var/datum/job/escalation/A = J
+				//if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, "esc_nco") || check_player_in_whitelist(src.key, "esc_officer"))
+				out += "<P><a href='byond://?src=\ref[src];set_team_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</A></P>"
+				// else
+				// 	out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
 
 			else
 				if(!ismob(J))
@@ -161,10 +164,10 @@ mob/new_player/proc/StatRand()
 
 			if(istype(S, /datum/job/escalation))
 				var/datum/job/escalation/A = S
-				if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
-					out += "<p><a href='byond://?src=\ref[src];set_fireteam_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</a></p>"
-				else
-					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
+				//if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
+				out += "<p><a href='byond://?src=\ref[src];set_fireteam_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</a></p>"
+				//else
+					//out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
 
 
 			else

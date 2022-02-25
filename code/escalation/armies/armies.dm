@@ -155,6 +155,10 @@ proc/show_statistic_by_faction()
 	var/list/fireteam_names = list()
 	var/list/slots = list()
 
+	var/points = 0 //Ticker for each team.
+	var/nuked = FALSE //Instant loss for the team.
+	var/left = 60 //Number of reinforcements both sides have.
+
 //This also initializes fireteams
 /datum/army_faction/New()
 	..()

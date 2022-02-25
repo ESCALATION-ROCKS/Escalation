@@ -98,7 +98,7 @@ obj/item/weapon/gun/launcher/grenade/process_projectile(obj/item/projectile, mob
 		/obj/item/weapon/grenade/chem_grenade/teargas = 2,
 		/obj/item/weapon/grenade/flashbang = 3,
 		/obj/item/weapon/grenade/empgrenade = 3,
-		/obj/item/weapon/grenade/frag/shell = 1,
+		/obj/item/weapon/grenade/frag/shell = 1 //dont do this ever again retard
 		)
 
 	var/grenade_type = pickweight(grenade_types)

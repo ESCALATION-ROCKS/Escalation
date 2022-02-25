@@ -1103,7 +1103,7 @@ var/list/admin_verbs_mentor = list(
 		add_player_to_escalation_whitelist(WL_playerkey, WL_playerrank)
 		init_whitelist()
 		update_escpanels_for_all()
-		load_ckey_whitelist()
+		//load_ckey_whitelist()
 
 	feedback_add_details("admin_verb", "ESCW")
 

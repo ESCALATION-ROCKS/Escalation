@@ -29,7 +29,7 @@
 	set hidden = 1
 	if(alert("This will invite you to the discord and will open in your browser. Are you sure?",,"Yes","No")=="No")
 		return
-	src << link("https://discord.gg/yhCaGgtjbu")
+	src << link("https://discord.gg/M9rV9Q9xsA")
 
 #define RULES_FILE "config/rules.html"
 /client/verb/rules()
