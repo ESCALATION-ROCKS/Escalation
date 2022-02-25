@@ -126,11 +126,11 @@ mob/new_player/proc/StatRand()
 		for(var/J in team.slots) //Slots can either be people, or jobs. These are nonsquad jobs.
 			slot_index++
 			if(istype(J,/datum/job/escalation))
-				//var/datum/job/escalation/A = J
-				//if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, "esc_nco") || check_player_in_whitelist(src.key, "esc_officer"))
-				out += "<P><a href='byond://?src=\ref[src];set_team_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</A></P>"
-				// else
-				// 	out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
+				var/datum/job/escalation/A = J
+				if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
+					out += "<P><a href='byond://?src=\ref[src];set_team_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</A></P>"
+				else
+					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
 
 			else
 				if(!ismob(J))
@@ -164,10 +164,10 @@ mob/new_player/proc/StatRand()
 
 			if(istype(S, /datum/job/escalation))
 				var/datum/job/escalation/A = S
-				//if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
-				out += "<p><a href='byond://?src=\ref[src];set_fireteam_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</a></p>"
-				//else
-					//out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
+				if(check_player_in_whitelist(src.key, A.faction_tag)  || check_player_in_whitelist(src.key, A.whitelist_rank) || (A.faction_tag in protected_from_whitelist/*see escalation_whitelist.dm*/))
+					out += "<p><a href='byond://?src=\ref[src];set_fireteam_job=[slot_index]'>[A.name] - [A.english_name] (OPEN)</a></p>"
+				else
+					out += "<p>[A.name] - [A.english_name] (NOT IN WHITELIST)</p>"
 
 
 			else
@@ -508,7 +508,6 @@ mob/new_player/proc/StatRand()
 
 /*	if(href_list["SelectedJob"])
 		var/datum/job/job = job_master.GetJob(href_list["SelectedJob"])
-
 		if(!job)
 			to_chat(usr, "<span class='danger'>The job '[href_list["SelectedJob"]]' doesn't exist!</span>")
 			return
@@ -521,27 +520,22 @@ mob/new_player/proc/StatRand()
 		if(ticker && ticker.mode && ticker.mode.explosion_in_progress)
 			to_chat(usr, "<span class='danger'>The [station_name()] is currently exploding. Joining would go poorly.</span>")
 			return
-
 		var/datum/species/S = all_species[client.prefs.species]
 		if(!check_species_allowed(S))
 			return 0
-
 		AttemptLateSpawn(job, client.prefs.spawnpoint)
 		return
-
 	if(href_list["privacy_poll"])
 		establish_db_connection()
 		if(!dbcon.IsConnected())
 			return
 		var/voted = 0
-
 		//First check if the person has not voted yet.
 		var/DBQuery/query = dbcon.NewQuery("SELECT * FROM erro_privacy WHERE ckey='[src.ckey]'")
 		query.Execute()
 		while(query.NextRow())
 			voted = 1
 			break
-
 		//This is a safety switch, so only valid options pass through
 		var/option = "UNKNOWN"
 		switch(href_list["privacy_poll"])
@@ -556,41 +550,32 @@ mob/new_player/proc/StatRand()
 				return
 			if("abstain")
 				option = "ABSTAIN"
-
 		if(option == "UNKNOWN")
 			return
-
 		if(!voted)
 			var/sql = "INSERT INTO erro_privacy VALUES (null, Now(), '[src.ckey]', '[option]')"
 			var/DBQuery/query_insert = dbcon.NewQuery(sql)
 			query_insert.Execute()
 			to_chat(usr, "<b>Thank you for your vote!</b>")
 			usr << browse(null,"window=privacypoll")
-
 	if(!ready && href_list["preference"])
 		if(client)
 			client.prefs.process_link(src, href_list)
 	else if(!href_list["late_join"])
 		new_player_panel()
-
 	if(href_list["showpoll"])
-
 		handle_player_polling()
 		return
-
 	if(href_list["pollid"])
-
 		var/pollid = href_list["pollid"]
 		if(istext(pollid))
 			pollid = text2num(pollid)
 		if(isnum(pollid))
 			src.poll_player(pollid)
 		return
-
 	if(href_list["invalid_jobs"])
 		show_invalid_jobs = !show_invalid_jobs
 		LateChoices()
-
 	if(href_list["votepollid"] && href_list["votetype"])
 		var/pollid = text2num(href_list["votepollid"])
 		var/votetype = href_list["votetype"]
@@ -604,11 +589,9 @@ mob/new_player/proc/StatRand()
 			if("NUMVAL")
 				var/id_min = text2num(href_list["minid"])
 				var/id_max = text2num(href_list["maxid"])
-
 				if( (id_max - id_min) > 100 )	//Basic exploit prevention
 					to_chat(usr, "The option ID difference is too big. Please contact administration or the database admin.")
 					return
-
 				for(var/optionid = id_min; optionid <= id_max; optionid++)
 					if(!isnull(href_list["o[optionid]"]))	//Test if this optionid was replied to
 						var/rating
@@ -618,16 +601,13 @@ mob/new_player/proc/StatRand()
 							rating = text2num(href_list["o[optionid]"])
 							if(!isnum(rating))
 								return
-
 						vote_on_numval_poll(pollid, optionid, rating)
 			if("MULTICHOICE")
 				var/id_min = text2num(href_list["minoptionid"])
 				var/id_max = text2num(href_list["maxoptionid"])
-
 				if( (id_max - id_min) > 100 )	//Basic exploit prevention
 					to_chat(usr, "The option ID difference is too big. Please contact administration or the database admin.")
 					return
-
 				for(var/optionid = id_min; optionid <= id_max; optionid++)
 					if(!isnull(href_list["option_[optionid]"]))	//Test if this optionid was selected
 						vote_on_poll(pollid, optionid, 1)
