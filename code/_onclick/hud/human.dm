@@ -13,6 +13,8 @@
 		ui_style = hud_data.icon
 
 	src.adding = list()
+	if(screentip_text)
+		adding += screentip_text
 	src.other = list()
 	src.hotkeybuttons = list() //These can be disabled for hotkey usersx
 
@@ -53,15 +55,6 @@
 		using.color = ui_color
 		using.alpha = ui_alpha
 		src.adding += using
-
-	if(ishuman(mymob))
-		var/mob/living/carbon/human/H = mymob
-		H.hovertext = new /obj/screen/text/atm
-		H.hovertext.maptext = ""
-		H.hovertext.maptext_height = 100
-		H.hovertext.maptext_width = 480
-		H.hovertext.screen_loc = "CENTER-7, CENTER+7"
-		hud_elements |= H.hovertext
 
 	// Draw the attack intent dialogue.
 	if(hud_data.has_a_intent)
@@ -206,7 +199,7 @@
 		mymob.surrender.icon_state = "surrender"
 		mymob.surrender.name = "surrender"
 		mymob.surrender.screen_loc = ui_surrender
-		hud_elements |= mymob.surrender 
+		hud_elements |= mymob.surrender
 
 	if(hud_data.has_warnings)
 		mymob.oxygen = new /obj/screen()

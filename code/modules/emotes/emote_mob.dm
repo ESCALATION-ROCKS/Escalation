@@ -8,7 +8,7 @@
 	var/last_emote_time = 0
 
 /mob/proc/emote(var/act, var/m_type, var/message)
-	if(world.time < last_emote_time + 1 SECOND)
+	if(world.time < last_emote_time + 5 SECOND)
 		return
 	last_emote_time = world.time
 	// s-s-snowflake

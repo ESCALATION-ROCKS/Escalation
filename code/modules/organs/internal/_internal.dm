@@ -12,10 +12,9 @@
 /obj/item/organ/internal/New(var/mob/living/carbon/holder)
 	if(max_damage)
 		min_bruised_damage = Floor(max_damage / 4)
-	..()
+	. = ..()
 	if(istype(holder))
 		holder.internal_organs |= src
-
 		var/mob/living/carbon/human/H = holder
 		if(istype(H))
 			var/obj/item/organ/external/E = H.get_organ(parent_organ)
@@ -54,7 +53,7 @@
 			if(affected)
 				affected.internal_organs -= src
 				status |= ORGAN_CUT_AWAY
-	..()
+	return ..()
 
 /obj/item/organ/internal/replaced(var/mob/living/carbon/human/target, var/obj/item/organ/external/affected)
 
@@ -128,7 +127,6 @@
 		damage = between(0, src.damage + (amount * 0.8), max_damage)
 	else
 		damage = between(0, src.damage + amount, max_damage)
-
 		//only show this if the organ is not robotic
 		if(owner && can_feel_pain() && parent_organ && (amount > 5 || prob(10)))
 			var/obj/item/organ/external/parent = owner.get_organ(parent_organ)
@@ -139,7 +137,8 @@
 				if(damage < 5)
 					degree = " a bit"
 				owner.custom_pain("Something inside your [parent.name] hurts[degree].", amount, affecting = parent)
-
+	if(vital && damage >= max_damage)
+		owner?.death()
 
 /obj/item/organ/internal/proc/handle_regeneration()
 	if(!damage || isrobotic() || !owner || owner.chem_effects[CE_TOXIN] || owner.is_asystole())

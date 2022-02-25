@@ -167,8 +167,8 @@
 	agony = 80
 	penetrating = 3
 	kill_count = 250
-	armor_penetration = 90
-	armor_damage = 100
+	armor_damage = 200
+	armor_penetration = 200
 
 /obj/item/projectile/bullet/rifle/a127x108mm/New()
 	damage = rand(46, 54)
@@ -183,8 +183,8 @@
 	agony = 80
 	penetrating = 3
 	kill_count = 250
-	armor_penetration = 90
-	armor_damage = 100
+	armor_damage = 200
+	armor_penetration = 200
 
 /obj/item/projectile/bullet/rifle/a50cal/New()
 	damage = rand(48, 51)
@@ -208,28 +208,29 @@
 	//Pretty tight grouping and low range so armors actually fucking work against it. Solution is to aim for limbs
 
 /obj/item/projectile/bullet/pellet/ga12/New()
-	damage = rand(30, 45)
+	damage = rand(60, 85)
 
 /obj/item/projectile/bullet/rifle/ga12/slug
 	penetration_modifier = 0.3
 	agony = 36
 	kill_count = 60
-	armor_penetration = 8 //low chance of going through
 	armor_damage = 35
+	armor_damage = 100
 
 /obj/item/projectile/bullet/rifle/ga12/slug/New()
-	damage = rand(25, 32)
+	damage = rand(45, 62)
 
 /obj/item/projectile/bullet/rifle/ga12/flec //Very very tight grouping so its a rifle bullet
 	icon_state = "bullet_flechette"
 	penetration_modifier = 0.1
 	agony = 36
 	kill_count = 80
-	armor_penetration = 75
 	armor_damage = 65
+	kill_count = 10
+	armor_damage = 50
 
 /obj/item/projectile/bullet/rifle/ga12/flec/New()
-	damage = rand(25, 28)
+	damage = rand(65, 120)
 
 /obj/item/projectile/bullet/pellet/ga6
 	penetration_modifier = 0.5
@@ -245,28 +246,28 @@
 	armor_damage = 12
 
 /obj/item/projectile/bullet/pellet/ga6/New()
-	damage = rand(35, 50)
+	damage = rand(60, 85)
 
 /obj/item/projectile/bullet/rifle/ga6/slug
 	penetration_modifier = 0.3
 	agony = 46
 	kill_count = 50
-	armor_penetration = 10 //low chance of going through
 	armor_damage = 25
 
 /obj/item/projectile/bullet/rifle/ga6/slug/New()
-	damage = rand(27, 38)
+	damage = rand(45, 62)
 
 /obj/item/projectile/bullet/rifle/ga6/flec //Very very tight grouping so its a rifle bullets
 	icon_state = "bullet_flechette"
 	penetration_modifier = 0.1
 	agony = 28
 	kill_count = 60
-	armor_penetration = 65
 	armor_damage = 65
+	armor_damage = 50
+	kill_count = 10
 
 /obj/item/projectile/bullet/rifle/ga6/flec/New()
-	damage = rand(30, 35)
+	damage = rand(65, 120)
 
 /obj/item/projectile/bullet/ags30x29mm
 	name = "AGS' bullet"
@@ -276,7 +277,6 @@
 	penetrating = 0
 	step_delay = 1.2
 	kill_count = 60
-	armor_penetration = 90
 	armor_damage = 75
 
 /obj/item/projectile/bullet/ags30x29mm/on_impact(var/atom/target, var/blocked = 0)
@@ -289,7 +289,6 @@
 	penetrating = 0
 	damage = 50
 	agony = 80
-	armor_penetration = 60
 	armor_damage = 65
 
 /obj/item/projectile/bullet/mk19_40x53mm/on_impact(var/atom/target, blocked = 0)
@@ -302,7 +301,7 @@
 	nodamage = 1
 	penetrating = 0
 	kill_count = 37
-	step_delay = 0.90
+	step_delay = 1.2
 	fire_sound = null//here we gonna use sound in AGS and not in bullets
 
 	muzzle_type = /obj/effect/projectile/rocket/rpg

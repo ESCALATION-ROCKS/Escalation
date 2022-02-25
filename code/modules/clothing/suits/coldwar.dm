@@ -1,8 +1,10 @@
 /obj/item/clothing/suit/armor/vest/coldwar
 	wearable = 1
+	armor_integrity_starting = 100
 
 /obj/item/clothing/suit/storage/vest/coldwar
 	wearable = 1
+	armor_integrity_starting = 100
 
 //Soviet armor
 /obj/item/clothing/suit/storage/vest/coldwar/soviet
@@ -24,7 +26,9 @@
 	item_state = "6b3green"
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
-	slowdown_general = 0.15
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
+	slowdown_general = 0.20
 
 /obj/item/clothing/suit/storage/vest/coldwar/soviet/a6b3/New()
 	..()
@@ -63,7 +67,10 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
-	slowdown_general = 0.15
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_METAL
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_METAL
+	possible_damage_states = 3
+	slowdown_general = 0.20
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 //USMC
@@ -77,11 +84,15 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
-	slowdown_general = 0.15
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_STANDARD
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_STANDARD
+	slowdown_general = 0.20
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+	possible_damage_states = 3
 
 /obj/item/clothing/suit/armor/vest/coldwar/pasgt/woodland
 	icon_state = "pasgt_vest_woodland"
+	possible_damage_states = 3
 
 /obj/item/clothing/suit/armor/vest/coldwar/flakvest
 	name = "M69 flak vest"
@@ -93,8 +104,11 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
-	slowdown_general = 0.15
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_STANDARD
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_STANDARD
+	slowdown_general = 0.20
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+	possible_damage_states = 3
 
 /obj/item/clothing/suit/armor/vest/coldwar/heervest
 	name = "KAZ03 flak vest"
@@ -106,7 +120,9 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
 	armor = DEFAULT_ARMOR_NORMALBLOCK
 	armor_fullblock = DEFAULT_ARMOR_FULLBLOCK
-	slowdown_general = 0.15
+	sound_armor_damaged = ARMOR_DAMAGED_SOUNDS_STANDARD
+	sound_armor_broke = ARMOR_BROKE_SOUNDS_STANDARD
+	slowdown_general = 0.20
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
 /obj/item/clothing/suit/armor/vest/coldwar/coat
@@ -165,6 +181,19 @@
 	icon_state = "parkabdw"
 	item_state = "parkabdw"
 	/*down_icon_state = "parkabdw_t"*/
+	/*down_icon_flags = BLOCKHAIR */
+	/*down_body_parts_covered = HEAD*/
+	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)
+	slowdown_general = 0.0
+	valid_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMOR_S)
+
+/obj/item/clothing/suit/armor/vest/coldwar/coat/fra
+	name = "adt winter coat"
+	desc = "A standard issue ADT winter coat."
+	icon_state = "parkafra"
+	item_state = "parkafra"
+	/*down_icon_state = "parkaus_t"*/
 	/*down_icon_flags = BLOCKHAIR */
 	/*down_body_parts_covered = HEAD*/
 	armor = list(melee = 5, bullet = 0, laser = 0, energy = 0, bomb = 5, bio = 0, rad = 0)

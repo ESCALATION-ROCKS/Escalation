@@ -2,8 +2,9 @@
 	hud_type = /datum/hud/larva
 
 /datum/hud/larva/FinalizeInstantiation()
-
 	src.adding = list()
+	if(screentip_text)
+		adding += screentip_text
 	src.other = list()
 
 	var/obj/screen/using

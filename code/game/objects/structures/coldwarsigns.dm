@@ -124,7 +124,7 @@
 	name = "russiansign"
 	icon = 'icons/obj/coldwar/decals48.dmi'
 	icon_state = "pereyaslavskoe"
-	
+
 /obj/structure/sign/russian2
 	name = "russiansign"
 	icon = 'icons/obj/coldwar/decals48.dmi'
@@ -467,8 +467,11 @@
 	name = "bus stop sign"
 	icon_state = "busstop"
 
-
-
+/obj/structure/radiotower
+	name = "bus stop sign"
+	icon_state = "radiotower"
+	icon = 'icons/effects/radiotower.dmi'
+	desc = "This looks important..."
 ////////////////FLAGPOLES & 48X FLAGS
 
 /obj/structure/sign/flag
@@ -680,7 +683,7 @@
 	icon_state = "syndicateranged"
 	desc = "A decorative mannequin. It looks damn cool!"
 	anchored = 1
-	
+
 /obj/structure/sign/mannequincool3
 	name = "decorative mannequin"
 	icon = 'icons/obj/fancydecals.dmi'
@@ -701,14 +704,14 @@
 	icon_state = "piratemelee"
 	desc = "A decorative mannequin. It looks damn cool!"
 	anchored = 1
-	
+
 /obj/structure/sign/mannequincool6
 	name = "decorative mannequin"
 	icon = 'icons/obj/fancydecals.dmi'
 	icon_state = "pirateranged"
 	desc = "A decorative mannequin. It looks damn cool!"
 	anchored = 1
-	
+
 /obj/structure/sign/mannequincool7
 	name = "clown mannequin"
 	icon = 'icons/obj/fancydecals.dmi'

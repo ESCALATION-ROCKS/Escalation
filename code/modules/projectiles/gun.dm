@@ -203,6 +203,7 @@
 /obj
 	var/last_fire_time = 0
 
+
 /obj/item/weapon/gun/proc/Fire(atom/target, mob/living/user, clickparams, pointblank=0, reflex=0)
 	if(!user || !target) return
 	if(target.z != user.z) return
@@ -222,6 +223,18 @@
 		if (world.time % 3) //to prevent spam
 			to_chat(user, "<span class='warning'>[src] is not ready to fire again!</span>")
 		return
+
+	if(istype(user.loc,/obj/vehicles))
+		var/obj/vehicles/V = user.loc
+		if(!istype(src,/obj/item/weapon/gun/vehicle_turret))
+			var/user_position = V.occupants[user]
+			if(isnull(user_position)) return
+			if(user_position == "driver")
+				to_chat(user,"<span class = 'warning'>You can't fire from the driver's position!</span>")
+				return
+			if(!(user_position in V.exposed_positions))
+				to_chat(user,"<span class = 'warning'>You can't fire [src.name] from this position in [V.name].</span>")
+				return
 
 	var/shoot_time = (burst - 1)* burst_delay
 	user.setClickCooldown(shoot_time / 3) //no clicking on things while shooting

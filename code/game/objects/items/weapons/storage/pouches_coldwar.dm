@@ -735,7 +735,7 @@
 		/obj/item/ammo_magazine/a9x19t,
 		/obj/item/ammo_magazine/a9x19t,
 		/obj/item/ammo_magazine/a9x19t,
-		/obj/item/ammo_magazine/a9x19t,
+		/obj/item/ammo_magazine/a9x19t
 		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
@@ -760,14 +760,19 @@
 	w_class = ITEM_SIZE_HUGE
 	name = "FR F2 magazine pouch"
 	desc = "Has enough space to hold two FR F1 magazines."
-	icon_state = "fra_sniper_ammo"
-	item_state = "fra_ammo"
+	icon_state = "adt_ammo"
+	item_state = "adt_ammo"
 	open_delay = 5
 	storage_slots = 2
 	can_hold = list(
 		/obj/item/ammo_magazine/c762x51f,
 		/obj/item/ammo_magazine/a9x19,)
-	startswith = null
+	startswith = list(
+		/obj/item/ammo_magazine/c762x51f,
+		/obj/item/ammo_magazine/c762x51f,
+		/obj/item/ammo_magazine/c762x51f,
+		/obj/item/ammo_magazine/c762x51f
+		)
 	use_sound = 'sound/items/interactions/natopouchopen.wav'
 	close_sound = 'sound/items/interactions/natopouchclose.wav'
 

@@ -3,6 +3,8 @@
 
 /datum/hud/proc/deity_hud(ui_style = 'icons/mob/screen1_Midnight.dmi')
 	src.adding = list()
+	if(screentip_text)
+		adding += screentip_text
 	src.other = list()
 
 	var/obj/screen/using

@@ -277,7 +277,6 @@
 	b_side = 'sound/music/elektrichka.ogg'
 	sound_inside = a_side
 
-
 /obj/item/device/cassette/sa/tape19/New()
 	..()
 	name = "Tape No. 19"
@@ -285,3 +284,28 @@
 	a_side = 'sound/music/belaya.ogg'
 	b_side = 'sound/music/cossackgirl.ogg'
 	sound_inside = a_side
+
+/obj/item/device/cassette/usa/tape20/New()
+	..()
+	name = "Tape No. 20"
+	desc = "Side A - Jungle Work, Warren Zevon, Side B - Roland the Headless Thompson Gunner, Warren Zevon"
+	a_side = 'sound/music/junglework.ogg'
+	b_side = 'sound/music/roland.ogg'
+	sound_inside = a_side
+
+/obj/item/device/cassette/ripper/tape21/New()
+	..()
+	name = "Tape No. 21"
+	desc = "A stained and rough looking cassette tape. Probably home made, and it stinks too..."
+	a_side = 'sound/music/fart.ogg'
+	b_side = 'sound/music/fart2.ogg'
+	sound_inside = a_side
+
+/obj/item/device/cassette/usa/tape23/New()
+	..()
+	name = "Tape No. 23"
+	desc = "Side A - Seek & Destroy, Metallica, Side B - Good Mourning/Black Friday, Megadeth"
+	a_side = 'sound/music/seekanddestroy.ogg'
+	b_side = 'sound/music/blackfriday.ogg'
+	sound_inside = a_side
+

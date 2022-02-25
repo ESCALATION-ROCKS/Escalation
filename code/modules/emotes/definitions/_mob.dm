@@ -81,6 +81,10 @@
 		/decl/emote/audible/grunt,
 		/decl/emote/audible/dayum,
 		/decl/emote/audible/byeah,
+		/decl/emote/audible/fuckyeah,
+		/decl/emote/audible/ahshit,
+		/decl/emote/audible/listentothis,
+		/decl/emote/audible/sniffthat,
 		/decl/emote/human,
 		/decl/emote/human/deathgasp,
 		/decl/emote/audible/giggle,
@@ -110,7 +114,7 @@
 		/decl/emote/visible/signal,
 		/decl/emote/visible/handshake,
 		/decl/emote/audible/rire,
-		/decl/emote/audible/cultiste,
+		/decl/emote/audible/unf
 	)
 
 /mob/living/silicon/robot

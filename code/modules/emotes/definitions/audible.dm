@@ -229,7 +229,7 @@
 
 		if(M.gender == MALE)
 			if(prob(99))
-				emote_sound = "sound/vo/laugh_m[rand(1,4)].ogg"
+				emote_sound = "sound/vo/laugh_m[rand(1,5)].ogg"
 			else
 				emote_sound = "sound/vo/tommy_hahahah.ogg"
 
@@ -258,7 +258,7 @@
 			return
 
 		if(M.gender == MALE)
-			emote_sound = "sound/vo/mh1_ReactedInjuryIntense_[rand(1,13)].ogg"
+			emote_sound = "sound/vo/bf3/m_scream[rand(1,21)].wav"
 
 		if(M.gender == FEMALE)
 			emote_sound = "sound/vo/fh1_ReactedInjuryIntense_[rand(1,5)].ogg"
@@ -305,7 +305,7 @@
 
 		if(M.gender == MALE)
 			if(prob(99))
-				emote_sound = "sound/vo/m_scream[rand(1,9)].ogg"
+				emote_sound = "sound/vo/bf3/m_scream[rand(1,21)].wav"
 			else
 				emote_sound = "sound/vo/scream_wilhelm.ogg"
 
@@ -362,10 +362,77 @@
 		if(H.isMonkey()|| M.gender == NEUTER)
 			return
 
-		emote_sound = "sound/vo/dayum[rand(1, 3)].ogg"
+		emote_sound = "sound/vo/dayum[rand(1, 10)].ogg"
 
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, 3)
+
+/decl/emote/audible/ahshit
+	key = "ahshit"
+	emote_message_3p = "USER ah ahit!"
+	conscious = 0
+
+/decl/emote/audible/ahshit/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/ahshit[rand(1, 2)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 85, 0, 3)
+
+/decl/emote/audible/fuckyeah
+	key = "fuckyeah"
+	emote_message_3p = "USER fuuuck yeah!"
+	conscious = 0
+
+/decl/emote/audible/fuckyeah/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/fuckyeah.ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 85, 0, 3)
+
+/decl/emote/audible/listentothis
+	key = "listentothis"
+	emote_message_3p = "USER listen to this one!"
+	conscious = 0
+
+/decl/emote/audible/listentothis/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/listentothis.ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 85, 0, 3)
+
+/decl/emote/audible/sniffthat
+	key = "sniffthat"
+	emote_message_3p = "USER sniff that one!"
+	conscious = 0
+
+/decl/emote/audible/sniffthat/do_extra(var/mob/M)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		if(H.isMonkey()|| M.gender == NEUTER)
+			return
+
+		emote_sound = "sound/vo/raunchy[rand(1, 2)].ogg"
+
+		if(emote_sound)
+			playsound(M, emote_sound, 85, 0, 3)
+
+
+
 
 /decl/emote/audible/rire
 	key = "rire"
@@ -382,17 +449,17 @@
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, -2)
 
-/decl/emote/audible/cultiste
-	key = "tzchernobog"
-	emote_message_3p = "USER praises tzchernobog!"
+/decl/emote/audible/unf
+	key = "unf"
+	emote_message_3p = "USER unfs!"
 
-/decl/emote/audible/cultiste/do_extra(var/mob/M)
+/decl/emote/audible/unf/do_extra(var/mob/M)
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(H.isMonkey()|| M.gender == NEUTER)
 			return
 
-		emote_sound = "sound/vo/cultiste_message_[rand(1,10)].ogg"
+		emote_sound = "sound/vo/doomguy_unf[rand(1,2)].ogg"
 
 		if(emote_sound)
 			playsound(M, emote_sound, 85, 0, -2)

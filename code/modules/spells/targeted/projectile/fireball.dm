@@ -2,12 +2,12 @@
 	name = "Fireball"
 	desc = "This spell fires a fireball at a target and does not require wizard garb."
 	feedback = "FB"
-	proj_type = /obj/item/projectile/spell_projectile/fireball
+	proj_type = /obj/item/projectile/bullet/rpgrocket/he
 
 	school = "conjuration"
 	charge_max = 100
 	spell_flags = 0
-	invocation = "Oni-Soma!"
+	invocation = "Round Away! Reloading!"
 	invocation_type = SpI_SHOUT
 	range = 20
 

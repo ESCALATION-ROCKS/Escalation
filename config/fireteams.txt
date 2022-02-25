@@ -272,11 +272,10 @@ ATS-1:usa
 
 ##FRA##
 
-SECTION INFANTRIE:fra
+Squad 'Celestin':fra
 /datum/job/escalation/fra/frasl
 /datum/job/escalation/fra/fraratelo
-/datum/job/escalation/fra/fralgl
-/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/frafto
 /datum/job/escalation/fra/fracorpsman
 /datum/job/escalation/fra/fraftl
 /datum/job/escalation/fra/fraftg
@@ -286,13 +285,57 @@ SECTION INFANTRIE:fra
 /datum/job/escalation/fra/fralgl
 @END@
 
+Squad 'Desiree':fra
+/datum/job/escalation/fra/frasl
+/datum/job/escalation/fra/fraratelo
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fracorpsman
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftmg
+/datum/job/escalation/fra/fralgl
+@END@
+
+Squad 'Eugene':fra
+/datum/job/escalation/fra/frasl
+/datum/job/escalation/fra/fraratelo
+/datum/job/escalation/fra/frafto
+/datum/job/escalation/fra/fracorpsman
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftg
+/datum/job/escalation/fra/fraftl
+/datum/job/escalation/fra/fraftmg
+/datum/job/escalation/fra/fralgl
+@END@
+
+Gruppe 'Ypsilon':fra
+/datum/job/escalation/bund/bdwsl
+/datum/job/escalation/bund/bdwsld
+/datum/job/escalation/bund/bdwsqradio
+/datum/job/escalation/bund/bdwmg
+/datum/job/escalation/bund/bdwmgas
+/datum/job/escalation/bund/bdwgrenadier
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwrifle
+/datum/job/escalation/bund/bdwmedic
+@END@
+
+EDL-1:fra
+/datum/job/escalation/fra/framgcom
+/datum/job/escalation/fra/framgload
+/datum/job/escalation/fra/framgop
+@END@
 ###########WARPACT#############
 
 ###SA###
 
 Otdelenie 'Anna':cccp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
+/datum/job/escalation/cccp/saplatlead
+/datum/job/escalation/cccp/saplatleaddep
 /datum/job/escalation/cccp/sasrad
 /datum/job/escalation/cccp/sarocket
 /datum/job/escalation/cccp/sarocketass
@@ -332,7 +375,7 @@ Otdelenie 'Vasiliy':cccp
 /datum/job/escalation/cccp/sacorpsman
 @END@
 
-OTV-1:cccp
+KZB-1:cccp
 /datum/job/escalation/cccp/saotvco
 /datum/job/escalation/cccp/saotvload
 /datum/job/escalation/cccp/saotvop
@@ -340,6 +383,7 @@ OTV-1:cccp
 
 Support 'Lyudi':cccp
 /datum/job/escalation/cccp/sasapperleader
+/datum/job/escalation/cccp/sasrad
 /datum/job/escalation/cccp/sasapper
 /datum/job/escalation/cccp/sasapper
 /datum/job/escalation/cccp/sasapper
@@ -429,55 +473,34 @@ Cheta 'Emil':csla
 
 ###ESP###
 
-Otdelenie 'Anna':esp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasapper
-/datum/job/escalation/cccp/sasniper
+Sprezgruppa 'Anna':esp
+/datum/job/escalation/cccp/vympsl
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympbr
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympsm
 @END@
 
-Otdelenie 'Boris':esp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasapper
-/datum/job/escalation/cccp/sasniper
+Sprezgruppa 'Kaskad':esp
+/datum/job/escalation/cccp/vympsl
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympbr
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympsm
 @END@
 
-Otdelenie 'Vasiliy':esp
-/datum/job/escalation/cccp/sasl
-/datum/job/escalation/cccp/sasld
-/datum/job/escalation/cccp/sasrad
-/datum/job/escalation/cccp/sarocket
-/datum/job/escalation/cccp/sarocketass
-/datum/job/escalation/cccp/samg
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sarifle
-/datum/job/escalation/cccp/sacorpsman
-/datum/job/escalation/cccp/sasapper
-/datum/job/escalation/cccp/sasniper
-@END@
-
-OTV-1:esp
-/datum/job/escalation/cccp/saotvco
-/datum/job/escalation/cccp/saotvload
-/datum/job/escalation/cccp/saotvop
+Sprezgruppa 'Zenyth':esp
+/datum/job/escalation/cccp/vympsl
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympop
+/datum/job/escalation/cccp/vympbr
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympmg
+/datum/job/escalation/cccp/vympsm
 @END@
 
 ########ESCA ARCTIC############

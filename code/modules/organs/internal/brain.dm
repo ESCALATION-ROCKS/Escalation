@@ -3,7 +3,7 @@
 	desc = "A piece of juicy meat found in a person's head."
 	organ_tag = BP_BRAIN
 	parent_organ = BP_HEAD
-	vital = 1
+	vital = TRUE
 	icon_state = "brain2"
 	force = 1.0
 	w_class = ITEM_SIZE_SMALL
@@ -20,9 +20,6 @@
 	var/damage_threshold_value
 	var/healed_threshold = 1
 	var/oxygen_reserve = 6
-
-///obj/item/organ/internal/brain/robotize()
-//	replace_self_with(/obj/item/organ/internal/posibrain)
 
 /obj/item/organ/internal/brain/mechassist()
 	replace_self_with(/obj/item/organ/internal/mmi_holder)
@@ -48,7 +45,7 @@
 	icon_state = "brain-prosthetic"
 
 /obj/item/organ/internal/brain/New(var/mob/living/carbon/holder)
-	..()
+	. = ..()
 	if(species)
 		set_max_damage(species.total_health)
 	else
@@ -59,7 +56,7 @@
 			brainmob.client.screen.len = null //clear the hud
 
 /obj/item/organ/internal/brain/set_max_damage(var/ndamage)
-	..()
+	. = ..()
 	damage_threshold_value = round(max_damage / damage_threshold_count)
 
 /obj/item/organ/internal/brain/Destroy()
@@ -102,11 +99,11 @@
 
 	transfer_identity(owner)
 
-	..()
+	. = ..()
 
 /obj/item/organ/internal/brain/replaced(var/mob/living/target)
-
-	if(!..()) return 0
+	if(!..())
+		return 0
 
 	if(target.key)
 		target.ghostize()
@@ -131,7 +128,6 @@
 	icon = 'icons/obj/wizard.dmi'
 	icon_state = "scroll"
 
-
 /obj/item/organ/internal/brain/proc/get_current_damage_threshold()
 	return round(damage / damage_threshold_value)
 
@@ -139,7 +135,6 @@
 	return (get_current_damage_threshold() > threshold)
 
 /obj/item/organ/internal/brain/process()
-
 	if(owner)
 		if(damage < (max_damage / 4))
 			healed_threshold = 1
@@ -195,7 +190,7 @@
 						take_damage(2)
 					if(prob(damprob))
 						take_damage(1)
-	..()
+	. = ..()
 
 /obj/item/organ/internal/brain/take_damage(var/damage, var/silent)
 	. = ..()

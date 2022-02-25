@@ -80,7 +80,7 @@ mouse_name
 	layer = 88
 
 
-mob/MouseEntered()
+/mob/MouseEntered(location, control, params)
+	. = ..()
 	world >> "123"
 	showName(src, usr.client)
-	..()
