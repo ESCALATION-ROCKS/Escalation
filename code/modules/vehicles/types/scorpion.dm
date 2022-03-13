@@ -41,8 +41,8 @@
 	drag = 5
 
 /obj/item/vehicle_component/health_manager/scorpion
-	integrity = 1000
-	resistances = list("bullet"=100,"energy"=85,"emp"=40,"bomb"=40)
+	integrity = 2000
+	resistances = list("bullet"=100,"energy"=85,"emp"=40,"bomb"=60)
 	repair_materials = list("plasteel")
 
 /datum/component_profile/scorpion
@@ -111,7 +111,7 @@
 	icon_state = "rocket"
 
 /obj/item/projectile/bullet/scorp_cannon/on_impact(var/atom/impacted)
-	explosion(get_turf(impacted),0,1,3,5,guaranteed_damage = 50,guaranteed_damage_range = 2)
+	explosion(get_turf(impacted),0,1,3,5,guaranteed_damage = 200,guaranteed_damage_range = 2)
 	. = ..()
 
 /obj/item/projectile/bullet/scorp_cannon/attack_mob()
